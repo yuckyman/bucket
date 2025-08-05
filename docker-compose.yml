@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  # Ollama for local LLM inference
+  ollama:
+    image: ollama/ollama:latest
+    container_name: bucket-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+    restart: unless-stopped
+    command: >
+      sh -c "
+        ollama serve &
+        sleep 10 &&
+        ollama pull llama2 &&
+        wait
+      "
+
+  # Bucket API server
+  bucket-api:
+    build: .
+    container_name: bucket-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+    environment:
+      - OLLAMA_URL=http://ollama:11434
+      - BUCKET_DB_PATH=/app/data/bucket.db
+      - BUCKET_OUTPUT_DIR=/app/output
+      - SUMMARIZER_TYPE=ollama
+      - OLLAMA_MODEL=llama2
+    depends_on:
+      - ollama
+    restart: unless-stopped
+    command: bucket serve --host 0.0.0.0 --port 8000
+
+  # Optional: Discord bot
+  bucket-discord:
+    build: .
+    container_name: bucket-discord
+    volumes:
+      - ./data:/app/data
+      - ./output:/app/output
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - OLLAMA_URL=http://ollama:11434
+      - BUCKET_DB_PATH=/app/data/bucket.db
+      - BUCKET_OUTPUT_DIR=/app/output
+      - SUMMARIZER_TYPE=ollama
+      - OLLAMA_MODEL=llama2
+    depends_on:
+      - ollama
+      - bucket-api
+    restart: unless-stopped
+    command: bucket run --discord ${DISCORD_TOKEN}
+
+volumes:
+  ollama_data:
