@@ -250,21 +250,39 @@ class PDFGenerator:
         if not articles:
             raise ValueError("No articles provided for briefing")
         
-        # Get summaries if requested
-        if include_summaries:
-            articles_with_summaries = await self._attach_summaries(articles)
-        else:
-            articles_with_summaries = articles
+        # Process articles to ensure priority is properly set
+        processed_articles = []
+        for article in articles:
+            # Ensure priority is properly set for template rendering
+            if hasattr(article, 'priority') and article.priority:
+                # If priority is a string, convert to enum
+                if isinstance(article.priority, str):
+                    from .models import ArticlePriority
+                    try:
+                        article.priority = ArticlePriority(article.priority)
+                    except ValueError:
+                        article.priority = ArticlePriority.MEDIUM
+                # If priority is already an enum, ensure it has .value
+                elif hasattr(article.priority, 'value'):
+                    pass  # Already correct
+                else:
+                    from .models import ArticlePriority
+                    article.priority = ArticlePriority.MEDIUM
+            else:
+                from .models import ArticlePriority
+                article.priority = ArticlePriority.MEDIUM
+            
+            processed_articles.append(article)
         
         # Calculate stats
-        total_words = sum(article.word_count or 0 for article in articles)
-        total_time = sum(article.reading_time or 0 for article in articles)
+        total_words = sum(article.word_count or 0 for article in processed_articles)
+        total_time = sum(article.reading_time or 0 for article in processed_articles)
         
         # Prepare template data
         template_data = {
             "title": title,
             "date": date or datetime.now(),
-            "articles": articles_with_summaries,
+            "articles": processed_articles,
             "total_words": total_words,
             "total_time": total_time
         }
@@ -293,8 +311,31 @@ class PDFGenerator:
     async def _attach_summaries(self, articles: List[Article]) -> List[Dict[str, Any]]:
         """Attach summaries to articles."""
         # This would typically query the database for summaries
-        # For now, we'll return articles as-is
-        return [{"article": article, "summary": None} for article in articles]
+        # For now, we'll return articles as-is, but ensure priority is properly formatted
+        processed_articles = []
+        for article in articles:
+            # Ensure priority is properly set for template rendering
+            if hasattr(article, 'priority') and article.priority:
+                # If priority is a string, convert to enum
+                if isinstance(article.priority, str):
+                    from .models import ArticlePriority
+                    try:
+                        article.priority = ArticlePriority(article.priority)
+                    except ValueError:
+                        article.priority = ArticlePriority.MEDIUM
+                # If priority is already an enum, ensure it has .value
+                elif hasattr(article.priority, 'value'):
+                    pass  # Already correct
+                else:
+                    from .models import ArticlePriority
+                    article.priority = ArticlePriority.MEDIUM
+            else:
+                from .models import ArticlePriority
+                article.priority = ArticlePriority.MEDIUM
+            
+            processed_articles.append({"article": article, "summary": None})
+        
+        return processed_articles
     
     def generate_markdown_briefing(
         self,

@@ -190,8 +190,8 @@ if DISCORD_AVAILABLE:
                     inline=False
                 )
                 embed.add_field(
-                    name="📋 !brief [days]",
-                    value="Generate a quick briefing of recent articles and RSS feeds\n**Usage:** `!brief 7` (default: 7 days)\n**What it shows:** Recent articles, active RSS feeds, and reading stats",
+                    name="📋 !brief [days] [format]",
+                    value="Generate a quick briefing of recent articles and RSS feeds\n**Usage:** `!brief 7 discord` (default: 7 days, discord format)\n**Formats:** `discord` (embed), `pdf` (downloadable PDF)\n**What it shows:** Recent articles, active RSS feeds, and reading stats",
                     inline=False
                 )
                 embed.add_field(
@@ -211,11 +211,16 @@ if DISCORD_AVAILABLE:
                 await ctx.send(embed=embed)
             
             @self.command(name="brief")
-            async def generate_brief(ctx, days_back: int = 7):
+            async def generate_brief(ctx, days_back: int = 7, format_type: str = "discord"):
                 # Check if command is in allowed channel
                 if self.allowed_channel_id and ctx.channel.id != self.allowed_channel_id:
                     return
                 """Generate a quick briefing of recent articles and RSS items."""
+                
+                # Validate format type
+                if format_type.lower() not in ["discord", "pdf", "link"]:
+                    await ctx.send("❌ Invalid format. Use: `discord`, `pdf`, or `link`")
+                    return
                 
                 # Create initial embed
                 embed = discord.Embed(
@@ -242,80 +247,143 @@ if DISCORD_AVAILABLE:
                     
                     await message.edit(embed=embed)
                     
-                    # Create briefing content
-                    briefing_content = f"# 📋 Quick Brief - Last {days_back} Days\n\n"
-                    briefing_content += f"*Generated on {datetime.now().strftime('%B %d, %Y at %I:%M %p')}*\n\n"
-                    
-                    # Add recent articles section
-                    if recent_articles:
-                        briefing_content += f"## 📰 Recent Articles ({len(recent_articles)})\n\n"
-                        
-                        for i, article in enumerate(recent_articles[:10], 1):  # Limit to 10 most recent
-                            reading_time = article.reading_time or 0
-                            priority_emoji = {
-                                "high": "🔴",
-                                "medium": "🟡", 
-                                "low": "🟢"
-                            }.get(article.priority.value, "⚪")
-                            
-                            briefing_content += f"{priority_emoji} **{i}. {article.title}**\n"
-                            if article.author:
-                                briefing_content += f"   *By {article.author}*\n"
-                            briefing_content += f"   📖 {reading_time} min read • 📅 {article.created_at.strftime('%b %d')}\n"
-                            briefing_content += f"   🔗 {article.url}\n\n"
+                    if format_type.lower() == "discord":
+                        # Direct Discord output
+                        await self._send_discord_briefing(ctx, recent_articles, feeds, days_back, message)
                     else:
-                        briefing_content += "## 📰 Recent Articles\n\n*No recent articles found.*\n\n"
-                    
-                    # Add RSS feeds section
-                    if feeds:
-                        briefing_content += f"## 📡 RSS Feeds ({len(feeds)} active)\n\n"
-                        
-                        for feed in feeds:
-                            briefing_content += f"**{feed.name}**\n"
-                            briefing_content += f"   📡 {feed.url}\n"
-                            if feed.tags:
-                                briefing_content += f"   🏷️  {', '.join(feed.tags)}\n"
-                            if feed.last_fetched:
-                                briefing_content += f"   📅 Last fetched: {feed.last_fetched.strftime('%b %d, %H:%M')}\n"
-                            briefing_content += "\n"
-                    else:
-                        briefing_content += "## 📡 RSS Feeds\n\n*No active RSS feeds configured.*\n\n"
-                    
-                    # Add summary stats
-                    total_reading_time = sum(article.reading_time or 0 for article in recent_articles)
-                    total_words = sum(article.word_count or 0 for article in recent_articles)
-                    
-                    briefing_content += f"## 📊 Summary\n\n"
-                    briefing_content += f"• **Articles:** {len(recent_articles)}\n"
-                    briefing_content += f"• **Feeds:** {len(feeds)}\n"
-                    briefing_content += f"• **Total reading time:** {total_reading_time} minutes\n"
-                    briefing_content += f"• **Total words:** {total_words:,}\n\n"
-                    
-                    # Split content if too long for Discord
-                    if len(briefing_content) > 2000:
-                        # Split into multiple messages
-                        chunks = [briefing_content[i:i+1900] for i in range(0, len(briefing_content), 1900)]
-                        
-                        for i, chunk in enumerate(chunks):
-                            if i == 0:
-                                embed.description = chunk
-                                embed.color = discord.Color.green()
-                                embed.set_field_at(0, name="Status", value="✅ Briefing generated", inline=False)
-                                await message.edit(embed=embed)
-                            else:
-                                await ctx.send(f"```markdown\n{chunk}\n```")
-                    else:
-                        # Send as single message
-                        embed.description = briefing_content
-                        embed.color = discord.Color.green()
-                        embed.set_field_at(0, name="Status", value="✅ Briefing generated", inline=False)
-                        await message.edit(embed=embed)
+                        # PDF/Link output
+                        await self._send_pdf_briefing(ctx, recent_articles, feeds, days_back, message)
                     
                 except Exception as e:
                     embed.description = f"❌ Error generating brief: {str(e)}"
                     embed.color = discord.Color.red()
                     embed.set_field_at(0, name="Status", value="❌ Failed", inline=False)
                     await message.edit(embed=embed)
+            
+            async def _send_discord_briefing(self, ctx, recent_articles, feeds, days_back, original_message):
+                """Send briefing as Discord embed."""
+                # Create main briefing embed
+                embed = discord.Embed(
+                    title=f"📋 Quick Brief - Last {days_back} Days",
+                    description=f"*Generated on {datetime.now().strftime('%B %d, %Y at %I:%M %p')}*",
+                    color=discord.Color.green(),
+                    timestamp=datetime.utcnow()
+                )
+                
+                # Add summary stats
+                total_reading_time = sum(article.reading_time or 0 for article in recent_articles)
+                total_words = sum(article.word_count or 0 for article in recent_articles)
+                
+                embed.add_field(
+                    name="📊 Summary",
+                    value=f"• **Articles:** {len(recent_articles)}\n• **Feeds:** {len(feeds)}\n• **Reading time:** {total_reading_time} min\n• **Words:** {total_words:,}",
+                    inline=False
+                )
+                
+                # Add recent articles (limit to 5 for embed)
+                if recent_articles:
+                    articles_text = ""
+                    for i, article in enumerate(recent_articles[:5], 1):
+                        reading_time = article.reading_time or 0
+                        priority_emoji = {
+                            "high": "🔴",
+                            "medium": "🟡", 
+                            "low": "🟢"
+                        }.get(article.priority.value, "⚪")
+                        
+                        articles_text += f"{priority_emoji} **{article.title}**\n"
+                        if article.author:
+                            articles_text += f"   *By {article.author}*\n"
+                        articles_text += f"   📖 {reading_time} min • 📅 {article.created_at.strftime('%b %d')}\n"
+                        articles_text += f"   🔗 {article.url}\n\n"
+                    
+                    if len(recent_articles) > 5:
+                        articles_text += f"... and {len(recent_articles) - 5} more articles"
+                    
+                    embed.add_field(name=f"📰 Recent Articles ({len(recent_articles)})", value=articles_text, inline=False)
+                else:
+                    embed.add_field(name="📰 Recent Articles", value="*No recent articles found.*", inline=False)
+                
+                # Add RSS feeds info
+                if feeds:
+                    feeds_text = ""
+                    for feed in feeds[:3]:  # Limit to 3 feeds for embed
+                        feeds_text += f"**{feed.name}**\n"
+                        if feed.tags:
+                            feeds_text += f"   🏷️  {', '.join(feed.tags)}\n"
+                        if feed.last_fetched:
+                            feeds_text += f"   📅 Last: {feed.last_fetched.strftime('%b %d, %H:%M')}\n"
+                        feeds_text += "\n"
+                    
+                    if len(feeds) > 3:
+                        feeds_text += f"... and {len(feeds) - 3} more feeds"
+                    
+                    embed.add_field(name=f"📡 RSS Feeds ({len(feeds)} active)", value=feeds_text, inline=False)
+                else:
+                    embed.add_field(name="📡 RSS Feeds", value="*No active RSS feeds configured.*", inline=False)
+                
+                # Update original message
+                embed.set_footer(text="🪣 Bucket Bot • Use !brief pdf for full PDF version")
+                await original_message.edit(embed=embed)
+            
+            async def _send_pdf_briefing(self, ctx, recent_articles, feeds, days_back, original_message):
+                """Generate PDF briefing and provide download link."""
+                try:
+                    # Import PDF generator
+                    from .pdf_generator import PDFGenerator
+                    
+                    # Create PDF generator
+                    pdf_gen = PDFGenerator(output_dir="output")
+                    
+                    # Generate PDF
+                    pdf_path = await pdf_gen.generate_briefing(
+                        articles=recent_articles,
+                        title=f"Quick Brief - Last {days_back} Days",
+                        date=datetime.now()
+                    )
+                    
+                    # Create success embed
+                    embed = discord.Embed(
+                        title="📋 Briefing Generated",
+                        description=f"Your briefing is ready! 📄",
+                        color=discord.Color.green(),
+                        timestamp=datetime.utcnow()
+                    )
+                    
+                    # Add stats
+                    total_reading_time = sum(article.reading_time or 0 for article in recent_articles)
+                    total_words = sum(article.word_count or 0 for article in recent_articles)
+                    
+                    embed.add_field(
+                        name="📊 Summary",
+                        value=f"• **Articles:** {len(recent_articles)}\n• **Feeds:** {len(feeds)}\n• **Reading time:** {total_reading_time} min\n• **Words:** {total_words:,}",
+                        inline=False
+                    )
+                    
+                    # Send file as attachment
+                    filename = pdf_path.split('/')[-1]
+                    embed.add_field(
+                        name="📥 Download",
+                        value=f"Your briefing is attached below!",
+                        inline=False
+                    )
+                    
+                    embed.set_footer(text="🪣 Bucket Bot • PDF generated successfully")
+                    
+                    # Send the embed and file
+                    with open(pdf_path, 'rb') as f:
+                        file = discord.File(f, filename=filename)
+                        await original_message.edit(embed=embed)
+                        await ctx.send(file=file)
+                    
+                except Exception as e:
+                    embed = discord.Embed(
+                        title="❌ PDF Generation Failed",
+                        description=f"Error generating PDF: {str(e)}",
+                        color=discord.Color.red(),
+                        timestamp=datetime.utcnow()
+                    )
+                    await original_message.edit(embed=embed)
             
             @self.event
             async def on_message(message):
