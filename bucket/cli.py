@@ -272,6 +272,7 @@ def run(
     output_dir: str = typer.Option("output", "--output", "-o", help="Output directory"),
     obsidian_vault: Optional[str] = typer.Option(None, "--obsidian", help="Obsidian vault path"),
     discord_token: Optional[str] = typer.Option(None, "--discord", help="Discord bot token"),
+    dedicated_channel: Optional[int] = typer.Option(None, "--channel", help="Discord channel ID for auto-processing"),
     summarizer_type: str = typer.Option("ollama", "--summarizer", help="Summarizer type (ollama/openai/mock)"),
 ):
     """Run the full bucket system."""
@@ -282,6 +283,7 @@ def run(
             output_dir=output_dir,
             obsidian_vault=obsidian_vault,
             discord_token=discord_token or os.getenv("DISCORD_TOKEN"),
+            dedicated_channel_id=dedicated_channel or int(os.getenv("DISCORD_CHANNEL_ID", "0")) if os.getenv("DISCORD_CHANNEL_ID") else None,
             summarizer_type=summarizer_type
         )
         
@@ -291,6 +293,7 @@ def run(
                  f"Database: {db_path}\n" +
                  f"Output: {output_dir}\n" +
                  f"Discord: {'✅' if discord_token else '❌'}\n" +
+                 f"Dedicated Channel: {'✅' if dedicated_channel else '❌'}\n" +
                  f"Obsidian: {'✅' if obsidian_vault else '❌'}\n" +
                  f"Summarizer: {summarizer_type}"),
             title="System Status"

@@ -32,6 +32,7 @@ class BucketCore:
         output_dir: str = "output",
         obsidian_vault: Optional[str] = None,
         discord_token: Optional[str] = None,
+        dedicated_channel_id: Optional[int] = None,
         summarizer_type: str = "ollama",
         ollama_url: str = "http://localhost:11434",
         ollama_model: str = "llama2"
@@ -53,7 +54,11 @@ class BucketCore:
         
         self.discord_manager = None
         if discord_token:
-            self.discord_manager = DiscordManager(discord_token)
+            self.discord_manager = DiscordManager(
+                discord_token, 
+                bucket_core=self,
+                dedicated_channel_id=dedicated_channel_id
+            )
         
         # Initialize summarizer
         self.summarizer = SummarizerFactory.create_summarizer(
@@ -115,6 +120,22 @@ class BucketCore:
         except Exception as e:
             print(f"❌ Error adding URL {url}: {e}")
             return None
+    
+    async def get_articles_since(self, since_date) -> List[Article]:
+        """Get articles since a specific date."""
+        try:
+            # This would query the database for articles since the given date
+            # For now, return empty list as database queries aren't fully implemented
+            articles = []
+            
+            # Mock implementation - in real implementation, this would query the database
+            # Example query: SELECT * FROM articles WHERE created_at >= since_date
+            
+            return articles
+            
+        except Exception as e:
+            print(f"❌ Error getting articles since {since_date}: {e}")
+            return []
     
     async def add_feed(self, name: str, url: str, tags: List[str] = None) -> bool:
         """Add an RSS feed to the bucket."""
@@ -337,6 +358,7 @@ async def create_bucket(
     output_dir: str = "output",
     obsidian_vault: Optional[str] = None,
     discord_token: Optional[str] = None,
+    dedicated_channel_id: Optional[int] = None,
     summarizer_type: str = "ollama"
 ) -> BucketCore:
     """Create and initialize a bucket system."""
@@ -345,6 +367,7 @@ async def create_bucket(
         output_dir=output_dir,
         obsidian_vault=obsidian_vault,
         discord_token=discord_token,
+        dedicated_channel_id=dedicated_channel_id,
         summarizer_type=summarizer_type
     )
     
