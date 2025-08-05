@@ -21,7 +21,7 @@ if DISCORD_AVAILABLE:
     class BucketBot(commands.Bot):
         """Discord bot for bucket system."""
         
-        def __init__(self, command_prefix: str = "!", intents: Optional[discord.Intents] = None, allowed_channel_id: Optional[int] = None, database=None):
+        def __init__(self, command_prefix: str = "!", intents: Optional[discord.Intents] = None, allowed_channel_id: Optional[int] = None):
             if intents is None:
                 intents = discord.Intents.default()
                 intents.message_content = True
@@ -32,7 +32,6 @@ if DISCORD_AVAILABLE:
             # Initialize components
             self.fetcher = ContentFetcher()
             self.article_queue = asyncio.Queue()
-            self.db = database
             
             @self.event
             async def on_ready():
@@ -190,11 +189,6 @@ if DISCORD_AVAILABLE:
                     inline=False
                 )
                 embed.add_field(
-                    name="📋 !brief [days]",
-                    value="Generate a quick briefing of recent articles and RSS feeds\n**Usage:** `!brief 7` (default: 7 days)\n**What it shows:** Recent articles, active RSS feeds, and reading stats",
-                    inline=False
-                )
-                embed.add_field(
                     name="❓ !help",
                     value="Show this detailed help message\n**Usage:** `!help`\n**What it shows:** All available commands with examples",
                     inline=False
@@ -209,113 +203,6 @@ if DISCORD_AVAILABLE:
                 embed.set_footer(text="🪣 Bucket Bot v1.0 • Your personal reading assistant • Channel-restricted to this server")
                 
                 await ctx.send(embed=embed)
-            
-            @self.command(name="brief")
-            async def generate_brief(ctx, days_back: int = 7):
-                # Check if command is in allowed channel
-                if self.allowed_channel_id and ctx.channel.id != self.allowed_channel_id:
-                    return
-                """Generate a quick briefing of recent articles and RSS items."""
-                
-                # Create initial embed
-                embed = discord.Embed(
-                    title="📋 Generating Brief",
-                    description=f"Compiling recent articles and RSS items from the last {days_back} days...",
-                    color=discord.Color.blue(),
-                    timestamp=datetime.utcnow()
-                )
-                embed.add_field(name="Status", value="⏳ Gathering content...", inline=False)
-                
-                message = await ctx.send(embed=embed)
-                
-                try:
-                    # Get recent articles from database
-                    recent_articles = await self.db.get_recent_articles(days_back=days_back, limit=20)
-                    
-                    # Get active RSS feeds
-                    feeds = await self.db.get_feeds(active_only=True)
-                    
-                    # Update embed with progress
-                    embed.set_field_at(0, name="Status", value="✅ Content gathered", inline=False)
-                    embed.add_field(name="Articles Found", value=str(len(recent_articles)), inline=True)
-                    embed.add_field(name="Active Feeds", value=str(len(feeds)), inline=True)
-                    
-                    await message.edit(embed=embed)
-                    
-                    # Create briefing content
-                    briefing_content = f"# 📋 Quick Brief - Last {days_back} Days\n\n"
-                    briefing_content += f"*Generated on {datetime.now().strftime('%B %d, %Y at %I:%M %p')}*\n\n"
-                    
-                    # Add recent articles section
-                    if recent_articles:
-                        briefing_content += f"## 📰 Recent Articles ({len(recent_articles)})\n\n"
-                        
-                        for i, article in enumerate(recent_articles[:10], 1):  # Limit to 10 most recent
-                            reading_time = article.reading_time or 0
-                            priority_emoji = {
-                                "high": "🔴",
-                                "medium": "🟡", 
-                                "low": "🟢"
-                            }.get(article.priority.value, "⚪")
-                            
-                            briefing_content += f"{priority_emoji} **{i}. {article.title}**\n"
-                            if article.author:
-                                briefing_content += f"   *By {article.author}*\n"
-                            briefing_content += f"   📖 {reading_time} min read • 📅 {article.created_at.strftime('%b %d')}\n"
-                            briefing_content += f"   🔗 {article.url}\n\n"
-                    else:
-                        briefing_content += "## 📰 Recent Articles\n\n*No recent articles found.*\n\n"
-                    
-                    # Add RSS feeds section
-                    if feeds:
-                        briefing_content += f"## 📡 RSS Feeds ({len(feeds)} active)\n\n"
-                        
-                        for feed in feeds:
-                            briefing_content += f"**{feed.name}**\n"
-                            briefing_content += f"   📡 {feed.url}\n"
-                            if feed.tags:
-                                briefing_content += f"   🏷️  {', '.join(feed.tags)}\n"
-                            if feed.last_fetched:
-                                briefing_content += f"   📅 Last fetched: {feed.last_fetched.strftime('%b %d, %H:%M')}\n"
-                            briefing_content += "\n"
-                    else:
-                        briefing_content += "## 📡 RSS Feeds\n\n*No active RSS feeds configured.*\n\n"
-                    
-                    # Add summary stats
-                    total_reading_time = sum(article.reading_time or 0 for article in recent_articles)
-                    total_words = sum(article.word_count or 0 for article in recent_articles)
-                    
-                    briefing_content += f"## 📊 Summary\n\n"
-                    briefing_content += f"• **Articles:** {len(recent_articles)}\n"
-                    briefing_content += f"• **Feeds:** {len(feeds)}\n"
-                    briefing_content += f"• **Total reading time:** {total_reading_time} minutes\n"
-                    briefing_content += f"• **Total words:** {total_words:,}\n\n"
-                    
-                    # Split content if too long for Discord
-                    if len(briefing_content) > 2000:
-                        # Split into multiple messages
-                        chunks = [briefing_content[i:i+1900] for i in range(0, len(briefing_content), 1900)]
-                        
-                        for i, chunk in enumerate(chunks):
-                            if i == 0:
-                                embed.description = chunk
-                                embed.color = discord.Color.green()
-                                embed.set_field_at(0, name="Status", value="✅ Briefing generated", inline=False)
-                                await message.edit(embed=embed)
-                            else:
-                                await ctx.send(f"```markdown\n{chunk}\n```")
-                    else:
-                        # Send as single message
-                        embed.description = briefing_content
-                        embed.color = discord.Color.green()
-                        embed.set_field_at(0, name="Status", value="✅ Briefing generated", inline=False)
-                        await message.edit(embed=embed)
-                    
-                except Exception as e:
-                    embed.description = f"❌ Error generating brief: {str(e)}"
-                    embed.color = discord.Color.red()
-                    embed.set_field_at(0, name="Status", value="❌ Failed", inline=False)
-                    await message.edit(embed=embed)
             
             @self.event
             async def on_message(message):
@@ -394,21 +281,16 @@ else:
 class DiscordManager:
     """Manages Discord bot integration."""
     
-    def __init__(self, token: str, command_prefix: str = "!", allowed_channel_id: Optional[int] = None, database=None):
+    def __init__(self, token: str, command_prefix: str = "!", allowed_channel_id: Optional[int] = None):
         self.token = token
         self.command_prefix = command_prefix
         self.allowed_channel_id = allowed_channel_id
-        self.database = database
         self.bot = None
     
     async def start_bot(self):
         """Start the Discord bot."""
         print(f"🤖 Starting Discord bot...")
-        self.bot = BucketBot(
-            command_prefix=self.command_prefix, 
-            allowed_channel_id=self.allowed_channel_id,
-            database=self.database
-        )
+        self.bot = BucketBot(command_prefix=self.command_prefix, allowed_channel_id=self.allowed_channel_id)
         
         try:
             print(f"🔗 Connecting to Discord...")

@@ -284,16 +284,18 @@ def run(
             summarizer_type=summarizer_type
         )
         
-        console.print(Panel(
-            Text("🪣 Bucket System", style="bold blue"),
-            Text("Starting all services...\n" + 
-                 f"Database: {db_path}\n" +
-                 f"Output: {output_dir}\n" +
-                 f"Discord: {'✅' if discord_token else '❌'}\n" +
-                 f"Obsidian: {'✅' if obsidian_vault else '❌'}\n" +
-                 f"Summarizer: {summarizer_type}"),
-            title="System Status"
-        ))
+        # Check if discord token is available
+        discord_token_available = discord_token or os.getenv("DISCORD_TOKEN")
+        
+        status_text = f"""🪣 Bucket System
+Starting all services...
+Database: {db_path}
+Output: {output_dir}
+Discord: {'✅' if discord_token_available else '❌'}
+Obsidian: {'✅' if obsidian_vault else '❌'}
+Summarizer: {summarizer_type}"""
+        
+        console.print(Panel(status_text, title="System Status"))
         
         try:
             await bucket.run()

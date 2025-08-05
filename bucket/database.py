@@ -282,6 +282,47 @@ class Database:
             
             return [article_to_model(article) for article in articles]
 
+    async def get_feeds(self, active_only: bool = True):
+        """Get RSS feeds from the database."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, returning empty list")
+            return []
+            
+        async with self.AsyncSessionLocal() as session:
+            from sqlalchemy import select
+            
+            stmt = select(FeedTable)
+            
+            if active_only:
+                stmt = stmt.where(FeedTable.is_active == True)
+                
+            stmt = stmt.order_by(FeedTable.name.asc())
+            results = await session.execute(stmt)
+            feeds = results.scalars().all()
+            
+            return [feed_to_model(feed) for feed in feeds]
+
+    async def get_recent_articles(self, days_back: int = 7, limit: int = 50):
+        """Get recent articles from the database."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, returning empty list")
+            return []
+            
+        async with self.AsyncSessionLocal() as session:
+            from sqlalchemy import select
+            from datetime import datetime, timedelta
+            
+            cutoff_date = datetime.utcnow() - timedelta(days=days_back)
+            
+            stmt = select(ArticleTable)
+            stmt = stmt.where(ArticleTable.created_at >= cutoff_date)
+            stmt = stmt.order_by(ArticleTable.created_at.desc()).limit(limit)
+            
+            results = await session.execute(stmt)
+            articles = results.scalars().all()
+            
+            return [article_to_model(article) for article in articles]
+
 
 # Utility functions for model conversion
 def article_to_model(article_table: ArticleTable) -> Article:
@@ -331,3 +372,20 @@ def model_to_article(article: Article) -> Dict[str, Any]:
         "created_at": article.created_at,
         "updated_at": article.updated_at,
     }
+
+
+def feed_to_model(feed_table: FeedTable) -> Feed:
+    """Convert FeedTable to Feed model."""
+    import json
+    
+    return Feed(
+        id=feed_table.id,
+        name=feed_table.name,
+        url=feed_table.url,
+        description=feed_table.description,
+        last_fetched=feed_table.last_fetched,
+        is_active=feed_table.is_active,
+        tags=json.loads(feed_table.tags) if feed_table.tags else [],
+        created_at=feed_table.created_at,
+        updated_at=feed_table.updated_at,
+    )

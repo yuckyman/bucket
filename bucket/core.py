@@ -53,7 +53,15 @@ class BucketCore:
         
         self.discord_manager = None
         if discord_token:
-            self.discord_manager = DiscordManager(discord_token)
+            # Get channel ID from environment or use None for all channels
+            import os
+            channel_id = os.getenv("DISCORD_CHANNEL_ID")
+            allowed_channel_id = int(channel_id) if channel_id else None
+            print(f"🤖 Creating Discord manager with token: {discord_token[:20]}...")
+            print(f"🎯 Channel restriction: {allowed_channel_id}")
+            self.discord_manager = DiscordManager(discord_token, allowed_channel_id=allowed_channel_id, database=self.db)
+        else:
+            print("⚠️  No Discord token provided")
         
         # Initialize summarizer
         self.summarizer = SummarizerFactory.create_summarizer(
@@ -299,7 +307,10 @@ class BucketCore:
         
         # Start Discord bot if configured
         if self.discord_manager:
+            print("🚀 Starting Discord bot task...")
             tasks.append(asyncio.create_task(self.start_discord_bot()))
+        else:
+            print("⚠️  Discord manager not available")
         
         # Start scheduler
         tasks.append(asyncio.create_task(self._run_scheduler()))

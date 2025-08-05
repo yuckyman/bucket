@@ -1,0 +1,20 @@
+[Unit]
+Description=Bucket Discord Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ian
+WorkingDirectory=/home/ian/scripts/bucket
+Environment=PATH=/home/ian/miniconda3/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=/home/ian/miniconda3/bin/bucket run
+Restart=always
+RestartSec=10
+StartLimitInterval=60
+StartLimitBurst=3
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target 

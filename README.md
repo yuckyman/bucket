@@ -166,9 +166,18 @@ curl -X POST "http://localhost:8000/briefings/generate" \
 
 ```
 !add https://example.com/article
+!feed "Tech News" https://example.com/feed.xml
+!brief 7
 !status
 !help
 ```
+
+**Available Commands:**
+- `!add <url>` - Add an article or webpage to your reading bucket
+- `!feed <name> <url>` - Add an RSS feed for automatic article updates  
+- `!brief [days]` - Generate a quick briefing of recent articles and RSS feeds (default: 7 days)
+- `!status` - Show current bucket system status
+- `!help` - Show detailed help information
 
 ## 🔌 API Endpoints
 
