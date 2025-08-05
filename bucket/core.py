@@ -102,8 +102,8 @@ class BucketCore:
             article.priority = priority
             article.tags = tags or []
             
-            # Save to database (this would be implemented)
-            # await self.save_article(article)
+            # Save to database
+            await self.db.save_article(article)
             
             print(f"✅ Added article: {article.title}")
             
@@ -125,8 +125,8 @@ class BucketCore:
                 tags=tags or []
             )
             
-            # Save feed to database (this would be implemented)
-            # await self.save_feed(feed)
+            # Save feed to database
+            await self.db.save_feed(feed)
             
             print(f"✅ Added feed: {name}")
             return True
@@ -149,7 +149,7 @@ class BucketCore:
                 for article in articles:
                     article.tags.extend(feed.tags)
                     # Save article to database
-                    # await self.save_article(article)
+                    await self.db.save_article(article)
                     print(f"✅ Fetched: {article.title}")
                 
             except Exception as e:
@@ -162,8 +162,8 @@ class BucketCore:
                 summary = await self.summarizer.summarize(article)
             
             if summary:
-                # Save summary to database (this would be implemented)
-                # await self.save_summary(summary)
+                # Save summary to database
+                await self.db.save_summary(summary)
                 article.status = ArticleStatus.SUMMARIZED
                 print(f"✅ Summarized: {article.title}")
             else:

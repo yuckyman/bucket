@@ -69,7 +69,7 @@ class ArticleTable(Base):
     source = Column(String(200))
     word_count = Column(Integer)
     reading_time = Column(Integer)
-    metadata = Column(Text)  # JSON string
+    article_metadata = Column(Text)  # JSON string
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
     
@@ -204,6 +204,84 @@ class Database:
         if self.engine:
             self.engine.dispose()
 
+    async def save_article(self, article) -> int:
+        """Save an article to the database."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, skipping save")
+            return None
+            
+        article_data = model_to_article(article)
+        async with self.AsyncSessionLocal() as session:
+            db_article = ArticleTable(**article_data)
+            session.add(db_article)
+            await session.commit()
+            await session.refresh(db_article)
+            return db_article.id
+
+    async def save_feed(self, feed) -> int:
+        """Save a feed to the database."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, skipping save")
+            return None
+            
+        import json
+        feed_data = {
+            "name": feed.name,
+            "url": str(feed.url),
+            "description": feed.description,
+            "tags": json.dumps(feed.tags),
+            "is_active": feed.is_active,
+        }
+        
+        async with self.AsyncSessionLocal() as session:
+            db_feed = FeedTable(**feed_data)
+            session.add(db_feed)
+            await session.commit()
+            await session.refresh(db_feed)
+            return db_feed.id
+
+    async def save_summary(self, summary) -> int:
+        """Save a summary to the database."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, skipping save")
+            return None
+            
+        summary_data = {
+            "article_id": summary.article_id,
+            "content": summary.content,
+            "model_used": summary.model_used,
+            "tokens_used": summary.tokens_used,
+        }
+        
+        async with self.AsyncSessionLocal() as session:
+            db_summary = SummaryTable(**summary_data)
+            session.add(db_summary)
+            await session.commit()
+            await session.refresh(db_summary)
+            return db_summary.id
+
+    async def get_articles(self, status=None, priority=None, limit=20):
+        """Get articles from the database."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, returning empty list")
+            return []
+            
+        async with self.AsyncSessionLocal() as session:
+            from sqlalchemy import select
+            
+            stmt = select(ArticleTable)
+            
+            if status:
+                stmt = stmt.where(ArticleTable.status == status.value)
+            if priority:
+                stmt = stmt.where(ArticleTable.priority == priority.value)
+                
+            stmt = stmt.order_by(ArticleTable.created_at.desc()).limit(limit)
+            results = await session.execute(stmt)
+            articles = results.scalars().all()
+            
+            return [article_to_model(article) for article in articles]
+
 
 # Utility functions for model conversion
 def article_to_model(article_table: ArticleTable) -> Article:
@@ -225,7 +303,7 @@ def article_to_model(article_table: ArticleTable) -> Article:
         source=article_table.source,
         word_count=article_table.word_count,
         reading_time=article_table.reading_time,
-        metadata=json.loads(article_table.metadata) if article_table.metadata else {},
+        metadata=json.loads(article_table.article_metadata) if article_table.article_metadata else {},
         created_at=article_table.created_at,
         updated_at=article_table.updated_at,
     )

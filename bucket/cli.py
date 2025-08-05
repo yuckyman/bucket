@@ -203,9 +203,8 @@ def list(
     async def _list_articles():
         bucket = await create_bucket(db_path=db_path)
         
-        # This would query the database
-        # For now, show mock data
-        articles = []
+        # Query the database
+        articles = await bucket.db.get_articles(status=status, priority=priority, limit=limit)
         
         if articles:
             table = Table(title="Articles in Bucket")
