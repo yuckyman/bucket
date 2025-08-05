@@ -81,6 +81,7 @@ Create a `.env` file:
 ```env
 # Discord Bot (optional)
 DISCORD_TOKEN=your_discord_bot_token
+DISCORD_CHANNEL_ID=123456789012345678  # Optional: dedicated channel for auto-processing
 
 # OpenAI (optional, for summarization)
 OPENAI_API_KEY=your_openai_api_key
@@ -165,10 +166,29 @@ curl -X POST "http://localhost:8000/briefings/generate" \
 ### Discord Commands
 
 ```
-!add https://example.com/article
-!status
-!help
+!add https://example.com/article    # Add a URL to your bucket
+!compile                           # Generate today's briefing
+!rss                              # Show RSS entries since last compile
+!status                           # Show current bucket status
+!help                             # Show help information
 ```
+
+### Dedicated Channel Support
+
+You can configure a dedicated Discord channel for automatic URL/RSS processing:
+
+```bash
+# Set the channel ID in your .env file
+DISCORD_CHANNEL_ID=123456789012345678
+
+# Or pass it via command line
+bucket run --discord YOUR_TOKEN --channel 123456789012345678
+```
+
+In the dedicated channel:
+- URLs are automatically processed and added to your bucket
+- RSS feed URLs are automatically added as feeds
+- No need to use `!add` command - just paste URLs directly
 
 ## 🔌 API Endpoints
 
