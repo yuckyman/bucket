@@ -176,9 +176,9 @@ def discord_usage_examples():
             "example": "!rss stats"
         },
         {
-            "command": "!feed add",
+            "command": "!feeds add",
             "description": "Add a new RSS feed",
-            "example": '!feed "Tech News" https://example.com/feed.xml'
+            "example": '!feeds add "Tech News" https://example.com/feed.xml'
         },
         {
             "command": "!brief",

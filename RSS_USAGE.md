@@ -262,12 +262,13 @@ stats = await rss_manager.get_feed_stats()
 
 2. **Add RSS feeds via Discord:**
    ```bash
-   !feed "Hacker News" https://news.ycombinator.com/rss
+   !feeds add "Hacker News" https://news.ycombinator.com/rss
    ```
 
 3. **Generate your first briefing:**
    ```bash
-   !rss
+   !rss refresh
+   !rss briefing 7
    ```
 
 4. **Set up automatic updates (optional):**
