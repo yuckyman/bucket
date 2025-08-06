@@ -659,8 +659,16 @@ if DISCORD_AVAILABLE:
                             await message.delete()
                         else:
                             embed_data = RSSBriefingFormatter.format_discord_embed(briefing_data)
-                            embed = discord.Embed(**embed_data["embed"])
                             
+                            # Create embed with proper discord.py parameters
+                            embed = discord.Embed(
+                                title=embed_data["title"],
+                                description=embed_data["description"],
+                                color=embed_data["color"],
+                                timestamp=datetime.utcnow()
+                            )
+                            
+                            # Add fields
                             for field in embed_data["fields"]:
                                 embed.add_field(**field)
                             
