@@ -94,211 +94,165 @@ if DISCORD_AVAILABLE:
                     embed.set_field_at(0, name="Status", value=f"❌ Error: {str(e)}", inline=False)
                     await message.edit(embed=embed)
             
-            @self.command(name="feed")
-            async def add_feed(ctx, name: str, url: str):
-                # Check if command is in allowed channel
-                if self.allowed_channel_id and ctx.channel.id != self.allowed_channel_id:
-                    return
-                """Add an RSS feed to the bucket."""
-                if not self._is_valid_url(url):
-                    await ctx.send("❌ Invalid RSS feed URL provided.")
-                    return
-                
-                # Create embed for feedback
-                embed = discord.Embed(
-                    title="📡 Adding RSS Feed",
-                    description=f"Processing: {name}",
-                    color=discord.Color.blue(),
-                    timestamp=datetime.utcnow()
-                )
-                embed.add_field(name="Feed URL", value=url, inline=False)
-                embed.add_field(name="Status", value="⏳ Validating feed...", inline=False)
-                
-                message = await ctx.send(embed=embed)
-                
-                try:
-                    # Validate RSS feed
-                    import feedparser
-                    feed = feedparser.parse(url)
-                    
-                    if feed.bozo or not feed.entries:
-                        embed.description = f"❌ Invalid RSS feed: {name}"
-                        embed.color = discord.Color.red()
-                        embed.set_field_at(1, name="Status", value="❌ Invalid feed", inline=False)
-                        await message.edit(embed=embed)
-                        return
-                    
-                    # Update embed with success
-                    embed.description = f"✅ RSS feed added: {name}"
-                    embed.color = discord.Color.green()
-                    embed.set_field_at(1, name="Status", value="✅ Feed validated", inline=False)
-                    embed.add_field(name="Feed Title", value=feed.feed.get('title', 'Unknown'), inline=True)
-                    embed.add_field(name="Entries", value=str(len(feed.entries)), inline=True)
-                    
-                    # Save to database
-                    from .models import Feed
-                    feed_model = Feed(
-                        name=name,
-                        url=url,
-                        description=feed.feed.get('description', ''),
-                        is_active=True
-                    )
-                    
-                    feed_id = await self.db.save_feed(feed_model)
-                    
-                    embed.description = f"✅ RSS feed added: {name}"
-                    embed.color = discord.Color.green()
-                    embed.set_field_at(1, name="Status", value="✅ Feed saved to database", inline=False)
-                    embed.add_field(name="Feed ID", value=str(feed_id), inline=True)
-                    embed.add_field(name="Feed Title", value=feed.feed.get('title', 'Unknown'), inline=True)
-                    embed.add_field(name="Entries", value=str(len(feed.entries)), inline=True)
-                    
-                    await message.edit(embed=embed)
-                    
-                except Exception as e:
-                    embed.description = f"❌ Error processing RSS feed: {name}"
-                    embed.color = discord.Color.red()
-                    embed.set_field_at(1, name="Status", value=f"❌ Error: {str(e)}", inline=False)
-                    await message.edit(embed=embed)
             
             @self.command(name="feeds")
-            async def list_feeds(ctx):
+            async def manage_feeds(ctx, action: str = "list", name_or_id: str = None, url: str = None):
                 # Check if command is in allowed channel
                 if self.allowed_channel_id and ctx.channel.id != self.allowed_channel_id:
                     return
-                """List all RSS feeds in the database."""
+                """Unified feed management command."""
                 
                 try:
-                    feeds = await self.db.get_feeds(active_only=False)
+                    if action.lower() == "add":
+                        # Add a new feed
+                        if not name_or_id or not url:
+                            await ctx.send("❌ Usage: `!feeds add \"Feed Name\" https://example.com/rss`")
+                            return
+                        
+                        # Import RSS manager
+                        from .rss_manager import RSSManager
+                        rss_manager = RSSManager(self.db)
+                        
+                        # Create initial embed
+                        embed = discord.Embed(
+                            title="📡 Adding RSS Feed",
+                            description=f"Adding feed: **{name_or_id}**",
+                            color=discord.Color.blue(),
+                            timestamp=datetime.utcnow()
+                        )
+                        embed.add_field(name="URL", value=url, inline=False)
+                        embed.add_field(name="Status", value="⏳ Adding to database...", inline=False)
+                        
+                        message = await ctx.send(embed=embed)
+                        
+                        # Add the feed
+                        try:
+                            feed = await rss_manager.add_feed(name_or_id, url)
+                            
+                            embed.color = discord.Color.green()
+                            embed.set_field_at(1, name="Status", value="✅ Feed added successfully!", inline=False)
+                            embed.add_field(name="Feed ID", value=str(feed.id), inline=True)
+                            embed.add_field(name="Active", value="Yes", inline=True)
+                            embed.set_footer(text=f"🪣 Use !rss refresh to fetch articles • Feed ID: {feed.id}")
+                            
+                            await message.edit(embed=embed)
+                            
+                        except Exception as e:
+                            embed.color = discord.Color.red()
+                            embed.set_field_at(1, name="Status", value=f"❌ Error: {str(e)}", inline=False)
+                            await message.edit(embed=embed)
                     
-                    if not feeds:
+                    elif action.lower() == "remove":
+                        # Remove a feed
+                        if not name_or_id or not name_or_id.isdigit():
+                            await ctx.send("❌ Usage: `!feeds remove <feed_id>`\nUse `!feeds list` to see feed IDs.")
+                            return
+                        
+                        feed_id = int(name_or_id)
+                        success = await self.db.delete_feed(feed_id)
+                        
+                        if success:
+                            embed = discord.Embed(
+                                title="🗑️ Feed Removed",
+                                description=f"Successfully removed feed with ID {feed_id}",
+                                color=discord.Color.green(),
+                                timestamp=datetime.utcnow()
+                            )
+                        else:
+                            embed = discord.Embed(
+                                title="❌ Feed Not Found",
+                                description=f"No feed found with ID {feed_id}",
+                                color=discord.Color.red(),
+                                timestamp=datetime.utcnow()
+                            )
+                        
+                        await ctx.send(embed=embed)
+                    
+                    elif action.lower() == "toggle":
+                        # Toggle a feed
+                        if not name_or_id or not name_or_id.isdigit():
+                            await ctx.send("❌ Usage: `!feeds toggle <feed_id>`\nUse `!feeds list` to see feed IDs.")
+                            return
+                        
+                        feed_id = int(name_or_id)
+                        feed = await self.db.get_feed(feed_id)
+                        
+                        if not feed:
+                            await ctx.send(f"❌ No feed found with ID {feed_id}")
+                            return
+                        
+                        new_status = not feed.is_active
+                        updated_feed = await self.db.update_feed(feed_id, is_active=new_status)
+                        
+                        status_text = "enabled" if new_status else "disabled"
+                        status_emoji = "🟢" if new_status else "🔴"
+                        
+                        embed = discord.Embed(
+                            title=f"{status_emoji} Feed {status_text.title()}",
+                            description=f"Feed **{feed.name}** has been {status_text}",
+                            color=discord.Color.green() if new_status else discord.Color.orange(),
+                            timestamp=datetime.utcnow()
+                        )
+                        
+                        await ctx.send(embed=embed)
+                    
+                    elif action.lower() == "list":
+                        # List all feeds (default behavior)
+                        feeds = await self.db.get_feeds(active_only=False)
+                        
+                        if not feeds:
+                            embed = discord.Embed(
+                                title="📡 RSS Feeds",
+                                description="No RSS feeds found in database.",
+                                color=discord.Color.yellow(),
+                                timestamp=datetime.utcnow()
+                            )
+                            embed.add_field(
+                                name="💡 Tip",
+                                value="Use `!feeds add \"Feed Name\" https://example.com/rss` to add your first RSS feed!",
+                                inline=False
+                            )
+                            await ctx.send(embed=embed)
+                            return
+                        
                         embed = discord.Embed(
                             title="📡 RSS Feeds",
-                            description="No RSS feeds found in database.",
-                            color=discord.Color.yellow(),
+                            description=f"Found {len(feeds)} RSS feed(s):",
+                            color=discord.Color.blue(),
                             timestamp=datetime.utcnow()
                         )
-                        embed.add_field(
-                            name="💡 Tip",
-                            value="Use `!feed <name> <url>` to add your first RSS feed!",
-                            inline=False
-                        )
-                        await ctx.send(embed=embed)
-                        return
-                    
-                    embed = discord.Embed(
-                        title="📡 RSS Feeds",
-                        description=f"Found {len(feeds)} RSS feed(s):",
-                        color=discord.Color.blue(),
-                        timestamp=datetime.utcnow()
-                    )
-                    
-                    for feed in feeds:
-                        status_emoji = "🟢" if feed.is_active else "🔴"
-                        last_fetch = feed.last_fetched.strftime('%b %d, %H:%M') if feed.last_fetched else "Never"
                         
-                        value = f"**URL:** {feed.url}\\n"
-                        value += f"**Status:** {status_emoji} {'Active' if feed.is_active else 'Inactive'}\\n"
-                        value += f"**Last Fetch:** {last_fetch}\\n"
-                        if feed.description:
-                            value += f"**Description:** {feed.description[:100]}{'...' if len(feed.description) > 100 else ''}"
+                        for feed in feeds:
+                            status_emoji = "🟢" if feed.is_active else "🔴"
+                            last_fetch = feed.last_fetched.strftime('%b %d, %H:%M') if feed.last_fetched else "Never"
+                            
+                            value = f"**URL:** {feed.url}\n"
+                            value += f"**Status:** {status_emoji} {'Active' if feed.is_active else 'Inactive'}\n"
+                            value += f"**Last Fetch:** {last_fetch}\n"
+                            if feed.description:
+                                value += f"**Description:** {feed.description[:100]}{'...' if len(feed.description) > 100 else ''}"
+                            
+                            embed.add_field(
+                                name=f"{status_emoji} {feed.name} (ID: {feed.id})",
+                                value=value,
+                                inline=False
+                            )
                         
-                        embed.add_field(
-                            name=f"{status_emoji} {feed.name} (ID: {feed.id})",
-                            value=value,
-                            inline=False
-                        )
-                    
-                    embed.set_footer(text="🪣 Use !feed <name> <url> to add • !removefeed <id> to remove • !togglefeed <id> to toggle")
-                    await ctx.send(embed=embed)
-                    
-                except Exception as e:
-                    embed = discord.Embed(
-                        title="❌ Error",
-                        description=f"Error listing feeds: {str(e)}",
-                        color=discord.Color.red(),
-                        timestamp=datetime.utcnow()
-                    )
-                    await ctx.send(embed=embed)
-            
-            @self.command(name="removefeed")
-            async def remove_feed(ctx, feed_id: int):
-                # Check if command is in allowed channel
-                if self.allowed_channel_id and ctx.channel.id != self.allowed_channel_id:
-                    return
-                """Remove an RSS feed by ID."""
-                
-                try:
-                    # Get feed first to show what we're removing
-                    feed = await self.db.get_feed(feed_id)
-                    if not feed:
-                        await ctx.send(f"❌ Feed with ID {feed_id} not found.")
-                        return
-                    
-                    # Remove the feed
-                    success = await self.db.delete_feed(feed_id)
-                    
-                    if success:
-                        embed = discord.Embed(
-                            title="🗑️ Feed Removed",
-                            description=f"Successfully removed RSS feed: **{feed.name}**",
-                            color=discord.Color.green(),
-                            timestamp=datetime.utcnow()
-                        )
-                        embed.add_field(name="Feed ID", value=str(feed_id), inline=True)
-                        embed.add_field(name="Feed URL", value=feed.url, inline=True)
+                        embed.set_footer(text="🪣 Use !feeds add/remove/toggle • !rss refresh to update")
                         await ctx.send(embed=embed)
+                    
                     else:
-                        await ctx.send(f"❌ Failed to remove feed with ID {feed_id}.")
-                        
+                        await ctx.send("❌ Invalid action. Use: `add`, `remove`, `toggle`, or `list`\n"
+                                      "Examples:\n"
+                                      "• `!feeds` or `!feeds list` - List all feeds\n"
+                                      "• `!feeds add \"Hacker News\" https://news.ycombinator.com/rss` - Add feed\n"
+                                      "• `!feeds toggle 1` - Enable/disable feed\n"
+                                      "• `!feeds remove 1` - Delete feed")
+                    
                 except Exception as e:
                     embed = discord.Embed(
                         title="❌ Error",
-                        description=f"Error removing feed: {str(e)}",
-                        color=discord.Color.red(),
-                        timestamp=datetime.utcnow()
-                    )
-                    await ctx.send(embed=embed)
-            
-            @self.command(name="togglefeed")
-            async def toggle_feed(ctx, feed_id: int):
-                # Check if command is in allowed channel
-                if self.allowed_channel_id and ctx.channel.id != self.allowed_channel_id:
-                    return
-                """Toggle an RSS feed's active status."""
-                
-                try:
-                    # Get current feed status
-                    feed = await self.db.get_feed(feed_id)
-                    if not feed:
-                        await ctx.send(f"❌ Feed with ID {feed_id} not found.")
-                        return
-                    
-                    # Toggle the status
-                    new_status = not feed.is_active
-                    updated_feed = await self.db.update_feed(feed_id, is_active=new_status)
-                    
-                    if updated_feed:
-                        status_emoji = "🟢" if new_status else "🔴"
-                        status_text = "Active" if new_status else "Inactive"
-                        
-                        embed = discord.Embed(
-                            title="🔄 Feed Status Updated",
-                            description=f"RSS feed **{feed.name}** is now {status_text}",
-                            color=discord.Color.green(),
-                            timestamp=datetime.utcnow()
-                        )
-                        embed.add_field(name="Feed ID", value=str(feed_id), inline=True)
-                        embed.add_field(name="New Status", value=f"{status_emoji} {status_text}", inline=True)
-                        embed.add_field(name="Feed URL", value=feed.url, inline=False)
-                        await ctx.send(embed=embed)
-                    else:
-                        await ctx.send(f"❌ Failed to update feed with ID {feed_id}.")
-                        
-                except Exception as e:
-                    embed = discord.Embed(
-                        title="❌ Error",
-                        description=f"Error toggling feed: {str(e)}",
+                        description=f"Error managing feeds: {str(e)}",
                         color=discord.Color.red(),
                         timestamp=datetime.utcnow()
                     )
@@ -341,28 +295,13 @@ if DISCORD_AVAILABLE:
                     inline=False
                 )
                 embed.add_field(
-                    name="📡 !feed <name> <url>",
-                    value="Add an RSS feed for automatic article updates\n**Usage:** `!feed \"Tech News\" https://example.com/feed.xml`\n**What it does:** Validates the RSS feed and adds it to your bucket for regular updates",
+                    name="📰 !feeds [add|remove|toggle|list]",
+                    value="Unified RSS feed management\n**Usage:** `!feeds add \"Feed Name\" https://example.com/rss` or `!feeds list`\n**What it does:** Add, remove, toggle, or list RSS feeds in one command",
                     inline=False
                 )
                 embed.add_field(
-                    name="📋 !feeds",
-                    value="List all RSS feeds in the database\n**Usage:** `!feeds`\n**What it shows:** All feeds with their IDs, status, and last fetch time",
-                    inline=False
-                )
-                embed.add_field(
-                    name="🗑️ !removefeed <id>",
-                    value="Remove an RSS feed by ID\n**Usage:** `!removefeed 1`\n**What it does:** Permanently deletes the feed from the database",
-                    inline=False
-                )
-                embed.add_field(
-                    name="🔄 !togglefeed <id>",
-                    value="Toggle an RSS feed's active status\n**Usage:** `!togglefeed 1`\n**What it does:** Enables/disables a feed without deleting it",
-                    inline=False
-                )
-                embed.add_field(
-                    name="📊 !status",
-                    value="Show current bucket system status\n**Usage:** `!status`\n**What it shows:** Queue size, bot status, and system health",
+                    name="📡 !rss [show|refresh|briefing|stats] [count|days]",
+                    value="Unified RSS command for all RSS operations\n**Usage:** `!rss` (show 3), `!rss refresh`, `!rss briefing 7`\n**What it does:** Shows recent unseen RSS items, updates feeds, generates briefings, or shows statistics",
                     inline=False
                 )
                 embed.add_field(
@@ -370,15 +309,9 @@ if DISCORD_AVAILABLE:
                     value="Generate a quick briefing of recent articles and RSS feeds\n**Usage:** `!brief 7 discord` (default: 7 days, discord format)\n**Formats:** `discord` (embed), `pdf` (downloadable PDF)\n**What it shows:** Recent articles, active RSS feeds, and reading stats",
                     inline=False
                 )
-                
                 embed.add_field(
-                    name="📡 !rss",
-                    value="Show 3 recent unseen RSS items\n**Usage:** `!rss`\n**What it does:** Displays the 3 most recent RSS articles you haven't seen yet, then marks them as read\n**Note:** Use `!rssbrief refresh` to fetch new articles from RSS feeds",
-                    inline=False
-                )
-                embed.add_field(
-                    name="📰 !rssbrief [days] [format]",
-                    value="Generate comprehensive RSS briefing with all options\n**Usage:** `!rssbrief 7 discord`\n**Formats:** `discord`, `text`, `refresh`, `stats`\n**What it does:** Full RSS management - briefings, feed refresh, statistics",
+                    name="📊 !status",
+                    value="Show current bucket system status\n**Usage:** `!status`\n**What it shows:** Queue size, bot status, and system health",
                     inline=False
                 )
                 embed.add_field(
@@ -389,11 +322,11 @@ if DISCORD_AVAILABLE:
                 
                 embed.add_field(
                     name="💡 Tips & Features",
-                    value="• **Auto-detection:** Just paste a URL in chat and I'll suggest adding it\n• **RSS feeds:** Use `!feed` to add RSS feeds for automatic updates\n• **Auto-summarization:** Articles are automatically summarized using AI\n• **Channel-restricted:** I only respond in this specific channel\n• **Persistent:** Runs 24/7 and survives reboots\n• **Web interface:** Use the web API for advanced features",
+                    value="• **Auto-detection:** Just paste a URL in chat and I'll suggest adding it\n• **RSS feeds:** Use `!feeds` to manage RSS feeds for automatic updates\n• **Auto-summarization:** Articles are automatically summarized using AI\n• **Channel-restricted:** I only respond in this specific channel\n• **Persistent:** Runs 24/7 and survives reboots\n• **Web interface:** Use the web API for advanced features",
                     inline=False
                 )
                 
-                embed.set_footer(text="🪣 Bucket Bot v1.0 • Your personal reading assistant • Channel-restricted to this server")
+                embed.set_footer(text="🪣 Bucket Bot v2.0 • Simplified commands • Channel-restricted")
                 
                 await ctx.send(embed=embed)
             
@@ -573,124 +506,94 @@ if DISCORD_AVAILABLE:
                     await original_message.edit(embed=embed)
             
             @self.command(name="rss")
-            async def rss_quick(ctx):
+            async def rss_command(ctx, action: str = "show", days_or_arg: str = "3", format_type: str = "discord"):
                 # Check if command is in allowed channel
                 if self.allowed_channel_id and ctx.channel.id != self.allowed_channel_id:
                     return
-                """Show 3 recent unseen RSS items."""
+                """Unified RSS command for all RSS operations."""
                 
                 # Import RSS manager here to avoid circular imports
-                from .rss_manager import RSSManager
+                from .rss_manager import RSSManager, RSSBriefingConfig, RSSBriefingFormatter
                 from .models import ArticleStatus
                 
                 # Initialize RSS manager
                 rss_manager = RSSManager(self.db)
                 
                 try:
-                    # Get all recent articles and filter for RSS ones that haven't been delivered
-                    all_articles = await self.db.get_recent_articles(days_back=30, limit=100)
-                    
-                    # Filter for RSS articles that haven't been delivered
-                    unseen_rss = [
-                        article for article in all_articles
-                        if article.source and article.status != ArticleStatus.DELIVERED
-                    ]
-                    
-                    # Sort by creation date (newest first) and take 3
-                    unseen_rss.sort(key=lambda x: x.created_at, reverse=True)
-                    recent_unseen = unseen_rss[:3]
-                    
-                    if not recent_unseen:
+                    if action.lower() == "show":
+                        # Show recent unseen RSS items (default behavior)
+                        num_items = int(days_or_arg) if days_or_arg.isdigit() else 3
+                        
+                        # Get all recent articles and filter for RSS ones that haven't been delivered
+                        all_articles = await self.db.get_recent_articles(days_back=30, limit=100)
+                        
+                        # Filter for RSS articles that haven't been delivered
+                        unseen_rss = [
+                            article for article in all_articles
+                            if article.source and article.status != ArticleStatus.DELIVERED
+                        ]
+                        
+                        # Sort by creation date (newest first) and take requested number
+                        unseen_rss.sort(key=lambda x: x.created_at, reverse=True)
+                        recent_unseen = unseen_rss[:num_items]
+                        
+                        if not recent_unseen:
+                            embed = discord.Embed(
+                                title="📡 RSS Update",
+                                description="No new RSS items to show! 🎉",
+                                color=discord.Color.green(),
+                                timestamp=datetime.utcnow()
+                            )
+                            embed.add_field(
+                                name="💡 Tip",
+                                value="Use `!rss refresh` to fetch new articles from your RSS feeds.",
+                                inline=False
+                            )
+                            await ctx.send(embed=embed)
+                            return
+                        
+                        # Create embed for the items
                         embed = discord.Embed(
-                            title="📡 RSS Update",
-                            description="No new RSS items to show! 🎉",
-                            color=discord.Color.green(),
+                            title="📡 Latest RSS Items",
+                            description=f"Here are your {len(recent_unseen)} most recent unseen RSS items:",
+                            color=discord.Color.blue(),
                             timestamp=datetime.utcnow()
                         )
-                        embed.add_field(
-                            name="💡 Tip",
-                            value="Use `!rssbrief refresh` to fetch new articles from your RSS feeds.",
-                            inline=False
-                        )
+                        
+                        for i, article in enumerate(recent_unseen, 1):
+                            # Calculate reading time display
+                            reading_time = f"{article.reading_time} min" if article.reading_time else "? min"
+                            
+                            # Create article summary
+                            value = f"📰 **Source:** {article.source or 'Unknown'}\n"
+                            value += f"📅 **Published:** {article.published_date.strftime('%b %d, %Y') if article.published_date else 'Unknown'}\n"
+                            value += f"⏱️ **Reading time:** {reading_time}\n"
+                            value += f"🔗 [Read article]({article.url})"
+                            
+                            embed.add_field(
+                                name=f"{i}. {article.title[:60]}{'...' if len(article.title) > 60 else ''}",
+                                value=value,
+                                inline=False
+                            )
+                        
+                        embed.set_footer(text="🪣 Articles marked as read • Use !rss briefing for full briefing")
+                        
+                        # Send the embed
                         await ctx.send(embed=embed)
-                        return
-                    
-                    # Create embed for the 3 items
-                    embed = discord.Embed(
-                        title="📡 Latest RSS Items",
-                        description=f"Here are your {len(recent_unseen)} most recent unseen RSS items:",
-                        color=discord.Color.blue(),
-                        timestamp=datetime.utcnow()
-                    )
-                    
-                    for i, article in enumerate(recent_unseen, 1):
-                        # Calculate reading time display
-                        reading_time = f"{article.reading_time} min" if article.reading_time else "? min"
                         
-                        # Create article summary
-                        value = f"📰 **Source:** {article.source or 'Unknown'}\\n"
-                        value += f"📅 **Published:** {article.published_date.strftime('%b %d, %Y') if article.published_date else 'Unknown'}\\n"
-                        value += f"⏱️ **Reading time:** {reading_time}\\n"
-                        value += f"🔗 [Read article]({article.url})"
-                        
-                        embed.add_field(
-                            name=f"{i}. {article.title[:60]}{'...' if len(article.title) > 60 else ''}",
-                            value=value,
-                            inline=False
-                        )
+                        # Mark these articles as delivered/seen
+                        for article in recent_unseen:
+                            await self.db.update_article_status(article.id, ArticleStatus.DELIVERED)
                     
-                    embed.set_footer(text="🪣 Articles marked as read • Use !rss for full briefing")
-                    
-                    # Send the embed
-                    await ctx.send(embed=embed)
-                    
-                    # Mark these articles as delivered/seen
-                    for article in recent_unseen:
-                        await self.db.update_article_status(article.id, ArticleStatus.DELIVERED)
-                    
-                except Exception as e:
-                    embed = discord.Embed(
-                        title="❌ RSS Error",
-                        description=f"Error fetching RSS items: {str(e)}",
-                        color=discord.Color.red(),
-                        timestamp=datetime.utcnow()
-                    )
-                    await ctx.send(embed=embed)
-
-            @self.command(name="rssbrief")
-            async def rss_briefing(ctx, days_back: int = 7, format_type: str = "discord"):
-                # Check if command is in allowed channel
-                if self.allowed_channel_id and ctx.channel.id != self.allowed_channel_id:
-                    return
-                """Generate a quick RSS-only briefing with dynamic feed management."""
-                
-                # Validate format type
-                if format_type.lower() not in ["discord", "text", "refresh", "stats"]:
-                    await ctx.send("❌ Invalid format. Use: `discord`, `text`, `refresh`, or `stats`")
-                    return
-                
-                # Import RSS manager here to avoid circular imports
-                from .rss_manager import RSSManager, RSSBriefingConfig, RSSBriefingFormatter
-                
-                # Initialize RSS manager
-                rss_manager = RSSManager(self.db)
-                
-                # Create initial embed
-                embed = discord.Embed(
-                    title="📡 RSS Briefing",
-                    description=f"Generating RSS briefing from the last {days_back} days...",
-                    color=discord.Color.blue(),
-                    timestamp=datetime.utcnow()
-                )
-                embed.add_field(name="Status", value="⏳ Processing feeds...", inline=False)
-                
-                message = await ctx.send(embed=embed)
-                
-                try:
-                    if format_type.lower() == "refresh":
+                    elif action.lower() == "refresh":
                         # Refresh all feeds and show results
-                        embed.set_field_at(0, name="Status", value="🔄 Refreshing all feeds...", inline=False)
-                        await message.edit(embed=embed)
+                        embed = discord.Embed(
+                            title="📡 RSS Feeds",
+                            description="🔄 Refreshing all feeds...",
+                            color=discord.Color.blue(),
+                            timestamp=datetime.utcnow()
+                        )
+                        message = await ctx.send(embed=embed)
                         
                         results = await rss_manager.fetch_all_feeds(max_articles_per_feed=10)
                         
@@ -725,13 +628,54 @@ if DISCORD_AVAILABLE:
                                 inline=False
                             )
                         
-                        embed.set_footer(text="🪣 Use !rss to generate a briefing from these articles")
+                        embed.set_footer(text="🪣 Use !rss show to see new articles")
                         await message.edit(embed=embed)
+                    
+                    elif action.lower() == "briefing":
+                        # Generate comprehensive briefing
+                        days_back = int(days_or_arg) if days_or_arg.isdigit() else 7
                         
-                    elif format_type.lower() == "stats":
+                        embed = discord.Embed(
+                            title="📡 RSS Briefing",
+                            description=f"Generating RSS briefing from the last {days_back} days...",
+                            color=discord.Color.blue(),
+                            timestamp=datetime.utcnow()
+                        )
+                        message = await ctx.send(embed=embed)
+                        
+                        config = RSSBriefingConfig(
+                            days_back=days_back,
+                            max_articles_per_feed=5,
+                            max_total_articles=20,
+                            group_by_feed=True,
+                            sort_by_priority=True
+                        )
+                        
+                        briefing_data = await rss_manager.generate_rss_briefing(config)
+                        
+                        if format_type.lower() == "text":
+                            text_summary = RSSBriefingFormatter.format_text_summary(briefing_data)
+                            await ctx.send(f"```\n{text_summary}\n```")
+                            await message.delete()
+                        else:
+                            embed_data = RSSBriefingFormatter.format_discord_embed(briefing_data)
+                            embed = discord.Embed(**embed_data["embed"])
+                            
+                            for field in embed_data["fields"]:
+                                embed.add_field(**field)
+                            
+                            embed.set_footer(text="🪣 Use !rss refresh to update feeds")
+                            await message.edit(embed=embed)
+                    
+                    elif action.lower() == "stats":
                         # Show RSS feed statistics
-                        embed.set_field_at(0, name="Status", value="📊 Gathering statistics...", inline=False)
-                        await message.edit(embed=embed)
+                        embed = discord.Embed(
+                            title="📊 RSS Statistics",
+                            description="📊 Gathering statistics...",
+                            color=discord.Color.blue(),
+                            timestamp=datetime.utcnow()
+                        )
+                        message = await ctx.send(embed=embed)
                         
                         stats = await rss_manager.get_feed_stats()
                         
@@ -750,99 +694,32 @@ if DISCORD_AVAILABLE:
                             inline=False
                         )
                         
-                        # Show top feeds by article count
-                        feed_stats = sorted(stats['feeds'], key=lambda x: x['article_count'], reverse=True)
-                        if feed_stats:
-                            feeds_text = ""
-                            for i, feed_stat in enumerate(feed_stats[:5], 1):
-                                feed = feed_stat['feed']
-                                status_emoji = "🟢" if feed.is_active else "🔴"
-                                last_fetch = feed_stat['last_fetched']
-                                last_fetch_str = last_fetch.strftime('%b %d') if last_fetch else "Never"
-                                
-                                feeds_text += f"{status_emoji} **{feed.name}**\n"
-                                feeds_text += f"   📰 {feed_stat['article_count']} articles • 📅 {last_fetch_str}\n"
-                                feeds_text += f"   🏷️ {', '.join(feed.tags) if feed.tags else 'No tags'}\n\n"
-                            
+                        if stats.get('recent_stats'):
                             embed.add_field(
-                                name="📰 Top Feeds (by article count)",
-                                value=feeds_text,
+                                name="📈 Recent Activity",
+                                value=stats['recent_stats'],
                                 inline=False
                             )
                         
-                        embed.set_footer(text="🪣 Use !rssbrief refresh to update all feeds")
+                        embed.set_footer(text="🪣 Use !feeds to manage individual feeds")
                         await message.edit(embed=embed)
-                        
-                    else:
-                        # Generate regular RSS briefing
-                        embed.set_field_at(0, name="Status", value="📰 Gathering RSS articles...", inline=False)
-                        await message.edit(embed=embed)
-                        
-                        # Configure briefing
-                        config = RSSBriefingConfig(
-                            days_back=days_back,
-                            max_articles_per_feed=5,
-                            max_total_articles=20,
-                            group_by_feed=True,
-                            sort_by_priority=True
-                        )
-                        
-                        # Generate briefing
-                        briefing_data = await rss_manager.generate_rss_briefing(config)
-                        
-                        if format_type.lower() == "text":
-                            # Send as text
-                            text_summary = RSSBriefingFormatter.format_text_summary(briefing_data)
-                            
-                            # Split long messages (Discord has 2000 char limit)
-                            if len(text_summary) > 1900:
-                                chunks = [text_summary[i:i+1900] for i in range(0, len(text_summary), 1900)]
-                                
-                                # Update original message with first chunk
-                                embed = discord.Embed(
-                                    title="📡 RSS Briefing (Text Format)",
-                                    description="*Full briefing in text format:*",
-                                    color=discord.Color.green()
-                                )
-                                await message.edit(embed=embed)
-                                
-                                # Send chunks
-                                for i, chunk in enumerate(chunks):
-                                    header = f"**Part {i+1}/{len(chunks)}:**\n\n" if len(chunks) > 1 else ""
-                                    await ctx.send(f"```\n{header}{chunk}\n```")
-                            else:
-                                await message.edit(content=f"```\n{text_summary}\n```", embed=None)
-                        
-                        else:
-                            # Send as Discord embed (default)
-                            embed_data = RSSBriefingFormatter.format_discord_embed(briefing_data)
-                            
-                            embed = discord.Embed(
-                                title=embed_data["title"],
-                                description=embed_data["description"],
-                                color=embed_data["color"],
-                                timestamp=datetime.utcnow()
-                            )
-                            
-                            for field in embed_data["fields"]:
-                                embed.add_field(
-                                    name=field["name"],
-                                    value=field["value"],
-                                    inline=field["inline"]
-                                )
-                            
-                            embed.set_footer(text="🪣 Use !rssbrief refresh to update feeds • !rssbrief stats for statistics")
-                            await message.edit(embed=embed)
                     
+                    else:
+                        await ctx.send("❌ Invalid action. Use: `show`, `refresh`, `briefing`, or `stats`\n"
+                                      "Examples:\n"
+                                      "• `!rss` or `!rss show 5` - Show recent items\n"
+                                      "• `!rss refresh` - Update all feeds\n"
+                                      "• `!rss briefing 7` - Generate briefing\n"
+                                      "• `!rss stats` - Show statistics")
+                
                 except Exception as e:
                     embed = discord.Embed(
-                        title="❌ RSS Briefing Failed",
-                        description=f"Error generating RSS briefing: {str(e)}",
+                        title="❌ RSS Error",
+                        description=f"Error: {str(e)}",
                         color=discord.Color.red(),
                         timestamp=datetime.utcnow()
                     )
-                    embed.add_field(name="Error Details", value=str(e), inline=False)
-                    await message.edit(embed=embed)
+                    await ctx.send(embed=embed)
             
             @self.event
             async def on_message(message):
