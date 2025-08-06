@@ -38,6 +38,12 @@ def main():
     # Config command
     config_parser = subparsers.add_parser("config", help="Show configuration")
     
+    # Run command - starts the full bucket system
+    run_parser = subparsers.add_parser("run", help="Run the full bucket system with Discord bot and scheduler")
+    run_parser.add_argument("--discord", help="Discord bot token")
+    run_parser.add_argument("--obsidian", help="Path to Obsidian vault")
+    run_parser.add_argument("--summarizer", default="ollama", help="Summarizer type (ollama/openai)")
+    
     args = parser.parse_args()
     
     # Update config with CLI arguments
@@ -80,6 +86,10 @@ def main():
             
         elif args.command == "config":
             show_config()
+            
+        elif args.command == "run":
+            print(f"🚀 Starting full bucket system...")
+            asyncio.run(run_system_command(args))
             
     except KeyboardInterrupt:
         print("\n👋 Goodbye!")
@@ -137,6 +147,32 @@ async def build_site_command():
             
     except Exception as e:
         print(f"❌ Error building site: {e}")
+
+
+async def run_system_command(args):
+    """Run the full bucket system command."""
+    from .core import create_bucket
+    import os
+    
+    try:
+        # Get Discord token from args or environment
+        discord_token = args.discord or os.getenv("DISCORD_TOKEN")
+        
+        # Create bucket with configuration
+        bucket = await create_bucket(
+            db_path=config.db_path,
+            output_dir=config.output_dir,
+            obsidian_vault=args.obsidian,
+            discord_token=discord_token,
+            summarizer_type=args.summarizer
+        )
+        
+        # Run the system
+        await bucket.run()
+        
+    except Exception as e:
+        print(f"❌ Error running bucket system: {e}")
+        raise
 
 
 def show_config():

@@ -35,8 +35,8 @@ class RSSManager:
     def __init__(self, database: Database):
         """Initialize RSS manager with database connection."""
         self.db = database
-        self.rss_fetcher = RSSFetcher()
         self.content_fetcher = ContentFetcher()
+        self.rss_fetcher = RSSFetcher(self.content_fetcher)
     
     async def get_active_feeds(self) -> List[Feed]:
         """Get all active RSS feeds."""
@@ -74,32 +74,26 @@ class RSSManager:
     async def fetch_feed_articles(self, feed: Feed, max_articles: int = 10) -> List[Article]:
         """Fetch latest articles from a specific RSS feed."""
         try:
-            articles = await self.rss_fetcher.fetch_articles(str(feed.url), max_articles)
+            articles = await self.rss_fetcher.fetch_feed(str(feed.url))
             
             # Process and save articles to database
             saved_articles = []
-            for article_data in articles:
+            for article in articles[:max_articles]:  # Limit to max_articles
                 try:
                     # Check if article already exists
-                    existing = await self.db.get_article_by_url(article_data['url'])
+                    existing = await self.db.get_article_by_url(str(article.url))
                     if existing:
                         continue
                     
-                    # Create new article
-                    article = Article(
-                        url=article_data['url'],
-                        title=article_data['title'],
-                        content=article_data.get('content', ''),
-                        author=article_data.get('author'),
-                        published_date=article_data.get('published_date'),
-                        source=feed.name,
-                        tags=feed.tags.copy(),
-                        status=ArticleStatus.FETCHED,
-                        priority=ArticlePriority.MEDIUM
-                    )
+                    # Update article with feed information
+                    article.source = feed.name
+                    article.tags = feed.tags.copy() if feed.tags else []
+                    article.status = ArticleStatus.FETCHED
+                    article.priority = ArticlePriority.MEDIUM
                     
-                    saved_article = await self.db.add_article(article)
-                    saved_articles.append(saved_article)
+                    article_id = await self.db.save_article(article)
+                    article.id = article_id  # Update the article with its new ID
+                    saved_articles.append(article)
                     
                 except Exception as e:
                     print(f"❌ Error processing article from {feed.name}: {e}")

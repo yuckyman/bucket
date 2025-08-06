@@ -56,7 +56,7 @@ dev = [
 ]
 
 [project.scripts]
-bucket = "bucket.cli:app"
+bucket = "bucket.cli:main"
 
 [tool.black]
 line-length = 88

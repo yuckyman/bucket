@@ -350,7 +350,7 @@ async def create_bucket(
     discord_token: Optional[str] = None,
     summarizer_type: str = "ollama"
 ) -> BucketCore:
-    """Create and initialize a bucket system."""
+    """Create a bucket system (initialize when calling run)."""
     bucket = BucketCore(
         db_path=db_path,
         output_dir=output_dir,
@@ -359,5 +359,4 @@ async def create_bucket(
         summarizer_type=summarizer_type
     )
     
-    await bucket.initialize()
     return bucket

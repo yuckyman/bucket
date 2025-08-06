@@ -389,6 +389,29 @@ class Database:
             
             return article_to_model(article) if article else None
 
+    async def update_article_status(self, article_id: int, status: ArticleStatus):
+        """Update an article's status."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, returning None")
+            return None
+            
+        async with self.AsyncSessionLocal() as session:
+            from sqlalchemy import select
+            
+            stmt = select(ArticleTable).where(ArticleTable.id == article_id)
+            result = await session.execute(stmt)
+            article = result.scalar_one_or_none()
+            
+            if not article:
+                return None
+            
+            article.status = status.value
+            article.updated_at = datetime.utcnow()
+            await session.commit()
+            await session.refresh(article)
+            
+            return article_to_model(article)
+
     async def get_feed(self, feed_id: int):
         """Get a specific feed by ID."""
         if not SQLALCHEMY_AVAILABLE:

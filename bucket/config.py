@@ -4,6 +4,13 @@ import os
 from pathlib import Path
 from typing import Optional
 
+# Load environment variables from .env file if it exists
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # dotenv not available, skip
+
 
 class Config:
     """Configuration settings for bucket system."""
