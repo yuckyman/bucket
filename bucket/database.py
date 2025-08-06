@@ -338,6 +338,121 @@ class Database:
             
             return [article_to_model(article) for article in articles]
 
+    async def get_articles_since(self, cutoff_date: datetime, limit: int = 100):
+        """Get articles created since a specific date."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, returning empty list")
+            return []
+            
+        async with self.AsyncSessionLocal() as session:
+            from sqlalchemy import select
+            
+            stmt = select(ArticleTable)
+            stmt = stmt.where(ArticleTable.created_at >= cutoff_date)
+            stmt = stmt.order_by(ArticleTable.created_at.desc()).limit(limit)
+            
+            results = await session.execute(stmt)
+            articles = results.scalars().all()
+            
+            return [article_to_model(article) for article in articles]
+
+    async def get_articles_by_source(self, source: str):
+        """Get all articles from a specific source (RSS feed name)."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, returning empty list")
+            return []
+            
+        async with self.AsyncSessionLocal() as session:
+            from sqlalchemy import select
+            
+            stmt = select(ArticleTable)
+            stmt = stmt.where(ArticleTable.source == source)
+            stmt = stmt.order_by(ArticleTable.created_at.desc())
+            
+            results = await session.execute(stmt)
+            articles = results.scalars().all()
+            
+            return [article_to_model(article) for article in articles]
+
+    async def get_article_by_url(self, url: str):
+        """Get an article by its URL."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, returning None")
+            return None
+            
+        async with self.AsyncSessionLocal() as session:
+            from sqlalchemy import select
+            
+            stmt = select(ArticleTable).where(ArticleTable.url == str(url))
+            result = await session.execute(stmt)
+            article = result.scalar_one_or_none()
+            
+            return article_to_model(article) if article else None
+
+    async def get_feed(self, feed_id: int):
+        """Get a specific feed by ID."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, returning None")
+            return None
+            
+        async with self.AsyncSessionLocal() as session:
+            from sqlalchemy import select
+            
+            stmt = select(FeedTable).where(FeedTable.id == feed_id)
+            result = await session.execute(stmt)
+            feed = result.scalar_one_or_none()
+            
+            return feed_to_model(feed) if feed else None
+
+    async def update_feed(self, feed_id: int, **kwargs):
+        """Update a feed with the given parameters."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, returning None")
+            return None
+            
+        async with self.AsyncSessionLocal() as session:
+            from sqlalchemy import select
+            
+            stmt = select(FeedTable).where(FeedTable.id == feed_id)
+            result = await session.execute(stmt)
+            feed = result.scalar_one_or_none()
+            
+            if not feed:
+                return None
+            
+            # Update fields
+            for key, value in kwargs.items():
+                if hasattr(feed, key):
+                    setattr(feed, key, value)
+            
+            feed.updated_at = datetime.utcnow()
+            await session.commit()
+            await session.refresh(feed)
+            
+            return feed_to_model(feed)
+
+    async def delete_feed(self, feed_id: int):
+        """Delete a feed by ID."""
+        if not SQLALCHEMY_AVAILABLE:
+            print("⚠️  SQLAlchemy not available, returning False")
+            return False
+            
+        async with self.AsyncSessionLocal() as session:
+            from sqlalchemy import select, delete
+            
+            stmt = select(FeedTable).where(FeedTable.id == feed_id)
+            result = await session.execute(stmt)
+            feed = result.scalar_one_or_none()
+            
+            if not feed:
+                return False
+            
+            delete_stmt = delete(FeedTable).where(FeedTable.id == feed_id)
+            await session.execute(delete_stmt)
+            await session.commit()
+            
+            return True
+
 
 # Utility functions for model conversion
 def article_to_model(article_table: ArticleTable) -> Article:
