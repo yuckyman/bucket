@@ -224,21 +224,28 @@ class Database:
             print("⚠️  SQLAlchemy not available, skipping save")
             return None
             
-        import json
-        feed_data = {
-            "name": feed.name,
-            "url": str(feed.url),
-            "description": feed.description,
-            "tags": json.dumps(feed.tags),
-            "is_active": feed.is_active,
-        }
-        
-        async with self.AsyncSessionLocal() as session:
-            db_feed = FeedTable(**feed_data)
-            session.add(db_feed)
-            await session.commit()
-            await session.refresh(db_feed)
-            return db_feed.id
+        try:
+            import json
+            feed_data = {
+                "name": feed.name,
+                "url": str(feed.url),
+                "description": feed.description,
+                "tags": json.dumps(feed.tags),
+                "is_active": feed.is_active,
+            }
+            
+            print(f"💾 Saving feed: {feed.name} -> {feed.url}")
+            
+            async with self.AsyncSessionLocal() as session:
+                db_feed = FeedTable(**feed_data)
+                session.add(db_feed)
+                await session.commit()
+                await session.refresh(db_feed)
+                print(f"✅ Saved feed with ID: {db_feed.id}")
+                return db_feed.id
+        except Exception as e:
+            print(f"❌ Error saving feed: {e}")
+            return None
 
     async def save_summary(self, summary) -> int:
         """Save a summary to the database."""
@@ -288,19 +295,27 @@ class Database:
             print("⚠️  SQLAlchemy not available, returning empty list")
             return []
             
-        async with self.AsyncSessionLocal() as session:
-            from sqlalchemy import select
-            
-            stmt = select(FeedTable)
-            
-            if active_only:
-                stmt = stmt.where(FeedTable.is_active == True)
+        try:
+            async with self.AsyncSessionLocal() as session:
+                from sqlalchemy import select
                 
-            stmt = stmt.order_by(FeedTable.name.asc())
-            results = await session.execute(stmt)
-            feeds = results.scalars().all()
-            
-            return [feed_to_model(feed) for feed in feeds]
+                stmt = select(FeedTable)
+                
+                if active_only:
+                    stmt = stmt.where(FeedTable.is_active == True)
+                    
+                stmt = stmt.order_by(FeedTable.name.asc())
+                results = await session.execute(stmt)
+                feeds = results.scalars().all()
+                
+                print(f"🔍 Found {len(feeds)} feeds in database")
+                for feed in feeds:
+                    print(f"  - {feed.name}: {feed.url}")
+                
+                return [feed_to_model(feed) for feed in feeds]
+        except Exception as e:
+            print(f"❌ Error getting feeds: {e}")
+            return []
 
     async def get_recent_articles(self, days_back: int = 7, limit: int = 50):
         """Get recent articles from the database."""

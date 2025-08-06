@@ -67,12 +67,17 @@ class ContentFetcher:
                 response.raise_for_status()
                 
                 content_type = response.headers.get("content-type", "").lower()
+                print(f"🔍 Content type: {content_type}")
+                print(f"📄 Response length: {len(response.text)}")
                 
                 if "application/rss+xml" in content_type or "application/atom+xml" in content_type:
+                    print(f"📄 Treating as RSS feed")
                     return await self._parse_rss_feed(response.text, url)
                 elif "text/html" in content_type:
+                    print(f"📄 Treating as HTML content")
                     return await self._parse_html_content(response.text, url)
                 else:
+                    print(f"📄 Unknown content type, treating as text")
                     return {
                         "url": url,
                         "title": f"Unknown content type: {content_type}",
@@ -185,7 +190,7 @@ class ContentFetcher:
             return {
                 "url": url,
                 "title": "RSS Feed",
-                "content": feed_content[:1000],
+                "content": feed_content,
                 "cleaned_content": feed_content[:500],
                 "author": None,
                 "published_date": None,
@@ -194,52 +199,20 @@ class ContentFetcher:
                 "metadata": {"error": "feedparser not available"}
             }
             
-        feed = feedparser.parse(feed_content)
-        
-        if not feed.entries:
-            return None
-        
-        # Get the most recent entry
-        entry = feed.entries[0]
-        
-        # Extract published date
-        published_date = None
-        if hasattr(entry, "published_parsed"):
-            published_date = datetime(*entry.published_parsed[:6])
-        elif hasattr(entry, "updated_parsed"):
-            published_date = datetime(*entry.updated_parsed[:6])
-        
-        # Extract author
-        author = ""
-        if hasattr(entry, "author"):
-            author = entry.author
-        
-        # Extract content
-        content = ""
-        if hasattr(entry, "content"):
-            content = entry.content[0].value
-        elif hasattr(entry, "summary"):
-            content = entry.summary
-        
-        # Clean content
-        cleaned_content = self._clean_content(content)
-        
-        # Calculate reading time
-        word_count = len(cleaned_content.split())
-        reading_time = max(1, word_count // 200)
-        
+        # For RSS feeds, we want to return the full feed content
+        # so that RSSFetcher can parse it properly
         return {
-            "url": entry.link if hasattr(entry, "link") else url,
-            "title": entry.title if hasattr(entry, "title") else "RSS Entry",
-            "content": content,
-            "cleaned_content": cleaned_content,
-            "author": author,
-            "published_date": published_date,
-            "word_count": word_count,
-            "reading_time": reading_time,
+            "url": url,
+            "title": "RSS Feed",
+            "content": feed_content,
+            "cleaned_content": feed_content[:1000],
+            "author": None,
+            "published_date": None,
+            "word_count": len(feed_content.split()),
+            "reading_time": max(1, len(feed_content.split()) // 200),
             "metadata": {
-                "feed_title": feed.feed.title if hasattr(feed.feed, "title") else "",
-                "feed_description": feed.feed.description if hasattr(feed.feed, "description") else "",
+                "feed_title": "RSS Feed",
+                "feed_description": "RSS Feed Content",
                 "domain": urlparse(url).netloc
             }
         }
@@ -299,19 +272,35 @@ class RSSFetcher:
     
     async def fetch_feed(self, feed_url: str) -> List[Article]:
         """Fetch all articles from an RSS feed."""
+        print(f"🔍 Fetching RSS feed: {feed_url}")
+        
         async with self.fetcher:
             result = await self.fetcher.fetch_url(feed_url)
             if not result:
+                print(f"❌ Failed to fetch RSS feed: {feed_url}")
                 return []
+            
+            print(f"📄 RSS feed fetched, content length: {len(result.get('content', ''))}")
             
             # For RSS feeds, we need to fetch each individual article
             articles = []
             feed = feedparser.parse(result["content"])
             
-            for entry in feed.entries[:10]:  # Limit to 10 most recent
+            print(f"📄 Parsed RSS feed, found {len(feed.entries)} entries")
+            
+            for i, entry in enumerate(feed.entries[:10]):  # Limit to 10 most recent
+                print(f"  📄 Processing entry {i+1}: {getattr(entry, 'title', 'No title')}")
+                
                 if hasattr(entry, "link"):
+                    print(f"    🔗 Article URL: {entry.link}")
                     article = await self.fetcher.fetch_article(entry.link)
                     if article:
+                        print(f"    ✅ Successfully fetched article: {article.title}")
                         articles.append(article)
+                    else:
+                        print(f"    ❌ Failed to fetch article from: {entry.link}")
+                else:
+                    print(f"    ❌ No link found for entry")
             
+            print(f"📄 Total articles fetched: {len(articles)}")
             return articles

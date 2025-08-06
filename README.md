@@ -49,6 +49,61 @@ bucket serve --port 8000
 bucket run --discord YOUR_TOKEN --obsidian /path/to/vault
 ```
 
+### Hugo Integration
+
+For Hugo site integration (RSS to read_later reports):
+
+```bash
+# Auto-detect Hugo site (if running from hugo directory or parent)
+python -m bucket.cli serve
+
+# Specify Hugo site path explicitly
+python -m bucket.cli --hugo-site /path/to/hugo/site serve
+
+# Process RSS feeds and generate daily reports
+python -m bucket.cli process --max-articles 5 --build
+
+# Build Hugo site only
+python -m bucket.cli build
+
+# Show current configuration
+python -m bucket.cli config
+```
+
+## ⚙️ Configuration
+
+Bucket uses environment variables for configuration with smart defaults:
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `BUCKET_DB_PATH` | `bucket.db` | Database file path |
+| `BUCKET_API_HOST` | `0.0.0.0` | API server host |
+| `BUCKET_API_PORT` | `8000` | API server port |
+| `BUCKET_HUGO_SITE_PATH` | Auto-detect | Path to Hugo site |
+| `BUCKET_OUTPUT_DIR` | `output` | Output directory |
+
+### Auto-detection
+
+Bucket automatically detects Hugo sites by looking for:
+- `config.toml`, `hugo.toml`, `config.yaml`, or `config.yml` in current directory
+- Common subdirectories: `blog`, `site`, `hugo`, `spillyourgutsonline-blog`
+- Parent directory and its subdirectories
+
+### Configuration Examples
+
+```bash
+# Environment variables
+export BUCKET_HUGO_SITE_PATH=/home/user/my-blog
+export BUCKET_DB_PATH=/home/user/bucket.db
+
+# Command line options
+python -m bucket.cli --hugo-site /path/to/blog --db-path ./data.db serve
+
+# Copy example config
+cp env.example .env
+# Edit .env with your paths
+```
+
 ## 📋 Requirements
 
 - Python 3.9+

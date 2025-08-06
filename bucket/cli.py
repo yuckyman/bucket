@@ -1,330 +1,173 @@
+#!/usr/bin/env python3
 """Command-line interface for bucket system."""
 
+import sys
+import argparse
 import asyncio
-import os
 from pathlib import Path
-from typing import Optional, List
-import typer
 
-# Optional rich imports
-try:
-    from rich.console import Console
-    from rich.table import Table
-    from rich.progress import Progress, SpinnerColumn, TextColumn
-    from rich.panel import Panel
-    from rich.text import Text
-    RICH_AVAILABLE = True
-except ImportError:
-    RICH_AVAILABLE = False
-    Console = None
-    Table = None
-    Progress = None
-    SpinnerColumn = None
-    TextColumn = None
-    Panel = None
-    Text = None
-
-# Optional dotenv import
-try:
-    from dotenv import load_dotenv
-    DOTENV_AVAILABLE = True
-except ImportError:
-    DOTENV_AVAILABLE = False
-    load_dotenv = lambda: None
-
-from .core import BucketCore, create_bucket
-from .models import ArticlePriority, ArticleStatus
-
-# Load environment variables
-load_dotenv()
-
-app = typer.Typer(
-    name="bucket",
-    help="A modular Python system for capturing, summarizing, and delivering web content",
-    add_completion=False
-)
-
-console = Console() if RICH_AVAILABLE else None
+from .config import config
+from .api import run_api_server
+from .hugo_integration import HugoContentGenerator
 
 
-@app.command()
-def add(
-    url: str = typer.Argument(..., help="URL to add to bucket"),
-    priority: ArticlePriority = typer.Option(ArticlePriority.MEDIUM, "--priority", "-p", help="Article priority"),
-    tags: Optional[List[str]] = typer.Option(None, "--tag", "-t", help="Tags for the article"),
-    db_path: str = typer.Option("bucket.db", "--db", help="Database path"),
-):
-    """Add a URL to the bucket."""
+def main():
+    """Main CLI entry point."""
+    parser = argparse.ArgumentParser(description="Bucket RSS to Hugo integration system")
     
-    async def _add_url():
-        bucket = await create_bucket(db_path=db_path)
+    # Global options
+    parser.add_argument("--hugo-site", help="Path to Hugo site directory")
+    parser.add_argument("--db-path", help="Path to database file")
+    
+    subparsers = parser.add_subparsers(dest="command", help="Available commands")
+    
+    # API server command
+    api_parser = subparsers.add_parser("serve", help="Start the API server")
+    api_parser.add_argument("--host", default="0.0.0.0", help="Host to bind to")
+    api_parser.add_argument("--port", type=int, default=8000, help="Port to bind to")
+    api_parser.add_argument("--reload", action="store_true", help="Enable auto-reload for development")
+    
+    # Process feeds command
+    process_parser = subparsers.add_parser("process", help="Process RSS feeds and generate reports")
+    process_parser.add_argument("--max-articles", type=int, default=5, help="Max articles per feed")
+    process_parser.add_argument("--build", action="store_true", help="Build Hugo site after processing")
+    
+    # Build Hugo site command
+    build_parser = subparsers.add_parser("build", help="Build the Hugo site")
+    
+    # Config command
+    config_parser = subparsers.add_parser("config", help="Show configuration")
+    
+    args = parser.parse_args()
+    
+    # Update config with CLI arguments
+    if args.hugo_site:
+        import os
+        os.environ["BUCKET_HUGO_SITE_PATH"] = str(Path(args.hugo_site).resolve())
+        # Reload config
+        from . import config as config_module
+        config_module.config = config_module.Config()
+    
+    if args.db_path:
+        import os
+        os.environ["BUCKET_DB_PATH"] = str(Path(args.db_path).resolve())
+        # Reload config
+        from . import config as config_module
+        config_module.config = config_module.Config()
+    
+    if not args.command:
+        parser.print_help()
+        return
+    
+    try:
+        if args.command == "serve":
+            print(f"🚀 Starting bucket API server...")
+            print(f"   Host: {args.host}")
+            print(f"   Port: {args.port}")
+            print(f"   Database: {config.db_path}")
+            if config.get_hugo_site_path():
+                print(f"   Hugo site: {config.get_hugo_site_path()}")
+            
+            run_api_server(host=args.host, port=args.port, reload=args.reload)
+            
+        elif args.command == "process":
+            print(f"📡 Processing RSS feeds...")
+            asyncio.run(process_feeds_command(args))
+            
+        elif args.command == "build":
+            print(f"🏗️  Building Hugo site...")
+            asyncio.run(build_site_command())
+            
+        elif args.command == "config":
+            show_config()
+            
+    except KeyboardInterrupt:
+        print("\n👋 Goodbye!")
+    except Exception as e:
+        print(f"❌ Error: {e}")
+        sys.exit(1)
+
+
+async def process_feeds_command(args):
+    """Process RSS feeds command."""
+    from .database import Database
+    
+    try:
+        # Initialize Hugo generator
+        hugo_generator = HugoContentGenerator()
         
-        with Progress(
-            SpinnerColumn(),
-            TextColumn("[progress.description]{task.description}"),
-            console=console
-        ) as progress:
-            task = progress.add_task("Adding URL to bucket...", total=None)
+        # Initialize database
+        db = Database(config.db_path)
+        db.initialize(async_mode=True)
+        await db.create_tables()
+        
+        # Process feeds
+        result = await hugo_generator.process_feeds_for_read_later(
+            db, max_articles_per_feed=args.max_articles
+        )
+        
+        if result["success"]:
+            print(f"✅ {result['message']}")
             
-            article = await bucket.add_url(url, priority, tags)
-            
-            if article:
-                progress.update(task, description="✅ URL added successfully!")
+            if args.build and result["report_created"]:
+                print("🏗️  Building Hugo site...")
+                build_result = await hugo_generator.build_hugo_site()
                 
-                # Display article info
-                table = Table(title="Article Added")
-                table.add_column("Field", style="cyan")
-                table.add_column("Value", style="white")
-                
-                table.add_row("Title", article.title)
-                table.add_row("Author", article.author or "Unknown")
-                table.add_row("Reading Time", f"{article.reading_time} minutes")
-                table.add_row("Word Count", str(article.word_count or 0))
-                table.add_row("Priority", article.priority.value)
-                table.add_row("Tags", ", ".join(article.tags) if article.tags else "None")
-                
-                console.print(table)
-            else:
-                progress.update(task, description="❌ Failed to add URL")
-                raise typer.Exit(1)
-        
-        await bucket.close()
-    
-    asyncio.run(_add_url())
-
-
-@app.command()
-def feed(
-    name: str = typer.Argument(..., help="Feed name"),
-    url: str = typer.Argument(..., help="RSS feed URL"),
-    tags: Optional[List[str]] = typer.Option(None, "--tag", "-t", help="Tags for the feed"),
-    db_path: str = typer.Option("bucket.db", "--db", help="Database path"),
-):
-    """Add an RSS feed to the bucket."""
-    
-    async def _add_feed():
-        bucket = await create_bucket(db_path=db_path)
-        
-        with Progress(
-            SpinnerColumn(),
-            TextColumn("[progress.description]{task.description}"),
-            console=console
-        ) as progress:
-            task = progress.add_task("Adding RSS feed...", total=None)
-            
-            success = await bucket.add_feed(name, url, tags)
-            
-            if success:
-                progress.update(task, description="✅ RSS feed added successfully!")
-                console.print(f"Feed '{name}' added to bucket")
-            else:
-                progress.update(task, description="❌ Failed to add RSS feed")
-                raise typer.Exit(1)
-        
-        await bucket.close()
-    
-    asyncio.run(_add_feed())
-
-
-@app.command()
-def fetch(
-    db_path: str = typer.Option("bucket.db", "--db", help="Database path"),
-):
-    """Fetch articles from RSS feeds."""
-    
-    async def _fetch_feeds():
-        bucket = await create_bucket(db_path=db_path)
-        
-        with Progress(
-            SpinnerColumn(),
-            TextColumn("[progress.description]{task.description}"),
-            console=console
-        ) as progress:
-            task = progress.add_task("Fetching RSS feeds...", total=None)
-            
-            await bucket.fetch_feeds()
-            
-            progress.update(task, description="✅ RSS feeds fetched!")
-        
-        await bucket.close()
-    
-    asyncio.run(_fetch_feeds())
-
-
-@app.command()
-def briefing(
-    title: str = typer.Option("Daily Briefing", "--title", "-t", help="Briefing title"),
-    days_back: int = typer.Option(7, "--days", "-d", help="Number of days to look back"),
-    tags: Optional[List[str]] = typer.Option(None, "--tag", help="Filter by tags"),
-    priority: Optional[ArticlePriority] = typer.Option(None, "--priority", "-p", help="Filter by priority"),
-    output_dir: str = typer.Option("output", "--output", "-o", help="Output directory"),
-    db_path: str = typer.Option("bucket.db", "--db", help="Database path"),
-):
-    """Generate a PDF briefing."""
-    
-    async def _generate_briefing():
-        bucket = await create_bucket(db_path=db_path, output_dir=output_dir)
-        
-        with Progress(
-            SpinnerColumn(),
-            TextColumn("[progress.description]{task.description}"),
-            console=console
-        ) as progress:
-            task = progress.add_task("Generating briefing...", total=None)
-            
-            pdf_path = await bucket.generate_briefing(
-                title=title,
-                days_back=days_back,
-                tags=tags,
-                priority=priority
-            )
-            
-            if pdf_path:
-                progress.update(task, description="✅ Briefing generated!")
-                console.print(f"📄 Briefing saved to: {pdf_path}")
-            else:
-                progress.update(task, description="❌ Failed to generate briefing")
-                raise typer.Exit(1)
-        
-        await bucket.close()
-    
-    asyncio.run(_generate_briefing())
-
-
-@app.command()
-def list(
-    status: Optional[ArticleStatus] = typer.Option(None, "--status", "-s", help="Filter by status"),
-    priority: Optional[ArticlePriority] = typer.Option(None, "--priority", "-p", help="Filter by priority"),
-    limit: int = typer.Option(20, "--limit", "-l", help="Number of articles to show"),
-    db_path: str = typer.Option("bucket.db", "--db", help="Database path"),
-):
-    """List articles in the bucket."""
-    
-    async def _list_articles():
-        bucket = await create_bucket(db_path=db_path)
-        
-        # Query the database
-        articles = await bucket.db.get_articles(status=status, priority=priority, limit=limit)
-        
-        if articles:
-            table = Table(title="Articles in Bucket")
-            table.add_column("ID", style="cyan")
-            table.add_column("Title", style="white")
-            table.add_column("Author", style="green")
-            table.add_column("Status", style="yellow")
-            table.add_column("Priority", style="magenta")
-            table.add_column("Reading Time", style="blue")
-            
-            for article in articles[:limit]:
-                table.add_row(
-                    str(article.id),
-                    article.title[:50] + "..." if len(article.title) > 50 else article.title,
-                    article.author or "Unknown",
-                    article.status.value,
-                    article.priority.value,
-                    f"{article.reading_time} min"
-                )
-            
-            console.print(table)
+                if build_result["success"]:
+                    print(f"✅ {build_result['message']}")
+                else:
+                    print(f"❌ Hugo build failed: {build_result['message']}")
         else:
-            console.print("No articles found in bucket")
-        
-        await bucket.close()
-    
-    asyncio.run(_list_articles())
+            print(f"❌ {result['message']}")
+            
+    except Exception as e:
+        print(f"❌ Error processing feeds: {e}")
 
 
-@app.command()
-def serve(
-    host: str = typer.Option("0.0.0.0", "--host", "-h", help="Host to bind to"),
-    port: int = typer.Option(8000, "--port", "-p", help="Port to bind to"),
-    db_path: str = typer.Option("bucket.db", "--db", help="Database path"),
-    discord_token: Optional[str] = typer.Option(None, "--discord", help="Discord bot token"),
-):
-    """Start the bucket API server."""
-    
-    async def _serve():
-        bucket = await create_bucket(
-            db_path=db_path,
-            discord_token=discord_token or os.getenv("DISCORD_TOKEN")
-        )
+async def build_site_command():
+    """Build Hugo site command."""
+    try:
+        hugo_generator = HugoContentGenerator()
+        result = await hugo_generator.build_hugo_site()
         
-        console.print(Panel(
-            Text("🚀 Starting Bucket API Server", style="bold green"),
-            Text(f"Host: {host}\nPort: {port}\nDatabase: {db_path}"),
-            title="Bucket System"
-        ))
-        
-        try:
-            await bucket.start_api_server(host=host, port=port)
-        except KeyboardInterrupt:
-            console.print("\n🛑 Shutting down server...")
-        finally:
-            await bucket.close()
-    
-    asyncio.run(_serve())
+        if result["success"]:
+            print(f"✅ {result['message']}")
+        else:
+            print(f"❌ {result['message']}")
+            
+    except Exception as e:
+        print(f"❌ Error building site: {e}")
 
 
-@app.command()
-def run(
-    db_path: str = typer.Option("bucket.db", "--db", help="Database path"),
-    output_dir: str = typer.Option("output", "--output", "-o", help="Output directory"),
-    obsidian_vault: Optional[str] = typer.Option(None, "--obsidian", help="Obsidian vault path"),
-    discord_token: Optional[str] = typer.Option(None, "--discord", help="Discord bot token"),
-    summarizer_type: str = typer.Option("ollama", "--summarizer", help="Summarizer type (ollama/openai/mock)"),
-):
-    """Run the full bucket system."""
+def show_config():
+    """Show current configuration."""
+    print("🔧 Current Configuration:")
+    print(f"   Database path: {config.db_path}")
+    print(f"   API host: {config.api_host}")
+    print(f"   API port: {config.api_port}")
+    print(f"   Output directory: {config.output_dir}")
     
-    async def _run():
-        bucket = await create_bucket(
-            db_path=db_path,
-            output_dir=output_dir,
-            obsidian_vault=obsidian_vault,
-            discord_token=discord_token or os.getenv("DISCORD_TOKEN"),
-            summarizer_type=summarizer_type
-        )
-        
-        # Check if discord token is available
-        discord_token_available = discord_token or os.getenv("DISCORD_TOKEN")
-        
-        status_text = f"""🪣 Bucket System
-Starting all services...
-Database: {db_path}
-Output: {output_dir}
-Discord: {'✅' if discord_token_available else '❌'}
-Obsidian: {'✅' if obsidian_vault else '❌'}
-Summarizer: {summarizer_type}"""
-        
-        console.print(Panel(status_text, title="System Status"))
-        
-        try:
-            await bucket.run()
-        except KeyboardInterrupt:
-            console.print("\n🛑 Shutting down bucket system...")
-        finally:
-            await bucket.close()
+    hugo_path = config.get_hugo_site_path()
+    if hugo_path:
+        print(f"   Hugo site: {hugo_path}")
+        print(f"   Hugo site valid: {config.validate_hugo_site(hugo_path)}")
+    else:
+        print("   Hugo site: Not found")
     
-    asyncio.run(_run())
-
-
-@app.command()
-def init(
-    db_path: str = typer.Option("bucket.db", "--db", help="Database path"),
-    output_dir: str = typer.Option("output", "--output", "-o", help="Output directory"),
-):
-    """Initialize the bucket system."""
+    print("\n🌍 Environment Variables:")
+    import os
+    env_vars = [
+        "BUCKET_DB_PATH",
+        "BUCKET_API_HOST", 
+        "BUCKET_API_PORT",
+        "BUCKET_HUGO_SITE_PATH",
+        "BUCKET_OUTPUT_DIR"
+    ]
     
-    async def _init():
-        bucket = await create_bucket(db_path=db_path, output_dir=output_dir)
-        
-        console.print("✅ Bucket system initialized!")
-        console.print(f"Database: {db_path}")
-        console.print(f"Output directory: {output_dir}")
-        
-        await bucket.close()
-    
-    asyncio.run(_init())
+    for var in env_vars:
+        value = os.getenv(var, "Not set")
+        print(f"   {var}: {value}")
 
 
 if __name__ == "__main__":
-    app()
+    main()
