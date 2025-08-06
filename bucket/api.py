@@ -340,6 +340,226 @@ class BucketAPI:
                 "total_reading_time": 0
             }
         
+        # RSS Management endpoints
+        @self.app.post("/rss/refresh")
+        async def refresh_rss_feeds(max_articles_per_feed: int = 10):
+            """Refresh all RSS feeds and return new articles."""
+            from .rss_manager import RSSManager
+            
+            rss_manager = RSSManager(self.database)
+            results = await rss_manager.fetch_all_feeds(max_articles_per_feed)
+            
+            total_new = sum(len(articles) for articles in results.values())
+            
+            return {
+                "message": "RSS feeds refreshed successfully",
+                "feeds_processed": len(results),
+                "new_articles": total_new,
+                "results": {
+                    feed_name: len(articles) 
+                    for feed_name, articles in results.items()
+                }
+            }
+
+        @self.app.post("/rss/refresh/{feed_id}")
+        async def refresh_single_feed(feed_id: int, max_articles: int = 10):
+            """Refresh a specific RSS feed by ID."""
+            from .rss_manager import RSSManager
+            
+            rss_manager = RSSManager(self.database)
+            result = await rss_manager.refresh_feed(feed_id, max_articles)
+            
+            if "error" in result:
+                raise HTTPException(status_code=404, detail=result["error"])
+            
+            return result
+
+        @self.app.get("/rss/briefing")
+        async def generate_rss_briefing(
+            days_back: int = 7,
+            max_articles_per_feed: int = 5,
+            max_total_articles: int = 25,
+            format: str = "json"
+        ):
+            """Generate an RSS briefing."""
+            from .rss_manager import RSSManager, RSSBriefingConfig, RSSBriefingFormatter
+            
+            rss_manager = RSSManager(self.database)
+            
+            config = RSSBriefingConfig(
+                days_back=days_back,
+                max_articles_per_feed=max_articles_per_feed,
+                max_total_articles=max_total_articles,
+                group_by_feed=True,
+                sort_by_priority=True
+            )
+            
+            briefing_data = await rss_manager.generate_rss_briefing(config)
+            
+            if format.lower() == "text":
+                text_summary = RSSBriefingFormatter.format_text_summary(briefing_data)
+                return {"format": "text", "content": text_summary}
+            elif format.lower() == "discord":
+                embed_data = RSSBriefingFormatter.format_discord_embed(briefing_data)
+                return {"format": "discord", "embed": embed_data}
+            else:
+                return {"format": "json", "data": briefing_data}
+
+        @self.app.get("/rss/stats")
+        async def get_rss_stats(feed_id: Optional[int] = None):
+            """Get RSS feed statistics."""
+            from .rss_manager import RSSManager
+            
+            rss_manager = RSSManager(self.database)
+            stats = await rss_manager.get_feed_stats(feed_id)
+            
+            return stats
+
+        @self.app.put("/feeds/{feed_id}")
+        async def update_feed(feed_id: int, feed_update: Dict[str, Any]):
+            """Update an RSS feed."""
+            try:
+                updated_feed = await self.database.update_feed(feed_id, **feed_update)
+                if not updated_feed:
+                    raise HTTPException(status_code=404, detail="Feed not found")
+                
+                return {
+                    "message": "Feed updated successfully",
+                    "feed": {
+                        "id": updated_feed.id,
+                        "name": updated_feed.name,
+                        "url": str(updated_feed.url),
+                        "is_active": updated_feed.is_active,
+                        "last_fetched": updated_feed.last_fetched.isoformat() if updated_feed.last_fetched else None
+                    }
+                }
+            except Exception as e:
+                raise HTTPException(status_code=500, detail=str(e))
+
+        @self.app.delete("/feeds/{feed_id}")
+        async def delete_feed(feed_id: int):
+            """Delete an RSS feed."""
+            success = await self.database.delete_feed(feed_id)
+            if not success:
+                raise HTTPException(status_code=404, detail="Feed not found")
+            
+            return {"message": "Feed deleted successfully"}
+
+        @self.app.post("/feeds/{feed_id}/toggle")
+        async def toggle_feed(feed_id: int):
+            """Toggle feed active status."""
+            from .rss_manager import RSSManager
+            
+            rss_manager = RSSManager(self.database)
+            updated_feed = await rss_manager.toggle_feed(feed_id)
+            
+            if not updated_feed:
+                raise HTTPException(status_code=404, detail="Feed not found")
+            
+            return {
+                "message": f"Feed {'activated' if updated_feed.is_active else 'deactivated'} successfully",
+                "feed": {
+                    "id": updated_feed.id,
+                    "name": updated_feed.name,
+                    "is_active": updated_feed.is_active
+                }
+            }
+
+        # RSS Scheduler endpoints
+        @self.app.post("/rss/scheduler/start")
+        async def start_rss_scheduler():
+            """Start the RSS scheduler."""
+            from .rss_scheduler import RSSScheduler
+            
+            if not hasattr(self, 'rss_scheduler'):
+                self.rss_scheduler = RSSScheduler(self.database)
+            
+            await self.rss_scheduler.start()
+            return {"message": "RSS scheduler started successfully"}
+
+        @self.app.post("/rss/scheduler/stop")
+        async def stop_rss_scheduler():
+            """Stop the RSS scheduler."""
+            if hasattr(self, 'rss_scheduler'):
+                await self.rss_scheduler.stop()
+                return {"message": "RSS scheduler stopped successfully"}
+            else:
+                return {"message": "RSS scheduler was not running"}
+
+        @self.app.get("/rss/scheduler/status")
+        async def get_scheduler_status():
+            """Get RSS scheduler status."""
+            if hasattr(self, 'rss_scheduler'):
+                return self.rss_scheduler.get_status()
+            else:
+                return {"running": False, "message": "Scheduler not initialized"}
+
+        @self.app.post("/rss/scheduler/schedules")
+        async def add_schedule(schedule_data: Dict[str, Any]):
+            """Add a new RSS schedule."""
+            from .rss_scheduler import RSSScheduler, ScheduleConfig
+            
+            if not hasattr(self, 'rss_scheduler'):
+                self.rss_scheduler = RSSScheduler(self.database)
+            
+            try:
+                config = ScheduleConfig(**schedule_data.get('config', {}))
+                name = schedule_data.get('name', f"schedule_{len(self.rss_scheduler.schedules)}")
+                
+                schedule_name = self.rss_scheduler.add_schedule(name, config)
+                return {
+                    "message": f"Schedule '{schedule_name}' added successfully",
+                    "schedule_name": schedule_name,
+                    "config": config.__dict__
+                }
+            except Exception as e:
+                raise HTTPException(status_code=400, detail=str(e))
+
+        @self.app.delete("/rss/scheduler/schedules/{schedule_name}")
+        async def remove_schedule(schedule_name: str):
+            """Remove an RSS schedule."""
+            if hasattr(self, 'rss_scheduler'):
+                success = self.rss_scheduler.remove_schedule(schedule_name)
+                if success:
+                    return {"message": f"Schedule '{schedule_name}' removed successfully"}
+                else:
+                    raise HTTPException(status_code=404, detail="Schedule not found")
+            else:
+                raise HTTPException(status_code=400, detail="Scheduler not initialized")
+
+        @self.app.post("/rss/scheduler/schedules/{schedule_name}/run")
+        async def run_schedule_now(schedule_name: str):
+            """Manually trigger a schedule immediately."""
+            if hasattr(self, 'rss_scheduler'):
+                result = await self.rss_scheduler.run_schedule_now(schedule_name)
+                if "error" in result:
+                    raise HTTPException(status_code=404, detail=result["error"])
+                return result
+            else:
+                raise HTTPException(status_code=400, detail="Scheduler not initialized")
+
+        @self.app.get("/rss/scheduler/schedules")
+        async def list_schedules():
+            """List all RSS schedules."""
+            if hasattr(self, 'rss_scheduler'):
+                schedules = self.rss_scheduler.list_schedules()
+                return {
+                    "schedules": {
+                        name: {
+                            "feed_id": config.feed_id,
+                            "interval_minutes": config.interval_minutes,
+                            "max_articles": config.max_articles,
+                            "enabled": config.enabled,
+                            "last_run": config.last_run.isoformat() if config.last_run else None,
+                            "next_run": config.next_run.isoformat() if config.next_run else None,
+                            "callback_url": config.callback_url
+                        }
+                        for name, config in schedules.items()
+                    }
+                }
+            else:
+                return {"schedules": {}}
+        
         # Read Later integration endpoints
         @self.app.post("/read-later/process-feeds", response_model=ReadLaterResponse)
         async def process_feeds_for_read_later(request: ReadLaterRequest):

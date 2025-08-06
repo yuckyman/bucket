@@ -194,6 +194,12 @@ if DISCORD_AVAILABLE:
                     value="Generate a quick briefing of recent articles and RSS feeds\n**Usage:** `!brief 7 discord` (default: 7 days, discord format)\n**Formats:** `discord` (embed), `pdf` (downloadable PDF)\n**What it shows:** Recent articles, active RSS feeds, and reading stats",
                     inline=False
                 )
+                
+                embed.add_field(
+                    name="📡 !rss [days] [format]",
+                    value="Generate RSS-only briefing with dynamic feed management\n**Usage:** `!rss 7 discord` (default: 7 days, discord format)\n**Formats:** `discord` (embed), `text` (plain text), `refresh` (update feeds), `stats` (feed statistics)\n**What it does:** Shows RSS articles only, can refresh feeds or show feed stats",
+                    inline=False
+                )
                 embed.add_field(
                     name="❓ !help",
                     value="Show this detailed help message\n**Usage:** `!help`\n**What it shows:** All available commands with examples",
@@ -384,6 +390,193 @@ if DISCORD_AVAILABLE:
                         timestamp=datetime.utcnow()
                     )
                     await original_message.edit(embed=embed)
+            
+            @self.command(name="rss")
+            async def rss_briefing(ctx, days_back: int = 7, format_type: str = "discord"):
+                # Check if command is in allowed channel
+                if self.allowed_channel_id and ctx.channel.id != self.allowed_channel_id:
+                    return
+                """Generate a quick RSS-only briefing with dynamic feed management."""
+                
+                # Validate format type
+                if format_type.lower() not in ["discord", "text", "refresh", "stats"]:
+                    await ctx.send("❌ Invalid format. Use: `discord`, `text`, `refresh`, or `stats`")
+                    return
+                
+                # Import RSS manager here to avoid circular imports
+                from .rss_manager import RSSManager, RSSBriefingConfig, RSSBriefingFormatter
+                
+                # Initialize RSS manager
+                rss_manager = RSSManager(self.db)
+                
+                # Create initial embed
+                embed = discord.Embed(
+                    title="📡 RSS Briefing",
+                    description=f"Generating RSS briefing from the last {days_back} days...",
+                    color=discord.Color.blue(),
+                    timestamp=datetime.utcnow()
+                )
+                embed.add_field(name="Status", value="⏳ Processing feeds...", inline=False)
+                
+                message = await ctx.send(embed=embed)
+                
+                try:
+                    if format_type.lower() == "refresh":
+                        # Refresh all feeds and show results
+                        embed.set_field_at(0, name="Status", value="🔄 Refreshing all feeds...", inline=False)
+                        await message.edit(embed=embed)
+                        
+                        results = await rss_manager.fetch_all_feeds(max_articles_per_feed=10)
+                        
+                        # Create results embed
+                        embed = discord.Embed(
+                            title="📡 RSS Feeds Refreshed",
+                            description=f"*Updated on {datetime.utcnow().strftime('%B %d, %Y at %I:%M %p')}*",
+                            color=discord.Color.green(),
+                            timestamp=datetime.utcnow()
+                        )
+                        
+                        total_new = sum(len(articles) for articles in results.values())
+                        embed.add_field(
+                            name="📊 Summary",
+                            value=f"• **Feeds Processed:** {len(results)}\n• **New Articles:** {total_new}",
+                            inline=False
+                        )
+                        
+                        # Show results per feed (limit to 5 feeds)
+                        for i, (feed_name, articles) in enumerate(list(results.items())[:5]):
+                            status_emoji = "✅" if articles else "⚪"
+                            embed.add_field(
+                                name=f"{status_emoji} {feed_name}",
+                                value=f"{len(articles)} new articles",
+                                inline=True
+                            )
+                        
+                        if len(results) > 5:
+                            embed.add_field(
+                                name="Note",
+                                value=f"... and {len(results) - 5} more feeds",
+                                inline=False
+                            )
+                        
+                        embed.set_footer(text="🪣 Use !rss to generate a briefing from these articles")
+                        await message.edit(embed=embed)
+                        
+                    elif format_type.lower() == "stats":
+                        # Show RSS feed statistics
+                        embed.set_field_at(0, name="Status", value="📊 Gathering statistics...", inline=False)
+                        await message.edit(embed=embed)
+                        
+                        stats = await rss_manager.get_feed_stats()
+                        
+                        embed = discord.Embed(
+                            title="📊 RSS Feed Statistics",
+                            description=f"*Generated on {datetime.utcnow().strftime('%B %d, %Y at %I:%M %p')}*",
+                            color=discord.Color.blue(),
+                            timestamp=datetime.utcnow()
+                        )
+                        
+                        embed.add_field(
+                            name="📡 Overview",
+                            value=(f"• **Total Feeds:** {stats['total_feeds']}\n"
+                                  f"• **Active Feeds:** {stats['active_feeds']}\n"
+                                  f"• **Total Articles:** {stats['total_articles']}"),
+                            inline=False
+                        )
+                        
+                        # Show top feeds by article count
+                        feed_stats = sorted(stats['feeds'], key=lambda x: x['article_count'], reverse=True)
+                        if feed_stats:
+                            feeds_text = ""
+                            for i, feed_stat in enumerate(feed_stats[:5], 1):
+                                feed = feed_stat['feed']
+                                status_emoji = "🟢" if feed.is_active else "🔴"
+                                last_fetch = feed_stat['last_fetched']
+                                last_fetch_str = last_fetch.strftime('%b %d') if last_fetch else "Never"
+                                
+                                feeds_text += f"{status_emoji} **{feed.name}**\n"
+                                feeds_text += f"   📰 {feed_stat['article_count']} articles • 📅 {last_fetch_str}\n"
+                                feeds_text += f"   🏷️ {', '.join(feed.tags) if feed.tags else 'No tags'}\n\n"
+                            
+                            embed.add_field(
+                                name="📰 Top Feeds (by article count)",
+                                value=feeds_text,
+                                inline=False
+                            )
+                        
+                        embed.set_footer(text="🪣 Use !rss refresh to update all feeds")
+                        await message.edit(embed=embed)
+                        
+                    else:
+                        # Generate regular RSS briefing
+                        embed.set_field_at(0, name="Status", value="📰 Gathering RSS articles...", inline=False)
+                        await message.edit(embed=embed)
+                        
+                        # Configure briefing
+                        config = RSSBriefingConfig(
+                            days_back=days_back,
+                            max_articles_per_feed=5,
+                            max_total_articles=20,
+                            group_by_feed=True,
+                            sort_by_priority=True
+                        )
+                        
+                        # Generate briefing
+                        briefing_data = await rss_manager.generate_rss_briefing(config)
+                        
+                        if format_type.lower() == "text":
+                            # Send as text
+                            text_summary = RSSBriefingFormatter.format_text_summary(briefing_data)
+                            
+                            # Split long messages (Discord has 2000 char limit)
+                            if len(text_summary) > 1900:
+                                chunks = [text_summary[i:i+1900] for i in range(0, len(text_summary), 1900)]
+                                
+                                # Update original message with first chunk
+                                embed = discord.Embed(
+                                    title="📡 RSS Briefing (Text Format)",
+                                    description="*Full briefing in text format:*",
+                                    color=discord.Color.green()
+                                )
+                                await message.edit(embed=embed)
+                                
+                                # Send chunks
+                                for i, chunk in enumerate(chunks):
+                                    header = f"**Part {i+1}/{len(chunks)}:**\n\n" if len(chunks) > 1 else ""
+                                    await ctx.send(f"```\n{header}{chunk}\n```")
+                            else:
+                                await message.edit(content=f"```\n{text_summary}\n```", embed=None)
+                        
+                        else:
+                            # Send as Discord embed (default)
+                            embed_data = RSSBriefingFormatter.format_discord_embed(briefing_data)
+                            
+                            embed = discord.Embed(
+                                title=embed_data["title"],
+                                description=embed_data["description"],
+                                color=embed_data["color"],
+                                timestamp=datetime.utcnow()
+                            )
+                            
+                            for field in embed_data["fields"]:
+                                embed.add_field(
+                                    name=field["name"],
+                                    value=field["value"],
+                                    inline=field["inline"]
+                                )
+                            
+                            embed.set_footer(text="🪣 Use !rss refresh to update feeds • !rss stats for statistics")
+                            await message.edit(embed=embed)
+                    
+                except Exception as e:
+                    embed = discord.Embed(
+                        title="❌ RSS Briefing Failed",
+                        description=f"Error generating RSS briefing: {str(e)}",
+                        color=discord.Color.red(),
+                        timestamp=datetime.utcnow()
+                    )
+                    embed.add_field(name="Error Details", value=str(e), inline=False)
+                    await message.edit(embed=embed)
             
             @self.event
             async def on_message(message):
