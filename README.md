@@ -221,7 +221,9 @@ curl -X POST "http://localhost:8000/briefings/generate" \
 
 ```
 !add https://example.com/article
-!feed "Tech News" https://example.com/feed.xml
+!feeds add "Tech News" https://example.com/feed.xml
+!rss refresh
+!rss briefing 7
 !brief 7 discord
 !brief 7 pdf
 !status
@@ -230,7 +232,16 @@ curl -X POST "http://localhost:8000/briefings/generate" \
 
 **Available Commands:**
 - `!add <url>` - Add an article or webpage to your reading bucket
-- `!feed <name> <url>` - Add an RSS feed for automatic article updates  
+- `!feeds [add|remove|toggle|list]` - Unified RSS feed management
+  - `!feeds add "name" url` - Add an RSS feed
+  - `!feeds remove <id>` - Remove a feed by ID
+  - `!feeds toggle <id>` - Enable/disable a feed
+  - `!feeds list` - List all feeds (default)
+- `!rss [show|refresh|briefing|stats]` - Unified RSS operations
+  - `!rss` or `!rss show 3` - Show recent unseen RSS items
+  - `!rss refresh` - Update all RSS feeds
+  - `!rss briefing 7` - Generate comprehensive RSS briefing
+  - `!rss stats` - Show RSS feed statistics
 - `!brief [days] [format]` - Generate a quick briefing of recent articles and RSS feeds
   - **Formats:** `discord` (embed), `pdf` (downloadable PDF)
   - **Usage:** `!brief 7 discord` (default: 7 days, discord format)
