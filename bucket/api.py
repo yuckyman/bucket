@@ -346,7 +346,7 @@ class BucketAPI:
             """Refresh all RSS feeds and return new articles."""
             from .rss_manager import RSSManager
             
-            rss_manager = RSSManager(self.database)
+            rss_manager = RSSManager(self.db)
             results = await rss_manager.fetch_all_feeds(max_articles_per_feed)
             
             total_new = sum(len(articles) for articles in results.values())
@@ -366,7 +366,7 @@ class BucketAPI:
             """Refresh a specific RSS feed by ID."""
             from .rss_manager import RSSManager
             
-            rss_manager = RSSManager(self.database)
+            rss_manager = RSSManager(self.db)
             result = await rss_manager.refresh_feed(feed_id, max_articles)
             
             if "error" in result:
@@ -384,7 +384,7 @@ class BucketAPI:
             """Generate an RSS briefing."""
             from .rss_manager import RSSManager, RSSBriefingConfig, RSSBriefingFormatter
             
-            rss_manager = RSSManager(self.database)
+            rss_manager = RSSManager(self.db)
             
             config = RSSBriefingConfig(
                 days_back=days_back,
@@ -410,7 +410,7 @@ class BucketAPI:
             """Get RSS feed statistics."""
             from .rss_manager import RSSManager
             
-            rss_manager = RSSManager(self.database)
+            rss_manager = RSSManager(self.db)
             stats = await rss_manager.get_feed_stats(feed_id)
             
             return stats
@@ -419,7 +419,7 @@ class BucketAPI:
         async def update_feed(feed_id: int, feed_update: Dict[str, Any]):
             """Update an RSS feed."""
             try:
-                updated_feed = await self.database.update_feed(feed_id, **feed_update)
+                updated_feed = await self.db.update_feed(feed_id, **feed_update)
                 if not updated_feed:
                     raise HTTPException(status_code=404, detail="Feed not found")
                 
@@ -439,7 +439,7 @@ class BucketAPI:
         @self.app.delete("/feeds/{feed_id}")
         async def delete_feed(feed_id: int):
             """Delete an RSS feed."""
-            success = await self.database.delete_feed(feed_id)
+            success = await self.db.delete_feed(feed_id)
             if not success:
                 raise HTTPException(status_code=404, detail="Feed not found")
             
@@ -450,7 +450,7 @@ class BucketAPI:
             """Toggle feed active status."""
             from .rss_manager import RSSManager
             
-            rss_manager = RSSManager(self.database)
+            rss_manager = RSSManager(self.db)
             updated_feed = await rss_manager.toggle_feed(feed_id)
             
             if not updated_feed:
@@ -472,7 +472,7 @@ class BucketAPI:
             from .rss_scheduler import RSSScheduler
             
             if not hasattr(self, 'rss_scheduler'):
-                self.rss_scheduler = RSSScheduler(self.database)
+                self.rss_scheduler = RSSScheduler(self.db)
             
             await self.rss_scheduler.start()
             return {"message": "RSS scheduler started successfully"}
@@ -500,7 +500,7 @@ class BucketAPI:
             from .rss_scheduler import RSSScheduler, ScheduleConfig
             
             if not hasattr(self, 'rss_scheduler'):
-                self.rss_scheduler = RSSScheduler(self.database)
+                self.rss_scheduler = RSSScheduler(self.db)
             
             try:
                 config = ScheduleConfig(**schedule_data.get('config', {}))
@@ -670,7 +670,8 @@ def create_api_app(db_path: Optional[str] = None) -> FastAPI:
     # Initialize database
     db.initialize(async_mode=True)
     
-    pdf_generator = PDFGenerator()
+    # Ensure PDF generator uses configured output directory and templates
+    pdf_generator = PDFGenerator(template_dir="templates", output_dir=config.output_dir)
     
     api = BucketAPI(db, pdf_generator)
     return api.get_app()

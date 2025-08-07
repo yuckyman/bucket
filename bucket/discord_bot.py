@@ -453,7 +453,8 @@ if DISCORD_AVAILABLE:
                     from .pdf_generator import PDFGenerator
                     
                     # Create PDF generator
-                    pdf_gen = PDFGenerator(output_dir="output")
+                    from .config import config
+                    pdf_gen = PDFGenerator(output_dir=config.output_dir)
                     
                     # Generate PDF
                     pdf_path = await pdf_gen.generate_briefing(
