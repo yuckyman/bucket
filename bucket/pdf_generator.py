@@ -28,7 +28,7 @@ class PDFGenerator:
     def __init__(self, template_dir: str = "templates", output_dir: str = "output"):
         self.template_dir = Path(template_dir)
         self.output_dir = Path(output_dir)
-        self.output_dir.mkdir(exist_ok=True)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
         
         # Setup Jinja2 environment
         if JINJA2_AVAILABLE:
@@ -46,7 +46,7 @@ class PDFGenerator:
         """Create default HTML template if it doesn't exist."""
         template_path = self.template_dir / "briefing.html"
         if not template_path.exists():
-            template_path.parent.mkdir(exist_ok=True)
+            template_path.parent.mkdir(parents=True, exist_ok=True)
             
             template_content = """<!DOCTYPE html>
 <html lang="en">
@@ -303,8 +303,8 @@ class PDFGenerator:
         if not WEASYPRINT_AVAILABLE:
             raise RuntimeError("WeasyPrint not available for PDF generation")
             
-        html_doc = HTML(string=html_content)
-        html_doc.write_pdf(output_path)
+        html_doc = HTML(string=html_content, base_url=str(self.template_dir.resolve()))
+        html_doc.write_pdf(str(output_path))
         
         return str(output_path)
     

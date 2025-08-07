@@ -4,26 +4,27 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Install system dependencies
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     libffi-dev \
     libssl-dev \
-    libxml2-dev \
-    libxslt1-dev \
-    libjpeg-dev \
-    libpng-dev \
-    libgif-dev \
-    libwebp-dev \
-    libfreetype6-dev \
-    libharfbuzz-dev \
-    libfribidi-dev \
-    liblcms2-dev \
-    libopenjp2-7-dev \
-    libtiff5-dev \
-    libcairo2-dev \
-    libpango1.0-dev \
-    libgdk-pixbuf2.0-dev \
-    libffi-dev \
+    libxml2 \
+    libxslt1.1 \
+    libjpeg62-turbo \
+    libpng16-16 \
+    libgif7 \
+    libwebp7 \
+    libfreetype6 \
+    libharfbuzz0b \
+    libfribidi0 \
+    liblcms2-2 \
+    libopenjp2-7 \
+    libtiff6 \
+    libcairo2 \
+    libpango-1.0-0 \
+    libpangoft2-1.0-0 \
+    libgdk-pixbuf-2.0-0 \
+    fonts-dejavu \
     shared-mime-info \
     && rm -rf /var/lib/apt/lists/*
 
