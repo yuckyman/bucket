@@ -361,7 +361,8 @@ jobs:
         git config --local user.name "GitHub Action"
         
         # Add all changes
-        git add data/ outputs/
+        git add data/ || true
+        git add outputs/ || true
         
         # Check if there are changes to commit
         if git diff --staged --quiet; then
