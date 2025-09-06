@@ -9,7 +9,7 @@ on:
       test_mode:
         description: 'Test mode (only process one feed)'
         required: false
-        default: 'false'
+        default: false
         type: boolean
   repository_dispatch:
     types: [rss_refresh]
