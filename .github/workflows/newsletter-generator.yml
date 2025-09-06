@@ -178,10 +178,11 @@ jobs:
         print(f"Articles: {len(recent_articles)}")
         print(f"Feeds: {len(feeds)}")
         
-        # Set outputs
-        print(f"::set-output name=date::{newsletter_data['date']}")
-        print(f"::set-output name=articles_count::{len(recent_articles)}")
-        print(f"::set-output name=feeds_count::{len(feeds)}")
+        # Set outputs using environment files
+        with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+            f.write(f"date={newsletter_data['date']}\n")
+            f.write(f"articles_count={len(recent_articles)}\n")
+            f.write(f"feeds_count={len(feeds)}\n")
         EOF
     
     - name: Commit changes

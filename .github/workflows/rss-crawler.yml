@@ -194,9 +194,10 @@ jobs:
         with open('data/feeds.json', 'w') as f:
             json.dump(active_feeds, f, indent=2)
         
-        # Set outputs
-        print(f"::set-output name=new_articles_count::{len(new_articles)}")
-        print(f"::set-output name=feeds_processed::{len(active_feeds)}")
+        # Set outputs using environment files
+        with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+            f.write(f"new_articles_count={len(new_articles)}\n")
+            f.write(f"feeds_processed={len(active_feeds)}\n")
         EOF
     
     - name: Update articles database
