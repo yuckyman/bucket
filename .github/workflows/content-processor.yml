@@ -17,6 +17,9 @@ on:
 jobs:
   process-content:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
     
     steps:
     - name: Checkout repository
@@ -68,7 +71,9 @@ jobs:
         with open('pending_articles.json', 'w') as f:
             json.dump(pending_articles, f)
         
-        print(f"::set-output name=pending_count::{len(pending_articles)}")
+        # Set outputs using environment files
+        with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+            f.write(f"pending_count={len(pending_articles)}\n")
         EOF
     
     - name: Process articles (without AI summarization)
