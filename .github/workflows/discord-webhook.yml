@@ -7,6 +7,9 @@ on:
 jobs:
   handle-discord-command:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
     
     steps:
     - name: Checkout repository
