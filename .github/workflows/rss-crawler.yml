@@ -205,7 +205,6 @@ jobs:
         python << 'EOF'
         import json
         import os
-        import os
         
         # Load new articles
         with open('new_articles.json', 'r') as f:
