@@ -1,0 +1,298 @@
+name: RSS Crawler
+
+on:
+  schedule:
+    # Run every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Test mode (only process one feed)'
+        required: false
+        default: false
+        type: boolean
+  repository_dispatch:
+    types: [rss_refresh]
+
+jobs:
+  rss-crawl:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install feedparser requests python-dateutil
+    
+    - name: Load RSS feeds
+      id: load_feeds
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        
+        # Load feeds from data/feeds.json
+        feeds_file = 'data/feeds.json'
+        if os.path.exists(feeds_file):
+            with open(feeds_file, 'r') as f:
+                feeds = json.load(f)
+        else:
+            # Create initial feeds file with some defaults
+            feeds = [
+                {
+                    "id": 1,
+                    "name": "Hacker News",
+                    "url": "https://hnrss.org/frontpage",
+                    "description": "Hacker News front page",
+                    "is_active": True,
+                    "tags": ["tech", "news"],
+                    "last_fetched": None,
+                    "created_at": "2025-01-06T00:00:00Z"
+                }
+            ]
+            os.makedirs('data', exist_ok=True)
+            with open(feeds_file, 'w') as f:
+                json.dump(feeds, f, indent=2)
+        
+        # Filter active feeds
+        active_feeds = [f for f in feeds if f.get('is_active', True)]
+        
+        # In test mode, only process first feed
+        if "${{ github.event.inputs.test_mode }}" == "true":
+            active_feeds = active_feeds[:1]
+        
+        print(f"Found {len(active_feeds)} active feeds")
+        
+        # Save feeds to output for next step
+        with open('active_feeds.json', 'w') as f:
+            json.dump(active_feeds, f)
+        EOF
+    
+    - name: Fetch RSS feeds
+      id: fetch_feeds
+      run: |
+        python << 'EOF'
+        import json
+        import feedparser
+        import requests
+        from datetime import datetime, timezone
+        import time
+        import hashlib
+        
+        def fetch_feed(feed_url, feed_name):
+            """Fetch and parse RSS feed"""
+            try:
+                print(f"Fetching {feed_name}: {feed_url}")
+                
+                # Add headers to avoid being blocked
+                headers = {
+                    'User-Agent': 'Mozilla/5.0 (compatible; BucketBot/1.0; +https://github.com/yourusername/bucket)'
+                }
+                
+                response = requests.get(feed_url, headers=headers, timeout=30)
+                response.raise_for_status()
+                
+                # Parse feed
+                feed = feedparser.parse(response.content)
+                
+                if feed.bozo:
+                    print(f"Warning: Feed parsing issues for {feed_name}")
+                
+                articles = []
+                for entry in feed.entries[:10]:  # Limit to 10 most recent
+                    # Create unique ID for article
+                    article_id = hashlib.md5(entry.link.encode()).hexdigest()
+                    
+                    # Parse published date
+                    published_date = None
+                    if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                        published_date = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc).isoformat()
+                    elif hasattr(entry, 'updated_parsed') and entry.updated_parsed:
+                        published_date = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc).isoformat()
+                    
+                    article = {
+                        "id": article_id,
+                        "url": entry.link,
+                        "title": entry.title,
+                        "content": getattr(entry, 'summary', ''),
+                        "author": getattr(entry, 'author', ''),
+                        "published_date": published_date,
+                        "source": feed_name,
+                        "status": "pending",
+                        "priority": "medium",
+                        "tags": [],
+                        "word_count": len(getattr(entry, 'summary', '').split()) if hasattr(entry, 'summary') else 0,
+                        "reading_time": max(1, len(getattr(entry, 'summary', '').split()) // 200) if hasattr(entry, 'summary') else 1,
+                        "created_at": datetime.now(timezone.utc).isoformat(),
+                        "updated_at": datetime.now(timezone.utc).isoformat()
+                    }
+                    articles.append(article)
+                
+                print(f"Found {len(articles)} articles in {feed_name}")
+                return articles
+                
+            except Exception as e:
+                print(f"Error fetching {feed_name}: {e}")
+                return []
+        
+        # Load active feeds
+        with open('active_feeds.json', 'r') as f:
+            active_feeds = json.load(f)
+        
+        all_new_articles = []
+        feed_results = {}
+        
+        for feed in active_feeds:
+            articles = fetch_feed(feed['url'], feed['name'])
+            feed_results[feed['name']] = articles
+            all_new_articles.extend(articles)
+            
+            # Update feed last_fetched
+            feed['last_fetched'] = datetime.now(timezone.utc).isoformat()
+            
+            # Small delay between feeds
+            time.sleep(1)
+        
+        # Load existing articles to avoid duplicates
+        existing_articles_file = 'data/articles.json'
+        existing_articles = []
+        if os.path.exists(existing_articles_file):
+            with open(existing_articles_file, 'r') as f:
+                existing_articles = json.load(f)
+        
+        # Get existing article URLs
+        existing_urls = {article['url'] for article in existing_articles}
+        
+        # Filter out duplicates
+        new_articles = [article for article in all_new_articles if article['url'] not in existing_urls]
+        
+        print(f"Found {len(new_articles)} new articles (filtered {len(all_new_articles) - len(new_articles)} duplicates)")
+        
+        # Save results
+        with open('new_articles.json', 'w') as f:
+            json.dump(new_articles, f, indent=2)
+        
+        with open('feed_results.json', 'w') as f:
+            json.dump(feed_results, f, indent=2)
+        
+        # Update feeds file
+        with open('data/feeds.json', 'w') as f:
+            json.dump(active_feeds, f, indent=2)
+        
+        # Set outputs
+        print(f"::set-output name=new_articles_count::{len(new_articles)}")
+        print(f"::set-output name=feeds_processed::{len(active_feeds)}")
+        EOF
+    
+    - name: Update articles database
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        
+        # Load new articles
+        with open('new_articles.json', 'r') as f:
+            new_articles = json.load(f)
+        
+        if not new_articles:
+            print("No new articles to add")
+            exit(0)
+        
+        # Load existing articles
+        articles_file = 'data/articles.json'
+        existing_articles = []
+        if os.path.exists(articles_file):
+            with open(articles_file, 'r') as f:
+                existing_articles = json.load(f)
+        
+        # Add new articles
+        existing_articles.extend(new_articles)
+        
+        # Sort by created_at (newest first)
+        existing_articles.sort(key=lambda x: x['created_at'], reverse=True)
+        
+        # Keep only last 1000 articles to prevent file from getting too large
+        if len(existing_articles) > 1000:
+            existing_articles = existing_articles[:1000]
+            print(f"Trimmed articles to 1000 most recent")
+        
+        # Save updated articles
+        with open(articles_file, 'w') as f:
+            json.dump(existing_articles, f, indent=2)
+        
+        print(f"Added {len(new_articles)} new articles to database")
+        EOF
+    
+    - name: Update API endpoints
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        from datetime import datetime, timezone
+        
+        # Create API directory
+        os.makedirs('outputs/api', exist_ok=True)
+        
+        # Load articles
+        articles_file = 'data/articles.json'
+        if os.path.exists(articles_file):
+            with open(articles_file, 'r') as f:
+                articles = json.load(f)
+        else:
+            articles = []
+        
+        # Create recent articles endpoint
+        recent_articles = articles[:20]  # Last 20 articles
+        with open('outputs/api/recent-articles.json', 'w') as f:
+            json.dump({
+                "last_updated": datetime.now(timezone.utc).isoformat(),
+                "count": len(recent_articles),
+                "articles": recent_articles
+            }, f, indent=2)
+        
+        # Create RSS stats endpoint
+        with open('outputs/api/rss-stats.json', 'w') as f:
+            json.dump({
+                "last_updated": datetime.now(timezone.utc).isoformat(),
+                "total_articles": len(articles),
+                "recent_articles": len(recent_articles),
+                "feeds_active": len([f for f in json.load(open('data/feeds.json')) if f.get('is_active', True)]),
+                "last_crawl": datetime.now(timezone.utc).isoformat()
+            }, f, indent=2)
+        
+        print("Updated API endpoints")
+        EOF
+    
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Add all changes
+        git add data/ outputs/
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "rss: collected ${{ steps.fetch_feeds.outputs.new_articles_count }} new articles from ${{ steps.fetch_feeds.outputs.feeds_processed }} feeds"
+          git push
+        fi
+    
+    - name: Summary
+      run: |
+        echo "## RSS Crawl Summary" >> $GITHUB_STEP_SUMMARY
+        echo "- **New articles:** ${{ steps.fetch_feeds.outputs.new_articles_count }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Feeds processed:** ${{ steps.fetch_feeds.outputs.feeds_processed }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Status:** ✅ Completed" >> $GITHUB_STEP_SUMMARY
