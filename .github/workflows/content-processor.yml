@@ -1,0 +1,210 @@
+name: Content Processor
+
+on:
+  schedule:
+    # Run every 2 hours
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      process_count:
+        description: 'Number of articles to process'
+        required: false
+        default: '5'
+        type: string
+  push:
+    paths: ['data/articles.json']
+
+jobs:
+  process-content:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests python-dateutil
+    
+    - name: Load pending articles
+      id: load_articles
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        
+        # Load articles
+        articles_file = 'data/articles.json'
+        if not os.path.exists(articles_file):
+            print("No articles file found")
+            exit(0)
+        
+        with open(articles_file, 'r') as f:
+            articles = json.load(f)
+        
+        # Filter pending articles
+        pending_articles = [a for a in articles if a.get('status') == 'pending']
+        
+        # Limit processing count
+        process_count = int("${{ github.event.inputs.process_count || '5' }}")
+        pending_articles = pending_articles[:process_count]
+        
+        print(f"Found {len(pending_articles)} pending articles to process")
+        
+        if not pending_articles:
+            print("No pending articles to process")
+            exit(0)
+        
+        # Save pending articles for processing
+        with open('pending_articles.json', 'w') as f:
+            json.dump(pending_articles, f)
+        
+        print(f"::set-output name=pending_count::{len(pending_articles)}")
+        EOF
+    
+    - name: Process articles (without AI summarization)
+      if: steps.load_articles.outputs.pending_count != '0'
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        from datetime import datetime, timezone
+        
+        # Load pending articles
+        with open('pending_articles.json', 'r') as f:
+            pending_articles = json.load(f)
+        
+        processed_articles = []
+        
+        for article in pending_articles:
+            print(f"Processing: {article['title']}")
+            
+            # For now, just mark as processed without AI summarization
+            # This can be enhanced later with OpenAI/Claude integration
+            
+            article['status'] = 'processed'
+            article['updated_at'] = datetime.now(timezone.utc).isoformat()
+            
+            # Add processing metadata
+            if 'metadata' not in article:
+                article['metadata'] = {}
+            
+            article['metadata']['processed_at'] = datetime.now(timezone.utc).isoformat()
+            article['metadata']['processing_method'] = 'github_actions'
+            
+            processed_articles.append(article)
+        
+        # Save processed articles
+        with open('processed_articles.json', 'w') as f:
+            json.dump(processed_articles, f)
+        
+        print(f"Processed {len(processed_articles)} articles")
+        EOF
+    
+    - name: Update articles database
+      if: steps.load_articles.outputs.pending_count != '0'
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        
+        # Load processed articles
+        with open('processed_articles.json', 'r') as f:
+            processed_articles = json.load(f)
+        
+        # Load all articles
+        articles_file = 'data/articles.json'
+        with open(articles_file, 'r') as f:
+            all_articles = json.load(f)
+        
+        # Update articles with processed versions
+        processed_ids = {article['id'] for article in processed_articles}
+        
+        for i, article in enumerate(all_articles):
+            if article['id'] in processed_ids:
+                # Find the processed version
+                processed_article = next(p for p in processed_articles if p['id'] == article['id'])
+                all_articles[i] = processed_article
+        
+        # Save updated articles
+        with open(articles_file, 'w') as f:
+            json.dump(all_articles, f, indent=2)
+        
+        print(f"Updated {len(processed_articles)} articles in database")
+        EOF
+    
+    - name: Update API endpoints
+      if: steps.load_articles.outputs.pending_count != '0'
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        from datetime import datetime, timezone
+        
+        # Create API directory
+        os.makedirs('outputs/api', exist_ok=True)
+        
+        # Load articles
+        articles_file = 'data/articles.json'
+        if os.path.exists(articles_file):
+            with open(articles_file, 'r') as f:
+                articles = json.load(f)
+        else:
+            articles = []
+        
+        # Create processing queue endpoint
+        pending_articles = [a for a in articles if a.get('status') == 'pending']
+        processed_articles = [a for a in articles if a.get('status') == 'processed']
+        
+        with open('outputs/api/processing-queue.json', 'w') as f:
+            json.dump({
+                "last_updated": datetime.now(timezone.utc).isoformat(),
+                "pending_count": len(pending_articles),
+                "processed_count": len(processed_articles),
+                "pending_articles": pending_articles[:10],  # Last 10 pending
+                "recently_processed": processed_articles[:10]  # Last 10 processed
+            }, f, indent=2)
+        
+        # Update recent articles endpoint
+        recent_articles = articles[:20]  # Last 20 articles
+        with open('outputs/api/recent-articles.json', 'w') as f:
+            json.dump({
+                "last_updated": datetime.now(timezone.utc).isoformat(),
+                "count": len(recent_articles),
+                "articles": recent_articles
+            }, f, indent=2)
+        
+        print("Updated API endpoints")
+        EOF
+    
+    - name: Commit changes
+      if: steps.load_articles.outputs.pending_count != '0'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Add all changes
+        git add data/ outputs/
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "content: processed ${{ steps.load_articles.outputs.pending_count }} pending articles"
+          git push
+        fi
+    
+    - name: Summary
+      run: |
+        echo "## Content Processing Summary" >> $GITHUB_STEP_SUMMARY
+        echo "- **Articles processed:** ${{ steps.load_articles.outputs.pending_count }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Status:** ✅ Completed" >> $GITHUB_STEP_SUMMARY

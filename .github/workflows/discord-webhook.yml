@@ -1,0 +1,369 @@
+name: Discord Webhook Handler
+
+on:
+  repository_dispatch:
+    types: [discord_command]
+
+jobs:
+  handle-discord-command:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests python-dateutil
+    
+    - name: Parse Discord command
+      id: parse_command
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        
+        # Get the payload from the repository dispatch
+        payload = json.loads('${{ toJson(github.event.client_payload) }}')
+        
+        command = payload.get('command', '')
+        args = payload.get('args', [])
+        user = payload.get('user', 'Unknown')
+        channel = payload.get('channel', 'Unknown')
+        
+        print(f"Received command: {command} from {user} in {channel}")
+        print(f"Args: {args}")
+        
+        # Save command info for next steps
+        command_info = {
+            "command": command,
+            "args": args,
+            "user": user,
+            "channel": channel,
+            "timestamp": payload.get('timestamp', '')
+        }
+        
+        with open('command_info.json', 'w') as f:
+            json.dump(command_info, f)
+        
+        # Set outputs
+        print(f"::set-output name=command::{command}")
+        print(f"::set-output name=user::{user}")
+        print(f"::set-output name=channel::{channel}")
+        EOF
+    
+    - name: Handle !add command
+      if: steps.parse_command.outputs.command == 'add'
+      run: |
+        python << 'EOF'
+        import json
+        import requests
+        from datetime import datetime, timezone
+        import hashlib
+        
+        # Load command info
+        with open('command_info.json', 'r') as f:
+            command_info = json.load(f)
+        
+        url = command_info['args'][0] if command_info['args'] else None
+        
+        if not url:
+            print("No URL provided")
+            exit(1)
+        
+        print(f"Processing URL: {url}")
+        
+        # Fetch article content (simplified version)
+        try:
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (compatible; BucketBot/1.0; +https://github.com/yourusername/bucket)'
+            }
+            
+            response = requests.get(url, headers=headers, timeout=30)
+            response.raise_for_status()
+            
+            # Simple content extraction (you might want to use a proper parser)
+            content = response.text[:5000]  # Limit content size
+            
+            # Create article
+            article_id = hashlib.md5(url.encode()).hexdigest()
+            article = {
+                "id": article_id,
+                "url": url,
+                "title": f"Article from {url}",
+                "content": content,
+                "author": "Unknown",
+                "published_date": None,
+                "source": "discord",
+                "status": "pending",
+                "priority": "medium",
+                "tags": [],
+                "word_count": len(content.split()),
+                "reading_time": max(1, len(content.split()) // 200),
+                "created_at": datetime.now(timezone.utc).isoformat(),
+                "updated_at": datetime.now(timezone.utc).isoformat(),
+                "metadata": {
+                    "added_by": command_info['user'],
+                    "added_via": "discord",
+                    "channel": command_info['channel']
+                }
+            }
+            
+            # Load existing articles
+            articles_file = 'data/articles.json'
+            existing_articles = []
+            if os.path.exists(articles_file):
+                with open(articles_file, 'r') as f:
+                    existing_articles = json.load(f)
+            
+            # Check for duplicates
+            existing_urls = {article['url'] for article in existing_articles}
+            if url in existing_urls:
+                print("Article already exists")
+                exit(0)
+            
+            # Add new article
+            existing_articles.insert(0, article)  # Add to beginning
+            
+            # Save articles
+            with open(articles_file, 'w') as f:
+                json.dump(existing_articles, f, indent=2)
+            
+            print(f"Added article: {article['title']}")
+            
+            # Save result for discord response
+            result = {
+                "success": True,
+                "message": f"✅ Added to bucket: {article['title']}",
+                "article_id": article_id
+            }
+            
+        except Exception as e:
+            print(f"Error processing URL: {e}")
+            result = {
+                "success": False,
+                "message": f"❌ Failed to process: {url}",
+                "error": str(e)
+            }
+        
+        with open('command_result.json', 'w') as f:
+            json.dump(result, f)
+        EOF
+    
+    - name: Handle !feeds command
+      if: steps.parse_command.outputs.command == 'feeds'
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        
+        # Load command info
+        with open('command_info.json', 'r') as f:
+            command_info = json.load(f)
+        
+        action = command_info['args'][0] if command_info['args'] else 'list'
+        
+        # Load feeds
+        feeds_file = 'data/feeds.json'
+        if os.path.exists(feeds_file):
+            with open(feeds_file, 'r') as f:
+                feeds = json.load(f)
+        else:
+            feeds = []
+        
+        if action == 'list':
+            if not feeds:
+                message = "📡 No RSS feeds found. Use `!feeds add \"Feed Name\" https://example.com/rss` to add your first feed!"
+            else:
+                message = f"📡 Found {len(feeds)} RSS feed(s):\n"
+                for feed in feeds:
+                    status = "🟢" if feed.get('is_active', True) else "🔴"
+                    message += f"{status} **{feed['name']}** (ID: {feed['id']})\n"
+                    message += f"   URL: {feed['url']}\n"
+                    if feed.get('last_fetched'):
+                        message += f"   Last fetch: {feed['last_fetched']}\n"
+                    message += "\n"
+        
+        elif action == 'add':
+            if len(command_info['args']) < 3:
+                message = "❌ Usage: `!feeds add \"Feed Name\" https://example.com/rss`"
+            else:
+                name = command_info['args'][1]
+                url = command_info['args'][2]
+                
+                # Check if feed already exists
+                existing_urls = {feed['url'] for feed in feeds}
+                if url in existing_urls:
+                    message = f"❌ Feed already exists: {url}"
+                else:
+                    # Add new feed
+                    new_feed = {
+                        "id": len(feeds) + 1,
+                        "name": name,
+                        "url": url,
+                        "description": f"Added via Discord by {command_info['user']}",
+                        "is_active": True,
+                        "tags": [],
+                        "last_fetched": None,
+                        "created_at": datetime.now(timezone.utc).isoformat()
+                    }
+                    feeds.append(new_feed)
+                    
+                    # Save feeds
+                    with open(feeds_file, 'w') as f:
+                        json.dump(feeds, f, indent=2)
+                    
+                    message = f"✅ Added feed: **{name}** (ID: {new_feed['id']})"
+        
+        else:
+            message = f"❌ Unknown action: {action}. Use: `list`, `add`"
+        
+        result = {
+            "success": True,
+            "message": message
+        }
+        
+        with open('command_result.json', 'w') as f:
+            json.dump(result, f)
+        EOF
+    
+    - name: Handle !status command
+      if: steps.parse_command.outputs.command == 'status'
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        from datetime import datetime, timezone
+        
+        # Load articles
+        articles_file = 'data/articles.json'
+        if os.path.exists(articles_file):
+            with open(articles_file, 'r') as f:
+                articles = json.load(f)
+        else:
+            articles = []
+        
+        # Load feeds
+        feeds_file = 'data/feeds.json'
+        if os.path.exists(feeds_file):
+            with open(feeds_file, 'r') as f:
+                feeds = json.load(f)
+        else:
+            feeds = []
+        
+        # Count pending articles
+        pending_count = len([a for a in articles if a.get('status') == 'pending'])
+        
+        # Count active feeds
+        active_feeds = len([f for f in feeds if f.get('is_active', True)])
+        
+        message = f"🪣 **Bucket Status**\n"
+        message += f"📊 **Articles:** {len(articles)} total, {pending_count} pending\n"
+        message += f"📡 **Feeds:** {active_feeds} active\n"
+        message += f"🟢 **Status:** GitHub Actions running\n"
+        message += f"⏰ **Last update:** {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
+        
+        result = {
+            "success": True,
+            "message": message
+        }
+        
+        with open('command_result.json', 'w') as f:
+            json.dump(result, f)
+        EOF
+    
+    - name: Handle unknown command
+      if: steps.parse_command.outputs.command != 'add' && steps.parse_command.outputs.command != 'feeds' && steps.parse_command.outputs.command != 'status'
+      run: |
+        python << 'EOF'
+        import json
+        
+        # Load command info
+        with open('command_info.json', 'r') as f:
+            command_info = json.load(f)
+        
+        message = f"❌ Unknown command: `{command_info['command']}`\n"
+        message += "Available commands:\n"
+        message += "• `!add <url>` - Add article to bucket\n"
+        message += "• `!feeds list` - List RSS feeds\n"
+        message += "• `!feeds add \"Name\" <url>` - Add RSS feed\n"
+        message += "• `!status` - Show bucket status"
+        
+        result = {
+            "success": True,
+            "message": message
+        }
+        
+        with open('command_result.json', 'w') as f:
+            json.dump(result, f)
+        EOF
+    
+    - name: Send Discord response
+      if: always()
+      run: |
+        python << 'EOF'
+        import json
+        import requests
+        import os
+        
+        # Load command result
+        if os.path.exists('command_result.json'):
+            with open('command_result.json', 'r') as f:
+                result = json.load(f)
+        else:
+            result = {
+                "success": False,
+                "message": "❌ Command processing failed"
+            }
+        
+        # Load command info
+        with open('command_info.json', 'r') as f:
+            command_info = json.load(f)
+        
+        # Send response to Discord (if webhook URL is configured)
+        webhook_url = os.getenv('DISCORD_WEBHOOK_URL')
+        if webhook_url:
+            try:
+                payload = {
+                    "content": result['message'],
+                    "username": "Bucket Bot",
+                    "avatar_url": "https://github.com/yourusername/bucket/raw/main/assets/bucket-icon.png"
+                }
+                
+                response = requests.post(webhook_url, json=payload)
+                response.raise_for_status()
+                print("Discord response sent successfully")
+                
+            except Exception as e:
+                print(f"Failed to send Discord response: {e}")
+        else:
+            print("No Discord webhook URL configured")
+        
+        print(f"Command result: {result['message']}")
+        EOF
+    
+    - name: Commit changes
+      if: always()
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Add all changes
+        git add data/ outputs/
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "discord: processed ${{ steps.parse_command.outputs.command }} command from ${{ steps.parse_command.outputs.user }}"
+          git push
+        fi

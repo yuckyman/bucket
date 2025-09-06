@@ -1,0 +1,282 @@
+name: Newsletter Generator
+
+on:
+  schedule:
+    # Run daily at 8 AM UTC
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+    inputs:
+      days_back:
+        description: 'Number of days to include in newsletter'
+        required: false
+        default: '7'
+        type: string
+      format:
+        description: 'Output format'
+        required: false
+        default: 'json'
+        type: choice
+        options:
+        - json
+        - markdown
+        - html
+
+jobs:
+  generate-newsletter:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install python-dateutil
+    
+    - name: Generate newsletter
+      id: generate_newsletter
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        from datetime import datetime, timezone, timedelta
+        
+        # Get parameters
+        days_back = int("${{ github.event.inputs.days_back || '7' }}")
+        format_type = "${{ github.event.inputs.format || 'json' }}"
+        
+        # Load articles
+        articles_file = 'data/articles.json'
+        if not os.path.exists(articles_file):
+            print("No articles file found")
+            exit(0)
+        
+        with open(articles_file, 'r') as f:
+            articles = json.load(f)
+        
+        # Load feeds
+        feeds_file = 'data/feeds.json'
+        feeds = []
+        if os.path.exists(feeds_file):
+            with open(feeds_file, 'r') as f:
+                feeds = json.load(f)
+        
+        # Filter articles by date
+        cutoff_date = datetime.now(timezone.utc) - timedelta(days=days_back)
+        recent_articles = []
+        
+        for article in articles:
+            try:
+                article_date = datetime.fromisoformat(article['created_at'].replace('Z', '+00:00'))
+                if article_date >= cutoff_date:
+                    recent_articles.append(article)
+            except:
+                # If date parsing fails, include the article
+                recent_articles.append(article)
+        
+        # Sort by date (newest first)
+        recent_articles.sort(key=lambda x: x['created_at'], reverse=True)
+        
+        # Generate newsletter data
+        newsletter_data = {
+            "date": datetime.now(timezone.utc).strftime('%Y-%m-%d'),
+            "title": f"Daily Briefing - {datetime.now(timezone.utc).strftime('%B %d, %Y')}",
+            "days_back": days_back,
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+            "stats": {
+                "total_articles": len(recent_articles),
+                "total_feeds": len(feeds),
+                "active_feeds": len([f for f in feeds if f.get('is_active', True)]),
+                "total_reading_time": sum(article.get('reading_time', 0) for article in recent_articles),
+                "total_words": sum(article.get('word_count', 0) for article in recent_articles)
+            },
+            "articles": recent_articles,
+            "feeds": feeds
+        }
+        
+        # Create outputs directory
+        os.makedirs('outputs/newsletters', exist_ok=True)
+        os.makedirs('outputs/api', exist_ok=True)
+        
+        # Save JSON format
+        json_filename = f"newsletter-{newsletter_data['date']}.json"
+        with open(f'outputs/newsletters/{json_filename}', 'w') as f:
+            json.dump(newsletter_data, f, indent=2)
+        
+        # Save as latest newsletter API endpoint
+        with open('outputs/api/latest-newsletter.json', 'w') as f:
+            json.dump(newsletter_data, f, indent=2)
+        
+        # Generate markdown format
+        if format_type in ['markdown', 'html']:
+            markdown_content = f"# {newsletter_data['title']}\n\n"
+            markdown_content += f"*Generated on {datetime.now(timezone.utc).strftime('%B %d, %Y at %I:%M %p UTC')}*\n\n"
+            
+            # Add stats
+            stats = newsletter_data['stats']
+            markdown_content += f"## 📊 Summary\n\n"
+            markdown_content += f"- **Articles:** {stats['total_articles']}\n"
+            markdown_content += f"- **Feeds:** {stats['active_feeds']} active\n"
+            markdown_content += f"- **Reading time:** {stats['total_reading_time']} minutes\n"
+            markdown_content += f"- **Words:** {stats['total_words']:,}\n\n"
+            
+            # Add articles
+            if recent_articles:
+                markdown_content += f"## 📰 Recent Articles ({len(recent_articles)})\n\n"
+                
+                for i, article in enumerate(recent_articles[:20], 1):  # Limit to 20
+                    priority_emoji = {
+                        "high": "🔴",
+                        "medium": "🟡",
+                        "low": "🟢"
+                    }.get(article.get('priority', 'medium'), "⚪")
+                    
+                    markdown_content += f"{i}. {priority_emoji} **{article['title']}**\n"
+                    
+                    if article.get('author'):
+                        markdown_content += f"   *By {article['author']}*\n"
+                    
+                    if article.get('source'):
+                        markdown_content += f"   📡 Source: {article['source']}\n"
+                    
+                    markdown_content += f"   📖 {article.get('reading_time', 0)} min • 📅 {article['created_at'][:10]}\n"
+                    markdown_content += f"   🔗 [Read article]({article['url']})\n\n"
+                
+                if len(recent_articles) > 20:
+                    markdown_content += f"... and {len(recent_articles) - 20} more articles\n\n"
+            
+            # Add feeds info
+            if feeds:
+                active_feeds = [f for f in feeds if f.get('is_active', True)]
+                if active_feeds:
+                    markdown_content += f"## 📡 RSS Feeds ({len(active_feeds)} active)\n\n"
+                    
+                    for feed in active_feeds[:10]:  # Limit to 10
+                        markdown_content += f"- **{feed['name']}**\n"
+                        markdown_content += f"  - URL: {feed['url']}\n"
+                        if feed.get('last_fetched'):
+                            markdown_content += f"  - Last fetch: {feed['last_fetched'][:16]}\n"
+                        markdown_content += "\n"
+            
+            # Save markdown
+            markdown_filename = f"newsletter-{newsletter_data['date']}.md"
+            with open(f'outputs/newsletters/{markdown_filename}', 'w') as f:
+                f.write(markdown_content)
+            
+            # Generate HTML if requested
+            if format_type == 'html':
+                html_content = f"""<!DOCTYPE html>
+<html>
+<head>
+    <title>{newsletter_data['title']}</title>
+    <style>
+        body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }}
+        .header {{ border-bottom: 2px solid #333; padding-bottom: 20px; margin-bottom: 30px; }}
+        .stats {{ background: #f5f5f5; padding: 20px; border-radius: 8px; margin-bottom: 30px; }}
+        .article {{ margin-bottom: 20px; padding: 15px; border-left: 4px solid #007acc; background: #fafafa; }}
+        .article h3 {{ margin-top: 0; }}
+        .meta {{ color: #666; font-size: 0.9em; }}
+        .feed {{ margin-bottom: 10px; padding: 10px; background: #f0f0f0; border-radius: 4px; }}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>{newsletter_data['title']}</h1>
+        <p><em>Generated on {datetime.now(timezone.utc).strftime('%B %d, %Y at %I:%M %p UTC')}</em></p>
+    </div>
+    
+    <div class="stats">
+        <h2>📊 Summary</h2>
+        <ul>
+            <li><strong>Articles:</strong> {stats['total_articles']}</li>
+            <li><strong>Feeds:</strong> {stats['active_feeds']} active</li>
+            <li><strong>Reading time:</strong> {stats['total_reading_time']} minutes</li>
+            <li><strong>Words:</strong> {stats['total_words']:,}</li>
+        </ul>
+    </div>
+    
+    <h2>📰 Recent Articles ({len(recent_articles)})</h2>
+"""
+                
+                for article in recent_articles[:20]:
+                    priority_emoji = {
+                        "high": "🔴",
+                        "medium": "🟡",
+                        "low": "🟢"
+                    }.get(article.get('priority', 'medium'), "⚪")
+                    
+                    html_content += f"""
+    <div class="article">
+        <h3>{priority_emoji} {article['title']}</h3>
+        <div class="meta">
+            {f"By {article['author']} • " if article.get('author') else ""}
+            {f"Source: {article['source']} • " if article.get('source') else ""}
+            {article.get('reading_time', 0)} min • {article['created_at'][:10]}
+        </div>
+        <p><a href="{article['url']}" target="_blank">Read article →</a></p>
+    </div>
+"""
+                
+                html_content += """
+    <h2>📡 RSS Feeds</h2>
+"""
+                
+                for feed in [f for f in feeds if f.get('is_active', True)][:10]:
+                    html_content += f"""
+    <div class="feed">
+        <strong>{feed['name']}</strong><br>
+        <small>{feed['url']}</small>
+    </div>
+"""
+                
+                html_content += """
+</body>
+</html>
+"""
+                
+                html_filename = f"newsletter-{newsletter_data['date']}.html"
+                with open(f'outputs/newsletters/{html_filename}', 'w') as f:
+                    f.write(html_content)
+        
+        print(f"Generated newsletter for {newsletter_data['date']}")
+        print(f"Articles: {len(recent_articles)}")
+        print(f"Feeds: {len(feeds)}")
+        
+        # Set outputs
+        print(f"::set-output name=date::{newsletter_data['date']}")
+        print(f"::set-output name=articles_count::{len(recent_articles)}")
+        print(f"::set-output name=feeds_count::{len(feeds)}")
+        EOF
+    
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Add all changes
+        git add outputs/
+        
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "newsletter: generated ${{ steps.generate_newsletter.outputs.date }} briefing with ${{ steps.generate_newsletter.outputs.articles_count }} articles"
+          git push
+        fi
+    
+    - name: Summary
+      run: |
+        echo "## Newsletter Generation Summary" >> $GITHUB_STEP_SUMMARY
+        echo "- **Date:** ${{ steps.generate_newsletter.outputs.date }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Articles:** ${{ steps.generate_newsletter.outputs.articles_count }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Feeds:** ${{ steps.generate_newsletter.outputs.feeds_count }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Status:** ✅ Completed" >> $GITHUB_STEP_SUMMARY
