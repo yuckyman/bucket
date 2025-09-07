@@ -14,9 +14,10 @@ on:
       format:
         description: 'Output format'
         required: false
-        default: 'json'
+        default: 'pdf'
         type: choice
         options:
+        - pdf
         - json
         - markdown
 
@@ -42,25 +43,33 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install python-dateutil
+        pip install python-dateutil jinja2 weasyprint
     
-    - name: Generate newsletter
+    - name: Generate PDF newsletter
       id: generate_newsletter
       run: |
         python << 'EOF'
         import json
         import os
+        import sys
         from datetime import datetime, timezone, timedelta
+        from pathlib import Path
+        
+        # Add current directory to path for imports
+        sys.path.insert(0, '.')
         
         # Get parameters
         days_back = int("${{ github.event.inputs.days_back || '7' }}")
-        format_type = "${{ github.event.inputs.format || 'json' }}"
+        format_type = "${{ github.event.inputs.format || 'pdf' }}"
+        
+        # Import our PDF generator
+        from generate_pdf_newsletter import PDFNewsletterGenerator
         
         # Load articles
         articles_file = 'data/articles.json'
         if not os.path.exists(articles_file):
-            print("No articles file found")
-            exit(0)
+            print("❌ No articles file found")
+            exit(1)
         
         with open(articles_file, 'r') as f:
             articles = json.load(f)
@@ -88,28 +97,24 @@ jobs:
         # Sort by date (newest first)
         recent_articles.sort(key=lambda x: x['created_at'], reverse=True)
         
-        # Generate newsletter data
-        newsletter_data = {
-            "date": datetime.now(timezone.utc).strftime('%Y-%m-%d'),
-            "title": f"Daily Briefing - {datetime.now(timezone.utc).strftime('%B %d, %Y')}",
-            "days_back": days_back,
-            "generated_at": datetime.now(timezone.utc).isoformat(),
-            "stats": {
-                "total_articles": len(recent_articles),
-                "total_feeds": len(feeds),
-                "active_feeds": len([f for f in feeds if f.get('is_active', True)]),
-                "total_reading_time": sum(article.get('reading_time', 0) for article in recent_articles),
-                "total_words": sum(article.get('word_count', 0) for article in recent_articles)
-            },
-            "articles": recent_articles,
-            "feeds": feeds
-        }
+        if not recent_articles:
+            print("❌ No recent articles found")
+            exit(1)
         
         # Create outputs directory
         os.makedirs('outputs/newsletters', exist_ok=True)
         os.makedirs('outputs/api', exist_ok=True)
         
-        # Save JSON format
+        # Initialize PDF generator
+        generator = PDFNewsletterGenerator(
+            template_dir='templates',
+            output_dir='outputs/newsletters'
+        )
+        
+        # Generate newsletter data
+        newsletter_data = generator.generate_newsletter_data(recent_articles, feeds, days_back)
+        
+        # Save JSON for API compatibility
         json_filename = f"newsletter-{newsletter_data['date']}.json"
         with open(f'outputs/newsletters/{json_filename}', 'w') as f:
             json.dump(newsletter_data, f, indent=2)
@@ -118,7 +123,23 @@ jobs:
         with open('outputs/api/latest-newsletter.json', 'w') as f:
             json.dump(newsletter_data, f, indent=2)
         
-        # Generate markdown format
+        # Generate PDF
+        if format_type == 'pdf':
+            try:
+                pdf_path = generator.generate_pdf_newsletter(recent_articles, days_back=days_back)
+                print(f"✅ PDF newsletter generated: {pdf_path}")
+                
+                # Also save PDF to api directory for easy access
+                pdf_filename = f"newsletter-{newsletter_data['date']}.pdf"
+                api_pdf_path = f'outputs/api/{pdf_filename}'
+                os.rename(pdf_path, api_pdf_path)
+                print(f"📄 PDF available at: {api_pdf_path}")
+                
+            except Exception as e:
+                print(f"❌ Error generating PDF: {e}")
+                print("📄 Falling back to JSON format")
+        
+        # Generate markdown format if requested
         if format_type == 'markdown':
             markdown_content = f"# {newsletter_data['title']}\n\n"
             markdown_content += f"*Generated on {datetime.now(timezone.utc).strftime('%B %d, %Y at %I:%M %p UTC')}*\n\n"
@@ -156,27 +177,14 @@ jobs:
                 if len(recent_articles) > 20:
                     markdown_content += f"... and {len(recent_articles) - 20} more articles\n\n"
             
-            # Add feeds info
-            if feeds:
-                active_feeds = [f for f in feeds if f.get('is_active', True)]
-                if active_feeds:
-                    markdown_content += f"## 📡 RSS Feeds ({len(active_feeds)} active)\n\n"
-                    
-                    for feed in active_feeds[:10]:  # Limit to 10
-                        markdown_content += f"- **{feed['name']}**\n"
-                        markdown_content += f"  - URL: {feed['url']}\n"
-                        if feed.get('last_fetched'):
-                            markdown_content += f"  - Last fetch: {feed['last_fetched'][:16]}\n"
-                        markdown_content += "\n"
-            
             # Save markdown
             markdown_filename = f"newsletter-{newsletter_data['date']}.md"
             with open(f'outputs/newsletters/{markdown_filename}', 'w') as f:
                 f.write(markdown_content)
         
-        print(f"Generated newsletter for {newsletter_data['date']}")
-        print(f"Articles: {len(recent_articles)}")
-        print(f"Feeds: {len(feeds)}")
+        print(f"🎉 Newsletter generated for {newsletter_data['date']}")
+        print(f"📊 Articles: {len(recent_articles)}")
+        print(f"📡 Feeds: {len(feeds)}")
         
         # Set outputs using environment files
         with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
@@ -197,7 +205,7 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "newsletter: generated ${{ steps.generate_newsletter.outputs.date }} briefing with ${{ steps.generate_newsletter.outputs.articles_count }} articles"
+          git commit -m "newsletter: generated ${{ steps.generate_newsletter.outputs.date }} PDF briefing with ${{ steps.generate_newsletter.outputs.articles_count }} articles"
           git push
         fi
     
