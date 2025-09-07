@@ -14,129 +14,704 @@
   },
   {
     "id": 2,
-    "name": "Ars Technica",
-    "url": "https://feeds.arstechnica.com/arstechnica/index/",
-    "description": "Technology news and analysis",
+    "name": "Hacker News",
+    "url": "https://news.ycombinator.com/rss",
+    "description": "Tech - Hacker News",
     "is_active": true,
     "tags": [
       "tech",
-      "science",
-      "gaming"
+      "programming"
     ],
-    "last_fetched": "2025-09-07T00:01:59.030087+00:00",
-    "created_at": "2025-01-06T00:00:00Z"
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211807+00:00"
   },
   {
     "id": 3,
-    "name": "The Verge",
-    "url": "https://www.theverge.com/rss/index.xml",
-    "description": "Technology, science, art, and culture",
+    "name": "Reddit Python",
+    "url": "https://www.reddit.com/r/python/top/.rss?limit=5",
+    "description": "Tech - Reddit Python",
     "is_active": true,
     "tags": [
       "tech",
-      "culture",
-      "gaming"
+      "programming",
+      "reddit",
+      "community"
     ],
-    "last_fetched": "2025-09-07T00:02:00.217653+00:00",
-    "created_at": "2025-01-06T00:00:00Z"
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211959+00:00"
   },
   {
     "id": 4,
-    "name": "TechCrunch",
-    "url": "https://techcrunch.com/feed/",
-    "description": "Startup and technology news",
+    "name": "Fmhy",
+    "url": "https://fmhy.net/feed.rss",
+    "description": "Other - Fmhy",
     "is_active": true,
     "tags": [
-      "tech",
-      "startups",
-      "business"
+      "tools",
+      "resources"
     ],
-    "last_fetched": "2025-09-07T00:02:01.263564+00:00",
-    "created_at": "2025-01-06T00:00:00Z"
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211964+00:00"
   },
   {
     "id": 5,
-    "name": "Wired",
-    "url": "https://www.wired.com/feed/rss",
-    "description": "Technology, business, culture, and science",
+    "name": "Behavioral Neuroscience",
+    "url": "http://content.apa.org/journals/bne.rss",
+    "description": "Neuroscience Research - Behavioral Neuroscience",
     "is_active": true,
     "tags": [
-      "tech",
-      "science",
-      "culture"
+      "neuroscience",
+      "research"
     ],
-    "last_fetched": "2025-09-07T00:02:02.443842+00:00",
-    "created_at": "2025-01-06T00:00:00Z"
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211971+00:00"
   },
   {
     "id": 6,
-    "name": "MIT Technology Review",
-    "url": "https://www.technologyreview.com/feed/",
-    "description": "Emerging technology and its impact",
+    "name": "Dreaming",
+    "url": "http://content.apa.org/journals/drm.rss",
+    "description": "Neuroscience Research - Dreaming",
     "is_active": true,
     "tags": [
-      "tech",
-      "science",
-      "ai",
+      "neuroscience",
       "research"
     ],
-    "last_fetched": "2025-09-07T00:02:03.590208+00:00",
-    "created_at": "2025-01-06T00:00:00Z"
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211973+00:00"
   },
   {
     "id": 7,
-    "name": "Lobsters",
-    "url": "https://lobste.rs/rss",
-    "description": "Programming and technology community",
+    "name": "Neuropsychology",
+    "url": "http://content.apa.org/journals/neu.rss",
+    "description": "Neuroscience Research - Neuropsychology",
     "is_active": true,
     "tags": [
-      "programming",
-      "tech",
-      "community"
+      "neuroscience",
+      "research"
     ],
-    "last_fetched": "2025-09-07T00:02:04.820597+00:00",
-    "created_at": "2025-01-06T00:00:00Z"
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211975+00:00"
   },
   {
     "id": 8,
-    "name": "Dev.to",
-    "url": "https://dev.to/feed",
-    "description": "Developer community articles and tutorials",
+    "name": "Clinical Neuroscience",
+    "url": "http://content.apa.org/journals/cns.rss",
+    "description": "Neuroscience Research - Clinical Neuroscience",
     "is_active": true,
     "tags": [
-      "programming",
-      "tutorials",
-      "webdev"
+      "neuroscience",
+      "research"
     ],
-    "last_fetched": "2025-09-07T00:02:05.935995+00:00",
-    "created_at": "2025-01-06T00:00:00Z"
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211977+00:00"
   },
   {
     "id": 9,
-    "name": "GitHub Blog",
-    "url": "https://github.blog/feed/",
-    "description": "GitHub product updates and engineering insights",
+    "name": "Psychomusicology",
+    "url": "http://content.apa.org/journals/pmu.rss",
+    "description": "Neuroscience Research - Psychomusicology",
     "is_active": true,
     "tags": [
-      "github",
-      "programming",
-      "tools"
+      "neuroscience",
+      "research"
     ],
-    "last_fetched": "2025-09-07T00:02:07.133158+00:00",
-    "created_at": "2025-01-06T00:00:00Z"
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211978+00:00"
   },
   {
     "id": 10,
-    "name": "Stack Overflow Blog",
-    "url": "https://stackoverflow.blog/feed/",
-    "description": "Programming insights and developer trends",
+    "name": "Brain Computer Interface",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1rSUu--tbw4049Wgf_RdKXdtNCvGW0lVBZFpHe7zaN4k4DwoD5",
+    "description": "Neuroscience Pubmed Searches - Brain Computer Interface",
     "is_active": true,
     "tags": [
-      "programming",
-      "stackoverflow",
-      "career"
+      "neuroscience",
+      "research",
+      "pubmed",
+      "research"
     ],
-    "last_fetched": "2025-09-07T00:02:08.225813+00:00",
-    "created_at": "2025-01-06T00:00:00Z"
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211982+00:00"
+  },
+  {
+    "id": 11,
+    "name": "Fnirs",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1JKSd2KF3MGnV7oFVD2g6PNu7rHRFDsLyCNjKkkf4KHBUA3c8P",
+    "description": "Neuroscience Pubmed Searches - Fnirs",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "pubmed",
+      "research"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211983+00:00"
+  },
+  {
+    "id": 12,
+    "name": "Tdcs Tacs Trns",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=143rKCPgMwbasrj66gQ1r1ebioUg42SIGRyVKSoW4m6X-ecQ00",
+    "description": "Neuroscience Pubmed Searches - Tdcs Tacs Trns",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "pubmed",
+      "research"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211988+00:00"
+  },
+  {
+    "id": 13,
+    "name": "Braille",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=165yO28ehHLjXJb8W3JvTx2bYozdDe8IvyFRBlOfHZxFR8o1uX",
+    "description": "Neuroscience Pubmed Searches - Braille",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "pubmed",
+      "research"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211990+00:00"
+  },
+  {
+    "id": 14,
+    "name": "Tactile Acuity",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1no_pWrlHWS46ep2l9cVOQkZ1QsEMPlx7YY7aF6AfCIqP-RYZd",
+    "description": "Neuroscience Pubmed Searches - Tactile Acuity",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "pubmed",
+      "research"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211992+00:00"
+  },
+  {
+    "id": 15,
+    "name": "Low Vision",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT",
+    "description": "Neuroscience Pubmed Searches - Low Vision",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "pubmed",
+      "research"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211993+00:00"
+  },
+  {
+    "id": 16,
+    "name": "Oostenveld Robert",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/erss.cgi?rss_guid=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM",
+    "description": "Neuroscience Pubmed Searches - Oostenveld Robert",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "pubmed",
+      "research"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.211996+00:00"
+  },
+  {
+    "id": 17,
+    "name": "Journal Neural Engineering",
+    "url": "http://iopscience.iop.org/journal/rss/1741-2552",
+    "description": "Neuroscience Journals - Journal Neural Engineering",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212000+00:00"
+  },
+  {
+    "id": 18,
+    "name": "Frontiers Neuroscience",
+    "url": "https://www.frontiersin.org/journals/neuroscience/rss",
+    "description": "Neuroscience Journals - Frontiers Neuroscience",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212002+00:00"
+  },
+  {
+    "id": 19,
+    "name": "Frontiers Neurorobotics",
+    "url": "https://www.frontiersin.org/journals/neurorobotics/rss",
+    "description": "Neuroscience Journals - Frontiers Neurorobotics",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212003+00:00"
+  },
+  {
+    "id": 20,
+    "name": "Frontiers Human Neuroscience",
+    "url": "https://www.frontiersin.org/journals/human-neuroscience/rss",
+    "description": "Neuroscience Journals - Frontiers Human Neuroscience",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212005+00:00"
+  },
+  {
+    "id": 21,
+    "name": "Frontiers Computational Neuroscience",
+    "url": "https://www.frontiersin.org/journals/computational-neuroscience/rss",
+    "description": "Neuroscience Journals - Frontiers Computational Neuroscience",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212007+00:00"
+  },
+  {
+    "id": 22,
+    "name": "Frontiers Neuroinformatics",
+    "url": "https://www.frontiersin.org/journals/neuroinformatics/rss",
+    "description": "Neuroscience Journals - Frontiers Neuroinformatics",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212009+00:00"
+  },
+  {
+    "id": 23,
+    "name": "Pnas Neuroscience",
+    "url": "http://feeds.feedburner.com/ProceedingsOfTheNationalAcademyOfSciencesNeuroscience",
+    "description": "Neuroscience Journals - Pnas Neuroscience",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212010+00:00"
+  },
+  {
+    "id": 24,
+    "name": "Journal Neuroscience Current",
+    "url": "http://www.jneurosci.org/rss/current.xml",
+    "description": "Neuroscience Journals - Journal Neuroscience Current",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212012+00:00"
+  },
+  {
+    "id": 25,
+    "name": "Journal Neuroscience This Week",
+    "url": "http://www.jneurosci.org/rss/This_Week_in_The_Journal.xml",
+    "description": "Neuroscience Journals - Journal Neuroscience This Week",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212014+00:00"
+  },
+  {
+    "id": 26,
+    "name": "Nature Neuroscience",
+    "url": "http://feeds.nature.com/neuro/rss/current",
+    "description": "Neuroscience Journals - Nature Neuroscience",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212015+00:00"
+  },
+  {
+    "id": 27,
+    "name": "Nature Neuroscience Subjects",
+    "url": "https://www.nature.com/subjects/neuroscience.rss",
+    "description": "Neuroscience Journals - Nature Neuroscience Subjects",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212017+00:00"
+  },
+  {
+    "id": 28,
+    "name": "Biorxiv Neuroscience",
+    "url": "http://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience",
+    "description": "Neuroscience Journals - Biorxiv Neuroscience",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212018+00:00"
+  },
+  {
+    "id": 29,
+    "name": "Neuroimage",
+    "url": "https://rss.sciencedirect.com/publication/science/10538119",
+    "description": "Neuroscience Journals - Neuroimage",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212020+00:00"
+  },
+  {
+    "id": 30,
+    "name": "Journal Neuroscience Methods",
+    "url": "https://rss.sciencedirect.com/publication/science/01650270_OA/open-access",
+    "description": "Neuroscience Journals - Journal Neuroscience Methods",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212022+00:00"
+  },
+  {
+    "id": 31,
+    "name": "Neuroscience Journal",
+    "url": "https://rss.sciencedirect.com/publication/science/03064522",
+    "description": "Neuroscience Journals - Neuroscience Journal",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212023+00:00"
+  },
+  {
+    "id": 32,
+    "name": "Brain Research",
+    "url": "http://rss.sciencedirect.com/publication/science/00068993",
+    "description": "Neuroscience Journals - Brain Research",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212025+00:00"
+  },
+  {
+    "id": 33,
+    "name": "Clinical Neurophysiology",
+    "url": "https://www.journals.elsevier.com/clinical-neurophysiology/rss",
+    "description": "Neuroscience Journals - Clinical Neurophysiology",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212026+00:00"
+  },
+  {
+    "id": 34,
+    "name": "Nejm Neurology",
+    "url": "https://search.nejm.org/search?cnt=20&start_month=12&start_year=2008&w=*&restrict=doctype%3Aarticle&srt=0&isort=date&ts=rss&af=topic:1",
+    "description": "Neuroscience Journals - Nejm Neurology",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "journal",
+      "academic"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212028+00:00"
+  },
+  {
+    "id": 35,
+    "name": "Arxiv Qbio Nc",
+    "url": "http://export.arxiv.org/rss/q-bio.NC",
+    "description": "Neuroscience Preprints - Arxiv Qbio Nc",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212030+00:00"
+  },
+  {
+    "id": 36,
+    "name": "Arxiv Cs Hc",
+    "url": "http://export.arxiv.org/rss/cs.HC",
+    "description": "Neuroscience Preprints - Arxiv Cs Hc",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212032+00:00"
+  },
+  {
+    "id": 37,
+    "name": "Embs",
+    "url": "https://www.embs.org/feed/",
+    "description": "Neuroscience Ieee - Embs",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "ieee",
+      "engineering"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212034+00:00"
+  },
+  {
+    "id": 38,
+    "name": "Cognitive Neuroscience",
+    "url": "https://ieeexplore.ieee.org/rss/TOC6720218.XML",
+    "description": "Neuroscience Ieee - Cognitive Neuroscience",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "ieee",
+      "engineering"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212036+00:00"
+  },
+  {
+    "id": 39,
+    "name": "Reviews Biomedical Engineering",
+    "url": "https://ieeexplore.ieee.org/rss/TOC4664312.XML",
+    "description": "Neuroscience Ieee - Reviews Biomedical Engineering",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "ieee",
+      "engineering"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212039+00:00"
+  },
+  {
+    "id": 40,
+    "name": "Transactions Biomedical Engineering",
+    "url": "https://ieeexplore.ieee.org/rss/TOC10.XML",
+    "description": "Neuroscience Ieee - Transactions Biomedical Engineering",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "ieee",
+      "engineering"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212041+00:00"
+  },
+  {
+    "id": 41,
+    "name": "Biosurface Biotribology",
+    "url": "https://ieeexplore.ieee.org/rss/TOC8335903.XML",
+    "description": "Neuroscience Ieee - Biosurface Biotribology",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "ieee",
+      "engineering"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212042+00:00"
+  },
+  {
+    "id": 42,
+    "name": "Transactions Haptics",
+    "url": "https://ieeexplore.ieee.org/rss/TOC4543165.XML",
+    "description": "Neuroscience Ieee - Transactions Haptics",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "ieee",
+      "engineering"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212044+00:00"
+  },
+  {
+    "id": 43,
+    "name": "Brain",
+    "url": "https://brain.ieee.org/feed/",
+    "description": "Neuroscience Ieee - Brain",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "ieee",
+      "engineering"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212045+00:00"
+  },
+  {
+    "id": 44,
+    "name": "Life Sciences",
+    "url": "https://lifesciences.ieee.org/feed/",
+    "description": "Neuroscience Ieee - Life Sciences",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "ieee",
+      "engineering"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212047+00:00"
+  },
+  {
+    "id": 45,
+    "name": "Erp Boot Camp",
+    "url": "https://erpinfo.org/blog?format=RSS",
+    "description": "Neuroscience Blogs - Erp Boot Camp",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "blog",
+      "news"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212049+00:00"
+  },
+  {
+    "id": 46,
+    "name": "Sapien Labs",
+    "url": "https://sapienlabs.co/feed/",
+    "description": "Neuroscience Blogs - Sapien Labs",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "blog",
+      "news"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212051+00:00"
+  },
+  {
+    "id": 47,
+    "name": "Twenty Percent Statistician",
+    "url": "http://daniellakens.blogspot.com/feeds/posts/default?alt=rss",
+    "description": "Neuroscience Blogs - Twenty Percent Statistician",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "blog",
+      "news"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212053+00:00"
+  },
+  {
+    "id": 48,
+    "name": "Fens Awards",
+    "url": "https://www.fens.org/RSS/Awards/",
+    "description": "Neuroscience Blogs - Fens Awards",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "blog",
+      "news"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212054+00:00"
+  },
+  {
+    "id": 49,
+    "name": "Fens News",
+    "url": "https://www.fens.org/RSS/News/",
+    "description": "Neuroscience Blogs - Fens News",
+    "is_active": true,
+    "tags": [
+      "neuroscience",
+      "research",
+      "blog",
+      "news"
+    ],
+    "last_fetched": null,
+    "created_at": "2025-09-07T00:36:32.212056+00:00"
   }
 ]
