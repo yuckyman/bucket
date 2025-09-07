@@ -295,6 +295,11 @@ if DISCORD_AVAILABLE:
                     inline=False
                 )
                 embed.add_field(
+                    name="📡 !add feed \"Name\" <url>",
+                    value="Quick shortcut to add a new RSS feed\n**Usage:** `!add feed \"Nature Neuroscience\" https://feeds.nature.com/neuro/rss/current`\n**What it does:** Adds a new RSS feed with auto-detected tags",
+                    inline=False
+                )
+                embed.add_field(
                     name="📰 !feeds [add|remove|toggle|list]",
                     value="Unified RSS feed management\n**Usage:** `!feeds add \"Feed Name\" https://example.com/rss` or `!feeds list`\n**What it does:** Add, remove, toggle, or list RSS feeds in one command",
                     inline=False

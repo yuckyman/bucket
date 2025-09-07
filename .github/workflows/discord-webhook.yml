@@ -162,6 +162,98 @@ jobs:
             json.dump(result, f)
         EOF
     
+    - name: Handle !add feed command
+      if: steps.parse_command.outputs.command == 'add' && steps.parse_command.outputs.args[0] == 'feed'
+      run: |
+        python << 'EOF'
+        import json
+        import os
+        from datetime import datetime, timezone
+        
+        # Load command info
+        with open('command_info.json', 'r') as f:
+            command_info = json.load(f)
+        
+        # Check if we have enough args: !add feed "NAME" URL
+        if len(command_info['args']) < 3:
+            message = "❌ Usage: `!add feed \"Feed Name\" https://example.com/rss`"
+        else:
+            name = command_info['args'][1]
+            url = command_info['args'][2]
+            
+            # Load feeds
+            feeds_file = 'data/feeds.json'
+            if os.path.exists(feeds_file):
+                with open(feeds_file, 'r') as f:
+                    feeds = json.load(f)
+            else:
+                feeds = []
+            
+            # Validate URL
+            if not url.startswith(('http://', 'https://')):
+                message = f"❌ Invalid URL: {url}"
+            else:
+                # Check if feed already exists
+                existing_urls = {feed['url'] for feed in feeds}
+                if url in existing_urls:
+                    message = f"❌ Feed already exists: {url}"
+                else:
+                    # Find next available ID
+                    max_id = max([feed['id'] for feed in feeds], default=0)
+                    new_id = max_id + 1
+                    
+                    # Auto-detect tags based on URL/name
+                    tags = []
+                    if 'neuroscience' in name.lower() or 'neuro' in name.lower():
+                        tags.extend(['neuroscience', 'research'])
+                    if 'pubmed' in url.lower() or 'ncbi' in url.lower():
+                        tags.extend(['pubmed', 'research'])
+                    if 'arxiv' in url.lower():
+                        tags.extend(['preprint', 'research'])
+                    if 'ieee' in url.lower():
+                        tags.extend(['ieee', 'engineering'])
+                    if 'frontiers' in url.lower():
+                        tags.extend(['journal', 'academic'])
+                    if 'nature' in url.lower():
+                        tags.extend(['journal', 'academic'])
+                    if 'reddit' in url.lower():
+                        tags.extend(['reddit', 'community'])
+                    if 'github' in url.lower():
+                        tags.extend(['github', 'programming'])
+                    if not tags:
+                        tags = ['general']
+                    
+                    # Add new feed
+                    new_feed = {
+                        "id": new_id,
+                        "name": name,
+                        "url": url,
+                        "description": f"Added via Discord by {command_info['user']}",
+                        "is_active": True,
+                        "tags": tags,
+                        "last_fetched": None,
+                        "created_at": datetime.now(timezone.utc).isoformat()
+                    }
+                    feeds.append(new_feed)
+                    
+                    # Save feeds
+                    with open(feeds_file, 'w') as f:
+                        json.dump(feeds, f, indent=2)
+                    
+                    message = f"✅ Added feed: **{name}** (ID: {new_feed['id']})\n"
+                    message += f"🏷️ **Tags:** {', '.join(tags)}\n"
+                    message += f"🔗 **URL:** {url}\n"
+                    message += f"🟢 **Status:** Active"
+        
+        result = {
+            "success": True,
+            "message": message
+        }
+        
+        with open('command_result.json', 'w') as f:
+            json.dump(result, f)
+        EOF
+    
     - name: Handle !feeds command
       if: steps.parse_command.outputs.command == 'feeds'
       run: |
@@ -203,29 +295,61 @@ jobs:
                 name = command_info['args'][1]
                 url = command_info['args'][2]
                 
-                # Check if feed already exists
-                existing_urls = {feed['url'] for feed in feeds}
-                if url in existing_urls:
-                    message = f"❌ Feed already exists: {url}"
+                # Validate URL
+                if not url.startswith(('http://', 'https://')):
+                    message = f"❌ Invalid URL: {url}"
                 else:
-                    # Add new feed
-                    new_feed = {
-                        "id": len(feeds) + 1,
-                        "name": name,
-                        "url": url,
-                        "description": f"Added via Discord by {command_info['user']}",
-                        "is_active": True,
-                        "tags": [],
-                        "last_fetched": None,
-                        "created_at": datetime.now(timezone.utc).isoformat()
-                    }
-                    feeds.append(new_feed)
-                    
-                    # Save feeds
-                    with open(feeds_file, 'w') as f:
-                        json.dump(feeds, f, indent=2)
-                    
-                    message = f"✅ Added feed: **{name}** (ID: {new_feed['id']})"
+                    # Check if feed already exists
+                    existing_urls = {feed['url'] for feed in feeds}
+                    if url in existing_urls:
+                        message = f"❌ Feed already exists: {url}"
+                    else:
+                        # Find next available ID
+                        max_id = max([feed['id'] for feed in feeds], default=0)
+                        new_id = max_id + 1
+                        
+                        # Auto-detect tags based on URL/name
+                        tags = []
+                        if 'neuroscience' in name.lower() or 'neuro' in name.lower():
+                            tags.extend(['neuroscience', 'research'])
+                        if 'pubmed' in url.lower() or 'ncbi' in url.lower():
+                            tags.extend(['pubmed', 'research'])
+                        if 'arxiv' in url.lower():
+                            tags.extend(['preprint', 'research'])
+                        if 'ieee' in url.lower():
+                            tags.extend(['ieee', 'engineering'])
+                        if 'frontiers' in url.lower():
+                            tags.extend(['journal', 'academic'])
+                        if 'nature' in url.lower():
+                            tags.extend(['journal', 'academic'])
+                        if 'reddit' in url.lower():
+                            tags.extend(['reddit', 'community'])
+                        if 'github' in url.lower():
+                            tags.extend(['github', 'programming'])
+                        if not tags:
+                            tags = ['general']
+                        
+                        # Add new feed
+                        new_feed = {
+                            "id": new_id,
+                            "name": name,
+                            "url": url,
+                            "description": f"Added via Discord by {command_info['user']}",
+                            "is_active": True,
+                            "tags": tags,
+                            "last_fetched": None,
+                            "created_at": datetime.now(timezone.utc).isoformat()
+                        }
+                        feeds.append(new_feed)
+                        
+                        # Save feeds
+                        with open(feeds_file, 'w') as f:
+                            json.dump(feeds, f, indent=2)
+                        
+                        message = f"✅ Added feed: **{name}** (ID: {new_feed['id']})\n"
+                        message += f"🏷️ **Tags:** {', '.join(tags)}\n"
+                        message += f"🔗 **URL:** {url}\n"
+                        message += f"🟢 **Status:** Active"
         
         else:
             message = f"❌ Unknown action: {action}. Use: `list`, `add`"
@@ -297,6 +421,7 @@ jobs:
         message = f"❌ Unknown command: `{command_info['command']}`\n"
         message += "Available commands:\n"
         message += "• `!add <url>` - Add article to bucket\n"
+        message += "• `!add feed \"Name\" <url>` - Add RSS feed (shortcut)\n"
         message += "• `!feeds list` - List RSS feeds\n"
         message += "• `!feeds add \"Name\" <url>` - Add RSS feed\n"
         message += "• `!status` - Show bucket status"
