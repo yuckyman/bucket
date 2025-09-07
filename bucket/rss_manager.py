@@ -52,7 +52,10 @@ class RSSManager:
             tags=tags or [],
             is_active=True
         )
-        return await self.db.add_feed(feed)
+        feed_id = await self.db.save_feed(feed)
+        if feed_id:
+            feed.id = feed_id
+        return feed
     
     async def update_feed(self, feed_id: int, **kwargs) -> Optional[Feed]:
         """Update an existing RSS feed."""
