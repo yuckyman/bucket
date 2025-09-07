@@ -11,14 +11,14 @@ import os
 from datetime import datetime
 
 # Configuration
-GITHUB_REPO = "yourusername/bucket"  # Update this with your actual repo
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Set this as an environment variable
+GITHUB_REPO = os.getenv("GH_REPO", "ian/bucket")  # Update this with your actual repo
+GITHUB_TOKEN = os.getenv("GH_PAT")  # Personal Access Token
 
 def send_discord_command(command, args=None, user="Discord User", channel="Discord Channel"):
     """Send a Discord command to trigger a GitHub workflow."""
     
     if not GITHUB_TOKEN:
-        print("Error: GITHUB_TOKEN environment variable not set")
+        print("Error: GH_PAT environment variable not set")
         return False
     
     if not args:

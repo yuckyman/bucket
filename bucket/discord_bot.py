@@ -43,11 +43,83 @@ if DISCORD_AVAILABLE:
                     print(f"🎯 Restricted to channel: {self.allowed_channel_id}")
             
             @self.command(name="add")
-            async def add_url(ctx, url: str):
+            async def add_url(ctx, *args):
                 # Check if command is in allowed channel
                 if self.allowed_channel_id and ctx.channel.id != self.allowed_channel_id:
                     return
-                """Add a URL to the bucket."""
+                """Add a URL to the bucket or add an RSS feed."""
+                
+                # Handle !add feed "Name" URL case
+                if len(args) >= 3 and args[0].lower() == "feed":
+                    feed_name = args[1]
+                    feed_url = args[2]
+                    
+                    # Create initial embed
+                    embed = discord.Embed(
+                        title="📡 Adding RSS Feed",
+                        description=f"Adding feed: **{feed_name}**",
+                        color=discord.Color.blue(),
+                        timestamp=datetime.utcnow()
+                    )
+                    embed.add_field(name="URL", value=feed_url, inline=False)
+                    embed.add_field(name="Status", value="⏳ Triggering GitHub Action...", inline=False)
+                    
+                    message = await ctx.send(embed=embed)
+                    
+                    # Trigger GitHub Action for feed adding
+                    try:
+                        import requests
+                        import os
+                        
+                        # Get GitHub token and repo info
+                        github_token = os.getenv("GITHUB_TOKEN")
+                        github_repo = os.getenv("GITHUB_REPO", "yourusername/bucket")  # Update this
+                        
+                        if not github_token:
+                            raise Exception("GitHub token not configured")
+                        
+                        # Prepare payload for GitHub Actions
+                        payload = {
+                            "event_type": "discord_command",
+                            "client_payload": {
+                                "command": "feeds",
+                                "args": ["add", feed_name, feed_url],
+                                "user": ctx.author.display_name,
+                                "channel": ctx.channel.name,
+                                "timestamp": datetime.utcnow().isoformat()
+                            }
+                        }
+                        
+                        # Send to GitHub Actions
+                        url = f"https://api.github.com/repos/{github_repo}/dispatches"
+                        headers = {
+                            "Authorization": f"token {github_token}",
+                            "Accept": "application/vnd.github.v3+json"
+                        }
+                        
+                        response = requests.post(url, headers=headers, json=payload)
+                        response.raise_for_status()
+                        
+                        embed.color = discord.Color.green()
+                        embed.set_field_at(1, name="Status", value="✅ Feed addition triggered!", inline=False)
+                        embed.add_field(name="Method", value="GitHub Actions", inline=True)
+                        embed.add_field(name="Processing", value="In Progress", inline=True)
+                        embed.set_footer(text="🪣 Feed will be added to data/feeds.json • Use !feeds list to verify")
+                        
+                        await message.edit(embed=embed)
+                        
+                    except Exception as e:
+                        embed.color = discord.Color.red()
+                        embed.set_field_at(1, name="Status", value=f"❌ Error: {str(e)}", inline=False)
+                        await message.edit(embed=embed)
+                    return
+                
+                # Handle regular !add URL case
+                if len(args) != 1:
+                    await ctx.send("❌ Usage: `!add <url>` or `!add feed \"Name\" <url>`")
+                    return
+                
+                url = args[0]
                 if not self._is_valid_url(url):
                     await ctx.send("❌ Invalid URL provided.")
                     return
@@ -104,14 +176,10 @@ if DISCORD_AVAILABLE:
                 
                 try:
                     if action.lower() == "add":
-                        # Add a new feed
+                        # Add a new feed via GitHub Actions
                         if not name_or_id or not url:
                             await ctx.send("❌ Usage: `!feeds add \"Feed Name\" https://example.com/rss`")
                             return
-                        
-                        # Import RSS manager
-                        from .rss_manager import RSSManager
-                        rss_manager = RSSManager(self.db)
                         
                         # Create initial embed
                         embed = discord.Embed(
@@ -121,19 +189,49 @@ if DISCORD_AVAILABLE:
                             timestamp=datetime.utcnow()
                         )
                         embed.add_field(name="URL", value=url, inline=False)
-                        embed.add_field(name="Status", value="⏳ Adding to database...", inline=False)
+                        embed.add_field(name="Status", value="⏳ Triggering GitHub Action...", inline=False)
                         
                         message = await ctx.send(embed=embed)
                         
-                        # Add the feed
+                        # Trigger GitHub Action for feed adding
                         try:
-                            feed = await rss_manager.add_feed(name_or_id, url)
+                            import requests
+                            import os
+                            
+                            # Get GitHub token and repo info
+                            github_token = os.getenv("GH_PAT")  # Personal Access Token
+                            github_repo = os.getenv("GH_REPO", "ian/bucket")  # Update this
+                            
+                            if not github_token:
+                                raise Exception("GitHub token not configured")
+                            
+                            # Prepare payload for GitHub Actions
+                            payload = {
+                                "event_type": "discord_command",
+                                "client_payload": {
+                                    "command": "feeds",
+                                    "args": ["add", name_or_id, url],
+                                    "user": ctx.author.display_name,
+                                    "channel": ctx.channel.name,
+                                    "timestamp": datetime.utcnow().isoformat()
+                                }
+                            }
+                            
+                            # Send to GitHub Actions
+                            url = f"https://api.github.com/repos/{github_repo}/dispatches"
+                            headers = {
+                                "Authorization": f"token {github_token}",
+                                "Accept": "application/vnd.github.v3+json"
+                            }
+                            
+                            response = requests.post(url, headers=headers, json=payload)
+                            response.raise_for_status()
                             
                             embed.color = discord.Color.green()
-                            embed.set_field_at(1, name="Status", value="✅ Feed added successfully!", inline=False)
-                            embed.add_field(name="Feed ID", value=str(feed.id), inline=True)
-                            embed.add_field(name="Active", value="Yes", inline=True)
-                            embed.set_footer(text=f"🪣 Use !rss refresh to fetch articles • Feed ID: {feed.id}")
+                            embed.set_field_at(1, name="Status", value="✅ Feed addition triggered!", inline=False)
+                            embed.add_field(name="Method", value="GitHub Actions", inline=True)
+                            embed.add_field(name="Processing", value="In Progress", inline=True)
+                            embed.set_footer(text="🪣 Feed will be added to data/feeds.json • Use !feeds list to verify")
                             
                             await message.edit(embed=embed)
                             
@@ -312,6 +410,11 @@ if DISCORD_AVAILABLE:
                 embed.add_field(
                     name="📋 !brief [days] [format]",
                     value="Generate a quick briefing of recent articles and RSS feeds\n**Usage:** `!brief 7 discord` (default: 7 days, discord format)\n**Formats:** `discord` (embed), `pdf` (downloadable PDF)\n**What it shows:** Recent articles, active RSS feeds, and reading stats",
+                    inline=False
+                )
+                embed.add_field(
+                    name="🧹 !cleanup [days]",
+                    value="Clean up duplicate articles from the database\n**Usage:** `!cleanup` (default: 30 days) or `!cleanup 7`\n**What it does:** Removes duplicate articles based on URL, title similarity, and content hash",
                     inline=False
                 )
                 embed.add_field(
@@ -509,6 +612,72 @@ if DISCORD_AVAILABLE:
                         timestamp=datetime.utcnow()
                     )
                     await original_message.edit(embed=embed)
+            
+            @self.command(name="cleanup")
+            async def cleanup_duplicates(ctx, days_back: int = 30):
+                # Check if command is in allowed channel
+                if self.allowed_channel_id and ctx.channel.id != self.allowed_channel_id:
+                    return
+                """Clean up duplicate articles from the database."""
+                
+                # Create initial embed
+                embed = discord.Embed(
+                    title="🧹 Duplicate Cleanup",
+                    description=f"Starting duplicate cleanup for articles from the last {days_back} days...",
+                    color=discord.Color.blue(),
+                    timestamp=datetime.utcnow()
+                )
+                embed.add_field(name="Status", value="⏳ Analyzing articles...", inline=False)
+                
+                message = await ctx.send(embed=embed)
+                
+                try:
+                    # Import RSS manager
+                    from .rss_manager import RSSManager
+                    
+                    # Initialize RSS manager
+                    rss_manager = RSSManager(self.db)
+                    
+                    # Run cleanup
+                    result = await rss_manager.cleanup_duplicates(days_back)
+                    
+                    if result["success"]:
+                        embed.color = discord.Color.green()
+                        embed.description = f"✅ Duplicate cleanup completed!"
+                        embed.set_field_at(0, name="Status", value="✅ Completed", inline=False)
+                        
+                        embed.add_field(
+                            name="📊 Results",
+                            value=(f"• **Total Articles:** {result['total_articles']}\n"
+                                  f"• **Duplicates Found:** {result['duplicates_found']}\n"
+                                  f"• **Duplicates Removed:** {result['duplicates_removed']}\n"
+                                  f"• **Sources Checked:** {result['sources_checked']}"),
+                            inline=False
+                        )
+                        
+                        embed.add_field(
+                            name="💡 Message",
+                            value=result["message"],
+                            inline=False
+                        )
+                    else:
+                        embed.color = discord.Color.red()
+                        embed.description = f"❌ Duplicate cleanup failed!"
+                        embed.set_field_at(0, name="Status", value="❌ Failed", inline=False)
+                        embed.add_field(
+                            name="Error",
+                            value=result.get("error", "Unknown error"),
+                            inline=False
+                        )
+                    
+                    embed.set_footer(text="🪣 Use !cleanup [days] to specify how many days back to check")
+                    await message.edit(embed=embed)
+                    
+                except Exception as e:
+                    embed.description = f"❌ Error during cleanup: {str(e)}"
+                    embed.color = discord.Color.red()
+                    embed.set_field_at(0, name="Status", value="❌ Error", inline=False)
+                    await message.edit(embed=embed)
             
             @self.command(name="rss")
             async def rss_command(ctx, action: str = "show", days_or_arg: str = "3", format_type: str = "discord"):

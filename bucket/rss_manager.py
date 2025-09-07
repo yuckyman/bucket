@@ -83,9 +83,9 @@ class RSSManager:
             saved_articles = []
             for article in articles[:max_articles]:  # Limit to max_articles
                 try:
-                    # Check if article already exists
-                    existing = await self.db.get_article_by_url(str(article.url))
-                    if existing:
+                    # Enhanced duplicate checking
+                    if await self._is_duplicate_article(article, feed):
+                        print(f"🔄 Skipping duplicate article: {article.title[:50]}...")
                         continue
                     
                     # Update article with feed information
@@ -258,6 +258,224 @@ class RSSManager:
                 matching_feeds.append(feed)
         
         return matching_feeds
+    
+    async def _is_duplicate_article(self, article: Article, feed: Feed) -> bool:
+        """Check if an article is a duplicate using multiple criteria."""
+        try:
+            # 1. Check by exact URL match
+            existing_by_url = await self.db.get_article_by_url(str(article.url))
+            if existing_by_url:
+                return True
+            
+            # 2. Check by title similarity (for cases where URLs might vary)
+            if article.title:
+                # Get recent articles from the same source
+                recent_articles = await self.db.get_articles_by_source(feed.name)
+                
+                for existing_article in recent_articles:
+                    if existing_article.title and self._titles_similar(article.title, existing_article.title):
+                        # Also check if published dates are close (within 24 hours)
+                        if (article.published_date and existing_article.published_date and
+                            abs((article.published_date - existing_article.published_date).total_seconds()) < 86400):
+                            return True
+            
+            # 3. Check by content hash if available
+            if hasattr(article, 'content') and article.content:
+                content_hash = self._get_content_hash(article.content)
+                if content_hash:
+                    # Check if any recent article has the same content hash
+                    recent_articles = await self.db.get_articles_by_source(feed.name)
+                    for existing_article in recent_articles:
+                        if (hasattr(existing_article, 'content') and existing_article.content and
+                            self._get_content_hash(existing_article.content) == content_hash):
+                            return True
+            
+            return False
+            
+        except Exception as e:
+            print(f"❌ Error checking for duplicates: {e}")
+            # If there's an error, err on the side of caution and don't save
+            return True
+    
+    def _titles_similar(self, title1: str, title2: str, threshold: float = 0.8) -> bool:
+        """Check if two titles are similar using simple string comparison."""
+        if not title1 or not title2:
+            return False
+        
+        # Normalize titles (lowercase, remove extra spaces)
+        norm1 = ' '.join(title1.lower().split())
+        norm2 = ' '.join(title2.lower().split())
+        
+        # If titles are identical after normalization
+        if norm1 == norm2:
+            return True
+        
+        # Check if one title contains the other (for truncated titles)
+        if norm1 in norm2 or norm2 in norm1:
+            return True
+        
+        # Simple similarity check using common words
+        words1 = set(norm1.split())
+        words2 = set(norm2.split())
+        
+        if len(words1) == 0 or len(words2) == 0:
+            return False
+        
+        # Calculate Jaccard similarity
+        intersection = len(words1.intersection(words2))
+        union = len(words1.union(words2))
+        similarity = intersection / union if union > 0 else 0
+        
+        return similarity >= threshold
+    
+    def _get_content_hash(self, content: str) -> Optional[str]:
+        """Generate a simple hash of the content for duplicate detection."""
+        if not content:
+            return None
+        
+        try:
+            import hashlib
+            # Take first 1000 characters to avoid very long content
+            content_sample = content[:1000]
+            return hashlib.md5(content_sample.encode('utf-8')).hexdigest()
+        except Exception:
+            return None
+    
+    async def cleanup_duplicates(self, days_back: int = 30) -> Dict[str, Any]:
+        """Clean up duplicate articles from the database."""
+        try:
+            print(f"🧹 Starting duplicate cleanup for articles from the last {days_back} days...")
+            
+            # Get recent articles
+            cutoff_date = datetime.utcnow() - timedelta(days=days_back)
+            recent_articles = await self.db.get_articles_since(cutoff_date, limit=1000)
+            
+            if not recent_articles:
+                return {
+                    "success": True,
+                    "total_articles": 0,
+                    "duplicates_found": 0,
+                    "duplicates_removed": 0,
+                    "message": "No recent articles found"
+                }
+            
+            print(f"📊 Analyzing {len(recent_articles)} recent articles for duplicates...")
+            
+            # Group articles by source for more efficient duplicate detection
+            articles_by_source = {}
+            for article in recent_articles:
+                source = article.source or "Unknown"
+                if source not in articles_by_source:
+                    articles_by_source[source] = []
+                articles_by_source[source].append(article)
+            
+            duplicates_found = 0
+            duplicates_removed = 0
+            
+            # Process each source separately
+            for source, articles in articles_by_source.items():
+                print(f"🔍 Checking {len(articles)} articles from {source}...")
+                
+                # Sort by creation date (newest first)
+                articles.sort(key=lambda x: x.created_at, reverse=True)
+                
+                # Find duplicates within this source
+                seen_urls = set()
+                seen_titles = {}
+                seen_content_hashes = {}
+                
+                for article in articles:
+                    is_duplicate = False
+                    duplicate_reason = ""
+                    
+                    # Check URL duplicates
+                    if str(article.url) in seen_urls:
+                        is_duplicate = True
+                        duplicate_reason = "URL"
+                    else:
+                        seen_urls.add(str(article.url))
+                    
+                    # Check title duplicates
+                    if not is_duplicate and article.title:
+                        title_key = ' '.join(article.title.lower().split())
+                        for seen_title, seen_article in seen_titles.items():
+                            if self._titles_similar(title_key, seen_title):
+                                # Check if published dates are close
+                                if (article.published_date and seen_article.published_date and
+                                    abs((article.published_date - seen_article.published_date).total_seconds()) < 86400):
+                                    is_duplicate = True
+                                    duplicate_reason = "Title similarity"
+                                    break
+                        
+                        if not is_duplicate:
+                            seen_titles[title_key] = article
+                    
+                    # Check content hash duplicates
+                    if not is_duplicate and hasattr(article, 'content') and article.content:
+                        content_hash = self._get_content_hash(article.content)
+                        if content_hash and content_hash in seen_content_hashes:
+                            is_duplicate = True
+                            duplicate_reason = "Content hash"
+                        elif content_hash:
+                            seen_content_hashes[content_hash] = article
+                    
+                    if is_duplicate:
+                        duplicates_found += 1
+                        print(f"🗑️  Removing duplicate article: {article.title[:50]}... (Reason: {duplicate_reason})")
+                        
+                        # Remove from database
+                        if await self._remove_article_from_db(article.id):
+                            duplicates_removed += 1
+            
+            result = {
+                "success": True,
+                "total_articles": len(recent_articles),
+                "duplicates_found": duplicates_found,
+                "duplicates_removed": duplicates_removed,
+                "sources_checked": len(articles_by_source),
+                "message": f"Cleanup completed: {duplicates_removed}/{duplicates_found} duplicates removed"
+            }
+            
+            print(f"✅ Duplicate cleanup completed: {duplicates_removed}/{duplicates_found} duplicates removed")
+            return result
+            
+        except Exception as e:
+            print(f"❌ Error during duplicate cleanup: {e}")
+            return {
+                "success": False,
+                "error": str(e),
+                "message": "Duplicate cleanup failed"
+            }
+    
+    async def _remove_article_from_db(self, article_id: int) -> bool:
+        """Remove an article from the database by ID."""
+        try:
+            if not SQLALCHEMY_AVAILABLE:
+                print("⚠️  SQLAlchemy not available, cannot remove article")
+                return False
+            
+            async with self.db.AsyncSessionLocal() as session:
+                from sqlalchemy import select, delete
+                from .database import ArticleTable
+                
+                # First check if article exists
+                stmt = select(ArticleTable).where(ArticleTable.id == article_id)
+                result = await session.execute(stmt)
+                article = result.scalar_one_or_none()
+                
+                if not article:
+                    return False
+                
+                # Delete the article
+                delete_stmt = delete(ArticleTable).where(ArticleTable.id == article_id)
+                await session.execute(delete_stmt)
+                await session.commit()
+                
+                return True
+                
+        except Exception as e:
+            print(f"❌ Error removing article {article_id}: {e}")
+            return False
 
 
 class RSSBriefingFormatter:

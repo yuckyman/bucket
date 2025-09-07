@@ -143,7 +143,28 @@ class RSSScheduler:
         try:
             self.logger.info(f"Executing schedule '{name}'")
             
-            if config.feed_id:
+            # Check if this is a cleanup schedule
+            if name.startswith("duplicate_cleanup"):
+                # Execute duplicate cleanup
+                result = await self.rss_manager.cleanup_duplicates(days_back=30)
+                
+                update_result = {
+                    "schedule_name": name,
+                    "type": "cleanup",
+                    "success": result["success"],
+                    "total_articles": result.get("total_articles", 0),
+                    "duplicates_found": result.get("duplicates_found", 0),
+                    "duplicates_removed": result.get("duplicates_removed", 0),
+                    "message": result.get("message", ""),
+                    "error": result.get("error") if not result["success"] else None
+                }
+                
+                if result["success"]:
+                    self.logger.info(f"Duplicate cleanup completed: {result['duplicates_removed']}/{result['duplicates_found']} duplicates removed")
+                else:
+                    self.logger.error(f"Duplicate cleanup failed: {result.get('error', 'Unknown error')}")
+            
+            elif config.feed_id:
                 # Update specific feed
                 result = await self.rss_manager.refresh_feed(config.feed_id, config.max_articles)
                 
@@ -153,6 +174,7 @@ class RSSScheduler:
                 
                 update_result = {
                     "schedule_name": name,
+                    "type": "feed_update",
                     "feed_id": config.feed_id,
                     "feed_name": result["feed"].name,
                     "new_articles": result["new_articles"],
@@ -165,6 +187,7 @@ class RSSScheduler:
                 
                 update_result = {
                     "schedule_name": name,
+                    "type": "feed_update",
                     "feed_id": None,
                     "feeds_processed": len(results),
                     "new_articles": total_new,
@@ -239,6 +262,34 @@ class RSSScheduler:
             "next_run": config.next_run.isoformat() if config.next_run else None
         }
     
+    def add_daily_cleanup_schedule(self, hour: int = 14, minute: int = 0, days_back: int = 30) -> str:
+        """Add a daily duplicate cleanup schedule at a specific time (UTC)."""
+        name = "duplicate_cleanup_daily"
+        
+        # Calculate minutes until next run
+        now = datetime.utcnow()
+        next_run = now.replace(hour=hour, minute=minute, second=0, microsecond=0)
+        
+        # If the time has passed today, schedule for tomorrow
+        if next_run <= now:
+            next_run += timedelta(days=1)
+        
+        # Calculate interval in minutes (24 hours)
+        interval_minutes = 24 * 60
+        
+        config = ScheduleConfig(
+            feed_id=None,  # Special value for cleanup
+            interval_minutes=interval_minutes,
+            max_articles=0,  # Not used for cleanup
+            enabled=True,
+            last_run=None,
+            next_run=next_run,
+            callback_url=None,
+            callback_data={"days_back": days_back}
+        )
+        
+        return self.add_schedule(name, config)
+    
     def get_status(self) -> Dict[str, Any]:
         """Get scheduler status and statistics."""
         schedule_status = []
@@ -251,7 +302,8 @@ class RSSScheduler:
                 "feed_id": config.feed_id,
                 "last_run": config.last_run.isoformat() if config.last_run else None,
                 "next_run": config.next_run.isoformat() if config.next_run else None,
-                "has_callback": bool(config.callback_url)
+                "has_callback": bool(config.callback_url),
+                "type": "cleanup" if name.startswith("duplicate_cleanup") else "feed_update"
             })
         
         return {
@@ -357,6 +409,10 @@ class DiscordRSSScheduler:
     async def stop(self):
         """Stop the Discord RSS scheduler."""
         await self.scheduler.stop()
+    
+    def add_daily_cleanup_schedule(self, hour: int = 14, minute: int = 0, days_back: int = 30) -> str:
+        """Add a daily duplicate cleanup schedule at 14:00 UTC by default."""
+        return self.scheduler.add_daily_cleanup_schedule(hour, minute, days_back)
     
     def get_status(self) -> Dict[str, Any]:
         """Get scheduler status."""
