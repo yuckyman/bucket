@@ -1,90 +1,26 @@
 {
-  "last_updated": "2025-09-07T13:21:38.716923+00:00",
+  "last_updated": "2025-09-07T13:39:05.156719+00:00",
   "count": 20,
   "articles": [
     {
-      "id": "a3ba2441ed30567c76292b13f5bc01b9",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325004925?dgcid=rss_sd_all",
-      "title": "Levofloxacin-induced seizure susceptibility involves both enhanced glutamatergic and impaired GABAergic synaptic function",
-      "content": "<p>Publication date: 1 November 2025</p><p><b>Source:</b> Brain Research, Volume 1866</p><p>Author(s): Kunmei He, Lina He, Xing Wei, Xiaojuan Wang, Muhua Zhou, Yingying Cao, Xibao Luo, Junrui He</p>",
+      "id": "e100195b72b69f7728f58fc64db71551",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925004471?dgcid=rss_sd_all",
+      "title": "Brain metabolite concentrations in neonates with congenital heart disease before and after cardiac surgery",
+      "content": "<p>Publication date: 1 October 2025</p><p><b>Source:</b> NeuroImage, Volume 319</p><p>Author(s): Steve C.N. Hui, Nickie Andescavage, Julius S. Ngwa, Kushal Kapse, Jonathan G. Murnick, Mary T. Donofrio, Adre J. du Plessis, Catherine Limperopoulos</p>",
       "author": "",
       "published_date": null,
-      "source": "Brain Research",
+      "source": "Neuroimage",
       "status": "pending",
       "priority": "medium",
       "tags": [],
-      "word_count": 25,
+      "word_count": 30,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:21:13.888746+00:00",
-      "updated_at": "2025-09-07T13:21:13.888748+00:00"
+      "created_at": "2025-09-07T13:38:36.680098+00:00",
+      "updated_at": "2025-09-07T13:38:36.680100+00:00"
     },
     {
-      "id": "c8c9b5b6c05c95e8445d5e44570a0b4f",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673723v1?rss=1",
-      "title": "Conserved Axonal Transcriptome Dynamics Underlie PGE2-Induced Sensitisation and Identify Tnfrsf12a/Fn14 as a Regulator of Neuronal Excitability in DRG Neurons",
-      "content": "Chronic pain arises when dorsal root ganglion (DRG) neurons become sensitised to noxious inputs, a process driven by inflammatory mediators such as prostaglandin E2 (PGE2). Local translation of axonal mRNAs is a key regulator of nociceptor plasticity, yet how axonal transcriptome dynamics contribute to inflammatory sensitisation remains unclear. Using compartmentalised culture systems and RNA-sequencing, we defined axonal and somatic transcriptomes in embryonic (E16.5) and adult (W8) DRG neurons and assessed their remodelling after PGE2 exposure. We identify a conserved core axonal transcriptome spanning embryonic to adult stages, prominently enriched for ribosomal and mitochondrial functions, consistent with sustained translational and metabolic demands. PGE2 elicited compartment-specific reprogramming: pathways related to sensory processing and pain were upregulated in axons but downregulated in somata. Functionally, prolonged axonal PGE2 exposure enhanced capsaicin-evoked calcium responses and drove retrograde sensitisation of neuronal somata. Integrating transcriptomics with functional assays, we pinpointed Tnfrsf12a (Fn14), a cytokine receptor linked to regeneration and neuropathic pain, as a PGE2-induced axonal mRNA. Crucially, local axonal knockdown of Tnfrsf12a significantly reduced neuronal excitability, providing proof-of-concept that axonally enriched transcripts can be targeted to modulate sensitisation. These findings position conserved axonal transcriptome programmes as drivers of peripheral sensitisation and establish Tnfrsf12a/Fn14 as a therapeutic candidate for inflammatory pain.",
-      "author": "Arendt-Tranholm, A., Fort, R. S., Pope, R., Rathbone, A., Hathway, G., Sotelo-Silveira, J., Chapman, V., de Moor, C. H., Dajas-Bailador, F.",
-      "published_date": "2025-09-07T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 203,
-      "reading_time": 1,
-      "created_at": "2025-09-07T13:21:09.388541+00:00",
-      "updated_at": "2025-09-07T13:21:09.388543+00:00"
-    },
-    {
-      "id": "bba377d7a0fe9699e58b2c9a7c37e533",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673635v1?rss=1",
-      "title": "Benchmarking Orientation Distribution Function Estimation Methods for Tractometry in Single-Shell Diffusion Magnetic Resonance Imaging - An Evaluation of Test-Retest Reliability and Predictive Capability",
-      "content": "Deriving white matter (WM) bundles in-vivo has thus far mainly been applied in research settings, leveraging high angular resolution, multi-shell diffusion MRI (dMRI) acquisitions that enable advanced reconstruction methods. However, these advanced acquisitions are both time-consuming and costly to acquire. The ability to reconstruct WM bundles in the massive amounts of existing single-shelled, lower angular resolution data from legacy research studies and healthcare systems would offer much broader clinical applications and population-level generalizability. While legacy scans may offer a valuable, large-scale complement to contemporary research datasets, the reliability of white matter bundles derived from these scans remains unclear. Here, we leverage a large research dataset where each 64-direction dMRI scan was acquired as two independent 32-direction runs per subject. To investigate how recently developed bundle segmentation methods generalize to this data, we evaluated the test-retest reliability of the two 32-direction scans, of WM bundle extraction across three orientation distribution function (ODF) reconstruction methods: generalized q-sampling imaging (GQI), constrained spherical deconvolution (CSD), and single-shell three-tissue CSD (SS3T). We found that the majority of WM bundles could be reliably extracted from dMRI scans that were acquired using the 32-direction, single-shell acquisition scheme. The mean dice coefficient of reconstructed WM bundles was consistently higher within-subject than between-subject for all WM bundles and ODF reconstruction methods, illustrating preservation of person-specific anatomy. Further, when using features of the bundles to predict complex reasoning assessed using a computerized cognitive battery, we observed stable prediction accuracies (r: 0.15-0.36) across the test-retest data. Among the three ODF reconstruction methods, SS3T had a good balance between sensitivity and specificity in external validation, a high intra-class correlation of extracted features, more plausible bundles, and strong predictive performance. More broadly, these results demonstrate that bundle segmentation can achieve robust performance even on lower angular resolution, single-shell dMRI, with particular advantages for ODF methods optimized for single-shell data. This highlights the considerable potential for dMRI collected in healthcare settings and legacy research datasets to accelerate and expand the scope of WM research.",
-      "author": "Rauland, A., Meisler, S. L., Alexander-Bloch, A. F., Bagautdinova, J., Baller, E. B., Gur, R. E., Gur, R. C., Luo, A. C., Moore, T. M., Popovych, O. V., Reetz, K., Roalf, D. R., Shinohara, R. T., Sotardi, S., Sydnor, V. J., Vossough, A., Eickhoff, S. B., Cieslak, M., Satterthwaite, T. D.",
-      "published_date": "2025-09-07T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 330,
-      "reading_time": 1,
-      "created_at": "2025-09-07T13:21:09.388505+00:00",
-      "updated_at": "2025-09-07T13:21:09.388507+00:00"
-    },
-    {
-      "id": "90a11bbfc3484e054b92988118e897dc",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673774v1?rss=1",
-      "title": "Redefined Strategies to generate Conditional miR-141/200c miRNA cluster Knockout mice to eliminate confounding neo cassettes",
-      "content": "MicroRNAs (miRNAs) of the miR-200 family specifically miR-141 and miR0-200c regulate neurogenesis, differentiation, and epithelial mesenchymal transitions in development and several diseases including cancer and stroke. The STOCK Mirc13tm1Mtm /Mmjax mouse line, which targets the miR-141/200c cluster, was originally described by Park et al. (2012) as a conditional knockout-first allele requiring a two-step breeding strategy: Flp recombination to excise lacZ/neo cassettes followed by Cre recombination to delete the floxed miRNA cluster. However, subsequent studies frequently bypassed this step and reported knockouts based on direct crosses with Cre mouse lines, leaving residual lacZ/neo sequences that may silence upstream elements or introduce transcriptional artifacts. Here, we present a detailed and refined strategy to generate both global and tissue-specific miR-141/200c knockouts that adheres to the original design intent and eliminates confounding cassettes. Our approach confirmed robust baseline expression of miR-141 and miR-200c in various organs such olfactory bulbs and lungs where these miRNAs are robustly expressed, with near-complete loss of expression in knockout animals as validated by qPCR and in situ hybridization. By restoring a clean floxed allele prior to Cre deletion, we establish a reliable and interpretable mouse model for dissecting the roles of the miR-141/200c cluster miRNA in various disease models in these mice.",
-      "author": "Verma, R., Srivastava, R., Yadav, S. K., Cormier, M.-K., Yee, S.-P., Lowther, K.",
-      "published_date": "2025-09-07T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 203,
-      "reading_time": 1,
-      "created_at": "2025-09-07T13:21:09.388453+00:00",
-      "updated_at": "2025-09-07T13:21:09.388455+00:00"
-    },
-    {
-      "id": "d68c9df9929f3cf2d7b7ef7af1f0f33d",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673707v1?rss=1",
-      "title": "Obesogenic Diet Impairs Social Memory Through Alterations of Hippocampal CA2 Excitability and Oxytocin Signaling",
-      "content": "While obesity induces cardio-metabolic disorders and cognitive deficits, the underlying neural mechanisms remain unexplored. In mice, exposure to an obesogenic high-fat and sugar diet (HFD) resulted in social recognition memory deficits, a process that is dependent upon hippocampal area CA2 and oxytocin signaling. HFD-fed mice had stronger inputs onto CA2 pyramidal neurons that led to increased action potential firing, without altering intrinsic properties or inhibitory transmission. Chemogenetic CA2 inhibition rescued HFD-induced social memory deficits, confirming the role of CA2 hyperexcitability in these effects. In CA2, oxytocin receptor activation resulted in membrane depolarization, spontaneous action-potential firing and permitted endocannabinoid-mediated plasticity in control diet-fed mice, but not HFD-fed littermates. In a concentration-dependent manner, oxytocin restored potentiation of excitatory responses and allowed for endocannabinoid plasticity at CA2 inhibitory synapses as well as social memory deficits in HFD-fed mice. By investigating the influence of diet on hippocampal area CA2, this study uncovers novel mechanisms linking neuromodulation and plasticity in social memory encoding.",
-      "author": "Muller, M., Fermigier, A., Ducourneau, E. G., Rakotonandrasana, A., Ferreira, G., Chevaleyre, V., Piskorowski, R. A.",
-      "published_date": "2025-09-07T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 158,
-      "reading_time": 1,
-      "created_at": "2025-09-07T13:21:09.388407+00:00",
-      "updated_at": "2025-09-07T13:21:09.388411+00:00"
-    },
-    {
-      "id": "56c1aa164187cca3865aeea51d03d57f",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38873838/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907092051&v=2.18.0.post9+e462414",
+      "id": "cf4b525d69e6045e2675b8d8401280f9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38873838/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907093816&v=2.18.0.post9+e462414",
       "title": "The impact of CSF-filled cavities on scalp EEG and its implications",
       "content": "Previous studies have found electroencephalogram (EEG) amplitude and scalp topography differences between neurotypical and neurological/neurosurgical groups, being interpreted at the cognitive level. However, these comparisons are invariably accompanied by anatomical changes. Critical to EEG are the so-called volume currents, which are affected by the spatial distribution of the different tissues in the head. We investigated the effect of cerebrospinal fluid (CSF)-filled cavities on simulated...",
       "author": "Maria Carla Piastra",
@@ -95,12 +31,12 @@
       "tags": [],
       "word_count": 64,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:52.847844+00:00",
-      "updated_at": "2025-09-07T13:20:52.847846+00:00"
+      "created_at": "2025-09-07T13:38:18.117215+00:00",
+      "updated_at": "2025-09-07T13:38:18.117217+00:00"
     },
     {
-      "id": "0184fd03a15b05e96fc735dc4450b542",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38956071/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907092051&v=2.18.0.post9+e462414",
+      "id": "29b51c33657e63af6cde01e542aba8e4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38956071/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907093816&v=2.18.0.post9+e462414",
       "title": "Motion-BIDS: an extension to the brain imaging data structure to organize motion data for reproducible research",
       "content": "We present an extension to the Brain Imaging Data Structure (BIDS) for motion data. Motion data is frequently recorded alongside human brain imaging and electrophysiological data. The goal of Motion-BIDS is to make motion data interoperable across different laboratories and with other data modalities in human brain and behavioral research. To this end, Motion-BIDS standardizes the data format and metadata structure. It describes how to document experimental details, considering the diversity of...",
       "author": "Julius Welzel",
@@ -111,12 +47,12 @@
       "tags": [],
       "word_count": 72,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:52.847820+00:00",
-      "updated_at": "2025-09-07T13:20:52.847822+00:00"
+      "created_at": "2025-09-07T13:38:18.117192+00:00",
+      "updated_at": "2025-09-07T13:38:18.117193+00:00"
     },
     {
-      "id": "01cf4ac934cc3b6eaa2e97499bcdf953",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39174725/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907092051&v=2.18.0.post9+e462414",
+      "id": "409d0ca9ff022756c377c4f9bdaa809e",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39174725/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907093816&v=2.18.0.post9+e462414",
       "title": "One hundred years of EEG for brain and behaviour research",
       "content": "No abstract",
       "author": "Pedro Valdes-Sosa",
@@ -127,12 +63,12 @@
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:52.847771+00:00",
-      "updated_at": "2025-09-07T13:20:52.847773+00:00"
+      "created_at": "2025-09-07T13:38:18.117168+00:00",
+      "updated_at": "2025-09-07T13:38:18.117170+00:00"
     },
     {
-      "id": "9a63532d3f82c45e8ab0da1b50801c71",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39229492/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907092051&v=2.18.0.post9+e462414",
+      "id": "8e9e0044f7790b6e1258d61e85721e34",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39229492/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907093816&v=2.18.0.post9+e462414",
       "title": "Freezing of gait in Parkinson's disease is related to imbalanced stopping-related cortical activity",
       "content": "Freezing of gait, characterized by involuntary interruptions of walking, is a debilitating motor symptom of Parkinson's disease that restricts people's autonomy. Previous brain imaging studies investigating the mechanisms underlying freezing were restricted to scan people in supine positions and yielded conflicting theories regarding the role of the supplementary motor area and other cortical regions. We used functional near-infrared spectroscopy to investigate cortical haemodynamics related to...",
       "author": "Richard J A van Wezel",
@@ -143,12 +79,12 @@
       "tags": [],
       "word_count": 65,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:52.847749+00:00",
-      "updated_at": "2025-09-07T13:20:52.847751+00:00"
+      "created_at": "2025-09-07T13:38:18.117143+00:00",
+      "updated_at": "2025-09-07T13:38:18.117144+00:00"
     },
     {
-      "id": "e157abef71a0e1218b3d150c62d0dd32",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39308505/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907092051&v=2.18.0.post9+e462414",
+      "id": "15197ea95f21e0565aaf40fa9716f2be",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39308505/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907093816&v=2.18.0.post9+e462414",
       "title": "The past, present, and future of the brain imaging data structure (BIDS)",
       "content": "The Brain Imaging Data Structure (BIDS) is a community-driven standard for the organization of data and metadata from a growing range of neuroscience modalities. This paper is meant as a history of how the standard has developed and grown over time. We outline the principles behind the project, the mechanisms by which it has been extended, and some of the challenges being addressed as it evolves. We also discuss the lessons learned through the project, with the aim of enabling researchers in...",
       "author": "Krzysztof J Gorgolewski",
@@ -159,12 +95,12 @@
       "tags": [],
       "word_count": 82,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:52.847726+00:00",
-      "updated_at": "2025-09-07T13:20:52.847728+00:00"
+      "created_at": "2025-09-07T13:38:18.117115+00:00",
+      "updated_at": "2025-09-07T13:38:18.117117+00:00"
     },
     {
-      "id": "251044fd24c8275645dc4364a39a0983",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39786979/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907092051&v=2.18.0.post9+e462414",
+      "id": "41b837881150eaacfeb2c6f84f7703c1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39786979/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907093816&v=2.18.0.post9+e462414",
       "title": "Human cortical high-gamma power scales with movement rate in healthy participants and stroke survivors",
       "content": "Motor cortical high-gamma oscillations (60-90 Hz) occur at movement onset and are spatially focused over the contralateral primary motor cortex. Although high-gamma oscillations are widely recognized for their significance in human motor control, their precise function on a cortical level remains elusive. Importantly, their relevance in human stroke pathophysiology is unknown. Because motor deficits are fundamental determinants of symptom burden after stroke, understanding the neurophysiological...",
       "author": "Fanny Quandt",
@@ -175,12 +111,12 @@
       "tags": [],
       "word_count": 65,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:52.847695+00:00",
-      "updated_at": "2025-09-07T13:20:52.847697+00:00"
+      "created_at": "2025-09-07T13:38:18.117089+00:00",
+      "updated_at": "2025-09-07T13:38:18.117090+00:00"
     },
     {
-      "id": "642fa1444c21086a2ebab4a5a02f5251",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39870674/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907092051&v=2.18.0.post9+e462414",
+      "id": "6f572d84769f80c02429b87ea8bb9c8d",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39870674/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907093816&v=2.18.0.post9+e462414",
       "title": "NIRS-BIDS: Brain Imaging Data Structure Extended to Near-Infrared Spectroscopy",
       "content": "Functional near-infrared spectroscopy (fNIRS) is an increasingly popular neuroimaging technique that measures cortical hemodynamic activity in a non-invasive and portable fashion. Although the fNIRS community has been successful in disseminating open-source processing tools and a standard file format (SNIRF), reproducible research and sharing of fNIRS data amongst researchers has been hindered by a lack of standards and clarity over how study data should be organized and stored. This problem is...",
       "author": "Luca Pollonini",
@@ -191,12 +127,12 @@
       "tags": [],
       "word_count": 70,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:52.847673+00:00",
-      "updated_at": "2025-09-07T13:20:52.847674+00:00"
+      "created_at": "2025-09-07T13:38:18.117064+00:00",
+      "updated_at": "2025-09-07T13:38:18.117066+00:00"
     },
     {
-      "id": "1c325bd3e0738198f558fd941a43e1c0",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40568426/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907092051&v=2.18.0.post9+e462414",
+      "id": "27b08df30cd8425c125a5344d0df1d64",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40568426/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907093816&v=2.18.0.post9+e462414",
       "title": "Pseudonymisation of neuroimages and data protection: <em>Increasing access to data while retaining scientific utility</em>",
       "content": "For a number of years, facial features removal techniques such as 'defacing', 'skull stripping' and 'face masking/blurring', were considered adequate privacy preserving tools to openly share brain images. Scientifically, these measures were already a compromise between data protection requirements and research impact of such data. Now, recent advances in machine learning and deep learning that indicate an increased possibility of re-identifiability from defaced neuroimages, have increased the...",
       "author": "Lyuba Zehl",
@@ -207,12 +143,12 @@
       "tags": [],
       "word_count": 67,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:52.847648+00:00",
-      "updated_at": "2025-09-07T13:20:52.847650+00:00"
+      "created_at": "2025-09-07T13:38:18.117036+00:00",
+      "updated_at": "2025-09-07T13:38:18.117038+00:00"
     },
     {
-      "id": "bced072ebab5dba60746ef0273f356d8",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40800958/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907092051&v=2.18.0.post9+e462414",
+      "id": "7e89d6e3dfbd5d4a86de2a61c1eaaa57",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40800958/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907093816&v=2.18.0.post9+e462414",
       "title": "Cycling on the Freeway: The perilous state of open-source neuroscience software",
       "content": "Most scientists need software to perform their research (Barker et al., 2020;Carver et al., 2022;Hettrick, 2014;Hettrick et al., 2014;Switters & Osimo, 2019), and neuroscientists are no exception. Whether we work with reaction times, electrophysiological signals, or magnetic resonance imaging data, we rely on software to acquire, analyze, and statistically evaluate the raw data we obtain-or to generate such data if we work with simulations. In recent years, there has been a shift toward relying...",
       "author": "Tim M Tierney",
@@ -223,12 +159,12 @@
       "tags": [],
       "word_count": 74,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:52.847622+00:00",
-      "updated_at": "2025-09-07T13:20:52.847624+00:00"
+      "created_at": "2025-09-07T13:38:18.117012+00:00",
+      "updated_at": "2025-09-07T13:38:18.117013+00:00"
     },
     {
-      "id": "3454810a626286146cf537fcddc27c2b",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40800964/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907092051&v=2.18.0.post9+e462414",
+      "id": "562aefa6b33b6ccbfce15bb6d49df0d3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40800964/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250907093816&v=2.18.0.post9+e462414",
       "title": "Optimal configuration of on-scalp OPMs with fixed channel counts",
       "content": "Recent technological developments have brought optically pumped magnetometers (OPMs) within reach of the larger neuroscientific community. The current state-of-the-art consists of whole-head systems that measure the magnetic field at >100 locations. OPM sensors can be constructed to measure the field in either 1, 2, or 3 orientations. Consequently, the number of channels can differ from the number of sensors. This allows for magnetoencephalography (MEG) system designs with multiple measurement...",
       "author": "Robert Oostenveld",
@@ -239,12 +175,12 @@
       "tags": [],
       "word_count": 69,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:52.847590+00:00",
-      "updated_at": "2025-09-07T13:20:52.847595+00:00"
+      "created_at": "2025-09-07T13:38:18.116978+00:00",
+      "updated_at": "2025-09-07T13:38:18.116983+00:00"
     },
     {
-      "id": "6639d6ec209215230b9dd1fb102f78bb",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40911097/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907092049&v=2.18.0.post9+e462414",
+      "id": "1a2898183ce7f87ade28e0d9f5e7fdc6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40911097/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907093814&v=2.18.0.post9+e462414",
       "title": "Developing an intelligent model to detect the level of diabetic retinopathy using blood vessel pattern extraction in retinal images",
       "content": "Diabetic retinopathy is a chronic and progressive eye disease in which the human retina is affected by an increase in the amount of insulin in the blood. Diabetic retinopathy, if not detected and treated in time, threatens the patient's vision and eventually causes complete blindness. Among various clinical symptoms, microaneurysm appears as the first sign of diabetic retinopathy. Accurate and reliable detection of microaneurysms is a challenging problem due to its small size and low contrast....",
       "author": "Hamid Reza Naji",
@@ -255,12 +191,12 @@
       "tags": [],
       "word_count": 76,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:50.309186+00:00",
-      "updated_at": "2025-09-07T13:20:50.309188+00:00"
+      "created_at": "2025-09-07T13:38:15.225970+00:00",
+      "updated_at": "2025-09-07T13:38:15.225972+00:00"
     },
     {
-      "id": "f2aa3755e2ba26a22da6fa4dd556510b",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40911159/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907092049&v=2.18.0.post9+e462414",
+      "id": "339b73b15a549f0feddf8ca8eba01393",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40911159/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907093814&v=2.18.0.post9+e462414",
       "title": "Enhancing Breast Density Assessment in Mammograms Through Artificial Intelligence",
       "content": "Breast cancer is the leading cause of cancer-related deaths among women worldwide. Early detection through mammography significantly improves outcomes, with breast density acting as both a risk factor and a key interpretive feature. Although the Breast Imaging Reporting and Data System (BI-RADS) provides standardized density categories, assessments are often subjective and variable. While automated tools exist, most are proprietary and resource-intensive, limiting their use in underserved...",
       "author": "Liciana Vaz de Arruda Silveira",
@@ -271,12 +207,12 @@
       "tags": [],
       "word_count": 66,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:50.309163+00:00",
-      "updated_at": "2025-09-07T13:20:50.309164+00:00"
+      "created_at": "2025-09-07T13:38:15.225932+00:00",
+      "updated_at": "2025-09-07T13:38:15.225933+00:00"
     },
     {
-      "id": "7f27efdfa856fb5f2b5212c01b13dbe8",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40912037/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907092049&v=2.18.0.post9+e462414",
+      "id": "73f89d9bb9d473c0d414cc6e990a6689",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40912037/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907093814&v=2.18.0.post9+e462414",
       "title": "Prevalence of self-reported severe vision impairment and its association with sociodemographic characteristics and chronic diseases in Mexico: A nationwide cross-sectional study",
       "content": "CONCLUSIONS: These results highlight subgroups with a higher prevalence of severe vision impairment. Policymakers in Mexico and countries with Mexican populations should prioritize effective eye health for marginalized and disadvantaged groups. Implementing the United Nations General Assembly resolution to include eye care in universal health coverage can reach those most affected.",
       "author": "Luis E Segura",
@@ -287,12 +223,12 @@
       "tags": [],
       "word_count": 51,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:50.309140+00:00",
-      "updated_at": "2025-09-07T13:20:50.309141+00:00"
+      "created_at": "2025-09-07T13:38:15.225910+00:00",
+      "updated_at": "2025-09-07T13:38:15.225911+00:00"
     },
     {
-      "id": "82ab460736908fa381f49d44cef5506b",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40912065/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907092049&v=2.18.0.post9+e462414",
+      "id": "e30bf3e66ab0fcd69f4e38890ce00b8d",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40912065/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907093814&v=2.18.0.post9+e462414",
       "title": "Scaling up antenatal multiple micronutrient supplementation in Africa: A unified call for action",
       "content": "Maternal undernutrition in Africa remains a public health challenge, contributing to negative pregnancy outcomes, neonatal mortality, and perpetuating intergenerational cycles of poor health. Antenatal multiple micronutrient supplementation (MMS), a cost-effective intervention recognized for its potential to improve maternal and neonatal health, reduces risks of low birth weight, preterm birth, small for gestational age, and stillbirth while offering a $37 return for every $1 invested. Despite...",
       "author": "Monica J Fox",
@@ -303,12 +239,12 @@
       "tags": [],
       "word_count": 65,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:50.309119+00:00",
-      "updated_at": "2025-09-07T13:20:50.309120+00:00"
+      "created_at": "2025-09-07T13:38:15.225889+00:00",
+      "updated_at": "2025-09-07T13:38:15.225890+00:00"
     },
     {
-      "id": "f3926d1b1f5e8bcf23ce6e02f5aa5a54",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40913074/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907092049&v=2.18.0.post9+e462414",
+      "id": "1aa3ddfbe9ffe24b47f9d0fa04f56c0b",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40913074/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907093814&v=2.18.0.post9+e462414",
       "title": "Antibiotic exposure and drug-induced intracranial hypertension: a systematic review and meta-analysis",
       "content": "CONCLUSIONS: Despite unclear pathophysiology, low certainty evidence supports that tetracycline and quinolone class antibiotics are associated with DIH. Dose-response studies are needed to support causality.",
       "author": "Edward A Margolin",
@@ -319,8 +255,72 @@
       "tags": [],
       "word_count": 25,
       "reading_time": 1,
-      "created_at": "2025-09-07T13:20:50.309095+00:00",
-      "updated_at": "2025-09-07T13:20:50.309097+00:00"
+      "created_at": "2025-09-07T13:38:15.225865+00:00",
+      "updated_at": "2025-09-07T13:38:15.225867+00:00"
+    },
+    {
+      "id": "13e66bbacbc40e44db195234f07cb498",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40913324/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907093814&v=2.18.0.post9+e462414",
+      "title": "Response of accommodation and vergence systems to low dose atropine",
+      "content": "CONCLUSIONS: Atropine (0.05%) use disrupted accommodation significantly over 10 days and increased convergence at near. While near heterophoria shifted towards esophoria, participants' ability to counteract this was also diminished by a reduction in NFV. This suggests that the near heterophoria and fusional reserves of children using 0.05% atropine for myopia control should be monitored closely.",
+      "author": "Natasha L Westcott",
+      "published_date": "2025-09-06T10:00:00+00:00",
+      "source": "Low Vision",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 55,
+      "reading_time": 1,
+      "created_at": "2025-09-07T13:38:15.225840+00:00",
+      "updated_at": "2025-09-07T13:38:15.225842+00:00"
+    },
+    {
+      "id": "d21a03e2a43de4684af656bd1108193a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40913739/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907093814&v=2.18.0.post9+e462414",
+      "title": "---Pars plana vitrectomy in congenital X-linked retinoschisis: a scoping review",
+      "content": "CONCLUSIONS: Vitrectomy may improve schisis cavity volume in XLRS, with a tolerable safety profile observed in a small number of studies. However, the relatively low single-surgery success rate for XLRS-RD highlights the complex anatomy in these eyes. These findings should be considered when assessing anatomic outcomes from novel therapies that require PPV, including subretinal gene therapy.",
+      "author": "Nieraj Jain",
+      "published_date": "2025-09-06T10:00:00+00:00",
+      "source": "Low Vision",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 56,
+      "reading_time": 1,
+      "created_at": "2025-09-07T13:38:15.225817+00:00",
+      "updated_at": "2025-09-07T13:38:15.225818+00:00"
+    },
+    {
+      "id": "1cfe5cd3372e5bb76011fda9d507b670",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40913939/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907093814&v=2.18.0.post9+e462414",
+      "title": "Exploring touch-colour associations in achromatopsia: A case study",
+      "content": "Crossmodal correspondences - systematic mappings between stimulus attributes in different modalities - are ubiquitous in the general population. For example, high-pitched (vs low-pitched) sounds are commonly associated with elevated (vs low) positions in space, and rounded (vs angular) shapes tend to be linked to the term 'Bouba' (vs 'Kiki'). There is still some debate about the role of immediate sensory experience versus conceptual colour understanding in crossmodal correspondences. In...",
+      "author": "R Rouw",
+      "published_date": "2025-09-06T10:00:00+00:00",
+      "source": "Low Vision",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 69,
+      "reading_time": 1,
+      "created_at": "2025-09-07T13:38:15.225794+00:00",
+      "updated_at": "2025-09-07T13:38:15.225796+00:00"
+    },
+    {
+      "id": "bb761c91eec8027267abb5e679565170",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40914347/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250907093814&v=2.18.0.post9+e462414",
+      "title": "Blackcurrant anthocyanins improve visual contrast resolution for optokinetic responses in aging mice",
+      "content": "Visual motion perception declines during natural aging in most animals including humans. Edible berries of blackcurrant (BC) and its extracted anthocyanins (BCAs) have beneficial effects on human eyes. However, the effect of BCAs on the perception of moving objects and other dynamic visual patterns remains unknown. In the current study, we investigated whether BCAs improve visual movement perception in aging mice. The aging mice were fed either a standard diet or a standard diet containing BC....",
+      "author": "Takahisa Furukawa",
+      "published_date": "2025-09-06T10:00:00+00:00",
+      "source": "Low Vision",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 76,
+      "reading_time": 1,
+      "created_at": "2025-09-07T13:38:15.225770+00:00",
+      "updated_at": "2025-09-07T13:38:15.225772+00:00"
     }
   ]
 }
