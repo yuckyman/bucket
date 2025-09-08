@@ -1,0 +1,55 @@
+name: Cleanup Duplicates
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # Daily at 14:00 UTC
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Conda
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          activate-environment: bucket
+          auto-activate-base: false
+          python-version: '3.12'
+          environment-file: ''
+          auto-update-conda: true
+
+      - name: Install dependencies (conda + pip)
+        shell: bash -l {0}
+        run: |
+          conda install -y -c conda-forge sqlite aiosqlite
+          pip install -e .
+
+      - name: Prepare database artifact
+        shell: bash -l {0}
+        run: |
+          # Use repo-stored DB if present; otherwise initialize empty
+          [[ -f bucket.db ]] || touch bucket.db
+
+      - name: Run duplicate cleanup
+        env:
+          BUCKET_DB_PATH: bucket.db
+          BUCKET_CLEANUP_DAYS: '30'
+        shell: bash -l {0}
+        run: |
+          python scripts/run_duplicate_cleanup.py
+
+      - name: Upload updated DB and API outputs
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cleanup-artifacts
+          path: |
+            bucket.db
+            outputs/api/*.json
+
+
