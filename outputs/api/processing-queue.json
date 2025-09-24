@@ -1,59 +1,27 @@
 {
-  "last_updated": "2025-09-24T12:29:20.230925+00:00",
-  "pending_count": 985,
-  "processed_count": 15,
+  "last_updated": "2025-09-24T14:12:55.042239+00:00",
+  "pending_count": 980,
+  "processed_count": 20,
   "pending_articles": [
     {
-      "id": "0c4b179d57d599ed88b1b9f8be735359",
-      "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae00f5",
-      "title": "Personalized beta band HD-tACS over the left SMA improves speech and limb movement by modulating prefrontal delta oscillations in neurotypical young adults",
-      "content": "Objective. The supplementary motor area (SMA) demonstrates abnormal beta activity (13\u201330 Hz) during speech and limb movement tasks in neurological conditions such as Parkinson\u2019s disease (PD). Transcranial alternating current stimulation (tACS) has demonstrated promising improvement in motor and non-motor functions by entraining endogenous neural oscillations. We conducted an exploratory study on the modulatory effects of personalized beta high-definition (HD)-tACS over the left SMA on speech production and limb movement. Approach. In a repeated-measures experiment, twenty-two neurotypical young adults were recruited to participate in four stimulation conditions: sham, HD transcranial random noise stimulation (HD-tRNS), and HD-tACS tuned to each individual\u2019s frequency of maximal SMA beta activity (identified using source-localized EEG) during speech (tuned-to-speech, TtS) and limb movement (tuned-to-limb, TtL). All participants completed a 25 min sham/active stimulation over the left SMA, followed by an interleaved speech production and limb movement task. Main results. Behavioral results showed that active stimulation resulted in more pronounced improvements in reaction times compared to the sham condition, regardless of the active stimulation type. The neural correlates of this aftereffect were indicated by a prominent modulation in delta power in prefrontal and frontocentral electrodes during speech and limb movement tasks following personalized beta TtS and TtL HD-tACS, relative to sham and tRNS. Significance. Personalized beta HD-tACS modulated delta oscillations, rather than beta rhythms, in a task-specific manner, highlighting the brain\u2019s adaptive response. These findings have implications for neurological conditions such as PD, which are characterized by deficits in speech production and limb motor coordination.",
-      "author": "Fatemeh Tabari, Joel Isaac Berger, Melda Kunduk, Arend W A Van Gemmert and Karim Johari",
-      "published_date": "2025-09-11T23:00:00+00:00",
-      "source": "Journal Neural Engineering",
+      "id": "320b3c30166b6edd6afe924dfbd4f362",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1663218",
+      "title": "Brain structure correlates of foreign language learning experiences",
+      "content": "Previous research demonstrates that bilingual experiences produce dynamic and variable structural adaptations in the brain. However, most studies focus on individuals who naturally acquire multiple languages, leaving the neural effects of long-term foreign language learners with limited exposure less understood. In this study, we examined 32 young adult long-term foreign language learners in South Korea to determine how age of acquisition, proficiency, and daily use shape gray matter volume and white matter integrity in predominantly monolingual environments. We found structural changes in brain regions involved in language control and executive function. Voxel-based morphometry analysis revealed that earlier foreign language acquisition was significantly associated with greater gray matter volume in the left inferior parietal lobule (uncorrected p < 0.001) and the left thalamus (uncorrected p < 0.001). Higher daily use was significantly associated with greater volume in the right inferior parietal lobule (uncorrected p = 0.001) but reduced it in the right anterior cingulate cortex (uncorrected p < 0.001). Tract-based spatial statistics analysis further showed that earlier age of acquisition was significantly associated with better white matter integrity in the splenium of the corpus callosum (FWE-corrected p = 0.009), while higher daily use was significantly associated with better integrity in the body of the corpus callosum (FWE-corrected p = 0.030). These findings suggest that even limited but sustained exposure to a foreign language can lead to significant structural adaptations, broadening our understanding of language-related neuroplasticity beyond traditional bilingual contexts.",
+      "author": "Hyun-joo Song",
+      "published_date": "2025-09-18T00:00:00+00:00",
+      "source": "Frontiers Human Neuroscience",
       "status": "pending",
       "priority": "medium",
       "tags": [],
-      "word_count": 247,
+      "word_count": 238,
       "reading_time": 1,
-      "created_at": "2025-09-24T11:38:20.067871+00:00",
-      "updated_at": "2025-09-24T11:38:20.067872+00:00"
+      "created_at": "2025-09-24T13:47:21.927154+00:00",
+      "updated_at": "2025-09-24T13:47:21.927155+00:00"
     },
     {
-      "id": "d252c2a7db1855053f878a1c517fbb0b",
-      "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae01dc",
-      "title": "Closed-form expressions for the directions of maximum modulation depth in temporal interference electrical brain stimulation",
-      "content": "Objective. In temporal interference (TI) transcranial electrical stimulation (tES), an emerging brain stimulation technique, the interference of two high-frequency currents with a small frequency difference is used to target specific brain regions with better focality than in standard tES. While the magnitude of the modulation depth has been previously investigated, an explicit formula for the direction in which this modulation is maximized has been lacking. This work provides a novel closed-form analytical expression for the orientation of maximum modulation depth in TI tES. We also found a secondary orientation where the modulation depth has a local maximum. Moreover, we provide closed-form analytical formulas for this orientation as well as for the modulation depth along this orientation. To our knowledge, these closed-form expressions and the presence of the secondary maximum have not been previously reported. Approach. We derive compact analytical expressions and validate them through comprehensive computational simulations using a realistic human head model. We also provide a complete analytical derivation of the widely used formula for the maximum modulation depth magnitude stated in Grossman et al, 2017. Main results. Our simulations demonstrate that the modulation depth predicted with our new analytical direction formula is indeed the maximum compared to other directions. The derived closed-form expression provides a faster and more accurate alternative to iterative numerical optimization methods used in previous studies to estimate this direction. Furthermore, we found that due to interference in 3D, the modulation depth along the secondary maximum orientation can be of similar strength to the maximum modulation depth intensity when interfering electric field vectors are significantly misaligned. Finally, we show that by modifying the ratio of the injected current strengths, it is possible to steer these directions and fine-tune the stimulation along a desired direction of interest. Significance. Overall, this work provides a detailed treatment of TI electric fields in 3D. The presented closed-form expressions for the directions of maximum and secondary maximum modulation depths are relevant for the better interpretation of both simulated and experimental results in TI studies by allowing comparison with neuronal orientations in the brain.",
-      "author": "Mariano Fern\u00e1ndez-Corazza, Sergei Turovets and Carlos H Muravchik",
-      "published_date": "2025-09-17T23:00:00+00:00",
-      "source": "Journal Neural Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 343,
-      "reading_time": 1,
-      "created_at": "2025-09-24T11:38:20.067784+00:00",
-      "updated_at": "2025-09-24T11:38:20.067785+00:00"
-    },
-    {
-      "id": "622b47bc3467d29940d27ae1ff8a6747",
-      "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae01d9",
-      "title": "Disrupted periodic spatiotemporal pattern and dynamic reorganization of its basic states in generalized epilepsy",
-      "content": "Objective. The anti-correlation between the default mode network (DMN) and task-positive network (TPN) is a stable characteristic of normal brain activity. However, in idiopathic generalized epilepsy (IGE), this anti-correlation is often disrupted and strongly associated with epileptic seizures. This study aims to use periodic spatiotemporal patterns (PSTP) analysis to elucidate the relationship between the DMN-TPN anti-correlation and epileptic activity, providing new insights into the neural mechanisms underlying IGE. Approach. Resting-state functional magnetic resonance imaging was used to analyze PSTP in both healthy controls and IGE patients. A pattern-finding algorithm was initially applied to identify repeated spatiotemporal patterns, followed by a novel PSTP-finding algorithm to uncover dynamic periodic patterns through analysis of fluctuations in the DMN-TPN anti-correlation. The Hilbert transform was applied to capture the underlying basic states of these periodic patterns. Additionally, the relationship between period length and intrinsic neural timescales (INT) was explored. Main results. IGE patients exhibited a reduced DMN-TPN anti-correlation, particularly during TPN-dominant states. Additionally, IGE patients exhibited greater dynamic instability in basic states, marked by more frequent transitions between transitional states. Furthermore, lower correlations between period length and INT were observed in cognitive regions of IGE patients. Significance. These findings suggest that dynamic switching between the DMN and TPN in IGE is weaker and less balanced, with disruptions in periodic rhythms linked to cognitive impairments. The proposed PSTP framework provides new insights into the abnormal rhythms of IGE from a spatiotemporal perspective.",
-      "author": "Junxia Chen, Sisi Jiang, Guofeng Ye, Zhihuan Yang, Changyue Hou, Hechun Li, Haonan Pei, Roberto Rodriguez-Labrada, Jianfu Li, Dezhong Yao and Cheng Luo",
-      "published_date": "2025-09-17T23:00:00+00:00",
-      "source": "Journal Neural Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 236,
-      "reading_time": 1,
-      "created_at": "2025-09-24T11:38:20.067738+00:00",
-      "updated_at": "2025-09-24T11:38:20.067740+00:00"
-    },
-    {
-      "id": "3c7a4996b9f816550ca05952cd5f3fed",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38873838/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924073817&v=2.18.0.post9+e462414",
+      "id": "080e82008f680b17c8a314823b6c0a1a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38873838/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924094712&v=2.18.0.post9+e462414",
       "title": "The impact of CSF-filled cavities on scalp EEG and its implications",
       "content": "Previous studies have found electroencephalogram (EEG) amplitude and scalp topography differences between neurotypical and neurological/neurosurgical groups, being interpreted at the cognitive level. However, these comparisons are invariably accompanied by anatomical changes. Critical to EEG are the so-called volume currents, which are affected by the spatial distribution of the different tissues in the head. We investigated the effect of cerebrospinal fluid (CSF)-filled cavities on simulated...",
       "author": "Maria Carla Piastra",
@@ -64,12 +32,12 @@
       "tags": [],
       "word_count": 64,
       "reading_time": 1,
-      "created_at": "2025-09-24T11:38:18.243640+00:00",
-      "updated_at": "2025-09-24T11:38:18.243642+00:00"
+      "created_at": "2025-09-24T13:47:14.755762+00:00",
+      "updated_at": "2025-09-24T13:47:14.755764+00:00"
     },
     {
-      "id": "61aee1c647aa21b34c3502638666d510",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38956071/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924073817&v=2.18.0.post9+e462414",
+      "id": "109ced5aad86f97a036958fe2dd85b38",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38956071/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924094712&v=2.18.0.post9+e462414",
       "title": "Motion-BIDS: an extension to the brain imaging data structure to organize motion data for reproducible research",
       "content": "We present an extension to the Brain Imaging Data Structure (BIDS) for motion data. Motion data is frequently recorded alongside human brain imaging and electrophysiological data. The goal of Motion-BIDS is to make motion data interoperable across different laboratories and with other data modalities in human brain and behavioral research. To this end, Motion-BIDS standardizes the data format and metadata structure. It describes how to document experimental details, considering the diversity of...",
       "author": "Julius Welzel",
@@ -80,12 +48,12 @@
       "tags": [],
       "word_count": 72,
       "reading_time": 1,
-      "created_at": "2025-09-24T11:38:18.243616+00:00",
-      "updated_at": "2025-09-24T11:38:18.243618+00:00"
+      "created_at": "2025-09-24T13:47:14.755711+00:00",
+      "updated_at": "2025-09-24T13:47:14.755712+00:00"
     },
     {
-      "id": "e441babf6cc03a91ec46b7d034782d43",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39174725/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924073817&v=2.18.0.post9+e462414",
+      "id": "3e0278de583c783b7ef88ae226c8462a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39174725/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924094712&v=2.18.0.post9+e462414",
       "title": "One hundred years of EEG for brain and behaviour research",
       "content": "No abstract",
       "author": "Pedro Valdes-Sosa",
@@ -96,12 +64,12 @@
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-09-24T11:38:18.243592+00:00",
-      "updated_at": "2025-09-24T11:38:18.243594+00:00"
+      "created_at": "2025-09-24T13:47:14.755686+00:00",
+      "updated_at": "2025-09-24T13:47:14.755688+00:00"
     },
     {
-      "id": "5e9a6f045a0444c9738dbcc7318a5101",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39229492/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924073817&v=2.18.0.post9+e462414",
+      "id": "a09b1c8f7dc16aea874b3c4265bc313d",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39229492/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924094712&v=2.18.0.post9+e462414",
       "title": "Freezing of gait in Parkinson's disease is related to imbalanced stopping-related cortical activity",
       "content": "Freezing of gait, characterized by involuntary interruptions of walking, is a debilitating motor symptom of Parkinson's disease that restricts people's autonomy. Previous brain imaging studies investigating the mechanisms underlying freezing were restricted to scan people in supine positions and yielded conflicting theories regarding the role of the supplementary motor area and other cortical regions. We used functional near-infrared spectroscopy to investigate cortical haemodynamics related to...",
       "author": "Richard J A van Wezel",
@@ -112,12 +80,12 @@
       "tags": [],
       "word_count": 65,
       "reading_time": 1,
-      "created_at": "2025-09-24T11:38:18.243574+00:00",
-      "updated_at": "2025-09-24T11:38:18.243576+00:00"
+      "created_at": "2025-09-24T13:47:14.755666+00:00",
+      "updated_at": "2025-09-24T13:47:14.755668+00:00"
     },
     {
-      "id": "6892f57d2a0b4ab2863c66fc22f16750",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39308505/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924073817&v=2.18.0.post9+e462414",
+      "id": "46d62f41d2904e14df75b83a62bee0e3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39308505/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924094712&v=2.18.0.post9+e462414",
       "title": "The past, present, and future of the brain imaging data structure (BIDS)",
       "content": "The Brain Imaging Data Structure (BIDS) is a community-driven standard for the organization of data and metadata from a growing range of neuroscience modalities. This paper is meant as a history of how the standard has developed and grown over time. We outline the principles behind the project, the mechanisms by which it has been extended, and some of the challenges being addressed as it evolves. We also discuss the lessons learned through the project, with the aim of enabling researchers in...",
       "author": "Krzysztof J Gorgolewski",
@@ -128,12 +96,12 @@
       "tags": [],
       "word_count": 82,
       "reading_time": 1,
-      "created_at": "2025-09-24T11:38:18.243550+00:00",
-      "updated_at": "2025-09-24T11:38:18.243552+00:00"
+      "created_at": "2025-09-24T13:47:14.755637+00:00",
+      "updated_at": "2025-09-24T13:47:14.755638+00:00"
     },
     {
-      "id": "945d52ed4b907e574304ce1563e87516",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39786979/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924073817&v=2.18.0.post9+e462414",
+      "id": "b4c90dc821b8bfd43a1053b3f6f5d2c5",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39786979/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924094712&v=2.18.0.post9+e462414",
       "title": "Human cortical high-gamma power scales with movement rate in healthy participants and stroke survivors",
       "content": "Motor cortical high-gamma oscillations (60-90 Hz) occur at movement onset and are spatially focused over the contralateral primary motor cortex. Although high-gamma oscillations are widely recognized for their significance in human motor control, their precise function on a cortical level remains elusive. Importantly, their relevance in human stroke pathophysiology is unknown. Because motor deficits are fundamental determinants of symptom burden after stroke, understanding the neurophysiological...",
       "author": "Fanny Quandt",
@@ -144,12 +112,12 @@
       "tags": [],
       "word_count": 65,
       "reading_time": 1,
-      "created_at": "2025-09-24T11:38:18.243520+00:00",
-      "updated_at": "2025-09-24T11:38:18.243522+00:00"
+      "created_at": "2025-09-24T13:47:14.755611+00:00",
+      "updated_at": "2025-09-24T13:47:14.755612+00:00"
     },
     {
-      "id": "8d83d0e2ffe2cb3d157190ebaad8285e",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39870674/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924073817&v=2.18.0.post9+e462414",
+      "id": "8c3e73df3167a7c4d22ca024342f09cf",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39870674/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924094712&v=2.18.0.post9+e462414",
       "title": "NIRS-BIDS: Brain Imaging Data Structure Extended to Near-Infrared Spectroscopy",
       "content": "Functional near-infrared spectroscopy (fNIRS) is an increasingly popular neuroimaging technique that measures cortical hemodynamic activity in a non-invasive and portable fashion. Although the fNIRS community has been successful in disseminating open-source processing tools and a standard file format (SNIRF), reproducible research and sharing of fNIRS data amongst researchers has been hindered by a lack of standards and clarity over how study data should be organized and stored. This problem is...",
       "author": "Luca Pollonini",
@@ -160,11 +128,143 @@
       "tags": [],
       "word_count": 70,
       "reading_time": 1,
-      "created_at": "2025-09-24T11:38:18.243496+00:00",
-      "updated_at": "2025-09-24T11:38:18.243497+00:00"
+      "created_at": "2025-09-24T13:47:14.755587+00:00",
+      "updated_at": "2025-09-24T13:47:14.755588+00:00"
+    },
+    {
+      "id": "d326286de336a42dc713c601f70d1aa7",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40568426/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924094712&v=2.18.0.post9+e462414",
+      "title": "Pseudonymisation of neuroimages and data protection: <em>Increasing access to data while retaining scientific utility</em>",
+      "content": "For a number of years, facial features removal techniques such as 'defacing', 'skull stripping' and 'face masking/blurring', were considered adequate privacy preserving tools to openly share brain images. Scientifically, these measures were already a compromise between data protection requirements and research impact of such data. Now, recent advances in machine learning and deep learning that indicate an increased possibility of re-identifiability from defaced neuroimages, have increased the...",
+      "author": "Lyuba Zehl",
+      "published_date": "2025-06-26T10:00:00+00:00",
+      "source": "Oostenveld Robert",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 67,
+      "reading_time": 1,
+      "created_at": "2025-09-24T13:47:14.755562+00:00",
+      "updated_at": "2025-09-24T13:47:14.755563+00:00"
+    },
+    {
+      "id": "20e95cb17b995b22c21187e6e32c1bca",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40800958/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924094712&v=2.18.0.post9+e462414",
+      "title": "Cycling on the Freeway: The perilous state of open-source neuroscience software",
+      "content": "Most scientists need software to perform their research (Barker et al., 2020;Carver et al., 2022;Hettrick, 2014;Hettrick et al., 2014;Switters & Osimo, 2019), and neuroscientists are no exception. Whether we work with reaction times, electrophysiological signals, or magnetic resonance imaging data, we rely on software to acquire, analyze, and statistically evaluate the raw data we obtain-or to generate such data if we work with simulations. In recent years, there has been a shift toward relying...",
+      "author": "Tim M Tierney",
+      "published_date": "2025-08-13T10:00:00+00:00",
+      "source": "Oostenveld Robert",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 74,
+      "reading_time": 1,
+      "created_at": "2025-09-24T13:47:14.755535+00:00",
+      "updated_at": "2025-09-24T13:47:14.755537+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "d546df6e7b8fd041779e374f9f13ac75",
+      "url": "https://www.nature.com/articles/s41593-025-02060-8",
+      "title": "Temporal integration in human auditory cortex is predominantly yoked to absolute time",
+      "content": "<p>Nature Neuroscience, Published online: 18 September 2025; <a href=\"https://www.nature.com/articles/s41593-025-02060-8\">doi:10.1038/s41593-025-02060-8</a></p>Temporal integration throughout the human auditory cortex is predominantly locked to absolute time and does not vary with the duration of speech structures such as phonemes or words.",
+      "author": "Nima Mesgarani",
+      "published_date": "2025-09-18T00:00:00+00:00",
+      "source": "Nature Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 36,
+      "reading_time": 1,
+      "created_at": "2025-09-24T13:47:30.641996+00:00",
+      "updated_at": "2025-09-24T14:12:54.939467+00:00",
+      "metadata": {
+        "processed_at": "2025-09-24T14:12:54.939476+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "5308159ab13d13b866da184e43a58dd6",
+      "url": "http://www.jneurosci.org/cgi/content/short/45/34/etwij45342025?rss=1",
+      "title": "This Week in The Journal",
+      "content": "",
+      "author": "McKeon, P.",
+      "published_date": "2025-08-20T16:30:22+00:00",
+      "source": "Journal Neuroscience This Week",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-09-24T13:47:29.420271+00:00",
+      "updated_at": "2025-09-24T14:12:54.939481+00:00",
+      "metadata": {
+        "processed_at": "2025-09-24T14:12:54.939483+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "62a8af781972e2c2ecd9bd4dfc86c43a",
+      "url": "http://www.jneurosci.org/cgi/content/short/45/35/etwij45352025?rss=1",
+      "title": "This Week in The Journal",
+      "content": "",
+      "author": "McKeon, P.",
+      "published_date": "2025-08-27T16:30:24+00:00",
+      "source": "Journal Neuroscience This Week",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-09-24T13:47:29.420252+00:00",
+      "updated_at": "2025-09-24T14:12:54.939485+00:00",
+      "metadata": {
+        "processed_at": "2025-09-24T14:12:54.939486+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c7ad06acb65bc4c2f5913f717a6167ee",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1637164",
+      "title": "Clinical Gait Evaluation with Neuromuscular Impairments (Clinical GENI) for spastic cerebral palsy",
+      "content": "BackgroundGait abnormalities in spastic cerebral palsy (CP) result from four primary neuromuscular impairments: muscle weakness, short muscle-relative-to-skeletal-length, muscle spasticity, and impaired selective motor control. The Clinical Gait Evaluation with Neuromuscular Impairments (Clinical GENI) was developed to help clinicians identify gait abnormalities and contributing neuromuscular impairments in spastic CP for use in any clinical setting.AimsThis study evaluated use and validity of the observational-based Clinical GENI to identify gait abnormalities and contributing neuromuscular impairments in children with spastic CP.MethodsPatients with spastic CP seen in 2023 for instrumented gait analysis and physical exam of neuromuscular impairments were evaluated using the Clinical GENI. Validity was assessed by agreement between identification of gait abnormalities on the Clinical GENI compared to 3D gait kinematics. Severity of neuromuscular impairments associated with gait abnormalities listed on the Clinical GENI was compared, and severity of neuromuscular impairment was correlated with severity of gait abnormalities.ResultsParticipants included 12 children with spastic CP (4 GMFCS I, 8 GMFCS II; mean age 11.25 years). The most common gait abnormalities were forefoot/flatfoot initial contact (IC) (16/24), flexed-knee IC (19/24), hip-flexion in single limb stance (12/24), and reduced pre-swing ankle plantarflexion (19/24). Strong agreement (83\u2013100%) occurred between gait abnormalities on the Clinical GENI and kinematic values. Severity of neuromuscular impairment was higher (p < 0.05) for those with gait abnormalities vs. without and correlated to severity of gait abnormalities in a majority of comparisons.ConclusionResults support clinical utility and validity of the Clinical GENI for evaluating gait abnormalities and contributing neuromuscular impairments in spastic CP.",
+      "author": "Jessica Rose",
+      "published_date": "2025-09-17T00:00:00+00:00",
+      "source": "Frontiers Human Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 249,
+      "reading_time": 1,
+      "created_at": "2025-09-24T13:47:21.927251+00:00",
+      "updated_at": "2025-09-24T14:12:54.939489+00:00",
+      "metadata": {
+        "processed_at": "2025-09-24T14:12:54.939490+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a7566e8c03f60fc696420e2c83a28074",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1618758",
+      "title": "A pilot study on simultaneous stimulation of the primary motor cortex and supplementary motor area using gait-synchronized rhythmic brain stimulation to improve gait variability in post-stroke hemiparetic patients",
+      "content": "IntroductionGait impairment is a common and disabling consequence of stroke. While walking speed is a key indicator of recovery, gait variability is closely associated with fall risk and long-term functional decline. Previous studies have suggested that functional interaction between the supplementary motor area (SMA) and primary motor cortex (M1) plays a key role in post-stroke gait control. Rather than stimulating these regions independently, simultaneous activation of the SMA\u2014critical for rhythm modulation and motor planning\u2014and gait-synchronized stimulation of the M1\u2014essential for motor execution\u2014may offer enhanced benefits for gait stability.ObjectiveTo assess the feasibility, safety, and preliminary effects of a combined brain stimulation intervention targeting the SMA and M1 on gait variability and balance in individuals with post-stroke hemiparesis.MethodsSixteen individuals with stroke within 180 days after the onset, aged 40\u201390 years, who were able to walk on a treadmill were recruited in this study of multi-center, randomized, controlled pilot trial with a parallel-group design. Participants were randomly allocated to either an intervention group (n = 8) receiving 20 min of simultaneous transcranial direct current stimulation (tDCS) to the SMA and gait-synchronized rhythmic stimulation to the M1 during treadmill walking, or to a control group (n = 8) receiving sham stimulation. Both groups underwent 15 sessions of walking practice over 3 weeks. Primary outcomes were feasibility indicators including recruitment, retention, adherence and adverse events and preliminary estimates of effect on gait variability such as coefficient of variation for stride, stance, and swing times on the paretic side. Balance was assessed using the Mini-Balance Evaluation Systems Test (Mini-BESTest).ResultsAll 16 participants completed the intervention without adverse events, indicating high feasibility. The intervention group showed significantly reduced stride time variability on the paretic side and improved Mini-BESTest scores compared to the control group. A significant correlation was observed between reductions in gait variability and improvements in balance.ConclusionsThis pilot trial supports the feasibility and safety of a combined SMA and M1 stimulation approach. Preliminary findings suggest potential benefits in reducing gait variability and improving balance after stroke, warranting further investigation in a definitive trial.",
+      "author": "Yoshino Ueki",
+      "published_date": "2025-09-17T00:00:00+00:00",
+      "source": "Frontiers Human Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 336,
+      "reading_time": 1,
+      "created_at": "2025-09-24T13:47:21.927199+00:00",
+      "updated_at": "2025-09-24T14:12:54.939492+00:00",
+      "metadata": {
+        "processed_at": "2025-09-24T14:12:54.939494+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "97e56427405a197369779bc2b026feb8",
       "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1616981",
@@ -262,106 +362,6 @@
       "updated_at": "2025-09-24T12:29:20.128541+00:00",
       "metadata": {
         "processed_at": "2025-09-24T12:29:20.128542+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "78a543035cc17e2ac6f73ecd95cce1ae",
-      "url": "http://ieeexplore.ieee.org/document/10750441",
-      "title": "Foundation Model for Advancing Healthcare: Challenges, Opportunities and Future Directions",
-      "content": "Foundation model, trained on a diverse range of data and adaptable to a myriad of tasks, is advancing healthcare. It fosters the development of healthcare artificial intelligence (AI) models tailored to the intricacies of the medical field, bridging the gap between limited AI models and the varied nature of healthcare practices. The advancement of a healthcare foundation model (HFM) brings forth tremendous potential to augment intelligent healthcare services across a broad spectrum of scenarios. However, despite the imminent widespread deployment of HFMs, there is currently a lack of clear understanding regarding their operation in the healthcare field, their existing challenges, and their future trajectory. To answer these critical inquiries, we present a comprehensive and in-depth examination that delves into the landscape of HFMs. It begins with a comprehensive overview of HFMs, encompassing their methods, data, and applications, to provide a quick understanding of the current progress. Subsequently, it delves into a thorough exploration of the challenges associated with data, algorithms, and computing infrastructures in constructing and widely applying foundation models in healthcare. Furthermore, this survey identifies promising directions for future development in this field. We believe that this survey will enhance the community's understanding of the current progress of HFMs and serve as a valuable source of guidance for future advancements in this domain.",
-      "author": "",
-      "published_date": "2024-11-12T13:16:56+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 214,
-      "reading_time": 1,
-      "created_at": "2025-09-24T09:42:19.878376+00:00",
-      "updated_at": "2025-09-24T10:15:10.965368+00:00",
-      "metadata": {
-        "processed_at": "2025-09-24T10:15:10.965377+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f3ebee0a159c29e785b8640ab568613e",
-      "url": "http://ieeexplore.ieee.org/document/10729663",
-      "title": "Data- and Physics-Driven Deep Learning Based Reconstruction for Fast MRI: Fundamentals and Methodologies",
-      "content": "Magnetic Resonance Imaging (MRI) is a pivotal clinical diagnostic tool, yet its extended scanning times often compromise patient comfort and image quality, especially in volumetric, temporal and quantitative scans. This review elucidates recent advances in MRI acceleration via data and physics-driven models, leveraging techniques from algorithm unrolling models, enhancement-based methods, and plug-and-play models to the emerging full spectrum of generative model-based methods. We also explore the synergistic integration of data models with physics-based insights, encompassing the advancements in multi-coil hardware accelerations like parallel imaging and simultaneous multi-slice imaging, and the optimization of sampling patterns. We then focus on domain-specific challenges and opportunities, including image redundancy exploitation, image integrity, evaluation metrics, data heterogeneity, and model generalization. This work also discusses potential solutions and future research directions, with an emphasis on the role of data harmonization and federated learning for further improving the general applicability and performance of these methods in MRI reconstruction.",
-      "author": "",
-      "published_date": "2024-10-22T13:18:56+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 151,
-      "reading_time": 1,
-      "created_at": "2025-09-24T09:42:19.878341+00:00",
-      "updated_at": "2025-09-24T10:15:10.965382+00:00",
-      "metadata": {
-        "processed_at": "2025-09-24T10:15:10.965384+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "b71ad97ebddb2087936b4010c1aaf456",
-      "url": "http://ieeexplore.ieee.org/document/10746601",
-      "title": "Artificial General Intelligence for Medical Imaging Analysis",
-      "content": "Large-scale Artificial General Intelligence (AGI) models, including Large Language Models (LLMs) such as ChatGPT/GPT-4, have achieved unprecedented success in a variety of general domain tasks. Yet, when applied directly to specialized domains like medical imaging, which require in-depth expertise, these models face notable challenges arising from the medical field's inherent complexities and unique characteristics. In this review, we delve into the potential applications of AGI models in medical imaging and healthcare, with a primary focus on LLMs, Large Vision Models, and Large Multimodal Models. We provide a thorough overview of the key features and enabling techniques of LLMs and AGI, and further examine the roadmaps guiding the evolution and implementation of AGI models in the medical sector, summarizing their present applications, potentialities, and associated challenges. In addition, we highlight potential future research directions, offering a holistic view on upcoming ventures. This comprehensive review aims to offer insights into the future implications of AGI in medical imaging, healthcare, and beyond.",
-      "author": "",
-      "published_date": "2024-11-07T13:17:37+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 159,
-      "reading_time": 1,
-      "created_at": "2025-09-24T09:42:19.878311+00:00",
-      "updated_at": "2025-09-24T10:15:10.965386+00:00",
-      "metadata": {
-        "processed_at": "2025-09-24T10:15:10.965388+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3970a7e47edc49703b34feadbd5d1dab",
-      "url": "http://ieeexplore.ieee.org/document/10720187",
-      "title": "Exhaled Breath Analysis: From Laboratory Test to Wearable Sensing",
-      "content": "Breath analysis and monitoring have emerged as pivotal components in both clinical research and daily health management, particularly in addressing the global health challenges posed by respiratory and metabolic disorders. The advancement of breath analysis strategies necessitates a multidisciplinary approach, seamlessly integrating expertise from medicine, biology, engineering, and materials science. Recent innovations in laboratory methodologies and wearable sensing technologies have ushered in an era of precise, real-time, and in situ breath analysis and monitoring. This comprehensive review elucidates the physical and chemical aspects of breath analysis, encompassing respiratory parameters and both volatile and non-volatile constituents. It emphasizes their physiological and clinical significance, while also exploring cutting-edge laboratory testing techniques and state-of-the-art wearable devices. Furthermore, the review delves into the application of sophisticated data processing technologies in the burgeoning field of breathomics and examines the potential of breath control in human-machine interaction paradigms. Additionally, it provides insights into the challenges of translating innovative laboratory and wearable concepts into mainstream clinical and daily practice. Continued innovation and interdisciplinary collaboration will drive progress in breath analysis, potentially revolutionizing personalized medicine through entirely non-invasive breath methodology.",
-      "author": "",
-      "published_date": "2024-10-16T13:15:55+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 182,
-      "reading_time": 1,
-      "created_at": "2025-09-24T09:42:19.878279+00:00",
-      "updated_at": "2025-09-24T10:15:10.965390+00:00",
-      "metadata": {
-        "processed_at": "2025-09-24T10:15:10.965391+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "483769689d304d6940ab358e0b085a8c",
-      "url": "http://ieeexplore.ieee.org/document/10771694",
-      "title": "Earable Multimodal Sensing and Stimulation: A Prospective Toward Unobtrusive Closed-Loop Biofeedback",
-      "content": "The human ear has emerged as a bidirectional gateway to the brain's and body's signals. Recent advances in around-the-ear and in-ear sensors have enabled the assessment of biomarkers and physiomarkers derived from brain and cardiac activity using ear-electroencephalography (ear-EEG), photoplethysmography (ear-PPG), and chemical sensing of analytes from the ear, with ear-EEG having been taken beyond-the-lab to outer space. Parallel advances in non-invasive and minimally invasive brain stimulation techniques have leveraged the ear's access to two cranial nerves to modulate brain and body activity. The vestibulocochlear nerve stimulates the auditory cortex and limbic system with sound, while the auricular branch of the vagus nerve indirectly but significantly couples to the autonomic nervous system and cardiac output. Acoustic and current mode stimuli delivered using discreet and unobtrusive earables are an active area of research, aiming to make biofeedback and bioelectronic medicine deliverable outside of the clinic, with remote and continuous monitoring of therapeutic responsivity and long-term adaptation. Leveraging recent advances in ear-EEG, transcutaneous auricular vagus nerve stimulation (taVNS), and unobtrusive acoustic stimulation, we review accumulating evidence that combines their potential into an integrated earable platform for closed-loop multimodal sensing and neuromodulation, towards personalized and holistic therapies that are near, in- and around-the-ear.",
-      "author": "",
-      "published_date": "2024-11-29T13:16:54+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 200,
-      "reading_time": 1,
-      "created_at": "2025-09-24T09:42:19.878246+00:00",
-      "updated_at": "2025-09-24T10:15:10.965394+00:00",
-      "metadata": {
-        "processed_at": "2025-09-24T10:15:10.965395+00:00",
         "processing_method": "github_actions"
       }
     }
