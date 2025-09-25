@@ -1,27 +1,43 @@
 {
-  "last_updated": "2025-09-25T01:05:57.875538+00:00",
+  "last_updated": "2025-09-25T02:58:01.042589+00:00",
   "pending_count": 970,
   "processed_count": 30,
   "pending_articles": [
     {
-      "id": "e0adf23323f3df6254be579f869c9572",
-      "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae01d8",
-      "title": "An ICA-based artifact suppression method for online extraction of TMS-evoked potentials: toward closed-loop TMS-EEG applications beyond the motor cortex",
-      "content": "Objective. Transcranial magnetic stimulation (TMS) combined with electroencephalography (EEG) has become a valuable tool in clinical and cognitive neuroscience. However, TMS-EEG signals often suffer from severe artifacts, particularly in lateral cortical regions where TMS-evoked muscle artifacts are pronounced, making real-time recovery of TMS-evoked potentials (TEPs) challenging. We developed and validated a real-time, two-step independent component analysis (ICA)-based artifact cleaning method for TMS-EEG signals, facilitating the rapid extraction of clean neural signals for closed-loop neurostimulation applications. Approach. Our method involves an offline ICA training phase, where ICA weights and artifact topographies are identified using pre-experimental trials, followed by an online phase in which the precomputed weight matrices are applied in real-time to incoming data. We conducted simulations on two pre-published TMS-EEG datasets (N = 28, ROIs = 6) to validate the method by identifying the minimum number of trials required to estimate ICA weights. We also assessed the reproducibility of TEPs and the stability of ICA components, taking classical offline TEPs as the relative ground truth. Main Results. ICA analysis suggests that it can be applied reliably within each region without significant loss of convergence and stability, provided careful consideration is given to the size and composition of the data used for ICA training. Simulation results indicated that while central regions could achieve reliable TEPs similar to ground truth with as few as 20\u201330 trials to train ICA in the pre-experimental phase, frontal and occipital regions required 50\u201360 trials to reach a comparable level of reliability. Later TEP peaks (>100 ms) in all regions achieved high reproducibility when at least 35 training trials were used, whereas earlier peaks (<80 ms) showed moderate reproducibility with the same number of trials. Significance. These findings establish the feasibility and proof-of-concept for real-time ICA-based artifact removal for closed-loop TMS-EEG applications. The method enables rapid extraction of clean neural signals, allowing adaptation of stimulation parameters in real time, thereby facilitating individualized neurostimulation paradigms.",
-      "author": "Sina Varmaghani, Ronald Phlypo, Olivier David, Sylvain Harquel and Alan Chauvin",
-      "published_date": "2025-09-11T23:00:00+00:00",
-      "source": "Journal Neural Engineering",
+      "id": "a7566e8c03f60fc696420e2c83a28074",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1618758",
+      "title": "A pilot study on simultaneous stimulation of the primary motor cortex and supplementary motor area using gait-synchronized rhythmic brain stimulation to improve gait variability in post-stroke hemiparetic patients",
+      "content": "IntroductionGait impairment is a common and disabling consequence of stroke. While walking speed is a key indicator of recovery, gait variability is closely associated with fall risk and long-term functional decline. Previous studies have suggested that functional interaction between the supplementary motor area (SMA) and primary motor cortex (M1) plays a key role in post-stroke gait control. Rather than stimulating these regions independently, simultaneous activation of the SMA\u2014critical for rhythm modulation and motor planning\u2014and gait-synchronized stimulation of the M1\u2014essential for motor execution\u2014may offer enhanced benefits for gait stability.ObjectiveTo assess the feasibility, safety, and preliminary effects of a combined brain stimulation intervention targeting the SMA and M1 on gait variability and balance in individuals with post-stroke hemiparesis.MethodsSixteen individuals with stroke within 180 days after the onset, aged 40\u201390 years, who were able to walk on a treadmill were recruited in this study of multi-center, randomized, controlled pilot trial with a parallel-group design. Participants were randomly allocated to either an intervention group (n = 8) receiving 20 min of simultaneous transcranial direct current stimulation (tDCS) to the SMA and gait-synchronized rhythmic stimulation to the M1 during treadmill walking, or to a control group (n = 8) receiving sham stimulation. Both groups underwent 15 sessions of walking practice over 3 weeks. Primary outcomes were feasibility indicators including recruitment, retention, adherence and adverse events and preliminary estimates of effect on gait variability such as coefficient of variation for stride, stance, and swing times on the paretic side. Balance was assessed using the Mini-Balance Evaluation Systems Test (Mini-BESTest).ResultsAll 16 participants completed the intervention without adverse events, indicating high feasibility. The intervention group showed significantly reduced stride time variability on the paretic side and improved Mini-BESTest scores compared to the control group. A significant correlation was observed between reductions in gait variability and improvements in balance.ConclusionsThis pilot trial supports the feasibility and safety of a combined SMA and M1 stimulation approach. Preliminary findings suggest potential benefits in reducing gait variability and improving balance after stroke, warranting further investigation in a definitive trial.",
+      "author": "Yoshino Ueki",
+      "published_date": "2025-09-17T00:00:00+00:00",
+      "source": "Frontiers Human Neuroscience",
       "status": "pending",
       "priority": "medium",
       "tags": [],
-      "word_count": 317,
+      "word_count": 336,
       "reading_time": 1,
-      "created_at": "2025-09-24T23:37:41.984903+00:00",
-      "updated_at": "2025-09-24T23:37:41.984905+00:00"
+      "created_at": "2025-09-25T02:48:34.340653+00:00",
+      "updated_at": "2025-09-25T02:48:34.340655+00:00"
     },
     {
-      "id": "69ff6acbfddd1fcdbf3b852f2fc1d2a2",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38873838/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924193737&v=2.18.0.post9+e462414",
+      "id": "320b3c30166b6edd6afe924dfbd4f362",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1663218",
+      "title": "Brain structure correlates of foreign language learning experiences",
+      "content": "Previous research demonstrates that bilingual experiences produce dynamic and variable structural adaptations in the brain. However, most studies focus on individuals who naturally acquire multiple languages, leaving the neural effects of long-term foreign language learners with limited exposure less understood. In this study, we examined 32 young adult long-term foreign language learners in South Korea to determine how age of acquisition, proficiency, and daily use shape gray matter volume and white matter integrity in predominantly monolingual environments. We found structural changes in brain regions involved in language control and executive function. Voxel-based morphometry analysis revealed that earlier foreign language acquisition was significantly associated with greater gray matter volume in the left inferior parietal lobule (uncorrected p < 0.001) and the left thalamus (uncorrected p < 0.001). Higher daily use was significantly associated with greater volume in the right inferior parietal lobule (uncorrected p = 0.001) but reduced it in the right anterior cingulate cortex (uncorrected p < 0.001). Tract-based spatial statistics analysis further showed that earlier age of acquisition was significantly associated with better white matter integrity in the splenium of the corpus callosum (FWE-corrected p = 0.009), while higher daily use was significantly associated with better integrity in the body of the corpus callosum (FWE-corrected p = 0.030). These findings suggest that even limited but sustained exposure to a foreign language can lead to significant structural adaptations, broadening our understanding of language-related neuroplasticity beyond traditional bilingual contexts.",
+      "author": "Hyun-joo Song",
+      "published_date": "2025-09-18T00:00:00+00:00",
+      "source": "Frontiers Human Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 238,
+      "reading_time": 1,
+      "created_at": "2025-09-25T02:48:34.340599+00:00",
+      "updated_at": "2025-09-25T02:48:34.340600+00:00"
+    },
+    {
+      "id": "122025d8cb62d113f6e278d2c58e70ca",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38873838/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924224826&v=2.18.0.post9+e462414",
       "title": "The impact of CSF-filled cavities on scalp EEG and its implications",
       "content": "Previous studies have found electroencephalogram (EEG) amplitude and scalp topography differences between neurotypical and neurological/neurosurgical groups, being interpreted at the cognitive level. However, these comparisons are invariably accompanied by anatomical changes. Critical to EEG are the so-called volume currents, which are affected by the spatial distribution of the different tissues in the head. We investigated the effect of cerebrospinal fluid (CSF)-filled cavities on simulated...",
       "author": "Maria Carla Piastra",
@@ -32,12 +48,12 @@
       "tags": [],
       "word_count": 64,
       "reading_time": 1,
-      "created_at": "2025-09-24T23:37:39.812291+00:00",
-      "updated_at": "2025-09-24T23:37:39.812293+00:00"
+      "created_at": "2025-09-25T02:48:27.855158+00:00",
+      "updated_at": "2025-09-25T02:48:27.855160+00:00"
     },
     {
-      "id": "e4a853c7b0305672f447389c4531381e",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38956071/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924193737&v=2.18.0.post9+e462414",
+      "id": "0c10a7971aac205d1a4fb0f860d4bcf7",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38956071/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924224826&v=2.18.0.post9+e462414",
       "title": "Motion-BIDS: an extension to the brain imaging data structure to organize motion data for reproducible research",
       "content": "We present an extension to the Brain Imaging Data Structure (BIDS) for motion data. Motion data is frequently recorded alongside human brain imaging and electrophysiological data. The goal of Motion-BIDS is to make motion data interoperable across different laboratories and with other data modalities in human brain and behavioral research. To this end, Motion-BIDS standardizes the data format and metadata structure. It describes how to document experimental details, considering the diversity of...",
       "author": "Julius Welzel",
@@ -48,12 +64,12 @@
       "tags": [],
       "word_count": 72,
       "reading_time": 1,
-      "created_at": "2025-09-24T23:37:39.812270+00:00",
-      "updated_at": "2025-09-24T23:37:39.812271+00:00"
+      "created_at": "2025-09-25T02:48:27.855136+00:00",
+      "updated_at": "2025-09-25T02:48:27.855137+00:00"
     },
     {
-      "id": "09bb7b7b8aaff6ed50d964d34bd08b9b",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39174725/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924193737&v=2.18.0.post9+e462414",
+      "id": "cbf15afa2f3a68c8063b080abcd18575",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39174725/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924224826&v=2.18.0.post9+e462414",
       "title": "One hundred years of EEG for brain and behaviour research",
       "content": "No abstract",
       "author": "Pedro Valdes-Sosa",
@@ -64,12 +80,12 @@
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-09-24T23:37:39.812246+00:00",
-      "updated_at": "2025-09-24T23:37:39.812248+00:00"
+      "created_at": "2025-09-25T02:48:27.855113+00:00",
+      "updated_at": "2025-09-25T02:48:27.855114+00:00"
     },
     {
-      "id": "70079d97124dfca9d59b496ed995126a",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39229492/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924193737&v=2.18.0.post9+e462414",
+      "id": "59e2f875039d09bd4e28b32f6a2be181",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39229492/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924224826&v=2.18.0.post9+e462414",
       "title": "Freezing of gait in Parkinson's disease is related to imbalanced stopping-related cortical activity",
       "content": "Freezing of gait, characterized by involuntary interruptions of walking, is a debilitating motor symptom of Parkinson's disease that restricts people's autonomy. Previous brain imaging studies investigating the mechanisms underlying freezing were restricted to scan people in supine positions and yielded conflicting theories regarding the role of the supplementary motor area and other cortical regions. We used functional near-infrared spectroscopy to investigate cortical haemodynamics related to...",
       "author": "Richard J A van Wezel",
@@ -80,12 +96,12 @@
       "tags": [],
       "word_count": 65,
       "reading_time": 1,
-      "created_at": "2025-09-24T23:37:39.812228+00:00",
-      "updated_at": "2025-09-24T23:37:39.812230+00:00"
+      "created_at": "2025-09-25T02:48:27.855095+00:00",
+      "updated_at": "2025-09-25T02:48:27.855096+00:00"
     },
     {
-      "id": "d16bde4b270aad59fb0a7f8c7d14da7b",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39308505/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924193737&v=2.18.0.post9+e462414",
+      "id": "aba89003caff995e0fd9bbb839336b81",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39308505/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924224826&v=2.18.0.post9+e462414",
       "title": "The past, present, and future of the brain imaging data structure (BIDS)",
       "content": "The Brain Imaging Data Structure (BIDS) is a community-driven standard for the organization of data and metadata from a growing range of neuroscience modalities. This paper is meant as a history of how the standard has developed and grown over time. We outline the principles behind the project, the mechanisms by which it has been extended, and some of the challenges being addressed as it evolves. We also discuss the lessons learned through the project, with the aim of enabling researchers in...",
       "author": "Krzysztof J Gorgolewski",
@@ -96,12 +112,12 @@
       "tags": [],
       "word_count": 82,
       "reading_time": 1,
-      "created_at": "2025-09-24T23:37:39.812205+00:00",
-      "updated_at": "2025-09-24T23:37:39.812207+00:00"
+      "created_at": "2025-09-25T02:48:27.855072+00:00",
+      "updated_at": "2025-09-25T02:48:27.855074+00:00"
     },
     {
-      "id": "33fe063274c2cd01b57b39668421a207",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39786979/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924193737&v=2.18.0.post9+e462414",
+      "id": "fdee62d4851648132cc4c533c8627ea8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39786979/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924224826&v=2.18.0.post9+e462414",
       "title": "Human cortical high-gamma power scales with movement rate in healthy participants and stroke survivors",
       "content": "Motor cortical high-gamma oscillations (60-90 Hz) occur at movement onset and are spatially focused over the contralateral primary motor cortex. Although high-gamma oscillations are widely recognized for their significance in human motor control, their precise function on a cortical level remains elusive. Importantly, their relevance in human stroke pathophysiology is unknown. Because motor deficits are fundamental determinants of symptom burden after stroke, understanding the neurophysiological...",
       "author": "Fanny Quandt",
@@ -112,12 +128,12 @@
       "tags": [],
       "word_count": 65,
       "reading_time": 1,
-      "created_at": "2025-09-24T23:37:39.812177+00:00",
-      "updated_at": "2025-09-24T23:37:39.812179+00:00"
+      "created_at": "2025-09-25T02:48:27.855043+00:00",
+      "updated_at": "2025-09-25T02:48:27.855045+00:00"
     },
     {
-      "id": "d906d3734fe9ecf42499c4d61084e256",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39870674/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924193737&v=2.18.0.post9+e462414",
+      "id": "6dbcdd5792cd80f7e03a307b1387ee68",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39870674/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924224826&v=2.18.0.post9+e462414",
       "title": "NIRS-BIDS: Brain Imaging Data Structure Extended to Near-Infrared Spectroscopy",
       "content": "Functional near-infrared spectroscopy (fNIRS) is an increasingly popular neuroimaging technique that measures cortical hemodynamic activity in a non-invasive and portable fashion. Although the fNIRS community has been successful in disseminating open-source processing tools and a standard file format (SNIRF), reproducible research and sharing of fNIRS data amongst researchers has been hindered by a lack of standards and clarity over how study data should be organized and stored. This problem is...",
       "author": "Luca Pollonini",
@@ -128,12 +144,12 @@
       "tags": [],
       "word_count": 70,
       "reading_time": 1,
-      "created_at": "2025-09-24T23:37:39.812155+00:00",
-      "updated_at": "2025-09-24T23:37:39.812157+00:00"
+      "created_at": "2025-09-25T02:48:27.855020+00:00",
+      "updated_at": "2025-09-25T02:48:27.855021+00:00"
     },
     {
-      "id": "11ade0541722e5931ba86621961d96f7",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40568426/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924193737&v=2.18.0.post9+e462414",
+      "id": "25dec9047673fa305052235fbfeca31e",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40568426/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924224826&v=2.18.0.post9+e462414",
       "title": "Pseudonymisation of neuroimages and data protection: <em>Increasing access to data while retaining scientific utility</em>",
       "content": "For a number of years, facial features removal techniques such as 'defacing', 'skull stripping' and 'face masking/blurring', were considered adequate privacy preserving tools to openly share brain images. Scientifically, these measures were already a compromise between data protection requirements and research impact of such data. Now, recent advances in machine learning and deep learning that indicate an increased possibility of re-identifiability from defaced neuroimages, have increased the...",
       "author": "Lyuba Zehl",
@@ -144,27 +160,111 @@
       "tags": [],
       "word_count": 67,
       "reading_time": 1,
-      "created_at": "2025-09-24T23:37:39.812133+00:00",
-      "updated_at": "2025-09-24T23:37:39.812134+00:00"
-    },
-    {
-      "id": "17478f9bfc95f80461f1b323c1068bd4",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40800958/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250924193737&v=2.18.0.post9+e462414",
-      "title": "Cycling on the Freeway: The perilous state of open-source neuroscience software",
-      "content": "Most scientists need software to perform their research (Barker et al., 2020;Carver et al., 2022;Hettrick, 2014;Hettrick et al., 2014;Switters & Osimo, 2019), and neuroscientists are no exception. Whether we work with reaction times, electrophysiological signals, or magnetic resonance imaging data, we rely on software to acquire, analyze, and statistically evaluate the raw data we obtain-or to generate such data if we work with simulations. In recent years, there has been a shift toward relying...",
-      "author": "Tim M Tierney",
-      "published_date": "2025-08-13T10:00:00+00:00",
-      "source": "Oostenveld Robert",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 74,
-      "reading_time": 1,
-      "created_at": "2025-09-24T23:37:39.812111+00:00",
-      "updated_at": "2025-09-24T23:37:39.812112+00:00"
+      "created_at": "2025-09-25T02:48:27.854996+00:00",
+      "updated_at": "2025-09-25T02:48:27.854997+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "b01714e4ad135a882a996ff2c008c811",
+      "url": "https://www.nature.com/articles/s41598-025-20294-1",
+      "title": "Plasticity of interhemispheric motor cortex connectivity induced by brain state-dependent cortico-cortical paired-associative stimulation",
+      "content": "",
+      "author": "",
+      "published_date": "2025-09-23T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-09-25T02:48:44.272127+00:00",
+      "updated_at": "2025-09-25T02:58:00.934166+00:00",
+      "metadata": {
+        "processed_at": "2025-09-25T02:58:00.934178+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a876ce08498e6c404072d0ba2722ccfd",
+      "url": "https://www.nature.com/articles/s41598-025-20807-y",
+      "title": "Molecular determinants of cesium- and glycine-dependent glycine receptor activation",
+      "content": "",
+      "author": "",
+      "published_date": "2025-09-23T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-09-25T02:48:44.272108+00:00",
+      "updated_at": "2025-09-25T02:58:00.934182+00:00",
+      "metadata": {
+        "processed_at": "2025-09-25T02:58:00.934184+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "d546df6e7b8fd041779e374f9f13ac75",
+      "url": "https://www.nature.com/articles/s41593-025-02060-8",
+      "title": "Temporal integration in human auditory cortex is predominantly yoked to absolute time",
+      "content": "<p>Nature Neuroscience, Published online: 18 September 2025; <a href=\"https://www.nature.com/articles/s41593-025-02060-8\">doi:10.1038/s41593-025-02060-8</a></p>Temporal integration throughout the human auditory cortex is predominantly locked to absolute time and does not vary with the duration of speech structures such as phonemes or words.",
+      "author": "Nima Mesgarani",
+      "published_date": "2025-09-18T00:00:00+00:00",
+      "source": "Nature Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 36,
+      "reading_time": 1,
+      "created_at": "2025-09-25T02:48:43.176444+00:00",
+      "updated_at": "2025-09-25T02:58:00.934186+00:00",
+      "metadata": {
+        "processed_at": "2025-09-25T02:58:00.934188+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "62a8af781972e2c2ecd9bd4dfc86c43a",
+      "url": "http://www.jneurosci.org/cgi/content/short/45/35/etwij45352025?rss=1",
+      "title": "This Week in The Journal",
+      "content": "",
+      "author": "McKeon, P.",
+      "published_date": "2025-08-27T16:30:24+00:00",
+      "source": "Journal Neuroscience This Week",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-09-25T02:48:41.649591+00:00",
+      "updated_at": "2025-09-25T02:58:00.934190+00:00",
+      "metadata": {
+        "processed_at": "2025-09-25T02:58:00.934192+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c7ad06acb65bc4c2f5913f717a6167ee",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1637164",
+      "title": "Clinical Gait Evaluation with Neuromuscular Impairments (Clinical GENI) for spastic cerebral palsy",
+      "content": "BackgroundGait abnormalities in spastic cerebral palsy (CP) result from four primary neuromuscular impairments: muscle weakness, short muscle-relative-to-skeletal-length, muscle spasticity, and impaired selective motor control. The Clinical Gait Evaluation with Neuromuscular Impairments (Clinical GENI) was developed to help clinicians identify gait abnormalities and contributing neuromuscular impairments in spastic CP for use in any clinical setting.AimsThis study evaluated use and validity of the observational-based Clinical GENI to identify gait abnormalities and contributing neuromuscular impairments in children with spastic CP.MethodsPatients with spastic CP seen in 2023 for instrumented gait analysis and physical exam of neuromuscular impairments were evaluated using the Clinical GENI. Validity was assessed by agreement between identification of gait abnormalities on the Clinical GENI compared to 3D gait kinematics. Severity of neuromuscular impairments associated with gait abnormalities listed on the Clinical GENI was compared, and severity of neuromuscular impairment was correlated with severity of gait abnormalities.ResultsParticipants included 12 children with spastic CP (4 GMFCS I, 8 GMFCS II; mean age 11.25 years). The most common gait abnormalities were forefoot/flatfoot initial contact (IC) (16/24), flexed-knee IC (19/24), hip-flexion in single limb stance (12/24), and reduced pre-swing ankle plantarflexion (19/24). Strong agreement (83\u2013100%) occurred between gait abnormalities on the Clinical GENI and kinematic values. Severity of neuromuscular impairment was higher (p < 0.05) for those with gait abnormalities vs. without and correlated to severity of gait abnormalities in a majority of comparisons.ConclusionResults support clinical utility and validity of the Clinical GENI for evaluating gait abnormalities and contributing neuromuscular impairments in spastic CP.",
+      "author": "Jessica Rose",
+      "published_date": "2025-09-17T00:00:00+00:00",
+      "source": "Frontiers Human Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 249,
+      "reading_time": 1,
+      "created_at": "2025-09-25T02:48:34.340693+00:00",
+      "updated_at": "2025-09-25T02:58:00.934194+00:00",
+      "metadata": {
+        "processed_at": "2025-09-25T02:58:00.934196+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "7208bf0f87687b98c04dfcef7668a21a",
       "url": "https://www.nature.com/articles/s42255-025-01362-2",
@@ -262,106 +362,6 @@
       "updated_at": "2025-09-25T01:05:57.781980+00:00",
       "metadata": {
         "processed_at": "2025-09-25T01:05:57.781981+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ff532959d0b9a0a5fa116600aa6bea39",
-      "url": "https://arxiv.org/abs/2509.18672",
-      "title": "NaviSense: A Multimodal Assistive Mobile application for Object Retrieval by Persons with Visual Impairment",
-      "content": "arXiv:2509.18672v1 Announce Type: new \nAbstract: People with visual impairments often face significant challenges in locating and retrieving objects in their surroundings. Existing assistive technologies present a trade-off: systems that offer precise guidance typically require pre-scanning or support only fixed object categories, while those with open-world object recognition lack spatial feedback for reaching the object. To address this gap, we introduce 'NaviSense', a mobile assistive system that combines conversational AI, vision-language models, augmented reality (AR), and LiDAR to support open-world object detection with real-time audio-haptic guidance. Users specify objects via natural language and receive continuous spatial feedback to navigate toward the target without needing prior setup. Designed with insights from a formative study and evaluated with 12 blind and low-vision participants, NaviSense significantly reduced object retrieval time and was preferred over existing tools, demonstrating the value of integrating open-world perception with precise, accessible guidance.",
-      "author": "Ajay Narayanan Sridhar (The Pennsylvania State University), Fuli Qiao (The Pennsylvania State University), Nelson Daniel Troncoso Aldas (Independent Researcher), Yanpei Shi (University of Southern California), Mehrdad Mahdavi (The Pennsylvania State University), Laurent Itti (University of Southern California), Vijaykrishnan Narayanan (The Pennsylvania State University)",
-      "published_date": "2025-09-24T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 143,
-      "reading_time": 1,
-      "created_at": "2025-09-24T21:38:40.744135+00:00",
-      "updated_at": "2025-09-24T22:13:34.736792+00:00",
-      "metadata": {
-        "processed_at": "2025-09-24T22:13:34.736802+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "85fc1d58fcf70bbca4215c2326c4c480",
-      "url": "https://arxiv.org/abs/2509.18664",
-      "title": "Experimentally Testing AI-Powered Content Transformations on Student Learning",
-      "content": "arXiv:2509.18664v1 Announce Type: new \nAbstract: Generative AI, which is capable of transforming static content into dynamic learning experiences, holds the potential to revolutionize student engagement in educational contexts. However, questions still remain around whether or not these tools are effective at facilitating student learning. In this research, we test the effectiveness of content transformations through Learn Your Way, an experimental research platform that transforms textbook chapters into dynamic visual and audio representations. Through a between-subjects, mixed methods experiment with 60 US-based students, we demonstrate that students who used Learn Your Way had a more positive learning experience and had better learning outcomes compared to students learning the same content via a digital reader. These findings indicate that AI-driven tools, capable of providing multiple, interactive representations of content, constitute an effective and promising method for enhancing student learning.",
-      "author": "Courtney Heldreth, Laura M. Vardoulakis, Nicole E. Miller, Yael Haramaty, Diana Akrong, Lidan Hackmon, Lior Belinsky",
-      "published_date": "2025-09-24T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 137,
-      "reading_time": 1,
-      "created_at": "2025-09-24T21:38:40.744107+00:00",
-      "updated_at": "2025-09-24T22:13:34.736806+00:00",
-      "metadata": {
-        "processed_at": "2025-09-24T22:13:34.736808+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "72978cc277e8ea33c9eac8215b22491f",
-      "url": "https://arxiv.org/abs/2509.18662",
-      "title": "FlexGuard: A Design Space for On-Body Feedback for Injury Prevention in Strength Training",
-      "content": "arXiv:2509.18662v1 Announce Type: new \nAbstract: Strength training carries risk of injury when exercises are performed without supervision. While haptics research has advanced, there remains a gap in how to integrate on-body feedback into intelligent wearables. Developing such a design space requires experiencing feedback in context, yet obtaining functional systems is costly. By addressing these challenges, we introduce FlexGuard, a design space for on-body feedback to support injury prevention in strength training. The design space was derived from nine co-design workshops, where novice trainees and expert trainers DIY'd low-fidelity on-body feedback systems, tried them immediately, and surfaced needs and challenges encountered in real exercising contexts. We then evaluated the space through speed dating, using storyboards to cover the design dimensions. We followed up with workshops to further validate selected dimensions in practice through a proof-of-concept wearable system prototype. Our findings extend the design space for sports and fitness wearables in the context of strength training.",
-      "author": "Panayu Keelawat, Darshan Nere, Jyotshna Bali, Rezky Dwisantika, Yogesh Phalak, Ardalan Kahak, Anekan Naicker, Liang He, Suyi Li, Yan Chen",
-      "published_date": "2025-09-24T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 154,
-      "reading_time": 1,
-      "created_at": "2025-09-24T21:38:40.744080+00:00",
-      "updated_at": "2025-09-24T22:13:34.736811+00:00",
-      "metadata": {
-        "processed_at": "2025-09-24T22:13:34.736812+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e4e89972ef5bd3a75a7de5769684edda",
-      "url": "https://arxiv.org/abs/2509.18641",
-      "title": "BloomIntent: Automating Search Evaluation with LLM-Generated Fine-Grained User Intents",
-      "content": "arXiv:2509.18641v1 Announce Type: new \nAbstract: If 100 people issue the same search query, they may have 100 different goals. While existing work on user-centric AI evaluation highlights the importance of aligning systems with fine-grained user intents, current search evaluation methods struggle to represent and assess this diversity. We introduce BloomIntent, a user-centric search evaluation method that uses user intents as the evaluation unit. BloomIntent first generates a set of plausible, fine-grained search intents grounded on taxonomies of user attributes and information-seeking intent types. Then, BloomIntent provides an automated evaluation of search results against each intent powered by large language models. To support practical analysis, BloomIntent clusters semantically similar intents and summarizes evaluation outcomes in a structured interface. With three technical evaluations, we showed that BloomIntent generated fine-grained, evaluable, and realistic intents and produced scalable assessments of intent-level satisfaction that achieved 72% agreement with expert evaluators. In a case study (N=4), we showed that BloomIntent supported search specialists in identifying intents for ambiguous queries, uncovering underserved user needs, and discovering actionable insights for improving search experiences. By shifting from query-level to intent-level evaluation, BloomIntent reimagines how search systems can be assessed -- not only for performance but for their ability to serve a multitude of user goals.",
-      "author": "Yoonseo Choi, Eunhye Kim, Hyunwoo Kim, Donghyun Park, Honggu Lee, Jinyoung Kim, Juho Kim",
-      "published_date": "2025-09-24T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 206,
-      "reading_time": 1,
-      "created_at": "2025-09-24T21:38:40.744052+00:00",
-      "updated_at": "2025-09-24T22:13:34.736815+00:00",
-      "metadata": {
-        "processed_at": "2025-09-24T22:13:34.736816+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d4e9814cea4906aba06057ded40cb50e",
-      "url": "https://arxiv.org/abs/2509.18498",
-      "title": "null2: Boundary-Dissolving Bodies and Architecture towards Digital Nature",
-      "content": "arXiv:2509.18498v1 Announce Type: new \nAbstract: This paper presents a case study of the thematic pavilion null2 at Expo 2025 Osaka-Kansai, contrasting with the static Jomon motifs of Taro Okamoto's Tower of the Sun from Expo 1970. The study discusses Yayoi-inspired mirror motifs and dynamically transforming interactive spatial configuration of null2, where visitors become integrated as experiential content. The shift from static representation to a new ontological and aesthetic model, characterized by the visitor's body merging in real-time with architectural space at installation scale, is analyzed. Referencing the philosophical context of Expo 1970 theme 'Progress and Harmony for Mankind,' this research reconsiders the worldview articulated by null2 in Expo 2025, in which computation is naturalized and ubiquitous, through its intersection with Eastern philosophical traditions. It investigates how immersive experiences within the pavilion, grounded in the philosophical framework of Digital Nature, reinterpret traditional spatial and structural motifs of the tea room, positioning them within contemporary digital art discourse. The aim is to contextualize and document null2 as an important contemporary case study from Expo practices, considering the historical and social background in Japan from the 19th to 21st century, during which world expositions served as pivotal points for the birth of modern Japanese concept of 'fine art,' symbolic milestones of economic development, and key moments in urban and media culture formation. Furthermore, this paper academically organizes architectural techniques, computer graphics methodologies, media art practices, and theoretical backgrounds utilized in null2, highlighting the scholarly significance of preserving these as an archival document for future generations.",
-      "author": "Yoichi Ochiai",
-      "published_date": "2025-09-24T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 252,
-      "reading_time": 1,
-      "created_at": "2025-09-24T21:38:40.744016+00:00",
-      "updated_at": "2025-09-24T22:13:34.736818+00:00",
-      "metadata": {
-        "processed_at": "2025-09-24T22:13:34.736820+00:00",
         "processing_method": "github_actions"
       }
     }
