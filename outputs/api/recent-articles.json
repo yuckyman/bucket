@@ -1,110 +1,74 @@
 {
-  "last_updated": "2025-09-26T20:15:15.246325+00:00",
+  "last_updated": "2025-09-26T20:21:29.090401+00:00",
   "count": 20,
   "articles": [
     {
-      "id": "faf45d017fd66166ae86f1f44996d318",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.09.23.678043v1?rss=1",
-      "title": "Effects of Cholesterol Modulation on Cisplatin-Induced Hearing Loss",
-      "content": "Cisplatin is a widely used and effective anticancer drug. However, it causes permanent sensorineural hearing loss in over 50% of treated patients. There are no FDA-approved therapies to prevent cisplatin-induced hearing loss (CIHL) in adults, highlighting a critical unmet clinical need. Previous studies suggest that statins, commonly prescribed cholesterol-lowering drugs, are associated with reduced incidence and severity of cisplatin-induced hearing loss. Statins are primarily used to lower cholesterol, but they also exert several pleiotropic effects, making the mechanism(s) underlying this protection unclear. Here we examine whether reduced plasma cholesterol confers protection against CIHL independent of statin treatment. We utilized mice lacking serine protease proprotein convertase subtilisin/kexin type 9 (Pcsk9 knockout (KO) mice) as a genetic model of reduced plasma cholesterol. We find that Pcsk9 KO mice are protected against cisplatin-induced hearing loss, as reflected by significantly lower ABR and DPOAE threshold shifts relative to wild type (WT) mice following treatment. Histological analyses confirmed preservation of cochlear outer hair cells (OHCs) in Pcsk9 KO mice treated with cisplatin, whereas WT mice showed significant OHC loss in the high-frequency cochlear regions. Finally, hearing loss positively correlated with baseline plasma cholesterol levels. Together our data demonstrate that systemic cholesterol reduction provides significant protection against CIHL, and they suggest that the protective effect of statins against CIHL is mediated by cholesterol reduction.",
-      "author": "Lee, J., Peppi, M., Guidry, M., Fernandez, K., Chowdhury, A., Wang, L., Cunningham, L. L.",
-      "published_date": "2025-09-26T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 218,
-      "reading_time": 1,
-      "created_at": "2025-09-26T19:38:32.497825+00:00",
-      "updated_at": "2025-09-26T20:15:15.141516+00:00",
-      "metadata": {
-        "processed_at": "2025-09-26T20:15:15.141528+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9d358635a8ae21f6540024c0ce8d3d91",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38873838/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926153812&v=2.18.0.post9+e462414",
+      "id": "6726661214523670209c47a9be19ce15",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38873838/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926162038&v=2.18.0.post9+e462414",
       "title": "The impact of CSF-filled cavities on scalp EEG and its implications",
       "content": "Previous studies have found electroencephalogram (EEG) amplitude and scalp topography differences between neurotypical and neurological/neurosurgical groups, being interpreted at the cognitive level. However, these comparisons are invariably accompanied by anatomical changes. Critical to EEG are the so-called volume currents, which are affected by the spatial distribution of the different tissues in the head. We investigated the effect of cerebrospinal fluid (CSF)-filled cavities on simulated...",
       "author": "Maria Carla Piastra",
       "published_date": "2024-06-14T10:00:00+00:00",
       "source": "Oostenveld Robert",
-      "status": "processed",
+      "status": "pending",
       "priority": "medium",
       "tags": [],
       "word_count": 64,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:13.398150+00:00",
-      "updated_at": "2025-09-26T20:15:15.141532+00:00",
-      "metadata": {
-        "processed_at": "2025-09-26T20:15:15.141534+00:00",
-        "processing_method": "github_actions"
-      }
+      "created_at": "2025-09-26T20:20:41.319569+00:00",
+      "updated_at": "2025-09-26T20:20:41.319570+00:00"
     },
     {
-      "id": "fdcd3bd05a425540a9d310f1d6352d0e",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/38956071/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926153812&v=2.18.0.post9+e462414",
+      "id": "9c7807aacf786f44ee1a536472ea0807",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38956071/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926162038&v=2.18.0.post9+e462414",
       "title": "Motion-BIDS: an extension to the brain imaging data structure to organize motion data for reproducible research",
       "content": "We present an extension to the Brain Imaging Data Structure (BIDS) for motion data. Motion data is frequently recorded alongside human brain imaging and electrophysiological data. The goal of Motion-BIDS is to make motion data interoperable across different laboratories and with other data modalities in human brain and behavioral research. To this end, Motion-BIDS standardizes the data format and metadata structure. It describes how to document experimental details, considering the diversity of...",
       "author": "Julius Welzel",
       "published_date": "2024-07-02T10:00:00+00:00",
       "source": "Oostenveld Robert",
-      "status": "processed",
+      "status": "pending",
       "priority": "medium",
       "tags": [],
       "word_count": 72,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:13.398127+00:00",
-      "updated_at": "2025-09-26T20:15:15.141537+00:00",
-      "metadata": {
-        "processed_at": "2025-09-26T20:15:15.141538+00:00",
-        "processing_method": "github_actions"
-      }
+      "created_at": "2025-09-26T20:20:41.319545+00:00",
+      "updated_at": "2025-09-26T20:20:41.319547+00:00"
     },
     {
-      "id": "26c062bfdce1c6699cb8213af6f71f56",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39174725/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926153812&v=2.18.0.post9+e462414",
+      "id": "95ed17089c35d05279c8ec1f7f186dd2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39174725/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926162038&v=2.18.0.post9+e462414",
       "title": "One hundred years of EEG for brain and behaviour research",
       "content": "No abstract",
       "author": "Pedro Valdes-Sosa",
       "published_date": "2024-08-22T10:00:00+00:00",
       "source": "Oostenveld Robert",
-      "status": "processed",
+      "status": "pending",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:13.398101+00:00",
-      "updated_at": "2025-09-26T20:15:15.141540+00:00",
-      "metadata": {
-        "processed_at": "2025-09-26T20:15:15.141542+00:00",
-        "processing_method": "github_actions"
-      }
+      "created_at": "2025-09-26T20:20:41.319521+00:00",
+      "updated_at": "2025-09-26T20:20:41.319523+00:00"
     },
     {
-      "id": "ca67d087192d103fee6c2301d06c06b5",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39229492/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926153812&v=2.18.0.post9+e462414",
+      "id": "114977ca313fb973756b854d697b7c3e",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39229492/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926162038&v=2.18.0.post9+e462414",
       "title": "Freezing of gait in Parkinson's disease is related to imbalanced stopping-related cortical activity",
       "content": "Freezing of gait, characterized by involuntary interruptions of walking, is a debilitating motor symptom of Parkinson's disease that restricts people's autonomy. Previous brain imaging studies investigating the mechanisms underlying freezing were restricted to scan people in supine positions and yielded conflicting theories regarding the role of the supplementary motor area and other cortical regions. We used functional near-infrared spectroscopy to investigate cortical haemodynamics related to...",
       "author": "Richard J A van Wezel",
       "published_date": "2024-09-04T10:00:00+00:00",
       "source": "Oostenveld Robert",
-      "status": "processed",
+      "status": "pending",
       "priority": "medium",
       "tags": [],
       "word_count": 65,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:13.398084+00:00",
-      "updated_at": "2025-09-26T20:15:15.141544+00:00",
-      "metadata": {
-        "processed_at": "2025-09-26T20:15:15.141546+00:00",
-        "processing_method": "github_actions"
-      }
+      "created_at": "2025-09-26T20:20:41.319502+00:00",
+      "updated_at": "2025-09-26T20:20:41.319504+00:00"
     },
     {
-      "id": "2803ff29af81aa164b75a231da0244f1",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39308505/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926153812&v=2.18.0.post9+e462414",
+      "id": "3a2d54cf8857a5c94bc4e64abccc0b6d",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39308505/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926162038&v=2.18.0.post9+e462414",
       "title": "The past, present, and future of the brain imaging data structure (BIDS)",
       "content": "The Brain Imaging Data Structure (BIDS) is a community-driven standard for the organization of data and metadata from a growing range of neuroscience modalities. This paper is meant as a history of how the standard has developed and grown over time. We outline the principles behind the project, the mechanisms by which it has been extended, and some of the challenges being addressed as it evolves. We also discuss the lessons learned through the project, with the aim of enabling researchers in...",
       "author": "Krzysztof J Gorgolewski",
@@ -115,12 +79,12 @@
       "tags": [],
       "word_count": 82,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:13.398057+00:00",
-      "updated_at": "2025-09-26T19:38:13.398058+00:00"
+      "created_at": "2025-09-26T20:20:41.319479+00:00",
+      "updated_at": "2025-09-26T20:20:41.319480+00:00"
     },
     {
-      "id": "0d21294e0a625483153c46f8b75b477e",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39786979/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926153812&v=2.18.0.post9+e462414",
+      "id": "4724f619fd180daaa276eec6e9524fa9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39786979/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926162038&v=2.18.0.post9+e462414",
       "title": "Human cortical high-gamma power scales with movement rate in healthy participants and stroke survivors",
       "content": "Motor cortical high-gamma oscillations (60-90 Hz) occur at movement onset and are spatially focused over the contralateral primary motor cortex. Although high-gamma oscillations are widely recognized for their significance in human motor control, their precise function on a cortical level remains elusive. Importantly, their relevance in human stroke pathophysiology is unknown. Because motor deficits are fundamental determinants of symptom burden after stroke, understanding the neurophysiological...",
       "author": "Fanny Quandt",
@@ -131,12 +95,12 @@
       "tags": [],
       "word_count": 65,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:13.398033+00:00",
-      "updated_at": "2025-09-26T19:38:13.398035+00:00"
+      "created_at": "2025-09-26T20:20:41.319442+00:00",
+      "updated_at": "2025-09-26T20:20:41.319444+00:00"
     },
     {
-      "id": "be8c95a2aa10853c741f5f3abaf7716b",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/39870674/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926153812&v=2.18.0.post9+e462414",
+      "id": "34a4eefd1ce2a51f170825acb4567b01",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39870674/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926162038&v=2.18.0.post9+e462414",
       "title": "NIRS-BIDS: Brain Imaging Data Structure Extended to Near-Infrared Spectroscopy",
       "content": "Functional near-infrared spectroscopy (fNIRS) is an increasingly popular neuroimaging technique that measures cortical hemodynamic activity in a non-invasive and portable fashion. Although the fNIRS community has been successful in disseminating open-source processing tools and a standard file format (SNIRF), reproducible research and sharing of fNIRS data amongst researchers has been hindered by a lack of standards and clarity over how study data should be organized and stored. This problem is...",
       "author": "Luca Pollonini",
@@ -147,12 +111,12 @@
       "tags": [],
       "word_count": 70,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:13.398011+00:00",
-      "updated_at": "2025-09-26T19:38:13.398012+00:00"
+      "created_at": "2025-09-26T20:20:41.319418+00:00",
+      "updated_at": "2025-09-26T20:20:41.319420+00:00"
     },
     {
-      "id": "3dfa34673d2edda8b8c0530c0319ddf8",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40568426/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926153812&v=2.18.0.post9+e462414",
+      "id": "4d3b449602e184b06ac7550e2a11f428",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40568426/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926162038&v=2.18.0.post9+e462414",
       "title": "Pseudonymisation of neuroimages and data protection: <em>Increasing access to data while retaining scientific utility</em>",
       "content": "For a number of years, facial features removal techniques such as 'defacing', 'skull stripping' and 'face masking/blurring', were considered adequate privacy preserving tools to openly share brain images. Scientifically, these measures were already a compromise between data protection requirements and research impact of such data. Now, recent advances in machine learning and deep learning that indicate an increased possibility of re-identifiability from defaced neuroimages, have increased the...",
       "author": "Lyuba Zehl",
@@ -163,12 +127,12 @@
       "tags": [],
       "word_count": 67,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:13.397987+00:00",
-      "updated_at": "2025-09-26T19:38:13.397988+00:00"
+      "created_at": "2025-09-26T20:20:41.319394+00:00",
+      "updated_at": "2025-09-26T20:20:41.319396+00:00"
     },
     {
-      "id": "221195491fd028153ea797f9c096cfac",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40800958/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926153812&v=2.18.0.post9+e462414",
+      "id": "2ee2b89ea4cdd933c1ec803be1398c47",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40800958/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926162038&v=2.18.0.post9+e462414",
       "title": "Cycling on the Freeway: The perilous state of open-source neuroscience software",
       "content": "Most scientists need software to perform their research (Barker et al., 2020;Carver et al., 2022;Hettrick, 2014;Hettrick et al., 2014;Switters & Osimo, 2019), and neuroscientists are no exception. Whether we work with reaction times, electrophysiological signals, or magnetic resonance imaging data, we rely on software to acquire, analyze, and statistically evaluate the raw data we obtain-or to generate such data if we work with simulations. In recent years, there has been a shift toward relying...",
       "author": "Tim M Tierney",
@@ -179,12 +143,12 @@
       "tags": [],
       "word_count": 74,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:13.397962+00:00",
-      "updated_at": "2025-09-26T19:38:13.397964+00:00"
+      "created_at": "2025-09-26T20:20:41.319369+00:00",
+      "updated_at": "2025-09-26T20:20:41.319371+00:00"
     },
     {
-      "id": "a7d525578add9d17d12a8e5b0394354a",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/40800964/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926153812&v=2.18.0.post9+e462414",
+      "id": "e0741303da2dbe0b948221eece4b429a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40800964/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20250926162038&v=2.18.0.post9+e462414",
       "title": "Optimal configuration of on-scalp OPMs with fixed channel counts",
       "content": "Recent technological developments have brought optically pumped magnetometers (OPMs) within reach of the larger neuroscientific community. The current state-of-the-art consists of whole-head systems that measure the magnetic field at >100 locations. OPM sensors can be constructed to measure the field in either 1, 2, or 3 orientations. Consequently, the number of channels can differ from the number of sensors. This allows for magnetoencephalography (MEG) system designs with multiple measurement...",
       "author": "Robert Oostenveld",
@@ -195,12 +159,12 @@
       "tags": [],
       "word_count": 69,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:13.397931+00:00",
-      "updated_at": "2025-09-26T19:38:13.397935+00:00"
+      "created_at": "2025-09-26T20:20:41.319336+00:00",
+      "updated_at": "2025-09-26T20:20:41.319341+00:00"
     },
     {
-      "id": "140ef880d36132b684cdc3c7dd4a4346",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41000924/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926153809&v=2.18.0.post9+e462414",
+      "id": "c48aa7dbf29a63a2988d0eb342adbb6f",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41000924/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926162034&v=2.18.0.post9+e462414",
       "title": "Domain-specific functions of LRIT3 in synaptic assembly and retinal signal transmission",
       "content": "LRIT3 is a leucine-rich repeat (LRR) protein that is expressed in the retina, and its absence causes complete congenital stationary night blindness (cCSNB), a genetically diverse disorder characterized by impaired low-light vision, myopia, and nystagmus. LRIT3 is expressed in rod and cone photoreceptors, and it trans-synaptically organizes the assembly of the glutamate signaling complex, the signalplex, on depolarizing bipolar cells (DBCs). LRIT3 is a single-pass membrane protein with...",
       "author": "Ronald G Gregg",
@@ -211,12 +175,12 @@
       "tags": [],
       "word_count": 68,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:10.796951+00:00",
-      "updated_at": "2025-09-26T19:38:10.796952+00:00"
+      "created_at": "2025-09-26T20:20:36.443482+00:00",
+      "updated_at": "2025-09-26T20:20:36.443484+00:00"
     },
     {
-      "id": "1560533d870e9106fdbb9eff844e46e0",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41001081/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926153809&v=2.18.0.post9+e462414",
+      "id": "e7b62a34df456f3949bbbf9402d1c048",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41001081/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926162034&v=2.18.0.post9+e462414",
       "title": "Step-Calibrated Diffusion for Biomedical Optical Image Restoration",
       "content": "High-quality, high-resolution medical imaging is essential for clinical care. Raman-based biomedical optical imaging uses non-ionizing infrared radiation to evaluate human tissues in real time and is used for early cancer detection, brain tumor diagnosis, and intraoperative tissue analysis. Unfortunately, optical imaging is vulnerable to image degradation due to laser scattering and absorption, which can result in diagnostic errors and misguided treatment. Restoration of optical images is a...",
       "author": "Todd C Hollon",
@@ -227,12 +191,12 @@
       "tags": [],
       "word_count": 67,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:10.796928+00:00",
-      "updated_at": "2025-09-26T19:38:10.796930+00:00"
+      "created_at": "2025-09-26T20:20:36.443460+00:00",
+      "updated_at": "2025-09-26T20:20:36.443461+00:00"
     },
     {
-      "id": "4c515686640df42a85bf2dfee1a8cbc7",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41001290/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926153809&v=2.18.0.post9+e462414",
+      "id": "5b9a8647e3266e2176582db17c0aa667",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41001290/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926162034&v=2.18.0.post9+e462414",
       "title": "Different Colours of Polycythemia Vera: A Case Series",
       "content": "Polycythemia vera (PV) is a myeloproliferative neoplasm characterized by increased red blood cell mass, often with leukocytosis and thrombocytosis, predisposing to thrombotic and hemorrhagic events. We report three cases with varied presentations: a 38-year-old man with headaches, dizziness, blurred vision, and fatigue; a 54-year-old woman with acute myocardial infarction; and a 60-year-old man with acute ischemic stroke. All had elevated hemoglobin/hematocrit, low erythropoietin, and positive...",
       "author": "Yogesh S",
@@ -243,12 +207,12 @@
       "tags": [],
       "word_count": 65,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:10.796903+00:00",
-      "updated_at": "2025-09-26T19:38:10.796905+00:00"
+      "created_at": "2025-09-26T20:20:36.443437+00:00",
+      "updated_at": "2025-09-26T20:20:36.443438+00:00"
     },
     {
-      "id": "2e052416b40d7a41177c8e896522fee8",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41001566/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926153809&v=2.18.0.post9+e462414",
+      "id": "0622e97ec467ad975b64c8ebe8edcb0d",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41001566/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926162034&v=2.18.0.post9+e462414",
       "title": "Residual Gaze Behavior During Navigation in Blindness and Low Vision",
       "content": "CONCLUSION: Gaze strategies during navigation form a graded continuum across vision groups, with fully sighted and fully blind participants at opposite poles and low vision and blind groups spanning the middle. Visual acuity alone does not predict functional gaze use, as rehabilitation experience and adaptive strategies strongly shape behavior. These findings highlight the need for personalized rehabilitation and assistive technologies, with residual gaze patterns offering insight into mobility...",
       "author": "John-Ross Rizzo",
@@ -259,12 +223,12 @@
       "tags": [],
       "word_count": 68,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:10.796881+00:00",
-      "updated_at": "2025-09-26T19:38:10.796882+00:00"
+      "created_at": "2025-09-26T20:20:36.443414+00:00",
+      "updated_at": "2025-09-26T20:20:36.443415+00:00"
     },
     {
-      "id": "7b369b0e410d79d6d0e9ff16e43caa6f",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41001756/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926153809&v=2.18.0.post9+e462414",
+      "id": "8b8e21dde33680d6689991a13e43b137",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41001756/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926162034&v=2.18.0.post9+e462414",
       "title": "Novel Optoelectronic Reconfigurable Transistors Based on Graphene/VO<sub>2</sub> Heterojunction for Efficient Neuromorphic Perception, Computation, and Storage",
       "content": "Optoelectronic artificial neuromorphic devices, inspired by biological vision systems, have overcome bottlenecks of the von Neumann architecture. The innovation and integration of neuromorphic hardware systems represent a pivotal challenge for advancing the iteration of artificial intelligence. Accordingly, a novel optoelectronic reconfigurable neuromorphic transistor (ORNT) is designed to integrate three functions, enabling the perception, computation, and storage of optical information in a...",
       "author": "Tao Deng",
@@ -275,12 +239,12 @@
       "tags": [],
       "word_count": 61,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:10.796854+00:00",
-      "updated_at": "2025-09-26T19:38:10.796855+00:00"
+      "created_at": "2025-09-26T20:20:36.443391+00:00",
+      "updated_at": "2025-09-26T20:20:36.443392+00:00"
     },
     {
-      "id": "7fe44eb0c6dd56f95e54219758796356",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41002138/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926153809&v=2.18.0.post9+e462414",
+      "id": "9f4b853d8d7bc7bb1bb38f678141aa51",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41002138/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926162034&v=2.18.0.post9+e462414",
       "title": "Spatial frequency adaptation modulates population receptive field sizes",
       "content": "The spatial tuning of neuronal populations in the early visual cortical regions is related to the spatial frequency (SF) selectivity of neurons. However, there has been no direct investigation into how this relationship is reflected in population receptive field (pRF) sizes despite the common application of pRF mapping in visual neuroscience. We hypothesised that adaptation to high/low SF would decrease the sensitivity of neurons with respectively small/large receptive field sizes, resulting in...",
       "author": "D Samuel Schwarzkopf",
@@ -291,12 +255,12 @@
       "tags": [],
       "word_count": 72,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:10.796831+00:00",
-      "updated_at": "2025-09-26T19:38:10.796832+00:00"
+      "created_at": "2025-09-26T20:20:36.443363+00:00",
+      "updated_at": "2025-09-26T20:20:36.443365+00:00"
     },
     {
-      "id": "1b29c61889308930b61d145eb719da71",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41002785/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926153809&v=2.18.0.post9+e462414",
+      "id": "c56175827718c626f59cfc373fcbf11f",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41002785/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926162034&v=2.18.0.post9+e462414",
       "title": "Harnessing Visual Neuroplasticity Through Auditory Biofeedback-Functional and Electrophysiological Gains Across Retinal, Optic-Nerve, and Cortical Visual Impairment: A Prospective Pilot Study",
       "content": "Background: This prospective pilot study included four participants with chronic visual impairment and assessed functional and electrophysiological recovery following visual evoked potential (VEP)-guided auditory biofeedback across diverse etiologies. Low vision affects more than two billion people worldwide and imposes a sustained personal and socioeconomic burden. Conventional rehabilitation emphasizes optical aids and environmental modification without directly stimulating the visual pathway....",
       "author": "Simonetta Gaia Nicolosi",
@@ -307,12 +271,12 @@
       "tags": [],
       "word_count": 59,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:10.796807+00:00",
-      "updated_at": "2025-09-26T19:38:10.796809+00:00"
+      "created_at": "2025-09-26T20:20:36.443338+00:00",
+      "updated_at": "2025-09-26T20:20:36.443340+00:00"
     },
     {
-      "id": "91c1041e0ed94f21c30749b397286919",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41002803/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926153809&v=2.18.0.post9+e462414",
+      "id": "3f0c9ccd54c478e1555a877844849792",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41002803/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926162034&v=2.18.0.post9+e462414",
       "title": "Design and Experimental Validation of Pipeline Defect Detection in Low-Illumination Environments Based on Bionic Visual Perception",
       "content": "Detecting internal defects in narrow and curved pipelines remains a significant challenge, due to the difficulty of achieving reliable defect perception under low-light conditions and generating collision-free motion trajectories. To address these challenges, this article proposes an event-aware ES-YOLO framework, and develops a pipeline defect inspection experimental environment that utilizes a hyper-redundant manipulator (HRM) to insert an event camera into the pipeline in a collision-free...",
       "author": "Jiayu Liang",
@@ -323,12 +287,12 @@
       "tags": [],
       "word_count": 65,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:10.796784+00:00",
-      "updated_at": "2025-09-26T19:38:10.796786+00:00"
+      "created_at": "2025-09-26T20:20:36.443315+00:00",
+      "updated_at": "2025-09-26T20:20:36.443317+00:00"
     },
     {
-      "id": "09ba0b4542611aa9d5d0d6bbc1041afb",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41003365/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926153809&v=2.18.0.post9+e462414",
+      "id": "e4ebb94347d3a351d37a3455dfb8b30b",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41003365/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926162034&v=2.18.0.post9+e462414",
       "title": "From Detection to Motion-Based Classification: A Two-Stage Approach for <em>T. cruzi</em> Identification in Video Sequences",
       "content": "Chagas disease, caused by Trypanosoma cruzi (T. cruzi), remains a significant public health challenge in Latin America. Traditional diagnostic methods relying on manual microscopy suffer from low sensitivity, subjective interpretation, and poor performance in suboptimal conditions. This study presents a novel computer vision framework integrating motion analysis with deep learning for automated T. cruzi detection in microscopic videos. Our motion-based detection pipeline leverages parasite...",
       "author": "Lavdie Rada",
@@ -339,8 +303,24 @@
       "tags": [],
       "word_count": 64,
       "reading_time": 1,
-      "created_at": "2025-09-26T19:38:10.796760+00:00",
-      "updated_at": "2025-09-26T19:38:10.796762+00:00"
+      "created_at": "2025-09-26T20:20:36.443290+00:00",
+      "updated_at": "2025-09-26T20:20:36.443292+00:00"
+    },
+    {
+      "id": "aee86ccc58472b6d60b490a0dc9d5f5d",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41003711/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20250926162034&v=2.18.0.post9+e462414",
+      "title": "Myopic macular neovascularization treatment: A 2-year follow-up of a real-life cohort",
+      "content": "CONCLUSION: During a 24-month period, there was a lack of BCVA improvement, which may be attributed to the PRN injection regimen and the relatively low number of injections administered for mMNV. These findings suggest that mMNV may be undertreated in routine practice, with suboptimal intravitreal injection frequency.",
+      "author": "Gilad Rabina",
+      "published_date": "2025-09-26T10:00:00+00:00",
+      "source": "Low Vision",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 47,
+      "reading_time": 1,
+      "created_at": "2025-09-26T20:20:36.443258+00:00",
+      "updated_at": "2025-09-26T20:20:36.443263+00:00"
     }
   ]
 }
