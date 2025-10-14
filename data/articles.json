@@ -1,5 +1,21 @@
 [
   {
+    "id": "1f1dcc74259eaa0aac7f545abcc29a32",
+    "url": "https://github.com/metorial/metorial",
+    "title": "Show HN: Metorial (YC F25) \u2013 Vercel for MCP",
+    "content": "<p>Hey HN! We're Wen and Tobias, and we're building Metorial (<a href=\"https://metorial.com\">https://metorial.com</a>), an integration platform that connects AI agents to external tools and data using MCP.<p>The Problem: While MCP works great locally (e.g., Cursor or Claude Desktop), server-side deployments are painful. Running MCP servers means managing Docker configs, per-user OAuth flows, scaling concurrent sessions, and building observability from scratch. This infrastructure work turns simple integrations into weeks of setup.<p>Metorial handles all of this automatically. We maintain an open catalog of ~600 MCP servers (GitHub, Slack, Google Drive, Salesforce, databases, etc.) that you can deploy in three clicks. You can also bring your own MCP server or fork existing ones.<p>For OAuth, just provide your client ID and secret and we handle the entire flow, including token refresh. Each user then gets an isolated MCP server instance configured with their own OAuth credentials automatically.<p>What makes us different is that our serverless runtime hibernates idle MCP servers and resumes them with sub-second cold starts while preserving the state and connection. Our custom MCP engine is capable of managing thousands of concurrent connections, giving you a scalable service with per-user isolation. Other alternatives either run shared servers (security issues) or provision separate VMs per user (expensive and slow to scale).<p>Our Python and TypeScript SDKs let you connect LLMs to MCP tools in a single function call, abstracting away the protocol complexity. But if you want to dig deep, you can just use standard MCP and our REST API (<a href=\"https://metorial.com/api\">https://metorial.com/api</a>) to connect to our platform.<p>You can self-host (<a href=\"https://github.com/metorial/metorial\" rel=\"nofollow\">https://github.com/metorial/metorial</a>) or use the managed version at <a href=\"https://metorial.com\">https://metorial.com</a>.<p>So far, we see enterprise teams use Metorial to have a central integration hub for tools like Salesforce, while startups use it to cut weeks of infra work on their side when building AI agents with integrations.<p>Demo video: <a href=\"https://www.youtube.com/watch?v=07StSRNmJZ8\" rel=\"nofollow\">https://www.youtube.com/watch?v=07StSRNmJZ8</a><p>Our Repos: Metorial: <a href=\"https://github.com/metorial/metorial\" rel=\"nofollow\">https://github.com/metorial/metorial</a>, MCP Containers: <a href=\"https://github.com/metorial/mcp-containers\" rel=\"nofollow\">https://github.com/metorial/mcp-containers</a><p>SDKs: Node/TypeScript: <a href=\"https://github.com/metorial/metorial-node\" rel=\"nofollow\">https://github.com/metorial/metorial-node</a>, Python: <a href=\"https://github.com/metorial/metorial-python\" rel=\"nofollow\">https://github.com/metorial/metorial-python</a><p>We'd love to hear feedback, especially if you've dealt with deploying MCP at scale!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45580771\">https://news.ycombinator.com/item?id=45580771</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+    "author": "tobihrbr",
+    "published_date": "2025-10-14T14:49:56+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 346,
+    "reading_time": 1,
+    "created_at": "2025-10-14T16:46:27.116306+00:00",
+    "updated_at": "2025-10-14T16:46:27.116307+00:00"
+  },
+  {
     "id": "bad7354b0929dc30407db37a6441dd67",
     "url": "https://www.biorxiv.org/content/10.1101/2025.10.12.681768v1?rss=1",
     "title": "Automatic Change Detection of Human Attractiveness: Comparing Visual and Auditory Perception",
@@ -16066,21 +16082,5 @@
     "reading_time": 1,
     "created_at": "2025-10-14T09:42:39.424872+00:00",
     "updated_at": "2025-10-14T09:42:39.424874+00:00"
-  },
-  {
-    "id": "f8e1fdd2a6ae618617d6f6d18917f516",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40800958/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20251014054236&v=2.18.0.post9+e462414",
-    "title": "Cycling on the Freeway: The perilous state of open-source neuroscience software",
-    "content": "Most scientists need software to perform their research (Barker et al., 2020;Carver et al., 2022;Hettrick, 2014;Hettrick et al., 2014;Switters & Osimo, 2019), and neuroscientists are no exception. Whether we work with reaction times, electrophysiological signals, or magnetic resonance imaging data, we rely on software to acquire, analyze, and statistically evaluate the raw data we obtain-or to generate such data if we work with simulations. In recent years, there has been a shift toward relying...",
-    "author": "Tim M Tierney",
-    "published_date": "2025-08-13T10:00:00+00:00",
-    "source": "Oostenveld Robert",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 74,
-    "reading_time": 1,
-    "created_at": "2025-10-14T09:42:39.424848+00:00",
-    "updated_at": "2025-10-14T09:42:39.424849+00:00"
   }
 ]

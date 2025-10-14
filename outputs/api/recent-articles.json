@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-10-14T16:26:47.873915+00:00",
+  "last_updated": "2025-10-14T16:47:41.871299+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "1f1dcc74259eaa0aac7f545abcc29a32",
+      "url": "https://github.com/metorial/metorial",
+      "title": "Show HN: Metorial (YC F25) \u2013 Vercel for MCP",
+      "content": "<p>Hey HN! We're Wen and Tobias, and we're building Metorial (<a href=\"https://metorial.com\">https://metorial.com</a>), an integration platform that connects AI agents to external tools and data using MCP.<p>The Problem: While MCP works great locally (e.g., Cursor or Claude Desktop), server-side deployments are painful. Running MCP servers means managing Docker configs, per-user OAuth flows, scaling concurrent sessions, and building observability from scratch. This infrastructure work turns simple integrations into weeks of setup.<p>Metorial handles all of this automatically. We maintain an open catalog of ~600 MCP servers (GitHub, Slack, Google Drive, Salesforce, databases, etc.) that you can deploy in three clicks. You can also bring your own MCP server or fork existing ones.<p>For OAuth, just provide your client ID and secret and we handle the entire flow, including token refresh. Each user then gets an isolated MCP server instance configured with their own OAuth credentials automatically.<p>What makes us different is that our serverless runtime hibernates idle MCP servers and resumes them with sub-second cold starts while preserving the state and connection. Our custom MCP engine is capable of managing thousands of concurrent connections, giving you a scalable service with per-user isolation. Other alternatives either run shared servers (security issues) or provision separate VMs per user (expensive and slow to scale).<p>Our Python and TypeScript SDKs let you connect LLMs to MCP tools in a single function call, abstracting away the protocol complexity. But if you want to dig deep, you can just use standard MCP and our REST API (<a href=\"https://metorial.com/api\">https://metorial.com/api</a>) to connect to our platform.<p>You can self-host (<a href=\"https://github.com/metorial/metorial\" rel=\"nofollow\">https://github.com/metorial/metorial</a>) or use the managed version at <a href=\"https://metorial.com\">https://metorial.com</a>.<p>So far, we see enterprise teams use Metorial to have a central integration hub for tools like Salesforce, while startups use it to cut weeks of infra work on their side when building AI agents with integrations.<p>Demo video: <a href=\"https://www.youtube.com/watch?v=07StSRNmJZ8\" rel=\"nofollow\">https://www.youtube.com/watch?v=07StSRNmJZ8</a><p>Our Repos: Metorial: <a href=\"https://github.com/metorial/metorial\" rel=\"nofollow\">https://github.com/metorial/metorial</a>, MCP Containers: <a href=\"https://github.com/metorial/mcp-containers\" rel=\"nofollow\">https://github.com/metorial/mcp-containers</a><p>SDKs: Node/TypeScript: <a href=\"https://github.com/metorial/metorial-node\" rel=\"nofollow\">https://github.com/metorial/metorial-node</a>, Python: <a href=\"https://github.com/metorial/metorial-python\" rel=\"nofollow\">https://github.com/metorial/metorial-python</a><p>We'd love to hear feedback, especially if you've dealt with deploying MCP at scale!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45580771\">https://news.ycombinator.com/item?id=45580771</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+      "author": "tobihrbr",
+      "published_date": "2025-10-14T14:49:56+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 346,
+      "reading_time": 1,
+      "created_at": "2025-10-14T16:46:27.116306+00:00",
+      "updated_at": "2025-10-14T16:46:27.116307+00:00"
+    },
     {
       "id": "bad7354b0929dc30407db37a6441dd67",
       "url": "https://www.biorxiv.org/content/10.1101/2025.10.12.681768v1?rss=1",
@@ -319,26 +335,6 @@
       "updated_at": "2025-10-14T16:18:21.107820+00:00",
       "metadata": {
         "processed_at": "2025-10-14T16:18:21.107821+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f7f416118a32b0e243911d8ef725d75c",
-      "url": "https://www.embs.org/blog-post/change-foi-for-ieee-embs/",
-      "title": "Notice to IEEE EMBS Members: Change to Field of Interest",
-      "content": "<p>The post <a href=\"https://www.embs.org/blog-post/change-foi-for-ieee-embs/\">Notice to IEEE EMBS Members: Change to Field of Interest</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "Nancy Zimmerman",
-      "published_date": "2025-04-27T21:41:29+00:00",
-      "source": "Embs",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 19,
-      "reading_time": 1,
-      "created_at": "2025-10-14T15:41:44.722074+00:00",
-      "updated_at": "2025-10-14T16:18:21.107824+00:00",
-      "metadata": {
-        "processed_at": "2025-10-14T16:18:21.107825+00:00",
         "processing_method": "github_actions"
       }
     }
