@@ -1,5 +1,21 @@
 [
   {
+    "id": "8b247baca766d1765c188d758435a6e1",
+    "url": "https://tech.stonecharioteer.com/posts/2025/ruby-blocks/",
+    "title": "Ruby Blocks",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=45581602\">Comments</a>",
+    "author": "",
+    "published_date": "2025-10-14T15:58:27+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-10-18T09:37:57.632898+00:00",
+    "updated_at": "2025-10-18T09:37:57.632899+00:00"
+  },
+  {
     "id": "fd5bf4f2079402edbc6b4ad350d0b88c",
     "url": "https://pubmed.ncbi.nlm.nih.gov/41101774/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20251018052100&v=2.18.0.post9+e462414",
     "title": "Artificial intelligence and computer-aided diagnosis in diagnostic decisions: 5 questions for medical informatics and human-computer interface research",
@@ -16102,21 +16118,5 @@
     "reading_time": 1,
     "created_at": "2025-10-17T20:23:39.964600+00:00",
     "updated_at": "2025-10-17T20:23:39.964602+00:00"
-  },
-  {
-    "id": "4eb07fb1a398f61781dbf213a5a505a2",
-    "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1665778",
-    "title": "Balancing accuracy and efficiency: co-design of hybrid quantization and unified computing architecture for spiking neural networks",
-    "content": "The deployment of Spiking Neural Networks (SNNs) on resource-constrained edge devices is hindered by a critical algorithm-hardware mismatch: a fundamental trade-off between the accuracy degradation caused by aggressive quantization and the resource redundancy stemming from traditional decoupled hardware designs. To bridge this gap, we present a novel algorithm-hardware co-design framework centered on a Ternary-8-bit Hybrid Weight Quantization (T8HWQ) scheme. Our approach recasts SNN computation into a unified \u201c8-bit \u00d7 2-bit\u201d paradigm by quantizing first-layer weights to 2 bits and subsequent layers to 8 bits. This standardization directly enables the design of a unified PE architecture, eliminating the resource redundancy inherent in decoupled designs. To mitigate the accuracy degradation caused by aggressive first-layer quantization, we first propose a channel-wise dual compensation strategy. This method synergizes channel-wise quantization optimization with adaptive threshold neurons, leveraging reparameterization techniques to restore model accuracy without incurring additional inference overhead. Building upon T8HWQ, we propose a novel unified computing architecture that overcomes the inefficiencies of traditional decoupled designs by efficiently multiplexing processing arrays. Experimental results support our approach: On CIFAR-100, our method achieves near-lossless accuracy (<0.7% degradation vs. full precision) with a single time step, matching state-of-the-art low-bit SNNs. At the hardware level, implementation results on the Xilinx Virtex 7 platform demonstrate that our unified computing unit conserves 20.2% of lookup table (LUT) resources compared to traditional decoupled architectures. This work delivers a 6\u202f\u00d7\u202fthroughput improvement over state-of-the-art SNN accelerators\u2014with comparable resource utilization and lower power consumption. Our integrated solution thus advances the practical implementation of high-performance, low-latency SNNs on resource-constrained edge devices.",
-    "author": "Liang Chen",
-    "published_date": "2025-10-15T00:00:00+00:00",
-    "source": "Frontiers Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 257,
-    "reading_time": 1,
-    "created_at": "2025-10-17T20:23:39.964563+00:00",
-    "updated_at": "2025-10-17T20:23:39.964564+00:00"
   }
 ]
