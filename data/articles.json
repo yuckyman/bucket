@@ -1,5 +1,37 @@
 [
   {
+    "id": "35368ff9f10b706fa1b2baf66149de8a",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1661987",
+    "title": "Patient-specific and interpretable deep brain stimulation optimisation using MRI and clinical review data",
+    "content": "BackgroundOptimisation of Deep Brain Stimulation (DBS) settings is a key aspect in achieving clinical efficacy in movement disorders, such as the Parkinson\u2019s disease. Modern techniques attempt to solve the problem through data-intensive statistical and machine learning approaches, adding significant overhead to the existing clinical workflows. Here, we present a geometry-based optimisation approach for DBS electrode contact and current selection, grounded in routinely collected MRI data, well-established tools (Lead-DBS) and optionally, clinical review records.MethodsThe pipeline, packaged in a cross-platform tool, uses lead reconstruction data and simulation of Volume of Tissue Activated (VTA) to estimate the contacts in optimal position relative to the target structure, and suggests optimal stimulation current. The tool then allows further interactive user optimisation of the current settings. Existing electrode contact evaluations can be optionally included in the calculation process for further fine-tuning and adverse effect avoidance.ResultsBased on a sample of 174 implanted electrode reconstructions from 87 Parkinson\u2019s disease patients, we demonstrate that our algorithm\u2019s DBS parameter settings are more effective in covering the target structure (Wilcoxon p\u202f<\u202f5e-13, Hedges\u2019 g\u202f>\u202f0.94) and minimising electric field leakage to neighbouring regions (p\u202f<\u202f2e-10, g\u202f>\u202f0.46) compared to expert parameter settings. Retrospective analysis of a limited subset (n\u202f=\u202f50) predicts comparable improved motor outcomes with expert settings (g\u202f=\u202f0.05\u20130.08, p\u202f=\u202f0.09\u20131), suggesting potential for similar clinical efficacy, pending prospective validation.ConclusionThe proposed automated method for optimisation of the DBS electrode contact and current selection shows promising results and is readily applicable to existing clinical workflows. We demonstrate that the algorithmically selected contacts perform better than manual selections according to electric field calculations, without the iterative optimisation procedure.",
+    "author": "Daniel Novak",
+    "published_date": "2025-10-22T00:00:00+00:00",
+    "source": "Frontiers Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 273,
+    "reading_time": 1,
+    "created_at": "2025-10-22T05:20:05.318280+00:00",
+    "updated_at": "2025-10-22T05:20:05.318282+00:00"
+  },
+  {
+    "id": "35b1af8bba9031cf4987b37691b4c498",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1712394",
+    "title": "Editorial: Myeloid cells as active players in human neurodegenerative diseases",
+    "content": "",
+    "author": "Hande Karahan",
+    "published_date": "2025-10-22T00:00:00+00:00",
+    "source": "Frontiers Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2025-10-22T05:20:05.318221+00:00",
+    "updated_at": "2025-10-22T05:20:05.318224+00:00"
+  },
+  {
     "id": "e6e5ba11664c5587b8b533cd82f50832",
     "url": "http://doi.org/10.1037/neu0001032",
     "title": "Comparison of multidomain assessment outcomes between older and middle-aged adults following concussion.",
@@ -16210,37 +16242,5 @@
     "reading_time": 1,
     "created_at": "2025-10-21T04:45:24.935632+00:00",
     "updated_at": "2025-10-21T04:45:24.935634+00:00"
-  },
-  {
-    "id": "2fe6948c2e3023618e7f42b9153f5c96",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41110208/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20251021004515&v=2.18.0.post9+e462414",
-    "title": "Associations of adverse childhood experiences, inflammation, and cognition in older Black adults",
-    "content": "CONCLUSIONS: Distinct ACEs profiles were significantly associated with episodic memory and HPA dysregulation-related inflammation. The severe adversity, parental conflict, and low adversity groups showed no reliable predictions to cognition or cognitive status. These findings highlight the need for careful consideration of timing, measurement, and potential adaptive mechanisms when examining inflammatory pathways that associate childhood adversity with cognitive aging in older Black adults.",
-    "author": "Indira C Turney",
-    "published_date": "2025-10-19T10:00:00+00:00",
-    "source": "Low Vision",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 62,
-    "reading_time": 1,
-    "created_at": "2025-10-21T04:45:24.935608+00:00",
-    "updated_at": "2025-10-21T04:45:24.935610+00:00"
-  },
-  {
-    "id": "406b5235031e6033def7262ab90b3e0d",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41111684/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20251021004515&v=2.18.0.post9+e462414",
-    "title": "Visual Assessment in Elderly Inpatients Following a Fall",
-    "content": "Introduction Falls are a major cause of morbidity in older adults, with visual impairment recognized as a key modifiable risk factor. National guidelines recommend vision assessment following a fall; however, adherence remains suboptimal. This quality improvement project aimed to evaluate compliance with national recommendations and implement interventions to improve visual assessment rates in elderly inpatients. Methods A two-cycle retrospective cross-sectional review was conducted at a...",
-    "author": "Nadeem Ali",
-    "published_date": "2025-10-20T10:00:00+00:00",
-    "source": "Low Vision",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 65,
-    "reading_time": 1,
-    "created_at": "2025-10-21T04:45:24.935585+00:00",
-    "updated_at": "2025-10-21T04:45:24.935586+00:00"
   }
 ]

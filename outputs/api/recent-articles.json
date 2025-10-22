@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-10-22T04:45:46.052539+00:00",
+  "last_updated": "2025-10-22T05:20:46.087535+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "35368ff9f10b706fa1b2baf66149de8a",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1661987",
+      "title": "Patient-specific and interpretable deep brain stimulation optimisation using MRI and clinical review data",
+      "content": "BackgroundOptimisation of Deep Brain Stimulation (DBS) settings is a key aspect in achieving clinical efficacy in movement disorders, such as the Parkinson\u2019s disease. Modern techniques attempt to solve the problem through data-intensive statistical and machine learning approaches, adding significant overhead to the existing clinical workflows. Here, we present a geometry-based optimisation approach for DBS electrode contact and current selection, grounded in routinely collected MRI data, well-established tools (Lead-DBS) and optionally, clinical review records.MethodsThe pipeline, packaged in a cross-platform tool, uses lead reconstruction data and simulation of Volume of Tissue Activated (VTA) to estimate the contacts in optimal position relative to the target structure, and suggests optimal stimulation current. The tool then allows further interactive user optimisation of the current settings. Existing electrode contact evaluations can be optionally included in the calculation process for further fine-tuning and adverse effect avoidance.ResultsBased on a sample of 174 implanted electrode reconstructions from 87 Parkinson\u2019s disease patients, we demonstrate that our algorithm\u2019s DBS parameter settings are more effective in covering the target structure (Wilcoxon p\u202f<\u202f5e-13, Hedges\u2019 g\u202f>\u202f0.94) and minimising electric field leakage to neighbouring regions (p\u202f<\u202f2e-10, g\u202f>\u202f0.46) compared to expert parameter settings. Retrospective analysis of a limited subset (n\u202f=\u202f50) predicts comparable improved motor outcomes with expert settings (g\u202f=\u202f0.05\u20130.08, p\u202f=\u202f0.09\u20131), suggesting potential for similar clinical efficacy, pending prospective validation.ConclusionThe proposed automated method for optimisation of the DBS electrode contact and current selection shows promising results and is readily applicable to existing clinical workflows. We demonstrate that the algorithmically selected contacts perform better than manual selections according to electric field calculations, without the iterative optimisation procedure.",
+      "author": "Daniel Novak",
+      "published_date": "2025-10-22T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 273,
+      "reading_time": 1,
+      "created_at": "2025-10-22T05:20:05.318280+00:00",
+      "updated_at": "2025-10-22T05:20:05.318282+00:00"
+    },
+    {
+      "id": "35b1af8bba9031cf4987b37691b4c498",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1712394",
+      "title": "Editorial: Myeloid cells as active players in human neurodegenerative diseases",
+      "content": "",
+      "author": "Hande Karahan",
+      "published_date": "2025-10-22T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-10-22T05:20:05.318221+00:00",
+      "updated_at": "2025-10-22T05:20:05.318224+00:00"
+    },
     {
       "id": "e6e5ba11664c5587b8b533cd82f50832",
       "url": "http://doi.org/10.1037/neu0001032",
@@ -289,38 +321,6 @@
       "reading_time": 1,
       "created_at": "2025-10-22T04:24:28.808309+00:00",
       "updated_at": "2025-10-22T04:24:28.808311+00:00"
-    },
-    {
-      "id": "d2dc83044ec21b056f2da08497ffcaeb",
-      "url": "https://arxiv.org/abs/2510.17916",
-      "title": "Self-Evidencing Through Hierarchical Gradient Decomposition: A Dissipative System That Maintains Non-Equilibrium Steady-State by Minimizing Variational Free Energy",
-      "content": "arXiv:2510.17916v1 Announce Type: cross \nAbstract: The Free Energy Principle (FEP) states that self-organizing systems must minimize variational free energy to persist, but the path from principle to implementable algorithm has remained unclear. We present a constructive proof that the FEP can be realized through exact local credit assignment. The system decomposes gradient computation hierarchically: spatial credit via feedback alignment, temporal credit via eligibility traces, and structural credit via a Trophic Field Map (TFM) that estimates expected gradient magnitude for each connection block. We prove these mechanisms are exact at their respective levels and validate the central claim empirically: the TFM achieves 0.9693 Pearson correlation with oracle gradients. This exactness produces emergent capabilities including 98.6% retention after task interference, autonomous recovery from 75% structural damage, self-organized criticality (spectral radius p ~= 1.0$), and sample-efficient reinforcement learning on continuous control tasks without replay buffers. The architecture unifies Prigogine's dissipative structures, Friston's free energy minimization, and Hopfield's attractor dynamics, demonstrating that exact hierarchical inference over network topology can be implemented with local, biologically plausible rules.",
-      "author": "Michael James McCulloch",
-      "published_date": "2025-10-22T04:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 172,
-      "reading_time": 1,
-      "created_at": "2025-10-22T04:24:28.808281+00:00",
-      "updated_at": "2025-10-22T04:24:28.808283+00:00"
-    },
-    {
-      "id": "020849296721038e9d5183fdac74c7e7",
-      "url": "https://arxiv.org/abs/2510.17841",
-      "title": "Information Capacity of EEG: Theoretical and Computational Limits of Recoverable Neural Information",
-      "content": "arXiv:2510.17841v1 Announce Type: cross \nAbstract: Electroencephalography (EEG) is widely used to study human brain dynamics, yet its quantitative information capacity remains unclear. Here, we combine information theory and synthetic forward modeling to estimate the mutual information between latent cortical sources and EEG recordings. Using Gaussian-channel theory and empirical simulations, we find that scalp EEG conveys only tens of bits per sample about low-dimensional neural activity. Information saturates with approximately 64-128 electrodes and scales logarithmically with signal-to-noise ratio (SNR). Linear decoders capture nearly all variance that is linearly recoverable, but the mutual information they recover remains far below the analytic channel capacity, indicating that measurement physics - not algorithmic complexity - is the dominant limitation. These results outline the intrinsic ceiling on how much structure about brain state or thought content can be inferred from EEG.",
-      "author": "Ishir Rao",
-      "published_date": "2025-10-22T04:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 135,
-      "reading_time": 1,
-      "created_at": "2025-10-22T04:24:28.808250+00:00",
-      "updated_at": "2025-10-22T04:24:28.808252+00:00"
     }
   ]
 }
