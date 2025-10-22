@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-10-22T10:17:04.766032+00:00",
+  "last_updated": "2025-10-22T10:23:24.574041+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "4abfbcc6049f2d90efd0bd5f83535d04",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.21.683632v1?rss=1",
+      "title": "PGC-1\u03b1 and PPARs cooperatively mediate photoreceptor neuroprotection in rd1 mouse inherited retinal degeneration",
+      "content": "Retinitis pigmentosa (RP) is a group of inherited diseases characterized by a primary rod photoreceptor dysfunction and progressive rod and cone cell death. Due to their very high energy demand, the degeneration of photoreceptors may be linked to insufficient energy supply or metabolic imbalance. Critical transcription factors that regulate metabolism such as peroxisome proliferator-activated receptors (PPARs) and their co-activator PGC-1 have been found to play important roles in neurodegenerative diseases, but their potential roles in RP have yet not been disclosed. In this study, we used organotypic retinal explant cultures derived from the rd1 mouse model for RP to investigate the effects of PPAR, PPAR{gamma}, PPAR{beta}/{delta} agonists, as well as PGC-1 activation and inhibition. Photoreceptor death in the outer nuclear layer (ONL) of the retina was quantified using the TUNEL assay, while in situ activity assays were used to monitor effects of PPARs and PGC-1 on poly(ADP-ribose)polymerase (PARP) and calpain activity. In addition, we performed immunostainings to evaluate poly(ADP-ribose) (PAR) generation and activation of calpain-1 and calpain-2. We found that PPAR{beta}/{delta} agonists had limited effects, while activation of PPAR, PPAR{gamma}, and PGC-1 significantly reduced photoreceptor death and PARP activity in rd1 retina. Conversely, inhibition of PGC-1 had a strong detrimental effect on photoreceptor viability. Activation of the histone deacetylase sirtuin-1, an upstream agonist of PGC-1, had no effect unless it was combined with simultaneous inhibition of PARP. Furthermore, PPAR{gamma} and PGC-1 effectively suppressed overall calpain activity and overactivation of calpain-2, alleviating photoreceptor degeneration caused by Ca2+ imbalance. In summary, our data supports the concept of a PARP-sirtuin-1-PGC-1-PPAR-PARP feedback control that connects defective energy metabolism to photoreceptor degeneration. Specifically, our findings suggest that PPAR, PPAR{gamma}, and PGC-1 cooperate to preserve photoreceptor viability, highlighting PPAR signaling as a promising target for future therapeutic interventions.",
+      "author": "Wang, L., Yan, J., Sancho-Pelluz, J., Yang, Q., Hu, Z., Jiao, K., Seeliger, M. W., Paquet-Durand, F.",
+      "published_date": "2025-10-22T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 292,
+      "reading_time": 1,
+      "created_at": "2025-10-22T10:22:55.580986+00:00",
+      "updated_at": "2025-10-22T10:22:55.580990+00:00"
+    },
+    {
+      "id": "96771addb6874272fbe0ac376a1168c4",
+      "url": "https://www.reddit.com/r/Python/comments/1od374z/process_memory_manipulator_in_python_windows_x64/",
+      "title": "Process Memory manipulator in Python. (Windows x64)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I made a useful tool for interacting with process memory based on ctypes and Windows API. It\u2019s for Windows x64. </p> <p><strong>What My Project Does</strong>:</p> <p>Helps you interacting with a process.</p> <p>1) Writes / Reads bytes to/from a process virtual memory.</p> <p>2) Writes / Reads int32 to/from a process virtual memory.</p> <p>3) Writes / Reads int64 to/from a process virtual memory.</p> <p>4) Injects dll (Windows API).</p> <p>5) Ejects dll.</p> <p>6) Finds pattern / sequence of bytes in memory.</p> <p>7) Gets the final address of the multi-level pointer by a list of offsets.</p> <p>8) Checks if the dll is in a module list of a process. </p> <p>9) Gets modules (dlls) list. </p> <p>10) Allocates memory.</p> <p>It is also highly recommended to use it with \u201cwith Process() as\u201d block, so it safer. If not, you should clear all allocations via allocate() method with free_allocates().</p> <p><strong>Target Audience</strong>:</p> <p>Researchers and developers interested in Windows programming. </p> <p><strong>Comparison</strong>:</p> <p>PyMem and other modules like pywin32 always lack functions that are provided here. The code is also very safe in terms of closing handles. Which is very important.</p> <p><a href=\"https://github.com/fluxdeken/ProcMemPy/\">github</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fluxdeken_\"> /u/fluxdeken_ </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1od374z/process_memory_manipulator_in_python_windows_x64/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1od374z/process_memory_manipulator_in_python_windows_x64/\">[comments]</a></span>",
+      "author": "/u/fluxdeken_",
+      "published_date": "2025-10-22T09:04:07+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 205,
+      "reading_time": 1,
+      "created_at": "2025-10-22T10:22:22.540485+00:00",
+      "updated_at": "2025-10-22T10:22:22.540487+00:00"
+    },
     {
       "id": "a697ff200cfa9da1843ea0ce544b0ee2",
       "url": "https://cadenceguitar.com/",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-10-22T08:29:35.614583+00:00",
       "updated_at": "2025-10-22T08:29:35.614585+00:00"
-    },
-    {
-      "id": "a778033399372a2d88d49c00984d5fa1",
-      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2507291122?af=R",
-      "title": "From retinotopic to ordinal coding: Dissecting the cortical stages of visual word recognition",
-      "content": "Proceedings of the National Academy of Sciences, Volume 122, Issue 43, October 2025. <br />SignificanceFluent reading requires that the brain encodes the order of letters within a word, yet without regard for where they appear on the retina. Information must be transformed from a retinotopic code into a position-invariant word form. Here, we ...",
-      "author": "Aakash AgrawalStanislas DehaeneaCognitive Neuroimaging Unit, Commissariat \u00e0 l\u2019\u00e9nergie atomique et aux \u00e9nergies alternatives, INSERM, Universit\u00e9 Paris-Saclay, NeuroSpin Center, Gif-sur-Yvette 91191, FrancebColl\u00e8ge de France, Universit\u00e9 Paris-Sciences-Lettres, Paris 75005, France",
-      "published_date": "2025-10-21T07:00:00+00:00",
-      "source": "Pnas Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 54,
-      "reading_time": 1,
-      "created_at": "2025-10-22T08:29:35.614559+00:00",
-      "updated_at": "2025-10-22T08:29:35.614561+00:00"
-    },
-    {
-      "id": "1eae4f6e9da31aa451320cb4b5e6f020",
-      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2503576122?af=R",
-      "title": "Descattering and image restoration with a transformer-based neural network in deep tissue imaging",
-      "content": "Proceedings of the National Academy of Sciences, Volume 122, Issue 43, October 2025. <br />SignificanceThe significant contributions of this work are threefold. First, it leverages deep learning to extend in vivo imaging depth of two-photon excitation fluorescence microscopy, far beyond the depths achieved by state-of-the-art methods. Second, ...",
-      "author": "Xiangcong XuRenlong ZhangChenggui LuoChi ZhangYanping LiDanying LinBin YuLiwei LiuXiaoyu WengYiping WangLingjie KongJia LiJunle QuaState Key Laboratory of Radio Frequency Heterogeneous Integration, Key Laboratory of Optoelectronic Devices and Systems of Ministry of Education and Guangdong Province, College of Physics and Optoelectronic Engineering, Shenzhen University, Shenzhen 518060, ChinabState Key Laboratory of Precision Measurement Technology and Instruments, Department of Precision Instrument, Tsinghua University, Beijing 100084, China",
-      "published_date": "2025-10-21T07:00:00+00:00",
-      "source": "Pnas Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 48,
-      "reading_time": 1,
-      "created_at": "2025-10-22T08:29:35.614533+00:00",
-      "updated_at": "2025-10-22T08:29:35.614535+00:00"
     }
   ]
 }

@@ -1,5 +1,37 @@
 [
   {
+    "id": "4abfbcc6049f2d90efd0bd5f83535d04",
+    "url": "https://www.biorxiv.org/content/10.1101/2025.10.21.683632v1?rss=1",
+    "title": "PGC-1\u03b1 and PPARs cooperatively mediate photoreceptor neuroprotection in rd1 mouse inherited retinal degeneration",
+    "content": "Retinitis pigmentosa (RP) is a group of inherited diseases characterized by a primary rod photoreceptor dysfunction and progressive rod and cone cell death. Due to their very high energy demand, the degeneration of photoreceptors may be linked to insufficient energy supply or metabolic imbalance. Critical transcription factors that regulate metabolism such as peroxisome proliferator-activated receptors (PPARs) and their co-activator PGC-1 have been found to play important roles in neurodegenerative diseases, but their potential roles in RP have yet not been disclosed. In this study, we used organotypic retinal explant cultures derived from the rd1 mouse model for RP to investigate the effects of PPAR, PPAR{gamma}, PPAR{beta}/{delta} agonists, as well as PGC-1 activation and inhibition. Photoreceptor death in the outer nuclear layer (ONL) of the retina was quantified using the TUNEL assay, while in situ activity assays were used to monitor effects of PPARs and PGC-1 on poly(ADP-ribose)polymerase (PARP) and calpain activity. In addition, we performed immunostainings to evaluate poly(ADP-ribose) (PAR) generation and activation of calpain-1 and calpain-2. We found that PPAR{beta}/{delta} agonists had limited effects, while activation of PPAR, PPAR{gamma}, and PGC-1 significantly reduced photoreceptor death and PARP activity in rd1 retina. Conversely, inhibition of PGC-1 had a strong detrimental effect on photoreceptor viability. Activation of the histone deacetylase sirtuin-1, an upstream agonist of PGC-1, had no effect unless it was combined with simultaneous inhibition of PARP. Furthermore, PPAR{gamma} and PGC-1 effectively suppressed overall calpain activity and overactivation of calpain-2, alleviating photoreceptor degeneration caused by Ca2+ imbalance. In summary, our data supports the concept of a PARP-sirtuin-1-PGC-1-PPAR-PARP feedback control that connects defective energy metabolism to photoreceptor degeneration. Specifically, our findings suggest that PPAR, PPAR{gamma}, and PGC-1 cooperate to preserve photoreceptor viability, highlighting PPAR signaling as a promising target for future therapeutic interventions.",
+    "author": "Wang, L., Yan, J., Sancho-Pelluz, J., Yang, Q., Hu, Z., Jiao, K., Seeliger, M. W., Paquet-Durand, F.",
+    "published_date": "2025-10-22T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 292,
+    "reading_time": 1,
+    "created_at": "2025-10-22T10:22:55.580986+00:00",
+    "updated_at": "2025-10-22T10:22:55.580990+00:00"
+  },
+  {
+    "id": "96771addb6874272fbe0ac376a1168c4",
+    "url": "https://www.reddit.com/r/Python/comments/1od374z/process_memory_manipulator_in_python_windows_x64/",
+    "title": "Process Memory manipulator in Python. (Windows x64)",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I made a useful tool for interacting with process memory based on ctypes and Windows API. It\u2019s for Windows x64. </p> <p><strong>What My Project Does</strong>:</p> <p>Helps you interacting with a process.</p> <p>1) Writes / Reads bytes to/from a process virtual memory.</p> <p>2) Writes / Reads int32 to/from a process virtual memory.</p> <p>3) Writes / Reads int64 to/from a process virtual memory.</p> <p>4) Injects dll (Windows API).</p> <p>5) Ejects dll.</p> <p>6) Finds pattern / sequence of bytes in memory.</p> <p>7) Gets the final address of the multi-level pointer by a list of offsets.</p> <p>8) Checks if the dll is in a module list of a process. </p> <p>9) Gets modules (dlls) list. </p> <p>10) Allocates memory.</p> <p>It is also highly recommended to use it with \u201cwith Process() as\u201d block, so it safer. If not, you should clear all allocations via allocate() method with free_allocates().</p> <p><strong>Target Audience</strong>:</p> <p>Researchers and developers interested in Windows programming. </p> <p><strong>Comparison</strong>:</p> <p>PyMem and other modules like pywin32 always lack functions that are provided here. The code is also very safe in terms of closing handles. Which is very important.</p> <p><a href=\"https://github.com/fluxdeken/ProcMemPy/\">github</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fluxdeken_\"> /u/fluxdeken_ </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1od374z/process_memory_manipulator_in_python_windows_x64/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1od374z/process_memory_manipulator_in_python_windows_x64/\">[comments]</a></span>",
+    "author": "/u/fluxdeken_",
+    "published_date": "2025-10-22T09:04:07+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 205,
+    "reading_time": 1,
+    "created_at": "2025-10-22T10:22:22.540485+00:00",
+    "updated_at": "2025-10-22T10:22:22.540487+00:00"
+  },
+  {
     "id": "a697ff200cfa9da1843ea0ce544b0ee2",
     "url": "https://cadenceguitar.com/",
     "title": "Show HN: Cadence \u2013 A Guitar Theory App",
@@ -16270,37 +16302,5 @@
     "reading_time": 1,
     "created_at": "2025-10-21T05:20:12.419241+00:00",
     "updated_at": "2025-10-21T05:20:12.419242+00:00"
-  },
-  {
-    "id": "a11c86148a9be865283915568203c4a2",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41106782/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1JKSd2KF3MGnV7oFVD2g6PNu7rHRFDsLyCNjKkkf4KHBUA3c8P&fc=None&ff=20251021012009&v=2.18.0.post9+e462414",
-    "title": "Neural and behavioral dynamics of dyadic rhythm coordination across limb pairings",
-    "content": "Interpersonal motor synchronization relies on precise neural coordination, yet its underlying brain mechanisms remain incompletely understood. Guided by mutual prediction theory, we investigated how temporal structure and effector-specific constraints shape dyadic coordination. Using functional near-infrared spectroscopy (fNIRS) hyperscanning, we recorded inter-brain activity from pairs of participants performing a synchronization-continuation tapping task. The task included three types of...",
-    "author": "Xinhong Jin",
-    "published_date": "2025-10-17T10:00:00+00:00",
-    "source": "Fnirs",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 57,
-    "reading_time": 1,
-    "created_at": "2025-10-21T05:20:12.419219+00:00",
-    "updated_at": "2025-10-21T05:20:12.419220+00:00"
-  },
-  {
-    "id": "7664a88353eb30d41299b3d7f44fc871",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41107319/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1JKSd2KF3MGnV7oFVD2g6PNu7rHRFDsLyCNjKkkf4KHBUA3c8P&fc=None&ff=20251021012009&v=2.18.0.post9+e462414",
-    "title": "Motor imagery in individuals with congenital aphantasia",
-    "content": "Individuals who experience aphantasia have an inability to create sensory mental images, what lead to a range of cognitive and behavioral differences compared to the general population. However, little is known about how this phenomenon affects the creation of motor imagery. Our study aims to check the differences in changes of hemoglobine concentration between individuals with congenital aphantasia (AG) and control group (CG) during creating a kinesthetic (KMI) or visual-motor (VMI)...",
-    "author": "Magdalena Szubielska",
-    "published_date": "2025-10-17T10:00:00+00:00",
-    "source": "Fnirs",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 71,
-    "reading_time": 1,
-    "created_at": "2025-10-21T05:20:12.419196+00:00",
-    "updated_at": "2025-10-21T05:20:12.419198+00:00"
   }
 ]
