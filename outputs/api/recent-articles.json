@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-10-22T05:20:46.087535+00:00",
+  "last_updated": "2025-10-22T05:43:11.406830+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "35e289e20714665d1b5bac3f8814781e",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1601641",
+      "title": "Sudden restructuring of memory representations in recurrent neural networks with repeated stimulus presentations",
+      "content": "While acquisition curves in human learning averaged at the group level display smooth, gradual changes in performance, individual learning curves across cognitive domains reveal sudden, discontinuous jumps in performance. Similar thresholding effects are a hallmark of a range of nonlinear systems which can be explored using simple, abstract models. Here, I investigate discontinuous changes in learning performance using Amari-Hopfield networks with Hebbian learning rules which are repeatedly exposed to a single stimulus. Simulations reveal that the attractor basin size for a target stimulus increases in discrete jumps rather than gradual changes with repeated stimulus exposure. The distribution of the size of these positive jumps in basin size is best approximated by a lognormal distribution, suggesting that the distribution is heavy-tailed. Examination of the transition graph structure for networks before and after basin size changes reveals that newly acquired states are often organized into hierarchically branching tree structures, and that the distribution of branch sizes is best approximated by a power law distribution. The findings suggest that even simple nonlinear network models of associative learning exhibit discontinuous changes in performance with repeated learning which mirror behavioral results observed in humans. Future work can investigate similar mechanisms in more biologically detailed network models, potentially offering insight into the network mechanisms of learning with repeated exposure or practice.",
+      "author": "Jonathon R. Howlett",
+      "published_date": "2025-10-22T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 215,
+      "reading_time": 1,
+      "created_at": "2025-10-22T05:42:32.196388+00:00",
+      "updated_at": "2025-10-22T05:42:32.196393+00:00"
+    },
+    {
+      "id": "1f9d0277359f71109a55c5437985163b",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1657792",
+      "title": "Altered periodic and aperiodic activities in patients with disorders of consciousness",
+      "content": "IntroductionDisorders of consciousness (DoC), including unresponsive wakefulness syndrome (UWS) and minimally conscious state (MCS), are primarily diagnosed behaviorally. Recent evidence indicates that loss of consciousness manifests as irregularities in neural oscillatory activity across delta, theta, and alpha frequency bands. However, conventional spectral analysis often conflates periodic oscillations with aperiodic 1/f components, potentially obscuring consciousness-related dynamics.MethodsTo elucidate the mechanistic basis of spectral alterations in consciousness impairment, we compared oscillatory and aperiodic activity patterns in the electroencephalogram (EEG) of patients with different consciousness levels. We further examined the spatiotemporal variability of these neural signatures and rigorously evaluated their discriminative power for state classification using support vector machine (SVM) analysis.ResultsWhile periodic and aperiodic activities are independent, our results indicate that both components exhibit significant differences between groups at both local and global scales. Critically, higher spatial and temporal variability of aperiodic features (spectral exponent) were correlated with preserved consciousness. When distinguishing UWS from MCS, the combination of periodic and aperiodic features significantly improved classification performance compared to using either metric alone.DiscussionOur findings demonstrate that both periodic oscillations and aperiodic activity provide valuable information about consciousness levels. Critically, the spatiotemporal dynamics of the aperiodic component serve as a key marker of brain state. This underscores the necessity of accounting for aperiodic activity in mechanistic studies and clinical assessments of DoC.",
+      "author": "Yueqing Dong",
+      "published_date": "2025-10-22T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 216,
+      "reading_time": 1,
+      "created_at": "2025-10-22T05:42:27.631925+00:00",
+      "updated_at": "2025-10-22T05:42:27.631927+00:00"
+    },
     {
       "id": "35368ff9f10b706fa1b2baf66149de8a",
       "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1661987",
@@ -289,38 +321,6 @@
       "reading_time": 1,
       "created_at": "2025-10-22T04:24:28.808376+00:00",
       "updated_at": "2025-10-22T04:24:28.808377+00:00"
-    },
-    {
-      "id": "455e7a6f40774f567f7f8363a45bac8d",
-      "url": "https://arxiv.org/abs/2510.18808",
-      "title": "On Biologically Plausible Learning in Continuous Time",
-      "content": "arXiv:2510.18808v1 Announce Type: cross \nAbstract: Biological learning unfolds continuously in time, yet most algorithmic models rely on discrete updates and separate inference and learning phases. We study a continuous-time neural model that unifies several biologically plausible learning algorithms and removes the need for phase separation. Rules including stochastic gradient descent (SGD), feedback alignment (FA), direct feedback alignment (DFA), and Kolen-Pollack (KP) emerge naturally as limiting cases of the dynamics. Simulations show that these continuous-time networks stably learn at biological timescales, even under temporal mismatches and integration noise. Through analysis and simulation, we show that learning depends on temporal overlap: a synapse updates correctly only when its input and the corresponding error signal coincide in time. When inputs are held constant, learning strength declines linearly as the delay between input and error approaches the stimulus duration, explaining observed robustness and failure across network depths. Critically, robust learning requires the synaptic plasticity timescale to exceed the stimulus duration by one to two orders of magnitude. For typical cortical stimuli (tens of milliseconds), this places the functional plasticity window in the few-second range, a testable prediction that identifies seconds-scale eligibility traces as necessary for error-driven learning in biological circuits.",
-      "author": "Marc Gong Bacvanski, Liu Ziyin, Tomaso Poggio",
-      "published_date": "2025-10-22T04:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 196,
-      "reading_time": 1,
-      "created_at": "2025-10-22T04:24:28.808341+00:00",
-      "updated_at": "2025-10-22T04:24:28.808343+00:00"
-    },
-    {
-      "id": "782eb63ac57202a6ae51314978d33304",
-      "url": "https://arxiv.org/abs/2510.18037",
-      "title": "Benchmarking Probabilistic Time Series Forecasting Models on Neural Activity",
-      "content": "arXiv:2510.18037v1 Announce Type: cross \nAbstract: Neural activity forecasting is central to understanding neural systems and enabling closed-loop control. While deep learning has recently advanced the state-of-the-art in the time series forecasting literature, its application to neural activity forecasting remains limited. To bridge this gap, we systematically evaluated eight probabilistic deep learning models, including two foundation models, that have demonstrated strong performance on general forecasting benchmarks. We compared them against four classical statistical models and two baseline methods on spontaneous neural activity recorded from mouse cortex via widefield imaging. Across prediction horizons, several deep learning models consistently outperformed classical approaches, with the best model producing informative forecasts up to 1.5 seconds into the future. Our findings point toward future control applications and open new avenues for probing the intrinsic temporal structure of neural activity.",
-      "author": "Ziyu Lu, Anna J. Li, Alexander E. Ladd, Pascha Matveev, Aditya Deole, Eric Shea-Brown, J. Nathan Kutz, Nicholas A. Steinmetz",
-      "published_date": "2025-10-22T04:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 133,
-      "reading_time": 1,
-      "created_at": "2025-10-22T04:24:28.808309+00:00",
-      "updated_at": "2025-10-22T04:24:28.808311+00:00"
     }
   ]
 }
