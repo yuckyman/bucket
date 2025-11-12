@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-12T04:27:32.677787+00:00",
+  "last_updated": "2025-11-12T04:47:49.269979+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "fd75ba18bf5bbedbc7abb7c5a94f2f05",
+      "url": "https://www.nature.com/articles/s41467-025-64381-3",
+      "title": "Deciphering cell-type-and temporally specific matrisome expression signatures in human cortical development and neurodevelopmental disorders via scRNA-seq meta-analysis",
+      "content": "",
+      "author": "",
+      "published_date": "2025-11-11T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-11-12T04:47:16.205674+00:00",
+      "updated_at": "2025-11-12T04:47:16.205676+00:00"
+    },
     {
       "id": "818d5b19f24b43d6ca14df6efb612d63",
       "url": "https://eballot.app/ieee#new_tab",
@@ -305,22 +321,6 @@
       "reading_time": 2,
       "created_at": "2025-11-12T04:26:51.382196+00:00",
       "updated_at": "2025-11-12T04:26:51.382198+00:00"
-    },
-    {
-      "id": "d13e9f49540e4769ee7a8112004bdca3",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1698960",
-      "title": "A deep hybrid CSAE-GRU framework with two-stage balancing for automatic epileptic seizure detection using EEG-derived features",
-      "content": "IntroductionEpilepsy is a neurological disorder characterized by abnormal neuronal discharges in the brain, posing a persistent challenge in clinical diagnosis. This study presents a high-performance epileptic seizure detection framework that integrates advanced feature extraction and classification techniques using EEG signals.MethodsWe conduct experiments on the Bonn and CHB-MIT EEG datasets. The EEG signals are preprocessed through bandpass filtering and five-level Discrete Wavelet Transform (DWT) decomposition. From each sub-band, four representative features are systematically extracted. To mitigate severe class imbalance, we propose a two-stage balancing strategy: cluster centroid-based under-sampling initially reduces the interictal-to-ictal ratio to 2:1, followed by Borderline Synthetic Minority Oversampling Technique (BLSMOTE) in the feature space. A hybrid classification model that combines Convolutional Sparse Autoencoder (CSAE) with Gated Recurrent Unit (GRU) is proposed in the paper. The encoder weights from the pre-trained CSAE are transferred to the GRU-based classifier to enhance feature representation and model generalization.ResultsThe proposed method achieves outstanding performance, with accuracy, sensitivity, specificity, precision, f1 score and AUC of 98.46, 98.27, 98.50, 98.36, 98.31, and 98.23% on the Bonn dataset, and 99.49, 99.21, 99.77, 99.49, 99.35, and 99.57% on the CHB-MIT dataset, respectively. These results validate the effectiveness of the proposed approach.DiscussionThis study introduces a novel framework combining cluster centroid-based under-sampling, BLSMOTE oversampling, and transfer learning via CSAE-GRU integration. The method offers a promising direction for reliable and clinically applicable automated epilepsy diagnosis.",
-      "author": "Ganqin Du",
-      "published_date": "2025-11-11T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 225,
-      "reading_time": 1,
-      "created_at": "2025-11-12T04:26:51.382121+00:00",
-      "updated_at": "2025-11-12T04:26:51.382126+00:00"
     }
   ]
 }
