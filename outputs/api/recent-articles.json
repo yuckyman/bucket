@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-12T17:20:55.555321+00:00",
+  "last_updated": "2025-11-12T17:43:06.037222+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "78adc31950b695b3e7df951fe61ffaf1",
+      "url": "https://www.reddit.com/r/Python/comments/1ouwa42/webcam_rubiks_cube_solver_gui_app_pyside6_opengl/",
+      "title": "Webcam Rubik's Cube Solver GUI App [PySide6 / OpenGL / OpenCV]",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Background</h1> <p>This toy-project started as a self-challenge to see if I could build an application that uses the webcam and some foundational computer vision techniques to detect the state of a scrambled Rubik's cube and then show the solution steps to the user.</p> <h1>Target Audience</h1> <p>As it is a toy-project it is mainly meant for casual use by those who are curious or it serves as an example project for students trying to learn computer vision and/or graphics programming.</p> <h1>Comparison</h1> <p>I have seen a few projects on GitHub that implement a Rubik's cube facelet detection pipeline but they seem to fall short of actually solving the cube and show the solution to the user. I have also seen a few android solver apps but those don't seem to have a way to auto detect the state of the cube using your phone camera and you need to manually set the state.</p> <h1>Installation and Usage</h1> <pre><code>git clone https://github.com/pdadhikary/rubiksolver.git cd rubiksolver uv sync uv run rubiksolver </code></pre> <p>When scanning their Rubik's cube the user should hold up each face of the cube to the webcam. By convention we assume that the white face is UP and the yellow face is DOWN. When scanning the white face, the red face is DOWN and it should be UP when scanning the yellow face.</p> <p>Once the scan is complete press the <code>Play</code> button to animate the solution steps. You can also step through each of the moves using the <code>Previous</code> and <code>Next</code> buttons.</p> <h1>Repository and Demo</h1> <p>A demo of the project can be <a href=\"https://www.youtube.com/watch?v=abj7ubu9g8o\">viewed on YouTube</a></p> <p>The code repository is <a href=\"https://github.com/pdadhikary/rubiksolver\">available on GitHub</a></p> <p>Any and all feedback are welcome! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Deepta_512\"> /u/Deepta_512 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ouwa42/webcam_rubiks_cube_solver_gui_app_pyside6_opengl/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ouwa42/webcam_rubiks_cube_solver_gui_app_pyside6_opengl/\">[comments]</a></span>",
+      "author": "/u/Deepta_512",
+      "published_date": "2025-11-12T04:59:54+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 298,
+      "reading_time": 1,
+      "created_at": "2025-11-12T17:41:48.348486+00:00",
+      "updated_at": "2025-11-12T17:41:48.348487+00:00"
+    },
     {
       "id": "97b4af58ae8dff998c6ab6225bb6b1e3",
       "url": "https://www.biorxiv.org/content/10.1101/2025.11.10.687295v1?rss=1",
@@ -315,26 +331,6 @@
       "updated_at": "2025-11-12T16:20:52.303648+00:00",
       "metadata": {
         "processed_at": "2025-11-12T16:20:52.303650+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "31f1140d5a46a004b5b3b536259e1580",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.11.687899v1?rss=1",
-      "title": "Visual landmark coding and dynamic coupling with path integration circuits in area 29e of the rodent parahippocampal cortex",
-      "content": "The brain relies on external landmarks to anchor internal spatial representations. The neural mechanisms underlying this process and the sources of landmark signals remain unknown in mammals. Here, we simultaneously recorded single neurons across five parahippocampal regions in rats navigating a virtual reality environment that preserved natural locomotion. Area 29e, an understudied parahippocampal field, displayed strong locking to visual landmarks under conditions in which neurons in the other regions, such as the medial entorhinal cortex, decoupled their spatial firing from the landmarks. Compared to the other regions, area 29e neurons also displayed weaker theta modulation, stronger gamma rhythmicity, stronger egocentric head-direction tuning, and enhanced landmark contrast sensitivity. The loss of landmark anchoring in non-29e parahippocampal neurons was preceded by a decline of gamma-band influence from 29e to medial entorhinal cortex. Together, these findings position 29e as a specialized visuospatial hub that may carry landmark signals for anchoring parahippocampal representations of space to the external world.",
-      "author": "Secer, G., Krishnan, B., Cowan, N., Knierim, J. J.",
-      "published_date": "2025-11-12T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 155,
-      "reading_time": 1,
-      "created_at": "2025-11-12T15:24:13.391019+00:00",
-      "updated_at": "2025-11-12T16:20:52.303652+00:00",
-      "metadata": {
-        "processed_at": "2025-11-12T16:20:52.303654+00:00",
         "processing_method": "github_actions"
       }
     }
