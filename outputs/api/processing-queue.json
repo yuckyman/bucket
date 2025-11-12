@@ -1,8 +1,56 @@
 {
-  "last_updated": "2025-11-12T12:32:16.070666+00:00",
-  "pending_count": 960,
-  "processed_count": 40,
+  "last_updated": "2025-11-12T14:16:18.216510+00:00",
+  "pending_count": 955,
+  "processed_count": 45,
   "pending_articles": [
+    {
+      "id": "7fa2a7ebe1f70e57863118d7a13a6558",
+      "url": "https://github.com/yt-dlp/yt-dlp/issues/15012",
+      "title": "Yt-dlp: External JavaScript runtime now required for full YouTube support",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45898407\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-12T10:12:53+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-12T12:43:06.301214+00:00",
+      "updated_at": "2025-11-12T12:43:06.301216+00:00"
+    },
+    {
+      "id": "7fa2a7ebe1f70e57863118d7a13a6558",
+      "url": "https://github.com/yt-dlp/yt-dlp/issues/15012",
+      "title": "Yt-dlp: External JavaScript runtime now required for full YouTube support",
+      "content": "<p>Article URL: <a href=\"https://github.com/yt-dlp/yt-dlp/issues/15012\">https://github.com/yt-dlp/yt-dlp/issues/15012</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45898407\">https://news.ycombinator.com/item?id=45898407</a></p>\n<p>Points: 23</p>\n<p># Comments: 2</p>",
+      "author": "bertman",
+      "published_date": "2025-11-12T10:12:53+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-12T12:43:04.986350+00:00",
+      "updated_at": "2025-11-12T12:43:04.986352+00:00"
+    },
+    {
+      "id": "865720e4a2d8ec8712793bfad6e59fd3",
+      "url": "https://news.ycombinator.com/item?id=45898856",
+      "title": "Ask HN: How does one stay motivated to grind through LeetCode?",
+      "content": "<p>I was recently laid off at a big tech company after 10 years. And now I am facing the harsh reality of trying to crack leetcode medium/hard problems (something I never managed to do routinely while I was working at this company). Is anyone here in a similar situation or has been in one? If so, how do you keep yourself motivated to solve multiple problems a day, especially knowing you are actually never going to work on such problems as part of an actual job?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45898856\">https://news.ycombinator.com/item?id=45898856</a></p>\n<p>Points: 7</p>\n<p># Comments: 2</p>",
+      "author": "blutoot",
+      "published_date": "2025-11-12T11:26:33+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 97,
+      "reading_time": 1,
+      "created_at": "2025-11-12T12:43:04.986297+00:00",
+      "updated_at": "2025-11-12T12:43:04.986306+00:00"
+    },
     {
       "id": "eca6f190e86a3c87281a3d9e650f7907",
       "url": "https://twitter.com/omar_quraishi/status/1988518627859951986",
@@ -114,57 +162,109 @@
       "reading_time": 2,
       "created_at": "2025-11-12T10:48:13.313086+00:00",
       "updated_at": "2025-11-12T10:48:13.313088+00:00"
-    },
+    }
+  ],
+  "recently_processed": [
     {
-      "id": "7013ed2520ae2ddf627c5a7c2140d0cd",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325005682?dgcid=rss_sd_all",
-      "title": "Epigenetics in neurodegeneration: Emerging biomarkers and translational insights",
-      "content": "<p>Publication date: 15 December 2025</p><p><b>Source:</b> Brain Research, Volume 1869</p><p>Author(s): Hemraj Singh, Shaifali Gurjar, Rajeev Taliyan</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "pending",
+      "id": "8cc127c70142a432a087ee3c14a0e433",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1408836",
+      "title": "A hierarchical Bayesian inference model for volatile multivariate exponentially distributed signals",
+      "content": "Brain activities often follow an exponential family of distributions. The exponential distribution is the maximum entropy distribution of continuous random variables in the presence of a mean. The memoryless and peakless properties of an exponential distribution impose difficulties for data analysis methods. To estimate the rate parameter of multivariate exponential distribution from a time series of sensory inputs (i.e., observations), we constructed a hierarchical Bayesian inference model based on a variant of general hierarchical Brownian filter (GHBF). To account for the complex interactions among multivariate exponential random variables, the model estimates the second-order interaction of the rate intensity parameter in logarithmic space. Using variational Bayesian scheme, a family of closed-form and analytical update equations are introduced. These update equations also constitute a complete predictive coding framework. The simulation study shows that our model has the ability to evaluate the time-varying rate parameters and the underlying correlation structure of volatile multivariate exponentially distributed signals. The proposed hierarchical Bayesian inference model is of practical utility in analyzing high-dimensional neural activities.",
+      "author": "Bailu Si",
+      "published_date": "2025-11-12T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 15,
+      "word_count": 168,
       "reading_time": 1,
-      "created_at": "2025-11-12T10:47:57.106192+00:00",
-      "updated_at": "2025-11-12T10:47:57.106194+00:00"
+      "created_at": "2025-11-12T13:34:27.619956+00:00",
+      "updated_at": "2025-11-12T14:16:18.109232+00:00",
+      "metadata": {
+        "processed_at": "2025-11-12T14:16:18.109242+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "dbbcf14db45c5a36c280c5fe91aa194f",
-      "url": "https://www.reddit.com/r/Python/comments/1oubbk3/decorators_are_great/",
-      "title": "Decorators are great!",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>After a long, long time trying to wrap my head around decorators, I am using them more and more. I'm not suggesting I fully grasp metaprogramming in principle, but I'm really digging on decorators, and I'm finding them especially useful with UI callbacks.</p> <p>I know a lot of folks don't like using decorators; for me, they've always been difficult to understand. Do you use decorators? If you understand how they work but don't, why not?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Icy_Mulberry_3962\"> /u/Icy_Mulberry_3962 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1oubbk3/decorators_are_great/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1oubbk3/decorators_are_great/\">[comments]</a></span>",
-      "author": "/u/Icy_Mulberry_3962",
-      "published_date": "2025-11-11T14:48:21+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 96,
-      "reading_time": 1,
-      "created_at": "2025-11-12T10:47:16.437534+00:00",
-      "updated_at": "2025-11-12T10:47:16.437536+00:00"
-    },
-    {
-      "id": "d1c93149184912aba2ff11c82a1a61d2",
-      "url": "https://www.ntp.org/",
-      "title": "Please donate to keep Network Time Protocol up \u2013 Goal 1k",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45897457\">Comments</a>",
+      "id": "f78eacff9c7c977b528c35df63dcd10c",
+      "url": "https://www.bloomberg.com/graphics/2025-opinion-future-of-chocolate/",
+      "title": "A Vision of Chocolate's Future in an Amsterdam Brownie",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45839141\">Comments</a>",
       "author": "",
-      "published_date": "2025-11-12T07:56:35+00:00",
+      "published_date": "2025-11-06T19:19:58+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-11-12T10:47:15.282839+00:00",
-      "updated_at": "2025-11-12T10:47:15.282840+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2025-11-12T13:33:58.937593+00:00",
+      "updated_at": "2025-11-12T14:16:18.109246+00:00",
+      "metadata": {
+        "processed_at": "2025-11-12T14:16:18.109248+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "1f73b2d92ea7b19d2f091c7f3feb6cc9",
+      "url": "https://www.psypost.org/new-study-finds-users-are-marrying-and-having-virtual-children-with-ai-chatbots/",
+      "title": "New study finds users are marrying and having virtual children with AI chatbots",
+      "content": "<p>Article URL: <a href=\"https://www.psypost.org/new-study-finds-users-are-marrying-and-having-virtual-children-with-ai-chatbots/\">https://www.psypost.org/new-study-finds-users-are-marrying-and-having-virtual-children-with-ai-chatbots/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45899592\">https://news.ycombinator.com/item?id=45899592</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "giuliomagnifico",
+      "published_date": "2025-11-12T12:58:59+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-12T13:33:57.525058+00:00",
+      "updated_at": "2025-11-12T14:16:18.109251+00:00",
+      "metadata": {
+        "processed_at": "2025-11-12T14:16:18.109252+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6ef0379a9edb4e2cc36abc094b6048ec",
+      "url": "http://doi.org/10.1037/pmu0000304",
+      "title": "The sound of manufactured music: Reviewing the role of artificial stimuli in music cognition research.",
+      "content": "Having participants listen and react to musical stimuli is one of music cognition\u2019s foundational methods. Whereas most researchers have used stimuli adapted from existing musical traditions in such work, others have incorporated artificial stimuli (i.e., stimuli generated specifically for research that are not borrowed from any existing musical system) into their research designs. No review of this growing literature on artificial stimuli exists, leaving open the question of how useful they are in helping formulate and test research questions in music cognition. To this end, a systematic narrative review of empirical studies utilizing artificial musical stimuli (N = 52) was conducted. Comparing these studies to analogous works involving conventional stimuli in the areas of music preference, music learning, and musical emotion revealed the power of artificial stimuli in reducing concerns regarding stimulus familiarity and musical enculturation confounds, as well as in refining theory by reiterating the need for the development of composite predictive models in music cognition. This review also suggests that using artificial stimuli has the potential to help clarify the neurological and sociocognitive factors surrounding music listening behavior. Furthermore, because artificial stimuli are not tied to any existing sociocultural musical system, they may also lead to more generalizable findings. This enhanced generalizability may also coincide with expanded inclusivity, toward which the field of music cognition (and psychology more generally) are increasingly striving. Other potential uses, benefits, and limitations of artificial musical stimuli are discussed, as well as recommendations for researchers seeking to utilize such stimuli in future studies. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2024-01-22T00:00:00+00:00",
+      "source": "Psychomusicology",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 259,
+      "reading_time": 1,
+      "created_at": "2025-11-12T12:43:16.567006+00:00",
+      "updated_at": "2025-11-12T14:16:18.109255+00:00",
+      "metadata": {
+        "processed_at": "2025-11-12T14:16:18.109256+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2f421ece47339a06d849883da58e7d53",
+      "url": "http://doi.org/10.1037/pmu0000302",
+      "title": "Music-evoked nostalgia and charitable giving: A cross-cultural study in the United States and Mexico.",
+      "content": "Nostalgia, a past-oriented emotion characterized by complex affective responses, is a pervasive and fundamental human experience. Prior research has demonstrated that nostalgia serves various socioemotional functions, such as promoting a sense of belonging, enhancing one\u2019s perception of meaning in life, and boosting self-esteem. These positive emotions, in turn, can prompt individuals to engage in other-oriented behaviors, such as charitable giving. Building on this view, this study examined the impact of listening to nostalgic music on donation decisions. Undergraduate students in the United States (n = 83) and Mexico (n = 97) voluntarily participated in an online, one-on-one, experiment in which they listened to a series of self-selected nostalgic musical pieces and participated in a donation dictator game. Results indicated a significant relationship between music-evoked nostalgia and the amount of subsequent donations. Moreover, the study also found that individual differences in empathy, agreeableness (one of the Big Five personality traits), and perceived financial well-being also influenced the participants\u2019 donation decisions. Notably, the effects of these factors showed slight variations across the U.S. and Mexican samples, suggesting the role of culture in individual donation decisions. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2024-01-22T00:00:00+00:00",
+      "source": "Psychomusicology",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 192,
+      "reading_time": 1,
+      "created_at": "2025-11-12T12:43:16.566966+00:00",
+      "updated_at": "2025-11-12T14:16:18.109259+00:00",
+      "metadata": {
+        "processed_at": "2025-11-12T14:16:18.109260+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "027f9a4a3e7451cdf9f57d9b89a9bfa2",
       "url": "http://doi.org/10.1037/pmu0000300",
@@ -262,106 +362,6 @@
       "updated_at": "2025-11-12T12:32:15.964026+00:00",
       "metadata": {
         "processed_at": "2025-11-12T12:32:15.964028+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3253e34d22d1c5457279d59dddc23124",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452225009868?dgcid=rss_sd_all",
-      "title": "Comprehensive analysis of the prognostic value and immune infiltration of Uridine Monophosphate Synthetase (UMPS) in Pan-Glioma",
-      "content": "<p>Publication date: 5 December 2025</p><p><b>Source:</b> Neuroscience, Volume 590</p><p>Author(s): Dong He, Xiaokun Jiang, Jinfeng Ma, Jinyan Chen, Yongfei Zhang, Xixi Dou, Qingwen Jia, Qian Liu, Ping Xie, Zhen Zhang</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 28,
-      "reading_time": 1,
-      "created_at": "2025-11-12T09:44:24.938769+00:00",
-      "updated_at": "2025-11-12T10:17:34.999546+00:00",
-      "metadata": {
-        "processed_at": "2025-11-12T10:17:34.999554+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c71f9116d689117a32d897df59a350f1",
-      "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-10/",
-      "title": ".NET 10",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45888620\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-11T15:44:35+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-12T09:43:45.153687+00:00",
-      "updated_at": "2025-11-12T10:17:34.999558+00:00",
-      "metadata": {
-        "processed_at": "2025-11-12T10:17:34.999561+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4ff9be5f328f882de64dcab293ba7417",
-      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2512310122?af=R",
-      "title": "The synergy of methylphenidate- and reconsolidation-based extinction normalizes ventromedial prefrontal function in drug addiction",
-      "content": "Proceedings of the National Academy of Sciences, Volume 122, Issue 45, November 2025. <br />SignificanceIn people with drug addiction, we report that the pharmacological enhancement of memory modulation normalized impairments in prefrontal cortex function in response to drug-associated cues, with effects associated with lab-based drug seeking ...",
-      "author": "Ahmet O. CeceliSarah G. KingK. Rachel DruryNatalie McClainJohn GrayPriyanthi S. DassanayakeJeffrey H. NewcornDaniela SchillerNelly Alia-KleinRita Z. GoldsteinaDepartment of Psychiatry, Icahn School of Medicine at Mount Sinai, New York, NY 10029-5674bDepartment of Neuroscience, Icahn School of Medicine at Mount Sinai, New York, NY 10029-5674cDepartment of Environmental Medicine, Icahn School of Medicine at Mount Sinai, New York, NY 10029-5674dDepartment of Pediatrics, Icahn School of Medicine at Mount Sinai, New York, NY 10029-5674",
-      "published_date": "2025-11-04T08:00:00+00:00",
-      "source": "Pnas Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 47,
-      "reading_time": 1,
-      "created_at": "2025-11-12T09:23:36.936126+00:00",
-      "updated_at": "2025-11-12T10:17:34.999563+00:00",
-      "metadata": {
-        "processed_at": "2025-11-12T10:17:34.999565+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "18b3aa5dbb9163c70aed6e6a414fbd53",
-      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2510664122?af=R",
-      "title": "Electromechanically induced membrane restructuring enables learning and memory",
-      "content": "Proceedings of the National Academy of Sciences, Volume 122, Issue 45, November 2025. <br />SignificanceUnderstanding the molecular mechanisms underlying learning and memory remains a central challenge in the treatment of dementia. Membrane plasticity, the ability of a membrane to adapt its structure and/or composition in response to stimuli, ...",
-      "author": "Peter T. PodarDima BolmatovTeshani KumarageRana AshkarAriana AdkissonOlivia ZiemerVictoria SullivanAhmed S. MohamedJoseph. S. NajemC. Patrick CollierJohn KatsarasaShull Wollan Center, Oak Ridge National Laboratory and University of Tennessee, Oak Ridge, TN 37830bDepartment of Biomedical Engineering, Vanderbilt University, Nashville, TN 37235cCarle Illinois College of Medicine, University of Illinois Urbana-Champaign, Urbana, IL 61801dDepartment of Physics and Astronomy, Texas Tech University, Lubbock, TX 79409eDepartment of Materials Science and Engineering, University of Illinois Urbana-Champaign, Urbana, IL 61801fDepartment of Physics, Virginia Tech, Blacksburg, VA 24061gCenter for Soft Matter and Biological Physics, Virginia Tech, Blacksburg, VA 24061hDepartment of Chemistry, Louisiana State University, Baton Rouge, LA 70803iDepartment of Physics and Astronomy, University of Tennessee, Chattanooga, TN 37403jDepartment of Chemical and Biomolecular Engineering, University of Tennessee, Knoxville, TN 37996kDepartment of Mechanical Engineering, Pennsylvania State University, University Park, PA 16802lCenter for Nanophase Materials Sciences, Oak Ridge National Laboratory, Oak Ridge, TN 37830mLabs and Soft Matter Group, Oak Ridge National Laboratory, Oak Ridge, TN 37830",
-      "published_date": "2025-11-04T08:00:00+00:00",
-      "source": "Pnas Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 49,
-      "reading_time": 1,
-      "created_at": "2025-11-12T09:23:36.936098+00:00",
-      "updated_at": "2025-11-12T10:17:34.999567+00:00",
-      "metadata": {
-        "processed_at": "2025-11-12T10:17:34.999569+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "16d7c78380788d1380f4d867723d048c",
-      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2506535122?af=R",
-      "title": "Revisiting the high-dimensional geometry of population responses in the visual cortex",
-      "content": "Proceedings of the National Academy of Sciences, Volume 122, Issue 45, November 2025. <br />SignificanceThe nervous system encodes the visual environment across millions of neurons. Such high-dimensional signals are difficult to estimate\u2014and consequently to characterize. We address this challenge with a statistical method that revises past ...",
-      "author": "Dean A. PospisilJonathan W. PillowaDepartment of Psychology, University of Illinois, Urbana-Champaign, IL 61820bPrinceton Neuroscience Institute, Princeton University, Princeton, NJ 08544",
-      "published_date": "2025-11-05T08:00:00+00:00",
-      "source": "Pnas Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 47,
-      "reading_time": 1,
-      "created_at": "2025-11-12T09:23:36.936051+00:00",
-      "updated_at": "2025-11-12T10:17:34.999571+00:00",
-      "metadata": {
-        "processed_at": "2025-11-12T10:17:34.999572+00:00",
         "processing_method": "github_actions"
       }
     }
