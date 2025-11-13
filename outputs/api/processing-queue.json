@@ -1,8 +1,40 @@
 {
-  "last_updated": "2025-11-13T08:20:50.143132+00:00",
-  "pending_count": 915,
-  "processed_count": 85,
+  "last_updated": "2025-11-13T10:17:47.311717+00:00",
+  "pending_count": 909,
+  "processed_count": 91,
   "pending_articles": [
+    {
+      "id": "79377c5bb2a970c123d9ca904339eef1",
+      "url": "https://www.reddit.com/r/Python/comments/1ovw9rd/pyoctomap_sparse_octrees_3d_mapping_in_python/",
+      "title": "PyOctoMap, Sparse Octrees 3D mapping in Python using OctoMap",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello <a href=\"/r/Python\">r/Python</a>,</p> <p>I built <strong>pyoctomap</strong> to simplify 3D occupancy mapping in Python by wrapping the popular C++ OctoMap library.</p> <h1>What My Project Does</h1> <p><strong>pyoctomap</strong> provides a &quot;Pythonic&quot; API for OctoMap, allowing you to create, update, and query 3D probabilistic maps.</p> <ul> <li><strong>NumPy-friendly:</strong> Integrates directly with NumPy arrays for point clouds and queries.</li> <li><strong>Vectorized:</strong> Supports fast, vectorized operations (e.g., checking occupancy for many points at once).</li> <li><strong>Easy Install:</strong> <code>pip install pyoctomap</code> (pre-built wheels for Linux/WSL).</li> <li>Beta ROS support.</li> </ul> <h1>Target Audience</h1> <p>This library is for <strong>robotics/3D perception researchers and engineers</strong> who want to use OctoMap's capabilities within a standard Python (NumPy/SciPy/Torch/Open3D) environment.</p> <h1>Comparison</h1> <p>The main alternative is building your own <code>pybind11</code> or <code>ctypes</code> wrapper, which is complex and time-consuming.</p> <p>The project is open-source, and I'm sharing it here to get technical feedback and answer any questions.</p> <p><strong>GitHub Repo:</strong> <a href=\"https://github.com/Spinkoo/pyoctomap\"><code>https://github.com/Spinkoo/pyoctomap</code></a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Spinkoo\"> /u/Spinkoo </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ovw9rd/pyoctomap_sparse_octrees_3d_mapping_in_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ovw9rd/pyoctomap_sparse_octrees_3d_mapping_in_python/\">[comments]</a></span>",
+      "author": "/u/Spinkoo",
+      "published_date": "2025-11-13T08:58:04+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 161,
+      "reading_time": 1,
+      "created_at": "2025-11-13T09:23:30.275847+00:00",
+      "updated_at": "2025-11-13T09:23:30.275849+00:00"
+    },
+    {
+      "id": "cc6afdcaf2d0be47acedf7c9dc3d3f07",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1732546",
+      "title": "Correction: Modeling dyslexia in neurotypical adults by combining neuroimaging and neuromodulation techniques: a hypothesis paper",
+      "content": "",
+      "author": "Shinri Ohta",
+      "published_date": "2025-11-12T00:00:00+00:00",
+      "source": "Frontiers Human Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-11-13T08:51:57.729684+00:00",
+      "updated_at": "2025-11-13T08:51:57.729686+00:00"
+    },
     {
       "id": "5f1e0062a3e42540236af02aa21b87a1",
       "url": "https://www.biorxiv.org/content/10.1101/2025.11.11.687884v1?rss=1",
@@ -130,41 +162,129 @@
       "reading_time": 1,
       "created_at": "2025-11-13T06:32:37.332124+00:00",
       "updated_at": "2025-11-13T06:32:37.332130+00:00"
-    },
-    {
-      "id": "5c11658b0c910a78f035a5b50b782eb1",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1710066",
-      "title": "Acupuncture modulates the microbiota-gut-brain axis: a novel therapeutic strategy for amnestic mild cognitive impairment",
-      "content": "Amnestic mild cognitive impairment (aMCI) represents a critical prodromal stage of Alzheimer's disease (AD), yet effective therapeutic interventions to prevent or delay this conversion remain an unmet clinical need. Growing evidence implicates dysregulation of the microbiota-gut-brain axis (MGBA)-a complex bidirectional communication network involving neural, immune, and endocrine pathways-in the pathogenesis of neurodegenerative disorders. This perspective proposes that acupuncture, as a multi-target therapeutic approach, may modulate gut microbiota composition and restore MGBA homeostasis, thereby potentially decelerating the progression from aMCI to AD. A systematic understanding of the precise mechanisms through which acupuncture influences the MGBA carries substantial implications for both neuroscience and clinical practice. Future investigations should prioritize the elucidation of these mechanisms and the generation of robust clinical evidence through well-controlled experimental designs.",
-      "author": "Sheng-yong Bao",
-      "published_date": "2025-11-13T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 123,
-      "reading_time": 1,
-      "created_at": "2025-11-13T06:32:35.933424+00:00",
-      "updated_at": "2025-11-13T06:32:35.933426+00:00"
-    },
-    {
-      "id": "0b104be0982e626d0a8553ecf9d4cfe4",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1656906",
-      "title": "Comparative efficacy and safety of symptomatic therapy and disease-modifying therapy for Alzheimer\u2019s disease: a systematic review and network meta-analysis",
-      "content": "BackgroundThe management of Alzheimer\u2019s disease has shifted toward disease-modifying therapies aimed at delaying disease progression rather than focusing solely on symptomatic treatment. This study summarizes the latest evidence regarding the benefits and harms of anti-Alzheimer\u2019s disease drugs.MethodsWe conducted a comprehensive review of randomized controlled trials from PubMed, Embase, Cochrane Library, Web of Science databases, and other sources up to April 2025. Two researchers independently reviewed the literature and analyzed the data. A network meta-analysis was performed using Review Manager version 5.3 and Stata version 18.0 to calculate mean differences (MDs) and 95% confidence intervals (CIs) for direct and indirect comparisons. Treatment efficacy was evaluated using the Surface Under the Cumulative Ranking Curve (SUCRA). Bias was assessed using the Revised Cochrane Risk of Bias Tool version 2.0, and publication bias was analyzed with funnel plots.ResultsThe network meta-analysis included 23 randomized controlled trials with 16,010 participants, evaluating nine pharmacological interventions ranging from traditional symptomatic therapies to four United States Food and Drug Administration- and National Medical Products Administration-approved disease-modifying therapies, notably anti-amyloid beta monoclonal antibodies. Aducanumab significantly improved ADAS-cog scores compared with placebo (MD -5.97, 95%CI -10.33, \u22121.61; SUCRA: 93.0%) and demonstrated notable improvements in ADCS-ADL scores (MD 4.99, 95%CI 2.27, 7.72; SUCRA: 98.6%). Memantine ranked highest for neuropsychiatric symptoms (SUCRA: 80.8%). Aducanumab also had the highest SUCRA for CDR-SB (91.5%) and showed moderate superiority in MMSE scores (MD 3.55, 95%CI 1.35, 5.75; SUCRA: 98.2%).ConclusionSymptomatic treatments, especially memantine for neuropsychiatric symptoms, remain effective. However, the network meta-analysis indicates that, for patients with mild cognitive impairment or mild Alzheimer\u2019s disease, aducanumab demonstrates the greatest potential for cognitive and clinical improvement (MMSE, ADAS-cog, ADCS-ADL), despite associated risks such as adverse events and amyloid-related imaging abnormalities linked to disease-modifying therapies. Lecanemab provides moderate benefits, while donanemab appears less effective. Thus, clinicians should apply disease-modifying therapies cautiously and individually, carefully balancing potential risks and benefits for each patient.Systematic review registrationPROSPERO [CRD42025637730], https://www.crd.york.ac.uk/PROSPERO/.",
-      "author": "Yumin Xu",
-      "published_date": "2025-11-13T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 316,
-      "reading_time": 1,
-      "created_at": "2025-11-13T06:32:35.933379+00:00",
-      "updated_at": "2025-11-13T06:32:35.933384+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "1f86041848952df803718302578020b4",
+      "url": "https://www.nature.com/articles/s41398-025-03731-7",
+      "title": "Correction: Synergistic, multi-level understanding of psychedelics: three systematic reviews and meta-analyses of their pharmacology, neuroimaging and phenomenology",
+      "content": "",
+      "author": "",
+      "published_date": "2025-11-13T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-11-13T09:44:19.597798+00:00",
+      "updated_at": "2025-11-13T10:17:47.203868+00:00",
+      "metadata": {
+        "processed_at": "2025-11-13T10:17:47.203876+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "3fe1c81f5420d2949a853e6b9ecccee8",
+      "url": "https://www.nature.com/articles/s41398-025-03716-6",
+      "title": "Unpredictable stress boosts perceptual learning and alters glucocorticoid and norepinephrine receptors in rats\u2019 dorsal hippocampus",
+      "content": "",
+      "author": "",
+      "published_date": "2025-11-13T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-11-13T09:44:19.597778+00:00",
+      "updated_at": "2025-11-13T10:17:47.203883+00:00",
+      "metadata": {
+        "processed_at": "2025-11-13T10:17:47.203885+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4ee87cbdb31a0d4f76f0fc8b09549eab",
+      "url": "https://arxiv.org/abs/2510.27688",
+      "title": "Continuous Autoregressive Language Models",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45828523\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-05T21:49:12+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-13T09:43:38.152864+00:00",
+      "updated_at": "2025-11-13T10:17:47.203888+00:00",
+      "metadata": {
+        "processed_at": "2025-11-13T10:17:47.203890+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a8cd4f19910d1a3f01c8e59ca4a45469",
+      "url": "https://hi.telli.com/eng",
+      "title": "Telli (Voice AI \u2013 YC F24) is hiring ambitious engineers in [on-site, Berlin]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45912744\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-13T09:30:53+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-13T09:43:38.152824+00:00",
+      "updated_at": "2025-11-13T10:17:47.203893+00:00",
+      "metadata": {
+        "processed_at": "2025-11-13T10:17:47.203894+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2e0854cde65b796e3fd19b1a61262cb3",
+      "url": "https://landaire.net/reversing-yaesu-firmware-encryption/",
+      "title": "Reverse Engineering Yaesu FT-70D Firmware Encryption",
+      "content": "<p>Article URL: <a href=\"https://landaire.net/reversing-yaesu-firmware-encryption/\">https://landaire.net/reversing-yaesu-firmware-encryption/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45911704\">https://news.ycombinator.com/item?id=45911704</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "austinallegro",
+      "published_date": "2025-11-13T07:12:01+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-13T09:43:37.040525+00:00",
+      "updated_at": "2025-11-13T10:17:47.203897+00:00",
+      "metadata": {
+        "processed_at": "2025-11-13T10:17:47.203898+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a8cd4f19910d1a3f01c8e59ca4a45469",
+      "url": "https://hi.telli.com/eng",
+      "title": "Telli (Voice AI \u2013 YC F24) is hiring ambitious engineers in [on-site, Berlin]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45912744\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-13T09:30:53+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-13T09:43:38.152824+00:00",
+      "updated_at": "2025-11-13T10:17:47.203893+00:00",
+      "metadata": {
+        "processed_at": "2025-11-13T10:17:47.203894+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "b5d1d7bc8053c70327af6949360084d3",
       "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1636813",
@@ -242,126 +362,6 @@
       "updated_at": "2025-11-13T08:20:50.037902+00:00",
       "metadata": {
         "processed_at": "2025-11-13T08:20:50.037903+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9bd841e5e3ae8ddb072fcb5f2f583f8f",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.12.688087v1?rss=1",
-      "title": "Early impairment in dentate pattern separation in a rodent model of temporal lobe epilepsy.",
-      "content": "The dentate gyrus of the hippocampal formation utilizes sparse neural coding to support memory formation. In temporal lobe epilepsy (TLE), the dentate undergoes extensive restructuring, including loss of local inhibition. It is unknown how circuit changes impact dentate network computations in awake behaving animals. Here we perform high-density tetrode recordings from the dentate in male rats treated with systemic kainic acid (KA) to induce TLE. In KA-treated rats, dentate spatial representations were less precise at the single neuron level, however the stability of the spatial code in representing repeated visits to the same location was retained at the population level. Despite spared spatial representation, the network computations for pattern separation were disrupted. The reorganized dentate network in KA-treated rats generated less distinct population activity patterns for different environments, specifically as a result of impaired rate-remapping. Changes in network computations paralleled impairments in a dentate-dependent memory task, potentially providing a link between altered pattern separation and behavioral discrimination. These deficits were present in animals with confirmed dentate circuit reorganization that had not yet developed spontaneous seizures - suggesting that the dentate network changes underlying altered rate-remapping and impaired dentate-dependent memory occur early in epileptogenesis.",
-      "author": "Ewell, L. A., Ramezani, A., Suarez, G., Piatti, V. C., Lam, V., Mills, T. G., McGinness, A., Kuk, R., Ukai, M., Schlenner, A.-L., Leutgeb, S., Leutgeb, J. K.",
-      "published_date": "2025-11-12T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 193,
-      "reading_time": 1,
-      "created_at": "2025-11-13T07:20:50.094676+00:00",
-      "updated_at": "2025-11-13T08:20:50.037906+00:00",
-      "metadata": {
-        "processed_at": "2025-11-13T08:20:50.037907+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6730815f52be4bc9c4f8f362717fe86d",
-      "url": "https://lwn.net/SubscriberLink/1042355/434ad706cc594276/",
-      "title": "Mergiraf: Syntax-Aware Merging for Git",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45799664\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-03T14:54:54+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-13T05:43:26.795540+00:00",
-      "updated_at": "2025-11-13T06:23:54.280166+00:00",
-      "metadata": {
-        "processed_at": "2025-11-13T06:23:54.280175+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3fce80778739ecdac94f0fb3d0579467",
-      "url": "https://arxiv.org/abs/2511.09458",
-      "title": "Exploring The Interaction-Outcome Paradox: Seemingly Richer and More Self-Aware Interactions with LLMs May Not Yet Lead to Better Learning",
-      "content": "arXiv:2511.09458v1 Announce Type: new \nAbstract: While Large Language Models (LLMs) have transformed the user interface for learning, moving from keyword search to natural language dialogue, their impact on educational outcomes remains unclear. We present a controlled study (N=20) that directly compares the learning interaction and outcomes between LLM and search-based interfaces. We found that although LLMs elicit richer and nuanced interactions from a learner, they do not produce broadly better learning outcomes. In this paper, we explore this the ``Interaction-Outcome Paradox.'' To explain this, we discuss the concept of a cognitive shift: the locus of student effort moves from finding and synthesizing disparate sources (search) to a more self-aware identification and articulation of their knowledge gaps and strategies to bridge those gaps (LLMs). This insight provides a new lens for evaluating educational technologies, suggesting that the future of learning tools lies not in simply enriching interaction, but in designing systems that scaffold productive cognitive work by leveraging this student expressiveness.",
-      "author": "Rahul R. Divekar, Sophia Guerra, Lisette Gonzalez, Natasha Boos",
-      "published_date": "2025-11-13T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 160,
-      "reading_time": 1,
-      "created_at": "2025-11-13T05:21:31.415743+00:00",
-      "updated_at": "2025-11-13T06:23:54.280179+00:00",
-      "metadata": {
-        "processed_at": "2025-11-13T06:23:54.280181+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4bce2618116a74e3de51cc473b4aec42",
-      "url": "https://arxiv.org/abs/2511.09454",
-      "title": "Algorithmic Advice as a Strategic Signal on Competitive Markets",
-      "content": "arXiv:2511.09454v1 Announce Type: new \nAbstract: As algorithms increasingly mediate competitive decision-making, their influence extends beyond individual outcomes to shaping strategic market dynamics. In two preregistered experiments, we examined how algorithmic advice affects human behavior in classic economic games with unique, non-collusive, and analytically traceable equilibria. In Experiment 1 (N = 107), participants played a Bertrand price competition with individualized or collective algorithmic recommendations. Initially, collusively upward-biased advice increased prices, particularly when individualized, but prices gradually converged toward equilibrium over the course of the experiment. However, participants avoided setting prices above the algorithm's recommendation throughout the experiment, suggesting that advice served as a soft upper bound for acceptable prices. In Experiment 2 (N = 129), participants played a Cournot quantity competition with equilibrium-aligned or strategically biased algorithmic recommendations. Here, individualized equilibrium advice supported stable convergence, whereas collusively downward-biased advice led to sustained underproduction and supracompetitive profits - hallmarks of tacit collusion. In both experiments, participants responded more strongly and consistently to individualized advice than collective advice, potentially due to greater perceived ownership of the former. These findings demonstrate that algorithmic advice can function as a strategic signal, shaping coordination even without explicit communication. The results echo real-world concerns about algorithmic collusion and underscore the need for careful design and oversight of algorithmic decision-support systems in competitive environments.",
-      "author": "Tobias R. Rebholz, Maxwell Uphoff, Christian H. R. Bernges, Florian Scholten",
-      "published_date": "2025-11-13T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 216,
-      "reading_time": 1,
-      "created_at": "2025-11-13T05:21:31.415714+00:00",
-      "updated_at": "2025-11-13T06:23:54.280183+00:00",
-      "metadata": {
-        "processed_at": "2025-11-13T06:23:54.280185+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0200829fccc1f03b9ea419a10b3c4c63",
-      "url": "https://arxiv.org/abs/2511.09394",
-      "title": "A multimodal AI agent for clinical decision support in ophthalmology",
-      "content": "arXiv:2511.09394v1 Announce Type: new \nAbstract: Artificial intelligence has shown promise in medical imaging, yet most existing systems lack flexibility, interpretability, and adaptability - challenges especially pronounced in ophthalmology, where diverse imaging modalities are essential. We present EyeAgent, the first agentic AI framework for comprehensive and interpretable clinical decision support in ophthalmology. Using a large language model (DeepSeek-V3) as its central reasoning engine, EyeAgent interprets user queries and dynamically orchestrates 53 validated ophthalmic tools across 23 imaging modalities for diverse tasks including classification, segmentation, detection, image/report generation, and quantitative analysis. Stepwise ablation analysis demonstrated a progressive improvement in diagnostic accuracy, rising from a baseline of 69.71% (using only 5 general tools) to 80.79% when the full suite of 53 specialized tools was integrated. In an expert rating study on 200 real-world clinical cases, EyeAgent achieved 93.7% tool selection accuracy and received expert ratings of more than 88% across accuracy, completeness, safety, reasoning, and interpretability. In human-AI collaboration, EyeAgent matched or exceeded the performance of senior ophthalmologists and, when used as an assistant, improved overall diagnostic accuracy by 18.51% and report quality scores by 19%, with the greatest benefit observed among junior ophthalmologists. These findings establish EyeAgent as a scalable and trustworthy AI framework for ophthalmology and provide a blueprint for modular, multimodal, and clinically aligned next-generation AI systems.",
-      "author": "Danli Shi, Xiaolan Chen, Bingjie Yan, Weiyi Zhang, Pusheng Xu, Jiancheng Yang, Ruoyu Chen, Siyu Huang, Bowen Liu, Xinyuan Wu, Meng Xie, Ziyu Gao, Yue Wu, Senlin Lin, Kai Jin, Xia Gong, Yih Chung Tham, Xiujuan Zhang, Li Dong, Yuzhou Zhang, Jason Yam, Guangming Jin, Xiaohu Ding, Haidong Zou, Yalin Zheng, Zongyuan Ge, Mingguang He",
-      "published_date": "2025-11-13T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 217,
-      "reading_time": 1,
-      "created_at": "2025-11-13T05:21:31.415681+00:00",
-      "updated_at": "2025-11-13T06:23:54.280187+00:00",
-      "metadata": {
-        "processed_at": "2025-11-13T06:23:54.280189+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "dda0b3085f939e5168fb664aafffea2a",
-      "url": "https://arxiv.org/abs/2511.09337",
-      "title": "TempoQL: A Readable, Precise, and Portable Query System for Electronic Health Record Data",
-      "content": "arXiv:2511.09337v1 Announce Type: new \nAbstract: Electronic health record (EHR) data is an essential data source for machine learning for health, but researchers and clinicians face steep barriers in extracting and validating EHR data for modeling. Existing tools incur trade-offs between expressivity and usability and are typically specialized to a single data standard, making it difficult to write temporal queries that are ready for modern model-building pipelines and adaptable to new datasets. This paper introduces TempoQL, a Python-based toolkit designed to lower these barriers. TempoQL provides a simple, human-readable language for temporal queries; support for multiple EHR data standards, including OMOP, MEDS, and others; and an interactive notebook-based query interface with optional large language model (LLM) authoring assistance. Through a performance evaluation and two use cases on different datasets, we demonstrate that TempoQL simplifies the creation of cohorts for machine learning while maintaining precision, speed, and reproducibility.",
-      "author": "Ziyong Ma, Richard D. Boyce, Adam Perer, Venkatesh Sivaraman",
-      "published_date": "2025-11-13T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 146,
-      "reading_time": 1,
-      "created_at": "2025-11-13T05:21:31.415647+00:00",
-      "updated_at": "2025-11-13T06:23:54.280191+00:00",
-      "metadata": {
-        "processed_at": "2025-11-13T06:23:54.280193+00:00",
         "processing_method": "github_actions"
       }
     }
