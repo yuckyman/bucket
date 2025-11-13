@@ -1,5 +1,21 @@
 [
   {
+    "id": "79377c5bb2a970c123d9ca904339eef1",
+    "url": "https://www.reddit.com/r/Python/comments/1ovw9rd/pyoctomap_sparse_octrees_3d_mapping_in_python/",
+    "title": "PyOctoMap, Sparse Octrees 3D mapping in Python using OctoMap",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello <a href=\"/r/Python\">r/Python</a>,</p> <p>I built <strong>pyoctomap</strong> to simplify 3D occupancy mapping in Python by wrapping the popular C++ OctoMap library.</p> <h1>What My Project Does</h1> <p><strong>pyoctomap</strong> provides a &quot;Pythonic&quot; API for OctoMap, allowing you to create, update, and query 3D probabilistic maps.</p> <ul> <li><strong>NumPy-friendly:</strong> Integrates directly with NumPy arrays for point clouds and queries.</li> <li><strong>Vectorized:</strong> Supports fast, vectorized operations (e.g., checking occupancy for many points at once).</li> <li><strong>Easy Install:</strong> <code>pip install pyoctomap</code> (pre-built wheels for Linux/WSL).</li> <li>Beta ROS support.</li> </ul> <h1>Target Audience</h1> <p>This library is for <strong>robotics/3D perception researchers and engineers</strong> who want to use OctoMap's capabilities within a standard Python (NumPy/SciPy/Torch/Open3D) environment.</p> <h1>Comparison</h1> <p>The main alternative is building your own <code>pybind11</code> or <code>ctypes</code> wrapper, which is complex and time-consuming.</p> <p>The project is open-source, and I'm sharing it here to get technical feedback and answer any questions.</p> <p><strong>GitHub Repo:</strong> <a href=\"https://github.com/Spinkoo/pyoctomap\"><code>https://github.com/Spinkoo/pyoctomap</code></a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Spinkoo\"> /u/Spinkoo </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ovw9rd/pyoctomap_sparse_octrees_3d_mapping_in_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ovw9rd/pyoctomap_sparse_octrees_3d_mapping_in_python/\">[comments]</a></span>",
+    "author": "/u/Spinkoo",
+    "published_date": "2025-11-13T08:58:04+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 161,
+    "reading_time": 1,
+    "created_at": "2025-11-13T09:23:30.275847+00:00",
+    "updated_at": "2025-11-13T09:23:30.275849+00:00"
+  },
+  {
     "id": "cc6afdcaf2d0be47acedf7c9dc3d3f07",
     "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1732546",
     "title": "Correction: Modeling dyslexia in neurotypical adults by combining neuroimaging and neuromodulation techniques: a hypothesis paper",
@@ -16322,21 +16338,5 @@
     "reading_time": 1,
     "created_at": "2025-11-11T22:20:05.917556+00:00",
     "updated_at": "2025-11-11T22:20:05.917557+00:00"
-  },
-  {
-    "id": "941ed435bbbeb32f198bd6dcd2beb71f",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41213807/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1xePBFBNvSIegfqCbvp45N3V9WgCNCS63Z1PLmhwJSPGd18QMT&fc=None&ff=20251111172004&v=2.18.0.post22+67771e2",
-    "title": "Tb(III)-Functionalized Hydrogen-Bonded Organic Framework with Dual-Emission for Liver Health Biomarker Detection and a Smartphone-Integrated Bionic Visual Diagnostic Platform",
-    "content": "Developing a sensitive analytical platform for monitoring tiopronin (MPG), its metabolite 2-mercaptopropionic acid (MPA), and the key liver biomarker glutathione (GSH) is crucial for liver health assessment. Here, an artificial intelligence-assisted bionic vision platform based on a dual-emission Tb\u00b3^(+)-functionalized hydrogen-bonded organic framework (Tb@HOF-dobpdc) is constructed. The ratiometric fluorescent sensor exhibits a distinct \u2033turn-on\u2033 response, enabling highly sensitive detection of...",
-    "author": "Bing Yan",
-    "published_date": "2025-11-10T11:00:00+00:00",
-    "source": "Low Vision",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 59,
-    "reading_time": 1,
-    "created_at": "2025-11-11T22:20:05.917530+00:00",
-    "updated_at": "2025-11-11T22:20:05.917532+00:00"
   }
 ]

@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-13T08:52:41.180259+00:00",
+  "last_updated": "2025-11-13T09:24:41.662393+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "79377c5bb2a970c123d9ca904339eef1",
+      "url": "https://www.reddit.com/r/Python/comments/1ovw9rd/pyoctomap_sparse_octrees_3d_mapping_in_python/",
+      "title": "PyOctoMap, Sparse Octrees 3D mapping in Python using OctoMap",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello <a href=\"/r/Python\">r/Python</a>,</p> <p>I built <strong>pyoctomap</strong> to simplify 3D occupancy mapping in Python by wrapping the popular C++ OctoMap library.</p> <h1>What My Project Does</h1> <p><strong>pyoctomap</strong> provides a &quot;Pythonic&quot; API for OctoMap, allowing you to create, update, and query 3D probabilistic maps.</p> <ul> <li><strong>NumPy-friendly:</strong> Integrates directly with NumPy arrays for point clouds and queries.</li> <li><strong>Vectorized:</strong> Supports fast, vectorized operations (e.g., checking occupancy for many points at once).</li> <li><strong>Easy Install:</strong> <code>pip install pyoctomap</code> (pre-built wheels for Linux/WSL).</li> <li>Beta ROS support.</li> </ul> <h1>Target Audience</h1> <p>This library is for <strong>robotics/3D perception researchers and engineers</strong> who want to use OctoMap's capabilities within a standard Python (NumPy/SciPy/Torch/Open3D) environment.</p> <h1>Comparison</h1> <p>The main alternative is building your own <code>pybind11</code> or <code>ctypes</code> wrapper, which is complex and time-consuming.</p> <p>The project is open-source, and I'm sharing it here to get technical feedback and answer any questions.</p> <p><strong>GitHub Repo:</strong> <a href=\"https://github.com/Spinkoo/pyoctomap\"><code>https://github.com/Spinkoo/pyoctomap</code></a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Spinkoo\"> /u/Spinkoo </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ovw9rd/pyoctomap_sparse_octrees_3d_mapping_in_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ovw9rd/pyoctomap_sparse_octrees_3d_mapping_in_python/\">[comments]</a></span>",
+      "author": "/u/Spinkoo",
+      "published_date": "2025-11-13T08:58:04+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 161,
+      "reading_time": 1,
+      "created_at": "2025-11-13T09:23:30.275847+00:00",
+      "updated_at": "2025-11-13T09:23:30.275849+00:00"
+    },
     {
       "id": "cc6afdcaf2d0be47acedf7c9dc3d3f07",
       "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1732546",
@@ -335,26 +351,6 @@
       "updated_at": "2025-11-13T06:23:54.280183+00:00",
       "metadata": {
         "processed_at": "2025-11-13T06:23:54.280185+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0200829fccc1f03b9ea419a10b3c4c63",
-      "url": "https://arxiv.org/abs/2511.09394",
-      "title": "A multimodal AI agent for clinical decision support in ophthalmology",
-      "content": "arXiv:2511.09394v1 Announce Type: new \nAbstract: Artificial intelligence has shown promise in medical imaging, yet most existing systems lack flexibility, interpretability, and adaptability - challenges especially pronounced in ophthalmology, where diverse imaging modalities are essential. We present EyeAgent, the first agentic AI framework for comprehensive and interpretable clinical decision support in ophthalmology. Using a large language model (DeepSeek-V3) as its central reasoning engine, EyeAgent interprets user queries and dynamically orchestrates 53 validated ophthalmic tools across 23 imaging modalities for diverse tasks including classification, segmentation, detection, image/report generation, and quantitative analysis. Stepwise ablation analysis demonstrated a progressive improvement in diagnostic accuracy, rising from a baseline of 69.71% (using only 5 general tools) to 80.79% when the full suite of 53 specialized tools was integrated. In an expert rating study on 200 real-world clinical cases, EyeAgent achieved 93.7% tool selection accuracy and received expert ratings of more than 88% across accuracy, completeness, safety, reasoning, and interpretability. In human-AI collaboration, EyeAgent matched or exceeded the performance of senior ophthalmologists and, when used as an assistant, improved overall diagnostic accuracy by 18.51% and report quality scores by 19%, with the greatest benefit observed among junior ophthalmologists. These findings establish EyeAgent as a scalable and trustworthy AI framework for ophthalmology and provide a blueprint for modular, multimodal, and clinically aligned next-generation AI systems.",
-      "author": "Danli Shi, Xiaolan Chen, Bingjie Yan, Weiyi Zhang, Pusheng Xu, Jiancheng Yang, Ruoyu Chen, Siyu Huang, Bowen Liu, Xinyuan Wu, Meng Xie, Ziyu Gao, Yue Wu, Senlin Lin, Kai Jin, Xia Gong, Yih Chung Tham, Xiujuan Zhang, Li Dong, Yuzhou Zhang, Jason Yam, Guangming Jin, Xiaohu Ding, Haidong Zou, Yalin Zheng, Zongyuan Ge, Mingguang He",
-      "published_date": "2025-11-13T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 217,
-      "reading_time": 1,
-      "created_at": "2025-11-13T05:21:31.415681+00:00",
-      "updated_at": "2025-11-13T06:23:54.280187+00:00",
-      "metadata": {
-        "processed_at": "2025-11-13T06:23:54.280189+00:00",
         "processing_method": "github_actions"
       }
     }
