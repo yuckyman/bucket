@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-13T08:29:29.702203+00:00",
+  "last_updated": "2025-11-13T08:52:41.180259+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "cc6afdcaf2d0be47acedf7c9dc3d3f07",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1732546",
+      "title": "Correction: Modeling dyslexia in neurotypical adults by combining neuroimaging and neuromodulation techniques: a hypothesis paper",
+      "content": "",
+      "author": "Shinri Ohta",
+      "published_date": "2025-11-12T00:00:00+00:00",
+      "source": "Frontiers Human Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-11-13T08:51:57.729684+00:00",
+      "updated_at": "2025-11-13T08:51:57.729686+00:00"
+    },
     {
       "id": "b5d1d7bc8053c70327af6949360084d3",
       "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1636813",
@@ -339,26 +355,6 @@
       "updated_at": "2025-11-13T06:23:54.280187+00:00",
       "metadata": {
         "processed_at": "2025-11-13T06:23:54.280189+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "dda0b3085f939e5168fb664aafffea2a",
-      "url": "https://arxiv.org/abs/2511.09337",
-      "title": "TempoQL: A Readable, Precise, and Portable Query System for Electronic Health Record Data",
-      "content": "arXiv:2511.09337v1 Announce Type: new \nAbstract: Electronic health record (EHR) data is an essential data source for machine learning for health, but researchers and clinicians face steep barriers in extracting and validating EHR data for modeling. Existing tools incur trade-offs between expressivity and usability and are typically specialized to a single data standard, making it difficult to write temporal queries that are ready for modern model-building pipelines and adaptable to new datasets. This paper introduces TempoQL, a Python-based toolkit designed to lower these barriers. TempoQL provides a simple, human-readable language for temporal queries; support for multiple EHR data standards, including OMOP, MEDS, and others; and an interactive notebook-based query interface with optional large language model (LLM) authoring assistance. Through a performance evaluation and two use cases on different datasets, we demonstrate that TempoQL simplifies the creation of cohorts for machine learning while maintaining precision, speed, and reproducibility.",
-      "author": "Ziyong Ma, Richard D. Boyce, Adam Perer, Venkatesh Sivaraman",
-      "published_date": "2025-11-13T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 146,
-      "reading_time": 1,
-      "created_at": "2025-11-13T05:21:31.415647+00:00",
-      "updated_at": "2025-11-13T06:23:54.280191+00:00",
-      "metadata": {
-        "processed_at": "2025-11-13T06:23:54.280193+00:00",
         "processing_method": "github_actions"
       }
     }
