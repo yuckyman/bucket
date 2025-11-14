@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-14T23:19:55.277287+00:00",
+  "last_updated": "2025-11-14T23:40:12.575135+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "45f6baa35b1cb746a2e9658e5115bc33",
+      "url": "https://www.reddit.com/r/Python/comments/1ox9cct/pydantic_and_the_path_to_enlightenment/",
+      "title": "Pydantic and the path to enlightenment",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><em>TLDR: Until recently, I did not know about pydantic. I started using it - it is great. Just dropping this here in case anyone else benefits :)</em></p> <p>I maintain a Python program called <a href=\"https://github.com/jcfitzpatrick12/spectre\"><em>Spectre</em></a>, a program for recording signals from supported software-defined radios. Users create configs describing what data to record, and the program uses those configs to do so. This wasn't simple off the bat - we wanted a solution with...</p> <ul> <li>Parameter safety (Individual parameters in the config have to make sense. For example, <code>X</code> must always be a non-negative integer, or `Y` must be one of some defined options).</li> <li>Relationship safety (Arbitrary relationships between parameters must hold. For example, <code>X</code> must be divisible by some other parameter, <code>Y</code>).</li> <li>Flexibility (The system supports different radios with varying hardware constraints. How do we provide developers the means to impose arbitrary constraints in the configs under the same framework?).</li> <li>Uniformity (Ideally, we'd have a uniform API for users to create any config, and for developers to template them).</li> <li>Explicit (It should be clear where the configurable parameters are used within the program).</li> <li>Shared parameters, different defaults (Different radios share configurable parameters, but require different defaults. If I've got ten different configs, I don't want to maintain ten copies of the same parameter just to update one value!).</li> <li>Statically typed (Always a bonus!).</li> </ul> <p>Initially, with some difficulty, I made a custom implementation which was servicable but cumbersome. Over the past year, I had a nagging feeling I was reinventing the wheel. I was correct.</p> <p>I recently merged <a href=\"https://github.com/jcfitzpatrick12/spectre-core/pull/62\">a PR</a> which replaced my custom implementation with one which used pydantic. Enlightenment! It satisfied all the requirements:</p> <ul> <li>We now define a model which templates the config right next to where those configurable parameters are used in the program (see <a href=\"https://github.com/jcfitzpatrick12/spectre-core/blob/main/src/spectre_core/flowgraphs/_signal_generator.py#L15-L51\">here</a>).</li> <li>Arbitrary relationships between parameters are enforced in the same way for every config with the validator decorator pattern (see <a href=\"https://github.com/jcfitzpatrick12/spectre-core/blob/main/src/spectre_core/models/_signal_generator.py#L14-L49\">here</a>). </li> <li>We can share pydantic fields between configs, and update the defaults as required using the annotated pattern (see <a href=\"https://github.com/jcfitzpatrick12/spectre-core/blob/main/src/spectre_core/fields/_fields.py\">here</a>).</li> <li>The same framework is used for templating all the configs in the program, and it's all statically typed!</li> </ul> <p>Anyway, check out <em>Spectre</em> <a href=\"https://github.com/jcfitzpatrick12/spectre\">on GitHub</a> if you're interested.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jcfitzpatrick12\"> /u/jcfitzpatrick12 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ox9cct/pydantic_and_the_path_to_enlightenment/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ox9cct/pydantic_and_the_path_to_enlightenment/\">[comments]</a></span>",
+      "author": "/u/jcfitzpatrick12",
+      "published_date": "2025-11-14T21:37:10+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 394,
+      "reading_time": 1,
+      "created_at": "2025-11-14T23:39:04.340035+00:00",
+      "updated_at": "2025-11-14T23:39:04.340040+00:00"
+    },
     {
       "id": "c49433f172fb683c27930d0de1dabf52",
       "url": "https://ssl-config.mozilla.org/",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-11-14T21:19:10.806181+00:00",
       "updated_at": "2025-11-14T21:19:10.806183+00:00"
-    },
-    {
-      "id": "b1e74e3f9aec8ff7e5d30ad515af7854",
-      "url": "https://berryvilleiml.com/2025/11/14/houston-we-have-a-problem-anthropic-rides-an-artificial-wave/",
-      "title": "Houston, We Have a Problem: Anthropic Rides an Artificial Wave \u2013 BIML",
-      "content": "<p>Article URL: <a href=\"https://berryvilleiml.com/2025/11/14/houston-we-have-a-problem-anthropic-rides-an-artificial-wave/\">https://berryvilleiml.com/2025/11/14/houston-we-have-a-problem-anthropic-rides-an-artificial-wave/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45931552\">https://news.ycombinator.com/item?id=45931552</a></p>\n<p>Points: 14</p>\n<p># Comments: 4</p>",
-      "author": "cratermoon",
-      "published_date": "2025-11-14T20:06:31+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-14T21:19:09.536890+00:00",
-      "updated_at": "2025-11-14T21:19:09.536892+00:00"
     }
   ]
 }

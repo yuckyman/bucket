@@ -1,5 +1,21 @@
 [
   {
+    "id": "45f6baa35b1cb746a2e9658e5115bc33",
+    "url": "https://www.reddit.com/r/Python/comments/1ox9cct/pydantic_and_the_path_to_enlightenment/",
+    "title": "Pydantic and the path to enlightenment",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><em>TLDR: Until recently, I did not know about pydantic. I started using it - it is great. Just dropping this here in case anyone else benefits :)</em></p> <p>I maintain a Python program called <a href=\"https://github.com/jcfitzpatrick12/spectre\"><em>Spectre</em></a>, a program for recording signals from supported software-defined radios. Users create configs describing what data to record, and the program uses those configs to do so. This wasn't simple off the bat - we wanted a solution with...</p> <ul> <li>Parameter safety (Individual parameters in the config have to make sense. For example, <code>X</code> must always be a non-negative integer, or `Y` must be one of some defined options).</li> <li>Relationship safety (Arbitrary relationships between parameters must hold. For example, <code>X</code> must be divisible by some other parameter, <code>Y</code>).</li> <li>Flexibility (The system supports different radios with varying hardware constraints. How do we provide developers the means to impose arbitrary constraints in the configs under the same framework?).</li> <li>Uniformity (Ideally, we'd have a uniform API for users to create any config, and for developers to template them).</li> <li>Explicit (It should be clear where the configurable parameters are used within the program).</li> <li>Shared parameters, different defaults (Different radios share configurable parameters, but require different defaults. If I've got ten different configs, I don't want to maintain ten copies of the same parameter just to update one value!).</li> <li>Statically typed (Always a bonus!).</li> </ul> <p>Initially, with some difficulty, I made a custom implementation which was servicable but cumbersome. Over the past year, I had a nagging feeling I was reinventing the wheel. I was correct.</p> <p>I recently merged <a href=\"https://github.com/jcfitzpatrick12/spectre-core/pull/62\">a PR</a> which replaced my custom implementation with one which used pydantic. Enlightenment! It satisfied all the requirements:</p> <ul> <li>We now define a model which templates the config right next to where those configurable parameters are used in the program (see <a href=\"https://github.com/jcfitzpatrick12/spectre-core/blob/main/src/spectre_core/flowgraphs/_signal_generator.py#L15-L51\">here</a>).</li> <li>Arbitrary relationships between parameters are enforced in the same way for every config with the validator decorator pattern (see <a href=\"https://github.com/jcfitzpatrick12/spectre-core/blob/main/src/spectre_core/models/_signal_generator.py#L14-L49\">here</a>). </li> <li>We can share pydantic fields between configs, and update the defaults as required using the annotated pattern (see <a href=\"https://github.com/jcfitzpatrick12/spectre-core/blob/main/src/spectre_core/fields/_fields.py\">here</a>).</li> <li>The same framework is used for templating all the configs in the program, and it's all statically typed!</li> </ul> <p>Anyway, check out <em>Spectre</em> <a href=\"https://github.com/jcfitzpatrick12/spectre\">on GitHub</a> if you're interested.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jcfitzpatrick12\"> /u/jcfitzpatrick12 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ox9cct/pydantic_and_the_path_to_enlightenment/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ox9cct/pydantic_and_the_path_to_enlightenment/\">[comments]</a></span>",
+    "author": "/u/jcfitzpatrick12",
+    "published_date": "2025-11-14T21:37:10+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 394,
+    "reading_time": 1,
+    "created_at": "2025-11-14T23:39:04.340035+00:00",
+    "updated_at": "2025-11-14T23:39:04.340040+00:00"
+  },
+  {
     "id": "c49433f172fb683c27930d0de1dabf52",
     "url": "https://ssl-config.mozilla.org/",
     "title": "SSL Configuration Generator",
@@ -16694,21 +16710,5 @@
     "reading_time": 1,
     "created_at": "2025-11-12T01:40:35.605300+00:00",
     "updated_at": "2025-11-12T01:40:35.605301+00:00"
-  },
-  {
-    "id": "4f682bc8169f71adbcf028b06daa0580",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/39870674/?utm_source=BucketBot&utm_medium=rss&utm_campaign=None&utm_content=1BUB2BG5RbxOblm-hBbiJWEhGG43qlVrvGNHOTqBKva9wWrItM&fc=None&ff=20251111204033&v=2.18.0.post22+67771e2",
-    "title": "NIRS-BIDS: Brain Imaging Data Structure Extended to Near-Infrared Spectroscopy",
-    "content": "Functional near-infrared spectroscopy (fNIRS) is an increasingly popular neuroimaging technique that measures cortical hemodynamic activity in a non-invasive and portable fashion. Although the fNIRS community has been successful in disseminating open-source processing tools and a standard file format (SNIRF), reproducible research and sharing of fNIRS data amongst researchers has been hindered by a lack of standards and clarity over how study data should be organized and stored. This problem is...",
-    "author": "Luca Pollonini",
-    "published_date": "2025-01-27T11:00:00+00:00",
-    "source": "Oostenveld Robert",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 70,
-    "reading_time": 1,
-    "created_at": "2025-11-12T01:40:35.605269+00:00",
-    "updated_at": "2025-11-12T01:40:35.605270+00:00"
   }
 ]
