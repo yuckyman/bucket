@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-11-15T10:42:02.297345+00:00",
+  "last_updated": "2025-11-15T11:16:38.738307+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "e5ca2be502b7b4bf003490f0a03e8f87",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.14.688220v1?rss=1",
+      "title": "Trial-Level Sequence Modeling Reveals Hidden Dynamics of Dual-Task Interference",
+      "content": "Theories of dual-task interference assume that the same cognitive operations underlie multitasking regardless of stimulus timing, yet this core assumption has remained untested due to methodological limitations of behavioral averaging. Here, we combine hidden multivariate pattern (HMP) analysis with deep spatiotemporal sequence modeling of single-trial EEG to uncover the neural dynamics of multitasking in the psychological refractory period (PRP) paradigm. Using a deep spatiotemporal sequence model trained on Long stimulus-onset asynchrony (SOA) trials, we identify Encoding, Central, and Response operations and show that these same operations occur in the Short SOA condition, demonstrating shared cognitive processes across interference conditions. Additionally, trial-level decoding reveals multiple distinct sequences of cognitive operations across both tasks during interference, varying both within and across individuals. These sequences predict behavioral differences in reaction time and accuracy, revealing how interference timing within the cognitive operation sequence influences performance. In other words, we found trial-by-trial variability related to individual strategies directly affecting accuracy and reaction time (RT). Our findings challenge static bottleneck accounts and establish trial-level sequence modeling as a powerful tool to investigate the hidden dynamics of multitasking.",
+      "author": "den Otter, R., Dame, A., Stuit, S., van Maanen, L.",
+      "published_date": "2025-11-15T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 181,
+      "reading_time": 1,
+      "created_at": "2025-11-15T11:16:09.904290+00:00",
+      "updated_at": "2025-11-15T11:16:09.904292+00:00"
+    },
+    {
+      "id": "27fef16b1fe78153d5c336a2eedd3298",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.14.688435v1?rss=1",
+      "title": "Fixel-Based Analysis reveals microstructural visual pathway changes associated with retinal remodeling in retinitis pigmentosa",
+      "content": "Retinitis pigmentosa (RP) is the most common inherited retinal dystrophy, traditionally considered a photoreceptor degenerative disorder. However, the relationship between retinal degeneration and structural alterations along central visual pathways remains poorly understood. We investigated possible structural links across the retinocortical pathway in 15 genetically characterized RP patients (RHO, PDE6A, PDE6B mutations) compared with 22 healthy controls, using spectral-domain optical coherence tomography (SD-OCT) combined with diffusion-weighted MRI and fixel-based analysis (FBA). Retinal segmentation revealed marked outer layer thinning (outer nuclear layer: -55% foveal, -77% parafoveal) with significant inner layer thickening at the fovea (inner plexiform layer +29%, inner nuclear layer +40%). Parafoveal regions showed near-complete photoreceptor loss but inner retinal thickness approaching normal values. FBA demonstrated significant fiber density reductions in optic tracts and optic radiations, without corresponding macrostructural changes in tract cross-section, suggesting early microstructural disruption preceding atrophy. Correlation analyses revealed significant associations between parafoveal inner plexiform layer thickness and fiber density in both optic tracts (r=0.856) and radiations (r=0.768), with no correlations observed at the foveal level. These findings demonstrate complex, region-specific retinal remodeling in RP, likely reflecting Muller cell gliosis rather than mechanical compensation. The fiber density reduction without tract atrophy suggests trans-synaptic degeneration along visual pathways. This multimodal framework provides insights into structural propagation in inherited retinal dystrophies and may serve as a biomarker for evaluating therapeutic interventions aimed at photoreceptor restoration.",
+      "author": "Righetti, G., Cuevas Villanueva, V., Reith, M., Wolfram, L., Merle, D. A., Ku\u0308hlewein, L., Braun, C., Stingl, K., Stingl, K.",
+      "published_date": "2025-11-15T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 225,
+      "reading_time": 1,
+      "created_at": "2025-11-15T11:16:09.904255+00:00",
+      "updated_at": "2025-11-15T11:16:09.904257+00:00"
+    },
+    {
+      "id": "dbdfad4497bfac826fe0a2079a68fe8e",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.13.688216v1?rss=1",
+      "title": "Learning in nonstationary environments with minimal neuralcircuitry",
+      "content": "Animals inhabit continually changing environments where it is not always possible to infer causes of relevant changes, such as the appearance of a new threat. In such nonstationary settings, learning a predictive model is challenging because a surprising observation could be due to chance, or due to systematic but uninferrable causes. This issue magnifies for short-lived animals with small nervous systems and limited opportunity to explore. To understand how the nervous system negotiates these challenges, we derived a new learning principle, Hetlearn (Heterologous Learners), based on the physiology and multi-compartmental architecture of the Drosophila mushroom body, a key associative learning circuit. Hetlearn circumvents learning full causal models of the environment, making it less fragile to nonstationarity. In stationary settings, Hetlearn is efficient and outperforms Bayesian inference when data are limited. Hetlearn predicts observed learning behaviour in Drosophila across multiple tasks and provides new, testable predictions about circuit interactions during learning.",
+      "author": "Raman, D. V., Dunne, C. R., Davyson, K., O'Leary, T.",
+      "published_date": "2025-11-15T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 150,
+      "reading_time": 1,
+      "created_at": "2025-11-15T11:16:09.904205+00:00",
+      "updated_at": "2025-11-15T11:16:09.904209+00:00"
+    },
     {
       "id": "c90a7a855c564d9b0165c61d85b977d5",
       "url": "https://www.reddit.com/r/Python/comments/1oxnmeq/tsgo_python/",
@@ -309,62 +357,6 @@
         "processed_at": "2025-11-15T08:18:05.237686+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "af297657ce443eb8de6cbab0f65a21e3",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.14.688490v1?rss=1",
-      "title": "Functional Genomic Profiling of Schizophrenia-Associated Genes Reveals Key Microglial Regulators",
-      "content": "Microglia are increasingly recognized as key regulators of neural circuit development and putative contributors to the pathophysiology of neuropsychiatric disorders such as schizophrenia (SCZ). However, the functional impact of SCZ-associated genes in microglia remains largely unexplored. Here, we performed an arrayed CRISPR targeting screen of 30 schizophrenia-associated genes predicted to be differentially expressed in human microglia-like cells. Target genes were prioritized based on post-mortem transcriptomic relevance and predicted ontology-based roles in phagocytosis pathways. We quantified phagocytic activity and morphological changes following gene targeting using high-content confocal imaging. Key targets, including CYFIP1, MSR1, TREM2, SYK, ITGB2, ITGAM and IRF8, modulated phagocytosis and altered morphological properties consistent with activation states, validating their functional roles in microglia. To elucidate transcriptional impact, we further applied a multiplexed RNA sequencing platform across gene targets. These analyses revealed gene-specific transcriptional signatures, implicating divergent pathways related to phagocytic, activation, cytoskeletal, and lysosomal function. Together, these findings demonstrate the utility of CRISPR-based functional genomics in characterizing microglia function and identifying new target genes and mechanisms that may underlie their contributions to schizophrenia pathophysiology.",
-      "author": "Horng, J. E., McCrea, L. T., Batorsky, R. E., Bowen, J. J., Boschian, C., Song, Y., Perlis, R. H., Sheridan, S. D.",
-      "published_date": "2025-11-14T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 175,
-      "reading_time": 1,
-      "created_at": "2025-11-15T07:18:45.482741+00:00",
-      "updated_at": "2025-11-15T08:18:05.237689+00:00",
-      "metadata": {
-        "processed_at": "2025-11-15T08:18:05.237690+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "29056f04a5ace9d508ab7e6185cfbf95",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.14.688454v1?rss=1",
-      "title": "A Context-Sensitive Neural Hierarchy for Evaluating Temporal Structure in Primate Vocalizations",
-      "content": "Understanding how the brain encodes temporal order in communication is central to explaining how complex interactions are perceived as coherent events. In humans, disrupting the sequence of words or scenes abolishes characteristic activity in higher-order networks, but whether similar mechanisms exist in nonhuman primates remains unknown. Here we used ultra-high-field fMRI (9.4 T) in awake marmosets to test how the marmoset brain evaluates temporal structure in natural conspecific vocalizations. Animals heard vocal sequences from three social contexts (angry, conversational, food-related) presented in intact, reversed, or randomized order, with call identity held constant. Disrupting sequence order altered responses across a distributed cortical-subcortical network. Contrast to reversed order, intact sequences drove stronger activation in prefrontal, cingulate, parietal, and somatosensory regions, whereas randomization produced the most widespread disruptions, additionally recruiting motor, insular, hippocampal, and thalamic territories. Uni- and multivariate analyses revealed a core network - including prefrontal area 8, cingulate areas 24/32, somatosensory cortex, and parietal Tpt - consistently sensitive to temporal coherence, with broader recruitment under severe disruption. Network-level dynamics further varied by context: conversation elicited earlier sensitivity to sequence disruptions, angry peaked later, and food built more gradually. These findings provide the first whole-brain evidence that marmosets engage hierarchically organized, context-sensitive networks to evaluate multi-agent vocal sequence structure, establishing a cross-species bridge to human narrative processing.",
-      "author": "Cui, D., Loewith, M., Dureux, A., Zanini, A., Everling, S.",
-      "published_date": "2025-11-14T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 215,
-      "reading_time": 1,
-      "created_at": "2025-11-15T07:18:45.482705+00:00",
-      "updated_at": "2025-11-15T08:18:05.237693+00:00",
-      "metadata": {
-        "processed_at": "2025-11-15T08:18:05.237694+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4dbf12512f1d312de1ded508cf279234",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.14.684361v1?rss=1",
-      "title": "The Role of TCF7L2 in Regulating Energy Metabolism in Thalamocortical Circuitry and its Broader Impact on Social Behavior",
-      "content": "Psychiatric and metabolic disorders often co-occur. While shared genetic factors and cellular dysfunctions are implicated, the underlying molecular mechanisms remain poorly understood. TCF7L2, a risk gene for type 2 diabetes and autism spectrum disorder, is highly expressed in the thalamus a brain region extensively interconnected with the cortex, playing a key role in sensory processing, motor control, and behavioral regulation. Given its known role as a transcription factor regulating systemic energy metabolism, we explored its potential contribution to brain metabolism and behavior. To this end, we used a conditional knockout model with postnatal TCF7L2 loss in the thalamus and partial deficiency in the pancreas. Tcf7l2 knockout mice exhibited social deficits and reduced motor habituation. In parallel, they also developed systemic glucose intolerance, modelling the psychiatric-metabolic comorbidity. Thalamic depletion of TCF7L2 resulted in elevated inhibitory phosphorylation of the pyruvate dehydrogenase an enzymatic gatekeeper for pyruvate utilization in energy production in the thalamus and cortex. This was accompanied by altered thalamic and cortical metabolism, characterized by reduced efficiency of pyruvate oxidation alongside enhanced oxidation of fatty acids and ketone bodies. Notably, a ketogenic diet alleviated metabolic dysregulation in the brain and normalized the approach to social novelty in knockout mice. These findings suggest that impaired energy metabolism in the thalamocortical circuitry may represent one of the pathogenic mechanisms underlying neuropsychiatric symptoms.",
-      "author": "Nagalski, A., Kozinski, K., Baggio, S., Szewczyk, L. M., Lipiec, M. A., Mussulini, B. H. M., Gabriel, M. O., Bem, J., Meyza, K., Goncerzewicz, A., Kondrakiewicz, L., Danielewski, K., Golowicz, D., Kiryk, A., Wojda, U., Kazimierczuk, K., Knapska, E., Chacinska, A., Wisniewska, M. B.",
-      "published_date": "2025-11-14T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 219,
-      "reading_time": 1,
-      "created_at": "2025-11-15T07:18:45.482661+00:00",
-      "updated_at": "2025-11-15T07:18:45.482665+00:00"
     }
   ]
 }
