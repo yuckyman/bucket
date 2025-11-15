@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-11-15T16:23:46.835695+00:00",
+  "last_updated": "2025-11-15T16:44:28.915011+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "a11b1d1e75bbf4411193c8b5ce441533",
+      "url": "https://www.reddit.com/r/Python/comments/1oxw0gf/added_python_support_for_my_vscode_extension_to/",
+      "title": "Added python support for my VSCode extension to see your code on an infinite canvas",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm building a VSCode extension that helps with understanding your codebase, particularly at a higher level where you need to figure out complex relationships between multiple files and modules.</p> <p>It helps you quickly get an overview of the area of the codebase you're interested in, and lets you see how files and folders relate to each other based on dependency.</p> <p>Kinda like a dependency graph, but it's the actual code files as the nodes, so you can see the actual code, you can ctrl+click on tokens like functions and variables to see their dependencies throughout the codebase, you can see the diffs for the local changes, and much more.</p> <p>Python support was the most requested feature so far and I just recently added it to the extension.</p> <p>I'm not a python dev, so I'm still learning how the language works, and would love any feedback from actual python devs if this type of visualisation is useful for you or if something else would be better. I'm using it for JS and I think it's really useful to see relationships between imports/exports, function usage and be able to follow props being passed down multiple levels, or a complex non-linear flow between multiple files.</p> <p>You can get it on the vscode marketplace by looking for 'code canvas app'.</p> <p>Or get it from this link <a href=\"https://marketplace.visualstudio.com/items?itemName=alex-c.code-canvas-app\">https://marketplace.visualstudio.com/items?itemName=alex-c.code-canvas-app</a></p> <p>It uses VSCode's LSP for creating the edges between tokens so you need to have the python/pylance vscode extension installed as well.</p> <p>For the imports/exports edges and symbol outlines in the files when zooming out it uses ast-grep, which was just added recently and I've had a lot of issues with it, especially getting it to work on windows, but I think it should be fine now. Let me know if you encounter any issues.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Standard_Ant4378\"> /u/Standard_Ant4378 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1oxw0gf/added_python_support_for_my_vscode_extension_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1oxw0gf/added_python_support_for_my_vscode_extension_to/\">[comments]</a></span>",
+      "author": "/u/Standard_Ant4378",
+      "published_date": "2025-11-15T16:29:15+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 320,
+      "reading_time": 1,
+      "created_at": "2025-11-15T16:43:22.156391+00:00",
+      "updated_at": "2025-11-15T16:43:22.156392+00:00"
+    },
+    {
+      "id": "8bd60e2e6e77dd9ddd3d3647d1a63d5a",
+      "url": "https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease",
+      "title": "How to Tolerate Annoying Things",
+      "content": "<p>Article URL: <a href=\"https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease\">https://psyche.co/guides/how-to-respond-to-annoying-things-with-greater-ease</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45937816\">https://news.ycombinator.com/item?id=45937816</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "author": "zdw",
+      "published_date": "2025-11-15T14:53:09+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-15T16:43:19.596554+00:00",
+      "updated_at": "2025-11-15T16:43:19.596556+00:00"
+    },
     {
       "id": "dc1e2e727de02b4e51a3b8d60b898ec8",
       "url": "https://blog.helix.ml/p/technical-deep-dive-on-streaming",
@@ -333,42 +365,6 @@
         "processed_at": "2025-11-15T14:12:42.281968+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "25f4c8067e16e04708d84a43e37c2e31",
-      "url": "https://careers.activeloop.ai/",
-      "title": "Activeloop (YC S18) Is Hiring MTS(Back End)and AI Search Engineer",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45936837\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-15T12:01:10+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-15T12:37:36.930683+00:00",
-      "updated_at": "2025-11-15T14:12:42.281967+00:00",
-      "metadata": {
-        "processed_at": "2025-11-15T14:12:42.281968+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "69e9750b7f8c2ac6b03ca6ec1781256d",
-      "url": "https://adguard-dns.io/en/blog/archive-today-adguard-dns-block-demand.html",
-      "title": "Our investigation into the suspicious pressure on Archive.today",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45936460\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-15T10:30:52+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-15T12:37:36.930584+00:00",
-      "updated_at": "2025-11-15T12:37:36.930586+00:00"
     }
   ]
 }
