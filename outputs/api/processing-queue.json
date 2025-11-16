@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-11-16T08:18:42.023003+00:00",
-  "pending_count": 735,
-  "processed_count": 265,
+  "last_updated": "2025-11-16T10:14:34.698360+00:00",
+  "pending_count": 730,
+  "processed_count": 270,
   "pending_articles": [
     {
       "id": "d7f7787875776d582cfc42f43dcf33d7",
@@ -166,6 +166,106 @@
   ],
   "recently_processed": [
     {
+      "id": "56e95a164271920d3b54a2ff09504258",
+      "url": "https://nicula.xyz/2025/03/10/bypassing-the-branch-predictor.html",
+      "title": "Bypassing the Branch Predictor",
+      "content": "<p>Article URL: <a href=\"https://nicula.xyz/2025/03/10/bypassing-the-branch-predictor.html\">https://nicula.xyz/2025/03/10/bypassing-the-branch-predictor.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45943279\">https://news.ycombinator.com/item?id=45943279</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "signa11",
+      "published_date": "2025-11-16T06:51:25+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-16T09:39:29.846312+00:00",
+      "updated_at": "2025-11-16T10:14:34.590791+00:00",
+      "metadata": {
+        "processed_at": "2025-11-16T10:14:34.590800+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "07b3b58807cfe32155a580220359a5b5",
+      "url": "https://medium.com/@andrewimm/writing-a-dos-clone-in-2019-70eac97ec3e1",
+      "title": "Writing a DOS Clone in 2019",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45795778\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-03T04:07:54+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-16T09:19:40.639465+00:00",
+      "updated_at": "2025-11-16T10:14:34.590805+00:00",
+      "metadata": {
+        "processed_at": "2025-11-16T10:14:34.590807+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "3579733debdaa0f244c1ac75f310fd36",
+      "url": "https://www.servethehome.com/ubiquiti-flex-mini-2-5g-review-ubiquiti-does-a-cheap-5-port-2-5gbe-switch/",
+      "title": "Ubiquiti Flex Mini 2.5G Review Ubiquiti Does a Cheap 5-Port 2.5GbE Switch",
+      "content": "<p>Article URL: <a href=\"https://www.servethehome.com/ubiquiti-flex-mini-2-5g-review-ubiquiti-does-a-cheap-5-port-2-5gbe-switch/\">https://www.servethehome.com/ubiquiti-flex-mini-2-5g-review-ubiquiti-does-a-cheap-5-port-2-5gbe-switch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45943292\">https://news.ycombinator.com/item?id=45943292</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
+      "author": "ksec",
+      "published_date": "2025-11-16T06:55:50+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-16T08:45:19.914201+00:00",
+      "updated_at": "2025-11-16T10:14:34.590809+00:00",
+      "metadata": {
+        "processed_at": "2025-11-16T10:14:34.590811+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4e1144350e444847026a44857d6501c8",
+      "url": "https://www.reddit.com/r/Python/comments/1oyezcq/python_list_append_time_complexity_unexpected/",
+      "title": "Python list append time complexity \u2014 unexpected discrete levels?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I ran a small experiment to visualize the time it takes to append elements to a Python list and to detect when memory reallocations happen.</p> <pre><code>import sys import time import pandas as pd from matplotlib import pyplot as plt import seaborn as sns n_iters = 10_000_000 sizes = [] times = [] sizes_realloc = [] times_realloc = [] prev_cap = sys.getsizeof(sizes) for i in range(n_iters): t = time.perf_counter_ns() sizes.append(i) elapsed = time.perf_counter_ns() - t times.append(elapsed) cap = sys.getsizeof(sizes) if cap != prev_cap: sizes_realloc.append(i) times_realloc.append(elapsed) prev_cap = cap df = pd.DataFrame({'sizes': sizes, 'times': times}) df['is_realloc'] = df.sizes.isin(sizes_realloc) f = plt.figure(figsize=(15, 10)) # --- Plot 1: all non-realloc appends --- ax = f.add_subplot(211) sns.scatterplot(df.query('~is_realloc'), x='sizes', y='times', ax=ax) ax.set_yscale('log') ax.set_title(&quot;Append times (non-reallocation events)&quot;) ax.set_xlabel(&quot;List size&quot;) ax.set_ylabel(&quot;Append time (ns)&quot;) ax.grid() # --- Plot 2: only reallocation events --- ax = f.add_subplot(223) sns.scatterplot(df.query('is_realloc'), x='sizes', y='times', ax=ax) ax.set_title(&quot;Append times during reallocation&quot;) ax.set_xlabel(&quot;List size&quot;) ax.set_ylabel(&quot;Append time (ns)&quot;) ax.grid() # --- Plot 3: zoomed-in reallocations --- ax = f.add_subplot(224) sns.scatterplot( df[:1_000_000].query('is_realloc').query('times &lt; 2000'), x='sizes', y='times', ax=ax ) ax.set_title(&quot;Reallocation events (zoomed, &lt; 1M size, &lt; 2000 ns)&quot;) ax.set_xlabel(&quot;List size&quot;) ax.set_ylabel(&quot;Append time (ns)&quot;) ax.grid() plt.tight_layout() plt.show() </code></pre> <p><a href=\"https://postimg.cc/64c7W6Xv\">Results</a></p> <h1>Questions</h1> <ol> <li><strong>Why do we see discrete \u201clevels\u201d in the append times instead of a flat constant-time distribution?</strong> I expected noise, but not distinct horizontal bands.</li> <li><strong>Why does the noticeable linear-time effect from memory reallocation appear only after ~2 million elements?</strong> Is this due to the internal growth strategy (<code>list_resize</code>) or something else (e.g., allocator behavior, OS page faults)?</li> <li>Why do we see this 500 000 ns peak around the 3-4K thousand elements? It is persistent and occurs every time I ran it.</li> </ol> <p>I'm on macOS 15.6.1 24G90 arm64 with Apple M4 Pro.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/atercygnus123\"> /u/atercygnus123 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1oyezcq/python_list_append_time_complexity_unexpected/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1oyezcq/python_list_append_time_complexity_unexpected/\">[comments]</a></span>",
+      "author": "/u/atercygnus123",
+      "published_date": "2025-11-16T06:55:50+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 304,
+      "reading_time": 1,
+      "created_at": "2025-11-16T08:24:52.531174+00:00",
+      "updated_at": "2025-11-16T10:14:34.590815+00:00",
+      "metadata": {
+        "processed_at": "2025-11-16T10:14:34.590817+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f282413722ed64791fedaad715f065fb",
+      "url": "https://www.thedrive.com/news/replacing-brake-pads-on-a-hyundai-ioniq-5-n-requires-a-professional-mechanics-login",
+      "title": "Hyundai Paywalls Brake Pads replacement on Ioniq 5 N",
+      "content": "<p>Article URL: <a href=\"https://www.thedrive.com/news/replacing-brake-pads-on-a-hyundai-ioniq-5-n-requires-a-professional-mechanics-login\">https://www.thedrive.com/news/replacing-brake-pads-on-a-hyundai-ioniq-5-n-requires-a-professional-mechanics-login</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45942518\">https://news.ycombinator.com/item?id=45942518</a></p>\n<p>Points: 14</p>\n<p># Comments: 2</p>",
+      "author": "zdw",
+      "published_date": "2025-11-16T03:29:48+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-16T08:24:50.008056+00:00",
+      "updated_at": "2025-11-16T10:14:34.590819+00:00",
+      "metadata": {
+        "processed_at": "2025-11-16T10:14:34.590821+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "3ea4de0c33ca505f9f7f76991ce540b8",
       "url": "https://www.nature.com/articles/s44298-025-00160-7",
       "title": "Sequelae of viral CNS infections including outcomes, mechanisms, and knowledge gaps",
@@ -262,106 +362,6 @@
       "updated_at": "2025-11-16T06:21:52.880727+00:00",
       "metadata": {
         "processed_at": "2025-11-16T06:21:52.880737+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "087c50c76c09f4e7f7044cf00cf5234c",
-      "url": "https://www.reddit.com/r/Python/comments/1oyaxe8/fresh_to_python_made_a_basic_number_game/",
-      "title": "Fresh to Python, Made a Basic Number Game",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Made a basic number-guessing game that tells you how close you are to the random number, 1-100. Link to code: <a href=\"https://github.com/decoder181/Number-Guessing-Game\">https://github.com/decoder181/Number-Guessing-Game</a> tell me if it's half decent for starters!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bananasarecoolascrap\"> /u/Bananasarecoolascrap </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1oyaxe8/fresh_to_python_made_a_basic_number_game/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1oyaxe8/fresh_to_python_made_a_basic_number_game/\">[comments]</a></span>",
-      "author": "/u/Bananasarecoolascrap",
-      "published_date": "2025-11-16T03:12:36+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 51,
-      "reading_time": 1,
-      "created_at": "2025-11-16T04:00:42.095519+00:00",
-      "updated_at": "2025-11-16T04:21:33.285772+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T04:21:33.285808+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7479abdc34558cea841c8b82214f9da2",
-      "url": "https://www.reddit.com/r/Python/comments/1oy6wuf/sunday_daily_thread_whats_everyone_working_on/",
-      "title": "Sunday Daily Thread: What's everyone working on this week?",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: What's Everyone Working On This Week? \ud83d\udee0\ufe0f</h1> <p>Hello <a href=\"/r/Python\">/r/Python</a>! It's time to share what you've been working on! Whether it's a work-in-progress, a completed masterpiece, or just a rough idea, let us know what you're up to!</p> <h2>How it Works:</h2> <ol> <li><strong>Show &amp; Tell</strong>: Share your current projects, completed works, or future ideas.</li> <li><strong>Discuss</strong>: Get feedback, find collaborators, or just chat about your project.</li> <li><strong>Inspire</strong>: Your project might inspire someone else, just as you might get inspired here.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Feel free to include as many details as you'd like. Code snippets, screenshots, and links are all welcome.</li> <li>Whether it's your job, your hobby, or your passion project, all Python-related work is welcome here.</li> </ul> <h2>Example Shares:</h2> <ol> <li><strong>Machine Learning Model</strong>: Working on a ML model to predict stock prices. Just cracked a 90% accuracy rate!</li> <li><strong>Web Scraping</strong>: Built a script to scrape and analyze news articles. It's helped me understand media bias better.</li> <li><strong>Automation</strong>: Automated my home lighting with Python and Raspberry Pi. My life has never been easier!</li> </ol> <p>Let's build and grow together! Share your journey and learn from others. Happy coding! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1oy6wuf/sunday_daily_thread_whats_everyone_working_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1oy6wuf/sunday_daily_thread_whats_everyone_working_on/\">[comments]</a></span>",
-      "author": "/u/AutoModerator",
-      "published_date": "2025-11-16T00:00:33+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 211,
-      "reading_time": 1,
-      "created_at": "2025-11-16T03:19:10.045882+00:00",
-      "updated_at": "2025-11-16T04:21:33.285818+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T04:21:33.285822+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2f1142de680eb947eadd4c3133ce764d",
-      "url": "http://oldvcr.blogspot.com/2025/11/when-ups-charged-me-684-tariff-on-355.html",
-      "title": "When UPS charged me a $684 tariff on $355 of vintage computer parts",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45941563\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-15T23:55:19+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-16T01:44:53.636808+00:00",
-      "updated_at": "2025-11-16T03:14:44.687795+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T03:14:44.687804+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2f1142de680eb947eadd4c3133ce764d",
-      "url": "http://oldvcr.blogspot.com/2025/11/when-ups-charged-me-684-tariff-on-355.html",
-      "title": "When UPS charged me a $684 tariff on $355 of vintage computer parts",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45941563\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-15T23:55:19+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-16T01:44:53.636808+00:00",
-      "updated_at": "2025-11-16T03:14:44.687795+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T03:14:44.687804+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c53244b3b0b6ab0c9f3608127ec6e1b6",
-      "url": "https://codeberg.org/IDEmacs/IDEmacs",
-      "title": "IDEmacs: A Visual Studio Code clone for Emacs",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45941835\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-16T00:56:31+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-16T01:44:53.636690+00:00",
-      "updated_at": "2025-11-16T03:14:44.687809+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T03:14:44.687811+00:00",
         "processing_method": "github_actions"
       }
     }
