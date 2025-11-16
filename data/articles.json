@@ -1,5 +1,37 @@
 [
   {
+    "id": "d9d088b32f8ad104bcd2830a521e6a0f",
+    "url": "https://www.reddit.com/r/Python/comments/1oyriug/mkslides_easily_turn_markdown_files_into/",
+    "title": "MkSlides: easily turn Markdown files into beautiful slides using a workflow similar to MkDocs!",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>What my project does:</p> <p><a href=\"https://pypi.org/project/mkslides/\">MkSlides</a> (<a href=\"https://martenbe.github.io/mkslides\">Demo</a>, <a href=\"https://github.com/MartenBE/mkslides\">GitHub</a>) is a static site generator that's geared towards building slideshows. Slideshow source files are written in Markdown, and configured with a single YAML configuration file. The workflow and commands are heavily inspired by <a href=\"https://pypi.org/project/mkdocs/\">MkDocs</a> and <a href=\"https://github.com/webpro/reveal-md\">reveal-md</a>.</p> <p>Features:</p> <ul> <li>Build static HTML slideshow files from Markdown files. <ul> <li>Turn a single Markdown file into a HTML slideshow.</li> <li>Turn a folder with Markdown files into a collection of HTML slideshows.</li> </ul></li> <li>Publish your slideshow(s) anywhere that static files can be served. <ul> <li>Locally.</li> <li>On a web server.</li> <li>Deploy through CI/CD with GitHub/GitLab (like this repo!).</li> </ul></li> <li>Preview your site as you work, thanks to <a href=\"https://pypi.org/project/livereload/\">python-livereload</a>.</li> <li>Use custom favicons, CSS themes, templates, ... if desired.</li> <li>Support for emojis like :smile: :tada: :rocket: :sparkles: thanks to <a href=\"https://github.com/carpedm20/emoji/\">emoji</a>.</li> <li>Depends heavily on integration/unit tests to prevent regressions.</li> <li>And more!</li> </ul> <p>Example:</p> <p>Youtube: <a href=\"https://youtu.be/RdyRe3JZC7Q\">https://youtu.be/RdyRe3JZC7Q</a></p> <p>Want more examples? An <a href=\"https://github.com/HoGentTIN/hogent-markdown-slides\">example repo</a> with <a href=\"https://hogenttin.github.io/hogent-markdown-slides/\">slides</a> demonstrating all possibilities (<a href=\"https://mermaid.js.org/\">Mermaid.js</a> and <a href=\"https://plantuml.com/\">PlantUML</a> support, multi-column slides, image resizing, ...) using Reveal.js with the <a href=\"https://hogent.be/\">HOGENT</a> theme can be found at <a href=\"https://github.com/HoGentTIN/hogent-markdown-slides\">https://github.com/HoGentTIN/hogent-markdown-slides</a> .</p> <p>Target audience:</p> <p>Teachers, speakers on conferences, programmers, anyone who wants to use slide presentations, ... .</p> <p>Comparison with other tools:</p> <p>This tool is a single command and easy to integrate in CI/CD pipelines. It only needs Python. The workflow is also similar to MkDocs, which makes it easy to combine the two in a single GitHub/GitLab repo.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MartenBE\"> /u/MartenBE </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1oyriug/mkslides_easily_turn_markdown_files_into/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1oyriug/mkslides_easily_turn_markdown_files_into/\">[comments]</a></span>",
+    "author": "/u/MartenBE",
+    "published_date": "2025-11-16T17:25:41+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 268,
+    "reading_time": 1,
+    "created_at": "2025-11-16T18:27:18.754683+00:00",
+    "updated_at": "2025-11-16T18:27:18.754685+00:00"
+  },
+  {
+    "id": "4763e643c593867ac309040a5823af7b",
+    "url": "https://www.continuummechanics.org/fourierxforms.html",
+    "title": "Fourier Transforms",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=45825413\">Comments</a>",
+    "author": "",
+    "published_date": "2025-11-05T17:24:18+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-11-16T18:27:17.409256+00:00",
+    "updated_at": "2025-11-16T18:27:17.409258+00:00"
+  },
+  {
     "id": "9c204bbae1466718aeff20d85add7310",
     "url": "https://www.sciencedirect.com/science/article/pii/S1053811925005737?dgcid=rss_sd_all",
     "title": "Initial recruitment of occipital cortex activation during mental target performance predicts training gain of mental aiming",
@@ -17134,37 +17166,5 @@
     "reading_time": 1,
     "created_at": "2025-11-12T03:57:15.248246+00:00",
     "updated_at": "2025-11-12T03:57:15.248247+00:00"
-  },
-  {
-    "id": "806338a4a608e22e5b874164937e2ee5",
-    "url": "https://arxiv.org/abs/2511.05737",
-    "title": "Home Environment and Student Creative Thinking: An Educational Data Science Analysis of PISA 2022",
-    "content": "arXiv:2511.05737v1 Announce Type: new \nAbstract: This study investigates how student exposure to resources in their home environments relates to creative thinking performance, using data from the PISA 2022 Creative Thinking assessment. It focuses on two primary questions: (1) How strongly is exposure to cultural, educational, and digital resources associated with creativity? (2) Do students perform better on divergent thinking tasks when physically engaged or digitally stimulated? Drawing on a sample of 15,425 students from 60 countries, the study applies high-dimensional regression and factor analysis to identify patterns across a wide range of exposure variables. To model the latent structure of home environment variables, we conducted a Confirmatory Factor Analysis. The analysis specified two latent factors: Physical Exposure and Digital Exposure. The model demonstrated excellent fit, with a Comparative Fit Index (CFI) of 0.971 and a Root Mean Square Error of Approximation (RMSEA) of 0.038. When both factors were entered together in the regression, physical and digital exposures each contributed unique explanatory power. There is no indication that one simply proxies the other; rather, they appear to be complementary dimensions of a creative home environment. This study offers compelling international evidence that both physical and digital resources in the home environment play significant, independent, and complementary roles in shaping adolescent creative thinking abilities. These findings have direct implications for efforts to promote creativity and equity in education.",
-    "author": "George X. Wang, Yuyang Shen",
-    "published_date": "2025-11-11T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 226,
-    "reading_time": 1,
-    "created_at": "2025-11-12T03:57:15.248207+00:00",
-    "updated_at": "2025-11-12T03:57:15.248209+00:00"
-  },
-  {
-    "id": "755f716c8d609fb33e20465d59de99a2",
-    "url": "https://arxiv.org/abs/2511.05706",
-    "title": "AdvisingWise: Supporting Academic Advising in Higher Educations Through a Human-in-the-Loop Multi-Agent Framework",
-    "content": "arXiv:2511.05706v1 Announce Type: new \nAbstract: Academic advising is critical to student success in higher education, yet high student-to-advisor ratios limit advisors' capacity to provide timely support, particularly during peak periods. Recent advances in Large Language Models (LLMs) present opportunities to enhance the advising process. We present AdvisingWise, a multi-agent system that automates time-consuming tasks, such as information retrieval and response drafting, while preserving human oversight. AdvisingWise leverages authoritative institutional resources and adaptively prompts students about their academic backgrounds to generate reliable, personalized responses. All system responses undergo human advisor validation before delivery to students. We evaluate AdvisingWise through a mixed-methods approach: (1) expert evaluation on responses of 20 sample queries, (2) LLM-as-a-judge evaluation of the information retrieval strategy, and (3) a user study with 8 academic advisors to assess the system's practical utility. Our evaluation shows that AdvisingWise produces accurate, personalized responses. Advisors reported increasingly positive perceptions after using AdvisingWise, as their initial concerns about reliability and personalization diminished. We conclude by discussing the implications of human-AI synergy on the practice of academic advising.",
-    "author": "Wendan Jiang, Shiyuan Wang, Hiba Eltigani, Rukhshan Haroon, Abdullah Bin Faisal, Fahad Dogar",
-    "published_date": "2025-11-11T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 174,
-    "reading_time": 1,
-    "created_at": "2025-11-12T03:57:15.248173+00:00",
-    "updated_at": "2025-11-12T03:57:15.248174+00:00"
   }
 ]
