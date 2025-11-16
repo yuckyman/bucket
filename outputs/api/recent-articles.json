@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-11-16T08:18:42.023516+00:00",
+  "last_updated": "2025-11-16T08:25:56.107556+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "4e1144350e444847026a44857d6501c8",
+      "url": "https://www.reddit.com/r/Python/comments/1oyezcq/python_list_append_time_complexity_unexpected/",
+      "title": "Python list append time complexity \u2014 unexpected discrete levels?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I ran a small experiment to visualize the time it takes to append elements to a Python list and to detect when memory reallocations happen.</p> <pre><code>import sys import time import pandas as pd from matplotlib import pyplot as plt import seaborn as sns n_iters = 10_000_000 sizes = [] times = [] sizes_realloc = [] times_realloc = [] prev_cap = sys.getsizeof(sizes) for i in range(n_iters): t = time.perf_counter_ns() sizes.append(i) elapsed = time.perf_counter_ns() - t times.append(elapsed) cap = sys.getsizeof(sizes) if cap != prev_cap: sizes_realloc.append(i) times_realloc.append(elapsed) prev_cap = cap df = pd.DataFrame({'sizes': sizes, 'times': times}) df['is_realloc'] = df.sizes.isin(sizes_realloc) f = plt.figure(figsize=(15, 10)) # --- Plot 1: all non-realloc appends --- ax = f.add_subplot(211) sns.scatterplot(df.query('~is_realloc'), x='sizes', y='times', ax=ax) ax.set_yscale('log') ax.set_title(&quot;Append times (non-reallocation events)&quot;) ax.set_xlabel(&quot;List size&quot;) ax.set_ylabel(&quot;Append time (ns)&quot;) ax.grid() # --- Plot 2: only reallocation events --- ax = f.add_subplot(223) sns.scatterplot(df.query('is_realloc'), x='sizes', y='times', ax=ax) ax.set_title(&quot;Append times during reallocation&quot;) ax.set_xlabel(&quot;List size&quot;) ax.set_ylabel(&quot;Append time (ns)&quot;) ax.grid() # --- Plot 3: zoomed-in reallocations --- ax = f.add_subplot(224) sns.scatterplot( df[:1_000_000].query('is_realloc').query('times &lt; 2000'), x='sizes', y='times', ax=ax ) ax.set_title(&quot;Reallocation events (zoomed, &lt; 1M size, &lt; 2000 ns)&quot;) ax.set_xlabel(&quot;List size&quot;) ax.set_ylabel(&quot;Append time (ns)&quot;) ax.grid() plt.tight_layout() plt.show() </code></pre> <p><a href=\"https://postimg.cc/64c7W6Xv\">Results</a></p> <h1>Questions</h1> <ol> <li><strong>Why do we see discrete \u201clevels\u201d in the append times instead of a flat constant-time distribution?</strong> I expected noise, but not distinct horizontal bands.</li> <li><strong>Why does the noticeable linear-time effect from memory reallocation appear only after ~2 million elements?</strong> Is this due to the internal growth strategy (<code>list_resize</code>) or something else (e.g., allocator behavior, OS page faults)?</li> <li>Why do we see this 500 000 ns peak around the 3-4K thousand elements? It is persistent and occurs every time I ran it.</li> </ol> <p>I'm on macOS 15.6.1 24G90 arm64 with Apple M4 Pro.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/atercygnus123\"> /u/atercygnus123 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1oyezcq/python_list_append_time_complexity_unexpected/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1oyezcq/python_list_append_time_complexity_unexpected/\">[comments]</a></span>",
+      "author": "/u/atercygnus123",
+      "published_date": "2025-11-16T06:55:50+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 304,
+      "reading_time": 1,
+      "created_at": "2025-11-16T08:24:52.531174+00:00",
+      "updated_at": "2025-11-16T08:24:52.531176+00:00"
+    },
+    {
+      "id": "f282413722ed64791fedaad715f065fb",
+      "url": "https://www.thedrive.com/news/replacing-brake-pads-on-a-hyundai-ioniq-5-n-requires-a-professional-mechanics-login",
+      "title": "Hyundai Paywalls Brake Pads replacement on Ioniq 5 N",
+      "content": "<p>Article URL: <a href=\"https://www.thedrive.com/news/replacing-brake-pads-on-a-hyundai-ioniq-5-n-requires-a-professional-mechanics-login\">https://www.thedrive.com/news/replacing-brake-pads-on-a-hyundai-ioniq-5-n-requires-a-professional-mechanics-login</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45942518\">https://news.ycombinator.com/item?id=45942518</a></p>\n<p>Points: 14</p>\n<p># Comments: 2</p>",
+      "author": "zdw",
+      "published_date": "2025-11-16T03:29:48+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-16T08:24:50.008056+00:00",
+      "updated_at": "2025-11-16T08:24:50.008064+00:00"
+    },
     {
       "id": "3ea4de0c33ca505f9f7f76991ce540b8",
       "url": "https://www.nature.com/articles/s44298-025-00160-7",
@@ -359,46 +391,6 @@
       "updated_at": "2025-11-16T01:15:35.990376+00:00",
       "metadata": {
         "processed_at": "2025-11-16T01:15:35.990386+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0fb61b2af6307eb25546923b9f83d929",
-      "url": "https://libwifi.so/",
-      "title": "libwifi: an 802.11 frame parsing and generation library written in C",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45941025\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-15T22:16:33+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-15T23:38:18.846453+00:00",
-      "updated_at": "2025-11-16T01:15:35.990376+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T01:15:35.990386+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a009a4c0a98fcf20acb876952da81ce8",
-      "url": "https://asciimath.org/",
-      "title": "AsciiMath",
-      "content": "<p>Article URL: <a href=\"https://asciimath.org/\">https://asciimath.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45940706\">https://news.ycombinator.com/item?id=45940706</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
-      "author": "smartmic",
-      "published_date": "2025-11-15T21:22:57+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-15T23:38:17.508189+00:00",
-      "updated_at": "2025-11-16T01:15:35.990391+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T01:15:35.990393+00:00",
         "processing_method": "github_actions"
       }
     }
