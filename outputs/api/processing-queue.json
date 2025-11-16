@@ -1,24 +1,8 @@
 {
-  "last_updated": "2025-11-16T18:19:47.153579+00:00",
-  "pending_count": 708,
-  "processed_count": 292,
+  "last_updated": "2025-11-16T20:16:03.881989+00:00",
+  "pending_count": 703,
+  "processed_count": 297,
   "pending_articles": [
-    {
-      "id": "48e81a0447d7157d50ba6230f4dd38ff",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1692418",
-      "title": "Interleaving cortex-analog mixing improves deep non-negative matrix factorization networks",
-      "content": "Considering biological constraints in artificial neural networks has led to dramatic improvements in performance. Nevertheless, to date, the positivity of long-range signals in the cortex has not been shown to yield improvements. While Non-negative matrix factorization (NMF) captures biological constraints of positive long-range interactions, deep convolutional neural networks with NMF modules do not match the performance of conventional neural networks (CNNs) of a similar size. This work shows that introducing intermediate modules that combine the NMF's positive activities, analogous to the processing in cortical columns, leads to improved performance on benchmark data that exceeds that of vanilla deep convolutional networks. This demonstrates that including positive long-range signaling together with local interactions of both signs in analogy to cortical hyper-columns has the potential to enhance the performance of deep networks.",
-      "author": "Klaus R. Pawelzik",
-      "published_date": "2025-11-05T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 129,
-      "reading_time": 1,
-      "created_at": "2025-11-16T16:23:22.803864+00:00",
-      "updated_at": "2025-11-16T16:23:22.803866+00:00"
-    },
     {
       "id": "c7dd8f657e7c4e9192922822c91a584e",
       "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1676787",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2025-11-16T15:18:29.659164+00:00",
       "updated_at": "2025-11-16T15:18:29.659165+00:00"
+    },
+    {
+      "id": "c8e880935fe67b25e419e16497b3d05c",
+      "url": "https://pfrazee.leaflet.pub/3m5hwua4sh22v",
+      "title": "The politics of purely client-side apps",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45945113\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-16T13:45:35+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-16T15:18:28.472864+00:00",
+      "updated_at": "2025-11-16T15:18:28.472865+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "4c49d6a8f2f6f47e03f1437948adb42a",
+      "url": "https://intelligentfuturetech.com/blog/scaling-distributed-product-teams-2025/",
+      "title": "How to Scale Distributed Product Teams from 10 to 100",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45947394\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-16T18:51:13+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-16T19:38:23.741049+00:00",
+      "updated_at": "2025-11-16T20:16:03.775243+00:00",
+      "metadata": {
+        "processed_at": "2025-11-16T20:16:03.775253+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "82d639b204b2999ada196dc19fb0ce21",
+      "url": "https://www.fastcompany.com/91435189/ai-privacy-openai-tracking-apps",
+      "title": "AI is killing privacy. We can't let that happen",
+      "content": "<p>Article URL: <a href=\"https://www.fastcompany.com/91435189/ai-privacy-openai-tracking-apps\">https://www.fastcompany.com/91435189/ai-privacy-openai-tracking-apps</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45947434\">https://news.ycombinator.com/item?id=45947434</a></p>\n<p>Points: 13</p>\n<p># Comments: 4</p>",
+      "author": "johnshades",
+      "published_date": "2025-11-16T18:56:31+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-16T19:15:44.534743+00:00",
+      "updated_at": "2025-11-16T20:16:03.775257+00:00",
+      "metadata": {
+        "processed_at": "2025-11-16T20:16:03.775259+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "d9d088b32f8ad104bcd2830a521e6a0f",
+      "url": "https://www.reddit.com/r/Python/comments/1oyriug/mkslides_easily_turn_markdown_files_into/",
+      "title": "MkSlides: easily turn Markdown files into beautiful slides using a workflow similar to MkDocs!",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>What my project does:</p> <p><a href=\"https://pypi.org/project/mkslides/\">MkSlides</a> (<a href=\"https://martenbe.github.io/mkslides\">Demo</a>, <a href=\"https://github.com/MartenBE/mkslides\">GitHub</a>) is a static site generator that's geared towards building slideshows. Slideshow source files are written in Markdown, and configured with a single YAML configuration file. The workflow and commands are heavily inspired by <a href=\"https://pypi.org/project/mkdocs/\">MkDocs</a> and <a href=\"https://github.com/webpro/reveal-md\">reveal-md</a>.</p> <p>Features:</p> <ul> <li>Build static HTML slideshow files from Markdown files. <ul> <li>Turn a single Markdown file into a HTML slideshow.</li> <li>Turn a folder with Markdown files into a collection of HTML slideshows.</li> </ul></li> <li>Publish your slideshow(s) anywhere that static files can be served. <ul> <li>Locally.</li> <li>On a web server.</li> <li>Deploy through CI/CD with GitHub/GitLab (like this repo!).</li> </ul></li> <li>Preview your site as you work, thanks to <a href=\"https://pypi.org/project/livereload/\">python-livereload</a>.</li> <li>Use custom favicons, CSS themes, templates, ... if desired.</li> <li>Support for emojis like :smile: :tada: :rocket: :sparkles: thanks to <a href=\"https://github.com/carpedm20/emoji/\">emoji</a>.</li> <li>Depends heavily on integration/unit tests to prevent regressions.</li> <li>And more!</li> </ul> <p>Example:</p> <p>Youtube: <a href=\"https://youtu.be/RdyRe3JZC7Q\">https://youtu.be/RdyRe3JZC7Q</a></p> <p>Want more examples? An <a href=\"https://github.com/HoGentTIN/hogent-markdown-slides\">example repo</a> with <a href=\"https://hogenttin.github.io/hogent-markdown-slides/\">slides</a> demonstrating all possibilities (<a href=\"https://mermaid.js.org/\">Mermaid.js</a> and <a href=\"https://plantuml.com/\">PlantUML</a> support, multi-column slides, image resizing, ...) using Reveal.js with the <a href=\"https://hogent.be/\">HOGENT</a> theme can be found at <a href=\"https://github.com/HoGentTIN/hogent-markdown-slides\">https://github.com/HoGentTIN/hogent-markdown-slides</a> .</p> <p>Target audience:</p> <p>Teachers, speakers on conferences, programmers, anyone who wants to use slide presentations, ... .</p> <p>Comparison with other tools:</p> <p>This tool is a single command and easy to integrate in CI/CD pipelines. It only needs Python. The workflow is also similar to MkDocs, which makes it easy to combine the two in a single GitHub/GitLab repo.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MartenBE\"> /u/MartenBE </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1oyriug/mkslides_easily_turn_markdown_files_into/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1oyriug/mkslides_easily_turn_markdown_files_into/\">[comments]</a></span>",
+      "author": "/u/MartenBE",
+      "published_date": "2025-11-16T17:25:41+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 268,
+      "reading_time": 1,
+      "created_at": "2025-11-16T18:27:18.754683+00:00",
+      "updated_at": "2025-11-16T20:16:03.775261+00:00",
+      "metadata": {
+        "processed_at": "2025-11-16T20:16:03.775263+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4763e643c593867ac309040a5823af7b",
+      "url": "https://www.continuummechanics.org/fourierxforms.html",
+      "title": "Fourier Transforms",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45825413\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-05T17:24:18+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-16T18:27:17.409256+00:00",
+      "updated_at": "2025-11-16T20:16:03.775265+00:00",
+      "metadata": {
+        "processed_at": "2025-11-16T20:16:03.775267+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "9c204bbae1466718aeff20d85add7310",
       "url": "https://www.sciencedirect.com/science/article/pii/S1053811925005737?dgcid=rss_sd_all",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "c840648c3dd0f4b553058ead63daa614",
-      "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae1874",
-      "title": "Real-time distance monitoring in magnetomyography",
-      "content": "Objective. Magnetomyography (MMG) using optically pumped magnetometers (OPM) offers a contactless, non-invasive approach to assess muscle activity. However, fluctuations in the sensor-to-source distance during MMG recordings pose a significant challenge to accurate signal interpretation since amplitude decays with distance. No established method exists for MMG to continuously monitor sensor-to-source distance changes in real-time. Approach. This study presents a new non-magnetic, cost-effective solution using a digital fiber optic sensor to continuously measure the distance between an OPM and the subject\u2019s skin. Following sensor calibration, distance measurements were recorded during an isometric muscle fatigue task in five healthy participants to assess whether MMG amplitude changes were due to physiological effects or variations in sensor-to-source distance. Alongside OPM-MMG and distance tracking, electromyography (EMG), the neurophysiological gold standard, was simultaneously recorded. Main results. We found significant changes in MMG-RMS and MMG-MDF during muscle fatigue that were not merely explained by changes in sensor-to-source distance. Furthermore, we found substantial correlations between OPM-MMG and EMG that were strongest for small sensor-to-source distance (r = 0.91). Significance. Fiber optic sensors offer non-magnetic, precise, real-time monitoring of the distance between the OPM and the skin, making it ideal for MMG applications to account for distance-related variability during measurements. Our results suggest that changes in MMG-RMS and MMG-MDF during muscle fatigue reflect genuine physiological effects rather than distance confounds.",
-      "author": "Haodi Yang, Burak Senay, Chrystina Sorrentino, Fridos Bouraima, Markus Siegel and Justus Marquetand",
-      "published_date": "2025-11-10T00:00:00+00:00",
-      "source": "Journal Neural Engineering",
+      "id": "48e81a0447d7157d50ba6230f4dd38ff",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1692418",
+      "title": "Interleaving cortex-analog mixing improves deep non-negative matrix factorization networks",
+      "content": "Considering biological constraints in artificial neural networks has led to dramatic improvements in performance. Nevertheless, to date, the positivity of long-range signals in the cortex has not been shown to yield improvements. While Non-negative matrix factorization (NMF) captures biological constraints of positive long-range interactions, deep convolutional neural networks with NMF modules do not match the performance of conventional neural networks (CNNs) of a similar size. This work shows that introducing intermediate modules that combine the NMF's positive activities, analogous to the processing in cortical columns, leads to improved performance on benchmark data that exceeds that of vanilla deep convolutional networks. This demonstrates that including positive long-range signaling together with local interactions of both signs in analogy to cortical hyper-columns has the potential to enhance the performance of deep networks.",
+      "author": "Klaus R. Pawelzik",
+      "published_date": "2025-11-05T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 220,
+      "word_count": 129,
       "reading_time": 1,
-      "created_at": "2025-11-16T15:39:05.651896+00:00",
-      "updated_at": "2025-11-16T16:16:48.474581+00:00",
+      "created_at": "2025-11-16T16:23:22.803864+00:00",
+      "updated_at": "2025-11-16T20:16:03.775269+00:00",
       "metadata": {
-        "processed_at": "2025-11-16T16:16:48.474591+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e53bf7b64b76047e0a47c71158f80936",
-      "url": "https://dubroy.com/blog/garbage-collection-is-useful/",
-      "title": "Garbage Collection Is Useful",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45944969\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-16T13:25:32+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-16T15:38:43.244688+00:00",
-      "updated_at": "2025-11-16T16:16:48.474595+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T16:16:48.474597+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e53bf7b64b76047e0a47c71158f80936",
-      "url": "https://dubroy.com/blog/garbage-collection-is-useful/",
-      "title": "Garbage Collection Is Useful",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45944969\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-16T13:25:32+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-16T15:38:43.244688+00:00",
-      "updated_at": "2025-11-16T16:16:48.474595+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T16:16:48.474597+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4299e7a224908f311a618288451df6e5",
-      "url": "https://text.marvinborner.de/2023-08-22-22.html",
-      "title": "De Bruijn Numerals",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45945750\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-16T15:22:16+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-16T15:38:43.244646+00:00",
-      "updated_at": "2025-11-16T16:16:48.474600+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T16:16:48.474602+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "19428756c5d6793a8ae476230cede230",
-      "url": "https://www.arabnews.com/node/2622812/middle-east",
-      "title": "Iran begins cloud seeding operations as drought bites",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45945188\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-16T13:57:03+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-16T15:38:43.244523+00:00",
-      "updated_at": "2025-11-16T16:16:48.474604+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T16:16:48.474605+00:00",
+        "processed_at": "2025-11-16T20:16:03.775271+00:00",
         "processing_method": "github_actions"
       }
     }
