@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-11-16T10:21:17.871805+00:00",
+  "last_updated": "2025-11-16T10:42:49.361943+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "bc76250e8c0ea4dd1cf31cf89e344c14",
+      "url": "https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/",
+      "title": "Why I Don't Need a Steam Machine",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45943992\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-16T10:21:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-16T10:41:42.265812+00:00",
+      "updated_at": "2025-11-16T10:41:42.265816+00:00"
+    },
+    {
+      "id": "e422d425a80f523252d525eabac3873b",
+      "url": "https://news.ycombinator.com/item?id=45943802",
+      "title": "An exposed .git folder let us dox a phishing campaign",
+      "content": "<p>This past Friday afternoon, a member in our Discord server reported a phishing email pointing to a fake login page.<p>We took up to research it and because of clumsy decisions by the attacker we got their GitHub and their operational Telegram bot.<p>Screenshots: https://imgur.com/a/FTy4mrH<p>Sometimes the attacker incompetence can be a defender's best weapon  \u00af\\_(\u30c4)_/\u00af<p>The phishing page was a standard clone of an \"email\", unbranded anf generic service. A bit of gobuster reconnaissance and we got the site's .git directory publicly accessible and listing its contents.<p>Inspecting of the requests also got us the first Telegram bot token. \nThis is the digital equivalent of leaving the blueprints to your entire operation, including past versions and deleted files, lying on the front lawn.<p>We pulled the repository, found automated deployments and multiple fake pages with different hardcoded Telegram bot tokens and Chat IDs.<p>With the source code, repo and the active Telegram bot token, we filed detailed abuse reports:<p>- GitHub: We reported the repository containing the phishing kit's source code. It was taken down for violating TOS.<p>- Telegram: We reported the bot using the provided token and chat ID, leading to its removal.<p>- Hosting Provider: The malicious site was reported and taken offline.<p>Lesson learned? Never deploy a .git folder to production. Even if you are a criminal.<p>Acknowledgement: This was a collaborative effort by members of the BeyondMachines Discord community. The crowdsourced speed and collaboration helped us take this down very fast.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45943802\">https://news.ycombinator.com/item?id=45943802</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
+      "author": "spirovskib",
+      "published_date": "2025-11-16T09:29:21+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 246,
+      "reading_time": 1,
+      "created_at": "2025-11-16T10:41:40.914273+00:00",
+      "updated_at": "2025-11-16T10:41:40.914276+00:00"
+    },
+    {
+      "id": "bc76250e8c0ea4dd1cf31cf89e344c14",
+      "url": "https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/",
+      "title": "Why I Don't Need a Steam Machine",
+      "content": "<p>Article URL: <a href=\"https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/\">https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45943992\">https://news.ycombinator.com/item?id=45943992</a></p>\n<p>Points: 12</p>\n<p># Comments: 5</p>",
+      "author": "ingve",
+      "published_date": "2025-11-16T10:21:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-16T10:41:40.914181+00:00",
+      "updated_at": "2025-11-16T10:41:40.914190+00:00"
+    },
     {
       "id": "761ba58252ad0c8085b89df24832b841",
       "url": "https://www.biorxiv.org/content/10.1101/2025.11.15.688622v1?rss=1",
@@ -315,66 +363,6 @@
       "updated_at": "2025-11-16T04:21:33.285772+00:00",
       "metadata": {
         "processed_at": "2025-11-16T04:21:33.285808+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7479abdc34558cea841c8b82214f9da2",
-      "url": "https://www.reddit.com/r/Python/comments/1oy6wuf/sunday_daily_thread_whats_everyone_working_on/",
-      "title": "Sunday Daily Thread: What's everyone working on this week?",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: What's Everyone Working On This Week? \ud83d\udee0\ufe0f</h1> <p>Hello <a href=\"/r/Python\">/r/Python</a>! It's time to share what you've been working on! Whether it's a work-in-progress, a completed masterpiece, or just a rough idea, let us know what you're up to!</p> <h2>How it Works:</h2> <ol> <li><strong>Show &amp; Tell</strong>: Share your current projects, completed works, or future ideas.</li> <li><strong>Discuss</strong>: Get feedback, find collaborators, or just chat about your project.</li> <li><strong>Inspire</strong>: Your project might inspire someone else, just as you might get inspired here.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Feel free to include as many details as you'd like. Code snippets, screenshots, and links are all welcome.</li> <li>Whether it's your job, your hobby, or your passion project, all Python-related work is welcome here.</li> </ul> <h2>Example Shares:</h2> <ol> <li><strong>Machine Learning Model</strong>: Working on a ML model to predict stock prices. Just cracked a 90% accuracy rate!</li> <li><strong>Web Scraping</strong>: Built a script to scrape and analyze news articles. It's helped me understand media bias better.</li> <li><strong>Automation</strong>: Automated my home lighting with Python and Raspberry Pi. My life has never been easier!</li> </ol> <p>Let's build and grow together! Share your journey and learn from others. Happy coding! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1oy6wuf/sunday_daily_thread_whats_everyone_working_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1oy6wuf/sunday_daily_thread_whats_everyone_working_on/\">[comments]</a></span>",
-      "author": "/u/AutoModerator",
-      "published_date": "2025-11-16T00:00:33+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 211,
-      "reading_time": 1,
-      "created_at": "2025-11-16T03:19:10.045882+00:00",
-      "updated_at": "2025-11-16T04:21:33.285818+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T04:21:33.285822+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2f1142de680eb947eadd4c3133ce764d",
-      "url": "http://oldvcr.blogspot.com/2025/11/when-ups-charged-me-684-tariff-on-355.html",
-      "title": "When UPS charged me a $684 tariff on $355 of vintage computer parts",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45941563\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-15T23:55:19+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-16T01:44:53.636808+00:00",
-      "updated_at": "2025-11-16T03:14:44.687795+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T03:14:44.687804+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2f1142de680eb947eadd4c3133ce764d",
-      "url": "http://oldvcr.blogspot.com/2025/11/when-ups-charged-me-684-tariff-on-355.html",
-      "title": "When UPS charged me a $684 tariff on $355 of vintage computer parts",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45941563\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-15T23:55:19+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-16T01:44:53.636808+00:00",
-      "updated_at": "2025-11-16T03:14:44.687795+00:00",
-      "metadata": {
-        "processed_at": "2025-11-16T03:14:44.687804+00:00",
         "processing_method": "github_actions"
       }
     }
