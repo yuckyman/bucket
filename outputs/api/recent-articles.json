@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-11-17T22:20:48.971975+00:00",
+  "last_updated": "2025-11-17T22:43:44.961648+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "f3ee81748b72f618d907f5bb08738130",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306452225010310?dgcid=rss_sd_all",
+      "title": "Mental health and subjective well-being of trans and non-binary population in Colombia",
+      "content": "<p>Publication date: 5 December 2025</p><p><b>Source:</b> Neuroscience, Volume 590</p><p>Author(s): Mar\u00eda Fernanda Reyes, Natalie Levy, Daniela Maldonado Salamanca, Minna Lyons, Juan-David Leong\u00f3mez</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroscience Journal",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 20,
+      "reading_time": 1,
+      "created_at": "2025-11-17T22:43:20.026967+00:00",
+      "updated_at": "2025-11-17T22:43:20.026969+00:00"
+    },
+    {
+      "id": "01c2974d9c0475f1e747f064d64c3438",
+      "url": "http://www.jneurosci.org/cgi/content/short/45/42/etwij45422025?rss=1",
+      "title": "This Week in The Journal",
+      "content": "",
+      "author": "McKeon, P.",
+      "published_date": "2025-10-15T16:30:28+00:00",
+      "source": "Journal Neuroscience This Week",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-11-17T22:43:12.723937+00:00",
+      "updated_at": "2025-11-17T22:43:12.723938+00:00"
+    },
+    {
+      "id": "45271a80a221a35912e75ec358f4cf54",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1633273",
+      "title": "Generation of synthetic TSPO PET maps from structural MRI images",
+      "content": "IntroductionNeuroinflammation, a pathophysiological process involved in numerous disorders, is typically imaged using [11C]PBR28 (or TSPO) PET. However, this technique is limited by high costs and ionizing radiation, restricting its widespread clinical use. MRI, a more accessible alternative, is commonly used for structural or functional imaging, but when used using traditional approaches has limited sensitivity to specific molecular processes. This study aims to develop a deep learning model to generate TSPO PET images from structural MRI data collected in human subjects.MethodsA total of 204 scans, from participants with knee osteoarthritis (n\u202f=\u202f15 scanned once, 15 scanned twice, 14 scanned three times), back pain (n\u202f=\u202f40 scanned twice, 3 scanned three times), and healthy controls (n\u202f=\u202f28, scanned once), underwent simultaneous 3\u202fT MRI and [11C]PBR28 TSPO PET scans. A 3D U-Net model was trained on 80% of these PET-MRI pairs and validated using 5-fold cross-validation. The model\u2019s accuracy in reconstructed PET from MRI only was assessed using various intensity and noise metrics.ResultsThe model achieved a low voxel-wise mean squared error (0.0033\u202f\u00b1\u202f0.0010) across all folds and a median contrast-to-noise ratio of 0.0640\u202f\u00b1\u202f0.2500 when comparing true to reconstructed PET images. The synthesized PET images accurately replicated the spatial patterns observed in the original PET data. Additionally, the reconstruction accuracy was maintained even after spatial normalization.DiscussionThis study demonstrates that deep learning can accurately synthesize TSPO PET images from conventional, T1-weighted MRI. This approach could enable low-cost, noninvasive neuroinflammation imaging, expanding the clinical applicability of this imaging method.",
+      "author": "Marco L. Loggia",
+      "published_date": "2025-09-08T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 250,
+      "reading_time": 1,
+      "created_at": "2025-11-17T22:43:08.624422+00:00",
+      "updated_at": "2025-11-17T22:43:08.624423+00:00"
+    },
     {
       "id": "c25cd03c6499bef3529d811676a91cc1",
       "url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688791v1?rss=1",
@@ -297,66 +345,6 @@
       "reading_time": 1,
       "created_at": "2025-11-17T20:24:21.094008+00:00",
       "updated_at": "2025-11-17T20:24:21.094010+00:00"
-    },
-    {
-      "id": "b52a1cc33f786a138e7cf36b81b6f267",
-      "url": "https://epstein-doc-explorer-1.onrender.com/",
-      "title": "A graph explorer of the Epstein emails",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45935687\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-15T07:27:21+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-17T19:38:11.862924+00:00",
-      "updated_at": "2025-11-17T20:17:53.735473+00:00",
-      "metadata": {
-        "processed_at": "2025-11-17T20:17:53.735483+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2dfb8cc2457b96ec6609661e2fbccce7",
-      "url": "https://neuburger.substack.com/p/cities-panic-over-having-to-release",
-      "title": "Cities panic over having to release mass surveillance recordings",
-      "content": "<p>Article URL: <a href=\"https://neuburger.substack.com/p/cities-panic-over-having-to-release\">https://neuburger.substack.com/p/cities-panic-over-having-to-release</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45955745\">https://news.ycombinator.com/item?id=45955745</a></p>\n<p>Points: 121</p>\n<p># Comments: 28</p>",
-      "author": "pavel_lishin",
-      "published_date": "2025-11-17T17:23:35+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-17T19:38:10.451203+00:00",
-      "updated_at": "2025-11-17T20:17:53.735487+00:00",
-      "metadata": {
-        "processed_at": "2025-11-17T20:17:53.735488+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8437385f45a74261941b59242cddbc8a",
-      "url": "https://kalendis.dev",
-      "title": "Show HN: Kalendis \u2013 Scheduling API (keep your UI, we handle timezones/DST)",
-      "content": "<p>Kalendis is an API-first scheduling backend. You keep your UI; we handle the gnarly parts (recurrence, time zones, DST, conflict-safe bookings).<p>What it does: \u2022 MCP tool: generates typed clients and API route handlers (Next.js/Express/Fastify/Nest) so you can scaffold calls straight from your IDE/agent tooling. \u2022 Availability engine: recurring rules + one-off exceptions/blackouts, returned in a clean, queryable shape. \u2022 Bookings: conflict-safe endpoints for creating/updating/canceling slots.<p>Why we built it: We kept rebuilding the same \"hard parts\" of scheduling: time zones/DST edge cases, recurring availability, conflict-aware booking, etc.\nWe wanted a boring, reliable backend so we could ship product features without adopting a hosted scheduling UI.<p>How it's helped: We stopped re-implementing DST/recurrence math and shipped booking flows faster. One small team (just 2 developers) built a robust booking platform for their business using Kalendis\u2014they kept full control of their UX without spending lots of cycles on scheduling infrastructure. The MCP generator cut the glue code: drop in a typed client or route, call the API, move on.<p>Some tech details: \u2022 REST API with ISO-8601 timestamps and IANA time zones \u2022 Recurring availability + one-off exceptions (designed to compose cleanly) \u2022 Focused scope: users, availability, exceptions, bookings (not a monolithic suite)<p>The MCP server exposes tools like generate-frontend-client, generate-backend-client, generate-api-routes, and list-endpoints. Add to your MCP settings:<p><pre><code>  {\n   \"mcpServers\": {\n    \"kalendis\": {\n     \"command\": \"npx\",\n     \"args\": [\"-y\", \"@kalendis/mcp\"]\n    }\n   }\n  }\n\n</code></pre>\nHow to try it: Create a free account \u2192 get an API key. (<a href=\"https://kalendis.dev\" rel=\"nofollow\">https://kalendis.dev</a>). Then hit an endpoint:<p><pre><code>  curl -H \"x-api-key: $KALENDIS_API_KEY\" \\\n \"https://api.kalendis.dev/v1/availability/getAvailability?userId=&amp;start=2025-10-07T00:00:00Z&amp;end=2025-10-14T00:00:00Z&amp;includeExceptions=true\"\n</code></pre>\nHappy to answer questions and post example snippets in the thread. Thanks for taking a look!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45956154\">https://news.ycombinator.com/item?id=45956154</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "author": "dcabal25mh",
-      "published_date": "2025-11-17T18:05:29+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 281,
-      "reading_time": 1,
-      "created_at": "2025-11-17T19:38:10.451117+00:00",
-      "updated_at": "2025-11-17T20:17:53.735493+00:00",
-      "metadata": {
-        "processed_at": "2025-11-17T20:17:53.735494+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
