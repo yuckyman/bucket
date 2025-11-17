@@ -1,7 +1,71 @@
 {
-  "last_updated": "2025-11-17T06:33:39.791662+00:00",
+  "last_updated": "2025-11-17T07:22:05.224270+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "4d48d916fa6c2ce8b6f0169af26b2aea",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325005955?dgcid=rss_sd_all",
+      "title": "Repurposing immunomodulatory drugs targeting microglia for amyotrophic lateral sclerosis",
+      "content": "<p>Publication date: 1 January 2026</p><p><b>Source:</b> Brain Research, Volume 1870</p><p>Author(s): Kirsten Johanna Hendricus Maes, Jacco Jan Bried\u00e9</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 16,
+      "reading_time": 1,
+      "created_at": "2025-11-17T07:21:38.335055+00:00",
+      "updated_at": "2025-11-17T07:21:38.335069+00:00"
+    },
+    {
+      "id": "40b22843293d11de474e10ce27c2921b",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306452225010656?dgcid=rss_sd_all",
+      "title": "Association between sleep quality and stroke risk stratification in middle-aged and older adults in China",
+      "content": "<p>Publication date: 15 December 2025</p><p><b>Source:</b> Neuroscience, Volume 591</p><p>Author(s): Xin-Ping Bai, Fu-Long Ma, Ming-Ren Yao, You-Meng Wang, Lin Chen, Gui-Hai Chen</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroscience Journal",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 20,
+      "reading_time": 1,
+      "created_at": "2025-11-17T07:21:37.028954+00:00",
+      "updated_at": "2025-11-17T07:21:37.028956+00:00"
+    },
+    {
+      "id": "c9522323e2c89839a1b1d3493de1f2f3",
+      "url": "https://www.sciencedirect.com/science/article/pii/S030645222501070X?dgcid=rss_sd_all",
+      "title": "Crude a\u00e7a\u00ed oil protects against paraquat-induced neurotoxicity in <em>Drosophila melanogaster</em>: Behavioral, neurochemical, and Nrf2-related evidence",
+      "content": "<p>Publication date: 15 December 2025</p><p><b>Source:</b> Neuroscience, Volume 591</p><p>Author(s): Nathalie Savedra Gomes, Francisco Andrey da Silva e Silva, Dieniffer Espinosa Janner, Eliana Jardim Fernandes, Roseana Freitas Rocha, Mustafa Munir Mustafa Dahleh, Vandreza Cardoso Bortolotto, Murilo Ricardo Sigal Carri\u00e7o, Gustavo Andrade\u00a0Ugalde, Rafael Roehrs, Gustavo Petri Guerra, Elton Luis Gasparotto Denardin</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroscience Journal",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 49,
+      "reading_time": 1,
+      "created_at": "2025-11-17T07:21:37.028935+00:00",
+      "updated_at": "2025-11-17T07:21:37.028937+00:00"
+    },
+    {
+      "id": "2b7b52a7adf966b9668f0894746f7ceb",
+      "url": "https://www.reddit.com/r/Python/comments/1oz5grb/i_made_a_fast_structured_pdf_extractor_for_rag/",
+      "title": "I made a fast, structured PDF extractor for RAG",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>This project was made by a student participating in Hack Club &amp; Hack Club Midnight:</strong><br /> <a href=\"https://midnight.hackclub.com/\">https://midnight.hackclub.com</a> &amp; <a href=\"https://hackclub.com/\">https://hackclub.com</a></p> <p><strong>What My Project Does</strong><br /> A PDF extractor in C using MuPDF that outputs <strong>structured JSON with partial Markdown</strong>. It captures page-level structure\u2014blocks, geometry, font metrics, figures\u2014but does <strong>not</strong> automatically extract tables or full Markdown.</p> <p>All metadata is preserved so you can fully <strong>customize downstream processing</strong>. This makes it especially powerful for <strong>RAG pipelines</strong>: the deterministic, detailed structure allows for <strong>precise chunking, consistent embeddings, and reliable retrieval</strong>, eliminating the guesswork that often comes with raw PDF parsing.</p> <p><strong>Anecdote / Personal Use</strong><br /> I genuinely used this library in one of my own projects, and the difference was clear: the chunks I got were <strong>way better structured</strong>, which made retrieval more accurate\u2014and as a result, the model outputs were significantly improved. It\u2019s one thing to have a PDF parser, but seeing the downstream impact in actual RAG workflows really confirmed the value.</p> <p><strong>Performance matters</strong>: optimized for in-memory limits, streaming to disk, and minimal buffering. It\u2019s <strong>much lighter and faster than PyMuPDF</strong>, which can be slow, memory-heavy, and drift-prone.</p> <p>The Python layer is a <strong>minimal ctypes wrapper</strong> with a convenience function\u2014use the bundled library or build the C extractor yourself.</p> <p><strong>Repo:</strong> <a href=\"https://github.com/intercepted16/pymupdf4llm-C\">https://github.com/intercepted16/pymupdf4llm-C</a></p> <p><strong>Target Audience</strong><br /> PDF ingestion, RAG pipelines, document analysis\u2014practical and performant, though early testers may find edge cases.</p> <p><strong>Comparison</strong><br /> This project <strong>trades automatic features for speed, deterministic structure, and full metadata</strong>, making JSON output <strong>highly adaptable for LLM workflows</strong>. You get <strong>control over parsing, chunking, and formatting</strong>, which is invaluable when you need <strong>consistent and precise data for downstream processing</strong>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/absqroot\"> /u/absqroot </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1oz5grb/i_made_a_fast_structured_pdf_extractor_for_rag/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1oz5grb/i_made_a_fast_structured_pdf_extractor_for_rag/\">[comments]</a></span>",
+      "author": "/u/absqroot",
+      "published_date": "2025-11-17T03:12:13+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 294,
+      "reading_time": 1,
+      "created_at": "2025-11-17T07:20:52.340809+00:00",
+      "updated_at": "2025-11-17T07:20:52.340811+00:00"
+    },
     {
       "id": "8cc127c70142a432a087ee3c14a0e433",
       "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1408836",
@@ -257,86 +321,6 @@
       "reading_time": 1,
       "created_at": "2025-11-17T06:32:25.892142+00:00",
       "updated_at": "2025-11-17T06:32:25.892152+00:00"
-    },
-    {
-      "id": "c2319578819743fdf0159bf723bcb1b5",
-      "url": "https://erpinfo.org/blog/2024/3/5/changes-to-the-2024-erp-boot-camp",
-      "title": "Important Changes to the 2024 ERP Boot Camp",
-      "content": "<p class=\"\">We are disappointed to announce that we will not be holding a regular 10-day ERP Boot Camp this summer.</p><p class=\"\">We have held Boot Camps nearly every summer since 2007, supported by a series of generous grants from NIMH that allowed us to provide scholarships for all attendees. Unfortunately, although our recent renewal proposal received extremely positive reviews and scores, we were recently given the surprising and disappointing news that the renewal will not be funded this year. We believe that the ERP Boot Camp provides essential training to the field, and we will continue to pursue financial support to continue holding 10-day ERP Boot Camps in the future. </p><p class=\"\">In the meantime, we have partial funding that will allow us to hold a 5-day ERP Boot Camp this summer from July 8-12, 2024 in Davis, California. The workshop will include 5-days of lectures and activities on EEG and ERP measures, including practical and theoretical issues.</p><p class=\"\">Unfortunately, we will not be able to provide scholarships to pay for travel and lodging costs, and we must charge a registration fee. We are very sorry if this causes a hardship. </p><p class=\"\">We are no longer taking applications through our application portal. Instead of a competitive application process, we will simply accept the first 30 people who complete the registration process and pay the registration fee. This provides an opportunity to attend for individuals who might otherwise not make it through our ordinary application process, which is highly competitive. </p><p class=\"\">The registration fee will be $1000 (or $900 for people who register by April 15). The registration fee will cover 6 nights in a single occupancy hotel room (arriving July 7 and departing July 13), daily breakfast at the hotel, a catered lunch for each day of the workshop, and a group dinner. <strong>You must pay the registration fee with a credit card when you register.</strong> There are no exceptions to the registration fee policy.</p><p class=\"\"><strong>Registration is now open</strong> at <a href=\"https://na.eventscloud.com/793175\">https://na.eventscloud.com/793175</a>.</p><p class=\"\">Given that we will accept the first 30 registrants, we encourage you to register as soon as possible. <strong>Registration will close on May 20</strong>, but we anticipate that the workshop will be filled up long before then. </p><p class=\"\">You must pay for your own transportation to Davis. Davis is approximately 20 minutes away from the Sacramento Airport (SMF). You can take the <a href=\"https://www.davisairporter.com/\" target=\"_blank\">Davis Airporter</a> shuttle service or a rideshare service from SMF to Davis. If you are coming from outside North America, you may want to fly into the San Francisco airport (SFO), which is 135 km (84 miles) from Davis. We recommend taking the <a href=\"https://www.davisairporter.com/\" target=\"_blank\">Davis Airporter</a> from SFO to Davis.</p>",
-      "author": "Steve Luck",
-      "published_date": "2024-03-05T19:34:57+00:00",
-      "source": "Erp Boot Camp",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 444,
-      "reading_time": 2,
-      "created_at": "2025-11-17T05:45:03.657575+00:00",
-      "updated_at": "2025-11-17T06:24:38.203885+00:00",
-      "metadata": {
-        "processed_at": "2025-11-17T06:24:38.203896+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a3e1fed3897e2da590cc308f135b0de1",
-      "url": "http://doi.org/10.1037/pmu0000298",
-      "title": "Absolute pitch: A literature review of underlying factors, with special regard to music pedagogy.",
-      "content": "Absolute pitch (AP) is a fairly rare and special phenomenon that has relevance for musicology, psychology, genetics, and neuroscience. AP possessors are able to identify the pitch of an isolated sound or to produce that sound without a reference point. The authors\u2019 aim is to review the literature on AP. The phenomenon of AP was described in the era of Mozart, but it was only in the last decades of the 19th century that it became the focus of research. The standardization of the tuning system and organized music education underlied the interest in AP, and Bachem\u2019s tone chroma concept was relevant as well. The prevalence of AP is estimated to be between 0.01% and 1% in the general population, however, larger-scale epidemiological studies are lacking. AP\u2019s prevalence is much higher in special groups, such as among trained musicians, relatives of AP possessors, blind persons, people native in tonal languages, Asian music students or musicians, and those with an autism spectrum disorder. The genetic and environmental factors behind this ability are briefly summarized, followed by a detailed discussion of the solf\u00e8ge methods (movable-do and fixed-do systems) that can facilitate the development of AP. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2023-07-10T00:00:00+00:00",
-      "source": "Psychomusicology",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 202,
-      "reading_time": 1,
-      "created_at": "2025-11-17T05:44:08.299291+00:00",
-      "updated_at": "2025-11-17T06:24:38.203900+00:00",
-      "metadata": {
-        "processed_at": "2025-11-17T06:24:38.203902+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e6e5ba11664c5587b8b533cd82f50832",
-      "url": "http://doi.org/10.1037/neu0001032",
-      "title": "Comparison of multidomain assessment outcomes between older and middle-aged adults following concussion.",
-      "content": "Objective: This article\u2019s objective was to compare demographic/medical history and multidomain clinical assessment outcomes between older and middle-aged adults following concussion. Method: Seventy-six patients aged 50\u201380 years within 12 months of a concussion from a specialty clinic between October 2021 and August 2023 participated in the study. Participants were grouped into older (\u226560 years) and middle-aged (50\u201359 years) adults. At their first clinic visit, participants completed multidomain clinical assessments comprising symptoms, cognitive, vestibular/ocular motor, psychological health, and quality of life domains. Results: Older adults (<em>n</em> = 35) had less females (40.0% vs. 68.3%, <em>p</em> = .01), anxiety history (17.1% vs. 39.0%, <em>p</em> = .036), and employed individuals (57.1% vs. 82.9%, <em>p</em> = .002) than middle-aged adults (<em>n</em> = 41). Older adults had better Neuro-Quality of Life, <em>F</em>(1, 71) = 6.8, <em>p</em> = .01, \u03b7<sub>p</sub>\u00b2 = 0.09; Repeatable Battery for the Assessment of Neuropsychological Status recall, <em>F</em>(1, 71) = 12.6, <em>p</em>< .001, \u03b7\n<sub>p</sub>\u00b2 = 0.15; fluency,<em> F</em>(1, 71) = 5.7, <em>p</em> = .02, \u03b7<sub>p</sub>\u00b2 = 0.08; list recall, <em>F</em>(1, 69) = 5.2, <em>p</em> = .03, \u03b7<sub>p</sub>\u00b2 = 0.07; and list recognition, <em>F</em>(1, 69) = 5.3, <em>p</em> = .03, \u03b7<sub>p</sub>\u00b2 = 0.07, when controlling for sex, anxiety history, and employment status. Older adults also had lower odds of being impaired to borderline on Immediate Post-Concussion Assessment and Cognitive Testing verbal memory (<em>OR</em> = 0.05, 95% CI [0.01, 0.56], <em>p</em> = .01), visual motor speed (<em>OR</em> = 0.08, 95% CI [0.01, 0.73],<em> p</em> = .03), and reaction time (<em>OR</em> = 0.21, 95% CI [0.05, 0.89], <em>p</em> = .03), and lower odds of having moderate to severe impairment on Neuro-Quality of Life (<em>OR</em> = 0.32, 95% CI [0.11, 0.97], <em>p</em> = .04) than middle-aged adults. Conclusions: Older adults (\u226560 years) exhibited fewer subjective cognitive difficulties and objective cognitive impairments compared to middle-aged adults (50\u201359 years) following concussion. There were no differences between groups in symptoms, vestibular/ocular motor functioning, or psychological health. Clinicians should consider these findings when evaluating and interpreting outcomes from older and middle-aged adults following concussion. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-08-25T00:00:00+00:00",
-      "source": "Neuropsychology",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 344,
-      "reading_time": 1,
-      "created_at": "2025-11-17T05:44:05.218950+00:00",
-      "updated_at": "2025-11-17T06:24:38.203904+00:00",
-      "metadata": {
-        "processed_at": "2025-11-17T06:24:38.203905+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a5a5f1afc6b5f3707edd19161d35026a",
-      "url": "http://doi.org/10.1037/neu0001037",
-      "title": "Neural correlates of stigma: A systematic review.",
-      "content": "Objective: Understanding neural mechanisms underlying the experience and enactment of stigma is needed to address the public health challenge posed by both experienced and enacted stigma. In this systematic review, we synthesized the literature on neural correlates of stigma from the perspective of (a) the stigmatizer (enacted stigma) and (b) the stigmatized (experienced stigma). Method: We searched PsychInfo, PubMed, Web of Science, Medline, and SCOPUS for articles assessing stigma using neuroimaging. Results: Thirty-one articles were included covering a variety of stigmatized identities (i.e., mental health, medical conditions, homelessness), with 20 articles on enacted stigma and 11 on experienced stigma. There was a large variety in methodological approaches, including varying experimental paradigms, analytical approaches (e.g., whole-brain vs. region-of-interest analyses), samples, and degree to which stigma is assessed and/or verified (as opposed to assumed to be present in response to exclusion or in response to specific stimuli). Regardless, our review indicates that a widespread network of brain regions is implicated in the enactment of stigma (in the stigmatizer), including frontal, cingulate, parietal, occipital, and subcortical regions, which are characterized by inconsistencies that likely result from methodological differences. In contrast, a blunted medial prefrontal cortex response to experienced stigma is relatively consistently observed (in the stigmatized). Conclusions: Our review is the first to comprehensively synthesize studies examining neural correlates of stigma, revealing tangible brain patterns reflecting its experience and enactment, enhancing our understanding of stigma and its assessment. Last, we highlight the complexity of this research area and discuss insights and considerations for future work. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-09-15T00:00:00+00:00",
-      "source": "Neuropsychology",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 261,
-      "reading_time": 1,
-      "created_at": "2025-11-17T05:44:05.218892+00:00",
-      "updated_at": "2025-11-17T06:24:38.203907+00:00",
-      "metadata": {
-        "processed_at": "2025-11-17T06:24:38.203909+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
