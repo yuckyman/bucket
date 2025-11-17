@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-17T11:19:34.897832+00:00",
+  "last_updated": "2025-11-17T11:40:34.067652+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "67a5d78305c46f6f33b1d67f6493358d",
+      "url": "https://www.nature.com/articles/s41593-025-02100-3",
+      "title": "Distinct transcriptomic and epigenomic responses of mature oligodendrocytes during disease progression in a mouse model of multiple sclerosis",
+      "content": "<p>Nature Neuroscience, Published online: 17 November 2025; <a href=\"https://www.nature.com/articles/s41593-025-02100-3\">doi:10.1038/s41593-025-02100-3</a></p>Single-cell ATAC/RNA multiomic profiling was used to investigate how oligodendrocyte lineage cells respond across multiple disease stages within a mouse MS model, revealing early activation of immune genes along with oligodendrocyte subtype-specific responses.",
+      "author": "Gon\u00e7alo Castelo-Branco",
+      "published_date": "2025-11-17T00:00:00+00:00",
+      "source": "Nature Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 41,
+      "reading_time": 1,
+      "created_at": "2025-11-17T11:40:02.840897+00:00",
+      "updated_at": "2025-11-17T11:40:02.840901+00:00"
+    },
     {
       "id": "739cb8c427bbfade8ca665927d26c842",
       "url": "https://www.nature.com/articles/s41562-025-02348-6",
@@ -335,26 +351,6 @@
       "updated_at": "2025-11-17T08:22:36.130328+00:00",
       "metadata": {
         "processed_at": "2025-11-17T08:22:36.130329+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2b7b52a7adf966b9668f0894746f7ceb",
-      "url": "https://www.reddit.com/r/Python/comments/1oz5grb/i_made_a_fast_structured_pdf_extractor_for_rag/",
-      "title": "I made a fast, structured PDF extractor for RAG",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>This project was made by a student participating in Hack Club &amp; Hack Club Midnight:</strong><br /> <a href=\"https://midnight.hackclub.com/\">https://midnight.hackclub.com</a> &amp; <a href=\"https://hackclub.com/\">https://hackclub.com</a></p> <p><strong>What My Project Does</strong><br /> A PDF extractor in C using MuPDF that outputs <strong>structured JSON with partial Markdown</strong>. It captures page-level structure\u2014blocks, geometry, font metrics, figures\u2014but does <strong>not</strong> automatically extract tables or full Markdown.</p> <p>All metadata is preserved so you can fully <strong>customize downstream processing</strong>. This makes it especially powerful for <strong>RAG pipelines</strong>: the deterministic, detailed structure allows for <strong>precise chunking, consistent embeddings, and reliable retrieval</strong>, eliminating the guesswork that often comes with raw PDF parsing.</p> <p><strong>Anecdote / Personal Use</strong><br /> I genuinely used this library in one of my own projects, and the difference was clear: the chunks I got were <strong>way better structured</strong>, which made retrieval more accurate\u2014and as a result, the model outputs were significantly improved. It\u2019s one thing to have a PDF parser, but seeing the downstream impact in actual RAG workflows really confirmed the value.</p> <p><strong>Performance matters</strong>: optimized for in-memory limits, streaming to disk, and minimal buffering. It\u2019s <strong>much lighter and faster than PyMuPDF</strong>, which can be slow, memory-heavy, and drift-prone.</p> <p>The Python layer is a <strong>minimal ctypes wrapper</strong> with a convenience function\u2014use the bundled library or build the C extractor yourself.</p> <p><strong>Repo:</strong> <a href=\"https://github.com/intercepted16/pymupdf4llm-C\">https://github.com/intercepted16/pymupdf4llm-C</a></p> <p><strong>Target Audience</strong><br /> PDF ingestion, RAG pipelines, document analysis\u2014practical and performant, though early testers may find edge cases.</p> <p><strong>Comparison</strong><br /> This project <strong>trades automatic features for speed, deterministic structure, and full metadata</strong>, making JSON output <strong>highly adaptable for LLM workflows</strong>. You get <strong>control over parsing, chunking, and formatting</strong>, which is invaluable when you need <strong>consistent and precise data for downstream processing</strong>.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/absqroot\"> /u/absqroot </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1oz5grb/i_made_a_fast_structured_pdf_extractor_for_rag/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1oz5grb/i_made_a_fast_structured_pdf_extractor_for_rag/\">[comments]</a></span>",
-      "author": "/u/absqroot",
-      "published_date": "2025-11-17T03:12:13+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 294,
-      "reading_time": 1,
-      "created_at": "2025-11-17T07:20:52.340809+00:00",
-      "updated_at": "2025-11-17T08:22:36.130332+00:00",
-      "metadata": {
-        "processed_at": "2025-11-17T08:22:36.130333+00:00",
         "processing_method": "github_actions"
       }
     }
