@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-11-18T14:46:32.302772+00:00",
+  "last_updated": "2025-11-18T15:25:06.856960+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "338fb51696bb4e97f3330d7887a72743",
+      "url": "https://aistudio.google.com/prompts/new_chat?model=gemini-3-pro-preview",
+      "title": "Gemini 3 Pro Preview Live in AI Studio",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45967211\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-18T15:09:38+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-18T15:23:54.335088+00:00",
+      "updated_at": "2025-11-18T15:23:54.335090+00:00"
+    },
+    {
+      "id": "0707068b296592d9acf4702ff20f0afb",
+      "url": "https://www.theguardian.com/technology/2025/nov/18/fear-really-drives-him-is-alex-karp-of-palantir-the-worlds-scariest-ceo",
+      "title": "'Fear really drives him': is Alex Karp of Palantir the world's scariest CEO?",
+      "content": "<p>Article URL: <a href=\"https://www.theguardian.com/technology/2025/nov/18/fear-really-drives-him-is-alex-karp-of-palantir-the-worlds-scariest-ceo\">https://www.theguardian.com/technology/2025/nov/18/fear-really-drives-him-is-alex-karp-of-palantir-the-worlds-scariest-ceo</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45965796\">https://news.ycombinator.com/item?id=45965796</a></p>\n<p>Points: 28</p>\n<p># Comments: 24</p>",
+      "author": "mellosouls",
+      "published_date": "2025-11-18T13:41:54+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-18T15:23:52.993228+00:00",
+      "updated_at": "2025-11-18T15:23:52.993229+00:00"
+    },
+    {
+      "id": "338fb51696bb4e97f3330d7887a72743",
+      "url": "https://aistudio.google.com/prompts/new_chat?model=gemini-3-pro-preview",
+      "title": "Gemini 3 Pro Preview Live in AI Studio",
+      "content": "<p>Article URL: <a href=\"https://aistudio.google.com/prompts/new_chat?model=gemini-3-pro-preview\">https://aistudio.google.com/prompts/new_chat?model=gemini-3-pro-preview</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45967211\">https://news.ycombinator.com/item?id=45967211</a></p>\n<p>Points: 11</p>\n<p># Comments: 4</p>",
+      "author": "preek",
+      "published_date": "2025-11-18T15:09:38+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-18T15:23:52.993124+00:00",
+      "updated_at": "2025-11-18T15:23:52.993136+00:00"
+    },
     {
       "id": "3bbf6bb76160974178a5d02cd5d3e02b",
       "url": "https://www.sciencedirect.com/science/article/pii/S1053811925005865?dgcid=rss_sd_all",
@@ -279,66 +327,6 @@
       "updated_at": "2025-11-18T14:15:23.704200+00:00",
       "metadata": {
         "processed_at": "2025-11-18T14:15:23.704202+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "349def9675efb1c9a239651641a14b88",
-      "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae1876",
-      "title": "Iris 128x: open-source 128 channel headstages for neural stimulation and recording",
-      "content": "Objective. Investigation into complex neural circuits necessitates interfaces capable of high channel count recording and stimulation. However, existing commercial neural headstages often have limited scalability, restrictive proprietary designs, and constrained bidirectional capabilities, which worsens accessibility challenges and compels researchers to reinvent tools rather than build on a shared foundation. Approach. Here, we present two open-source, 128 channel headstages\u2014Iris 128B and Iris 128S\u2014designed for integration with microelectrode arrays. The Iris 128B enables fully bidirectional interfacing, with stimulation or recording across all 128 electrode channels, while the Iris 128S provides recording on 128 channels and stimulation on 16 simultaneous channels, which can be assigned to any 16 of the 32 available stimulation channels. Both designs use Intan Technologies\u2019 RHS and RHD series integrated circuits for amplification, filtering, digitization and stimulation, and are available on GitHub. Main results. The headstages were validated through benchtop impedance, noise, and frequency response measurements, as well as acute in vivo recordings in an anesthetized rat. Results demonstrate low noise levels and reliable signal acquisition across all channels. Significance. By releasing fully documented printed circuit board designs for headstages, this work aims to take a step towards broader adoption of bidirectional recording and stimulation systems while increasing channel counts. Future iterations will focus on miniaturization and wireless integration to improve usability in chronic and freely moving small animal experiments.",
-      "author": "Emma K Jacobs, Manuel Monge, Ander Switalla, Rebecca A Frederick and Felix Deku",
-      "published_date": "2025-11-18T00:00:00+00:00",
-      "source": "Journal Neural Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 221,
-      "reading_time": 1,
-      "created_at": "2025-11-18T13:33:08.747536+00:00",
-      "updated_at": "2025-11-18T14:15:23.704204+00:00",
-      "metadata": {
-        "processed_at": "2025-11-18T14:15:23.704206+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "edc47e28adc9ba30ff13d12a3f6db194",
-      "url": "https://status.digitalocean.com/incidents/lgt5xs2843rx",
-      "title": "Multiple Digital Ocean services down",
-      "content": "<p>Article URL: <a href=\"https://status.digitalocean.com/incidents/lgt5xs2843rx\">https://status.digitalocean.com/incidents/lgt5xs2843rx</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45964987\">https://news.ycombinator.com/item?id=45964987</a></p>\n<p>Points: 13</p>\n<p># Comments: 2</p>",
-      "author": "inanothertime",
-      "published_date": "2025-11-18T12:48:45+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-18T13:32:42.907909+00:00",
-      "updated_at": "2025-11-18T14:15:23.704208+00:00",
-      "metadata": {
-        "processed_at": "2025-11-18T14:15:23.704210+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9cbb1175c3571c45843f3b6dfdb671e0",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006080?dgcid=rss_sd_all",
-      "title": "Brain development and musical skills: A longitudinal twin study on brain developmental trajectories and sensorimotor synchronization",
-      "content": "<p>Publication date: 1 January 2026</p><p><b>Source:</b> Brain Research, Volume 1870</p><p>Author(s): L. van Drunen, B.G. Schultz, A.I. Becht, R.S. Schaefer, L.M. Wierenga</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 20,
-      "reading_time": 1,
-      "created_at": "2025-11-18T12:43:58.261929+00:00",
-      "updated_at": "2025-11-18T14:15:23.704212+00:00",
-      "metadata": {
-        "processed_at": "2025-11-18T14:15:23.704213+00:00",
         "processing_method": "github_actions"
       }
     }
