@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-18T22:21:42.255794+00:00",
+  "last_updated": "2025-11-18T22:43:51.585750+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "c21dac6942ed3767b45ef8ca6c689b9d",
+      "url": "http://ieeexplore.ieee.org/document/11005463",
+      "title": "Hybrid KLT\u2014LSTM Tracking for Robust Organ Motion Monitoring in 2D Ultrasound-Guided End-Organ Therapies",
+      "content": "Objective: Recent research highlights the potential of ultrasound (US) stimulation as a noninvasive tool for modulating neural and cellular signaling in the spleen and liver to treat inflammatory diseases and diabetes. However, challenges like nerve activation failures, off-target stimulation, and organ motion during respiration can affect treatment efficacy. This study introduces a novel tracking framework for accurate liver and spleen motion tracking using US imaging to overcome these challenges. Methods: The tracking framework integrates an enhanced Kanade\u2013Lucas\u2013Tomasi (EKLT) tracker with a long short-term memory (LSTM) predictor. The EKLT tracker provides precise annotations that improve LSTM training, while the LSTM compensates for occlusions and noise by making predictions based on prior data and dynamically adjusting the region of interest (ROI). Spleen motion tracking was evaluated using 40 recordings from 10 participants, each undergoing four distinct breathing patterns. Additionally, the method was evaluated on a liver motion dataset from MICCAI, collected from 9 subjects. Results: Spleen tracking was most accurate during slow, shallow breathing, with an average error of 0.4 $\\pm$ 0.4 mm, and had an average error of 1.37 $\\pm$ 0.9 mm during fast, deep breathing. Liver tracking results showed high accuracy with an average error of 0.3 $\\pm$ 0.2 mm. Conclusion: The EKLT-LSTM framework offers advantages over previous tracking models, providing high accuracy in tracking liver and spleen motion under occlusion and noisy conditions. Significance: The EKLT-LSTM is suitable for end-organ modulation applications and can be adapted to other ultrasound-guided therapies and bioelectronic medicine.",
+      "author": "",
+      "published_date": "2025-05-15T13:17:00+00:00",
+      "source": "Transactions Biomedical Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 244,
+      "reading_time": 1,
+      "created_at": "2025-11-18T22:43:36.220482+00:00",
+      "updated_at": "2025-11-18T22:43:36.220484+00:00"
+    },
     {
       "id": "2c6df70fdce8d45fe5b34a1294ca7808",
       "url": "http://ieeexplore.ieee.org/document/11005693",
@@ -305,22 +321,6 @@
       "reading_time": 1,
       "created_at": "2025-11-18T22:21:11.155791+00:00",
       "updated_at": "2025-11-18T22:21:11.155796+00:00"
-    },
-    {
-      "id": "b6a92bf22c8f4d4881d273270c8cc02c",
-      "url": "https://blog.joinmastodon.org/2025/11/my-next-chapter-with-mastodon/",
-      "title": "I am stepping down as the CEO of Mastodon",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45969909\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-18T18:13:30+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-18T22:20:28.955861+00:00",
-      "updated_at": "2025-11-18T22:20:28.955862+00:00"
     }
   ]
 }
