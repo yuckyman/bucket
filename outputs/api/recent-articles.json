@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-11-18T18:22:51.317288+00:00",
+  "last_updated": "2025-11-18T18:32:28.974652+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "5ee6854f137dbf5edab207ad8f308f2c",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688986v1?rss=1",
+      "title": "Cognitive and brain function enhancement in Gen X group after personalized, AI supervised EEG-neurofeedback training",
+      "content": "Background: Interventions supporting medical care and enhancing quality of life in neurodegenerative or age-related cognitive decline are strongly needed. Electroencephalographic (EEG) neurofeedback can enable users to modulate their brain activity through real-time feedback. However, evidence for its clinical effectiveness remains inconclusive, partly due to limited personalization and insufficient task relevance in existing protocols. Objective: We tested whether personalized EEG neurofeedback supervised by deep neural networks (DNNs) can enhance cognitive performance in older adults. Methods: Fifty-seven healthy adults aged 41 to 64 (31 women), including a sham-feedback control group, completed a personalized neurofeedback protocol with DNNs fine-tuned to individual EEG patterns. The procedure included pre- and post-training assessments using a transitive reasoning task, three diagnostic sessions to adapt the DNN to each participant, and 10 neurofeedback sessions based on a gamified delayed-match-to-sample paradigm. Results: The training group showed robust gains across all three variants of the reasoning task (each p < .01), whereas the sham group improved only on the easiest variant. Groups did not differ at pretest; however, at posttest the training group outperformed the sham group on all task conditions (each p < .03), showing also a larger neural effort (lower alpha band power) and increased beta and gamma band connectivity (higher phase lag index). Conclusion: Personalized, task-oriented neurofeedback guided by individually fine-tuned DNNs can produce cognitive enhancement after relatively few sessions. The proposed Task-Pretrained, Subject-Finetuned Neurofeedback (TPSF-NF) framework is scalable to other cognitive domains in future research.",
+      "author": "Rogala, J., Malinowska, U., Ociepka, M., Wojciechowski, J., Zych, J., Tryc, P., Ko\u0142odziejak, A., Ogniewski, P., Niedbalski, P., Skorupski, J., Chuderski, A.",
+      "published_date": "2025-11-18T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 239,
+      "reading_time": 1,
+      "created_at": "2025-11-18T18:31:59.127664+00:00",
+      "updated_at": "2025-11-18T18:31:59.127668+00:00"
+    },
+    {
+      "id": "9c4385f08ae539bfba5eb35dfb61ce3c",
+      "url": "https://github.com/coder/guts",
+      "title": "Show HN: Guts \u2013 convert Golang types to TypeScript",
+      "content": "<p>Article URL: <a href=\"https://github.com/coder/guts\">https://github.com/coder/guts</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45969708\">https://news.ycombinator.com/item?id=45969708</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "author": "emyrk",
+      "published_date": "2025-11-18T17:55:55+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-18T18:31:16.334262+00:00",
+      "updated_at": "2025-11-18T18:31:16.334271+00:00"
+    },
     {
       "id": "df3e106b958e67b5b198c20fb2fde1a3",
       "url": "https://www.sciencedirect.com/science/article/pii/S1053811925005701?dgcid=rss_sd_all",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-11-18T16:54:41.838925+00:00",
       "updated_at": "2025-11-18T16:54:41.838928+00:00"
-    },
-    {
-      "id": "35e289e20714665d1b5bac3f8814781e",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1601641",
-      "title": "Sudden restructuring of memory representations in recurrent neural networks with repeated stimulus presentations",
-      "content": "While acquisition curves in human learning averaged at the group level display smooth, gradual changes in performance, individual learning curves across cognitive domains reveal sudden, discontinuous jumps in performance. Similar thresholding effects are a hallmark of a range of nonlinear systems which can be explored using simple, abstract models. Here, I investigate discontinuous changes in learning performance using Amari-Hopfield networks with Hebbian learning rules which are repeatedly exposed to a single stimulus. Simulations reveal that the attractor basin size for a target stimulus increases in discrete jumps rather than gradual changes with repeated stimulus exposure. The distribution of the size of these positive jumps in basin size is best approximated by a lognormal distribution, suggesting that the distribution is heavy-tailed. Examination of the transition graph structure for networks before and after basin size changes reveals that newly acquired states are often organized into hierarchically branching tree structures, and that the distribution of branch sizes is best approximated by a power law distribution. The findings suggest that even simple nonlinear network models of associative learning exhibit discontinuous changes in performance with repeated learning which mirror behavioral results observed in humans. Future work can investigate similar mechanisms in more biologically detailed network models, potentially offering insight into the network mechanisms of learning with repeated exposure or practice.",
-      "author": "Jonathon R. Howlett",
-      "published_date": "2025-10-22T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 215,
-      "reading_time": 1,
-      "created_at": "2025-11-18T16:54:35.007100+00:00",
-      "updated_at": "2025-11-18T16:54:35.007101+00:00"
-    },
-    {
-      "id": "33cc1ae81c9f21fa4f55762c8f1db0a6",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1646336",
-      "title": "End-to-end robot intelligent obstacle avoidance method based on deep reinforcement learning with spatiotemporal transformer architecture",
-      "content": "To enhance the obstacle avoidance performance and autonomous decision-making capabilities of robots in complex dynamic environments, this paper proposes an end-to-end intelligent obstacle avoidance method that integrates deep reinforcement learning, spatiotemporal attention mechanisms, and a Transformer-based architecture. Current mainstream robot obstacle avoidance methods often rely on system architectures with separated perception and decision-making modules, which suffer from issues such as fragmented feature transmission, insufficient environmental modeling, and weak policy generalization. To address these problems, this paper adopts Deep Q-Network (DQN) as the core of reinforcement learning, guiding the robot to autonomously learn optimal obstacle avoidance strategies through interaction with the environment, effectively handling continuous decision-making problems in dynamic and uncertain scenarios. To overcome the limitations of traditional perception mechanisms in modeling the temporal evolution of obstacles, a spatiotemporal attention mechanism is introduced, jointly modeling spatial positional relationships and historical motion trajectories to enhance the model's perception of critical obstacle areas and potential collision risks. Furthermore, an end-to-end Transformer-based perception-decision architecture is designed, utilizing multi-head self-attention to perform high-dimensional feature modeling on multi-modal input information (such as LiDAR and depth images), and generating action policies through a decoding module. This completely eliminates the need for manual feature engineering and intermediate state modeling, constructing an integrated learning process of perception and decision-making. Experiments conducted in several typical obstacle avoidance simulation environments demonstrate that the proposed method outperforms existing mainstream deep reinforcement learning approaches in terms of obstacle avoidance success rate, path optimization, and policy convergence speed. It exhibits good stability and generalization capabilities, showing broad application prospects for deployment in real-world complex environments.",
-      "author": "Weizhong Zhang",
-      "published_date": "2025-10-08T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 261,
-      "reading_time": 1,
-      "created_at": "2025-11-18T16:54:31.141359+00:00",
-      "updated_at": "2025-11-18T16:54:31.141360+00:00"
     }
   ]
 }
