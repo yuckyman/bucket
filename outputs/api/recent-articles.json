@@ -1,7 +1,71 @@
 {
-  "last_updated": "2025-11-18T10:48:29.552488+00:00",
+  "last_updated": "2025-11-18T11:20:38.997380+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "e6328f705ac778fbff44d05f5fe11ef3",
+      "url": "https://www.nature.com/articles/s41593-025-02114-x",
+      "title": "Brain-wide analysis reveals movement encoding structured across and within brain areas",
+      "content": "<p>Nature Neuroscience, Published online: 18 November 2025; <a href=\"https://www.nature.com/articles/s41593-025-02114-x\">doi:10.1038/s41593-025-02114-x</a></p>Using a large dataset of neural recordings and modern video-analysis methods, Wang, Kurgyis et al. describe a rich, structured encoding of movement across and within brain areas in mice performing both instructed and uninstructed movements in a task.",
+      "author": "Shaul Druckmann",
+      "published_date": "2025-11-18T00:00:00+00:00",
+      "source": "Nature Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 46,
+      "reading_time": 1,
+      "created_at": "2025-11-18T11:20:04.955954+00:00",
+      "updated_at": "2025-11-18T11:20:04.955955+00:00"
+    },
+    {
+      "id": "6a1908dd7c02d740ee3d85f9ac9ab564",
+      "url": "https://www.nature.com/articles/s41593-025-02116-9",
+      "title": "Neural basis of concurrent deliberation toward a choice and confidence judgment",
+      "content": "<p>Nature Neuroscience, Published online: 18 November 2025; <a href=\"https://www.nature.com/articles/s41593-025-02116-9\">doi:10.1038/s41593-025-02116-9</a></p>Confidence is key to decision-making, but the dynamics of confidence formation remain elusive. We show that neural populations in parietal cortex reflect the parallel processes of forming a decision and confidence in the decision.",
+      "author": "Christopher R. Fetsch",
+      "published_date": "2025-11-18T00:00:00+00:00",
+      "source": "Nature Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 42,
+      "reading_time": 1,
+      "created_at": "2025-11-18T11:20:04.955928+00:00",
+      "updated_at": "2025-11-18T11:20:04.955930+00:00"
+    },
+    {
+      "id": "c5c8fcc89e00ad40cff41ab473203df5",
+      "url": "https://www.nature.com/articles/s41593-025-02137-4",
+      "title": "Spinal cord Tau pathology induces tactile deficits and cognitive impairment in Alzheimer\u2019s disease via dysregulation of CCK neurons",
+      "content": "<p>Nature Neuroscience, Published online: 18 November 2025; <a href=\"https://www.nature.com/articles/s41593-025-02137-4\">doi:10.1038/s41593-025-02137-4</a></p>This study reveals how Tau pathology in spinal neurons contributes to early tactile deficits in Alzheimer\u2019s disease, linking sensory dysfunction to cognitive decline. It highlights potential peripheral biomarkers and new therapeutic targets beyond the brain.",
+      "author": "Ling-Qiang Zhu",
+      "published_date": "2025-11-18T00:00:00+00:00",
+      "source": "Nature Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 43,
+      "reading_time": 1,
+      "created_at": "2025-11-18T11:20:04.955898+00:00",
+      "updated_at": "2025-11-18T11:20:04.955902+00:00"
+    },
+    {
+      "id": "e431569730bec464976d59cb43259680",
+      "url": "https://www.reddit.com/r/Python/comments/1p02oi1/lacuna_highperformance_sparse_matrices_for_python/",
+      "title": "Lacuna \u2013 High-performance sparse matrices for Python, Rust backend",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What My Project Does</strong></p> <p>Lacuna is a high-performance sparse matrix library for Python, backed by Rust (SIMD + Rayon) with a NumPy-friendly API. It currently provides:</p> <ul> <li>2-D formats: <strong>CSR, CSC, COO</strong></li> <li>N-D tensors: <strong>COOND</strong> (N-dimensional COO)</li> <li>Kernels for <code>float64</code> values / <code>int64</code> indices: <ul> <li>SpMV / SpMM</li> <li>Reductions: total sum, row/column sums</li> <li>Transpose</li> <li>Arithmetic: add, sub, Hadamard (elementwise)</li> <li>Cleanup: <code>prune(eps)</code>, <code>eliminate_zeros</code></li> </ul></li> <li>N-D COO ops: <ul> <li><code>sum</code>, <code>mean</code></li> <li><code>reduce_*_axes</code>, <code>permute_axes</code>, <code>reshape</code></li> <li>broadcasting Hadamard</li> <li>unfold to CSR/CSC along a mode or grouped axes</li> </ul></li> </ul> <p>The Python API is designed to work smoothly with NumPy, using zero-copy reads of input buffers when it\u2019s safe.</p> <p><strong>Target Audience</strong></p> <p>Lacuna is intended for people who:</p> <ul> <li>Work with <strong>large sparse matrices or tensors</strong> (e.g. scientific computing, FEM/CFD, graph problems, PageRank, power iterations)</li> <li>Need <strong>high-performance kernels</strong> but want to stay in Python/NumPy world</li> <li>Are interested in experimenting with <strong>N-D sparse arrays</strong> (beyond 2-D matrices) without densifying</li> </ul> <p>It\u2019s currently a <strong>work-in-progress</strong> project (APIs and performance characteristics may change), so it\u2019s best suited for experimentation, research, and early adopters rather than critical production workloads.</p> <p><strong>Comparison</strong></p> <ul> <li><strong>SciPy.sparse</strong> <ul> <li>Very mature and battle-tested for 2-D sparse linear algebra.</li> <li>Mainly matrix-first: N-D use cases often require reshaping or densifying.</li> <li>Lacuna aims to complement this with N-D COO tensors plus explicit unfold operations, while still providing fast CSR/CSC/COO kernels.</li> </ul></li> <li><strong>PyData/Sparse (</strong><code>sparse</code><strong>)</strong> <ul> <li>Provides N-D COO arrays with NumPy-like semantics and broadcasting.</li> <li>Lacuna takes a more \u201ckernel-first\u201d approach: Rust + SIMD + Rayon, with a tighter set of operations focused on performance (SpMV/SpMM, reductions, transforms) and explicit unfold to CSR/CSC for linear-algebra-style workloads.</li> </ul></li> </ul> <p>If you\u2019re already comfortable with NumPy and SciPy.sparse, Lacuna is meant to feel familiar but give you more explicit tools for N-D sparse tensors and high-performance kernels.</p> <p><strong>Source &amp; Docs</strong></p> <ul> <li>Source code: <strong>GitHub:</strong> <a href=\"https://github.com/hanziwww/lacuna\"><code>https://github.com/hanziwww/lacuna</code></a></li> <li>Docs &amp; examples: <a href=\"https://lacuna.hanziwww.me/\">https://lacuna.hanziwww.me</a></li> </ul> <p>Status: <strong>in active development</strong>. Feedback, issues, and contributors are very welcome \u2014 especially benchmark reports or workloads where sparse performance really matters.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Effective-Phone6955\"> /u/Effective-Phone6955 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p02oi1/lacuna_highperformance_sparse_matrices_for_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p02oi1/lacuna_highperformance_sparse_matrices_for_python/\">[comments]</a></span>",
+      "author": "/u/Effective-Phone6955",
+      "published_date": "2025-11-18T04:34:01+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 352,
+      "reading_time": 1,
+      "created_at": "2025-11-18T11:19:27.296514+00:00",
+      "updated_at": "2025-11-18T11:19:27.296516+00:00"
+    },
     {
       "id": "de9d308bb2d49545a2e3c3f1898b1ac5",
       "url": "https://tech.stonecharioteer.com/posts/2025/ruby-symbols/",
@@ -285,82 +349,6 @@
         "processed_at": "2025-11-18T08:21:25.796941+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "ce8bd55d20f47657ee01d134756851e8",
-      "url": "http://ieeexplore.ieee.org/document/10759750",
-      "title": "Utilizing Neurons to Interrogate Cancer: Integrative Analysis of Cancer Omics Data With Deep Learning Models",
-      "content": "Genomics plays an essential role in the early detection, classification, and targeted cancer therapy based on the analysis of precise alterations at the molecular level. Using the most reliable approach is essential for the exact interrogation and cross-examination of complex and multi-high-dimensional \u201cMulti-omics\u201d cancer genomics data. In recent years, deep learning has been successfully utilized to deal with large cancer genomics data and has the potential to transform predictive biology. This review aims to explore the recent advancements in the application of deep learning models in basic cancer omics research, including different methodologies for the interrogation of bulk cancer omics data and the importance of cross-platform data integration. The paper provides insights into advantages, limitations, potential for improvement, research gaps, future direction, and an in-depth comparison of the models currently used in the field of cancer genomics, highlighting the crucial need for collaboration and interdisciplinary research in the field.",
-      "author": "",
-      "published_date": "2024-11-21T13:20:46+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 149,
-      "reading_time": 1,
-      "created_at": "2025-11-18T07:41:22.095230+00:00",
-      "updated_at": "2025-11-18T08:21:25.796944+00:00",
-      "metadata": {
-        "processed_at": "2025-11-18T08:21:25.796946+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2eb1c3423e2abdc6249e1ab529cb9548",
-      "url": "http://ieeexplore.ieee.org/document/11235895",
-      "title": "Odor-induced Sustained Neural Activity during Memory Encoding",
-      "content": "How long do the neural and cognitive effects of a brief odor experience last? This study investigated whether short exposures to pleasant and unpleasant odors can induce sustained changes in brain activity and influence memory formation for events occurring several seconds later. Using EEG, we combined univariate ERP analyses with time-resolved multivariate decoding to track neural responses during a 6-sec delay between odor presentation and visual memory encoding. We found that brief odor cues elicited sustained neural activity that persisted well beyond odor offset. Unpleasant odors, in particular, were associated with higher sustained ERP amplitudes compared with pleasant ones. Behaviorally, participants showed greater confidence in recognizing images that had been preceded by unpleasant odors, suggesting that even brief olfactory experiences can modulate memory encoding for temporally distant events. These findings demonstrate that brief olfactory cues have a lasting effect on both neural activity and subsequent memory performance.",
-      "author": "",
-      "published_date": "2025-11-07T13:16:23+00:00",
-      "source": "Cognitive Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 147,
-      "reading_time": 1,
-      "created_at": "2025-11-18T07:41:20.888314+00:00",
-      "updated_at": "2025-11-18T08:21:25.796948+00:00",
-      "metadata": {
-        "processed_at": "2025-11-18T08:21:25.796949+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "dc7ce2a8ec06e8af7eb9f14cdda9e2c2",
-      "url": "http://ieeexplore.ieee.org/document/11235893",
-      "title": "Incidental Encoding of Objects during Search Is Stronger Than Intentional Memorization due to Increased Recollection Rather Than Familiarity",
-      "content": "Most memory is not formed deliberately but as a by-product of natural behavior. These incidental representations, when generated during visual search, can be stronger than intentionally memorized content (search superiority effect). However, it is unknown if the search superiority effect is purely quantitative (stronger memory) or also driven by differences in the degrees of recollection and familiarity, two hallmark processes supporting recognition memory. Here, we use signal detection modeling, introspective judgments, event-related EEG potentials, and eye tracking measures to answer this question. In a preregistered study, 30 participants searched for objects in scenes and intentionally memorized others before completing a surprise recognition memory test. Behavioral data from remember\u2013know judgments and receiver operating characteristics indicate that search targets were more often recollected compared with intentionally memorized objects, whereas the two tasks did not lead to differences in familiarity. Surprisingly, the neural signatures did not fully align with the behavioral findings regarding recollection and familiarity. That is, both search targets and intentionally memorized objects elicited a more positive-going mid-frontal negativity peaking at around 400\u2009msec post stimulus onset (FN400), which is associated with familiarity, as well as a more positive-going parietal late component (LPC), indicative of recollection. Both components showed no differences between tasks, indicating equal contributions of recollection and familiarity to remembering searched and memorized objects. Furthermore, the LPC was, as expected, sensitive to differences between recollected and familiar objects when these were intentionally memorized, but it was not affected by these differences for searched objects. Overall, our findings indicate that search superiority relies predominantly on increased recollection. The fact that established neural markers of recollection (LPC) behaved as anticipated for intentionally memorized objects but carried no predictive power for incidentally memorized objects implies that memories established in more ecologically valid tasks might involve neural processes different from those activated in commonly used settings that are more reductionist.",
-      "author": "",
-      "published_date": "2025-11-07T13:16:23+00:00",
-      "source": "Cognitive Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 307,
-      "reading_time": 1,
-      "created_at": "2025-11-18T07:41:20.888283+00:00",
-      "updated_at": "2025-11-18T08:21:25.796952+00:00",
-      "metadata": {
-        "processed_at": "2025-11-18T08:21:25.796953+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c5a6fc34a9c14ac12b805c16e3e0c299",
-      "url": "http://ieeexplore.ieee.org/document/11235889",
-      "title": "On the Causal Role of the Right Lateral Prefrontal Cortex in Active Forgetting",
-      "content": "Extensive research has demonstrated that people can intentionally forget by inhibiting the retrieval of unwanted memories, a phenomenon known as suppression-induced forgetting (SIF). Although neuroimaging studies have linked retrieval suppression to the right lateral prefrontal cortex (LPFC), direct evidence for the causal role this region plays in supporting SIF is still lacking. In this registered report, our aim is putting to a strong empirical test such an idea by using cathodal transcranial direct current stimulation in a standard think/no-think procedure. Across two experiments, we will compare the SIF achieved by participants receiving cathodal transcranial direct current stimulation over the right LPFC\u2014which has been shown to disrupt prefrontally mediated inhibitory control\u2014with those receiving sham stimulation or cathodal stimulation over a control site. In addition, we will examine the lateralization of this effect by comparing stimulation of the right and left LPFC. Our results will provide novel and critical insights into the brain mechanisms of inhibitory control.",
-      "author": "",
-      "published_date": "2025-11-07T13:16:23+00:00",
-      "source": "Cognitive Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 155,
-      "reading_time": 1,
-      "created_at": "2025-11-18T07:41:20.888231+00:00",
-      "updated_at": "2025-11-18T07:41:20.888233+00:00"
     }
   ]
 }
