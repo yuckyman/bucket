@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-11-18T11:20:38.997380+00:00",
+  "last_updated": "2025-11-18T11:40:50.984310+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "b9e6ea7d5bd6f2d63cc2bac16466ab3b",
+      "url": "https://www.reddit.com/r/Python/comments/1ozf67i/project_virtualshell_keep_a_longlived_powershell/",
+      "title": "[Project] virtualshell - keep a long-lived PowerShell session inside Python",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I\u2019ve been working on a small side project called <strong>virtualshell</strong> and wanted to share it here in case it\u2019s useful to anyone mixing Python and PowerShell.</p> <p>Repo (source + docs): <a href=\"https://github.com/Chamoswor/virtualshell\">https://github.com/Chamoswor/virtualshell</a></p> <p>PyPI: <a href=\"https://pypi.org/project/virtualshell/\">https://pypi.org/project/virtualshell/</a></p> <h1>What My Project Does</h1> <p>In short: <strong>virtualshell lets Python talk to a persistent PowerShell process</strong>, instead of spawning a new one for every command.</p> <ul> <li>You <code>pip install virtualshell</code> and work with a <code>Shell</code> class from Python.</li> <li>Under the hood, a C++ backend manages a long-lived PowerShell process.</li> <li>State is preserved between calls (variables, functions, imported modules, env vars, etc.).</li> <li>It also has an optional <strong>zero-copy shared-memory bridge</strong> on Windows for moving large blobs/objects without re-serializing over stdout.</li> </ul> <p>Very minimal example:</p> <pre><code>from virtualshell import Shell with Shell(timeout_seconds=5, set_UTF8=True) as sh: result = sh.run(&quot;Get-Date&quot;) print(result.out.strip(), result.exit_code) # State is kept between calls: sh.run(&quot;$global:counter++&quot;) print(sh.run(&quot;$counter&quot;).out.strip()) </code></pre> <p>From the Python side you mainly get:</p> <ul> <li><code>Shell.run()</code> / <code>run_async()</code> / <code>script()</code> / <code>script_async()</code> - run commands or scripts, sync or async</li> <li>Structured result objects: <code>out</code>, <code>err</code>, <code>exit_code</code>, <code>ok</code>, <code>duration_ms</code></li> <li>Config options for which host to use (<code>pwsh</code> vs <code>powershell.exe</code>), working directory, env, etc.</li> <li>Zero-copy helpers for sending/receiving big byte buffers or serialized PowerShell objects (Windows only for now)</li> </ul> <h1>Target Audience</h1> <p>This is <strong>not</strong> meant as a big \u201cframework\u201d, more like a glue tool for a fairly specific niche:</p> <ul> <li>People using <strong>Python as the main orchestrator</strong>, but who still rely on PowerShell for: <ul> <li>existing scripts/modules</li> <li>Windows automation tasks</li> <li>Dev/ops tooling that is already PowerShell-centric</li> </ul></li> <li>Long-running services, data pipelines, or test harnesses that: <ul> <li>don\u2019t want to pay the cost of starting a new PowerShell process each time</li> <li>want to keep session state alive across many calls</li> </ul></li> <li>Windows users who occasionally need to move <strong>large amounts of data</strong> between PowerShell and Python and care about overhead.</li> </ul> <p>At this stage I still consider it a <strong>serious side project / early-stage library</strong>: it\u2019s usable, but I fully expect rough edges and would not claim it\u2019s \u201cbattle-tested in production\u201d yet.</p> <h1>Comparison (How It Differs From Existing Alternatives)</h1> <p>There are already several ways to use PowerShell from Python, so this is just another take on the problem:</p> <ul> <li><strong>vs. plain</strong> <code>subprocess</code> <strong>calls</strong> <ul> <li>With <code>subprocess.run(&quot;pwsh \u2026&quot;)</code> you pay process start-up cost and lose state after each call.</li> <li>virtualshell keeps a <strong>single long-lived process</strong> and tracks commands, timing, and exit codes in a higher-level API.</li> </ul></li> <li><strong>vs. using PowerShell only / no Python</strong> <ul> <li>If your main logic/tooling is in Python (data processing, web services, tests), this lets you call into PowerShell where it makes sense without switching your whole stack.</li> </ul></li> <li><strong>vs. other interop solutions (e.g., COM, pythonnet, remoting libraries, etc.)</strong> <ul> <li>Those are great for deep integration or remoting scenarios.</li> <li>My focus here is a <strong>simple, local, script-friendly API</strong>: <code>Shell.run()</code>, structured results, and an optional performance path (shared memory) when you need to move bigger payloads.</li> </ul></li> </ul> <p>Performance-wise, the zero-copy path is mainly there to avoid serializing tens of MB through stdout/stderr. It\u2019s still early, so I\u2019m very interested in real-world benchmarks from other machines and setups.</p> <p>If anyone has feedback on:</p> <ul> <li>parts of the API that feel un-Pythonic,</li> <li>missing use cases I haven\u2019t thought about, or</li> <li>things that would make it safer/easier to adopt in real projects,</li> </ul> <p>I\u2019d really appreciate it.</p> <p>Again, the source and docs are here: <a href=\"https://github.com/Chamoswor/virtualshell\">https://github.com/Chamoswor/virtualshell</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Chamoswor\"> /u/Chamoswor </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ozf67i/project_virtualshell_keep_a_longlived_powershell/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ozf67i/project_virtualshell_keep_a_longlived_powershell/\">[comments]</a></span>",
+      "author": "/u/Chamoswor",
+      "published_date": "2025-11-17T12:38:39+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 580,
+      "reading_time": 2,
+      "created_at": "2025-11-18T11:39:45.806744+00:00",
+      "updated_at": "2025-11-18T11:39:45.806745+00:00"
+    },
+    {
+      "id": "3223e2c1094b531362438c3b66ba2568",
+      "url": "https://jerf.org/iri/post/2025/the_uselessness_of_fast/",
+      "title": "The Uselessness of \"Fast\" and \"Slow\" in Programming",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45895427\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-12T01:41:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-18T11:39:44.630198+00:00",
+      "updated_at": "2025-11-18T11:39:44.630200+00:00"
+    },
+    {
+      "id": "83eef8b1a6ca2f80e9950d044ab14bbb",
+      "url": "https://www.cloudflarestatus.com/?t=1",
+      "title": "Cloudflare, X, More are down",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45963780\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-18T11:35:10+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-18T11:39:44.630049+00:00",
+      "updated_at": "2025-11-18T11:39:44.630050+00:00"
+    },
     {
       "id": "e6328f705ac778fbff44d05f5fe11ef3",
       "url": "https://www.nature.com/articles/s41593-025-02114-x",
@@ -293,62 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-11-18T08:28:32.892204+00:00",
       "updated_at": "2025-11-18T08:28:32.892206+00:00"
-    },
-    {
-      "id": "eddda981e8607a529c6bdc319b5ea621",
-      "url": "http://doi.org/10.1037/cns0000355",
-      "title": "Attention and body awareness: The role of inhibition and the management of cognitive resources in the perception of spontaneous sensations.",
-      "content": "When the body is attended to and viewed, it appears that only a subset of bodily sensations enters awareness. Some of these sensations can be felt on the skin even though no stimulation triggers their perception: They are commonly referred to as spontaneous sensations (SPS). It is hypothesized that inhibition and the management of cognitive resources are involved in their perception through phenomena of amplification and suppression. However, the involvement of these processes in body awareness remains poorly understood. We investigated the relationship between attentional abilities and the perception of SPS in order to provide the further information regarding this matter. A dual-task paradigm involving visual search and auditory detection was used to assess attentional abilities prior to the investigation of SPS perceived when attending to the glabrous and visible surface of the hand. We found that difficulties in inhibiting distractors were associated with a lower perception of SPS, while difficulties in managing cognitive resources were associated with an increase in the frequency of SPS and a decrease in the perception of paresis-like SPS. This suggests that these attentional processes are involved separately in body awareness and allows us to discuss how attention contributes to the conscious awareness of the body. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2023-07-20T00:00:00+00:00",
-      "source": "Clinical Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 210,
-      "reading_time": 1,
-      "created_at": "2025-11-18T08:28:32.892167+00:00",
-      "updated_at": "2025-11-18T08:28:32.892169+00:00"
-    },
-    {
-      "id": "1348eff8059203eea8f1cf0c47dfeafd",
-      "url": "https://brain.ieee.org/podcasts/qa-with-dr-richard-carson-professor-of-biomedical-engineering-and-radiology-biomedical-imaging-yale-university-and-yale-school-of-medicine/",
-      "title": "Q&A with Dr. Richard Carson, Professor of Biomedical Engineering and Radiology & Biomedical Imaging, Yale University and Yale School of Medicine",
-      "content": "",
-      "author": "Adriel Carridice",
-      "published_date": "2025-11-04T18:24:59+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-11-18T07:41:26.821999+00:00",
-      "updated_at": "2025-11-18T08:21:25.796925+00:00",
-      "metadata": {
-        "processed_at": "2025-11-18T08:21:25.796935+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bad5757f306a00dd069fd23d649636a6",
-      "url": "http://ieeexplore.ieee.org/document/10856219",
-      "title": "IEEE Reviews in Biomedical Engineering (R-BME)",
-      "content": "null",
-      "author": "",
-      "published_date": "2025-01-28T13:17:19+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1,
-      "reading_time": 1,
-      "created_at": "2025-11-18T07:41:22.095249+00:00",
-      "updated_at": "2025-11-18T08:21:25.796939+00:00",
-      "metadata": {
-        "processed_at": "2025-11-18T08:21:25.796941+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
