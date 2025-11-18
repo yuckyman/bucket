@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-11-18T23:20:12.934543+00:00",
+  "last_updated": "2025-11-18T23:38:05.922132+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "c7a8413dafc627db6f4e6786de4c921f",
+      "url": "https://www.insanityworks.org/randomtangent/2025/11/14/monotype-font-licencing-shake-down",
+      "title": "Monotype font licencing shake-down",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45973261\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-18T22:42:45+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-18T23:36:54.696099+00:00",
+      "updated_at": "2025-11-18T23:36:54.696100+00:00"
+    },
+    {
+      "id": "c7a8413dafc627db6f4e6786de4c921f",
+      "url": "https://www.insanityworks.org/randomtangent/2025/11/14/monotype-font-licencing-shake-down",
+      "title": "Monotype font licencing shake-down",
+      "content": "<p>Article URL: <a href=\"https://www.insanityworks.org/randomtangent/2025/11/14/monotype-font-licencing-shake-down\">https://www.insanityworks.org/randomtangent/2025/11/14/monotype-font-licencing-shake-down</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45973261\">https://news.ycombinator.com/item?id=45973261</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "author": "evolve2k",
+      "published_date": "2025-11-18T22:42:45+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-18T23:36:53.378308+00:00",
+      "updated_at": "2025-11-18T23:36:53.378318+00:00"
+    },
     {
       "id": "4256ab1775a5fb663b6a5a6bd10501a9",
       "url": "https://www.biorxiv.org/content/10.1101/2025.11.18.688889v1?rss=1",
@@ -289,38 +321,6 @@
       "reading_time": 1,
       "created_at": "2025-11-18T22:21:11.155916+00:00",
       "updated_at": "2025-11-18T22:21:11.155917+00:00"
-    },
-    {
-      "id": "cbac7be4b361eca1655a562b4df239ea",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.18.688868v1?rss=1",
-      "title": "Scopolamine induced learning deficit in marmosets",
-      "content": "In monkeys, the muscarinic cholinergic receptor antagonist scopolamine is known to broadly disrupt learned behaviors, though the precise nature of the cognitive deficits has been questioned. Experimentally observable deficits in memory can be ascribed to poor attentional focusing, human interference as well as age, sex, and dosing regimen. Stress and social isolation can also play a role during behavioral testing, particularly in small nonhuman social primates like marmosets that have been used widely. In this study, we examine the effects of scopolamine in marmosets under conditions of reduced stress, attentional distraction, and human interference. Using a custom designed home-cage touchscreen-based testing system, we investigated the influence of scopolamine on the performance on a visual associative learning task. During self-paced, voluntary testing, monkeys learned to discriminate pairs of complex visual patterns through trial and error by touching the stimulus associated with reward. Using this approach, we demonstrated over 75% discrimination accuracy in the eight marmosets tested (male and female) within three days of home-cage testing. Although the averaged data revealed no impact of acute or chronic scopolamine injections on learning, modeling the choice data with trial-level analysis revealed both age- and sex-specific deficits. The results demonstrate the value of home-cage testing combined with trial-level analysis to reveal subtle behavioral changes, such as those brought about by scopolamine.",
-      "author": "Harkins, H. E., Christopher, K., Matrov, D., Ingram, I. D., Saglio, E. B., Dold, G. R., Chudasama, Y.",
-      "published_date": "2025-11-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 216,
-      "reading_time": 1,
-      "created_at": "2025-11-18T22:21:11.155873+00:00",
-      "updated_at": "2025-11-18T22:21:11.155875+00:00"
-    },
-    {
-      "id": "d9243ba8fa43f3bca4a868f8af5af036",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.18.689003v1?rss=1",
-      "title": "Fast and Easy Whole-Brain Network Model Parameter Estimation with Automatic Differentiation",
-      "content": "Personalized brain modeling at clinically relevant scales requires integrating biophysical models with empirical neuroimaging data, yet high-dimensional parameter estimation in whole-brain network models remains computationally prohibitive. We present TVB-Optim, an open-source Python library providing a general and extensible framework for gradient-based optimization of brain network models build on JAX. Leveraging automatic differentiation, we demonstrate direct optimization of thousands of parameters, from global coupling (N=2) to regional dynamics (N=168) to full structural connectivity matrices (N=14,028), across functional MRI and magnetoencephalography data. Forward simulations achieve 10x CPU speedup over reference implementations and scale efficiently to GPU and multi-device configurations. We establish best practices through documented workflows that combine coarse parameter space exploration with gradient refinement, often yielding superior solutions faster than gradient methods alone. By bridging mechanistic neuroscience with modern machine learning infrastructure, TVB-Optim enables large-scale personalized brain models, bringing computational neuroscience closer to clinical translation.",
-      "author": "Pille, M., Martin, L., Richter, E., Perdikis, D., Schirner, M., Ritter, P.",
-      "published_date": "2025-11-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 144,
-      "reading_time": 1,
-      "created_at": "2025-11-18T22:21:11.155831+00:00",
-      "updated_at": "2025-11-18T22:21:11.155833+00:00"
     }
   ]
 }
