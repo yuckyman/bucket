@@ -7,13 +7,17 @@
     "author": "Yuan Ma",
     "published_date": "2025-10-13T00:00:00+00:00",
     "source": "Frontiers Neurorobotics",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 190,
     "reading_time": 1,
     "created_at": "2025-11-20T17:41:03.187101+00:00",
-    "updated_at": "2025-11-20T17:41:03.187102+00:00"
+    "updated_at": "2025-11-20T18:22:23.740709+00:00",
+    "metadata": {
+      "processed_at": "2025-11-20T18:22:23.740717+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "a32ea48b60e8e1b7caf108c75272fe21",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": "2025-11-20T17:07:49+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2025-11-20T17:40:38.336213+00:00",
-    "updated_at": "2025-11-20T17:40:38.336215+00:00"
+    "updated_at": "2025-11-20T18:22:23.740722+00:00",
+    "metadata": {
+      "processed_at": "2025-11-20T18:22:23.740723+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "1906344a759d1ea101922c5dbefae7b1",
@@ -39,13 +47,17 @@
     "author": "",
     "published_date": "2025-11-20T16:41:31+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2025-11-20T17:40:38.336191+00:00",
-    "updated_at": "2025-11-20T17:40:38.336192+00:00"
+    "updated_at": "2025-11-20T18:22:23.740728+00:00",
+    "metadata": {
+      "processed_at": "2025-11-20T18:22:23.740730+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "c7ab4e9752836901396c2d9a4dee31a3",
@@ -55,45 +67,57 @@
     "author": "",
     "published_date": "2025-11-20T17:04:34+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2025-11-20T17:40:38.336075+00:00",
-    "updated_at": "2025-11-20T17:40:38.336077+00:00"
+    "updated_at": "2025-11-20T18:22:23.740732+00:00",
+    "metadata": {
+      "processed_at": "2025-11-20T18:22:23.740733+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "1906344a759d1ea101922c5dbefae7b1",
     "url": "https://github.com/telophasehq/tangent",
     "title": "Show HN: Tangent \u2013 Open-source security data pipeline",
-    "content": "<p>Hi HN! We\u2019re Ethan and Danny, the authors of Tangent (<a href=\"https://github.com/telophasehq/tangent\" rel=\"nofollow\">https://github.com/telophasehq/tangent</a>), a Rust-based log pipeline where all normalization, enrichment, and detection logic runs as WASM plugins.<p>We kept seeing the same problems in the OCSF (<a href=\"https://ocsf.io\" rel=\"nofollow\">https://ocsf.io</a>) community:\n1) Schemas change constantly. Large companies have whole teams dedicated to keeping vendor\u2192OCSF mappings up to date.\n2) There\u2019s no shared library of mappings, so everyone recreates the same work.\n3) Writing mappers is tedious, repetitive work.\n4) Most pipelines use proprietary DSLs that are hard to share and hard for tools/LLMs to generate.<p>Tangent takes a different approach: no DSLs \u2013 mappings and enrichments are just normal code compiled to WASM, shareable plugins \u2013 we maintain a community library (<a href=\"https://github.com/telophasehq/tangent-plugins\" rel=\"nofollow\">https://github.com/telophasehq/tangent-plugins</a>), interoperability \u2013 we can run other engines\u2019 DSLs (e.g., Bloblang) inside WASM for easy migration, full flexibility \u2013 plugins can validate schemas, call external APIs (<a href=\"https://github.com/telophasehq/tangent/blob/main/examples/enrichment/main.go#L58\" rel=\"nofollow\">https://github.com/telophasehq/tangent/blob/main/examples/en...</a>), or perform complex transforms (<a href=\"https://github.com/telophasehq/tangent-plugins/blob/main/zeek-ocsf/conn/main.go#L312\" rel=\"nofollow\">https://github.com/telophasehq/tangent-plugins/blob/main/zee...</a>).<p>Here's an example Python transformation plugin to drop all fields from a log except `message`:<p><pre><code>  import json\n  \n  from typing import List\n  \n  from wit_world.imports import log\n  \n  # `log.Logview` is Tangent's zero-copy JSON accessor type.\n  \n  def process_logs(self, logs: List[log.Logview]) -> bytes:\n  \n      out = bytearray()\n  \n      for lv in logs:\n  \n          msg = lv.get(\"msg\")\n  \n          value = msg.value if msg is not None else \"\"\n  \n          out.extend(json.dumps({\"message\": value}).encode() + b\"\\n\")\n  \n      return bytes(out)\n</code></pre>\nWe have plenty more examples in the repo.<p>Because plugins are just Go/Python/Rust, LLMs can create new mappers with ease. For example, I asked:<p><pre><code>  Generate a mapper from AWS Security Hub Finding to OCSF\n</code></pre>\nand only had to make a few minor tweaks. (<a href=\"https://github.com/telophasehq/tangent-plugins/blob/main/aws-ocsf/security_hub/main.go\" rel=\"nofollow\">https://github.com/telophasehq/tangent-plugins/blob/main/aws...</a>)<p>Performance-wise, a 16-core Amazon Linux box processes ~480 MB/s end-to-end (TCP \u2192 Rust-WASM transform \u2192 sink) on ~100-byte JSON logs. The CLI includes tooling to scaffold, test, and benchmark plugins locally.<p>We\u2019d love to get your feedback! What do you think?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45994592\">https://news.ycombinator.com/item?id=45994592</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-    "author": "ethanblackburn",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=45994592\">Comments</a>",
+    "author": "",
     "published_date": "2025-11-20T16:41:31+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 318,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2025-11-20T17:40:36.994236+00:00",
-    "updated_at": "2025-11-20T17:40:36.994238+00:00"
+    "created_at": "2025-11-20T17:40:38.336191+00:00",
+    "updated_at": "2025-11-20T18:22:23.740728+00:00",
+    "metadata": {
+      "processed_at": "2025-11-20T18:22:23.740730+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "c7ab4e9752836901396c2d9a4dee31a3",
     "url": "https://blog.google/products/android/quick-share-airdrop/",
     "title": "Android and iPhone users can now share files, starting with the Pixel 10 family",
-    "content": "<p>Article URL: <a href=\"https://blog.google/products/android/quick-share-airdrop/\">https://blog.google/products/android/quick-share-airdrop/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45994854\">https://news.ycombinator.com/item?id=45994854</a></p>\n<p>Points: 29</p>\n<p># Comments: 16</p>",
-    "author": "abraham",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=45994854\">Comments</a>",
+    "author": "",
     "published_date": "2025-11-20T17:04:34+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2025-11-20T17:40:36.994159+00:00",
-    "updated_at": "2025-11-20T17:40:36.994168+00:00"
+    "created_at": "2025-11-20T17:40:38.336075+00:00",
+    "updated_at": "2025-11-20T18:22:23.740732+00:00",
+    "metadata": {
+      "processed_at": "2025-11-20T18:22:23.740733+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "235e933b4b648cdd90b218427484133a",
