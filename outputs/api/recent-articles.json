@@ -1,7 +1,87 @@
 {
-  "last_updated": "2025-11-20T14:15:59.921762+00:00",
+  "last_updated": "2025-11-20T14:22:38.138278+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "9ffbd5ed1631c09b0156119fd3a42d2f",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006109?dgcid=rss_sd_all",
+      "title": "Next-generation neurotherapeutics: mechanistic insights on monoclonal antibodies in Alzheimer\u2019s disease",
+      "content": "<p>Publication date: 1 January 2026</p><p><b>Source:</b> Brain Research, Volume 1870</p><p>Author(s): Akhil Sharma, Thakur Gurjeet Singh</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 14,
+      "reading_time": 1,
+      "created_at": "2025-11-20T14:22:05.384028+00:00",
+      "updated_at": "2025-11-20T14:22:05.384042+00:00"
+    },
+    {
+      "id": "7a8f872dd63b73ffd0ee7fcd46bc06a5",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1706099",
+      "title": "CNN-based framework for Alzheimer's disease detection from EEG via dynamic mode decomposition",
+      "content": "Alzheimer's disease (AD) and frontotemporal dementia (FTD) are major neurodegenerative disorders with characteristic EEG alterations. While most prior studies have focused on eyes-closed (EC) EEG, where stable alpha rhythms support relatively high classification performance, eyes-open (EO) EEG has proven particularly challenging for AD, as low-frequency instability obscures the typical spectral alterations. In contrast, FTD often remains more discriminable under EO conditions, reflecting distinct neurophysiological dynamics between the two disorders. To address this challenge, we propose a CNN-based framework that applies Dynamic Mode Decomposition (DMD) to segment EO EEG into shorter temporal windows and employs a 3D CNN to capture spatio-temporal-spectral representations. This approach outperformed not only the conventional short-epoch spectral ML pipeline but also the same CNN architecture trained on FFT-based features, with particularly pronounced improvements observed in AD classification. Excluding delta yielded small gains in AD-involving contrasts, whereas FTD/CN was unchanged or slightly better with delta retained\u2014suggesting delta is more perturbative in AD under EO conditions.",
+      "author": "Jong-Hyeon Seo",
+      "published_date": "2025-11-20T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 157,
+      "reading_time": 1,
+      "created_at": "2025-11-20T14:21:51.607824+00:00",
+      "updated_at": "2025-11-20T14:21:51.607829+00:00"
+    },
+    {
+      "id": "f1a2ed2e07e21c6f348619531d7fc139",
+      "url": "https://chronodivide.com/",
+      "title": "Red Alert 2 in web browser",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45991853\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-20T12:21:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-20T14:21:17.431270+00:00",
+      "updated_at": "2025-11-20T14:21:17.431271+00:00"
+    },
+    {
+      "id": "f1a2ed2e07e21c6f348619531d7fc139",
+      "url": "https://chronodivide.com/",
+      "title": "Red Alert 2 in web browser",
+      "content": "<p>Article URL: <a href=\"https://chronodivide.com/\">https://chronodivide.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45991853\">https://news.ycombinator.com/item?id=45991853</a></p>\n<p>Points: 19</p>\n<p># Comments: 1</p>",
+      "author": "nsoonhui",
+      "published_date": "2025-11-20T12:21:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-20T14:21:16.195334+00:00",
+      "updated_at": "2025-11-20T14:21:16.195335+00:00"
+    },
+    {
+      "id": "4b19afac5fb10728d7b47c462dde6a17",
+      "url": "https://www.theguardian.com/education/2025/nov/20/university-of-staffordshire-course-taught-in-large-part-by-ai-artificial-intelligence",
+      "title": "Students fight back over course taught by AI",
+      "content": "<p>Article URL: <a href=\"https://www.theguardian.com/education/2025/nov/20/university-of-staffordshire-course-taught-in-large-part-by-ai-artificial-intelligence\">https://www.theguardian.com/education/2025/nov/20/university-of-staffordshire-course-taught-in-large-part-by-ai-artificial-intelligence</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45992304\">https://news.ycombinator.com/item?id=45992304</a></p>\n<p>Points: 22</p>\n<p># Comments: 4</p>",
+      "author": "level87",
+      "published_date": "2025-11-20T13:24:48+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-20T14:21:16.195305+00:00",
+      "updated_at": "2025-11-20T14:21:16.195314+00:00"
+    },
     {
       "id": "2b2eda27ea599c59d0aca62f05e4d856",
       "url": "https://www.nature.com/articles/s41598-025-24966-w",
@@ -103,6 +183,26 @@
       }
     },
     {
+      "id": "3b83a2fc14aeb83943d9107b02811824",
+      "url": "https://www.npr.org/2025/11/18/nx-s1-5564064/calvin-and-hobbes-bill-watterson-40-years-comic-strip-lee-salem",
+      "title": "40 years ago, Calvin and Hobbes' raucous adventures burst onto the comics page",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45991787\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-20T12:08:56+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-20T13:30:55.249085+00:00",
+      "updated_at": "2025-11-20T14:15:59.830102+00:00",
+      "metadata": {
+        "processed_at": "2025-11-20T14:15:59.830104+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "1f2230720d3e2fcfd6a60d34b831d27f",
       "url": "https://arxiv.org/abs/2511.15304",
       "title": "Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in LLMs",
@@ -133,26 +233,6 @@
       "reading_time": 1,
       "created_at": "2025-11-20T13:30:53.866452+00:00",
       "updated_at": "2025-11-20T13:30:53.866454+00:00"
-    },
-    {
-      "id": "3b83a2fc14aeb83943d9107b02811824",
-      "url": "https://www.npr.org/2025/11/18/nx-s1-5564064/calvin-and-hobbes-bill-watterson-40-years-comic-strip-lee-salem",
-      "title": "40 years ago, Calvin and Hobbes' raucous adventures burst onto the comics page",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45991787\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-20T12:08:56+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-20T13:30:55.249085+00:00",
-      "updated_at": "2025-11-20T14:15:59.830102+00:00",
-      "metadata": {
-        "processed_at": "2025-11-20T14:15:59.830104+00:00",
-        "processing_method": "github_actions"
-      }
     },
     {
       "id": "d3cd3add471616f2a7f3f9bef0d8779e",
@@ -269,102 +349,6 @@
         "processed_at": "2025-11-20T12:31:15.554268+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "860656dc913e45f35a988eda929a6f57",
-      "url": "https://www.nature.com/articles/s41598-025-24675-4",
-      "title": "snRNA-seq reveals key transcription factors in the inflammatory response of microglia after intracerebral hemorrhage",
-      "content": "",
-      "author": "",
-      "published_date": "2025-11-20T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-11-20T11:19:18.461215+00:00",
-      "updated_at": "2025-11-20T12:31:15.554272+00:00",
-      "metadata": {
-        "processed_at": "2025-11-20T12:31:15.554274+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "84c07d4253ee3d4b37d8715800531ed4",
-      "url": "https://www.nature.com/articles/s41598-025-24837-4",
-      "title": "Deep oscillatory neural network",
-      "content": "",
-      "author": "",
-      "published_date": "2025-11-20T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-11-20T11:19:18.461198+00:00",
-      "updated_at": "2025-11-20T12:31:15.554276+00:00",
-      "metadata": {
-        "processed_at": "2025-11-20T12:31:15.554278+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9140d880c838442e41dd1537b68cce95",
-      "url": "https://www.nature.com/articles/s41598-025-24702-4",
-      "title": "Deep learning and whole-brain networks for biomarker discovery: modeling the dynamics of brain fluctuations in resting-state and cognitive tasks",
-      "content": "",
-      "author": "",
-      "published_date": "2025-11-20T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-11-20T11:19:18.461182+00:00",
-      "updated_at": "2025-11-20T12:31:15.554280+00:00",
-      "metadata": {
-        "processed_at": "2025-11-20T12:31:15.554282+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2490c673de9d91cbee8ffd297fe6a656",
-      "url": "https://www.nature.com/articles/s41598-025-24827-6",
-      "title": "CD200R1 modulates myelin phagocytosis and spleen response following spinal cord injury",
-      "content": "",
-      "author": "",
-      "published_date": "2025-11-20T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-11-20T11:19:18.461165+00:00",
-      "updated_at": "2025-11-20T12:31:15.554284+00:00",
-      "metadata": {
-        "processed_at": "2025-11-20T12:31:15.554285+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "b717590bc87a4a8c13bbe9b73c23a9af",
-      "url": "https://www.nature.com/articles/s41598-025-24688-z",
-      "title": "Effectiveness of transcranial direct current stimulation on emotional instability and impulsivity in atypical depression and bipolar II disorder",
-      "content": "",
-      "author": "",
-      "published_date": "2025-11-20T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-11-20T11:19:18.461148+00:00",
-      "updated_at": "2025-11-20T11:19:18.461149+00:00"
     }
   ]
 }
