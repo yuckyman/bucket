@@ -1,5 +1,37 @@
 [
   {
+    "id": "ba30d6508cfcbc3b45a1ef17dbc9a457",
+    "url": "https://www.nature.com/articles/s41467-025-66354-y",
+    "title": "Vulnerability to memory decline in aging revealed by a mega-analysis of structural brain change",
+    "content": "",
+    "author": "",
+    "published_date": "2025-11-21T00:00:00+00:00",
+    "source": "Nature Neuroscience Subjects",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2025-11-22T06:49:41.050702+00:00",
+    "updated_at": "2025-11-22T06:49:41.050704+00:00"
+  },
+  {
+    "id": "45271a80a221a35912e75ec358f4cf54",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1633273",
+    "title": "Generation of synthetic TSPO PET maps from structural MRI images",
+    "content": "IntroductionNeuroinflammation, a pathophysiological process involved in numerous disorders, is typically imaged using [11C]PBR28 (or TSPO) PET. However, this technique is limited by high costs and ionizing radiation, restricting its widespread clinical use. MRI, a more accessible alternative, is commonly used for structural or functional imaging, but when used using traditional approaches has limited sensitivity to specific molecular processes. This study aims to develop a deep learning model to generate TSPO PET images from structural MRI data collected in human subjects.MethodsA total of 204 scans, from participants with knee osteoarthritis (n\u202f=\u202f15 scanned once, 15 scanned twice, 14 scanned three times), back pain (n\u202f=\u202f40 scanned twice, 3 scanned three times), and healthy controls (n\u202f=\u202f28, scanned once), underwent simultaneous 3\u202fT MRI and [11C]PBR28 TSPO PET scans. A 3D U-Net model was trained on 80% of these PET-MRI pairs and validated using 5-fold cross-validation. The model\u2019s accuracy in reconstructed PET from MRI only was assessed using various intensity and noise metrics.ResultsThe model achieved a low voxel-wise mean squared error (0.0033\u202f\u00b1\u202f0.0010) across all folds and a median contrast-to-noise ratio of 0.0640\u202f\u00b1\u202f0.2500 when comparing true to reconstructed PET images. The synthesized PET images accurately replicated the spatial patterns observed in the original PET data. Additionally, the reconstruction accuracy was maintained even after spatial normalization.DiscussionThis study demonstrates that deep learning can accurately synthesize TSPO PET images from conventional, T1-weighted MRI. This approach could enable low-cost, noninvasive neuroinflammation imaging, expanding the clinical applicability of this imaging method.",
+    "author": "Marco L. Loggia",
+    "published_date": "2025-09-08T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 250,
+    "reading_time": 1,
+    "created_at": "2025-11-22T06:49:34.348206+00:00",
+    "updated_at": "2025-11-22T06:49:34.348207+00:00"
+  },
+  {
     "id": "f9530e3050f923575fe3d17cac971c87",
     "url": "https://www.biorxiv.org/content/10.1101/2025.11.21.689701v1?rss=1",
     "title": "Hippocampal sequences traverse a memory space",
@@ -17082,37 +17114,5 @@
     "reading_time": 1,
     "created_at": "2025-11-17T23:19:03.351440+00:00",
     "updated_at": "2025-11-17T23:19:03.351448+00:00"
-  },
-  {
-    "id": "f3ee81748b72f618d907f5bb08738130",
-    "url": "https://www.sciencedirect.com/science/article/pii/S0306452225010310?dgcid=rss_sd_all",
-    "title": "Mental health and subjective well-being of trans and non-binary population in Colombia",
-    "content": "<p>Publication date: 5 December 2025</p><p><b>Source:</b> Neuroscience, Volume 590</p><p>Author(s): Mar\u00eda Fernanda Reyes, Natalie Levy, Daniela Maldonado Salamanca, Minna Lyons, Juan-David Leong\u00f3mez</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Neuroscience Journal",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 20,
-    "reading_time": 1,
-    "created_at": "2025-11-17T22:43:20.026967+00:00",
-    "updated_at": "2025-11-17T22:43:20.026969+00:00"
-  },
-  {
-    "id": "01c2974d9c0475f1e747f064d64c3438",
-    "url": "http://www.jneurosci.org/cgi/content/short/45/42/etwij45422025?rss=1",
-    "title": "This Week in The Journal",
-    "content": "",
-    "author": "McKeon, P.",
-    "published_date": "2025-10-15T16:30:28+00:00",
-    "source": "Journal Neuroscience This Week",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2025-11-17T22:43:12.723937+00:00",
-    "updated_at": "2025-11-17T22:43:12.723938+00:00"
   }
 ]
