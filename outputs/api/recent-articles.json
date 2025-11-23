@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-11-23T22:43:05.998353+00:00",
+  "last_updated": "2025-11-23T23:19:56.928032+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "7fd4941751f22657cb043e50f24498f4",
+      "url": "https://www.reddit.com/r/Python/comments/1p4x3zt/introducing_mactoast_lightweight_customizable/",
+      "title": "\ud83d\ude80 Introducing MacToast: Lightweight, customizable toast notifications for macOS",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p><strong>mactoast</strong> is a small Python library that displays clean, modern toast-style notifications on macOS.<br /> It aims to provide an easy way for scripts, tools, automations, and CLI apps to give lightweight visual feedback\u2014without relying on full macOS Notification Center alerts.</p> <p>Key features:</p> <ul> <li>\ud83d\udfe6 Minimal, borderless toast UI (color, size, transparency customizable)</li> <li>\u26a1 One-line usage \u2014 <code>toast(&quot;Hello&quot;)</code></li> <li>\ud83e\udde9 Helper functions like <code>show_success()</code> and <code>show_error()</code></li> <li>\ud83d\udd00 Non-blocking mode so your script keeps running while the toast appears</li> <li>\ud83c\udf4e macOS-native window</li> </ul> <p>It\u2019s designed to feel like the lightweight snackbars you see in modern UIs\u2014simple and unobtrusive. I was inspired by Raycast's compact output for command scripts.</p> <p>Link: <a href=\"https://github.com/rafa-rrayes/mactoast\">https://github.com/rafa-rrayes/mactoast</a></p> <p>To install it:</p> <p><code>pip install mactoast</code></p> <p>Usage:</p> <pre><code>import mactoast mactoast.toast(&quot;hello world!&quot;) </code></pre> <p>Its that easy!</p> <h1>Target Audience</h1> <p>mactoast is intended for:</p> <ul> <li><strong>Developers working on macOS</strong> who want simple, lightweight feedback from scripts or tools</li> <li><strong>CLI/terminal users</strong> who want visual cues without printing more text</li> <li><strong>Automation workflows</strong> (e.g., cron jobs, personal scripts) that need a small \u201cdone\u201d or \u201cerror\u201d popup</li> <li><strong>Prototype and hobby projects</strong>, though the library is stable enough to be used in small production utilities</li> </ul> <p>It is <strong>not</strong> designed to replace macOS system notifications or handle interactive/clickable alerts.<br /> Its focus is purely aesthetic, quick visual feedback.</p> <h1>Comparison</h1> <p>Existing options for Python notifications on macOS tend to fall into two categories:</p> <h1>1. System-level notifications (e.g., osascript, pync)</h1> <p>These integrate with the macOS Notification Center.<br /> They\u2019re great for long-lived, system-tracked alerts\u2014but:</p> <ul> <li>They require user permission</li> <li>They appear in Notification Center clutter</li> <li>They don\u2019t support custom UI styling</li> <li>They can be slow to display <em>mactoast</em> avoids all of that by using a lightweight custom toast window that appears instantly and disappears cleanly.</li> </ul> <h1>2. GUI frameworks (Tkinter, PyQt, etc.)</h1> <p>You <em>can</em> build custom popups with them, but they:</p> <ul> <li>Require full GUI framework dependencies</li> <li>Aren\u2019t visually consistent with macOS</li> <li>Need more code just to show a tiny message <em>mactoast</em> provides a prebuilt, macOS-native toast that requires <strong>zero GUI setup</strong>.</li> </ul> <h1>How mactoast differs</h1> <ul> <li>\ud83c\udf4f macOS-native window, no external GUI frameworks</li> <li>\ud83c\udfa8 Highly customizable (shape, color, duration, font, position)</li> <li>\u26a1 Extremely lightweight, minimal dependencies</li> <li>\ud83e\uddf1 Dead simple API, built specifically for quick notifications</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rafa_rrayes\"> /u/rafa_rrayes </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p4x3zt/introducing_mactoast_lightweight_customizable/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p4x3zt/introducing_mactoast_lightweight_customizable/\">[comments]</a></span>",
+      "author": "/u/rafa_rrayes",
+      "published_date": "2025-11-23T20:31:03+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 391,
+      "reading_time": 1,
+      "created_at": "2025-11-23T23:18:53.851274+00:00",
+      "updated_at": "2025-11-23T23:18:53.851277+00:00"
+    },
+    {
+      "id": "331c01fdd1c04ce0d5333636e7b341c7",
+      "url": "https://github.com/coder/mux",
+      "title": "A desktop app for isolated, parallel agentic development",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46027947\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-23T22:24:23+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-23T23:18:52.686019+00:00",
+      "updated_at": "2025-11-23T23:18:52.686020+00:00"
+    },
     {
       "id": "d6901aee2731341f95238ab326e89b48",
       "url": "https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html",
@@ -299,46 +331,6 @@
       "updated_at": "2025-11-23T22:14:03.267516+00:00",
       "metadata": {
         "processed_at": "2025-11-23T22:14:03.267517+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9b9b9688b1b7ad0daae0d07393c16aad",
-      "url": "http://ieeexplore.ieee.org/document/11245797",
-      "title": "Front Cover",
-      "content": "null",
-      "author": "",
-      "published_date": "2025-11-13T13:16:42+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1,
-      "reading_time": 1,
-      "created_at": "2025-11-23T21:39:24.184165+00:00",
-      "updated_at": "2025-11-23T22:14:03.267519+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T22:14:03.267524+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2daff5fb9c068eee0a96532980eecc75",
-      "url": "https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/",
-      "title": "780k Windows Users Downloaded Linux Distro Zorin OS in the Last 5 Weeks",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46026579\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-23T19:38:15+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-23T21:38:27.268418+00:00",
-      "updated_at": "2025-11-23T22:14:03.267526+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T22:14:03.267528+00:00",
         "processing_method": "github_actions"
       }
     }

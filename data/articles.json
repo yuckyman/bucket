@@ -1,5 +1,37 @@
 [
   {
+    "id": "7fd4941751f22657cb043e50f24498f4",
+    "url": "https://www.reddit.com/r/Python/comments/1p4x3zt/introducing_mactoast_lightweight_customizable/",
+    "title": "\ud83d\ude80 Introducing MacToast: Lightweight, customizable toast notifications for macOS",
+    "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p><strong>mactoast</strong> is a small Python library that displays clean, modern toast-style notifications on macOS.<br /> It aims to provide an easy way for scripts, tools, automations, and CLI apps to give lightweight visual feedback\u2014without relying on full macOS Notification Center alerts.</p> <p>Key features:</p> <ul> <li>\ud83d\udfe6 Minimal, borderless toast UI (color, size, transparency customizable)</li> <li>\u26a1 One-line usage \u2014 <code>toast(&quot;Hello&quot;)</code></li> <li>\ud83e\udde9 Helper functions like <code>show_success()</code> and <code>show_error()</code></li> <li>\ud83d\udd00 Non-blocking mode so your script keeps running while the toast appears</li> <li>\ud83c\udf4e macOS-native window</li> </ul> <p>It\u2019s designed to feel like the lightweight snackbars you see in modern UIs\u2014simple and unobtrusive. I was inspired by Raycast's compact output for command scripts.</p> <p>Link: <a href=\"https://github.com/rafa-rrayes/mactoast\">https://github.com/rafa-rrayes/mactoast</a></p> <p>To install it:</p> <p><code>pip install mactoast</code></p> <p>Usage:</p> <pre><code>import mactoast mactoast.toast(&quot;hello world!&quot;) </code></pre> <p>Its that easy!</p> <h1>Target Audience</h1> <p>mactoast is intended for:</p> <ul> <li><strong>Developers working on macOS</strong> who want simple, lightweight feedback from scripts or tools</li> <li><strong>CLI/terminal users</strong> who want visual cues without printing more text</li> <li><strong>Automation workflows</strong> (e.g., cron jobs, personal scripts) that need a small \u201cdone\u201d or \u201cerror\u201d popup</li> <li><strong>Prototype and hobby projects</strong>, though the library is stable enough to be used in small production utilities</li> </ul> <p>It is <strong>not</strong> designed to replace macOS system notifications or handle interactive/clickable alerts.<br /> Its focus is purely aesthetic, quick visual feedback.</p> <h1>Comparison</h1> <p>Existing options for Python notifications on macOS tend to fall into two categories:</p> <h1>1. System-level notifications (e.g., osascript, pync)</h1> <p>These integrate with the macOS Notification Center.<br /> They\u2019re great for long-lived, system-tracked alerts\u2014but:</p> <ul> <li>They require user permission</li> <li>They appear in Notification Center clutter</li> <li>They don\u2019t support custom UI styling</li> <li>They can be slow to display <em>mactoast</em> avoids all of that by using a lightweight custom toast window that appears instantly and disappears cleanly.</li> </ul> <h1>2. GUI frameworks (Tkinter, PyQt, etc.)</h1> <p>You <em>can</em> build custom popups with them, but they:</p> <ul> <li>Require full GUI framework dependencies</li> <li>Aren\u2019t visually consistent with macOS</li> <li>Need more code just to show a tiny message <em>mactoast</em> provides a prebuilt, macOS-native toast that requires <strong>zero GUI setup</strong>.</li> </ul> <h1>How mactoast differs</h1> <ul> <li>\ud83c\udf4f macOS-native window, no external GUI frameworks</li> <li>\ud83c\udfa8 Highly customizable (shape, color, duration, font, position)</li> <li>\u26a1 Extremely lightweight, minimal dependencies</li> <li>\ud83e\uddf1 Dead simple API, built specifically for quick notifications</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rafa_rrayes\"> /u/rafa_rrayes </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p4x3zt/introducing_mactoast_lightweight_customizable/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p4x3zt/introducing_mactoast_lightweight_customizable/\">[comments]</a></span>",
+    "author": "/u/rafa_rrayes",
+    "published_date": "2025-11-23T20:31:03+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 391,
+    "reading_time": 1,
+    "created_at": "2025-11-23T23:18:53.851274+00:00",
+    "updated_at": "2025-11-23T23:18:53.851277+00:00"
+  },
+  {
+    "id": "331c01fdd1c04ce0d5333636e7b341c7",
+    "url": "https://github.com/coder/mux",
+    "title": "A desktop app for isolated, parallel agentic development",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46027947\">Comments</a>",
+    "author": "",
+    "published_date": "2025-11-23T22:24:23+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-11-23T23:18:52.686019+00:00",
+    "updated_at": "2025-11-23T23:18:52.686020+00:00"
+  },
+  {
     "id": "d6901aee2731341f95238ab326e89b48",
     "url": "https://www.nytimes.com/2025/11/18/climate/iowa-city-free-buses.html",
     "title": "Iowa City Made Its Buses Free. Traffic Cleared, and So Did the Air",
@@ -17222,37 +17254,5 @@
     "reading_time": 1,
     "created_at": "2025-11-19T03:13:30.186376+00:00",
     "updated_at": "2025-11-19T03:13:30.186377+00:00"
-  },
-  {
-    "id": "ac7decbcc38edfd00e2326dcc452e934",
-    "url": "https://www.biorxiv.org/content/10.1101/2025.11.18.689075v1?rss=1",
-    "title": "Machine-Learning Classification of Motor Unit Types in the Adult Mouse",
-    "content": "The diversity of motor units arises from differences in the contractile properties of muscle fibers and the intrinsic electrical properties of their motoneurons. In mice, however, this relationship has not been quantitatively defined, and conventional classification often relies on subjective thresholds. Here, we combined in vivo intracellular recordings with supervised and unsupervised machine-learning methods to test whether motoneuron electrophysiology can predict the physiological identity of mouse motor units. Unbiased clustering identified four groups corresponding to slow (S), fast fatigue-resistant (FR), intermediate (FI), and fast fatigable (FF) types. A multinomial logistic regression model performed well, with most errors occurring between FI and FF types, which showed substantial overlap. Reducing the task to three classes improved accuracy. Feature selection revealed that four electrophysiological properties (input conductance, rheobase, AHP duration, maximal frequency) were sufficient for high predictive performance. Overall, this study provides a quantitative description of mouse motor-unit properties and a framework for incorporating motor-unit diversity into future investigations of neuromuscular physiology and disease.",
-    "author": "Martinez-Silva, M. d. L., Ahorklo, R. M., Reedich, E. J., Imhoff-Manuel, R. D., Katenka, N., Manuel, M.",
-    "published_date": "2025-11-18T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 161,
-    "reading_time": 1,
-    "created_at": "2025-11-19T03:13:30.186327+00:00",
-    "updated_at": "2025-11-19T03:13:30.186329+00:00"
-  },
-  {
-    "id": "d329cbb4da8b20c392f8236f8d88ef82",
-    "url": "https://www.biorxiv.org/content/10.1101/2025.11.18.688816v1?rss=1",
-    "title": "Perceiving Instability: How Expectations Bias Sensorimotor Processing in Balance Control",
-    "content": "Maintaining balance requires rapid integration of sensory input with top-down sensorimotor predictions. Predictive coding frameworks posit that mismatches between the two (prediction errors) drive perceptual inference. Although these frameworks have helped explain perception in unisensory domains (e.g., vision, touch), it remains unclear whether such mechanisms govern perception in fast-acting sensorimotor systems like human balance. Using electroencephalography (EEG) and discrete postural perturbations, we independently manipulated expectations and sensory input by priming healthy adult participants to expect either small or large perturbations, while occasionally delivering expectancy-violating perturbations (i.e., perturbations were smaller or larger than expected). Subjective perception of instability was shaped by expectation alone, regardless of actual sensory input (i.e., perturbation magnitude). Similarly, both anticipatory pre-perturbation beta-band suppression and post-perturbation sensorimotor gamma increases were sensitive to expected perturbation magnitude. In contrast, both the balance N1 (a well-established stimulus-evoked cortical potential) and the objective postural responses of instability tracked actual perturbation magnitude alone. Crucially, neither perception, nor any of these early (commonly analysed) neural or behavioural markers, encoded prediction errors. These findings suggest that two distinct systems exist: one that is sensitive to top-down expectations and another that is driven by sensory input, independent of expectation or mismatches. These findings challenge the centrality of prediction error as a driver of perception in fast sensorimotor systems such as postural control, and offer insight into conditions marked by distorted bodily awareness during balance.",
-    "author": "Parr, J. V. V., Mills, R., Kal, E. C., Bronstein, A. M., Ellmers, T. J.",
-    "published_date": "2025-11-18T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 228,
-    "reading_time": 1,
-    "created_at": "2025-11-19T03:13:30.186293+00:00",
-    "updated_at": "2025-11-19T03:13:30.186295+00:00"
   }
 ]
