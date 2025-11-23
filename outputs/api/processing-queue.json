@@ -1,24 +1,8 @@
 {
-  "last_updated": "2025-11-23T06:21:56.182287+00:00",
-  "pending_count": 701,
-  "processed_count": 299,
+  "last_updated": "2025-11-23T08:19:10.689934+00:00",
+  "pending_count": 697,
+  "processed_count": 303,
   "pending_articles": [
-    {
-      "id": "5337b205c4628f088b467b7a428dd33b",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1655456",
-      "title": "Tuberous sclerosis complex, epilepsy, and the microbiota-gut-brain axis: a pilot study of shared and divergent microbial signatures",
-      "content": "ObjectiveTuberous sclerosis complex (TSC) presents with a broad clinical spectrum. While some individuals exhibit mild symptoms, most experience seizures and neuropsychiatric comorbidities. Emerging evidence suggests that both genetic and environmental factors, including gut microbiota, may influence epilepsy susceptibility. The microbiota\u2013gut\u2013brain axis (MGBA) is a key communication pathway through which intestinal microbes impact the central nervous system. Although the role of the MGBA in the pathogenesis of neurological diseases, particularly seizures, has been explored in both animal models and humans, data specific to TSC are lacking.MethodsIn this exploratory study, we assessed whether individuals with TSC (n\u202f=\u202f15) display a distinct gut microbial signature using V3\u2013V4 16S rRNA sequencing. Their profiles were compared with two control groups: 18 children with epilepsy (EPI) and 12 age- and sex-matched healthy controls (HC). Stool short-chain fatty acid (SCFA) levels and dietary intake were also evaluated.ResultsNo significant differences were observed among the three groups in dietary intake, SCFA and branched-chain fatty acid (BCFA) levels, or alpha-diversity. Beta-diversity analysis showed a non-significant trend toward clustering of TSC and EPI samples, indicating a shared microbial profile distinct from HC. Taxonomic analysis revealed a reduction in Firmicutes\u2014particularly the Ruminococcaceae family and the genus Gemmiger\u2014in both TSC and EPI groups, consistent with epilepsy-associated dysbiosis. Notably, the TSC group showed a specific enrichment in Akkermansiaceae, a feature also reported in other neurodevelopmental disorders such as CDKL5 deficiency disorder and cerebral palsy.SignificanceThese preliminary findings suggest that gut microbiota alterations may contribute to neuroinflammatory processes linked to epileptogenesis and comorbidities in TSC. Further studies are needed to validate these results and explore microbiota-based therapeutic strategies aimed at improving outcomes and quality of life for individuals with TSC and their caregivers.",
-      "author": "Elisa Borghi",
-      "published_date": "2025-11-18T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 278,
-      "reading_time": 1,
-      "created_at": "2025-11-23T03:28:40.111721+00:00",
-      "updated_at": "2025-11-23T03:28:40.111723+00:00"
-    },
     {
       "id": "e6f24815799a4d7726c605504a5cc515",
       "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae1bda",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2025-11-23T01:52:14.326268+00:00",
       "updated_at": "2025-11-23T01:52:14.326270+00:00"
+    },
+    {
+      "id": "879d08b3de9b1ebb57dd9a9b0cabad92",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.21.689724v1?rss=1",
+      "title": "Cannabis-enriched oral Actinomyces induces anxiety-like behavior via impairing mitochondria and GABA signaling",
+      "content": "The human oral microbiome is increasingly recognized as a contributor to brain health, yet its mechanisms remain unclear. Our previous work revealed that oral Actinomyces species was enriched in chronic cannabis smokers. Here, we show oral inoculation of cannabis use-associated Actinomyces species, especially A. meyeri, to wildtype C57BL/6 mice leads to anxiety-like behaviors, non-region-specific microglia activation, mitochondrial dysfunction, and reduced GABAergic neurotransmission, without evidence of bacterial translocation to the brain, neuroinflammation, and memory decline. Notably, Actinomyces species producing metabolites, i.e., arginine and argininosuccinate, were increased in both oral swabs and brain following inoculation in vivo. These Actinomyces species-producing metabolites induced mitochondrial dysfunction and oxidative stress in neurons in vitro, indicating a neuropathogenic role and aligning with reduced GABAergic neurotransmission in vivo. Together, these results suggest that oral cannabis-associated dysbiosis impacts behavior through mitochondrial stress and impaired inhibitory signaling, indicating the oral to brain metabolic axis is potentially consequential in neuropsychiatric disorders.",
+      "author": "Salman, T., Luo, Z., Johnson, D., Noorani, A. A., Wan, Z., Bordieanu, B., Ye, Z.-w., Penrod-Martin, R., Xian, H., Fitting, S., Kalivas, P., Jiang, W.",
+      "published_date": "2025-11-22T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 151,
+      "reading_time": 1,
+      "created_at": "2025-11-23T01:52:14.326229+00:00",
+      "updated_at": "2025-11-23T01:52:14.326232+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "cf2d922a8ed3d311db75aba101ce3c6e",
+      "url": "https://www.reddit.com/r/Python/comments/1p4ffmh/what_could_i_have_done_better_here/",
+      "title": "What could I have done better here?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I'm pretty new to Python, and actual scripting in general, and I just wanted to ask if I could have done anything better here. Any critiques?</p> <pre><code>import time import colorama from colorama import Fore, Style color = 'WHITE' colorvar2 = 'WHITE' #Reset colors print(Style.RESET_ALL) #Get current directory (for debugging) #print(os.getcwd()) #Startup message print(&quot;Welcome to the ASCII art reader. Please set the path to your ASCII art below.&quot;) #Bold text print(Style.BRIGHT) #User-defined file path path = input(Fore.BLUE + 'Please input the file path to your ASCII art: ') color = input('Please input your desired color (default: white): ' + Style.RESET_ALL) #If no ASCII art path specified if not path: print(Fore.RED + &quot;No ASCII art path specified, Exiting.&quot; + Style.RESET_ALL) time.sleep(2) exit() #If no color specified if not color: print(Fore.YELLOW + &quot;No color specified, defaulting to white.&quot; + Style.RESET_ALL) color = 'WHITE' #Reset colors print(Style.RESET_ALL) #The first variable is set to the user-defined &quot;color&quot; variable, except #uppercase, and the second variable sets &quot;colorvar&quot; to the colorama &quot;Fore.[COLOR]&quot; input, with #color being the user-defined color variable color2 = color.upper() colorvar = getattr(Fore, color2) #Set user-defined color print(colorvar) #Read and print the contents of the .txt file with open(path) as f: print(f.read()) #Reset colors print(Style.RESET_ALL) #Press any key to close the program (this stops the terminal from closing immediately input(&quot;Press any key to exit: &quot;) #Exit the program exit() </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LagZeroMC\"> /u/LagZeroMC </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p4ffmh/what_could_i_have_done_better_here/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p4ffmh/what_could_i_have_done_better_here/\">[comments]</a></span>",
+      "author": "/u/LagZeroMC",
+      "published_date": "2025-11-23T06:14:33+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 248,
+      "reading_time": 1,
+      "created_at": "2025-11-23T07:38:14.034854+00:00",
+      "updated_at": "2025-11-23T08:19:10.580936+00:00",
+      "metadata": {
+        "processed_at": "2025-11-23T08:19:10.580946+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "1f320cffd3b0f24991fe27d8ab42b244",
+      "url": "https://elizabethvannostrand.substack.com/p/the-boring-part-of-bell-labs",
+      "title": "The Boring Part of Bell Labs",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45984173\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-19T19:47:31+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-23T07:19:25.023273+00:00",
+      "updated_at": "2025-11-23T08:19:10.580950+00:00",
+      "metadata": {
+        "processed_at": "2025-11-23T08:19:10.580952+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "bc2967feb8e867fbd7a5ef7a99374ba1",
+      "url": "https://windowsreport.com/google-revisits-jpeg-xl-in-chromium-after-earlier-removal/",
+      "title": "Google Revisits JPEG XL in Chromium After Earlier Removal",
+      "content": "<p>Article URL: <a href=\"https://windowsreport.com/google-revisits-jpeg-xl-in-chromium-after-earlier-removal/\">https://windowsreport.com/google-revisits-jpeg-xl-in-chromium-after-earlier-removal/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46021179\">https://news.ycombinator.com/item?id=46021179</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
+      "author": "eln1",
+      "published_date": "2025-11-23T06:05:51+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-23T06:51:26.115910+00:00",
+      "updated_at": "2025-11-23T08:19:10.580955+00:00",
+      "metadata": {
+        "processed_at": "2025-11-23T08:19:10.580957+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "bdcdf0e67037c6e28d17740b0f8e35a9",
+      "url": "https://canonical.com/blog/canonical-expands-total-coverage-for-ubuntu-lts-releases-to-15-years-with-legacy-add-on",
+      "title": "Ubuntu LTS releases to 15 years with Legacy add-on",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45992035\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-20T12:47:41+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-23T06:29:46.541762+00:00",
+      "updated_at": "2025-11-23T08:19:10.580959+00:00",
+      "metadata": {
+        "processed_at": "2025-11-23T08:19:10.580960+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "15c5b36f5c47013e955da7e61b7a1658",
       "url": "https://www.nature.com/articles/s42003-025-09192-4",
@@ -282,86 +362,6 @@
       "updated_at": "2025-11-23T04:29:24.871193+00:00",
       "metadata": {
         "processed_at": "2025-11-23T04:29:24.871194+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9cbb1175c3571c45843f3b6dfdb671e0",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006080?dgcid=rss_sd_all",
-      "title": "Brain development and musical skills: A longitudinal twin study on brain developmental trajectories and sensorimotor synchronization",
-      "content": "<p>Publication date: 1 January 2026</p><p><b>Source:</b> Brain Research, Volume 1870</p><p>Author(s): L. van Drunen, B.G. Schultz, A.I. Becht, R.S. Schaefer, L.M. Wierenga</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 20,
-      "reading_time": 1,
-      "created_at": "2025-11-23T03:28:58.924400+00:00",
-      "updated_at": "2025-11-23T04:29:24.871197+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T04:29:24.871198+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a55ade9d1e01f68b5964c0188ec2d363",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006195?dgcid=rss_sd_all",
-      "title": "Inherited and seizure-induced abnormalities in the temporal cortex astroglia of Krushinsky-Molodkina audiogenic rats: A pilot study",
-      "content": "<p>Publication date: 1 January 2026</p><p><b>Source:</b> Brain Research, Volume 1870</p><p>Author(s): Yulia S. Grigorieva, Ksenia A. Ivanova, Elena V. Chernigovskaya, Alexandra A. Naumova, Margarita V. Glazova</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 24,
-      "reading_time": 1,
-      "created_at": "2025-11-23T03:28:58.924383+00:00",
-      "updated_at": "2025-11-23T06:21:56.071856+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T06:21:56.071858+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1bbc09793b9fd1f90a74f86dac1c40b8",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006079?dgcid=rss_sd_all",
-      "title": "Evidence of widespread brain inhibition following conventional but not individualised non-motor repetitive transcranial magnetic stimulation: A multimodal study",
-      "content": "<p>Publication date: 1 January 2026</p><p><b>Source:</b> Brain Research, Volume 1870</p><p>Author(s): Francis Houde, Russell Butler, Marylie Martel, Maxime Descoteaux, Kevin Whittingstall, Guillaume Leonard</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 21,
-      "reading_time": 1,
-      "created_at": "2025-11-23T03:28:58.924366+00:00",
-      "updated_at": "2025-11-23T06:21:56.071860+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T06:21:56.071862+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f95de218cf905a76a7d5358b8af23581",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.21.689749v1?rss=1",
-      "title": "Dissociating the neural codes for multiple pitch perception in humans",
-      "content": "Pitch is crucial for speech and music perception, yet its neural code remains contested. The classic \"rate-place\" theory suggests that pitch is computed from spatial patterns of average neural firing rates along the cochlear tonotopic axis. These cues are thought to be robust for isolated harmonic complex tones (HCTs) but degraded for spectrally dense mixtures of simultaneous HCTs (e.g., musical chords) due to auditory filtering. In many cases, pitch perception remains feasible for HCT mixtures, but it is unclear whether listeners utilize residual rate-place cues or alternative neural codes. To adjudicate between these possibilities, we generated rate-place metamers (META), which are synthetic stimuli with simulated auditory-nerve average-rate responses that are nearly identical to those of original pitch-evoking stimuli (ORIG). Using these stimuli, listeners completed four psychophysical experiments that spanned a wide range of acoustic and cognitive complexity, from single-HCT pitch discrimination to harmonic-expectation judgments. Combining the behavioral data with predictive models of listener performance, we found that listener performance on single pitch discrimination tasks could be adequately explained by a rate-place model, with or without simultaneous pitch maskers (Experiments 1 and 2). More complex tasks involving attention to all pitches in a three-pitch mixture (Experiments 3 and 4) showed a pattern of results more difficult to account for with a rate-place model, perhaps suggesting a role for integration of temporal cues.",
-      "author": "Graves, J. E., Guest, D. R., Starr, T. M., Li, A., Mehta, A. H.",
-      "published_date": "2025-11-22T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 221,
-      "reading_time": 1,
-      "created_at": "2025-11-23T03:28:54.330841+00:00",
-      "updated_at": "2025-11-23T06:21:56.071864+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T06:21:56.071866+00:00",
         "processing_method": "github_actions"
       }
     }
