@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-23T07:20:36.917645+00:00",
+  "last_updated": "2025-11-23T07:39:18.561829+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "cf2d922a8ed3d311db75aba101ce3c6e",
+      "url": "https://www.reddit.com/r/Python/comments/1p4ffmh/what_could_i_have_done_better_here/",
+      "title": "What could I have done better here?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I'm pretty new to Python, and actual scripting in general, and I just wanted to ask if I could have done anything better here. Any critiques?</p> <pre><code>import time import colorama from colorama import Fore, Style color = 'WHITE' colorvar2 = 'WHITE' #Reset colors print(Style.RESET_ALL) #Get current directory (for debugging) #print(os.getcwd()) #Startup message print(&quot;Welcome to the ASCII art reader. Please set the path to your ASCII art below.&quot;) #Bold text print(Style.BRIGHT) #User-defined file path path = input(Fore.BLUE + 'Please input the file path to your ASCII art: ') color = input('Please input your desired color (default: white): ' + Style.RESET_ALL) #If no ASCII art path specified if not path: print(Fore.RED + &quot;No ASCII art path specified, Exiting.&quot; + Style.RESET_ALL) time.sleep(2) exit() #If no color specified if not color: print(Fore.YELLOW + &quot;No color specified, defaulting to white.&quot; + Style.RESET_ALL) color = 'WHITE' #Reset colors print(Style.RESET_ALL) #The first variable is set to the user-defined &quot;color&quot; variable, except #uppercase, and the second variable sets &quot;colorvar&quot; to the colorama &quot;Fore.[COLOR]&quot; input, with #color being the user-defined color variable color2 = color.upper() colorvar = getattr(Fore, color2) #Set user-defined color print(colorvar) #Read and print the contents of the .txt file with open(path) as f: print(f.read()) #Reset colors print(Style.RESET_ALL) #Press any key to close the program (this stops the terminal from closing immediately input(&quot;Press any key to exit: &quot;) #Exit the program exit() </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LagZeroMC\"> /u/LagZeroMC </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p4ffmh/what_could_i_have_done_better_here/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p4ffmh/what_could_i_have_done_better_here/\">[comments]</a></span>",
+      "author": "/u/LagZeroMC",
+      "published_date": "2025-11-23T06:14:33+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 248,
+      "reading_time": 1,
+      "created_at": "2025-11-23T07:38:14.034854+00:00",
+      "updated_at": "2025-11-23T07:38:14.034856+00:00"
+    },
     {
       "id": "1f320cffd3b0f24991fe27d8ab42b244",
       "url": "https://elizabethvannostrand.substack.com/p/the-boring-part-of-bell-labs",
@@ -345,22 +361,6 @@
       "reading_time": 1,
       "created_at": "2025-11-23T03:28:14.784641+00:00",
       "updated_at": "2025-11-23T03:28:14.784642+00:00"
-    },
-    {
-      "id": "680880a1bbb5ecb6db7878853cb75fc0",
-      "url": "https://bryanalexander.org/personal/a-year-without-caffeine/",
-      "title": "A Year Without Caffeine (2013)",
-      "content": "<p>Article URL: <a href=\"https://bryanalexander.org/personal/a-year-without-caffeine/\">https://bryanalexander.org/personal/a-year-without-caffeine/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46019714\">https://news.ycombinator.com/item?id=46019714</a></p>\n<p>Points: 22</p>\n<p># Comments: 9</p>",
-      "author": "andsoitis",
-      "published_date": "2025-11-23T00:50:49+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-23T03:28:14.784623+00:00",
-      "updated_at": "2025-11-23T03:28:14.784624+00:00"
     }
   ]
 }
