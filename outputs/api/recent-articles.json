@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-11-23T09:21:07.188306+00:00",
+  "last_updated": "2025-11-23T09:40:45.835897+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "8731ff56944e75405cacaa86180c2aee",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925005841?dgcid=rss_sd_all",
+      "title": "Myelinated fiber labeling and orientation mapping of the human brain with light-sheet fluorescence microscopy",
+      "content": "<p>Publication date: 1 December 2025</p><p><b>Source:</b> NeuroImage, Volume 323</p><p>Author(s): Michele Sorelli, Danila Di Meo, Samuel Bradley, Franco Cheli, Josephine Ramazzotti, Federica F. Caria, Laura Perego, Christophe Destrieux, Patrick R. Hof, Francesco S. Pavone, Giacomo Mazzamuto, Irene Costantini</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroimage",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 36,
+      "reading_time": 1,
+      "created_at": "2025-11-23T09:40:19.083240+00:00",
+      "updated_at": "2025-11-23T09:40:19.083242+00:00"
+    },
+    {
+      "id": "9241f6df3cbdcaa062fac40065c3a358",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925005993?dgcid=rss_sd_all",
+      "title": "The interplay between motion perception and perceptual completion",
+      "content": "<p>Publication date: 1 December 2025</p><p><b>Source:</b> NeuroImage, Volume 323</p><p>Author(s): Grace S. Kurian, Chrysa Retsa, Mark T. Wallace, Micah M. Murray</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroimage",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 19,
+      "reading_time": 1,
+      "created_at": "2025-11-23T09:40:19.083219+00:00",
+      "updated_at": "2025-11-23T09:40:19.083221+00:00"
+    },
+    {
+      "id": "4689af7a6c4c42dd718d8debab95b32d",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006056?dgcid=rss_sd_all",
+      "title": "Attention and meditative development: A review and synthesis of long-term meditators and outlook for the study of advanced meditation",
+      "content": "<p>Publication date: 1 December 2025</p><p><b>Source:</b> NeuroImage, Volume 323</p><p>Author(s): Sebastian Ehmann, Idil Sezer, Arielle S. Keller, Isaac N. Treves, Matthew D. Sacchet</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroimage",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 21,
+      "reading_time": 1,
+      "created_at": "2025-11-23T09:40:19.083139+00:00",
+      "updated_at": "2025-11-23T09:40:19.083151+00:00"
+    },
     {
       "id": "217dceaaed8048c2d64ec3c07f153a69",
       "url": "http://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/",
@@ -333,54 +381,6 @@
         "processed_at": "2025-11-23T08:19:10.580964+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "e6f24815799a4d7726c605504a5cc515",
-      "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae1bda",
-      "title": "Finite element model predicts micromotion-induced strain profiles that correlate with the functional performance of Utah arrays in humans and non-human primates",
-      "content": "Objective. Utah arrays are widely used in both humans and non-human primates (NHPs) for intracortical brain\u2013computer interfaces, primarily for detecting electrical signals from cortical tissue to decode motor commands. Recently, these arrays have also been applied to deliver electrical stimulation aimed at restoring sensory functions. A key challenge limiting their longevity is the micromotion between the array and cortical tissue, which may induce mechanical strain in surrounding tissue and contribute to performance decline. This strain, due to mechanical mismatch, can exacerbate glial scarring around the implant, reducing the efficacy of Utah arrays in recording neuronal activity and delivering electrical stimulation. Approach. To investigate this, we employed a finite element model to predict tissue strains resulting from micromotion. Main results. Our findings indicated that strain profiles around edge and corner electrodes were greater than those around interior shanks, affecting both maximum and average strains within 50 \u00b5m of the electrode tip. We then correlated these predicted tissue strains with in-vivo electrode performance metrics. We found negative correlations between 1 kHz impedance and tissue strains in human motor arrays and NHP area V4 arrays at 1 month, 1 year, and 2 years post-implantation. In human motor arrays, the peak-to-peak waveform voltage and signal-to-noise ratio (SNR) of spontaneous activity were also negatively correlated with strain. Conversely, we observed a positive correlation between the evoked SNR of multi-unit activity and strain in NHP area V4 arrays. Significance. This study establishes a spatial dependence of electrode performance in Utah arrays that correlates with tissue strain.",
-      "author": "Adam M Forrest, Nicolas G Kunigk, Jennifer L Collinger, Robert A Gaunt, Xing Chen, Jonathan P Vande Geest and Takashi D Y Kozai",
-      "published_date": "2025-11-18T00:00:00+00:00",
-      "source": "Journal Neural Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 250,
-      "reading_time": 1,
-      "created_at": "2025-11-23T03:28:38.669214+00:00",
-      "updated_at": "2025-11-23T03:28:38.669216+00:00"
-    },
-    {
-      "id": "349def9675efb1c9a239651641a14b88",
-      "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae1876",
-      "title": "Iris 128x: open-source 128 channel headstages for neural stimulation and recording",
-      "content": "Objective. Investigation into complex neural circuits necessitates interfaces capable of high channel count recording and stimulation. However, existing commercial neural headstages often have limited scalability, restrictive proprietary designs, and constrained bidirectional capabilities, which worsens accessibility challenges and compels researchers to reinvent tools rather than build on a shared foundation. Approach. Here, we present two open-source, 128 channel headstages\u2014Iris 128B and Iris 128S\u2014designed for integration with microelectrode arrays. The Iris 128B enables fully bidirectional interfacing, with stimulation or recording across all 128 electrode channels, while the Iris 128S provides recording on 128 channels and stimulation on 16 simultaneous channels, which can be assigned to any 16 of the 32 available stimulation channels. Both designs use Intan Technologies\u2019 RHS and RHD series integrated circuits for amplification, filtering, digitization and stimulation, and are available on GitHub. Main results. The headstages were validated through benchtop impedance, noise, and frequency response measurements, as well as acute in vivo recordings in an anesthetized rat. Results demonstrate low noise levels and reliable signal acquisition across all channels. Significance. By releasing fully documented printed circuit board designs for headstages, this work aims to take a step towards broader adoption of bidirectional recording and stimulation systems while increasing channel counts. Future iterations will focus on miniaturization and wireless integration to improve usability in chronic and freely moving small animal experiments.",
-      "author": "Emma K Jacobs, Manuel Monge, Ander Switalla, Rebecca A Frederick and Felix Deku",
-      "published_date": "2025-11-18T00:00:00+00:00",
-      "source": "Journal Neural Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 221,
-      "reading_time": 1,
-      "created_at": "2025-11-23T03:28:38.669175+00:00",
-      "updated_at": "2025-11-23T03:28:38.669176+00:00"
-    },
-    {
-      "id": "897f28751c0424e9c9d1f69f104ead0b",
-      "url": "https://sacbear.com/xfinity-wont-fix-internet/",
-      "title": "A monopoly ISP refuses to fix upstream infrastructure",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46019685\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-23T00:46:53+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-23T03:28:16.074121+00:00",
-      "updated_at": "2025-11-23T03:28:16.074123+00:00"
     }
   ]
 }
