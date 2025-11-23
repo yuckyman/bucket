@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-11-23T13:25:11.136975+00:00",
+  "last_updated": "2025-11-23T13:40:57.731044+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "33cc1ae81c9f21fa4f55762c8f1db0a6",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1646336",
+      "title": "End-to-end robot intelligent obstacle avoidance method based on deep reinforcement learning with spatiotemporal transformer architecture",
+      "content": "To enhance the obstacle avoidance performance and autonomous decision-making capabilities of robots in complex dynamic environments, this paper proposes an end-to-end intelligent obstacle avoidance method that integrates deep reinforcement learning, spatiotemporal attention mechanisms, and a Transformer-based architecture. Current mainstream robot obstacle avoidance methods often rely on system architectures with separated perception and decision-making modules, which suffer from issues such as fragmented feature transmission, insufficient environmental modeling, and weak policy generalization. To address these problems, this paper adopts Deep Q-Network (DQN) as the core of reinforcement learning, guiding the robot to autonomously learn optimal obstacle avoidance strategies through interaction with the environment, effectively handling continuous decision-making problems in dynamic and uncertain scenarios. To overcome the limitations of traditional perception mechanisms in modeling the temporal evolution of obstacles, a spatiotemporal attention mechanism is introduced, jointly modeling spatial positional relationships and historical motion trajectories to enhance the model's perception of critical obstacle areas and potential collision risks. Furthermore, an end-to-end Transformer-based perception-decision architecture is designed, utilizing multi-head self-attention to perform high-dimensional feature modeling on multi-modal input information (such as LiDAR and depth images), and generating action policies through a decoding module. This completely eliminates the need for manual feature engineering and intermediate state modeling, constructing an integrated learning process of perception and decision-making. Experiments conducted in several typical obstacle avoidance simulation environments demonstrate that the proposed method outperforms existing mainstream deep reinforcement learning approaches in terms of obstacle avoidance success rate, path optimization, and policy convergence speed. It exhibits good stability and generalization capabilities, showing broad application prospects for deployment in real-world complex environments.",
+      "author": "Weizhong Zhang",
+      "published_date": "2025-10-08T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 261,
+      "reading_time": 1,
+      "created_at": "2025-11-23T13:40:18.394269+00:00",
+      "updated_at": "2025-11-23T13:40:18.394271+00:00"
+    },
+    {
+      "id": "86240da3eaca0f7ab44548529db5e4cd",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1628368",
+      "title": "A simple robot suggests trunk rotation is essential for emergence of inside leading limb during quadruped galloping turns",
+      "content": "During turning maneuvers in the galloping gait of quadruped animals, a strong relationship exists between the turning direction and the sequence in which the forelimbs make ground contact: the outer forelimb acts as the \u201ctrailing limb\u201d while the inner forelimb serves as the \u201cleading limb.\u201d However, the control mechanisms underlying this behavior remain largely unclear. Understanding these mechanisms could deepen biological knowledge and assist in developing more agile robots. To address this issue, we hypothesized that decentralized interlimb coordination mechanism and trunk movement are essential for the emergence of an inside leading limb in a galloping turn. To test the hypothesis, we developed a quasi-quadruped robot with simplified wheeled hind limbs and variable trunk roll and yaw angles. For forelimb coordination, we implemented a simple decentralized control based on local load-dependent sensory feedback, utilizing trunk roll inclination and yaw bending as turning methods. Our experimental results confirmed that in addition to the decentralized control from previous studies which reproduces animal locomotion in a straight line, adjusting the trunk roll angle spontaneously generates a ground contact sequence similar to gallop turning in quadruped animals. Furthermore, roll inclination showed a greater influence than yaw bending on differentiating the leading and trailing limbs. This study suggests that physical interactions serve as a universal mechanism of locomotor control in both forward and turning movements of quadrupedal animals.",
+      "author": "Akio Ishiguro",
+      "published_date": "2025-10-23T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 223,
+      "reading_time": 1,
+      "created_at": "2025-11-23T13:40:18.394069+00:00",
+      "updated_at": "2025-11-23T13:40:18.394070+00:00"
+    },
+    {
+      "id": "7d358a50de2869f89d49bd22afee1514",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1705970",
+      "title": "Effective and efficient self-supervised masked model based on mixed feature training",
+      "content": "Under the influence of Masked Language Modeling (MLM), Masked Image Modeling (MIM) employs an attention mechanism to perform masked training on images. However, processing a single image requires numerous iterations and substantial computational resources to reconstruct the masked regions, resulting in high computational complexity and significant time costs. To address this issue, we propose an Effective and Efficient self-supervised Masked model based on Mixed feature training (EESMM). First, we stack two images for encoding and input the fused features into the network, which not only reduces computational complexity but also enables the learning of more features. Second, during decoding, we obtain the decoding features corresponding to the original images based on the decoding features of the two input original images and the mixed images, and then construct a corresponding loss function to enhance feature representation. EESMM significantly reduces pre-training time without sacrificing accuracy, achieving 83% accuracy on ImageNet in just 363 h using four V100 GPUs\u2013only one-tenth of the training time required by SimMIM. This validates that the method can substantially accelerate the pre-training process without noticeable performance degradation.",
+      "author": "Chunliu Cai",
+      "published_date": "2025-10-30T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 179,
+      "reading_time": 1,
+      "created_at": "2025-11-23T13:40:18.394027+00:00",
+      "updated_at": "2025-11-23T13:40:18.394029+00:00"
+    },
     {
       "id": "9672df67c2d1491d32d79a7da980cf81",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452225011194?dgcid=rss_sd_all",
@@ -303,66 +351,6 @@
       "updated_at": "2025-11-23T10:14:47.899119+00:00",
       "metadata": {
         "processed_at": "2025-11-23T10:14:47.899122+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4689af7a6c4c42dd718d8debab95b32d",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006056?dgcid=rss_sd_all",
-      "title": "Attention and meditative development: A review and synthesis of long-term meditators and outlook for the study of advanced meditation",
-      "content": "<p>Publication date: 1 December 2025</p><p><b>Source:</b> NeuroImage, Volume 323</p><p>Author(s): Sebastian Ehmann, Idil Sezer, Arielle S. Keller, Isaac N. Treves, Matthew D. Sacchet</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 21,
-      "reading_time": 1,
-      "created_at": "2025-11-23T09:40:19.083139+00:00",
-      "updated_at": "2025-11-23T10:14:47.899125+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T10:14:47.899126+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "217dceaaed8048c2d64ec3c07f153a69",
-      "url": "http://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/",
-      "title": "MCP Apps just dropped (OpenAI and Anthropic collab) and I think this is huge",
-      "content": "<p>Article URL: <a href=\"http://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/\">http://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46020502\">https://news.ycombinator.com/item?id=46020502</a></p>\n<p>Points: 15</p>\n<p># Comments: 3</p>",
-      "author": "mercury24aug",
-      "published_date": "2025-11-23T03:27:04+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-23T09:19:50.459266+00:00",
-      "updated_at": "2025-11-23T10:14:47.899128+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T10:14:47.899130+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "21e2782f5ed1365d35ec8dc1e97d0f34",
-      "url": "https://hackaday.io/project/192644-unicode-binary-input-terminal",
-      "title": "Unicode Binary Input Terminal",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45918442\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-13T18:18:01+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-23T08:25:41.159067+00:00",
-      "updated_at": "2025-11-23T10:14:47.899132+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T10:14:47.899134+00:00",
         "processing_method": "github_actions"
       }
     }
