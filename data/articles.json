@@ -1,5 +1,37 @@
 [
   {
+    "id": "d928c7422bab347ce9aeca3bbe0efe25",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006262?dgcid=rss_sd_all",
+    "title": "Structure, Function, Pathomechanisms and Targeting of TDP-43 in Neurodegeneration",
+    "content": "<p>Publication date: 1 January 2026</p><p><b>Source:</b> Brain Research, Volume 1870</p><p>Author(s): Xudong Zhang, Baiwen Zhang, Yaxin Shang, Li Zou</p>",
+    "author": "",
+    "published_date": null,
+    "source": "Brain Research",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 17,
+    "reading_time": 1,
+    "created_at": "2025-11-23T15:39:04.975974+00:00",
+    "updated_at": "2025-11-23T15:39:04.975987+00:00"
+  },
+  {
+    "id": "3c38085b4e4b766bc2fe9c650445be19",
+    "url": "https://www.theregister.com/2025/11/21/uk_digital_id_costs_uncertain/",
+    "title": "UK minister ducks cost questions on nationwide digital ID scheme",
+    "content": "<p>Article URL: <a href=\"https://www.theregister.com/2025/11/21/uk_digital_id_costs_uncertain/\">https://www.theregister.com/2025/11/21/uk_digital_id_costs_uncertain/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46024062\">https://news.ycombinator.com/item?id=46024062</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+    "author": "Bender",
+    "published_date": "2025-11-23T15:02:39+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-11-23T15:38:17.433315+00:00",
+    "updated_at": "2025-11-23T15:38:17.433323+00:00"
+  },
+  {
     "id": "ea952e15c5d4e0bfac1411f0baf4adb7",
     "url": "https://dspace.mit.edu/bitstream/handle/1721.1/149366/MIT-LCS-TR-458.pdf",
     "title": "Typechecking is undecideable when 'type' is a type (1989) [pdf]",
@@ -17226,37 +17258,5 @@
       "processed_at": "2025-11-18T20:18:31.712256+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "5bfdb1381234aa524eb3be7f3df7ed2b",
-    "url": "https://github.com/rowboatlabs/rowboat",
-    "title": "Show HN: RowboatX \u2013 open-source Claude Code for everyday automations",
-    "content": "<p>Hi HN!<p>Claude Code is great, but it\u2019s focused on coding. The missing piece is a native way to build and run custom background agents for non-code tasks. We built RowboatX as a CLI tool modeled after Claude Code that lets you do that. It uses the file system and unix tools to create and monitor background agents for everyday tasks, connect them to any MCP server for tools, and reason over their outputs.<p>Because RowboatX runs locally with shell access, the agents can install tools, execute code, and automate anything you could do in a terminal with your explicit permission. It works with any compatible LLM, including open-source ones.<p>Our repo is <a href=\"https://github.com/rowboatlabs/rowboat\" rel=\"nofollow\">https://github.com/rowboatlabs/rowboat</a>, and there\u2019s a demo video here: <a href=\"https://youtu.be/cyPBinQzicY\" rel=\"nofollow\">https://youtu.be/cyPBinQzicY</a><p>For example, you can connect RowboatX to the ElevenLabs MCP server and create a background workflow that produces a NotebookLM-style podcast every day from recent AI-agent papers on arXiv. Or you can connect it to Google Calendar and Exa Search to research meeting attendees and generate briefs before each event.<p>You can try these with: `npx @rowboatlabs/rowboatx`<p>We combined three simple ideas:<p>1. File system as state: Each agent\u2019s instruction, memory, logs, and data are just files on disk, grepable, diffable, and local. For instance, you can just run: grep -rl '\"agent\":\"\"' ~/.rowboat/runs to list every run for a particular workflow.<p>2. The supervisor agent: A Claude Code style agent that can create and run background agents. It predominantly uses Unix commands to monitor, update, and schedule agents. LLMs handle Unix tools better than backend APIs [1][2], so we leaned into that. It can also probe any MCP server and attach the tools to the agents.<p>3. Human-in-the-loop: Each background agent can emit a human_request message when needed (e.g. drafting a tricky email or installing a tool) that pauses execution and waits for input before continuing. The supervisor coordinates this.<p>I started my career over a decade ago building spam detection models at Twitter, spending a lot of my time in the terminal with Unix commands for data analysis [0] and Vowpal Wabbit for modeling. When Claude Code came along, it felt familiar and amazing to work with. But trying to use it beyond code always felt a bit forced. We built RowboatX to bring that same workflow to everyday tasks. It is Apache-2.0 licensed and easily extendable.<p>While there are many agent builders, running on the user's terminal enables unique use cases like computer and browser automation that cloud-based tools can't match. This power requires careful safety design. We implemented command-level allow/deny lists, with containerization coming next. We\u2019ve tried to design for safety from day one, but we\u2019d love to hear the community\u2019s perspective on what additional safeguards or approaches you\u2019d consider important here.<p>We\u2019re excited to share RowboatX with everyone here. We\u2019d love to hear your thoughts and welcome contributions!<p>\u2014<p>[0] <a href=\"https://web.stanford.edu/class/cs124/kwc-unix-for-poets.pdf\" rel=\"nofollow\">https://web.stanford.edu/class/cs124/kwc-unix-for-poets.pdf</a>\n[1] <a href=\"https://arxiv.org/pdf/2405.06807\" rel=\"nofollow\">https://arxiv.org/pdf/2405.06807</a>\n[2] <a href=\"https://arxiv.org/pdf/2501.10132\" rel=\"nofollow\">https://arxiv.org/pdf/2501.10132</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45970338\">https://news.ycombinator.com/item?id=45970338</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
-    "author": "segmenta",
-    "published_date": "2025-11-18T18:50:00+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 487,
-    "reading_time": 2,
-    "created_at": "2025-11-18T19:28:30.931460+00:00",
-    "updated_at": "2025-11-18T19:28:30.931469+00:00"
-  },
-  {
-    "id": "5ee6854f137dbf5edab207ad8f308f2c",
-    "url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688986v1?rss=1",
-    "title": "Cognitive and brain function enhancement in Gen X group after personalized, AI supervised EEG-neurofeedback training",
-    "content": "Background: Interventions supporting medical care and enhancing quality of life in neurodegenerative or age-related cognitive decline are strongly needed. Electroencephalographic (EEG) neurofeedback can enable users to modulate their brain activity through real-time feedback. However, evidence for its clinical effectiveness remains inconclusive, partly due to limited personalization and insufficient task relevance in existing protocols. Objective: We tested whether personalized EEG neurofeedback supervised by deep neural networks (DNNs) can enhance cognitive performance in older adults. Methods: Fifty-seven healthy adults aged 41 to 64 (31 women), including a sham-feedback control group, completed a personalized neurofeedback protocol with DNNs fine-tuned to individual EEG patterns. The procedure included pre- and post-training assessments using a transitive reasoning task, three diagnostic sessions to adapt the DNN to each participant, and 10 neurofeedback sessions based on a gamified delayed-match-to-sample paradigm. Results: The training group showed robust gains across all three variants of the reasoning task (each p < .01), whereas the sham group improved only on the easiest variant. Groups did not differ at pretest; however, at posttest the training group outperformed the sham group on all task conditions (each p < .03), showing also a larger neural effort (lower alpha band power) and increased beta and gamma band connectivity (higher phase lag index). Conclusion: Personalized, task-oriented neurofeedback guided by individually fine-tuned DNNs can produce cognitive enhancement after relatively few sessions. The proposed Task-Pretrained, Subject-Finetuned Neurofeedback (TPSF-NF) framework is scalable to other cognitive domains in future research.",
-    "author": "Rogala, J., Malinowska, U., Ociepka, M., Wojciechowski, J., Zych, J., Tryc, P., Ko\u0142odziejak, A., Ogniewski, P., Niedbalski, P., Skorupski, J., Chuderski, A.",
-    "published_date": "2025-11-18T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 239,
-    "reading_time": 1,
-    "created_at": "2025-11-18T18:31:59.127664+00:00",
-    "updated_at": "2025-11-18T18:31:59.127668+00:00"
   }
 ]

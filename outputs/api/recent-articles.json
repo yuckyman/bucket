@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-11-23T15:19:40.089386+00:00",
+  "last_updated": "2025-11-23T15:39:31.622854+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d928c7422bab347ce9aeca3bbe0efe25",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006262?dgcid=rss_sd_all",
+      "title": "Structure, Function, Pathomechanisms and Targeting of TDP-43 in Neurodegeneration",
+      "content": "<p>Publication date: 1 January 2026</p><p><b>Source:</b> Brain Research, Volume 1870</p><p>Author(s): Xudong Zhang, Baiwen Zhang, Yaxin Shang, Li Zou</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 17,
+      "reading_time": 1,
+      "created_at": "2025-11-23T15:39:04.975974+00:00",
+      "updated_at": "2025-11-23T15:39:04.975987+00:00"
+    },
+    {
+      "id": "3c38085b4e4b766bc2fe9c650445be19",
+      "url": "https://www.theregister.com/2025/11/21/uk_digital_id_costs_uncertain/",
+      "title": "UK minister ducks cost questions on nationwide digital ID scheme",
+      "content": "<p>Article URL: <a href=\"https://www.theregister.com/2025/11/21/uk_digital_id_costs_uncertain/\">https://www.theregister.com/2025/11/21/uk_digital_id_costs_uncertain/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46024062\">https://news.ycombinator.com/item?id=46024062</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "author": "Bender",
+      "published_date": "2025-11-23T15:02:39+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-23T15:38:17.433315+00:00",
+      "updated_at": "2025-11-23T15:38:17.433323+00:00"
+    },
     {
       "id": "ea952e15c5d4e0bfac1411f0baf4adb7",
       "url": "https://dspace.mit.edu/bitstream/handle/1721.1/149366/MIT-LCS-TR-458.pdf",
@@ -291,46 +323,6 @@
       "updated_at": "2025-11-23T14:13:15.042882+00:00",
       "metadata": {
         "processed_at": "2025-11-23T14:13:15.042892+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "86240da3eaca0f7ab44548529db5e4cd",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1628368",
-      "title": "A simple robot suggests trunk rotation is essential for emergence of inside leading limb during quadruped galloping turns",
-      "content": "During turning maneuvers in the galloping gait of quadruped animals, a strong relationship exists between the turning direction and the sequence in which the forelimbs make ground contact: the outer forelimb acts as the \u201ctrailing limb\u201d while the inner forelimb serves as the \u201cleading limb.\u201d However, the control mechanisms underlying this behavior remain largely unclear. Understanding these mechanisms could deepen biological knowledge and assist in developing more agile robots. To address this issue, we hypothesized that decentralized interlimb coordination mechanism and trunk movement are essential for the emergence of an inside leading limb in a galloping turn. To test the hypothesis, we developed a quasi-quadruped robot with simplified wheeled hind limbs and variable trunk roll and yaw angles. For forelimb coordination, we implemented a simple decentralized control based on local load-dependent sensory feedback, utilizing trunk roll inclination and yaw bending as turning methods. Our experimental results confirmed that in addition to the decentralized control from previous studies which reproduces animal locomotion in a straight line, adjusting the trunk roll angle spontaneously generates a ground contact sequence similar to gallop turning in quadruped animals. Furthermore, roll inclination showed a greater influence than yaw bending on differentiating the leading and trailing limbs. This study suggests that physical interactions serve as a universal mechanism of locomotor control in both forward and turning movements of quadrupedal animals.",
-      "author": "Akio Ishiguro",
-      "published_date": "2025-10-23T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 223,
-      "reading_time": 1,
-      "created_at": "2025-11-23T13:40:18.394069+00:00",
-      "updated_at": "2025-11-23T14:13:15.042896+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T14:13:15.042898+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7d358a50de2869f89d49bd22afee1514",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1705970",
-      "title": "Effective and efficient self-supervised masked model based on mixed feature training",
-      "content": "Under the influence of Masked Language Modeling (MLM), Masked Image Modeling (MIM) employs an attention mechanism to perform masked training on images. However, processing a single image requires numerous iterations and substantial computational resources to reconstruct the masked regions, resulting in high computational complexity and significant time costs. To address this issue, we propose an Effective and Efficient self-supervised Masked model based on Mixed feature training (EESMM). First, we stack two images for encoding and input the fused features into the network, which not only reduces computational complexity but also enables the learning of more features. Second, during decoding, we obtain the decoding features corresponding to the original images based on the decoding features of the two input original images and the mixed images, and then construct a corresponding loss function to enhance feature representation. EESMM significantly reduces pre-training time without sacrificing accuracy, achieving 83% accuracy on ImageNet in just 363 h using four V100 GPUs\u2013only one-tenth of the training time required by SimMIM. This validates that the method can substantially accelerate the pre-training process without noticeable performance degradation.",
-      "author": "Chunliu Cai",
-      "published_date": "2025-10-30T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 179,
-      "reading_time": 1,
-      "created_at": "2025-11-23T13:40:18.394027+00:00",
-      "updated_at": "2025-11-23T14:13:15.042901+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T14:13:15.042903+00:00",
         "processing_method": "github_actions"
       }
     }
