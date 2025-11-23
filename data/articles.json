@@ -1,5 +1,21 @@
 [
   {
+    "id": "ce449a6096dbf321d035fb4dcb600551",
+    "url": "https://mathvideos.org/2023/terence-tao-almost-all-collatz-orbits-attain-almost-bounded-values/",
+    "title": "Almost all Collatz orbits attain almost bounded values",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=45957911\">Comments</a>",
+    "author": "",
+    "published_date": "2025-11-17T20:28:32+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-11-23T11:37:39.002817+00:00",
+    "updated_at": "2025-11-23T11:37:39.002818+00:00"
+  },
+  {
     "id": "9466fc23003314a3289db9154deab3e2",
     "url": "https://www.nature.com/articles/s41380-025-03372-8",
     "title": "Meningeal macrophages alleviate social memory defects in an early Alzheimer\u2019s disease model",
@@ -17214,21 +17230,5 @@
     "reading_time": 1,
     "created_at": "2025-11-18T16:54:04.655806+00:00",
     "updated_at": "2025-11-18T16:54:04.655808+00:00"
-  },
-  {
-    "id": "3bdeb2f878ddb904a6bf9c7a1053dd01",
-    "url": "https://github.com/neul-labs/fast-litellm",
-    "title": "Show HN: Optimizing LiteLLM with Rust \u2013 When Expectations Meet Reality",
-    "content": "<p>I've been working on Fast LiteLLM - a Rust acceleration layer for the popular LiteLLM library - and I had some interesting learnings that might resonate with other developers trying to squeeze performance out of existing systems.<p>My assumption was that LiteLLM, being a Python library, would have plenty of low-hanging fruit for optimization. I set out to create a Rust layer using PyO3 to accelerate the performance-critical parts: token counting, routing, rate limiting, and connection pooling.<p>The Approach<p>- Built Rust implementations for token counting using tiktoken-rs<p>- Added lock-free data structures with DashMap for concurrent operations<p>- Implemented async-friendly rate limiting<p>- Created monkeypatch shims to replace Python functions transparently<p>- Added comprehensive feature flags for safe, gradual rollouts<p>- Developed performance monitoring to track improvements in real-time<p>After building out all the Rust acceleration, I ran my comprehensive benchmark comparing baseline LiteLLM vs. the shimmed version:<p>Function             Baseline Time   Shimmed Time    Speedup    Improvement  Status<p>token_counter        0.000035s     0.000036s     0.99x          -0.6%<p>count_tokens_batch   0.000001s     0.000001s     1.10x          +9.1%<p>router               0.001309s     0.001299s     1.01x          +0.7%<p>rate_limiter         0.000000s     0.000000s     1.85x         +45.9%<p>connection_pool      0.000000s     0.000000s     1.63x         +38.7%<p>Turns out LiteLLM is already quite well-optimized! The core token counting was essentially unchanged (0.6% slower, likely within measurement noise), and the most significant gains came from the more complex operations like rate limiting and connection pooling where Rust's concurrent primitives made a real difference.<p>Key Takeaways<p>1. Don't assume existing libraries are under-optimized - The maintainers likely know their domain well\n2. Focus on algorithmic improvements over reimplementation - Sometimes a better approach beats a faster language\n3. Micro-benchmarks can be misleading - Real-world performance impact varies significantly\n4. The most gains often come from the complex parts, not the simple operations\n5. Even \"modest\" improvements can matter at scale - 45% improvements in rate limiting are meaningful for high-throughput applications<p>While the core token counting saw minimal improvement, the rate limiting and connection pooling gains still provide value for high-volume use cases. The infrastructure I built (feature flags, performance monitoring, safe fallbacks) creates a solid foundation for future optimizations.<p>The project continues as Fast LiteLLM on GitHub for anyone interested in the Rust-Python integration patterns, even if the performance gains were humbling.<p>Edit: To clarify - the negative performance for token_counter is likely in the noise range of measurement, suggesting that LiteLLM's token counting is already well-optimized. The 45%+ gains in rate limiting and connection pooling still provide value for high-throughput applications.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=45968461\">https://news.ycombinator.com/item?id=45968461</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-    "author": "ticktockten",
-    "published_date": "2025-11-18T16:32:16+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 396,
-    "reading_time": 1,
-    "created_at": "2025-11-18T16:54:04.655771+00:00",
-    "updated_at": "2025-11-18T16:54:04.655781+00:00"
   }
 ]
