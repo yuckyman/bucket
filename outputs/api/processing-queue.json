@@ -1,8 +1,24 @@
 {
-  "last_updated": "2025-11-24T01:15:49.303148+00:00",
-  "pending_count": 681,
-  "processed_count": 319,
+  "last_updated": "2025-11-24T03:20:01.611749+00:00",
+  "pending_count": 677,
+  "processed_count": 323,
   "pending_articles": [
+    {
+      "id": "ce59a5d746ba91870fcea0ff7eebbd5a",
+      "url": "https://www.asahi.com/ajw/articles/16137995",
+      "title": "'Invisible' microplastics spread in skies as global pollutant",
+      "content": "<p>Article URL: <a href=\"https://www.asahi.com/ajw/articles/16137995\">https://www.asahi.com/ajw/articles/16137995</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46028827\">https://news.ycombinator.com/item?id=46028827</a></p>\n<p>Points: 12</p>\n<p># Comments: 3</p>",
+      "author": "devonnull",
+      "published_date": "2025-11-24T00:18:21+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-24T01:46:31.632299+00:00",
+      "updated_at": "2025-11-24T01:46:31.632307+00:00"
+    },
     {
       "id": "331c01fdd1c04ce0d5333636e7b341c7",
       "url": "https://github.com/coder/mux",
@@ -146,25 +162,129 @@
       "reading_time": 1,
       "created_at": "2025-11-23T22:20:26.387896+00:00",
       "updated_at": "2025-11-23T22:20:26.387897+00:00"
-    },
-    {
-      "id": "3f16a84b6fed4ebda85a17a01a8956cb",
-      "url": "http://ieeexplore.ieee.org/document/11003421",
-      "title": "Quantifying the Role of Duodenal Shape in Flow and Mixing: A Computational Fluid Dynamics Study on Anatomically Diverse Models",
-      "content": "Objective: Enzymatic digestion of food and absorption of nutrients in the duodenum are affected by flow and mixing driven by peristaltic contractions. Our understanding of how the duodenum shape varies among individuals and how these anatomical differences affect the transport dynamics is limited. Methods: A landmark-free approach was used to perform statistical shape analysis of the duodenum, then computational fluid dynamics (CFD) simulations with anatomically realistic peristaltic contractions were used to characterize the effect of anatomical variations on flow and mixing. Leveraging the inherent tubular \u2018C\u2019 shape of the duodenum, centerlines and cross-sectional areas were computed for CT data from 34 subjects. The average radius and duodenal orientation in the form of the components of the tangent vectors to the centerline at 60 equally spaced (normalised by the centerline length) locations were used as inputs to a principal component analysis (PCA). Results: CFD simulations revealed similar flow features across all geometries including the location of stagnation points and the presence of reversed flow, and swirling patterns. The most extreme geometry, experiencing the largest magnitude of radial contractions, achieved a mixing state approximately twice that of the mean geometry within a 60 s period. Conclusion: This work provides new insights into duodenal shape variation and its impacts on intestinal fluid dynamics. Significance: The methods and datasets developed here have broader implications for understanding gastrointestinal function, digestion, and drug delivery by establishing quantitative links between anatomical variation and digestive processes.",
-      "author": "",
-      "published_date": "2025-05-13T13:17:02+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 238,
-      "reading_time": 1,
-      "created_at": "2025-11-23T22:20:26.387862+00:00",
-      "updated_at": "2025-11-23T22:20:26.387864+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "13536d178a430e4e25e6519abc62f904",
+      "url": "https://www.reddit.com/r/Python/comments/1p5239o/monday_daily_thread_project_ideas/",
+      "title": "Monday Daily Thread: Project ideas!",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: Project Ideas \ud83d\udca1</h1> <p>Welcome to our weekly Project Ideas thread! Whether you're a newbie looking for a first project or an expert seeking a new challenge, this is the place for you.</p> <h2>How it Works:</h2> <ol> <li><strong>Suggest a Project</strong>: Comment your project idea\u2014be it beginner-friendly or advanced.</li> <li><strong>Build &amp; Share</strong>: If you complete a project, reply to the original comment, share your experience, and attach your source code.</li> <li><strong>Explore</strong>: Looking for ideas? Check out Al Sweigart's <a href=\"https://www.amazon.com/Big-Book-Small-Python-Programming/dp/1718501242\">&quot;The Big Book of Small Python Projects&quot;</a> for inspiration.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Clearly state the difficulty level.</li> <li>Provide a brief description and, if possible, outline the tech stack.</li> <li>Feel free to link to tutorials or resources that might help.</li> </ul> <h1>Example Submissions:</h1> <h2>Project Idea: Chatbot</h2> <p><strong>Difficulty</strong>: Intermediate</p> <p><strong>Tech Stack</strong>: Python, NLP, Flask/FastAPI/Litestar </p> <p><strong>Description</strong>: Create a chatbot that can answer FAQs for a website.</p> <p><strong>Resources</strong>: <a href=\"https://www.youtube.com/watch?v=a37BL0stIuM\">Building a Chatbot with Python</a></p> <h1>Project Idea: Weather Dashboard</h1> <p><strong>Difficulty</strong>: Beginner</p> <p><strong>Tech Stack</strong>: HTML, CSS, JavaScript, API</p> <p><strong>Description</strong>: Build a dashboard that displays real-time weather information using a weather API.</p> <p><strong>Resources</strong>: <a href=\"https://www.youtube.com/watch?v=9P5MY_2i7K8\">Weather API Tutorial</a></p> <h2>Project Idea: File Organizer</h2> <p><strong>Difficulty</strong>: Beginner</p> <p><strong>Tech Stack</strong>: Python, File I/O</p> <p><strong>Description</strong>: Create a script that organizes files in a directory into sub-folders based on file type.</p> <p><strong>Resources</strong>: <a href=\"https://automatetheboringstuff.com/2e/chapter9/\">Automate the Boring Stuff: Organizing Files</a></p> <p>Let's help each other grow. Happy coding! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p5239o/monday_daily_thread_project_ideas/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p5239o/monday_daily_thread_project_ideas/\">[comments]</a></span>",
+      "author": "/u/AutoModerator",
+      "published_date": "2025-11-24T00:00:31+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 244,
+      "reading_time": 1,
+      "created_at": "2025-11-24T01:46:34.202381+00:00",
+      "updated_at": "2025-11-24T03:20:01.501577+00:00",
+      "metadata": {
+        "processed_at": "2025-11-24T03:20:01.501588+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "dfb319e5f31bde8ebaf366c293b483ff",
+      "url": "https://phys.org/news/2025-11-magnetic-component-faraday-effect-centuries.html",
+      "title": "New magnetic component discovered in the Faraday effect after nearly 2 centuries",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=45985008\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-19T20:53:42+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-24T01:46:32.854529+00:00",
+      "updated_at": "2025-11-24T03:20:01.501593+00:00",
+      "metadata": {
+        "processed_at": "2025-11-24T03:20:01.501595+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "189ba3551e35f6190062d81772992aa5",
+      "url": "https://microcad.xyz/",
+      "title": "\u00b5cad: New open source programming language that can generate 2D sketches and 3D",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46027216\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-23T20:51:22+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-24T01:46:32.854509+00:00",
+      "updated_at": "2025-11-24T03:20:01.501600+00:00",
+      "metadata": {
+        "processed_at": "2025-11-24T03:20:01.501602+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "e59cbbbaa70390cd184bebe880f11af3",
+      "url": "https://www.theregister.com/2025/11/03/cloudflare_cgnat_bias_research/",
+      "title": "ISPs more likely to throttle netizens who connect through CG-NAT: Cloudflare",
+      "content": "<p>Article URL: <a href=\"https://www.theregister.com/2025/11/03/cloudflare_cgnat_bias_research/\">https://www.theregister.com/2025/11/03/cloudflare_cgnat_bias_research/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46028627\">https://news.ycombinator.com/item?id=46028627</a></p>\n<p>Points: 27</p>\n<p># Comments: 4</p>",
+      "author": "throw0101a",
+      "published_date": "2025-11-23T23:53:06+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-24T01:46:31.632350+00:00",
+      "updated_at": "2025-11-24T03:20:01.501604+00:00",
+      "metadata": {
+        "processed_at": "2025-11-24T03:20:01.501606+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "bd71fe475060195396324b270abb77c4",
+      "url": "https://www.reuters.com/world/us/doge-doesnt-exist-with-eight-months-left-its-charter-2025-11-23/",
+      "title": "Doge 'doesn't exist' with eight months left on its charter",
+      "content": "<p>Article URL: <a href=\"https://www.reuters.com/world/us/doge-doesnt-exist-with-eight-months-left-its-charter-2025-11-23/\">https://www.reuters.com/world/us/doge-doesnt-exist-with-eight-months-left-its-charter-2025-11-23/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46028721\">https://news.ycombinator.com/item?id=46028721</a></p>\n<p>Points: 53</p>\n<p># Comments: 20</p>",
+      "author": "the_mitsuhiko",
+      "published_date": "2025-11-24T00:05:14+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-24T01:46:31.632329+00:00",
+      "updated_at": "2025-11-24T03:20:01.501608+00:00",
+      "metadata": {
+        "processed_at": "2025-11-24T03:20:01.501610+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "30f0187209749c5d15acaf566d00e7d1",
+      "url": "https://supermaven.com/blog/sunsetting-supermaven",
+      "title": "Sunsetting Supermaven",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46028033\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-23T22:33:34+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-23T23:39:26.818979+00:00",
+      "updated_at": "2025-11-24T01:15:49.211768+00:00",
+      "metadata": {
+        "processed_at": "2025-11-24T01:15:49.211778+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "30f0187209749c5d15acaf566d00e7d1",
       "url": "https://supermaven.com/blog/sunsetting-supermaven",
@@ -206,26 +326,6 @@
       }
     },
     {
-      "id": "30f0187209749c5d15acaf566d00e7d1",
-      "url": "https://supermaven.com/blog/sunsetting-supermaven",
-      "title": "Sunsetting Supermaven",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46028033\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-23T22:33:34+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-23T23:39:26.818979+00:00",
-      "updated_at": "2025-11-24T01:15:49.211768+00:00",
-      "metadata": {
-        "processed_at": "2025-11-24T01:15:49.211778+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "e69617075927fe59d8afe44b42c1651c",
       "url": "https://www.hindustantimes.com/world-news/us-news/xs-new-country-of-origin-feature-shakes-maga-and-democrat-circles-as-many-us-accounts-revealed-to-be-foreignrun-101763857104296.html",
       "title": "X's new country-of-origin feature reveals many 'US' accounts to be foreign-run",
@@ -262,106 +362,6 @@
       "updated_at": "2025-11-24T01:15:49.211795+00:00",
       "metadata": {
         "processed_at": "2025-11-24T01:15:49.211796+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "efb6d9768b33cf3eb3ee308c3d1f7b22",
-      "url": "http://ieeexplore.ieee.org/document/11245796",
-      "title": "IEEE Transactions on Biomedical Engineering Handling Editors Information",
-      "content": "null",
-      "author": "",
-      "published_date": "2025-11-13T13:16:42+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1,
-      "reading_time": 1,
-      "created_at": "2025-11-23T21:39:24.184231+00:00",
-      "updated_at": "2025-11-23T22:14:03.267498+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T22:14:03.267507+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "293855c1438767c88f6e34490d2c0b15",
-      "url": "http://ieeexplore.ieee.org/document/11245646",
-      "title": "IEEE Transactions on Biomedical Engineering Information for Authors",
-      "content": "null",
-      "author": "",
-      "published_date": "2025-11-13T13:16:42+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1,
-      "reading_time": 1,
-      "created_at": "2025-11-23T21:39:24.184211+00:00",
-      "updated_at": "2025-11-23T22:14:03.267511+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T22:14:03.267513+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "dcbcab96818b9c4fc39b243192bd378c",
-      "url": "http://ieeexplore.ieee.org/document/11245798",
-      "title": "IEEE Engineering in Medicine and Biology Society Publication Information",
-      "content": "null",
-      "author": "",
-      "published_date": "2025-11-13T13:16:42+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1,
-      "reading_time": 1,
-      "created_at": "2025-11-23T21:39:24.184191+00:00",
-      "updated_at": "2025-11-23T22:14:03.267516+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T22:14:03.267517+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9b9b9688b1b7ad0daae0d07393c16aad",
-      "url": "http://ieeexplore.ieee.org/document/11245797",
-      "title": "Front Cover",
-      "content": "null",
-      "author": "",
-      "published_date": "2025-11-13T13:16:42+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1,
-      "reading_time": 1,
-      "created_at": "2025-11-23T21:39:24.184165+00:00",
-      "updated_at": "2025-11-23T22:14:03.267519+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T22:14:03.267524+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2daff5fb9c068eee0a96532980eecc75",
-      "url": "https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/",
-      "title": "780k Windows Users Downloaded Linux Distro Zorin OS in the Last 5 Weeks",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46026579\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-23T19:38:15+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-23T21:38:27.268418+00:00",
-      "updated_at": "2025-11-23T22:14:03.267526+00:00",
-      "metadata": {
-        "processed_at": "2025-11-23T22:14:03.267528+00:00",
         "processing_method": "github_actions"
       }
     }
