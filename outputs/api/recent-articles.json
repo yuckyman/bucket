@@ -1,7 +1,87 @@
 {
-  "last_updated": "2025-11-24T20:18:02.805842+00:00",
+  "last_updated": "2025-11-24T20:25:29.847542+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "5e95f4714ff6a84f4879d5f895f394bb",
+      "url": "http://www.jneurosci.org/cgi/content/short/45/47/e0291252025?rss=1",
+      "title": "Superior Colliculus Projections Drive Dopamine Neuron Activity and Movement But Not Value",
+      "content": "<p>To navigate dynamic environments, animals must rapidly integrate sensory information and respond appropriately to gather rewards and avoid threats. It is well established that dopamine (DA) neurons in the ventral tegmental area (VTA) and substantia nigra (SNc) are key for creating associations between environmental stimuli (i.e., cues) and the outcomes they predict. Critically, it remains unclear how sensory information is integrated into DA pathways. The superior colliculus (SC) receives direct visual input and is positioned as a relay for DA neuron augmentation. We characterized the anatomy and functional impact of SC projections to the VTA/SNc in male and female rats. First, we show that neurons in the deep layers of SC synapse densely throughout the ventral midbrain, interfacing with projections to the striatum and ventral pallidum, and these SC projections excite DA and GABA neurons in the VTA/SNc in vivo. Despite this, cues predicting SC-&gt;VTA/SNc neuron activation did not reliably evoke behavior in an optogenetic pavlovian conditioning paradigm, and activation of SC-&gt;VTA/SNc neurons did not support primary reinforcement or produce place preference/avoidance. Instead, we find that stimulation of SC-&gt;VTA/SNc neurons evokes head turning. Focusing optogenetic activation solely onto DA neurons that receive input from the SC was sufficient to invigorate turning, but not reinforcement. Turning intensity increased with repeated stimulations, suggesting that this circuit may underlie sensorimotor learning for exploration and attentional switching. Together, our results show that collicular neurons contribute to cue-guided behaviors by controlling pose adjustments through interaction with DA neurons that preferentially engage movement instead of reward.</p>",
+      "author": "Poisson, C. L., Green, I. K., Stemmler, G. M., Prohofsky, J., Wolff, A. R., Herubin, C., Blake, M., Saunders, B. T.",
+      "published_date": "2025-11-19T17:30:30+00:00",
+      "source": "Journal Neuroscience Current",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 250,
+      "reading_time": 1,
+      "created_at": "2025-11-24T20:24:53.743408+00:00",
+      "updated_at": "2025-11-24T20:24:53.743410+00:00"
+    },
+    {
+      "id": "a955d80dfb696aedeca30c7ba86d81dd",
+      "url": "https://www.anthropic.com/engineering/advanced-tool-use",
+      "title": "Claude Advanced Tool Use",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46038047\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-24T19:21:35+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-24T20:24:19.956921+00:00",
+      "updated_at": "2025-11-24T20:24:19.956922+00:00"
+    },
+    {
+      "id": "fc6b6bea5cf18abdd47d1d278ebc654a",
+      "url": "http://karumi.ai/",
+      "title": "Launch HN: Karumi (YC F25) \u2013 Personalized, agentic product demos",
+      "content": "<p>Hey HN! We're Toni and Pablo, and we're building Karumi (<a href=\"https://www.karumi.ai\">https://www.karumi.ai</a>), a system that lets your users get instant, scalable, guided demos of your product, fully automated, zero human interaction. It works in any language.<p>Here's a demo video: <a href=\"https://www.loom.com/share/e7f7e00f2284478e8335f8f4d4dac6bd\" rel=\"nofollow\">https://www.loom.com/share/e7f7e00f2284478e8335f8f4d4dac6bd</a>. There's also a live demo at  <a href=\"https://www.karumi.ai/meet/start/phlz\">https://www.karumi.ai/meet/start/phlz</a>.<p>Karumi is an AI agent that operates a real web app in a shared browser session and talks the user through it. Instead of a human giving a screen-share demo, the agent opens your product, clicks around, fills forms, and explains what it\u2019s doing. We started building this as an internal tool at our previous company. As the product grew, people kept asking \u201cwhat\u2019s the right way to demo feature X?\u201c. Docs and scripts became outdated quickly, and the quality of demos depended too much on who was presenting. We wanted something closer to a repeatable program: an agent that knows the main flows, understands who it\u2019s talking to, and can walk through the product without getting lost.<p>Over time this turned into three main components:<p>Planning/control layer<p>A loop that decides the next step: ask something, click, navigate, reset, etc. It uses a reasoning model, but only within a fixed set of allowed actions with guards (timeouts, depth limits, reset states). It never gets free control of the browser.<p>Browser execution layer<p>A controlled browser session, streamed in a video call. The agent can only interact with the elements we want. We log each action with a timestamp and the agent\u2019s \u201creason\u201d, which helps debug odd behavior.<p>Product knowledge layer<p>We ingest docs, demo scripts & videos, and usage analytics, to train the agent. At runtime, the agent uses its knowledge to decide what flow to show and how to explain it.<p>Some practical details and limitations:<p>We only support web apps right now. Desktop apps will come next.\nLLMs introduce non-determinism, so we bias toward safe, predictable behavior: checkpoints, conservative navigation, and \u201cescape hatches\u201d that reset to known states.\nIf the agent doesn\u2019t understand a UI state (unknown modal, layout shift, etc.), it asks the user instead of guessing.\nRegarding pricing, it\u2019s still early. We tailor it to each customer based on their needs. Our current thinking is a platform fee plus a per-call charge for the agent. The platform fee varies depending on complexity, support requirements, and overall scope.<p>People currently use Karumi for inbound demos and internal demo environments. If you want to see it inside a real product, here\u2019s Karumi running in Deel\u2019s platform: <a href=\"https://www.loom.com/share/e7f7e00f2284478e8335f8f4d4dac6bd\" rel=\"nofollow\">https://www.loom.com/share/e7f7e00f2284478e8335f8f4d4dac6bd</a><p>We\u2019ll be around to answer questions and look forward to your feedback!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46037416\">https://news.ycombinator.com/item?id=46037416</a></p>\n<p>Points: 7</p>\n<p># Comments: 8</p>",
+      "author": "tonilopezmr",
+      "published_date": "2025-11-24T18:37:27+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 433,
+      "reading_time": 2,
+      "created_at": "2025-11-24T20:24:18.635379+00:00",
+      "updated_at": "2025-11-24T20:24:18.635381+00:00"
+    },
+    {
+      "id": "a955d80dfb696aedeca30c7ba86d81dd",
+      "url": "https://www.anthropic.com/engineering/advanced-tool-use",
+      "title": "Claude Advanced Tool Use",
+      "content": "<p>Article URL: <a href=\"https://www.anthropic.com/engineering/advanced-tool-use\">https://www.anthropic.com/engineering/advanced-tool-use</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46038047\">https://news.ycombinator.com/item?id=46038047</a></p>\n<p>Points: 14</p>\n<p># Comments: 5</p>",
+      "author": "lebovic",
+      "published_date": "2025-11-24T19:21:35+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-24T20:24:18.635215+00:00",
+      "updated_at": "2025-11-24T20:24:18.635217+00:00"
+    },
+    {
+      "id": "fd16d30fc18ebfbaa22350ae0d84aa9c",
+      "url": "https://www.tomshardware.com/pc-components/ddr5/64gb-of-ddr5-memory-now-costs-more-than-an-entire-ps5-even-after-a-discount-trident-z5-neo-kit-jumps-to-usd600-due-to-dram-shortage-and-its-expected-to-get-worse-into-2026",
+      "title": "PS5 now costs less than 64GB of DDR5 memory. RAM jumps to $600 due to shortage",
+      "content": "<p>Article URL: <a href=\"https://www.tomshardware.com/pc-components/ddr5/64gb-of-ddr5-memory-now-costs-more-than-an-entire-ps5-even-after-a-discount-trident-z5-neo-kit-jumps-to-usd600-due-to-dram-shortage-and-its-expected-to-get-worse-into-2026\">https://www.tomshardware.com/pc-components/ddr5/64gb-of-ddr5-memory-now-costs-more-than-an-entire-ps5-even-after-a-discount-trident-z5-neo-kit-jumps-to-usd600-due-to-dram-shortage-and-its-expected-to-get-worse-into-2026</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46038143\">https://news.ycombinator.com/item?id=46038143</a></p>\n<p>Points: 24</p>\n<p># Comments: 0</p>",
+      "author": "speckx",
+      "published_date": "2025-11-24T19:29:12+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-24T20:24:18.635182+00:00",
+      "updated_at": "2025-11-24T20:24:18.635192+00:00"
+    },
     {
       "id": "f78d4d1a4f3ebc9206333d1081ba6b60",
       "url": "https://www.reddit.com/r/Python/comments/1p5mgn8/psf_fundraising_grab_pycharm_pro_for_30_off/",
@@ -63,6 +143,26 @@
       }
     },
     {
+      "id": "b26a61d50a2821d0e08e630695ca46c2",
+      "url": "https://www.sawyerhood.com/blog/llm-extension",
+      "title": "The Bitter Lesson of LLM Extensions",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46037343\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-24T18:32:27+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-24T19:15:01.715786+00:00",
+      "updated_at": "2025-11-24T20:18:02.696816+00:00",
+      "metadata": {
+        "processed_at": "2025-11-24T20:18:02.696818+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "dd5926919b3ecaa8476bd238cbdf4a8e",
       "url": "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
       "title": "Is Your Android TV Streaming Box Part of a Botnet?",
@@ -79,6 +179,46 @@
       "updated_at": "2025-11-24T20:18:02.696820+00:00",
       "metadata": {
         "processed_at": "2025-11-24T20:18:02.696822+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "dd5926919b3ecaa8476bd238cbdf4a8e",
+      "url": "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
+      "title": "Is Your Android TV Streaming Box Part of a Botnet?",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46037556\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-24T18:47:11+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-24T19:15:01.715768+00:00",
+      "updated_at": "2025-11-24T20:18:02.696820+00:00",
+      "metadata": {
+        "processed_at": "2025-11-24T20:18:02.696822+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "0569b8ff4e8b7c5f5e5e4d0d360e0d96",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "title": "Claude Opus 4.5",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46037637\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-24T18:53:05+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-24T19:15:01.715714+00:00",
+      "updated_at": "2025-11-24T20:18:02.696824+00:00",
+      "metadata": {
+        "processed_at": "2025-11-24T20:18:02.696829+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -151,26 +291,6 @@
       "updated_at": "2025-11-24T19:15:00.428718+00:00"
     },
     {
-      "id": "b26a61d50a2821d0e08e630695ca46c2",
-      "url": "https://www.sawyerhood.com/blog/llm-extension",
-      "title": "The Bitter Lesson of LLM Extensions",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46037343\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-24T18:32:27+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-24T19:15:01.715786+00:00",
-      "updated_at": "2025-11-24T20:18:02.696816+00:00",
-      "metadata": {
-        "processed_at": "2025-11-24T20:18:02.696818+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "a3fd0ffe82b0e67e2e2997f475f1cc64",
       "url": "https://www.karumi.ai/meet/start/phlz",
       "title": "Launch HN: Karumi (YC F25) \u2013 Personalized, agentic product demos",
@@ -185,26 +305,6 @@
       "reading_time": 2,
       "created_at": "2025-11-24T19:15:00.428671+00:00",
       "updated_at": "2025-11-24T19:15:00.428673+00:00"
-    },
-    {
-      "id": "dd5926919b3ecaa8476bd238cbdf4a8e",
-      "url": "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
-      "title": "Is Your Android TV Streaming Box Part of a Botnet?",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46037556\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-24T18:47:11+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-24T19:15:01.715768+00:00",
-      "updated_at": "2025-11-24T20:18:02.696820+00:00",
-      "metadata": {
-        "processed_at": "2025-11-24T20:18:02.696822+00:00",
-        "processing_method": "github_actions"
-      }
     },
     {
       "id": "bffa02c4953d842b64833d130e20e827",
@@ -253,106 +353,6 @@
       "reading_time": 1,
       "created_at": "2025-11-24T19:15:00.428534+00:00",
       "updated_at": "2025-11-24T19:15:00.428536+00:00"
-    },
-    {
-      "id": "0569b8ff4e8b7c5f5e5e4d0d360e0d96",
-      "url": "https://www.anthropic.com/news/claude-opus-4-5",
-      "title": "Claude Opus 4.5",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46037637\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-24T18:53:05+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-24T19:15:01.715714+00:00",
-      "updated_at": "2025-11-24T20:18:02.696824+00:00",
-      "metadata": {
-        "processed_at": "2025-11-24T20:18:02.696829+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fe6ee1edc1a4878626c237af26a38cc7",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.21.689744v1?rss=1",
-      "title": "Characterization of hippocampal subfields using histology-based annotated postmortem MRI: Lessons for in vivo segmentation II",
-      "content": "High-resolution in vivo magnetic resonance imaging (MRI) of hippocampal subfields is a rapidly advancing field due to their implication in cognition, disorder, and disease. Hippocampal subfield segmentation on in vivo MRI is generally guided by postmortem reference material, which has been limited by small sample sizes that preclude comprehensive characterization of subfield border locations and their variability. Addressing this, we characterized hippocampal subfield border variability in two ultra-high-resolution postmortem MRI datasets with combined annotated histological sections, including cases with and without dementia. We examined: 1) the order of appearance and disappearance of subfields along the long axis of the hippocampus; 2) the order of appearance and disappearance of subicular subregions; 3) the medial-lateral position of subicular subregional boundaries along the hippocampal body; 4) the location of the CA3 relative to hippocampal head digitations; 5) the subfield borders in the hippocampal body relative to a volume proportion of the dark band; and 6) the association of hippocampal length and subiculum-CA1 border location with diagnosis, demographic factors, and factors related to postmortem imaging. Our findings reaffirmed that there is a consistent order of appearance and disappearance of subfields in the hippocampal head and tail, respectively. The subicular subregions exhibited a \"first in, last out\" order of appearance and disappearance, and pre/parasubiculum consistently occupied half of the subicular complex in coronal slices throughout the hippocampal body. Hippocampal head digitations were not a reliable landmark for CA3 appearance, but SRLM proportionality did offer a potentially consistent approach for estimating CA2 and CA3 subfield borders in relation to the hippocampal border. No clear relationship was found between the anatomical features and diagnosis, demographic factors, and factors related to postmortem imaging. These findings have implications for the development and harmonization of hippocampal subfield segmentation protocols and interpretation of high-resolution functional MRI studies of the human hippocampus.",
-      "author": "Tucker, H. L., Karat, B., De Ruiter, A. T., Parker, D. M., Lim, S. A., Denning, A. E., Ittyerah, R., Levorse, L. M., Trotman, W., Bahena, A., Chung, E., Prabhakaran, K., Bedard, M. L., Ohm, D. T., Xie, L., Das, S. R., Pluta, J. B., Schuck, T., Liu, W., Pickup, S., Artacho-Perula, E., Martin, M. M. I. d. O., Munoz, M., Romero, F. J., Gonzalez, J. C. D., Jimenez, M. A., Rabal, M. M., Serrano, A. I., Gonzalez, N. V., Sanchez, S. C., de la Rosa, C., Lee, E. B., Detre, J. A., Tisdall, D., Irwin, D. J., Wolk, D. A., Adler, D. H., de Flores, R., Berron, D., Ding, S.-L., Wisse, L. E.",
-      "published_date": "2025-11-24T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 300,
-      "reading_time": 1,
-      "created_at": "2025-11-24T18:31:53.068607+00:00",
-      "updated_at": "2025-11-24T18:31:53.068612+00:00"
-    },
-    {
-      "id": "33a4a442995965e33e561b049576510b",
-      "url": "https://github.com/Swordfish90/cool-retro-term",
-      "title": "Cool-retro-term: terminal emulator which mimics look and feel of the old CRTs",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46036895\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-24T17:52:01+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-24T18:31:15.585208+00:00",
-      "updated_at": "2025-11-24T18:31:15.585210+00:00"
-    },
-    {
-      "id": "89e630352160c31c17ee95a11431d703",
-      "url": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/OpenBSDToFreeBSDMove",
-      "title": "We're (now) moving from OpenBSD to FreeBSD for firewalls",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45980474\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-19T15:07:35+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-24T18:31:15.585170+00:00",
-      "updated_at": "2025-11-24T18:31:15.585172+00:00"
-    },
-    {
-      "id": "4b9f28317d801679fa238f14ffe5a4a3",
-      "url": "https://www.raspberrypi.com/news/a-new-raspberry-pi-imager/",
-      "title": "A New Raspberry Pi Imager",
-      "content": "<p>Article URL: <a href=\"https://www.raspberrypi.com/news/a-new-raspberry-pi-imager/\">https://www.raspberrypi.com/news/a-new-raspberry-pi-imager/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46036129\">https://news.ycombinator.com/item?id=46036129</a></p>\n<p>Points: 18</p>\n<p># Comments: 6</p>",
-      "author": "raus22",
-      "published_date": "2025-11-24T16:52:21+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-24T18:31:14.221417+00:00",
-      "updated_at": "2025-11-24T18:31:14.221418+00:00"
-    },
-    {
-      "id": "f576d2066038186798ab3d350d07d4ac",
-      "url": "https://twitter.com/karpathy/status/1993010584175141038",
-      "title": "Andrej Karpathy on X: implications of AI to schools",
-      "content": "<p>Article URL: <a href=\"https://twitter.com/karpathy/status/1993010584175141038\">https://twitter.com/karpathy/status/1993010584175141038</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46036878\">https://news.ycombinator.com/item?id=46036878</a></p>\n<p>Points: 10</p>\n<p># Comments: 1</p>",
-      "author": "bilsbie",
-      "published_date": "2025-11-24T17:51:02+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-24T18:31:14.221356+00:00",
-      "updated_at": "2025-11-24T18:31:14.221358+00:00"
     }
   ]
 }
