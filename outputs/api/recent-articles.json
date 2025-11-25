@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-11-25T14:16:02.093106+00:00",
+  "last_updated": "2025-11-25T14:22:52.605819+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "27b42cb1d01c6070b893d235e4b483b0",
+      "url": "http://doi.org/10.1037/pmu0000305",
+      "title": "<em>Psychomusicology</em>: A resounding closing cadence.",
+      "content": "From 2012 to 2023, the American Psychological Association served as publisher of <em>Psychomusicology: Music, Mind, and Brain</em>. Annabel Cohen and Mark Schmuckler were the successive editors-in-chiefs during this time. As the journal is ceasing publication, the two editors reflect on the development and progress of the journal in the context of the history of psychology and publication trends. They present their review in 10 short movements each with a unique musical emotional expressivity: <em>overture, amabile, vivace, elegy doloroso, sforzando, capriccio, con brio, pendolo, agilmente,</em> and <em>finale risonante</em>, ending on a very upbeat note! Early on, <em>Psychomusicology</em> offered a much-needed research forum for the psychology of music. More recently, the recognized importance of music psychology to almost all areas of psychology has led to increasing numbers of outlets for publication. During the 12 recent years under APA\u2019s stewardship, the journal more than doubled the number of articles published since the journal\u2019s inception in 1981. The entire corpus of almost 600 articles represents foundational and well-cited contributions to such current research areas as musical expectancy, performance excellence, musical development, neuroscience, emotion, preference, and film music, among others. Cohen and Schmuckler express deep gratitude to the authors, past editorial board members, and reviewers for their contributions to this corpus, and to the American Psychological Association Publications office and staff both for support and, importantly, for holding and making accessible in perpetuity the outstanding scholarship within the archives of <em>Psychomusicology: Music Mind & Brain and Psychomusicology: A Journal of Music Cognition</em>. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2024-01-22T00:00:00+00:00",
+      "source": "Psychomusicology",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 256,
+      "reading_time": 1,
+      "created_at": "2025-11-25T14:21:52.463872+00:00",
+      "updated_at": "2025-11-25T14:21:52.463876+00:00"
+    },
+    {
+      "id": "3bdddcb171031432ec9a93fdac7688f5",
+      "url": "https://www.reddit.com/r/Python/comments/1p65vcm/how_good_can_numpy_get/",
+      "title": "How good can NumPy get?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I was reading this <a href=\"https://medium.com/data-ai-and-beyond/stop-using-lambda-for-conditional-column-creation-in-pandas-use-this-instead-7817112425ce\">article</a> doing some research on optimizing my code and came something that I found interesting (I am a beginner lol)</p> <p>For creating a simple binary column (like an IF/ELSE) in a 1 million-row Pandas DataFrame, the common <code>df.apply(lambda...)</code> method was apparently <strong>49.2 times slower</strong> than using <code>np.where()</code>.</p> <p>I always treated <code>df.apply()</code> as the standard, efficient way to run element-wise operations.</p> <p><strong>Is this massive speed difference common knowledge?</strong></p> <ul> <li><strong>Why is the gap so huge?</strong> Is it purely due to <strong>Python's row-wise iteration</strong> vs. <strong>NumPy's C-compiled vectorization</strong>, or are there other factors at play (like memory management or overhead)?</li> <li>Have any of you hit this bottleneck? </li> </ul> <p>I'm trying to understand the underlying mechanics better</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Successful_Bee7113\"> /u/Successful_Bee7113 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p65vcm/how_good_can_numpy_get/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p65vcm/how_good_can_numpy_get/\">[comments]</a></span>",
+      "author": "/u/Successful_Bee7113",
+      "published_date": "2025-11-25T07:01:16+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 141,
+      "reading_time": 1,
+      "created_at": "2025-11-25T14:21:43.034820+00:00",
+      "updated_at": "2025-11-25T14:21:43.034822+00:00"
+    },
+    {
+      "id": "d92fd72ff3012577901fb234db645cc7",
+      "url": "https://www.svendewaerhert.com/blog/nearby-peer-discovery/",
+      "title": "Nearby peer discovery without GPS using environmental fingerprints",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46003606\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-21T11:47:38+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-25T14:21:41.729371+00:00",
+      "updated_at": "2025-11-25T14:21:41.729372+00:00"
+    },
     {
       "id": "5ab817221c0babf6e7114551dfdd273a",
       "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1685209",
@@ -293,62 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-11-25T12:44:05.139867+00:00",
       "updated_at": "2025-11-25T12:44:05.139869+00:00"
-    },
-    {
-      "id": "a2cae8298619113abdc7fff572315ab7",
-      "url": "https://mbleigh.dev/posts/broccoli-man-remastered/",
-      "title": "Broccoli Man, Remastered",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=45982875\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-19T18:16:53+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-25T12:43:36.032638+00:00",
-      "updated_at": "2025-11-25T12:43:36.032639+00:00"
-    },
-    {
-      "id": "7d3f6df7de0b98e03b8651757bdb8107",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1629388",
-      "title": "Software and pipelines for registration and analyses of rodent brain image data in reference atlas space",
-      "content": "Advancements in methodologies for efficient large-scale acquisition of high-resolution serial microscopy image data have opened new possibilities for experimental studies of cellular and subcellular features across whole brains in animal models. There is a high demand for open-source software and workflows for automated or semi-automated analysis of such data, facilitating anatomical, functional, and molecular mapping in healthy and diseased brains. These studies share a common need to consistently identify, visualize, and quantify the location of observations within anatomically defined regions, ensuring reproducible interpretation of anatomical locations, and thereby allowing meaningful comparisons of results across multiple independent studies. Addressing this need, we have developed a suite of desktop and web-applications for registration of serial brain section images to three-dimensional brain reference atlases (QuickNII, VisuAlign, WebAlign, WebWarp, and DeepSlice) and for performing data analysis in a spatial context provided by an atlas (Nutil, QCAlign, SeriesZoom, LocaliZoom, and MeshView). The software can be utilized in various combinations, creating customized analytical pipelines suited to specific research needs. The web-applications are integrated in the EBRAINS research infrastructure and coupled to the EBRAINS data platform, establishing the foundation for an online analytical workbench. We here present our software ecosystem, exemplify its use by the research community, and discuss possible directions for future developments.",
-      "author": "Jan G. Bjaalie",
-      "published_date": "2025-09-24T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 207,
-      "reading_time": 1,
-      "created_at": "2025-11-25T11:40:32.587880+00:00",
-      "updated_at": "2025-11-25T12:32:40.770467+00:00",
-      "metadata": {
-        "processed_at": "2025-11-25T12:32:40.770476+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "413100c78accbcaae3256972219ee4a2",
-      "url": "https://www.reddit.com/r/Python/comments/1p5xih6/tuesday_daily_thread_advanced_questions/",
-      "title": "Tuesday Daily Thread: Advanced questions",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Wednesday Thread: Advanced Questions \ud83d\udc0d</h1> <p>Dive deep into Python with our Advanced Questions thread! This space is reserved for questions about more advanced Python topics, frameworks, and best practices.</p> <h2>How it Works:</h2> <ol> <li><strong>Ask Away</strong>: Post your advanced Python questions here.</li> <li><strong>Expert Insights</strong>: Get answers from experienced developers.</li> <li><strong>Resource Pool</strong>: Share or discover tutorials, articles, and tips.</li> </ol> <h2>Guidelines:</h2> <ul> <li>This thread is for <strong>advanced questions only</strong>. Beginner questions are welcome in our <a href=\"#daily-beginner-thread-link\">Daily Beginner Thread</a> every Thursday.</li> <li>Questions that are not advanced may be removed and redirected to the appropriate thread.</li> </ul> <h2>Recommended Resources:</h2> <ul> <li>If you don't receive a response, consider exploring <a href=\"/r/LearnPython\">r/LearnPython</a> or join the <a href=\"https://discord.gg/python\">Python Discord Server</a> for quicker assistance.</li> </ul> <h2>Example Questions:</h2> <ol> <li><strong>How can you implement a custom memory allocator in Python?</strong></li> <li><strong>What are the best practices for optimizing Cython code for heavy numerical computations?</strong></li> <li><strong>How do you set up a multi-threaded architecture using Python's Global Interpreter Lock (GIL)?</strong></li> <li><strong>Can you explain the intricacies of metaclasses and how they influence object-oriented design in Python?</strong></li> <li><strong>How would you go about implementing a distributed task queue using Celery and RabbitMQ?</strong></li> <li><strong>What are some advanced use-cases for Python's decorators?</strong></li> <li><strong>How can you achieve real-time data streaming in Python with WebSockets?</strong></li> <li><strong>What are the performance implications of using native Python data structures vs NumPy arrays for large-scale data?</strong></li> <li><strong>Best practices for securing a Flask (or similar) REST API with OAuth 2.0?</strong></li> <li><strong>What are the best practices for using Python in a microservices architecture? (..and more generally, should I even use microservices?)</strong></li> </ol> <p>Let's deepen our Python knowledge together. Happy coding! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p5xih6/tuesday_daily_thread_advanced_questions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p5xih6/tuesday_daily_thread_advanced_questions/\">[comments]</a></span>",
-      "author": "/u/AutoModerator",
-      "published_date": "2025-11-25T00:00:31+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 288,
-      "reading_time": 1,
-      "created_at": "2025-11-25T11:40:04.142267+00:00",
-      "updated_at": "2025-11-25T12:32:40.770480+00:00",
-      "metadata": {
-        "processed_at": "2025-11-25T12:32:40.770482+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
