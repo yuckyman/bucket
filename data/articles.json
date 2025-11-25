@@ -1,5 +1,21 @@
 [
   {
+    "id": "502472b2fb9761f64885368d04ea3046",
+    "url": "https://www.reddit.com/r/Python/comments/1p5vkia/movielite_a_moviepy_alternative_for_video_editing/",
+    "title": "MovieLite: A MoviePy alternative for video editing that is up to 4x faster",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi <a href=\"/r/Python\">r/Python</a>,</p> <p>I love the simplicity of MoviePy, but it often becomes very slow when doing complex things like resizing or mixing multiple videos. So, I built <strong>MovieLite</strong>.</p> <p>This started as a module inside a personal project where I had to migrate away from MoviePy due to performance bottlenecks. I decided to extract the code into its own library to help others with similar issues. It is currently in <strong>early alpha</strong>, but stable enough for my internal use cases.</p> <p><strong>Repo:</strong> <a href=\"https://github.com/francozanardi/movielite\">https://github.com/francozanardi/movielite</a></p> <h3>What My Project Does</h3> <p>MovieLite is a library for programmatic video editing (cutting, concatenating, text overlays, effects). It delegates I/O to FFmpeg but handles pixel processing in Python.</p> <p>It is designed to be CPU Optimized using Numba to speed up pixel-heavy operations. Note that it is not GPU optimized and currently only supports exporting to MP4 (h264).</p> <h3>Target Audience</h3> <p>This is for Python Developers doing backend video automation who find MoviePy too slow for production. It is not a full-featured video editor replacement yet, but a faster tool for the most common automation tasks.</p> <h3>Comparison &amp; Benchmarks</h3> <p>The main difference is performance. Here are real benchmarks comparing MovieLite vs. MoviePy (v2.x) on a 1280x720 video at 30fps.</p> <p>These tests were run using 1 single process, and the same video codec and preset on both libraries, to ensure a fair comparison.</p> <table><thead> <tr> <th align=\"left\">Task</th> <th align=\"left\">MovieLite</th> <th align=\"left\">MoviePy</th> <th align=\"left\">Speedup</th> </tr> </thead><tbody> <tr> <td align=\"left\">No processing</td> <td align=\"left\">6.34s</td> <td align=\"left\">6.71s</td> <td align=\"left\">1.06x</td> </tr> <tr> <td align=\"left\">Video zoom</td> <td align=\"left\">9.52s</td> <td align=\"left\">31.81s</td> <td align=\"left\"><strong>3.34x</strong></td> </tr> <tr> <td align=\"left\">Fade in/out</td> <td align=\"left\">8.53s</td> <td align=\"left\">9.03s</td> <td align=\"left\">1.06x</td> </tr> <tr> <td align=\"left\">Text overlay</td> <td align=\"left\">7.82s</td> <td align=\"left\">35.35s</td> <td align=\"left\"><strong>4.52x</strong></td> </tr> <tr> <td align=\"left\">Video overlay</td> <td align=\"left\">18.22s</td> <td align=\"left\">75.47s</td> <td align=\"left\"><strong>3.14x</strong></td> </tr> <tr> <td align=\"left\">Alpha video overlay</td> <td align=\"left\">10.75s</td> <td align=\"left\">42.11s</td> <td align=\"left\"><strong>3.92x</strong></td> </tr> <tr> <td align=\"left\">Complex mix*</td> <td align=\"left\">38.07s</td> <td align=\"left\">175.31s</td> <td align=\"left\"><strong>4.61x</strong></td> </tr> <tr> <td align=\"left\"><strong>Total</strong></td> <td align=\"left\"><strong>99.24s</strong></td> <td align=\"left\"><strong>375.79s</strong></td> <td align=\"left\"><strong>3.79x</strong></td> </tr> </tbody></table> <p><em>\\</em>Complex mix includes: video with zoom + fade, image clips, text overlay, and video overlay composed together.*</p> <p><strong>Vs. FFmpeg (CLI):</strong> While raw FFmpeg commands are technically faster, MovieLite allows you to use Python logic (variables, loops, conditions) to define your edits, which is much harder to maintain with complex CLI strings.</p> <p><strong>Example Usage:</strong></p> <p>Here is how you would create a simple &quot;Picture-in-Picture&quot; effect with a fade-in:</p> <p>```python from movielite import VideoClip, VideoWriter, vfx</p> <h1>1. Main background video</h1> <p>bg_clip = VideoClip(&quot;background.mp4&quot;).subclip(0, 10)</p> <h1>2. Overlay video (Picture-in-Picture)</h1> <p>overlay = VideoClip(&quot;facecam.mp4&quot;).subclip(0, 10) overlay.set_scale(0.3) # Resize overlay.set_position((20, 20)) # Move to top-left overlay.add_effect(vfx.FadeIn(1.0))</p> <h1>3. Render mixing both clips</h1> <p>writer = VideoWriter(&quot;output.mp4&quot;, fps=30) writer.add_clip(bg_clip) writer.add_clip(overlay) writer.write() ```</p> <p><em>Note</em>: if you have multiple cores, you can do writer.write(processes=x) for faster rendering! It's specially useful for long output videos. For short videos, it will probably be overhead.</p> <p>I'd love to hear your feedback or suggestions!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_unknownProtocol\"> /u/_unknownProtocol </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p5vkia/movielite_a_moviepy_alternative_for_video_editing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p5vkia/movielite_a_moviepy_alternative_for_video_editing/\">[comments]</a></span>",
+    "author": "/u/_unknownProtocol",
+    "published_date": "2025-11-24T22:38:43+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 493,
+    "reading_time": 2,
+    "created_at": "2025-11-25T01:40:44.689150+00:00",
+    "updated_at": "2025-11-25T01:40:44.689151+00:00"
+  },
+  {
     "id": "f485a145c3b839418e3d039dc3a92ea6",
     "url": "https://erpinfo.org/blog/2025/3/20/new-paper-oddball",
     "title": "New Paper: Does the P3b component reflect working memory updating?",
@@ -17318,21 +17334,5 @@
     "reading_time": 1,
     "created_at": "2025-11-19T20:20:37.025344+00:00",
     "updated_at": "2025-11-19T20:20:37.025346+00:00"
-  },
-  {
-    "id": "ba3615a598bb7ee9cf90b3930e3691b6",
-    "url": "https://philippdubach.com/2025/10/25/pozsars-bretton-woods-iii-the-framework-1/2/",
-    "title": "Pozsar's Bretton Woods III: Sometimes Money Can't Solve the Problem",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=45984072\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-19T19:39:09+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-19T20:20:32.881817+00:00",
-    "updated_at": "2025-11-19T20:20:32.881818+00:00"
   }
 ]
