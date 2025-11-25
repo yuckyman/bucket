@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-25T04:21:38.996736+00:00",
+  "last_updated": "2025-11-25T04:35:39.486000+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "92e0f99358e2479b5de90a985e1f86ba",
+      "url": "https://www.ocrarena.ai/battle",
+      "title": "Show HN: OCR Arena \u2013 A playground for OCR models",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46006104\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-21T16:44:45+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-25T04:34:27.821355+00:00",
+      "updated_at": "2025-11-25T04:34:27.821356+00:00"
+    },
     {
       "id": "b263000c196a62fda6dfde95ecad433f",
       "url": "http://doi.org/10.1037/bne0000627",
@@ -365,22 +381,6 @@
       "reading_time": 1,
       "created_at": "2025-11-24T23:20:31.770983+00:00",
       "updated_at": "2025-11-24T23:20:31.770988+00:00"
-    },
-    {
-      "id": "759404748900e5fd287ed3ddb34d2768",
-      "url": "https://www.reddit.com/r/Python/comments/1p5vpul/archgw_0320_500mbs_of_python_dependencies_gutted/",
-      "title": "archgw 0.3.20 - 500MBs of python dependencies gutted out - faster, leaner proxy server for agents.",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://github.com/katanemo/archgw\">archgw</a> (a models-native sidecar proxy for AI agents) offered two capabilities that required loading small LLMs in memory: guardrails to prevent jailbreak attempts, and function-calling for routing requests to the right downstream tool or agent. These built-in features required the project running a thread-safe python process that used libs like transformers, torch, safetensors, etc. 500M in dependencies, not to mention all the security vulnerabilities in the dep tree. Not hating on python, but our GH project was flagged with all sorts of issues.</p> <p>Those models are loaded as a separate out-of-process server via ollama/lama.cpp which you all know are built in C++/Go. Lighter, faster and safer. And ONLY if the developer uses these features of the product. This meant 9000 lines of less code, a total start time of &lt;2 seconds (vs 30+ seconds), etc.</p> <p>Why archgw? So that you can build AI agents in any language or framework and offload the plumbing work in AI (like agent routing/hand-off, guardrails, zero-code logs and traces, and a unified API for all LLMs) to a durable piece of infrastructure, deployed as a sidecar.</p> <p>Proud of this release, so sharing \ud83d\ude4f</p> <p>P.S Sample demos, the CLI and some tests still use python because would be most convenient for developers to interact with the project. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AdditionalWeb107\"> /u/AdditionalWeb107 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p5vpul/archgw_0320_500mbs_of_python_dependencies_gutted/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p5vpul/archgw_0320_500mbs_of_python_dependencies_gutted/\">[comments]</a></span>",
-      "author": "/u/AdditionalWeb107",
-      "published_date": "2025-11-24T22:44:36+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 234,
-      "reading_time": 1,
-      "created_at": "2025-11-24T23:19:49.837469+00:00",
-      "updated_at": "2025-11-24T23:19:49.837471+00:00"
     }
   ]
 }
