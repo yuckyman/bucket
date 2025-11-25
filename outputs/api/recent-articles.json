@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-25T19:19:24.367956+00:00",
+  "last_updated": "2025-11-25T19:40:20.843800+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "92a49527be0f3a36d15d279820af7909",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0001691825003853",
+      "title": "IQ differences of identical twins reared apart are influenced by education",
+      "content": "<p>Article URL: <a href=\"https://www.sciencedirect.com/science/article/pii/S0001691825003853\">https://www.sciencedirect.com/science/article/pii/S0001691825003853</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46049624\">https://news.ycombinator.com/item?id=46049624</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "author": "wjb3",
+      "published_date": "2025-11-25T19:23:04+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-25T19:39:13.043094+00:00",
+      "updated_at": "2025-11-25T19:39:13.043103+00:00"
+    },
     {
       "id": "22344cd0999519659c49aa8b3e67cbf0",
       "url": "https://www.biorxiv.org/content/10.1101/2025.11.22.684496v1?rss=1",
@@ -315,26 +331,6 @@
       "updated_at": "2025-11-25T18:23:51.890908+00:00",
       "metadata": {
         "processed_at": "2025-11-25T18:23:51.890910+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7a8f872dd63b73ffd0ee7fcd46bc06a5",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1706099",
-      "title": "CNN-based framework for Alzheimer's disease detection from EEG via dynamic mode decomposition",
-      "content": "Alzheimer's disease (AD) and frontotemporal dementia (FTD) are major neurodegenerative disorders with characteristic EEG alterations. While most prior studies have focused on eyes-closed (EC) EEG, where stable alpha rhythms support relatively high classification performance, eyes-open (EO) EEG has proven particularly challenging for AD, as low-frequency instability obscures the typical spectral alterations. In contrast, FTD often remains more discriminable under EO conditions, reflecting distinct neurophysiological dynamics between the two disorders. To address this challenge, we propose a CNN-based framework that applies Dynamic Mode Decomposition (DMD) to segment EO EEG into shorter temporal windows and employs a 3D CNN to capture spatio-temporal-spectral representations. This approach outperformed not only the conventional short-epoch spectral ML pipeline but also the same CNN architecture trained on FFT-based features, with particularly pronounced improvements observed in AD classification. Excluding delta yielded small gains in AD-involving contrasts, whereas FTD/CN was unchanged or slightly better with delta retained\u2014suggesting delta is more perturbative in AD under EO conditions.",
-      "author": "Jong-Hyeon Seo",
-      "published_date": "2025-11-20T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 157,
-      "reading_time": 1,
-      "created_at": "2025-11-25T17:44:10.075972+00:00",
-      "updated_at": "2025-11-25T18:23:51.890912+00:00",
-      "metadata": {
-        "processed_at": "2025-11-25T18:23:51.890914+00:00",
         "processing_method": "github_actions"
       }
     }
