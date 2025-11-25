@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-25T09:26:10.170707+00:00",
+  "last_updated": "2025-11-25T09:47:07.933903+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d71fdc679fa8453a797bfbfc700fb134",
+      "url": "https://www.reddit.com/r/Python/comments/1p5u7n8/bedrock_server_manager_milestones_achieved/",
+      "title": "Bedrock Server Manager - Milestones Achieved!",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>It\u2019s been about 7 months since I last posted in the <a href=\"https://www.reddit.com/r/selfhosted/\">r/selfhosted</a> sub, and today I\u2019m excited to share that <strong>Bedrock Server Manager (BSM)</strong> has just hit version <strong>3.7.0</strong>.</p> <p>For those who don't know, BSM is a python web server designed to make managing Minecraft Bedrock Dedicated Servers simple, efficient, and automatable.</p> <p>BSM is one of, if not, <strong>the most easiest server manager to setup and use</strong>!</p> <p>BSM has grown a lot since the last update. BSM also passed <strong>25,000 installs on PyPI</strong> and seeing a steady stream of stars on GitHub. I never could have imagined that the project would grow so big and so fast! A big thanks to everyone for helping the project reach this massive milestone! \ud83c\udf89</p> <p>I've spent the last half-year completely refactoring the core to be faster, more modular, and developer-friendly. Here is the rundown of the massive changes since the last update post:</p> <ul> <li><strong>Full FastAPI Rewrite:</strong> BSM migrated from Flask to <strong>FastAPI</strong> for better performance, async capabilities, and automatic API documentation.</li> <li><strong>WebSockets:</strong> The dashboard now uses FastAPI's WebSocket for real-time server console streaming and status updates.</li> <li><strong>Plugin System:</strong> BSM is now extensible. You can write Python plugins to add your own API routes, Web UI pages, or actions based on events.</li> <li><strong>Docker Support:</strong> Official Docker support is now live. You can spin up managed servers in seconds using our optimized images.</li> <li><strong>Multi-User &amp; Auth:</strong> Complete multi-user support with role-based access control (Admin, Moderator, User). Great for communities where you want to give staff limited access.</li> <li><strong>Database Driven:</strong> Moved from JSON configs to a proper <strong>SQLite</strong> database (with support for external databases like Postgres/MySQL), making data management much more robust.</li> <li><a href=\"https://github.com/DMedina559/bsm-home-assistant-integration\"><strong>Home Assistant Integration</strong></a><strong>:</strong> Manage your servers from Home Assistant! Automate various aspect such as lifecycle, backups, or even addon installs!</li> </ul> <h1>For the Developers</h1> <ul> <li><strong>Modern CLI:</strong> Switched from standard argparse to <strong>Click</strong> and <strong>Questionary</strong> for a much better interactive CLI experience.</li> <li><strong>Dev-Friendly Docs:</strong> Documentation is now auto-generated using Sphinx and hosted on <a href=\"https://bedrock-server-manager.readthedocs.io/en/latest/index.html\">Read the Docs</a>.</li> </ul> <h1>Links</h1> <ul> <li><strong>GitHub:</strong> <a href=\"https://github.com/DMedina559/bedrock-server-manager\">https://github.com/DMedina559/bedrock-server-manager</a></li> <li><strong>PyPI:</strong> <a href=\"https://pypi.org/project/bedrock-server-manager/\">https://pypi.org/project/bedrock-server-manager/</a></li> <li><strong>Documentation:</strong> <a href=\"https://bedrock-server-manager.readthedocs.io/en/latest/\">Read the Docs</a></li> </ul> <p>If you find the tool useful, a Star on GitHub is always appreciated\u2014it really helps the project grow! And another big thanks to everyone for helping the project grow!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BlazeCrafter420\"> /u/BlazeCrafter420 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p5u7n8/bedrock_server_manager_milestones_achieved/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p5u7n8/bedrock_server_manager_milestones_achieved/\">[comments]</a></span>",
+      "author": "/u/BlazeCrafter420",
+      "published_date": "2025-11-24T21:46:01+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 401,
+      "reading_time": 2,
+      "created_at": "2025-11-25T09:45:56.393148+00:00",
+      "updated_at": "2025-11-25T09:45:56.393150+00:00"
+    },
     {
       "id": "5ab1ba0417b6c8fd9810f7025460e38f",
       "url": "https://www.amusingplanet.com/2016/09/how-atomic-tests-looked-like-from-los.html",
@@ -333,22 +349,6 @@
       "reading_time": 1,
       "created_at": "2025-11-25T06:33:42.212758+00:00",
       "updated_at": "2025-11-25T06:33:42.212760+00:00"
-    },
-    {
-      "id": "90441068b443fa5e71b7e7d3051f5394",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1657677",
-      "title": "Muscle responses to limb block during spontaneous movements in infants",
-      "content": "Young infants manifest prominent neuromuscular responses to changes in muscle length, along with a variety of spontaneous movements. The first months of life are an important period during which sensorimotor integration and muscle tone gradually mature. In adults, muscle responses may also be observed when coordinated limb movements are transiently blocked. Given that infants normally exhibit spontaneous limb activity, here we examined whether a transient upper or lower limb block evoked consistent muscle responses while the infants were allowed to perform spontaneous movements with the other limbs. We examined polymyographic recordings in 12 bilateral arm and leg muscles in full-term and preterm infants (1\u20137\u202fmonths old). Overall, muscle activity, its spectral characteristics, and agonist\u2013antagonist coactivation were comparable before and after the block in both full-term and preterm infants, suggesting that the transient limb immobilization effect is not evident or consistent, as opposed to previously reported prominent muscle responses to muscle lengthening or shortening. The lack of consistent muscular responses to limb block supports the idea that individual limb motion during spontaneous movements is relatively independent of the control of other limbs, and that sensory input during changes in muscle length is more effective in revealing sensorimotor connections than its non-appearance.",
-      "author": "Yury Ivanenko",
-      "published_date": "2025-11-25T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 200,
-      "reading_time": 1,
-      "created_at": "2025-11-25T06:33:42.212722+00:00",
-      "updated_at": "2025-11-25T06:33:42.212727+00:00"
     }
   ]
 }
