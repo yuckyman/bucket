@@ -7,13 +7,17 @@
     "author": "tagawa",
     "published_date": "2025-11-25T15:24:59+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 13,
     "reading_time": 1,
     "created_at": "2025-11-25T15:45:35.933627+00:00",
-    "updated_at": "2025-11-25T15:45:35.933635+00:00"
+    "updated_at": "2025-11-25T16:21:02.019544+00:00",
+    "metadata": {
+      "processed_at": "2025-11-25T16:21:02.019553+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "cf01532dd94ed1e20d5f31176ef74dae",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": null,
     "source": "Brain Research",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 21,
     "reading_time": 1,
     "created_at": "2025-11-25T15:24:14.994666+00:00",
-    "updated_at": "2025-11-25T15:24:14.994668+00:00"
+    "updated_at": "2025-11-25T16:21:02.019557+00:00",
+    "metadata": {
+      "processed_at": "2025-11-25T16:21:02.019559+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "32c6959cda32fa8921c4c07d2c991492",
@@ -39,13 +47,17 @@
     "author": "",
     "published_date": null,
     "source": "Neuroscience Journal",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 12,
     "reading_time": 1,
     "created_at": "2025-11-25T15:24:13.760733+00:00",
-    "updated_at": "2025-11-25T15:24:13.760735+00:00"
+    "updated_at": "2025-11-25T16:21:02.019562+00:00",
+    "metadata": {
+      "processed_at": "2025-11-25T16:21:02.019563+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "3a9d3cc662d79a6d937b1d5639b4e483",
@@ -55,29 +67,37 @@
     "author": "",
     "published_date": "2025-11-25T14:20:30+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2025-11-25T15:23:31.401730+00:00",
-    "updated_at": "2025-11-25T15:23:31.401732+00:00"
+    "updated_at": "2025-11-25T16:21:02.019568+00:00",
+    "metadata": {
+      "processed_at": "2025-11-25T16:21:02.019569+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "3a9d3cc662d79a6d937b1d5639b4e483",
     "url": "https://news.ycombinator.com/item?id=46045987",
     "title": "Launch HN: Onyx (YC W24) \u2013 The open-source chat UI",
-    "content": "<p>Hey HN, Chris and Yuhong here from Onyx (<a href=\"https://github.com/onyx-dot-app/onyx\" rel=\"nofollow\">https://github.com/onyx-dot-app/onyx</a>). We\u2019re building an open-source chat that works with any LLM (proprietary + open weight) <i>and</i> gives these LLMs the tools they need to be useful (RAG, web search, MCP, deep research, memory, etc.).<p>Demo: <a href=\"https://youtu.be/2g4BxTZ9ztg\" rel=\"nofollow\">https://youtu.be/2g4BxTZ9ztg</a><p>Two years ago, Yuhong and I had the same recurring problem. We were on growing teams and it was ridiculously difficult to find the right information across our docs, Slack, meeting notes, etc. Existing solutions required sending out our company's data, lacked customization, and frankly didn't work well. So, we started Danswer, an open-source enterprise search project built to be self-hosted and easily customized.<p>As the project grew, we started seeing an interesting trend\u2014even though we were explicitly a search app, people wanted to use Danswer just to chat with LLMs. We\u2019d hear, \u201cthe connectors, indexing, and search are great, but I\u2019m going to start by connecting GPT-4o, Claude Sonnet 4, and Qwen to provide my team with a secure way to use them\u201d.<p>Many users would add RAG, agents, and custom tools later, but much of the usage stayed \u2018basic chat\u2019. We thought: \u201cwhy would people co-opt an enterprise search when other AI chat solutions exist?\u201d<p>As we continued talking to users, we realized two key points:<p>(1) just giving a company secure access to an LLM with a great UI and simple tools is a huge part of the value add of AI<p>(2) providing this <i>well</i> is much harder than you might think and the bar is incredibly high<p>Consumer products like ChatGPT and Claude already provide a great experience\u2014and chat with AI for work is something (ideally) everyone at the company uses 10+ times per day. People expect the same snappy, simple, and intuitive UX with a full feature set. Getting hundreds of small details right to take the experience from \u201cthis works\u201d to \u201cthis feels magical\u201d is not easy, and nothing else in the space has managed to do it.<p>So ~3 months ago we pivoted to Onyx, the open-source chat UI with:<p>- (truly) world class chat UX. Usable both by a fresh college grad who grew up with AI and an industry veteran who\u2019s using AI tools for the first time.<p>- Support for all the common add-ons: RAG, connectors, web search, custom tools, MCP, assistants, deep research.<p>- RBAC, SSO, permission syncing, easy on-prem hosting to make it work for larger enterprises.<p>Through building features like deep research and code interpreter that work across model providers, we've learned a ton of non-obvious things about engineering LLMs that have been key to making Onyx work. I'd like to share two that were particularly interesting (happy to discuss more in the comments).<p>First, context management is one of the most difficult and important things to get right. We\u2019ve found that LLMs really struggle to remember both system prompts and previous user messages in long conversations. Even simple instructions like \u201cignore sources of type X\u201d in the system prompt are very often ignored. This is exacerbated by multiple tool calls, which can often feed in huge amounts of context. We solved this problem with a \u201cReminder\u201d prompt\u2014a short 1-3 sentence blurb injected at the end of the user message that describes the non-negotiables that the LLM must abide by. Empirically, LLMs attend most to the very end of the context window, so this placement gives the highest likelihood of adherence.<p>Second, we\u2019ve needed to build an understanding of the \u201cnatural tendencies\u201d of certain models when using tools, and build around them. For example, the GPT family of models are fine-tuned to use a python code interpreter that operates in a Jupyter notebook. Even if told explicitly, it refuses to add `print()` around the last line, since, in Jupyter, this last line is automatically written to stdout. Other models don\u2019t have this strong preference, so we\u2019ve had to design our model-agnostic code interpreter to also automatically `print()` the last bare line.<p>So far, we\u2019ve had a Fortune 100 team fork Onyx and provide 10k+ employees access to every model within a single interface, and create thousands of use-case specific Assistants for every department, each using the best model for the job. We\u2019ve seen teams operating in sensitive industries completely airgap Onyx w/ locally hosted LLMs to provide a copilot that wouldn\u2019t have been possible otherwise.<p>If you\u2019d like to try Onyx out, follow <a href=\"https://docs.onyx.app/deployment/getting_started/quickstart\">https://docs.onyx.app/deployment/getting_started/quickstart</a> to get set up locally w/ Docker in <15 minutes. For our Cloud: <a href=\"https://www.onyx.app/\">https://www.onyx.app/</a>. If there\u2019s anything you'd like to see to make it a no-brainer to replace your ChatGPT Enterprise/Claude Enterprise subscription, we\u2019d love to hear it!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46045987\">https://news.ycombinator.com/item?id=46045987</a></p>\n<p>Points: 7</p>\n<p># Comments: 3</p>",
-    "author": "Weves",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46045987\">Comments</a>",
+    "author": "",
     "published_date": "2025-11-25T14:20:30+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 770,
-    "reading_time": 3,
-    "created_at": "2025-11-25T15:23:30.096606+00:00",
-    "updated_at": "2025-11-25T15:23:30.096617+00:00"
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-11-25T15:23:31.401730+00:00",
+    "updated_at": "2025-11-25T16:21:02.019568+00:00",
+    "metadata": {
+      "processed_at": "2025-11-25T16:21:02.019569+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "2e544e82d11b3f5e6813174f0f48268f",
