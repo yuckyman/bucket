@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-11-26T04:21:46.169569+00:00",
+  "last_updated": "2025-11-26T04:35:38.582891+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "bbe0f805e4fabfb0ac2476417484aef4",
+      "url": "http://ieeexplore.ieee.org/document/10946856",
+      "title": "Enhancing Video Experiences for DHH Individuals Through Sound-Inspired Motion Caption-Based Spatiotemporal Tacton",
+      "content": "When deaf and hard of hearing (DHH) individuals watch videos, captions are essential for them to understand the linguistic content. Current captions, however, are not suitable for conveying non-verbal sound information, such as background music, sound effects, or speech nuances. In this paper, we designed a multimodal system, Motion Caption Haptic System (MCHS), that enables DHH individuals to encounter sounds in videos through animated caption and spatiotemporal vibration patterns, supporting a more vivid and immersive experience. We elaborately designed motion captions and spatiotemporal haptic patterns for representative sound effects and spoken emotions to work well together through surveys from 27 DHH and 64 hearing participants. An evaluation with 19 DHH individuals demonstrated the capabilities and potential of the MCHS to improve their video viewing experience, along with a discussion of important issues that need to be addressed when designing multimodal captioning systems for the DHH viewers.",
+      "author": "",
+      "published_date": "2025-04-01T13:17:18+00:00",
+      "source": "Transactions Haptics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 146,
+      "reading_time": 1,
+      "created_at": "2025-11-26T04:35:25.104758+00:00",
+      "updated_at": "2025-11-26T04:35:25.104760+00:00"
+    },
+    {
+      "id": "609521b013e1243f77b1eaa5e01eab3e",
+      "url": "http://ieeexplore.ieee.org/document/10965524",
+      "title": "VibTac: A High-Resolution High-Bandwidth Tactile Sensing Finger for Multi-Modal Perception in Robotic Manipulation",
+      "content": "Tactile sensing is pivotal for enhancing robot manipulation abilities by providing crucial feedback for localized information. However, existing sensors often lack the necessary resolution and bandwidth required for intricate tasks. To address this gap, we introduce VibTac, a novel multi-modal tactile sensing finger designed to offer high-resolution and high-bandwidth tactile sensing simultaneously. VibTac seamlessly integrates vision-based and vibration-based tactile sensing modes to achieve high-resolution and high-bandwidth tactile sensing respectively, leveraging a streamlined human-inspired design for versatility in tasks. This paper outlines the key design elements of VibTac and its fabrication methods, highlighting the significance of the Elastomer Gel Pad (EGP) in its sensing mechanism. The sensor's multi-modal performance is validated through 3D reconstruction and spectral analysis to discern tactile stimuli effectively. In experimental trials, VibTac demonstrates its efficacy by achieving over 90% accuracy in insertion tasks involving objects emitting distinct sounds, such as ethernet connectors. Leveraging vision-based tactile sensing for object localization and employing a deep learning model for \u201cclick\u201d sound classification, VibTac showcases its robustness in real-world scenarios.",
+      "author": "",
+      "published_date": "2025-04-15T13:16:45+00:00",
+      "source": "Transactions Haptics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 169,
+      "reading_time": 1,
+      "created_at": "2025-11-26T04:35:25.104729+00:00",
+      "updated_at": "2025-11-26T04:35:25.104730+00:00"
+    },
     {
       "id": "6e5289b1927a2560a61773b58736ef16",
       "url": "http://ieeexplore.ieee.org/document/10955171",
@@ -319,46 +351,6 @@
       "updated_at": "2025-11-26T03:11:31.024265+00:00",
       "metadata": {
         "processed_at": "2025-11-26T03:11:31.024267+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4d6b40e59905c956eb3036ebc1fdf1ad",
-      "url": "https://www.reddit.com/r/Python/comments/1p6qy1e/spent_a_bunch_of_time_choosing_between_loguru/",
-      "title": "Spent a bunch of time choosing between Loguru, Structlog and native logging",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Python's native logging module is just fine but modern options like Loguru and Structlog are eye-catching. As someone who wants to use the best tooling so that I can make my life easy, I agonized over choosing one.. perhaps a little too much (I'd rather expend calories now rather than being in production hell and trying to wrangle logs).</p> <p>I've boiled down what I've learnt to the following:</p> <ul> <li>Read some good advice here on <a href=\"/r/Python\">r/Python</a> to switch to a third party library only when you find/need something that the native libraries can't do - this basically holds true.</li> <li>Loguru's (most popular 3rd party library) value prop (zero config, dev ex prioritized) in the age of AI coding is much less appealing. AI can handle writing config boiler plate with the native logging module</li> <li>What kills loguru is that it isnt opentelemetry compatible. Meaning if you are using it for a production or production intent codebase, loguru really shouldnt be an option. </li> <li>Structlog feels like a more powerful and featured option but this brings with it the need to learn, understand a new system. Plus it still needs a custom &quot;processor&quot; to integrate with OTEL. </li> <li>Structlog's biggest value prop - structured logging - is also now trivial through native logging with AI writing the JSON formatter classes.</li> </ul> <p>So my recommendation is:</p> <ul> <li><strong>Hobby/Personal projects:</strong> where you want to spend the least amount of effort on logging, use loguru. An ideal <code>print()</code> replacement</li> <li><strong>Production projects:</strong> Use native logging but ensure you do structured outputs - offload to AI to take care of this - its well within its wheelhouse and is capable of doing a solid job. </li> <li>Use structlog only if and when you need complex processing logic on your logs. </li> </ul> <p>The one trade off is that loguru/structlog have good exception/stack trace handling capabilities built in. With native logging, you'll need to write more code and for this case, AI coding may get hairy.</p> <p>P.S: Im yet to integrate into a log aggregation service (aiming at Signoz) so we'll have to wait and see how this decision pays off.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rm-rf-rm\"> /u/rm-rf-rm </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p6qy1e/spent_a_bunch_of_time_choosing_between_loguru/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p6qy1e/spent_a_bunch_of_time_choosing_between_loguru/\">[comments]</a></span>",
-      "author": "/u/rm-rf-rm",
-      "published_date": "2025-11-25T22:41:48+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 376,
-      "reading_time": 1,
-      "created_at": "2025-11-26T01:40:19.390926+00:00",
-      "updated_at": "2025-11-26T03:11:31.024269+00:00",
-      "metadata": {
-        "processed_at": "2025-11-26T03:11:31.024270+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0dd7982260981fa779fc28da253c4480",
-      "url": "https://blog.trailofbits.com/2025/11/25/constant-time-support-lands-in-llvm-protecting-cryptographic-code-at-the-compiler-level/",
-      "title": "LLVM Adds Constant-Time Support for Protecting Cryptographic Code",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46052090\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-25T23:26:38+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-26T01:40:18.098694+00:00",
-      "updated_at": "2025-11-26T03:11:31.024273+00:00",
-      "metadata": {
-        "processed_at": "2025-11-26T03:11:31.024274+00:00",
         "processing_method": "github_actions"
       }
     }
