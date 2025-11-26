@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-11-26T08:53:54.604544+00:00",
+  "last_updated": "2025-11-26T09:25:53.712075+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "937601e293e87eaa770afad6efba0ad6",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1661070",
+      "title": "Neural heterogeneity as a unifying mechanism for efficient learning in spiking neural networks",
+      "content": "The brain is a highly diverse and heterogeneous network, yet the functional role of this neural heterogeneity remains largely unclear. Despite growing interest in neural heterogeneity, a comprehensive understanding of how it influences computation across different neural levels and learning methods is still lacking. In this work, we systematically examine the neural computation of spiking neural networks (SNNs) in three key sources of neural heterogeneity: external, network, and intrinsic heterogeneity. We evaluate their impact using three distinct learning methods, which can carry out tasks ranging from simple curve fitting to complex network reconstruction and real-world applications. Our results show that while different types of neural heterogeneity contribute in distinct ways, they consistently improve learning accuracy and robustness. These findings suggest that neural heterogeneity across multiple levels improves learning capacity and robustness of neural computation, and should be considered a core design principle in the optimization of SNNs.",
+      "author": "Jingjing Cui",
+      "published_date": "2025-11-07T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 147,
+      "reading_time": 1,
+      "created_at": "2025-11-26T09:25:13.710027+00:00",
+      "updated_at": "2025-11-26T09:25:13.710029+00:00"
+    },
+    {
+      "id": "81906f3f8b91f72233a0ce8a97740e16",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1691017",
+      "title": "Triboelectric nanogenerators for neural data interpretation: bridging multi-sensing interfaces with neuromorphic and deep learning paradigms",
+      "content": "The rapid growth of computational neuroscience and brain\u2013computer interface (BCI) technologies require efficient, scalable, and biologically compatible approaches for neural data acquisition and interpretation. Traditional sensors and signal processing pipelines often struggle with the high dimensionality, temporal variability, and noise inherent in neural signals, particularly in elderly populations where continuous monitoring is essential. Triboelectric nanogenerators (TENGs), as self-powered and flexible multi-sensing devices, offer a promising avenue for capturing neural-related biophysical signals such as electroencephalography (EEG), electromyography (EMG), and cardiorespiratory dynamics. Their low-power and wearable characteristics make them suitable for long-term health and neurocognitive monitoring. When combined with deep learning models\u2014including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and spiking neural networks (SNNs)\u2014TENG-generated signals can be efficiently decoded, enabling insights into neural states, cognitive functions, and disease progression. Furthermore, neuromorphic computing paradigms provide an energy-efficient and biologically inspired framework that naturally aligns with the event-driven characteristics of TENG outputs. This mini review highlights the convergence of TENG-based sensing, deep learning algorithms, and neuromorphic systems for neural data interpretation. We discuss recent progress, challenges, and future perspectives, with an emphasis on applications in computational neuroscience, neurorehabilitation, and elderly health care.",
+      "author": "Bin Jia",
+      "published_date": "2025-11-07T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 189,
+      "reading_time": 1,
+      "created_at": "2025-11-26T09:25:13.710000+00:00",
+      "updated_at": "2025-11-26T09:25:13.710001+00:00"
+    },
+    {
+      "id": "4e91baa12396a45163f9e7196967f1e1",
+      "url": "https://timothyfraser.com/sigma/statistical-process-control-in-python.html",
+      "title": "Statistical Process Control in Python",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46055421\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-26T08:40:29+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-26T09:24:45.663714+00:00",
+      "updated_at": "2025-11-26T09:24:45.663716+00:00"
+    },
     {
       "id": "60e268312e8b7f93f34fa2e045bcdd6e",
       "url": "https://www.nature.com/articles/s41598-025-29976-2",
@@ -289,58 +337,6 @@
         "processed_at": "2025-11-26T08:21:35.467263+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "b58e883c2fcc0bbfbb08dad7d9a1a5e8",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.25.690597v1?rss=1",
-      "title": "SPATIAL DISSIMILARITY TRAJECTORIES REVEAL RAPID FUNCTIONAL NETWORK REFINEMENT DURING EARLY INFANCY",
-      "content": "The first six months of life mark a critical window for human brain development, characterized by rapid synaptic formation, axonal growth, and network reorganization. During this period' large-scale functional networks progressively mature. Although prior infant fMRI studies have characterized temporal functional connectivity, the spatial organization and refinement of brain networks during early infancy remain underexplored. In this study, we analyzed longitudinal resting-state fMRI from 74 typically developing infants (0-6 months; 137 scans) using group independent component analysis (ICA) with group-information-guided ICA (GIG-ICA) back-reconstruction. Spatial dissimilarity between each infants spatial map and the group-level map was quantified using cosine dissimilarity and Euclidean distance. Generalized additive models were applied to model age-related trends. Both cosine and Euclidean dissimilarity metrics showed significant decreases with age, indicating a progressive convergence of individual network topographies toward the group-level architecture. These findings reveal increasing spatial coherence and refinement of large-scale brain networks during early infancy, suggesting that spatial maturation complements the well-established functional integration observed in temporal connectivity studies.",
-      "author": "Seraji, M., Shultz, S., Wiafe, S.-L., Fu, Z., Calhoun, V.",
-      "published_date": "2025-11-25T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 163,
-      "reading_time": 1,
-      "created_at": "2025-11-26T07:20:59.605954+00:00",
-      "updated_at": "2025-11-26T08:21:35.467265+00:00",
-      "metadata": {
-        "processed_at": "2025-11-26T08:21:35.467267+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2043aaee4ca03611132533f6f7a51d0e",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690326v1?rss=1",
-      "title": "Altered striatal dopamine dynamics and behavior in Grin2a mutant mice, a genetic mouse model of schizophrenia",
-      "content": "Schizophrenia (SCZ), a complex psychiatric disorder with a strong genetic basis, is thought to involve, at least in part, dopamine dysregulation in the striatum. Recent large-scale exome sequencing has identified multiple SCZ risk genes, including GRIN2A (encoding an NMDA (N-methyl-D-aspartate) receptor subunit) and AKAP11 (encoding a protein kinase A binding protein), which is also a risk gene for bipolar disorder (BD). However, the mechanisms by which these genetic risk factors perturb dopamine circuits and cause psychotic symptoms remain poorly understood. We asked how behavior, dorsomedial striatal dopamine (DA) dynamics and the activity of D1-/D2-spiny projection neurons (SPNs) were altered in Grin2a and Akap11 mutants. In the open field, Grin2a knockout mice display hyperlocomotion and an abnormal organization of naturalistic behaviors. They also displayed heightened behavioral responses to objects and auditory stimuli. Grin2a heterozygous animals mostly showed intermediate phenotypes, suggesting a dose-dependent effect of Grin2a loss. Further, Grin2a knockout mutants exhibited aberrant dopamine events, altered coupling of dopamine with locomotor features, and exaggerated stimuli-evoked dopamine responses. Notably, heterozygous animals also showed altered striatal SPN events in the open field reflecting dysregulated neural activity in both dSPNs and iSPNs. Compared to Grin2a mutants, Akap11 mutants displayed opposite phenotypes, showing reduced locomotion with a shift from high- to low-velocity movement and distinct alterations in striatal neural activity. Together, GRIN2A (SCZ risk) and AKAP11 (BD/SCZ risk) mutations induce different, often opposite, effects on striatal dopamine signaling and behavior, suggesting that these two risk genes act through distinct mechanisms.",
-      "author": "Hall, A., Jacoby, J., Gangal, H., Rochman, E., Shephard, N., Song, B., Farsi, Z., Datta, S. R., Sheng, M., Kunwar, P. S.",
-      "published_date": "2025-11-25T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 244,
-      "reading_time": 1,
-      "created_at": "2025-11-26T07:20:59.605921+00:00",
-      "updated_at": "2025-11-26T07:20:59.605922+00:00"
-    },
-    {
-      "id": "0754e1510bee56638ed73f3869f0d339",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.25.690500v1?rss=1",
-      "title": "Mapping the Developmental Trajectory of Functional Brain Networks in Early Infancy: Insights into Typical Maturation",
-      "content": "Early infancy is a crucial period for brain development, during which fundamental functional and structural frameworks are established. Understanding the maturation of large-scale brain networks during this stage is essential for characterizing normative neurodevelopment and identifying potential deviations linked to neurodevelopmental disorders. In this study, we investigated developmental changes in the spatial organization of functional brain networks in infants using a longitudinal resting-state fMRI dataset comprising 137 scans from 74 low-likelihood developing infants aged 0-6 months. We applied independent component analysis to extract large-scale brain networks and utilized advanced spatial metrics, including network-averaged spatial similarity (NASS) to assess alignment with group-level patterns, network strength to quantify neural engagement based on voxel intensities, and network size to examine spatial distribution. Our findings reveal significant age-related increases in NASS across multiple networks, indicating greater consistency in functional organization over time. Additionally, most networks demonstrated increased network strength, reflecting heightened neural involvement, while network size exhibited distinct developmental trajectories, with some networks expanding and others remaining stable. These results highlight the dynamic evolution of functional brain architecture during early infancy, providing critical insights into neurodevelopmental processes.",
-      "author": "Seraji, M., Shultz, S., Li, Q., Fu, Z., Iraji, A., Calhoun, V.",
-      "published_date": "2025-11-25T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 183,
-      "reading_time": 1,
-      "created_at": "2025-11-26T07:20:59.605881+00:00",
-      "updated_at": "2025-11-26T07:20:59.605883+00:00"
     }
   ]
 }
