@@ -1,5 +1,85 @@
 [
   {
+    "id": "dbcbedb48601a386e2fb10b254c0ca05",
+    "url": "https://www.reddit.com/r/Python/comments/1p7enzr/pyproject_a_linter_and_language_server_for/",
+    "title": "pyproject - A linter and language server for `pyproject.toml` files",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey all, I've been working on a static analysis tool (and language server) for <code>pyproject.toml</code> files after encountering inconsistencies in build tool error reporting (e.g. some tools will let you ship empty licenses directories). It would be nice to have a single source of truth for <a href=\"https://peps.python.org/pep-0621/\">PEP 621</a> related checks and beyond that can be run prior to running more expensive workflows.</p> <p>There are already a few basic rules for <a href=\"https://peps.python.org/pep-0621/\">PEP 621</a> related errors/warnings, but its easily extendible to fit any specific tool's requirements.</p> <h3>What my project does</h3> <p>It can run checks on your Python project configuration from the command-line: <code>pyproject check</code>, format your <code>pyproject.toml</code> files: <code>pyproject format</code>, and start a language server. The language server currently has support for hover information, diagnostics, completions, and formatting.</p> <h3>Target audience</h3> <p><code>pyproject</code> is useful for anyone that works on Python projects with a <code>pyproject.toml</code> configuration file.</p> <p>It's still heavy alpha software, but I thought I'd share in case there's interest for something like this :)</p> <p><a href=\"https://github.com/terror/pyproject\">https://github.com/terror/pyproject</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/vandalism\"> /u/vandalism </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p7enzr/pyproject_a_linter_and_language_server_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p7enzr/pyproject_a_linter_and_language_server_for/\">[comments]</a></span>",
+    "author": "/u/vandalism",
+    "published_date": "2025-11-26T18:00:31+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 187,
+    "reading_time": 1,
+    "created_at": "2025-11-26T23:39:09.772038+00:00",
+    "updated_at": "2025-11-26T23:39:09.772040+00:00"
+  },
+  {
+    "id": "c088b8847eb3fe3a24b3606f689448b7",
+    "url": "https://bringbackdoors.com/",
+    "title": "Bring Back Doors \u2013 Bring Bathroom Doors Back to Hotels",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46063072\">Comments</a>",
+    "author": "",
+    "published_date": "2025-11-26T22:26:36+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-11-26T23:39:08.564907+00:00",
+    "updated_at": "2025-11-26T23:39:08.564908+00:00"
+  },
+  {
+    "id": "a5eee64a2d37b15dc6216bad3c94ecf1",
+    "url": "https://nyansatan.github.io/run-unsupported-ios/",
+    "title": "Running Unsupported iOS on Deprecated Devices",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46063272\">Comments</a>",
+    "author": "",
+    "published_date": "2025-11-26T22:57:56+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-11-26T23:39:08.564887+00:00",
+    "updated_at": "2025-11-26T23:39:08.564889+00:00"
+  },
+  {
+    "id": "c088b8847eb3fe3a24b3606f689448b7",
+    "url": "https://bringbackdoors.com/",
+    "title": "Bring Back Doors \u2013 Bring Bathroom Doors Back to Hotels",
+    "content": "<p>Article URL: <a href=\"https://bringbackdoors.com/\">https://bringbackdoors.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46063072\">https://news.ycombinator.com/item?id=46063072</a></p>\n<p>Points: 32</p>\n<p># Comments: 12</p>",
+    "author": "bariumbitmap",
+    "published_date": "2025-11-26T22:26:36+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-11-26T23:39:07.301622+00:00",
+    "updated_at": "2025-11-26T23:39:07.301624+00:00"
+  },
+  {
+    "id": "a5eee64a2d37b15dc6216bad3c94ecf1",
+    "url": "https://nyansatan.github.io/run-unsupported-ios/",
+    "title": "Running Unsupported iOS on Deprecated Devices",
+    "content": "<p>Article URL: <a href=\"https://nyansatan.github.io/run-unsupported-ios/\">https://nyansatan.github.io/run-unsupported-ios/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46063272\">https://news.ycombinator.com/item?id=46063272</a></p>\n<p>Points: 19</p>\n<p># Comments: 1</p>",
+    "author": "OuterVale",
+    "published_date": "2025-11-26T22:57:56+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-11-26T23:39:07.301591+00:00",
+    "updated_at": "2025-11-26T23:39:07.301599+00:00"
+  },
+  {
     "id": "cff11484253c834b3a08d0f4cf285f1e",
     "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.682866v1?rss=1",
     "title": "Injury-Induced Remodeling of Junctional Actin Bands in the Vestibular Maculae of Mice and Chicks: Implications for Sensory Regeneration",
@@ -17100,106 +17180,6 @@
     "updated_at": "2025-11-22T10:15:00.187561+00:00",
     "metadata": {
       "processed_at": "2025-11-22T10:15:00.187563+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "0eceae7eb06099c40af832219dc6ff64",
-    "url": "https://www.biorxiv.org/content/10.1101/2025.11.20.689262v1?rss=1",
-    "title": "Neural Sensitivity to Word Frequency Modulated by Morphological Structure: Univariate and Multivariate fMRI Evidence from Korean",
-    "content": "A fundamental question in psycholinguistics concerns whether morphological decomposition is obligatory during visual word recognition or whether whole-word access can occur under conditions of high frequency and familiarity. The present study aimed to examine how morphological complexity and lexical frequency jointly influence neural representations during visual word recognition. We addressed this question using rapid event-related fMRI with both univariate and multivariate analyses. Twenty-five native Korean speakers performed lexical decisions on simple and inflected nouns that varied parametrically in surface frequency (token frequency of the full word form) and base frequency (cumulative stem frequency). Korean's transparent agglutinative morphology enabled a principled dissociation of these frequency measures. MVPA failed to decode morphological condition from activation patterns in any region, suggesting that simple and inflected forms are not represented as discrete neural categories. Crucially, RSA demonstrated robust encoding of surface frequency-but not base frequency-in inferior frontal gyrus (IFG) pars opercularis and supramarginal gyrus (SMG), with significantly stronger correlations for inflected than simple nouns. Univariate analyses confirmed this pattern: surface frequency interacted with morphological condition in inferior parietal lobule (IPL), such that higher surface frequency increased activation selectively for inflected forms, while base frequency showed no reliable effects. These results challenge obligatory decomposition and support a distributional framework in which lexical statistics guide the processing of morphologically complex words. Taken together, our findings suggest that morphological complexity modulates neural sensitivity to whole-word rather than stem-level statistics, underscoring how structural and statistical factors interact to support morphological processing.",
-    "author": "Kim, J., Lee, S., Nam, K.",
-    "published_date": "2025-11-21T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 243,
-    "reading_time": 1,
-    "created_at": "2025-11-22T06:29:02.425629+00:00",
-    "updated_at": "2025-11-22T10:15:00.187565+00:00",
-    "metadata": {
-      "processed_at": "2025-11-22T10:15:00.187567+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "a962f91a4518d853df6c406ddb0aaf14",
-    "url": "https://www.bbc.com/news/articles/c8e9rp0knj6o",
-    "title": "Superman copy found in mum's attic is most valuable comic ever at $9.12M",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46012328\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-22T05:21:53+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-22T05:40:39.689578+00:00",
-    "updated_at": "2025-11-22T06:21:13.871135+00:00",
-    "metadata": {
-      "processed_at": "2025-11-22T06:21:13.871144+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "c8a57d741fa7aefe4d3d21617aab43cf",
-    "url": "https://github.com/lukehsiao/openring-rs",
-    "title": "Openring-rs: a webring for static site generators written in Rust",
-    "content": "<p>Article URL: <a href=\"https://github.com/lukehsiao/openring-rs\">https://github.com/lukehsiao/openring-rs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46012052\">https://news.ycombinator.com/item?id=46012052</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
-    "author": "lwhsiao",
-    "published_date": "2025-11-22T04:12:48+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-11-22T05:40:38.456538+00:00",
-    "updated_at": "2025-11-22T06:21:13.871148+00:00",
-    "metadata": {
-      "processed_at": "2025-11-22T06:21:13.871150+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "f0accae40c51f2faa1e03723d00bca5a",
-    "url": "https://scienceclock.com/moss-survives-9-months-in-space-vacuum/",
-    "title": "Moss Survives 9 Months in Space Vacuum",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46011978\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-22T03:57:29+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-22T04:23:43.465113+00:00",
-    "updated_at": "2025-11-22T06:21:13.871152+00:00",
-    "metadata": {
-      "processed_at": "2025-11-22T06:21:13.871154+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "f0accae40c51f2faa1e03723d00bca5a",
-    "url": "https://scienceclock.com/moss-survives-9-months-in-space-vacuum/",
-    "title": "Moss Survives 9 Months in Space Vacuum",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46011978\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-22T03:57:29+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-22T04:23:43.465113+00:00",
-    "updated_at": "2025-11-22T06:21:13.871152+00:00",
-    "metadata": {
-      "processed_at": "2025-11-22T06:21:13.871154+00:00",
       "processing_method": "github_actions"
     }
   }
