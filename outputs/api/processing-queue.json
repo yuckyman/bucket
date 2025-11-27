@@ -1,8 +1,24 @@
 {
-  "last_updated": "2025-11-27T01:10:30.592916+00:00",
-  "pending_count": 699,
-  "processed_count": 301,
+  "last_updated": "2025-11-27T03:07:44.538623+00:00",
+  "pending_count": 700,
+  "processed_count": 300,
   "pending_articles": [
+    {
+      "id": "02da9a6eb3561ce26669a382d888b024",
+      "url": "https://www.youtube.com/watch?v=1q1hjmwLqe4",
+      "title": "AdBlock and Signal are for terrorists, according to the French government [video]",
+      "content": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=1q1hjmwLqe4\">https://www.youtube.com/watch?v=1q1hjmwLqe4</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46063915\">https://news.ycombinator.com/item?id=46063915</a></p>\n<p>Points: 13</p>\n<p># Comments: 2</p>",
+      "author": "pabs3",
+      "published_date": "2025-11-27T00:20:37+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-27T01:39:04.359875+00:00",
+      "updated_at": "2025-11-27T01:39:04.359883+00:00"
+    },
     {
       "id": "cff11484253c834b3a08d0f4cf285f1e",
       "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.682866v1?rss=1",
@@ -146,25 +162,109 @@
       "reading_time": 1,
       "created_at": "2025-11-26T22:19:57.904277+00:00",
       "updated_at": "2025-11-26T22:19:57.904279+00:00"
-    },
+    }
+  ],
+  "recently_processed": [
     {
-      "id": "a7cc9005241e20bfb6566cc11986cfe8",
-      "url": "https://www.techradar.com/vpn/vpn-privacy-security/chat-control-eu-lawmakers-finally-agree-on-the-voluntary-scanning-of-your-private-chats",
-      "title": "EU approves Chat Control policy",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46062777\">Comments</a>",
+      "id": "7fa9d6b5944f297678ce330a0626a13f",
+      "url": "https://caligra.com/",
+      "title": "C100 Developer Terminal",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46063450\">Comments</a>",
       "author": "",
-      "published_date": "2025-11-26T21:52:14+00:00",
+      "published_date": "2025-11-26T23:22:24+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-11-26T22:19:57.904257+00:00",
-      "updated_at": "2025-11-26T22:19:57.904259+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2025-11-27T01:39:05.770776+00:00",
+      "updated_at": "2025-11-27T03:07:44.431912+00:00",
+      "metadata": {
+        "processed_at": "2025-11-27T03:07:44.431922+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "b5df1599b830509c02865d5cd4ae5ff7",
+      "url": "https://www.abzglobal.net/web-development-blog/ilya-sutskever-yann-lecun-and-the-end-of-just-add-gpus",
+      "title": "Sutskever and LeCun: Scaling LLMs Won't Yield More Useful Results",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46063531\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-26T23:33:12+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-27T01:39:05.770716+00:00",
+      "updated_at": "2025-11-27T03:07:44.431926+00:00",
+      "metadata": {
+        "processed_at": "2025-11-27T03:07:44.431928+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "7fa9d6b5944f297678ce330a0626a13f",
+      "url": "https://caligra.com/",
+      "title": "C100 Developer Terminal",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46063450\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-26T23:22:24+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-27T01:39:05.770776+00:00",
+      "updated_at": "2025-11-27T03:07:44.431912+00:00",
+      "metadata": {
+        "processed_at": "2025-11-27T03:07:44.431922+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "b5df1599b830509c02865d5cd4ae5ff7",
+      "url": "https://www.abzglobal.net/web-development-blog/ilya-sutskever-yann-lecun-and-the-end-of-just-add-gpus",
+      "title": "Sutskever and LeCun: Scaling LLMs Won't Yield More Useful Results",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46063531\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-26T23:33:12+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-27T01:39:05.770716+00:00",
+      "updated_at": "2025-11-27T03:07:44.431926+00:00",
+      "metadata": {
+        "processed_at": "2025-11-27T03:07:44.431928+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "92511730a3796a74837377149f3cd503",
+      "url": "https://arstechnica.com/information-technology/2025/11/crypto-hoarders-dump-tokens-as-shares-tumble/",
+      "title": "Crypto hoarders dump tokens as shares tumble",
+      "content": "<p>Article URL: <a href=\"https://arstechnica.com/information-technology/2025/11/crypto-hoarders-dump-tokens-as-shares-tumble/\">https://arstechnica.com/information-technology/2025/11/crypto-hoarders-dump-tokens-as-shares-tumble/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46063819\">https://news.ycombinator.com/item?id=46063819</a></p>\n<p>Points: 31</p>\n<p># Comments: 38</p>",
+      "author": "Bender",
+      "published_date": "2025-11-27T00:07:49+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-27T01:39:04.359905+00:00",
+      "updated_at": "2025-11-27T03:07:44.431938+00:00",
+      "metadata": {
+        "processed_at": "2025-11-27T03:07:44.431939+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "dbcbedb48601a386e2fb10b254c0ca05",
       "url": "https://www.reddit.com/r/Python/comments/1p7enzr/pyproject_a_linter_and_language_server_for/",
@@ -206,26 +306,6 @@
       }
     },
     {
-      "id": "a5eee64a2d37b15dc6216bad3c94ecf1",
-      "url": "https://nyansatan.github.io/run-unsupported-ios/",
-      "title": "Running Unsupported iOS on Deprecated Devices",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46063272\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-26T22:57:56+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-26T23:39:08.564887+00:00",
-      "updated_at": "2025-11-27T01:10:30.484451+00:00",
-      "metadata": {
-        "processed_at": "2025-11-27T01:10:30.484453+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "c088b8847eb3fe3a24b3606f689448b7",
       "url": "https://bringbackdoors.com/",
       "title": "Bring Back Doors \u2013 Bring Bathroom Doors Back to Hotels",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "34d05c6492606652618157a6c80512ab",
-      "url": "https://tyler.io/2025/11/alan/",
-      "title": "Alan.app \u2013 Add a Border to macOS Active Window",
-      "content": "<p>Article URL: <a href=\"https://tyler.io/2025/11/alan/\">https://tyler.io/2025/11/alan/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46061239\">https://news.ycombinator.com/item?id=46061239</a></p>\n<p>Points: 10</p>\n<p># Comments: 2</p>",
-      "author": "donatj",
-      "published_date": "2025-11-26T19:12:40+00:00",
+      "id": "a5eee64a2d37b15dc6216bad3c94ecf1",
+      "url": "https://nyansatan.github.io/run-unsupported-ios/",
+      "title": "Running Unsupported iOS on Deprecated Devices",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46063272\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-26T22:57:56+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-11-26T21:38:47.283994+00:00",
-      "updated_at": "2025-11-26T22:15:10.966796+00:00",
+      "created_at": "2025-11-26T23:39:08.564887+00:00",
+      "updated_at": "2025-11-27T01:10:30.484451+00:00",
       "metadata": {
-        "processed_at": "2025-11-26T22:15:10.966805+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4af39f8de86578bc537265a60d598d8a",
-      "url": "https://blog.calebjay.com/posts/dont-download-apps/",
-      "title": "Don't Download Apps",
-      "content": "<p>Article URL: <a href=\"https://blog.calebjay.com/posts/dont-download-apps/\">https://blog.calebjay.com/posts/dont-download-apps/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46061623\">https://news.ycombinator.com/item?id=46061623</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-      "author": "speckx",
-      "published_date": "2025-11-26T19:51:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-26T21:38:47.283975+00:00",
-      "updated_at": "2025-11-26T22:15:10.966809+00:00",
-      "metadata": {
-        "processed_at": "2025-11-26T22:15:10.966811+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ee1d945b114f419db4161fc7f0f25e59",
-      "url": "https://arstechnica.com/gadgets/2025/11/the-eu-made-apple-adopt-new-wi-fi-standards-and-now-android-can-support-airdrop/",
-      "title": "The EU made Apple adopt new Wi-Fi standards, and now Android can support AirDrop",
-      "content": "<p>Article URL: <a href=\"https://arstechnica.com/gadgets/2025/11/the-eu-made-apple-adopt-new-wi-fi-standards-and-now-android-can-support-airdrop/\">https://arstechnica.com/gadgets/2025/11/the-eu-made-apple-adopt-new-wi-fi-standards-and-now-android-can-support-airdrop/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46062504\">https://news.ycombinator.com/item?id=46062504</a></p>\n<p>Points: 9</p>\n<p># Comments: 1</p>",
-      "author": "cyclecount",
-      "published_date": "2025-11-26T21:25:36+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-26T21:38:47.283863+00:00",
-      "updated_at": "2025-11-26T22:15:10.966814+00:00",
-      "metadata": {
-        "processed_at": "2025-11-26T22:15:10.966816+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "29566f44c123e495022c43235608ad24",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690179v1?rss=1",
-      "title": "Spontaneous differentiation across cell lineages of separate germ layer origin during progenitor cell-mediated regeneration of the central nervous system",
-      "content": "Under homeostatic conditions, axons of the central nervous system (CNS) are myelinated by oligodendrocytes. However, in response to demyelination, Schwann cells (SCs), the myelinating glia of the peripheral nervous system (PNS), can contribute to CNS remyelination. Lineage tracing studies demonstrated that many CNS remyelinating SCs, in addition to remyelinating oligodendrocytes, are derived from adult CNS stem cells called oligodendrocyte progenitor cells (OPCs). Here we describe the mechanisms by which the fate switch of neuroepithelial-derived OPCs into SCs, a cell normally of neural crest origin, occurs. Using single-cell RNA-sequencing we identified a subpopulation of OPCs within demyelinating lesions that co-express SC markers. Within this SC-primed group, differential gene analysis revealed a significant upregulation of genes involved in integrin signalling and bone morphogenetic protein (BMP) activation. We found that BMP4 and vitronectin, an extracellular matrix molecule and integrin ligand, are sufficient external cues to induce SC differentiation by OPCs by directly exerting effects on the transcription factors OLIG2 and SOX10, which are critical regulators of cell fate in oligodendroglial cells and SCs. We also show that OPCs can be directly programmed toward a SC fate by suppressing the expression levels of Olig2 and while maintaining those of Sox10. OPC-derived SCs morphologically and transcriptionally resemble primary SCs and can myelinate CNS axons with peripheral type myelin. Our findings indicate that injury-related changes in the environment can destabilise oligodendroglial transcription factor networks, enabling alternative OPC fate choices during CNS remyelination.",
-      "author": "Chen, C. Z., Yu, Y., Murphy, N., Cubillos, J. F., Rawji, K. S., Zhao, C., Hill, M., Arthur-Farraj, P., Franklin, R. J. M., Neumann, B.",
-      "published_date": "2025-11-26T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 236,
-      "reading_time": 1,
-      "created_at": "2025-11-26T21:19:10.578912+00:00",
-      "updated_at": "2025-11-26T22:15:10.966818+00:00",
-      "metadata": {
-        "processed_at": "2025-11-26T22:15:10.966820+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7143dc415f34137dad09072c99c84d16",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690190v1?rss=1",
-      "title": "Quantitative phosphoproteomics uncovers the signalling dynamics of hallucinogenic psychedelics",
-      "content": "Psychedelic drugs can induce intense changes in perception and thought, and some also promote long-lasting adaptations in brain circuits that are being explored for treatment of mood and anxiety disorders. How these compounds differ at the level of intracellular signalling, and how hallucinogenic drugs diverge from related non-hallucinogenic forms, is poorly understood. A central question is whether a shared molecular fingerprint distinguishes hallucinogenic psychedelic action from other forms of receptor activation in neurons. Here, we show that chemically diverse psychedelics trigger a coordinated reorganisation of phosphorylation patterns across many proteins in neural cells, and that this global signalling response contains a distinct signature that separates hallucinogenic compounds from non-hallucinogenic counterparts of similar structure. We use a glycolysis-regulating transcription factor as an example of the signature functional relevance to show that hallucinogenic psychedelics, but not their non-hallucinogenic analogues, enhance markers of glycolytic metabolism. These findings reveal that hallucinogenic and non-hallucinogenic psychedelics engage separable intracellular architectures, and establish a framework for understanding how different psychoactive compounds couple receptor activation to specific cellular states. More broadly, this work opens a path to using signalling fingerprints to guide the design of psychedelic-inspired therapeutics with tailored behavioural and metabolic profiles.",
-      "author": "Lopez-Gimenez, J. F., Cutillas, P. R., Gonzalez-Maeso, J., Martin-Guerrero, S. M., Taddei-Tardon, M., Maltman, J. L., Potukanuma, S.",
-      "published_date": "2025-11-26T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 195,
-      "reading_time": 1,
-      "created_at": "2025-11-26T21:19:10.578874+00:00",
-      "updated_at": "2025-11-26T22:15:10.966822+00:00",
-      "metadata": {
-        "processed_at": "2025-11-26T22:15:10.966823+00:00",
+        "processed_at": "2025-11-27T01:10:30.484453+00:00",
         "processing_method": "github_actions"
       }
     }
