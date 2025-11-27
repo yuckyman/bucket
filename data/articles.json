@@ -1,5 +1,85 @@
 [
   {
+    "id": "c834294e17fec35ca42c5403652d0c46",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1751484",
+    "title": "Retraction: Annao Pingchong decoction attenuates oxidative stress and neuronal apoptosis following intracerebral hemorrhage via RAGE-NOX2/4 axis",
+    "content": "",
+    "author": "",
+    "published_date": "2025-11-27T00:00:00+00:00",
+    "source": "Frontiers Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2025-11-27T16:26:48.977015+00:00",
+    "updated_at": "2025-11-27T16:26:48.977017+00:00"
+  },
+  {
+    "id": "bac56eec8b3da9a673877f384efc7c3e",
+    "url": "https://www.reddit.com/r/Python/comments/1p7x3i8/built_a_tool_that_converts_any_rest_api_spec_into/",
+    "title": "Built a tool that converts any REST API spec into an MCP server",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have been experimenting with Anthropic\u2019s Model Context Protocol (MCP) and hit a wall \u2014 converting large REST API specs into tool definitions takes forever. Writing them manually is repetitive, error-prone and honestly pretty boring.</p> <p>So I wrote a Python library that automates the whole thing.</p> <p>The tool is called <strong>rest-to-mcp-adapter</strong>. You give it an OpenAPI/Swagger spec and it generates:</p> <ul> <li>a full MCP Tool Registry</li> <li>auth handling (API keys, headers, parameters, etc.)</li> <li>runtime execution for requests</li> <li>an MCP server you can plug directly into Claude Desktop</li> <li>all tool functions mapped from the spec automatically</li> </ul> <p>I tested it with the full Binance API. Claude Desktop can generate buy signals, fetch prices, build dashboards, etc, entirely through the generated tools \u2014 no manual definitions.</p> <p>If you are working with agents or playing with MCP this might save you a lot of time. Feedback, issues and PRs are welcome.</p> <p><strong>GitHub:</strong><br /> Adapter Library: <a href=\"https://github.com/pawneetdev/rest-to-mcp-adapter\">https://github.com/pawneetdev/rest-to-mcp-adapter</a><br /> Binance Example: <a href=\"https://github.com/pawneetdev/binance-mcp\">https://github.com/pawneetdev/binance-mcp</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rubalps\"> /u/rubalps </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p7x3i8/built_a_tool_that_converts_any_rest_api_spec_into/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p7x3i8/built_a_tool_that_converts_any_rest_api_spec_into/\">[comments]</a></span>",
+    "author": "/u/rubalps",
+    "published_date": "2025-11-27T08:28:58+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 180,
+    "reading_time": 1,
+    "created_at": "2025-11-27T16:26:26.210300+00:00",
+    "updated_at": "2025-11-27T16:26:26.210302+00:00"
+  },
+  {
+    "id": "1e06ce087f90ec005dcfdb6ecc1b9175",
+    "url": "https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/",
+    "title": "We're Losing Our Voice to LLMs",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46069771\">Comments</a>",
+    "author": "",
+    "published_date": "2025-11-27T14:51:01+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-11-27T16:26:24.970729+00:00",
+    "updated_at": "2025-11-27T16:26:24.970733+00:00"
+  },
+  {
+    "id": "1e06ce087f90ec005dcfdb6ecc1b9175",
+    "url": "https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/",
+    "title": "We're Losing Our Voice to LLMs",
+    "content": "<p>Article URL: <a href=\"https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/\">https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46069771\">https://news.ycombinator.com/item?id=46069771</a></p>\n<p>Points: 74</p>\n<p># Comments: 54</p>",
+    "author": "TonyAlicea10",
+    "published_date": "2025-11-27T14:51:01+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-11-27T16:26:23.678255+00:00",
+    "updated_at": "2025-11-27T16:26:23.678257+00:00"
+  },
+  {
+    "id": "028312c580917fdb7680e41f58460bae",
+    "url": "https://www.theguardian.com/science/2025/nov/27/face-transplant-patients-results-outcomes",
+    "title": "Face transplants promised hope. Patients were put through the unthinkable",
+    "content": "<p>Article URL: <a href=\"https://www.theguardian.com/science/2025/nov/27/face-transplant-patients-results-outcomes\">https://www.theguardian.com/science/2025/nov/27/face-transplant-patients-results-outcomes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46070597\">https://news.ycombinator.com/item?id=46070597</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+    "author": "n1b0m",
+    "published_date": "2025-11-27T16:11:52+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-11-27T16:26:23.678225+00:00",
+    "updated_at": "2025-11-27T16:26:23.678233+00:00"
+  },
+  {
     "id": "80d1f642eb4da0958753076107ac0cbe",
     "url": "http://daniellakens.blogspot.com/2025/07/easily-download-files-from-open-science.html",
     "title": "Easily download files from the Open Science Framework with Papercheck",
@@ -17048,106 +17128,6 @@
     "updated_at": "2025-11-23T06:21:56.071852+00:00",
     "metadata": {
       "processed_at": "2025-11-23T06:21:56.071854+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "0dfb791509929fdc72c9e4e0d75de44c",
-    "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae1c6f",
-    "title": "Toward in-silico data assessment for passive BCIs: generating EEG rhythms with GANs",
-    "content": "Objective. Passive brain\u2013computer interface (BCI) based on electroencephalography (EEG) has gained traction as reliable method for monitoring human vigilance in attention-demanding critical contexts. Unfortunately, the lack of extensive public datasets compromises artificial intelligence (AI) research. Proposing a solution to this issue, we augmented two EEG datasets using generative adversarial networks (GANs). Furthermore, we defined a quality-assessment pipeline to overcome the absence of a univocal method to test synthetic data. Approach. Using GAN, we augmented a publicly resting-state EEG dataset sustained attention to response task and a custom one simulating activity during repetitive tasks. After extracting relevant time-variant rhythms via the continuous wavelet transform, we quantitatively compared synthetic data with the real one using L2 distance and cross-correlation function. To evaluate the impact of data augmentation, we trained six forecasting models, three on the original and three on the augmented datasets, over the whole, half and a quarter of total available data, and compared improvements in MAE and symmetric mean absolute percentage error (SMAPE). To study the forecaster\u2019s embeddings, we computed a metric inspired by the Fr\u00e9chet inception distance (FID) between latent values of real and synthetic data. Finally, to offer a baseline comparison, we extended the performance and embeddings analysis to data generated by a simple linear interpolation method. Main results. The integration of GAN-produced synthetic data improved signal prediction, as evidenced by a 29.0%, 46.4%, 37.4% reduction in mean absolute error (MAE) for splits of the resting-state dataset, and an average MAE reduction of 15.4%, 21.2% for 100% and 50% splits, and a \u223c2.5% increase for the 25% split. Conversely, training on interpolated data manifests worse performance and denotes extremely small FID distances w.r.t real signals, a sign of overspecialization. Significance. This study contributes a reproducible and complete framework for EEG signal generation and evaluation, addressing one of the main barriers to scalable AI application in BCI.",
-    "author": "Ettore Cinquetti, Gloria Menegaz and Silvia F Storti",
-    "published_date": "2025-11-18T00:00:00+00:00",
-    "source": "Journal Neural Engineering",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 308,
-    "reading_time": 1,
-    "created_at": "2025-11-23T04:11:07.456717+00:00",
-    "updated_at": "2025-11-23T04:29:24.871171+00:00",
-    "metadata": {
-      "processed_at": "2025-11-23T04:29:24.871181+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "c9af19297cf94647f9fcc1abf7e8f6e1",
-    "url": "https://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html",
-    "title": "Unusual circuits in the Intel 386's standard cell logic",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46020543\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-23T03:33:42+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-23T04:10:42.836319+00:00",
-    "updated_at": "2025-11-23T04:29:24.871185+00:00",
-    "metadata": {
-      "processed_at": "2025-11-23T04:29:24.871187+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "c9af19297cf94647f9fcc1abf7e8f6e1",
-    "url": "https://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html",
-    "title": "Unusual circuits in the Intel 386's standard cell logic",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46020543\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-23T03:33:42+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-23T04:10:42.836319+00:00",
-    "updated_at": "2025-11-23T04:29:24.871185+00:00",
-    "metadata": {
-      "processed_at": "2025-11-23T04:29:24.871187+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "a3805e90da3ff0500340cb7a62fd700a",
-    "url": "https://www.nytimes.com/2025/11/21/world/cryptography-group-lost-election-results.html",
-    "title": "Cryptographers Held an Election. They Can't Decrypt the Results",
-    "content": "<p>Article URL: <a href=\"https://www.nytimes.com/2025/11/21/world/cryptography-group-lost-election-results.html\">https://www.nytimes.com/2025/11/21/world/cryptography-group-lost-election-results.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46020596\">https://news.ycombinator.com/item?id=46020596</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
-    "author": "FabHK",
-    "published_date": "2025-11-23T03:47:17+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-11-23T04:10:41.646637+00:00",
-    "updated_at": "2025-11-23T04:29:24.871193+00:00",
-    "metadata": {
-      "processed_at": "2025-11-23T04:29:24.871194+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "9cbb1175c3571c45843f3b6dfdb671e0",
-    "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006080?dgcid=rss_sd_all",
-    "title": "Brain development and musical skills: A longitudinal twin study on brain developmental trajectories and sensorimotor synchronization",
-    "content": "<p>Publication date: 1 January 2026</p><p><b>Source:</b> Brain Research, Volume 1870</p><p>Author(s): L. van Drunen, B.G. Schultz, A.I. Becht, R.S. Schaefer, L.M. Wierenga</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Brain Research",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 20,
-    "reading_time": 1,
-    "created_at": "2025-11-23T03:28:58.924400+00:00",
-    "updated_at": "2025-11-23T04:29:24.871197+00:00",
-    "metadata": {
-      "processed_at": "2025-11-23T04:29:24.871198+00:00",
       "processing_method": "github_actions"
     }
   }
