@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-11-27T08:30:32.776164+00:00",
+  "last_updated": "2025-11-27T08:54:01.085138+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "6df22f150de3a7eae08dc2e2e35baa7d",
+      "url": "https://www.nature.com/articles/s41598-025-28378-8",
+      "title": "Lower limb motor effects of DBS neurofeedback in Parkinson\u2019s disease assessed through IMU-based UPDRS movement quality metrics",
+      "content": "",
+      "author": "",
+      "published_date": "2025-11-27T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-11-27T08:53:27.986823+00:00",
+      "updated_at": "2025-11-27T08:53:27.986828+00:00"
+    },
+    {
+      "id": "ef1d360d604223946bde97ad8fab7bd1",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1574044",
+      "title": "Path planning of industrial robots based on the adaptive field cooperative sampling algorithm",
+      "content": "For the low efficiency and poor generalization ability of path planning algorithm of industrial robots, this work proposes an adaptive field co-sampling algorithm (AFCS). Firstly, the environment complexity function is proposed to make full use of environment information and improve its generalization ability of the traditional rapidly random search tree algorithm (RRT) algorithm. Then an optimal sampling strategy is proposed to make the improvement of the efficiency and optimal direction of RRT algorithm. Finally, this article designs a collaborative extension strategy, which introduces the improved artificial potential field algorithm (APF) into the traditional RRT algorithm to determine the new nodes, so as to improve the orientation and expansion efficiency of the algorithm. The proposed AFCS algorithm completes simulation experiments in two environments with different complexity. Compared with the traditional RRT, RRT* and tRRT algorithm, the results show that the AFCS algorithm has achieved great improvement in environmental adaptability, stability and efficiency. At last, ROKAE industrial robot is taken as the object to build a simulation environment for the path planning, which further verifies the practicability of the algorithm.",
+      "author": "Lv Wei",
+      "published_date": "2025-11-13T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 178,
+      "reading_time": 1,
+      "created_at": "2025-11-27T08:53:15.463737+00:00",
+      "updated_at": "2025-11-27T08:53:15.463739+00:00"
+    },
     {
       "id": "cccf31cf9bff3175b8ec0f533c279f64",
       "url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690660v1?rss=1",
@@ -291,46 +323,6 @@
       "updated_at": "2025-11-27T08:22:32.094003+00:00",
       "metadata": {
         "processed_at": "2025-11-27T08:22:32.094012+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bff8a3dc79b64f5175c00a2e87a248b7",
-      "url": "https://www.nature.com/articles/s41398-025-03779-5",
-      "title": "Conserved small RNA networks link inflammation to pain signaling in mice and men",
-      "content": "",
-      "author": "",
-      "published_date": "2025-11-27T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-11-27T07:43:10.571170+00:00",
-      "updated_at": "2025-11-27T08:22:32.094016+00:00",
-      "metadata": {
-        "processed_at": "2025-11-27T08:22:32.094019+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "dff2c593a422f9c43c0aa974c55bb1d1",
-      "url": "https://mixpanel.com/blog/sms-security-incident/",
-      "title": "Mixpanel Security Breach",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46066522\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-27T07:02:40+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-27T07:41:03.347481+00:00",
-      "updated_at": "2025-11-27T08:22:32.094021+00:00",
-      "metadata": {
-        "processed_at": "2025-11-27T08:22:32.094023+00:00",
         "processing_method": "github_actions"
       }
     }
