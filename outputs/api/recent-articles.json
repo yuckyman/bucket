@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-11-27T16:27:32.439374+00:00",
+  "last_updated": "2025-11-27T16:49:43.098310+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "49e7b928707c1d9173e51eba888924b7",
+      "url": "https://www.qualcomm.com/developer/blog/2025/10/same-day-snapdragon-8-elite-gen-5-upstream-linux-support",
+      "title": "Same-day upstream Linux support for Snapdragon 8 Elite Gen 5",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46070668\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-27T16:19:03+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-27T16:48:31.210065+00:00",
+      "updated_at": "2025-11-27T16:48:31.210067+00:00"
+    },
+    {
+      "id": "b1c77f5c34f39022716889f4c537f9e5",
+      "url": "https://github.com/Dancode-188/synckit",
+      "title": "Show HN: SyncKit \u2013 Offline-first sync engine (Rust/WASM and TypeScript)",
+      "content": "<p>Article URL: <a href=\"https://github.com/Dancode-188/synckit\">https://github.com/Dancode-188/synckit</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46069598\">https://news.ycombinator.com/item?id=46069598</a></p>\n<p>Points: 8</p>\n<p># Comments: 2</p>",
+      "author": "danbitengo",
+      "published_date": "2025-11-27T14:31:44+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-27T16:48:30.100385+00:00",
+      "updated_at": "2025-11-27T16:48:30.100387+00:00"
+    },
     {
       "id": "c834294e17fec35ca42c5403652d0c46",
       "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1751484",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-11-27T15:21:54.777141+00:00",
       "updated_at": "2025-11-27T15:21:54.777142+00:00"
-    },
-    {
-      "id": "132dee8447d0cac5086b2b170b385015",
-      "url": "https://github.com/MartenBE/mkslides",
-      "title": "Show HN: MkSlides \u2013 Markdown to slides with a similar workflow to MkDocs",
-      "content": "<p>As a teacher, we keep our slides as markdown files in git repos and want to build these automatically so they can be viewed online (or offline if needed). To achieve this, I have created MkSlides. This tool converts all markdown in a folder to slides generated with Reveal.js.\nThe workflow is very similar to MkDocs.<p>Install: `pip install mkslides`<p>Building slides: `mkslides build`<p>Live preview during editing: `mkslides serve`<p>Comparison with other tools like marp, slidev, ...:<p>- This tool is a single command and easy to integrate in CI/CD pipelines.<p>- It only needs Python.<p>- The workflow is also very similar to MkDocs, which makes it easy to combine the two in a single GitHub/GitLab repo.<p>- Generates an index landing page for multiple slideshows in a folder which is really convenient if you have e.g. a slideshow per chapter.<p>- It is lightweight.<p>- Everything is IaC.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46068847\">https://news.ycombinator.com/item?id=46068847</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-      "author": "MartenBE",
-      "published_date": "2025-11-27T13:00:17+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 152,
-      "reading_time": 1,
-      "created_at": "2025-11-27T15:21:53.616825+00:00",
-      "updated_at": "2025-11-27T15:21:53.616827+00:00"
-    },
-    {
-      "id": "b18b88bcdae57b867a10bded1479b7fa",
-      "url": "https://www.uncoveralpha.com/p/the-chip-made-for-the-ai-inference",
-      "title": "TPUs vs. GPUs and why Google is positioned to win AI race in the long term",
-      "content": "<p>Article URL: <a href=\"https://www.uncoveralpha.com/p/the-chip-made-for-the-ai-inference\">https://www.uncoveralpha.com/p/the-chip-made-for-the-ai-inference</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46069048\">https://news.ycombinator.com/item?id=46069048</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-      "author": "vegasbrianc",
-      "published_date": "2025-11-27T13:28:34+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-27T15:21:53.616793+00:00",
-      "updated_at": "2025-11-27T15:21:53.616795+00:00"
     }
   ]
 }
