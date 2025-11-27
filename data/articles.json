@@ -1,5 +1,53 @@
 [
   {
+    "id": "43c3f774c9bf3e0773ce7d02bc8d3cbb",
+    "url": "https://www.historynet.com/vandersarl-bleriot/",
+    "title": "The VanDersarl Bl\u00e9riot: a 1911 airplane homebuilt by teenage brothers",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46070868\">Comments</a>",
+    "author": "",
+    "published_date": "2025-11-27T16:38:35+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-11-27T17:40:31.871409+00:00",
+    "updated_at": "2025-11-27T17:40:31.871410+00:00"
+  },
+  {
+    "id": "c5b20844dccfdd71a0635e395cf42b87",
+    "url": "https://fabiensanglard.net/quake_indicators/index.html",
+    "title": "Quake Engine Indicators",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46031552\">Comments</a>",
+    "author": "",
+    "published_date": "2025-11-24T08:10:11+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-11-27T17:40:31.871333+00:00",
+    "updated_at": "2025-11-27T17:40:31.871334+00:00"
+  },
+  {
+    "id": "45f2f7608807ab1f61823be0eddc77af",
+    "url": "https://www.tomshardware.com/pc-components/hdds/seagate-achieves-a-whopping-6-9tb-storage-capacity-per-platter-in-its-laboratory-55tb-to-69tb-hard-drives-now-physically-possible",
+    "title": "Seagate achieves 6.9TB storage capacity per platter",
+    "content": "<p>Article URL: <a href=\"https://www.tomshardware.com/pc-components/hdds/seagate-achieves-a-whopping-6-9tb-storage-capacity-per-platter-in-its-laboratory-55tb-to-69tb-hard-drives-now-physically-possible\">https://www.tomshardware.com/pc-components/hdds/seagate-achieves-a-whopping-6-9tb-storage-capacity-per-platter-in-its-laboratory-55tb-to-69tb-hard-drives-now-physically-possible</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46070982\">https://news.ycombinator.com/item?id=46070982</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+    "author": "elorant",
+    "published_date": "2025-11-27T16:48:34+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-11-27T17:40:30.616108+00:00",
+    "updated_at": "2025-11-27T17:40:30.616115+00:00"
+  },
+  {
     "id": "846121520a4ae5af4d7c061b74570a7e",
     "url": "https://www.eff.org/deeplinks/2025/11/eff-arizona-federal-court-protect-public-school-students-surveillance-and",
     "title": "Protect Public School Students from Surveillance of Off-Campus Speech",
@@ -17056,66 +17104,6 @@
     "updated_at": "2025-11-23T10:14:47.899132+00:00",
     "metadata": {
       "processed_at": "2025-11-23T10:14:47.899134+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "cf2d922a8ed3d311db75aba101ce3c6e",
-    "url": "https://www.reddit.com/r/Python/comments/1p4ffmh/what_could_i_have_done_better_here/",
-    "title": "What could I have done better here?",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I'm pretty new to Python, and actual scripting in general, and I just wanted to ask if I could have done anything better here. Any critiques?</p> <pre><code>import time import colorama from colorama import Fore, Style color = 'WHITE' colorvar2 = 'WHITE' #Reset colors print(Style.RESET_ALL) #Get current directory (for debugging) #print(os.getcwd()) #Startup message print(&quot;Welcome to the ASCII art reader. Please set the path to your ASCII art below.&quot;) #Bold text print(Style.BRIGHT) #User-defined file path path = input(Fore.BLUE + 'Please input the file path to your ASCII art: ') color = input('Please input your desired color (default: white): ' + Style.RESET_ALL) #If no ASCII art path specified if not path: print(Fore.RED + &quot;No ASCII art path specified, Exiting.&quot; + Style.RESET_ALL) time.sleep(2) exit() #If no color specified if not color: print(Fore.YELLOW + &quot;No color specified, defaulting to white.&quot; + Style.RESET_ALL) color = 'WHITE' #Reset colors print(Style.RESET_ALL) #The first variable is set to the user-defined &quot;color&quot; variable, except #uppercase, and the second variable sets &quot;colorvar&quot; to the colorama &quot;Fore.[COLOR]&quot; input, with #color being the user-defined color variable color2 = color.upper() colorvar = getattr(Fore, color2) #Set user-defined color print(colorvar) #Read and print the contents of the .txt file with open(path) as f: print(f.read()) #Reset colors print(Style.RESET_ALL) #Press any key to close the program (this stops the terminal from closing immediately input(&quot;Press any key to exit: &quot;) #Exit the program exit() </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LagZeroMC\"> /u/LagZeroMC </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p4ffmh/what_could_i_have_done_better_here/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p4ffmh/what_could_i_have_done_better_here/\">[comments]</a></span>",
-    "author": "/u/LagZeroMC",
-    "published_date": "2025-11-23T06:14:33+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 248,
-    "reading_time": 1,
-    "created_at": "2025-11-23T07:38:14.034854+00:00",
-    "updated_at": "2025-11-23T08:19:10.580936+00:00",
-    "metadata": {
-      "processed_at": "2025-11-23T08:19:10.580946+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "1f320cffd3b0f24991fe27d8ab42b244",
-    "url": "https://elizabethvannostrand.substack.com/p/the-boring-part-of-bell-labs",
-    "title": "The Boring Part of Bell Labs",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=45984173\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-19T19:47:31+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-23T07:19:25.023273+00:00",
-    "updated_at": "2025-11-23T08:19:10.580950+00:00",
-    "metadata": {
-      "processed_at": "2025-11-23T08:19:10.580952+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "bc2967feb8e867fbd7a5ef7a99374ba1",
-    "url": "https://windowsreport.com/google-revisits-jpeg-xl-in-chromium-after-earlier-removal/",
-    "title": "Google Revisits JPEG XL in Chromium After Earlier Removal",
-    "content": "<p>Article URL: <a href=\"https://windowsreport.com/google-revisits-jpeg-xl-in-chromium-after-earlier-removal/\">https://windowsreport.com/google-revisits-jpeg-xl-in-chromium-after-earlier-removal/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46021179\">https://news.ycombinator.com/item?id=46021179</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
-    "author": "eln1",
-    "published_date": "2025-11-23T06:05:51+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-11-23T06:51:26.115910+00:00",
-    "updated_at": "2025-11-23T08:19:10.580955+00:00",
-    "metadata": {
-      "processed_at": "2025-11-23T08:19:10.580957+00:00",
       "processing_method": "github_actions"
     }
   }
