@@ -1,8 +1,24 @@
 {
-  "last_updated": "2025-11-28T01:09:08.175744+00:00",
-  "pending_count": 725,
-  "processed_count": 275,
+  "last_updated": "2025-11-28T03:07:27.298130+00:00",
+  "pending_count": 719,
+  "processed_count": 281,
   "pending_articles": [
+    {
+      "id": "fd90daa46d46a6253ea467b2f50ac80d",
+      "url": "https://medicalxpress.com/news/2025-11-bird-flu-viruses-resistant-fever.html",
+      "title": "Bird flu viruses are resistant to fever, making them a major threat to humans",
+      "content": "<p>Article URL: <a href=\"https://medicalxpress.com/news/2025-11-bird-flu-viruses-resistant-fever.html\">https://medicalxpress.com/news/2025-11-bird-flu-viruses-resistant-fever.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46074286\">https://news.ycombinator.com/item?id=46074286</a></p>\n<p>Points: 20</p>\n<p># Comments: 14</p>",
+      "author": "bikenaga",
+      "published_date": "2025-11-27T23:57:57+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-28T01:38:41.642814+00:00",
+      "updated_at": "2025-11-28T01:38:41.642815+00:00"
+    },
     {
       "id": "2764cbad943b7b60209505e9f8fa256e",
       "url": "https://www.energy-storage.news/250mwh-sand-battery-to-start-construction-in-finland-for-both-heating-and-ancillary-services/",
@@ -146,25 +162,129 @@
       "reading_time": 1,
       "created_at": "2025-11-27T20:41:06.163270+00:00",
       "updated_at": "2025-11-27T20:41:06.163272+00:00"
+    }
+  ],
+  "recently_processed": [
+    {
+      "id": "d928c7422bab347ce9aeca3bbe0efe25",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006262?dgcid=rss_sd_all",
+      "title": "Structure, Function, Pathomechanisms and Targeting of TDP-43 in Neurodegeneration",
+      "content": "<p>Publication date: 1 January 2026</p><p><b>Source:</b> Brain Research, Volume 1870</p><p>Author(s): Xudong Zhang, Baiwen Zhang, Yaxin Shang, Li Zou</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 17,
+      "reading_time": 1,
+      "created_at": "2025-11-28T01:39:28.925905+00:00",
+      "updated_at": "2025-11-28T03:07:27.190822+00:00",
+      "metadata": {
+        "processed_at": "2025-11-28T03:07:27.190833+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "115e70a83374da5991ade64526514c7f",
-      "url": "https://phys.org/news/2025-11-physicists-antihydrogen-breakthrough-cern-technique.html",
-      "title": "Physicists drive antihydrogen breakthrough at CERN",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46018159\">Comments</a>",
+      "id": "485c479497bc839951efb5bb1e6b2a94",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.25.690406v1?rss=1",
+      "title": "Dog brain atlas generated via spatially constrained spectral clustering",
+      "content": "Functional parcellations enable reproducible analyses of brain organization, yet the dog fMRI field still lacks a validated, multi-scale functional atlas. We applied spatially constrained spectral clustering to a resting state fMRI dataset (n = 27 dogs) to generate whole-brain parcellations spanning 20-300 parcels. Replicability was evaluated against an independent dataset (n = 20 dogs) using Dice overlap and Adjusted Rand Index (ARI) as measures of spatial overlap and similarity; within-parcel functional coherence was assessed via homogeneity. Functional parcellations were anatomically coherent across scales, with global Dice peaking at 0.625 at N = 140 and 0.623 at N = 100, while decreasing to 0.526 at N = 300. ARI peaked at 0.48 for N = 60 and remained [&ge;] 0.46 through N = 180. Mean within-parcel homogeneity increased monotonically from 0.08 (N = 20) to 0.19 (N = 300). Concordance with an anatomical atlas (Johnson et al., 2020) increased at the regional level (plateau ~0.16 for N [&ge;] 140) while diminishing at gyral and lobar levels as resolution increased, consistent with functionally driven sub-regional differentiation. Together, these results indicate functional segmentations that are replicable across datasets and internally coherent across scales, with intermediate resolutions (100-140 parcels) balancing specificity and reproducibility for common analyses. We introduce a comprehensive, multi-scale functional dog brain atlas derived from data-driven clustering, providing an open resource for comparative studies of brain evolution and canine cognition.",
+      "author": "Hernandez-Perez, R., Cuaya, L. V., Boch, M., Barrios, F. A., Alcauter, S., Huber, L., Lamm, C.",
+      "published_date": "2025-11-27T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 228,
+      "reading_time": 1,
+      "created_at": "2025-11-28T01:39:24.284824+00:00",
+      "updated_at": "2025-11-28T03:07:27.190837+00:00",
+      "metadata": {
+        "processed_at": "2025-11-28T03:07:27.190839+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "074fd1e1d099fe992420dc1047420e86",
+      "url": "https://vsora.com/products/jotunn-8/",
+      "title": "Vsora Jotunn-8 5nm European inference chip",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46074111\">Comments</a>",
       "author": "",
-      "published_date": "2025-11-22T20:54:06+00:00",
+      "published_date": "2025-11-27T23:30:11+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-11-27T20:40:37.079255+00:00",
-      "updated_at": "2025-11-27T20:40:37.079256+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2025-11-28T01:38:42.765376+00:00",
+      "updated_at": "2025-11-28T03:07:27.190841+00:00",
+      "metadata": {
+        "processed_at": "2025-11-28T03:07:27.190843+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4049b20b1257c07b7d77196b67095fa9",
+      "url": "https://www.bbc.com/culture/article/20241205-how-charles-m-schulz-created-charlie-brown-and-snoopy",
+      "title": "How Charles M Schulz created Charlie Brown and Snoopy (2024)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46074362\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-28T00:10:38+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-28T01:38:42.765338+00:00",
+      "updated_at": "2025-11-28T03:07:27.190845+00:00",
+      "metadata": {
+        "processed_at": "2025-11-28T03:07:27.190847+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "074fd1e1d099fe992420dc1047420e86",
+      "url": "https://vsora.com/products/jotunn-8/",
+      "title": "Vsora Jotunn-8 5nm European inference chip",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46074111\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-27T23:30:11+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-28T01:38:42.765376+00:00",
+      "updated_at": "2025-11-28T03:07:27.190841+00:00",
+      "metadata": {
+        "processed_at": "2025-11-28T03:07:27.190843+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4049b20b1257c07b7d77196b67095fa9",
+      "url": "https://www.bbc.com/culture/article/20241205-how-charles-m-schulz-created-charlie-brown-and-snoopy",
+      "title": "How Charles M Schulz created Charlie Brown and Snoopy (2024)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46074362\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-28T00:10:38+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-28T01:38:42.765338+00:00",
+      "updated_at": "2025-11-28T03:07:27.190845+00:00",
+      "metadata": {
+        "processed_at": "2025-11-28T03:07:27.190847+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "9039e794235a6158e599d230b0294121",
       "url": "https://www.reddit.com/r/Python/comments/1p7pb5z/i_got_roasted_for_my_code_yesterday_so_i_rewrote/",
@@ -206,26 +326,6 @@
       }
     },
     {
-      "id": "7234a56baccde3dbf130c602e2a892ca",
-      "url": "https://no-blackfriday.com",
-      "title": "Show HN: No Black Friday \u2013 A directory of fair-price brands",
-      "content": "<p>The idea came from noticing how many brands inflate prices only to discount them later. Some companies refuse to do that, and I wanted a place to highlight them.<p>If you know a company that doesn\u2019t participate in Black Friday or similar discount events, please add it or share it here. I\u2019d love to grow the list with help from the community.<p>Manuel</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46073319\">https://news.ycombinator.com/item?id=46073319</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "author": "rouuuge",
-      "published_date": "2025-11-27T21:20:03+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 72,
-      "reading_time": 1,
-      "created_at": "2025-11-27T23:39:23.429491+00:00",
-      "updated_at": "2025-11-28T01:09:08.066839+00:00",
-      "metadata": {
-        "processed_at": "2025-11-28T01:09:08.066840+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "488cf585cb5f148469546c59e35c3b3b",
       "url": "https://tigerbeetle.com/blog/2022-11-23-a-friendly-abstraction-over-iouring-and-kqueue/",
       "title": "A Programmer-Friendly I/O Abstraction Over io_uring and kqueue",
@@ -246,122 +346,22 @@
       }
     },
     {
-      "id": "ddae116bfd98143c664a40c0a5b3d95f",
-      "url": "https://github.com/yoloshii/privacy-first-network",
-      "title": "Show HN: Whole-home VPN router with hardware kill switch (OpenWrt and WireGuard)",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46073862\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-27T22:50:26+00:00",
+      "id": "7234a56baccde3dbf130c602e2a892ca",
+      "url": "https://no-blackfriday.com",
+      "title": "Show HN: No Black Friday \u2013 A directory of fair-price brands",
+      "content": "<p>The idea came from noticing how many brands inflate prices only to discount them later. Some companies refuse to do that, and I wanted a place to highlight them.<p>If you know a company that doesn\u2019t participate in Black Friday or similar discount events, please add it or share it here. I\u2019d love to grow the list with help from the community.<p>Manuel</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46073319\">https://news.ycombinator.com/item?id=46073319</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "rouuuge",
+      "published_date": "2025-11-27T21:20:03+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 2,
+      "word_count": 72,
       "reading_time": 1,
-      "created_at": "2025-11-27T23:19:26.826273+00:00",
-      "updated_at": "2025-11-28T01:09:08.066847+00:00",
+      "created_at": "2025-11-27T23:39:23.429491+00:00",
+      "updated_at": "2025-11-28T01:09:08.066839+00:00",
       "metadata": {
-        "processed_at": "2025-11-28T01:09:08.066849+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7958cd30868fa5a62dfadf32786489d5",
-      "url": "https://www.nature.com/articles/s41598-025-26558-0",
-      "title": "Differential role of anterior and posterior pituitary lobes in healthy aging and perceived stress",
-      "content": "",
-      "author": "",
-      "published_date": "2025-11-27T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-11-27T21:18:57.828856+00:00",
-      "updated_at": "2025-11-27T22:14:37.538168+00:00",
-      "metadata": {
-        "processed_at": "2025-11-27T22:14:37.538178+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f3e5d48753e9c9c9ed40cb9504a1e076",
-      "url": "https://www.reddit.com/r/Python/comments/1p8ad8c/python_podcasts_conference_talks_week_48_2025/",
-      "title": "Python Podcasts & Conference Talks (week 48, 2025)",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi <a href=\"/r/Python\">r/Python</a>! Welcome to another post in this series brought to you by <a href=\"https://www.techtalksweekly.io/\">Tech Talks Weekly</a>. Below, you'll find all the Python conference talks and podcasts published in the last 7 days:</p> <h1>\ud83d\udcfa Conference talks</h1> <h1>PyData Berlin 2025</h1> <ol> <li><a href=\"https://youtube.com/watch?v=qOJiQtqI348&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Narwhals: enabling universal dataframe support&quot;</strong></a> \u2e31 <strong>+584 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 47m 01s</li> <li><a href=\"https://youtube.com/watch?v=xUxhqJLVgRE&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Docling: Get your documents ready for gen AI&quot;</strong></a> \u2e31 <strong>+524 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 32m 22s</li> <li><a href=\"https://youtube.com/watch?v=wG0no-mUMf0&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Scaling Probabilistic Models with Variational Inference&quot;</strong></a> \u2e31 <strong>+418 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 29m 19s</li> <li><a href=\"https://youtube.com/watch?v=lXU5dr6Lmgo&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;A Beginner's Guide to State Space Modeling&quot;</strong></a> \u2e31 <strong>+388 views</strong> \u2e31 23 Nov 2025 \u2e31 01h 31m 08s</li> <li><a href=\"https://youtube.com/watch?v=vHFTeSCvpw0&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Building Reactive Data Apps with Shinylive and WebAssembly&quot;</strong></a> \u2e31 <strong>+232 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 32m 29s</li> <li><a href=\"https://youtube.com/watch?v=nn0VwBNKvro&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;More than DataFrames: Data Pipelines with the Swiss Army Knife DuckDB&quot;</strong></a> \u2e31 <strong>+213 views</strong> \u2e31 23 Nov 2025 \u2e31 01h 28m 06s</li> <li><a href=\"https://youtube.com/watch?v=uv1_qe_oKkA&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Exploring Millions of High-dimensional Datapoints in the Browser for Early Drug Discovery&quot;</strong></a> \u2e31 <strong>+212 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 27m 39s</li> <li><a href=\"https://youtube.com/watch?v=FWPbT448VJo&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Spot the difference: \ud83d\udd75\ufe0f using foundation models to monitor for change with satellite imagery \ud83d\udef0\ufe0f&quot;</strong></a> \u2e31 <strong>+207 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 31m 42s</li> <li><a href=\"https://youtube.com/watch?v=1fpTYyHOLz4&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Consumer Choice Models with PyMC Marketing&quot;</strong></a> \u2e31 <strong>+202 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 27m 46s</li> <li><a href=\"https://youtube.com/watch?v=-cqV6ihsCqI&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Lightning Talks&quot;</strong></a> \u2e31 <strong>+198 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 39m 04s</li> <li><a href=\"https://youtube.com/watch?v=hfBakAcT_nw&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;When Postgres is enough: solving document storage, pub/sub and distributed queues without more tools&quot;</strong></a> \u2e31 <strong>+198 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 30m 26s</li> <li><a href=\"https://youtube.com/watch?v=aK_rFcKW4mY&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Building an AI Agent for Natural Language to SQL Query Execution on Live Databases&quot;</strong></a> \u2e31 <strong>+186 views</strong> \u2e31 23 Nov 2025 \u2e31 01h 22m 06s</li> <li><a href=\"https://youtube.com/watch?v=sHL5aXHdcUE&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;See only what you are allowed to see: Fine-Grained Authorization&quot;</strong></a> \u2e31 <strong>+184 views</strong> \u2e31 23 Nov 2025 \u2e31 01h 28m 45s</li> <li><a href=\"https://youtube.com/watch?v=8UvPctThPQg&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Most AI Agents Are Useless. Let\u2019s Fix That&quot;</strong></a> \u2e31 <strong>+177 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 29m 47s</li> <li><a href=\"https://youtube.com/watch?v=vyhwnu5mdr4&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Probably Fun: Games to teach Machine Learning&quot;</strong></a> \u2e31 <strong>+173 views</strong> \u2e31 23 Nov 2025 \u2e31 01h 18m 16s</li> <li><a href=\"https://youtube.com/watch?v=T7iVFDG1Y14&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Beyond the Black Box: Interpreting ML models with SHAP&quot;</strong></a> \u2e31 <strong>+164 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 29m 35s</li> <li><a href=\"https://youtube.com/watch?v=C_zaCunYJeo&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Training Specialized Language Models with Less Data: An End-to-End Practical Guide&quot;</strong></a> \u2e31 <strong>+152 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 30m 04s</li> <li><a href=\"https://youtube.com/watch?v=k-TPU8nT5As&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Causal Inference in Network Structures: Lessons learned From Financial Services&quot;</strong></a> \u2e31 <strong>+151 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 30m 35s</li> <li><a href=\"https://youtube.com/watch?v=A2GoLOkEQ24&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Kubeflow pipelines meet uv&quot;</strong></a> \u2e31 <strong>+147 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 28m 08s</li> <li><a href=\"https://youtube.com/watch?v=25Fp4TrMy6g&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Scraping urban mobility: analysis of Berlin carsharing&quot;</strong></a> \u2e31 <strong>+123 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 26m 23s</li> <li><a href=\"https://youtube.com/watch?v=VFkaHZgzoDY&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;The Importance and Elegance of Polars Expressions&quot;</strong></a> \u2e31 <strong>+120 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 34m 00s</li> <li><a href=\"https://youtube.com/watch?v=TrQir4qzsKc&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Bye-Bye Query Spaghetti: Write Queries You'll Actually Understand Using Pipelined SQL Syntax&quot;</strong></a> \u2e31 <strong>+108 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 31m 49s</li> <li><a href=\"https://youtube.com/watch?v=y-51szsYIMo&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Navigating healthcare scientific knowledge:building AI agents for accurate biomedical data retrieval&quot;</strong></a> \u2e31 <strong>+107 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 32m 03s</li> <li><a href=\"https://youtube.com/watch?v=wmZeI7xrYg4&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Automating Content Creation with LLMs: A Journey from Manual to AI-Driven Excellence&quot;</strong></a> \u2e31 <strong>+107 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 31m 21s</li> <li><a href=\"https://youtube.com/watch?v=mCdqcaiWt4Q&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Data science in containers: the good, the bad, and the ugly&quot;</strong></a> \u2e31 <strong>+98 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 30m 48s</li> <li><a href=\"https://youtube.com/watch?v=lpVHZRBeIaM&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Scaling Python: An End-to-End ML Pipeline for ISS Anomaly Detection with Kubeflow and MLFlow&quot;</strong></a> \u2e31 <strong>+88 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 28m 07s</li> <li><a href=\"https://youtube.com/watch?v=i4T-Vb34W1c&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Building an A/B Testing Framework with NiceGUI&quot;</strong></a> \u2e31 <strong>+87 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 29m 31s</li> <li><a href=\"https://youtube.com/watch?v=qNa2eZjgi-4&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Risk Budget Optimization for Causal Mix Models&quot;</strong></a> \u2e31 <strong>+82 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 25m 46s</li> <li><a href=\"https://youtube.com/watch?v=moEOrrtd93c&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Beyond Linear Funnels: Visualizing Conditional User Journeys with Python&quot;</strong></a> \u2e31 <strong>+77 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 29m 35s</li> <li><a href=\"https://youtube.com/watch?v=buEKMi4tAew&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Better docs, happier users: What we learned applying Diataxis to HoloViz libraries&quot;</strong></a> \u2e31 <strong>+72 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 29m 58s</li> <li><a href=\"https://youtube.com/watch?v=yq-p7nNMW_U&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;The EU AI Act: Unveiling Lesser-Known Aspects, Implementation Entities, and Exemptions&quot;</strong></a> \u2e31 <strong>+70 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 30m 03s</li> <li><a href=\"https://youtube.com/watch?v=ENdowPTvMhc&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Deep Dive into the Synthetic Data SDK&quot;</strong></a> \u2e31 <strong>+64 views</strong> \u2e31 23 Nov 2025 \u2e31 01h 05m 41s</li> <li><a href=\"https://youtube.com/watch?v=LDP50108ByU&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Forget the Cloud: Building Lean Batch Pipelines from TCP Streams with Python and DuckDB&quot;</strong></a> \u2e31 <strong>+60 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 46m 52s</li> <li><a href=\"https://youtube.com/watch?v=YshMbfzdv6Q&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;What\u2019s Really Going On in Your Model? A Python Guide to Explainable AI&quot;</strong></a> \u2e31 <strong>+60 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 30m 13s</li> <li><a href=\"https://youtube.com/watch?v=JOye06P5JZI&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;From Manual to LLMs: Scaling Product Categorization&quot;</strong></a> \u2e31 <strong>+60 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 44m 09s</li> <li><a href=\"https://youtube.com/watch?v=RWDJKIya-WI&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;One API to Rule Them All? LiteLLM in Production&quot;</strong></a> \u2e31 <strong>+54 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 26m 07s</li> <li><a href=\"https://youtube.com/watch?v=hEL2EhQi0Rk&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;How We Automate Chaos: Agentic AI and Community Ops at PyCon DE &amp; PyData&quot;</strong></a> \u2e31 <strong>+54 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 37m 29s</li> <li><a href=\"https://youtube.com/watch?v=_Xs7r9d86qQ&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Flying Beyond Keywords: Our Aviation Semantic Search Journey&quot;</strong></a> \u2e31 <strong>+53 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 29m 35s</li> <li><a href=\"https://youtube.com/watch?v=OFFU38CmaaA&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Accessible Data Visualizations&quot;</strong></a> \u2e31 <strong>+52 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 30m 40s</li> <li><a href=\"https://youtube.com/watch?v=Da7o5P-iGO8&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Democratizing Digital Maps: How Protomaps Changes the Game&quot;</strong></a> \u2e31 <strong>+50 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 26m 40s</li> <li><a href=\"https://youtube.com/watch?v=5VwVVFxKFFU&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;AI-Ready Data in Action: Powering Smarter Agents&quot;</strong></a> \u2e31 <strong>+49 views</strong> \u2e31 23 Nov 2025 \u2e31 01h 29m 02s</li> <li><a href=\"https://youtube.com/watch?v=GLedx05lT2k&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Opening Session&quot;</strong></a> \u2e31 <strong>+49 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 15m 51s</li> <li><a href=\"https://youtube.com/watch?v=QVn9pVfHW6c&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Template-based web app and deployment pipeline at an enterprise-ready level on Azure&quot;</strong></a> \u2e31 <strong>+45 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 42m 24s</li> <li><a href=\"https://youtube.com/watch?v=bp9sBXotoQE&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Democratizing Experimentation: How GetYourGuide Built a Flexible and Scalable A/B Testing Platform&quot;</strong></a> \u2e31 <strong>+43 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 28m 52s</li> <li><a href=\"https://youtube.com/watch?v=UG4MpYvgloQ&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Beyond Benchmarks: Practical Evaluation Strategies for Compound AI Systems&quot;</strong></a> \u2e31 <strong>+42 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 28m 43s</li> <li><a href=\"https://youtube.com/watch?v=7PZoZhqiV8U&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Edge of Intelligence: The State of AI in Browsers&quot;</strong></a> \u2e31 <strong>+36 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 29m 55s</li> <li><a href=\"https://youtube.com/watch?v=MtC8SDWeyC8&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;\ud83d\udef0\ufe0f\u27a1\ufe0f\ud83e\uddd1\u200d\ud83d\udcbb: Streamlining Satellite Data for Analysis-Ready Outputs&quot;</strong></a> \u2e31 <strong>+32 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 30m 58s</li> <li><a href=\"https://youtube.com/watch?v=f2WMnIFP2MI&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Maintainers of the Future: Code, Culture, and Everything After&quot;</strong></a> \u2e31 <strong>+32 views</strong> \u2e31 23 Nov 2025 \u2e31 01h 04m 34s</li> <li><a href=\"https://youtube.com/watch?v=HYqv1Dn-6_w&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;PyData 2077: a data science future retrospective&quot;</strong></a> \u2e31 <strong>+32 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 37m 48s</li> <li><a href=\"https://youtube.com/watch?v=a7_bZpOR6_Q&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Benchmarking 2000+ Cloud Servers for GBM Model Training and LLM Inference Speed&quot;</strong></a> \u2e31 <strong>+29 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 29m 41s</li> </ol> <h1>PyData Paris 2025</h1> <ol> <li><a href=\"https://youtube.com/watch?v=LBVzkCSmjsQ&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Lucas Colley - A Hitchhiker's Guide to the Array API Standard Ecosystem&quot;</strong></a> \u2e31 <strong>+297 views</strong> \u2e31 21 Nov 2025 \u2e31 00h 27m 48s</li> <li><a href=\"https://youtube.com/watch?v=d2xQQItnMys&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Sylvain Corlay, Yann Lechelle &amp; Alexander CS Hendorf - Open-source Business&quot;</strong></a> \u2e31 <strong>+50 views</strong> \u2e31 21 Nov 2025 \u2e31 00h 32m 01s</li> </ol> <h1>code::dive 2025</h1> <ol> <li><a href=\"https://youtube.com/watch?v=k38VebhQkrU&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Resource Leaks In Python -- Is That Possible? | Bart\u0142omiej Kucharczyk | Stage 3&quot;</strong></a> \u2e31 <strong>+31 views</strong> \u2e31 25 Nov 2025 \u2e31 00h 15m 27s</li> <li><a href=\"https://youtube.com/watch?v=i8QBgzx2iz4&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;What does history teach us about logging contextual information in Python? | Artur Tabaka | Stage 3&quot;</strong></a> \u2e31 <strong>+14 views</strong> \u2e31 25 Nov 2025 \u2e31 00h 15m 14s</li> </ol> <h1>GOTO Copenhagen 2025</h1> <ol> <li><a href=\"https://youtube.com/watch?v=lQRq4-MiAGA&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Building Data Visualisations in Python in Minutes \u2022 Kris Jenkins \u2022 GOTO 2025&quot;</strong></a> \u2e31 <strong>+713 views</strong> \u2e31 26 Nov 2025 \u2e31 00h 32m 34s</li> </ol> <h1>PyData Prague 2025</h1> <ol> <li><a href=\"https://youtube.com/watch?v=slC4nThmIZQ&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Jakub Zikl - Right-Sized Scaling: Python APIs at Billions of Requests Without the Complexity&quot;</strong></a> \u2e31 <strong>+353 views</strong> \u2e31 23 Nov 2025 \u2e31 00h 22m 38s</li> </ol> <h1>KubeCon + CloudNativeCon North America 2025</h1> <ol> <li><a href=\"https://youtube.com/watch?v=4o2amJxMHUc&amp;utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;An Open Source AI Compute Stack: Kubernetes + Ray + PyTorch + VLLM - Robert Nishihara, Anyscale&quot;</strong></a> \u2e31 <strong>+35 views</strong> \u2e31 24 Nov 2025 \u2e31 00h 34m 00s</li> </ol> <h1>\ud83c\udfa7 Podcasts</h1> <ol> <li><a href=\"https://www.thenerdnook.io/p/5-real-data-projects?utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Learn Pandas Fast: 5 Real Data Projects Every Beginner Can Actually Do&quot;</strong></a> \u2e31 <em>The PyPod Chronicles</em> \u2e31 20 Nov 2025 \u2e31 00h 11m 17s</li> <li><a href=\"https://opensourcesecuritypodcast.libsyn.com/python-security-with-seth-larson?utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Python Security with Seth Larson&quot;</strong></a> \u2e31 <em>Open Source Security</em> \u2e31 24 Nov 2025 \u2e31 00h 31m 44s</li> <li><a href=\"https://realpython.com/podcasts/rpp/275/?utm_source=techtalksweekly&amp;utm_medium=email\"><strong>&quot;Building a FastAPI Application &amp; Exploring Python Concurrency&quot;</strong></a> \u2e31 <em>The Real Python Podcast</em> \u2e31 21 Nov 2025 \u2e31 00h 35m 07s</li> </ol> <p>---</p> <p><em>This post is an excerpt from the latest issue of</em> <a href=\"https://www.techtalksweekly.io/\"><strong><em>Tech Talks Weekly</em></strong></a> <em>which is a free weekly email with all the recently published Software Engineering podcasts and conference talks. Currently subscribed by +7,200 Software Engineers who stopped scrolling through messy YT subscriptions/RSS feeds and reduced FOMO. Consider subscribing if this sounds useful:</em> <a href=\"https://www.techtalksweekly.io/\"><em>https://www.techtalksweekly.io/</em></a></p> <p>Let me know what you think. Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TechTalksWeekly\"> /u/TechTalksWeekly </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p8ad8c/python_podcasts_conference_talks_week_48_2025/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p8ad8c/python_podcasts_conference_talks_week_48_2025/\">[comments]</a></span>",
-      "author": "/u/TechTalksWeekly",
-      "published_date": "2025-11-27T19:08:00+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1462,
-      "reading_time": 7,
-      "created_at": "2025-11-27T21:18:22.704262+00:00",
-      "updated_at": "2025-11-27T22:14:37.538182+00:00",
-      "metadata": {
-        "processed_at": "2025-11-27T22:14:37.538184+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6e5e9cae0d7d2711253f9e37f21a12c4",
-      "url": "https://dynomight.net/thanks-5/",
-      "title": "Underrated reasons to be thankful V",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46073033\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-27T20:37:51+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-27T21:18:21.458334+00:00",
-      "updated_at": "2025-11-27T22:14:37.538186+00:00",
-      "metadata": {
-        "processed_at": "2025-11-27T22:14:37.538188+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6e5e9cae0d7d2711253f9e37f21a12c4",
-      "url": "https://dynomight.net/thanks-5/",
-      "title": "Underrated reasons to be thankful V",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46073033\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-27T20:37:51+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-27T21:18:21.458334+00:00",
-      "updated_at": "2025-11-27T22:14:37.538186+00:00",
-      "metadata": {
-        "processed_at": "2025-11-27T22:14:37.538188+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "86240da3eaca0f7ab44548529db5e4cd",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1628368",
-      "title": "A simple robot suggests trunk rotation is essential for emergence of inside leading limb during quadruped galloping turns",
-      "content": "During turning maneuvers in the galloping gait of quadruped animals, a strong relationship exists between the turning direction and the sequence in which the forelimbs make ground contact: the outer forelimb acts as the \u201ctrailing limb\u201d while the inner forelimb serves as the \u201cleading limb.\u201d However, the control mechanisms underlying this behavior remain largely unclear. Understanding these mechanisms could deepen biological knowledge and assist in developing more agile robots. To address this issue, we hypothesized that decentralized interlimb coordination mechanism and trunk movement are essential for the emergence of an inside leading limb in a galloping turn. To test the hypothesis, we developed a quasi-quadruped robot with simplified wheeled hind limbs and variable trunk roll and yaw angles. For forelimb coordination, we implemented a simple decentralized control based on local load-dependent sensory feedback, utilizing trunk roll inclination and yaw bending as turning methods. Our experimental results confirmed that in addition to the decentralized control from previous studies which reproduces animal locomotion in a straight line, adjusting the trunk roll angle spontaneously generates a ground contact sequence similar to gallop turning in quadruped animals. Furthermore, roll inclination showed a greater influence than yaw bending on differentiating the leading and trailing limbs. This study suggests that physical interactions serve as a universal mechanism of locomotor control in both forward and turning movements of quadrupedal animals.",
-      "author": "Akio Ishiguro",
-      "published_date": "2025-10-23T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 223,
-      "reading_time": 1,
-      "created_at": "2025-11-27T20:41:06.163310+00:00",
-      "updated_at": "2025-11-27T22:14:37.538194+00:00",
-      "metadata": {
-        "processed_at": "2025-11-27T22:14:37.538195+00:00",
+        "processed_at": "2025-11-28T01:09:08.066840+00:00",
         "processing_method": "github_actions"
       }
     }
