@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-11-28T10:24:52.574859+00:00",
+  "last_updated": "2025-11-28T10:46:29.181100+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "53f961f13b2ecacc041a615b563b462a",
+      "url": "http://ieeexplore.ieee.org/document/11245799",
+      "title": "Table of Contents",
+      "content": "null",
+      "author": "",
+      "published_date": "2025-11-13T13:16:42+00:00",
+      "source": "Transactions Biomedical Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 1,
+      "reading_time": 1,
+      "created_at": "2025-11-28T10:46:13.922070+00:00",
+      "updated_at": "2025-11-28T10:46:13.922072+00:00"
+    },
+    {
+      "id": "08be5b0238a11e6811bba7f871c949e8",
+      "url": "https://www.spinellis.gr/pubs/conf/2015-MSR-Unix-History/html/Spi15c.html",
+      "title": "A Repository with 44 Years of Unix Evolution",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46077106\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-28T09:32:38+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-28T10:45:21.659821+00:00",
+      "updated_at": "2025-11-28T10:45:21.659822+00:00"
+    },
+    {
+      "id": "8d7e4d4e6022c20cf9e0aae4f112e15e",
+      "url": "https://github.com/hexagonal-sun/moss",
+      "title": "Moss: a Rust Linux-compatible kernel in 26,000 lines of code",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46012803\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-22T07:11:59+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-28T10:45:21.659743+00:00",
+      "updated_at": "2025-11-28T10:45:21.659745+00:00"
+    },
     {
       "id": "efb6d9768b33cf3eb3ee308c3d1f7b22",
       "url": "http://ieeexplore.ieee.org/document/11245796",
@@ -313,54 +361,6 @@
         "processed_at": "2025-11-28T08:22:05.182884+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "ebd2f1c37169b7451f930e0562810c45",
-      "url": "https://www.reddit.com/r/Python/comments/1p8muey/i_built_a_tool_that_automatically_cleans_unused/",
-      "title": "I built a tool that automatically cleans unused dependencies from Python projects.",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I built a tool that automatically cleans unused dependencies from Python projects. It's called Depcleaner and you can easily get started by reading it's PYPI or Github page!<br /> <a href=\"https://pypi.org/project/depcleaner/\">https://pypi.org/project/depcleaner/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JermyDiscord\"> /u/JermyDiscord </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p8muey/i_built_a_tool_that_automatically_cleans_unused/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p8muey/i_built_a_tool_that_automatically_cleans_unused/\">[comments]</a></span>",
-      "author": "/u/JermyDiscord",
-      "published_date": "2025-11-28T05:30:15+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 52,
-      "reading_time": 1,
-      "created_at": "2025-11-28T07:20:36.038272+00:00",
-      "updated_at": "2025-11-28T07:20:36.038274+00:00"
-    },
-    {
-      "id": "4e88dead9d716582b7b7f20fbcfe2380",
-      "url": "https://github.com/NullPxl/banrays",
-      "title": "Show HN: Ray-BANNED, Glasses to detect smart-glasses that have cameras",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46075882\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-28T05:52:38+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-28T07:20:34.852910+00:00",
-      "updated_at": "2025-11-28T07:20:34.852912+00:00"
-    },
-    {
-      "id": "4e88dead9d716582b7b7f20fbcfe2380",
-      "url": "https://github.com/NullPxl/banrays",
-      "title": "Show HN: Ray-BANNED, Glasses to detect smart-glasses that have cameras",
-      "content": "<p>Hi! Recently smart-glasses with cameras like the Meta Ray-bans seem to be getting more popular. As does some people's desire to remove/cover up the recording indicator LED. I wanted to see if there's a way to detect when people are recording with these types of glasses, so a little bit ago I started working this project. I've hit a little bit of a wall though so I'm very much open to ideas!<p>I've written a bunch more on the link (+photos are there), but essentially this uses 2 fingerprinting approaches: \n- retro-reflectivity of the camera sensor by looking at IR reflections. mixed results here.\n- wireless traffic (primarily BLE, also looking into BTC and wifi)<p>For the latter, I'm currently just using an ESP32, and I can consistently detect when the Meta Raybans are 1) pairing, 2) first powered on, 3) (less consistently) when they're taken out of the charging case. When they do detect something, it plays a little jingle next to your ear.<p>Ideally I want to be able to detect them when they're in use, and not just at boot. I've come across the nRF52840, which seems like it can follow directed BLE traffic beyond the initial broadcast, but from my understanding it would still need to catch the first CONNECT_REQ event regardless. On the bluetooth classic side of things, all the hardware looks really expensive! Any ideas are appreciated. Thanks!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46075882\">https://news.ycombinator.com/item?id=46075882</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
-      "author": "nullpxl",
-      "published_date": "2025-11-28T05:52:38+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 242,
-      "reading_time": 1,
-      "created_at": "2025-11-28T07:20:33.453944+00:00",
-      "updated_at": "2025-11-28T07:20:33.453947+00:00"
     }
   ]
 }
