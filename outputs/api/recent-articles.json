@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-11-28T14:22:19.063917+00:00",
+  "last_updated": "2025-11-28T14:44:40.691360+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "0af11b7e4f31784f0346842dd677ca54",
+      "url": "https://www.openpetition.de/petition/online/anerkennung-von-open-source-arbeit-als-ehrenamt-in-deutschland#petition-main",
+      "title": "Petition to formally recognize open source work as civic service in Germany",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46078770\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-28T14:08:14+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-28T14:43:27.752100+00:00",
+      "updated_at": "2025-11-28T14:43:27.752108+00:00"
+    },
+    {
+      "id": "0af11b7e4f31784f0346842dd677ca54",
+      "url": "https://www.openpetition.de/petition/online/anerkennung-von-open-source-arbeit-als-ehrenamt-in-deutschland#petition-main",
+      "title": "Petition to formally recognize open source work as civic service in Germany",
+      "content": "<p>Article URL: <a href=\"https://www.openpetition.de/petition/online/anerkennung-von-open-source-arbeit-als-ehrenamt-in-deutschland#petition-main\">https://www.openpetition.de/petition/online/anerkennung-von-open-source-arbeit-als-ehrenamt-in-deutschland#petition-main</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46078770\">https://news.ycombinator.com/item?id=46078770</a></p>\n<p>Points: 18</p>\n<p># Comments: 0</p>",
+      "author": "PhilippGille",
+      "published_date": "2025-11-28T14:08:14+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-28T14:43:26.638763+00:00",
+      "updated_at": "2025-11-28T14:43:26.638771+00:00"
+    },
     {
       "id": "4c9bf85b6fee62899fef0d48c374559d",
       "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006019?dgcid=rss_sd_all",
@@ -313,38 +345,6 @@
       "reading_time": 1,
       "created_at": "2025-11-28T12:42:45.119810+00:00",
       "updated_at": "2025-11-28T12:42:45.119812+00:00"
-    },
-    {
-      "id": "1ac56e98b2d86ba36fa78494262c2253",
-      "url": "https://www.reddit.com/r/Python/comments/1p8t4a8/i_built_a_deterministic_engine_to_analyze/",
-      "title": "I built a deterministic engine to analyze 8th-century Arabic Poetry meters (Arud) with Python",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I\u2019ve just released <strong>PyArud v0.1.3</strong>, a Python library that digitizes the science of Arabic Prosody (<strong>ilm al-Arudh</strong>), originally founded by Al-Khalil bin Ahmed in the 8th century.</p> <p><strong>What My Project Does</strong></p> <p>Arabic poetry is built on a binary system of &quot;Moving&quot; (<em>Mutaharrik</em>) and &quot;Still&quot; (<em>Sakin</em>) sounds, forming 16 distinct meters (Buhur). Analyzing this computationally is hard because:</p> <ol> <li><strong>Orthography vs. Phonetics:</strong> What is written isn't what is pronounced (e.g., &quot;Allahu&quot; has a hidden long vowel).</li> <li><strong>Complexity:</strong> A single meter like <em>Kamil</em> has dozens of valid variations (<em>Zihaf</em>) where letters can be dropped or quieted.</li> <li><strong>LLMs struggle:</strong> Asking ChatGPT to scan a poem usually results in hallucinations because it predicts tokens rather than strictly following the prosodic rules.</li> </ol> <p><strong>The Solution: PyArud</strong></p> <p>I built a deterministic engine that:</p> <p>* <strong>Converts Text:</strong> Uses regex and lookaheads to handle deep phonetic rules (like <em>Iltiqa al-Sakinayn</em> - the meeting of two stills).</p> <p>* <strong>Greedy Matching:</strong> Implements a greedy algorithm to segment verses into their component feet (<em>Tafilas</em>).</p> <p>* <strong>Deep Analysis:</strong> Identifies not just the meter, but the specific defect (<em>Ellah</em>) used in every foot.</p> <p><strong>Example</strong></p> <pre><code>from pyarud.processor import ArudhProcessor # A verse from Al-Mutanabbi verse = [(&quot;\u0623\u064e\u0644\u0627 \u0644\u0627 \u0623\u064f\u0631\u064a \u0627\u0644\u0623\u062d\u0652\u062f\u0627\u062b\u064e \u062d\u064e\u0645\u0652\u062f\u064b\u0627 \u0648\u064e\u0644\u0627 \u0630\u064e\u0645\u0651\u0627&quot;, &quot;\u0641\u064e\u0645\u0627 \u0628\u064e\u0637\u0652\u0634\u064f\u0647\u0627 \u062c\u064e\u0647\u0652\u0644\u064b\u0627 \u0648\u064e\u0644\u0627 \u0643\u064e\u0641\u064f\u0651\u0647\u0627 \u062d\u0650\u0644\u0652\u0645\u0627&quot;)] processor = ArudhProcessor() result = processor.process_poem(verse) print(f&quot;Meter: {result['meter']}&quot;) # Output: 'taweel' print(f&quot;Score: {result['verses'][0]['score']}&quot;) # Output: 1.0 </code></pre> <p><strong>Target Audience</strong><br /> Developers building apps for arabic poetry</p> <p><strong>Comparison:</strong><br /> No alternative solutions exist for this problem</p> <p><strong>What's new in v0.1.3?</strong></p> <p>* <strong>Robustness:</strong> Improved handling of &quot;Solar Lam&quot; and implicit vowels.</p> <p><strong>* Architecture:</strong> A modular pipeline separating linguistic normalization from mathematical pattern matching.</p> <p><strong>Links</strong></p> <p><strong>* Repo:</strong> <a href=\"https://github.com/cnemri/pyarud\"><strong>https://github.com/cnemri/pyarud</strong></a></p> <p><strong>* Docs:</strong> <a href=\"https://cnemri.github.io/pyarud\"><strong>https://cnemri.github.io/pyarud</strong></a></p> <p><strong>* PyPI: `pip install pyarud`</strong></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chou404\"> /u/chou404 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p8t4a8/i_built_a_deterministic_engine_to_analyze/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p8t4a8/i_built_a_deterministic_engine_to_analyze/\">[comments]</a></span>",
-      "author": "/u/chou404",
-      "published_date": "2025-11-28T12:00:11+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 303,
-      "reading_time": 1,
-      "created_at": "2025-11-28T12:42:19.301451+00:00",
-      "updated_at": "2025-11-28T12:42:19.301453+00:00"
-    },
-    {
-      "id": "c399f4fc9e7e49dbac04325003704bcb",
-      "url": "https://tigerbeetle.com/blog/2025-11-28-tale-of-four-fuzzers/",
-      "title": "A Tale of Four Fuzzers",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46077964\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-28T12:11:39+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-28T12:42:17.967158+00:00",
-      "updated_at": "2025-11-28T12:42:17.967160+00:00"
     }
   ]
 }
