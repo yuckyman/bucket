@@ -1,7 +1,87 @@
 {
-  "last_updated": "2025-11-28T10:46:29.181100+00:00",
+  "last_updated": "2025-11-28T11:20:08.754030+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "3f16a84b6fed4ebda85a17a01a8956cb",
+      "url": "http://ieeexplore.ieee.org/document/11003421",
+      "title": "Quantifying the Role of Duodenal Shape in Flow and Mixing: A Computational Fluid Dynamics Study on Anatomically Diverse Models",
+      "content": "Objective: Enzymatic digestion of food and absorption of nutrients in the duodenum are affected by flow and mixing driven by peristaltic contractions. Our understanding of how the duodenum shape varies among individuals and how these anatomical differences affect the transport dynamics is limited. Methods: A landmark-free approach was used to perform statistical shape analysis of the duodenum, then computational fluid dynamics (CFD) simulations with anatomically realistic peristaltic contractions were used to characterize the effect of anatomical variations on flow and mixing. Leveraging the inherent tubular \u2018C\u2019 shape of the duodenum, centerlines and cross-sectional areas were computed for CT data from 34 subjects. The average radius and duodenal orientation in the form of the components of the tangent vectors to the centerline at 60 equally spaced (normalised by the centerline length) locations were used as inputs to a principal component analysis (PCA). Results: CFD simulations revealed similar flow features across all geometries including the location of stagnation points and the presence of reversed flow, and swirling patterns. The most extreme geometry, experiencing the largest magnitude of radial contractions, achieved a mixing state approximately twice that of the mean geometry within a 60 s period. Conclusion: This work provides new insights into duodenal shape variation and its impacts on intestinal fluid dynamics. Significance: The methods and datasets developed here have broader implications for understanding gastrointestinal function, digestion, and drug delivery by establishing quantitative links between anatomical variation and digestive processes.",
+      "author": "",
+      "published_date": "2025-05-13T13:17:02+00:00",
+      "source": "Transactions Biomedical Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 238,
+      "reading_time": 1,
+      "created_at": "2025-11-28T11:19:55.234245+00:00",
+      "updated_at": "2025-11-28T11:19:55.234247+00:00"
+    },
+    {
+      "id": "4abf903e26fec7957658c15efeee3be5",
+      "url": "http://ieeexplore.ieee.org/document/11003397",
+      "title": "Improving Calibration of EMG-Informed Neuromusculoskeletal Models Through Differentiable Physics and Muscle Synergies",
+      "content": "Objective: Electromyogram (EMG)-informed neuromusculoskeletal (NMS) models can predict physiologically plausible muscle forces and joint moments. However, calibrating model parameters (e.g., optimal fiber length, tendon slack length) to the individual is time-consuming, with the optimization often requiring hours to converge and typically not accounting for unrecorded muscle excitations. This study addresses these limitations by incorporating differentiable physics and muscle synergies into the calibration of NMS models. Methods: We implemented an NMS model with auto-differentiable Hill-type muscles, enabling the use of adaptive gradient descent optimizers. Two types of calibration were evaluated: a standard EMG-driven approach and a synergy-hybrid approach that also synthesized unrecorded excitations. These methods were evaluated using upper and lower limb data, each from a single participant. Results: The calibration time was reduced by up to 26 times while maintaining comparable accuracy in joint moment predictions. Compared to the EMG-driven calibration, the synergy-hybrid calibration improved the estimates of model parameters for reduced number of EMG channels. Conclusion: Auto-differentiable Hill-type muscle models greatly reduce NMS model calibration time and enable the synthesis of unrecorded muscle excitations through muscle synergies, facilitating the calibration of all muscle parameters. Significance: This new rapid calibration could support deployment of NMS models in time-sensitive applications, including real-time biomechanical analyses and personalized neurorehabilitation.",
+      "author": "",
+      "published_date": "2025-05-13T13:17:02+00:00",
+      "source": "Transactions Biomedical Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 206,
+      "reading_time": 1,
+      "created_at": "2025-11-28T11:19:55.234204+00:00",
+      "updated_at": "2025-11-28T11:19:55.234206+00:00"
+    },
+    {
+      "id": "cf13b70cdb53d67f33440a96bc36cc1d",
+      "url": "http://ieeexplore.ieee.org/document/11245650",
+      "title": "Compression-Enabled Joint Entropy Estimation for Seizure Detection on Human Intracortical Electroencephalography",
+      "content": "Objective: Of the 1% of the world population with epilepsy, one-third have drug-resistant epilepsy and often turn to surgical intervention. Current epilepsy treatment relies on manual review by epileptologists and could benefit from reliable quantitative electroencephalography (qEEG) approaches to speed up evaluation, minimize inter-reviewer variance, and deliver higher quality and more equitable care. Methods: We present the inverse compression ratio (ICR), an estimate of an upper bound of joint entropy using common compression algorithms, as a potential qEEG method for seizure detection. This technique was tested on our repository of 10 kHz intracortical neurophysiological data across 30 participants (15 adults and 15 children, 240+ total seizures). Results: Single-electrode ICR achieved a F1 score of 0.80 and an area under precision-recall curve of 0.69, outperforming conventional qEEG methods. Multielectrode ICR performed within the top 2% of individual electrodes, potentially eliminating the need for electrode selection. Conclusion: ICR may be useful for automated seizure detection; its integration into clinical systems may translate to broad clinical impact. Significance: We believe this clinical study analyzed the largest volume of continuous, multi-day intracortical neuroelectrophysiology for quantitative methods\u2013with 2,900+ recording hours (420,000+ electrode-hours, amounting to 30+ TB of data). It is also the first demonstration of compression-based multidimensional estimation in a biological or clinical application. By computing an ensemble effect without linear assumptions or parametric modeling, ICR offers a model-free solution to the classically combinatorially intractable problem of high-dimensional joint entropy; its application likely extends beyond epilepsy to other domains of biomedical signal processing.",
+      "author": "",
+      "published_date": "2025-11-13T13:16:42+00:00",
+      "source": "Transactions Biomedical Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 248,
+      "reading_time": 1,
+      "created_at": "2025-11-28T11:19:55.234166+00:00",
+      "updated_at": "2025-11-28T11:19:55.234168+00:00"
+    },
+    {
+      "id": "7ed111f9764c5966a6bbea650053b8b7",
+      "url": "https://reclaimthenet.org/eu-council-approves-new-chat-control-mandate-pushing-mass-surveillance",
+      "title": "EU Council Approves New \"Chat Control\" Mandate Pushing Mass Surveillance",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46077393\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-28T10:36:08+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-28T11:19:03.504997+00:00",
+      "updated_at": "2025-11-28T11:19:03.504999+00:00"
+    },
+    {
+      "id": "7ed111f9764c5966a6bbea650053b8b7",
+      "url": "https://reclaimthenet.org/eu-council-approves-new-chat-control-mandate-pushing-mass-surveillance",
+      "title": "EU Council Approves New \"Chat Control\" Mandate Pushing Mass Surveillance",
+      "content": "<p>Article URL: <a href=\"https://reclaimthenet.org/eu-council-approves-new-chat-control-mandate-pushing-mass-surveillance\">https://reclaimthenet.org/eu-council-approves-new-chat-control-mandate-pushing-mass-surveillance</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46077393\">https://news.ycombinator.com/item?id=46077393</a></p>\n<p>Points: 70</p>\n<p># Comments: 20</p>",
+      "author": "fragebogen",
+      "published_date": "2025-11-28T10:36:08+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-28T11:19:02.197458+00:00",
+      "updated_at": "2025-11-28T11:19:02.197465+00:00"
+    },
     {
       "id": "53f961f13b2ecacc041a615b563b462a",
       "url": "http://ieeexplore.ieee.org/document/11245799",
@@ -261,106 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-11-28T08:29:05.396472+00:00",
       "updated_at": "2025-11-28T08:29:05.396474+00:00"
-    },
-    {
-      "id": "a6e32672b993f45061da858a670f95d5",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1667742",
-      "title": "Observing walking with asymmetric treadmill belt speeds induces stronger activation of the action observation network than normal walking",
-      "content": "IntroductionObserving the actions of others activates the action observation network (AON). Although previous studies have reported that motor experience and visual familiarity with an observed action can modulate the AON activity, the response of the AON to the observation of unusual walking patterns remains unclear. Therefore, this study aimed to investigate the brain activity induced by observing walking in a split-belt condition, where the left and right treadmill belt speeds differ.MethodsWe examined the brain activity during the observation of video clips showing normal walking under a tied condition (the same left and right treadmill speeds) as well as walking during the initial and late periods of a split-belt condition using functional magnetic resonance imaging in 19 healthy adults. The step lengths of the actor walking in the video clips were asymmetric during the initial period of the split-belt condition and nearly symmetric during the tied condition and late period of the split-belt condition.Results and discussionObserving the walking video clips activated broad regions of the occipito-temporo-parietal and frontal cortices, irrespective of the clip conditions. The contrasts between the conditions revealed that observing walking in the initial and late periods of the split-belt condition induced stronger activation in a subset of the AON than in the tied condition. These results suggest that observing unusual walking patterns under asymmetric speed condition induces a stronger AON activity than normal walking.",
-      "author": "Kiyotaka Kamibayashi",
-      "published_date": "2025-11-28T00:00:00+00:00",
-      "source": "Frontiers Human Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 226,
-      "reading_time": 1,
-      "created_at": "2025-11-28T07:21:01.019388+00:00",
-      "updated_at": "2025-11-28T08:22:05.182857+00:00",
-      "metadata": {
-        "processed_at": "2025-11-28T08:22:05.182867+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "62b715ea907604996b8e3dcd86065d5e",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1705660",
-      "title": "Impact of visual distractors in virtual reality environments on sustained attention behavioral performance and EEG characteristics",
-      "content": "IntroductionThis study investigates the effects of visual distractors in virtual reality (VR) environments on sustained attention, focusing on how visual distraction modulates neural mechanisms of attentional allocation and regulation.MethodsBehavioral and electroencephalographic (EEG) data were collected from 66 participants performing a Go/No-go continuous performance test (CPT) in a virtual classroom under conditions with (Y-D) and without (N-D) visual distractors. We analyzed behavioral performance (commission/omission errors, multipress, reaction time), event-related potential (P300) characteristics (latency, amplitude), and nonlinear dynamics (sample entropy, fuzzy entropy) of the EEG signals.ResultsBehavioral results revealed that visual distractors significantly increased commission errors, omission errors, and multipress (all p < 0.001), with no significant difference in reaction time. EEG analysis demonstrated that distractors significantly prolonged P300 latency, particularly at CPz, Pz, and Oz electrodes, and increased P300 amplitude at Fz, FCz, and Oz. Furthermore, both sample entropy and fuzzy entropy values were significantly higher under distraction conditions in the frontal, central, and parietal regions.DiscussionThese findings indicate that visual distractors disrupt cognitive processes related to visual information integration, attentional control, and decision-making, leading to decreased behavioral performance and increased neural complexity. This study deepens the understanding of the neural mechanisms of attention processing under ecological conditions and provides a scientific basis for optimizing educational environments and developing attention assessment tools based on neuroengineering.",
-      "author": "Suogang Wang",
-      "published_date": "2025-11-28T00:00:00+00:00",
-      "source": "Frontiers Human Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 212,
-      "reading_time": 1,
-      "created_at": "2025-11-28T07:21:01.019313+00:00",
-      "updated_at": "2025-11-28T08:22:05.182871+00:00",
-      "metadata": {
-        "processed_at": "2025-11-28T08:22:05.182873+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "071a719fc4e7d55af24a0ae6c24ce136",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1699598",
-      "title": "Visual feedback adaptation enhances arm-posture coordination during floor-surface perturbations",
-      "content": "BackgroundMaintaining postural stability during perturbations requires coordinated sensorimotor and interjoint coordination. This study investigated the effects of different feedback modalities (knowledge of results [KR] and continuous visual feedback) on postural adaptation during floor surface perturbations while standing.MethodsNineteen healthy young adults (mean age: 23.1 \u00b1 1.2 years; 12 males) performed an arm-holding task while standing on a backward-translating force platform under five phases: baseline test, KR adaptation training, post-KR adaptation (P-KRA) test, visual adaptation training, and post-visual adaptation (P-VA) test. Endpoint position variability, center of pressure (COP), center of mass (COM), margin of stability (MOS), and interjoint coordination were compared among Baseline, P-KRA, and P-VA using a mixed-model repeated-measures analysis of variance.ResultsCompared to Baseline, endpoint position variability was significantly reduced in the P-VA at both perturbation offset (8.97 \u00b1 1.04 mm vs. 15.35 \u00b1 1.52 mm, p = 0.006) and 1.5 s after offset (14.39 \u00b1 1.02 mm vs. 19.73 \u00b1 1.71 mm, p = 0.027). The MOS at 1.5 s after offset was lower in P-VA (39.33 \u00b1 4.28 mm) than in Baseline (58.04 \u00b1 4.53 mm, p = 0.011), and the minimum MOS was significantly smaller in P-VA (32.20 \u00b1 4.38 mm vs. 50.59 \u00b1 4.26 mm, p = 0.011). Anticipatory COP displacement at onset in P-VA was significantly increased (14.11 \u00b1 1.46 mm vs. 6.20 \u00b1 0.89 mm, p < 0.001) and reduced peak forward COP displacement (89.42 \u00b1 2.00 mm vs. 110.18 \u00b1 3.35 mm, p < 0.001). The time to stability was shorter in P-VA (1,266.42 \u00b1 68.29 ms) than in Baseline (1,525.78 \u00b1 66.11 ms, p = 0.017). The cross-correlation coefficient between the elbow and ankle joints was significantly higher in P-VA than in Baseline (0.98 \u00b1 0.01 vs. 0.89 \u00b1 0.04, p = 0.014).ConclusionThese findings demonstrate that continuous visual feedback adaptation may enhance arm-posture coordination during external perturbations in healthy young adults.",
-      "author": "Naoya Hasegawa",
-      "published_date": "2025-11-28T00:00:00+00:00",
-      "source": "Frontiers Human Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 308,
-      "reading_time": 1,
-      "created_at": "2025-11-28T07:21:01.019268+00:00",
-      "updated_at": "2025-11-28T08:22:05.182876+00:00",
-      "metadata": {
-        "processed_at": "2025-11-28T08:22:05.182877+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ab9db00e1672c26c5e821f4664cd6d26",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1725264",
-      "title": "Advantages of human opsins in optogenetic visual restoration",
-      "content": "Optogenetic vision restoration has progressed from proof-of-concept to early clinical testing, yet most programmes rely on microbial channels that demand high irradiance and offer limited adaptation. This review synthesizes preclinical and clinical evidence comparing microbial actuators with human opsins (rhodopsin, cone opsins, melanopsin) and outlines vector and safety considerations for translation. Human opsins activate G-protein\u2013coupled cascades, providing intrinsic signal amplification and operation at room-light levels (\u223c1011\u20131012 photons\u22c5cm\u20132\u22c5s\u20131), in contrast to the \u22651015 photons\u22c5cm\u20132\u22c5s\u20131 typically needed for channelrhodopsins. Rhodopsin and MW cone opsin preserve photopic-range sensitivity (rhodopsin > cone opsin) while delivering millisecond-scale kinetics and adaptation across backgrounds, enabling patterned retinal responses without optical intensification devices; clinical validation without external intensification is pending. Such mammalian pigments also confer bleaching-based light adaptation, whereas microbial tools are photocyclic and can desensitize under steady illumination, limiting sustained contrast encoding. Bistable melanopsin enables durable irradiance coding but with slow dynamics; chimeric designs (e.g., melanopsin\u2013mGluR6, Gloeobacter\u2013human rhodopsin) aim to combine amplification with favorable reset properties. In contrast to human opsins, microbial channels warrant safety considerations including light-dose budgeting (particularly at short wavelengths), potential cytotoxicity from proton or calcium loads, and vector-related ocular inflammation; red-shifted actuators improve photochemical safety margins. Targeting opsins to ON bipolar (ON-BP) cells retains inner-retinal computations (center\u2013surround, ON/OFF segregation, temporal filtering). Engineered adeno-associated virus (AAV) capsids (e.g., AAV2-7m8 intravitreally; AAV8.BP2 subretinally) paired with GRM6 or L7 promoters achieve broad ON-BP expression in rodents but a much more limited expression profile in non-human primates. First clinical studies report acceptable early ocular safety with emerging efficacy signals. We propose accelerating phase I safety human trials of human-opsin vectors with prospectively defined light-exposure budgets and low vision functional endpoints such as navigation, face and object recognition, temporal contrast sensitivity, alongside work on chromophore support, cascade integrity in late degeneration, and scalable vector\u2013promoter solutions. Pharmacological noise suppression in degenerating retinas (e.g., gap-junction blockers or retinoic-acid pathway modulators) may further enhance signal-to-noise without altering opsin biochemistry. Together, these steps can move human-opsin optogenetics from experimental promise to clinically meaningful restoration of light sensitivity.",
-      "author": "Jasmina Cehajic-Kapetanovic",
-      "published_date": "2025-11-28T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 335,
-      "reading_time": 1,
-      "created_at": "2025-11-28T07:20:58.112898+00:00",
-      "updated_at": "2025-11-28T08:22:05.182879+00:00",
-      "metadata": {
-        "processed_at": "2025-11-28T08:22:05.182881+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8fd62d37676cc6e16073939ab394954e",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1687815",
-      "title": "SSEL: spike-based structural entropic learning for spiking graph neural networks",
-      "content": "Spiking Neural Networks (SNNs) offer transformative, event-driven neuromorphic computing with unparalleled energy efficiency, representing a third-generation AI paradigm. Extending this paradigm to graph-structured data via Spiking Graph Neural Networks (SGNNs) promises energy-efficient graph cognition, yet existing SGNN architectures exhibit critical fragility under adversarial topology perturbations. To address this challenge, this study presents the Spike-based Structural Entropy Learning framework (SSEL), which introduces structural entropy theory into the learning objectives of SGNNs. The core innovation establishes structural entropy-guided topology refinement: By minimizing structural entropy, we derive a sparse topological graph that intrinsically prunes noisy edges while preserving critical low-entropy connections. To further enforce robustness, we develop an entropy-driven topological gating mechanism that restricts spiking message propagation exclusively to entropy-optimized edges, systematically eliminating adversarial pathways. Crucially, this co-design strategy synergizes two sparsity sources: Structural sparsity from the entropy-minimized graph topology and Event-driven sparsity from spike-based computation. This dual mechanism not only ensures exceptional robustness (64.58% accuracy vs. 30.14% baseline under 0.1 salt-and-pepper noise) but also enables ultra-low energy consumption, achieving 97.28% reduction compared to conventional GNNs while maintaining state-of-the-art accuracy (85.31% on Cora). This work demonstrates that the principled minimization of structural entropy is a powerful strategy for enhancing the robustness of Spiking Graph Neural Networks. The SSEL framework successfully mitigates the impact of adversarial topological perturbations while capitalizing on the energy-efficient nature of spike-based computation, which underscore the significant potential of combining information-theoretic graph principles with neuromorphic computing paradigms.",
-      "author": "Badong Chen",
-      "published_date": "2025-11-28T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 237,
-      "reading_time": 1,
-      "created_at": "2025-11-28T07:20:58.112718+00:00",
-      "updated_at": "2025-11-28T08:22:05.182883+00:00",
-      "metadata": {
-        "processed_at": "2025-11-28T08:22:05.182884+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
