@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-11-28T04:19:19.930313+00:00",
+  "last_updated": "2025-11-28T04:26:38.016974+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "39ef9b7c9f5875b3c1df4b272aa12da8",
+      "url": "https://www.reddit.com/r/Python/comments/1p8idyf/humanmint_normalizing_cleaning_government_contact/",
+      "title": "HumanMint - Normalizing & Cleaning Government Contact Data",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"/r/Python\">r/Python</a>!</p> <p>I just released a small library I've built for cleaning messy human-centric data: <a href=\"https://pypi.org/project/humanmint/\">HumanMint</a>.</p> <p>Think government contact records with chaotic names, weird phone formats, noisy department strings, inconsistent titles, etc.</p> <p>It was coded in a single day, so expect some rough edges, but the core works surprisingly well.</p> <p>Note: This is my first public library, so feedback and bug reports are very welcome.</p> <h1>What it does (all in one mint() call)</h1> <ul> <li>Normalize and parse names</li> <li>Infer gender from first names (probabilistic, optional)</li> <li>Normalize + validate emails (generic inboxes, free providers, domains)</li> <li>Normalize phones to E.164, extract extensions, detect fax/VoIP/test numbers</li> <li>Parse US postal addresses into components</li> <li>Clean + canonicalize departments (23k -&gt; 64 mappings, fuzzy matching)</li> <li>Clean + canonicalize job titles</li> <li>Normalize organization names (strip civic prefixes)</li> <li>Batch processing (bulk()) and record comparison (compare())</li> </ul> <h1>Example</h1> <pre><code>from humanmint import mint result = mint( name=&quot;Dr. John Smith, PhD&quot;, email=&quot;JOHN.SMITH@CITY.GOV&quot;, phone=&quot;(202) 555-0173&quot;, address=&quot;123 Main St, Springfield, IL 62701&quot;, department=&quot;000171 - Public Works 850-123-1234 ext 200&quot;, title=&quot;Chief of Police&quot;, ) print(result.model_dump()) </code></pre> <p>Result (simplified):</p> <ul> <li>name: John Smith</li> <li>email: [<a href=\"mailto:john.smith@city.gov\">john.smith@city.gov</a>](mailto:<a href=\"mailto:john.smith@city.gov\">john.smith@city.gov</a>)</li> <li>phone: +1 202-555-0173</li> <li>department: Public Works</li> <li>title: police chief</li> <li>address: 123 Main Street, Springfield, IL 62701, US</li> <li>organization: None</li> </ul> <h1>Why I built it</h1> <p>I work with thousands of US local-government contacts, and the raw data is wildly inconsistent.</p> <p>I needed a single function that takes whatever garbage comes in and returns something normalized, structured, and predictable.</p> <h1>Features beyond mint()</h1> <ul> <li>bulk(records) for parallel cleaning of large datasets</li> <li>compare(a, b) for similarity scoring</li> <li>A full set of modules if you only want one thing (emails, phones, names, departments, titles, addresses, orgs)</li> <li>Pandas .humanmint.clean accessor</li> <li>CLI: humanmint clean input.csv output.csv</li> </ul> <h1>Install</h1> <pre><code>pip install humanmint </code></pre> <h1>Repo</h1> <p><a href=\"https://github.com/RicardoNunes2000/HumanMint\">https://github.com/RicardoNunes2000/HumanMint</a></p> <p>If anyone wants to try it, break it, suggest improvements, or point out design flaws, I'd love the feedback.</p> <p>The whole goal was to make dealing with messy human data as painless as possible.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AmbitiousTie\"> /u/AmbitiousTie </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p8idyf/humanmint_normalizing_cleaning_government_contact/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p8idyf/humanmint_normalizing_cleaning_government_contact/\">[comments]</a></span>",
+      "author": "/u/AmbitiousTie",
+      "published_date": "2025-11-28T01:30:20+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 347,
+      "reading_time": 1,
+      "created_at": "2025-11-28T04:25:26.525079+00:00",
+      "updated_at": "2025-11-28T04:25:26.525080+00:00"
+    },
+    {
+      "id": "4803cb264ac90a9056c1421da8f5423a",
+      "url": "https://cleantechnica.com/2025/11/26/chinas-bev-trucks-and-the-end-of-diesels-dominance/",
+      "title": "China's BEV Trucks and the End of Diesel's Dominance",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46075305\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-28T03:40:52+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-28T04:25:25.213853+00:00",
+      "updated_at": "2025-11-28T04:25:25.213854+00:00"
+    },
+    {
+      "id": "4803cb264ac90a9056c1421da8f5423a",
+      "url": "https://cleantechnica.com/2025/11/26/chinas-bev-trucks-and-the-end-of-diesels-dominance/",
+      "title": "China's BEV Trucks and the End of Diesel's Dominance",
+      "content": "<p>Article URL: <a href=\"https://cleantechnica.com/2025/11/26/chinas-bev-trucks-and-the-end-of-diesels-dominance/\">https://cleantechnica.com/2025/11/26/chinas-bev-trucks-and-the-end-of-diesels-dominance/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46075305\">https://news.ycombinator.com/item?id=46075305</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "author": "xbmcuser",
+      "published_date": "2025-11-28T03:40:52+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-28T04:25:24.108847+00:00",
+      "updated_at": "2025-11-28T04:25:24.108857+00:00"
+    },
     {
       "id": "d0b1516e9af6f3f984c29a82286c7aff",
       "url": "https://www.theverge.com/tech/827435/uk-vpn-restrictions-ban-online-safety-act",
@@ -303,26 +351,6 @@
       }
     },
     {
-      "id": "cd3e7ef23422094930069d1c01219724",
-      "url": "https://internethandle.org/",
-      "title": "Internet Handle",
-      "content": "<p>Article URL: <a href=\"https://internethandle.org/\">https://internethandle.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46072296\">https://news.ycombinator.com/item?id=46072296</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
-      "author": "ferriswil",
-      "published_date": "2025-11-27T19:07:29+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-27T23:19:25.520934+00:00",
-      "updated_at": "2025-11-28T04:19:19.840025+00:00",
-      "metadata": {
-        "processed_at": "2025-11-28T04:19:19.840027+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "2764cbad943b7b60209505e9f8fa256e",
       "url": "https://www.energy-storage.news/250mwh-sand-battery-to-start-construction-in-finland-for-both-heating-and-ancillary-services/",
       "title": "250MWh 'Sand Battery' to start construction in Finland",
@@ -343,52 +371,24 @@
       }
     },
     {
-      "id": "1d5792e241b605a08ec3af76759a1899",
-      "url": "https://github.com/x011/FileZilla-Pro-Download",
-      "title": "FileZilla Pro \"Perpetual License\" \u2013 A Warning to All Users",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46073279\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-27T21:13:39+00:00",
+      "id": "cd3e7ef23422094930069d1c01219724",
+      "url": "https://internethandle.org/",
+      "title": "Internet Handle",
+      "content": "<p>Article URL: <a href=\"https://internethandle.org/\">https://internethandle.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46072296\">https://news.ycombinator.com/item?id=46072296</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
+      "author": "ferriswil",
+      "published_date": "2025-11-27T19:07:29+00:00",
       "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-27T22:41:26.717440+00:00",
-      "updated_at": "2025-11-27T22:41:26.717441+00:00"
-    },
-    {
-      "id": "1d5792e241b605a08ec3af76759a1899",
-      "url": "https://github.com/x011/FileZilla-Pro-Download",
-      "title": "FileZilla Pro \"Perpetual License\" \u2013 A Warning to All Users",
-      "content": "<p>Article URL: <a href=\"https://github.com/x011/FileZilla-Pro-Download\">https://github.com/x011/FileZilla-Pro-Download</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46073279\">https://news.ycombinator.com/item?id=46073279</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
-      "author": "lobito25",
-      "published_date": "2025-11-27T21:13:39+00:00",
-      "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 13,
       "reading_time": 1,
-      "created_at": "2025-11-27T22:41:25.604487+00:00",
-      "updated_at": "2025-11-27T22:41:25.604499+00:00"
-    },
-    {
-      "id": "311738c957e46b9ae3da13f7923a22f4",
-      "url": "https://ramones.dev/posts/linkedin-is-loud/",
-      "title": "LinkedIn is loud, and corporate is hell",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46072988\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-27T20:30:21+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-27T22:19:30.731116+00:00",
-      "updated_at": "2025-11-27T22:19:30.731118+00:00"
+      "created_at": "2025-11-27T23:19:25.520934+00:00",
+      "updated_at": "2025-11-28T04:19:19.840025+00:00",
+      "metadata": {
+        "processed_at": "2025-11-28T04:19:19.840027+00:00",
+        "processing_method": "github_actions"
+      }
     }
   ]
 }
