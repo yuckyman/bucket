@@ -1,7 +1,123 @@
 {
-  "last_updated": "2025-11-29T12:28:57.054837+00:00",
+  "last_updated": "2025-11-29T12:40:35.714622+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "67feb861f97f71050695efa128f77334",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306452225011261?dgcid=rss_sd_all",
+      "title": "Frequency-dependent modulation of cerebral blood flow and cardiorespiratory function by trigeminal ophthalmic branch (V1) stimulation in rats",
+      "content": "<p>Publication date: 9 January 2026</p><p><b>Source:</b> Neuroscience, Volume 592</p><p>Author(s): Yasuko Fukushi, Hidenori Mimura, Masakazu Kimura, Seiji Yamamoto</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroscience Journal",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 16,
+      "reading_time": 1,
+      "created_at": "2025-11-29T12:40:08.471054+00:00",
+      "updated_at": "2025-11-29T12:40:08.471056+00:00"
+    },
+    {
+      "id": "8acc8036f0b8d16e8f6a4f5a4e3ad9cb",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306452225011352?dgcid=rss_sd_all",
+      "title": "Modeling oxidative stress on neuronal dendrites and dendritic spines",
+      "content": "<p>Publication date: 9 January 2026</p><p><b>Source:</b> Neuroscience, Volume 592</p><p>Author(s): Andreas P. Katsenos, Efstathia Kotoula, Stavroula Sereti, Dioni Zoidi, Nikolaos P. Tzavellas, Alexandra Polyzou, George Leondaritis, Foivos S. Kanellos, Sofia Bellou, Stefanos Bellos, Yannis V. Simos, Lampros Lakkas, Georgios Markopoulos, Spyridon Konitsiotis, Dimitrios Peschos, Konstantinos I. Tsamis</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroscience Journal",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 45,
+      "reading_time": 1,
+      "created_at": "2025-11-29T12:40:08.471024+00:00",
+      "updated_at": "2025-11-29T12:40:08.471035+00:00"
+    },
+    {
+      "id": "d3f080ca4210a39abeed6b1250bd869e",
+      "url": "https://www.reddit.com/r/Python/comments/1p9mvhd/p_built_a_python_sdk_for_commodity_price_data/",
+      "title": "[P] Built a Python SDK for commodity price data - handling retries, rate limits, and async properly",
+      "content": "<!-- SC_OFF --><div class=\"md\"><pre><code>```markdown Hi ! I've built a Python SDK for commodity price data after dealing with API integration headaches in production. Sharing what I learned about building resilient API clients. ## Quick Start ```bash pip install oilpriceapi export OILPRICEAPI_KEY=&quot;your_key&quot; python -c &quot;from oilpriceapi import OilPriceAPI; print(OilPriceAPI().prices.get('BRENT_CRUDE_USD').value)&quot; ``` ## What My Project Does Fetches real-time and historical oil &amp; commodity prices with comprehensive retry handling, rate limiting, and connection pooling. Handles the boring-but-critical stuff like exponential backoff with jitter, connection limits, and error handling. **Sync example:** ```python from oilpriceapi import OilPriceAPI client = OilPriceAPI( api_key=&quot;your_key&quot;, # or reads from OILPRICEAPI_KEY env var timeout=5.0, max_retries=3 ) try: price = client.prices.get(&quot;BRENT_CRUDE_USD&quot;) print(f&quot;Current price: ${price.value}&quot;) except RateLimitError as e: print(f&quot;Rate limited. Retry after {e.reset_time}&quot;) except TimeoutError: # Automatically retried 3x with exponential backoff + jitter print(&quot;API timeout after retries&quot;) ``` **Async example:** ```python import asyncio from oilpriceapi import AsyncOilPriceAPI async def get_prices(): async with AsyncOilPriceAPI() as client: # Fetch multiple commodities concurrently prices = await asyncio.gather( client.prices.get(&quot;BRENT_CRUDE_USD&quot;), client.prices.get(&quot;WTI_USD&quot;), client.prices.get(&quot;NATURAL_GAS_USD&quot;) ) for price in prices: print(f&quot;{price.commodity}: ${price.value}&quot;) asyncio.run(get_prices()) ``` **What happens when things break:** - Rate limited? Returns `RateLimitError` with reset time - Network timeout? Retries with exponential backoff + jitter (prevents thundering herd) - Server error 500? Retries on [500, 502, 503, 504] automatically - Bad API key? Clear `AuthenticationError` with helpful message ## Target Audience Production systems that need reliable commodity price data: - Energy systems - Risk management platforms - Financial analysis pipelines - Market research tools Comprehensive error handling, connection pooling, and retry logic that won't DDoS your API during an outage. **Steady growth:** 256+ PyPI downloads since September launch, 4 active users making API requests daily. Most popular feature: historical price data (`past_year` endpoint). Looking for feedback on what to improve. ## Comparison **vs. Manual requests library:** You'll spend days building retry logic, connection pooling, and rate limit handling. Then debug why your retries cause request storms. I did that already, so you don't have to. **vs. pandas-datareader:** - Async/await support (datareader is synchronous only) - Active maintenance (datareader's commodity data is flaky) - Built-in retry with jitter - Type hints throughout **vs. yfinance:** - Direct spot prices (not ETF proxies) - Better for energy market analysis where you need actual delivery prices - Focused on commodities rather than stocks ## Technical Details **Retry Strategy:** - Exponential backoff: 1s, 2s, 4s, 8s... (capped at 60s) - With jitter: adds 0-30% randomization to prevent synchronized retries - Configurable: customize retry codes, max attempts, backoff **Connection Pooling (Async):** - Max 100 concurrent connections (prevents resource exhaustion) - 20 keepalive connections (improves performance) - Context managers for proper cleanup **Error Handling:** 8 specific exception types (not generic `Exception`): - `AuthenticationError` (401) - `RateLimitError` (429) - includes reset time - `DataNotFoundError` (404) - `ValidationError` (422) - `ServerError` (5xx) - `TimeoutError` - after all retries - `ConfigurationError` - setup issues - `OilPriceAPIError` - base class **Type Safety:** - Full type hints (mypy --strict compatible) - Pydantic models for responses - No `Any` types in public API ## What I Learned Building This **Mistake 1: Naive exponential backoff without jitter** - **Problem:** All clients retry at same time after outage \u2192 thundering herd - **Fix:** Add 0-30% random jitter to backoff timing **Mistake 2: No connection pooling limits** - **Problem:** Under load, spawns unlimited connections \u2192 OOM - **Fix:** Configure httpx.Limits (max 100 concurrent, 20 keepalive) **Mistake 3: Generic exceptions** - **Problem:** Callers can't handle different failures appropriately - **Fix:** Specific exceptions with relevant context (reset_time, status_code, etc.) ## Roadmap Currently working on: - [ ] Response caching with fallback (use stale cache when API is down) - [ ] Circuit breaker pattern (fail fast during outages) - [ ] Improving test coverage (current: ~65%, target: 85%+) Future: - [ ] Client-side data validation - [ ] OpenTelemetry integration **What should I prioritize?** Caching or circuit breaker? Open to feedback on what would be most useful. **Contributions welcome!** These are good first issues if you want to contribute. ## Links - **PyPI:** https://pypi.org/project/oilpriceapi/ - **GitHub:** https://github.com/OilpriceAPI/oilpriceapi-python - **Docs:** https://www.oilpriceapi.com/docs/python - **Free widgets:** https://oilpriceapi.com/widgets (if you just need front-end displays) ## Free Tier Reality Check 1,000 requests/month = 33/day. Good for: - \u2705 Daily end-of-day batch jobs - \u2705 Polling 1 commodity every 30 minutes - \u2705 Development and testing workflows - \u274c Real-time tick data (need paid plan for that) Happy to answer questions about implementation, especially around retry strategies and error handling patterns! ``` </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/karlwaldman\"> /u/karlwaldman </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p9mvhd/p_built_a_python_sdk_for_commodity_price_data/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p9mvhd/p_built_a_python_sdk_for_commodity_price_data/\">[comments]</a></span>",
+      "author": "/u/karlwaldman",
+      "published_date": "2025-11-29T11:37:05+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 760,
+      "reading_time": 3,
+      "created_at": "2025-11-29T12:39:25.086350+00:00",
+      "updated_at": "2025-11-29T12:39:25.086352+00:00"
+    },
+    {
+      "id": "df129aa1e350ee253defb389880e2cbb",
+      "url": "https://scienceclock.com/exercise-may-protect-less-when-air-pollution-is-high-study-finds/",
+      "title": "High Air Pollution Could Diminish Exercise Benefits by 50%, Study Finds",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46086624\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-29T10:54:16+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-29T12:39:23.766767+00:00",
+      "updated_at": "2025-11-29T12:39:23.766772+00:00"
+    },
+    {
+      "id": "df129aa1e350ee253defb389880e2cbb",
+      "url": "https://scienceclock.com/exercise-may-protect-less-when-air-pollution-is-high-study-finds/",
+      "title": "High Air Pollution Could Diminish Exercise Benefits by 50%, Study Finds",
+      "content": "<p>Article URL: <a href=\"https://scienceclock.com/exercise-may-protect-less-when-air-pollution-is-high-study-finds/\">https://scienceclock.com/exercise-may-protect-less-when-air-pollution-is-high-study-finds/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46086624\">https://news.ycombinator.com/item?id=46086624</a></p>\n<p>Points: 35</p>\n<p># Comments: 2</p>",
+      "author": "ashishgupta2209",
+      "published_date": "2025-11-29T10:54:16+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-29T12:39:22.557876+00:00",
+      "updated_at": "2025-11-29T12:39:22.557878+00:00"
+    },
+    {
+      "id": "8b46b60431c30862b3a88d0d658c51e9",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/",
+      "title": "Leak confirms OpenAI is preparing ads on ChatGPT for public roll out",
+      "content": "<p>Article URL: <a href=\"https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/\">https://www.bleepingcomputer.com/news/artificial-intelligence/leak-confirms-openai-is-preparing-ads-on-chatgpt-for-public-roll-out/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46086771\">https://news.ycombinator.com/item?id=46086771</a></p>\n<p>Points: 16</p>\n<p># Comments: 8</p>",
+      "author": "fleahunter",
+      "published_date": "2025-11-29T11:31:58+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-29T12:39:22.557828+00:00",
+      "updated_at": "2025-11-29T12:39:22.557838+00:00"
+    },
+    {
+      "id": "8a24d1dcc137cd0103be6287a2ddab1c",
+      "url": "https://old.reddit.com/r/europe/comments/1p9kxhm/belgian_federal_police_forgot_to_turn_their_vpn/",
+      "title": "Belgian Police exposed using botnets to manipulate EU data law impact assessment",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46086681\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-29T11:10:39+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-29T11:37:57.983778+00:00",
+      "updated_at": "2025-11-29T12:28:56.962508+00:00",
+      "metadata": {
+        "processed_at": "2025-11-29T12:28:56.962520+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "8a24d1dcc137cd0103be6287a2ddab1c",
       "url": "https://old.reddit.com/r/europe/comments/1p9kxhm/belgian_federal_police_forgot_to_turn_their_vpn/",
@@ -39,26 +155,6 @@
       "updated_at": "2025-11-29T12:28:56.962523+00:00",
       "metadata": {
         "processed_at": "2025-11-29T12:28:56.962525+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8a24d1dcc137cd0103be6287a2ddab1c",
-      "url": "https://old.reddit.com/r/europe/comments/1p9kxhm/belgian_federal_police_forgot_to_turn_their_vpn/",
-      "title": "Belgian Police exposed using botnets to manipulate EU data law impact assessment",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46086681\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-29T11:10:39+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-29T11:37:57.983778+00:00",
-      "updated_at": "2025-11-29T12:28:56.962508+00:00",
-      "metadata": {
-        "processed_at": "2025-11-29T12:28:56.962520+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -265,122 +361,6 @@
         "processed_at": "2025-11-29T10:15:15.004698+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "69f26d92b3147793f8ac2e30f62d3cfe",
-      "url": "https://worksinprogress.co/issue/the-great-downzoning/",
-      "title": "The Great Downzoning",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46085276\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-29T05:00:27+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-29T07:38:19.844280+00:00",
-      "updated_at": "2025-11-29T08:19:38.129793+00:00",
-      "metadata": {
-        "processed_at": "2025-11-29T08:19:38.129803+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "69f26d92b3147793f8ac2e30f62d3cfe",
-      "url": "https://worksinprogress.co/issue/the-great-downzoning/",
-      "title": "The Great Downzoning",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46085276\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-29T05:00:27+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-29T07:38:19.844280+00:00",
-      "updated_at": "2025-11-29T08:19:38.129793+00:00",
-      "metadata": {
-        "processed_at": "2025-11-29T08:19:38.129803+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c8e8a65af07a8b6becc43b6aade3cdaf",
-      "url": "https://www.zdnet.com/article/the-weirdest-tool-i-own-is-also-one-of-the-most-useful-and-its-14-on-amazon/",
-      "title": "The weirdest tool I own is also one of the most useful",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46063955\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-27T00:25:53+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-29T07:19:00.407655+00:00",
-      "updated_at": "2025-11-29T08:19:38.129811+00:00",
-      "metadata": {
-        "processed_at": "2025-11-29T08:19:38.129813+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "11cc8faeabf78661b6d2a828d06d60ac",
-      "url": "https://www.nature.com/articles/s41380-025-03306-4",
-      "title": "Mapping the path to recovery: the intersection of cortical thickness reductions and serotonin transporter expression in anorexia nervosa",
-      "content": "",
-      "author": "",
-      "published_date": "2025-11-29T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-11-29T06:52:51.180225+00:00",
-      "updated_at": "2025-11-29T08:19:38.129816+00:00",
-      "metadata": {
-        "processed_at": "2025-11-29T08:19:38.129817+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5ff6874a52cc6fbff1cae19e21abc90a",
-      "url": "https://www.nature.com/articles/s41398-025-03771-z",
-      "title": "Neuroprotective effects of hyperbaric oxygen therapy on vascular cognitive impairment in hypoperfused mice via miR-137-3p/TRAF3 pathway",
-      "content": "",
-      "author": "",
-      "published_date": "2025-11-29T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-11-29T06:52:51.180149+00:00",
-      "updated_at": "2025-11-29T08:19:38.129819+00:00",
-      "metadata": {
-        "processed_at": "2025-11-29T08:19:38.129821+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fa74edb6c7dbdeb8a7cb4719d4fc39fc",
-      "url": "https://support.neatorobotics.com/support/solutions/articles/204000073686-announcement-6th-oct-2025",
-      "title": "Neato vacuum robots to stop working",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46084937\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-29T03:21:47+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-29T06:52:14.904542+00:00",
-      "updated_at": "2025-11-29T06:52:14.904543+00:00"
     }
   ]
 }
