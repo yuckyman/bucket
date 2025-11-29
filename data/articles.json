@@ -1,5 +1,85 @@
 [
   {
+    "id": "1d8d5e8cf0c2514bbeb45a8e0b9c28f5",
+    "url": "http://ieeexplore.ieee.org/document/10856220",
+    "title": "Editorial: Harnessing Reviews to Advance Biomedical Engineering's New Horizons",
+    "content": "null",
+    "author": "",
+    "published_date": "2025-01-28T13:17:19+00:00",
+    "source": "Reviews Biomedical Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 1,
+    "reading_time": 1,
+    "created_at": "2025-11-29T03:13:11.477812+00:00",
+    "updated_at": "2025-11-29T03:13:11.477814+00:00"
+  },
+  {
+    "id": "6071ce99ab68021ed48d4600bdeec843",
+    "url": "http://ieeexplore.ieee.org/document/10856214",
+    "title": "Table of Contents",
+    "content": "null",
+    "author": "",
+    "published_date": "2025-01-28T13:17:19+00:00",
+    "source": "Reviews Biomedical Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 1,
+    "reading_time": 1,
+    "created_at": "2025-11-29T03:13:11.477793+00:00",
+    "updated_at": "2025-11-29T03:13:11.477795+00:00"
+  },
+  {
+    "id": "f18dbf7099a24df1b7e9875d0258e8eb",
+    "url": "http://ieeexplore.ieee.org/document/10856213",
+    "title": "IEEE Engineering in Medicine and Biology Society",
+    "content": "null",
+    "author": "",
+    "published_date": "2025-01-28T13:17:20+00:00",
+    "source": "Reviews Biomedical Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 1,
+    "reading_time": 1,
+    "created_at": "2025-11-29T03:13:11.477773+00:00",
+    "updated_at": "2025-11-29T03:13:11.477775+00:00"
+  },
+  {
+    "id": "161659b46df8b6f5ec47c6ad01654555",
+    "url": "https://www.reddit.com/r/Python/comments/1p8tf8e/the_pocket_computer_0375c_battery_accuracy_across/",
+    "title": "The Pocket Computer: 0.375\u00b0C Battery Accuracy Across 19 Hours of Cold, Heat, and Stress",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>EDIT: THE FINAL VERSION</p> <p>I got my thermal accuracy down to 0.375\u00b0C, across testing in 5\u00b0C ambient with 5\u00b0C battery and components, to max load stress test with 95\u00b0C components and 42\u00b0C battery with thermal shutdown. Kept 0.375\u00b0C accuracy the whole time across almost 20 hours of data. </p> <p>I tried 7 hours of sustained operation. Then 1 hour of outside time in 5\u00b0C Wisconsin winter weather. Then into a car with the heat on max. Then into a max load stress test for 10 minutes taking the battery from 5\u00b0C to thermal shutdown at 42\u00b0C. Then launch of a guide with my Discord bot causing heavy use of my code for 9 hours, while fast charging my phone for an hour and rendering 60 frame animations in real time, custom for individual Discord commands. </p> <p>Sub 0.5\u00b0C battery accuracy the WHOLE TIME. </p> <p>```</p> <h1>S25+ Thermal Validation</h1> <p>457k predictions | 18.7 hrs | 2-95\u00b0C</p> <p>BATTERY (Samsung throttles at 42\u00b0C): MAE: 0.375\u00b0C Median: 0.200\u00b0C &lt;1\u00b0C: 91.5%</p> <p>OVERALL (steady-state): MAE: 1.22\u00b0C Bias: -0.016\u00b0C &lt;1\u00b0C: 73.0% &lt;2\u00b0C: 86.4%</p> <p>NORMAL OPERATION: MAE: 0.76\u00b0C &lt;1\u00b0C: 77.7% P50: 0.33\u00b0C</p> <p>PER-ZONE: BATTERY 0.38\u00b0C 2-39\u00b0C CHASSIS 1.00\u00b0C 4-53\u00b0C MODEM 1.54\u00b0C 5-65\u00b0C GPU 1.55\u00b0C 5-64\u00b0C CPU_BIG 1.86\u00b0C 4-82\u00b0C CPU_LITTLE 2.35\u00b0C 5-95\u00b0C</p> <p>VS PUBLISHED SYSTEMS: This 0.375\u00b0C production PINN+LSTM 0.29\u00b0C lab FCN-GBM 0.46\u00b0C lab RNN 0.15\u00b0C lab</p> <p>They interpolate lab data. This extrapolates in production. No ML. Just physics. ```</p> <p>I don't know about everyone else, but I didn't want to pay for a server, and didn't want to host one on my computer. I have a flagship phone; an S25+ with Snapdragon 8 and 12 GB RAM. It's ridiculous. I wanted to run intense computational coding on my phone, and didn't have a solution to keep my phone from overheating. So. I built one. This is non-rooted using sys-reads and Termux (found on F-Droid for sensor access) and Termux API (found on F-Droid), so you can keep your warranty. \ud83d\udd25</p> <p>What my project does: Monitors core temperatures using sys reads and Termux API. It models thermal activity using Newton's Law of Cooling to predict thermal events before they happen and prevent Samsung's aggressive performance throttling at 42\u00b0 C. </p> <p>Target audience: Developers who want to run an intensive server on an S25+ without rooting or melting their phone. </p> <p>Comparison: I haven't seen other predictive thermal modeling used on a phone before. The hardware is concrete and physics can be very good at modeling phone behavior in relation to workload patterns. Samsung itself uses a reactive and throttling system rather than predicting thermal events. Heat is continuous and temperature isn't an isolated event. </p> <p>I didn't want to pay for a server, and I was also interested in the idea of mobile computing. As my workload increased, I noticed my phone would have temperature problems and performance would degrade quickly. I studied physics and realized that the cores in my phone and the hardware components were perfect candidates for modeling with physics. By using a &quot;thermal tank&quot; where you know how much heat is going to be generated by various workloads through machine learning, you can predict thermal events before they happen and defer operations so that the 42\u00b0 C thermal throttle limit is never reached. At this limit, Samsung aggressively throttles performance by about 50%, which can cause performance problems, which can generate more heat, and the spiral can get out of hand quickly. </p> <p>My solution is simple: never reach 42\u00b0 C</p> <p><a href=\"https://github.com/DaSettingsPNGN/S25_THERMAL\">https://github.com/DaSettingsPNGN/S25_THERMAL</a></p> <p>Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DaSettingsPNGN\"> /u/DaSettingsPNGN </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p8tf8e/the_pocket_computer_0375c_battery_accuracy_across/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p8tf8e/the_pocket_computer_0375c_battery_accuracy_across/\">[comments]</a></span>",
+    "author": "/u/DaSettingsPNGN",
+    "published_date": "2025-11-28T12:16:57+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 601,
+    "reading_time": 3,
+    "created_at": "2025-11-29T03:12:16.710614+00:00",
+    "updated_at": "2025-11-29T03:12:16.710616+00:00"
+  },
+  {
+    "id": "fa47920da06c11f3f41257899e63773d",
+    "url": "https://www.dolthub.com/blog/2025-11-13-electron-vs-tauri/",
+    "title": "Electron vs. Tauri",
+    "content": "<p>Article URL: <a href=\"https://www.dolthub.com/blog/2025-11-13-electron-vs-tauri/\">https://www.dolthub.com/blog/2025-11-13-electron-vs-tauri/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46082291\">https://news.ycombinator.com/item?id=46082291</a></p>\n<p>Points: 29</p>\n<p># Comments: 12</p>",
+    "author": "birdculture",
+    "published_date": "2025-11-28T20:06:30+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-11-29T03:12:14.272767+00:00",
+    "updated_at": "2025-11-29T03:12:14.272769+00:00"
+  },
+  {
     "id": "b11c89d48885ed5e5183af0dbdc1acec",
     "url": "https://www.reddit.com/r/Python/comments/1p9a5ab/saturday_daily_thread_resource_request_and/",
     "title": "Saturday Daily Thread: Resource Request and Sharing! Daily Thread",
@@ -40,46 +120,6 @@
     }
   },
   {
-    "id": "c90eeaca2589a9004929d46cf8b526e9",
-    "url": "https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/",
-    "title": "A triangle whose interior angles sum to zero",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46084122\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-29T00:26:42+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-29T01:38:28.177175+00:00",
-    "updated_at": "2025-11-29T03:07:55.983286+00:00",
-    "metadata": {
-      "processed_at": "2025-11-29T03:07:55.983287+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "68dbc243a912b7fa1ed50078d6374b26",
-    "url": "https://github.com/Fabric-Project/Fabric",
-    "title": "Fabric Project",
-    "content": "<p>Article URL: <a href=\"https://github.com/Fabric-Project/Fabric\">https://github.com/Fabric-Project/Fabric</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46083375\">https://news.ycombinator.com/item?id=46083375</a></p>\n<p>Points: 21</p>\n<p># Comments: 0</p>",
-    "author": "brcmthrowaway",
-    "published_date": "2025-11-28T22:32:03+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-11-29T01:38:27.070830+00:00",
-    "updated_at": "2025-11-29T03:07:55.983289+00:00",
-    "metadata": {
-      "processed_at": "2025-11-29T03:07:55.983291+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
     "id": "052e860942b6dd04e5b3ce1b562e0745",
     "url": "https://thereader.mitpress.mit.edu/the-fatal-trap-ubi-boosters-keep-falling-into/",
     "title": "The Fatal Trap UBI Boosters Keep Falling Into",
@@ -116,6 +156,46 @@
     "updated_at": "2025-11-29T03:07:55.983286+00:00",
     "metadata": {
       "processed_at": "2025-11-29T03:07:55.983287+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "c90eeaca2589a9004929d46cf8b526e9",
+    "url": "https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/",
+    "title": "A triangle whose interior angles sum to zero",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46084122\">Comments</a>",
+    "author": "",
+    "published_date": "2025-11-29T00:26:42+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-11-29T01:38:28.177175+00:00",
+    "updated_at": "2025-11-29T03:07:55.983286+00:00",
+    "metadata": {
+      "processed_at": "2025-11-29T03:07:55.983287+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "68dbc243a912b7fa1ed50078d6374b26",
+    "url": "https://github.com/Fabric-Project/Fabric",
+    "title": "Fabric Project",
+    "content": "<p>Article URL: <a href=\"https://github.com/Fabric-Project/Fabric\">https://github.com/Fabric-Project/Fabric</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46083375\">https://news.ycombinator.com/item?id=46083375</a></p>\n<p>Points: 21</p>\n<p># Comments: 0</p>",
+    "author": "brcmthrowaway",
+    "published_date": "2025-11-28T22:32:03+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-11-29T01:38:27.070830+00:00",
+    "updated_at": "2025-11-29T03:07:55.983289+00:00",
+    "metadata": {
+      "processed_at": "2025-11-29T03:07:55.983291+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -17062,93 +17142,5 @@
     "reading_time": 1,
     "created_at": "2025-11-24T16:24:04.293022+00:00",
     "updated_at": "2025-11-24T16:24:04.293024+00:00"
-  },
-  {
-    "id": "ded28a03c7a8d426ef1c09ca0255c2e0",
-    "url": "https://blog.cuongle.dev/p/inside-rusts-std-and-parking-lot-mutexes-who-win",
-    "title": "Inside Rust's std and parking_lot mutexes \u2013 who wins?",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=45989284\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-20T05:32:13+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-24T16:24:04.292942+00:00",
-    "updated_at": "2025-11-24T16:24:04.292944+00:00"
-  },
-  {
-    "id": "0e473f141d3fd9f666a5ba5514ff09be",
-    "url": "https://www.aikido.dev/blog/shai-hulud-strikes-again-hitting-zapier-ensdomains",
-    "title": "SHA1-Hulud the Second Comming \u2013 Postman, Zapier, PostHog All Compromised via NPM",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46035533\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-24T16:03:36+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-24T16:24:04.292884+00:00",
-    "updated_at": "2025-11-24T16:24:04.292886+00:00"
-  },
-  {
-    "id": "fcb274cdfd832e8ddb618dce2adbfe67",
-    "url": "https://weaponizedspaces.substack.com/p/x-just-accidentally-exposed-a-vast",
-    "title": "X Just Accidentally Exposed a Covert Influence Network Targeting Americans",
-    "content": "<p>Article URL: <a href=\"https://weaponizedspaces.substack.com/p/x-just-accidentally-exposed-a-vast\">https://weaponizedspaces.substack.com/p/x-just-accidentally-exposed-a-vast</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46035574\">https://news.ycombinator.com/item?id=46035574</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
-    "author": "adriand",
-    "published_date": "2025-11-24T16:07:40+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-11-24T16:24:03.172456+00:00",
-    "updated_at": "2025-11-24T16:24:03.172465+00:00"
-  },
-  {
-    "id": "0a2ae1e09d8a4b8e76f2ba75877ff0b9",
-    "url": "http://ieeexplore.ieee.org/document/10787078",
-    "title": "Advancing Cardiac Organoid Engineering Through Application of Biophysical Forces",
-    "content": "Cardiac organoids represent an important bioengineering opportunity in the development of models to study human heart pathophysiology. By incorporating multiple cardiac cell types in three-dimensional culture and developmentally-guided biochemical signaling, cardiac organoids recapitulate numerous features of heart tissue. However, cardiac tissue also experiences a variety of mechanical forces as the heart develops and over the course of each contraction cycle. It is now clear that these forces impact cellular specification, phenotype, and function, and should be incorporated into the engineering of cardiac organoids in order to generate better models. In this review, we discuss strategies for engineering cardiac organoids and report the effects of organoid design on the function of cardiac cells. We then discuss the mechanical environment of the heart, including forces arising from tissue elasticity, contraction, blood flow, and stretch, and report on efforts to mimic these biophysical cues in cardiac organoids. Finally, we review emerging areas of cardiac organoid research, for the study of cardiac development, the formation of multi-organ models, and the simulation of the effects of spaceflight on cardiac tissue, and consider how these investigations might benefit from the inclusion of mechanical cues.",
-    "author": "",
-    "published_date": "2024-12-09T13:19:23+00:00",
-    "source": "Reviews Biomedical Engineering",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 188,
-    "reading_time": 1,
-    "created_at": "2025-11-24T15:46:04.037942+00:00",
-    "updated_at": "2025-11-24T16:17:43.934092+00:00",
-    "metadata": {
-      "processed_at": "2025-11-24T16:17:43.934102+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "483769689d304d6940ab358e0b085a8c",
-    "url": "http://ieeexplore.ieee.org/document/10771694",
-    "title": "Earable Multimodal Sensing and Stimulation: A Prospective Toward Unobtrusive Closed-Loop Biofeedback",
-    "content": "The human ear has emerged as a bidirectional gateway to the brain's and body's signals. Recent advances in around-the-ear and in-ear sensors have enabled the assessment of biomarkers and physiomarkers derived from brain and cardiac activity using ear-electroencephalography (ear-EEG), photoplethysmography (ear-PPG), and chemical sensing of analytes from the ear, with ear-EEG having been taken beyond-the-lab to outer space. Parallel advances in non-invasive and minimally invasive brain stimulation techniques have leveraged the ear's access to two cranial nerves to modulate brain and body activity. The vestibulocochlear nerve stimulates the auditory cortex and limbic system with sound, while the auricular branch of the vagus nerve indirectly but significantly couples to the autonomic nervous system and cardiac output. Acoustic and current mode stimuli delivered using discreet and unobtrusive earables are an active area of research, aiming to make biofeedback and bioelectronic medicine deliverable outside of the clinic, with remote and continuous monitoring of therapeutic responsivity and long-term adaptation. Leveraging recent advances in ear-EEG, transcutaneous auricular vagus nerve stimulation (taVNS), and unobtrusive acoustic stimulation, we review accumulating evidence that combines their potential into an integrated earable platform for closed-loop multimodal sensing and neuromodulation, towards personalized and holistic therapies that are near, in- and around-the-ear.",
-    "author": "",
-    "published_date": "2024-11-29T13:16:54+00:00",
-    "source": "Reviews Biomedical Engineering",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 200,
-    "reading_time": 1,
-    "created_at": "2025-11-24T15:46:04.037907+00:00",
-    "updated_at": "2025-11-24T16:17:43.934106+00:00",
-    "metadata": {
-      "processed_at": "2025-11-24T16:17:43.934108+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]
