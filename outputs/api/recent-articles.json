@@ -1,7 +1,71 @@
 {
-  "last_updated": "2025-11-29T21:19:31.200416+00:00",
+  "last_updated": "2025-11-29T21:39:22.507719+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d7067d150b0a12a646689d485a64be92",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1700481",
+      "title": "Information-theoretic gradient flows in mouse visual cortex",
+      "content": "IntroductionNeural activity can be described in terms of probability distributions that are continuously evolving in time. Characterizing how these distributions are reshaped as they pass between cortical regions is key to understanding how information is organized in the brain.MethodsWe developed a mathematical framework that represents these transformations as information-theoretic gradient flows \u2014 dynamical trajectories that follow the steepest ascent of entropy and expectation. The relative strengths of these two functionals provide interpretable measures of how neural probability distributions change as they propagate within neural systems. Following construct validation in silico, we applied the framework to publicly available continuous \u0394F/F two-photon calcium recordings from the mouse visual cortex.ResultsThe analysis revealed consistent bi-directional transformations between the rostrolateral area and the primary visual cortex across all five mice. These findings demonstrate that the relative contributions of entropy and expectation can be disambiguated and used to describe information flow within cortical networks.DiscussionWe introduce a framework for decomposing neural signal transformations into interpretable information-theoretic components. Beyond the mouse visual cortex, the method can be applied to diverse neuroimaging modalities and scales, thereby providing a generalizable approach for quantifying how information geometry shapes cortical communication.",
+      "author": "Milan Br\u00e1zdil",
+      "published_date": "2025-10-30T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 189,
+      "reading_time": 1,
+      "created_at": "2025-11-29T21:38:43.482978+00:00",
+      "updated_at": "2025-11-29T21:38:43.482980+00:00"
+    },
+    {
+      "id": "8ac4ca7e90c98610c8ea9d4118399440",
+      "url": "https://github.com/7mind/baboon",
+      "title": "Baboon: Data Modeling with Automatic Evolutions and tagless binary codecs",
+      "content": "<p>Article URL: <a href=\"https://github.com/7mind/baboon\">https://github.com/7mind/baboon</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46090372\">https://news.ycombinator.com/item?id=46090372</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "pshirshov",
+      "published_date": "2025-11-29T20:12:37+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-29T21:38:09.075215+00:00",
+      "updated_at": "2025-11-29T21:38:09.075217+00:00"
+    },
+    {
+      "id": "2554d03124d8f057b63b839cac889895",
+      "url": "https://www.youtube.com/watch?v=fhOHn9TClXY",
+      "title": "Joe Armstrong interviews Alan Kay (2016) [video]",
+      "content": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=fhOHn9TClXY\">https://www.youtube.com/watch?v=fhOHn9TClXY</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46090574\">https://news.ycombinator.com/item?id=46090574</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
+      "author": "kerim-ca",
+      "published_date": "2025-11-29T20:37:59+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-29T21:38:09.075175+00:00",
+      "updated_at": "2025-11-29T21:38:09.075177+00:00"
+    },
+    {
+      "id": "2425d128b15df79054d1ec23cb2a5844",
+      "url": "https://unherd.com/2025/11/europes-new-war-on-privacy/",
+      "title": "Europe's New War on Privacy",
+      "content": "<p>Article URL: <a href=\"https://unherd.com/2025/11/europes-new-war-on-privacy/\">https://unherd.com/2025/11/europes-new-war-on-privacy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46090794\">https://news.ycombinator.com/item?id=46090794</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
+      "author": "joecobb",
+      "published_date": "2025-11-29T21:10:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-29T21:38:09.075104+00:00",
+      "updated_at": "2025-11-29T21:38:09.075113+00:00"
+    },
     {
       "id": "51842fa0b0117cf8e19e453dc648147f",
       "url": "https://posthog.com/blog/nov-24-shai-hulud-attack-post-mortem",
@@ -257,82 +321,6 @@
       "reading_time": 1,
       "created_at": "2025-11-29T20:22:20.556449+00:00",
       "updated_at": "2025-11-29T20:22:20.556451+00:00"
-    },
-    {
-      "id": "5f6bbd2ff51987f49635ed4fc78fbd8f",
-      "url": "https://vault.fbi.gov/contract-15f06722c0000258",
-      "title": "FBI RFP for tool to scrape Gab, Parler, 8Kun, and Telegram (5k licenses) [pdf]",
-      "content": "<p>Article URL: <a href=\"https://vault.fbi.gov/contract-15f06722c0000258\">https://vault.fbi.gov/contract-15f06722c0000258</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46090330\">https://news.ycombinator.com/item?id=46090330</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
-      "author": "sans_souse",
-      "published_date": "2025-11-29T20:06:54+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-29T20:22:20.556416+00:00",
-      "updated_at": "2025-11-29T20:22:20.556425+00:00"
-    },
-    {
-      "id": "e69722668e8db4d7d9f6c50df5631d2d",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1646242",
-      "title": "Exploring the link between emotional states and coding task quality: a pilot study",
-      "content": "Emotions play a crucial role in shaping cognitive performance, yet their influence on programing remains understudied. This pilot study investigates the relationship between emotional states and coding task quality. Ten participants completed a programing task while their brain activity was recorded using electroencephalography (EEG), with frontal alpha asymmetry (FAI) applied as a neural marker of emotional valence. Emotional self-reports were collected using the Scale of Positive and Negative Experience (SPANE), and coding quality was evaluated through a structured rubric. Preliminary findings indicate a potential association between FAI and coding performance, whereas self-reported affect showed weaker or inconsistent patterns. Given the small sample size (n = 10), these results should be interpreted as exploratory. Nevertheless, the study demonstrates the feasibility of integrating EEG-based emotional measures into software engineering research and lays the groundwork for larger-scale investigations into how emotions influence coding task quality.",
-      "author": "Yang Shi",
-      "published_date": "2025-11-25T00:00:00+00:00",
-      "source": "Frontiers Human Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 142,
-      "reading_time": 1,
-      "created_at": "2025-11-29T19:38:14.299545+00:00",
-      "updated_at": "2025-11-29T20:16:24.534956+00:00",
-      "metadata": {
-        "processed_at": "2025-11-29T20:16:24.534966+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ef59dd8528eb92e0c4d2ea2de6bbb63b",
-      "url": "http://doi.org/10.1037/bne0000635",
-      "title": "A rational information gathering account of infant habituation.",
-      "content": "Gaze is one of the primary experimental measures for studying cognitive development, especially in preverbal infants. However, the field is only beginning to develop a principled explanatory framework for making sense of the various factors affecting gaze. We approach this issue by addressing infant gaze from first principles, using rational information gathering. In particular, we revisit the influential descriptive account of Hunter and Ames (1988), which posits a set of regularities argued to govern how gaze preference for a stimulus changes with experience and other factors. When the Hunter and Ames\u2019s (1988) model is reconsidered from the perspective of rational information gathering (as recently also proposed by other authors), one feature of the model emerges as surprising: that preference for a stimulus is not monotonic with exposure. This claim, which has at least some empirical support, is in contrast to most statistical measures of informativeness, which strictly decline with experience. We present a normative, computational theory of visual exploration that rationalizes this and other features of the classic account. Our account suggests that Hunter and Ames\u2019s (1988) signature nonmonotonic pattern is a direct manifestation of a ubiquitous principle of the value of information in sequential tasks, other consequences of which have recently been observed in a range of settings including deliberation, exploration, curiosity, and boredom. This is that the value of information gathering, putatively driving gaze, depends on the interplay of a stimulus\u2019 informativeness (called gain, the focus of other rationally motivated accounts) with a second factor (called need) reflecting the estimated chance that information will be used in the future. This computational decomposition draws new connections between infant gaze and other cases of exploration, and offers novel, quantitative interpretations and predictions about the factors that may impact infant exploratory attention. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-11-24T00:00:00+00:00",
-      "source": "Behavioral Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 300,
-      "reading_time": 1,
-      "created_at": "2025-11-29T19:37:50.699530+00:00",
-      "updated_at": "2025-11-29T20:16:24.534970+00:00",
-      "metadata": {
-        "processed_at": "2025-11-29T20:16:24.534972+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5cea6fb6906888ba92d763bdc5984b49",
-      "url": "http://doi.org/10.1037/bne0000636",
-      "title": "Extinction and reinstatement sex-dependently affect freezing behavior, pain perception, locomotion, and rearing behavior in a rat model of posttraumatic stress disorder (PTSD).",
-      "content": "Evidence has shown that sex differences affect the symptoms and the response to treatments in neuropsychiatric disorders, including posttraumatic stress disorder (PTSD). Extinction, as a therapeutic method, and reinstatement, as a method that facilitates shock-related memory retrieval, may also be affected by sex differences; however, evidence is sparse. The present study aimed to explore the potential role of sex differences in the effect of extinction and reinstatement on behavioral functions in a rat model of PTSD. Fear learning was induced by three consecutive footshocks (0.8 mA, 3 s, paired with three sounds) on Day 1. Extinction training (20 sounds without footshock) was done 1 hr and 24 hr after footshocks. Reinstatement was done on Day 3, or 10, or 20, or 30, by placing rat in a new context and delivering one footshock (0.8 mA, 3 s, no sound). Results showed that females were more responsive to extinction due to significant decreases in freezing behavior in comparison with males, while reinstatement had more effect to recall shock-related memory in males. Pain threshold was increased and extinction decreased it in both sexes. Locomotion was decreased in fear conditioning group in both sexes and in PTSD + extinction males, while it was not changed in PTSD + extinction females. Reinstatement on Day 3 decreased locomotion in males. Rearing was decreased and extinction restored it in both sexes. By contrast, reinstatement on Day 3 decreased rearing in males. In conclusion, we suggested that females are more responsive to extinction and less sensitive to reinstatement. On the contrary, males are sensitive to reinstatement. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-10-16T00:00:00+00:00",
-      "source": "Behavioral Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 268,
-      "reading_time": 1,
-      "created_at": "2025-11-29T19:37:50.699482+00:00",
-      "updated_at": "2025-11-29T20:16:24.534974+00:00",
-      "metadata": {
-        "processed_at": "2025-11-29T20:16:24.534976+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
