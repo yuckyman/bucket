@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-29T06:53:23.134068+00:00",
+  "last_updated": "2025-11-29T07:20:07.702343+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "c8e8a65af07a8b6becc43b6aade3cdaf",
+      "url": "https://www.zdnet.com/article/the-weirdest-tool-i-own-is-also-one-of-the-most-useful-and-its-14-on-amazon/",
+      "title": "The weirdest tool I own is also one of the most useful",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46063955\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-27T00:25:53+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-29T07:19:00.407655+00:00",
+      "updated_at": "2025-11-29T07:19:00.407657+00:00"
+    },
     {
       "id": "11cc8faeabf78661b6d2a828d06d60ac",
       "url": "https://www.nature.com/articles/s41380-025-03306-4",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-11-29T04:25:53.772998+00:00",
       "updated_at": "2025-11-29T04:25:53.773003+00:00"
-    },
-    {
-      "id": "fe6374aa7b7f0cbf773649524435a382",
-      "url": "https://www.reddit.com/r/Python/comments/1p9ebul/pypermission_a_python_native_rbac_authorization/",
-      "title": "PyPermission: A Python native RBAC authorization library!",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone at <a href=\"/r/python\">r/python</a>!</p> <p>At our company, we repeatedly needed to integrate authorization into Python projects and found the ecosystem a bit lacking.</p> <h1>Comparison With Other Solutions</h1> <ul> <li>Django's permission system wasn't enough</li> <li>Casbin, Keto and OPA offer flexible solutions, but can be hard to integrate</li> <li>We wanted something Python-native, without a policy DSL and with auditing support</li> </ul> <h1>What My Project Does</h1> <p>Knowing that authorization comes with many pitfalls, we decided to build an RBAC model focussing on an intuitive API and extensive testing. PyPermission is the result and draws on what we learned implementing RBAC across multiple projects (with and without third party solutions).</p> <ul> <li>NIST RBAC Level 2a (supports general role hierarchies)</li> <li>Framework independent, Free and Open Source</li> <li>Additional capabilities from the ANSI RBAC model</li> <li>A simple and tested python API</li> <li>Persistency via PostgreSQL or Sqlite (SQLAlchemy)</li> </ul> <h1>Target Audience</h1> <p>Developers looking for a simple authz solution without enterprise complexities, but a well established RBAC model.</p> <p>The core implementation of the library is feature complete and heavily tested (overall test coverage of 97%) and we desire to have everything battle tested now. This is why we are excited to share our project with you and want to hear your feedback!</p> <ul> <li>Repo: <a href=\"https://github.com/DigonIO/pypermission\">https://github.com/DigonIO/pypermission</a></li> <li>Docs: <a href=\"https://pypermission.digon.io/\">https://pypermission.digon.io/</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sufficient-Rent6078\"> /u/Sufficient-Rent6078 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p9ebul/pypermission_a_python_native_rbac_authorization/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p9ebul/pypermission_a_python_native_rbac_authorization/\">[comments]</a></span>",
-      "author": "/u/Sufficient-Rent6078",
-      "published_date": "2025-11-29T03:21:45+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 233,
-      "reading_time": 1,
-      "created_at": "2025-11-29T04:24:54.654414+00:00",
-      "updated_at": "2025-11-29T04:24:54.654415+00:00"
     }
   ]
 }
