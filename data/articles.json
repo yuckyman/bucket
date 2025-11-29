@@ -1,5 +1,37 @@
 [
   {
+    "id": "3352595883ccb35de24e20a19b774dd2",
+    "url": "https://brain.ieee.org/braininsight-articles/ieee-journal-on-flexible-electronics/",
+    "title": "Call for Papers: IEEE Brain Special Issue",
+    "content": "In a unique interdisciplinary collaboration with the IEEE\u2019s Society on Social Implications of Technology (SSIT) and IEEE Brain, J-FLEX is joining forces to explore both the technology of the Internet-of-Medical-Things (IoMT) solutions and medical wearables/implantables. &#160;",
+    "author": "ieeebrain",
+    "published_date": "2025-03-03T17:16:40+00:00",
+    "source": "Brain",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 36,
+    "reading_time": 1,
+    "created_at": "2025-11-29T04:46:20.138681+00:00",
+    "updated_at": "2025-11-29T04:46:20.138682+00:00"
+  },
+  {
+    "id": "ff040655af5471604bb57478a27a3db3",
+    "url": "https://www.reddit.com/r/Python/comments/1p8qohu/accidentally_built_a_leaky_bucket_instead_of_a/",
+    "title": "accidentally built a leaky bucket instead of a token bucket (my scraper was 10x too slow)",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been working on an integration with a legacy API that is extremely strict about rate limits.</p> <p>I wrote a RateLimiter class to handle the timing precisely using <code>time.monotonic()</code> to avoid drift.</p> <p>Here is the code I was using:</p> <pre><code>import time class StrictLimiter: def __init__(self, rate_limit_per_sec): self.interval = 1.0 / rate_limit_per_sec self.last_check = 0 def wait(self): # The &quot;Clever&quot; Trap: Enforcing strict spacing now = time.monotonic() elapsed = now - self.last_check if elapsed &lt; self.interval: sleep_time = self.interval - elapsed time.sleep(sleep_time) self.last_check = time.monotonic() </code></pre> <p>It looks clean, but the throughput was terrible. The API actually allows bursts (up to 10 requests instantly), as long as the average stays at 1/sec.</p> <p>My code was enforcing a rigid 1-second gap between every single request.</p> <p>I had implemented a smoothing traffic when I needed a token bucket. On a batch of 50 items, my code took 50 seconds. A token bucket takes ~40 seconds because it consumes the first 10 instantly.</p> <p>So, I had to rewrite this to actually bank time when the scraper was idle.</p> <p>I put together a simulation to prove the difference. It mocks an API that allows a burst of 10 but bans you if you exceed the average.</p> <p>The StrictLimiter (above) survives but is too slow.</p> <p>A naive loop gets banned.</p> <p>The TokenBucket hits the sweet spot.</p> <p>If you want to test if your implementation handles the banked time logic correctly without triggering a ban:</p> <p><a href=\"https://tentropy.co/challenge/rate-limit-token-bucket-002\">Challenge</a> (No login required to run the code).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jalilbouziane\"> /u/jalilbouziane </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p8qohu/accidentally_built_a_leaky_bucket_instead_of_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p8qohu/accidentally_built_a_leaky_bucket_instead_of_a/\">[comments]</a></span>",
+    "author": "/u/jalilbouziane",
+    "published_date": "2025-11-28T09:28:15+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 268,
+    "reading_time": 1,
+    "created_at": "2025-11-29T04:45:14.094016+00:00",
+    "updated_at": "2025-11-29T04:45:14.094018+00:00"
+  },
+  {
     "id": "626415b9abcab4a79433d23aa150042f",
     "url": "https://brain.ieee.org/braininsight-articles/ieee-brain-joins-the-american-brain-coalition-as-a-nonprofit-member/",
     "title": "IEEE Brain Joins the American Brain Coalition",
@@ -17124,46 +17156,6 @@
     "updated_at": "2025-11-24T18:23:29.420990+00:00",
     "metadata": {
       "processed_at": "2025-11-24T18:23:29.420992+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "55e2147952c5ea99caaa8b063a79ccea",
-    "url": "https://www.cnn.com/2025/11/24/uk/britain-child-poverty-intl-scli",
-    "title": "Britain is one of the richest countries. So why do children live in poverty?",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46036139\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-24T16:53:11+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-24T17:20:01.020699+00:00",
-    "updated_at": "2025-11-24T18:23:29.421012+00:00",
-    "metadata": {
-      "processed_at": "2025-11-24T18:23:29.421014+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "55e2147952c5ea99caaa8b063a79ccea",
-    "url": "https://www.cnn.com/2025/11/24/uk/britain-child-poverty-intl-scli",
-    "title": "Britain is one of the richest countries. So why do children live in poverty?",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46036139\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-24T16:53:11+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-24T17:20:01.020699+00:00",
-    "updated_at": "2025-11-24T18:23:29.421012+00:00",
-    "metadata": {
-      "processed_at": "2025-11-24T18:23:29.421014+00:00",
       "processing_method": "github_actions"
     }
   }
