@@ -1,5 +1,37 @@
 [
   {
+    "id": "b88f25159099b5609f519269053e2b3d",
+    "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae1f3c",
+    "title": "Single-channel EEG-based sleep stage classification via hybrid data distillation",
+    "content": "Objective. With the advancement of deep learning technologies, more and more researchers have begun developing end-to-end automatic sleep stage classification frameworks. However, these frameworks typically require access to large electroencephalogram (EEG) datasets for training, which imposes a significant computational burden. Furthermore, EEG data contains patient privacy information, and using such data for training raises concerns about privacy infringement. To address these issues, we propose a hybrid data distillation method. We aim to enable single-channel EEG sleep stage classification with less training cost and privacy risk by distilling large real datasets into a tiny, privacy-preserving synthetic set for training from scratch. Approach. We first apply the gradient matching method to optimize the randomly initialized synthetic dataset. The gradient changes in the early stages of model training can quickly reduce the performance gap between the synthetic dataset and the source dataset. Subsequently, to avoid oscillations near the optimal solution during gradient matching, we switch to distribution matching to further optimize the synthetic dataset. This method aligns the data distribution at a global level, enhancing overall consistency. In addition, we adopt a novel mini-batch iteration method to assist the synthetic dataset in learning temporal dependencies. Main results. We validated our framework on three public datasets and achieved robust results. Significance. This study proposes an efficient and robust hybrid data distillation algorithm, providing a feasible approach for implementing sleep stage staging based on privacy protection.",
+    "author": "Hanfei Guo, Junhao Xu, Chang Li, Wei Zhao, Hu Peng, Zhihui Han, Yuanguo Wang and Xun Chen",
+    "published_date": "2025-11-25T00:00:00+00:00",
+    "source": "Journal Neural Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 231,
+    "reading_time": 1,
+    "created_at": "2025-11-30T04:10:48.579172+00:00",
+    "updated_at": "2025-11-30T04:10:48.579174+00:00"
+  },
+  {
+    "id": "27b42cb1d01c6070b893d235e4b483b0",
+    "url": "http://doi.org/10.1037/pmu0000305",
+    "title": "<em>Psychomusicology</em>: A resounding closing cadence.",
+    "content": "From 2012 to 2023, the American Psychological Association served as publisher of <em>Psychomusicology: Music, Mind, and Brain</em>. Annabel Cohen and Mark Schmuckler were the successive editors-in-chiefs during this time. As the journal is ceasing publication, the two editors reflect on the development and progress of the journal in the context of the history of psychology and publication trends. They present their review in 10 short movements each with a unique musical emotional expressivity: <em>overture, amabile, vivace, elegy doloroso, sforzando, capriccio, con brio, pendolo, agilmente,</em> and <em>finale risonante</em>, ending on a very upbeat note! Early on, <em>Psychomusicology</em> offered a much-needed research forum for the psychology of music. More recently, the recognized importance of music psychology to almost all areas of psychology has led to increasing numbers of outlets for publication. During the 12 recent years under APA\u2019s stewardship, the journal more than doubled the number of articles published since the journal\u2019s inception in 1981. The entire corpus of almost 600 articles represents foundational and well-cited contributions to such current research areas as musical expectancy, performance excellence, musical development, neuroscience, emotion, preference, and film music, among others. Cohen and Schmuckler express deep gratitude to the authors, past editorial board members, and reviewers for their contributions to this corpus, and to the American Psychological Association Publications office and staff both for support and, importantly, for holding and making accessible in perpetuity the outstanding scholarship within the archives of <em>Psychomusicology: Music Mind & Brain and Psychomusicology: A Journal of Music Cognition</em>. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
+    "author": "",
+    "published_date": "2024-01-22T00:00:00+00:00",
+    "source": "Psychomusicology",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 256,
+    "reading_time": 1,
+    "created_at": "2025-11-30T04:10:34.210999+00:00",
+    "updated_at": "2025-11-30T04:10:34.211003+00:00"
+  },
+  {
     "id": "7d5d9e7c7af8e653345c045b290aa294",
     "url": "https://www.biorxiv.org/content/10.1101/2025.11.28.688728v1?rss=1",
     "title": "AAV-mediated regeneration of neurons in injury-induced and inherited retinal degeneration",
@@ -17106,41 +17138,5 @@
       "processed_at": "2025-11-25T16:21:02.019569+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "3a9d3cc662d79a6d937b1d5639b4e483",
-    "url": "https://news.ycombinator.com/item?id=46045987",
-    "title": "Launch HN: Onyx (YC W24) \u2013 The open-source chat UI",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46045987\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-25T14:20:30+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-25T15:23:31.401730+00:00",
-    "updated_at": "2025-11-25T16:21:02.019568+00:00",
-    "metadata": {
-      "processed_at": "2025-11-25T16:21:02.019569+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "2e544e82d11b3f5e6813174f0f48268f",
-    "url": "https://www.sciencedirect.com/science/article/pii/S0306452225010632?dgcid=rss_sd_all",
-    "title": "Serum bile acids associated with brain hypometabolism in patients across the Alzheimer\u2019s disease continuum",
-    "content": "<p>Publication date: 15 December 2025</p><p><b>Source:</b> Neuroscience, Volume 591</p><p>Author(s): Ali Shushtari, Kosar Shekari, Sina Rashti Mohammad, Sima Alizadeh, Mohammad Allahverdloo, Mohammad Sadeghi, Zahra Zargari, Vida Honarbakhsh Haghighi, Fatemeh Kadaei, Zohreh Zarif, Fatemeh Salimi Eranji, Farhang Ghahrieh, Mahan Shafie, Mahsa Mayeli, for the Alzheimer\u2019s Disease Neuroimaging Initiative, the Alzheimer\u2019s Disease Metabolomics Consortium</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Neuroscience Journal",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 50,
-    "reading_time": 1,
-    "created_at": "2025-11-25T14:47:19.005699+00:00",
-    "updated_at": "2025-11-25T14:47:19.005700+00:00"
   }
 ]

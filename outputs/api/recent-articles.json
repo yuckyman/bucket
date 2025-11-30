@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-11-30T03:28:52.385398+00:00",
+  "last_updated": "2025-11-30T04:11:35.747037+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "b88f25159099b5609f519269053e2b3d",
+      "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae1f3c",
+      "title": "Single-channel EEG-based sleep stage classification via hybrid data distillation",
+      "content": "Objective. With the advancement of deep learning technologies, more and more researchers have begun developing end-to-end automatic sleep stage classification frameworks. However, these frameworks typically require access to large electroencephalogram (EEG) datasets for training, which imposes a significant computational burden. Furthermore, EEG data contains patient privacy information, and using such data for training raises concerns about privacy infringement. To address these issues, we propose a hybrid data distillation method. We aim to enable single-channel EEG sleep stage classification with less training cost and privacy risk by distilling large real datasets into a tiny, privacy-preserving synthetic set for training from scratch. Approach. We first apply the gradient matching method to optimize the randomly initialized synthetic dataset. The gradient changes in the early stages of model training can quickly reduce the performance gap between the synthetic dataset and the source dataset. Subsequently, to avoid oscillations near the optimal solution during gradient matching, we switch to distribution matching to further optimize the synthetic dataset. This method aligns the data distribution at a global level, enhancing overall consistency. In addition, we adopt a novel mini-batch iteration method to assist the synthetic dataset in learning temporal dependencies. Main results. We validated our framework on three public datasets and achieved robust results. Significance. This study proposes an efficient and robust hybrid data distillation algorithm, providing a feasible approach for implementing sleep stage staging based on privacy protection.",
+      "author": "Hanfei Guo, Junhao Xu, Chang Li, Wei Zhao, Hu Peng, Zhihui Han, Yuanguo Wang and Xun Chen",
+      "published_date": "2025-11-25T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 231,
+      "reading_time": 1,
+      "created_at": "2025-11-30T04:10:48.579172+00:00",
+      "updated_at": "2025-11-30T04:10:48.579174+00:00"
+    },
+    {
+      "id": "27b42cb1d01c6070b893d235e4b483b0",
+      "url": "http://doi.org/10.1037/pmu0000305",
+      "title": "<em>Psychomusicology</em>: A resounding closing cadence.",
+      "content": "From 2012 to 2023, the American Psychological Association served as publisher of <em>Psychomusicology: Music, Mind, and Brain</em>. Annabel Cohen and Mark Schmuckler were the successive editors-in-chiefs during this time. As the journal is ceasing publication, the two editors reflect on the development and progress of the journal in the context of the history of psychology and publication trends. They present their review in 10 short movements each with a unique musical emotional expressivity: <em>overture, amabile, vivace, elegy doloroso, sforzando, capriccio, con brio, pendolo, agilmente,</em> and <em>finale risonante</em>, ending on a very upbeat note! Early on, <em>Psychomusicology</em> offered a much-needed research forum for the psychology of music. More recently, the recognized importance of music psychology to almost all areas of psychology has led to increasing numbers of outlets for publication. During the 12 recent years under APA\u2019s stewardship, the journal more than doubled the number of articles published since the journal\u2019s inception in 1981. The entire corpus of almost 600 articles represents foundational and well-cited contributions to such current research areas as musical expectancy, performance excellence, musical development, neuroscience, emotion, preference, and film music, among others. Cohen and Schmuckler express deep gratitude to the authors, past editorial board members, and reviewers for their contributions to this corpus, and to the American Psychological Association Publications office and staff both for support and, importantly, for holding and making accessible in perpetuity the outstanding scholarship within the archives of <em>Psychomusicology: Music Mind & Brain and Psychomusicology: A Journal of Music Cognition</em>. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2024-01-22T00:00:00+00:00",
+      "source": "Psychomusicology",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 256,
+      "reading_time": 1,
+      "created_at": "2025-11-30T04:10:34.210999+00:00",
+      "updated_at": "2025-11-30T04:10:34.211003+00:00"
+    },
     {
       "id": "7d5d9e7c7af8e653345c045b290aa294",
       "url": "https://www.biorxiv.org/content/10.1101/2025.11.28.688728v1?rss=1",
@@ -313,38 +345,6 @@
       "reading_time": 1,
       "created_at": "2025-11-30T01:50:29.960678+00:00",
       "updated_at": "2025-11-30T01:50:29.960680+00:00"
-    },
-    {
-      "id": "547e1469ca2d5f585125c92df7681fc7",
-      "url": "https://www.nber.org/papers/w34512",
-      "title": "Dilution vs. Risk taking: Capital gains taxes and entrepreneurs",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46092056\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-29T23:59:49+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T01:50:29.960624+00:00",
-      "updated_at": "2025-11-30T01:50:29.960626+00:00"
-    },
-    {
-      "id": "547e1469ca2d5f585125c92df7681fc7",
-      "url": "https://www.nber.org/papers/w34512",
-      "title": "Dilution vs. Risk taking: Capital gains taxes and entrepreneurs",
-      "content": "<p>Article URL: <a href=\"https://www.nber.org/papers/w34512\">https://www.nber.org/papers/w34512</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46092056\">https://news.ycombinator.com/item?id=46092056</a></p>\n<p>Points: 25</p>\n<p># Comments: 22</p>",
-      "author": "hhs",
-      "published_date": "2025-11-29T23:59:49+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-30T01:50:28.722522+00:00",
-      "updated_at": "2025-11-30T01:50:28.722532+00:00"
     }
   ]
 }
