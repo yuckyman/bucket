@@ -1,5 +1,53 @@
 [
   {
+    "id": "c18fb46ad8b33ba7d22a253bbeebe9a2",
+    "url": "https://www.reddit.com/r/Python/comments/1pa91j5/i_built_sentinelnav_a_zerodependency_binary_file/",
+    "title": "I built SentinelNav, a zero-dependency binary file visualization tool to map file structure",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I\u2019ve just released <strong>SentinelNav</strong>, a pure Python tool that creates interactive spectral maps of binary files to visualize their internal &quot;geography.&quot; It runs entirely on the standard library (no <code>pip install</code> required).</p> <p><strong>What My Project Does</strong></p> <p>Analyzing raw binary files (forensics, reverse engineering, or file validation) is difficult because:</p> <ul> <li><strong>Hex Dumps are dense:</strong> Reading 50MB of hex code to find where a text section ends and an encrypted payload begins is mentally exhausting and slow.</li> <li><strong>Pattern Recognition:</strong> It is hard to distinguish between compressed data, random noise, and machine code just by looking at values.</li> <li><strong>Dependency Hell:</strong> Many existing visualization tools require heavy GUI frameworks (Qt) or complex environment setups just to perform a quick check.</li> </ul> <p><strong>The Solution: SentinelNav</strong></p> <p>I built a deterministic engine that transforms binary data into visual clusters:</p> <ul> <li><strong>Spectral Mapping:</strong> It maps byte values to RGB colors. High-bit bytes (compiled code/media) appear Red, printable ASCII appears Green, and nulls/padding appear Blue. This allows you to visually identify file headers and sections instantly.</li> <li><strong>Architecture Heuristics:</strong> It scans raw binary chunks to detect headers (PE, ELF, Mach-O) and attempts to guess the CPU architecture (x86 vs ARM64) based on instruction alignment and opcode frequency.</li> <li><strong>Entropy Analysis:</strong> It calculates Shannon entropy per block to detect anomalies, such as &quot;Flux events&quot; where data transitions from structured to random (encryption boundaries).</li> </ul> <p><strong>Example / How to Run</strong></p> <p>Since it relies on the standard library, it works out of the box:</p> <pre><code># No dependencies to install python3 sentinelnav.py my_firmware.bin </code></pre> <p>This spawns a local web server. You can then open your browser to:</p> <ol> <li>Navigate the file map using <strong>WASD</strong> keys (like a game).</li> <li>Click colored blocks to inspect the <strong>Hex Dump</strong> and <strong>ArchID</strong> analysis.</li> <li>Export the visualization as a <strong>.BMP</strong> image.</li> </ol> <p><strong>Target Audience</strong> Reverse Engineers, CTF players, Security Analysts, and developers interested in file structures.</p> <p><strong>Comparison</strong></p> <ul> <li><strong>Binwalk:</strong> Great for extraction, but lacks interactive visualization.</li> <li><strong>Veles / Cantordust:</strong> Powerful but often unmaintained or require complex installations.</li> <li><strong>SentinelNav:</strong> Focuses on being lightweight, zero-dependency, and &quot;drop-and-run&quot; compatible with any system that has Python 3 installed.</li> </ul> <p><strong>Technical Implementation</strong></p> <ul> <li><strong>Concurrency:</strong> Uses <code>concurrent.futures.ProcessPoolExecutor</code> to crunch entropy math across all CPU cores.</li> <li><strong>Data Handling:</strong> Uses an ephemeral <code>sqlite3</code> database to index analysis chunks, allowing it to paginate through files larger than available RAM.</li> <li><strong>Frontend:</strong> A custom HTML5 Canvas rendering engine embedded directly in the Python script.</li> <li><strong>Repo:</strong> <a href=\"https://github.com/smolfiddle/SentinelNav\">https://github.com/smolfiddle/SentinelNav</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/FiddleSmol\"> /u/FiddleSmol </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pa91j5/i_built_sentinelnav_a_zerodependency_binary_file/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pa91j5/i_built_sentinelnav_a_zerodependency_binary_file/\">[comments]</a></span>",
+    "author": "/u/FiddleSmol",
+    "published_date": "2025-11-30T04:22:27+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 421,
+    "reading_time": 2,
+    "created_at": "2025-11-30T04:53:30.308759+00:00",
+    "updated_at": "2025-11-30T04:53:30.308761+00:00"
+  },
+  {
+    "id": "63d80016e245e6ed7f26c002fb887363",
+    "url": "https://boing.greg.technology/",
+    "title": "Show HN: Boing",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46093473\">Comments</a>",
+    "author": "",
+    "published_date": "2025-11-30T03:46:35+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-11-30T04:53:28.963032+00:00",
+    "updated_at": "2025-11-30T04:53:28.963034+00:00"
+  },
+  {
+    "id": "63d80016e245e6ed7f26c002fb887363",
+    "url": "https://boing.greg.technology/",
+    "title": "Show HN: Boing",
+    "content": "<p>Article URL: <a href=\"https://boing.greg.technology/\">https://boing.greg.technology/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46093473\">https://news.ycombinator.com/item?id=46093473</a></p>\n<p>Points: 27</p>\n<p># Comments: 3</p>",
+    "author": "gregsadetsky",
+    "published_date": "2025-11-30T03:46:35+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-11-30T04:53:27.857409+00:00",
+    "updated_at": "2025-11-30T04:53:27.857417+00:00"
+  },
+  {
     "id": "b88f25159099b5609f519269053e2b3d",
     "url": "http://iopscience.iop.org/article/10.1088/1741-2552/ae1f3c",
     "title": "Single-channel EEG-based sleep stage classification via hybrid data distillation",
@@ -17096,66 +17144,6 @@
     "updated_at": "2025-11-25T16:21:02.019544+00:00",
     "metadata": {
       "processed_at": "2025-11-25T16:21:02.019553+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "cf01532dd94ed1e20d5f31176ef74dae",
-    "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006328?dgcid=rss_sd_all",
-    "title": "Tongqiao huoxue decoction and its components promote angiogenesis and treat ischemic stroke via glycolysis-enhanced VEGF-A/VEGFR2 pathway",
-    "content": "<p>Publication date: 1 January 2026</p><p><b>Source:</b> Brain Research, Volume 1870</p><p>Author(s): Gongda Li, Zhongyu Liu, Wenwen Li, Rui Zhang, Hua Han, Peiliang Dong</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Brain Research",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 21,
-    "reading_time": 1,
-    "created_at": "2025-11-25T15:24:14.994666+00:00",
-    "updated_at": "2025-11-25T16:21:02.019557+00:00",
-    "metadata": {
-      "processed_at": "2025-11-25T16:21:02.019559+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "32c6959cda32fa8921c4c07d2c991492",
-    "url": "https://www.sciencedirect.com/science/article/pii/S0306452225011108?dgcid=rss_sd_all",
-    "title": "Astrocytic aquaporin-4 expression, localization, and polarization: mechanisms and therapeutic potential in neurological diseases",
-    "content": "<p>Publication date: 9 January 2026</p><p><b>Source:</b> Neuroscience, Volume 592</p><p>Author(s): Daichao Ma, Hui Zhang</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Neuroscience Journal",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 12,
-    "reading_time": 1,
-    "created_at": "2025-11-25T15:24:13.760733+00:00",
-    "updated_at": "2025-11-25T16:21:02.019562+00:00",
-    "metadata": {
-      "processed_at": "2025-11-25T16:21:02.019563+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "3a9d3cc662d79a6d937b1d5639b4e483",
-    "url": "https://news.ycombinator.com/item?id=46045987",
-    "title": "Launch HN: Onyx (YC W24) \u2013 The open-source chat UI",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46045987\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-25T14:20:30+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-25T15:23:31.401730+00:00",
-    "updated_at": "2025-11-25T16:21:02.019568+00:00",
-    "metadata": {
-      "processed_at": "2025-11-25T16:21:02.019569+00:00",
       "processing_method": "github_actions"
     }
   }
