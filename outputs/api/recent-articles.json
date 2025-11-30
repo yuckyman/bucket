@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-11-30T11:17:22.229912+00:00",
+  "last_updated": "2025-11-30T11:38:46.549268+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "301d00e81b03476b9299b920475de929",
+      "url": "https://www.reddit.com/r/Python/comments/1p9pvlk/i_built_a_djangostyle_boilerplate_for_fastapi/",
+      "title": "I built a Django-style boilerplate for FastAPI",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I\u2019ve been working with Django for a long time, and I love it's philosophy, the structure, the CLI, and how easy it is to spin up new apps.</p> <p>When I started using FastAPI, I loved the performance and simplicity, but I often find myself spending a lot of time just setting up the architecture.</p> <p>I decided to build a boilerplate for FastAPI + SQLAlchemy to bridge that gap. I call it <strong>Djast</strong>.</p> <p><strong>What is Djast</strong> Djast is essentially <strong>FastAPI + SQLAlchemy</strong>, but organized like a Django project. It is <strong>not</strong> a wrapper that hides FastAPI\u2019s internal logic. It\u2019s a project template designed to help you hit the ground running without reinventing the architecture every time.</p> <p><strong>Key Features:</strong></p> <ul> <li><strong>Django-style CLI:</strong> It includes a <code>manage.py</code> that handles commands like <code>startapp</code> (to create modular apps), <code>makemigrations</code>, <code>migrate</code>, and <code>shell</code>.</li> <li><strong>Smart Migrations:</strong> It wraps Alembic to mimic the Django workflow (<code>makemigrations</code> / <code>migrate</code>). It even detects table/column renames interactively so you don't lose data, and warns you about dangerous operations.</li> <li><strong>Familiar ORM Wrapper:</strong> It uses standard async SQLAlchemy, but includes a helper to provide a Django-like syntax for common queries (e.g., <code>await Item.objects(session).get(id=1)</code>).</li> <li><strong>Pydantic Integration:</strong> A helper method to generate Pydantic schemas directly from your DB models (similar to <code>ModelForm</code> concepts) helps to keep your code DRY.</li> <li><strong>Interactive Shell:</strong> A pre-configured IPython shell that auto-imports your models and handles the async session for you.</li> </ul> <p><strong>Who is this for?</strong> This is for Django developers who want to try FastAPI but feel &quot;homesick&quot; for the Django structure and awesome quality-of-life features, or for FastAPI developers who want a more opinionated, battle-tested project layout.</p> <p>I decided to share it in hope that this is as usefull to you as it is to me. I would also appreciate some feedback. If you have time to check it out, I\u2019d love to hear what you think about the structure or if there are features you think are missing.</p> <p><strong>Repo:</strong> <a href=\"https://github.com/AGTGreg/Djast\">https://github.com/AGTGreg/Djast</a> <strong>Quickstart:</strong> <a href=\"https://github.com/AGTGreg/Djast/blob/master/quickstart.md\">https://github.com/AGTGreg/Djast/blob/master/quickstart.md</a></p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AgtGreg\"> /u/AgtGreg </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p9pvlk/i_built_a_djangostyle_boilerplate_for_fastapi/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p9pvlk/i_built_a_djangostyle_boilerplate_for_fastapi/\">[comments]</a></span>",
+      "author": "/u/AgtGreg",
+      "published_date": "2025-11-29T14:10:50+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 351,
+      "reading_time": 1,
+      "created_at": "2025-11-30T11:37:34.573614+00:00",
+      "updated_at": "2025-11-30T11:37:34.573618+00:00"
+    },
     {
       "id": "70cd431b62f811cfdec3cbfc6fd3b214",
       "url": "https://yandori.io/news-flow/",
@@ -347,26 +363,6 @@
       "updated_at": "2025-11-30T06:22:43.842582+00:00",
       "metadata": {
         "processed_at": "2025-11-30T06:22:43.842592+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c18fb46ad8b33ba7d22a253bbeebe9a2",
-      "url": "https://www.reddit.com/r/Python/comments/1pa91j5/i_built_sentinelnav_a_zerodependency_binary_file/",
-      "title": "I built SentinelNav, a zero-dependency binary file visualization tool to map file structure",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I\u2019ve just released <strong>SentinelNav</strong>, a pure Python tool that creates interactive spectral maps of binary files to visualize their internal &quot;geography.&quot; It runs entirely on the standard library (no <code>pip install</code> required).</p> <p><strong>What My Project Does</strong></p> <p>Analyzing raw binary files (forensics, reverse engineering, or file validation) is difficult because:</p> <ul> <li><strong>Hex Dumps are dense:</strong> Reading 50MB of hex code to find where a text section ends and an encrypted payload begins is mentally exhausting and slow.</li> <li><strong>Pattern Recognition:</strong> It is hard to distinguish between compressed data, random noise, and machine code just by looking at values.</li> <li><strong>Dependency Hell:</strong> Many existing visualization tools require heavy GUI frameworks (Qt) or complex environment setups just to perform a quick check.</li> </ul> <p><strong>The Solution: SentinelNav</strong></p> <p>I built a deterministic engine that transforms binary data into visual clusters:</p> <ul> <li><strong>Spectral Mapping:</strong> It maps byte values to RGB colors. High-bit bytes (compiled code/media) appear Red, printable ASCII appears Green, and nulls/padding appear Blue. This allows you to visually identify file headers and sections instantly.</li> <li><strong>Architecture Heuristics:</strong> It scans raw binary chunks to detect headers (PE, ELF, Mach-O) and attempts to guess the CPU architecture (x86 vs ARM64) based on instruction alignment and opcode frequency.</li> <li><strong>Entropy Analysis:</strong> It calculates Shannon entropy per block to detect anomalies, such as &quot;Flux events&quot; where data transitions from structured to random (encryption boundaries).</li> </ul> <p><strong>Example / How to Run</strong></p> <p>Since it relies on the standard library, it works out of the box:</p> <pre><code># No dependencies to install python3 sentinelnav.py my_firmware.bin </code></pre> <p>This spawns a local web server. You can then open your browser to:</p> <ol> <li>Navigate the file map using <strong>WASD</strong> keys (like a game).</li> <li>Click colored blocks to inspect the <strong>Hex Dump</strong> and <strong>ArchID</strong> analysis.</li> <li>Export the visualization as a <strong>.BMP</strong> image.</li> </ol> <p><strong>Target Audience</strong> Reverse Engineers, CTF players, Security Analysts, and developers interested in file structures.</p> <p><strong>Comparison</strong></p> <ul> <li><strong>Binwalk:</strong> Great for extraction, but lacks interactive visualization.</li> <li><strong>Veles / Cantordust:</strong> Powerful but often unmaintained or require complex installations.</li> <li><strong>SentinelNav:</strong> Focuses on being lightweight, zero-dependency, and &quot;drop-and-run&quot; compatible with any system that has Python 3 installed.</li> </ul> <p><strong>Technical Implementation</strong></p> <ul> <li><strong>Concurrency:</strong> Uses <code>concurrent.futures.ProcessPoolExecutor</code> to crunch entropy math across all CPU cores.</li> <li><strong>Data Handling:</strong> Uses an ephemeral <code>sqlite3</code> database to index analysis chunks, allowing it to paginate through files larger than available RAM.</li> <li><strong>Frontend:</strong> A custom HTML5 Canvas rendering engine embedded directly in the Python script.</li> <li><strong>Repo:</strong> <a href=\"https://github.com/smolfiddle/SentinelNav\">https://github.com/smolfiddle/SentinelNav</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/FiddleSmol\"> /u/FiddleSmol </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pa91j5/i_built_sentinelnav_a_zerodependency_binary_file/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pa91j5/i_built_sentinelnav_a_zerodependency_binary_file/\">[comments]</a></span>",
-      "author": "/u/FiddleSmol",
-      "published_date": "2025-11-30T04:22:27+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 421,
-      "reading_time": 2,
-      "created_at": "2025-11-30T04:53:30.308759+00:00",
-      "updated_at": "2025-11-30T06:22:43.842597+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T06:22:43.842598+00:00",
         "processing_method": "github_actions"
       }
     }

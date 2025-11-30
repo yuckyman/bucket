@@ -1,5 +1,21 @@
 [
   {
+    "id": "301d00e81b03476b9299b920475de929",
+    "url": "https://www.reddit.com/r/Python/comments/1p9pvlk/i_built_a_djangostyle_boilerplate_for_fastapi/",
+    "title": "I built a Django-style boilerplate for FastAPI",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I\u2019ve been working with Django for a long time, and I love it's philosophy, the structure, the CLI, and how easy it is to spin up new apps.</p> <p>When I started using FastAPI, I loved the performance and simplicity, but I often find myself spending a lot of time just setting up the architecture.</p> <p>I decided to build a boilerplate for FastAPI + SQLAlchemy to bridge that gap. I call it <strong>Djast</strong>.</p> <p><strong>What is Djast</strong> Djast is essentially <strong>FastAPI + SQLAlchemy</strong>, but organized like a Django project. It is <strong>not</strong> a wrapper that hides FastAPI\u2019s internal logic. It\u2019s a project template designed to help you hit the ground running without reinventing the architecture every time.</p> <p><strong>Key Features:</strong></p> <ul> <li><strong>Django-style CLI:</strong> It includes a <code>manage.py</code> that handles commands like <code>startapp</code> (to create modular apps), <code>makemigrations</code>, <code>migrate</code>, and <code>shell</code>.</li> <li><strong>Smart Migrations:</strong> It wraps Alembic to mimic the Django workflow (<code>makemigrations</code> / <code>migrate</code>). It even detects table/column renames interactively so you don't lose data, and warns you about dangerous operations.</li> <li><strong>Familiar ORM Wrapper:</strong> It uses standard async SQLAlchemy, but includes a helper to provide a Django-like syntax for common queries (e.g., <code>await Item.objects(session).get(id=1)</code>).</li> <li><strong>Pydantic Integration:</strong> A helper method to generate Pydantic schemas directly from your DB models (similar to <code>ModelForm</code> concepts) helps to keep your code DRY.</li> <li><strong>Interactive Shell:</strong> A pre-configured IPython shell that auto-imports your models and handles the async session for you.</li> </ul> <p><strong>Who is this for?</strong> This is for Django developers who want to try FastAPI but feel &quot;homesick&quot; for the Django structure and awesome quality-of-life features, or for FastAPI developers who want a more opinionated, battle-tested project layout.</p> <p>I decided to share it in hope that this is as usefull to you as it is to me. I would also appreciate some feedback. If you have time to check it out, I\u2019d love to hear what you think about the structure or if there are features you think are missing.</p> <p><strong>Repo:</strong> <a href=\"https://github.com/AGTGreg/Djast\">https://github.com/AGTGreg/Djast</a> <strong>Quickstart:</strong> <a href=\"https://github.com/AGTGreg/Djast/blob/master/quickstart.md\">https://github.com/AGTGreg/Djast/blob/master/quickstart.md</a></p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AgtGreg\"> /u/AgtGreg </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p9pvlk/i_built_a_djangostyle_boilerplate_for_fastapi/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p9pvlk/i_built_a_djangostyle_boilerplate_for_fastapi/\">[comments]</a></span>",
+    "author": "/u/AgtGreg",
+    "published_date": "2025-11-29T14:10:50+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 351,
+    "reading_time": 1,
+    "created_at": "2025-11-30T11:37:34.573614+00:00",
+    "updated_at": "2025-11-30T11:37:34.573618+00:00"
+  },
+  {
     "id": "70cd431b62f811cfdec3cbfc6fd3b214",
     "url": "https://yandori.io/news-flow/",
     "title": "Show HN: Real-time system that tracks how news spreads across 200k websites",
@@ -17186,21 +17202,5 @@
     "reading_time": 1,
     "created_at": "2025-11-25T17:21:19.258576+00:00",
     "updated_at": "2025-11-25T17:21:19.258578+00:00"
-  },
-  {
-    "id": "9375155f9aa984ccd3f3655c30ca8ee8",
-    "url": "https://www.nature.com/articles/s41583-025-01009-x",
-    "title": "Mixed selectivity: when neurons stopped looking like specialists",
-    "content": "",
-    "author": "",
-    "published_date": "2025-11-25T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2025-11-25T17:21:19.258538+00:00",
-    "updated_at": "2025-11-25T17:21:19.258540+00:00"
   }
 ]
