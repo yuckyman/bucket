@@ -1,8 +1,24 @@
 {
-  "last_updated": "2025-11-30T10:15:15.382178+00:00",
-  "pending_count": 699,
-  "processed_count": 301,
+  "last_updated": "2025-11-30T12:28:16.377391+00:00",
+  "pending_count": 693,
+  "processed_count": 307,
   "pending_articles": [
+    {
+      "id": "93f6ddcd1e65f45658b7dba482c27f08",
+      "url": "https://www.forbes.com/sites/zakdoffman/2025/11/30/israels-idf-bans-android-to-stop-hackers-iphones-mandatory/",
+      "title": "Israel's IDF Bans Android Phones: iPhones Now Mandatory",
+      "content": "<p>Article URL: <a href=\"https://www.forbes.com/sites/zakdoffman/2025/11/30/israels-idf-bans-android-to-stop-hackers-iphones-mandatory/\">https://www.forbes.com/sites/zakdoffman/2025/11/30/israels-idf-bans-android-to-stop-hackers-iphones-mandatory/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46095313\">https://news.ycombinator.com/item?id=46095313</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "author": "teleforce",
+      "published_date": "2025-11-30T09:55:08+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-30T10:41:36.187630+00:00",
+      "updated_at": "2025-11-30T10:41:36.187639+00:00"
+    },
     {
       "id": "bdc78e0aad41c31781fc4006ba68ea0f",
       "url": "https://chatbotkit.com/examples/dynamic-skillset-reference-architecture",
@@ -146,25 +162,129 @@
       "reading_time": 2,
       "created_at": "2025-11-30T03:27:42.881157+00:00",
       "updated_at": "2025-11-30T03:27:42.881167+00:00"
+    }
+  ],
+  "recently_processed": [
+    {
+      "id": "301d00e81b03476b9299b920475de929",
+      "url": "https://www.reddit.com/r/Python/comments/1p9pvlk/i_built_a_djangostyle_boilerplate_for_fastapi/",
+      "title": "I built a Django-style boilerplate for FastAPI",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I\u2019ve been working with Django for a long time, and I love it's philosophy, the structure, the CLI, and how easy it is to spin up new apps.</p> <p>When I started using FastAPI, I loved the performance and simplicity, but I often find myself spending a lot of time just setting up the architecture.</p> <p>I decided to build a boilerplate for FastAPI + SQLAlchemy to bridge that gap. I call it <strong>Djast</strong>.</p> <p><strong>What is Djast</strong> Djast is essentially <strong>FastAPI + SQLAlchemy</strong>, but organized like a Django project. It is <strong>not</strong> a wrapper that hides FastAPI\u2019s internal logic. It\u2019s a project template designed to help you hit the ground running without reinventing the architecture every time.</p> <p><strong>Key Features:</strong></p> <ul> <li><strong>Django-style CLI:</strong> It includes a <code>manage.py</code> that handles commands like <code>startapp</code> (to create modular apps), <code>makemigrations</code>, <code>migrate</code>, and <code>shell</code>.</li> <li><strong>Smart Migrations:</strong> It wraps Alembic to mimic the Django workflow (<code>makemigrations</code> / <code>migrate</code>). It even detects table/column renames interactively so you don't lose data, and warns you about dangerous operations.</li> <li><strong>Familiar ORM Wrapper:</strong> It uses standard async SQLAlchemy, but includes a helper to provide a Django-like syntax for common queries (e.g., <code>await Item.objects(session).get(id=1)</code>).</li> <li><strong>Pydantic Integration:</strong> A helper method to generate Pydantic schemas directly from your DB models (similar to <code>ModelForm</code> concepts) helps to keep your code DRY.</li> <li><strong>Interactive Shell:</strong> A pre-configured IPython shell that auto-imports your models and handles the async session for you.</li> </ul> <p><strong>Who is this for?</strong> This is for Django developers who want to try FastAPI but feel &quot;homesick&quot; for the Django structure and awesome quality-of-life features, or for FastAPI developers who want a more opinionated, battle-tested project layout.</p> <p>I decided to share it in hope that this is as usefull to you as it is to me. I would also appreciate some feedback. If you have time to check it out, I\u2019d love to hear what you think about the structure or if there are features you think are missing.</p> <p><strong>Repo:</strong> <a href=\"https://github.com/AGTGreg/Djast\">https://github.com/AGTGreg/Djast</a> <strong>Quickstart:</strong> <a href=\"https://github.com/AGTGreg/Djast/blob/master/quickstart.md\">https://github.com/AGTGreg/Djast/blob/master/quickstart.md</a></p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AgtGreg\"> /u/AgtGreg </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p9pvlk/i_built_a_djangostyle_boilerplate_for_fastapi/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p9pvlk/i_built_a_djangostyle_boilerplate_for_fastapi/\">[comments]</a></span>",
+      "author": "/u/AgtGreg",
+      "published_date": "2025-11-29T14:10:50+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 351,
+      "reading_time": 1,
+      "created_at": "2025-11-30T11:37:34.573614+00:00",
+      "updated_at": "2025-11-30T12:28:16.270836+00:00",
+      "metadata": {
+        "processed_at": "2025-11-30T12:28:16.270845+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "93f7071d13e825c43a10ed5fd156e4cc",
-      "url": "https://ahelwer.ca/post/2025-11-25-stackoverflow/",
-      "title": "Let go of StackOverflow; communities must take ownership",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46051182\">Comments</a>",
+      "id": "70cd431b62f811cfdec3cbfc6fd3b214",
+      "url": "https://yandori.io/news-flow/",
+      "title": "Show HN: Real-time system that tracks how news spreads across 200k websites",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46053076\">Comments</a>",
       "author": "",
-      "published_date": "2025-11-25T21:46:21+00:00",
+      "published_date": "2025-11-26T01:27:16+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-11-30T01:50:29.960678+00:00",
-      "updated_at": "2025-11-30T01:50:29.960680+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2025-11-30T11:16:15.910944+00:00",
+      "updated_at": "2025-11-30T12:28:16.270849+00:00",
+      "metadata": {
+        "processed_at": "2025-11-30T12:28:16.270851+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4b4e47d98a9249d18cc6bca62734b27b",
+      "url": "https://oe1.orf.at/programm/20250916/807304/Freie-Software-fuer-das-Bundesheer",
+      "title": "Austria's armed forces rely on LibreOffice instead of Microsoft",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46095521\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-30T10:32:45+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-30T11:16:15.910850+00:00",
+      "updated_at": "2025-11-30T12:28:16.270854+00:00",
+      "metadata": {
+        "processed_at": "2025-11-30T12:28:16.270855+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "742b2f92b6cb1e9aaf2d9a4954ca7f84",
+      "url": "https://cachyos.org/",
+      "title": "CachyOS: Fast and Customizable Linux Distribution",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46095585\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-30T10:47:27+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-30T11:16:15.910830+00:00",
+      "updated_at": "2025-11-30T12:28:16.270857+00:00",
+      "metadata": {
+        "processed_at": "2025-11-30T12:28:16.270859+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4b4e47d98a9249d18cc6bca62734b27b",
+      "url": "https://oe1.orf.at/programm/20250916/807304/Freie-Software-fuer-das-Bundesheer",
+      "title": "Austria's armed forces rely on LibreOffice instead of Microsoft",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46095521\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-30T10:32:45+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-30T11:16:15.910850+00:00",
+      "updated_at": "2025-11-30T12:28:16.270854+00:00",
+      "metadata": {
+        "processed_at": "2025-11-30T12:28:16.270855+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "742b2f92b6cb1e9aaf2d9a4954ca7f84",
+      "url": "https://cachyos.org/",
+      "title": "CachyOS: Fast and Customizable Linux Distribution",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46095585\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-30T10:47:27+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-30T11:16:15.910830+00:00",
+      "updated_at": "2025-11-30T12:28:16.270857+00:00",
+      "metadata": {
+        "processed_at": "2025-11-30T12:28:16.270859+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "0dd3af381497c3520fa9c1252e8c1340",
       "url": "https://www.reddit.com/r/Python/comments/1padhh7/birds_vs_bats_a_python_shell_game/",
@@ -242,126 +362,6 @@
       "updated_at": "2025-11-30T10:15:15.271211+00:00",
       "metadata": {
         "processed_at": "2025-11-30T10:15:15.271213+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d9c191d19de6dc70094ca1fb4be4ff87",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.27.690210v1?rss=1",
-      "title": "Predicting functional topography of the human visual cortex from cortical anatomy at scale",
-      "content": "Topographic organization is a fundamental principle of the brain, whereby adjacent cortical locations represent adjacent features in sensory or cognitive space. Current methodologies for obtaining individual-specific topographic maps either require resource-intensive functional neuroimaging data or, when using population atlases, lack precision for individual-level inference, limiting large-scale studies of individual differences. Here, we developed deepRetinotopy toolbox, a deep learning-based application for predicting topographic organization of the human visual cortex from cortical anatomy. We show that our toolbox accurately predicts retinotopic organization using only standard structural MRI scans acquired under diverse conditions, including varying imaging sites and scanner types. We then demonstrate that predicted maps can be leveraged to automatically generate individual-specific visual area boundaries, overcoming common biases in manual annotations. Finally, we estimate age-related changes in visual cortex organization by retrospectively applying our method to 11,060 anatomical scans, revealing that group differences in primary visual cortex organization are predictable from cortical anatomy.",
-      "author": "Ribeiro, F. L., Satzger, R., Hoffstaedter, F., Burger, C., Herholz, P., Linhardt, D., Benson, N. C., Schwarzkopf, D. S., Puckett, A. M., Bollmann, S., Hebart, M. N.",
-      "published_date": "2025-11-29T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 151,
-      "reading_time": 1,
-      "created_at": "2025-11-30T08:25:34.962659+00:00",
-      "updated_at": "2025-11-30T10:15:15.271216+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T10:15:15.271217+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6fe2ea7cdc6f2de262ae189d8b4e8048",
-      "url": "https://www.nature.com/articles/s41593-025-02182-z",
-      "title": "Author Correction: Choroid plexus apocrine secretion shapes CSF proteome during mouse brain development",
-      "content": "<p>Nature Neuroscience, Published online: 25 November 2025; <a href=\"https://www.nature.com/articles/s41593-025-02182-z\">doi:10.1038/s41593-025-02182-z</a></p>Author Correction: Choroid plexus apocrine secretion shapes CSF proteome during mouse brain development",
-      "author": "Maria K. Lehtinen",
-      "published_date": "2025-11-25T00:00:00+00:00",
-      "source": "Nature Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 21,
-      "reading_time": 1,
-      "created_at": "2025-11-30T07:38:21.209685+00:00",
-      "updated_at": "2025-11-30T08:18:45.078806+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T08:18:45.078815+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "14a103064370e099e4de633056b7d1b9",
-      "url": "https://www.ycombinator.com/companies/jiga/jobs/Cco7vyK-product-designer-remote-europe",
-      "title": "Jiga (YC W21) Is Hiring Product Designer",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46094478\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-30T07:00:40+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T07:18:39.746360+00:00",
-      "updated_at": "2025-11-30T08:18:45.078819+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T08:18:45.078821+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "14a103064370e099e4de633056b7d1b9",
-      "url": "https://www.ycombinator.com/companies/jiga/jobs/Cco7vyK-product-designer-remote-europe",
-      "title": "Jiga (YC W21) Is Hiring Product Designer",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46094478\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-30T07:00:40+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T07:18:39.746360+00:00",
-      "updated_at": "2025-11-30T08:18:45.078819+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T08:18:45.078821+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "60e2d34836685245882d126d1e4aad60",
-      "url": "https://aliveness.kunnas.com/articles/copenhagen-trap",
-      "title": "The Copenhagen Trap: How the West made passivity the only safe strategy",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46094465\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-30T06:57:36+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T07:18:39.746280+00:00",
-      "updated_at": "2025-11-30T08:18:45.078823+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T08:18:45.078825+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "60e2d34836685245882d126d1e4aad60",
-      "url": "https://aliveness.kunnas.com/articles/copenhagen-trap",
-      "title": "The Copenhagen Trap: How the West made passivity the only safe strategy",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46094465\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-30T06:57:36+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T07:18:39.746280+00:00",
-      "updated_at": "2025-11-30T08:18:45.078823+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T08:18:45.078825+00:00",
         "processing_method": "github_actions"
       }
     }
