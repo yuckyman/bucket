@@ -1,7 +1,87 @@
 {
-  "last_updated": "2025-11-30T08:18:45.184072+00:00",
+  "last_updated": "2025-11-30T08:26:04.362025+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "ea03e0b8f971106abd91d026d4e97e11",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.28.691186v1?rss=1",
+      "title": "Flexible selection of working memory representations to reduce cognitive cost",
+      "content": "Across psychology, economics, and decision science, it is well established that choosing a good internal representation can make complex problems easier to solve. This idea, central to theories of bounded rationality and heuristics, suggests that intelligent behavior depends not only on what is stored in working memory, but on the format in which it is stored. Whether non-human animals flexibly select internal formats, and how such choices are implemented in neural circuits, has remained unclear. Here we show that rats adjust the format of working memory to reduce cognitive load. When a task encourages an action-based code, rats maintain the relevant information as a stable motor plan supported by frontal cortex. When the same task is reformulated to make this code costly, they instead store a sensory trace in auditory cortex. These strategy shifts are rapid and reliable, revealing that rats can switch between distinct neural circuits to store information in the most economical internal format. These results demonstrate that flexible representational selection is not unique to humans but is present in rodents and reflected in circuit-level reallocation of working memory. This establishes a neural basis for classic theories linking problem representation to computational efficiency and provides a path toward a neural circuit-level description of selecting internal formats to reduce cognitive costs.",
+      "author": "Li, J., Xu, A. Z., Bao, C., Albesa-Gonzalez, A., Li, L., Clopath, C., Erlich, J. C.",
+      "published_date": "2025-11-29T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 212,
+      "reading_time": 1,
+      "created_at": "2025-11-30T08:25:34.962783+00:00",
+      "updated_at": "2025-11-30T08:25:34.962785+00:00"
+    },
+    {
+      "id": "e7d7a9bbcf1ee0fc13b0c0bfb02835ec",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.29.691270v1?rss=1",
+      "title": "High-Frequency Activity Encodes the Temporal Dynamics of Hierarchical Prediction Errors in Humans: An Electrocorticography Study",
+      "content": "Prediction error refers to the discrepancy between expected and actual sensory input. Its hierarchical organization has been demonstrated through decomposed brain responses in the local-global paradigm, where temporal regularities are established locally at individual stimulus transitions and globally across multi-tone sequence structures. In macaques and marmosets, local and global prediction-error signals have both been found in high-frequency oscillations (60-150 Hz) recorded with ECoG. In humans, however, these signals have primarily been observed in a lower frequency range (30-100 Hz) using EEG. Here, we recorded human ECoG to achieve higher signal fidelity, enabling examination of neural oscillations above 100 Hz (high-frequency activity, HFA), which are believed to be closely linked to local spiking activity. Eight participants listened to auditory sequences that either followed their local and global regularities (local and global standards) or violated them (local and global deviants). Robust HFA responses were observed for the local deviants, but these responses were reduced when the deviants were expected based on the global regularity, indicating both levels of prediction-error processes contribute to the observed activity. Importantly, these HFA responses could be decomposed into two subcomponents: an early component reflecting local prediction-error signals localized to lateral auditory regions, and a late component reflecting global prediction-error signals prominent in both lateral auditory and frontal cortices. Together, these findings demonstrate that neural oscillations above 100 Hz encode hierarchical prediction errors not only in non-human primates but also in humans.",
+      "author": "Huang, Y. T., Chen, Y.-Y., Fujitani, S., Shimada, S., Koike, S., Kunii, N., Saito, N., Chao, Z. C.",
+      "published_date": "2025-11-29T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 234,
+      "reading_time": 1,
+      "created_at": "2025-11-30T08:25:34.962746+00:00",
+      "updated_at": "2025-11-30T08:25:34.962748+00:00"
+    },
+    {
+      "id": "f7ad00bb26396f92ff24e4af704bab6e",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.27.690959v1?rss=1",
+      "title": "Top-down feedback can explain the existence of working memory traces in early visual cortex",
+      "content": "The temporary storage of visual memories is known to engage early visual cortex (EVC), where mnemonic content is presumed to be stored in weak or latent states. Two mechanisms have been suggested to underlie this storage: Top-down feedback from anterior cortical sites, and short-term synaptic plasticity (STSP) traces laid down by previous sensory inputs. Here, we tested if these mechanisms can account for two hallmarks of working memory, namely, the flexible selection of information from working memory, and the robustness of working memory against distraction. Simulating firing rates in a neural network model of working memory, we show that STSP cannot easily account for selection of information from within the working memory store, and is not robust to visual distraction. Rather, any input that passes through the visual system is briefly remembered, irrespective of its relevance. In contrast, top-down feedback can establish durable mnemonic signals in EVC that reflect currently task-relevant working memory contents and are robust to distraction. We argue that feedback is a parsimonious explanation for the existence of mnemonic signals in EVC, given that the storage of working memories is distributed across a hierarchy of cortical sites, which are known to have widespread feedback projections to visual cortex.",
+      "author": "Krause, N. N., Compte, A., Rademaker, R. L.",
+      "published_date": "2025-11-29T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 201,
+      "reading_time": 1,
+      "created_at": "2025-11-30T08:25:34.962705+00:00",
+      "updated_at": "2025-11-30T08:25:34.962707+00:00"
+    },
+    {
+      "id": "d9c191d19de6dc70094ca1fb4be4ff87",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.11.27.690210v1?rss=1",
+      "title": "Predicting functional topography of the human visual cortex from cortical anatomy at scale",
+      "content": "Topographic organization is a fundamental principle of the brain, whereby adjacent cortical locations represent adjacent features in sensory or cognitive space. Current methodologies for obtaining individual-specific topographic maps either require resource-intensive functional neuroimaging data or, when using population atlases, lack precision for individual-level inference, limiting large-scale studies of individual differences. Here, we developed deepRetinotopy toolbox, a deep learning-based application for predicting topographic organization of the human visual cortex from cortical anatomy. We show that our toolbox accurately predicts retinotopic organization using only standard structural MRI scans acquired under diverse conditions, including varying imaging sites and scanner types. We then demonstrate that predicted maps can be leveraged to automatically generate individual-specific visual area boundaries, overcoming common biases in manual annotations. Finally, we estimate age-related changes in visual cortex organization by retrospectively applying our method to 11,060 anatomical scans, revealing that group differences in primary visual cortex organization are predictable from cortical anatomy.",
+      "author": "Ribeiro, F. L., Satzger, R., Hoffstaedter, F., Burger, C., Herholz, P., Linhardt, D., Benson, N. C., Schwarzkopf, D. S., Puckett, A. M., Bollmann, S., Hebart, M. N.",
+      "published_date": "2025-11-29T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 151,
+      "reading_time": 1,
+      "created_at": "2025-11-30T08:25:34.962659+00:00",
+      "updated_at": "2025-11-30T08:25:34.962664+00:00"
+    },
+    {
+      "id": "bdc78e0aad41c31781fc4006ba68ea0f",
+      "url": "https://chatbotkit.com/examples/dynamic-skillset-reference-architecture",
+      "title": "Dynamic Skillset Reference Architecture",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46055942\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-26T10:08:19+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-30T08:24:57.981116+00:00",
+      "updated_at": "2025-11-30T08:24:57.981117+00:00"
+    },
     {
       "id": "6fe2ea7cdc6f2de262ae189d8b4e8048",
       "url": "https://www.nature.com/articles/s41593-025-02182-z",
@@ -43,46 +123,6 @@
       }
     },
     {
-      "id": "60e2d34836685245882d126d1e4aad60",
-      "url": "https://aliveness.kunnas.com/articles/copenhagen-trap",
-      "title": "The Copenhagen Trap: How the West made passivity the only safe strategy",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46094465\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-30T06:57:36+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T07:18:39.746280+00:00",
-      "updated_at": "2025-11-30T08:18:45.078823+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T08:18:45.078825+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "60e2d34836685245882d126d1e4aad60",
-      "url": "https://aliveness.kunnas.com/articles/copenhagen-trap",
-      "title": "The Copenhagen Trap: How the West made passivity the only safe strategy",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46094465\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-30T06:57:36+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T07:18:39.746280+00:00",
-      "updated_at": "2025-11-30T08:18:45.078823+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T08:18:45.078825+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "14a103064370e099e4de633056b7d1b9",
       "url": "https://www.ycombinator.com/companies/jiga/jobs/Cco7vyK-product-designer-remote-europe",
       "title": "Jiga (YC W21) Is Hiring Product Designer",
@@ -99,6 +139,46 @@
       "updated_at": "2025-11-30T08:18:45.078819+00:00",
       "metadata": {
         "processed_at": "2025-11-30T08:18:45.078821+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "60e2d34836685245882d126d1e4aad60",
+      "url": "https://aliveness.kunnas.com/articles/copenhagen-trap",
+      "title": "The Copenhagen Trap: How the West made passivity the only safe strategy",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46094465\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-30T06:57:36+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-30T07:18:39.746280+00:00",
+      "updated_at": "2025-11-30T08:18:45.078823+00:00",
+      "metadata": {
+        "processed_at": "2025-11-30T08:18:45.078825+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "60e2d34836685245882d126d1e4aad60",
+      "url": "https://aliveness.kunnas.com/articles/copenhagen-trap",
+      "title": "The Copenhagen Trap: How the West made passivity the only safe strategy",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46094465\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-30T06:57:36+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-30T07:18:39.746280+00:00",
+      "updated_at": "2025-11-30T08:18:45.078823+00:00",
+      "metadata": {
+        "processed_at": "2025-11-30T08:18:45.078825+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -297,90 +377,6 @@
         "processed_at": "2025-11-30T04:30:34.781782+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "fd8a7df5ff0adb8e8f9a6948d6ed6bfa",
-      "url": "https://fmhy.net/posts/oct-2025",
-      "title": "Monthly Updates [Oct]",
-      "content": "<div class=\"info custom-block\"><p class=\"custom-block-title\">INFO</p>\n<p>These update threads only contains major updates. If you're interested\nin seeing all minor changes you can follow our\n<a href=\"https://github.com/fmhy/FMHYedit/commits/main\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub or\n<a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Updates Channel</a> in Discord.</p>\n</div>\n<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Reorganized <a href=\"https://fmhy.net/downloading#download-sites\" rel=\"noreferrer\" target=\"_blank\">Download Sites</a>, retested each, bumped ones with faster hosts higher, moved any that fit other sections better, removed dead or premium-only, and fixed inaccurate labels. <a href=\"https://i.imgur.com/B2kJ23O.png\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a>.</p>\n</li>\n<li>\n<p>Reorganized <a href=\"https://fmhy.net/educational#programming-languages\" rel=\"noreferrer\" target=\"_blank\">Programming Learning</a>, removed outdated sites, and fixed bad formatting.  <a href=\"https://i.imgur.com/LE1ozRI.png\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a>.</p>\n</li>\n<li>\n<p>Reworked all our VPN + Proxy sections. There was too much to fit into a &quot;before vs after&quot; image, but you can see all of the changes in the <a href=\"https://github.com/fmhy/edit/pull/4108/files\" rel=\"noreferrer\" target=\"_blank\">pull request</a> by Wispy.</p>\n</li>\n<li>\n<p>Fixed formatting in <a href=\"https://fmhy.net/mobile#android-camera\" rel=\"noreferrer\" target=\"_blank\">Android Camera Tools</a>, turned it into its own head section, and added new subsections for <a href=\"https://fmhy.net/mobile#image-tools\" rel=\"noreferrer\" target=\"_blank\">Image Editing</a> + <a href=\"https://fmhy.net/mobile#image-galleries\" rel=\"noreferrer\" target=\"_blank\">Image Galleries</a> to make it easier to navigate.</p>\n</li>\n<li>\n<p>Added PWA (Progressive Web App) support to our website. This means our site can be added to your home screen or desktop like an app. It can (in theory) allow a smoother experience when browsing the site. For mobile it may prompt, or you can add it by selecting <a href=\"https://i.imgur.com/JgyjqBI.png\" rel=\"noreferrer\" target=\"_blank\">&quot;Add to Home Screen&quot;</a>. For desktop, simply hit the <a href=\"https://i.imgur.com/gcu8r0U.png\" rel=\"noreferrer\" target=\"_blank\">PWA icon</a> in the address bar.</p>\n</li>\n<li>\n<p>Updated Windscribe's description to &quot;No Torrenting w/ Free Version&quot; as they can no longer <a href=\"https://redd.it/1nos1a9\" rel=\"noreferrer\" target=\"_blank\">afford to keep it running</a>. We've also bumped it below Proton, as Proton is unlimited despite having the same no torrent limitation.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred new <a href=\"https://fmhy.net/mobile#ios-sideloading\" rel=\"noreferrer\" target=\"_blank\">Sideloading Guide</a> in iOS section. This is more up to date than ios.cfw's now.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/downloading#software-sites\" rel=\"noreferrer\" target=\"_blank\">Virgil Software Search</a> in Software Sites. Custom multi-site software search engine, only uses trusted sites already listed on FMHY.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#official-model-sites\" rel=\"noreferrer\" target=\"_blank\">Kimi</a> in AI Chatbots. Good free limits, highest rated open-source model on LMArena, adding K2 reasoning soon.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#specialized-chatbots\" rel=\"noreferrer\" target=\"_blank\">LMArena Search</a> in Specialized Chatbots. Unlimited, shows all sources, has good search options.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#manga\" rel=\"noreferrer\" target=\"_blank\">Kagane</a> in Manhwa / Manga. Big library, no compression, nice UI, can toggle SFW / NSFW.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#tracking-database\" rel=\"noreferrer\" target=\"_blank\">MangaBaka</a> in Manga / Light Novel Tracking. Has expansive, detailed database, and nice UI, seems to be well liked so far.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#file-hosts\" rel=\"noreferrer\" target=\"_blank\">VikingFile</a> in File Hosts. Fast, unlimited size, files last 15 days (after last download). Seems to be used by lots of sites now.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/misc#shopping\" rel=\"noreferrer\" target=\"_blank\">Consumer Rights Wiki</a> in Shopping section. In-depth wiki that documents practices that impact consumer rights. Founded by Louis Rossmann.</p>\n</li>\n<li>\n<p>Re-starred <a href=\"https://fmhy.net/gaming#rom-sites\" rel=\"noreferrer\" target=\"_blank\">Vimm's Lair</a> as they've recovered a lot of content that had been deleted.</p>\n</li>\n<li>\n<p>Re-Starred Firehawk52 as it's fully functionating again.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>\n<p>Removed Comick as they had to <a href=\"https://www.reddit.com/r/animepiracy/s/NInzfJ7GUK\" rel=\"noreferrer\" target=\"_blank\">remove all of their content</a>. Such a huge amount of material, both popular, and obscure, has been ripped from the internet. Truly unfortunate. They will be very missed. Thank you to Comick for all the years of making peoples lives better.</p>\n</li>\n<li>\n<p>Removed ReVanced in Android Audio as it <a href=\"https://torrentfreak.com/revanced-complies-with-spotify-takedown-but-explores-options-to-fight-back/\" rel=\"noreferrer\" target=\"_blank\">no longer blocks spotify ads</a>, and instead moved it to YouTube Music, as it still works fine for that.</p>\n</li>\n<li>\n<p>Removed Canva Pro telegram invite, it's gone and we don't have a new link for it. That was our last working Canva Pro method, so it might be awhile before we find an alt.</p>\n</li>\n<li>\n<p>Unstarred Cobalt (in audio ripping, not video) as it's soundcloud + newgrounds only, making it less useful than it was.</p>\n</li>\n<li>\n<p>Unstarred Koalageddon in DLC unlockers, as v1/v2 are both archived and no longer updated.</p>\n</li>\n</ul>",
-      "author": "",
-      "published_date": "2025-10-01T00:00:00+00:00",
-      "source": "Fmhy",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 696,
-      "reading_time": 3,
-      "created_at": "2025-11-30T03:27:46.814291+00:00",
-      "updated_at": "2025-11-30T06:22:43.842608+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T06:22:43.842610+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "327bd49dd0f4a6afe618641a00e064d5",
-      "url": "https://www.reddit.com/r/Python/comments/1pa3qvx/sunday_daily_thread_whats_everyone_working_on/",
-      "title": "Sunday Daily Thread: What's everyone working on this week?",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: What's Everyone Working On This Week? \ud83d\udee0\ufe0f</h1> <p>Hello <a href=\"/r/Python\">/r/Python</a>! It's time to share what you've been working on! Whether it's a work-in-progress, a completed masterpiece, or just a rough idea, let us know what you're up to!</p> <h2>How it Works:</h2> <ol> <li><strong>Show &amp; Tell</strong>: Share your current projects, completed works, or future ideas.</li> <li><strong>Discuss</strong>: Get feedback, find collaborators, or just chat about your project.</li> <li><strong>Inspire</strong>: Your project might inspire someone else, just as you might get inspired here.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Feel free to include as many details as you'd like. Code snippets, screenshots, and links are all welcome.</li> <li>Whether it's your job, your hobby, or your passion project, all Python-related work is welcome here.</li> </ul> <h2>Example Shares:</h2> <ol> <li><strong>Machine Learning Model</strong>: Working on a ML model to predict stock prices. Just cracked a 90% accuracy rate!</li> <li><strong>Web Scraping</strong>: Built a script to scrape and analyze news articles. It's helped me understand media bias better.</li> <li><strong>Automation</strong>: Automated my home lighting with Python and Raspberry Pi. My life has never been easier!</li> </ol> <p>Let's build and grow together! Share your journey and learn from others. Happy coding! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pa3qvx/sunday_daily_thread_whats_everyone_working_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pa3qvx/sunday_daily_thread_whats_everyone_working_on/\">[comments]</a></span>",
-      "author": "/u/AutoModerator",
-      "published_date": "2025-11-30T00:00:31+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 211,
-      "reading_time": 1,
-      "created_at": "2025-11-30T03:27:45.486209+00:00",
-      "updated_at": "2025-11-30T03:27:45.486211+00:00"
-    },
-    {
-      "id": "3576d9f30a607b396e1f6eb8b469ca38",
-      "url": "https://meshtastic.org/",
-      "title": "Meshtastic",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46092558\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-30T01:15:59+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T03:27:44.234328+00:00",
-      "updated_at": "2025-11-30T03:27:44.234329+00:00"
-    },
-    {
-      "id": "87d13acf6fee79b7e954d65c6caae4ff",
-      "url": "https://www.ietf.org/archive/id/draft-ietf-httpbis-safe-method-w-body-14.html",
-      "title": "The HTTP Query Method",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46056954\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-26T12:57:35+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T03:27:44.234291+00:00",
-      "updated_at": "2025-11-30T03:27:44.234293+00:00"
-    },
-    {
-      "id": "96a6ce6d5c6b14b25947fc4784644a71",
-      "url": "https://www.lepetitprince.com/en/events-around-the-world/a-new-little-prince-museum-has-opened-its-doors-in-switzerland/",
-      "title": "A new Little Prince museum has opened its doors in Switzerland",
-      "content": "<p>Article URL: <a href=\"https://www.lepetitprince.com/en/events-around-the-world/a-new-little-prince-museum-has-opened-its-doors-in-switzerland/\">https://www.lepetitprince.com/en/events-around-the-world/a-new-little-prince-museum-has-opened-its-doors-in-switzerland/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46092478\">https://news.ycombinator.com/item?id=46092478</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
-      "author": "gnabgib",
-      "published_date": "2025-11-30T01:03:44+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-30T03:27:42.881228+00:00",
-      "updated_at": "2025-11-30T03:27:42.881229+00:00"
     }
   ]
 }
