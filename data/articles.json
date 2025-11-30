@@ -1,5 +1,37 @@
 [
   {
+    "id": "7435952e0834ce3bab69423a0615bac7",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1691300",
+    "title": "UHGAN: a dual-phase GAN with Hough-transform constraints for accurate farmland road extraction",
+    "content": "IntroductionTraditional methods for farmland road extraction, such as U-Net, often struggle with complex noise and geometric features, leading to discontinuous extraction and insufficient sensitivity. To address these limitations, this study proposes a novel dual-phase generative adversarial network (GAN) named UHGAN, which integrates Hough-transform constraints.MethodsWe designed a cascaded U-Net generator within a two-stage GAN framework. The Stage 1 GAN combines a differentiable Hough transform loss with cross-entropy loss to generate initial road masks. Subsequently, the Stage 2 U-Net refines these masks by repairing breakpoints and suppressing isolated noise.ResultsWhen evaluated on the WHU RuR+rural road dataset, the proposed UHGAN method achieved an accuracy of 0.826, a recall of 0.750, and an F1-score of 0.789. This represents a significant improvement over the single-stage U-Net (F1\u202f=\u202f0.756) and ResNet (F1\u202f=\u202f0.762) baselines.DiscussionThe results demonstrate that our approach effectively mitigates the issues of discontinuous extraction caused by the complex geometric shapes and partial occlusion characteristic of farmland roads. The integration of Hough-transform loss, an technique that has received limited attention in prior studies, proves to be highly beneficial. This method shows considerable promise for practical applications in rural infrastructure planning and precision agriculture.",
+    "author": "Yuan Ma",
+    "published_date": "2025-10-13T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 190,
+    "reading_time": 1,
+    "created_at": "2025-11-30T18:49:48.302533+00:00",
+    "updated_at": "2025-11-30T18:49:48.302535+00:00"
+  },
+  {
+    "id": "73680d926a23fadb85488a34a746a1e3",
+    "url": "https://nixos.org/blog/announcements/2025/nixos-2511/",
+    "title": "NixOS 25.11 Released",
+    "content": "<p>Article URL: <a href=\"https://nixos.org/blog/announcements/2025/nixos-2511/\">https://nixos.org/blog/announcements/2025/nixos-2511/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46099022\">https://news.ycombinator.com/item?id=46099022</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+    "author": "trulyrandom",
+    "published_date": "2025-11-30T18:21:45+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-11-30T18:49:18.423932+00:00",
+    "updated_at": "2025-11-30T18:49:18.423941+00:00"
+  },
+  {
     "id": "9b6a88b07581ec153c43074ec9c00c67",
     "url": "https://github.com/Hugo-Dz/spritefusion-pixel-snapper",
     "title": "Show HN: Fixing Google Nano Banana Pixel Art with Rust",
@@ -17190,37 +17222,5 @@
     "reading_time": 1,
     "created_at": "2025-11-25T23:39:28.430712+00:00",
     "updated_at": "2025-11-25T23:39:28.430720+00:00"
-  },
-  {
-    "id": "9e1bc0234abde812a0e43aca96836153",
-    "url": "https://www.reddit.com/r/Python/comments/1p6og1b/my_first_flask_extension_passwordless_magic_link/",
-    "title": "My first Flask extension: passwordless \u201cmagic link\u201d auth (flask-pass0). Feedback most welcome.",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>What My Project Does </p> <p>I\u2019ve been working on my first Flask extension, a small module for passwordless \u201cmagic link\u201d authentication. It provides routes and helpers for generating and verifying login links, while letting the host app keep full control over users, sessions, and security decisions.</p> <p>Target Audience </p> <p>Flask apps that either already use email-only login or want to offer magic links as an alternative alongside other standard username/password flows. It\u2019s especially aimed at smaller projects or internal tools that don\u2019t need a full auth framework.</p> <p>Comparison </p> <p>This is not meant to replace established solutions like Flask-Login, Flask-Security, or password-based logins in general. It\u2019s intentionally minimal: handle the magic-link flow and stay out of the way so apps can plug it into their existing auth setup if they want. I know magic links aren\u2019t ideal for everyone (especially power users with password managers), so I\u2019m treating this as one additional option in the toolbox, not \u201cthe right way\u201d to do auth.</p> <p>Repo </p> <p><a href=\"https://github.com/jeremydosborn/flask-pass0\">https://github.com/jeremydosborn/flask-pass0</a> </p> <p>Feedback of any kind is very welcome, especially on the extension API, security boundaries (what it should vs shouldn\u2019t handle), and anything I should fix or rethink before publishing to PyPI.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/binaryfinary99\"> /u/binaryfinary99 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1p6og1b/my_first_flask_extension_passwordless_magic_link/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1p6og1b/my_first_flask_extension_passwordless_magic_link/\">[comments]</a></span>",
-    "author": "/u/binaryfinary99",
-    "published_date": "2025-11-25T21:03:36+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 220,
-    "reading_time": 1,
-    "created_at": "2025-11-25T23:18:55.896380+00:00",
-    "updated_at": "2025-11-25T23:18:55.896382+00:00"
-  },
-  {
-    "id": "f46223f4437da8cf1a2f26331daefa59",
-    "url": "https://labs.watchtowr.com/stop-putting-your-passwords-into-random-websites-yes-seriously-you-are-the-problem/",
-    "title": "Stop Putting Your Passwords into Random Websites (Yes, Seriously, You Are the PR",
-    "content": "<p>Article URL: <a href=\"https://labs.watchtowr.com/stop-putting-your-passwords-into-random-websites-yes-seriously-you-are-the-problem/\">https://labs.watchtowr.com/stop-putting-your-passwords-into-random-websites-yes-seriously-you-are-the-problem/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46050997\">https://news.ycombinator.com/item?id=46050997</a></p>\n<p>Points: 13</p>\n<p># Comments: 1</p>",
-    "author": "Deeg9rie9usi",
-    "published_date": "2025-11-25T21:26:14+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-11-25T23:18:53.350968+00:00",
-    "updated_at": "2025-11-25T23:18:53.350970+00:00"
   }
 ]
