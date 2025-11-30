@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-11-30T14:13:31.115966+00:00",
+  "last_updated": "2025-11-30T14:19:26.330905+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "2e9c5697345e7565ebb4e8f33102fd9d",
+      "url": "https://cs193p.stanford.edu/",
+      "title": "Paul Hegarty's updated CS193p SwiftUI course released by Stanford",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46051422\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-25T22:11:50+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-30T14:18:19.215961+00:00",
+      "updated_at": "2025-11-30T14:18:19.215963+00:00"
+    },
+    {
+      "id": "aeea6bce1d74601daf1b5d6f8e8f6d39",
+      "url": "https://www.cnbc.com/2025/11/30/norway-wealth-fund-to-vote-for-human-rights-report-at-microsoft-agm-against-management.html",
+      "title": "Norway wealth fund to vote for human rights report at Microsoft, against Nadella",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46096555\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-30T13:40:09+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-11-30T14:18:19.215904+00:00",
+      "updated_at": "2025-11-30T14:18:19.215906+00:00"
+    },
+    {
+      "id": "aeea6bce1d74601daf1b5d6f8e8f6d39",
+      "url": "https://www.cnbc.com/2025/11/30/norway-wealth-fund-to-vote-for-human-rights-report-at-microsoft-agm-against-management.html",
+      "title": "Norway wealth fund to vote for human rights report at Microsoft, against Nadella",
+      "content": "<p>Article URL: <a href=\"https://www.cnbc.com/2025/11/30/norway-wealth-fund-to-vote-for-human-rights-report-at-microsoft-agm-against-management.html\">https://www.cnbc.com/2025/11/30/norway-wealth-fund-to-vote-for-human-rights-report-at-microsoft-agm-against-management.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46096555\">https://news.ycombinator.com/item?id=46096555</a></p>\n<p>Points: 15</p>\n<p># Comments: 1</p>",
+      "author": "saubeidl",
+      "published_date": "2025-11-30T13:40:09+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-11-30T14:18:17.926296+00:00",
+      "updated_at": "2025-11-30T14:18:17.926304+00:00"
+    },
     {
       "id": "c69b041817c571a2d8ecdcb66336a6c0",
       "url": "https://adventofcode.com/2025/about",
@@ -329,62 +377,6 @@
         "processed_at": "2025-11-30T10:15:15.271209+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "f7ad00bb26396f92ff24e4af704bab6e",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.27.690959v1?rss=1",
-      "title": "Top-down feedback can explain the existence of working memory traces in early visual cortex",
-      "content": "The temporary storage of visual memories is known to engage early visual cortex (EVC), where mnemonic content is presumed to be stored in weak or latent states. Two mechanisms have been suggested to underlie this storage: Top-down feedback from anterior cortical sites, and short-term synaptic plasticity (STSP) traces laid down by previous sensory inputs. Here, we tested if these mechanisms can account for two hallmarks of working memory, namely, the flexible selection of information from working memory, and the robustness of working memory against distraction. Simulating firing rates in a neural network model of working memory, we show that STSP cannot easily account for selection of information from within the working memory store, and is not robust to visual distraction. Rather, any input that passes through the visual system is briefly remembered, irrespective of its relevance. In contrast, top-down feedback can establish durable mnemonic signals in EVC that reflect currently task-relevant working memory contents and are robust to distraction. We argue that feedback is a parsimonious explanation for the existence of mnemonic signals in EVC, given that the storage of working memories is distributed across a hierarchy of cortical sites, which are known to have widespread feedback projections to visual cortex.",
-      "author": "Krause, N. N., Compte, A., Rademaker, R. L.",
-      "published_date": "2025-11-29T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 201,
-      "reading_time": 1,
-      "created_at": "2025-11-30T08:25:34.962705+00:00",
-      "updated_at": "2025-11-30T10:15:15.271211+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T10:15:15.271213+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d9c191d19de6dc70094ca1fb4be4ff87",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.27.690210v1?rss=1",
-      "title": "Predicting functional topography of the human visual cortex from cortical anatomy at scale",
-      "content": "Topographic organization is a fundamental principle of the brain, whereby adjacent cortical locations represent adjacent features in sensory or cognitive space. Current methodologies for obtaining individual-specific topographic maps either require resource-intensive functional neuroimaging data or, when using population atlases, lack precision for individual-level inference, limiting large-scale studies of individual differences. Here, we developed deepRetinotopy toolbox, a deep learning-based application for predicting topographic organization of the human visual cortex from cortical anatomy. We show that our toolbox accurately predicts retinotopic organization using only standard structural MRI scans acquired under diverse conditions, including varying imaging sites and scanner types. We then demonstrate that predicted maps can be leveraged to automatically generate individual-specific visual area boundaries, overcoming common biases in manual annotations. Finally, we estimate age-related changes in visual cortex organization by retrospectively applying our method to 11,060 anatomical scans, revealing that group differences in primary visual cortex organization are predictable from cortical anatomy.",
-      "author": "Ribeiro, F. L., Satzger, R., Hoffstaedter, F., Burger, C., Herholz, P., Linhardt, D., Benson, N. C., Schwarzkopf, D. S., Puckett, A. M., Bollmann, S., Hebart, M. N.",
-      "published_date": "2025-11-29T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 151,
-      "reading_time": 1,
-      "created_at": "2025-11-30T08:25:34.962659+00:00",
-      "updated_at": "2025-11-30T10:15:15.271216+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T10:15:15.271217+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bdc78e0aad41c31781fc4006ba68ea0f",
-      "url": "https://chatbotkit.com/examples/dynamic-skillset-reference-architecture",
-      "title": "Dynamic Skillset Reference Architecture",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46055942\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-26T10:08:19+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T08:24:57.981116+00:00",
-      "updated_at": "2025-11-30T08:24:57.981117+00:00"
     }
   ]
 }
