@@ -1,8 +1,40 @@
 {
-  "last_updated": "2025-12-01T01:24:13.586943+00:00",
-  "pending_count": 688,
-  "processed_count": 312,
+  "last_updated": "2025-12-01T03:46:46.841382+00:00",
+  "pending_count": 684,
+  "processed_count": 316,
   "pending_articles": [
+    {
+      "id": "8646243b697c8603fee3ee523e51d1a1",
+      "url": "https://www.economist.com/finance-and-economics/2025/11/30/is-americas-jobs-market-nearing-a-cliff",
+      "title": "Is America's jobs market nearing a cliff?",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46102202\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-01T00:58:32+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-01T01:57:56.331826+00:00",
+      "updated_at": "2025-12-01T01:57:56.331828+00:00"
+    },
+    {
+      "id": "8646243b697c8603fee3ee523e51d1a1",
+      "url": "https://www.economist.com/finance-and-economics/2025/11/30/is-americas-jobs-market-nearing-a-cliff",
+      "title": "Is America's jobs market nearing a cliff?",
+      "content": "<p>Article URL: <a href=\"https://www.economist.com/finance-and-economics/2025/11/30/is-americas-jobs-market-nearing-a-cliff\">https://www.economist.com/finance-and-economics/2025/11/30/is-americas-jobs-market-nearing-a-cliff</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46102202\">https://news.ycombinator.com/item?id=46102202</a></p>\n<p>Points: 20</p>\n<p># Comments: 16</p>",
+      "author": "harambae",
+      "published_date": "2025-12-01T00:58:32+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-01T01:57:55.021951+00:00",
+      "updated_at": "2025-12-01T01:57:55.021953+00:00"
+    },
     {
       "id": "3d414254a2ee76b578451f154d9f0a4a",
       "url": "https://www.potaroo.net/ispcol/2025-11/starlinkgeo2.html",
@@ -130,41 +162,189 @@
       "reading_time": 1,
       "created_at": "2025-11-30T20:22:24.599667+00:00",
       "updated_at": "2025-11-30T20:22:24.599675+00:00"
-    },
-    {
-      "id": "7435952e0834ce3bab69423a0615bac7",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1691300",
-      "title": "UHGAN: a dual-phase GAN with Hough-transform constraints for accurate farmland road extraction",
-      "content": "IntroductionTraditional methods for farmland road extraction, such as U-Net, often struggle with complex noise and geometric features, leading to discontinuous extraction and insufficient sensitivity. To address these limitations, this study proposes a novel dual-phase generative adversarial network (GAN) named UHGAN, which integrates Hough-transform constraints.MethodsWe designed a cascaded U-Net generator within a two-stage GAN framework. The Stage 1 GAN combines a differentiable Hough transform loss with cross-entropy loss to generate initial road masks. Subsequently, the Stage 2 U-Net refines these masks by repairing breakpoints and suppressing isolated noise.ResultsWhen evaluated on the WHU RuR+rural road dataset, the proposed UHGAN method achieved an accuracy of 0.826, a recall of 0.750, and an F1-score of 0.789. This represents a significant improvement over the single-stage U-Net (F1\u202f=\u202f0.756) and ResNet (F1\u202f=\u202f0.762) baselines.DiscussionThe results demonstrate that our approach effectively mitigates the issues of discontinuous extraction caused by the complex geometric shapes and partial occlusion characteristic of farmland roads. The integration of Hough-transform loss, an technique that has received limited attention in prior studies, proves to be highly beneficial. This method shows considerable promise for practical applications in rural infrastructure planning and precision agriculture.",
-      "author": "Yuan Ma",
-      "published_date": "2025-10-13T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 190,
-      "reading_time": 1,
-      "created_at": "2025-11-30T18:49:48.302533+00:00",
-      "updated_at": "2025-11-30T18:49:48.302535+00:00"
-    },
-    {
-      "id": "73680d926a23fadb85488a34a746a1e3",
-      "url": "https://nixos.org/blog/announcements/2025/nixos-2511/",
-      "title": "NixOS 25.11 Released",
-      "content": "<p>Article URL: <a href=\"https://nixos.org/blog/announcements/2025/nixos-2511/\">https://nixos.org/blog/announcements/2025/nixos-2511/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46099022\">https://news.ycombinator.com/item?id=46099022</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
-      "author": "trulyrandom",
-      "published_date": "2025-11-30T18:21:45+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-30T18:49:18.423932+00:00",
-      "updated_at": "2025-11-30T18:49:18.423941+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "96a9511df82f2424b59beed9e50ef22b",
+      "url": "https://www.reddit.com/r/Python/comments/1paxlzf/monday_daily_thread_project_ideas/",
+      "title": "Monday Daily Thread: Project ideas!",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: Project Ideas \ud83d\udca1</h1> <p>Welcome to our weekly Project Ideas thread! Whether you're a newbie looking for a first project or an expert seeking a new challenge, this is the place for you.</p> <h2>How it Works:</h2> <ol> <li><strong>Suggest a Project</strong>: Comment your project idea\u2014be it beginner-friendly or advanced.</li> <li><strong>Build &amp; Share</strong>: If you complete a project, reply to the original comment, share your experience, and attach your source code.</li> <li><strong>Explore</strong>: Looking for ideas? Check out Al Sweigart's <a href=\"https://www.amazon.com/Big-Book-Small-Python-Programming/dp/1718501242\">&quot;The Big Book of Small Python Projects&quot;</a> for inspiration.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Clearly state the difficulty level.</li> <li>Provide a brief description and, if possible, outline the tech stack.</li> <li>Feel free to link to tutorials or resources that might help.</li> </ul> <h1>Example Submissions:</h1> <h2>Project Idea: Chatbot</h2> <p><strong>Difficulty</strong>: Intermediate</p> <p><strong>Tech Stack</strong>: Python, NLP, Flask/FastAPI/Litestar </p> <p><strong>Description</strong>: Create a chatbot that can answer FAQs for a website.</p> <p><strong>Resources</strong>: <a href=\"https://www.youtube.com/watch?v=a37BL0stIuM\">Building a Chatbot with Python</a></p> <h1>Project Idea: Weather Dashboard</h1> <p><strong>Difficulty</strong>: Beginner</p> <p><strong>Tech Stack</strong>: HTML, CSS, JavaScript, API</p> <p><strong>Description</strong>: Build a dashboard that displays real-time weather information using a weather API.</p> <p><strong>Resources</strong>: <a href=\"https://www.youtube.com/watch?v=9P5MY_2i7K8\">Weather API Tutorial</a></p> <h2>Project Idea: File Organizer</h2> <p><strong>Difficulty</strong>: Beginner</p> <p><strong>Tech Stack</strong>: Python, File I/O</p> <p><strong>Description</strong>: Create a script that organizes files in a directory into sub-folders based on file type.</p> <p><strong>Resources</strong>: <a href=\"https://automatetheboringstuff.com/2e/chapter9/\">Automate the Boring Stuff: Organizing Files</a></p> <p>Let's help each other grow. Happy coding! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1paxlzf/monday_daily_thread_project_ideas/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1paxlzf/monday_daily_thread_project_ideas/\">[comments]</a></span>",
+      "author": "/u/AutoModerator",
+      "published_date": "2025-12-01T00:00:36+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 244,
+      "reading_time": 1,
+      "created_at": "2025-12-01T01:57:57.813059+00:00",
+      "updated_at": "2025-12-01T03:46:46.732516+00:00",
+      "metadata": {
+        "processed_at": "2025-12-01T03:46:46.732528+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6d5cd027e0a8d8f78c811a7c7f06d517",
+      "url": "https://www.404media.co/grokipedia-is-the-antithesis-of-everything-that-makes-wikipedia-good-useful-and-human/",
+      "title": "Grokipedia Is the Antithesis of Wikipedia",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46101949\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-01T00:22:31+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-01T01:57:56.331947+00:00",
+      "updated_at": "2025-12-01T03:46:46.732532+00:00",
+      "metadata": {
+        "processed_at": "2025-12-01T03:46:46.732534+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "536ff179fe3bf4ca211792f64e2a2817",
+      "url": "https://sadservers.com/advent",
+      "title": "Advent of Sysadmin 2025",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46102347\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-01T01:17:28+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-01T01:57:56.331928+00:00",
+      "updated_at": "2025-12-01T03:46:46.732536+00:00",
+      "metadata": {
+        "processed_at": "2025-12-01T03:46:46.732538+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "af77774d2b76ee15be6c168eb81866ae",
+      "url": "https://jaysbrickblog.com/news/bricklink-suspends-marketplace-operations-in-35-countries/",
+      "title": "Bricklink suspends Marketplace operations in 35 countries",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46101263\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-30T22:53:08+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-01T01:57:56.331908+00:00",
+      "updated_at": "2025-12-01T03:46:46.732540+00:00",
+      "metadata": {
+        "processed_at": "2025-12-01T03:46:46.732542+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f1570b5e1865f4cac8d135eaf20fbef4",
+      "url": "https://algorithmsbook.com/optimization/files/optimization.pdf",
+      "title": "Algorithms for Optimization [pdf]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46101492\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-30T23:21:32+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-01T01:57:56.331848+00:00",
+      "updated_at": "2025-12-01T03:46:46.732544+00:00",
+      "metadata": {
+        "processed_at": "2025-12-01T03:46:46.732545+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "af77774d2b76ee15be6c168eb81866ae",
+      "url": "https://jaysbrickblog.com/news/bricklink-suspends-marketplace-operations-in-35-countries/",
+      "title": "Bricklink suspends Marketplace operations in 35 countries",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46101263\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-30T22:53:08+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-01T01:57:56.331908+00:00",
+      "updated_at": "2025-12-01T03:46:46.732540+00:00",
+      "metadata": {
+        "processed_at": "2025-12-01T03:46:46.732542+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f1570b5e1865f4cac8d135eaf20fbef4",
+      "url": "https://algorithmsbook.com/optimization/files/optimization.pdf",
+      "title": "Algorithms for Optimization [pdf]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46101492\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-30T23:21:32+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-01T01:57:56.331848+00:00",
+      "updated_at": "2025-12-01T03:46:46.732544+00:00",
+      "metadata": {
+        "processed_at": "2025-12-01T03:46:46.732545+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6d5cd027e0a8d8f78c811a7c7f06d517",
+      "url": "https://www.404media.co/grokipedia-is-the-antithesis-of-everything-that-makes-wikipedia-good-useful-and-human/",
+      "title": "Grokipedia Is the Antithesis of Wikipedia",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46101949\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-01T00:22:31+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-01T01:57:56.331947+00:00",
+      "updated_at": "2025-12-01T03:46:46.732532+00:00",
+      "metadata": {
+        "processed_at": "2025-12-01T03:46:46.732534+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "536ff179fe3bf4ca211792f64e2a2817",
+      "url": "https://sadservers.com/advent",
+      "title": "Advent of Sysadmin 2025",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46102347\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-01T01:17:28+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-01T01:57:56.331928+00:00",
+      "updated_at": "2025-12-01T03:46:46.732536+00:00",
+      "metadata": {
+        "processed_at": "2025-12-01T03:46:46.732538+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "3ff5b3810223e7d667205a699e8fd475",
       "url": "https://docs.astral.sh/ty/",
@@ -182,186 +362,6 @@
       "updated_at": "2025-12-01T01:24:13.479515+00:00",
       "metadata": {
         "processed_at": "2025-12-01T01:24:13.479524+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "80eab4b32ab5b7009ff18117d694c4b2",
-      "url": "https://www.hacklore.org/letter",
-      "title": "Stop Hacklore \u2013 An Open Letter",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46058670\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-26T15:55:48+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T22:42:13.505802+00:00",
-      "updated_at": "2025-12-01T01:24:13.479530+00:00",
-      "metadata": {
-        "processed_at": "2025-12-01T01:24:13.479532+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "14bfcf35f68b1fab2b8d85758d46c23c",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690709v1?rss=1",
-      "title": "Domain-specific decoupling of co-chaperone and ligase functions in STUB1 underlies biochemical and clinical heterogeneity in SCA48",
-      "content": "The carboxyl terminus of HSC70-interacting protein (CHIP, encoded by STUB1) integrates co-chaperone and E3 ubiquitin ligase activities to maintain proteostasis. Heterozygous STUB1 mutations cause the dominant cerebellar ataxia SCA48 through incompletely understood mechanisms. We characterized 13 SCA48-associated variants in the TPR and U-box domains using recombinant protein and cellular assays. TPR mutations retained intrinsic ligase activity but lost HSC70 binding, substrate ubiquitination efficiency, and protein stability. Conversely, U-box mutations abolished ligase function, induced aberrant high-molecular-weight oligomerization, and frequently elevated steady-state CHIP levels while only partially impairing co-chaperone activity. Many variants exhibited temperature-sensitive defects and stress-induced nuclear mislocalization. Principal component analysis revealed robust domain-specific biochemical clustering. RNA-seq following STUB1 knockdown demonstrated preserved HSF1-dependent transactivation but a loss of CHIP-dependent amplification of ubiquitination, chaperone, and transcriptional pathways under heat stress. Meta-analysis of 87 SCA48 patients linked TPR-like biochemical profiles to upper motor neuron involvement and U-box profiles to prominent dysarthria. Collectively, SCA48 mutations decouple CHIPs dual functions in a domain-dependent manner, exerting dominant-negative or gain-of-toxic effects that drive the observed clinical heterogeneity. These findings establish a direct biochemical-clinical correlation in SCA48 and provide a framework for domain-targeted therapeutic strategies exploiting residual ligase or chaperone activity.",
-      "author": "Altinok, S., Paulakonis, E., Almeida, M. F., Hwang, I., Sanchez-Hodge, R., DOvidio, C., Roper, G., Irons, G., Vargas, E., Peng, I., Saeed, M., Pathan, A., Ronnebaum, S. M., Shi, C.-h., Ranek, M. J., Scaglione, K. M., Page, R. C., Brown, N. G., Schisler, J. C.",
-      "published_date": "2025-11-30T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 193,
-      "reading_time": 1,
-      "created_at": "2025-11-30T22:20:18.125963+00:00",
-      "updated_at": "2025-12-01T01:24:13.479535+00:00",
-      "metadata": {
-        "processed_at": "2025-12-01T01:24:13.479536+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8105df949d38e9bbe40fd341b8117428",
-      "url": "https://www.tara.sh/posts/2025/2025-11-25_freebsd_letter/",
-      "title": "A Love Letter to FreeBSD",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46100892\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-30T22:05:07+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T22:19:36.186619+00:00",
-      "updated_at": "2025-12-01T01:24:13.479539+00:00",
-      "metadata": {
-        "processed_at": "2025-12-01T01:24:13.479540+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "494060a90bcfa5631776f955d55cd12e",
-      "url": "https://www.stackstatus.net/",
-      "title": "Stackoverflow Outage",
-      "content": "<p>Article URL: <a href=\"https://www.stackstatus.net/\">https://www.stackstatus.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46100566\">https://news.ycombinator.com/item?id=46100566</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-      "author": "ga_to",
-      "published_date": "2025-11-30T21:24:22+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-30T22:19:35.089843+00:00",
-      "updated_at": "2025-12-01T01:24:13.479542+00:00",
-      "metadata": {
-        "processed_at": "2025-12-01T01:24:13.479544+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8105df949d38e9bbe40fd341b8117428",
-      "url": "https://www.tara.sh/posts/2025/2025-11-25_freebsd_letter/",
-      "title": "A Love Letter to FreeBSD",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46100892\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-30T22:05:07+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T22:19:36.186619+00:00",
-      "updated_at": "2025-12-01T01:24:13.479539+00:00",
-      "metadata": {
-        "processed_at": "2025-12-01T01:24:13.479540+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "48e81a0447d7157d50ba6230f4dd38ff",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1692418",
-      "title": "Interleaving cortex-analog mixing improves deep non-negative matrix factorization networks",
-      "content": "Considering biological constraints in artificial neural networks has led to dramatic improvements in performance. Nevertheless, to date, the positivity of long-range signals in the cortex has not been shown to yield improvements. While Non-negative matrix factorization (NMF) captures biological constraints of positive long-range interactions, deep convolutional neural networks with NMF modules do not match the performance of conventional neural networks (CNNs) of a similar size. This work shows that introducing intermediate modules that combine the NMF's positive activities, analogous to the processing in cortical columns, leads to improved performance on benchmark data that exceeds that of vanilla deep convolutional networks. This demonstrates that including positive long-range signaling together with local interactions of both signs in analogy to cortical hyper-columns has the potential to enhance the performance of deep networks.",
-      "author": "Klaus R. Pawelzik",
-      "published_date": "2025-11-05T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 129,
-      "reading_time": 1,
-      "created_at": "2025-11-30T21:38:54.471920+00:00",
-      "updated_at": "2025-11-30T22:14:23.756408+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T22:14:23.756416+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f04f02121b1d13836df0a2b01a861136",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1681341",
-      "title": "UAV-based intelligent traffic surveillance using recurrent neural networks and Swin transformer for dynamic environments",
-      "content": "IntroductionUrban traffic congestion, environmental degradation, and road safety challenges necessitate intelligent aerial robotic systems capable of real-time adaptive decision-making. Unmanned Aerial Vehicles (UAVs), with their flexible deployment and high vantage point, offer a promising solution for large-scale traffic surveillance in complex urban environments. This study introduces a UAV-based neural framework that addresses challenges such as asymmetric vehicle motion, scale variations, and spatial inconsistencies in aerial imagery.MethodsThe proposed system integrates a multi-stage pipeline encompassing contrast enhancement and region-based clustering to optimize segmentation while maintaining computational efficiency for resource-constrained UAV platforms. Vehicle detection is carried out using a Recurrent Neural Network (RNN), optimized via a hybrid loss function combining cross-entropy and mean squared error to improve localization and confidence estimation. Upon detection, the system branches into two neural submodules: (i) a classification stream utilizing SURF and BRISK descriptors integrated with a Swin Transformer backbone for precise vehicle categorization, and (ii) a multi-object tracking stream employing DeepSORT, which fuses motion and appearance features within an affinity matrix for robust trajectory association.ResultsComprehensive evaluation on three benchmark UAV datasets\u2014AU-AIR, UAVDT, and VAID shows consistent and high performance. The model achieved detection precisions of 0.913, 0.930, and 0.920; tracking precisions of 0.901, 0.881, and 0.890; and classification accuracies of 92.14, 92.75, and 91.25%, respectively.DiscussionThese findings highlight the adaptability, robustness, and real-time viability of the proposed architecture in aerial traffic surveillance applications. By effectively integrating detection, classification, and tracking within a unified neural framework, the system contributes significant advancements to intelligent UAV-based traffic monitoring and supports future developments in smart city mobility and decision-making systems.",
-      "author": "Hui Liu",
-      "published_date": "2025-10-13T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 258,
-      "reading_time": 1,
-      "created_at": "2025-11-30T21:38:51.193993+00:00",
-      "updated_at": "2025-11-30T22:14:23.756421+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T22:14:23.756422+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "af9955da13697cdc0dba672afc9d5610",
-      "url": "https://twitter.com/hkashfi/status/1995109785679573167",
-      "title": "\"Boobs check\" verify if sites behind CDN are hosted in Inside Iran or not",
-      "content": "<p>Article URL: <a href=\"https://twitter.com/hkashfi/status/1995109785679573167\">https://twitter.com/hkashfi/status/1995109785679573167</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46100323\">https://news.ycombinator.com/item?id=46100323</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
-      "author": "defly",
-      "published_date": "2025-11-30T20:54:43+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-11-30T21:38:23.616646+00:00",
-      "updated_at": "2025-11-30T22:14:23.756425+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T22:14:23.756426+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "012bd9b801fc3041e84ec9b533fbd0a7",
-      "url": "https://nasa.cx/hn/posts/how-to-run-hundreds-of-phones-while-being-struck-by-suicide-drones/",
-      "title": "How to run phones while being struck by suicide drones",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46100282\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-30T20:49:49+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-11-30T21:18:18.172471+00:00",
-      "updated_at": "2025-11-30T22:14:23.756429+00:00",
-      "metadata": {
-        "processed_at": "2025-11-30T22:14:23.756430+00:00",
         "processing_method": "github_actions"
       }
     }
