@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-02T19:20:56.108980+00:00",
+  "last_updated": "2025-12-02T19:42:04.237127+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d06dbc06d4020adf06890ae7c36ad761",
+      "url": "https://lcamtuf.substack.com/p/cursed-circuits-charge-pump-voltage",
+      "title": "Cursed circuits: charge pump voltage halver",
+      "content": "<p>Article URL: <a href=\"https://lcamtuf.substack.com/p/cursed-circuits-charge-pump-voltage\">https://lcamtuf.substack.com/p/cursed-circuits-charge-pump-voltage</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46124892\">https://news.ycombinator.com/item?id=46124892</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "author": "surprisetalk",
+      "published_date": "2025-12-02T18:47:53+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-02T19:40:52.418015+00:00",
+      "updated_at": "2025-12-02T19:40:52.418017+00:00"
+    },
+    {
+      "id": "46b424a154867867d2618dc0bb4faddf",
+      "url": "https://news.ycombinator.com/item?id=46124930",
+      "title": "Microsoft won't let me pay a $24 bill, blocking thousands in Azure spending",
+      "content": "<p>Two years ago, a $24 autopay charge on my Azure account failed. The invoice is now marked \"Locked\" in their billing portal.<p>I cannot pay this invoice. There is no button to pay it. There is no button to dismiss it. There is no way to interact with it at all.<p>Azure displays a banner: \"You must pay all previous invoices before creating new subscriptions.\" Fair enough. I would love to pay it. Microsoft won't let me.<p>So I tried to contact support.<p>The Azure portal requires a \"paid support plan\" to create a support ticket. To purchase a paid support plan, you must create a subscription. To create a subscription, you must clear outstanding invoices. To clear outstanding invoices, you must contact support.<p>Azure on Twitter, as well as the website claims to have a \"free support ticket\" option for billing issues, but every possible link just drives you back to the same FAQ page while refusing to let you submit a ticket.<p>I called every number I could find:<p>1-800-867-1389 rings busy indefinitely. 1-855-270-0615 connects to an AI that asks what you need, tells you to visit the website, and disconnects. 1-800-642-7676 connects to a different AI that also tells you to visit the website. The website has a chatbot that redirects you to FAQ articles regardless of what you type. If you express frustration, it throws an error and stops responding.<p>I submitted feedback through the Azure portal every few days for weeks. No response.<p>I am a software engineer, so I did something ridiculous.<p>I wrote a PowerShell WinForms application that authenticates via device code flow, queries the Az.Support API for problem classifications, and calls New-AzSupportTicketsNoSubscription to submit a billing support ticket directly, bypassing the portal entirely.<p>Note the API name: NoSubscription. Microsoft has an explicit API for ticketing without a subscription.<p>It worked. The ticket was submitted. I felt briefly victorious.<p>The API responded: \"Your support plan type is Free. To create and update support tickets, you need access to our high-tier support plans.\"<p>I had built custom software specifically to work around Microsoft's broken support infrastructure, and I still hit a paywall.<p>The total amount Microsoft is owed: $24.<p>The total amount Microsoft is preventing me from spending on new Azure services: thousands. I currently run numerous websites out of my house, and it's getting to be enough that I want to offload it to Azure VMs. Additionally, I was going to shift my development to Azure boxes, etc.<p>I have exhausted every official channel. Every phone number, every chatbot, every feedback form, every API endpoint. There is no path to a human being without first paying for a support plan that I cannot purchase because of the billing block that I need support to resolve.<p>Has anyone successfully escaped a loop like this? Is there a secret handshake I'm missing? Or is the only option to abandon this Microsoft account entirely, get a new phone, and start fresh?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46124930\">https://news.ycombinator.com/item?id=46124930</a></p>\n<p>Points: 29</p>\n<p># Comments: 6</p>",
+      "author": "Javin007",
+      "published_date": "2025-12-02T18:50:25+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 488,
+      "reading_time": 2,
+      "created_at": "2025-12-02T19:40:52.417994+00:00",
+      "updated_at": "2025-12-02T19:40:52.417996+00:00"
+    },
     {
       "id": "719780710f72231dc47fb81c2eaebea0",
       "url": "https://www.biorxiv.org/content/10.1101/10.64898/2025.11.29.691326v1?rss=1",
@@ -289,38 +321,6 @@
       "reading_time": 1,
       "created_at": "2025-12-02T18:34:07.205446+00:00",
       "updated_at": "2025-12-02T18:34:07.205450+00:00"
-    },
-    {
-      "id": "0fa7aa1ea2a5ff1ab717002461d42899",
-      "url": "https://www.koi.ai/blog/4-million-browsers-infected-inside-shadypanda-7-year-malware-campaign",
-      "title": "4.3M Browsers Infected: Inside ShadyPanda's 7-Year Malware Campaign",
-      "content": "<p>Article URL: <a href=\"https://www.koi.ai/blog/4-million-browsers-infected-inside-shadypanda-7-year-malware-campaign\">https://www.koi.ai/blog/4-million-browsers-infected-inside-shadypanda-7-year-malware-campaign</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46122957\">https://news.ycombinator.com/item?id=46122957</a></p>\n<p>Points: 21</p>\n<p># Comments: 1</p>",
-      "author": "janpio",
-      "published_date": "2025-12-02T16:30:52+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-02T18:34:05.882239+00:00",
-      "updated_at": "2025-12-02T18:34:05.882241+00:00"
-    },
-    {
-      "id": "db26a03f088618727902871ac014bf5e",
-      "url": "https://github.com/memtest86plus/memtest86plus/releases/tag/v8.00",
-      "title": "Memtest86+ v8.00 Released",
-      "content": "<p>Article URL: <a href=\"https://github.com/memtest86plus/memtest86plus/releases/tag/v8.00\">https://github.com/memtest86plus/memtest86plus/releases/tag/v8.00</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46123238\">https://news.ycombinator.com/item?id=46123238</a></p>\n<p>Points: 14</p>\n<p># Comments: 0</p>",
-      "author": "voxadam",
-      "published_date": "2025-12-02T16:50:25+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-02T18:34:05.882214+00:00",
-      "updated_at": "2025-12-02T18:34:05.882216+00:00"
     }
   ]
 }

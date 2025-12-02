@@ -1,5 +1,37 @@
 [
   {
+    "id": "d06dbc06d4020adf06890ae7c36ad761",
+    "url": "https://lcamtuf.substack.com/p/cursed-circuits-charge-pump-voltage",
+    "title": "Cursed circuits: charge pump voltage halver",
+    "content": "<p>Article URL: <a href=\"https://lcamtuf.substack.com/p/cursed-circuits-charge-pump-voltage\">https://lcamtuf.substack.com/p/cursed-circuits-charge-pump-voltage</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46124892\">https://news.ycombinator.com/item?id=46124892</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+    "author": "surprisetalk",
+    "published_date": "2025-12-02T18:47:53+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-02T19:40:52.418015+00:00",
+    "updated_at": "2025-12-02T19:40:52.418017+00:00"
+  },
+  {
+    "id": "46b424a154867867d2618dc0bb4faddf",
+    "url": "https://news.ycombinator.com/item?id=46124930",
+    "title": "Microsoft won't let me pay a $24 bill, blocking thousands in Azure spending",
+    "content": "<p>Two years ago, a $24 autopay charge on my Azure account failed. The invoice is now marked \"Locked\" in their billing portal.<p>I cannot pay this invoice. There is no button to pay it. There is no button to dismiss it. There is no way to interact with it at all.<p>Azure displays a banner: \"You must pay all previous invoices before creating new subscriptions.\" Fair enough. I would love to pay it. Microsoft won't let me.<p>So I tried to contact support.<p>The Azure portal requires a \"paid support plan\" to create a support ticket. To purchase a paid support plan, you must create a subscription. To create a subscription, you must clear outstanding invoices. To clear outstanding invoices, you must contact support.<p>Azure on Twitter, as well as the website claims to have a \"free support ticket\" option for billing issues, but every possible link just drives you back to the same FAQ page while refusing to let you submit a ticket.<p>I called every number I could find:<p>1-800-867-1389 rings busy indefinitely. 1-855-270-0615 connects to an AI that asks what you need, tells you to visit the website, and disconnects. 1-800-642-7676 connects to a different AI that also tells you to visit the website. The website has a chatbot that redirects you to FAQ articles regardless of what you type. If you express frustration, it throws an error and stops responding.<p>I submitted feedback through the Azure portal every few days for weeks. No response.<p>I am a software engineer, so I did something ridiculous.<p>I wrote a PowerShell WinForms application that authenticates via device code flow, queries the Az.Support API for problem classifications, and calls New-AzSupportTicketsNoSubscription to submit a billing support ticket directly, bypassing the portal entirely.<p>Note the API name: NoSubscription. Microsoft has an explicit API for ticketing without a subscription.<p>It worked. The ticket was submitted. I felt briefly victorious.<p>The API responded: \"Your support plan type is Free. To create and update support tickets, you need access to our high-tier support plans.\"<p>I had built custom software specifically to work around Microsoft's broken support infrastructure, and I still hit a paywall.<p>The total amount Microsoft is owed: $24.<p>The total amount Microsoft is preventing me from spending on new Azure services: thousands. I currently run numerous websites out of my house, and it's getting to be enough that I want to offload it to Azure VMs. Additionally, I was going to shift my development to Azure boxes, etc.<p>I have exhausted every official channel. Every phone number, every chatbot, every feedback form, every API endpoint. There is no path to a human being without first paying for a support plan that I cannot purchase because of the billing block that I need support to resolve.<p>Has anyone successfully escaped a loop like this? Is there a secret handshake I'm missing? Or is the only option to abandon this Microsoft account entirely, get a new phone, and start fresh?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46124930\">https://news.ycombinator.com/item?id=46124930</a></p>\n<p>Points: 29</p>\n<p># Comments: 6</p>",
+    "author": "Javin007",
+    "published_date": "2025-12-02T18:50:25+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 488,
+    "reading_time": 2,
+    "created_at": "2025-12-02T19:40:52.417994+00:00",
+    "updated_at": "2025-12-02T19:40:52.417996+00:00"
+  },
+  {
     "id": "719780710f72231dc47fb81c2eaebea0",
     "url": "https://www.biorxiv.org/content/10.1101/10.64898/2025.11.29.691326v1?rss=1",
     "title": "Need-selective gating of dopamine neuron cue responses by real and virtual hunger",
@@ -17164,46 +17196,6 @@
     "updated_at": "2025-11-28T03:07:27.190822+00:00",
     "metadata": {
       "processed_at": "2025-11-28T03:07:27.190833+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "485c479497bc839951efb5bb1e6b2a94",
-    "url": "https://www.biorxiv.org/content/10.1101/2025.11.25.690406v1?rss=1",
-    "title": "Dog brain atlas generated via spatially constrained spectral clustering",
-    "content": "Functional parcellations enable reproducible analyses of brain organization, yet the dog fMRI field still lacks a validated, multi-scale functional atlas. We applied spatially constrained spectral clustering to a resting state fMRI dataset (n = 27 dogs) to generate whole-brain parcellations spanning 20-300 parcels. Replicability was evaluated against an independent dataset (n = 20 dogs) using Dice overlap and Adjusted Rand Index (ARI) as measures of spatial overlap and similarity; within-parcel functional coherence was assessed via homogeneity. Functional parcellations were anatomically coherent across scales, with global Dice peaking at 0.625 at N = 140 and 0.623 at N = 100, while decreasing to 0.526 at N = 300. ARI peaked at 0.48 for N = 60 and remained [&ge;] 0.46 through N = 180. Mean within-parcel homogeneity increased monotonically from 0.08 (N = 20) to 0.19 (N = 300). Concordance with an anatomical atlas (Johnson et al., 2020) increased at the regional level (plateau ~0.16 for N [&ge;] 140) while diminishing at gyral and lobar levels as resolution increased, consistent with functionally driven sub-regional differentiation. Together, these results indicate functional segmentations that are replicable across datasets and internally coherent across scales, with intermediate resolutions (100-140 parcels) balancing specificity and reproducibility for common analyses. We introduce a comprehensive, multi-scale functional dog brain atlas derived from data-driven clustering, providing an open resource for comparative studies of brain evolution and canine cognition.",
-    "author": "Hernandez-Perez, R., Cuaya, L. V., Boch, M., Barrios, F. A., Alcauter, S., Huber, L., Lamm, C.",
-    "published_date": "2025-11-27T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 228,
-    "reading_time": 1,
-    "created_at": "2025-11-28T01:39:24.284824+00:00",
-    "updated_at": "2025-11-28T03:07:27.190837+00:00",
-    "metadata": {
-      "processed_at": "2025-11-28T03:07:27.190839+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "074fd1e1d099fe992420dc1047420e86",
-    "url": "https://vsora.com/products/jotunn-8/",
-    "title": "Vsora Jotunn-8 5nm European inference chip",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46074111\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-27T23:30:11+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-28T01:38:42.765376+00:00",
-    "updated_at": "2025-11-28T03:07:27.190841+00:00",
-    "metadata": {
-      "processed_at": "2025-11-28T03:07:27.190843+00:00",
       "processing_method": "github_actions"
     }
   }
