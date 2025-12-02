@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-12-02T16:31:39.111779+00:00",
+  "last_updated": "2025-12-02T16:58:16.070070+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "086acbf16f45fb407e18e9f3023332e7",
+      "url": "https://www.reddit.com/r/Python/comments/1pccbk4/structure_large_python_projects_for/",
+      "title": "Structure Large Python Projects for Maintainability",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm scaling a Python project from &quot;works for me&quot; to &quot;multiple people need to work on this,&quot; and I'm realizing my structure isn't great.</p> <p><strong>Current situation:</strong></p> <p>I have one main directory with 50+ modules. No clear separation of concerns. Tests are scattered. Imports are a mess. It works, but it's hard to navigate and modify.</p> <p><strong>Questions I have:</strong></p> <ul> <li>What's a good folder structure for a medium-sized Python project (5K-20K lines)?</li> <li>How do you organize code by domain vs by layer (models, services, utils)?</li> <li>How strict should you be about import rules (no circular imports, etc.)?</li> <li>When should you split code into separate packages?</li> <li>What does a good test directory structure look like?</li> <li>How do you handle configuration and environment-specific settings?</li> </ul> <p><strong>What I'm trying to achieve:</strong></p> <ul> <li>Make it easy for new developers to understand the codebase</li> <li>Prevent coupling between different parts</li> <li>Make testing straightforward</li> <li>Reduce merge conflicts when multiple people work on it</li> </ul> <p>Do you follow a specific pattern, or make your own rules?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Electrical-Signal858\"> /u/Electrical-Signal858 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pccbk4/structure_large_python_projects_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pccbk4/structure_large_python_projects_for/\">[comments]</a></span>",
+      "author": "/u/Electrical-Signal858",
+      "published_date": "2025-12-02T16:05:15+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 188,
+      "reading_time": 1,
+      "created_at": "2025-12-02T16:57:05.182747+00:00",
+      "updated_at": "2025-12-02T16:57:05.182749+00:00"
+    },
+    {
+      "id": "30da574f63d47691cbe97ee8049b5df2",
+      "url": "https://jacobin.com/2025/11/peter-thiel-palantir-apocalypse-antichrist",
+      "title": "Peter Thiel's Apocalyptic Worldview Is a Dangerous Fantasy",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46122851\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-02T16:23:27+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-02T16:57:03.900230+00:00",
+      "updated_at": "2025-12-02T16:57:03.900231+00:00"
+    },
+    {
+      "id": "30da574f63d47691cbe97ee8049b5df2",
+      "url": "https://jacobin.com/2025/11/peter-thiel-palantir-apocalypse-antichrist",
+      "title": "Peter Thiel's Apocalyptic Worldview Is a Dangerous Fantasy",
+      "content": "<p>Article URL: <a href=\"https://jacobin.com/2025/11/peter-thiel-palantir-apocalypse-antichrist\">https://jacobin.com/2025/11/peter-thiel-palantir-apocalypse-antichrist</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46122851\">https://news.ycombinator.com/item?id=46122851</a></p>\n<p>Points: 79</p>\n<p># Comments: 21</p>",
+      "author": "robtherobber",
+      "published_date": "2025-12-02T16:23:27+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-02T16:57:02.503002+00:00",
+      "updated_at": "2025-12-02T16:57:02.503011+00:00"
+    },
     {
       "id": "80d1f642eb4da0958753076107ac0cbe",
       "url": "http://daniellakens.blogspot.com/2025/07/easily-download-files-from-open-science.html",
@@ -289,58 +337,6 @@
         "processed_at": "2025-12-02T16:21:46.915855+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "1184e18a9d9bdbdbc8e7960f5454cc2f",
-      "url": "https://www.nature.com/articles/s41593-025-02184-x",
-      "title": "Author Correction: Projectome-based characterization of hypothalamic peptidergic neurons in male mice",
-      "content": "<p>Nature Neuroscience, Published online: 02 December 2025; <a href=\"https://www.nature.com/articles/s41593-025-02184-x\">doi:10.1038/s41593-025-02184-x</a></p>Author Correction: Projectome-based characterization of hypothalamic peptidergic neurons in male mice",
-      "author": "Xiaohong Xu",
-      "published_date": "2025-12-02T00:00:00+00:00",
-      "source": "Nature Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 19,
-      "reading_time": 1,
-      "created_at": "2025-12-02T15:47:06.846805+00:00",
-      "updated_at": "2025-12-02T16:21:46.915858+00:00",
-      "metadata": {
-        "processed_at": "2025-12-02T16:21:46.915859+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "137ec1742ee04dbb55584d6c4bd2ff07",
-      "url": "https://infinitedigits.co/docs/software/yesnotice/",
-      "title": "YesNotice",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46047170\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-25T16:08:33+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-02T15:46:31.922355+00:00",
-      "updated_at": "2025-12-02T15:46:31.922357+00:00"
-    },
-    {
-      "id": "00580c13e3897b166cb7ee48c153cddd",
-      "url": "https://github.com/arnarg/nixtml",
-      "title": "Nixtml: Static website and blog generator written in Nix",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46121799\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-02T14:54:49+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-02T15:46:31.922271+00:00",
-      "updated_at": "2025-12-02T15:46:31.922273+00:00"
     }
   ]
 }
