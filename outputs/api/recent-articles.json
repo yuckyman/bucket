@@ -1,7 +1,71 @@
 {
-  "last_updated": "2025-12-03T14:16:39.729690+00:00",
+  "last_updated": "2025-12-03T14:24:04.016143+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "b6c635343309407e7a5195deb855943f",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306452225011406?dgcid=rss_sd_all",
+      "title": "Impact of carpal tunnel syndrome on multidigit synergies and anticipatory synergy adjustments",
+      "content": "<p>Publication date: 9 January 2026</p><p><b>Source:</b> Neuroscience, Volume 592</p><p>Author(s): Valters Abolins, Cristian Cuadra, Ieva Kalve, Ivars Vanadzins</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroscience Journal",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 16,
+      "reading_time": 1,
+      "created_at": "2025-12-03T14:23:36.385025+00:00",
+      "updated_at": "2025-12-03T14:23:36.385027+00:00"
+    },
+    {
+      "id": "a6ee2a82e58dc04188ee5ae2dc1ebdba",
+      "url": "https://github.com/rodmena-limited/scriptplan",
+      "title": "Mission Critical Advanced Scheduling (ALAP/ASAP) System",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46075873\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-28T05:50:20+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-03T14:22:52.554473+00:00",
+      "updated_at": "2025-12-03T14:22:52.554474+00:00"
+    },
+    {
+      "id": "fa19da286a5a59e62af60c88aa96a621",
+      "url": "https://www.nber.org/papers/w34524",
+      "title": "Congressional lawmakers 47% pts better at picking stocks",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46134443\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-03T13:50:10+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-03T14:22:52.554289+00:00",
+      "updated_at": "2025-12-03T14:22:52.554293+00:00"
+    },
+    {
+      "id": "fa19da286a5a59e62af60c88aa96a621",
+      "url": "https://www.nber.org/papers/w34524",
+      "title": "Congressional lawmakers 47% pts better at picking stocks",
+      "content": "<p>Article URL: <a href=\"https://www.nber.org/papers/w34524\">https://www.nber.org/papers/w34524</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46134443\">https://news.ycombinator.com/item?id=46134443</a></p>\n<p>Points: 28</p>\n<p># Comments: 11</p>",
+      "author": "mhb",
+      "published_date": "2025-12-03T13:50:10+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-03T14:22:51.205033+00:00",
+      "updated_at": "2025-12-03T14:22:51.205042+00:00"
+    },
     {
       "id": "3ed19135c66533760c571dd589119f78",
       "url": "https://purplesyringa.moe/blog/a-look-at-rust-from-2012/",
@@ -297,86 +361,6 @@
       "reading_time": 1,
       "created_at": "2025-12-03T10:25:55.441116+00:00",
       "updated_at": "2025-12-03T10:25:55.441118+00:00"
-    },
-    {
-      "id": "dbb9ad2aac7af36264842432b7a82ee0",
-      "url": "https://www.reddit.com/r/Python/comments/1pcab48/win32api_sendmessagepostmessage_not_sending_keys/",
-      "title": "win32api SendMessage/PostMessage not sending keys to minimized window in Windows 11?",
-      "content": "<!-- SC_OFF --><div class=\"md\"><pre><code>import win32api import win32con import time import random import global_variables import win32gui def winapi(w, key): win32api.PostMessage(w, win32con.WM_KEYDOWN, key, 0) time.sleep(random.uniform(0.369420, 0.769420)) win32api.PostMessage(w, win32con.WM_KEYUP, key, 0) </code></pre> <p>this code worked fine on Windows 10 and Linux using Proton, but on Windows 11 PostMessage/SendMessage only works if the target window is maximized (with or without focus)</p> <p>Did Windows 11 changed something API level?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AvailableTie6834\"> /u/AvailableTie6834 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pcab48/win32api_sendmessagepostmessage_not_sending_keys/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pcab48/win32api_sendmessagepostmessage_not_sending_keys/\">[comments]</a></span>",
-      "author": "/u/AvailableTie6834",
-      "published_date": "2025-12-02T14:47:16+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 82,
-      "reading_time": 1,
-      "created_at": "2025-12-03T09:47:39.510965+00:00",
-      "updated_at": "2025-12-03T10:18:58.855820+00:00",
-      "metadata": {
-        "processed_at": "2025-12-03T10:18:58.855830+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "73c381a2437ff49c2cb4caaaf126d5d3",
-      "url": "https://www.nature.com/articles/s41467-025-66120-0",
-      "title": "A distinct PP2A subunit regulates local protein phosphorylation at the axon initial segment",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-03T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-03T09:27:34.324721+00:00",
-      "updated_at": "2025-12-03T10:18:58.855835+00:00",
-      "metadata": {
-        "processed_at": "2025-12-03T10:18:58.855837+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c13d5532481827beeb958f3b696e11c0",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1696824",
-      "title": "A novel intelligent physiotherapy robot based on dynamic acupoint recognition method",
-      "content": "BackgroundPhysiotherapy robots offer a feasible and promising solution for achieving safe and efficient treatment. Among these, acupoint recognition is the core component that ensures the precision of physiotherapy robots. Although the research on the acupoint recognition such as hand and ear has been extensive, the accurate location of acupoints on the back of the human body still faces great challenges due to the lack of significant external features.MethodsThis paper designs a two-stage acupoint recognition method, which is achieved through the cooperation of two detection networks. First, a lightweight RTMDet network is used to extract the effective back range from the image, and then the acupoint coordinates are inferred from the extracted back range, reducing the inference consumption caused by invalid information. In addition, the RTMPose network based on the SimCC framework converts the acupoint coordinate regression problem into a classification problem of sub-pixel block subregions on the X and Y axes by performing sub-pixel-level segmentation of images, significantly improving detection speed and accuracy. Meanwhile, the multi-layer feature fusion of CSPNeXt enhances feature extraction capabilities. Then, we designed a physiotherapy interaction interface. Through the three-dimensional coordinates of the acupoints, we independently planned the physiotherapy task path of the physiotherapy robot.ResultsWe conducted performance tests on the acupoint recognition system and physiotherapy task planning in the physiotherapy robot system. The experiments have proven our effectiveness, achieving a recall of 90.17% on human datasets, with a detection error of around 5.78\u202fmm. At the same time, it can accurately identify different back postures and achieve an inference speed of 30 FPS on a 4070Ti GPU. Finally, we conducted continuous physiotherapy tasks on multiple acupoints for the user.ConclusionThe experimental results demonstrate the significant advantages and broad application potential of this method in improving the accuracy and reliability of autonomous acupoint recognition by physiotherapy robots.",
-      "author": "Shuoyu Wang",
-      "published_date": "2025-11-24T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 299,
-      "reading_time": 1,
-      "created_at": "2025-12-03T09:27:22.610991+00:00",
-      "updated_at": "2025-12-03T10:18:58.855839+00:00",
-      "metadata": {
-        "processed_at": "2025-12-03T10:18:58.855841+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5bdc15991f62bcb063790ee7ae6fc11b",
-      "url": "https://newsletter.dancohen.org/archive/the-writing-is-on-the-wall-for-handwriting-recognition/",
-      "title": "The Writing Is on the Wall for Handwriting Recognition",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46058154\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-26T15:14:42+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-03T08:56:04.714160+00:00",
-      "updated_at": "2025-12-03T10:18:58.855843+00:00",
-      "metadata": {
-        "processed_at": "2025-12-03T10:18:58.855844+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
