@@ -1,5 +1,21 @@
 [
   {
+    "id": "dbb9ad2aac7af36264842432b7a82ee0",
+    "url": "https://www.reddit.com/r/Python/comments/1pcab48/win32api_sendmessagepostmessage_not_sending_keys/",
+    "title": "win32api SendMessage/PostMessage not sending keys to minimized window in Windows 11?",
+    "content": "<!-- SC_OFF --><div class=\"md\"><pre><code>import win32api import win32con import time import random import global_variables import win32gui def winapi(w, key): win32api.PostMessage(w, win32con.WM_KEYDOWN, key, 0) time.sleep(random.uniform(0.369420, 0.769420)) win32api.PostMessage(w, win32con.WM_KEYUP, key, 0) </code></pre> <p>this code worked fine on Windows 10 and Linux using Proton, but on Windows 11 PostMessage/SendMessage only works if the target window is maximized (with or without focus)</p> <p>Did Windows 11 changed something API level?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AvailableTie6834\"> /u/AvailableTie6834 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pcab48/win32api_sendmessagepostmessage_not_sending_keys/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pcab48/win32api_sendmessagepostmessage_not_sending_keys/\">[comments]</a></span>",
+    "author": "/u/AvailableTie6834",
+    "published_date": "2025-12-02T14:47:16+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 82,
+    "reading_time": 1,
+    "created_at": "2025-12-03T09:47:39.510965+00:00",
+    "updated_at": "2025-12-03T09:47:39.510966+00:00"
+  },
+  {
     "id": "73c381a2437ff49c2cb4caaaf126d5d3",
     "url": "https://www.nature.com/articles/s41467-025-66120-0",
     "title": "A distinct PP2A subunit regulates local protein phosphorylation at the axon initial segment",
@@ -17190,21 +17206,5 @@
     "reading_time": 1,
     "created_at": "2025-11-28T17:18:54.213080+00:00",
     "updated_at": "2025-11-28T17:18:54.213086+00:00"
-  },
-  {
-    "id": "959a3e4899df3eab73eb0ef4b3685aca",
-    "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1718778",
-    "title": "From generative AI to the brain: five takeaways",
-    "content": "The big strides seen in generative AI are not based on somewhat obscure algorithms, but due to clearly defined generative principles. The resulting concrete implementations have proven themselves in large numbers of applications. We suggest that it is imperative to thoroughly investigate which of these generative principles may be operative also in the brain, and hence relevant for cognitive neuroscience. In addition, ML research led to a range of interesting characterizations of neural information processing systems. We discuss five examples, the shortcomings of world modeling, the generation of thought processes, attention, neural scaling laws, and quantization, that illustrate how much neuroscience could potentially learn from ML research.",
-    "author": "Claudius Gros",
-    "published_date": "2025-11-24T00:00:00+00:00",
-    "source": "Frontiers Computational Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 107,
-    "reading_time": 1,
-    "created_at": "2025-11-28T17:18:44.367392+00:00",
-    "updated_at": "2025-11-28T17:18:44.367394+00:00"
   }
 ]

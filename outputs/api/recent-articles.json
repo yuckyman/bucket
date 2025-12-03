@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-12-03T09:28:05.469458+00:00",
+  "last_updated": "2025-12-03T09:48:45.151722+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "dbb9ad2aac7af36264842432b7a82ee0",
+      "url": "https://www.reddit.com/r/Python/comments/1pcab48/win32api_sendmessagepostmessage_not_sending_keys/",
+      "title": "win32api SendMessage/PostMessage not sending keys to minimized window in Windows 11?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><pre><code>import win32api import win32con import time import random import global_variables import win32gui def winapi(w, key): win32api.PostMessage(w, win32con.WM_KEYDOWN, key, 0) time.sleep(random.uniform(0.369420, 0.769420)) win32api.PostMessage(w, win32con.WM_KEYUP, key, 0) </code></pre> <p>this code worked fine on Windows 10 and Linux using Proton, but on Windows 11 PostMessage/SendMessage only works if the target window is maximized (with or without focus)</p> <p>Did Windows 11 changed something API level?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AvailableTie6834\"> /u/AvailableTie6834 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pcab48/win32api_sendmessagepostmessage_not_sending_keys/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pcab48/win32api_sendmessagepostmessage_not_sending_keys/\">[comments]</a></span>",
+      "author": "/u/AvailableTie6834",
+      "published_date": "2025-12-02T14:47:16+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 82,
+      "reading_time": 1,
+      "created_at": "2025-12-03T09:47:39.510965+00:00",
+      "updated_at": "2025-12-03T09:47:39.510966+00:00"
+    },
     {
       "id": "73c381a2437ff49c2cb4caaaf126d5d3",
       "url": "https://www.nature.com/articles/s41467-025-66120-0",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-03T07:22:53.294785+00:00",
       "updated_at": "2025-12-03T07:22:53.294790+00:00"
-    },
-    {
-      "id": "6b750d019a09b9e7bd3e8cf4ce66ac21",
-      "url": "https://quad9.net/news/blog/doh-http-1-1-retirement/",
-      "title": "Quad9 DOH HTTP/1.1 Retirement, December 15, 2025",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46130784\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-03T06:07:22+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-03T07:22:22.742995+00:00",
-      "updated_at": "2025-12-03T07:22:22.742996+00:00"
     }
   ]
 }
