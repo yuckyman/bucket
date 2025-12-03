@@ -1,5 +1,69 @@
 [
   {
+    "id": "9b7968741403d6b479424052728c8879",
+    "url": "http://ieeexplore.ieee.org/document/10856260",
+    "title": "Front Cover",
+    "content": "null",
+    "author": "",
+    "published_date": "2025-01-28T13:17:19+00:00",
+    "source": "Reviews Biomedical Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 1,
+    "reading_time": 1,
+    "created_at": "2025-12-03T17:47:06.960905+00:00",
+    "updated_at": "2025-12-03T17:47:06.960911+00:00"
+  },
+  {
+    "id": "8d486873b6728e5969fb54b3a44976e8",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1679196",
+    "title": "Cross-modal privacy-preserving synthesis and mixture-of-experts ensemble for robust ASD prediction",
+    "content": "IntroductionAutism Spectrum Disorder (ASD) diagnosis remains complex due to limited access to large-scale multimodal datasets and privacy concerns surrounding clinical data. Traditional methods rely heavily on resource-intensive clinical assessments and are constrained by unimodal or non-adaptive learning models. To address these limitations, this study introduces AutismSynthGen, a privacy-preserving framework for synthesizing multimodal ASD data and enhancing prediction accuracy.Materials and methodsThe proposed system integrates a Multimodal Autism Data Synthesis Network (MADSN), which employs transformer-based encoders and cross-modal attention within a conditional GAN to generate synthetic data across structural MRI, EEG, behavioral vectors, and severity scores. Differential privacy is enforced via DP-SGD (\u03b5\u202f\u2264\u202f1.0). A complementary Adaptive Multimodal Ensemble Learning (AMEL) module, consisting of five heterogeneous experts and a gating network, is trained on both real and synthetic data. Evaluation is conducted on the ABIDE, NDAR, and SSC datasets using metrics such as AUC, F1 score, MMD, KS statistic, and BLEU.ResultsSynthetic augmentation improved model performance, yielding validation AUC gains of \u2265 0.04. AMEL achieved an AUC of 0.98 and an F1 score of 0.99 on real data and approached near-perfect internal performance (AUC\u202f\u2248\u202f1.00, F1\u202f\u2248\u202f1.00) when synthetic data were included. Distributional metrics (MMD\u202f=\u202f0.04; KS\u202f=\u202f0.03) and text similarity (BLEU\u202f=\u202f0.70) demonstrated high fidelity between the real and synthetic samples. Ablation studies confirmed the importance of cross-modal attention and entropy-regularized expert gating.DiscussionAutismSynthGen offers a scalable, privacy-compliant solution for augmenting limited multimodal datasets and enhancing ASD prediction. Future directions include semi-supervised learning, explainable AI for clinical trust, and deployment in federated environments to broaden accessibility while maintaining privacy.",
+    "author": "Karthiga M.",
+    "published_date": "2025-11-19T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 262,
+    "reading_time": 1,
+    "created_at": "2025-12-03T17:46:44.164213+00:00",
+    "updated_at": "2025-12-03T17:46:44.164215+00:00"
+  },
+  {
+    "id": "93ca3245718d9611863166669c76d31c",
+    "url": "https://conwaylife.com/forums/viewtopic.php?&p=222136#p222136",
+    "title": "1D Conway's Life glider found, 3.7B cells long",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46137253\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-03T17:24:49+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-03T17:46:11.004157+00:00",
+    "updated_at": "2025-12-03T17:46:11.004158+00:00"
+  },
+  {
+    "id": "93ca3245718d9611863166669c76d31c",
+    "url": "https://conwaylife.com/forums/viewtopic.php?&p=222136#p222136",
+    "title": "1D Conway's Life glider found, 3.7B cells long",
+    "content": "<p>Article URL: <a href=\"https://conwaylife.com/forums/viewtopic.php?&amp;p=222136#p222136\">https://conwaylife.com/forums/viewtopic.php?&amp;p=222136#p222136</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46137253\">https://news.ycombinator.com/item?id=46137253</a></p>\n<p>Points: 21</p>\n<p># Comments: 2</p>",
+    "author": "nooks",
+    "published_date": "2025-12-03T17:24:49+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-03T17:46:09.888199+00:00",
+    "updated_at": "2025-12-03T17:46:09.888210+00:00"
+  },
+  {
     "id": "d32572fe76627ec76e6629413cfa1fac",
     "url": "https://www.biorxiv.org/content/10.1101/10.64898/2025.12.01.690977v1?rss=1",
     "title": "Category learning disentangles representation of trial events in hippocampus CA1",
@@ -17116,86 +17180,6 @@
     "updated_at": "2025-11-29T03:07:55.983282+00:00",
     "metadata": {
       "processed_at": "2025-11-29T03:07:55.983284+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "052e860942b6dd04e5b3ce1b562e0745",
-    "url": "https://thereader.mitpress.mit.edu/the-fatal-trap-ubi-boosters-keep-falling-into/",
-    "title": "The Fatal Trap UBI Boosters Keep Falling Into",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46083730\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-28T23:24:16+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-29T01:38:28.177359+00:00",
-    "updated_at": "2025-11-29T03:07:55.983282+00:00",
-    "metadata": {
-      "processed_at": "2025-11-29T03:07:55.983284+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "c90eeaca2589a9004929d46cf8b526e9",
-    "url": "https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/",
-    "title": "A triangle whose interior angles sum to zero",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46084122\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-29T00:26:42+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-29T01:38:28.177175+00:00",
-    "updated_at": "2025-11-29T03:07:55.983286+00:00",
-    "metadata": {
-      "processed_at": "2025-11-29T03:07:55.983287+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "c90eeaca2589a9004929d46cf8b526e9",
-    "url": "https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/",
-    "title": "A triangle whose interior angles sum to zero",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46084122\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-29T00:26:42+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-29T01:38:28.177175+00:00",
-    "updated_at": "2025-11-29T03:07:55.983286+00:00",
-    "metadata": {
-      "processed_at": "2025-11-29T03:07:55.983287+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "68dbc243a912b7fa1ed50078d6374b26",
-    "url": "https://github.com/Fabric-Project/Fabric",
-    "title": "Fabric Project",
-    "content": "<p>Article URL: <a href=\"https://github.com/Fabric-Project/Fabric\">https://github.com/Fabric-Project/Fabric</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46083375\">https://news.ycombinator.com/item?id=46083375</a></p>\n<p>Points: 21</p>\n<p># Comments: 0</p>",
-    "author": "brcmthrowaway",
-    "published_date": "2025-11-28T22:32:03+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-11-29T01:38:27.070830+00:00",
-    "updated_at": "2025-11-29T03:07:55.983289+00:00",
-    "metadata": {
-      "processed_at": "2025-11-29T03:07:55.983291+00:00",
       "processing_method": "github_actions"
     }
   }
