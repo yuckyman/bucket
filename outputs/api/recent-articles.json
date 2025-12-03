@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-03T03:19:11.222971+00:00",
+  "last_updated": "2025-12-03T04:03:12.007807+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "c21dac6942ed3767b45ef8ca6c689b9d",
+      "url": "http://ieeexplore.ieee.org/document/11005463",
+      "title": "Hybrid KLT\u2014LSTM Tracking for Robust Organ Motion Monitoring in 2D Ultrasound-Guided End-Organ Therapies",
+      "content": "Objective: Recent research highlights the potential of ultrasound (US) stimulation as a noninvasive tool for modulating neural and cellular signaling in the spleen and liver to treat inflammatory diseases and diabetes. However, challenges like nerve activation failures, off-target stimulation, and organ motion during respiration can affect treatment efficacy. This study introduces a novel tracking framework for accurate liver and spleen motion tracking using US imaging to overcome these challenges. Methods: The tracking framework integrates an enhanced Kanade\u2013Lucas\u2013Tomasi (EKLT) tracker with a long short-term memory (LSTM) predictor. The EKLT tracker provides precise annotations that improve LSTM training, while the LSTM compensates for occlusions and noise by making predictions based on prior data and dynamically adjusting the region of interest (ROI). Spleen motion tracking was evaluated using 40 recordings from 10 participants, each undergoing four distinct breathing patterns. Additionally, the method was evaluated on a liver motion dataset from MICCAI, collected from 9 subjects. Results: Spleen tracking was most accurate during slow, shallow breathing, with an average error of 0.4 $\\pm$ 0.4 mm, and had an average error of 1.37 $\\pm$ 0.9 mm during fast, deep breathing. Liver tracking results showed high accuracy with an average error of 0.3 $\\pm$ 0.2 mm. Conclusion: The EKLT-LSTM framework offers advantages over previous tracking models, providing high accuracy in tracking liver and spleen motion under occlusion and noisy conditions. Significance: The EKLT-LSTM is suitable for end-organ modulation applications and can be adapted to other ultrasound-guided therapies and bioelectronic medicine.",
+      "author": "",
+      "published_date": "2025-05-15T13:17:00+00:00",
+      "source": "Transactions Biomedical Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 244,
+      "reading_time": 1,
+      "created_at": "2025-12-03T04:02:57.172370+00:00",
+      "updated_at": "2025-12-03T04:02:57.172372+00:00"
+    },
+    {
+      "id": "2c6df70fdce8d45fe5b34a1294ca7808",
+      "url": "http://ieeexplore.ieee.org/document/11005693",
+      "title": "Personalizing the Pressure Reactivity Index for Quantifying Cerebral Autoregulation in Neurocritical Care",
+      "content": "Objective: The Pressure Reactivity Index (PRx) is a common metric for assessing cerebral autoregulation in neurocritical care. This study aimed to enhance the clinical utility of PRx by developing a personalized PRx algorithm (pPRx) and identifying ideal hyperparameters. Methods: Algorithmic errors were quantified using simulated data and multimodal monitoring data from traumatic brain injury patients from the Track-TBI dataset. Using linear regression, heart rate was identified as a potential cause of PRx error. The pPRx method was developed by reparameterizing PRx averaging to heartbeats. Ideal hyperparameters for the standard PRx algorithm were identified that minimized algorithmic errors. Results: PRx was sensitive to hyperparameters and patient variability. Errors were related to patient heart rates. By parameterizing PRx to heartbeats, the pPRx methodology significantly reduced noise and sensitivity to both patient variability and hyperparameter selection. In the standard PRx algorithm, averaging windows of 10 seconds and correlation windows of 40 samples resulted in the lowest overall error. Conclusion: Personalized PRx enhances the robustness and accuracy of cerebral autoregulation estimation by addressing patient- and hyperparameter-sensitivity. This improvement is crucial for reliable clinical decision-making in neurocritical care. Significance: Robust estimation of cerebral autoregulation would be beneficial for identifying precision medicine targets and improving outcomes for neurocritical care patients. We systematically increased the robustness of PRx to make it more consistent across patient populations.",
+      "author": "",
+      "published_date": "2025-05-15T13:17:00+00:00",
+      "source": "Transactions Biomedical Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 219,
+      "reading_time": 1,
+      "created_at": "2025-12-03T04:02:57.172332+00:00",
+      "updated_at": "2025-12-03T04:02:57.172333+00:00"
+    },
     {
       "id": "3f16a84b6fed4ebda85a17a01a8956cb",
       "url": "http://ieeexplore.ieee.org/document/11003421",
@@ -315,46 +347,6 @@
       "updated_at": "2025-12-03T01:13:02.675182+00:00",
       "metadata": {
         "processed_at": "2025-12-03T01:13:02.675184+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9b9b9688b1b7ad0daae0d07393c16aad",
-      "url": "http://ieeexplore.ieee.org/document/11245797",
-      "title": "Front Cover",
-      "content": "null",
-      "author": "",
-      "published_date": "2025-11-13T13:16:42+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1,
-      "reading_time": 1,
-      "created_at": "2025-12-02T23:40:45.572984+00:00",
-      "updated_at": "2025-12-03T01:13:02.675186+00:00",
-      "metadata": {
-        "processed_at": "2025-12-03T01:13:02.675188+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "823d0d0bf34060d5d97a354f74a58f89",
-      "url": "https://www.reddit.com/r/Python/comments/1pcltvg/project_redlightdl_phshorts_a_cli_tool_to/",
-      "title": "[Project] RedLightDL (ph-shorts): A CLI tool to download videos from adult websites)",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently updated my tool to support more websites. This is a Python-based downloader available on PyPI.</p> <h1>What My Project Does</h1> <p>RedLightDL (installable via <code>pip install ph-shorts</code>) is a CLI utility designed to scrape and download videos from supported adult websites. It parses the video pages to extract direct links and allows users to choose from multiple available video qualities (resolutions) before downloading. It leverages an API-like structure for easy integration.</p> <h1>Target Audience</h1> <p>This tool is intended for:</p> <ul> <li><strong>Developers:</strong> Those interested in web scraping examples using <code>requests</code> and <code>bs4</code>, or looking for a reference on building clean CLI interfaces using <code>click</code> and <code>rich</code>.</li> <li><strong>Archivists/Users:</strong> Anyone needing a simple, lightweight tool to archive content locally from the specific supported platforms.</li> <li>It is currently a hobby project but robust enough for daily usage.</li> </ul> <h1>Comparison</h1> <p>While comprehensive tools like <strong>yt-dlp</strong> cover a vast range of sites, RedLightDL focuses specifically on a curated list of adult platforms, aiming to be a lightweight and dedicated alternative. Unlike generic scrapers, it provides a specialized CLI interface (powered by Rich) specifically tuned for these sites. 100% Made By AI</p> <p><strong>Tech Stack:</strong></p> <ul> <li>Built with <code>requests</code>, <code>bs4</code> (BeautifulSoup), <code>click</code>, and <code>rich</code>.</li> <li>Code assisted by AI but reviewed and cleaned for functionality.</li> <li>Includes documentation and a structured API approach.</li> </ul> <p><strong>Installation:</strong></p> <p>Bash</p> <pre><code>pip install ph-shorts </code></pre> <p><strong>Source Code:</strong> <a href=\"https://github.com/diastom/RedLightDL\">https://github.com/diastom/RedLightDL</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/diastom\"> /u/diastom </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pcltvg/project_redlightdl_phshorts_a_cli_tool_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pcltvg/project_redlightdl_phshorts_a_cli_tool_to/\">[comments]</a></span>",
-      "author": "/u/diastom",
-      "published_date": "2025-12-02T21:56:02+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 244,
-      "reading_time": 1,
-      "created_at": "2025-12-02T23:39:49.826774+00:00",
-      "updated_at": "2025-12-03T01:13:02.675190+00:00",
-      "metadata": {
-        "processed_at": "2025-12-03T01:13:02.675192+00:00",
         "processing_method": "github_actions"
       }
     }

@@ -1,5 +1,37 @@
 [
   {
+    "id": "c21dac6942ed3767b45ef8ca6c689b9d",
+    "url": "http://ieeexplore.ieee.org/document/11005463",
+    "title": "Hybrid KLT\u2014LSTM Tracking for Robust Organ Motion Monitoring in 2D Ultrasound-Guided End-Organ Therapies",
+    "content": "Objective: Recent research highlights the potential of ultrasound (US) stimulation as a noninvasive tool for modulating neural and cellular signaling in the spleen and liver to treat inflammatory diseases and diabetes. However, challenges like nerve activation failures, off-target stimulation, and organ motion during respiration can affect treatment efficacy. This study introduces a novel tracking framework for accurate liver and spleen motion tracking using US imaging to overcome these challenges. Methods: The tracking framework integrates an enhanced Kanade\u2013Lucas\u2013Tomasi (EKLT) tracker with a long short-term memory (LSTM) predictor. The EKLT tracker provides precise annotations that improve LSTM training, while the LSTM compensates for occlusions and noise by making predictions based on prior data and dynamically adjusting the region of interest (ROI). Spleen motion tracking was evaluated using 40 recordings from 10 participants, each undergoing four distinct breathing patterns. Additionally, the method was evaluated on a liver motion dataset from MICCAI, collected from 9 subjects. Results: Spleen tracking was most accurate during slow, shallow breathing, with an average error of 0.4 $\\pm$ 0.4 mm, and had an average error of 1.37 $\\pm$ 0.9 mm during fast, deep breathing. Liver tracking results showed high accuracy with an average error of 0.3 $\\pm$ 0.2 mm. Conclusion: The EKLT-LSTM framework offers advantages over previous tracking models, providing high accuracy in tracking liver and spleen motion under occlusion and noisy conditions. Significance: The EKLT-LSTM is suitable for end-organ modulation applications and can be adapted to other ultrasound-guided therapies and bioelectronic medicine.",
+    "author": "",
+    "published_date": "2025-05-15T13:17:00+00:00",
+    "source": "Transactions Biomedical Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 244,
+    "reading_time": 1,
+    "created_at": "2025-12-03T04:02:57.172370+00:00",
+    "updated_at": "2025-12-03T04:02:57.172372+00:00"
+  },
+  {
+    "id": "2c6df70fdce8d45fe5b34a1294ca7808",
+    "url": "http://ieeexplore.ieee.org/document/11005693",
+    "title": "Personalizing the Pressure Reactivity Index for Quantifying Cerebral Autoregulation in Neurocritical Care",
+    "content": "Objective: The Pressure Reactivity Index (PRx) is a common metric for assessing cerebral autoregulation in neurocritical care. This study aimed to enhance the clinical utility of PRx by developing a personalized PRx algorithm (pPRx) and identifying ideal hyperparameters. Methods: Algorithmic errors were quantified using simulated data and multimodal monitoring data from traumatic brain injury patients from the Track-TBI dataset. Using linear regression, heart rate was identified as a potential cause of PRx error. The pPRx method was developed by reparameterizing PRx averaging to heartbeats. Ideal hyperparameters for the standard PRx algorithm were identified that minimized algorithmic errors. Results: PRx was sensitive to hyperparameters and patient variability. Errors were related to patient heart rates. By parameterizing PRx to heartbeats, the pPRx methodology significantly reduced noise and sensitivity to both patient variability and hyperparameter selection. In the standard PRx algorithm, averaging windows of 10 seconds and correlation windows of 40 samples resulted in the lowest overall error. Conclusion: Personalized PRx enhances the robustness and accuracy of cerebral autoregulation estimation by addressing patient- and hyperparameter-sensitivity. This improvement is crucial for reliable clinical decision-making in neurocritical care. Significance: Robust estimation of cerebral autoregulation would be beneficial for identifying precision medicine targets and improving outcomes for neurocritical care patients. We systematically increased the robustness of PRx to make it more consistent across patient populations.",
+    "author": "",
+    "published_date": "2025-05-15T13:17:00+00:00",
+    "source": "Transactions Biomedical Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 219,
+    "reading_time": 1,
+    "created_at": "2025-12-03T04:02:57.172332+00:00",
+    "updated_at": "2025-12-03T04:02:57.172333+00:00"
+  },
+  {
     "id": "3f16a84b6fed4ebda85a17a01a8956cb",
     "url": "http://ieeexplore.ieee.org/document/11003421",
     "title": "Quantifying the Role of Duodenal Shape in Flow and Mixing: A Computational Fluid Dynamics Study on Anatomically Diverse Models",
@@ -17158,37 +17190,5 @@
     "reading_time": 1,
     "created_at": "2025-11-28T12:42:17.967158+00:00",
     "updated_at": "2025-11-28T12:42:17.967160+00:00"
-  },
-  {
-    "id": "03300367dec4ce6f181e6a606f353e74",
-    "url": "https://www.bbc.com/future/article/20251125-the-mysterious-black-fungus-from-chernobyl-that-appears-to-eat-radiation",
-    "title": "The mysterious black fungus from Chernobyl that may eat radiation",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46077992\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-28T12:17:15+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-28T12:42:17.967137+00:00",
-    "updated_at": "2025-11-28T12:42:17.967139+00:00"
-  },
-  {
-    "id": "0c0a533519ba14e4fb464af06d053eef",
-    "url": "https://www.theverge.com/news/826902/gmail-ai-training-data-opt-out",
-    "title": "Google denies 'misleading' reports of Gmail using your emails to train AI",
-    "content": "<p>Article URL: <a href=\"https://www.theverge.com/news/826902/gmail-ai-training-data-opt-out\">https://www.theverge.com/news/826902/gmail-ai-training-data-opt-out</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46077404\">https://news.ycombinator.com/item?id=46077404</a></p>\n<p>Points: 32</p>\n<p># Comments: 19</p>",
-    "author": "causenad",
-    "published_date": "2025-11-28T10:38:41+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-11-28T12:42:16.866324+00:00",
-    "updated_at": "2025-11-28T12:42:16.866326+00:00"
   }
 ]
