@@ -1,5 +1,37 @@
 [
   {
+    "id": "dd341546da25a51e69f919cdb17debed",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.03.692162v1?rss=1",
+    "title": "NVUAtlas: A Comprehensive Single-Nucleus RNA-Seq Resource for the Human Neurovascular Unit in Alzheimer's Disease",
+    "content": "Background: Neurovascular unit (NVU) dysfunction is being recognized as one of the earliest contributors to Alzheimer's disease (AD) pathogenesis. However, systematic investigation of NVU dysfunction is currently limited by lack of access to molecular level information due to underrepresentation of vascular and mural cells in standard single-nucleus RNA sequencing (snRNA-seq) datasets. Consequently, existing transcriptomic atlases lack the resolution necessary to capture the coordinated intercellular signaling and dysfunction across vascular components of NVU, including endothelial cells and pericytes. Methods: We constructed the Human NVU Atlas by integrating 11 publicly available snRNA-seq datasets, including vascular-enriched samples, from the human prefrontal cortex. This comprehensive dataset aggregates over 4.2 million nuclei from 748 donors, including AD patients and age-matched controls. We utilized a unified probabilistic pipeline based on deep generative models (SCVI) to perform batch-aware integration and employed an ensemble of supervised and deep-learning classifiers to rigorously re-annotate cell types. Differential expression and ligand-receptor interaction analyses were subsequently performed to identify cell-type-specific disruptions in males versus females. Results: The atlas successfully curated vascular populations from 11 studies to assemble the largest publicly available NVU cohort of endothelial cells (2.8%) and pericytes (1.9%) alongside astrocytes and neurons. Differential expression analysis revealed that while neurons predominantly exhibited gene downregulation in AD, vascular cells displayed a pattern of transcriptional hyperactivity with significant gene upregulation. We also identified pronounced sex-specific vulnerabilities; females exhibited distinct inflammatory signatures and downregulation of basement membrane collagen genes (e.g., COL4A1, COL4A2) in pericytes, whereas these changes were not observed in males. Moreover, cell-cell interaction analysis revealed a widespread loss of collagen-integrin signaling between pericytes and neurons, suggesting the involvement of extracellular matrix disruptions in NVU dysfunction observed in AD. Conclusion: The Human NVU Atlas provides a high-resolution, integrated transcriptomic framework for dissecting the cellular heterogeneity of the neurovascular unit. By uncovering sex-specific vascular mechanisms and disrupted intercellular communication, this resource highlights the critical role of vascular cells in AD progression and serves as a foundational reference for investigating cerebrovascular contribution to AD.",
+    "author": "Tang, X., Nelson, D. A., Hernaez, M., Kandimalla, K. K., Kalari, K. R.",
+    "published_date": "2025-12-04T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 329,
+    "reading_time": 1,
+    "created_at": "2025-12-04T20:26:45.032037+00:00",
+    "updated_at": "2025-12-04T20:26:45.032042+00:00"
+  },
+  {
+    "id": "30f12e0c16421e22d4b0beb4546a432a",
+    "url": "https://nickmaini.substack.com/p/hammersmith-bridge",
+    "title": "Hammersmith Bridge \u2013 Where did 25,000 vehicles go?",
+    "content": "<p>Article URL: <a href=\"https://nickmaini.substack.com/p/hammersmith-bridge\">https://nickmaini.substack.com/p/hammersmith-bridge</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46151335\">https://news.ycombinator.com/item?id=46151335</a></p>\n<p>Points: 9</p>\n<p># Comments: 1</p>",
+    "author": "tobr",
+    "published_date": "2025-12-04T18:52:22+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-04T20:26:02.078924+00:00",
+    "updated_at": "2025-12-04T20:26:02.078926+00:00"
+  },
+  {
     "id": "f5723c8b1453705984d37ffe2f0cc535",
     "url": "https://www.jeffgeerling.com/blog/2025/ram-shortage-comes-us-all",
     "title": "The RAM Shortage Comes for Us All",
@@ -16972,46 +17004,6 @@
     "updated_at": "2025-11-30T22:14:23.756408+00:00",
     "metadata": {
       "processed_at": "2025-11-30T22:14:23.756416+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "f04f02121b1d13836df0a2b01a861136",
-    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1681341",
-    "title": "UAV-based intelligent traffic surveillance using recurrent neural networks and Swin transformer for dynamic environments",
-    "content": "IntroductionUrban traffic congestion, environmental degradation, and road safety challenges necessitate intelligent aerial robotic systems capable of real-time adaptive decision-making. Unmanned Aerial Vehicles (UAVs), with their flexible deployment and high vantage point, offer a promising solution for large-scale traffic surveillance in complex urban environments. This study introduces a UAV-based neural framework that addresses challenges such as asymmetric vehicle motion, scale variations, and spatial inconsistencies in aerial imagery.MethodsThe proposed system integrates a multi-stage pipeline encompassing contrast enhancement and region-based clustering to optimize segmentation while maintaining computational efficiency for resource-constrained UAV platforms. Vehicle detection is carried out using a Recurrent Neural Network (RNN), optimized via a hybrid loss function combining cross-entropy and mean squared error to improve localization and confidence estimation. Upon detection, the system branches into two neural submodules: (i) a classification stream utilizing SURF and BRISK descriptors integrated with a Swin Transformer backbone for precise vehicle categorization, and (ii) a multi-object tracking stream employing DeepSORT, which fuses motion and appearance features within an affinity matrix for robust trajectory association.ResultsComprehensive evaluation on three benchmark UAV datasets\u2014AU-AIR, UAVDT, and VAID shows consistent and high performance. The model achieved detection precisions of 0.913, 0.930, and 0.920; tracking precisions of 0.901, 0.881, and 0.890; and classification accuracies of 92.14, 92.75, and 91.25%, respectively.DiscussionThese findings highlight the adaptability, robustness, and real-time viability of the proposed architecture in aerial traffic surveillance applications. By effectively integrating detection, classification, and tracking within a unified neural framework, the system contributes significant advancements to intelligent UAV-based traffic monitoring and supports future developments in smart city mobility and decision-making systems.",
-    "author": "Hui Liu",
-    "published_date": "2025-10-13T00:00:00+00:00",
-    "source": "Frontiers Neurorobotics",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 258,
-    "reading_time": 1,
-    "created_at": "2025-11-30T21:38:51.193993+00:00",
-    "updated_at": "2025-11-30T22:14:23.756421+00:00",
-    "metadata": {
-      "processed_at": "2025-11-30T22:14:23.756422+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "af9955da13697cdc0dba672afc9d5610",
-    "url": "https://twitter.com/hkashfi/status/1995109785679573167",
-    "title": "\"Boobs check\" verify if sites behind CDN are hosted in Inside Iran or not",
-    "content": "<p>Article URL: <a href=\"https://twitter.com/hkashfi/status/1995109785679573167\">https://twitter.com/hkashfi/status/1995109785679573167</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46100323\">https://news.ycombinator.com/item?id=46100323</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
-    "author": "defly",
-    "published_date": "2025-11-30T20:54:43+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-11-30T21:38:23.616646+00:00",
-    "updated_at": "2025-11-30T22:14:23.756425+00:00",
-    "metadata": {
-      "processed_at": "2025-11-30T22:14:23.756426+00:00",
       "processing_method": "github_actions"
     }
   }
