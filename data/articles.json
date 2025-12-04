@@ -1,5 +1,53 @@
 [
   {
+    "id": "f79a26681f388fa275cc48f4d0df0ae8",
+    "url": "https://www.reddit.com/r/Python/comments/1peelsy/i_built_an_automated_court_scraper_because/",
+    "title": "I built an automated court scraper because finding a good lawyer shouldn't be a guessing game",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I recently caught 2 cases, 1 criminal and 1 civil and I realized how incredibly difficult it is for the average person to find a suitable lawyer for their specific situation. There's two ways the average person look for a lawyer, a simple google search based on SEO ( google doesn't know to rank attorneys ) or through connections, which is basically flying blind. Trying to navigate court systems to actually see an attorney\u2019s track record is a nightmare, the portals are clunky, slow, and often require manual searching case-by-case, it's as if it's built by people who DOESN'T want you to use their system.</p> <p>So, I built CourtScrapper to fix this.</p> <p>It\u2019s an open-source Python tool that automates extracting case information from the Dallas County Courts Portal (with plans to expand). It lets you essentially &quot;background check&quot; an attorney's actual case history to see what they\u2019ve handled and how it went.</p> <p><strong>What My Project Does</strong></p> <ul> <li>Multi-Attorney Search: You can input a list of attorneys and it searches them all concurrently.</li> <li>Deep Filtering: Filters by case type (e.g., Felony), charge keywords (e.g., &quot;Assault&quot;, &quot;Theft&quot;), and date ranges.</li> <li>Captcha Handling: Automatically handles the court\u2019s captchas using 2Captcha (or manual input if you prefer).</li> <li>Data Export: Dumps everything into clean Excel/CSV/JSON files so you can actually analyze the data.</li> </ul> <p><strong>Target Audience</strong></p> <ul> <li>The average person who is looking for a lawyer that makes sense for their particular situation</li> </ul> <p><strong>Comparison</strong> </p> <ul> <li>Enterprise software that has API connections to state courts e.g. lexus nexus, west law </li> </ul> <p><strong>The Tech Stack:</strong></p> <ul> <li>Python</li> <li>Playwright (for browser automation/stealth)</li> <li>Pandas (for data formatting)</li> </ul> <p><strong>My personal use case:</strong></p> <ol> <li>Gather a list of attorneys I found through google</li> <li>Adjust the values in the config file to determine the cases to be scraped</li> <li>Program generates the excel sheet with the cases for the listed attorneys</li> <li>I personally go through each case to determine if I should consider it for my particular situation</li> </ol> <p>I\u2019d love for you guys to roast my code or give me some feedback. I\u2019m looking to make this more robust and potentially support more counties.</p> <p>Repo here:<a href=\"https://github.com/Fennzo/CourtScrapper\">https://github.com/Fennzo/CourtScrapper</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Unlikely90\"> /u/Unlikely90 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1peelsy/i_built_an_automated_court_scraper_because/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1peelsy/i_built_an_automated_court_scraper_because/\">[comments]</a></span>",
+    "author": "/u/Unlikely90",
+    "published_date": "2025-12-04T22:57:49+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 382,
+    "reading_time": 1,
+    "created_at": "2025-12-04T23:40:17.965672+00:00",
+    "updated_at": "2025-12-04T23:40:17.965674+00:00"
+  },
+  {
+    "id": "e3e112573f048db6dacfca71c983536d",
+    "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+    "title": "SMS phishers pivot to points, taxes, fake retailers",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46154484\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-04T23:08:07+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-04T23:40:16.728263+00:00",
+    "updated_at": "2025-12-04T23:40:16.728265+00:00"
+  },
+  {
+    "id": "e3e112573f048db6dacfca71c983536d",
+    "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+    "title": "SMS phishers pivot to points, taxes, fake retailers",
+    "content": "<p>Article URL: <a href=\"https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/\">https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46154484\">https://news.ycombinator.com/item?id=46154484</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+    "author": "todsacerdoti",
+    "published_date": "2025-12-04T23:08:07+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-04T23:40:15.448372+00:00",
+    "updated_at": "2025-12-04T23:40:15.448374+00:00"
+  },
+  {
     "id": "841f06f1f4bbb2ab907b1bec32ba7a1f",
     "url": "https://openrouter.ai/state-of-ai",
     "title": "State of AI: An Empirical 100T Token Study with OpenRouter",
@@ -16914,61 +16962,5 @@
     "reading_time": 1,
     "created_at": "2025-12-01T03:55:39.240517+00:00",
     "updated_at": "2025-12-01T03:55:39.240519+00:00"
-  },
-  {
-    "id": "d0a8d3d54b13a1dc8ae2a105256035ff",
-    "url": "https://www.23andmedatasettlement.com/",
-    "title": "In Re: 23andMe, Inc. Customer Data Security Breach Litigation",
-    "content": "<p>Article URL: <a href=\"https://www.23andmedatasettlement.com/\">https://www.23andmedatasettlement.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46102583\">https://news.ycombinator.com/item?id=46102583</a></p>\n<p>Points: 52</p>\n<p># Comments: 28</p>",
-    "author": "toomuchtodo",
-    "published_date": "2025-12-01T01:54:16+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-01T03:55:39.240444+00:00",
-    "updated_at": "2025-12-01T03:55:39.240452+00:00"
-  },
-  {
-    "id": "96a9511df82f2424b59beed9e50ef22b",
-    "url": "https://www.reddit.com/r/Python/comments/1paxlzf/monday_daily_thread_project_ideas/",
-    "title": "Monday Daily Thread: Project ideas!",
-    "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: Project Ideas \ud83d\udca1</h1> <p>Welcome to our weekly Project Ideas thread! Whether you're a newbie looking for a first project or an expert seeking a new challenge, this is the place for you.</p> <h2>How it Works:</h2> <ol> <li><strong>Suggest a Project</strong>: Comment your project idea\u2014be it beginner-friendly or advanced.</li> <li><strong>Build &amp; Share</strong>: If you complete a project, reply to the original comment, share your experience, and attach your source code.</li> <li><strong>Explore</strong>: Looking for ideas? Check out Al Sweigart's <a href=\"https://www.amazon.com/Big-Book-Small-Python-Programming/dp/1718501242\">&quot;The Big Book of Small Python Projects&quot;</a> for inspiration.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Clearly state the difficulty level.</li> <li>Provide a brief description and, if possible, outline the tech stack.</li> <li>Feel free to link to tutorials or resources that might help.</li> </ul> <h1>Example Submissions:</h1> <h2>Project Idea: Chatbot</h2> <p><strong>Difficulty</strong>: Intermediate</p> <p><strong>Tech Stack</strong>: Python, NLP, Flask/FastAPI/Litestar </p> <p><strong>Description</strong>: Create a chatbot that can answer FAQs for a website.</p> <p><strong>Resources</strong>: <a href=\"https://www.youtube.com/watch?v=a37BL0stIuM\">Building a Chatbot with Python</a></p> <h1>Project Idea: Weather Dashboard</h1> <p><strong>Difficulty</strong>: Beginner</p> <p><strong>Tech Stack</strong>: HTML, CSS, JavaScript, API</p> <p><strong>Description</strong>: Build a dashboard that displays real-time weather information using a weather API.</p> <p><strong>Resources</strong>: <a href=\"https://www.youtube.com/watch?v=9P5MY_2i7K8\">Weather API Tutorial</a></p> <h2>Project Idea: File Organizer</h2> <p><strong>Difficulty</strong>: Beginner</p> <p><strong>Tech Stack</strong>: Python, File I/O</p> <p><strong>Description</strong>: Create a script that organizes files in a directory into sub-folders based on file type.</p> <p><strong>Resources</strong>: <a href=\"https://automatetheboringstuff.com/2e/chapter9/\">Automate the Boring Stuff: Organizing Files</a></p> <p>Let's help each other grow. Happy coding! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1paxlzf/monday_daily_thread_project_ideas/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1paxlzf/monday_daily_thread_project_ideas/\">[comments]</a></span>",
-    "author": "/u/AutoModerator",
-    "published_date": "2025-12-01T00:00:36+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 244,
-    "reading_time": 1,
-    "created_at": "2025-12-01T01:57:57.813059+00:00",
-    "updated_at": "2025-12-01T03:46:46.732516+00:00",
-    "metadata": {
-      "processed_at": "2025-12-01T03:46:46.732528+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "6d5cd027e0a8d8f78c811a7c7f06d517",
-    "url": "https://www.404media.co/grokipedia-is-the-antithesis-of-everything-that-makes-wikipedia-good-useful-and-human/",
-    "title": "Grokipedia Is the Antithesis of Wikipedia",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46101949\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-01T00:22:31+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-01T01:57:56.331947+00:00",
-    "updated_at": "2025-12-01T03:46:46.732532+00:00",
-    "metadata": {
-      "processed_at": "2025-12-01T03:46:46.732534+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]

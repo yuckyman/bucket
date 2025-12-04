@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-12-04T23:21:31.005440+00:00",
+  "last_updated": "2025-12-04T23:41:23.912104+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "f79a26681f388fa275cc48f4d0df0ae8",
+      "url": "https://www.reddit.com/r/Python/comments/1peelsy/i_built_an_automated_court_scraper_because/",
+      "title": "I built an automated court scraper because finding a good lawyer shouldn't be a guessing game",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I recently caught 2 cases, 1 criminal and 1 civil and I realized how incredibly difficult it is for the average person to find a suitable lawyer for their specific situation. There's two ways the average person look for a lawyer, a simple google search based on SEO ( google doesn't know to rank attorneys ) or through connections, which is basically flying blind. Trying to navigate court systems to actually see an attorney\u2019s track record is a nightmare, the portals are clunky, slow, and often require manual searching case-by-case, it's as if it's built by people who DOESN'T want you to use their system.</p> <p>So, I built CourtScrapper to fix this.</p> <p>It\u2019s an open-source Python tool that automates extracting case information from the Dallas County Courts Portal (with plans to expand). It lets you essentially &quot;background check&quot; an attorney's actual case history to see what they\u2019ve handled and how it went.</p> <p><strong>What My Project Does</strong></p> <ul> <li>Multi-Attorney Search: You can input a list of attorneys and it searches them all concurrently.</li> <li>Deep Filtering: Filters by case type (e.g., Felony), charge keywords (e.g., &quot;Assault&quot;, &quot;Theft&quot;), and date ranges.</li> <li>Captcha Handling: Automatically handles the court\u2019s captchas using 2Captcha (or manual input if you prefer).</li> <li>Data Export: Dumps everything into clean Excel/CSV/JSON files so you can actually analyze the data.</li> </ul> <p><strong>Target Audience</strong></p> <ul> <li>The average person who is looking for a lawyer that makes sense for their particular situation</li> </ul> <p><strong>Comparison</strong> </p> <ul> <li>Enterprise software that has API connections to state courts e.g. lexus nexus, west law </li> </ul> <p><strong>The Tech Stack:</strong></p> <ul> <li>Python</li> <li>Playwright (for browser automation/stealth)</li> <li>Pandas (for data formatting)</li> </ul> <p><strong>My personal use case:</strong></p> <ol> <li>Gather a list of attorneys I found through google</li> <li>Adjust the values in the config file to determine the cases to be scraped</li> <li>Program generates the excel sheet with the cases for the listed attorneys</li> <li>I personally go through each case to determine if I should consider it for my particular situation</li> </ol> <p>I\u2019d love for you guys to roast my code or give me some feedback. I\u2019m looking to make this more robust and potentially support more counties.</p> <p>Repo here:<a href=\"https://github.com/Fennzo/CourtScrapper\">https://github.com/Fennzo/CourtScrapper</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Unlikely90\"> /u/Unlikely90 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1peelsy/i_built_an_automated_court_scraper_because/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1peelsy/i_built_an_automated_court_scraper_because/\">[comments]</a></span>",
+      "author": "/u/Unlikely90",
+      "published_date": "2025-12-04T22:57:49+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 382,
+      "reading_time": 1,
+      "created_at": "2025-12-04T23:40:17.965672+00:00",
+      "updated_at": "2025-12-04T23:40:17.965674+00:00"
+    },
+    {
+      "id": "e3e112573f048db6dacfca71c983536d",
+      "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+      "title": "SMS phishers pivot to points, taxes, fake retailers",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46154484\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-04T23:08:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-04T23:40:16.728263+00:00",
+      "updated_at": "2025-12-04T23:40:16.728265+00:00"
+    },
+    {
+      "id": "e3e112573f048db6dacfca71c983536d",
+      "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+      "title": "SMS phishers pivot to points, taxes, fake retailers",
+      "content": "<p>Article URL: <a href=\"https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/\">https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46154484\">https://news.ycombinator.com/item?id=46154484</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "author": "todsacerdoti",
+      "published_date": "2025-12-04T23:08:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-04T23:40:15.448372+00:00",
+      "updated_at": "2025-12-04T23:40:15.448374+00:00"
+    },
     {
       "id": "841f06f1f4bbb2ab907b1bec32ba7a1f",
       "url": "https://openrouter.ai/state-of-ai",
@@ -293,62 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-04T20:26:45.032037+00:00",
       "updated_at": "2025-12-04T20:26:45.032042+00:00"
-    },
-    {
-      "id": "30f12e0c16421e22d4b0beb4546a432a",
-      "url": "https://nickmaini.substack.com/p/hammersmith-bridge",
-      "title": "Hammersmith Bridge \u2013 Where did 25,000 vehicles go?",
-      "content": "<p>Article URL: <a href=\"https://nickmaini.substack.com/p/hammersmith-bridge\">https://nickmaini.substack.com/p/hammersmith-bridge</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46151335\">https://news.ycombinator.com/item?id=46151335</a></p>\n<p>Points: 9</p>\n<p># Comments: 1</p>",
-      "author": "tobr",
-      "published_date": "2025-12-04T18:52:22+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-04T20:26:02.078924+00:00",
-      "updated_at": "2025-12-04T20:26:02.078926+00:00"
-    },
-    {
-      "id": "f5723c8b1453705984d37ffe2f0cc535",
-      "url": "https://www.jeffgeerling.com/blog/2025/ram-shortage-comes-us-all",
-      "title": "The RAM Shortage Comes for Us All",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46151578\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-04T19:16:11+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-04T19:40:31.344832+00:00",
-      "updated_at": "2025-12-04T20:18:21.706730+00:00",
-      "metadata": {
-        "processed_at": "2025-12-04T20:18:21.706739+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f5723c8b1453705984d37ffe2f0cc535",
-      "url": "https://www.jeffgeerling.com/blog/2025/ram-shortage-comes-us-all",
-      "title": "The RAM Shortage Comes for Us All",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46151578\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-04T19:16:11+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-04T19:40:31.344832+00:00",
-      "updated_at": "2025-12-04T20:18:21.706730+00:00",
-      "metadata": {
-        "processed_at": "2025-12-04T20:18:21.706739+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
