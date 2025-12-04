@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-04T15:27:15.805823+00:00",
+  "last_updated": "2025-12-04T15:48:27.123580+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "7a8f872dd63b73ffd0ee7fcd46bc06a5",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1706099",
+      "title": "CNN-based framework for Alzheimer's disease detection from EEG via dynamic mode decomposition",
+      "content": "Alzheimer's disease (AD) and frontotemporal dementia (FTD) are major neurodegenerative disorders with characteristic EEG alterations. While most prior studies have focused on eyes-closed (EC) EEG, where stable alpha rhythms support relatively high classification performance, eyes-open (EO) EEG has proven particularly challenging for AD, as low-frequency instability obscures the typical spectral alterations. In contrast, FTD often remains more discriminable under EO conditions, reflecting distinct neurophysiological dynamics between the two disorders. To address this challenge, we propose a CNN-based framework that applies Dynamic Mode Decomposition (DMD) to segment EO EEG into shorter temporal windows and employs a 3D CNN to capture spatio-temporal-spectral representations. This approach outperformed not only the conventional short-epoch spectral ML pipeline but also the same CNN architecture trained on FFT-based features, with particularly pronounced improvements observed in AD classification. Excluding delta yielded small gains in AD-involving contrasts, whereas FTD/CN was unchanged or slightly better with delta retained\u2014suggesting delta is more perturbative in AD under EO conditions.",
+      "author": "Jong-Hyeon Seo",
+      "published_date": "2025-11-20T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 157,
+      "reading_time": 1,
+      "created_at": "2025-12-04T15:47:47.080177+00:00",
+      "updated_at": "2025-12-04T15:47:47.080182+00:00"
+    },
+    {
+      "id": "8ba87a1a80c51448242550059b7899e3",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1688394",
+      "title": "Depletion of CD169+ border-associated macrophages induces Parkinson\u2019s disease-like behavior",
+      "content": "Parkinson\u2019s disease (PD) and Alzheimer\u2019s disease (AD) present with complex behavioral symptoms that can arise in the absence of overt structural brain damage. Recent evidence suggests that border-associated macrophages (BAMs) located at the brain\u2019s interfaces regulate central nervous system function, yet the specific roles of distinct BAM subsets remain largely undefined. By reanalyzing single-nucleus RNA sequencing data from postmortem PD brains, we identified a BAM subset expressing CD169 that was significantly reduced in patients compared with controls. To examine their function, we employed CD169-DTR mice to selectively ablate CD169+ BAMs and evaluated behavioral and histological changes. Depletion of CD169+ BAMs induced tremors, abnormal hindlimb reflexes, and heightened anxiety-like behavior without dopaminergic neuron loss. Histological analysis revealed a pronounced reduction of mitral and tufted cells in the olfactory bulb, indicating disruption of olfactory-limbic circuitry. These findings demonstrate that CD169+ BAMs are critical for maintaining neural network stability and motor function, and that their loss can elicit PD-like phenotypes in the absence of classical dopaminergic neurodegeneration. This work establishes a novel mouse model linking brain-border immune cell dysfunction to Parkinsonian pathology and highlights a neuroimmune mechanism that may contribute to the onset of PD-like disorders.",
+      "author": "Hitoshi Hirata",
+      "published_date": "2025-12-04T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 193,
+      "reading_time": 1,
+      "created_at": "2025-12-04T15:47:40.704662+00:00",
+      "updated_at": "2025-12-04T15:47:40.704664+00:00"
+    },
     {
       "id": "dbaa669801a06dddeaf1283aee0b0013",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452225011224?dgcid=rss_sd_all",
@@ -289,38 +321,6 @@
       "reading_time": 1,
       "created_at": "2025-12-04T14:49:23.764200+00:00",
       "updated_at": "2025-12-04T14:49:23.764205+00:00"
-    },
-    {
-      "id": "a41ede324238c66049853a54c22a171c",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1746610",
-      "title": "Editorial: Algorithm-hardware co-optimization in neuromorphic computing for efficient AI",
-      "content": "",
-      "author": "Manolis Sifalakis",
-      "published_date": "2025-12-04T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-04T14:49:09.336644+00:00",
-      "updated_at": "2025-12-04T14:49:09.336646+00:00"
-    },
-    {
-      "id": "87541b305d4daf1c94baadfdf8f024f7",
-      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae1ea2",
-      "title": "Magnetoencephalography (MEG) based non-invasive Chinese speech decoding",
-      "content": "Objective. As an emerging paradigm of brain\u2013computer interfaces (BCIs), speech BCI has the potential to directly reflect auditory perception and thoughts, offering a promising communication alternative for patients with aphasia. Chinese is one of the most widely spoken languages in the world, whereas there is very limited research on speech BCIs for Chinese language. Approach. This paper reports a text-magnetoencephalography (MEG) dataset for non-invasive Chinese speech BCIs. It also proposes a multi-modality assisted speech decoding (MASD) algorithm to capture both text and acoustic information embedded in brain signals during speech activities. Main results. Experiment results demonstrated the effectiveness of both our text-MEG dataset and our proposed MASD algorithm. Significance. To our knowledge, this is the first study on multi-modality assisted decoding for non-invasive Chinese speech BCIs.",
-      "author": "Zhihong Jia, Hongbin Wang, Yuanzhong Shen, Feng Hu, Jiayu An, Kai Shu and Dongrui Wu",
-      "published_date": "2025-11-25T00:00:00+00:00",
-      "source": "Journal Neural Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 126,
-      "reading_time": 1,
-      "created_at": "2025-12-04T14:49:07.146896+00:00",
-      "updated_at": "2025-12-04T14:49:07.146897+00:00"
     }
   ]
 }

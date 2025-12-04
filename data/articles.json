@@ -1,5 +1,37 @@
 [
   {
+    "id": "7a8f872dd63b73ffd0ee7fcd46bc06a5",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1706099",
+    "title": "CNN-based framework for Alzheimer's disease detection from EEG via dynamic mode decomposition",
+    "content": "Alzheimer's disease (AD) and frontotemporal dementia (FTD) are major neurodegenerative disorders with characteristic EEG alterations. While most prior studies have focused on eyes-closed (EC) EEG, where stable alpha rhythms support relatively high classification performance, eyes-open (EO) EEG has proven particularly challenging for AD, as low-frequency instability obscures the typical spectral alterations. In contrast, FTD often remains more discriminable under EO conditions, reflecting distinct neurophysiological dynamics between the two disorders. To address this challenge, we propose a CNN-based framework that applies Dynamic Mode Decomposition (DMD) to segment EO EEG into shorter temporal windows and employs a 3D CNN to capture spatio-temporal-spectral representations. This approach outperformed not only the conventional short-epoch spectral ML pipeline but also the same CNN architecture trained on FFT-based features, with particularly pronounced improvements observed in AD classification. Excluding delta yielded small gains in AD-involving contrasts, whereas FTD/CN was unchanged or slightly better with delta retained\u2014suggesting delta is more perturbative in AD under EO conditions.",
+    "author": "Jong-Hyeon Seo",
+    "published_date": "2025-11-20T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 157,
+    "reading_time": 1,
+    "created_at": "2025-12-04T15:47:47.080177+00:00",
+    "updated_at": "2025-12-04T15:47:47.080182+00:00"
+  },
+  {
+    "id": "8ba87a1a80c51448242550059b7899e3",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1688394",
+    "title": "Depletion of CD169+ border-associated macrophages induces Parkinson\u2019s disease-like behavior",
+    "content": "Parkinson\u2019s disease (PD) and Alzheimer\u2019s disease (AD) present with complex behavioral symptoms that can arise in the absence of overt structural brain damage. Recent evidence suggests that border-associated macrophages (BAMs) located at the brain\u2019s interfaces regulate central nervous system function, yet the specific roles of distinct BAM subsets remain largely undefined. By reanalyzing single-nucleus RNA sequencing data from postmortem PD brains, we identified a BAM subset expressing CD169 that was significantly reduced in patients compared with controls. To examine their function, we employed CD169-DTR mice to selectively ablate CD169+ BAMs and evaluated behavioral and histological changes. Depletion of CD169+ BAMs induced tremors, abnormal hindlimb reflexes, and heightened anxiety-like behavior without dopaminergic neuron loss. Histological analysis revealed a pronounced reduction of mitral and tufted cells in the olfactory bulb, indicating disruption of olfactory-limbic circuitry. These findings demonstrate that CD169+ BAMs are critical for maintaining neural network stability and motor function, and that their loss can elicit PD-like phenotypes in the absence of classical dopaminergic neurodegeneration. This work establishes a novel mouse model linking brain-border immune cell dysfunction to Parkinsonian pathology and highlights a neuroimmune mechanism that may contribute to the onset of PD-like disorders.",
+    "author": "Hitoshi Hirata",
+    "published_date": "2025-12-04T00:00:00+00:00",
+    "source": "Frontiers Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 193,
+    "reading_time": 1,
+    "created_at": "2025-12-04T15:47:40.704662+00:00",
+    "updated_at": "2025-12-04T15:47:40.704664+00:00"
+  },
+  {
     "id": "dbaa669801a06dddeaf1283aee0b0013",
     "url": "https://www.sciencedirect.com/science/article/pii/S0306452225011224?dgcid=rss_sd_all",
     "title": "Antidepressant effect of modified SuHeXiang Wan alone and in combination with fluoxetine in mice exposed to chronic immobilization stress by activating AMPK/AKT/CREB/BDNF signaling pathway",
@@ -16998,37 +17030,5 @@
     "reading_time": 1,
     "created_at": "2025-11-30T15:19:09.715451+00:00",
     "updated_at": "2025-11-30T15:19:09.715453+00:00"
-  },
-  {
-    "id": "09b0302e14ce134fad1a8cfa672b6cf4",
-    "url": "https://www.powermag.com/geothermal-breakthrough-in-south-texas-signals-new-era-for-ercot/",
-    "title": "Geothermal Breakthrough in South Texas Signals New Era for Ercot",
-    "content": "<p>Article URL: <a href=\"https://www.powermag.com/geothermal-breakthrough-in-south-texas-signals-new-era-for-ercot/\">https://www.powermag.com/geothermal-breakthrough-in-south-texas-signals-new-era-for-ercot/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46096921\">https://news.ycombinator.com/item?id=46096921</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
-    "author": "mooreds",
-    "published_date": "2025-11-30T14:29:26+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-11-30T15:19:09.715430+00:00",
-    "updated_at": "2025-11-30T15:19:09.715432+00:00"
-  },
-  {
-    "id": "538318b9627efe03beea2dfd7490ded8",
-    "url": "https://www.newyorker.com/magazine/2025/12/08/the-undermining-of-the-cdc",
-    "title": "The Undermining of the CDC",
-    "content": "<p>Article URL: <a href=\"https://www.newyorker.com/magazine/2025/12/08/the-undermining-of-the-cdc\">https://www.newyorker.com/magazine/2025/12/08/the-undermining-of-the-cdc</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46097102\">https://news.ycombinator.com/item?id=46097102</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
-    "author": "bookofjoe",
-    "published_date": "2025-11-30T14:52:06+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-11-30T15:19:09.715399+00:00",
-    "updated_at": "2025-11-30T15:19:09.715408+00:00"
   }
 ]
