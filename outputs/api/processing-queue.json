@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-12-04T01:12:57.086891+00:00",
-  "pending_count": 717,
-  "processed_count": 283,
+  "last_updated": "2025-12-04T03:15:31.101127+00:00",
+  "pending_count": 710,
+  "processed_count": 290,
   "pending_articles": [
     {
       "id": "9c6de8b26f25136d63561e90258c9937",
@@ -166,6 +166,146 @@
   ],
   "recently_processed": [
     {
+      "id": "30a2d7f6d1f2d36c39bee7d4b07ad937",
+      "url": "https://www.reddit.com/r/Python/comments/1pdgpmk/justhtml_a_pure_python_html5_parser_that_just/",
+      "title": "JustHTML: A pure Python HTML5 parser that just works.",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all! I just released a <a href=\"https://github.com/EmilStenstrom/justhtml/\">new HTML5 parser</a> that I'm really proud of. Happy to get any feedback on how to improve it from the python community on Reddit.</p> <p>I think the trickiest thing is if there is a &quot;market&quot; for a python only parser. Parsers are generally performance sensitive, and python just isn't the faster language. This library does parse the wikipedia startpage in 0.1s, so I think it's &quot;fast enough&quot;, but still unsure.</p> <p>Anyways, I got HEAVY help from AI to write it. I directed it all carefully (which I hope shows), but GitHub Copilot wrote all the code. Still took months of work off-hours to get it working. Wrote down a short blog post about that if it's interesting to anyone: <a href=\"https://friendlybit.com/python/writing-justhtml-with-coding-agents/\">https://friendlybit.com/python/writing-justhtml-with-coding-agents/</a></p> <p><strong>What My Project Does</strong></p> <p>It takes a string of html, and parses it into a nested node structure. To make sure you are seeing exactly what a browser would be seeing, it follows the html5 parsing rules. These are VERY complicated, and have evolved over the years.</p> <pre><code>from justhtml import JustHTML html = &quot;&lt;html&gt;&lt;body&gt;&lt;div id='main'&gt;&lt;p&gt;Hello, &lt;b&gt;world&lt;/b&gt;!&lt;/p&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;&quot; doc = JustHTML(html) # 1. Traverse the tree # The tree is made of SimpleDomNode objects. # Each node has .name, .attrs, .children, and .parent root = doc.root # #document html_node = root.children[0] # html body = html_node.children[1] # body (children[0] is head) div = body.children[0] # div print(f&quot;Tag: {div.name}&quot;) print(f&quot;Attributes: {div.attrs}&quot;) # 2. Query with CSS selectors # Find elements using familiar CSS selector syntax paragraphs = doc.query(&quot;p&quot;) # All &lt;p&gt; elements main_div = doc.query(&quot;#main&quot;)[0] # Element with id=&quot;main&quot; bold = doc.query(&quot;div &gt; p b&quot;) # &lt;b&gt; inside &lt;p&gt; inside &lt;div&gt; # 3. Pretty-print HTML # You can serialize any node back to HTML print(div.to_html()) # Output: # &lt;div id=&quot;main&quot;&gt; # &lt;p&gt; # Hello, # &lt;b&gt;world&lt;/b&gt; # ! # &lt;/p&gt; # &lt;/div&gt; </code></pre> <p><strong>Target Audience</strong> (e.g., Is it meant for production, just a toy project, etc.)</p> <p>This is meant for production use. It's fast. It has 100% test coverage. I have fuzzed it against 3 million seriously broken html strings. Happy to improve it further based on your feedback.</p> <p><strong>Comparison</strong> (A brief comparison explaining how it differs from existing alternatives.)</p> <p>I've added a comparison table here: <a href=\"https://github.com/EmilStenstrom/justhtml/?tab=readme-ov-file#comparison-to-other-parsers\">https://github.com/EmilStenstrom/justhtml/?tab=readme-ov-file#comparison-to-other-parsers</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Huvet\"> /u/Huvet </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pdgpmk/justhtml_a_pure_python_html5_parser_that_just/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pdgpmk/justhtml_a_pure_python_html5_parser_that_just/\">[comments]</a></span>",
+      "author": "/u/Huvet",
+      "published_date": "2025-12-03T21:14:30+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 394,
+      "reading_time": 1,
+      "created_at": "2025-12-04T01:43:35.456498+00:00",
+      "updated_at": "2025-12-04T03:15:30.992359+00:00",
+      "metadata": {
+        "processed_at": "2025-12-04T03:15:30.992368+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4aae36c59ce62641afd681691d71b0e5",
+      "url": "https://www.its.caltech.edu/~atomic/snowcrystals/preserve/preserve.htm",
+      "title": "Preserving Snow Crystals",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46085982\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-29T08:32:21+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-04T01:43:34.121994+00:00",
+      "updated_at": "2025-12-04T03:15:30.992373+00:00",
+      "metadata": {
+        "processed_at": "2025-12-04T03:15:30.992375+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c3ca6d5a0dad2432f48c4f5a9133abc4",
+      "url": "https://blog.brocas.org/2025/12/01/ACME-a-brief-history-of-one-of-the-protocols-which-has-changed-the-Internet-Security/",
+      "title": "Acme, a brief history of one of the protocols which has changed the Internet",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46141745\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-03T23:28:34+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-04T01:43:34.121959+00:00",
+      "updated_at": "2025-12-04T03:15:30.992377+00:00",
+      "metadata": {
+        "processed_at": "2025-12-04T03:15:30.992379+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4e0ec986024cceb46793f421ed82cfcc",
+      "url": "https://www.isc.org/kea/",
+      "title": "Kea DHCP: Modern, open source DHCPv4 and DHCPv6 server",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46142000\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-03T23:58:04+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-04T01:43:34.121941+00:00",
+      "updated_at": "2025-12-04T03:15:30.992381+00:00",
+      "metadata": {
+        "processed_at": "2025-12-04T03:15:30.992383+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a288b86ac9b6eeb1813745e698f33a0a",
+      "url": "https://www.jeffgeerling.com/blog/2025/why-doesnt-apple-make-standalone-touch-id",
+      "title": "Why doesn't Apple make a standalone Touch ID?",
+      "content": "<p>Article URL: <a href=\"https://www.jeffgeerling.com/blog/2025/why-doesnt-apple-make-standalone-touch-id\">https://www.jeffgeerling.com/blog/2025/why-doesnt-apple-make-standalone-touch-id</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46141429\">https://news.ycombinator.com/item?id=46141429</a></p>\n<p>Points: 10</p>\n<p># Comments: 3</p>",
+      "author": "thomasjb",
+      "published_date": "2025-12-03T22:55:19+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-04T01:43:32.874172+00:00",
+      "updated_at": "2025-12-04T03:15:30.992385+00:00",
+      "metadata": {
+        "processed_at": "2025-12-04T03:15:30.992387+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c3ca6d5a0dad2432f48c4f5a9133abc4",
+      "url": "https://blog.brocas.org/2025/12/01/ACME-a-brief-history-of-one-of-the-protocols-which-has-changed-the-Internet-Security/",
+      "title": "Acme, a brief history of one of the protocols which has changed the Internet",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46141745\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-03T23:28:34+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-04T01:43:34.121959+00:00",
+      "updated_at": "2025-12-04T03:15:30.992377+00:00",
+      "metadata": {
+        "processed_at": "2025-12-04T03:15:30.992379+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4e0ec986024cceb46793f421ed82cfcc",
+      "url": "https://www.isc.org/kea/",
+      "title": "Kea DHCP: Modern, open source DHCPv4 and DHCPv6 server",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46142000\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-03T23:58:04+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-04T01:43:34.121941+00:00",
+      "updated_at": "2025-12-04T03:15:30.992381+00:00",
+      "metadata": {
+        "processed_at": "2025-12-04T03:15:30.992383+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "88e532ee5a4d080ee6d8b4f9ca102415",
       "url": "https://microlandia.city",
       "title": "Show HN: Microlandia, a brutally honest city builder",
@@ -222,146 +362,6 @@
       "updated_at": "2025-12-04T01:12:56.976466+00:00",
       "metadata": {
         "processed_at": "2025-12-04T01:12:56.976468+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "03449a978f00e8d2dcd1275c7e3ad07a",
-      "url": "https://www.biorxiv.org/content/10.1101/10.64898/2025.12.01.691679v1?rss=1",
-      "title": "Early Diabetic Ca2+ Handling Impairments in the Rod Bipolar Pathway",
-      "content": "Background: Previous work showed that electrically-evoked inhibition to Rod Bipolar Cells (RBC) is reduced in a mouse model of early diabetes. It is hypothesized that this is due to impaired Ca2+ handling in the presynaptic amacrine cell, either through increased Ca2+ buffering or decreased influx. To test this hypothesis and develop a mechanism for this effect, a model where direct optogenetic activation of inhibitory amacrine cells that expressed the light-activated channel ChR2 was used to isolate amacrine cell inputs to RBCs. Application of selective Ca2+ channel blockers could then assess potential locations of amacrine Ca2+ disruption. Using whole cell patch clamp electrophysiology, recordings were made from a 6 week diabetic population (DM) and vehicle injected non-DM animals. Results: Robust GABA C receptor inhibitory currents were recorded from RBCs after ChR2 stimulus that were significantly diminished by the application of nifedipine to block L-typeCa2+ channels in both DM and non-DM conditions. There were significant differences in the peak amplitude of these responses between DM and non- DM groups (p = 0.0146). However, in the non-DM group the decay tau of the response to the 50ms stimulus was significantly diminished by nifedipine ( p =0.0498, n = 5), but this was not seen in the DM group ( p = 0.9498, n=7). A 1s nifedipine-reduced response saw its decay tau increase in the DM group but not the non-DM. Ca2+ - induced Ca2+ release (CICR) blockade with ryanodine decreased responsivity equally between groups in the 1s stimulus but showed no significant kinetic changes. CICR blockade for a 50ms stimulus response showed significant kinetic changes in diabetes but otherwise reduced the response equally between DM and non-DM. Blockade of the mitochondrial Ca2+ uniporter (MCU) had little effect on the optogenetic response. Conclusion: This study presents evidence that diabetes alters amacrine cell output to the RBC unmasked through blockade of the L-type calcium channel, and the Endoplasmic Reticulum (ER). An apparent explanation for our results is that DM calcium buffering is dysregulated, leading to prolonged responses. The underlying mechanism for this alteration is complex and not yet clearly elucidated.",
-      "author": "Hill, J. T., Wellington, A. J., Del Villar, D., Eggers, E. D.",
-      "published_date": "2025-12-03T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 345,
-      "reading_time": 1,
-      "created_at": "2025-12-03T23:19:26.169089+00:00",
-      "updated_at": "2025-12-04T01:12:56.976471+00:00",
-      "metadata": {
-        "processed_at": "2025-12-04T01:12:56.976472+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ed50b1e7c08ac29ca5464ed7766bea3c",
-      "url": "http://www.jneurosci.org/cgi/content/short/45/47/etwij45472025?rss=1",
-      "title": "This Week in The Journal",
-      "content": "",
-      "author": "McKeon, P.",
-      "published_date": "2025-11-19T17:30:30+00:00",
-      "source": "Journal Neuroscience This Week",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-03T23:19:22.188963+00:00",
-      "updated_at": "2025-12-04T01:12:56.976474+00:00",
-      "metadata": {
-        "processed_at": "2025-12-04T01:12:56.976476+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4b12d0b2f51f28c58e1d908b75878c49",
-      "url": "https://air.dev",
-      "title": "Agentic Development Environment by JetBrains",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46139905\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-03T20:47:45+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-03T21:38:21.353517+00:00",
-      "updated_at": "2025-12-03T22:16:14.928591+00:00",
-      "metadata": {
-        "processed_at": "2025-12-03T22:16:14.928600+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4b12d0b2f51f28c58e1d908b75878c49",
-      "url": "https://air.dev",
-      "title": "Agentic Development Environment by JetBrains",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46139905\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-03T20:47:45+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-03T21:38:21.353517+00:00",
-      "updated_at": "2025-12-03T22:16:14.928591+00:00",
-      "metadata": {
-        "processed_at": "2025-12-03T22:16:14.928600+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "56117b414a4ff5e102c1684031db24f3",
-      "url": "https://www.biorxiv.org/content/10.1101/10.64898/2025.12.01.691640v1?rss=1",
-      "title": "Human Mediodorsal Thalamus in Seizure Propagation",
-      "content": "Background: How different thalamic sites are recruited during seizure propagation remains poorly understood. Simultaneous recordings from multiple thalamic sites in patients with focal seizures provide a rare opportunity to investigate the spatiotemporal pattern of thalamic involvement during human epilepsy. Objective: To characterize the recruitment patterns of mediodorsal (MD) thalamic subregion during seizures and their generalization to the contralateral hemisphere. Methods: We analyzed 119 seizures from 23 patients (12 male, age range: 20-57y) undergoing multisite thalamic recordings. In accordance with current clinical standards, we determined the spatial and temporal features of thalamic seizure activity by visually reviewing intracranial EEG recordings from different seizure types in each individual patient. Results: The procedure of multisite thalamic recordings had no complications. In total, we captured seizures originating from temporal lobes (63%), orbitofrontal (11%), frontotemporal (8%), occipital (8%), lateral frontal (4%), parietal (3%), and cingulate (2%) regions. Seizures were focal (76% in 21 patients), focal-to-bilateral tonic-clonic (FBTC, 9% in nine patients), or only electrographic (15% in six patients). Thalamic engagement was seen in 100% of patients occurring typically early during seizure evolution (83% within 15 seconds of seizure onset). Majority of FBTC seizures (73%) had faster thalamic recruitment, often within the first 5 seconds. The pulvinar (PLV) subregion was the most common first-activated thalamic site, particularly in temporal lobe seizures. Although the MD was involved in most seizures (88.2%), it was rarely the initial or sole thalamic structure engaged and more often followed anterior (ANT) and/or PLV sites. Contralateral propagation occurred in 66% of seizures and was strongly linked to MD involvement: the ipsilateral and contralateral MDs were engaged in about 95% of these cases. When ipsilateral MD engagement was absent, contralateral spread of seizures was uncommon. In majority of seizures (60%) that generalized to the contralateral hemisphere, the ipsilateral MD was involved before or simultaneously with the contralateral cortical sites. Importantly, seizures that first activated the MD originated mainly from the medial temporal lobes, whereas those spreading primarily to the contralateral cortex were mostly neocortical in onset. Conclusions: The thalamic MD subregion was often involved after the other thalamic sites, but the MD sites, along with the massa intermedia connecting the two thalami, were significantly involved when seizures spread to contralateral hemisphere. Our findings suggest that a single thalamic lead capturing both MD subregions may yield important clinical information about laterality, origin, and generalization of seizures.",
-      "author": "Marais, O., Lozano, C., Risman, A., Togo, M., Pantis, S., van Staalduinen, E., Liu Yang, L., Fisher, R., Buch, V. P., Parvizi, J.",
-      "published_date": "2025-12-03T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 392,
-      "reading_time": 1,
-      "created_at": "2025-12-03T21:20:04.449802+00:00",
-      "updated_at": "2025-12-03T22:16:14.928609+00:00",
-      "metadata": {
-        "processed_at": "2025-12-03T22:16:14.928610+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "96d4fa45c6d68861634f43b61dc443d5",
-      "url": "https://www.biorxiv.org/content/10.1101/10.64898/2025.12.01.691701v1?rss=1",
-      "title": "Cognitive cartography of mammalian brains using meta-analysis of AI experts",
-      "content": "The complexity of the brain is increasingly mirrored by the complexity of the neuroscientific literature, yet no individual mind can fully grasp the diversity of scales, methodologies and model organisms. Where human experts flag, the latest AI models excel: large language models can seamlessly integrate knowledge across scientific domains. Here we show how large language models can systematically and quantitatively synthesise literature-wide neuroscientific knowledge about the cognitive operations and dysfunctions associated with each brain region. Meta-analysis of AI experts reveals structurefunction mappings to which existing meta-analytic frameworks are blind, demonstrated by lesions and direct intracranial stimulation. It also unlocks the possibility of extending quantitative literature metaanalysis and decoding of brain maps to other model organisms beyond human. As proof of concept, we integrate LLM meta-analysis with species-specific transcriptomics in human, macaque, and mouse, to discover an evolutionarily conserved molecular circuit for cognition. Altogether, meta-analysis of AI experts can fundamentally catalyze neuroscientific discovery by overcoming the barrier of data aggregation from heterogeneous studies, finally bringing together a scattered literature to identify emergent patterns and latent insights across disparate subfields, modalities, and species.",
-      "author": "Luppi, A. I., Ali, H., Liu, Z.-Q. I., Milisav, F., Gozzi, A., Bzdok, D., Misic, B.",
-      "published_date": "2025-12-03T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 181,
-      "reading_time": 1,
-      "created_at": "2025-12-03T21:20:04.449741+00:00",
-      "updated_at": "2025-12-03T22:16:14.928612+00:00",
-      "metadata": {
-        "processed_at": "2025-12-03T22:16:14.928614+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d5efd1e8c2e58cdeaf738fef138ae99d",
-      "url": "https://www.biorxiv.org/content/10.1101/10.64898/2025.12.01.691682v1?rss=1",
-      "title": "GABA co-release guides the functional maturation of glycinergicsynapses in an auditory sound localization circuit.",
-      "content": "In the mammalian brainstem and spinal cord, glycine is the primary inhibitory neurotransmitter. However, during development, many glycinergic neurons also co-release the inhibitory neurotransmitter gamma-aminobutyric acid (GABA). Although the acute effects of GABA co-release on immature synaptic transmission have been increasingly characterized, its role in synapse maturation and circuit formation remains poorly understood. Here, we investigated the developmental roles of GABA co-release at glycinergic synapses from the medial nucleus of the trapezoid body (MNTB) to the lateral superior olive (LSO), an auditory pathway essential for binaural integration and sound localization. During the first two postnatal weeks, MNTB-LSO synapses co-release GABA and undergo pronounced synaptic and circuit refinement. Using conditional knockout mice with severely diminished GABA co-release from MNTB neurons, we found that key aspects of circuit refinement, including synaptic silencing and strengthening, occurred normally. However, a disruption of GABA co-release resulted in significantly larger quantal amplitudes and a reduced readily releasable vesicle pool, impairing the high fidelity and temporal precision of synaptic transmission, which are essential for accurate binaural processing. These results reveal a critical developmental role for GABA co-release in shaping the functional synaptic architecture of glycinergic synapses involved in sound localization.",
-      "author": "kandler, k., Lee, J., Brockway, B.",
-      "published_date": "2025-12-03T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 193,
-      "reading_time": 1,
-      "created_at": "2025-12-03T21:20:04.449706+00:00",
-      "updated_at": "2025-12-03T22:16:14.928616+00:00",
-      "metadata": {
-        "processed_at": "2025-12-03T22:16:14.928618+00:00",
         "processing_method": "github_actions"
       }
     }
