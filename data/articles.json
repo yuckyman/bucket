@@ -1,5 +1,85 @@
 [
   {
+    "id": "79c6ce9f48f86815009a4606b961b4dc",
+    "url": "https://www.reddit.com/r/Python/comments/1pdtpyx/anyid_a_tiny_library_to_generate_any_id_you_might/",
+    "title": "anyID: A tiny library to generate any ID you might need",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Been doing this side project in my free time. Why do we need to deal with so many libraries when we want to generate different IDs or even worse, why do we need to write it from scratch? It got annoying, so I created AnyID. A lightweight Python lib that wraps the most popular ones in an API. It can be used in prod but for now it's under development.</p> <p>Github: <a href=\"https://github.com/adelra/anyid\">https://github.com/adelra/anyid</a></p> <p>PyPI: <a href=\"https://pypi.org/project/anyid/\">https://pypi.org/project/anyid/</a></p> <p><strong>What My Project Does:</strong></p> <p>It can generate a wide of IDs, like cuid2, snowflake, ulid etc.</p> <p><strong>How to install it:</strong></p> <pre><code>uv pip install anyid </code></pre> <p><strong>How to use it:</strong></p> <pre><code>from anyid import cuid, cuid2, ulid, snowflake, setup_snowflake_id_generator # Generate a CUID my_cuid = cuid() print(f&quot;CUID: {my_cuid}&quot;) # Generate a CUID2 my_cuid2 = cuid2() print(f&quot;CUID2: {my_cuid2}&quot;) # Generate a ULID my_ulid = ulid() print(f&quot;ULID: {my_ulid}&quot;) # For Snowflake, you need to set up the generator first setup_snowflake_id_generator(worker_id=1, datacenter_id=1) my_snowflake = snowflake() print(f&quot;Snowflake ID: {my_snowflake}&quot;) </code></pre> <p><strong>Target Audience</strong> (e.g., Is it meant for production, just a toy project, etc.)</p> <p>Anyone who wants to generate IDs for their application. Anyone who deosn't want to write the ID algorithms from scratch.</p> <p><strong>Comparison</strong> (A brief comparison explaining how it differs from existing alternatives.)</p> <p>Didn't really see any alternatives, or maybe I missed it. But in general, there are individual Github Gists and libraries that do the same.</p> <p>Welcome any PRs, feedback, issues etc.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/adelrahimi\"> /u/adelrahimi </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pdtpyx/anyid_a_tiny_library_to_generate_any_id_you_might/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pdtpyx/anyid_a_tiny_library_to_generate_any_id_you_might/\">[comments]</a></span>",
+    "author": "/u/adelrahimi",
+    "published_date": "2025-12-04T07:18:52+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 255,
+    "reading_time": 1,
+    "created_at": "2025-12-04T21:20:52.672357+00:00",
+    "updated_at": "2025-12-04T21:20:52.672358+00:00"
+  },
+  {
+    "id": "ed1abf337a55a8efba3901eaeb8779a0",
+    "url": "https://www.bbc.com/news/articles/c1w932vqye0o",
+    "title": "Plane crashed after 3D-printed part collapsed",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46152941\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-04T20:56:08+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-04T21:20:51.471411+00:00",
+    "updated_at": "2025-12-04T21:20:51.471415+00:00"
+  },
+  {
+    "id": "25b33e1edc472f2124f4ca471a6e5436",
+    "url": "https://www.chrisbako.com/posts/2025-12-04-speelkok-museam",
+    "title": "Who Hooked Up a Laptop to a 1930s Dance Hall Machine?",
+    "content": "<p>Article URL: <a href=\"https://www.chrisbako.com/posts/2025-12-04-speelkok-museam\">https://www.chrisbako.com/posts/2025-12-04-speelkok-museam</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46151363\">https://news.ycombinator.com/item?id=46151363</a></p>\n<p>Points: 12</p>\n<p># Comments: 1</p>",
+    "author": "ChrisbyMe",
+    "published_date": "2025-12-04T18:55:06+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-04T21:20:50.198230+00:00",
+    "updated_at": "2025-12-04T21:20:50.198231+00:00"
+  },
+  {
+    "id": "d6b81f0be264632d801c6b6f11ddac9d",
+    "url": "https://www.techdirt.com/2025/12/04/eus-top-court-just-made-it-literally-impossible-to-run-a-user-generated-content-platform-legally/",
+    "title": "CJEU has made it effectively impossible to run a user-generated platform legally",
+    "content": "<p>Article URL: <a href=\"https://www.techdirt.com/2025/12/04/eus-top-court-just-made-it-literally-impossible-to-run-a-user-generated-content-platform-legally/\">https://www.techdirt.com/2025/12/04/eus-top-court-just-made-it-literally-impossible-to-run-a-user-generated-content-platform-legally/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46152098\">https://news.ycombinator.com/item?id=46152098</a></p>\n<p>Points: 36</p>\n<p># Comments: 8</p>",
+    "author": "alsetmusic",
+    "published_date": "2025-12-04T19:55:04+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-04T21:20:50.198186+00:00",
+    "updated_at": "2025-12-04T21:20:50.198189+00:00"
+  },
+  {
+    "id": "ed1abf337a55a8efba3901eaeb8779a0",
+    "url": "https://www.bbc.com/news/articles/c1w932vqye0o",
+    "title": "Plane crashed after 3D-printed part collapsed",
+    "content": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/c1w932vqye0o\">https://www.bbc.com/news/articles/c1w932vqye0o</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46152941\">https://news.ycombinator.com/item?id=46152941</a></p>\n<p>Points: 40</p>\n<p># Comments: 17</p>",
+    "author": "toss1",
+    "published_date": "2025-12-04T20:56:08+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-04T21:20:50.198155+00:00",
+    "updated_at": "2025-12-04T21:20:50.198163+00:00"
+  },
+  {
     "id": "dd341546da25a51e69f919cdb17debed",
     "url": "https://www.biorxiv.org/content/10.64898/2025.12.03.692162v1?rss=1",
     "title": "NVUAtlas: A Comprehensive Single-Nucleus RNA-Seq Resource for the Human Neurovascular Unit in Alzheimer's Disease",
@@ -16904,106 +16984,6 @@
     "updated_at": "2025-12-01T01:24:13.479530+00:00",
     "metadata": {
       "processed_at": "2025-12-01T01:24:13.479532+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "14bfcf35f68b1fab2b8d85758d46c23c",
-    "url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690709v1?rss=1",
-    "title": "Domain-specific decoupling of co-chaperone and ligase functions in STUB1 underlies biochemical and clinical heterogeneity in SCA48",
-    "content": "The carboxyl terminus of HSC70-interacting protein (CHIP, encoded by STUB1) integrates co-chaperone and E3 ubiquitin ligase activities to maintain proteostasis. Heterozygous STUB1 mutations cause the dominant cerebellar ataxia SCA48 through incompletely understood mechanisms. We characterized 13 SCA48-associated variants in the TPR and U-box domains using recombinant protein and cellular assays. TPR mutations retained intrinsic ligase activity but lost HSC70 binding, substrate ubiquitination efficiency, and protein stability. Conversely, U-box mutations abolished ligase function, induced aberrant high-molecular-weight oligomerization, and frequently elevated steady-state CHIP levels while only partially impairing co-chaperone activity. Many variants exhibited temperature-sensitive defects and stress-induced nuclear mislocalization. Principal component analysis revealed robust domain-specific biochemical clustering. RNA-seq following STUB1 knockdown demonstrated preserved HSF1-dependent transactivation but a loss of CHIP-dependent amplification of ubiquitination, chaperone, and transcriptional pathways under heat stress. Meta-analysis of 87 SCA48 patients linked TPR-like biochemical profiles to upper motor neuron involvement and U-box profiles to prominent dysarthria. Collectively, SCA48 mutations decouple CHIPs dual functions in a domain-dependent manner, exerting dominant-negative or gain-of-toxic effects that drive the observed clinical heterogeneity. These findings establish a direct biochemical-clinical correlation in SCA48 and provide a framework for domain-targeted therapeutic strategies exploiting residual ligase or chaperone activity.",
-    "author": "Altinok, S., Paulakonis, E., Almeida, M. F., Hwang, I., Sanchez-Hodge, R., DOvidio, C., Roper, G., Irons, G., Vargas, E., Peng, I., Saeed, M., Pathan, A., Ronnebaum, S. M., Shi, C.-h., Ranek, M. J., Scaglione, K. M., Page, R. C., Brown, N. G., Schisler, J. C.",
-    "published_date": "2025-11-30T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 193,
-    "reading_time": 1,
-    "created_at": "2025-11-30T22:20:18.125963+00:00",
-    "updated_at": "2025-12-01T01:24:13.479535+00:00",
-    "metadata": {
-      "processed_at": "2025-12-01T01:24:13.479536+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "8105df949d38e9bbe40fd341b8117428",
-    "url": "https://www.tara.sh/posts/2025/2025-11-25_freebsd_letter/",
-    "title": "A Love Letter to FreeBSD",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46100892\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-30T22:05:07+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-30T22:19:36.186619+00:00",
-    "updated_at": "2025-12-01T01:24:13.479539+00:00",
-    "metadata": {
-      "processed_at": "2025-12-01T01:24:13.479540+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "8105df949d38e9bbe40fd341b8117428",
-    "url": "https://www.tara.sh/posts/2025/2025-11-25_freebsd_letter/",
-    "title": "A Love Letter to FreeBSD",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46100892\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-30T22:05:07+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-11-30T22:19:36.186619+00:00",
-    "updated_at": "2025-12-01T01:24:13.479539+00:00",
-    "metadata": {
-      "processed_at": "2025-12-01T01:24:13.479540+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "494060a90bcfa5631776f955d55cd12e",
-    "url": "https://www.stackstatus.net/",
-    "title": "Stackoverflow Outage",
-    "content": "<p>Article URL: <a href=\"https://www.stackstatus.net/\">https://www.stackstatus.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46100566\">https://news.ycombinator.com/item?id=46100566</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-    "author": "ga_to",
-    "published_date": "2025-11-30T21:24:22+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-11-30T22:19:35.089843+00:00",
-    "updated_at": "2025-12-01T01:24:13.479542+00:00",
-    "metadata": {
-      "processed_at": "2025-12-01T01:24:13.479544+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "48e81a0447d7157d50ba6230f4dd38ff",
-    "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1692418",
-    "title": "Interleaving cortex-analog mixing improves deep non-negative matrix factorization networks",
-    "content": "Considering biological constraints in artificial neural networks has led to dramatic improvements in performance. Nevertheless, to date, the positivity of long-range signals in the cortex has not been shown to yield improvements. While Non-negative matrix factorization (NMF) captures biological constraints of positive long-range interactions, deep convolutional neural networks with NMF modules do not match the performance of conventional neural networks (CNNs) of a similar size. This work shows that introducing intermediate modules that combine the NMF's positive activities, analogous to the processing in cortical columns, leads to improved performance on benchmark data that exceeds that of vanilla deep convolutional networks. This demonstrates that including positive long-range signaling together with local interactions of both signs in analogy to cortical hyper-columns has the potential to enhance the performance of deep networks.",
-    "author": "Klaus R. Pawelzik",
-    "published_date": "2025-11-05T00:00:00+00:00",
-    "source": "Frontiers Computational Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 129,
-    "reading_time": 1,
-    "created_at": "2025-11-30T21:38:54.471920+00:00",
-    "updated_at": "2025-11-30T22:14:23.756408+00:00",
-    "metadata": {
-      "processed_at": "2025-11-30T22:14:23.756416+00:00",
       "processing_method": "github_actions"
     }
   }
