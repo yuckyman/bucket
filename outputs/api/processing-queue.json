@@ -1,8 +1,24 @@
 {
-  "last_updated": "2025-12-04T03:15:31.101127+00:00",
-  "pending_count": 710,
-  "processed_count": 290,
+  "last_updated": "2025-12-04T04:26:40.194847+00:00",
+  "pending_count": 705,
+  "processed_count": 295,
   "pending_articles": [
+    {
+      "id": "1ca9b3ad78528d010d8f256a40e6edd2",
+      "url": "https://www.corellium.com/blog/cellebrite-to-acquire-corellium",
+      "title": "Cellebrite to Acquire Corellium",
+      "content": "<p>Article URL: <a href=\"https://www.corellium.com/blog/cellebrite-to-acquire-corellium\">https://www.corellium.com/blog/cellebrite-to-acquire-corellium</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46143230\">https://news.ycombinator.com/item?id=46143230</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+      "author": "Fnoord",
+      "published_date": "2025-12-04T02:48:31+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-04T03:20:04.681454+00:00",
+      "updated_at": "2025-12-04T03:20:04.681462+00:00"
+    },
     {
       "id": "9c6de8b26f25136d63561e90258c9937",
       "url": "https://onlinelibrary.wiley.com/doi/10.1111/eth.70033",
@@ -146,25 +162,109 @@
       "reading_time": 1,
       "created_at": "2025-12-03T22:23:20.457510+00:00",
       "updated_at": "2025-12-03T22:23:20.457515+00:00"
-    },
-    {
-      "id": "a800596e1cabc2ecf9d3cad069957d87",
-      "url": "https://finfam.app/blog/credit-union-mortgages",
-      "title": "Show HN: I built a dashboard to compare mortgage rates across 120 credit unions",
-      "content": "<p>When I bought my home, the big bank I'd been using for years quoted me 7% APR. A local credit union was offering 5.5% for the exact same mortgage.<p>I was surprised until I learned that mortgages are basically standardized products \u2013 the government buys almost all of them (see Bits About Money: <a href=\"https://www.bitsaboutmoney.com/archive/mortgages-are-a-manufactured-product/\" rel=\"nofollow\">https://www.bitsaboutmoney.com/archive/mortgages-are-a-manuf...</a>). So what's the price difference paying for? A recent Bloomberg Odd Lots episode makes the case that it's largely advertising and marketing (<a href=\"https://www.bloomberg.com/news/audio/2025-11-28/odd-lots-this-is-why-credit-card-rates-are-so-high-podcast\" rel=\"nofollow\">https://www.bloomberg.com/news/audio/2025-11-28/odd-lots-thi...</a>). Credit unions are non-profits without big marketing budgets, so they can pass those savings on, but a lot of people don't know about them.<p>I built this dashboard to make it easier to shop around. I pull public rates from 120+ credit union websites and compares against the weekly FRED national benchmark.<p>Features:<p>- Filter by loan type (30Y/15Y/etc.), eligibility (the hardest part tbh), and rate type\n- Payment calculator with refi mode (CUs can be a bit slower than big lenders, but that makes them great for refi)\n- Links to each CU's rates page and eligibility requirements\n- Toggle to show/hide statistical outliers<p>At the time of writing, the average CU rate is 5.91% vs. 6.23% national average. about $37k difference in total interest on a $500k loan. I actually used seaborn to visualize the rate spread against the four big banks: <a href=\"https://www.reddit.com/r/dataisbeautiful/comments/1pcj9t7/oc_the_high_cost_of_big_banks_i_tracked_daily/\" rel=\"nofollow\">https://www.reddit.com/r/dataisbeautiful/comments/1pcj9t7/oc...</a><p>Stack: Python for the data/backend, Svelte/SvelteKit for the frontend. No signup, no ads, no referral fees.<p>Happy to answer questions about the methodology or add CUs people suggest.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46139761\">https://news.ycombinator.com/item?id=46139761</a></p>\n<p>Points: 22</p>\n<p># Comments: 11</p>",
-      "author": "mhashemi",
-      "published_date": "2025-12-03T20:35:27+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 260,
-      "reading_time": 1,
-      "created_at": "2025-12-03T22:22:36.903676+00:00",
-      "updated_at": "2025-12-03T22:22:36.903678+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "9894261961e1f843ac62e5c72a7daadc",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006006?dgcid=rss_sd_all",
+      "title": "Suanzaoren decoction improving chronic insomnia with little effects on functional connectivity within the sensorimotor network",
+      "content": "<p>Publication date: 15 January 2026</p><p><b>Source:</b> Brain Research, Volume 1871</p><p>Author(s): Ping Yao, Zhiguo Guo, Yiding Han, Haohao Yan, Wuhong Lin, Ziliang Han, Min Liu, Min Chen, Jie Li, Xingyan Guo, Long-Biao Cui, Wenbin Guo, Dongsheng Lv</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 35,
+      "reading_time": 1,
+      "created_at": "2025-12-04T04:05:02.864376+00:00",
+      "updated_at": "2025-12-04T04:26:40.087902+00:00",
+      "metadata": {
+        "processed_at": "2025-12-04T04:26:40.087911+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2eb57dbdbc858b57282cfad12fa8d826",
+      "url": "https://brain.ieee.org/braininsight-articles/ieee-brain-workshop-on-ai-for-neurotechnology/",
+      "title": "IEEE Brain Workshop on AI for Neurotechnology",
+      "content": "The IEEE Brain Workshop on AI for Neurotechnology was held on June 30, 2024, at the Pacifico Yokohama Conference Center in Japan. This event was part of the World Congress on Computational Intelligence (WCCI 2024) and was conducted in association with the International Joint Conference on Neural Networks (IJCNN). The workshop focused on the application of artificial intelligence to neurotechnology, ...",
+      "author": "ieeebrain",
+      "published_date": "2025-03-03T17:05:59+00:00",
+      "source": "Brain",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 61,
+      "reading_time": 1,
+      "created_at": "2025-12-04T03:21:08.001059+00:00",
+      "updated_at": "2025-12-04T04:26:40.087915+00:00",
+      "metadata": {
+        "processed_at": "2025-12-04T04:26:40.087917+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "994aa90a7567744ce191abc6bba1dcf5",
+      "url": "https://pcpartpicker.com/trends/price/memory/",
+      "title": "Average DRAM price in USD over last 18 months",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46142100\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-04T00:08:26+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-04T03:20:05.965411+00:00",
+      "updated_at": "2025-12-04T04:26:40.087919+00:00",
+      "metadata": {
+        "processed_at": "2025-12-04T04:26:40.087921+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "994aa90a7567744ce191abc6bba1dcf5",
+      "url": "https://pcpartpicker.com/trends/price/memory/",
+      "title": "Average DRAM price in USD over last 18 months",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46142100\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-04T00:08:26+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-04T03:20:05.965411+00:00",
+      "updated_at": "2025-12-04T04:26:40.087919+00:00",
+      "metadata": {
+        "processed_at": "2025-12-04T04:26:40.087921+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "e8cd57333f824e3db3af4ea493b6a88a",
+      "url": "https://www.cnbc.com/2025/12/03/liquid-glass-alan-dye-leaving-apple.html",
+      "title": "Apple\u2019s head of user interface design, Alan Dye, will join Meta",
+      "content": "<p>Article URL: <a href=\"https://www.cnbc.com/2025/12/03/liquid-glass-alan-dye-leaving-apple.html\">https://www.cnbc.com/2025/12/03/liquid-glass-alan-dye-leaving-apple.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46142843\">https://news.ycombinator.com/item?id=46142843</a></p>\n<p>Points: 37</p>\n<p># Comments: 22</p>",
+      "author": "Noaidi",
+      "published_date": "2025-12-04T01:53:57+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-04T03:20:04.681485+00:00",
+      "updated_at": "2025-12-04T04:26:40.087929+00:00",
+      "metadata": {
+        "processed_at": "2025-12-04T04:26:40.087931+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "30a2d7f6d1f2d36c39bee7d4b07ad937",
       "url": "https://www.reddit.com/r/Python/comments/1pdgpmk/justhtml_a_pure_python_html5_parser_that_just/",
@@ -226,46 +326,6 @@
       }
     },
     {
-      "id": "4e0ec986024cceb46793f421ed82cfcc",
-      "url": "https://www.isc.org/kea/",
-      "title": "Kea DHCP: Modern, open source DHCPv4 and DHCPv6 server",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46142000\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-03T23:58:04+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-04T01:43:34.121941+00:00",
-      "updated_at": "2025-12-04T03:15:30.992381+00:00",
-      "metadata": {
-        "processed_at": "2025-12-04T03:15:30.992383+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a288b86ac9b6eeb1813745e698f33a0a",
-      "url": "https://www.jeffgeerling.com/blog/2025/why-doesnt-apple-make-standalone-touch-id",
-      "title": "Why doesn't Apple make a standalone Touch ID?",
-      "content": "<p>Article URL: <a href=\"https://www.jeffgeerling.com/blog/2025/why-doesnt-apple-make-standalone-touch-id\">https://www.jeffgeerling.com/blog/2025/why-doesnt-apple-make-standalone-touch-id</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46141429\">https://news.ycombinator.com/item?id=46141429</a></p>\n<p>Points: 10</p>\n<p># Comments: 3</p>",
-      "author": "thomasjb",
-      "published_date": "2025-12-03T22:55:19+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-04T01:43:32.874172+00:00",
-      "updated_at": "2025-12-04T03:15:30.992385+00:00",
-      "metadata": {
-        "processed_at": "2025-12-04T03:15:30.992387+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "c3ca6d5a0dad2432f48c4f5a9133abc4",
       "url": "https://blog.brocas.org/2025/12/01/ACME-a-brief-history-of-one-of-the-protocols-which-has-changed-the-Internet-Security/",
       "title": "Acme, a brief history of one of the protocols which has changed the Internet",
@@ -302,66 +362,6 @@
       "updated_at": "2025-12-04T03:15:30.992381+00:00",
       "metadata": {
         "processed_at": "2025-12-04T03:15:30.992383+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "88e532ee5a4d080ee6d8b4f9ca102415",
-      "url": "https://microlandia.city",
-      "title": "Show HN: Microlandia, a brutally honest city builder",
-      "content": "<p>It all started as an experiment to see if I could build a game making heavy use of Deno and its SQLite driver. After sharing an early build in the \u201eWhat are you working on?\u201c thread here, I got the encouragement I needed to polish it and make a version 1.0 for Steam.<p>So here it is, Microlandia, a SimCity Classic-inspired game with parameters from real-life datasets, statistics and research. It also introduces aspects that are conveniently hidden in other games (like homelessness), and my plan is to continue updating, expanding and perfecting the models for an indefinite amount of time.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46137953\">https://news.ycombinator.com/item?id=46137953</a></p>\n<p>Points: 17</p>\n<p># Comments: 1</p>",
-      "author": "phaser",
-      "published_date": "2025-12-03T18:18:23+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 111,
-      "reading_time": 1,
-      "created_at": "2025-12-03T23:39:07.703976+00:00",
-      "updated_at": "2025-12-04T01:12:56.976445+00:00",
-      "metadata": {
-        "processed_at": "2025-12-04T01:12:56.976458+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3f407f0793bdfc6cf3d681dca52a06a4",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006263?dgcid=rss_sd_all",
-      "title": "Identifying individuals with high susceptibility to mental fatigue: A functional connectivity study",
-      "content": "<p>Publication date: 15 December 2025</p><p><b>Source:</b> NeuroImage, Volume 324</p><p>Author(s): Lingyun Gao, Mengru Xu, Linze Qian, Rui Zhang, Mingming Chen, Yeting Hu, Chuantao Li, Yu Sun</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 24,
-      "reading_time": 1,
-      "created_at": "2025-12-03T23:19:27.263226+00:00",
-      "updated_at": "2025-12-04T01:12:56.976462+00:00",
-      "metadata": {
-        "processed_at": "2025-12-04T01:12:56.976464+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "178a4027317f076244f9c9006f1b374e",
-      "url": "https://www.biorxiv.org/content/10.1101/10.64898/2025.12.01.691715v1?rss=1",
-      "title": "Torsional Force by Helical Pericytes Regulates Blood Flow in Downstream Capillaries",
-      "content": "This study investigates the contractile properties of downstream capillaries, which are traditionally regarded as passive conduits, and addresses ongoing debates surrounding blood flow regulation. It is widely accepted that these capillaries passively dilate in response to increased blood flow in upstream microvessels, and that the helical pericytes located on them lack contractile capability, largely due to the absence of detectable a-SMA expression. Challenging this prevailing view, we demonstrate that downstream capillary pericytes do express both a-SMA and Myosin11, as shown using in situ hybridization on whole-mount intact retinas -unlike prior studies that relied on dissociated cells. Furthermore, Forster resonance energy transfer (FRET) analysis reveals that a-SMA and Myosin11 are in sufficiently close proximity to permit actomyosin bridge cycling, a process essential for contraction. We also show that pericyte contraction can be inhibited by disrupting this molecular interaction. Distinct from the nodal constrictions caused by circular pericyte processes in upstream microvessels, we identify torsional contractions in the downstream capillaries in the retina of living mice using two-photon laser scanning microscopy (TPLSM), which regulates blood flow. These contractions provide direct evidence that downstream capillaries actively contribute to blood flow regulation. Notably, such contractions were overlooked in previous TPLSM studies that monitored only luminal diameter, unless the specialized analytical techniques we employed were applied. Our 3D modeling confirms that these torsional contractions correlate with the helical morphology of pericytes in downstream capillaries -a structure previously thought incapable of producing significant constrictive force. In conclusion, our findings provide direct evidence that downstream pericytes play an active role in regulating blood flow. They highlight a previously unrecognized mechanism -torsional contraction- that aligns with the helical structure of these pericytes and contributes to flow regulation in small-caliber capillaries located nearest to regions of high oxygen demand.",
-      "author": "Kureli, G., Belder, N., Basaran, M. D., Haddara, M., Alarcon-Martinez, L., Erdener, S. E., Dalkara, T.",
-      "published_date": "2025-12-03T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 290,
-      "reading_time": 1,
-      "created_at": "2025-12-03T23:19:26.169142+00:00",
-      "updated_at": "2025-12-04T01:12:56.976466+00:00",
-      "metadata": {
-        "processed_at": "2025-12-04T01:12:56.976468+00:00",
         "processing_method": "github_actions"
       }
     }
