@@ -1,5 +1,37 @@
 [
   {
+    "id": "0490dfe6cd36c680ba3ab617c29aec55",
+    "url": "https://www.andrewoswald.com/docs/AdvertisingMicheletal2019EasterlinVolume.pdf",
+    "title": "Advertising as a major source of human dissatisfaction (2019) [pdf]",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46166709\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-05T20:18:34+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-05T20:44:20.625721+00:00",
+    "updated_at": "2025-12-05T20:44:20.625724+00:00"
+  },
+  {
+    "id": "0490dfe6cd36c680ba3ab617c29aec55",
+    "url": "https://www.andrewoswald.com/docs/AdvertisingMicheletal2019EasterlinVolume.pdf",
+    "title": "Advertising as a major source of human dissatisfaction (2019) [pdf]",
+    "content": "<p>Article URL: <a href=\"https://www.andrewoswald.com/docs/AdvertisingMicheletal2019EasterlinVolume.pdf\">https://www.andrewoswald.com/docs/AdvertisingMicheletal2019EasterlinVolume.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46166709\">https://news.ycombinator.com/item?id=46166709</a></p>\n<p>Points: 45</p>\n<p># Comments: 8</p>",
+    "author": "anigbrowl",
+    "published_date": "2025-12-05T20:18:34+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-05T20:44:19.307494+00:00",
+    "updated_at": "2025-12-05T20:44:19.307501+00:00"
+  },
+  {
     "id": "c66b710de879070fcf1b77dcdcaa9c6c",
     "url": "https://www.biorxiv.org/content/10.64898/2025.12.02.691938v1?rss=1",
     "title": "Distinct Cortical and Oculomotor Dynamics During Endogenous and Exogenous Competition in Working Memory",
@@ -17002,37 +17034,5 @@
     "reading_time": 1,
     "created_at": "2025-12-01T19:42:07.941307+00:00",
     "updated_at": "2025-12-01T19:42:07.941309+00:00"
-  },
-  {
-    "id": "ee5c248ec20800839ae31c84ed187264",
-    "url": "https://www.reddit.com/r/Python/comments/1pbkih2/introducing_netsnap_linux_netrouteneigh_cfg_stats/",
-    "title": "Introducing NetSnap - Linux net/route/neigh cfg & stats -> python without hardcoded kernel constants",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>What the project does: NetSnap generates python objects or JSON stdout of everything to do with networking setup and stats, routes, rules and neighbor/mdb info.</p> <p>Target Audience: Those needing a stable, cross-distro, cross-kernel way to get everything to do with kernel networking setup and operations, that uses the runtime kernel as the single source of truth for all major constants -- no duplication as hardcoded numbers in python code.</p> <p>Announcing a comprehensive, maintainable open-source python programming package for pulling nearly all details of Linux networking into reliable and broadly usable form as objects or JSON stdout.</p> <p>Link here: <a href=\"https://github.com/hcoin/netsnap\">https://github.com/hcoin/netsnap</a></p> <p>From configuration to statistics, NetSnap uses the fastest available api: RTNetlink and Generic Netlink. NetSnap can fuction in either standalone fashion generating JSON output, or provide Python 3.8+ objects. NetSnap provides deep visibility into network interfaces, routing tables, neighbor tables, multicast databases, and routing rules through direct kernel communication via CFFI. More maintainable than alternatives as NetSnap avoids any hard-coded duplication of numeric constants. This improves NetSnap's portability and maintainability across distros and kernel releases since the kernel running on each system is the 'single source of truth' for all symbolic definitions.</p> <p>In use cases where network configuration changes happen every second or less, where snapshots are not enough as each change must be tracked in real time, or one-time-per-new-kernel CFFI recompile time is too expensive, consider alternatives such as pyroute2.</p> <p>Includes command line version for each major net category (devices, routes, rules, neighbors and mdb, also 'all-in-one') as well as pypi installable objects.</p> <p>We use it internally, now we're offering to the community. Hope you find it useful!</p> <p>Harry Coin</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hgcoin\"> /u/hgcoin </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pbkih2/introducing_netsnap_linux_netrouteneigh_cfg_stats/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pbkih2/introducing_netsnap_linux_netrouteneigh_cfg_stats/\">[comments]</a></span>",
-    "author": "/u/hgcoin",
-    "published_date": "2025-12-01T18:25:43+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 292,
-    "reading_time": 1,
-    "created_at": "2025-12-01T19:42:00.377400+00:00",
-    "updated_at": "2025-12-01T19:42:00.377402+00:00"
-  },
-  {
-    "id": "dfbdbc03367c7a76e0f82f5935760eb3",
-    "url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690831v1?rss=1",
-    "title": "A Functional Resting-State Network Atlas Based on 420 Older Adults with Hypertension",
-    "content": "The Risk Reduction for Alzheimer's Disease (rrAD) trial included 513 cognitively normal, sedentary, hypertensive older adults (aged 60 to 85 years) with dementia risk factors. We utilized 420 high-quality baseline resting-state functional MRI (rs-fMRI) scans from this cohort to develop a functional atlas tailored for aging populations. Typical rs-fMRI atlases derived from healthy young adults do not account for age-related changes, such as cortical atrophy, enlarged ventricles, and altered connectivity. To address this gap, we created a cohort-specific MNI-adjacent anatomical template, rrAD420, using SPM12's DARTEL registration. In this space, we derived a comprehensive functional atlas using both group independent component analysis (GICA) and probabilistic functional mode decomposition (PROFUMO). The rrAD420 atlas offers detailed representations of Resting-State Network (RSN) connectivity, encompassing unique configurations and overlapping interactions. It features two Default-Mode Network (DMN)-specific seed-based maps (DMN24 with cerebellum, DMN18 without) and data-driven components resembling the major RSNs. Furthermore, PROFUMO allowed for the identification of multimodal and combinatory networks, capturing connections within and between RSNs. While optimized for hypertensive older adults, the rrAD420 atlas serves as a versatile tool for broader aging populations, aiding in the study of neurodegenerative processes and biomarker discovery.",
-    "author": "Scheel, N., Fernandez, Z., Baker, J., Yanev, P., Keller, J. N., Binder, E. F., Vidoni, E., Burns, J. M., Stowe, A. M., Kerwin, D. R., Cullum, C. M., Hynan, L. S., Vongpatanasin, W., Zhang, R., Zhu, D. C.",
-    "published_date": "2025-12-01T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 190,
-    "reading_time": 1,
-    "created_at": "2025-12-01T19:22:42.502871+00:00",
-    "updated_at": "2025-12-01T19:22:42.502873+00:00"
   }
 ]
