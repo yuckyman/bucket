@@ -1,5 +1,37 @@
 [
   {
+    "id": "eee14aa10da0236eca8aa407baf6d198",
+    "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1613291",
+    "title": "Exploring internal representations of self-supervised networks: few-shot learning abilities and comparison with human semantics and recognition of objects",
+    "content": "Recent advances in self-supervised learning have attracted significant attention from both machine learning and neuroscience. This is primarily because self-supervised methods do not require annotated supervisory information, making them applicable to training artificial networks without relying on large amounts of curated data, and potentially offering insights into how the brain adapts to its environment in an unsupervised manner. Although several previous studies have elucidated the correspondence between neural representations in deep convolutional neural networks (DCNNs) and biological systems, the extent to which unsupervised or self-supervised learning can explain the human-like acquisition of categorically structured information remains less explored. In this study, we investigate the correspondence between the internal representations of DCNNs trained using a self-supervised contrastive learning algorithm and human semantics and recognition. To this end, we employ a few-shot learning evaluation procedure, which measures the ability of DCNNs to recognize novel concepts from limited exposure, to examine the inter-categorical structure of the learned representations. Two comparative approaches are used to relate the few-shot learning outcomes to human semantics and recognition, with results suggesting that the representations acquired through contrastive learning are well aligned with human cognition. These findings underscore the potential of self-supervised contrastive learning frameworks to model learning mechanisms similar to those of the human brain, particularly in scenarios where explicit supervision is unavailable, such as in human infants prior to language acquisition.",
+    "author": "Masafumi Oizumi",
+    "published_date": "2025-11-21T00:00:00+00:00",
+    "source": "Frontiers Computational Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 225,
+    "reading_time": 1,
+    "created_at": "2025-12-05T16:52:40.518781+00:00",
+    "updated_at": "2025-12-05T16:52:40.518783+00:00"
+  },
+  {
+    "id": "c83608806c8de50c04e5b84d868ab468",
+    "url": "https://github.com/hyper-forge/brahma-react",
+    "title": "Write ReactJS in Rust",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46095571\">Comments</a>",
+    "author": "",
+    "published_date": "2025-11-30T10:43:27+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-05T16:52:12.478425+00:00",
+    "updated_at": "2025-12-05T16:52:12.478427+00:00"
+  },
+  {
     "id": "8b5f92170a639aae39f660497cff13de",
     "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006287?dgcid=rss_sd_all",
     "title": "Divergent neural correlates of intolerance of uncertainty subdimensions: Insights from multimodal analyses of reward processing",
@@ -16982,37 +17014,5 @@
     "reading_time": 1,
     "created_at": "2025-12-01T16:30:30.698362+00:00",
     "updated_at": "2025-12-01T16:30:30.698364+00:00"
-  },
-  {
-    "id": "9b43590e8de41fa50a2aedbfd5ebd68d",
-    "url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690762v1?rss=1",
-    "title": "A computational model of the mammalian auditory periphery with a multichannel, energy-driven, medial olivocochlear reflex",
-    "content": "The afferent auditory system, and how its specialized mechanisms and circuits support ecologically relevant auditory computations such as speech recognition, has received considerable attention in decades past. This work has culminated in accurate computational models of early afferent coding alongside a good understanding of how low-level mechanisms (e.g., peripheral tuning) impact auditory perception. In contrast, the auditory efferent system and its role in auditory perception is much less well understood. To address this gap in knowledge, we describe modifications to a model of the auditory periphery to include a medial olivocochlear efferent pathway that dynamically adjusts cochlear gain in response to sound via the classical medial olivocochlear reflex loop. We show that this model can simulate the effects of contralateral elicitors on auditory-nerve responses, including the effect of elicitors that are tonotopically distant from probes. Inclusion of across-frequency efferent effects necessitated a novel multichannel design.",
-    "author": "Guest, D. R., Farhadi, A., Carney, L. H.",
-    "published_date": "2025-12-01T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 145,
-    "reading_time": 1,
-    "created_at": "2025-12-01T16:30:30.698309+00:00",
-    "updated_at": "2025-12-01T16:30:30.698314+00:00"
-  },
-  {
-    "id": "6ef223e0b9c5f773cbda01d3ed3036f5",
-    "url": "https://www.nature.com/articles/s41398-025-03766-w",
-    "title": "Relationships between local metabolic activity and distributed functional connectivity in major depressive disorder",
-    "content": "",
-    "author": "",
-    "published_date": "2025-12-01T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2025-12-01T16:30:29.382084+00:00",
-    "updated_at": "2025-12-01T16:30:29.382085+00:00"
   }
 ]

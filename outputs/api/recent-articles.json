@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-05T16:29:05.348990+00:00",
+  "last_updated": "2025-12-05T16:53:24.440504+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "eee14aa10da0236eca8aa407baf6d198",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1613291",
+      "title": "Exploring internal representations of self-supervised networks: few-shot learning abilities and comparison with human semantics and recognition of objects",
+      "content": "Recent advances in self-supervised learning have attracted significant attention from both machine learning and neuroscience. This is primarily because self-supervised methods do not require annotated supervisory information, making them applicable to training artificial networks without relying on large amounts of curated data, and potentially offering insights into how the brain adapts to its environment in an unsupervised manner. Although several previous studies have elucidated the correspondence between neural representations in deep convolutional neural networks (DCNNs) and biological systems, the extent to which unsupervised or self-supervised learning can explain the human-like acquisition of categorically structured information remains less explored. In this study, we investigate the correspondence between the internal representations of DCNNs trained using a self-supervised contrastive learning algorithm and human semantics and recognition. To this end, we employ a few-shot learning evaluation procedure, which measures the ability of DCNNs to recognize novel concepts from limited exposure, to examine the inter-categorical structure of the learned representations. Two comparative approaches are used to relate the few-shot learning outcomes to human semantics and recognition, with results suggesting that the representations acquired through contrastive learning are well aligned with human cognition. These findings underscore the potential of self-supervised contrastive learning frameworks to model learning mechanisms similar to those of the human brain, particularly in scenarios where explicit supervision is unavailable, such as in human infants prior to language acquisition.",
+      "author": "Masafumi Oizumi",
+      "published_date": "2025-11-21T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 225,
+      "reading_time": 1,
+      "created_at": "2025-12-05T16:52:40.518781+00:00",
+      "updated_at": "2025-12-05T16:52:40.518783+00:00"
+    },
+    {
+      "id": "c83608806c8de50c04e5b84d868ab468",
+      "url": "https://github.com/hyper-forge/brahma-react",
+      "title": "Write ReactJS in Rust",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46095571\">Comments</a>",
+      "author": "",
+      "published_date": "2025-11-30T10:43:27+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-05T16:52:12.478425+00:00",
+      "updated_at": "2025-12-05T16:52:12.478427+00:00"
+    },
     {
       "id": "8b5f92170a639aae39f660497cff13de",
       "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006287?dgcid=rss_sd_all",
@@ -309,38 +341,6 @@
       "reading_time": 2,
       "created_at": "2025-12-05T15:24:33.304683+00:00",
       "updated_at": "2025-12-05T15:24:33.304684+00:00"
-    },
-    {
-      "id": "bbb9a8f1743fc28695cc63f219a404e9",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.02.690396v1?rss=1",
-      "title": "Grey matter embedding of the cholinergic system",
-      "content": "Acetylcholine is an important neurotransmitter for neurodevelopment and brain functioning. Historically, measuring cholinergic effects in living brains required invasive and irradiating procedures, severely limiting our understanding of this system in health and disease. Here, we developed a non-invasive magnetic resonance imaging-based approach to evaluate how cholinergic synapses shape the brain's macroanatomical architecture in exploration (n=1113) and replication cohorts (n=587) of healthy adults. Spatial colocalization of presynaptic acetylcholine transporters emphasized a cholinergic basis of grey matter coupling between basal forebrain and its corticopetal projection targets amygdala, insula and cingulate cortices. Unexpectedly, covarying grey matter regions mimicked the density topographies of M1- muscarinic and 4{beta}2-nicotinic receptors beyond predominant target regions and highlighted effect of the brain's overall cholinergic neuronal populations. The results establish the basis for non-invasive assessments of cholinergic contributions to neurodegenerative and psychiatric pathologies, and pave the way for neuroimaging-guided pharmacological indications of muscarinic antipsychotics, nicotinic anti-addiction and cholinergic anti-dementia drugs.",
-      "author": "Weuthen, A., Chopra, S., Helbing, D. L., Li, M., Besteher, B., Walter, M.",
-      "published_date": "2025-12-05T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 151,
-      "reading_time": 1,
-      "created_at": "2025-12-05T15:24:09.980342+00:00",
-      "updated_at": "2025-12-05T15:24:09.980344+00:00"
-    },
-    {
-      "id": "f9d26c0aff6fad4730b6c80e8bc8bedf",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.02.691591v1?rss=1",
-      "title": "A novel key player in cognitive striatal processes: the Pthlh interneurons",
-      "content": "Interneurons in the dorsal striatum provide essential modulatory control over the projecting neurons, known as medium spiny neurons (MSNs), regulating the output of this brain structure, which is critical for motor control, decision-making, and learning. The diversity of interneurons has been recently determined based on single-cell transcriptomic analyses identifying novel populations as the Pthlh-expressing interneurons, one of the most abundant and distinctive inhibitory populations in the human and mouse striatum. Here, we generated a novel Pthlhcre knock-in mouse line that enables comprehensive study of this critical population. Quantitative histological analyses show that this line effectively targets the Pthlh interneuron class, which appears as a stable population across age, sex and the anterior-posterior axis. To elucidate their functional role, we performed selective chemogenetic inhibition of Pthlh interneurons, which caused significant impairments in striatum-dependent cognitive functions and reduced exploratory behaviorur. Importantly, selective silencing did not affect basal locomotion, motor coordination, or anxiety-like behavior. Monosynaptic rabies tracing revealed that Pthlh interneurons receive dense local input from MSN subtypes and diverse long-range afferents from thalamic and different cortical regions. We further confirm that this population displays electrophysiological heterogeneity encompassing fast-spiking and fast-spiking-like phenotypes. Overall, our findings establish Pthlh interneurons as a major inhibitory class essential for cognitive processing-but not gross motor function-acting as key integrators of local MSN feedback and thalamocortical signals. The novel Pthlhcre mouse line provides a valuable resource for future studies of inhibitory diversity in basal ganglia function and related neurological disorders.",
-      "author": "Diez Salguero, M., Harder, L., Herr, M., Llorca Torralba, M., Berrocoso Dominguez, E. M., Hjerling Leffler, J., Munoz Manchado, A. B.",
-      "published_date": "2025-12-05T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 241,
-      "reading_time": 1,
-      "created_at": "2025-12-05T15:24:09.980308+00:00",
-      "updated_at": "2025-12-05T15:24:09.980310+00:00"
     }
   ]
 }
