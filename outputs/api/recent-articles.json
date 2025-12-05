@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-05T08:21:42.548998+00:00",
+  "last_updated": "2025-12-05T08:30:38.036393+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d09fb52d698475524225537d0d506802",
+      "url": "https://blog.ui.com/article/introducing-unifi-5g",
+      "title": "UniFi 5G",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46157594\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-05T07:06:38+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-05T08:29:31.755198+00:00",
+      "updated_at": "2025-12-05T08:29:31.755202+00:00"
+    },
+    {
+      "id": "d09fb52d698475524225537d0d506802",
+      "url": "https://blog.ui.com/article/introducing-unifi-5g",
+      "title": "UniFi 5G",
+      "content": "<p>Article URL: <a href=\"https://blog.ui.com/article/introducing-unifi-5g\">https://blog.ui.com/article/introducing-unifi-5g</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46157594\">https://news.ycombinator.com/item?id=46157594</a></p>\n<p>Points: 29</p>\n<p># Comments: 10</p>",
+      "author": "janandonly",
+      "published_date": "2025-12-05T07:06:38+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-05T08:29:30.396308+00:00",
+      "updated_at": "2025-12-05T08:29:30.396318+00:00"
+    },
     {
       "id": "adc4781ea11d927ebc2d92cc947ef47f",
       "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1647194",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-05T06:34:13.717502+00:00",
       "updated_at": "2025-12-05T06:34:13.717507+00:00"
-    },
-    {
-      "id": "fac9deafbbf12d54d5d2dc5ea2178084",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1729495",
-      "title": "Neurological mechanisms of mental fatigue in cognitive flexibility in soccer players: an event-related potential study based on N2 components",
-      "content": "ObjectivesMental fatigue frequently occurs in team sports characterised by high cognitive demands and can adversely affect athletes\u2019 decision-making and executive functions. This study examines the impact of mental fatigue on cognitive flexibility in soccer players, employing event-related potentials (ERP) to elucidate the underlying neural mechanisms.MethodEighteen football players from the China University Football Association (CUFA) participated in the study. The research utilised the Stroop task to induce mental fatigue and the More-odd switching task to evaluate cognitive flexibility, with measurement indicators comprising accuracy rate (ACC), reaction time (RT), and N2 component amplitude. The experimental design adhered to a repeated measures protocol, incorporating 2 (time: pre-fatigue/post-fatigue)\u202f\u00d7\u202f2 (task type: conversion/non-conversion)\u202f\u00d7\u202f4 (electrode positions: Fz, Cz, Pz, F3) factors. Statistical analyses of behavioural data were conducted using non-parametric tests, while ERP data were examined through repeated measures ANOVA.ResultsMental fatigue significantly impaired athletes\u2019 accuracy in the More-odd switching task, evidenced by decreased performance in both conversion and non-conversion conditions (p\u202f<\u202f0.05), alongside prolonged reaction times (p\u202f<\u202f0.01). Event-related potential (ERP) analysis demonstrated a marked reduction in the amplitudes of the N2 component post-intervention, with notable differences across electrode sites (F\u202f=\u202f3.192, p\u202f=\u202f0.031). These findings suggest a restriction in cognitive control resources within the frontal and parietal regions.ConclusionThis study illustrates that experimentally induced mental fatigue has a significant detrimental impact on the cognitive performance of football players, leading to slower reaction times and decreased neural electrophysiological indicators (specifically, a reduction in N2 wave amplitude), indicating a decline in conflict monitoring ability. An integrated examination of both behavioural and neurophysiological data indicates that the adverse effects of mental fatigue are likely due to the depletion of general cognitive control resources that rely on the prefrontal cortex, rather than targeting particular cognitive functions. These results offer initial insights into the cognitive and neurological alterations in fatigued athletes. While the study did not explore interventions, the findings lay the groundwork for the development of tailored cognitive training programmes and fatigue management strategies, along with potential evaluation criteria. Notably, the N2 wave amplitude serves as a key metric for assessing cognitive resource levels in football players.",
-      "author": "Xuejian Ding",
-      "published_date": "2025-12-05T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 354,
-      "reading_time": 1,
-      "created_at": "2025-12-05T06:34:10.948056+00:00",
-      "updated_at": "2025-12-05T06:34:10.948057+00:00"
-    },
-    {
-      "id": "be1080e6d4b56655063cc15e7ecf7cab",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1704476",
-      "title": "RS-STGCN: Regional-Synergy Spatio-Temporal Graph Convolutional Network for emotion recognition",
-      "content": "Decoding emotional states from electroencephalography (EEG) signals is a fundamental goal in affective neuroscience. This endeavor requires accurately modeling the complex spatio-temporal dynamics of brain activity. However, prevailing approaches for defining brain connectivity often fail to reconcile predefined neurophysiological priors with task-specific functional dynamics. This paper presents the Regional-Synergy Spatio-Temporal Graph Convolutional Network (RS-STGCN), a novel framework designed to bridge this gap. The core innovation is the Regional Synergy Graph Learner (RSGL), which integrates known physiological brain-region priors with a task-driven optimization process. It constructs a sparse, adaptive graph by modeling connectivity at two distinct levels. At the intra-regional level, it establishes core information backbones within functional areas. This ensures efficient and stable local information processing. At the inter-regional level, it adaptively identifies critical, sparse long-range connections. These connections are essential for global emotional integration. This dual-level, dynamically learned graph then serves as the foundation for the spatio-temporal network. This network effectively captures evolving emotional features. The proposed framework demonstrates superior recognition accuracy, achieving state-of-the-art results of 88.00% and 85.43% on the public SEED and SEED-IV datasets, respectively, under a strict subject-independent protocol. It also produces a neuroscientifically interpretable map of functional brain connectivity, identifying key frontal-parietal pathways consistent with established attentional networks. This work offers a powerful computational approach to investigate the dynamic network mechanisms underlying human emotion, providing new data-driven insights into functional brain organization. The code and datasets are available at https://github.com/YUNQI1014/RS-STGCN.",
-      "author": "Haiqi Zhu",
-      "published_date": "2025-12-05T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 235,
-      "reading_time": 1,
-      "created_at": "2025-12-05T06:34:10.948006+00:00",
-      "updated_at": "2025-12-05T06:34:10.948008+00:00"
     }
   ]
 }
