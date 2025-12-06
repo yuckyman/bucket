@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-12-06T04:45:30.503133+00:00",
+  "last_updated": "2025-12-06T05:21:33.513885+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "35fc3aa463837411733fc85be119d09e",
+      "url": "https://www.reddit.com/r/Python/comments/1pesfdz/i_built_a_distributed_music_recognition_backend/",
+      "title": "I built a distributed music recognition backend with REST API support.",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, </p> <p>Hope y'all are having a great day so far!</p> <p>I've been experiencing some difficulties identifying some specific niche genres of music (breakdance music and underground DJ mixes) with existing services like Shazam, which led me to come up with this idea to build an open source music recognition backend.</p> <p>It can be particularly helpful for creating a personalized database of niche music collections where existing commercial solutions often fail to identify.</p> <p><strong>What My Project Does</strong></p> <ul> <li><p><strong>Music fingerprinting</strong>: It allows you to submit tracks for fingerprint generation, which can then be stored and used for matching or recognition. These fingerprints serve as reference data for identifying audio in future recognition requests.</p></li> <li><p><strong>Music recognition</strong>: It allows you to recognize audio input, such as recorded music tracks. When an audio file or stream is submitted, it analyzes the audio's unique fingerprint and compares it against a distributed set of configured audio fingerprinting database instances to identify the music being played. It's also capable of storing recognition results for future retrieval.</p></li> </ul> <p><strong>Target Audience</strong></p> <p>Users seeking to create a customized, niche-genre music database to enhance accuracy for music recognition.</p> <p><strong>Features</strong></p> <ul> <li><p><strong>Multi-processing and scalability</strong>: Enables faster processing times by distributing requests across multiple database instances.</p></li> <li><p><strong>High Performance Database Support</strong>: Supports ClickHouse for rapid queries and high-speed data handling for large-scale deployments.</p></li> <li><p><strong>Resilient Handling</strong>: Utilizing the remaining available database instances in the event that some configured database instances are temporaily down or unreachable.</p></li> <li><p><strong>Token authentication</strong> and <strong>write protection</strong> for audio fingerprinting requests: Ensures that only authorized users can add audio fingerprint data to the database.</p></li> </ul> <p><strong>Comparison</strong></p> <p>Commercial music recognition services like Shazam or SoundHound </p> <p><strong>The Tech Stack</strong></p> <ul> <li><p>Python </p></li> <li><p>Flask</p></li> </ul> <p><strong>Future development</strong></p> <p>Frontend development: creating a UI for this program.</p> <p><strong>My use case</strong></p> <p>Recognizing breakdance (B-Boy) Music and underground DJ remixes.</p> <p>I\u2019d love for you guys to roast my code or give me some feedback. I\u2019m especially interested in ways to improve its performance for a mid to large scale collection.</p> <p><strong>Repo link</strong></p> <p><a href=\"https://github.com/bboymega/TuneScout\">https://github.com/bboymega/TuneScout</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bboy_life\"> /u/bboy_life </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pesfdz/i_built_a_distributed_music_recognition_backend/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pesfdz/i_built_a_distributed_music_recognition_backend/\">[comments]</a></span>",
+      "author": "/u/bboy_life",
+      "published_date": "2025-12-05T11:12:31+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 359,
+      "reading_time": 1,
+      "created_at": "2025-12-06T05:20:22.540058+00:00",
+      "updated_at": "2025-12-06T05:20:22.540060+00:00"
+    },
     {
       "id": "a7401bcb840bc968a5416be33d1ee02d",
       "url": "https://dmitry.gr/?r=05.Projects&proj=27.%20rePalm#pixter",
@@ -329,22 +345,6 @@
       "reading_time": 1,
       "created_at": "2025-12-06T03:10:23.711543+00:00",
       "updated_at": "2025-12-06T03:10:23.711545+00:00"
-    },
-    {
-      "id": "2ab2c6077729e9f8653cee879897f5c1",
-      "url": "https://azsh.it/500",
-      "title": "Five hundred reasons to not use Microsoft Azure",
-      "content": "<p>Article URL: <a href=\"https://azsh.it/500\">https://azsh.it/500</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46169903\">https://news.ycombinator.com/item?id=46169903</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
-      "author": "bsoqqb",
-      "published_date": "2025-12-06T02:11:54+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-06T03:10:23.711514+00:00",
-      "updated_at": "2025-12-06T03:10:23.711522+00:00"
     }
   ]
 }
