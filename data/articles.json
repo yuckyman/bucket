@@ -1,5 +1,37 @@
 [
   {
+    "id": "6868930c6b41741a9163b8e7146df8e9",
+    "url": "https://writings.stephenwolfram.com/2025/12/instant-supercompute-launching-wolfram-compute-services/",
+    "title": "Wolfram Compute Services",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46171394\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-06T07:21:42+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-06T08:46:31.188762+00:00",
+    "updated_at": "2025-12-06T08:46:31.188764+00:00"
+  },
+  {
+    "id": "6868930c6b41741a9163b8e7146df8e9",
+    "url": "https://writings.stephenwolfram.com/2025/12/instant-supercompute-launching-wolfram-compute-services/",
+    "title": "Wolfram Compute Services",
+    "content": "<p>Article URL: <a href=\"https://writings.stephenwolfram.com/2025/12/instant-supercompute-launching-wolfram-compute-services/\">https://writings.stephenwolfram.com/2025/12/instant-supercompute-launching-wolfram-compute-services/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46171394\">https://news.ycombinator.com/item?id=46171394</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+    "author": "nsoonhui",
+    "published_date": "2025-12-06T07:21:42+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-06T08:46:29.890532+00:00",
+    "updated_at": "2025-12-06T08:46:29.890533+00:00"
+  },
+  {
     "id": "893b5058dcbe8975de8b2a4aa418c79f",
     "url": "https://petapixel.com/2025/11/13/this-guy-built-a-compact-camera-using-an-optical-mouse/",
     "title": "Guy Built a Compact Camera Using an Optical Mouse",
@@ -17030,37 +17062,5 @@
     "reading_time": 1,
     "created_at": "2025-12-02T03:19:58.396628+00:00",
     "updated_at": "2025-12-02T03:19:58.396633+00:00"
-  },
-  {
-    "id": "45271a80a221a35912e75ec358f4cf54",
-    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1633273",
-    "title": "Generation of synthetic TSPO PET maps from structural MRI images",
-    "content": "IntroductionNeuroinflammation, a pathophysiological process involved in numerous disorders, is typically imaged using [11C]PBR28 (or TSPO) PET. However, this technique is limited by high costs and ionizing radiation, restricting its widespread clinical use. MRI, a more accessible alternative, is commonly used for structural or functional imaging, but when used using traditional approaches has limited sensitivity to specific molecular processes. This study aims to develop a deep learning model to generate TSPO PET images from structural MRI data collected in human subjects.MethodsA total of 204 scans, from participants with knee osteoarthritis (n\u202f=\u202f15 scanned once, 15 scanned twice, 14 scanned three times), back pain (n\u202f=\u202f40 scanned twice, 3 scanned three times), and healthy controls (n\u202f=\u202f28, scanned once), underwent simultaneous 3\u202fT MRI and [11C]PBR28 TSPO PET scans. A 3D U-Net model was trained on 80% of these PET-MRI pairs and validated using 5-fold cross-validation. The model\u2019s accuracy in reconstructed PET from MRI only was assessed using various intensity and noise metrics.ResultsThe model achieved a low voxel-wise mean squared error (0.0033\u202f\u00b1\u202f0.0010) across all folds and a median contrast-to-noise ratio of 0.0640\u202f\u00b1\u202f0.2500 when comparing true to reconstructed PET images. The synthesized PET images accurately replicated the spatial patterns observed in the original PET data. Additionally, the reconstruction accuracy was maintained even after spatial normalization.DiscussionThis study demonstrates that deep learning can accurately synthesize TSPO PET images from conventional, T1-weighted MRI. This approach could enable low-cost, noninvasive neuroinflammation imaging, expanding the clinical applicability of this imaging method.",
-    "author": "Marco L. Loggia",
-    "published_date": "2025-09-08T00:00:00+00:00",
-    "source": "Frontiers Neuroinformatics",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 250,
-    "reading_time": 1,
-    "created_at": "2025-12-02T03:19:50.841146+00:00",
-    "updated_at": "2025-12-02T03:19:50.841148+00:00"
-  },
-  {
-    "id": "4362165dfc0adce442844decac6d2831",
-    "url": "https://www.caranddriver.com/reviews/a69529696/1981-datsun-280-zx-turbo-archive-test/",
-    "title": "Tested: 1981 Datsun 280ZX Turbo",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46090184\">Comments</a>",
-    "author": "",
-    "published_date": "2025-11-29T19:43:59+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-02T03:19:19.481543+00:00",
-    "updated_at": "2025-12-02T03:19:19.481544+00:00"
   }
 ]
