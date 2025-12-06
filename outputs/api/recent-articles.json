@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-06T10:15:02.714934+00:00",
+  "last_updated": "2025-12-06T10:21:41.362967+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "c94db83ae8f723296090881a94a38b7a",
+      "url": "https://www.reddit.com/r/Python/comments/1pfl8ln/built_an_opensource_mock_payment_gateway_in/",
+      "title": "Built an open-source mock payment gateway in Python (no more Stripe test limits)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What My Project Does</strong></p> <p>AcquireMock is a self-hosted payment processor for testing and development. It simulates a real payment gateway with:</p> <ul> <li>Payment page generation with card forms (accepts test card 4444 4444 4444 4444)</li> <li>OTP email verification flow</li> <li>Webhook delivery with HMAC signatures and retry logic</li> <li>Saved payment methods for returning customers</li> <li>Production-ready features: CSRF protection, rate limiting, request validation</li> </ul> <p>Tech stack: FastAPI + PostgreSQL + SQLAlchemy + Pydantic. Frontend is vanilla JS to keep it lightweight.</p> <p><strong>Target Audience</strong></p> <p>This is meant for:</p> <ul> <li>Developers building payment integrations who hit Stripe test mode limits</li> <li>Teaching/learning how payment flows work (OTP, webhooks, 3DS simulation)</li> <li>Offline development environments where external APIs aren't accessible</li> <li>Projects that need a mock payment system without external dependencies</li> </ul> <p>Not intended for production use - it's a testing/development tool.</p> <p><strong>Comparison</strong></p> <p>Unlike Stripe's official test mode:</p> <ul> <li>Runs completely offline (no API keys, no internet required)</li> <li>No rate limits or request caps</li> <li>Full control over webhook timing and retry logic</li> <li>Can be customized for specific testing scenarios</li> <li>Works without any external service configuration</li> </ul> <p>Compared to other mock payment tools, this one includes a full UI (not just API endpoints), supports multi-language, has email OTP flow, and comes with Docker Compose for instant setup.</p> <p>GitHub: <a href=\"https://github.com/illusiOxd/acquiremock\">https://github.com/illusiOxd/acquiremock</a></p> <p>Open to feedback, especially on the webhook retry implementation - curious if there's a better approach.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/illusiON_MLG1337\"> /u/illusiON_MLG1337 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pfl8ln/built_an_opensource_mock_payment_gateway_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pfl8ln/built_an_opensource_mock_payment_gateway_in/\">[comments]</a></span>",
+      "author": "/u/illusiON_MLG1337",
+      "published_date": "2025-12-06T09:28:00+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 248,
+      "reading_time": 1,
+      "created_at": "2025-12-06T10:20:30.128545+00:00",
+      "updated_at": "2025-12-06T10:20:30.128547+00:00"
+    },
+    {
+      "id": "48e4dc2bf4309566ab963be6d1e5ec7a",
+      "url": "https://news.ycombinator.com/item?id=46171921",
+      "title": "Ask HN: How many people got VPNs in response to laws like UK Online Safety Act?",
+      "content": "<p>I was reading The Free Press (thefp.com) from London and an article was automatically blocked to ensure conformance with the UK Online Safety Act. I thought the site was broken. It took a few minutes to diagnose the problem. 15 minutes later I had Mullvad installed and was back online.<p>Talk about unintended consequences. How many other people have done the same?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46171921\">https://news.ycombinator.com/item?id=46171921</a></p>\n<p>Points: 9</p>\n<p># Comments: 1</p>",
+      "author": "hodgesrm",
+      "published_date": "2025-12-06T09:28:59+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 72,
+      "reading_time": 1,
+      "created_at": "2025-12-06T10:20:27.624309+00:00",
+      "updated_at": "2025-12-06T10:20:27.624318+00:00"
+    },
     {
       "id": "7501f69dbc51e6a19b029b4f2dca31f2",
       "url": "https://www.nature.com/articles/s41598-025-30026-0",
@@ -351,46 +383,6 @@
       "updated_at": "2025-12-06T06:21:51.524783+00:00",
       "metadata": {
         "processed_at": "2025-12-06T06:21:51.524784+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ffd14ec72534fb98238c2c79f794b0de",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.03.691996v1?rss=1",
-      "title": "Microglia-astrocyte interaction underlies aquaporin-4 dysregulation in the mouse cortex",
-      "content": "Brain water homeostasis relies on the coordinated actions of glial cells. In particular, astrocytes play an essential role in facilitating perivascular water exchange between cerebrospinal fluid and interstitial fluid through aquaporin-4 (AQP4), a water channel highly concentrated at astrocytic endfeet. Dysregulation of AQP4 localization is implicated in various neuropathologies, but its underlying mechanisms are unclear. Although astrocytes and microglia both express {beta}-adrenergic receptors ({beta}-AdRs), whether {beta}-AdR signaling modulates astrocytic AQP4 polarization through microglial activation has not yet been investigated. Here, we hypothesized that microglial activation mediates the {beta}-AdR-induced loss of astrocytic AQP4 polarization. To test this hypothesis, we topically applied the {beta}-AdR agonist, isoproterenol, to the primary visual cortex of anesthetized mice and evaluated AQP4 polarization using double immunohistochemistry. Acute {beta}-AdR activation (3 h) significantly reduced perivascular AQP4 polarization and enhanced local microglial reactivity. Both pharmacological inhibition of microglial activity with minocycline and microglial depletion via dietary administration of the CSF1R antagonist, PLX5622, prevented AQP4 dysregulation induced by isoproterenol. These findings demonstrate that microglial activation is required for {beta}-AdR agonist-induced AQP4 dysregulation in the mouse cortex, revealing a previously unrecognized microglia-astrocyte interaction linking adrenergic signaling to glial water homeostasis.",
-      "author": "Wang, Y., Morita, E., Hirota, Y., Monai, H.",
-      "published_date": "2025-12-05T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 189,
-      "reading_time": 1,
-      "created_at": "2025-12-06T03:54:06.794077+00:00",
-      "updated_at": "2025-12-06T04:17:48.142312+00:00",
-      "metadata": {
-        "processed_at": "2025-12-06T04:17:48.142324+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ee3c4813606a4ac697d73864dc8fe9fd",
-      "url": "https://www.reddit.com/r/Python/comments/1pfau1c/saturday_daily_thread_resource_request_and/",
-      "title": "Saturday Daily Thread: Resource Request and Sharing! Daily Thread",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: Resource Request and Sharing \ud83d\udcda</h1> <p>Stumbled upon a useful Python resource? Or are you looking for a guide on a specific topic? Welcome to the Resource Request and Sharing thread!</p> <h2>How it Works:</h2> <ol> <li><strong>Request</strong>: Can't find a resource on a particular topic? Ask here!</li> <li><strong>Share</strong>: Found something useful? Share it with the community.</li> <li><strong>Review</strong>: Give or get opinions on Python resources you've used.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Please include the type of resource (e.g., book, video, article) and the topic.</li> <li>Always be respectful when reviewing someone else's shared resource.</li> </ul> <h2>Example Shares:</h2> <ol> <li><strong>Book</strong>: <a href=\"https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008\">&quot;Fluent Python&quot;</a> - Great for understanding Pythonic idioms.</li> <li><strong>Video</strong>: <a href=\"https://www.youtube.com/watch?v=pkYVOmU3MgA\">Python Data Structures</a> - Excellent overview of Python's built-in data structures.</li> <li><strong>Article</strong>: <a href=\"https://realpython.com/primer-on-python-decorators/\">Understanding Python Decorators</a> - A deep dive into decorators.</li> </ol> <h2>Example Requests:</h2> <ol> <li><strong>Looking for</strong>: Video tutorials on web scraping with Python.</li> <li><strong>Need</strong>: Book recommendations for Python machine learning.</li> </ol> <p>Share the knowledge, enrich the community. Happy learning! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pfau1c/saturday_daily_thread_resource_request_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pfau1c/saturday_daily_thread_resource_request_and/\">[comments]</a></span>",
-      "author": "/u/AutoModerator",
-      "published_date": "2025-12-06T00:00:35+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 180,
-      "reading_time": 1,
-      "created_at": "2025-12-06T03:53:29.041317+00:00",
-      "updated_at": "2025-12-06T04:17:48.142329+00:00",
-      "metadata": {
-        "processed_at": "2025-12-06T04:17:48.142331+00:00",
         "processing_method": "github_actions"
       }
     }
