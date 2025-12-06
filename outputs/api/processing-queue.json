@@ -1,8 +1,56 @@
 {
-  "last_updated": "2025-12-06T18:20:15.213122+00:00",
-  "pending_count": 719,
-  "processed_count": 281,
+  "last_updated": "2025-12-06T20:15:58.198957+00:00",
+  "pending_count": 716,
+  "processed_count": 284,
   "pending_articles": [
+    {
+      "id": "4751771be7e04ab3b28be1dd2246c64c",
+      "url": "https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical",
+      "title": "Perl's Decline Was Cultural",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46175112\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-06T17:42:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-06T18:27:57.814650+00:00",
+      "updated_at": "2025-12-06T18:27:57.814654+00:00"
+    },
+    {
+      "id": "68ec395196ae6148547305c9e9a5689e",
+      "url": "https://github.com/roriau0422/sfex-lang",
+      "title": "Show HN: SFX \u2013 A language where 0.1 and 0.2 = 0.3 and Context is first-class",
+      "content": "<p>I've spent the last few weeks building SFX in Rust. It's a programming language experiment focused on context-oriented programming with some unusual design choices.<p>Reality check first:<p>Solo project, 53 commits<p>1 GitHub star xD<p>Zero users besides me<p>No production usage<p>Documentation is aspirational<p>Many stdlib modules are minimal stubs<p>What actually works:<p>Basic interpreter (tree-walker)<p>Arbitrary precision decimals (0.1 + 0.2 = 0.3)<p>1-based indexing (controversial, I know)<p>Context/Situation system (the main idea)<p>Some file I/O and basic networking<p>JIT hooks exist but optimization is minimal<p>The Context idea (asking for feedback on this):<p>Instead of checking if (user.isAdmin) everywhere, you define Situation: AdminMode that overrides methods:<p><pre><code>  Concept: User\n      To GetPermissions:\n          Return \"read\"\n  \n  Situation: AdminMode\n      Adjust User:\n          To GetPermissions:\n              Return \"admin,write,delete\"\n  \n  Story:\n      Create User Called Bob\n      Switch on AdminMode\n      Print Bob.GetPermissions  # Now returns \"admin,write,delete\"\n</code></pre>\nObjects change behavior based on active situations without mutating state. Is this useful or just overengineered?<p>What's NOT ready:<p>Performance is terrible (haven't optimized anything)<p>Standard lib is mostly TODOs<p>AI features are vaporware<p>REPL doesn't exist<p>No tooling (LSP, debugger, etc.)<p>Tests exist but coverage is poor<p>My questions:<p>Is context-oriented programming solving a real problem or creating busywork?<p>Should I focus on making it fast OR making the stdlib useful?<p>Is 1-based indexing a dealbreaker for you?<p>Would arbitrary precision by default bother you for a general-purpose language?<p>I'm not trying to replace anything. This is a learning project that got out of hand.<p>Repo: <a href=\"https://github.com/roriau0422/sfex-lang\" rel=\"nofollow\">https://github.com/roriau0422/sfex-lang</a><p>Pages: <a href=\"https://roriau0422.github.io/sfex-lang/\" rel=\"nofollow\">https://roriau0422.github.io/sfex-lang/</a><p>Honest feedback wanted - including \"this is pointless, stop wasting time.\"</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46174878\">https://news.ycombinator.com/item?id=46174878</a></p>\n<p>Points: 6</p>\n<p># Comments: 2</p>",
+      "author": "roriau",
+      "published_date": "2025-12-06T17:13:03+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 242,
+      "reading_time": 1,
+      "created_at": "2025-12-06T18:27:56.707404+00:00",
+      "updated_at": "2025-12-06T18:27:56.707406+00:00"
+    },
+    {
+      "id": "4751771be7e04ab3b28be1dd2246c64c",
+      "url": "https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical",
+      "title": "Perl's Decline Was Cultural",
+      "content": "<p>Article URL: <a href=\"https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical\">https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46175112\">https://news.ycombinator.com/item?id=46175112</a></p>\n<p>Points: 31</p>\n<p># Comments: 5</p>",
+      "author": "todsacerdoti",
+      "published_date": "2025-12-06T17:42:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-06T18:27:56.707351+00:00",
+      "updated_at": "2025-12-06T18:27:56.707360+00:00"
+    },
     {
       "id": "fa250840ddf6808c93613cad856c7c25",
       "url": "http://doi.org/10.1037/cns0000353",
@@ -114,57 +162,109 @@
       "reading_time": 1,
       "created_at": "2025-12-06T16:45:35.250374+00:00",
       "updated_at": "2025-12-06T16:45:35.250376+00:00"
-    },
-    {
-      "id": "ceea3048c29312b21022320cf8318283",
-      "url": "https://grapheneos.social/@GrapheneOS/115647408229616018",
-      "title": "GrapheneOS is the only Android OS providing full security patches",
-      "content": "<p>Article URL: <a href=\"https://grapheneos.social/@GrapheneOS/115647408229616018\">https://grapheneos.social/@GrapheneOS/115647408229616018</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46173407\">https://news.ycombinator.com/item?id=46173407</a></p>\n<p>Points: 32</p>\n<p># Comments: 2</p>",
-      "author": "akyuu",
-      "published_date": "2025-12-06T13:58:31+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-06T16:45:34.154609+00:00",
-      "updated_at": "2025-12-06T16:45:34.154611+00:00"
-    },
-    {
-      "id": "7afc81aa0880badcd1c03d36a441934b",
-      "url": "https://github.com/GoogleChromeLabs/carlo",
-      "title": "Carlo is no longer maintained",
-      "content": "<p>Article URL: <a href=\"https://github.com/GoogleChromeLabs/carlo\">https://github.com/GoogleChromeLabs/carlo</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46173785\">https://news.ycombinator.com/item?id=46173785</a></p>\n<p>Points: 6</p>\n<p># Comments: 3</p>",
-      "author": "keepamovin",
-      "published_date": "2025-12-06T14:55:03+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-06T16:45:34.154570+00:00",
-      "updated_at": "2025-12-06T16:45:34.154572+00:00"
-    },
-    {
-      "id": "82777821d77e55cfd47c05bfd6943862",
-      "url": "https://www.nature.com/articles/s41526-025-00545-1",
-      "title": "Identifying cognitive capabilities required for optimal surface extravehicular activity performance",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-06T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-06T16:24:43.970473+00:00",
-      "updated_at": "2025-12-06T16:24:43.970475+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "fcd538b41f665a14d1dad0bde3af644d",
+      "url": "https://sites.gatech.edu/omscsopencourseware/",
+      "title": "OMSCS Open Courseware",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46175826\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-06T19:14:35+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-06T19:37:39.842278+00:00",
+      "updated_at": "2025-12-06T20:15:58.089099+00:00",
+      "metadata": {
+        "processed_at": "2025-12-06T20:15:58.089109+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "437dd11491bad5ef899b86bf9271e125",
+      "url": "http://doi.org/10.1037/cns0000370",
+      "title": "Investigating how individual differences in selective attention relate to schizotypy and altered states of consciousness.",
+      "content": "Measures of altered states of consciousness (ASC) are useful for understanding anomalies within conscious experiences. Within psychedelic clinical trials, ASC have been associated with long-term positive treatment outcomes for numerous types of mental illnesses. Schizotypal Personality Scale (STA), a set of personality traits that can be related to psychedelic-induced ASC, is associated with potential changes in selective attention, such as being less bound to previously learned associations (i.e., reduced associative blocking). Given the similarity between schizotypy and psychedelic-induced ASC, we hypothesized that there may be attentional differences in individuals with past experiences of ASC. This study examined how differences in selective attention relate to past experiences of ASC and STA. In Study 1, participants completed a visual categorization task designed to elicit associative blocking, the STA, and the ASC scale. Results revealed slow learning feature\u2013category associations in participants high in ASC and STA. Study 2 tested whether this deficit in performance was due to widened attention by implementing additional inference trials that measured incidental learning of feature\u2013feature associations. Results from Study 2 confirmed that participants high in ASC and STA show deficits in learning categories, but this was not accounted for by wider selective attention per se. Our results suggest that flexible or widened attention may not be the locus of cognitive changes associated with past experiences of ASC. Rather, by showing reliable latency in an error-driven learning task, we add to a comprehensive understanding of the relationships between cognition and ASC. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2023-09-14T00:00:00+00:00",
+      "source": "Clinical Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 251,
+      "reading_time": 1,
+      "created_at": "2025-12-06T18:49:05.474010+00:00",
+      "updated_at": "2025-12-06T20:15:58.089113+00:00",
+      "metadata": {
+        "processed_at": "2025-12-06T20:15:58.089115+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a8adb8e21ba8ade167865b32c18747a2",
+      "url": "http://ieeexplore.ieee.org/document/11235877",
+      "title": "Separate Timescales for Spatial and Anatomical Information Processing of Body Stimuli",
+      "content": "Observing different body stimuli can influence the speed and accuracy of our responses. Prior work indicates this effect is influenced by factors such as spatial congruence and perspective. We hypothesized that the influence of these factors would vary depending on the amount of time that participants had to process visual stimuli. Experiment 1 was a RT task (n = 29) with stimuli varying in spatial congruence (congruent, incongruent, neutral), perspective (first- or third-person), and stimulus type (body or control). Experiment 2 (n = 50) used the same stimuli in a \u201cForced Response\u201d paradigm, which controlled the time participants had to prepare a response. This allowed us to assess responses as a function of preparation time. Experiment 1 showed effects of spatial congruence, with longer RTs and more errors for spatially incongruent stimuli. This effect was greater for body stimuli. Experiment 2 showed that spatial information was processed faster than anatomical information, inducing incorrect responses at short preparation times for spatially incongruent body stimuli. There was little-to-no corresponding effect for control stimuli. Both experiments also showed weak-to-no effects of perspective, which appear to have been driven by spatial congruence. Our results indicate that spatial information is processed faster than anatomical information during observation of body stimuli. These data are consistent with the dual visual streams hypothesis, whereby spatial information would be processed rapidly via the dorsal stream, whereas anatomical processing would occur later via the ventral stream. These data also indicate differences in processing between body and control stimuli.",
+      "author": "",
+      "published_date": "2025-11-07T13:16:23+00:00",
+      "source": "Cognitive Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 248,
+      "reading_time": 1,
+      "created_at": "2025-12-06T18:28:54.030754+00:00",
+      "updated_at": "2025-12-06T20:15:58.089118+00:00",
+      "metadata": {
+        "processed_at": "2025-12-06T20:15:58.089120+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2e736fcd8910378ca6fd97e1401f08c6",
+      "url": "https://www.reddit.com/r/Python/comments/1pfuj6n/wincord_keep_your_windows_picture_in_sync_with/",
+      "title": "WinCord - Keep Your Windows Picture in Sync with Discord",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>GitHub: <a href=\"https://github.com/Enmn/WinCord\">https://github.com/Enmn/WinCord</a></p> <p>Hi folks</p> <p><strong>What My Project Does</strong></p> <p>WinCord is designed to help you keep your Windows account avatar in sync with your Discord profile picture. It\u2019s lightweight, runs in the system tray, and automatically updates your Windows account picture whenever your Discord avatar changes.</p> <p><strong>With WinCord, you can:</strong></p> <ul> <li>Connect your Discord account using OAuth2</li> <li>Automatically fetch your Discord avatar</li> <li>Update your Windows account picture silently in the background</li> <li>Run the app from startup without opening a window, while still allowing access via the system tray</li> </ul> <p><strong>WinCord is intended for:</strong></p> <ul> <li>Windows users who want their PC avatar to match Discord</li> <li>Python enthusiasts interested in OAuth2 integration and system automation</li> <li>Learners exploring GUI development with PyQt6 and background system processes</li> </ul> <p><strong>Work in Progress</strong></p> <ul> <li>Improving tray interaction and notifications</li> <li>Adding optional logging and debug modes</li> <li>Enhancing error handling and Windows avatar update reliability</li> </ul> <p><strong>Feedback</strong></p> <p>If you have ideas, suggestions, or improvements, feel free to open an issue or pull request on GitHub! Contributions are always welcome \ud83e\udd0d</p> <p><strong>\u26a0 Note:</strong> WinCord is currently in <strong>Beta / Experimental mode</strong>. Features may change and bugs might occur. Use it for testing and educational purposes only.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Few-Independent8041\"> /u/Few-Independent8041 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pfuj6n/wincord_keep_your_windows_picture_in_sync_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pfuj6n/wincord_keep_your_windows_picture_in_sync_with/\">[comments]</a></span>",
+      "author": "/u/Few-Independent8041",
+      "published_date": "2025-12-06T17:18:39+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 218,
+      "reading_time": 1,
+      "created_at": "2025-12-06T18:27:59.119646+00:00",
+      "updated_at": "2025-12-06T20:15:58.089122+00:00",
+      "metadata": {
+        "processed_at": "2025-12-06T20:15:58.089124+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "408ee052b35885de964643b9879c7c7c",
+      "url": "https://github.com/Francium-Tech/scanify",
+      "title": "Show HN: I made a tool to make PDFs look scanned because bureaucracy",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46175116\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-06T17:42:57+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-06T18:27:57.814757+00:00",
+      "updated_at": "2025-12-06T20:15:58.089126+00:00",
+      "metadata": {
+        "processed_at": "2025-12-06T20:15:58.089128+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "fb588439a33dbfe3eb0b3edf79a54446",
       "url": "http://ieeexplore.ieee.org/document/11235874",
@@ -262,106 +362,6 @@
       "updated_at": "2025-12-06T18:20:15.106202+00:00",
       "metadata": {
         "processed_at": "2025-12-06T18:20:15.106203+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a4a4f457b6ff5b162cf9f9ce5c235daa",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006342?dgcid=rss_sd_all",
-      "title": "Individualized functional connectivity markers for motor and mood symptoms of Parkinson\u2019s disease",
-      "content": "<p>Publication date: 15 December 2025</p><p><b>Source:</b> NeuroImage, Volume 324</p><p>Author(s): Louisa Dahmani, Yan Bai, Wei Zhang, Jianxun Ren, Shiyi Li, Qingyu Hu, Xiaoxuan Fu, Jianjun Ma, Wei Wei, Meiyun Wang, Hesheng Liu, Danhong Wang</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 32,
-      "reading_time": 1,
-      "created_at": "2025-12-06T15:39:57.383563+00:00",
-      "updated_at": "2025-12-06T16:17:39.534225+00:00",
-      "metadata": {
-        "processed_at": "2025-12-06T16:17:39.534234+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "cb1da7c18404e7883986c83325fcf3ad",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006354?dgcid=rss_sd_all",
-      "title": "A deep autoencoder for fast spectral\u2013temporal fitting of dynamic deuterium metabolic imaging data at 7T",
-      "content": "<p>Publication date: 15 December 2025</p><p><b>Source:</b> NeuroImage, Volume 324</p><p>Author(s): Aaron Paul Osburg, Amirmohammad Shamaei, Bernhard Strasser, Fabian Niess, Anna Duguid, Viola Bader, Sabina Frese, Lukas Hingerl, Hauke Fischer, William T. Clarke, Georg Langs, Wolfgang Bogner, Stanislav Motyka</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 36,
-      "reading_time": 1,
-      "created_at": "2025-12-06T15:39:57.383543+00:00",
-      "updated_at": "2025-12-06T16:17:39.534239+00:00",
-      "metadata": {
-        "processed_at": "2025-12-06T16:17:39.534241+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a8ea214d673c88a6244b8f3e4a0f17bc",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006317?dgcid=rss_sd_all",
-      "title": "ODF based deep learning network for unsupervised deformable diffusion resonance image registration (ODDRnet)",
-      "content": "<p>Publication date: 15 December 2025</p><p><b>Source:</b> NeuroImage, Volume 324</p><p>Author(s): Mengyao Li, Jieying Zhang, Baogui Zhang, Kai Liu, Qing Li, Peipeng Liang, Wenzhang Liu, Tianyi Qian</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 24,
-      "reading_time": 1,
-      "created_at": "2025-12-06T15:39:57.383521+00:00",
-      "updated_at": "2025-12-06T16:17:39.534244+00:00",
-      "metadata": {
-        "processed_at": "2025-12-06T16:17:39.534246+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ca0c55e0bf83fdd663fc91f73799c928",
-      "url": "https://www.fieldnotes.nautilus.quest/p/the-kids-who-ran-away-to-1960s-san",
-      "title": "Kids who ran away to 1960s San Francisco",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46123720\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-02T17:22:16+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-06T15:19:11.658738+00:00",
-      "updated_at": "2025-12-06T16:17:39.534248+00:00",
-      "metadata": {
-        "processed_at": "2025-12-06T16:17:39.534250+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2356d6faf6ea735df8bc566ac1817eef",
-      "url": "https://blog.chrislewis.au/the-unexpected-effectiveness-of-one-shot-decompilation-with-claude/",
-      "title": "The unexpected effectiveness of one-shot decompilation with Claude",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46080498\">Comments</a>",
-      "author": "",
-      "published_date": "2025-11-28T17:07:48+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-06T15:19:11.658700+00:00",
-      "updated_at": "2025-12-06T16:17:39.534252+00:00",
-      "metadata": {
-        "processed_at": "2025-12-06T16:17:39.534253+00:00",
         "processing_method": "github_actions"
       }
     }
