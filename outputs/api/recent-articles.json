@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-12-06T14:13:21.203243+00:00",
+  "last_updated": "2025-12-06T14:18:54.629467+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "099a4290249b60ea2af5491bd3dfc5d3",
+      "url": "https://www.reddit.com/r/Python/comments/1pfofmq/qcrawl_an_async_highperformance_crawler_framework/",
+      "title": "qCrawl \u2014 an async high-performance crawler framework",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Site: <a href=\"https://github.com/crawlcore/qcrawl\">https://github.com/crawlcore/qcrawl</a></p> <p><strong>What My Project Does</strong></p> <p>qCrawl is an async web crawler framework based on asyncio.</p> <p><strong>Key features</strong></p> <ul> <li>Async architecture - High-performance concurrent crawling based on asyncio</li> <li>Performance optimized - Queue backend on Redis with direct delivery, messagepack serialization, connection pooling, DNS caching</li> <li>Powerful parsing - CSS/XPath selectors with lxml</li> <li>Middleware system - Customizable request/response processing</li> <li>Flexible export - Multiple output formats including JSON, CSV, XML</li> <li>Flexible queue backends - Memory or Redis-based (+disk) schedulers for different scale requirements</li> <li>Item pipelines - Data transformation, validation, and processing pipeline</li> <li>Pluggable downloaders - HTTP (aiohttp), Camoufox (stealth browser) for JavaScript rendering and anti-bot evasion</li> </ul> <p><strong>Target Audience</strong></p> <ol> <li>Developers building large-scale web crawlers or scrapers</li> <li>Data engineers and data scientists need automated data extraction</li> <li>Companies and researchers performing continuous or scheduled crawling</li> </ol> <p><strong>Comparison</strong></p> <ol> <li>it can be compared to scrapy - it is scrapy if it were built on asyncio instead of twisted, with queue backends Memory/Redis with direct delivery and messagepack serialization, and pluggable downloaders - HTTP (aiohttp), Camoufox (stealth browser) for JavaScript rendering and anti-bot evasion</li> <li>it can be compared to playwright/camoufox - you can use them directly, but using qCraw, you can in one spider, distribute requests between aiohttp for max performance and camoufox if JS rendering or anti-bot evasion is needed.</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AdhesivenessCrazy950\"> /u/AdhesivenessCrazy950 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pfofmq/qcrawl_an_async_highperformance_crawler_framework/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pfofmq/qcrawl_an_async_highperformance_crawler_framework/\">[comments]</a></span>",
+      "author": "/u/AdhesivenessCrazy950",
+      "published_date": "2025-12-06T12:43:28+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 238,
+      "reading_time": 1,
+      "created_at": "2025-12-06T14:17:42.401455+00:00",
+      "updated_at": "2025-12-06T14:17:42.401457+00:00"
+    },
     {
       "id": "a48358099ba7d1933c7274c15d9f9d9e",
       "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2510337122?af=R",
@@ -347,26 +363,6 @@
       "updated_at": "2025-12-06T10:15:02.606123+00:00",
       "metadata": {
         "processed_at": "2025-12-06T10:15:02.606124+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a130c66db5c7ea760a6809ab918c7366",
-      "url": "https://www.reddit.com/r/Python/comments/1pf129l/released_a_small_python_package_to_stabilize/",
-      "title": "Released a small Python package to stabilize multi-step reasoning in local LLMs. MRS-Scaffold.",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Been experimenting with small and mid-sized local models for a while. The weakest link is always the same: multi-step reasoning collapses the moment the context gets complex. So I built MRS-Scaffold. </p> <p>It\u2019s a Modular Reasoning System</p> <p>A lightweight, meta-reasoning layer for local LLMs that gives: - persistent \u201cstate slots\u201d across steps - drift monitoring - constraint-based output formatting - clean node-by-node recursion graph - zero dependencies - model-agnostic (works with any local model) - runs fully local (no cloud, no calls out)</p> <p>It\u2019s a piece you slot on top of whatever model you\u2019re running.</p> <p>PyPI: <a href=\"https://pypi.org/project/mrs-scaffold\">https://pypi.org/project/mrs-scaffold</a></p> <p>If you work with local models and step-by-step reasoning is a hurdle, this may help.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RJSabouhi\"> /u/RJSabouhi </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pf129l/released_a_small_python_package_to_stabilize/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pf129l/released_a_small_python_package_to_stabilize/\">[comments]</a></span>",
-      "author": "/u/RJSabouhi",
-      "published_date": "2025-12-05T17:26:14+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 134,
-      "reading_time": 1,
-      "created_at": "2025-12-06T09:20:03.958251+00:00",
-      "updated_at": "2025-12-06T10:15:02.606126+00:00",
-      "metadata": {
-        "processed_at": "2025-12-06T10:15:02.606128+00:00",
         "processing_method": "github_actions"
       }
     }

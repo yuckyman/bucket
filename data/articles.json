@@ -1,5 +1,21 @@
 [
   {
+    "id": "099a4290249b60ea2af5491bd3dfc5d3",
+    "url": "https://www.reddit.com/r/Python/comments/1pfofmq/qcrawl_an_async_highperformance_crawler_framework/",
+    "title": "qCrawl \u2014 an async high-performance crawler framework",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Site: <a href=\"https://github.com/crawlcore/qcrawl\">https://github.com/crawlcore/qcrawl</a></p> <p><strong>What My Project Does</strong></p> <p>qCrawl is an async web crawler framework based on asyncio.</p> <p><strong>Key features</strong></p> <ul> <li>Async architecture - High-performance concurrent crawling based on asyncio</li> <li>Performance optimized - Queue backend on Redis with direct delivery, messagepack serialization, connection pooling, DNS caching</li> <li>Powerful parsing - CSS/XPath selectors with lxml</li> <li>Middleware system - Customizable request/response processing</li> <li>Flexible export - Multiple output formats including JSON, CSV, XML</li> <li>Flexible queue backends - Memory or Redis-based (+disk) schedulers for different scale requirements</li> <li>Item pipelines - Data transformation, validation, and processing pipeline</li> <li>Pluggable downloaders - HTTP (aiohttp), Camoufox (stealth browser) for JavaScript rendering and anti-bot evasion</li> </ul> <p><strong>Target Audience</strong></p> <ol> <li>Developers building large-scale web crawlers or scrapers</li> <li>Data engineers and data scientists need automated data extraction</li> <li>Companies and researchers performing continuous or scheduled crawling</li> </ol> <p><strong>Comparison</strong></p> <ol> <li>it can be compared to scrapy - it is scrapy if it were built on asyncio instead of twisted, with queue backends Memory/Redis with direct delivery and messagepack serialization, and pluggable downloaders - HTTP (aiohttp), Camoufox (stealth browser) for JavaScript rendering and anti-bot evasion</li> <li>it can be compared to playwright/camoufox - you can use them directly, but using qCraw, you can in one spider, distribute requests between aiohttp for max performance and camoufox if JS rendering or anti-bot evasion is needed.</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AdhesivenessCrazy950\"> /u/AdhesivenessCrazy950 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pfofmq/qcrawl_an_async_highperformance_crawler_framework/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pfofmq/qcrawl_an_async_highperformance_crawler_framework/\">[comments]</a></span>",
+    "author": "/u/AdhesivenessCrazy950",
+    "published_date": "2025-12-06T12:43:28+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 238,
+    "reading_time": 1,
+    "created_at": "2025-12-06T14:17:42.401455+00:00",
+    "updated_at": "2025-12-06T14:17:42.401457+00:00"
+  },
+  {
     "id": "a48358099ba7d1933c7274c15d9f9d9e",
     "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2510337122?af=R",
     "title": "Light-field deep learning enables high-throughput, scattering-mitigated calcium imaging",
@@ -17086,21 +17102,5 @@
     "reading_time": 1,
     "created_at": "2025-12-02T05:21:46.288256+00:00",
     "updated_at": "2025-12-02T05:21:46.288257+00:00"
-  },
-  {
-    "id": "0f55d33ed187d53c51f0624407642ab1",
-    "url": "https://arxiv.org/abs/2512.01058",
-    "title": "Stability analysis of action potential generation using Markov models of voltage-gated sodium channel isoforms",
-    "content": "arXiv:2512.01058v1 Announce Type: new \nAbstract: We investigate a conductance-based neuron model to explore how voltage-gated ion channel isoforms influence action-potential generation. The model combines a six-state Markov representation of NaV channels with a first-order KV3.1 model, allowing us to vary maximal sodium and potassium conductances and compare nine NaV isoforms. Using bifurcation theory and local stability analysis, we map regions of stable limit cycles and visualize excitability landscapes via heatmap-based diagrams. These analyses show that isoforms NaV1.3, NaV1.4 and NaV1.6 support broad excitable regimes, while isoforms NaV1.7 and NaV1.9 exhibit minimal oscillatory behavior. Our findings provide insights into the role of channel heterogeneity in neuronal dynamics and may help to guide the design of synthetic excitable systems by narrowing the parameter space needed for robust action-potential trains.",
-    "author": "Youssof Abdullah, Violet Hart, Moumita Das",
-    "published_date": "2025-12-02T05:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 127,
-    "reading_time": 1,
-    "created_at": "2025-12-02T05:21:46.288227+00:00",
-    "updated_at": "2025-12-02T05:21:46.288228+00:00"
   }
 ]
