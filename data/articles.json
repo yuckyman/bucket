@@ -1,5 +1,21 @@
 [
   {
+    "id": "b3cd4fc4257e4deef4e24f2c3cdd8b67",
+    "url": "https://brain.ieee.org/publications/neuroethics-framework/education/education-social-and-cultural-issues/education-social-and-cultural-issues/",
+    "title": "Education: Social and Cultural Issues",
+    "content": "Devices that therapeutically aid users with cognitive and learning disabilities/differences should not be equally applied to a general population seeking learning advantages. It must not be assumed that therapies able to improve cognition for mental and cognitive disorders (such as executive control and working memory) would work similarly on nondisabled people linearly to improve their cognition above standard levels. Although ...",
+    "author": "Adriel Carridice",
+    "published_date": "2025-02-05T15:45:23+00:00",
+    "source": "Brain",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 61,
+    "reading_time": 1,
+    "created_at": "2025-12-07T11:17:23.914215+00:00",
+    "updated_at": "2025-12-07T11:17:23.914217+00:00"
+  },
+  {
     "id": "1348eff8059203eea8f1cf0c47dfeafd",
     "url": "https://brain.ieee.org/podcasts/qa-with-dr-richard-carson-professor-of-biomedical-engineering-and-radiology-biomedical-imaging-yale-university-and-yale-school-of-medicine/",
     "title": "Q&A with Dr. Richard Carson, Professor of Biomedical Engineering and Radiology & Biomedical Imaging, Yale University and Yale School of Medicine",
@@ -17178,25 +17194,5 @@
     "reading_time": 1,
     "created_at": "2025-12-02T16:30:31.720844+00:00",
     "updated_at": "2025-12-02T16:30:31.720852+00:00"
-  },
-  {
-    "id": "3d370217cb4a351bb54e7854066e15c3",
-    "url": "https://erpinfo.org/blog/2024/2/4/optimal-filters",
-    "title": "New Papers: Optimal Filter Settings for ERP Research",
-    "content": "<p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (in press). Optimal filters for ERP research I: A general approach for selecting filter settings. <em>Psychophysiology</em>. <a href=\"https://doi.org/10.1111/psyp.14531\"><span>https://doi.org/10.1111/psyp.14531</span></a> [<a href=\"https://www.researchgate.net/publication/377773270_Optimal_filters_for_ERP_research_I_A_general_approach_for_selecting_filter_settings\"><span>preprint</span></a>]</p><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (in press). Optimal filters for ERP research II: Recommended settings for seven common ERP components. <em>Psychophysiology</em>. <a href=\"https://doi.org/10.1111/psyp.14530\"><span>https://doi.org/10.1111/psyp.14530</span></a> [<a href=\"https://www.researchgate.net/publication/377766656_Optimal_filters_for_ERP_research_II_Recommended_settings_for_seven_common_ERP_components\"><span>preprint</span></a>]</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1490\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/d64086cc-e3b4-457d-89df-08d9b3f96439/Filter_Table.png?format=1000w\" width=\"2062\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">What filter settings should you apply to your ERP data? If your filters are too weak to attenuate the noise in your data, your effects may not be statistically significant. If your filters are too strong, they may create artifactual peaks that lead you to draw bogus conclusions.</p><p class=\"\">For years, I have been recommending a bandpass of 0.1\u201330 Hz for most cognitive and affective research in neurotypical young adults. In this kind of research, I have found that filtering from 0.1\u201330 Hz usually does a good job of minimizing noise while creating minimal waveform distortion. </p><p class=\"\">However, this recommendation was based on a combination of informal observations from many experimental paradigms and a careful examination of a couple paradigms, so it was a bit hand-wavy. In addition, the optimal filter settings will depend on the waveshape of the ERP effects and the nature of the noise in a given study, so I couldn\u2019t make any specific recommendations about other experimental paradigms and participant populations. Moreover, different filter settings may be optimal for different scoring methods (e.g., mean amplitude vs. peak amplitude vs. peak latency).</p><p class=\"\">Guanghui Zhang, David Garrett, and I spent the last year focusing on this issue. First we developed a general method that can be used to determine the optimal filter settings for a given dataset and scoring method (see <a href=\"https://doi.org/10.1111/psyp.14531\"><span>this paper</span></a>). Then we applied this method to the <a href=\"https://doi.org/10.1016/j.neuroimage.2020.117465\"><span>ERP CORE</span></a> data to determine the optimal filter settings for the N170, MMN, P3b, N400, N2pc, LRP, and ERN components in neurotypical young adults (see <a href=\"https://doi.org/10.1111/psyp.14530\"><span>this paper</span></a> and the table above).</p><p class=\"\">If you are doing research with these components (or similar components) in neurotypical young adults, you can simply use the filter settings that we identified. If you are using a very different paradigm or testing a very different subject population, you can apply our method to your own data to find the optimal settings. We added some new tools to <a href=\"https://github.com/ucdavis/erplab\"><span>ERPLAB Toolbox</span></a> to make this easier.</p><p class=\"\">One thing that we discovered was that our old recommendation of 0.1\u201330 Hz does a good job of avoiding filter artifacts but is overly conservative for some components. For example, we can raise the low end to 0.5 Hz when measuring N2pc and MMN amplitudes, which gets rid of more noise without producing problematic waveform distortions. And we can go all the way up to 0.9 Hz for the N170 component. However, later/slower components like P3b and N400 require lower cutoffs (no higher than 0.2 Hz).</p><p class=\"\">You might be wondering how we defined the \u201coptimal\u201d filter settings. At one level, the answer is simple: The optimal filter is the one that maximizes the signal-to-noise ratio without producing too much waveform distortion. The complexities arise in quantifying the signal-to-noise ratio, quantifying the waveform distortion, and deciding how much waveform distortion is \u201ctoo much\u201d. We believe we have found reasonably straightforward and practical solutions to these problems, which you can read about in the published papers.</p>",
-    "author": "Steve Luck",
-    "published_date": "2024-02-04T23:46:20+00:00",
-    "source": "Erp Boot Camp",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 568,
-    "reading_time": 2,
-    "created_at": "2025-12-02T15:47:30.420488+00:00",
-    "updated_at": "2025-12-02T16:21:46.915831+00:00",
-    "metadata": {
-      "processed_at": "2025-12-02T16:21:46.915841+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]
