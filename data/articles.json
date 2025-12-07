@@ -1,5 +1,37 @@
 [
   {
+    "id": "3d6f81ac885c4e6ea4b98c03113fefa3",
+    "url": "https://www.reddit.com/r/Python/comments/1pgrcys/spellcure_python_library/",
+    "title": "SPELLCURE - python library",
+    "content": "<!-- SC_OFF --><div class=\"md\"><h1>spellcure # python</h1> <p>SpellCure is a mathematical correction engine for highly scrambled or distorted text, created by Saheban Khan (GitHub: Lsaheban) and maintained by Tohid Khan (GitHub: Tohid096).</p> <p>Rather than using machine learning, SpellCure applies a position-weighted ratio algorithm to match noisy tokens with valid dictionary words \u2014 enabling high-accuracy recovery even from severely jumbled text.</p> <p>\u2728 Features Corrects heavily scrambled or distorted words Pure mathematical algorithm (no ML required) Supports: Small built-in vocabulary (~10k curated words) Large NLTK vocabulary (~200k+ words) Works with single words, sentences, or mixed noisy text Fast, deterministic, and lightweight Extensible word bank (users may request custom additions) \ud83e\udde0 How SpellCure Works SpellCure analyzes each token using:</p> <p>Position-based character similarity Ratio scoring Multi-stage refinement Optional large NLTK dataset</p> <h2>from spellcure import corrector</h2> <h2>\ud83e\uddea Example Usage</h2> <p>Here is a minimal working example using the <strong>small</strong> vocabulary mode:</p> <p>```python from spellcure import corrector</p> <p>def test_small(): model = corrector(mode=&quot;small&quot;) # Use small curated word bank output = model.correct(&quot;olve is evryetign&quot;) print(output)</p> <p>test_small()</p> <h1>Outpu: love is everything</h1> <h1>small = ~10k curated words</h1> <h1>large = ~200k NLTK words</h1> <h2>model = corrector(mode=&quot;large&quot;)</h2> <h1>bash pip install spellcure</h1> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/solo-coder7\"> /u/solo-coder7 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pgrcys/spellcure_python_library/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pgrcys/spellcure_python_library/\">[comments]</a></span>",
+    "author": "/u/solo-coder7",
+    "published_date": "2025-12-07T19:35:44+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 206,
+    "reading_time": 1,
+    "created_at": "2025-12-07T21:17:29.360717+00:00",
+    "updated_at": "2025-12-07T21:17:29.360718+00:00"
+  },
+  {
+    "id": "bcde04944ba58b061b8e75e27a6a47d5",
+    "url": "https://github.com/researchxxl/syncthing-android/issues/16",
+    "title": "Syncthing-Android have had a change of owner/maintainer",
+    "content": "<p>Article URL: <a href=\"https://github.com/researchxxl/syncthing-android/issues/16\">https://github.com/researchxxl/syncthing-android/issues/16</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46184730\">https://news.ycombinator.com/item?id=46184730</a></p>\n<p>Points: 30</p>\n<p># Comments: 2</p>",
+    "author": "embedding-shape",
+    "published_date": "2025-12-07T20:15:26+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-07T21:17:26.916166+00:00",
+    "updated_at": "2025-12-07T21:17:26.916174+00:00"
+  },
+  {
     "id": "86240da3eaca0f7ab44548529db5e4cd",
     "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1628368",
     "title": "A simple robot suggests trunk rotation is essential for emergence of inside leading limb during quadruped galloping turns",
@@ -17226,45 +17258,5 @@
     "reading_time": 1,
     "created_at": "2025-12-02T20:26:55.342428+00:00",
     "updated_at": "2025-12-02T20:26:55.342433+00:00"
-  },
-  {
-    "id": "d06dbc06d4020adf06890ae7c36ad761",
-    "url": "https://lcamtuf.substack.com/p/cursed-circuits-charge-pump-voltage",
-    "title": "Cursed circuits: charge pump voltage halver",
-    "content": "<p>Article URL: <a href=\"https://lcamtuf.substack.com/p/cursed-circuits-charge-pump-voltage\">https://lcamtuf.substack.com/p/cursed-circuits-charge-pump-voltage</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46124892\">https://news.ycombinator.com/item?id=46124892</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-    "author": "surprisetalk",
-    "published_date": "2025-12-02T18:47:53+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-02T19:40:52.418015+00:00",
-    "updated_at": "2025-12-02T20:19:12.705369+00:00",
-    "metadata": {
-      "processed_at": "2025-12-02T20:19:12.705379+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "46b424a154867867d2618dc0bb4faddf",
-    "url": "https://news.ycombinator.com/item?id=46124930",
-    "title": "Microsoft won't let me pay a $24 bill, blocking thousands in Azure spending",
-    "content": "<p>Two years ago, a $24 autopay charge on my Azure account failed. The invoice is now marked \"Locked\" in their billing portal.<p>I cannot pay this invoice. There is no button to pay it. There is no button to dismiss it. There is no way to interact with it at all.<p>Azure displays a banner: \"You must pay all previous invoices before creating new subscriptions.\" Fair enough. I would love to pay it. Microsoft won't let me.<p>So I tried to contact support.<p>The Azure portal requires a \"paid support plan\" to create a support ticket. To purchase a paid support plan, you must create a subscription. To create a subscription, you must clear outstanding invoices. To clear outstanding invoices, you must contact support.<p>Azure on Twitter, as well as the website claims to have a \"free support ticket\" option for billing issues, but every possible link just drives you back to the same FAQ page while refusing to let you submit a ticket.<p>I called every number I could find:<p>1-800-867-1389 rings busy indefinitely. 1-855-270-0615 connects to an AI that asks what you need, tells you to visit the website, and disconnects. 1-800-642-7676 connects to a different AI that also tells you to visit the website. The website has a chatbot that redirects you to FAQ articles regardless of what you type. If you express frustration, it throws an error and stops responding.<p>I submitted feedback through the Azure portal every few days for weeks. No response.<p>I am a software engineer, so I did something ridiculous.<p>I wrote a PowerShell WinForms application that authenticates via device code flow, queries the Az.Support API for problem classifications, and calls New-AzSupportTicketsNoSubscription to submit a billing support ticket directly, bypassing the portal entirely.<p>Note the API name: NoSubscription. Microsoft has an explicit API for ticketing without a subscription.<p>It worked. The ticket was submitted. I felt briefly victorious.<p>The API responded: \"Your support plan type is Free. To create and update support tickets, you need access to our high-tier support plans.\"<p>I had built custom software specifically to work around Microsoft's broken support infrastructure, and I still hit a paywall.<p>The total amount Microsoft is owed: $24.<p>The total amount Microsoft is preventing me from spending on new Azure services: thousands. I currently run numerous websites out of my house, and it's getting to be enough that I want to offload it to Azure VMs. Additionally, I was going to shift my development to Azure boxes, etc.<p>I have exhausted every official channel. Every phone number, every chatbot, every feedback form, every API endpoint. There is no path to a human being without first paying for a support plan that I cannot purchase because of the billing block that I need support to resolve.<p>Has anyone successfully escaped a loop like this? Is there a secret handshake I'm missing? Or is the only option to abandon this Microsoft account entirely, get a new phone, and start fresh?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46124930\">https://news.ycombinator.com/item?id=46124930</a></p>\n<p>Points: 29</p>\n<p># Comments: 6</p>",
-    "author": "Javin007",
-    "published_date": "2025-12-02T18:50:25+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 488,
-    "reading_time": 2,
-    "created_at": "2025-12-02T19:40:52.417994+00:00",
-    "updated_at": "2025-12-02T20:19:12.705383+00:00",
-    "metadata": {
-      "processed_at": "2025-12-02T20:19:12.705385+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]
