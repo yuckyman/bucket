@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-12-07T12:39:36.763754+00:00",
+  "last_updated": "2025-12-07T13:27:39.805954+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "b61923cc84ef590b01e6646d194bf7c6",
+      "url": "https://www.reddit.com/r/Python/comments/1pfva5h/i_was_surprised_when_migrating_from_windows_to/",
+      "title": "I was surprised when migrating from Windows to Linux that there wasn't a built-in \"pause\" function.",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>When I migrated from a Windows computer to Linux several years ago, after doing DOS scripting before that for many years, I was very surprised no one had written a simple &quot;pause&quot; function that was built-in to Linux. I liked the ability to just type pause and the script would pause at that point. I thought I would write one to offer to those old Windows users like myself that would like to have that &quot;pause&quot; functionality back without hard-coding. </p> <p>I know a lot of people do hard-code their pauses into scripts, especially bash, and it's not a complicated issue to do so, but I thought it would be much nicer to just issue the command &quot;pause&quot; and it would simply pause. Why hard-code when you can just refer to a &quot;pause&quot; command instead?</p> <p>Thinking about the Windows function as I knew it, and in particular what I would have liked it to do, the criteria I chose was that my pause function should have:</p> <ol> <li>A timer capability of counting down the seconds to automatically continue after pausing for a set time.</li> <li>Capture the keystroke and echo the result in order to make it useful for logic selection. </li> <li>Be able to add a custom prompt text in case the default (Press any key to continue...) didn't meet the specific needs of the user. </li> <li>Have the ability to respond with a custom text after the process was allowed to continue. </li> <li>Have the ability to be quiet and do a silent countdown with just a cursor flash for however many seconds. (Must require timer to be set)</li> </ol> <p>So using all this as the criteria I created a simple python script that did each of these things and can also be added to the user's bin folder. </p> <p>The script itself and a .deb file that installs the &quot;pause&quot; script (without .py extension) to /usr/local/bin folder, are available to review: <a href=\"https://github.com/Grawmpy/pause.py\">https://github.com/Grawmpy/pause.py</a>. The only requirement is python3. </p> <p>I have not reviewed on prior versions of python for compatibility.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/grawmpy\"> /u/grawmpy </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pfva5h/i_was_surprised_when_migrating_from_windows_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pfva5h/i_was_surprised_when_migrating_from_windows_to/\">[comments]</a></span>",
+      "author": "/u/grawmpy",
+      "published_date": "2025-12-06T17:49:11+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 363,
+      "reading_time": 1,
+      "created_at": "2025-12-07T13:26:30.495818+00:00",
+      "updated_at": "2025-12-07T13:26:30.495819+00:00"
+    },
+    {
+      "id": "d54cd375a60b781c34864377b377996a",
+      "url": "https://pluralistic.net/2025/12/05/pop-that-bubble/",
+      "title": "The Reverse-Centaur's Guide to Criticizing AI",
+      "content": "<p>Article URL: <a href=\"https://pluralistic.net/2025/12/05/pop-that-bubble/\">https://pluralistic.net/2025/12/05/pop-that-bubble/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46181314\">https://news.ycombinator.com/item?id=46181314</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "doener",
+      "published_date": "2025-12-07T12:45:46+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-07T13:26:28.133132+00:00",
+      "updated_at": "2025-12-07T13:26:28.133134+00:00"
+    },
+    {
+      "id": "4aadc02c80c4bcd6a22b997d64d59840",
+      "url": "https://twitter.com/kenchangh/status/1994854381267947640",
+      "title": "I Wasted 8 Years of My Life in Crypto",
+      "content": "<p>Article URL: <a href=\"https://twitter.com/kenchangh/status/1994854381267947640\">https://twitter.com/kenchangh/status/1994854381267947640</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46181371\">https://news.ycombinator.com/item?id=46181371</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
+      "author": "Anon84",
+      "published_date": "2025-12-07T12:57:59+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-07T13:26:28.133102+00:00",
+      "updated_at": "2025-12-07T13:26:28.133110+00:00"
+    },
     {
       "id": "1e51e9ee794ee16461235b821c79316b",
       "url": "https://www.javaadvent.com/2025/12/java-hello-world-llvm-edition.html",
@@ -313,54 +361,6 @@
         "processed_at": "2025-12-07T10:14:25.583606+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "f7e986d7ba26c6185f3a5214a74d00af",
-      "url": "https://www.sciencedirect.com/science/article/pii/S000689932500647X?dgcid=rss_sd_all",
-      "title": "Examining functional connectivity in metabolic syndrome and small vessel disease: A novel approach to understanding olfactory dysfunction and Alzheimer\u2019s disease",
-      "content": "<p>Publication date: 1 February 2026</p><p><b>Source:</b> Brain Research, Volume 1872</p><p>Author(s): Hector Reyes, Jaime Mondragon, Conner Frank, Claire Murphy</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 17,
-      "reading_time": 1,
-      "created_at": "2025-12-07T09:20:46.159350+00:00",
-      "updated_at": "2025-12-07T09:20:46.159352+00:00"
-    },
-    {
-      "id": "09ab11757e0a9032f3080289984b15b8",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006559?dgcid=rss_sd_all",
-      "title": "An organ-on-a-chip investigation into dose-dependent, temporal dynamic effects of radiosurgery on the blood\u2013brain barrier and its immunological response",
-      "content": "<p>Publication date: 1 February 2026</p><p><b>Source:</b> Brain Research, Volume 1872</p><p>Author(s): Adam D. Yock, Jacquelyn A. Brown, John Eley, Cara Lwin, Dandan Liu, John P. Wikswo</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 24,
-      "reading_time": 1,
-      "created_at": "2025-12-07T09:20:46.159329+00:00",
-      "updated_at": "2025-12-07T09:20:46.159331+00:00"
-    },
-    {
-      "id": "f1ac1541b1d03f38ca985b7824d7d7f6",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006547?dgcid=rss_sd_all",
-      "title": "ZNF655-mediated neuroprotection in cerebral ischemia-reperfusion injury via Akt/Nrf2 pathway modulation",
-      "content": "<p>Publication date: 1 February 2026</p><p><b>Source:</b> Brain Research, Volume 1872</p><p>Author(s): Wanyi Wei, Zongkai Wu, Yuehong Yue, Yang Zhang, Hebo Wang</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 19,
-      "reading_time": 1,
-      "created_at": "2025-12-07T09:20:46.159295+00:00",
-      "updated_at": "2025-12-07T09:20:46.159306+00:00"
     }
   ]
 }
