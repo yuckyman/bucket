@@ -1,8 +1,24 @@
 {
-  "last_updated": "2025-12-07T04:29:33.096727+00:00",
-  "pending_count": 711,
-  "processed_count": 289,
+  "last_updated": "2025-12-07T06:21:36.663630+00:00",
+  "pending_count": 706,
+  "processed_count": 294,
   "pending_articles": [
+    {
+      "id": "8812463ec86708cc0b952616136d4660",
+      "url": "https://alexsci.com/blog/calm-tech-discover/",
+      "title": "Discovering the Indieweb with Calm Tech",
+      "content": "<p>Article URL: <a href=\"https://alexsci.com/blog/calm-tech-discover/\">https://alexsci.com/blog/calm-tech-discover/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46178892\">https://news.ycombinator.com/item?id=46178892</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "author": "todsacerdoti",
+      "published_date": "2025-12-07T03:26:01+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-07T04:50:40.873224+00:00",
+      "updated_at": "2025-12-07T04:50:40.873233+00:00"
+    },
     {
       "id": "d46d99fedb4cadcf74fbf9d3f7de8713",
       "url": "http://doi.org/10.1037/drm0000313",
@@ -146,25 +162,109 @@
       "reading_time": 1,
       "created_at": "2025-12-07T03:28:04.984336+00:00",
       "updated_at": "2025-12-07T03:28:04.984338+00:00"
-    },
+    }
+  ],
+  "recently_processed": [
     {
-      "id": "151f27a6730dd9b51a76f8929a0a1be8",
-      "url": "https://jonathan.protzenko.fr/2025/10/28/eurydice.html",
-      "title": "Eurydice: a Rust to C compiler (yes)",
-      "content": "<p>Article URL: <a href=\"https://jonathan.protzenko.fr/2025/10/28/eurydice.html\">https://jonathan.protzenko.fr/2025/10/28/eurydice.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46178442\">https://news.ycombinator.com/item?id=46178442</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
-      "author": "todsacerdoti",
-      "published_date": "2025-12-07T01:41:33+00:00",
+      "id": "9d08274be7ed9a0611f00a6829eeab7b",
+      "url": "https://scitechdaily.com/scientists-link-popular-sugar-substitute-to-liver-disease/",
+      "title": "Scientists link sugar substitute Sorbitol to liver disease",
+      "content": "<p>Article URL: <a href=\"https://scitechdaily.com/scientists-link-popular-sugar-substitute-to-liver-disease/\">https://scitechdaily.com/scientists-link-popular-sugar-substitute-to-liver-disease/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46179085\">https://news.ycombinator.com/item?id=46179085</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
+      "author": "mraniki",
+      "published_date": "2025-12-07T04:10:11+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 13,
       "reading_time": 1,
-      "created_at": "2025-12-07T03:28:03.568262+00:00",
-      "updated_at": "2025-12-07T03:28:03.568270+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2025-12-07T05:19:09.233089+00:00",
+      "updated_at": "2025-12-07T06:21:36.551977+00:00",
+      "metadata": {
+        "processed_at": "2025-12-07T06:21:36.551986+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "dc7ce2a8ec06e8af7eb9f14cdda9e2c2",
+      "url": "http://ieeexplore.ieee.org/document/11235893",
+      "title": "Incidental Encoding of Objects during Search Is Stronger Than Intentional Memorization due to Increased Recollection Rather Than Familiarity",
+      "content": "Most memory is not formed deliberately but as a by-product of natural behavior. These incidental representations, when generated during visual search, can be stronger than intentionally memorized content (search superiority effect). However, it is unknown if the search superiority effect is purely quantitative (stronger memory) or also driven by differences in the degrees of recollection and familiarity, two hallmark processes supporting recognition memory. Here, we use signal detection modeling, introspective judgments, event-related EEG potentials, and eye tracking measures to answer this question. In a preregistered study, 30 participants searched for objects in scenes and intentionally memorized others before completing a surprise recognition memory test. Behavioral data from remember\u2013know judgments and receiver operating characteristics indicate that search targets were more often recollected compared with intentionally memorized objects, whereas the two tasks did not lead to differences in familiarity. Surprisingly, the neural signatures did not fully align with the behavioral findings regarding recollection and familiarity. That is, both search targets and intentionally memorized objects elicited a more positive-going mid-frontal negativity peaking at around 400\u2009msec post stimulus onset (FN400), which is associated with familiarity, as well as a more positive-going parietal late component (LPC), indicative of recollection. Both components showed no differences between tasks, indicating equal contributions of recollection and familiarity to remembering searched and memorized objects. Furthermore, the LPC was, as expected, sensitive to differences between recollected and familiar objects when these were intentionally memorized, but it was not affected by these differences for searched objects. Overall, our findings indicate that search superiority relies predominantly on increased recollection. The fact that established neural markers of recollection (LPC) behaved as anticipated for intentionally memorized objects but carried no predictive power for incidentally memorized objects implies that memories established in more ecologically valid tasks might involve neural processes different from those activated in commonly used settings that are more reductionist.",
+      "author": "",
+      "published_date": "2025-11-07T13:16:23+00:00",
+      "source": "Cognitive Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 307,
+      "reading_time": 1,
+      "created_at": "2025-12-07T04:51:32.356158+00:00",
+      "updated_at": "2025-12-07T06:21:36.551991+00:00",
+      "metadata": {
+        "processed_at": "2025-12-07T06:21:36.551993+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c5a6fc34a9c14ac12b805c16e3e0c299",
+      "url": "http://ieeexplore.ieee.org/document/11235889",
+      "title": "On the Causal Role of the Right Lateral Prefrontal Cortex in Active Forgetting",
+      "content": "Extensive research has demonstrated that people can intentionally forget by inhibiting the retrieval of unwanted memories, a phenomenon known as suppression-induced forgetting (SIF). Although neuroimaging studies have linked retrieval suppression to the right lateral prefrontal cortex (LPFC), direct evidence for the causal role this region plays in supporting SIF is still lacking. In this registered report, our aim is putting to a strong empirical test such an idea by using cathodal transcranial direct current stimulation in a standard think/no-think procedure. Across two experiments, we will compare the SIF achieved by participants receiving cathodal transcranial direct current stimulation over the right LPFC\u2014which has been shown to disrupt prefrontally mediated inhibitory control\u2014with those receiving sham stimulation or cathodal stimulation over a control site. In addition, we will examine the lateralization of this effect by comparing stimulation of the right and left LPFC. Our results will provide novel and critical insights into the brain mechanisms of inhibitory control.",
+      "author": "",
+      "published_date": "2025-11-07T13:16:23+00:00",
+      "source": "Cognitive Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 155,
+      "reading_time": 1,
+      "created_at": "2025-12-07T04:51:32.356114+00:00",
+      "updated_at": "2025-12-07T06:21:36.551995+00:00",
+      "metadata": {
+        "processed_at": "2025-12-07T06:21:36.551996+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "cd3a1c12b7b9a5f31966ba2774b15cf2",
+      "url": "http://ieeexplore.ieee.org/document/11235878",
+      "title": "Attention Modulates Stimulus Representations in Neural Feature Dimension Maps",
+      "content": "Computational theories posit that attention is guided by a combination of spatial maps for individual features that can be dynamically weighted according to task goals. Consistent with this framework, when a stimulus contains several features, attending to one or another feature results in stronger fMRI responses in regions preferring the attended feature. We hypothesized that multivariate activation patterns across feature-responsive cortical regions form spatial \u201cfeature dimension maps,\u201d which combine to guide attentional priority. We tested this prediction by reconstructing spatial maps from fMRI activation patterns across retinotopic regions of visual cortex while participants performed a feature-selective attention task. Participants viewed a peripheral visual stimulus at a random location that always contained moving colored dots. On each trial, participants were precued to report the predominant direction of motion or color of the stimulus or to attend fixation. Stimulus representations in reconstructed maps based on a spatial inverted encoding model were selectively enhanced in color-selective regions when color was attended and in motion-selective regions when motion was attended. Whereas enhancement was localized to the stimulus position in color-selective regions, modulations in motion-selective regions were consistent with a more global enhancement when motion was task relevant. These results suggest feature-selective cortical regions support \u201cneural feature dimension maps\u201d: spatial maps of different visual features that are dynamically reweighted based on task demands to guide visual behavior to the most relevant locations based on important features.",
+      "author": "",
+      "published_date": "2025-11-07T13:16:23+00:00",
+      "source": "Cognitive Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 231,
+      "reading_time": 1,
+      "created_at": "2025-12-07T04:51:32.356084+00:00",
+      "updated_at": "2025-12-07T06:21:36.551999+00:00",
+      "metadata": {
+        "processed_at": "2025-12-07T06:21:36.552001+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2bc5c247ee2d0b76d1169f69e341752c",
+      "url": "http://ieeexplore.ieee.org/document/11235876",
+      "title": "Modeling the Role of the Alpha Rhythm in Attentional Processing during Distractor Suppression",
+      "content": "Recent experimental results suggest that alpha oscillations in brain neuroelectrical activity do not merely represent an idling phenomenon but actively participate in attention to suppress distractors and reduce cognitive workload. However, the exact mechanism responsible for this attentional processing is still a matter of research. In this work, we propose a simple mechanism for distractor suppression using a neural mass model of oscillating, interconnected cortical regions, based on alpha oscillations and their interaction with the gamma rhythm. Essentially, the model distinguishes between certain \u201csensory\u201d areas, where stimuli are coded and represented via gamma oscillations, a downstream \u201cdetection\u201d area dedicated to processing these stimuli, and a \u201ccontrol\u201d region that generates the alpha rhythm. Unattended stimuli in a sensory area can be suppressed by simply imposing an alpha rhythm that is out of phase compared with the detection layer. A sensitivity analysis performed on a simple paradigmatic model emphasizes the robustness of the proposed mechanism versus parameter changes. Moreover, a more complex example (concerning spatial attention, where objects are represented through a Gestalt proximity rule) supports the capacity of the mechanism to suppress distractors in multi-unit networks. The model aligns with several experimental results and can be further utilized to investigate cognitive alterations in pathological conditions, such as schizophrenia, characterized by dysfunction in the gamma rhythm.",
+      "author": "",
+      "published_date": "2025-11-07T13:16:23+00:00",
+      "source": "Cognitive Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 214,
+      "reading_time": 1,
+      "created_at": "2025-12-07T04:51:32.356047+00:00",
+      "updated_at": "2025-12-07T06:21:36.552003+00:00",
+      "metadata": {
+        "processed_at": "2025-12-07T06:21:36.552005+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "66a00920f99747dd9be309ab9681cc11",
       "url": "http://ieeexplore.ieee.org/document/11235875",
@@ -262,106 +362,6 @@
       "updated_at": "2025-12-07T04:29:32.990231+00:00",
       "metadata": {
         "processed_at": "2025-12-07T04:29:32.990233+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "62f57908238088d5266b8e8d53686735",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.03.692103v1?rss=1",
-      "title": "mTORC1-Dependent Signaling in Layer 5b Neurons Is Required for Memory Consolidation",
-      "content": "Memory consolidation relies on activity-dependent neuronal plasticity, particularly in deep-layer cortical neurons that integrate long-range inputs from medial temporal lobe (MTL) structures. In the neocortex, apical tuft dendrites of layer 5b pyramidal neurons receive direct input from the MTL within cortical layer 1, and their activation is critical for associative learning. However, the molecular mechanisms that enable learning-induced plasticity in these neurons remain poorly understood. Here, we demonstrate that activity-dependent, mTORC1-regulated translation in layer 5b neurons contributes to learning and memory. Using in vivo paradigms such as exposure to an enriched environment (EE) and in vitro models of network activation by chemical long-term potentiation (cLTP), combined with cell type-specific translational profiling (RiboTag), we identify candidate mRNAs associated with experience-dependent plasticity. We further show that pharmacological inhibition of canonical mTORC1 signaling during memory-relevant tasks abrogated memory consolidation. Our findings identify the mTORC1 pathway as a central regulator of learning-induced protein translation and cortical plasticity.",
-      "author": "Schutte, M., Biermeier, A. J., Konkel, K., Nasr, A., Dayaram, A., Rosenmund, C., Sachdev, R., Larkum, M. E., Haucke, V., Mikhaylova, M.",
-      "published_date": "2025-12-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 153,
-      "reading_time": 1,
-      "created_at": "2025-12-07T01:51:30.483758+00:00",
-      "updated_at": "2025-12-07T03:23:30.276357+00:00",
-      "metadata": {
-        "processed_at": "2025-12-07T03:23:30.276367+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ec0553584326c89a1a398ac49dc2d4cc",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.03.691770v1?rss=1",
-      "title": "Serotonin Engages Divergent 5-HT Receptor Pathways for Cell Type-Resolved Modulation of Prefrontal Layer 5 Microcircuits",
-      "content": "Background and Purpose: Serotonin (5-HT) is a key neuromodulator in the prefrontal cortex (PFC), yet its cell type-specific effects across excitatory and inhibitory microcircuits remain incompletely understood. We aimed to determine how 5-HT shapes intrinsic excitability and synaptic transmission in defined neuronal populations of the medial PFC (mPFC). Experimental Approach: We performed whole-cell recordings from morphologically and electrophysiologically characterised layer 5 (L5) neurons in rat mPFC. Pyramidal neurons were classified into adaptive-spiking high input resistance (ASH), adaptive-spiking low input resistance (ASL), and regular-spiking (RS) types; interneurons were categorised as non-fast-spiking (nFS), regular-fast-spiking (rFS), and stuttering-fast-spiking (sFS) interneurons. These cell types exhibited distinct membrane properties, firing patterns, and axonal projections. We assessed serotonergic modulation using bath-applied 5-HT and subtype-specific receptor mechanisms. Key Results: 5-HT produced divergent postsynaptic responses across pyramidal neuron subtypes: ASH and RS neurons depolarised via 5-HT2A receptor (5-HT2AR) activation, whereas ASL neurons exhibited 5-HT1AR-mediated hyperpolarisation. Among interneurons, rFS and sFS cells depolarised through ionotropic 5-HT3ARs, while nFS interneurons were largely unaffected. At the synaptic level, 5-HT suppressed excitatory synaptic transmission between pyramidal neurons via presynaptic 5-HT1BRs, and conversely enhanced GABAergic transmission from FS interneurons via presynaptic 5-HT3ARs. Conclusions & Implications: Serotonin exerts bidirectional, cell type-specific serotonergic modulation of local microcircuits that acts to suppress excitation while facilitating inhibition. This balanced and targeted regulation, arising from distinct distributions of somatodendritic and presynaptic 5-HT receptors, provides a mechanistic basis for serotonergic influence on attention, cognitive flexibility, and emotional regulation.",
-      "author": "Rama, R., Radnikow, G., Yang, D., Feldmeyer, D.",
-      "published_date": "2025-12-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 239,
-      "reading_time": 1,
-      "created_at": "2025-12-07T01:51:30.483717+00:00",
-      "updated_at": "2025-12-07T03:23:30.276372+00:00",
-      "metadata": {
-        "processed_at": "2025-12-07T03:23:30.276374+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f42d8ea9ace3c77cce0281a3857068ba",
-      "url": "https://apps.apple.com/us/app/fusecells-logic-grid-puzzle/id6754704139",
-      "title": "Show HN: FuseCells \u2013 a handcrafted logic puzzle game with 2,500 levels",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46177737\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-06T23:51:08+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-07T01:50:53.716900+00:00",
-      "updated_at": "2025-12-07T03:23:30.276378+00:00",
-      "metadata": {
-        "processed_at": "2025-12-07T03:23:30.276380+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f42d8ea9ace3c77cce0281a3857068ba",
-      "url": "https://apps.apple.com/us/app/fusecells-logic-grid-puzzle/id6754704139",
-      "title": "Show HN: FuseCells \u2013 a handcrafted logic puzzle game with 2,500 levels",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46177737\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-06T23:51:08+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-07T01:50:53.716900+00:00",
-      "updated_at": "2025-12-07T03:23:30.276378+00:00",
-      "metadata": {
-        "processed_at": "2025-12-07T03:23:30.276380+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "038c772e0715531f507892aab94a63fe",
-      "url": "https://www.bbc.com/future/article/20251203-japans-disappearing-snow-monsters",
-      "title": "Saving Japan's exceptionally rare 'snow monsters'",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46177418\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-06T23:06:53+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-07T01:50:53.716864+00:00",
-      "updated_at": "2025-12-07T03:23:30.276382+00:00",
-      "metadata": {
-        "processed_at": "2025-12-07T03:23:30.276384+00:00",
         "processing_method": "github_actions"
       }
     }
