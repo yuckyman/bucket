@@ -1,5 +1,37 @@
 [
   {
+    "id": "1e51e9ee794ee16461235b821c79316b",
+    "url": "https://www.javaadvent.com/2025/12/java-hello-world-llvm-edition.html",
+    "title": "Java Hello World, LLVM Edition",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46181076\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-07T11:51:02+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-07T12:38:29.468153+00:00",
+    "updated_at": "2025-12-07T12:38:29.468155+00:00"
+  },
+  {
+    "id": "1e51e9ee794ee16461235b821c79316b",
+    "url": "https://www.javaadvent.com/2025/12/java-hello-world-llvm-edition.html",
+    "title": "Java Hello World, LLVM Edition",
+    "content": "<p>Article URL: <a href=\"https://www.javaadvent.com/2025/12/java-hello-world-llvm-edition.html\">https://www.javaadvent.com/2025/12/java-hello-world-llvm-edition.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46181076\">https://news.ycombinator.com/item?id=46181076</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+    "author": "ingve",
+    "published_date": "2025-12-07T11:51:02+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-07T12:38:28.106906+00:00",
+    "updated_at": "2025-12-07T12:38:28.106915+00:00"
+  },
+  {
     "id": "3d370217cb4a351bb54e7854066e15c3",
     "url": "https://erpinfo.org/blog/2024/2/4/optimal-filters",
     "title": "New Papers: Optimal Filter Settings for ERP Research",
@@ -17182,37 +17214,5 @@
     "reading_time": 1,
     "created_at": "2025-12-02T16:30:31.720978+00:00",
     "updated_at": "2025-12-02T16:30:31.720980+00:00"
-  },
-  {
-    "id": "18899c0fa2a45f79fd1849402b16609f",
-    "url": "https://github.com/runmat-org/runmat",
-    "title": "Show HN: RunMat \u2013 runtime with auto CPU/GPU routing for dense math",
-    "content": "<p>Hi, I\u2019m Nabeel. In August I released RunMat as an open-source runtime for MATLAB code that was already much faster than GNU Octave on the workloads I tried. <a href=\"https://news.ycombinator.com/item?id=44972919\">https://news.ycombinator.com/item?id=44972919</a><p>Since then, I\u2019ve taken it further with RunMat Accelerate: the runtime now automatically fuses operations and routes work between CPU and GPU. You write MATLAB-style code, and RunMat runs your computation across CPUs and GPUs for speed. No CUDA, no kernel code.<p>Under the hood, it builds a graph of your array math, fuses long chains into a few kernels, keeps data on the GPU when that helps, and falls back to CPU JIT / BLAS for small cases.<p>On an Apple M2 Max (32 GB), here are some current benchmarks (median of several runs):<p>* 5M-path Monte Carlo\n    * RunMat \u2248 0.61 s\n    * PyTorch \u2248 1.70 s\n    * NumPy \u2248 79.9 s\n         \u2192 ~2.8\u00d7 faster than PyTorch and ~130\u00d7 faster than NumPy on this test.<p>* 64 \u00d7 4K image preprocessing pipeline\n     (mean/std, normalize, gain/bias, gamma, MSE)\n    * RunMat \u2248 0.68 s\n    * PyTorch \u2248 1.20 s\n    * NumPy \u2248 7.0 s\n         \u2192 ~1.8\u00d7 faster than PyTorch and ~10\u00d7 faster than NumPy.<p>* 1B-point elementwise chain (sin / exp / cos / tanh mix)\n    * RunMat \u2248 0.14 s\n    * PyTorch \u2248 20.8 s\n    * NumPy \u2248 11.9 s\n         \u2192 ~140\u00d7 faster than PyTorch and ~80\u00d7 faster than NumPy.<p>If you want more detail on how the fusion and CPU/GPU routing work, I wrote up a longer post here:\n<a href=\"https://runmat.org/blog/runmat-accel-intro-blog\" rel=\"nofollow\">https://runmat.org/blog/runmat-accel-intro-blog</a><p>You can run the same benchmarks yourself from the GitHub repo in the main HN link. Feedback, bug reports, and \u201chere\u2019s where it breaks or is slow\u201d examples are very welcome.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46121951\">https://news.ycombinator.com/item?id=46121951</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
-    "author": "nallana",
-    "published_date": "2025-12-02T15:07:49+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 288,
-    "reading_time": 1,
-    "created_at": "2025-12-02T16:30:31.720937+00:00",
-    "updated_at": "2025-12-02T16:30:31.720939+00:00"
-  },
-  {
-    "id": "8dff0d1bd9f4fd9064ae64148f6f3137",
-    "url": "https://www.google.com/search?q=is+2026+next+year&oq=is+2026+next+year",
-    "title": "Is 2026 Next Year?",
-    "content": "<p>Article URL: <a href=\"https://www.google.com/search?q=is+2026+next+year&amp;oq=is+2026+next+year\">https://www.google.com/search?q=is+2026+next+year&amp;oq=is+2026+next+year</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46122071\">https://news.ycombinator.com/item?id=46122071</a></p>\n<p>Points: 87</p>\n<p># Comments: 27</p>",
-    "author": "kjhughes",
-    "published_date": "2025-12-02T15:20:11+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-02T16:30:31.720875+00:00",
-    "updated_at": "2025-12-02T16:30:31.720877+00:00"
   }
 ]
