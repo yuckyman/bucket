@@ -1,5 +1,37 @@
 [
   {
+    "id": "9d7cf0c67a2c61b59b75f138c60043b3",
+    "url": "https://readykit.dev/",
+    "title": "Show HN: ReadyKit \u2013 Superfast SaaS Starter with Multi-Tenant Workspaces",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46094552\">Comments</a>",
+    "author": "",
+    "published_date": "2025-11-30T07:18:15+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-08T08:32:49.949430+00:00",
+    "updated_at": "2025-12-08T08:32:49.949432+00:00"
+  },
+  {
+    "id": "b3e643349e367248f62dba550197d106",
+    "url": "https://frequal.com/java/AppletsGoneButJavaInTheBrowserBetterThanEver.html",
+    "title": "Applets Are Officially Gone, but Java in the Browser Is Better",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46189704\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-08T08:16:26+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-08T08:32:49.949305+00:00",
+    "updated_at": "2025-12-08T08:32:49.949310+00:00"
+  },
+  {
     "id": "53f961f13b2ecacc041a615b563b462a",
     "url": "http://ieeexplore.ieee.org/document/11245799",
     "title": "Table of Contents",
@@ -60,26 +92,6 @@
     }
   },
   {
-    "id": "449c884a2c021671da348288188e6372",
-    "url": "https://www.howardism.org/Technical/Emacs/new-window-manager.html",
-    "title": "Emacs is my new window manager",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46161328\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-05T13:56:34+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-08T07:24:40.856054+00:00",
-    "updated_at": "2025-12-08T08:24:55.697076+00:00",
-    "metadata": {
-      "processed_at": "2025-12-08T08:24:55.697078+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
     "id": "c86f254293cb843b5f84a3d0a3ac000e",
     "url": "https://www.ycombinator.com/companies/truemetrics/jobs/1EHTSyT-python-software-engineer-analystics-and-algorithms",
     "title": "Truemetrics (YC S23) Is Hiring",
@@ -96,6 +108,26 @@
     "updated_at": "2025-12-08T08:24:55.697073+00:00",
     "metadata": {
       "processed_at": "2025-12-08T08:24:55.697074+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "449c884a2c021671da348288188e6372",
+    "url": "https://www.howardism.org/Technical/Emacs/new-window-manager.html",
+    "title": "Emacs is my new window manager",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46161328\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-05T13:56:34+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-08T07:24:40.856054+00:00",
+    "updated_at": "2025-12-08T08:24:55.697076+00:00",
+    "metadata": {
+      "processed_at": "2025-12-08T08:24:55.697078+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -17276,46 +17308,6 @@
     "updated_at": "2025-12-03T04:24:34.001232+00:00",
     "metadata": {
       "processed_at": "2025-12-03T04:24:34.001234+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "4abf903e26fec7957658c15efeee3be5",
-    "url": "http://ieeexplore.ieee.org/document/11003397",
-    "title": "Improving Calibration of EMG-Informed Neuromusculoskeletal Models Through Differentiable Physics and Muscle Synergies",
-    "content": "Objective: Electromyogram (EMG)-informed neuromusculoskeletal (NMS) models can predict physiologically plausible muscle forces and joint moments. However, calibrating model parameters (e.g., optimal fiber length, tendon slack length) to the individual is time-consuming, with the optimization often requiring hours to converge and typically not accounting for unrecorded muscle excitations. This study addresses these limitations by incorporating differentiable physics and muscle synergies into the calibration of NMS models. Methods: We implemented an NMS model with auto-differentiable Hill-type muscles, enabling the use of adaptive gradient descent optimizers. Two types of calibration were evaluated: a standard EMG-driven approach and a synergy-hybrid approach that also synthesized unrecorded excitations. These methods were evaluated using upper and lower limb data, each from a single participant. Results: The calibration time was reduced by up to 26 times while maintaining comparable accuracy in joint moment predictions. Compared to the EMG-driven calibration, the synergy-hybrid calibration improved the estimates of model parameters for reduced number of EMG channels. Conclusion: Auto-differentiable Hill-type muscle models greatly reduce NMS model calibration time and enable the synthesis of unrecorded muscle excitations through muscle synergies, facilitating the calibration of all muscle parameters. Significance: This new rapid calibration could support deployment of NMS models in time-sensitive applications, including real-time biomechanical analyses and personalized neurorehabilitation.",
-    "author": "",
-    "published_date": "2025-05-13T13:17:02+00:00",
-    "source": "Transactions Biomedical Engineering",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 206,
-    "reading_time": 1,
-    "created_at": "2025-12-03T03:18:56.649606+00:00",
-    "updated_at": "2025-12-03T04:24:34.001236+00:00",
-    "metadata": {
-      "processed_at": "2025-12-03T04:24:34.001237+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "cf13b70cdb53d67f33440a96bc36cc1d",
-    "url": "http://ieeexplore.ieee.org/document/11245650",
-    "title": "Compression-Enabled Joint Entropy Estimation for Seizure Detection on Human Intracortical Electroencephalography",
-    "content": "Objective: Of the 1% of the world population with epilepsy, one-third have drug-resistant epilepsy and often turn to surgical intervention. Current epilepsy treatment relies on manual review by epileptologists and could benefit from reliable quantitative electroencephalography (qEEG) approaches to speed up evaluation, minimize inter-reviewer variance, and deliver higher quality and more equitable care. Methods: We present the inverse compression ratio (ICR), an estimate of an upper bound of joint entropy using common compression algorithms, as a potential qEEG method for seizure detection. This technique was tested on our repository of 10 kHz intracortical neurophysiological data across 30 participants (15 adults and 15 children, 240+ total seizures). Results: Single-electrode ICR achieved a F1 score of 0.80 and an area under precision-recall curve of 0.69, outperforming conventional qEEG methods. Multielectrode ICR performed within the top 2% of individual electrodes, potentially eliminating the need for electrode selection. Conclusion: ICR may be useful for automated seizure detection; its integration into clinical systems may translate to broad clinical impact. Significance: We believe this clinical study analyzed the largest volume of continuous, multi-day intracortical neuroelectrophysiology for quantitative methods\u2013with 2,900+ recording hours (420,000+ electrode-hours, amounting to 30+ TB of data). It is also the first demonstration of compression-based multidimensional estimation in a biological or clinical application. By computing an ensemble effect without linear assumptions or parametric modeling, ICR offers a model-free solution to the classically combinatorially intractable problem of high-dimensional joint entropy; its application likely extends beyond epilepsy to other domains of biomedical signal processing.",
-    "author": "",
-    "published_date": "2025-11-13T13:16:42+00:00",
-    "source": "Transactions Biomedical Engineering",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 248,
-    "reading_time": 1,
-    "created_at": "2025-12-03T03:18:56.649568+00:00",
-    "updated_at": "2025-12-03T04:24:34.001240+00:00",
-    "metadata": {
-      "processed_at": "2025-12-03T04:24:34.001242+00:00",
       "processing_method": "github_actions"
     }
   }
