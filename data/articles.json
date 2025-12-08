@@ -1,5 +1,37 @@
 [
   {
+    "id": "2fe86b69c81a65932b67dad63db37ee9",
+    "url": "https://www.reddit.com/r/Python/comments/1phipk6/ultrastrict_python_template_v3_now_with_precommit/",
+    "title": "Ultra-Strict Python Template v3 \u2014 now with pre-commit automation",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I rebuilt my strict Python scaffold to be cleaner, stricter, and easier to drop into projects.</p> <p><strong>pystrict-strict-python</strong><br /> A TypeScript-style <code>--strict</code> experience for Python using:</p> <ul> <li><code>uv</code></li> <li><code>ruff</code></li> <li><code>basedpyright</code></li> <li><code>pre-commit</code></li> </ul> <h1>What\u2019s in v3?</h1> <ul> <li>Single <code>pyproject.toml</code> as the source of truth</li> <li>Stricter typing defaults (no implicit Any, explicit None, unused symbols = errors)</li> <li>Aggressive lint/format rules via ruff</li> <li>pytest + coverage (80% required)</li> <li>Skylos for dead-code detection (better than Vulture)</li> <li>Optional Pandera rules</li> <li>Anti-LLM code smell checks</li> </ul> <h1>NEW: pre-commit automation</h1> <p>On commit:</p> <ul> <li><code>ruff format</code> + auto-fix lint</li> </ul> <p>On push:</p> <ul> <li>full lint validation + strict basedpyright check</li> </ul> <p>Setup:</p> <pre><code>uv run pre-commit install uv run pre-commit install --hook-type pre-push uv run pre-commit autoupdate </code></pre> <h1>Why?</h1> <p>To get fast feedback locally and block bad pushes before CI.</p> <h1>Repo</h1> <p>\ud83d\udc49 <a href=\"https://github.com/Ranteck/PyStrict-strict-python\">GitHub link here</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ranteck\"> /u/Ranteck </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1phipk6/ultrastrict_python_template_v3_now_with_precommit/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1phipk6/ultrastrict_python_template_v3_now_with_precommit/\">[comments]</a></span>",
+    "author": "/u/Ranteck",
+    "published_date": "2025-12-08T17:36:49+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 157,
+    "reading_time": 1,
+    "created_at": "2025-12-08T22:43:35.791638+00:00",
+    "updated_at": "2025-12-08T22:43:35.791640+00:00"
+  },
+  {
+    "id": "fe2f7b5b38e029164c19d19ac8a17074",
+    "url": "https://www.medrxiv.org/content/10.64898/2025.12.03.25341583v1",
+    "title": "Doctors' estimates of the feasibility of preserving the dying for future revival",
+    "content": "<p>Article URL: <a href=\"https://www.medrxiv.org/content/10.64898/2025.12.03.25341583v1\">https://www.medrxiv.org/content/10.64898/2025.12.03.25341583v1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46198294\">https://news.ycombinator.com/item?id=46198294</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+    "author": "arielzj",
+    "published_date": "2025-12-08T22:06:21+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-08T22:43:33.204627+00:00",
+    "updated_at": "2025-12-08T22:43:33.204634+00:00"
+  },
+  {
     "id": "2e05fa5a6b425390179fa75d19d540af",
     "url": "https://blog.jim-nielsen.com/2025/icons-in-menus/",
     "title": "Icons in Menus Everywhere \u2013 Send Help",
@@ -17242,37 +17274,5 @@
     "reading_time": 1,
     "created_at": "2025-12-03T20:46:35.359839+00:00",
     "updated_at": "2025-12-03T20:46:35.359841+00:00"
-  },
-  {
-    "id": "5692a66c770cb7192fcfa60c24b2cb16",
-    "url": "https://www.huy.rocks/everyday/12-01-2025-ai-teaching-an-llm-a-niche-diagraming-language",
-    "title": "Teaching an LLM a Niche Diagraming Language",
-    "content": "<p>Article URL: <a href=\"https://www.huy.rocks/everyday/12-01-2025-ai-teaching-an-llm-a-niche-diagraming-language\">https://www.huy.rocks/everyday/12-01-2025-ai-teaching-an-llm-a-niche-diagraming-language</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46138465\">https://news.ycombinator.com/item?id=46138465</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
-    "author": "todsacerdoti",
-    "published_date": "2025-12-03T18:57:54+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-03T20:46:35.359801+00:00",
-    "updated_at": "2025-12-03T20:46:35.359802+00:00"
-  },
-  {
-    "id": "dcbec7be487e4a5d0118096fc2ebe970",
-    "url": "https://gleam.run/case-studies/uncover/",
-    "title": "No room for error \u2013 A case study of Gleam in production at Uncover",
-    "content": "<p>Article URL: <a href=\"https://gleam.run/case-studies/uncover/\">https://gleam.run/case-studies/uncover/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46138984\">https://news.ycombinator.com/item?id=46138984</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-    "author": "kamilap",
-    "published_date": "2025-12-03T19:39:50+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-03T20:46:35.359728+00:00",
-    "updated_at": "2025-12-03T20:46:35.359736+00:00"
   }
 ]
