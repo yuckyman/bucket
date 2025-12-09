@@ -1,7 +1,71 @@
 {
-  "last_updated": "2025-12-09T20:22:53.634659+00:00",
+  "last_updated": "2025-12-09T20:42:00.418242+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "7435952e0834ce3bab69423a0615bac7",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1691300",
+      "title": "UHGAN: a dual-phase GAN with Hough-transform constraints for accurate farmland road extraction",
+      "content": "IntroductionTraditional methods for farmland road extraction, such as U-Net, often struggle with complex noise and geometric features, leading to discontinuous extraction and insufficient sensitivity. To address these limitations, this study proposes a novel dual-phase generative adversarial network (GAN) named UHGAN, which integrates Hough-transform constraints.MethodsWe designed a cascaded U-Net generator within a two-stage GAN framework. The Stage 1 GAN combines a differentiable Hough transform loss with cross-entropy loss to generate initial road masks. Subsequently, the Stage 2 U-Net refines these masks by repairing breakpoints and suppressing isolated noise.ResultsWhen evaluated on the WHU RuR+rural road dataset, the proposed UHGAN method achieved an accuracy of 0.826, a recall of 0.750, and an F1-score of 0.789. This represents a significant improvement over the single-stage U-Net (F1\u202f=\u202f0.756) and ResNet (F1\u202f=\u202f0.762) baselines.DiscussionThe results demonstrate that our approach effectively mitigates the issues of discontinuous extraction caused by the complex geometric shapes and partial occlusion characteristic of farmland roads. The integration of Hough-transform loss, an technique that has received limited attention in prior studies, proves to be highly beneficial. This method shows considerable promise for practical applications in rural infrastructure planning and precision agriculture.",
+      "author": "Yuan Ma",
+      "published_date": "2025-10-13T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 190,
+      "reading_time": 1,
+      "created_at": "2025-12-09T20:41:18.965880+00:00",
+      "updated_at": "2025-12-09T20:41:18.965882+00:00"
+    },
+    {
+      "id": "c5df907383dc5077b3c790401b6c5762",
+      "url": "https://fmhy.net/posts/dec-2025",
+      "title": "Monthly Updates [December]",
+      "content": "<div class=\"info custom-block\"><p class=\"custom-block-title\">INFO</p>\n<p>These update threads only contains major updates. If you're interested\nin seeing all minor changes you can follow our\n<a href=\"https://github.com/fmhy/FMHYedit/commits/main\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub or\n<a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Updates Channel</a> in Discord.</p>\n</div>\n<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Added new backup site <strong><a href=\"https://fmhy.bid/\" rel=\"noreferrer\" target=\"_blank\">FMHY.bid</a></strong>. Should be unblocked more places than .net currently.</p>\n</li>\n<li>\n<p>Added new section for <a href=\"https://fmhy.net/image-tools#photography-cameras\" rel=\"noreferrer\" target=\"_blank\">Photography / Cameras</a>.</p>\n</li>\n<li>\n<p>Added new section for <a href=\"https://fmhy.net/image-tools#_3d-printing\" rel=\"noreferrer\" target=\"_blank\">3D Printing / Printers</a>.</p>\n</li>\n<li>\n<p>Re-ordered <a href=\"https://fmhy.net/ai#ai-benchmarks\" rel=\"noreferrer\" target=\"_blank\">AI Benchmarks</a>, starred Kaggle Benchmarks, removed ones with dated testing, and added a subsection for <a href=\"https://fmhy.net/ai#specialized-benchmarks\" rel=\"noreferrer\" target=\"_blank\">Specialized Benchmarks</a>. <a href=\"https://i.ibb.co/5xY36Pk5/Untitled.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/NuIHGhC.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Re-ordered and cleaned up ugly formatting in <a href=\"https://fmhy.net/developer-tools#hosting-tools\" rel=\"noreferrer\" target=\"_blank\">Hosting Tools</a>. <a href=\"https://i.ibb.co/21g23vSy/Untitled.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/G6sJPo1.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Moved <a href=\"https://fmhy.net/internet-tools#browser-startpages\" rel=\"noreferrer\" target=\"_blank\">Browser Startpages</a> + <a href=\"https://fmhy.net/internet-tools#custom-new-tab-pages\" rel=\"noreferrer\" target=\"_blank\">Custom New Tab Pages</a> out of storage into their own sections.</p>\n</li>\n<li>\n<p>Brought back the <a href=\"https://fmhy.github.io/FMHY-SafeGuard/\" rel=\"noreferrer\" target=\"_blank\">Website</a> for FMHY SafeGuard.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#anime-streaming\" rel=\"noreferrer\" target=\"_blank\">AnimeX</a> in Anime Streaming. Feature-rich, solid sources, big library, nice UI, has forums.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#image-generation\" rel=\"noreferrer\" target=\"_blank\">Bing Image Creator</a> in Image Gen. Gives 200 daily, has good editing, seems to be best way to use GPT Image 1 as of now.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#android-tv\" rel=\"noreferrer\" target=\"_blank\">\u2060TizenTube Cobalt</a> in Android TV. Ad-free YouTube app, updated often, has Sponsorblock support, uses official YouTube UI.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#live-sports\" rel=\"noreferrer\" target=\"_blank\">Watch Footy</a> in Live Sports. Solid sources, nice UI, lots of events.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video-tools#live-streaming\" rel=\"noreferrer\" target=\"_blank\">Streamer.bot</a> in Live Streaming Tools. <a href=\"https://streamer.bot/features\" rel=\"noreferrer\" target=\"_blank\">Feature-rich</a> live stream manager, compatible w/ OBS, Streamlabs, etc.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming-tools#roblox-tools\" rel=\"noreferrer\" target=\"_blank\">RoSeal</a> in Roblox Tools. Improves Roblox website and adds nearly 200 extra features.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/mobile#android-reading\" rel=\"noreferrer\" target=\"_blank\">Voice</a> in Android Audiobook Players. Open-source, multi-format, has cover fetch, and nice minimal design.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/mobile#productivity-trackers\" rel=\"noreferrer\" target=\"_blank\">Loop Habit Tracker</a> in Mobile Productivity. Open-source, has sticky notifications, and better limits than most free options.</p>\n</li>\n<li>\n<p>Re-starred <a href=\"https://fmhy.net/gaming#rom-sites\" rel=\"noreferrer\" target=\"_blank\">CDRomance</a> in ROM Sites as its made a comeback. Note that RetroGamingTalk accounts will work on CDRomance.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>\n<p>Removed Anadius as they've <a href=\"https://i.ibb.co/TD9kRCR3/image.png\" rel=\"noreferrer\" target=\"_blank\">decided to step down</a> / <a href=\"https://i.imgur.com/2Xk8Jor.png\" rel=\"noreferrer\" target=\"_blank\">2</a>. It may be re-added in the future if someone new steps up to maintain it.</p>\n</li>\n<li>\n<p>Removed ContextSearch as it's been removed by Firefox. It seems to be causing issues, and in some cases flooding sites with requests. We're unsure if it's purposefully malicious, or mistakes by its dev, but regardless its recommended to remove it, and try other options like <a href=\"https://fmhy.net/internet-tools#firefox-extensions\" rel=\"noreferrer\" target=\"_blank\">ContextSearch web-ext</a>.</p>\n</li>\n<li>\n<p>Unstarred <a href=\"https://fmhy.net/file-tools#file-managers\" rel=\"noreferrer\" target=\"_blank\">Files</a> in File Managers. There was a lot of hype for this originally, but people have started to come forward saying its too laggy / slow to be useful.</p>\n</li>\n<li>\n<p>Unstarred Grok, Qwen, Mage and Flux.1 Schnell in <a href=\"https://fmhy.net/ai#image-generation\" rel=\"noreferrer\" target=\"_blank\">Image Gen</a>. These were considered good in the past, but there's much better, less dated free options at this point.</p>\n</li>\n</ul>",
+      "author": "",
+      "published_date": "2025-12-01T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 563,
+      "reading_time": 2,
+      "created_at": "2025-12-09T20:40:55.618536+00:00",
+      "updated_at": "2025-12-09T20:40:55.618541+00:00"
+    },
+    {
+      "id": "1612d41a23160982812c79bbf78b1890",
+      "url": "https://www.reddit.com/r/Python/comments/1phqpqy/built_a_python_library_for_using_binwalk/",
+      "title": "Built a python library for using Binwalk",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone</p> <p>A while ago <a href=\"https://github.com/ReFirmLabs/binwalk\">binwalk</a> made a complete shift to rust and stopped supporting its pypi releases. I needed to use binwalk through python for a different project which didn't allow me to spawn a separate process and run binwalk (or install it). So, subprocesses was out of question.</p> <h1>What My Project Does</h1> <p>I made a <a href=\"https://github.com/FauvidoTechnologies/binwalk-python-sdk\">library</a> after I achieved some preliminary functionality (which is today) and decided to post it in case someone else also was searching for something like this.</p> <p>There is a long way to go, I am going to try and replicate every functionality of binwalk which I can, so far I have a basic `scan` and `extract`. Its pip installable and I hope its useful for you all as well!</p> <h1>Target Audience</h1> <p>Anyone who's interested in performing binwalk functions through a simple python interface.</p> <h1>Comparison</h1> <p>The existing projects are either not a python library or they're broken or they are running binwalk as a subprocess. I couldn't afford any of those so I made sure that this one doesn't do that.</p> <p>Right now it doesn't have much functionality except scan and extract as I mentioned before, but I am also actively developing this so there will be more in the future</p> <p>Thank you for your time!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Sky6805\"> /u/Ok-Sky6805 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1phqpqy/built_a_python_library_for_using_binwalk/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1phqpqy/built_a_python_library_for_using_binwalk/\">[comments]</a></span>",
+      "author": "/u/Ok-Sky6805",
+      "published_date": "2025-12-08T22:38:57+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 235,
+      "reading_time": 1,
+      "created_at": "2025-12-09T20:40:54.331198+00:00",
+      "updated_at": "2025-12-09T20:40:54.331200+00:00"
+    },
+    {
+      "id": "952c2a5e9643a4b38d8cca84001ca1fc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5541280/pdf/jpmph-50-4-278.pdf",
+      "title": "The Big Vitamin D Mistake [pdf]",
+      "content": "<p>Article URL: <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5541280/pdf/jpmph-50-4-278.pdf\">https://pmc.ncbi.nlm.nih.gov/articles/PMC5541280/pdf/jpmph-50-4-278.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46209493\">https://news.ycombinator.com/item?id=46209493</a></p>\n<p>Points: 28</p>\n<p># Comments: 9</p>",
+      "author": "felineflock",
+      "published_date": "2025-12-09T19:36:03+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-09T20:40:51.708059+00:00",
+      "updated_at": "2025-12-09T20:40:51.708067+00:00"
+    },
     {
       "id": "8d0860b848700ed6f51b561277befb28",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.05.692581v1?rss=1",
@@ -257,82 +321,6 @@
       "reading_time": 1,
       "created_at": "2025-12-09T20:21:44.732895+00:00",
       "updated_at": "2025-12-09T20:21:44.732897+00:00"
-    },
-    {
-      "id": "a2b86189043582861373070f049febf4",
-      "url": "http://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/",
-      "title": "MCP Joins the Agentic AI Foundation",
-      "content": "<p>Article URL: <a href=\"http://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/\">http://blog.modelcontextprotocol.io/posts/2025-12-09-mcp-joins-agentic-ai-foundation/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46209378\">https://news.ycombinator.com/item?id=46209378</a></p>\n<p>Points: 18</p>\n<p># Comments: 2</p>",
-      "author": "arthurdenture",
-      "published_date": "2025-12-09T19:26:54+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-09T20:21:44.732804+00:00",
-      "updated_at": "2025-12-09T20:21:44.732812+00:00"
-    },
-    {
-      "id": "c658c978e0ecf54e0897762d9957a074",
-      "url": "https://www.reddit.com/r/Python/comments/1picui1/finished_my_agentic_rag_tutorial_everything_in/",
-      "title": "Finished My Agentic RAG Tutorial - Everything in Python, Fully Local",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h3>\ud83d\udca1 What My Project Does</h3> <p>After 6 months of intensive study on RAG systems, I've completed a comprehensive educational repository for Agentic RAG. The entire system is in Python and runs <strong>fully locally</strong>, eliminating API costs!</p> <p>This is a <strong>complete end-to-end example</strong> that demonstrates how all the pieces of an advanced agent architecture work together.</p> <hr /> <h3>\ud83c\udfaf Target Audience</h3> <p>Anyone curious about how Agentic RAG <strong>actually works</strong> and wants to learn by <strong>building</strong>, rather than just reading theory.</p> <h3>\ud83c\udd9a The Comparison: Why This Is Different</h3> <p>Most RAG tutorials are scattered or skip the hard parts. This project provides a complete, working implementation that tackles the complexity head-on, offering:</p> <ul> <li>\u2705 <strong>End-to-End Functionality:</strong> All components (chunking, vector store, agents) work together seamlessly.</li> <li>\ud83d\udd12 <strong>Zero Dependency Cost:</strong> No API keys or expensive cloud services required.</li> <li>\ud83d\udc0d <strong>Pure Python Stack:</strong> No JavaScript, just Python and your local machine.</li> </ul> <h3>\ud83e\udde0 What You'll Learn (Architectural Deep Dive)</h3> <p>This is a deep dive into the architecture, including:</p> <ul> <li>PDF \u2192 Markdown conversion</li> <li>Hierarchical chunking (parent/child)</li> <li>Hybrid embeddings (dense + sparse)</li> <li>Vector storage with Qdrant</li> <li>Query rewriting &amp; <strong>human-in-the-loop</strong> interaction</li> <li>Context management with summarization</li> <li><strong>Multi-agent map-reduce</strong> \u2013 Parallel sub-queries for complex questions</li> <li>Fully working agentic RAG with <strong>LangGraph</strong></li> <li>Pure Python UI with Gradio for the demo</li> </ul> <hr /> <h3>\ud83d\udcbb Accessibility Note (Key Feature)</h3> <p>Everything runs locally with <strong>Ollama</strong>.</p> <blockquote> <p><strong>This means you can run the entire complex system on a standard laptop with a modern CPU or modest GPU, eliminating monthly bills.</strong></p> </blockquote> <h3>\ud83d\udd17 GitHub</h3> <p><a href=\"https://github.com/GiovanniPasq/agentic-rag-for-dummies\">Agentic RAG</a></p> <p>Built this because I wish it existed when I started learning. <strong>Feedback welcome!</strong></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CapitalShake3085\"> /u/CapitalShake3085 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1picui1/finished_my_agentic_rag_tutorial_everything_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1picui1/finished_my_agentic_rag_tutorial_everything_in/\">[comments]</a></span>",
-      "author": "/u/CapitalShake3085",
-      "published_date": "2025-12-09T17:03:44+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 288,
-      "reading_time": 1,
-      "created_at": "2025-12-09T19:39:10.000793+00:00",
-      "updated_at": "2025-12-09T20:16:25.479080+00:00",
-      "metadata": {
-        "processed_at": "2025-12-09T20:16:25.479090+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2b8649ff1cafb05ff453e0fe8a628ec4",
-      "url": "https://letsencrypt.org/2025/12/09/10-years",
-      "title": "10 Years of Let's Encrypt",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46208962\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-09T18:54:55+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-09T19:39:08.692525+00:00",
-      "updated_at": "2025-12-09T20:16:25.479094+00:00",
-      "metadata": {
-        "processed_at": "2025-12-09T20:16:25.479096+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2b8649ff1cafb05ff453e0fe8a628ec4",
-      "url": "https://letsencrypt.org/2025/12/09/10-years",
-      "title": "10 Years of Let's Encrypt",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46208962\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-09T18:54:55+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-09T19:39:08.692525+00:00",
-      "updated_at": "2025-12-09T20:16:25.479094+00:00",
-      "metadata": {
-        "processed_at": "2025-12-09T20:16:25.479096+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
