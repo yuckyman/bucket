@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-09T07:23:46.327311+00:00",
+  "last_updated": "2025-12-09T07:44:16.784210+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "68c4efabc7b6966611e795728e2cb151",
+      "url": "https://www.sciencefocus.com/science/the-closer-we-look-at-time-the-stranger-it-gets",
+      "title": "The closer we look at time, the stranger it gets",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46201750\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-09T06:01:57+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-09T07:43:04.007056+00:00",
+      "updated_at": "2025-12-09T07:43:04.007058+00:00"
+    },
+    {
+      "id": "0973e8f8a7730762552c45983584e66b",
+      "url": "https://longplayer.org/news/2024/12/31/a-thousand-year-long-composition-turns-25/",
+      "title": "A thousand-year-long composition turns 25 (2024)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46202058\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-09T07:01:38+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-09T07:43:04.007038+00:00",
+      "updated_at": "2025-12-09T07:43:04.007040+00:00"
+    },
     {
       "id": "14f0b2add61a1ce215f0ef02a0a02132",
       "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1710961",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-09T05:22:23.709086+00:00",
       "updated_at": "2025-12-09T05:22:23.709088+00:00"
-    },
-    {
-      "id": "b2243bf5a8078aec1e5bd7cafbbdd569",
-      "url": "https://arxiv.org/abs/2512.06106",
-      "title": "Future You: Designing and Evaluating Multimodal AI-generated Digital Twins for Strengthening Future Self-Continuity",
-      "content": "arXiv:2512.06106v1 Announce Type: new \nAbstract: What if users could meet their future selves today? AI-generated future selves simulate meaningful encounters with a digital twin decades in the future. As AI systems advance, combining cloned voices, age-progressed facial rendering, and autobiographical narratives, a central question emerges: Does the modality of these future selves alter their psychological and affective impact? How might a text-based chatbot, a voice-only system, or a photorealistic avatar shape present-day decisions and our feeling of connection to the future? We report a randomized controlled study (N=92) evaluating three modalities of AI-generated future selves (text, voice, avatar) against a neutral control condition. We also report a systematic model evaluation between Claude 4 and three other Large Language Models (LLMs), assessing Claude 4 across psychological and interaction dimensions and establishing conversational AI quality as a critical determinant of intervention effectiveness. All personalized modalities strengthened Future Self-Continuity (FSC), emotional well-being, and motivation compared to control, with avatar producing the largest vividness gains, yet with no significant differences between formats. Interaction quality metrics, particularly persuasiveness, realism, and user engagement, emerged as robust predictors of psychological and affective outcomes, indicating that how compelling the interaction feels matters more than the form it takes. Content analysis found thematic patterns: text emphasized career planning, while voice and avatar facilitated personal reflection. Claude 4 outperformed ChatGPT 3.5, Llama 4, and Qwen 3 in enhancing psychological, affective, and FSC outcomes.",
-      "author": "Constanze Albrecht, Chayapatr Archiwaranguprok, Rachel Poonsiriwong, Awu Chen, Peggy Yin, Monchai Lertsutthiwong, Kavin Winson, Hal Hershfield, Pattie Maes, Pat Pataranutaporn",
-      "published_date": "2025-12-09T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 233,
-      "reading_time": 1,
-      "created_at": "2025-12-09T05:22:23.709050+00:00",
-      "updated_at": "2025-12-09T05:22:23.709054+00:00"
-    },
-    {
-      "id": "983208051d5c5a3798601f64df34a49a",
-      "url": "https://arxiv.org/abs/2503.09980",
-      "title": "Thermodynamic bounds on energy use in quasi-static Deep Neural Networks",
-      "content": "arXiv:2503.09980v3 Announce Type: replace-cross \nAbstract: The rapid growth of deep neural networks (DNNs) has brought increasing attention to their energy use during training and inference. Here, we establish the thermodynamic bounds on energy consumption in quasi-static analog DNNs by mapping modern feedforward architectures onto a physical free-energy functional. This framework provides a direct statistical-mechanical interpretation of quasi-static DNNs. As a result, inference can proceed in a thermodynamically reversible manner, with vanishing minimal energy cost, in contrast to the Landauer limit that constrains digital hardware. Importantly, inference corresponds to relaxation to a unique free-energy minimum with F_{\\min}=0, allowing all constraints to be satisfied without residual stress. By comparison, training overconstrains the system: simultaneous clamping of inputs and outputs generates stresses that propagate backward through the architecture, reproducing the rules of backpropagation. Parameter annealing then relaxes these stresses, providing a purely physical route to learning without an explicit loss function. We further derive a universal lower bound on training energy, E< 2NDkT, which scales with both the number of trainable parameters and the dataset size.",
-      "author": "Alexei V. Tkachenko",
-      "published_date": "2025-12-09T05:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 173,
-      "reading_time": 1,
-      "created_at": "2025-12-09T05:22:22.558002+00:00",
-      "updated_at": "2025-12-09T05:22:22.558004+00:00"
     }
   ]
 }
