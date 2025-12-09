@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-12-09T08:32:23.648043+00:00",
+  "last_updated": "2025-12-09T09:26:57.300688+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "284aad4f9431bfc34888645d14ebd212",
+      "url": "https://github.com/ziggy42/epsilon",
+      "title": "Epsilon: A WASM virtual machine written in Go",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46102311\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-01T01:12:03+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-09T09:25:43.917239+00:00",
+      "updated_at": "2025-12-09T09:25:43.917240+00:00"
+    },
     {
       "id": "a010c0fa95714a4116a05511a17142c9",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.05.692465v1?rss=1",
@@ -345,22 +361,6 @@
       "reading_time": 1,
       "created_at": "2025-12-09T05:22:23.709179+00:00",
       "updated_at": "2025-12-09T05:22:23.709181+00:00"
-    },
-    {
-      "id": "cbb1d60c9b6d7c0b1b46efee3f8b66bd",
-      "url": "https://arxiv.org/abs/2512.06534",
-      "title": "\"Having Confidence in My Confidence Intervals\": How Data Users Engage with Privacy-Protected Wikipedia Data",
-      "content": "arXiv:2512.06534v1 Announce Type: new \nAbstract: In response to calls for open data and growing privacy threats, organizations are increasingly adopting privacy-preserving techniques such as differential privacy (DP) that inject statistical noise when generating published datasets. These techniques are designed to protect privacy of data subjects while enabling useful analyses, but their reception by data users is under-explored. We developed documentation that presents the noise characteristics of two Wikipedia pageview datasets: one using rounding (heuristic privacy) and another using DP (formal privacy). After incorporating expert feedback (n=5), we used these documents to conduct a task-based contextual inquiry (n=15) exploring how data users--largely unfamiliar with these methods--perceive, interact with, and interpret privacy-preserving noise during data analysis.\n  Participants readily used simple uncertainty metrics from the documentation, but struggled when asked to compute confidence intervals across multiple noisy estimates. They were better able to devise simulation-based approaches for computing uncertainty with DP data compared to rounded data. Surprisingly, several participants incorrectly believed DP's stronger utility implied weaker privacy protections. Based on our findings, we offer design recommendations for documentation and tools to better support data users working with privacy-noised data.",
-      "author": "Harold Triedman, Jayshree Sarathy, Priyanka Nanayakkara, Rachel Cummings, Gabriel Kaptchuk, Sean Kross, Elissa M. Redmiles",
-      "published_date": "2025-12-09T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 186,
-      "reading_time": 1,
-      "created_at": "2025-12-09T05:22:23.709149+00:00",
-      "updated_at": "2025-12-09T05:22:23.709150+00:00"
     }
   ]
 }
