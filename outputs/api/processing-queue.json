@@ -1,24 +1,8 @@
 {
-  "last_updated": "2025-12-10T10:18:48.934113+00:00",
-  "pending_count": 679,
-  "processed_count": 321,
+  "last_updated": "2025-12-10T12:34:06.203417+00:00",
+  "pending_count": 674,
+  "processed_count": 326,
   "pending_articles": [
-    {
-      "id": "6309fe51366e561677734ca5a0b65f2e",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1706626",
-      "title": "IAP-TransUNet: integration of the attention mechanism and pyramid pooling for medical image segmentation",
-      "content": "IntroductionThe combination of CNN and Transformer has attracted much attention for medical image segmentation due to its superior performance at present. However, the segmentation performance is affected by limitations such as the local receptive field and static weights of CNN convolution operations, as well as insufficient information exchange between Transformer local regions.MethodsTo address these issues, an integrated attention mechanism and pyramid pooling network is proposed in this paper. Firstly, an efficient channel attention mechanism is embedded into CNN to extract more comprehensive image features. Then, CBAM_ASPP module is introduced into the bottleneck layer to obtain multi-scale context information. Finally, in order to address the limitations of traditional convolution, depthwise separable convolution is used to achieve a lightweight network.ResultsThe experiments based on the Synapse multi organ segmentation dataset and ACDC dataset showed that the proposed IAP-TransUNet achieved Dice similarity coefficients (DSCs) of 78.85% and 90.46%, respectively. Compared with the state-of-the-art method, for the Synapse multi organ segmentation dataset, the Hausdorff distance was reduced by 2.92%. For the ACDC dataset, the segmentation accuracy of the left ventricle, myocardium, and right ventricle was improved by 0.14%, 1.89%, and 0.23%, respectively.DiscussionThe experimental results demonstrate that the proposed network has improved the effectiveness and shows strong performance on both CT and MRI data, which suggests its potential for generalization across different medical imaging modalities.",
-      "author": "Quan Liu",
-      "published_date": "2025-12-01T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 219,
-      "reading_time": 1,
-      "created_at": "2025-12-10T09:48:27.476464+00:00",
-      "updated_at": "2025-12-10T09:48:27.476468+00:00"
-    },
     {
       "id": "f1fcd6d8ed5a10eb14b116fe3c0b063f",
       "url": "http://www.jneurosci.org/cgi/content/short/45/45/etwij45452025?rss=1",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2025-12-10T08:31:33.852058+00:00",
       "updated_at": "2025-12-10T08:31:33.852062+00:00"
+    },
+    {
+      "id": "c03a17d44fdfc0261071c99d022604ec",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1674519",
+      "title": "Predictive model of delayed hyponatremia after endoscopic endonasal transsphenoidal resection of pituitary adenoma",
+      "content": "ObjectiveThis study aims to establish the risk factors and predictive model for the occurrence of delayed hyponatremia after endoscopic endonasal transsphenoidal resection of pituitary adenoma.MethodsData from 155 patients who underwent endoscopic endonasal transsphenoidal resection of pituitary adenoma at the affiliated hospital of Xuzhou Medical University from January 2018 to May 2023 were analyzed. These patients were randomly divided into a training group (108 cases, 70%) and a validation group (47 cases, 30%). Univariate and Multivariate Logistic regression analysis were conducted on the training group to identify risk factors for delayed hyponatremia after surgery. A predictive model was established using R software and validated.ResultsAfter conducting Univariate and Multivariate Logistic regression analysis, factors influencing the occurrence of delayed hyponatremia after endoscopic endonasal transsphenoidal resection of pituitary adenoma were identified as follows: elevated preoperative prolactin levels, higher preoperative suprasellar cistern height, and hyponatremia in the first 1\u20132\u202fdays after surgery. The area under the ROC curve for forecasting delayed postoperative hyponatremia (DPH) in training and validation sets was 0.943 and 0.959, respectively. The DCA curve indicated a higher benefit in clinical application.ConclusionThe risk prediction model for delayed hyponatremia after endoscopic endonasal transsphenoidal resection of pituitary adenoma, developed in this study, demonstrates favorable predictive performance. The nomogram can be utilized for early identification of high-risk individuals for DPH.",
+      "author": "Faan Miao",
+      "published_date": "2025-12-05T00:00:00+00:00",
+      "source": "Frontiers Human Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 214,
+      "reading_time": 1,
+      "created_at": "2025-12-10T08:31:23.511253+00:00",
+      "updated_at": "2025-12-10T08:31:23.511254+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "4fe17c009da7808ef4ba10fcacef8afc",
+      "url": "https://www.nature.com/articles/s41593-025-02134-7",
+      "title": "Electrophysiological classification of human layer 2\u20133 pyramidal neurons reveals subtype-specific synaptic interactions",
+      "content": "<p>Nature Neuroscience, Published online: 10 December 2025; <a href=\"https://www.nature.com/articles/s41593-025-02134-7\">doi:10.1038/s41593-025-02134-7</a></p>Using multineuron patch clamp in human cortex, the authors uncover four functional subtypes of pyramidal neurons with distinct morphology and subtype-specific synaptic interactions, revealing conserved microcircuit principles among individuals.",
+      "author": "Yangfan Peng",
+      "published_date": "2025-12-10T00:00:00+00:00",
+      "source": "Nature Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 37,
+      "reading_time": 1,
+      "created_at": "2025-12-10T11:20:04.677224+00:00",
+      "updated_at": "2025-12-10T12:34:06.095338+00:00",
+      "metadata": {
+        "processed_at": "2025-12-10T12:34:06.095347+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6c595e25716b32591d38842141ce8b0e",
+      "url": "https://www.reddit.com/r/Python/comments/1piug7a/dtos_or_classes_with_objects_and_methods/",
+      "title": "DTOs or classes with objects and methods",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Which is preferred in Python?</p> <p>DTOs or classes that encapsulate data and methods?</p> <p>Wondering about this as I'm from a C# background where we rarely used classes that encapsulate data and methods. My current job (Python) goes way heavier on OOP than my previous.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/VisuelleData\"> /u/VisuelleData </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1piug7a/dtos_or_classes_with_objects_and_methods/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1piug7a/dtos_or_classes_with_objects_and_methods/\">[comments]</a></span>",
+      "author": "/u/VisuelleData",
+      "published_date": "2025-12-10T05:27:34+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 65,
+      "reading_time": 1,
+      "created_at": "2025-12-10T11:19:30.259438+00:00",
+      "updated_at": "2025-12-10T12:34:06.095352+00:00",
+      "metadata": {
+        "processed_at": "2025-12-10T12:34:06.095354+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "adc4781ea11d927ebc2d92cc947ef47f",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1647194",
+      "title": "Speech pattern disorders in verbally fluent individuals with autism spectrum disorder: a machine learning analysis",
+      "content": "IntroductionDiagnosing Autism Spectrum Disorder (ASD) in verbally fluent individuals based on speech patterns in examiner-patient dialogues is challenging because speech-related symptoms are often subtle and heterogeneous. This study aimed to identify distinctive speech characteristics associated with ASD by analyzing recorded dialogues from the Autism Diagnostic Observation Schedule (ADOS-2).MethodsWe analyzed examiner-participant dialogues from ADOS-2 Module 4 and extracted 40 speech-related features categorized into intonation, volume, rate, pauses, spectral characteristics, chroma, and duration. These acoustic and prosodic features were processed using advanced speech analysis tools and used to train machine learning models to classify ASD participants into two subgroups: those with and without A2-defined speech pattern abnormalities. Model performance was evaluated using cross-validation and standard classification metrics.ResultsUsing all 40 features, the support vector machine (SVM) achieved an F1-score of 84.49%. After removing Mel-Frequency Cepstral Coefficients (MFCC) and Chroma features to focus on prosodic, rhythmic, energy, and selected spectral features aligned with ADOS-2 A2 scores, performance improved, achieving 85.77% accuracy and an F1-score of 86.27%. Spectral spread and spectral centroid emerged as key features in the reduced set, while MFCC 6 and Chroma 4 also contributed significantly in the full feature set.DiscussionThese findings demonstrate that a compact, diverse set of non-MFCC and selected spectral features effectively characterizes speech abnormalities in verbally fluent individuals with ASD. The approach highlights the potential of context-aware, data-driven models to complement clinical assessments and enhance understanding of speech-related manifestations in ASD.",
+      "author": "Xin Li",
+      "published_date": "2025-10-24T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 233,
+      "reading_time": 1,
+      "created_at": "2025-12-10T10:27:00.573803+00:00",
+      "updated_at": "2025-12-10T12:34:06.095356+00:00",
+      "metadata": {
+        "processed_at": "2025-12-10T12:34:06.095358+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "135705a00716592a14f5ce96413844d1",
+      "url": "https://unherd.com/2025/12/big-tech-are-the-new-soviets/",
+      "title": "Big Tech are the new Soviets",
+      "content": "<p>Article URL: <a href=\"https://unherd.com/2025/12/big-tech-are-the-new-soviets/\">https://unherd.com/2025/12/big-tech-are-the-new-soviets/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46215688\">https://news.ycombinator.com/item?id=46215688</a></p>\n<p>Points: 13</p>\n<p># Comments: 2</p>",
+      "author": "saubeidl",
+      "published_date": "2025-12-10T09:15:18+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-10T10:26:25.967310+00:00",
+      "updated_at": "2025-12-10T12:34:06.095360+00:00",
+      "metadata": {
+        "processed_at": "2025-12-10T12:34:06.095362+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "16712c82fde7bee131cf339ae97552f5",
       "url": "http://ieeexplore.ieee.org/document/10994678",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "0776e62e75431e1a553ad13fcb6c12e2",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1647462",
-      "title": "A neural network model combining the successor representation and actor-critic methods reveals effective biological use of the representation",
-      "content": "In learning goal-directed behavior, state representation is important for adapting to the environment and achieving goals. A predictive state representation called successive representation (SR) has recently attracted attention as a candidate for state representation in animal brains, especially in the hippocampus. The relationship between the SR and the animal brain has been studied, and several neural network models for computing the SR have been proposed based on the findings. However, studies on implementation of the SR involving action selection have not yet advanced significantly. Therefore, we explore possible mechanisms by which the SR is utilized biologically for action selection and learning optimal action policies. The actor-critic architecture is a promising model of animal behavioral learning in terms of its correspondence to the anatomy and function of the basal ganglia, so it is suitable for our purpose. In this study, we construct neural network models for behavioral learning using the SR. By using them to perform reinforcement learning, we investigate their properties. Specifically, we investigated the effect of using different state representations for the actor and critic in the actor-critic method, and also compared the actor-critic method with Q-learning and SARSA. We found the difference between the effect of using the SR for the actor and the effect of using the SR for the critic in the actor-critic method, and observed that using the SR in conjunction with one-hot encoding makes it possible to learn with the benefits of both representations. These results suggest the possibility that the striatum can learn using multiple state representations complementarily.",
-      "author": "Kenji Morita",
-      "published_date": "2025-11-26T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
+      "id": "6309fe51366e561677734ca5a0b65f2e",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1706626",
+      "title": "IAP-TransUNet: integration of the attention mechanism and pyramid pooling for medical image segmentation",
+      "content": "IntroductionThe combination of CNN and Transformer has attracted much attention for medical image segmentation due to its superior performance at present. However, the segmentation performance is affected by limitations such as the local receptive field and static weights of CNN convolution operations, as well as insufficient information exchange between Transformer local regions.MethodsTo address these issues, an integrated attention mechanism and pyramid pooling network is proposed in this paper. Firstly, an efficient channel attention mechanism is embedded into CNN to extract more comprehensive image features. Then, CBAM_ASPP module is introduced into the bottleneck layer to obtain multi-scale context information. Finally, in order to address the limitations of traditional convolution, depthwise separable convolution is used to achieve a lightweight network.ResultsThe experiments based on the Synapse multi organ segmentation dataset and ACDC dataset showed that the proposed IAP-TransUNet achieved Dice similarity coefficients (DSCs) of 78.85% and 90.46%, respectively. Compared with the state-of-the-art method, for the Synapse multi organ segmentation dataset, the Hausdorff distance was reduced by 2.92%. For the ACDC dataset, the segmentation accuracy of the left ventricle, myocardium, and right ventricle was improved by 0.14%, 1.89%, and 0.23%, respectively.DiscussionThe experimental results demonstrate that the proposed network has improved the effectiveness and shows strong performance on both CT and MRI data, which suggests its potential for generalization across different medical imaging modalities.",
+      "author": "Quan Liu",
+      "published_date": "2025-12-01T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 255,
+      "word_count": 219,
       "reading_time": 1,
-      "created_at": "2025-12-10T07:44:27.298988+00:00",
-      "updated_at": "2025-12-10T08:22:31.541333+00:00",
+      "created_at": "2025-12-10T09:48:27.476464+00:00",
+      "updated_at": "2025-12-10T12:34:06.095364+00:00",
       "metadata": {
-        "processed_at": "2025-12-10T08:22:31.541343+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "44f7998b6dcb53eb6bf79d847670400e",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1751667",
-      "title": "Editorial: Exploring chronic fatigue: neural correlates, mechanisms, and therapeutic strategies",
-      "content": "",
-      "author": "Pawe\u0142 Zalewski",
-      "published_date": "2025-12-10T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-10T07:44:23.324632+00:00",
-      "updated_at": "2025-12-10T08:22:31.541347+00:00",
-      "metadata": {
-        "processed_at": "2025-12-10T08:22:31.541349+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "717a1b7abeef0f097129b8380d06c1c3",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1688032",
-      "title": "The effects of transcranial direct current stimulation on EEG power and complexity of ischemic stroke",
-      "content": "Transcranial direct current stimulation (tDCS), has shown therapeutic potential for ischemic stroke, but the neural oscillatory mechanisms of its therapeutic effects remain incompletely elucidated. Based on the rat model and clinical stroke patients, this paper combines multiple indicators such as electroencephalography (EEG) relative power (RP), Lempel-Ziv complexity and sample entropy to investigate the mechanism by which tDCS modulates neural oscillations in ischemic stroke. The results indicated that tDCS substantially reduced the RP of the \u03b4 frequency band, enhanced the normal oscillation of the \u03b1 frequency band, and improved the complexity index of the EEG signals. These findings suggest that tDCS could facilitate the recovery following ischemic stroke through the modulation of EEG rhythms.",
-      "author": "Liqiang Liu",
-      "published_date": "2025-12-10T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 113,
-      "reading_time": 1,
-      "created_at": "2025-12-10T07:44:23.324540+00:00",
-      "updated_at": "2025-12-10T08:22:31.541351+00:00",
-      "metadata": {
-        "processed_at": "2025-12-10T08:22:31.541353+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "93d4f700e0aae9a6263822cab2b038cf",
-      "url": "http://doi.org/10.1037/pmu0000299",
-      "title": "Capturing coordination and intentionality in joint musical improvisation.",
-      "content": "Humans collaborate with each other on a wide variety of tasks that are often largely improvised and unscripted. In this study, we investigated the dynamics of coordination in a joint musical improvisation task, what the effect of intentions is on coordination, and how musicians propagate these intentions. To quantify coordination within musical trios, we derived per-musician time series of acoustic features to which we applied effective transfer entropy (ETE) and empirical dynamic modeling (EDM), two methods derived from complex systems science. Using ETE allowed us to investigate coordination as directional information flow between musicians, whereas through EDM we conceptualized coordination as the predictability of a complex system. We found that both techniques, when applied to root-mean-square (RMS) amplitude time series, could be used to distinguish coordinating from noncoordinating musicians. Various other feature\u2013technique combinations, such as fractal dimension\u2013ETE and Tonnetz distance\u2013EDM, were also viable. Our results further suggest that coordination improves as an intention gets more shared, that is, as more musicians in the joint improvisation have the same intention. Lastly, we found evidence suggesting that musicians increase the predictability of their playing when seeking to end a performance, though our results did not provide an indication that this was done with the intention of improving coordination with partners. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2023-08-03T00:00:00+00:00",
-      "source": "Psychomusicology",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 217,
-      "reading_time": 1,
-      "created_at": "2025-12-10T07:44:08.100665+00:00",
-      "updated_at": "2025-12-10T08:22:31.541355+00:00",
-      "metadata": {
-        "processed_at": "2025-12-10T08:22:31.541357+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1dba4516d93f599a125b21be2c0d94a4",
-      "url": "http://doi.org/10.1037/pmu0000295",
-      "title": "Continuous affect responses to a large diverse set of unfamiliar music: Bayesian time-series and cluster analyses.",
-      "content": "Sixty-nine participants made continuous response judgments of perceived arousal and valence while listening to 30-s extracts of 100 unfamiliar pieces within a novel recommender system. Our purpose was to take advantage of the relatively large number of participants and pieces studied (compared with prior work on time series analysis [TSA] of continuous affective responses to music) to test the generality of the deductions made from prior evidence in smaller studies. Accordingly, we expected highly autoregressive responses, and hypothesized that acoustic intensity fluctuation would be a major (population-wide, fixed-effect) predictor of arousal and to a lesser degree valence responses in multivariate models, operating in conjunction with broad features of the spectral profile of the music (such as spectral flatness and centroid). We expected considerable interparticipant variability and were interested in the degree to which there was also interpiece variability (both being features of group-specific, random effects). The basic expectations were supported, and we also demonstrated, partly by means of a novel use of cluster analysis, that the observed group variabilities in response features could not be readily attributed to indices of a range of participant-preference and piece-feature characteristics, determined prior to the experiments. A Bayesian analysis was developed, possibly for the first time in the TSA of continuous affect responses to music, since it provides a more comprehensive description of the parameters of the analysis (not only their best estimate point values) and their effects, and a comprehensive range of tests for meaningful effects. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2023-04-20T00:00:00+00:00",
-      "source": "Psychomusicology",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 252,
-      "reading_time": 1,
-      "created_at": "2025-12-10T07:44:08.100624+00:00",
-      "updated_at": "2025-12-10T08:22:31.541359+00:00",
-      "metadata": {
-        "processed_at": "2025-12-10T08:22:31.541361+00:00",
+        "processed_at": "2025-12-10T12:34:06.095365+00:00",
         "processing_method": "github_actions"
       }
     }
