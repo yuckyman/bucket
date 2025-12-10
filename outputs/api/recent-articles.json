@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-10T21:24:15.047535+00:00",
+  "last_updated": "2025-12-10T21:45:42.817153+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "7da1010dbfdc33141a85448415df86bd",
+      "url": "http://www.jneurosci.org/cgi/content/short/45/48/etwij45482025?rss=1",
+      "title": "This Week in The Journal",
+      "content": "",
+      "author": "McKeon, P.",
+      "published_date": "2025-11-26T17:30:31+00:00",
+      "source": "Journal Neuroscience This Week",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-12-10T21:45:00.676732+00:00",
+      "updated_at": "2025-12-10T21:45:00.676734+00:00"
+    },
+    {
+      "id": "57b2eac4bfabaa98e51fbcfd0eb84478",
+      "url": "https://dnhkng.github.io/posts/hopper/",
+      "title": "I got an Nvidia GH200 server for \u20ac7.5k on Reddit and converted it to a desktop",
+      "content": "<p>Article URL: <a href=\"https://dnhkng.github.io/posts/hopper/\">https://dnhkng.github.io/posts/hopper/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46222237\">https://news.ycombinator.com/item?id=46222237</a></p>\n<p>Points: 65</p>\n<p># Comments: 10</p>",
+      "author": "dnhkng",
+      "published_date": "2025-12-10T19:19:17+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-10T21:44:25.396829+00:00",
+      "updated_at": "2025-12-10T21:44:25.396830+00:00"
+    },
     {
       "id": "31d217014d1a7b90fc15f3f0ece6db35",
       "url": "https://www.embs.org/featured-news/welcoming-the-newly-elected-embs-adcom-members-for-2026-2028/",
@@ -317,38 +349,6 @@
         "processed_at": "2025-12-10T20:18:58.067295+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "0312ac3ac5f9c5c5f273001215fa632f",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.06.692679v1?rss=1",
-      "title": "NMDA receptor ablation in medial prefrontal cortex disrupts value updating and reward history integration",
-      "content": "Schizophrenia, a serious mental illness, is associated with evidence of NMDA receptor (NMDAR) dysfunction and characterized by cognitive impairments that reflect impaired value updating and feedback-driven control; however the cellular and circuit-level mechanisms underlying these disruptions remain unclear. Here we test how NMDA receptor (NMDAR) signaling in the medial prefrontal cortex (mPFC) contributes to adaptive decision-making by combining targeted genetic ablation in mice and systemic pharmacology. Using a CRISPR-Cas9 approach to eliminate the obligate GluN1 subunit, we induced spatially confined NMDAR hypofunction in mPFC and compared its effects to systemic pharmacological blockade with the NMDAR antagonist MK-801 during performance of a touchscreen-based restless bandit task. Prefrontal NMDAR ablation impaired value discrimination, weakened the use of negative feedback, and reduced mutual information between recent outcomes and current choices, indicating disrupted reward-history integration. Reinforcement-learning models incorporating a choice-kernel term best captured behavior and revealed that NMDAR ablation selectively dampened learning and choice-history parameters governing flexible updating. Systemic MK-801 produced broad impairments in control animals, reducing accuracy, mutual information, and outcome sensitivity, yet exerted only modest additional effects after NMDAR ablation, suggesting that prefrontal NMDAR loss occluded much of the pharmacological disruption. Simulations using fitted RLCK parameters reproduced these patterns, showing convergent flattening of choice dynamics under MK-801 and persistent deficits in GluN1 ablated animals. Together, these findings demonstrate that prefrontal NMDAR signaling is necessary for effective value updating and feedback-driven learning, and that its loss recapitulates core features of systemic NMDAR hypofunction. This work establishes a mechanistic bridge between localized cortical glutamatergic dysfunction and the reinforcement-learning disturbances characteristic of schizophrenia.",
-      "author": "Knep, E., Velosa, A., Mueller, D., Chen, C. S., Vinogradov, S., Chafee, M., Ebitz, B., Heilbronner, S., Rothwell, P. E., Grissom, N.",
-      "published_date": "2025-12-10T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 258,
-      "reading_time": 1,
-      "created_at": "2025-12-10T19:19:29.504760+00:00",
-      "updated_at": "2025-12-10T19:19:29.504765+00:00"
-    },
-    {
-      "id": "adc075ab178b1728e17749488d6fb21e",
-      "url": "https://eli.li/gundam-is-just-the-same-as-jane-austen-but-happens-to-include-giant-mech-suits",
-      "title": "Gundam is just the same as Jane Austen but happens to include giant mech suits",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46123310\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-02T16:55:36+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-10T19:18:50.143137+00:00",
-      "updated_at": "2025-12-10T19:18:50.143138+00:00"
     }
   ]
 }
