@@ -1,5 +1,53 @@
 [
   {
+    "id": "308f1766fed6e3f4cada1e3b35804be0",
+    "url": "https://lwn.net/Articles/1049831/",
+    "title": "The end of the kernel Rust experiment",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46213585\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-10T03:15:24+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-10T04:07:22.264069+00:00",
+    "updated_at": "2025-12-10T04:07:22.264071+00:00"
+  },
+  {
+    "id": "b57beee01a3b3683da64b3b3d71ea378",
+    "url": "https://groups.google.com/a/list.nist.gov/g/internet-time-service/c/Zd7VaR-vqV4?pli=1",
+    "title": "Atomic time source failure at NIST Gaithersburg campus",
+    "content": "<p>Article URL: <a href=\"https://groups.google.com/a/list.nist.gov/g/internet-time-service/c/Zd7VaR-vqV4?pli=1\">https://groups.google.com/a/list.nist.gov/g/internet-time-service/c/Zd7VaR-vqV4?pli=1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46213406\">https://news.ycombinator.com/item?id=46213406</a></p>\n<p>Points: 13</p>\n<p># Comments: 1</p>",
+    "author": "dpcx",
+    "published_date": "2025-12-10T02:41:11+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-10T04:07:21.028157+00:00",
+    "updated_at": "2025-12-10T04:07:21.028158+00:00"
+  },
+  {
+    "id": "308f1766fed6e3f4cada1e3b35804be0",
+    "url": "https://lwn.net/Articles/1049831/",
+    "title": "The end of the kernel Rust experiment",
+    "content": "<p>Article URL: <a href=\"https://lwn.net/Articles/1049831/\">https://lwn.net/Articles/1049831/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46213585\">https://news.ycombinator.com/item?id=46213585</a></p>\n<p>Points: 45</p>\n<p># Comments: 10</p>",
+    "author": "rascul",
+    "published_date": "2025-12-10T03:15:24+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-10T04:07:21.028106+00:00",
+    "updated_at": "2025-12-10T04:07:21.028113+00:00"
+  },
+  {
     "id": "8520248904799b7a5cc529aa5389cb88",
     "url": "https://www.biorxiv.org/content/10.64898/2025.12.05.692595v1?rss=1",
     "title": "Enhanced ex vivo 3D whole-brain mapping and automated analysis of Parkinson's disease pathologies in mice",
@@ -17216,66 +17264,6 @@
     "updated_at": "2025-12-05T03:15:29.843694+00:00",
     "metadata": {
       "processed_at": "2025-12-05T03:15:29.843703+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "c703fd7c135a11ac9241ff6694060151",
-    "url": "https://www.nature.com/articles/s41598-025-30561-w",
-    "title": "Network-level organization of systemic inflammation reflects early Alzheimer\u2019s-like behavioral changes",
-    "content": "",
-    "author": "",
-    "published_date": "2025-12-05T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2025-12-05T01:44:00.450510+00:00",
-    "updated_at": "2025-12-05T03:15:29.843709+00:00",
-    "metadata": {
-      "processed_at": "2025-12-05T03:15:29.843711+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "c632d8d65fd9bfb6f80a88a7c15aa6a9",
-    "url": "https://www.reddit.com/r/Python/comments/1pefrdj/announcing_pact_python_v3/",
-    "title": "Announcing: Pact Python v3",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone! Hoping to share the <a href=\"https://pact-foundation.github.io/pact-python/blog/2025/12/04/announcing-pact-python-v3/\">release of Pact Python v3</a> that has been a long time coming \ud83d\ude05</p> <hr /> <p>It's been a couple of months since we released Pact Python v3, and after ironing out a couple of early issues, I think it's finally time to reflect on this milestone and its implications. This post is a look back at the journey, some of the challenges, the people, and the future of this project within the Pact ecosystem.</p> <p>Pact is an approach to contract testing that sits neatly between traditional unit tests (which check individual components) and end-to-end tests (which exercise the whole system). With Pact, you can verify that your services communicate correctly, without needing to spin up every dependency. By capturing the expected interactions between consumer and provider, Pact allows you to test each side in isolation and replay those interactions, giving you fast, reliable feedback and confidence that your APIs and microservices will work together in the real world. Pact Python brings this powerful workflow to the Python ecosystem, making it easy to test everything from REST APIs to event-driven systems.</p> <hr /> <p>You can read the rest of the announcement <a href=\"https://pact-foundation.github.io/pact-python/blog/2025/12/04/announcing-pact-python-v3/\">here</a> and check out <a href=\"https://pact-foundation.github.io/pact-python/\">Pact Python</a>.</p> <p>If you have any questions, let me know \ud83d\ude01</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JP-Ellis\"> /u/JP-Ellis </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pefrdj/announcing_pact_python_v3/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pefrdj/announcing_pact_python_v3/\">[comments]</a></span>",
-    "author": "/u/JP-Ellis",
-    "published_date": "2025-12-04T23:47:15+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 235,
-    "reading_time": 1,
-    "created_at": "2025-12-05T01:43:24.175051+00:00",
-    "updated_at": "2025-12-05T03:15:29.843714+00:00",
-    "metadata": {
-      "processed_at": "2025-12-05T03:15:29.843716+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "4b7f816c512669721077debd3ecc9e7f",
-    "url": "https://lyra.horse/blog/2025/12/svg-clickjacking/",
-    "title": "Trick users and bypass warnings \u2013 Modern SVG Clickjacking attacks",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46155085\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-05T00:03:36+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-05T01:43:22.935189+00:00",
-    "updated_at": "2025-12-05T03:15:29.843719+00:00",
-    "metadata": {
-      "processed_at": "2025-12-05T03:15:29.843721+00:00",
       "processing_method": "github_actions"
     }
   }
