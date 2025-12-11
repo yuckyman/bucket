@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-11T03:26:31.455781+00:00",
+  "last_updated": "2025-12-11T04:10:58.065432+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "8259005d57f6d38513290a485c2cbac9",
+      "url": "https://www.cam.ac.uk/stories/twelve-million-years-of-giant-anacondas",
+      "title": "Fossils reveal anacondas have been giants for over 12 million years",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46119762\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-02T10:30:46+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-11T04:09:48.029145+00:00",
+      "updated_at": "2025-12-11T04:09:48.029146+00:00"
+    },
+    {
+      "id": "82920eca2b34ea859c6da1762963ba36",
+      "url": "https://law.gmnz.xyz/vibe-coding-is-mad-depressing/",
+      "title": "Vibe coding is depressing",
+      "content": "<p>Article URL: <a href=\"https://law.gmnz.xyz/vibe-coding-is-mad-depressing/\">https://law.gmnz.xyz/vibe-coding-is-mad-depressing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46227422\">https://news.ycombinator.com/item?id=46227422</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "author": "dirtylowprofile",
+      "published_date": "2025-12-11T03:50:04+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-11T04:09:46.631127+00:00",
+      "updated_at": "2025-12-11T04:09:46.631135+00:00"
+    },
     {
       "id": "1fc4995bd80c99200460acde6dc1bd9b",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.08.692919v1?rss=1",
@@ -329,38 +361,6 @@
       "reading_time": 1,
       "created_at": "2025-12-10T23:19:41.862039+00:00",
       "updated_at": "2025-12-10T23:19:41.862045+00:00"
-    },
-    {
-      "id": "e609165c3fbbccaa10be010c3769497b",
-      "url": "https://www.reddit.com/r/Python/comments/1pjgv0t/echomine_a_typed_python_library_cli_to_search_and/",
-      "title": "echomine: A typed Python library + CLI to search and export ChatGPT/Claude conversations",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>## What My Project Does</p> <p>Echomine parses and searches your exported AI conversation history from ChatGPT and Claude. It provides:</p> <ul> <li>BM25 relevance-ranked keyword search across all conversations</li> <li>Filters by date range, message role, conversation title</li> <li>Export individual conversations to Markdown</li> <li>Auto-detection of OpenAI vs Claude export format</li> <li><p>Both CLI and library interfaces</p> <h2>Target Audience</h2> <p>This is a production-ready tool for:</p></li> <li><p>Developers who use ChatGPT/Claude regularly and want to search their history</p></li> <li><p>Researchers analyzing AI conversation patterns</p></li> <li><p>Anyone building tools on top of their AI chat exports</p> <h2>Comparison</h2> <p><strong>vs. manual grep/search:</strong></p></li> <li><p>Echomine uses BM25 ranking so results are sorted by relevance, not just matched</p></li> <li><p>Handles the nested JSON structure of exports automatically</p></li> <li><p>Streams large files with O(1) memory (tested on 1GB+ exports)</p> <p><strong>vs. ChatGPT/Claude web search:</strong></p></li> <li><p>Works offline on your exported data</p></li> <li><p>Faster for bulk searches</p></li> <li><p>Programmatic access via Python library</p></li> <li><p>Your data stays local</p> <h2>Technical Details</h2></li> <li><p><code>mypy --strict</code> compliant - full type coverage</p></li> <li><p>Streaming parser with ijson for memory efficiency</p></li> <li><p>Pydantic v2 models with frozen immutability</p></li> <li><p>Protocol-based adapter pattern for multi-provider support</p></li> <li><p>95%+ test coverage, Python 3.12+</p> <h2>Example Usage</h2> <p><strong>CLI:</strong> ```bash pip install echomine</p> <p>echomine search export.json --keywords &quot;async await&quot; --limit 10 echomine list export.json --sort messages --desc</p> <p>Library: from echomine import OpenAIAdapter, SearchQuery from pathlib import Path</p> <p>adapter = OpenAIAdapter() query = SearchQuery(keywords=[&quot;python&quot;, &quot;typing&quot;], limit=5)</p> <p>for result in adapter.search(Path(&quot;export.json&quot;), query): print(f&quot;{result.score:.2f} - {result.item.title}&quot;)</p> <p>Links</p></li> <li><p>Source: <a href=\"https://github.com/aucontraire/echomine\">https://github.com/aucontraire/echomine</a></p></li> <li><p>PyPI: <a href=\"https://pypi.org/project/echomine/\">https://pypi.org/project/echomine/</a></p></li> <li><p>Docs: <a href=\"https://aucontraire.github.io/echomine/\">https://aucontraire.github.io/echomine/</a></p> <p>Feedback welcome on API design and search quality. What other export formats would be useful?</p></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rexgasket\"> /u/rexgasket </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pjgv0t/echomine_a_typed_python_library_cli_to_search_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pjgv0t/echomine_a_typed_python_library_cli_to_search_and/\">[comments]</a></span>",
-      "author": "/u/rexgasket",
-      "published_date": "2025-12-10T22:37:48+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 272,
-      "reading_time": 1,
-      "created_at": "2025-12-10T23:19:06.643738+00:00",
-      "updated_at": "2025-12-10T23:19:06.643739+00:00"
-    },
-    {
-      "id": "5d49304b30e3f1cca1ea313fc654375e",
-      "url": "https://www.embs.org/uncategorized/call-for-adcom-nominations/",
-      "title": "Open Call for AdCom Nominations",
-      "content": "<p>The post <a href=\"https://www.embs.org/uncategorized/call-for-adcom-nominations/\">Open Call for AdCom Nominations</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "Nancy Zimmerman",
-      "published_date": "2025-05-02T17:09:21+00:00",
-      "source": "Embs",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 14,
-      "reading_time": 1,
-      "created_at": "2025-12-10T22:46:00.569933+00:00",
-      "updated_at": "2025-12-10T22:46:00.569934+00:00"
     }
   ]
 }
