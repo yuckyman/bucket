@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-12-11T23:21:54.675789+00:00",
+  "last_updated": "2025-12-11T23:42:45.741818+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "2396d8c70b85987f4bcb8600d68c829d",
+      "url": "https://github.com/metaspartan/gotui",
+      "title": "Show HN: Gotui \u2013 a modern Go terminal dashboard library",
+      "content": "<p>I\u2019ve been working on gotui, a modern fork of the unmaintained termui, rebuilt on top of tcell for TrueColor, mouse support, and proper resize handling. It keeps the simple termui-style API, but adds a bunch of new widgets (charts, gauges, world map, etc.), nicer visuals (collapsed borders, rounded corners), and input components for building real dashboards and tools. Under the hood the renderer\u2019s been reworked for much better performance, and I\u2019d love feedback on what\u2019s missing for you to use it in production.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46237146\">https://news.ycombinator.com/item?id=46237146</a></p>\n<p>Points: 9</p>\n<p># Comments: 2</p>",
+      "author": "carsenk",
+      "published_date": "2025-12-11T21:05:27+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 94,
+      "reading_time": 1,
+      "created_at": "2025-12-11T23:41:35.137386+00:00",
+      "updated_at": "2025-12-11T23:41:35.137388+00:00"
+    },
     {
       "id": "2b4868cef0181269ffd9c1a45a12752b",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693175v1?rss=1",
@@ -315,26 +331,6 @@
       "updated_at": "2025-12-11T22:17:20.682871+00:00",
       "metadata": {
         "processed_at": "2025-12-11T22:17:20.682872+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "69c842a67c22655a8b900b7c68737ad8",
-      "url": "https://www.centauri-dreams.org/2025/12/11/a-tatooine-planet-directly-imaged/",
-      "title": "A 'Tatooine' Planet Directly Imaged",
-      "content": "<p>Article URL: <a href=\"https://www.centauri-dreams.org/2025/12/11/a-tatooine-planet-directly-imaged/\">https://www.centauri-dreams.org/2025/12/11/a-tatooine-planet-directly-imaged/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46236398\">https://news.ycombinator.com/item?id=46236398</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "author": "JPLeRouzic",
-      "published_date": "2025-12-11T20:03:48+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-11T21:43:03.132178+00:00",
-      "updated_at": "2025-12-11T22:17:20.682874+00:00",
-      "metadata": {
-        "processed_at": "2025-12-11T22:17:20.682876+00:00",
         "processing_method": "github_actions"
       }
     }
