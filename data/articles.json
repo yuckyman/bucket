@@ -1,5 +1,53 @@
 [
   {
+    "id": "c94b6fdaf0f66e08690a2edd882094d3",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1700505",
+    "title": "Reevaluating the classification of pediatric speech sound disorders: a ground truthing perspective",
+    "content": "Pediatric Speech Sound Disorders (SSDs) are conventionally diagnosed using auditory-perceptual assessments, heavily relying on International Phonetic Alphabet (IPA) transcriptions. This approach, while prevalent, is increasingly criticized due to inherent perceptual biases, limited sensitivity to subtle speech motor variations, and insufficient reflection of underlying speech mechanisms. This paper critically re-examines a widely used diagnostic classification system for pediatric SSDs, namely Dodd\u2019s Model of Differential Diagnosis (MDD), emphasizing the limitations of perceptual methods and advocating for instrumental techniques to address significant ground truthing issues. Critical analysis in this paper integrates evidence from perceptual research, instrumental phonetics, and speech motor development studies, highlighting discrepancies between traditional classification methods and modern instrumental data. Findings indicate profound limitations in current auditory-perceptual classification methods, particularly regarding their inability to detect subtle motoric impairments such as jaw sliding, covert motor contrasts, and undifferentiated tongue gestures. Evidence from instrumental studies supports a speech-motor rather than purely cognitive-linguistic basis for many pediatric SSDs, revealing significant inadequacies in current clinical practices. To avoid the narrow interpretation of \u201cmotor speech\u201d as referring only to childhood apraxia of speech (CAS) or dysarthria, we explicitly broaden its scope to include a wider range of motoric influences on SSDs. Given these critical ground truthing concerns, the paper proposes adopting instrumental-based methodologies that offer greater precision in identifying underlying motor-based impairments, thereby promoting a more accurate and nuanced understanding of pediatric SSDs. Furthermore, the discussion advocates for adopting a dimensional rather than categorical classification framework, emphasizing gradual developmental trajectories and foundational speech motor skills. Aligning with modern precision medicine principles, the proposed approach aims to refine diagnostic accuracy, improve intervention effectiveness, and ultimately enhance clinical outcomes for children with SSDs.",
+    "author": "Pascal van Lieshout",
+    "published_date": "2025-12-11T00:00:00+00:00",
+    "source": "Frontiers Human Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 275,
+    "reading_time": 1,
+    "created_at": "2025-12-11T07:25:22.797527+00:00",
+    "updated_at": "2025-12-11T07:25:22.797532+00:00"
+  },
+  {
+    "id": "9e99aa46db0d6041bc4179fc44396748",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1697528",
+    "title": "DEG-BRIN-GCN: interpretable graph convolutional framework with differentially expressed genes brain region interaction network prior for AD diagnosis",
+    "content": "Due to the intricate dynamic coupling between molecular networks and brain regions, early diagnosis and pathological mechanism analysis of Alzheimer's disease (AD) remain highly challenging. To address this, we propose a graph convolutional neural network framework (DEG-BRIN-GCN) based on a differentially expressed gene-brain region interaction network (DEG-BRIN), aiming to enhance both diagnostic accuracy and biological interpretability in AD research. We began by systematically analyzing transcriptomic data from 19 brain regions, identifying 329 differentially expressed genes that display widespread co-expression across multiple regions. Using these findings, we constructed DEG-BRIN to model prior associations among genes, thereby revealing potential molecular connectivity patterns implicated in AD pathological progression. Leveraging this network prior, we developed an AD classification model based on graph convolutional networks. Comparative experiments demonstrate that our proposed DEG-BRIN-GCN achieves significantly better diagnostic performance than three categories of baseline models: traditional machine learning methods, Random-GCN (models based on random network topologies), and PPI-GCN. Further analysis identified key brain regions\u2013such as the superior parietal lobule, putamen, and frontal pole\u2013along with high-contribution genes, including VCAM1, MCTP1, HBB, and CX3CR1, which play critical roles in AD pathology. Notably, this study is the first to implement a interpretability analysis based on a \u201cgene-region-pathway\u201d triad, offering a novel framework for cross-scale exploration of AD pathological mechanisms. Our findings underscore the central importance of inter-regional molecular interaction networks in the accurate diagnosis of AD.",
+    "author": "Jingjing Wei",
+    "published_date": "2025-12-11T00:00:00+00:00",
+    "source": "Frontiers Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 226,
+    "reading_time": 1,
+    "created_at": "2025-12-11T07:25:19.759998+00:00",
+    "updated_at": "2025-12-11T07:25:19.760003+00:00"
+  },
+  {
+    "id": "0d5f49193af8b3a190a7b21be3770b0a",
+    "url": "https://serversfor.dev/linux-inside-out/the-linux-kernel-is-just-a-program/",
+    "title": "Booting Linux in QEMU and Writing PID 1 in Go to Illustrate Kernel as Program",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46147987\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-04T14:25:38+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-11T07:24:54.805548+00:00",
+    "updated_at": "2025-12-11T07:24:54.805550+00:00"
+  },
+  {
     "id": "51dc9c015bc42c9d2a947d85aac233d8",
     "url": "https://www.biorxiv.org/content/10.64898/2025.12.08.692748v1?rss=1",
     "title": "KCNK18 c.1107del frameshift in peripheral neuropathy links TRESK dysfunction to neuropathic pain",
@@ -17130,65 +17178,5 @@
     "reading_time": 1,
     "created_at": "2025-12-06T14:17:42.401455+00:00",
     "updated_at": "2025-12-06T14:17:42.401457+00:00"
-  },
-  {
-    "id": "a48358099ba7d1933c7274c15d9f9d9e",
-    "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2510337122?af=R",
-    "title": "Light-field deep learning enables high-throughput, scattering-mitigated calcium imaging",
-    "content": "Proceedings of the National Academy of Sciences, Volume 122, Issue 48, December 2025. <br />SignificanceWe leverage two complementary imaging modalities to capture neuronal activity in 3D brain tissues. Scanless light-field microscopy provides high speed and sensitivity, while two-photon scanning microscopy provides high contrast and is robust ...",
-    "author": "Carmel L. HoweKate L. Y. ZhaoHerman Verinaz-JadanPingfan SongSamuel J. BarnesPier Luigi DragottiAmanda J. FoustaDepartment of Bioengineering, Imperial College London, Royal School of Mines, London SW7 2AZ, United KingdombDepartment of Electrical and Electronic Engineering, Imperial College London, South Kensington, London SW7 2AZ, United KingdomcFaculty of Electrical and Computer Engineering, Escuela Superior Polit\u00e9cnica del Litoral, Guayaquil 090902, EcuadordDepartment of Engineering, Information Engineering, University of Cambridge, Cambridge CB2 1PZ, United KingdomeDepartment of Brain Sciences, Division of Neuroscience, United Kingdom Dementia Research Institute, Imperial College London, Hammersmith Hospital Campus, London W12 0NN, United Kingdom",
-    "published_date": "2025-11-25T08:00:00+00:00",
-    "source": "Pnas Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 47,
-    "reading_time": 1,
-    "created_at": "2025-12-06T13:44:12.119168+00:00",
-    "updated_at": "2025-12-06T14:13:21.095016+00:00",
-    "metadata": {
-      "processed_at": "2025-12-06T14:13:21.095026+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "4d177ea7158d3ade633b0ea9fb4d3f69",
-    "url": "https://lemire.me/blog/2025/12/05/why-speed-matters/",
-    "title": "Why Speed Matters",
-    "content": "<p>Article URL: <a href=\"https://lemire.me/blog/2025/12/05/why-speed-matters/\">https://lemire.me/blog/2025/12/05/why-speed-matters/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46172902\">https://news.ycombinator.com/item?id=46172902</a></p>\n<p>Points: 16</p>\n<p># Comments: 3</p>",
-    "author": "gsky",
-    "published_date": "2025-12-06T12:46:42+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-06T13:43:40.124217+00:00",
-    "updated_at": "2025-12-06T14:13:21.095030+00:00",
-    "metadata": {
-      "processed_at": "2025-12-06T14:13:21.095032+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "a18f41769fa3a8941c9ae9f6b303e5da",
-    "url": "https://www.nature.com/articles/s41531-025-01223-5",
-    "title": "Longitudinal insights from iron accumulation in motor system of prodromal and clinical Parkinson\u2019s disease",
-    "content": "",
-    "author": "",
-    "published_date": "2025-12-06T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2025-12-06T13:28:09.525421+00:00",
-    "updated_at": "2025-12-06T14:13:21.095037+00:00",
-    "metadata": {
-      "processed_at": "2025-12-06T14:13:21.095039+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]
