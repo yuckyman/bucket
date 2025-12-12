@@ -1,8 +1,56 @@
 {
-  "last_updated": "2025-12-12T06:26:09.148689+00:00",
-  "pending_count": 740,
-  "processed_count": 260,
+  "last_updated": "2025-12-12T08:23:02.727707+00:00",
+  "pending_count": 737,
+  "processed_count": 263,
   "pending_articles": [
+    {
+      "id": "a0023bf2cca42abb4cce3cc0c8c9705a",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1720961",
+      "title": "The interaction of regulated forms of cell death in the pathogenesis of severe facial paralysis and potential therapeutic strategies",
+      "content": "Neuronal cell death plays a central role in the pathogenesis of facial paralysis. In the constructed severe facial paralysis model, axonal damage becomes the key factor triggering retrograde neuronal degeneration, resulting in a large number of neuronal deaths, which seriously affects the function of the facial nerve. The basic fibroblast growth factor exhibits strong neuroprotective ability and can significantly reduce the neuronal mortality rate, providing a strong guarantee for neuronal survival. Viral infection is also an important pathogenic factor that cannot be ignored. Viruses such as herpes simplex virus type 1 can trigger neuroinflammation through the immune response, further exacerbating nerve damage. However, recent studies have also brought hope. Neural reconstruction techniques, targeted drugs, and stem cell therapies hold potential value in promoting the recovery of damaged neural functions. These research results reveal that multiple factors affect the survival and function of neurons in facial paralysis through different pathways, laying a theoretical foundation for targeted treatment against neuronal death. In the future, based on these mechanisms, developing new therapies will bring new treatment opportunities for patients with severe facial paralysis, potentially improving their prognosis and significantly enhancing their quality of life, with important clinical value.",
+      "author": "Jicheng Zhang",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 195,
+      "reading_time": 1,
+      "created_at": "2025-12-12T06:35:09.755502+00:00",
+      "updated_at": "2025-12-12T06:35:09.755507+00:00"
+    },
+    {
+      "id": "bea71b1842764aad20b841c7ea675f62",
+      "url": "https://www.reddit.com/r/Python/comments/1pkk4ff/democratizing_python_a_transpiler_for_nonenglish/",
+      "title": "Democratizing Python: a transpiler for non\u2011English communities (and for kids)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>A few months ago, an 11\u2011year\u2011old in my family asked me what I do for work. I explained programming, and he immediately wanted to try it. But Python is full of English keywords, which makes it harder for kids who don\u2019t speak English yet.</p> <p>So I built <strong>multilang-python</strong>: a small transpiler that lets you write Python in your own language (French, German, Spanish\u2026 even local languages like Arabic, Ewe, Mina and so on). It then translates everything back into normal Python and runs.</p> <pre><code># multilang-python: fr fonction calculer_mon_age(annee_naissance): age = 2025 - annee_naissance retourner age annee = saisir(&quot;Entrez votre ann\u00e9e de naissance : &quot;) age = calculer_mon_age(entier(annee)) afficher(f&quot;Vous avez {age} ans.&quot;) </code></pre> <p>becomes standard Python with <code>def</code>, <code>return</code>, <code>input</code>, <code>print</code>.</p> <p>\ud83c\udfaf Goal: make coding more accessible for kids and beginners who don\u2019t speak English.</p> <p>Repo: <a href=\"https://github.com/fless-lab/multilang-python\">multilang-python</a></p> <p>Note : You can add your own dialect if you want...</p> <p>How do u think this can help in your community ?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Accomplished-Land820\"> /u/Accomplished-Land820 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pkk4ff/democratizing_python_a_transpiler_for_nonenglish/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pkk4ff/democratizing_python_a_transpiler_for_nonenglish/\">[comments]</a></span>",
+      "author": "/u/Accomplished-Land820",
+      "published_date": "2025-12-12T05:40:42+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 180,
+      "reading_time": 1,
+      "created_at": "2025-12-12T06:34:43.928983+00:00",
+      "updated_at": "2025-12-12T06:34:43.928984+00:00"
+    },
+    {
+      "id": "073f338769e5d005035bc6326b83a6e7",
+      "url": "https://www.washingtonpost.com/lifestyle/2025/12/05/karl-bushby-walk-around-world/",
+      "title": "He set out to walk around the world. After 27 years, his quest is nearly over",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46182874\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-07T16:26:45+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-12T06:34:42.654933+00:00",
+      "updated_at": "2025-12-12T06:34:42.654934+00:00"
+    },
     {
       "id": "246648cffd19dac9d5a8c65ec237eb29",
       "url": "https://arxiv.org/abs/2512.09931",
@@ -114,57 +162,109 @@
       "reading_time": 1,
       "created_at": "2025-12-12T05:24:14.152299+00:00",
       "updated_at": "2025-12-12T05:24:14.152301+00:00"
-    },
-    {
-      "id": "783f12d737d787f62baa6b1acfd0999f",
-      "url": "https://arxiv.org/abs/2509.04454",
-      "title": "Mechanisms for anesthesia, unawareness, respiratory depression, memory replay and sleep: MHb > IPN > PAG + DRN + MRN > claustrum > cortical slow waves",
-      "content": "arXiv:2509.04454v3 Announce Type: replace \nAbstract: My findings show what causes loss of awareness, anesthesia, memory replay, opioid induced respiratory depression (OIRD), and slow-wave sleep (SWS). Opiates are fast pain relievers and anesthetics that can cause respiratory arrest. I found how mu-opioids and anesthetics by activating medial habenula (MHb) and/or interpeduncular nucleus (IPN) induce unawareness and slowdown respiration. MHb projects to IPN and both increase their glucose intake during anesthesia (Herkenham, 1981). The question is: What is the MHb-IPN circuit doing? I found that it promotes SWS, memory replay, sharp-wave ripples, spindles, hippocampo-cortical replay, synaptogenesis, rest and recovery, by activating median raphe (MRN) serotonin, and by inhibiting the theta state circuit, new memories encoding, awareness, arousal, alert wakefulness, and REM sleep. It causes also natural slowdown of respiration and heart rate, while it inhibits locomotion and arousal. This extended model adds role of the dentate gyrus>posterior septum>MHb>IPN>MRN>hippocampus + BF + claustrum>cortical slow-waves in memory replay, ripples, loss of awareness, SWS, and anesthesia. It proposes new neural mechanism for anesthetic ketamine, nitrous oxide, and phencyclidine effects: activation of the IPN>MRN>claustrum>cortical SWA circuit by the 5-HT2a receptors in the IPN and claustrum. My model shows why are ketamine and psychedelics anxiolytic and antidepressant. How they by activating the 5-HT2a receptors in vACC/infralimbic cortex increase safety, well-being signal, socializing, and cognitive flexibility, and attenuate fear, worries, anger, impulsivity, self-defence, and wanting. This model claims that mu-opioids, acetylcholine, nicotine, endocannabinoids, adenosine, GLP-1RA, and substance P activate the MHb-IPN-MRN circuit which promotes rest, recovery, repair, serotonin-BDNF-protein production, spines growth, and anti-inflammatory state.",
-      "author": "Karin Vadovi\\v{c}ov\\'a",
-      "published_date": "2025-12-12T05:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 256,
-      "reading_time": 1,
-      "created_at": "2025-12-12T05:24:14.152212+00:00",
-      "updated_at": "2025-12-12T05:24:14.152213+00:00"
-    },
-    {
-      "id": "de360f3f476ad0416e00b0ce3c4513c8",
-      "url": "https://arxiv.org/abs/2502.15440",
-      "title": "State-space kinetic Ising model reveals task-dependent entropy flow in sparsely active nonequilibrium neuronal dynamics",
-      "content": "arXiv:2502.15440v3 Announce Type: replace \nAbstract: Neuronal ensemble activity, including coordinated and oscillatory patterns, exhibits hallmarks of nonequilibrium systems with time-asymmetric trajectories to maintain their organization. However, assessing time asymmetry from neuronal spiking activity remains challenging. The kinetic Ising model provides a framework for studying the causal, nonequilibrium dynamics in spiking recurrent neural networks. Recent theoretical advances in this model have enabled time-asymmetry estimation from large-scale steady-state data. Yet, neuronal activity often exhibits time-varying firing rates and coupling strengths, violating the steady-state assumption. To overcome this limitation, we developed a state-space kinetic Ising model that accounts for nonstationary and nonequilibrium properties of neural systems. This approach incorporates a mean-field method for estimating time-varying entropy flow, a key measure for maintaining the system's organization through dissipation. Applying this method to mouse visual cortex data revealed greater variability in causal couplings during task engagement despite reduced neuronal activity with increased sparsity. Moreover, higher-performing mice exhibited increased coupling-related entropy flow per spike during task engagement, suggesting more efficient computation in the higher-performing mice. These findings underscore the model's utility in uncovering intricate asymmetric causal dynamics in neuronal ensembles and linking them to behavior through the thermodynamic underpinnings of neural computation.",
-      "author": "Ken Ishihara, Hideaki Shimazaki",
-      "published_date": "2025-12-12T05:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 196,
-      "reading_time": 1,
-      "created_at": "2025-12-12T05:24:14.152174+00:00",
-      "updated_at": "2025-12-12T05:24:14.152175+00:00"
-    },
-    {
-      "id": "3928666ff0946874b8b1253e5b1df60f",
-      "url": "https://arxiv.org/abs/2512.10011",
-      "title": "Spatial Spiking Neural Networks Enable Efficient and Robust Temporal Computation",
-      "content": "arXiv:2512.10011v1 Announce Type: cross \nAbstract: The efficiency of modern machine intelligence depends on high accuracy with minimal computational cost. In spiking neural networks (SNNs), synaptic delays are crucial for encoding temporal structure, yet existing models treat them as fully trainable, unconstrained parameters, leading to large memory footprints, higher computational demand, and a departure from biological plausibility. In the brain, however, delays arise from physical distances between neurons embedded in space. Building on this principle, we introduce Spatial Spiking Neural Networks (SpSNNs), a framework in which neurons learn coordinates in a finite-dimensional Euclidean space and delays emerge from inter-neuron distances. This replaces per-synapse delay learning with position learning, substantially reducing parameter count while retaining temporal expressiveness. Across the Yin-Yang and Spiking Heidelberg Digits benchmarks, SpSNNs outperform SNNs with unconstrained delays despite using far fewer parameters. Performance consistently peaks in 2D and 3D networks rather than infinite-dimensional delay spaces, revealing a geometric regularization effect. Moreover, dynamically sparsified SpSNNs maintain full accuracy even at 90% sparsity, matching standard delay-trained SNNs while using up to 18x fewer parameters. Because learned spatial layouts map naturally onto hardware geometries, SpSNNs lend themselves to efficient neuromorphic implementation. Methodologically, SpSNNs compute exact delay gradients via automatic differentiation with custom-derived rules, supporting arbitrary neuron models and architectures. Altogether, SpSNNs provide a principled platform for exploring spatial structure in temporal computation and offer a hardware-friendly substrate for scalable, energy-efficient neuromorphic intelligence.",
-      "author": "Lennart P. L. Landsmeer, Amirreza Movahedin, Mario Negrello, Said Hamdioui, Christos Strydis",
-      "published_date": "2025-12-12T05:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 231,
-      "reading_time": 1,
-      "created_at": "2025-12-12T05:24:14.152142+00:00",
-      "updated_at": "2025-12-12T05:24:14.152143+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "ab3e53bffeaa5abdcc5d72d24f8c4b4f",
+      "url": "https://lucassifoni.info/blog/miniscope-tiny-telescope/",
+      "title": "The tiniest yet real telescope I've built",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46241763\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-12T07:35:49+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-12T07:43:58.091862+00:00",
+      "updated_at": "2025-12-12T08:23:02.620860+00:00",
+      "metadata": {
+        "processed_at": "2025-12-12T08:23:02.620870+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f77528a0ee2d349949c472d9248cd6f5",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1689655",
+      "title": "Ocular diagnostics and occipital neurovascular coupling in ocular hypertension and open angle glaucoma",
+      "content": "IntroductionThe relationship between glaucoma and neurovascular coupling in the visual cortex has yet to be fully explored and understood. This study employs the time-domain (TD) functional near-infrared spectroscopy (fNIRS) technique to noninvasively monitor the hemodynamic response function (HRF) in the visual cortex.Methods203 eyes (104 subjects, 46 females, 58 males): 44 with ocular hypertension (OHT), 38 with open-angle glaucoma (OAG), 54 with normal tension glaucoma (NTG), and 67 without abnormal/pathologic condition, were analyzed. All subjects had a complete eye examination, including Goldmann tonometry, computerized visual field optical coherence tomography, pattern electroretinogram, and visual evoked potentials. Visual cortex HRF was assessed by TD-fNIRS using a standard stimulation protocol (reversed checkerboard at 10\u202fHz). Multivariate statistical analysis was performed to obtain groups (clusters) of eyes based on the respective TD-fNIRS parameters. The relationships between the clusters and the diagnostic groups were assessed by comparing the distributions of the former ones among healthy, hypertensive and glaucomatous eyes.ResultsWe found six clusters of eyes, five representing eyes with consistent measurements of HRF amplitudes across acquisition channels (left/right hemisphere) and repeated stimuli, distinguished by distinct magnitudes of neurovascular coupling. The sixth cluster included all the cases of incoherent HRF patterns. Evidence of a different distribution between glaucomatous and healthy eyes was found (p\u202f=\u202f0.0009), suggesting that high levels of neurovascular coupling are less likely to be observed in NTG and OAG groups.ConclusionOccipital TD-fNIRS could be fruitfully implemented in a clinical setting to provide significant and easy-to-get insights on neurovascular dynamics, supporting the differential diagnosis of glaucomatous patients. Our findings highlight the importance of the underappreciated correlates between glaucoma and overall neurologic status.",
+      "author": "Giuseppe Marano",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 266,
+      "reading_time": 1,
+      "created_at": "2025-12-12T06:35:09.755662+00:00",
+      "updated_at": "2025-12-12T08:23:02.620874+00:00",
+      "metadata": {
+        "processed_at": "2025-12-12T08:23:02.620876+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ea527069c0b8458f187b71a237d3f878",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1716204",
+      "title": "A hybrid Spiking Neural Network\u2013Transformer architecture for motor imagery and sleep apnea detection",
+      "content": "IntroductionMotor imagery (MI) classification and sleep apnea (SA) detection are two critical tasks in brain-computer interface (BCI) and biomedical signal analysis. Traditional deep learning models have shown promise in these domains, but often struggle with temporal sparsity and energy efficiency, especially in real-time or embedded applications.MethodsIn this study, we propose SpiTranNet, a novel architecture that deeply integrates Spiking Neural Networks (SNNs) with Transformers through Spiking Multi-Head Attention (SMHA), where spiking neurons replace standard activation functions within the attention mechanism. This integration enables biologically plausible temporal processing and energy-efficient computations while maintaining global contextual modeling capabilities. The model is evaluated across three physiological datasets, including one electroencephalography (EEG) dataset for MI classification and two electrocardiography (ECG) datasets for SA detection.ResultsExperimental results demonstrate that the hybrid SNN-Transformer model achieves competitive accuracy compared to conventional machine learning and deep learning models.DiscussionThis work highlights the potential of neuromorphic-inspired architectures for robust and efficient biomedical signal processing across diverse physiological tasks.",
+      "author": "Roman Mou\u010dek",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 156,
+      "reading_time": 1,
+      "created_at": "2025-12-12T06:35:09.755620+00:00",
+      "updated_at": "2025-12-12T08:23:02.620881+00:00",
+      "metadata": {
+        "processed_at": "2025-12-12T08:23:02.620883+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "59b25e5b9c844980eacfafeb26e7cf86",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1695464",
+      "title": "Isogenic iPSC-derived CTBP1 mutant neuronal cells exhibit neurodevelopmental defects",
+      "content": "Hypotonia, ataxia, developmental delay, and tooth enamel defects syndrome (HADDTS) is a recently identified disorder linked to a heterozygous mutation in the C-terminal Binding Protein 1 (CTBP1) transcriptional corepressor. The predominant mutation (p.R342W) is located within the major protein binding cleft (PXDLS), crucial for CtBP1\u2019s interaction with transcriptional regulatory proteins. To investigate the mutation\u2019s functional consequences, we generated isogenic induced pluripotent cell lines (iPSCs) carrying the CTBP1 mutation in heterozygous and homozygous conditions using the CRISPR/Cas9 editing method. The transcriptional profile of iPSC-derived early neurons from the isogenic wild type and CTBP1 heterozygous and homozygous mutants was determined by genome-wide RNA sequencing. The RNA-Seq data revealed downregulation of several key transcription factors, with homozygous mutations causing more pronounced downregulation compared to heterozygous mutations. Isogenic mutant neural stem cells (NSCs) exhibited reduced adhesion and migration, along with dysregulated calcium signaling, while mutant neurons showed premature neurite outgrowth. Together, our transcriptomic and biological results provide novel insights into the role and mechanism of CTBP1 p.R342W mutation in the defective neurodevelopmental processes.",
+      "author": "Uthayashanker R. Ezekiel",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 169,
+      "reading_time": 1,
+      "created_at": "2025-12-12T06:35:09.755589+00:00",
+      "updated_at": "2025-12-12T08:23:02.620885+00:00",
+      "metadata": {
+        "processed_at": "2025-12-12T08:23:02.620887+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4934ca990bfd879c0bf9b06da408137c",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1720978",
+      "title": "Central auditory processing is altered after traumatic brain injury in Tanzanian adults",
+      "content": "Traumatic brain injury (TBI) damages pathways throughout the brain and is a significant global health concern, particularly in low- and middle-income countries, where the incidence is high and long-term deficits are prevalent. This study explores the utility of central auditory processing (CAP) testing as a marker of previous TBI. Seventy individuals with a history of moderate to severe TBI (msTBI) were matched by age and sex to 46 healthy controls in Dar es Salaam, Tanzania. Participants underwent comprehensive behavioral CAP testing, including tests of speech-in-noise ability, temporal resolution, and dichotic listening. Multivariate logistic regression showed the Triple Digit Test (TDT) (p\u202f<\u202f0.001) significantly predicted msTBI status, independent of age and peripheral hearing ability. Elastic net modeling supported these findings, highlighting TDT performance as the most robust predictor of msTBI history. A history of msTBI is associated with poorer CAP performance, particularly on speech-in-noise tests. These tests could serve as accessible, resource-efficient tools for assessing brain function related to TBI in clinical and resource-limited settings. Studies in larger, more diverse populations are needed to explore their predictive utility for long-term cognitive outcomes after TBI.",
+      "author": "Jay C. Buckey",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 184,
+      "reading_time": 1,
+      "created_at": "2025-12-12T06:35:09.755552+00:00",
+      "updated_at": "2025-12-12T08:23:02.620889+00:00",
+      "metadata": {
+        "processed_at": "2025-12-12T08:23:02.620891+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "0adbf76a60a38e99e1fe333e7ad9a143",
       "url": "https://www.danieleteti.it/post/html-first-frameworks-htmx-revolution-en/#building-with-html-instead-of-fighting-with-javascript-layers-",
@@ -262,106 +362,6 @@
       "updated_at": "2025-12-12T06:26:09.044100+00:00",
       "metadata": {
         "processed_at": "2025-12-12T06:26:09.044102+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6dfecf7dfcf3b12770e8023576c8b46c",
-      "url": "https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=21607",
-      "title": "CRISPR Fungus: Protein-Packed, Sustainable, and Tastes Like Meat",
-      "content": "<p>Article URL: <a href=\"https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=21607\">https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=21607</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46239629\">https://news.ycombinator.com/item?id=46239629</a></p>\n<p>Points: 7</p>\n<p># Comments: 2</p>",
-      "author": "rguiscard",
-      "published_date": "2025-12-12T00:59:46+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-12T04:08:57.699062+00:00",
-      "updated_at": "2025-12-12T04:30:12.855418+00:00",
-      "metadata": {
-        "processed_at": "2025-12-12T04:30:12.855429+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "20f6fe1eaebfebef3c264e4ba0516d7a",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.688708v1?rss=1",
-      "title": "Non-uniform effects of remaining field spread on the estimation of M/EEG activity and connectivity between regions of interest",
-      "content": "In M/EEG analyses, it is often convenient to extract time series of activity originating from the regions of interest (ROIs). However, due to the spread of electric and magnetic fields, M/EEG recordings capture activity from all sources within the brain. Commonly used approaches for the extraction of ROI activity only partially alleviate this problem, and field spread remains a challenge even at the level of ROI time series. Because of the remaining field spread (RFS), the extracted time series captures activity not only from the considered ROI but also from other regions (not necessarily neighboring ones). The amount of RFS can strongly affect the validity of interpretations: with more RFS, the extracted time series becomes less representative of the ROI. However, neither the amount nor the pattern of RFS is usually known. In this study, we apply the cross-talk function (CTF) to analyze contributions of all sources across the brain to the extracted ROI time series, thereby quantifying the degree of RFS. With CTF, we show that the effect of RFS on the extraction of ROI activity and on the estimation of inter-regional connectivity is highly non-uniform across the cortex. In particular, ROIs farther away from the recording sensors are more likely to capture activity and connectivity from other areas. Finally, we validate this observation in simulations and complement it by investigating spurious and ghost interactions in real data. Overall, our results illustrate how CTF can be used as a diagnostic tool to quantify the effects of RFS and to evaluate pipelines for the extraction of ROI activity.",
-      "author": "Kapralov, N., Studenova, A., Eguinoa, R., Nolte, G., Haufe, S., Villringer, A., Nikulin, V.",
-      "published_date": "2025-12-11T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 258,
-      "reading_time": 1,
-      "created_at": "2025-12-12T03:24:46.063756+00:00",
-      "updated_at": "2025-12-12T04:30:12.855434+00:00",
-      "metadata": {
-        "processed_at": "2025-12-12T04:30:12.855436+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0437a2fb3f6f3a2ff8412a88feb61b40",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.691422v1?rss=1",
-      "title": "Thermodynamics of consciousness: A non-invasive perturbational framework",
-      "content": "The quest for reliable and objective measures of consciousness is critical in basic and clinical neuroscience. Across species, the Perturbational Complexity Index (PCI) has emerged as a robust empirical marker by directly perturbing the brain, yet its underlying principles of physics are not fully understood. Here, we bridge this gap by introducing a non-invasive framework based on generative whole-brain models of non-equilibrium brain dynamics. Using these models, we identified violations of the Fluctuation-Dissipation Theorem (FDT) in humans and rodents across wakefulness, anesthesia, and disorders of consciousness. Mirroring the patterns observed with PCI, we found decreased FDT violations in unresponsive disorders of consciousness and anesthesia compared to conscious conditions. This reveals a close link between PCI and non-equilibrium dynamics in spontaneous brain signals, grounding PCI in fundamental principles of physics. Overall, this framework offers new complementary, non-invasive, model-based avenues for understanding the nature of consciousness and for developing objective tools to assess its loss and recovery in health and disease. It also provides a principled foundation for discovering novel strategies to restore consciousness.",
-      "author": "Berjaga-Buisan, T., Monti, J. M., Cortada, M., Colombo, M. A., Geli, S. M., Gaglioti, G., Sarasso, S., Kringelbach, M. L., Corbetta, M., Sanchez-Vives, M. V., Massimini, M., Perl, Y. S., Deco, G.",
-      "published_date": "2025-12-11T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 172,
-      "reading_time": 1,
-      "created_at": "2025-12-12T03:24:46.063703+00:00",
-      "updated_at": "2025-12-12T04:30:12.855439+00:00",
-      "metadata": {
-        "processed_at": "2025-12-12T04:30:12.855440+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ab11ac7069b74eda694a539a47b87f7d",
-      "url": "https://www.nature.com/articles/s41380-025-03380-8",
-      "title": "Antidepressant-like effects of extinction learning as an animal model of behavioral therapy",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-12T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-12T03:24:44.455387+00:00",
-      "updated_at": "2025-12-12T04:30:12.855443+00:00",
-      "metadata": {
-        "processed_at": "2025-12-12T04:30:12.855444+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0ff4cd7bba2bd339d25240c89c3ef785",
-      "url": "https://www.reddit.com/r/Python/comments/1pkewoj/fixed_ssl_connection_broken_certificate/",
-      "title": "FIXED - SSL connection broken, certificate verification error, unable to get local issuer certificat",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I just spent 20+ hours agonizing over the fact that my new machine was constantly throwing SSL errors refusing to let me connect to PyPI and for the life of me I could not figure out what was wrong and I just want to share here so that if anyone has the same issue, please know that hope is not lost.</p> <p>It's the stupid Windows Store, and I just need to share it because I was about to scream and I don't want you to scream too :(</p> <p>1.Disable Windows Store Python aliases:</p> <p>Windows Settings &gt; Apps &gt; Advanced App Settings &gt; App Execution Aliases</p> <p>Turn OFF:</p> <ul> <li>python.exe</li> <li>python3.exe</li> <li>py.exe</li> </ul> <p>This stops Windows Store from hijacking Python.</p> <ol> <li>Delete the Windows Store Python stubs:</li> </ol> <p>Open CMD as Admin, then run:</p> <p>takeown /F &quot;%LocalAppData%\\Microsoft\\WindowsApps&quot; /R /D Y</p> <p>icacls &quot;%LocalAppData%\\Microsoft\\WindowsApps&quot; /grant %USERNAME%:F /T</p> <p>del &quot;%LocalAppData%\\Microsoft\\WindowsApps\\python*.exe&quot;</p> <p>del &quot;%LocalAppData%\\Microsoft\\WindowsApps\\py*.exe&quot;</p> <p>This step is CRITICAL.</p> <p>If you skip it, Python will stay broken.</p> <ol> <li>Completely wipe and reinstall Python using Python Install Manager FROM THE PYTHON WEBSITE. Do not use the Windows Store!!!</li> </ol> <p>Still in Admin CMD:</p> <p>pymanager uninstall PythonCore\\* --purge</p> <p>pymanager install PythonCore\\3.12 --update</p> <ol> <li>Fix PATH:</li> </ol> <p>setx PATH &quot;%LocalAppData%\\Python\\bin;%LocalAppData%\\Python\\pythoncore-3.12-64;%LocalAppData%\\Python\\pythoncore-3.12-64\\Scripts;%PATH%&quot; /M</p> <p>Close CMD and open a new one.</p> <ol> <li>Repair SSL by forcing Python to use the certifi bundle:</li> </ol> <p>python -m pip install certifi --user</p> <p>python -m certifi</p> <p>You should get a .pem file path.</p> <p>Use that path below (Admin CMD):</p> <p>setx SSL_CERT_FILE &quot;&lt;path&gt;&quot; /M</p> <p>setx REQUESTS_CA_BUNDLE &quot;&lt;path&gt;&quot; /M</p> <p>setx CURL_CA_BUNDLE &quot;&lt;path&gt;&quot; /M</p> <ol> <li>Test:</li> </ol> <p>python --version</p> <p>pip --version</p> <p>pip install &lt;anything&gt;</p> <p>At this point, everything should work normally and all SSL/pip issues should be gone. I think. Hopefully. I don't know. Please don't cry. I am now going to go to bed for approximately 3 days</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AmbiguousLemur\"> /u/AmbiguousLemur </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pkewoj/fixed_ssl_connection_broken_certificate/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pkewoj/fixed_ssl_connection_broken_certificate/\">[comments]</a></span>",
-      "author": "/u/AmbiguousLemur",
-      "published_date": "2025-12-12T01:23:33+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 320,
-      "reading_time": 1,
-      "created_at": "2025-12-12T03:24:06.996672+00:00",
-      "updated_at": "2025-12-12T04:30:12.855446+00:00",
-      "metadata": {
-        "processed_at": "2025-12-12T04:30:12.855448+00:00",
         "processing_method": "github_actions"
       }
     }
