@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-12T10:17:56.398832+00:00",
+  "last_updated": "2025-12-12T10:25:37.792213+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "010a8a2a8b1cbffa04ac1a5eec880467",
+      "url": "https://jkbrickworks.com/simple-drawing-machine/",
+      "title": "Spirograph style Lego drawing machine",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46190288\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-08T09:37:02+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-12T10:24:25.328757+00:00",
+      "updated_at": "2025-12-12T10:24:25.328759+00:00"
+    },
+    {
+      "id": "dc6bb0ac6e9f76b88a4dc9f278805b05",
+      "url": "https://jottings.me/",
+      "title": "Show HN: Jottings; Anti-social microblog for your thoughts",
+      "content": "<p>I built Jottings because I was tired of my own thoughts getting trapped inside algorithmic feeds where I had to perform. There was a huge mental load before posting something on X or Instagram.<p>Every time I wanted to share something small or unfinished, I opened Twitter and lost 20 minutes to the timeline. Writing a blog post felt too heavy for those smaller, quick thoughts. I just wanted a place to write something down quickly and hit publish.<p>Jottings is that place. It gives you a clean microblog on a domain you own. Posts show up in simple chronological order. No likes. No followers. No feed trying to decide what matters.<p>What Jottings is\n- A microblogging platform that builds fully static microblog sites\n- A free subdomain (you.jottings.me) or connect your own domain on PRO plans\n- Markdown, tags, RSS feed, links with preview, and image uploads\n- An optional AI writing helper when you are stuck or lazy to fix grammar\n- Optimized for SEO and AI search friendly\n- Analytics for your sites<p>What it is not\n- Not a social network\n- Not an engagement funnel\n- Not trying to keep you on the site\n- Not a replacement for long-form blogging, though you can use it that way<p>How it works\nEach Jot publish triggers a static site rebuild. The site is stored in Cloudflare R2 and served directly at the edge. Custom domains go through Cloudflare SSL for SaaS.\nI built it to be boring, reliable (barring Cloudflare's latest issues), and cheap to run.<p>Pricing\nFree tier for a subdomain, text posts, and a lot more.\nUSD5 per month for custom domains, images, full Markdown, and the writing helper.\nI priced it to be an easy yes.<p>Limitations\n- No comments (on purpose)\n- No native apps yet (iOS is coming)\n- The writing helper is helpful but not magic\n- I am a solo founder, so features move at human speed<p>I use Jottings regularly to document what I build. It has been the lowest-friction way I have found to publish anything publicly.<p>Demo of Jottings site for product updates: <a href=\"https://jottings.jottings.me/\" rel=\"nofollow\">https://jottings.jottings.me/</a>\nDemo of my personal Jottings site: <a href=\"https://jottings.vishalvshekkar.com\" rel=\"nofollow\">https://jottings.vishalvshekkar.com</a> (with custom subdomain)<p>I would love feedback from this community. What would make this better or more useful for you?<p>Check it out here: <a href=\"https://jottings.me\" rel=\"nofollow\">https://jottings.me</a> (2 min set up)\nFeel free to write to me at vishal@vishalvshekkar.com<p>\u2014 Vishal</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46242071\">https://news.ycombinator.com/item?id=46242071</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "author": "vishalvshekkar",
+      "published_date": "2025-12-12T08:32:13+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 410,
+      "reading_time": 2,
+      "created_at": "2025-12-12T10:24:24.024880+00:00",
+      "updated_at": "2025-12-12T10:24:24.024889+00:00"
+    },
     {
       "id": "dd555fcb0c3fd5ec17b20c3328d0e886",
       "url": "https://www.nature.com/articles/s41598-025-31431-1",
@@ -329,38 +361,6 @@
         "processed_at": "2025-12-12T08:23:02.620891+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "a0023bf2cca42abb4cce3cc0c8c9705a",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1720961",
-      "title": "The interaction of regulated forms of cell death in the pathogenesis of severe facial paralysis and potential therapeutic strategies",
-      "content": "Neuronal cell death plays a central role in the pathogenesis of facial paralysis. In the constructed severe facial paralysis model, axonal damage becomes the key factor triggering retrograde neuronal degeneration, resulting in a large number of neuronal deaths, which seriously affects the function of the facial nerve. The basic fibroblast growth factor exhibits strong neuroprotective ability and can significantly reduce the neuronal mortality rate, providing a strong guarantee for neuronal survival. Viral infection is also an important pathogenic factor that cannot be ignored. Viruses such as herpes simplex virus type 1 can trigger neuroinflammation through the immune response, further exacerbating nerve damage. However, recent studies have also brought hope. Neural reconstruction techniques, targeted drugs, and stem cell therapies hold potential value in promoting the recovery of damaged neural functions. These research results reveal that multiple factors affect the survival and function of neurons in facial paralysis through different pathways, laying a theoretical foundation for targeted treatment against neuronal death. In the future, based on these mechanisms, developing new therapies will bring new treatment opportunities for patients with severe facial paralysis, potentially improving their prognosis and significantly enhancing their quality of life, with important clinical value.",
-      "author": "Jicheng Zhang",
-      "published_date": "2025-12-12T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 195,
-      "reading_time": 1,
-      "created_at": "2025-12-12T06:35:09.755502+00:00",
-      "updated_at": "2025-12-12T06:35:09.755507+00:00"
-    },
-    {
-      "id": "bea71b1842764aad20b841c7ea675f62",
-      "url": "https://www.reddit.com/r/Python/comments/1pkk4ff/democratizing_python_a_transpiler_for_nonenglish/",
-      "title": "Democratizing Python: a transpiler for non\u2011English communities (and for kids)",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>A few months ago, an 11\u2011year\u2011old in my family asked me what I do for work. I explained programming, and he immediately wanted to try it. But Python is full of English keywords, which makes it harder for kids who don\u2019t speak English yet.</p> <p>So I built <strong>multilang-python</strong>: a small transpiler that lets you write Python in your own language (French, German, Spanish\u2026 even local languages like Arabic, Ewe, Mina and so on). It then translates everything back into normal Python and runs.</p> <pre><code># multilang-python: fr fonction calculer_mon_age(annee_naissance): age = 2025 - annee_naissance retourner age annee = saisir(&quot;Entrez votre ann\u00e9e de naissance : &quot;) age = calculer_mon_age(entier(annee)) afficher(f&quot;Vous avez {age} ans.&quot;) </code></pre> <p>becomes standard Python with <code>def</code>, <code>return</code>, <code>input</code>, <code>print</code>.</p> <p>\ud83c\udfaf Goal: make coding more accessible for kids and beginners who don\u2019t speak English.</p> <p>Repo: <a href=\"https://github.com/fless-lab/multilang-python\">multilang-python</a></p> <p>Note : You can add your own dialect if you want...</p> <p>How do u think this can help in your community ?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Accomplished-Land820\"> /u/Accomplished-Land820 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pkk4ff/democratizing_python_a_transpiler_for_nonenglish/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pkk4ff/democratizing_python_a_transpiler_for_nonenglish/\">[comments]</a></span>",
-      "author": "/u/Accomplished-Land820",
-      "published_date": "2025-12-12T05:40:42+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 180,
-      "reading_time": 1,
-      "created_at": "2025-12-12T06:34:43.928983+00:00",
-      "updated_at": "2025-12-12T06:34:43.928984+00:00"
     }
   ]
 }

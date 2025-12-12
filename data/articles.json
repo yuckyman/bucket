@@ -1,5 +1,37 @@
 [
   {
+    "id": "010a8a2a8b1cbffa04ac1a5eec880467",
+    "url": "https://jkbrickworks.com/simple-drawing-machine/",
+    "title": "Spirograph style Lego drawing machine",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46190288\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-08T09:37:02+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-12T10:24:25.328757+00:00",
+    "updated_at": "2025-12-12T10:24:25.328759+00:00"
+  },
+  {
+    "id": "dc6bb0ac6e9f76b88a4dc9f278805b05",
+    "url": "https://jottings.me/",
+    "title": "Show HN: Jottings; Anti-social microblog for your thoughts",
+    "content": "<p>I built Jottings because I was tired of my own thoughts getting trapped inside algorithmic feeds where I had to perform. There was a huge mental load before posting something on X or Instagram.<p>Every time I wanted to share something small or unfinished, I opened Twitter and lost 20 minutes to the timeline. Writing a blog post felt too heavy for those smaller, quick thoughts. I just wanted a place to write something down quickly and hit publish.<p>Jottings is that place. It gives you a clean microblog on a domain you own. Posts show up in simple chronological order. No likes. No followers. No feed trying to decide what matters.<p>What Jottings is\n- A microblogging platform that builds fully static microblog sites\n- A free subdomain (you.jottings.me) or connect your own domain on PRO plans\n- Markdown, tags, RSS feed, links with preview, and image uploads\n- An optional AI writing helper when you are stuck or lazy to fix grammar\n- Optimized for SEO and AI search friendly\n- Analytics for your sites<p>What it is not\n- Not a social network\n- Not an engagement funnel\n- Not trying to keep you on the site\n- Not a replacement for long-form blogging, though you can use it that way<p>How it works\nEach Jot publish triggers a static site rebuild. The site is stored in Cloudflare R2 and served directly at the edge. Custom domains go through Cloudflare SSL for SaaS.\nI built it to be boring, reliable (barring Cloudflare's latest issues), and cheap to run.<p>Pricing\nFree tier for a subdomain, text posts, and a lot more.\nUSD5 per month for custom domains, images, full Markdown, and the writing helper.\nI priced it to be an easy yes.<p>Limitations\n- No comments (on purpose)\n- No native apps yet (iOS is coming)\n- The writing helper is helpful but not magic\n- I am a solo founder, so features move at human speed<p>I use Jottings regularly to document what I build. It has been the lowest-friction way I have found to publish anything publicly.<p>Demo of Jottings site for product updates: <a href=\"https://jottings.jottings.me/\" rel=\"nofollow\">https://jottings.jottings.me/</a>\nDemo of my personal Jottings site: <a href=\"https://jottings.vishalvshekkar.com\" rel=\"nofollow\">https://jottings.vishalvshekkar.com</a> (with custom subdomain)<p>I would love feedback from this community. What would make this better or more useful for you?<p>Check it out here: <a href=\"https://jottings.me\" rel=\"nofollow\">https://jottings.me</a> (2 min set up)\nFeel free to write to me at vishal@vishalvshekkar.com<p>\u2014 Vishal</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46242071\">https://news.ycombinator.com/item?id=46242071</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+    "author": "vishalvshekkar",
+    "published_date": "2025-12-12T08:32:13+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 410,
+    "reading_time": 2,
+    "created_at": "2025-12-12T10:24:24.024880+00:00",
+    "updated_at": "2025-12-12T10:24:24.024889+00:00"
+  },
+  {
     "id": "dd555fcb0c3fd5ec17b20c3328d0e886",
     "url": "https://www.nature.com/articles/s41598-025-31431-1",
     "title": "Inhaled N, N-dimethyltryptamine diminishes connectivity between the ventral tegmental area and the nucleus accumbens: relevance to pathologies of mesolimbic and mesocortical pathways",
@@ -17026,37 +17058,5 @@
     "reading_time": 1,
     "created_at": "2025-12-08T05:24:38.209130+00:00",
     "updated_at": "2025-12-08T05:24:38.209131+00:00"
-  },
-  {
-    "id": "b33f48c969ca3701c24f9442babb77b0",
-    "url": "https://arxiv.org/abs/2512.05438",
-    "title": "EXR: An Interactive Immersive EHR Visualization in Extended Reality",
-    "content": "arXiv:2512.05438v1 Announce Type: new \nAbstract: This paper presents the design and implementation of an Extended Reality (XR) platform for immersive, interactive visualization of Electronic Health Records (EHRs). The system extends beyond conventional 2D interfaces by visualizing both structured and unstructured patient data into a shared 3D environment, enabling intuitive exploration and real-time collaboration. The modular infrastructure integrates FHIR-based EHR data with volumetric medical imaging and AI-generated segmentation, ensuring interoperability with modern healthcare systems. The platform's capabilities are demonstrated using synthetic EHR datasets and computed tomography (CT)-derived spine models processed through an AI-powered segmentation pipeline. This work suggests that such integrated XR solutions could form the foundation for next-generation clinical decision-support tools, where advanced data infrastructures are directly accessible in an interactive and spatially rich environment.",
-    "author": "Benoit Marteau, Shaun Q. Y. Tan, Jieru Li, Andrew Hornback, Yishan Zhong, Shaunna Wang, Christian Lowson, Jason Woloff, Joshua M. Pahys, Steven W. Hwang, Coleman Hilton, May D. Wang",
-    "published_date": "2025-12-08T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 125,
-    "reading_time": 1,
-    "created_at": "2025-12-08T05:24:38.209093+00:00",
-    "updated_at": "2025-12-08T05:24:38.209095+00:00"
-  },
-  {
-    "id": "e7c9301c8e49b9e7d4dbd534ee2575c9",
-    "url": "https://arxiv.org/abs/2512.05433",
-    "title": "From Vision to Touch: Bridging Visual and Tactile Principles for Accessible Data Representation",
-    "content": "arXiv:2512.05433v1 Announce Type: new \nAbstract: Tactile graphics are widely used to present maps and statistical diagrams to blind and low vision (BLV) people, with accessibility guidelines recommending their use for graphics where spatial relationships are important. Their use is expected to grow with the advent of commodity refreshable tactile displays. However, in stark contrast to visual information graphics, we lack a clear understanding of the benefits that well-designed tactile information graphics offer over text descriptions for BLV people. To address this gap, we introduce a framework considering the three components of encoding, perception and cognition to examine the known benefits for visual information graphics and explore their applicability to tactile information graphics. This work establishes a preliminary theoretical foundation for the tactile-first design of information graphics and identifies future research avenues.",
-    "author": "Kim Marriott, Matthew Butler, Leona Holloway, Bill Jolley, Bongshin Lee, Bruce Maguire, Danielle Albers Szafir",
-    "published_date": "2025-12-08T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 131,
-    "reading_time": 1,
-    "created_at": "2025-12-08T05:24:38.209066+00:00",
-    "updated_at": "2025-12-08T05:24:38.209068+00:00"
   }
 ]
