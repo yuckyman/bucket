@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-12T04:30:12.965929+00:00",
+  "last_updated": "2025-12-12T04:55:04.136472+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "df24bd66ab42a7e0344febf6a1b389f6",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693169v1?rss=1",
+      "title": "Corticofugal gated recurrency captures auditory cortical responses",
+      "content": "Memory is essential for the neural processing of natural sounds. It has been proposed that cortical memory is subserved by gated recurrency, a powerful machine learning method that enables memory of sequential dependencies. However, standard forms lack biological realism. We built a computational model using a subtractive form of gated recurrency, consistent with cortical circuitry and feedback that resembles corticofugal projections. This architecture outperformed state-of-the-art models with delay lines or non-biological gated recurrency at predicting auditory cortical responses to natural sounds. Its performance was further improved by incorporating a network layer that mirrors the high neuronal density in superficial cortical layers. Analyzing the model, we found that memory retention is longer in secondary than in primary auditory cortex, and that gated recurrency particularly helps capture responses during abrupt changes and quiet periods in the sounds. This work lays out the fundamental functional circuitry of the auditory pathway for processing the sequential dependencies in natural sounds.",
+      "author": "Mazzaschi, L., King, A. J., Willmore, B., Harper, N. S.",
+      "published_date": "2025-12-11T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 155,
+      "reading_time": 1,
+      "created_at": "2025-12-12T04:54:22.077851+00:00",
+      "updated_at": "2025-12-12T04:54:22.077853+00:00"
+    },
+    {
+      "id": "e0e9bb08bf9a64c330c5e946b641919e",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693219v1?rss=1",
+      "title": "Brain Dynamics During the Resting State",
+      "content": "Functional MRI in the absence of tasks reveals dynamic large-scale configurations. Yet important gaps in our understanding remain: (1) What type of dynamics are observed during brain states? (2) What type of dynamics are observed between brain states? We address these questions by developing a multi-level Switching Linear Dynamical System (SLDS) model, which jointly estimates state-specific equations of motion and probabilistic state transitions. Within states, the inferred dynamics were stable attractors: model estimated fixed points closely matched observed fMRI activity. A central finding was that dynamic states did not map one-to-one onto canonical static large-scale networks; instead, the relationship was many-to-many, with each state engaging multiple networks and each network participating in several states. For example, a default-mode related state also engaged attention/control net-works. Between states, transitions were structured (i.e., non-random) and heterogeneous. While some state transitions were relatively abrupt in terms of fMRI activity change (e.g., between a default-related network and an attention/control-related network), others were much smoother. Indeed, vector-field analyses in latent space quantified both toggle-like (abrupt) switches and smoother changes, revealing distinct transition pathways. To link systems-level organization to brain regions, we introduced region-level dynamics importance and state transition importance measures. Subcortical regions, particularly basal ganglia structures, dominated the dynamics of the highest-occupancy state, suggesting corticostriatal loops may scaffold a baseline regime from which excursions into other states arise. Importantly, regions most influential for within-state dynamics sometimes differed from those driving state transitions, demonstrating that fMRI signal magnitude alone does not uniquely uncover how regions contribute to system-level properties. Our SLDS framework provides a principled bridge between discrete-state and continuous-trajectory perspectives of resting state dynamics, clarifying what the brain does while in a state and how it moves between states during rest.",
+      "author": "Zhou, X., Pessoa, L.",
+      "published_date": "2025-12-11T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 285,
+      "reading_time": 1,
+      "created_at": "2025-12-12T04:54:22.077810+00:00",
+      "updated_at": "2025-12-12T04:54:22.077815+00:00"
+    },
     {
       "id": "6dfecf7dfcf3b12770e8023576c8b46c",
       "url": "https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=21607",
@@ -335,46 +367,6 @@
       "updated_at": "2025-12-12T01:15:16.766865+00:00",
       "metadata": {
         "processed_at": "2025-12-12T01:15:16.766867+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bd87772b5547b0adcd28cdfe29cdb82d",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.692426v1?rss=1",
-      "title": "Pre-clinical validation of a novel AAV-mediated gene therapy for KCNV2 retinopathy improves visual function in a mouse model and expression in patient organoids",
-      "content": "Voltage-gated (Kv) potassium channels are critical for neuronal physiology, and their dysfunction can lead to serious consequences. For example, mutations in the silent modulatory Kv8.2 subunit are known to cause irreversible inherited blindness (KCNV2 retinopathy). This is a currently incurable condition that causes lifelong visual loss, reduced visual acuity, photoaversion, night blindness and abnormal colour vision, alongside a distinctive supernormal electrophysiological (ERG) retinal response to light. In this study, we demonstrate that AAV-mediated gene replacement therapy delivering a codon-optimised human KCNV2 gene subretinally into Kv8.2 knock-out mice significantly restores retinal function. Treated mice exhibited improved ERG responses and correct expression of KCNV2 and its encoded Kv8.2 protein in photoreceptors. Recovery of visually guided scotopic and photopic optomotor responses to wildtype levels was achieved at lower vector doses, highlighting dose-dependent efficacy. Furthermore, treatment of human retinal organoids derived from a KCNV2 patient iPSC line resulted in substantial Kv8.2 protein rescue. This work provides the first preclinical proof-of-concept for the safety and therapeutic potential of gene therapy for KCNV2 retinopathy, laying a strong foundation for future clinical trials.",
-      "author": "Rashwan, R., Fuller-Carter, P. I., Lim, X. R., Brunet, A. A., Miller, A. L., Bhatt, Y., James, R., Anderson, D., Voigt, V., Paulo, J. A., Mirzaei, M., Mangala, M. M., Wong, E. O., Jamieson, R. V., Gonzalez Cordero, A., Hunt, D. M., Carvalho, L. S.",
-      "published_date": "2025-12-11T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 176,
-      "reading_time": 1,
-      "created_at": "2025-12-11T23:21:24.802484+00:00",
-      "updated_at": "2025-12-12T01:15:16.766870+00:00",
-      "metadata": {
-        "processed_at": "2025-12-12T01:15:16.766871+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ec99ae9e7d4e834ace63783ab4132001",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693152v1?rss=1",
-      "title": "Rac1 contributes to brain connectivity impairments and neuropsychiatric disorders in Tuberous Sclerosis Complex",
-      "content": "Tuberous sclerosis complex (TSC) is a neurodevelopmental disorder caused by inactivating mutations in the TSC1 or TSC2 genes, leading to constitutive activation of the mTOR complex 1 pathway. Patients commonly present with epilepsy and TSC-associated neuropsychiatric disorders (TANDs), including intellectual disability and anxiety. Our previous work identified anxiety-like behavior in tsc2vu242 zebrafish mutants, characterized by enhanced thigmotaxis. We found that anxiety-like behavior in tsc2vu242 zebrafish mutants was rescued by Rac1 inhibitors. These findings prompted further investigation into Rac1 signaling in the context of TSC pathology. Using G-LISA and FRET live imaging, we confirmed elevated Rac1 activity in the mutant brains. Rac1 activity was reduced following NSC23766 and EHT1864 treatment. Compared to wild-type controls, Rac1 activity in mutants was elevated by 50% in untreated animals, and reduced by ~30-40% after Rac1 inhibitors. Moreover, aberrant connectivity between brain hemispheres that correlated with anxiety before was restored after Rac1 inhibition. Transcriptomic profiling revealed 1,260 DEGs between homozygous and heterozygous tsc2vu242 zebrafish. Rac1 inhibition restored the expression of approximately 1,000 genes toward wild-type levels. KEGG pathway analysis identified significant enrichment in mTOR signaling and focal adhesion, while GO terms highlighted processes including axon guidance, axonogenesis, and neuronal projection. Collectively, our findings support a functional role for Rac1 in TSC pathology, linking cytoskeletal dysregulation with aberrant axon development and anxiety-like behavior. Rac1 inhibition emerges as a promising therapeutic avenue for modulating both brain structure and function in TSC-associated anxiety.",
-      "author": "Dulski, T., Doszyn, O., Zmorzynska, J.",
-      "published_date": "2025-12-11T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 234,
-      "reading_time": 1,
-      "created_at": "2025-12-11T23:21:24.802450+00:00",
-      "updated_at": "2025-12-12T03:19:53.275125+00:00",
-      "metadata": {
-        "processed_at": "2025-12-12T03:19:53.275126+00:00",
         "processing_method": "github_actions"
       }
     }

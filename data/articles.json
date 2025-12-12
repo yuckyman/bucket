@@ -1,5 +1,37 @@
 [
   {
+    "id": "df24bd66ab42a7e0344febf6a1b389f6",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693169v1?rss=1",
+    "title": "Corticofugal gated recurrency captures auditory cortical responses",
+    "content": "Memory is essential for the neural processing of natural sounds. It has been proposed that cortical memory is subserved by gated recurrency, a powerful machine learning method that enables memory of sequential dependencies. However, standard forms lack biological realism. We built a computational model using a subtractive form of gated recurrency, consistent with cortical circuitry and feedback that resembles corticofugal projections. This architecture outperformed state-of-the-art models with delay lines or non-biological gated recurrency at predicting auditory cortical responses to natural sounds. Its performance was further improved by incorporating a network layer that mirrors the high neuronal density in superficial cortical layers. Analyzing the model, we found that memory retention is longer in secondary than in primary auditory cortex, and that gated recurrency particularly helps capture responses during abrupt changes and quiet periods in the sounds. This work lays out the fundamental functional circuitry of the auditory pathway for processing the sequential dependencies in natural sounds.",
+    "author": "Mazzaschi, L., King, A. J., Willmore, B., Harper, N. S.",
+    "published_date": "2025-12-11T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 155,
+    "reading_time": 1,
+    "created_at": "2025-12-12T04:54:22.077851+00:00",
+    "updated_at": "2025-12-12T04:54:22.077853+00:00"
+  },
+  {
+    "id": "e0e9bb08bf9a64c330c5e946b641919e",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693219v1?rss=1",
+    "title": "Brain Dynamics During the Resting State",
+    "content": "Functional MRI in the absence of tasks reveals dynamic large-scale configurations. Yet important gaps in our understanding remain: (1) What type of dynamics are observed during brain states? (2) What type of dynamics are observed between brain states? We address these questions by developing a multi-level Switching Linear Dynamical System (SLDS) model, which jointly estimates state-specific equations of motion and probabilistic state transitions. Within states, the inferred dynamics were stable attractors: model estimated fixed points closely matched observed fMRI activity. A central finding was that dynamic states did not map one-to-one onto canonical static large-scale networks; instead, the relationship was many-to-many, with each state engaging multiple networks and each network participating in several states. For example, a default-mode related state also engaged attention/control net-works. Between states, transitions were structured (i.e., non-random) and heterogeneous. While some state transitions were relatively abrupt in terms of fMRI activity change (e.g., between a default-related network and an attention/control-related network), others were much smoother. Indeed, vector-field analyses in latent space quantified both toggle-like (abrupt) switches and smoother changes, revealing distinct transition pathways. To link systems-level organization to brain regions, we introduced region-level dynamics importance and state transition importance measures. Subcortical regions, particularly basal ganglia structures, dominated the dynamics of the highest-occupancy state, suggesting corticostriatal loops may scaffold a baseline regime from which excursions into other states arise. Importantly, regions most influential for within-state dynamics sometimes differed from those driving state transitions, demonstrating that fMRI signal magnitude alone does not uniquely uncover how regions contribute to system-level properties. Our SLDS framework provides a principled bridge between discrete-state and continuous-trajectory perspectives of resting state dynamics, clarifying what the brain does while in a state and how it moves between states during rest.",
+    "author": "Zhou, X., Pessoa, L.",
+    "published_date": "2025-12-11T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 285,
+    "reading_time": 1,
+    "created_at": "2025-12-12T04:54:22.077810+00:00",
+    "updated_at": "2025-12-12T04:54:22.077815+00:00"
+  },
+  {
     "id": "6dfecf7dfcf3b12770e8023576c8b46c",
     "url": "https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=21607",
     "title": "CRISPR Fungus: Protein-Packed, Sustainable, and Tastes Like Meat",
@@ -17040,46 +17072,6 @@
     "updated_at": "2025-12-07T22:14:11.767139+00:00",
     "metadata": {
       "processed_at": "2025-12-07T22:14:11.767141+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "86240da3eaca0f7ab44548529db5e4cd",
-    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1628368",
-    "title": "A simple robot suggests trunk rotation is essential for emergence of inside leading limb during quadruped galloping turns",
-    "content": "During turning maneuvers in the galloping gait of quadruped animals, a strong relationship exists between the turning direction and the sequence in which the forelimbs make ground contact: the outer forelimb acts as the \u201ctrailing limb\u201d while the inner forelimb serves as the \u201cleading limb.\u201d However, the control mechanisms underlying this behavior remain largely unclear. Understanding these mechanisms could deepen biological knowledge and assist in developing more agile robots. To address this issue, we hypothesized that decentralized interlimb coordination mechanism and trunk movement are essential for the emergence of an inside leading limb in a galloping turn. To test the hypothesis, we developed a quasi-quadruped robot with simplified wheeled hind limbs and variable trunk roll and yaw angles. For forelimb coordination, we implemented a simple decentralized control based on local load-dependent sensory feedback, utilizing trunk roll inclination and yaw bending as turning methods. Our experimental results confirmed that in addition to the decentralized control from previous studies which reproduces animal locomotion in a straight line, adjusting the trunk roll angle spontaneously generates a ground contact sequence similar to gallop turning in quadruped animals. Furthermore, roll inclination showed a greater influence than yaw bending on differentiating the leading and trailing limbs. This study suggests that physical interactions serve as a universal mechanism of locomotor control in both forward and turning movements of quadrupedal animals.",
-    "author": "Akio Ishiguro",
-    "published_date": "2025-10-23T00:00:00+00:00",
-    "source": "Frontiers Neurorobotics",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 223,
-    "reading_time": 1,
-    "created_at": "2025-12-07T20:41:32.788358+00:00",
-    "updated_at": "2025-12-07T22:14:11.767143+00:00",
-    "metadata": {
-      "processed_at": "2025-12-07T22:14:11.767145+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "7d358a50de2869f89d49bd22afee1514",
-    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1705970",
-    "title": "Effective and efficient self-supervised masked model based on mixed feature training",
-    "content": "Under the influence of Masked Language Modeling (MLM), Masked Image Modeling (MIM) employs an attention mechanism to perform masked training on images. However, processing a single image requires numerous iterations and substantial computational resources to reconstruct the masked regions, resulting in high computational complexity and significant time costs. To address this issue, we propose an Effective and Efficient self-supervised Masked model based on Mixed feature training (EESMM). First, we stack two images for encoding and input the fused features into the network, which not only reduces computational complexity but also enables the learning of more features. Second, during decoding, we obtain the decoding features corresponding to the original images based on the decoding features of the two input original images and the mixed images, and then construct a corresponding loss function to enhance feature representation. EESMM significantly reduces pre-training time without sacrificing accuracy, achieving 83% accuracy on ImageNet in just 363 h using four V100 GPUs\u2013only one-tenth of the training time required by SimMIM. This validates that the method can substantially accelerate the pre-training process without noticeable performance degradation.",
-    "author": "Chunliu Cai",
-    "published_date": "2025-10-30T00:00:00+00:00",
-    "source": "Frontiers Neurorobotics",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 179,
-    "reading_time": 1,
-    "created_at": "2025-12-07T20:41:32.788320+00:00",
-    "updated_at": "2025-12-07T22:14:11.767147+00:00",
-    "metadata": {
-      "processed_at": "2025-12-07T22:14:11.767149+00:00",
       "processing_method": "github_actions"
     }
   }
