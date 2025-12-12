@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-12T16:28:44.334977+00:00",
+  "last_updated": "2025-12-12T16:50:34.528907+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "9d414f3b56ac788715b1f6d8b57a6e78",
+      "url": "https://fmhy.net/posts/Nov-2025",
+      "title": "Monthly Updates [November]",
+      "content": "<div class=\"info custom-block\"><p class=\"custom-block-title\">INFO</p>\n<p>These update threads only contains major updates. If you're interested\nin seeing all minor changes you can follow our\n<a href=\"https://github.com/fmhy/FMHYedit/commits/main\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub or\n<a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Updates Channel</a> in Discord.</p>\n</div>\n<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Added the <strong><a href=\"https://i.ibb.co/hx97zL3W/978676.jpg\" rel=\"noreferrer\" target=\"_blank\">Amoled Theme</a></strong> / <a href=\"https://i.imgur.com/fMrnGmF.png\" rel=\"noreferrer\" target=\"_blank\">2</a> to our site as a <a href=\"https://i.ibb.co/pvkfg3hC/image.png\" rel=\"noreferrer\" target=\"_blank\">Toggle</a> / <a href=\"https://i.imgur.com/qF7exKw.png\" rel=\"noreferrer\" target=\"_blank\">2</a> that can be turned on or off. Thank you to @Land for doing this.</p>\n</li>\n<li>\n<p>Built a <strong><a href=\"https://fmhy-search.dev.zenir.tech/\" rel=\"noreferrer\" target=\"_blank\">External Search Engine</a></strong> that should work better in most cases than the built in VitePress search on our website.</p>\n</li>\n<li>\n<p>Added a <strong><a href=\"https://fmhyclone.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">New Backup</a></strong> of FMHY with daily sync, hosted on GitLab. It also has a backup of the <a href=\"https://fmhyapi.wispy.qzz.io/single-page\" rel=\"noreferrer\" target=\"_blank\">raw markdown</a> page. We also added another <a href=\"https://a-fmhy.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">backup</a> of our website that has the theme on from above on automatically.</p>\n</li>\n<li>\n<p>The Space section has become a bit hard to navigate (60+ lines,) so we've split it into its <a href=\"https://fmhy.net/educational#space\" rel=\"noreferrer\" target=\"_blank\">own head section</a>, with 2 new subsections: <a href=\"https://fmhy.net/educational#astronomy\" rel=\"noreferrer\" target=\"_blank\">Astronomy</a> and <a href=\"https://fmhy.net/educational#spacecraft\" rel=\"noreferrer\" target=\"_blank\">Spacecraft</a>. Astronomy will cover things related to celestial objects or phenomena in the cosmos. Spacecraft will cover things like rockets, launches and the ISS. The head section will be for more general space related things, like NASAs website, news, etc.</p>\n</li>\n<li>\n<p>Remakes / Ports in gaming had over 80 lines, and was pretty disorganized, so we've split it into 3 new sections to make it more comprehensible: <a href=\"https://fmhy.net/gaming#decomps-ports\" rel=\"noreferrer\" target=\"_blank\">Decomps / Ports</a>, <a href=\"https://fmhy.net/gaming#remakes-recreations\" rel=\"noreferrer\" target=\"_blank\">Remakes / Recreations</a> and <a href=\"https://fmhy.net/gaming#revival-projects\" rel=\"noreferrer\" target=\"_blank\">Revival Projects</a>. Also turned Special Interest into its own head category to help organize TOC better.</p>\n</li>\n<li>\n<p>Re-ordered <a href=\"https://fmhy.net/reading#manga\" rel=\"noreferrer\" target=\"_blank\">Manga Sites</a> based on poll results from our Discord. Weeb Central has been moved to #1 spot, and MangaFire + MangaNato have both been starred. Thank you to everyone who took part in voting and gave their thoughts. <a href=\"https://i.ibb.co/j9Sn4hRR/image.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/u8zFZTX.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Cleaned up multiple Audio Streaming sections, and added new ones to help better organize it including: <a href=\"https://fmhy.net/audio#specialty-streaming\" rel=\"noreferrer\" target=\"_blank\">Specialty</a>, <a href=\"https://fmhy.net/audio#genre-specific-streaming\" rel=\"noreferrer\" target=\"_blank\">Genre Specific</a>, <a href=\"https://fmhy.net/audio#radio-directories\" rel=\"noreferrer\" target=\"_blank\">Radio Directories</a>, and <a href=\"https://fmhy.net/audio#lofi-radio\" rel=\"noreferrer\" target=\"_blank\">Lofi Radio</a>. <a href=\"https://github.com/fmhy/edit/pull/4128#issuecomment-3476036920\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a>. Thank you to @AnarchyDR for doing this.</p>\n</li>\n<li>\n<p>Updated <a href=\"https://fmhy.net/audio\" rel=\"noreferrer\" target=\"_blank\">Audio Streaming</a> table of contents to make it less cluttered and easier to navigate. <a href=\"https://i.ibb.co/0yJbh03H/234243.jpg\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/fhgqKzb.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Cleaned up <a href=\"https://fmhy.net/gaming#browser-emulators\" rel=\"noreferrer\" target=\"_blank\">Browser Emulators</a>, fixed labels, removed dead sites, bumped sites with multiple, or unique emulators higher, and moved any only serving as EmulatorJS / NeptunJS frontends to storage. <a href=\"https://i.ibb.co/LXdhcDFD/Untitled.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/W9x8jY4.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>We removed the &quot;No Torrenting&quot; label from ProtonVPN as you can set it up with a OpenVPN config that allows you to torrent for free. Note that they do expire and must be regenerated sometimes. Guide is listed next to <a href=\"https://fmhy.net/privacy#vpn\" rel=\"noreferrer\" target=\"_blank\">Proton</a>. TY to Wispy and others for figuring this out.</p>\n</li>\n<li>\n<p>Added <a href=\"https://fmhy.net/gaming#tetris\" rel=\"noreferrer\" target=\"_blank\">Tetris</a> Section to Gaming.</p>\n</li>\n<li>\n<p>Fixed ugly formatting in Game Optimization. <a href=\"https://i.ibb.co/Vc99kJhh/image.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/HRPUwL3.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#download-managers\" rel=\"noreferrer\" target=\"_blank\">AB Download Manager</a> in Download Managers. Open source, fast, cross platform, has resumable downloads, and a active dev team.</p>\n</li>\n<li>\n<p>Bumped <a href=\"https://fmhy.net/gaming#rom-sites\" rel=\"noreferrer\" target=\"_blank\">CrocDB</a> to new #1 over Myrient in ROM sites. Croc covers multiple sites (including myrient), has a better UI, and a new rompack feature.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#torrent-apps\" rel=\"noreferrer\" target=\"_blank\">PlayTorrio</a> in Torrent Streaming Apps. New client that is very feature rich. It has similar addons to Stremio, such as Torrentio. It also has Jackett integration, Debrid support, and so many other features we're unable to list them all here.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#specialized-chatbots\" rel=\"noreferrer\" target=\"_blank\">NotebookLM</a> in Specialized Chatbots. Document chatbots + note taking. Works well for quickly studying, has good audio/video overviews, can generate quizzes, flashcards, etc.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#anime-streaming\" rel=\"noreferrer\" target=\"_blank\">Anidap</a> in Anime Streaming. Has a nice UI, uses hosts that are both unique and fast.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#live-tv\" rel=\"noreferrer\" target=\"_blank\">PlayTorrio IPTV</a> in Live TV / Sports. Fast streams, huge library, good quality, one of the better Live TV sites we've been sent in awhile. Note that Darkness TV is the original, PlayTorrio just improved on their UI.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/linux-macos#linux-gaming\" rel=\"noreferrer\" target=\"_blank\">Heroic Games Launcher</a> in Linux Gaming. Linux game launcher for Epic, GOG, and prime games, better maintained than Lutris now.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#curated-recommendations\" rel=\"noreferrer\" target=\"_blank\">ComicBookRoundup</a> in Reading Recommendations. Comic focused review / rating aggregator, similar to Metacritic or Rotten Tomatoes.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#rom-sites\" rel=\"noreferrer\" target=\"_blank\">Ziperto</a> in ROM Sites. Been around for a long time now, has a solid library, and uses fast hosts.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#live-sports\" rel=\"noreferrer\" target=\"_blank\">Sportsbite</a> in live sports. Aggregator with lots of hosts, nice UI, covers most big events.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>\n<p>Removed DramaGo as they seem to have shut down.</p>\n</li>\n<li>\n<p>Unstarred Character.AI as they had to <a href=\"https://deadline.com/2025/09/disney-cease-and-desist-letter-characterai-copyright-infringement-1236566831\" rel=\"noreferrer\" target=\"_blank\">remove a bunch of characters</a> recently due to copyright, and people were already unhappy with their limits / restrictions.</p>\n</li>\n</ul>",
+      "author": "",
+      "published_date": "2025-11-01T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 924,
+      "reading_time": 4,
+      "created_at": "2025-12-12T16:49:26.518926+00:00",
+      "updated_at": "2025-12-12T16:49:26.518943+00:00"
+    },
+    {
+      "id": "99aefdefb3cae7000b16bb9b0037be8b",
+      "url": "https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/",
+      "title": "Epic celebrates \"the end of the Apple Tax\" after court win in iOS payments case",
+      "content": "<p>Article URL: <a href=\"https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/\">https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46245398\">https://news.ycombinator.com/item?id=46245398</a></p>\n<p>Points: 9</p>\n<p># Comments: 5</p>",
+      "author": "nobody9999",
+      "published_date": "2025-12-12T16:04:16+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-12T16:49:22.742085+00:00",
+      "updated_at": "2025-12-12T16:49:22.742093+00:00"
+    },
     {
       "id": "03321fcfe5d0c6cc861985bdfa767b00",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.10.693193v1?rss=1",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-12T14:21:41.872532+00:00",
       "updated_at": "2025-12-12T14:21:41.872534+00:00"
-    },
-    {
-      "id": "2e9dbf54d7da8e30ed5678957bc8f732",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452225011649?dgcid=rss_sd_all",
-      "title": "Nitrous oxide promotes exploratory activity and stimulates neurogenesis in a male rat model of post-traumatic stress disorder",
-      "content": "<p>Publication date: 26 January 2026</p><p><b>Source:</b> Neuroscience, Volume 593</p><p>Author(s): Batoul Darwish, Jad El Masri, Lina Hourieh, Ziad Nahas, Wassim Abou-Kheir, Farah Chamaa</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 21,
-      "reading_time": 1,
-      "created_at": "2025-12-12T14:21:30.167378+00:00",
-      "updated_at": "2025-12-12T14:21:30.167380+00:00"
-    },
-    {
-      "id": "6100628ddb88a7d850b0acfbeb5c3018",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452225011546?dgcid=rss_sd_all",
-      "title": "Do sex differences influence test habituation and internal data validity in neurocognitive testing? A blinded measurement error analysis",
-      "content": "<p>Publication date: 26 January 2026</p><p><b>Source:</b> Neuroscience, Volume 593</p><p>Author(s): Konstantin Warneke, Manuel Oraze, Marco Herbsleb, Jos\u00e9 Afonso, Sebastian Wallot</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 18,
-      "reading_time": 1,
-      "created_at": "2025-12-12T14:21:30.167357+00:00",
-      "updated_at": "2025-12-12T14:21:30.167359+00:00"
     }
   ]
 }
