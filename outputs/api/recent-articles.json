@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-12T08:23:02.728291+00:00",
+  "last_updated": "2025-12-12T08:32:48.091229+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "eb15302323e2ee38e2ac9462f546b7a3",
+      "url": "https://patrickmccanna.net/the-raspberry-pi-boot-order-is-unusual/",
+      "title": "The Boot Order of the Raspberry Pi Is Unusual",
+      "content": "<p>Article URL: <a href=\"https://patrickmccanna.net/the-raspberry-pi-boot-order-is-unusual/\">https://patrickmccanna.net/the-raspberry-pi-boot-order-is-unusual/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46239820\">https://news.ycombinator.com/item?id=46239820</a></p>\n<p>Points: 13</p>\n<p># Comments: 1</p>",
+      "author": "0o_MrPatrick_o0",
+      "published_date": "2025-12-12T01:28:43+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-12T08:31:33.881073+00:00",
+      "updated_at": "2025-12-12T08:31:33.881075+00:00"
+    },
+    {
+      "id": "16cad82a66bf2fd19d6aaba60db8b78e",
+      "url": "https://deadstack.net/",
+      "title": "I got my site down to 237kb by ditching Google Analytics",
+      "content": "<p><a href=\"https://radar.cloudflare.com/scan/2491878e-d30b-4ab0-9a5a-f3927670cbbb/summary\" rel=\"nofollow\">https://radar.cloudflare.com/scan/2491878e-d30b-4ab0-9a5a-f3...</a><p>Previously was ~540kb, which to be sure wasn't bad, but still felt heavy for a site that's largely text.<p>The big win was going from Google Analytics to <a href=\"https://umami.is/\" rel=\"nofollow\">https://umami.is/</a>.<p>Other pieces in play:<p>Cookie compliance JS (85kb!)\nBootstrap JS & CSS</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46240998\">https://news.ycombinator.com/item?id=46240998</a></p>\n<p>Points: 7</p>\n<p># Comments: 2</p>",
+      "author": "dreadsword",
+      "published_date": "2025-12-12T04:55:42+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 53,
+      "reading_time": 1,
+      "created_at": "2025-12-12T08:31:33.881032+00:00",
+      "updated_at": "2025-12-12T08:31:33.881034+00:00"
+    },
     {
       "id": "ab3e53bffeaa5abdcc5d72d24f8c4b4f",
       "url": "https://lucassifoni.info/blog/miniscope-tiny-telescope/",
@@ -329,38 +361,6 @@
       "reading_time": 1,
       "created_at": "2025-12-12T05:24:15.356714+00:00",
       "updated_at": "2025-12-12T05:24:15.356716+00:00"
-    },
-    {
-      "id": "c69bcb50d68d8be4e0dac001c144f3d6",
-      "url": "https://arxiv.org/abs/2512.10172",
-      "title": "Offscript: Automated Auditing of Instruction Adherence in LLMs",
-      "content": "arXiv:2512.10172v1 Announce Type: new \nAbstract: Large Language Models (LLMs) and generative search systems are increasingly used for information seeking by diverse populations with varying preferences for knowledge sourcing and presentation. While users can customize LLM behavior through custom instructions and behavioral prompts, no mechanism exists to evaluate whether these instructions are being followed effectively. We present Offscript, an automated auditing tool that efficiently identifies potential instruction following failures in LLMs. In a pilot study analyzing custom instructions sourced from Reddit, Offscript detected potential deviations from instructed behavior in 86.4% of conversations, 22.2% of which were confirmed as material violations through human review. Our findings suggest that automated auditing serves as a viable approach for evaluating compliance to behavioral instructions related to information seeking.",
-      "author": "Nicholas Clark, Ryan Bai, Tanu Mitra",
-      "published_date": "2025-12-12T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 123,
-      "reading_time": 1,
-      "created_at": "2025-12-12T05:24:15.356672+00:00",
-      "updated_at": "2025-12-12T05:24:15.356678+00:00"
-    },
-    {
-      "id": "bafd3e4b8432b24bbc745812beb5ada4",
-      "url": "https://arxiv.org/abs/2507.01098",
-      "title": "Proof of a perfect platonic representation hypothesis",
-      "content": "arXiv:2507.01098v2 Announce Type: replace-cross \nAbstract: In this note, we elaborate on and explain in detail the proof given by Ziyin et al. (2025) of the ``perfect\" Platonic Representation Hypothesis (PRH) for the embedded deep linear network model (EDLN). We show that if trained with the stochastic gradient descent (SGD), two EDLNs with different widths and depths and trained on different data will become Perfectly Platonic, meaning that every possible pair of layers will learn the same representation up to a rotation. Because most of the global minima of the loss function are not Platonic, that SGD only finds the perfectly Platonic solution is rather extraordinary. The proof also suggests at least six ways the PRH can be broken. We also show that in the EDLN model, the emergence of the Platonic representations is due to the same reason as the emergence of progressive sharpening. This implies that these two seemingly unrelated phenomena in deep learning can, surprisingly, have a common cause. Overall, the theory and proof highlight the importance of understanding emergent \"entropic forces\" due to the irreversibility of SGD training and their role in representation learning. The goal of this note is to be instructive while avoiding jargon and lengthy technical details.",
-      "author": "Liu Ziyin, Isaac Chuang",
-      "published_date": "2025-12-12T05:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 203,
-      "reading_time": 1,
-      "created_at": "2025-12-12T05:24:14.152299+00:00",
-      "updated_at": "2025-12-12T05:24:14.152301+00:00"
     }
   ]
 }
