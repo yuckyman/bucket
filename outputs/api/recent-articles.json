@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-12T22:44:45.325660+00:00",
+  "last_updated": "2025-12-12T23:21:42.977206+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "33acc2018b43158c8e62d015109085b0",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1711642",
+      "title": "Correction: RSA-TransUNet: a robust structure-adaptive TransUNet for enhanced road crack segmentation",
+      "content": "",
+      "author": "Ruoli Yang",
+      "published_date": "2025-11-10T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2025-12-12T23:21:00.788419+00:00",
+      "updated_at": "2025-12-12T23:21:00.788420+00:00"
+    },
+    {
+      "id": "a88b575fe14ad32a53c7b365e929bd42",
+      "url": "https://martianlantern.github.io/2025/09/median-filter-over-arbitrary-datatypes/",
+      "title": "Fast Median Filter over arbitrary datatypes",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46173882\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-06T15:08:09+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-12T23:20:36.020497+00:00",
+      "updated_at": "2025-12-12T23:20:36.020499+00:00"
+    },
     {
       "id": "4488277d3ce4d814e7f0f6d749c0c631",
       "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2525734122?af=R",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-12T21:20:03.036347+00:00",
       "updated_at": "2025-12-12T21:20:03.036353+00:00"
-    },
-    {
-      "id": "0b5d2b32babcf7574bf465d7be61e081",
-      "url": "https://www.nature.com/articles/s41598-025-30035-z",
-      "title": "S-allyl cysteine and alliin enhance catalase activity and prevent aggregation to counter oxidative stress in alzheimer\u2019s disease",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-12T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-12T21:20:01.615684+00:00",
-      "updated_at": "2025-12-12T21:20:01.615686+00:00"
-    },
-    {
-      "id": "5bb6360453fea9650b2248f2b0433049",
-      "url": "https://www.reddit.com/r/Python/comments/1pkpdbg/i_built_jobhelper_to_stop_manually_managing_slurm/",
-      "title": "I built JobHelper to stop manually managing Slurm job",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>TL;DR:</strong> JobHelper automates parameter management and job dependencies for HPC clusters. Let LLMs convert your scripts for you.</p> <hr /> <h2>The Problem</h2> <p>If you run code on HPC clusters (Slurm, PBS, etc.), you've probably dealt with:</p> <ol> <li><strong>Parameter hell</strong>: Typing 15+ command-line arguments for every job, or manually editing config files for parameter sweeps</li> <li><strong>Dependency tracking</strong>: Job B needs Job A's ID, Job C needs both A and B... and you're copy-pasting job IDs into submission scripts</li> </ol> <p>I got tired of this workflow, so I built <a href=\"https://github.com/szsdk/jobhelper\">JobHelper</a>.</p> <hr /> <h2>What My Project Does</h2> <p>JobHelper simplifies running jobs on HPC clusters (Slurm, PBS, etc.) by solving two major pain points:</p> <ol> <li>Parameter management \u2013 Easily handle scripts with many command-line arguments or config files.</li> <li>Dependency tracking \u2013 Automatically manage job dependencies so you don\u2019t have to manually track job IDs.</li> </ol> <p>It provides:</p> <ul> <li>python class <code>JobArgBase</code>: Convert your script to a simple class with auto-generated CLI via <code>python-fire</code>, config serialization (YAML/JSON/TOML), and type validation via Pydantic.</li> <li><code>jh project</code>: Define jobs and dependencies in a YAML file and submit everything with one command. JobHelper handles job IDs and execution order automatically.</li> <li>LLM shortcut: Let AI refactor your existing scripts to use JobHelper automatically.</li> </ul> <h2>Target Audience</h2> <p>Scientists and engineers running large-scale parameter sweeps or job pipelines on HPC clusters</p> <p>Users who want to reduce manual script editing and dependency tracking</p> <p>Suitable for both production pipelines and personal research projects</p> <h2>Comparison</h2> <p>Compared to existing solutions like Snakemake, Luigi, or custom Slurm scripts:</p> <p>Pure Python library \u2013 Easily embedded into your existing development workflow without extra tooling.</p> <p>Flexible usage \u2013 Suitable for different stages, from prototyping to production pipelines.</p> <p>Robust parameter management \u2013 Uses Pydantic for type validation, serialization, and clean CLI generation.</p> <p>Lightweight and minimal boilerplate \u2013 Lets you focus on your code, not workflow management.</p> <h2>Quick Start</h2> <p><code>bash pip install git+https://github.com/szsdk/jobhelper.git mkdir my_project cd my_project jh init jh project from-config project.yaml - run </code></p> <p>Check out the <a href=\"https://github.com/szsdk/jobhelper/blob/main/tutorial/tutorial.md\">tutorial</a> for more.</p> <hr /> <h2>Looking for Feedback</h2> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/szsdk\"> /u/szsdk </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pkpdbg/i_built_jobhelper_to_stop_manually_managing_slurm/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pkpdbg/i_built_jobhelper_to_stop_manually_managing_slurm/\">[comments]</a></span>",
-      "author": "/u/szsdk",
-      "published_date": "2025-12-12T11:14:47+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 358,
-      "reading_time": 1,
-      "created_at": "2025-12-12T21:19:27.065369+00:00",
-      "updated_at": "2025-12-12T21:19:27.065371+00:00"
     }
   ]
 }
