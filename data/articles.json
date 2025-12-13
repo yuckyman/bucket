@@ -1,5 +1,53 @@
 [
   {
+    "id": "ffd60dcd35b62c98c545c3a01322743f",
+    "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2513319122?af=R",
+    "title": "Spiking world model with multicompartment neurons for model-based reinforcement learning",
+    "content": "Proceedings of the National Academy of Sciences, Volume 122, Issue 50, December 2025. <br />SignificanceDendritic computation is key to the brain\u2019s ability to integrate information over long timescales. Inspired by this, this study proposes a spiking neural network model that embeds dendritic mechanisms to enhance long-term memory and planning. ...",
+    "author": "Yinqian SunFeifei ZhaoMingyang LyuYi ZengaBrain-inspired Cognitive AI Lab, Institute of Automation, Chinese Academy of Sciences, Beijing 100190, ChinabLong-term AI, Beijing 100862, ChinacState Key Laboratory of Brain Cognition and Brain-inspired Intelligence Technology, Chinese Academy of Sciences, Shanghai 200031, ChinadSchool of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing 100190, China",
+    "published_date": "2025-12-12T08:00:00+00:00",
+    "source": "Pnas Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 50,
+    "reading_time": 1,
+    "created_at": "2025-12-13T13:28:23.230519+00:00",
+    "updated_at": "2025-12-13T13:28:23.230520+00:00"
+  },
+  {
+    "id": "6610d6722ced17d428ec1e957cad42af",
+    "url": "https://www.reddit.com/r/Python/comments/1plhus1/rendercv_v25_write_your_cv_in_yaml_version/",
+    "title": "RenderCV v2.5: Write your CV in YAML, version control it, get pixel-perfect PDFs",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>TLDR: Check out <a href=\"https://github.com/rendercv/rendercv\">github.com/rendercv/rendercv</a></p> <p>Been a while since the <a href=\"https://www.reddit.com/r/Python/comments/1ias711/rendercv_v2_is_released_write_your_cvresume_as/\">last update</a> here. RenderCV has gotten much better, much more robust, and it's still actively maintained.</p> <h2>The idea</h2> <p>Separate your content from how it looks. Write what you've done, and let the tool handle typography.</p> <p><code>yaml cv: name: John Doe email: john@example.com sections: experience: - company: Anthropic position: ML Engineer start_date: 2023-01 highlights: - Built large language models - Deployed inference pipelines at scale </code></p> <p>Run <code>rendercv render John_Doe_CV.yaml</code>, get a pixel-perfect PDF. Consistent spacing. Aligned columns. Nothing out of place. Ever.</p> <h2>Why engineers love it</h2> <p><strong>It's text.</strong> <code>git diff</code> your CV changes. Review them in PRs. Your CV history is your commit history. Use LLMs to help write and refine your content.</p> <p><strong>Full control over every design detail.</strong> Margins, fonts, colors, spacing, alignment; all configurable in YAML.</p> <p><strong>Real-time preview.</strong> Set up <a href=\"https://docs.rendercv.com/user_guide/how_to/set_up_vs_code_for_rendercv/\">live preview in VS Code</a> and watch your PDF update as you type.</p> <p><strong>JSON Schema autocomplete.</strong> VS Code lights up with suggestions and inline docs as you type. No guessing field names. No checking documentation.</p> <p><strong>Any language.</strong> Built-in locale support, write your CV in any language.</p> <p><strong>Strict validation with Pydantic.</strong> Typo in a date? Invalid field? RenderCV tells you exactly what's wrong and where, before rendering.</p> <p><strong>5 built-in themes, all flexible.</strong> Classic, ModernCV, Sb2nov, EngineeringResumes, EngineeringClassic. Every theme exposes the same design options. Or create your own.</p> <h2>The output</h2> <p>One YAML file gives you: - PDF with perfect typography - PNG images of each page - Markdown version - HTML version</p> <h2>Installation</h2> <p>```bash pip install &quot;rendercv[full]&quot;</p> <h1>Create a new CV YAML file:</h1> <p>rendercv new &quot;Your Name&quot; </p> <h1>Render the CV YAML file:</h1> <p>rendercv render &quot;Your_Name_CV.yaml&quot; ```</p> <p>Or with Docker, uv, pipx, whatever you prefer.</p> <h2>Not a toy</h2> <ul> <li>100% test coverage</li> <li>2+ years of development</li> <li>Battle-tested by thousands of users</li> <li>Actively maintained</li> </ul> <p><strong>Links:</strong> - GitHub: <a href=\"https://github.com/rendercv/rendercv\">https://github.com/rendercv/rendercv</a> - Docs: <a href=\"https://docs.rendercv.com\">https://docs.rendercv.com</a> - Example PDFs: <a href=\"https://github.com/rendercv/rendercv/tree/main/examples\">https://github.com/rendercv/rendercv/tree/main/examples</a></p> <p>Happy to answer any questions.</p> <p><em>What My Project Does:</em> CV/resume generator<br /> <em>Target Audience:</em> Academics and engineers<br /> <em>Comparison:</em> JSON Resume, and YAML Resume are popular alternatives. JSON Resume isn't focused on PDF outputs. YAML Resume requires LaTeX installation.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/egehancry\"> /u/egehancry </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1plhus1/rendercv_v25_write_your_cv_in_yaml_version/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1plhus1/rendercv_v25_write_your_cv_in_yaml_version/\">[comments]</a></span>",
+    "author": "/u/egehancry",
+    "published_date": "2025-12-13T09:56:04+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 381,
+    "reading_time": 1,
+    "created_at": "2025-12-13T13:27:53.549019+00:00",
+    "updated_at": "2025-12-13T13:27:53.549023+00:00"
+  },
+  {
+    "id": "a806735d3e88b91da8e447c8c95c6b4a",
+    "url": "https://quant.engineering/exchange-order-book-distributed-logs.html",
+    "title": "How Exchanges Turn Order Books into Distributed Logs",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46192181\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-08T13:48:51+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-13T13:27:52.352687+00:00",
+    "updated_at": "2025-12-13T13:27:52.352688+00:00"
+  },
+  {
     "id": "efe224356c89426e20eb9e2065c575c9",
     "url": "https://www.cnbc.com/2025/12/13/youtubes-ceo-is-latest-tech-boss-limiting-his-kids-social-media-use.html",
     "title": "YouTube's CEO limits his kids' social media use \u2013 other tech bosses do the same",
@@ -17020,66 +17068,6 @@
     "updated_at": "2025-12-09T04:24:50.320937+00:00",
     "metadata": {
       "processed_at": "2025-12-09T04:24:50.320939+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "eea2bc1a41f810112699f7edda311996",
-    "url": "https://www.nature.com/articles/s41467-025-67166-w",
-    "title": "An astrocytic ensemble at vHip-NAc synapses modulates cognitive impairments induced by chronic tetrahydrocannabinol exposure",
-    "content": "",
-    "author": "",
-    "published_date": "2025-12-09T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2025-12-09T04:02:47.304154+00:00",
-    "updated_at": "2025-12-09T04:24:50.320941+00:00",
-    "metadata": {
-      "processed_at": "2025-12-09T04:24:50.320943+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "03aa67e36f1287aa8b6393f9b8530c4e",
-    "url": "https://www.biorxiv.org/content/10.64898/2025.12.04.691835v1?rss=1",
-    "title": "From Ions to Chaos: exploring a whole-brain modelling framework in the mouse",
-    "content": "Computational neuroscience offers powerful tools for understanding brain function in both healthy and diseased states. However, detailed data on microscale mechanisms - such as those involved in genetics and pharmacology - are often derived from mouse experiments and further lack integration into whole-brain models. In this work, we bridge microscale ion-channel dynamics and macroscale network behavior by employing the Larter-Breakspear neural mass model on The Virtual Brain platform with a mouse brain connectome. Our simulations reproduced key findings from prior computational studies with the Larter-Breakspear model, demonstrating its cross-species translation to the mouse. This included the emergence of chaotic dynamics and network synchrony as a function of coupling and delay parameters. Furthermore, we demonstrate that Calcium, Sodium, and Potassiumrelated parameters each critically shape the global dynamic regimes and that the response to external stimuli is highly sensitive to calcium concentrations. This work represents the first integration of the Larter- Breakspear model into a mouse-scale connectome, validating previous results in a new context. In addition, it establishes a framework for a detailed exploration of synchrony, ion dependency, and stimulus reactivity. By linking molecular simulations, genetic data, and mouse electrophysiology, this approach holds promise for mechanistic insights into neuropsychiatric disorders, such as schizophrenia and epilepsy.",
-    "author": "Munoz Lagunas, S. A., An, J., Stefanovski, L., Ritter, P.",
-    "published_date": "2025-12-08T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 203,
-    "reading_time": 1,
-    "created_at": "2025-12-09T03:20:05.682931+00:00",
-    "updated_at": "2025-12-09T04:24:50.320945+00:00",
-    "metadata": {
-      "processed_at": "2025-12-09T04:24:50.320946+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "6773fac98b8731cf1b7e5b7bea9d9fb1",
-    "url": "https://www.nature.com/articles/s41419-025-08309-1",
-    "title": "Noncanonical role of astrocytic mitochondrial Cx43: suppressing IDH3\u03b1 to sustain glycolytic homeostasis against depression",
-    "content": "",
-    "author": "",
-    "published_date": "2025-12-08T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2025-12-09T03:20:04.388379+00:00",
-    "updated_at": "2025-12-09T04:24:50.320952+00:00",
-    "metadata": {
-      "processed_at": "2025-12-09T04:24:50.320953+00:00",
       "processing_method": "github_actions"
     }
   }
