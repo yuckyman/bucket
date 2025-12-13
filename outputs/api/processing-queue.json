@@ -1,24 +1,8 @@
 {
-  "last_updated": "2025-12-13T12:29:31.409485+00:00",
-  "pending_count": 729,
-  "processed_count": 271,
+  "last_updated": "2025-12-13T14:14:04.048339+00:00",
+  "pending_count": 727,
+  "processed_count": 273,
   "pending_articles": [
-    {
-      "id": "d580a0fb489ba1fbbfa80999d0df37fb",
-      "url": "https://www.nature.com/articles/s41598-025-25575-3",
-      "title": "Bistability and hysteresis in the proximity-based grouping of dot lattices",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-13T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-13T11:17:32.019916+00:00",
-      "updated_at": "2025-12-13T11:17:32.019918+00:00"
-    },
     {
       "id": "5633e041ef19fb8f00133e45eed99b59",
       "url": "https://www.nature.com/articles/s41467-025-66217-6",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2025-12-13T10:43:46.579369+00:00",
       "updated_at": "2025-12-13T10:43:46.579371+00:00"
+    },
+    {
+      "id": "6071ce99ab68021ed48d4600bdeec843",
+      "url": "http://ieeexplore.ieee.org/document/10856214",
+      "title": "Table of Contents",
+      "content": "null",
+      "author": "",
+      "published_date": "2025-01-28T13:17:19+00:00",
+      "source": "Reviews Biomedical Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 1,
+      "reading_time": 1,
+      "created_at": "2025-12-13T10:43:46.579350+00:00",
+      "updated_at": "2025-12-13T10:43:46.579352+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "ffd60dcd35b62c98c545c3a01322743f",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2513319122?af=R",
+      "title": "Spiking world model with multicompartment neurons for model-based reinforcement learning",
+      "content": "Proceedings of the National Academy of Sciences, Volume 122, Issue 50, December 2025. <br />SignificanceDendritic computation is key to the brain\u2019s ability to integrate information over long timescales. Inspired by this, this study proposes a spiking neural network model that embeds dendritic mechanisms to enhance long-term memory and planning. ...",
+      "author": "Yinqian SunFeifei ZhaoMingyang LyuYi ZengaBrain-inspired Cognitive AI Lab, Institute of Automation, Chinese Academy of Sciences, Beijing 100190, ChinabLong-term AI, Beijing 100862, ChinacState Key Laboratory of Brain Cognition and Brain-inspired Intelligence Technology, Chinese Academy of Sciences, Shanghai 200031, ChinadSchool of Artificial Intelligence, University of Chinese Academy of Sciences, Beijing 100190, China",
+      "published_date": "2025-12-12T08:00:00+00:00",
+      "source": "Pnas Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 50,
+      "reading_time": 1,
+      "created_at": "2025-12-13T13:28:23.230519+00:00",
+      "updated_at": "2025-12-13T14:14:03.934546+00:00",
+      "metadata": {
+        "processed_at": "2025-12-13T14:14:03.934557+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6610d6722ced17d428ec1e957cad42af",
+      "url": "https://www.reddit.com/r/Python/comments/1plhus1/rendercv_v25_write_your_cv_in_yaml_version/",
+      "title": "RenderCV v2.5: Write your CV in YAML, version control it, get pixel-perfect PDFs",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>TLDR: Check out <a href=\"https://github.com/rendercv/rendercv\">github.com/rendercv/rendercv</a></p> <p>Been a while since the <a href=\"https://www.reddit.com/r/Python/comments/1ias711/rendercv_v2_is_released_write_your_cvresume_as/\">last update</a> here. RenderCV has gotten much better, much more robust, and it's still actively maintained.</p> <h2>The idea</h2> <p>Separate your content from how it looks. Write what you've done, and let the tool handle typography.</p> <p><code>yaml cv: name: John Doe email: john@example.com sections: experience: - company: Anthropic position: ML Engineer start_date: 2023-01 highlights: - Built large language models - Deployed inference pipelines at scale </code></p> <p>Run <code>rendercv render John_Doe_CV.yaml</code>, get a pixel-perfect PDF. Consistent spacing. Aligned columns. Nothing out of place. Ever.</p> <h2>Why engineers love it</h2> <p><strong>It's text.</strong> <code>git diff</code> your CV changes. Review them in PRs. Your CV history is your commit history. Use LLMs to help write and refine your content.</p> <p><strong>Full control over every design detail.</strong> Margins, fonts, colors, spacing, alignment; all configurable in YAML.</p> <p><strong>Real-time preview.</strong> Set up <a href=\"https://docs.rendercv.com/user_guide/how_to/set_up_vs_code_for_rendercv/\">live preview in VS Code</a> and watch your PDF update as you type.</p> <p><strong>JSON Schema autocomplete.</strong> VS Code lights up with suggestions and inline docs as you type. No guessing field names. No checking documentation.</p> <p><strong>Any language.</strong> Built-in locale support, write your CV in any language.</p> <p><strong>Strict validation with Pydantic.</strong> Typo in a date? Invalid field? RenderCV tells you exactly what's wrong and where, before rendering.</p> <p><strong>5 built-in themes, all flexible.</strong> Classic, ModernCV, Sb2nov, EngineeringResumes, EngineeringClassic. Every theme exposes the same design options. Or create your own.</p> <h2>The output</h2> <p>One YAML file gives you: - PDF with perfect typography - PNG images of each page - Markdown version - HTML version</p> <h2>Installation</h2> <p>```bash pip install &quot;rendercv[full]&quot;</p> <h1>Create a new CV YAML file:</h1> <p>rendercv new &quot;Your Name&quot; </p> <h1>Render the CV YAML file:</h1> <p>rendercv render &quot;Your_Name_CV.yaml&quot; ```</p> <p>Or with Docker, uv, pipx, whatever you prefer.</p> <h2>Not a toy</h2> <ul> <li>100% test coverage</li> <li>2+ years of development</li> <li>Battle-tested by thousands of users</li> <li>Actively maintained</li> </ul> <p><strong>Links:</strong> - GitHub: <a href=\"https://github.com/rendercv/rendercv\">https://github.com/rendercv/rendercv</a> - Docs: <a href=\"https://docs.rendercv.com\">https://docs.rendercv.com</a> - Example PDFs: <a href=\"https://github.com/rendercv/rendercv/tree/main/examples\">https://github.com/rendercv/rendercv/tree/main/examples</a></p> <p>Happy to answer any questions.</p> <p><em>What My Project Does:</em> CV/resume generator<br /> <em>Target Audience:</em> Academics and engineers<br /> <em>Comparison:</em> JSON Resume, and YAML Resume are popular alternatives. JSON Resume isn't focused on PDF outputs. YAML Resume requires LaTeX installation.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/egehancry\"> /u/egehancry </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1plhus1/rendercv_v25_write_your_cv_in_yaml_version/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1plhus1/rendercv_v25_write_your_cv_in_yaml_version/\">[comments]</a></span>",
+      "author": "/u/egehancry",
+      "published_date": "2025-12-13T09:56:04+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 381,
+      "reading_time": 1,
+      "created_at": "2025-12-13T13:27:53.549019+00:00",
+      "updated_at": "2025-12-13T14:14:03.934561+00:00",
+      "metadata": {
+        "processed_at": "2025-12-13T14:14:03.934563+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a806735d3e88b91da8e447c8c95c6b4a",
+      "url": "https://quant.engineering/exchange-order-book-distributed-logs.html",
+      "title": "How Exchanges Turn Order Books into Distributed Logs",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46192181\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-08T13:48:51+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-13T13:27:52.352687+00:00",
+      "updated_at": "2025-12-13T14:14:03.934565+00:00",
+      "metadata": {
+        "processed_at": "2025-12-13T14:14:03.934567+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "efe224356c89426e20eb9e2065c575c9",
+      "url": "https://www.cnbc.com/2025/12/13/youtubes-ceo-is-latest-tech-boss-limiting-his-kids-social-media-use.html",
+      "title": "YouTube's CEO limits his kids' social media use \u2013 other tech bosses do the same",
+      "content": "<p>Article URL: <a href=\"https://www.cnbc.com/2025/12/13/youtubes-ceo-is-latest-tech-boss-limiting-his-kids-social-media-use.html\">https://www.cnbc.com/2025/12/13/youtubes-ceo-is-latest-tech-boss-limiting-his-kids-social-media-use.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46253985\">https://news.ycombinator.com/item?id=46253985</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "pseudolus",
+      "published_date": "2025-12-13T12:03:51+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-13T12:40:11.452187+00:00",
+      "updated_at": "2025-12-13T14:14:03.934571+00:00",
+      "metadata": {
+        "processed_at": "2025-12-13T14:14:03.934573+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "f9b1f4b66d7d2154c5c63b01ad1002a4",
       "url": "https://github.com/yogananda-muthaiah/SAP-CPQ/tree/main/Integrations/CAD-2d-3d",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "37f72dbe7a25d446fd41e518e7b61b37",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006111?dgcid=rss_sd_all",
-      "title": "Enhancing attentional processing through sensorimotor neurofeedback training: evidence from a placebo-controlled, double-blind, event-related potentials study",
-      "content": "<p>Publication date: 15 December 2025</p><p><b>Source:</b> NeuroImage, Volume 324</p><p>Author(s): Cl\u00e9mence Dousset, Florent Wyckmans, Thibaut Monseigne, Sonia Sistiaga, Ana\u00efs Ingels, Hendrik Kajosch, Matthieu Hein, Salvatore Campanella</p>",
+      "id": "d580a0fb489ba1fbbfa80999d0df37fb",
+      "url": "https://www.nature.com/articles/s41598-025-25575-3",
+      "title": "Bistability and hysteresis in the proximity-based grouping of dot lattices",
+      "content": "",
       "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
+      "published_date": "2025-12-13T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 24,
+      "word_count": 0,
       "reading_time": 1,
-      "created_at": "2025-12-13T09:41:18.625377+00:00",
-      "updated_at": "2025-12-13T10:15:15.948036+00:00",
+      "created_at": "2025-12-13T11:17:32.019916+00:00",
+      "updated_at": "2025-12-13T14:14:03.934576+00:00",
       "metadata": {
-        "processed_at": "2025-12-13T10:15:15.948044+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "10650446bd00d6310435d76e0596cd68",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006184?dgcid=rss_sd_all",
-      "title": "Expertise-related functional connectivity changes in Chinese calligraphy linked to flow experience",
-      "content": "<p>Publication date: 15 December 2025</p><p><b>Source:</b> NeuroImage, Volume 324</p><p>Author(s): Qingyan Kong, Yue Wang, Min Li, Buxin Han, Rui Li</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 18,
-      "reading_time": 1,
-      "created_at": "2025-12-13T09:41:18.625355+00:00",
-      "updated_at": "2025-12-13T10:15:15.948048+00:00",
-      "metadata": {
-        "processed_at": "2025-12-13T10:15:15.948050+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "01e70c44aa00550f9d3c91e06bf0addc",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925005828?dgcid=rss_sd_all",
-      "title": "Combining fast and slow fMRI sampling rates can enhance predictive power in resting-state data",
-      "content": "<p>Publication date: January 2026</p><p><b>Source:</b> NeuroImage, Volume 325</p><p>Author(s): Joanne Wardell, Kseniya Solovyeva, David Danks, Niko Huotari, Vesa J. Kiviniemi, Vesa O. Korhonen, Thomas DeRamus, Godfrey D. Pearlson, Vince Calhoun, Sergey Plis</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 30,
-      "reading_time": 1,
-      "created_at": "2025-12-13T09:41:18.625255+00:00",
-      "updated_at": "2025-12-13T10:15:15.948053+00:00",
-      "metadata": {
-        "processed_at": "2025-12-13T10:15:15.948054+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "86e0231996c0416aba5bc5ba45c9cf4c",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006408?dgcid=rss_sd_all",
-      "title": "Quantitative neuroimaging meets normative modelling: the last mile for precision medicine applications",
-      "content": "<p>Publication date: January 2026</p><p><b>Source:</b> NeuroImage, Volume 325</p><p>Author(s): Lucia Maccioni, Alessio Giacomel, Marco Pinamonti, Mattia De Francisci, Federico Del Pup, Alice Giubergia, Giulia Vallini, Valentina Visani, Leonardo Barzon, Ottavia Dipasquale, Alessandra Bertoldo, Manuela Moretto, Mattia Veronese</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 35,
-      "reading_time": 1,
-      "created_at": "2025-12-13T09:41:18.625221+00:00",
-      "updated_at": "2025-12-13T10:15:15.948056+00:00",
-      "metadata": {
-        "processed_at": "2025-12-13T10:15:15.948058+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "229f86704d6e49544ea941172edfb8fe",
-      "url": "https://news.ycombinator.com/item?id=46252993",
-      "title": "Computer Animator and Amiga fanatic Dick Van Dyke turns 100",
-      "content": "<p>Here's a video from 2004 https://www.youtube.com/watch?v=Y1J9kfDCAmU<p>It's his 100th birthday today.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46252993\">https://news.ycombinator.com/item?id=46252993</a></p>\n<p>Points: 5</p>\n<p># Comments: 2</p>",
-      "author": "ggm",
-      "published_date": "2025-12-13T08:15:48+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 21,
-      "reading_time": 1,
-      "created_at": "2025-12-13T09:40:39.550257+00:00",
-      "updated_at": "2025-12-13T10:15:15.948060+00:00",
-      "metadata": {
-        "processed_at": "2025-12-13T10:15:15.948061+00:00",
+        "processed_at": "2025-12-13T14:14:03.934577+00:00",
         "processing_method": "github_actions"
       }
     }
