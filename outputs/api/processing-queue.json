@@ -1,8 +1,40 @@
 {
-  "last_updated": "2025-12-13T06:23:02.782818+00:00",
-  "pending_count": 720,
-  "processed_count": 280,
+  "last_updated": "2025-12-13T08:19:38.760214+00:00",
+  "pending_count": 718,
+  "processed_count": 282,
   "pending_articles": [
+    {
+      "id": "8d486873b6728e5969fb54b3a44976e8",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1679196",
+      "title": "Cross-modal privacy-preserving synthesis and mixture-of-experts ensemble for robust ASD prediction",
+      "content": "IntroductionAutism Spectrum Disorder (ASD) diagnosis remains complex due to limited access to large-scale multimodal datasets and privacy concerns surrounding clinical data. Traditional methods rely heavily on resource-intensive clinical assessments and are constrained by unimodal or non-adaptive learning models. To address these limitations, this study introduces AutismSynthGen, a privacy-preserving framework for synthesizing multimodal ASD data and enhancing prediction accuracy.Materials and methodsThe proposed system integrates a Multimodal Autism Data Synthesis Network (MADSN), which employs transformer-based encoders and cross-modal attention within a conditional GAN to generate synthetic data across structural MRI, EEG, behavioral vectors, and severity scores. Differential privacy is enforced via DP-SGD (\u03b5\u202f\u2264\u202f1.0). A complementary Adaptive Multimodal Ensemble Learning (AMEL) module, consisting of five heterogeneous experts and a gating network, is trained on both real and synthetic data. Evaluation is conducted on the ABIDE, NDAR, and SSC datasets using metrics such as AUC, F1 score, MMD, KS statistic, and BLEU.ResultsSynthetic augmentation improved model performance, yielding validation AUC gains of \u2265 0.04. AMEL achieved an AUC of 0.98 and an F1 score of 0.99 on real data and approached near-perfect internal performance (AUC\u202f\u2248\u202f1.00, F1\u202f\u2248\u202f1.00) when synthetic data were included. Distributional metrics (MMD\u202f=\u202f0.04; KS\u202f=\u202f0.03) and text similarity (BLEU\u202f=\u202f0.70) demonstrated high fidelity between the real and synthetic samples. Ablation studies confirmed the importance of cross-modal attention and entropy-regularized expert gating.DiscussionAutismSynthGen offers a scalable, privacy-compliant solution for augmenting limited multimodal datasets and enhancing ASD prediction. Future directions include semi-supervised learning, explainable AI for clinical trust, and deployment in federated environments to broaden accessibility while maintaining privacy.",
+      "author": "Karthiga M.",
+      "published_date": "2025-11-19T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 262,
+      "reading_time": 1,
+      "created_at": "2025-12-13T06:32:13.388788+00:00",
+      "updated_at": "2025-12-13T06:32:13.388789+00:00"
+    },
+    {
+      "id": "823dd1378398e3548a94cb72fbf3c72d",
+      "url": "https://www.smashingmagazine.com/2025/04/gild-just-one-lily/",
+      "title": "Gild Just One Lily",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46192212\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-08T13:51:30+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-13T06:31:39.054680+00:00",
+      "updated_at": "2025-12-13T06:31:39.054682+00:00"
+    },
     {
       "id": "dd93c0da7e0290a37200cae996167955",
       "url": "https://www.reddit.com/r/Python/comments/1pl76qm/i_kept_bouncing_between_gui_frameworks_and/",
@@ -130,41 +162,109 @@
       "reading_time": 1,
       "created_at": "2025-12-13T04:35:33.317491+00:00",
       "updated_at": "2025-12-13T04:35:33.317492+00:00"
-    },
-    {
-      "id": "b811f60cb9ba8db0545ea67343bd3ba6",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.10.693384v1?rss=1",
-      "title": "Involvement of the medial prefrontal cortex in food addiction: new insights from in vivo calcium Imaging",
-      "content": "Food addiction is a multifactorial disorder characterized by a loss of control over food intake, contributing to the development of obesity. To investigate the involvement of the prelimbic (PL) medial prefrontal cortex (mPFC) in the transition to food addiction, we examined PL calcium dynamics in mice exhibiting addicted versus non-addicted behavioral phenotypes. Our behavioral results allowed the identification of two distinct subpopulations of addicted and non-addicted mice, enabling direct comparison of their neural activity profiles. Addicted and non-addicted mice showed significant differences across several PL calcium activity parameters. These findings demonstrate a strong association between PL mPFC calcium activity dynamics and key addiction criteria, highlighting a critical role of this brain region in the development of food addiction. Understanding these neurobiological differences enhances our insight into brain mechanisms underlying loss of eating control and may inform more targeted approaches for studying and ultimately treating food addiction.",
-      "author": "Capellan, R., Marin-Blasco, I., Ibanez, C., Perez-Molina, L., Pacheco, J., Andero, R., Maldonado, R., Martin-Garcia, E.",
-      "published_date": "2025-12-12T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 146,
-      "reading_time": 1,
-      "created_at": "2025-12-13T04:35:33.317457+00:00",
-      "updated_at": "2025-12-13T04:35:33.317459+00:00"
-    },
-    {
-      "id": "2c4b9ff0493b73ae6f1249a277646b6d",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.10.693186v1?rss=1",
-      "title": "Deficient processing of regularity violations during visuospatial neglect: a visual mismatch negativity study",
-      "content": "Visuospatial neglect (VSN) after right-hemisphere stroke causes reduced engagement with left-sided stimuli, but how VSN affects automatic processes, i.e. the registration of regularities and regularity violations is still equivocal. This study investigated these processes using event-related potential components C1, C2/N1, and the visual mismatch negativity (vMMN), and how they differ in VSN compared to stroke and healthy controls, and their changes with time and rehabilitation. We applied a passive oddball paradigm, where diamond patterns periodically disappeared (OFF events) and reappeared (ON events) on the lower left and right sides, creating two simultaneous but independent sequences with standard and deviant events. The study included a VSN group (N=17, M=53.88{+/-}0.28 yrs); stroke patients (N=16, M = 56.81{+/-}13.26 yrs); and healthy participants (N=17, M=53.89{+/-}10.79 yrs). The VSN group underwent measurements three times: pre- and post-rehabilitation, and at a 4-month follow-up. Our results show that the C1 component emerged reliably in healthy participants and as a tendency in stroke controls, but not in VSN at any measurement point. The C2/N1 component emerged for all events without group differences. VSN patients showed no reliable vMMN, while it emerged in stroke patients for left-sided OFF events. Healthy controls showed vMMN in every condition. Our results suggest that both stroke and VSN impair the automatic detection of regularity violations, but VSN does so in a more substantial way, and this deficit does not improve with time or rehabilitation. Furthermore, the missing C1 component in VSN may indicate an early-stage deficiency even in visual processing.",
-      "author": "Csikos, N., Kojouharova, P., Szabo, G., Fazekas, G., Gaal, Z. A., Czigler, I.",
-      "published_date": "2025-12-12T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 247,
-      "reading_time": 1,
-      "created_at": "2025-12-13T04:35:33.317423+00:00",
-      "updated_at": "2025-12-13T04:35:33.317425+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "9b7968741403d6b479424052728c8879",
+      "url": "http://ieeexplore.ieee.org/document/10856260",
+      "title": "Front Cover",
+      "content": "null",
+      "author": "",
+      "published_date": "2025-01-28T13:17:19+00:00",
+      "source": "Reviews Biomedical Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 1,
+      "reading_time": 1,
+      "created_at": "2025-12-13T07:41:01.064637+00:00",
+      "updated_at": "2025-12-13T08:19:38.651270+00:00",
+      "metadata": {
+        "processed_at": "2025-12-13T08:19:38.651281+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a00800d0f8a721e2ee8bf7090686baaf",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693701v1?rss=1",
+      "title": "Orbitofrontal noradrenaline mediates volatility-dependent adjustment of learning rate",
+      "content": "Adaptive decision-making in dynamic environments requires flexible adjustment of learning speed to balance stability and flexibility. When outcomes are highly stochastic, learners must avoid over interpreting noise and update more slowly, whereas in volatile environments where contingencies change frequently, learning should accelerate to rapidly incorporate new evidence. Theories propose that internal estimates of uncertainty tune learning rates through neuromodulatory-dependent mechanisms. Here, we investigated how noradrenergic inputs from the locus coeruleus (LC) to the orbitofrontal cortex (OFC) support adaptive learning under uncertainty. We show that rats performing a probabilistic reversal learning task exhibited behavior that was best explained by an adaptive reinforcement-learning model in which learning rates dynamically adjust according to estimated environmental volatility and stochasticity, outperforming standard fixed-rate models. Noradrenaline release in the OFC closely tracked trial-by-trial, model-derived volatility estimates around contingency changes. Disrupting LC[-&gt;]OFC noradrenergic inputs reproduced the model-predicted deficit in volatility-dependent adjustments of learning rate. Together, these findings identify OFC noradrenergic signaling as a key circuit mechanism for volatility-dependent modulation of learning rates during adaptive decision-making.",
+      "author": "Plat, H., Chevallier, C., Piccin, A., Marchand, A. R., Naude, J., Coutureau, E.",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 168,
+      "reading_time": 1,
+      "created_at": "2025-12-13T07:23:22.464153+00:00",
+      "updated_at": "2025-12-13T08:19:38.651285+00:00",
+      "metadata": {
+        "processed_at": "2025-12-13T08:19:38.651287+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "eb8ec46b1eaab2cc1240f4cc797741b7",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693658v1?rss=1",
+      "title": "The Connectome Modulates Critical Brain Dynamics Across Local and Global Scales",
+      "content": "Neuronal activity in the brain has been hypothesized to operate near criticality--a dynamical regime poised between order and disorder that maximizes information processing, adaptability, and dynamic range. While criticality has been extensively studied at local scales (within neuronal populations) and at global scales (across interacting brain regions), the interplay between these levels remains poorly understood. Here, we propose a multiscale computational framework that bridges local and global criticality within a single, mechanistic model. At the mesoscopic level, individual brain regions are represented by neural mass models tuned near the transition between asynchronous and synchronous regimes. These regions are then coupled via an empirically derived mouse connectome to investigate how structural connectivity shapes the emergence of large-scale coordination. We show that (i) local near critical dynamics for an isolated brain region can be faithfully reproduced within a mean-field model framework, (ii) local distance to criticality is modulated by long-range coupling, (iii) whole-brain simulations reveal non-linear gradients of timescales and heterogeneous shifts towards/away from local criticality, and (iv) global criticality, manifested in scale-free avalanche distributions and optimal functional connectivity, emerges when local populations are locally tuned near criticality and coupled within an optimal range. These results demonstrate that local and global criticality are dynamically intertwined but not directly aligned, and that their relationship depends on the underlying structural connectivity. Our multiscale modeling framework provides a tractable tool for generating testable hypotheses on how brain criticality co-arises across scales and how it may be modulated in health and disease.",
+      "author": "Rabuffo, G., Bozzo, P., Nguyen, B., Depannemaecker, D., Pompili, M. N., Gollo, L. L., Fukai, T., Sorrentino, P., Dalla Porta, L.",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 246,
+      "reading_time": 1,
+      "created_at": "2025-12-13T07:23:22.464117+00:00",
+      "updated_at": "2025-12-13T08:19:38.651289+00:00",
+      "metadata": {
+        "processed_at": "2025-12-13T08:19:38.651290+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "b5b26d46cbbde2119cae70a6cc9b7840",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.10.693534v1?rss=1",
+      "title": "Altered Motor Gamma Activity and Hemispheric Lateralisation Reflect Perinatal Maturity in Preterm Children during Motor Control",
+      "content": "Preterm birth, defined as delivery before 37 weeks of gestation, is associated with alterations in brain development and an increased likelihood of motor difficulties, with effects that often persist across childhood. However, the underlying neurophysiological mechanisms remain insufficiently understood. Oscillatory activity in the primary motor cortex is closely linked to motor execution and reflects the dynamic properties of cortical function, yet motor-related oscillations have rarely been examined directly in children born preterm. In this study, we investigated motor-induced gamma oscillations in school-aged children born preterm using magnetoencephalography (MEG). Eighteen children born preterm and nineteen age- and IQ-matched children born at full term (5 to 7 years old) completed a child-friendly dominant-hand finger movement task during recording with a child-customised MEG system. The preterm group exhibited significantly slower response times and approximately twenty-two per cent weaker contralateral gamma power compared with their full-term peers. They also showed reduced hemispheric lateralisation, indicating greater bilateral cortical engagement. Motor-related gamma power and lateralisation indices were positively associated with perinatal factors and motor performance scores. These findings suggest that attenuated gamma activity and altered lateralisation patterns in children born preterm may relate to delayed maturation of motor cortical circuits and variations in callosal development, potentially affecting interhemispheric communication and motor processing efficiency. This study provides new insight into the neurophysiological basis of motor development following preterm birth.",
+      "author": "Sathishkumar, S., Yang, J., Mitani, Y., Hasegawa, C., Ikeda, T., Tanaka, S., Yeom, H.-g., Chan, K. T. J., Waitt, A., Yaoi, K., Iwasaki, S., Saito, D. N., Hirosawa, T., Kikuchi, M., Yoshimura, Y., An, K.-m.",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 222,
+      "reading_time": 1,
+      "created_at": "2025-12-13T07:23:22.464067+00:00",
+      "updated_at": "2025-12-13T08:19:38.651293+00:00",
+      "metadata": {
+        "processed_at": "2025-12-13T08:19:38.651294+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "901b488fbf3debdfd338ae4d920e1974",
+      "url": "https://eavan.blog/posts/beautiful-sandpiles.html",
+      "title": "Beautiful Abelian Sandpiles",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46210044\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-09T20:16:15+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-13T07:22:44.169497+00:00",
+      "updated_at": "2025-12-13T08:19:38.651296+00:00",
+      "metadata": {
+        "processed_at": "2025-12-13T08:19:38.651298+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "b67d432ec9ad5be58f1590f20dd2ff94",
       "url": "https://www.nature.com/articles/s41386-025-02300-2",
@@ -262,106 +362,6 @@
       "updated_at": "2025-12-13T06:23:02.677672+00:00",
       "metadata": {
         "processed_at": "2025-12-13T06:23:02.677673+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d7c766580ef5cadfd7f865a72b7aae3d",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1700144",
-      "title": "Time delays in computational models of neuronal and synaptic dynamics",
-      "content": "",
-      "author": "Mojtaba Madadi Asl",
-      "published_date": "2025-11-10T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-13T03:59:51.462058+00:00",
-      "updated_at": "2025-12-13T04:21:34.724398+00:00",
-      "metadata": {
-        "processed_at": "2025-12-13T04:21:34.724407+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c779788fcd4d043a6254dbbf58fcee0b",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693349v1?rss=1",
-      "title": "Retroreflective beam multiplexing enables high-throughput two-photon voltage imaging in vivo",
-      "content": "Voltage imaging demands technical innovations to realize its full potential in neuroscience. Although two-photon microscopy is widely used in brain research, its imaging speed is insufficient for high-throughput voltage recordings. To overcome this limitation, we developed an all-optical beam multiplexing engine via retroreflection from two near-parallel mirrors. This approach integrates seamlessly with standard two-photon microscopes, enabling kilohertz-frame-rate imaging across a 16-fold expanded field of view while maintaining synaptic resolution. Operating at over 220 megapixels per second, it enables submillisecond imaging of dendritic propagation of action potentials and simultaneous voltage recording from more than 200 hippocampal neurons in head-fixed, behaving mice. This advancement unlocks new possibilities for large-scale, high-speed functional studies in neuroscience.",
-      "author": "Liu, Z., Han, M., Chen, Y., Downs, N. P., Wu, J.",
-      "published_date": "2025-12-12T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 112,
-      "reading_time": 1,
-      "created_at": "2025-12-13T03:17:32.467322+00:00",
-      "updated_at": "2025-12-13T04:21:34.724411+00:00",
-      "metadata": {
-        "processed_at": "2025-12-13T04:21:34.724413+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9d7f98c309a31a2de966b1319cf2d9bc",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.10.693347v1?rss=1",
-      "title": "Reduction of A\u03b225-35-Induced Cognitive Impairments in C57BL/6 Mice Through Focused Ultrasound Thermal-Cycling Stimulation",
-      "content": "Hyperthermia (HT) is recognized across various medical disciplines for its capacity to modulate specific protein expressions. In efforts to improve Alzheimer's disease (AD), HT has the potential to regulate heat shock proteins (HSPs) and antioxidant enzymes, which helps decrease the aberrant accumulation of {beta}-amyloid (A{beta}) protein and oxidative stress. Nonetheless, the precise delivery of mild hyperthermia to the brain remains a significant challenge. To apply mild hyperthermia targeted to the brain and evaluate its impact on cognitive improvement, this study used focused ultrasound (FUS) to administer localized mild hyperthermia to the brains of AD mouse induced by intracerebroventricular (i.c.v.) injection of A{beta}25-35. For considerations of safety and therapeutic efficacy, a thermal-cycling hyperthermia (TC-HT) protocol was adapted into a focused ultrasound thermal-cycling stimulation (FUS-TCS), which was compared with the continuous focused ultrasound hyperthermia stimulation (FUS-HTS). The findings revealed that the FUS-TCS treatment group exhibited a significant improvement in cognitive performance, as evidenced by enhanced outcomes in the Y-maze and novel object recognition (NOR) tests. Furthermore, this group demonstrated increased expression of A{beta}-degrading enzymes and antioxidant proteins, including heat shock protein 70 (HSP70), neprilysin (NEP), insulin degrading enzyme (IDE), sirtuin 1 (SIRT1), and superoxide dismutase 2 (SOD2). These results suggest that localized mild hyperthermia targeting the brain using FUS-TCS treatment represents a promising strategy for ameliorating cognitive deficits associated with AD.",
-      "author": "Lin, G.-B., Liu, H.-H., Kuo, Y.-Y., Chen, Y.-M., Hsu, F.-T., Wang, Y.-W., Kung, Y., Ching, C., Chao, C.-Y.",
-      "published_date": "2025-12-12T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 219,
-      "reading_time": 1,
-      "created_at": "2025-12-13T03:17:32.467285+00:00",
-      "updated_at": "2025-12-13T04:21:34.724418+00:00",
-      "metadata": {
-        "processed_at": "2025-12-13T04:21:34.724419+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "613a712795cae89d04b5c7e3674d9877",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1590994",
-      "title": "Adaptive-expert-weight-based load balance scheme for dynamic routing of MoE",
-      "content": "Load imbalance is a major performance bottleneck in training mixture-of-experts (MoE) models, as unbalanced expert loads can lead to routing collapse. Most existing approaches address this issue by introducing auxiliary loss functions to balance the load; however, the hyperparameters within these loss functions often need to be tuned for different tasks. Furthermore, increasing the number of activated experts tends to exacerbate load imbalance, while fixing the activation count can reduce the model\u2019s confidence in handling difficult tasks. To address these challenges, this paper proposes a dynamically balanced routing strategy that employs a threshold-based dynamic routing algorithm. After each routing step, the method adjusts expert weights to influence the load distribution in the subsequent routing. Unlike loss-function-based balancing methods, our approach operates directly at the routing level, avoiding gradient perturbations that could degrade model quality, while dynamically routing to make more efficient use of computational resources. Experiments on Natural Language Understanding (NLU) benchmarks demonstrate that the proposed method achieves accuracy comparable to top-2 routing, while significantly reducing the load standard deviation (e.g., from 12.25 to 1.18 on MNLI). In addition, threshold-based dynamic expert activation reduces model parameters and provides a new perspective for mitigating load imbalance among experts.",
-      "author": "Peng Cheng",
-      "published_date": "2025-10-14T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 197,
-      "reading_time": 1,
-      "created_at": "2025-12-13T03:17:18.521897+00:00",
-      "updated_at": "2025-12-13T04:21:34.724422+00:00",
-      "metadata": {
-        "processed_at": "2025-12-13T04:21:34.724423+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "99d8f09159523aed2385073522291c7b",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1663565",
-      "title": "TSLNet: a hierarchical multi-head attention-enabled two-stream LSTM network for accurate pedestrian tracking and behavior recognition",
-      "content": "Accurate pedestrian tracking and behavior recognition are essential for intelligent surveillance, smart transportation, and human-computer interaction systems. This paper introduces TSLNet, a Hierarchical Multi-Head Attention-Enabled Two-Stream LSTM Network, designed to overcome challenges such as environmental variability, high-density crowds, and diverse pedestrian movements in real-world video data. TSLNet combines a Two-Stream Convolutional Neural Network (Two-Stream CNN) with Long Short-Term Memory (LSTM) networks to effectively capture spatial and temporal features. The addition of a Multi-Head Attention mechanism allows the model to focus on relevant features in complex environments, while Hierarchical Classifiers within a Multi-Task Learning framework enable the simultaneous recognition of basic and complex behaviors. Experimental results on multiple public and proprietary datasets demonstrate that TSLNet significantly outperforms existing baseline models, achieving higher Accuracy, Precision, Recall, F1-Score, and Mean Average Precision (mAP) in behavior recognition, as well as superior Multiple Object Tracking Accuracy (MOTA) and ID F1 Score (IDF1) in pedestrian tracking. These improvements highlight TSLNet\u2019s effectiveness in enhancing tracking and recognition performance.",
-      "author": "Xiaoting Ma",
-      "published_date": "2025-10-20T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 161,
-      "reading_time": 1,
-      "created_at": "2025-12-13T03:17:18.521854+00:00",
-      "updated_at": "2025-12-13T04:21:34.724426+00:00",
-      "metadata": {
-        "processed_at": "2025-12-13T04:21:34.724428+00:00",
         "processing_method": "github_actions"
       }
     }
