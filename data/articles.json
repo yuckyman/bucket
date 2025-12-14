@@ -1,5 +1,21 @@
 [
   {
+    "id": "7a8f872dd63b73ffd0ee7fcd46bc06a5",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1706099",
+    "title": "CNN-based framework for Alzheimer's disease detection from EEG via dynamic mode decomposition",
+    "content": "Alzheimer's disease (AD) and frontotemporal dementia (FTD) are major neurodegenerative disorders with characteristic EEG alterations. While most prior studies have focused on eyes-closed (EC) EEG, where stable alpha rhythms support relatively high classification performance, eyes-open (EO) EEG has proven particularly challenging for AD, as low-frequency instability obscures the typical spectral alterations. In contrast, FTD often remains more discriminable under EO conditions, reflecting distinct neurophysiological dynamics between the two disorders. To address this challenge, we propose a CNN-based framework that applies Dynamic Mode Decomposition (DMD) to segment EO EEG into shorter temporal windows and employs a 3D CNN to capture spatio-temporal-spectral representations. This approach outperformed not only the conventional short-epoch spectral ML pipeline but also the same CNN architecture trained on FFT-based features, with particularly pronounced improvements observed in AD classification. Excluding delta yielded small gains in AD-involving contrasts, whereas FTD/CN was unchanged or slightly better with delta retained\u2014suggesting delta is more perturbative in AD under EO conditions.",
+    "author": "Jong-Hyeon Seo",
+    "published_date": "2025-11-20T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 157,
+    "reading_time": 1,
+    "created_at": "2025-12-14T10:43:51.793228+00:00",
+    "updated_at": "2025-12-14T10:43:51.793229+00:00"
+  },
+  {
     "id": "caf4444d63250596fcb4ab022d2ad8c8",
     "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.693961v1?rss=1",
     "title": "Contextual associations impact visual search across multiple processing stages",
@@ -17126,21 +17142,5 @@
     "reading_time": 1,
     "created_at": "2025-12-09T19:16:04.058868+00:00",
     "updated_at": "2025-12-09T19:16:04.058870+00:00"
-  },
-  {
-    "id": "6dfdc1ca21de1312159ce0b22daf3e13",
-    "url": "https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html",
-    "title": "So You Want to Speak at Software Conferences?",
-    "content": "<p>Article URL: <a href=\"https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html\">https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46208773\">https://news.ycombinator.com/item?id=46208773</a></p>\n<p>Points: 14</p>\n<p># Comments: 1</p>",
-    "author": "speckx",
-    "published_date": "2025-12-09T18:42:27+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-09T19:16:02.685452+00:00",
-    "updated_at": "2025-12-09T19:16:02.685460+00:00"
   }
 ]
