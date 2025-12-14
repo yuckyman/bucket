@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-14T06:22:50.170218+00:00",
+  "last_updated": "2025-12-14T06:32:57.021745+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "93a385a32c5141b86dd76eb9b0da6f3c",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693415v1?rss=1",
+      "title": "Integrative Analysis of Spatial Transcriptome and Connectome by SpaCon",
+      "content": "The brain's structure and function arise from its complex molecular composition and neural connectivity, yet the relationship between cell-type-specific gene expression and brain-wide connectivity is not well understood. By integrating single-cell resolution spatial transcriptomics and connectomics, we reveal a tight coupling between gene expression and anatomical connectivity in the cortico-thalamic circuit, and identify specific gene expression in axons of the corpus callosum that reflect their cortical origins. Building on these findings, we developed SpaCon, a graph attention autoencoder that uses a tunable hyperparameter to flexibly integrate global connectivity with local gene expression. To enable analysis at the whole-brain scale, SpaCon introduces an efficient neighbor sampling strategy that drastically reduces computational requirements without compromising performance. This architecture allows the model to identify functionally relevant three-dimensional domains defined by both molecular identity and shared connectivity patterns, even when spatially distant. Validated across diverse datasets and species, SpaCon significantly enhances the prediction of connectivity from gene expression and improves the spatial classification of neuronal subtypes. SpaCon thus provides a powerful, scalable, and versatile framework for understanding the complex relationship between transcriptome and connectome.",
+      "author": "Qu, H., Li, W., Fei, Y., Zhao, S., Han, J., Liu, C.",
+      "published_date": "2025-12-13T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 180,
+      "reading_time": 1,
+      "created_at": "2025-12-14T06:32:19.244888+00:00",
+      "updated_at": "2025-12-14T06:32:19.244890+00:00"
+    },
+    {
+      "id": "66e1c5dd6a3bf0b5b3a13d96709fb070",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693654v1?rss=1",
+      "title": "Intra- and Interhemispheric Signatures of Criticality at the Onset of Synchronization",
+      "content": "The cerebral cortex must flexibly alternate between locally segregated activity that supports specialization and long-range interactions that enable integration. How cortical networks balance these competing demands remains unclear. We propose that fluctuations around a critical point between ordered and disordered phases provide a natural framework to understand coordinated neuronal activity across scales. Using simultaneous spiking recordings from the left and right prefrontal cortex (PFC) of freely behaving rats, we found that signatures of criticality emerged at the onset of neuronal synchronization, both locally within individual hemispheres and globally across the combined population. Over time, cortical activity explored a continuum of intra- and interhemispheric synchrony levels, including states in which neurons were locally desynchronized yet maintained interhemispheric coupling. A computational model operating near its critical regime reproduced these empirical patterns, capturing the characteristic relationship between local and long-range coordination. These results suggest that cortical networks achieve flexible transitions between local and global computation by fluctuating around a critical regime.",
+      "author": "Dalla Porta, L., Bozzo, P., Pompili, M. N., Depannemaecker, D., Fontenele, A. J., Fukai, T., Sorrentino, P., Rabuffo, G.",
+      "published_date": "2025-12-13T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 158,
+      "reading_time": 1,
+      "created_at": "2025-12-14T06:32:19.244845+00:00",
+      "updated_at": "2025-12-14T06:32:19.244850+00:00"
+    },
     {
       "id": "97236860d496053a0c92ee573ab360df",
       "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae1b3b",
@@ -309,42 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-14T04:37:01.572154+00:00",
       "updated_at": "2025-12-14T04:37:01.572156+00:00"
-    },
-    {
-      "id": "a6b30219cd2f0ccff0af9b67e464f2fd",
-      "url": "https://www.techrepublic.com/article/news-tiobe-commentary-dec-2025/",
-      "title": "Tiobe Index for December 2025: R Joins the Top as SQL Climbs",
-      "content": "<p>Article URL: <a href=\"https://www.techrepublic.com/article/news-tiobe-commentary-dec-2025/\">https://www.techrepublic.com/article/news-tiobe-commentary-dec-2025/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46260686\">https://news.ycombinator.com/item?id=46260686</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
-      "author": "smurda",
-      "published_date": "2025-12-14T04:11:05+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-14T04:37:01.572100+00:00",
-      "updated_at": "2025-12-14T04:37:01.572109+00:00"
-    },
-    {
-      "id": "690172fc8c6f4dccdec45404afb605f5",
-      "url": "https://alavi.me/blog/e-ink-tablet-as-monitor-linux/",
-      "title": "Using E-Ink tablet as monitor for Linux",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46205089\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-09T14:10:41+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-14T03:39:18.109341+00:00",
-      "updated_at": "2025-12-14T04:32:53.645623+00:00",
-      "metadata": {
-        "processed_at": "2025-12-14T04:32:53.645634+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }

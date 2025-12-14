@@ -1,5 +1,37 @@
 [
   {
+    "id": "93a385a32c5141b86dd76eb9b0da6f3c",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693415v1?rss=1",
+    "title": "Integrative Analysis of Spatial Transcriptome and Connectome by SpaCon",
+    "content": "The brain's structure and function arise from its complex molecular composition and neural connectivity, yet the relationship between cell-type-specific gene expression and brain-wide connectivity is not well understood. By integrating single-cell resolution spatial transcriptomics and connectomics, we reveal a tight coupling between gene expression and anatomical connectivity in the cortico-thalamic circuit, and identify specific gene expression in axons of the corpus callosum that reflect their cortical origins. Building on these findings, we developed SpaCon, a graph attention autoencoder that uses a tunable hyperparameter to flexibly integrate global connectivity with local gene expression. To enable analysis at the whole-brain scale, SpaCon introduces an efficient neighbor sampling strategy that drastically reduces computational requirements without compromising performance. This architecture allows the model to identify functionally relevant three-dimensional domains defined by both molecular identity and shared connectivity patterns, even when spatially distant. Validated across diverse datasets and species, SpaCon significantly enhances the prediction of connectivity from gene expression and improves the spatial classification of neuronal subtypes. SpaCon thus provides a powerful, scalable, and versatile framework for understanding the complex relationship between transcriptome and connectome.",
+    "author": "Qu, H., Li, W., Fei, Y., Zhao, S., Han, J., Liu, C.",
+    "published_date": "2025-12-13T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 180,
+    "reading_time": 1,
+    "created_at": "2025-12-14T06:32:19.244888+00:00",
+    "updated_at": "2025-12-14T06:32:19.244890+00:00"
+  },
+  {
+    "id": "66e1c5dd6a3bf0b5b3a13d96709fb070",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693654v1?rss=1",
+    "title": "Intra- and Interhemispheric Signatures of Criticality at the Onset of Synchronization",
+    "content": "The cerebral cortex must flexibly alternate between locally segregated activity that supports specialization and long-range interactions that enable integration. How cortical networks balance these competing demands remains unclear. We propose that fluctuations around a critical point between ordered and disordered phases provide a natural framework to understand coordinated neuronal activity across scales. Using simultaneous spiking recordings from the left and right prefrontal cortex (PFC) of freely behaving rats, we found that signatures of criticality emerged at the onset of neuronal synchronization, both locally within individual hemispheres and globally across the combined population. Over time, cortical activity explored a continuum of intra- and interhemispheric synchrony levels, including states in which neurons were locally desynchronized yet maintained interhemispheric coupling. A computational model operating near its critical regime reproduced these empirical patterns, capturing the characteristic relationship between local and long-range coordination. These results suggest that cortical networks achieve flexible transitions between local and global computation by fluctuating around a critical regime.",
+    "author": "Dalla Porta, L., Bozzo, P., Pompili, M. N., Depannemaecker, D., Fontenele, A. J., Fukai, T., Sorrentino, P., Rabuffo, G.",
+    "published_date": "2025-12-13T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 158,
+    "reading_time": 1,
+    "created_at": "2025-12-14T06:32:19.244845+00:00",
+    "updated_at": "2025-12-14T06:32:19.244850+00:00"
+  },
+  {
     "id": "97236860d496053a0c92ee573ab360df",
     "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae1b3b",
     "title": "Distance of bipolar re-referencing imparts nonlinear frequency-specific influences on intracranial recording signal measurements",
@@ -17070,37 +17102,5 @@
     "reading_time": 1,
     "created_at": "2025-12-09T18:28:44.386064+00:00",
     "updated_at": "2025-12-09T18:28:44.386066+00:00"
-  },
-  {
-    "id": "9364d07e82e444eb1a1229f415cf5e01",
-    "url": "https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/",
-    "title": "How Private Equity Is Changing Housing",
-    "content": "<p>Article URL: <a href=\"https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/\">https://www.theatlantic.com/ideas/2025/12/private-equity-housing-changes/685138/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46207727\">https://news.ycombinator.com/item?id=46207727</a></p>\n<p>Points: 21</p>\n<p># Comments: 16</p>",
-    "author": "harambae",
-    "published_date": "2025-12-09T17:26:33+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-09T18:28:44.386000+00:00",
-    "updated_at": "2025-12-09T18:28:44.386002+00:00"
-  },
-  {
-    "id": "a23c47bc3b548e2972286424160a176f",
-    "url": "https://detail.dev/",
-    "title": "Show HN: Detail, a Bug Finder",
-    "content": "<p>Hi HN, tl;dr we built a bug finder that's working really well, especially for app backends. Try it out and send us your thoughts!<p>Long story below.<p>--------------------------<p>We originally set out to work on technical debt. We had all seen codebases with a lot of debt, so we had personal grudges about the problem, and AI seemed to be making it a lot worse.<p>Tech debt also seemed like a great problem for AI because: 1) a small portion of the work is thinky and strategic, and then the bulk of the execution is pretty mechanical, and 2) when you're solving technical debt, you're usually trying to preserve existing behavior, just change the implementation. That means you can treat it as a closed-loop problem if you figure out good ways to detect unintended behavior changes due to a code change. And we know how to do that \u2013 that's what tests are for!<p>So we started with writing tests. Tests create the guardrails that make future code changes safer. Our thinking was: if we can test well enough, we can automate a lot of other tech debt work at very high quality.<p>We built an agent that could write thousands of new tests for a typical codebase, most \"merge-quality\". Some early users merged hundreds of PRs generated this way, but intuitively the tool always felt \"good but not great\". We used it sporadically ourselves, and it usually felt like a chore.<p>Around this point we realized: while we had set out to write good tests, we had built a system that, with a few tweaks, might be very good at finding bugs. When we tested it out on some friends' codebases, we discovered that almost every repo has tons of bugs lurking in it that we were able to flag. Serious bugs, interesting enough that people dropped what they were doing to fix them. Sitting right there in peoples codebases, already merged, running in prod.<p>We also found a lot of vulns, even in mature codebases, and sometimes even right after someone had gotten a pentest.<p>Under the hood:\n- We check out a codebase and figure out how to build it for local dev and exercise it with tests.\n- We take snapshots of the built local dev state. (We use Runloop for this and are big fans.)\n- We spin up hundreds of copies of the local dev environment to exercise the codebase in thousands of ways and flag behaviors that seem wrong.\n- We pick the most salient, scary examples and deliver them as linear tickets, github issues, or emails.<p>In practice, it's working pretty well. We've been able to find bugs in everything from compilers to trading platforms (even in rust code), but the sweet spot is app backends.<p>Our approach trades compute for quality. Our codebase scans take hours, far beyond what would be practical for a code review bot. But the result is that we can make more judicious use of engineers\u2019 attention, and we think that\u2019s going to be the most important variable.<p>Longer term, we think compute is cheap, engineer attention is expensive. Wielded properly, the newest models can execute complicated changes, even in large codebases. That means the limiting reagent in building software is human attention. It still takes time and focus for an engineer to ingest information, e.g. existing code, organizational context, and product requirements. These are all necessary before an engineer can articulate what they want in precise terms and do a competent job reviewing the resulting diff.<p>For now we're finding bugs, but the techniques we're developing extend to a lot of other background, semi-proactive work to improve codebases.<p>Try it out and tell us what you think. Free first scan, no credit card required: <a href=\"https://detail.dev/\" rel=\"nofollow\">https://detail.dev/</a><p>We're also scanning on OSS repos, if you have any requests. The system is pretty high signal-to-noise, but we don't want to risk annoying maintainers by automatically opening issues, so if you request a scan for an OSS repo the results will go to you personally. <a href=\"https://detail.dev/oss\" rel=\"nofollow\">https://detail.dev/oss</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46207852\">https://news.ycombinator.com/item?id=46207852</a></p>\n<p>Points: 16</p>\n<p># Comments: 4</p>",
-    "author": "drob",
-    "published_date": "2025-12-09T17:35:35+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 676,
-    "reading_time": 3,
-    "created_at": "2025-12-09T18:28:44.385967+00:00",
-    "updated_at": "2025-12-09T18:28:44.385975+00:00"
   }
 ]
