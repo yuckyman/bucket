@@ -1,5 +1,53 @@
 [
   {
+    "id": "2e4a875c02aea0df6051cfd87e0cbe00",
+    "url": "https://abseil.io/fast/99",
+    "title": "Illuminating the processor core with LLVM-mca",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46263530\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-14T15:05:06+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-14T15:40:16.069797+00:00",
+    "updated_at": "2025-12-14T15:40:16.069798+00:00"
+  },
+  {
+    "id": "c677cf4e7cb285f81e9b13ad025cb952",
+    "url": "https://boringsql.com/posts/vacuum-is-lie/",
+    "title": "Vacuum Is a Lie: About Your Indexes",
+    "content": "<p>Article URL: <a href=\"https://boringsql.com/posts/vacuum-is-lie/\">https://boringsql.com/posts/vacuum-is-lie/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46262777\">https://news.ycombinator.com/item?id=46262777</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+    "author": "birdculture",
+    "published_date": "2025-12-14T13:13:41+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-14T15:40:14.714704+00:00",
+    "updated_at": "2025-12-14T15:40:14.714705+00:00"
+  },
+  {
+    "id": "2e4a875c02aea0df6051cfd87e0cbe00",
+    "url": "https://abseil.io/fast/99",
+    "title": "Illuminating the processor core with LLVM-mca",
+    "content": "<p>Article URL: <a href=\"https://abseil.io/fast/99\">https://abseil.io/fast/99</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46263530\">https://news.ycombinator.com/item?id=46263530</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+    "author": "ckennelly",
+    "published_date": "2025-12-14T15:05:06+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-14T15:40:14.714635+00:00",
+    "updated_at": "2025-12-14T15:40:14.714643+00:00"
+  },
+  {
     "id": "7435952e0834ce3bab69423a0615bac7",
     "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1691300",
     "title": "UHGAN: a dual-phase GAN with Hough-transform constraints for accurate farmland road extraction",
@@ -17092,66 +17140,6 @@
     "updated_at": "2025-12-09T22:16:26.282771+00:00",
     "metadata": {
       "processed_at": "2025-12-09T22:16:26.282772+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "679964155747860513942de576837e09",
-    "url": "https://www.biorxiv.org/content/10.64898/2025.12.05.692551v1?rss=1",
-    "title": "Loss of neurexins disrupts inhibitory connectivity and increases vulnerability of dopamine neurons in culture",
-    "content": "Midbrain dopamine (DA) neurons are essential regulators of basal ganglia function. Their axonal structure is intricate, with numerous non-synaptic release sites and fewer synaptic terminals that notably release glutamate or GABA. Despite their significance, the molecular mechanisms governing DA neuron connectivity and neurochemical identity remain poorly understood. We hypothesize that trans-synaptic cell adhesion molecules such as neurexins (Nrxns) regulate the interactions of DA neuron axons with target cells and thereby influence axonal branching and synapse formation by DA neurons. We therefore examined neuronal survival, axonal growth and synapse formation in cultured DA neurons lacking all neurexins (DAT::NrxnsKO). Conditional deletion of all Nrxns in DA neurons revealed that loss of Nrxns does not disrupt the basic development of these neurons or the structure of their axonal terminals, including normal expression of the vesicular monoamine transporter (VMAT2) and the calcium sensor synaptotagmin 1 (Syt1). However, loss of Nrxns affects the survival of DA neurons and their formation of inhibitory synapses, suggesting that Nrxns regulate the axonal connectivity of these neurons.",
-    "author": "ducrot, c., Tchung, A., Burke, S., Pacelli, C., Trudeau, L.-E.",
-    "published_date": "2025-12-09T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 168,
-    "reading_time": 1,
-    "created_at": "2025-12-09T21:19:52.738680+00:00",
-    "updated_at": "2025-12-09T22:16:26.282775+00:00",
-    "metadata": {
-      "processed_at": "2025-12-09T22:16:26.282777+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "2278454d91c8f0b880fcd95cdb54ebad",
-    "url": "https://www.reddit.com/r/Python/comments/1pij98g/what_is_the_marker_of_a_project_root_for_uv_to/",
-    "title": "What is the marker of a project root for uv to create the .venv there?",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>By default <code>uv</code> will create a venv folder at the project root if none is present. During operation also <code>uv</code> is smart enough to find the correct venv if invoked in a sub folder. </p> <p>Naively I thought that <code>uv</code>, when invoked, would check for a valid pyproject.toml, and the travnverse the tree path upward until it would find one. </p> <p>Then I learned about <a href=\"https://docs.astral.sh/uv/reference/settings/#workspace\">uv workspace</a> and discovered of being wrong:</p> <ul> <li>a workspace is composed by a parent pyproject.toml and many children pyproject.toml. </li> <li>the venv and lock file are created only at the parent folder (all the children share the same dependecies) </li> <li>the children pyproject.toml do not shows any information about being a member of the workspace </li> <li>only the parent pyproject.toml keeps a list of the child members of the workspace. </li> </ul> <p>I tried to ask few AI, but their response is between too generic or wrong ish. I had a look at the source code, but I'm no familiar with rust at all, and there is a lot of it. </p> <p>I ask because I kinda need the same functionality, find a specific env file at the root of a project, if present. I got it working, but mostly by chance: I intended to stop looking at the project root, assuming no nested pyproject.toml where a thing, but instead traverse the tree up until system root, while keeping track of the most upward pyproject.toml, if no file is found (if the file is found, the search stop there, does not go further) </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/komprexior\"> /u/komprexior </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pij98g/what_is_the_marker_of_a_project_root_for_uv_to/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pij98g/what_is_the_marker_of_a_project_root_for_uv_to/\">[comments]</a></span>",
-    "author": "/u/komprexior",
-    "published_date": "2025-12-09T21:04:25+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 282,
-    "reading_time": 1,
-    "created_at": "2025-12-09T21:19:10.837335+00:00",
-    "updated_at": "2025-12-09T22:16:26.282779+00:00",
-    "metadata": {
-      "processed_at": "2025-12-09T22:16:26.282780+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "e1322a61233c937e9c914ef6713ca4db",
-    "url": "https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/",
-    "title": "Django: What's new in 6.0 \u2013 Adam Johnson",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46210240\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-09T20:33:14+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-09T21:19:09.490954+00:00",
-    "updated_at": "2025-12-10T03:18:57.501063+00:00",
-    "metadata": {
-      "processed_at": "2025-12-10T03:18:57.501065+00:00",
       "processing_method": "github_actions"
     }
   }
