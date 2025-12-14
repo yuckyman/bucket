@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-14T05:22:16.417373+00:00",
+  "last_updated": "2025-12-14T05:44:30.326775+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "97236860d496053a0c92ee573ab360df",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae1b3b",
+      "title": "Distance of bipolar re-referencing imparts nonlinear frequency-specific influences on intracranial recording signal measurements",
+      "content": "Obective. Bipolar re-referencing (BPRR), in which one electrode\u2019s signal is subtracted from a neighboring electrode to produce a differential signal, can improve signal readability and refine localization for intracranial electroencephalography. There is wide variation in manufactured electrode array spacing, yet how BPRR affects specific frequencies at precise inter-electrode distances has not been systematically evaluated. Approach. Intracranial recordings with uniquely large numbers of electrodes were obtained for sixteen patients with drug-resistant epilepsy. We evaluated combinations of high-density subdural grid, depth, and strip electrodes (n = 3,664, 742, and 336) with manufactured linear inter-electrode distances of 4, 5, and 10 mm, respectively. BPRR was performed using all possible electrode pairs (n = 445 305 grid, 16 004 depth, 3278 strip) spanning distances from 2\u201360 mm. Multi-taper power spectra were generated separately for grid, depth, and strip contacts. Distances were consolidated across patients and anatomical areas for generalizability, and distance-related influences on task-related brain activity and quantitative interictal epileptiform discharge localization were evaluated. Main results. We identified 8 mm as a consistent reversal point for BPRR, below which low-frequency signals (<30 Hz) had consistently decreased power, and higher frequencies had increased power. Larger distances increased all broadband (2\u2013200 Hz) signals. Task-related increases in superior temporal gyrus 50\u2013200 Hz activity were consistently enhanced across 4\u201340 mm bipolar distances. There were non-significant difference trends between 4 and 8 mm re-referencing on epileptiform discharge detection. Significance. BPRR distance imposed specific transition points for distance and frequency (roughly 8 mm and \u223c30 Hz, respectively) that produced differential effects on measurements of signal power. The consistency across brain regions and electrode types (depth, subdural) suggests these influences are physical brain bio-signal properties, potentially related to spatial wavelength of periodic oscillations in lower frequencies in contrast to more aperiodic activity in higher frequencies. A distance-frequency relation map is provided to help optimize neural signal biomarker quality for intracranial applications by guiding strategic re-referencing distance selection.",
+      "author": "David J Caldwell, Devon Krish, Edward F Chang and Jonathan K Kleen",
+      "published_date": "2025-11-26T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 316,
+      "reading_time": 1,
+      "created_at": "2025-12-14T05:43:44.464054+00:00",
+      "updated_at": "2025-12-14T05:43:44.464056+00:00"
+    },
+    {
+      "id": "229dded172a9c2ced8d379f74bb783d0",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae20c2",
+      "title": "OpenXstim: an open-source programmable electrical stimulator for transcutaneous spinal cord stimulation therapy",
+      "content": "Objective. Transcutaneous spinal cord stimulation, a non-invasive spinal cord neuromodulation method holds tremendous promise and hope to restore functions in individuals with paralysis resulting from spinal cord injury (SCI), cerebral palsy, stroke and other neurological conditions. Yet, there are relatively few options for such stimulation devices compared to conventional stimulators commonly used for neuromuscular electrical stimulation, transcutaneous electrical nerve stimulation, and functional electrical stimulation, particularly for people with neurological conditions in the developing countries. Approach. In this report, we present OpenXstim, an open-source, two-channel programmable electrical stimulator developed to advance research in non-invasive muscle, nerve, or spinal cord stimulation treatments. Main results. OpenXstim can deliver current pulses up to 110 mA with a compliance voltage of 96 V per channel. In benchtop testing, we found that the stimulator successfully generates high frequency (9 kHz) burst stimulation, a mode commonly used for spinal cord neuromodulation. The stimulator was further tested in two individuals with SCI and showed preliminary indications of functional improvement. However, large controlled trials are needed to establish efficacy. Although special care was taken in the design of the stimulator to ensure user safety, users are strongly warned to handle the device with utmost caution, as it can generate high voltage and current that may cause adverse health effects if not used properly. Significance. This programmable, open-source stimulator offers tangible hope for improving the accessibility of non-invasive neuromodulation treatments for people with paralysis worldwide. The design and complete source-code of the stimulator are freely available online in a public repository: https://github.com/OpenMedTech-Lab/OpenXstim",
+      "author": "Monzurul Alam, Vaheh Nazari, Md Akhlasur Rahman, Vijayapriya Arumugam, Naveena Narayanan, Farjana Taoheed, Md Shofiqul Islam, Padmanabhan Thirunavukkarasu, Mohammad Sohrab Hossain and Alistair McEwan",
+      "published_date": "2025-11-27T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 252,
+      "reading_time": 1,
+      "created_at": "2025-12-14T05:43:44.463975+00:00",
+      "updated_at": "2025-12-14T05:43:44.463976+00:00"
+    },
     {
       "id": "9780150b7e91ef1dffbcc7a5b5e97109",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693625v1?rss=1",
@@ -291,46 +323,6 @@
       "updated_at": "2025-12-14T04:32:53.645623+00:00",
       "metadata": {
         "processed_at": "2025-12-14T04:32:53.645634+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7ab867344cefe4500cde32b382c1f114",
-      "url": "https://www.jsoftware.com/ioj/ioj.htm",
-      "title": "An Implementation of J",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46259702\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-14T00:34:56+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-14T03:39:18.109242+00:00",
-      "updated_at": "2025-12-14T04:32:53.645638+00:00",
-      "metadata": {
-        "processed_at": "2025-12-14T04:32:53.645640+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7ab867344cefe4500cde32b382c1f114",
-      "url": "https://www.jsoftware.com/ioj/ioj.htm",
-      "title": "An Implementation of J",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46259702\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-14T00:34:56+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-14T03:39:18.109242+00:00",
-      "updated_at": "2025-12-14T04:32:53.645638+00:00",
-      "metadata": {
-        "processed_at": "2025-12-14T04:32:53.645640+00:00",
         "processing_method": "github_actions"
       }
     }
