@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-12-14T06:22:50.169640+00:00",
-  "pending_count": 724,
-  "processed_count": 276,
+  "last_updated": "2025-12-14T08:19:59.012931+00:00",
+  "pending_count": 719,
+  "processed_count": 281,
   "pending_articles": [
     {
       "id": "3f383d5ca3fc3323f61a8f9b7e1a7211",
@@ -166,6 +166,106 @@
   ],
   "recently_processed": [
     {
+      "id": "67ed4a27fe37694814325aadd544b990",
+      "url": "https://www.reddit.com/r/Python/comments/1pm6pu5/pydanticdeepagents_autonomous_agents_with/",
+      "title": "Pydantic-DeepAgents: Autonomous Agents with Planning, File Ops, and More in Python",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"/r/Python\">r/Python</a>!</p> <p>I just built and released a new open-source project: <strong>Pydantic-DeepAgents</strong> \u2013 a Python Deep Agent framework built on top of Pydantic-AI.</p> <p>Check out the repo here: <a href=\"https://github.com/vstorm-co/pydantic-deepagents?referrer=grok.com\">https://github.com/vstorm-co/pydantic-deepagents</a></p> <p>Stars, forks, and PRs are welcome if you're interested!</p> <p><strong>What My Project Does</strong><br /> Pydantic-DeepAgents is a framework that enables developers to rapidly build and deploy production-grade autonomous AI agents. It extends Pydantic-AI by providing advanced agent capabilities such as planning, filesystem operations, subagent delegation, and customizable skills. Agents can process tasks autonomously, handle file uploads, manage long conversations through summarization, and support human-in-the-loop workflows. It includes multiple backends for state management (e.g., in-memory, filesystem, Docker sandbox), rich toolsets for tasks like to-do lists and skills, structured outputs via Pydantic models, and full streaming support for responses.</p> <p>Key features include:</p> <ul> <li><strong>Multiple Backends</strong>: StateBackend (in-memory), FilesystemBackend, DockerSandbox, CompositeBackend</li> <li><strong>Rich Toolsets</strong>: TodoToolset, FilesystemToolset, SubAgentToolset, SkillsToolset</li> <li><strong>File Uploads</strong>: Upload files for agent processing with run_with_files() or deps.upload_file()</li> <li><strong>Skills System</strong>: Extensible skill definitions with markdown prompts</li> <li><strong>Structured Output</strong>: Type-safe responses with Pydantic models via output_type</li> <li><strong>Context Management</strong>: Automatic conversation summarization for long sessions</li> <li><strong>Human-in-the-Loop</strong>: Built-in support for human confirmation workflows</li> <li><strong>Streaming</strong>: Full streaming support for agent responses</li> </ul> <p>I've also included a demo application built on this framework \u2013 check out the full app example in the repo: <a href=\"https://github.com/vstorm-co/pydantic-deepagents/tree/main/examples/full_app?referrer=grok.com\">https://github.com/vstorm-co/pydantic-deepagents/tree/main/examples/full_app</a></p> <p>Plus, here's a quick demo video: <a href=\"https://drive.google.com/file/d/1hqgXkbAgUrsKOWpfWdF48cqaxRht-8od/view?usp=sharing&amp;referrer=grok.com\">https://drive.google.com/file/d/1hqgXkbAgUrsKOWpfWdF48cqaxRht-8od/view?usp=sharing</a></p> <p>And don't miss the screenshot in the README for a visual overview!</p> <p><strong>Comparison</strong><br /> Compared to popular open-source agent frameworks like LangChain or CrewAI, Pydantic-DeepAgents is more tightly integrated with Pydantic for type-safe, structured data handling, making it lighter-weight and easier to extend for production use. Unlike AutoGen (which focuses on multi-agent collaboration), it emphasizes deep agent features like customizable skills and backends (e.g., Docker sandbox for isolation), while avoiding the complexity of larger ecosystems. It's an extension of Pydantic-AI, so it inherits its simplicity but adds agent-specific tools that aren't native in base Pydantic-AI or simpler libraries like Semantic Kernel.</p> <p>Thanks! \ud83d\ude80</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/VanillaOk4593\"> /u/VanillaOk4593 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pm6pu5/pydanticdeepagents_autonomous_agents_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pm6pu5/pydanticdeepagents_autonomous_agents_with/\">[comments]</a></span>",
+      "author": "/u/VanillaOk4593",
+      "published_date": "2025-12-14T05:54:14+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 350,
+      "reading_time": 1,
+      "created_at": "2025-12-14T07:39:19.036697+00:00",
+      "updated_at": "2025-12-14T08:19:58.906853+00:00",
+      "metadata": {
+        "processed_at": "2025-12-14T08:19:58.906863+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ef1a32382d344ddf8cd2410e81889f50",
+      "url": "https://www.sanity.io/blog/you-should-never-build-a-cms",
+      "title": "\"You should never build a CMS\"",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46261020\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-14T05:38:52+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-14T07:39:17.859343+00:00",
+      "updated_at": "2025-12-14T08:19:58.906867+00:00",
+      "metadata": {
+        "processed_at": "2025-12-14T08:19:58.906868+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ef1a32382d344ddf8cd2410e81889f50",
+      "url": "https://www.sanity.io/blog/you-should-never-build-a-cms",
+      "title": "\"You should never build a CMS\"",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46261020\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-14T05:38:52+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-14T07:39:17.859343+00:00",
+      "updated_at": "2025-12-14T08:19:58.906867+00:00",
+      "metadata": {
+        "processed_at": "2025-12-14T08:19:58.906868+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "93a385a32c5141b86dd76eb9b0da6f3c",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693415v1?rss=1",
+      "title": "Integrative Analysis of Spatial Transcriptome and Connectome by SpaCon",
+      "content": "The brain's structure and function arise from its complex molecular composition and neural connectivity, yet the relationship between cell-type-specific gene expression and brain-wide connectivity is not well understood. By integrating single-cell resolution spatial transcriptomics and connectomics, we reveal a tight coupling between gene expression and anatomical connectivity in the cortico-thalamic circuit, and identify specific gene expression in axons of the corpus callosum that reflect their cortical origins. Building on these findings, we developed SpaCon, a graph attention autoencoder that uses a tunable hyperparameter to flexibly integrate global connectivity with local gene expression. To enable analysis at the whole-brain scale, SpaCon introduces an efficient neighbor sampling strategy that drastically reduces computational requirements without compromising performance. This architecture allows the model to identify functionally relevant three-dimensional domains defined by both molecular identity and shared connectivity patterns, even when spatially distant. Validated across diverse datasets and species, SpaCon significantly enhances the prediction of connectivity from gene expression and improves the spatial classification of neuronal subtypes. SpaCon thus provides a powerful, scalable, and versatile framework for understanding the complex relationship between transcriptome and connectome.",
+      "author": "Qu, H., Li, W., Fei, Y., Zhao, S., Han, J., Liu, C.",
+      "published_date": "2025-12-13T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 180,
+      "reading_time": 1,
+      "created_at": "2025-12-14T06:32:19.244888+00:00",
+      "updated_at": "2025-12-14T08:19:58.906875+00:00",
+      "metadata": {
+        "processed_at": "2025-12-14T08:19:58.906877+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "66e1c5dd6a3bf0b5b3a13d96709fb070",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693654v1?rss=1",
+      "title": "Intra- and Interhemispheric Signatures of Criticality at the Onset of Synchronization",
+      "content": "The cerebral cortex must flexibly alternate between locally segregated activity that supports specialization and long-range interactions that enable integration. How cortical networks balance these competing demands remains unclear. We propose that fluctuations around a critical point between ordered and disordered phases provide a natural framework to understand coordinated neuronal activity across scales. Using simultaneous spiking recordings from the left and right prefrontal cortex (PFC) of freely behaving rats, we found that signatures of criticality emerged at the onset of neuronal synchronization, both locally within individual hemispheres and globally across the combined population. Over time, cortical activity explored a continuum of intra- and interhemispheric synchrony levels, including states in which neurons were locally desynchronized yet maintained interhemispheric coupling. A computational model operating near its critical regime reproduced these empirical patterns, capturing the characteristic relationship between local and long-range coordination. These results suggest that cortical networks achieve flexible transitions between local and global computation by fluctuating around a critical regime.",
+      "author": "Dalla Porta, L., Bozzo, P., Pompili, M. N., Depannemaecker, D., Fontenele, A. J., Fukai, T., Sorrentino, P., Rabuffo, G.",
+      "published_date": "2025-12-13T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 158,
+      "reading_time": 1,
+      "created_at": "2025-12-14T06:32:19.244845+00:00",
+      "updated_at": "2025-12-14T08:19:58.906879+00:00",
+      "metadata": {
+        "processed_at": "2025-12-14T08:19:58.906880+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "97236860d496053a0c92ee573ab360df",
       "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae1b3b",
       "title": "Distance of bipolar re-referencing imparts nonlinear frequency-specific influences on intracranial recording signal measurements",
@@ -262,106 +362,6 @@
       "updated_at": "2025-12-14T06:22:50.060282+00:00",
       "metadata": {
         "processed_at": "2025-12-14T06:22:50.060283+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "690172fc8c6f4dccdec45404afb605f5",
-      "url": "https://alavi.me/blog/e-ink-tablet-as-monitor-linux/",
-      "title": "Using E-Ink tablet as monitor for Linux",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46205089\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-09T14:10:41+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-14T03:39:18.109341+00:00",
-      "updated_at": "2025-12-14T04:32:53.645623+00:00",
-      "metadata": {
-        "processed_at": "2025-12-14T04:32:53.645634+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7ab867344cefe4500cde32b382c1f114",
-      "url": "https://www.jsoftware.com/ioj/ioj.htm",
-      "title": "An Implementation of J",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46259702\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-14T00:34:56+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-14T03:39:18.109242+00:00",
-      "updated_at": "2025-12-14T04:32:53.645638+00:00",
-      "metadata": {
-        "processed_at": "2025-12-14T04:32:53.645640+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7ab867344cefe4500cde32b382c1f114",
-      "url": "https://www.jsoftware.com/ioj/ioj.htm",
-      "title": "An Implementation of J",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46259702\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-14T00:34:56+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-14T03:39:18.109242+00:00",
-      "updated_at": "2025-12-14T04:32:53.645638+00:00",
-      "metadata": {
-        "processed_at": "2025-12-14T04:32:53.645640+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3b9a5c7996dc253b1bd7708cf4025288",
-      "url": "https://www.akhetonics.com/",
-      "title": "First all-optical XPU processing system",
-      "content": "<p>Article URL: <a href=\"https://www.akhetonics.com/\">https://www.akhetonics.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46258960\">https://news.ycombinator.com/item?id=46258960</a></p>\n<p>Points: 7</p>\n<p># Comments: 2</p>",
-      "author": "bohnohboh",
-      "published_date": "2025-12-13T22:44:55+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-14T03:39:16.978429+00:00",
-      "updated_at": "2025-12-14T04:32:53.645643+00:00",
-      "metadata": {
-        "processed_at": "2025-12-14T04:32:53.645645+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "96370a4d16bf9d80d8a75e0eb7c4b61c",
-      "url": "https://github.com/Necior/awesome-jj",
-      "title": "Awesome-Jj: Jujutsu Things",
-      "content": "<p>Article URL: <a href=\"https://github.com/Necior/awesome-jj\">https://github.com/Necior/awesome-jj</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46259914\">https://news.ycombinator.com/item?id=46259914</a></p>\n<p>Points: 14</p>\n<p># Comments: 1</p>",
-      "author": "n3t",
-      "published_date": "2025-12-14T01:10:11+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-14T03:39:16.978352+00:00",
-      "updated_at": "2025-12-14T04:32:53.645653+00:00",
-      "metadata": {
-        "processed_at": "2025-12-14T04:32:53.645655+00:00",
         "processing_method": "github_actions"
       }
     }
