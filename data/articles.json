@@ -1,5 +1,37 @@
 [
   {
+    "id": "05f7ef98717b86e51e9ac0dff6e8212e",
+    "url": "https://questdb.com/blog/async-profiler-kernel-bug/",
+    "title": "A kernel bug froze my machine: Debugging an async-profiler deadlock",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46280465\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-15T20:52:35+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-15T21:42:18.566995+00:00",
+    "updated_at": "2025-12-15T21:42:18.566997+00:00"
+  },
+  {
+    "id": "05f7ef98717b86e51e9ac0dff6e8212e",
+    "url": "https://questdb.com/blog/async-profiler-kernel-bug/",
+    "title": "A kernel bug froze my machine: Debugging an async-profiler deadlock",
+    "content": "<p>Article URL: <a href=\"https://questdb.com/blog/async-profiler-kernel-bug/\">https://questdb.com/blog/async-profiler-kernel-bug/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46280465\">https://news.ycombinator.com/item?id=46280465</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
+    "author": "bluestreak",
+    "published_date": "2025-12-15T20:52:35+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-15T21:42:17.227616+00:00",
+    "updated_at": "2025-12-15T21:42:17.227626+00:00"
+  },
+  {
     "id": "cdc5d724ba652676d9a46875866e740b",
     "url": "https://currentindia.com/channels/timesofindia/toi-world/yes-they-can-former-cia-spy-warns-agencys-tools-can-takeover-your-phone-tv-and-even-your-car/",
     "title": "Former CIA spy: agency's tools can takeover your phone, TV, and even your car",
@@ -17122,37 +17154,5 @@
     "reading_time": 1,
     "created_at": "2025-12-11T05:24:27.282943+00:00",
     "updated_at": "2025-12-11T05:24:27.282945+00:00"
-  },
-  {
-    "id": "a3cc359a5402d2377c82de4ea311290a",
-    "url": "https://arxiv.org/abs/2512.08934",
-    "title": "Motion2Meaning: A Clinician-Centered Framework for Contestable LLM in Parkinson's Disease Gait Interpretation",
-    "content": "arXiv:2512.08934v1 Announce Type: new \nAbstract: AI-assisted gait analysis holds promise for improving Parkinson's Disease (PD) care, but current clinical dashboards lack transparency and offer no meaningful way for clinicians to interrogate or contest AI decisions. To address this issue, we present Motion2Meaning, a clinician-centered framework that advances Contestable AI through a tightly integrated interface designed for interpretability, oversight, and procedural recourse. Our approach leverages vertical Ground Reaction Force (vGRF) time-series data from wearable sensors as an objective biomarker of PD motor states. The system comprises three key components: a Gait Data Visualization Interface (GDVI), a one-dimensional Convolutional Neural Network (1D-CNN) that predicts Hoehn & Yahr severity stages, and a Contestable Interpretation Interface (CII) that combines our novel Cross-Modal Explanation Discrepancy (XMED) safeguard with a contestable Large Language Model (LLM). Our 1D-CNN achieves 89.0% F1-score on the public PhysioNet gait dataset. XMED successfully identifies model unreliability by detecting a five-fold increase in explanation discrepancies in incorrect predictions (7.45%) compared to correct ones (1.56%), while our LLM-powered interface enables clinicians to validate correct predictions and successfully contest a portion of the model's errors. A human-centered evaluation of this contestable interface reveals a crucial trade-off between the LLM's factual grounding and its readability and responsiveness to clinical feedback. This work demonstrates the feasibility of combining wearable sensor analysis with Explainable AI (XAI) and contestable LLMs to create a transparent, auditable system for PD gait interpretation that maintains clinical oversight while leveraging advanced AI capabilities. Our implementation is publicly available at: https://github.com/hungdothanh/motion2meaning.",
-    "author": "Loc Phuc Truong Nguyen, Hung Thanh Do, Hung Truong Thanh Nguyen, Hung Cao",
-    "published_date": "2025-12-11T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 248,
-    "reading_time": 1,
-    "created_at": "2025-12-11T05:24:27.282908+00:00",
-    "updated_at": "2025-12-11T05:24:27.282910+00:00"
-  },
-  {
-    "id": "f5919f9a4435aed0ddb10aa42c52cf12",
-    "url": "https://arxiv.org/abs/2512.08933",
-    "title": "Agentic AI as Undercover Teammates: Argumentative Knowledge Construction in Hybrid Human-AI Collaborative Learning",
-    "content": "arXiv:2512.08933v1 Announce Type: new \nAbstract: Generative artificial intelligence (AI) agents are increasingly embedded in collaborative learning environments, yet their impact on the processes of argumentative knowledge construction remains insufficiently understood. Emerging conceptualisations of agentic AI and artificial agency suggest that such systems possess bounded autonomy, interactivity, and adaptability, allowing them to engage as epistemic participants rather than mere instructional tools. Building on this theoretical foundation, the present study investigates how agentic AI, designed as undercover teammates with either supportive or contrarian personas, shapes the epistemic and social dynamics of collaborative reasoning. Drawing on Weinberger and Fischer's (2006) four-dimensional framework, participation, epistemic reasoning, argument structure, and social modes of co-construction, we analysed synchronous discourse data from 212 human and 64 AI participants (92 triads) engaged in an analytical problem-solving task. Mixed-effects and epistemic network analyses revealed that AI teammates maintained balanced participation but substantially reorganised epistemic and social processes: supportive personas promoted conceptual integration and consensus-oriented reasoning, whereas contrarian personas provoked critical elaboration and conflict-driven negotiation. Epistemic adequacy, rather than participation volume, predicted individual learning gains, indicating that agentic AI's educational value lies in enhancing the quality and coordination of reasoning rather than amplifying discourse quantity. These findings extend CSCL theory by conceptualising agentic AI as epistemic and social participants, bounded yet adaptive collaborators that redistribute cognitive and argumentative labour in hybrid human-AI learning environments.",
-    "author": "Lixiang Yan, Yueqiao Jin, Linxuan Zhao, Roberto Martinez-Maldonado, Xinyu Li, Xiu Guan, Wenxin Guo, Xibin Han, Dragan Ga\\v{s}evi\\'c",
-    "published_date": "2025-12-11T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 224,
-    "reading_time": 1,
-    "created_at": "2025-12-11T05:24:27.282863+00:00",
-    "updated_at": "2025-12-11T05:24:27.282868+00:00"
   }
 ]
