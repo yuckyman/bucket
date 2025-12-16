@@ -1,5 +1,21 @@
 [
   {
+    "id": "4934ca990bfd879c0bf9b06da408137c",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1720978",
+    "title": "Central auditory processing is altered after traumatic brain injury in Tanzanian adults",
+    "content": "Traumatic brain injury (TBI) damages pathways throughout the brain and is a significant global health concern, particularly in low- and middle-income countries, where the incidence is high and long-term deficits are prevalent. This study explores the utility of central auditory processing (CAP) testing as a marker of previous TBI. Seventy individuals with a history of moderate to severe TBI (msTBI) were matched by age and sex to 46 healthy controls in Dar es Salaam, Tanzania. Participants underwent comprehensive behavioral CAP testing, including tests of speech-in-noise ability, temporal resolution, and dichotic listening. Multivariate logistic regression showed the Triple Digit Test (TDT) (p\u202f<\u202f0.001) significantly predicted msTBI status, independent of age and peripheral hearing ability. Elastic net modeling supported these findings, highlighting TDT performance as the most robust predictor of msTBI history. A history of msTBI is associated with poorer CAP performance, particularly on speech-in-noise tests. These tests could serve as accessible, resource-efficient tools for assessing brain function related to TBI in clinical and resource-limited settings. Studies in larger, more diverse populations are needed to explore their predictive utility for long-term cognitive outcomes after TBI.",
+    "author": "Jay C. Buckey",
+    "published_date": "2025-12-12T00:00:00+00:00",
+    "source": "Frontiers Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 184,
+    "reading_time": 1,
+    "created_at": "2025-12-16T21:22:26.895640+00:00",
+    "updated_at": "2025-12-16T21:22:26.895642+00:00"
+  },
+  {
     "id": "dd187ae063f77768a2104926a16741d0",
     "url": "https://www.nature.com/articles/s41598-025-27449-0",
     "title": "Event-related potential responses of ex-combatants and war victims differ for bias stimuli",
@@ -17112,26 +17128,6 @@
     "updated_at": "2025-12-12T08:23:02.620874+00:00",
     "metadata": {
       "processed_at": "2025-12-12T08:23:02.620876+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "ea527069c0b8458f187b71a237d3f878",
-    "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1716204",
-    "title": "A hybrid Spiking Neural Network\u2013Transformer architecture for motor imagery and sleep apnea detection",
-    "content": "IntroductionMotor imagery (MI) classification and sleep apnea (SA) detection are two critical tasks in brain-computer interface (BCI) and biomedical signal analysis. Traditional deep learning models have shown promise in these domains, but often struggle with temporal sparsity and energy efficiency, especially in real-time or embedded applications.MethodsIn this study, we propose SpiTranNet, a novel architecture that deeply integrates Spiking Neural Networks (SNNs) with Transformers through Spiking Multi-Head Attention (SMHA), where spiking neurons replace standard activation functions within the attention mechanism. This integration enables biologically plausible temporal processing and energy-efficient computations while maintaining global contextual modeling capabilities. The model is evaluated across three physiological datasets, including one electroencephalography (EEG) dataset for MI classification and two electrocardiography (ECG) datasets for SA detection.ResultsExperimental results demonstrate that the hybrid SNN-Transformer model achieves competitive accuracy compared to conventional machine learning and deep learning models.DiscussionThis work highlights the potential of neuromorphic-inspired architectures for robust and efficient biomedical signal processing across diverse physiological tasks.",
-    "author": "Roman Mou\u010dek",
-    "published_date": "2025-12-12T00:00:00+00:00",
-    "source": "Frontiers Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 156,
-    "reading_time": 1,
-    "created_at": "2025-12-12T06:35:09.755620+00:00",
-    "updated_at": "2025-12-12T08:23:02.620881+00:00",
-    "metadata": {
-      "processed_at": "2025-12-12T08:23:02.620883+00:00",
       "processing_method": "github_actions"
     }
   }

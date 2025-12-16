@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-12-16T20:47:46.292323+00:00",
+  "last_updated": "2025-12-16T21:23:09.903045+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "4934ca990bfd879c0bf9b06da408137c",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1720978",
+      "title": "Central auditory processing is altered after traumatic brain injury in Tanzanian adults",
+      "content": "Traumatic brain injury (TBI) damages pathways throughout the brain and is a significant global health concern, particularly in low- and middle-income countries, where the incidence is high and long-term deficits are prevalent. This study explores the utility of central auditory processing (CAP) testing as a marker of previous TBI. Seventy individuals with a history of moderate to severe TBI (msTBI) were matched by age and sex to 46 healthy controls in Dar es Salaam, Tanzania. Participants underwent comprehensive behavioral CAP testing, including tests of speech-in-noise ability, temporal resolution, and dichotic listening. Multivariate logistic regression showed the Triple Digit Test (TDT) (p\u202f<\u202f0.001) significantly predicted msTBI status, independent of age and peripheral hearing ability. Elastic net modeling supported these findings, highlighting TDT performance as the most robust predictor of msTBI history. A history of msTBI is associated with poorer CAP performance, particularly on speech-in-noise tests. These tests could serve as accessible, resource-efficient tools for assessing brain function related to TBI in clinical and resource-limited settings. Studies in larger, more diverse populations are needed to explore their predictive utility for long-term cognitive outcomes after TBI.",
+      "author": "Jay C. Buckey",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 184,
+      "reading_time": 1,
+      "created_at": "2025-12-16T21:22:26.895640+00:00",
+      "updated_at": "2025-12-16T21:22:26.895642+00:00"
+    },
     {
       "id": "dd187ae063f77768a2104926a16741d0",
       "url": "https://www.nature.com/articles/s41598-025-27449-0",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-16T19:20:35.095961+00:00",
       "updated_at": "2025-12-16T19:20:35.095963+00:00"
-    },
-    {
-      "id": "d5712b4c08069aedc8fb4517ff297159",
-      "url": "https://www.reddit.com/r/Python/comments/1po9n17/whatsapp_wrapped_with_polars_plotly_analyze_chat/",
-      "title": "WhatsApp Wrapped with Polars & Plotly: Analyze chat history locally",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I've always wanted something like Spotify Wrapped but for WhatsApp. There are some tools out there that do this, but every one I found either runs your chat history on their servers or is closed source. I wasn't comfortable with all that, so this year I built my own.</p> <h2>What My Project Does</h2> <p>WhatsApp Wrapped generates visual reports for your group chats. You export your chat from WhatsApp (without media), run it through the tool, and get an HTML report with analytics. Everything runs locally or in your own Colab session. Nothing gets sent anywhere.</p> <p><a href=\"https://duelion.github.io/whatsapp-wrapped/sample_report.html\">Here is a Sample Report.</a></p> <p>Features include message counts, activity patterns, emoji stats, word clouds, and calendar heatmaps. The easiest way to use it is through <a href=\"https://colab.research.google.com/github/Duelion/whatsapp-wrapped/blob/main/whatsapp_wrapped.ipynb\">Google Colab</a> - just upload your chat export and download the report. There's also a CLI for local use.</p> <h2>Target Audience</h2> <p>Anyone who wants to analyze their WhatsApp chats without uploading them to someone else's server. It's ready to use now.</p> <h2>Comparison</h2> <p>Unlike other web tools that require uploading your data, this runs entirely on your machine (or your own Colab). It's also open source, so you can see exactly what it does with your chats.</p> <p><strong>Tech:</strong> Python, Polars, Plotly, Jinja2.</p> <p><strong>Links:</strong> - <a href=\"https://github.com/Duelion/whatsapp-wrapped\">GitHub</a> - <a href=\"https://duelion.github.io/whatsapp-wrapped/sample_report.html\">Sample Report</a> - <a href=\"https://colab.research.google.com/github/Duelion/whatsapp-wrapped/blob/main/whatsapp_wrapped.ipynb\">Google Colab</a></p> <p>Happy to answer questions or hear feedback.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Duelion\"> /u/Duelion </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1po9n17/whatsapp_wrapped_with_polars_plotly_analyze_chat/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1po9n17/whatsapp_wrapped_with_polars_plotly_analyze_chat/\">[comments]</a></span>",
-      "author": "/u/Duelion",
-      "published_date": "2025-12-16T18:31:47+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 244,
-      "reading_time": 1,
-      "created_at": "2025-12-16T19:20:05.865974+00:00",
-      "updated_at": "2025-12-16T19:20:05.865977+00:00"
     }
   ]
 }
