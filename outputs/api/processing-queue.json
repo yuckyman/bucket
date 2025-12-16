@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-16T01:16:17.126968+00:00",
+  "last_updated": "2025-12-16T03:20:36.825685+00:00",
   "pending_count": 708,
   "processed_count": 292,
   "pending_articles": [
@@ -166,6 +166,166 @@
   ],
   "recently_processed": [
     {
+      "id": "aaa70ed6f27543d986368fe9b1782197",
+      "url": "https://www.reddit.com/r/Python/comments/1pnne6l/why_dont_dataclasses_or_attrs_derive_from_a_base/",
+      "title": "Why don't `dataclasses` or `attrs` derive from a base class?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Both the standard <a href=\"https://docs.python.org/3/library/dataclasses.html\"><code>dataclasses</code></a> and the third-party <a href=\"https://www.attrs.org/en/stable/\"><code>attrs</code></a> package follow the same approach: if you want to tell if an object or type is created using them, you need to do it in a non-standard way (call <code>dataclasses.is_dataclass()</code>, or catch <code>attrs.NotAnAttrsClassError</code>). It seems that both of them rely on setting a magic attribute in generated classes, so why not have them derive from an ABC with that attribute declared (or make it a property), so that users could use the standard <code>isinstance</code>? Was it performance considerations or something else?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fjarri\"> /u/fjarri </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pnne6l/why_dont_dataclasses_or_attrs_derive_from_a_base/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pnne6l/why_dont_dataclasses_or_attrs_derive_from_a_base/\">[comments]</a></span>",
+      "author": "/u/fjarri",
+      "published_date": "2025-12-16T00:08:17+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 112,
+      "reading_time": 1,
+      "created_at": "2025-12-16T01:46:20.727593+00:00",
+      "updated_at": "2025-12-16T03:20:36.710577+00:00",
+      "metadata": {
+        "processed_at": "2025-12-16T03:20:36.710587+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f1433b2874a8f0042ef8e21e1756c47b",
+      "url": "https://www.flaggingdown.com/p/the-bob-dylan-concert-for-just-one",
+      "title": "The Bob Dylan Concert for Just One Person",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46282984\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-16T00:18:58+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-16T01:46:19.381228+00:00",
+      "updated_at": "2025-12-16T03:20:36.710591+00:00",
+      "metadata": {
+        "processed_at": "2025-12-16T03:20:36.710594+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "124797700225306fb42b44b243b2a1df",
+      "url": "https://seths.blog/2025/12/understanding-carriage/",
+      "title": "Understanding Carriage",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46225950\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-11T00:11:32+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-16T01:46:19.381149+00:00",
+      "updated_at": "2025-12-16T03:20:36.710596+00:00",
+      "metadata": {
+        "processed_at": "2025-12-16T03:20:36.710598+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "89a56c441b9d053d6b1aa165bf5f03ff",
+      "url": "https://asteriskmag.com/issues/12-books/ideas-arent-getting-harder-to-find",
+      "title": "Ideas Aren't Getting Harder to Find",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46283129\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-16T00:34:35+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-16T01:46:19.381085+00:00",
+      "updated_at": "2025-12-16T03:20:36.710600+00:00",
+      "metadata": {
+        "processed_at": "2025-12-16T03:20:36.710602+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "24c81aae252996ef7d847db7f53ec090",
+      "url": "https://quill-os.org/",
+      "title": "Quill OS \u2013 an open-source, fully-functional standalone OS for Kobo eReaders",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46283016\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-16T00:22:41+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-16T01:46:19.381037+00:00",
+      "updated_at": "2025-12-16T03:20:36.710607+00:00",
+      "metadata": {
+        "processed_at": "2025-12-16T03:20:36.710609+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f1433b2874a8f0042ef8e21e1756c47b",
+      "url": "https://www.flaggingdown.com/p/the-bob-dylan-concert-for-just-one",
+      "title": "The Bob Dylan Concert for Just One Person",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46282984\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-16T00:18:58+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-16T01:46:19.381228+00:00",
+      "updated_at": "2025-12-16T03:20:36.710591+00:00",
+      "metadata": {
+        "processed_at": "2025-12-16T03:20:36.710594+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "24c81aae252996ef7d847db7f53ec090",
+      "url": "https://quill-os.org/",
+      "title": "Quill OS \u2013 an open-source, fully-functional standalone OS for Kobo eReaders",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46283016\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-16T00:22:41+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-16T01:46:19.381037+00:00",
+      "updated_at": "2025-12-16T03:20:36.710607+00:00",
+      "metadata": {
+        "processed_at": "2025-12-16T03:20:36.710609+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "89a56c441b9d053d6b1aa165bf5f03ff",
+      "url": "https://asteriskmag.com/issues/12-books/ideas-arent-getting-harder-to-find",
+      "title": "Ideas Aren't Getting Harder to Find",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46283129\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-16T00:34:35+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-16T01:46:19.381085+00:00",
+      "updated_at": "2025-12-16T03:20:36.710600+00:00",
+      "metadata": {
+        "processed_at": "2025-12-16T03:20:36.710602+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "f55d8b7f399ba7629efd429a996333a0",
       "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1668395",
       "title": "Assessing the eligibility of Brainomix e-ASPECTS for acute stroke imaging",
@@ -202,166 +362,6 @@
       "updated_at": "2025-12-16T01:16:17.016969+00:00",
       "metadata": {
         "processed_at": "2025-12-16T01:16:17.016971+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a0e1014b4f36e4b983b4890c5026b0ef",
-      "url": "http://daniellakens.blogspot.com/2025/12/dogmatic-bayesianism-disorder.html",
-      "title": "Dogmatic Bayesianism Disorder",
-      "content": "<p><span style=\"font-family: arial;\">Note: This humorously\nintended sarcastic blog post directly mimics classifications of psychological\ndisorders in the Diagnostic and Statistical Manual of the American\nPsychological Association, but Dogmatic Bayesianism is not in the DSM-5 as an\nactual psychological disorder - for now.</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: arial;\">&nbsp;</span></span></p>\n\n<p align=\"right\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: right;\"><b><span style=\"color: #595959; font-size: 21pt;\"><span style=\"font-family: arial;\">Dogmatic\nBayesianism Disorder</span></span></b></p>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"MsoTable15List7ColorfulAccent2\" style=\"border-collapse: collapse;\">\n <tbody><tr>\n  <td style=\"background: rgb(244, 176, 131); border: none; padding: 0cm 5.4pt; width: 453.1pt;\" valign=\"top\" width=\"604\">\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"font-family: arial;\"><b><i><span style=\"color: black; font-size: 17pt;\">Diagnostic Criteria <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span>&nbsp;</span></span></i></b><b><span style=\"color: black; font-size: 17pt;\">F61.1<i> </i></span></b></span></p>\n  </td>\n </tr>\n <tr>\n  <td style=\"background: rgb(247, 202, 172); border: none; padding: 0cm 5.4pt; width: 453.1pt;\" valign=\"top\" width=\"604\">\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">A. Individuals are convinced that they know what other people want to know.</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></p>\n  </td>\n </tr>\n <tr>\n  <td style=\"background: rgb(247, 202, 172); border: none; padding: 0cm 5.4pt; width: 453.1pt;\" valign=\"top\" width=\"604\">\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">B. Individuals believe that everyone who is not a Bayesian is wrong. They almost continuously try to\n  convince others, and there is often a strong feeling others need to be\n  \u2018saved\u2019.</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></p>\n  </td>\n </tr>\n <tr>\n  <td style=\"background: rgb(247, 202, 172); border: none; padding: 0cm 5.4pt; width: 453.1pt;\" valign=\"top\" width=\"604\">\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">C. Strong\n  tendency to ridicule non-Bayesians, including historical figures. Karl Popper (who opposed\n  Bayesianism, as it opens the door to dogmatism in science) is an especially common target.</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></p>\n  </td>\n </tr>\n <tr>\n  <td style=\"background: rgb(247, 202, 172); border: none; padding: 0cm 5.4pt; width: 453.1pt;\" valign=\"top\" width=\"604\">\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">D. A\n  pervasive obsession with Bayesian statistics, and the use of p-values or hypothesis\n  testing by others, at the expense of flexibility, openness, and acknowledging that other coherent statistical approaches exist to deal with uncertainty. </span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">E. Symptoms\n  cause clinically significant impairment in social, occupational, or other\n  important areas of current functioning. The forceful insertion of Bayesian\n  statistics into conversations can drive away conversation partners, to the\n  point where almost all social contact is restricted to other dogmatic\n  Bayesians.</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></p>\n  </td>\n </tr>\n <tr>\n  <td style=\"background: rgb(247, 202, 172); border: none; padding: 0cm 5.4pt; width: 453.1pt;\" valign=\"top\" width=\"604\">\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">F. Individuals believe everyone else will become a Bayesian. Older dogmatic Bayesian often\n  lose bets that everyone will have become a Bayesian by a specific year. If\n  this bet is lost, they continue to claim everyone will become a Bayesian in\n  the future and consider this a rationally updated belief.</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><i><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></i></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">Specify\n  if:</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"font-family: arial;\"><b><span style=\"color: black; font-size: 15pt;\">Persistent:\n  </span></b><span style=\"color: black; font-size: 15pt;\">The disorder has been present for more than 12\n  months. </span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">Specify\n  current severity:</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">Dogmatic\n  Bayesianism Disorder is specified as <b>severe </b>when an&nbsp;</span></span><span style=\"font-family: arial; font-size: 15pt;\">academic\n  exhibits all symptoms of the disorder, at which point individuals are classified as having Bayesian Evangelical Syndrome (BES)</span><span style=\"font-family: arial; font-size: 15pt;\">.</span></p>\n  </td>\n </tr>\n</tbody></table>\n\n<p class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm;\"><b><span style=\"color: #963718; font-size: 17pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></b></p>\n\n<p class=\"MsoNormal\"><b><span style=\"color: #963718; font-size: 17pt; line-height: 107%;\"><span style=\"font-family: arial;\">Prevalence</span></span></b></p>\n\n<p class=\"MsoNormal\"><span style=\"font-family: arial;\"><span style=\"color: black; font-size: 15pt; line-height: 107%;\">Less than 0.01% of the general population is\naffected, but prevalence is estimated to be at 1% to 2% in statistically inclined\nacademics. Due to diagnostic criterion E prevalence can be up to 80% on certain\ninternet forums. Men are more frequently affected than women, at a ratio estimated\nat 100:1 or greater. <span>&nbsp;</span></span><span lang=\"EN-US\"></span></span></p>\n\n<p class=\"MsoNormal\"><b><span style=\"color: #963718; font-size: 17pt; line-height: 107%;\"><span style=\"font-family: arial;\">Development and\ncourse</span></span></b></p>\n\n<p class=\"MsoNormal\"><span style=\"font-family: arial;\"><span style=\"color: black; font-size: 15pt; line-height: 107%;\">Development of the condition often starts in the\nearly thirties, but onset can occur at an older age, in which case the\nsymptoms are often much more severe. There is currently no treatment, and\ndogmatic Bayesianism typically increases with age. In rare cases (less than 1%)\nspontaneous recovery seems to occur, after which individuals often experience prolonged\nfeelings of shame and embarrassment. </span><span lang=\"EN-US\"></span></span></p>\n\n<p class=\"MsoNormal\"><b><span style=\"color: #963718; font-size: 17pt; line-height: 107%;\"><span style=\"font-family: arial;\">Risk and Prognostic\nFactors</span></span></b></p>\n\n<p class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">The disorder is more common in individuals with obsessive-compulsive\ndisorder (OCD).</span></span></p>",
-      "author": "noreply@blogger.com (Daniel Lakens)",
-      "published_date": "2025-12-06T07:18:00+00:00",
-      "source": "Twenty Percent Statistician",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 910,
-      "reading_time": 4,
-      "created_at": "2025-12-15T23:22:21.134123+00:00",
-      "updated_at": "2025-12-16T01:16:17.016973+00:00",
-      "metadata": {
-        "processed_at": "2025-12-16T01:16:17.016975+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ef2ecad3611b70787b943169e95347c4",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.693910v1?rss=1",
-      "title": "Cellular mechanisms underlying the pro-cognitive effects of serotonin 5-HT7 receptors in a mouse model of schizophrenia",
-      "content": "Serotonin 5-HT7 receptors (5-HT7Rs) have emerged as promising targets for treating cognitive and affective disturbances in schizophrenia and other neuropsychiatric disorders, yet their cellular substrates and circuit-level mechanisms remain poorly defined. Here, we combined immunohistochemistry, multisite electrophysiology, and behavioral assays to investigate how 5-HT7Rs modulate hippocampal-prefrontal pathways in healthy mice and in a subchronic phencyclidine (sPCP) model of cognitive and negative symptoms in schizophrenia. We found that 5-HT7Rs are abundantly expressed in both excitatory and inhibitory neurons of the dorsal hippocampus (dHPC) and medial prefrontal cortex (mPFC), with high co-expression in PV+ and SST+ interneurons (~80% in dHPC; 55% PV+ and 75% SST+ in mPFC). In healthy mice, systemic 5-HT7R activation with the agonist AS-19 suppressed neuronal activity and synchrony within dHPC (CA1) - mPFC (PL) pathways, reducing theta and high-gamma power, theta-gamma coupling in CA1, theta coherence, and CA1-to-PL directional connectivity, consistent with recruitment of inhibitory microcircuits. The similarity between 5-HT7R-mediated inhibition and the circuit effects we previously described for 5-HT1AR activation, together with evidence for 5-HT7R-5-HT1AR heterodimerization, suggests that these receptors act in concert to dynamically constrain hippocampal-prefrontal circuits. sPCP treatment induced persistent recognition-memory impairments, heightened anxiety-like behavior, and pathological high-frequency synchronization of hippocampal-prefrontal networks. Blockade of 5-HT7Rs with SB-269970 or the atypical antipsychotic lurasidone (but not lurasidone combined with AS-19) rescued memory performance, reduced anxiety-like behavior, and normalized aberrant high-frequency hypersynchrony, while enhancing CA1-to-PL theta signaling immediately before memory acquisition. Together, these findings indicate that 5-HT7R activation exerts potent inhibitory control over hippocampal-prefrontal pathways, likely via PV and SST interneurons, and suggest that 5-HT7R blockade constitutes a promising therapeutic strategy to restore excitation-inhibition balance and enhance neural communication within brain circuits crucial for cognition and mood regulation in neuropsychiatric disorders.",
-      "author": "Gener, T., Hidalgo-Nieves, S., Lopez-Cabezon, C., Arroyo-Portela, C., Puig, M. V.",
-      "published_date": "2025-12-15T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 283,
-      "reading_time": 1,
-      "created_at": "2025-12-15T23:21:54.601125+00:00",
-      "updated_at": "2025-12-16T01:16:17.016977+00:00",
-      "metadata": {
-        "processed_at": "2025-12-16T01:16:17.016978+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "25519ef3836c2afd1d20a6925258646b",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.693903v1?rss=1",
-      "title": "EEG-based analyses reveal different temporal processing patterns in aesthetic evaluation",
-      "content": "Background: Existing studies estimate harmony values using the color harmony model, but how these values are reflected in distinct neural stages (early automatic vs. late evaluative) and shape subjective preferences remains unexamined. Methods: To fill this gap, we recorded behavioral and event-related potential data (N=30 adults, age: 29.20{+/-}2.38 years old) to examine whether the predictions of color harmony theory regarding harmonious vs. disharmonious color combinations align with neural activity from a color perception paradigm. Results: Behavioral results showed that two-color combinations received higher aesthetic pleasantness ratings than three-color combinations, while the ratings for color harmony were relatively smaller than for disharmony. Univariate ERP analysis revealed that P1 amplitude for harmonious color was significantly higher than for disharmonious color, particularly when three colors were present. In contrast, the amplitude and latency of P2 were significantly impacted by the number of colors. Additionally, multivariate pattern analysis further demonstrated that neural activity reliably differentiated between harmonious vs. disharmonious color combinations and two-color vs. three-color combinations during both P1 and P2 time window. Conclusions: These findings indicate that harmonious versus disharmonious color combinations subtly influenced early visual processing, while the number of colors used in the design had a stronger influence on aesthetic judgments.",
-      "author": "Hou, L., Zhang, G., Li, X., Tang, D., Parviainen, T., Cong, F., Karkkainen, T.",
-      "published_date": "2025-12-15T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 200,
-      "reading_time": 1,
-      "created_at": "2025-12-15T23:21:54.601082+00:00",
-      "updated_at": "2025-12-16T01:16:17.016981+00:00",
-      "metadata": {
-        "processed_at": "2025-12-16T01:16:17.016982+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "05f7ef98717b86e51e9ac0dff6e8212e",
-      "url": "https://questdb.com/blog/async-profiler-kernel-bug/",
-      "title": "A kernel bug froze my machine: Debugging an async-profiler deadlock",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46280465\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-15T20:52:35+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-15T21:42:18.566995+00:00",
-      "updated_at": "2025-12-15T22:16:14.914681+00:00",
-      "metadata": {
-        "processed_at": "2025-12-15T22:16:14.914691+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "05f7ef98717b86e51e9ac0dff6e8212e",
-      "url": "https://questdb.com/blog/async-profiler-kernel-bug/",
-      "title": "A kernel bug froze my machine: Debugging an async-profiler deadlock",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46280465\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-15T20:52:35+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-15T21:42:18.566995+00:00",
-      "updated_at": "2025-12-15T22:16:14.914681+00:00",
-      "metadata": {
-        "processed_at": "2025-12-15T22:16:14.914691+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "cdc5d724ba652676d9a46875866e740b",
-      "url": "https://currentindia.com/channels/timesofindia/toi-world/yes-they-can-former-cia-spy-warns-agencys-tools-can-takeover-your-phone-tv-and-even-your-car/",
-      "title": "Former CIA spy: agency's tools can takeover your phone, TV, and even your car",
-      "content": "<p>Article URL: <a href=\"https://currentindia.com/channels/timesofindia/toi-world/yes-they-can-former-cia-spy-warns-agencys-tools-can-takeover-your-phone-tv-and-even-your-car/\">https://currentindia.com/channels/timesofindia/toi-world/yes-they-can-former-cia-spy-warns-agencys-tools-can-takeover-your-phone-tv-and-even-your-car/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46276875\">https://news.ycombinator.com/item?id=46276875</a></p>\n<p>Points: 39</p>\n<p># Comments: 18</p>",
-      "author": "voxleone",
-      "published_date": "2025-12-15T16:46:10+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-15T21:20:56.333089+00:00",
-      "updated_at": "2025-12-15T22:16:14.914700+00:00",
-      "metadata": {
-        "processed_at": "2025-12-15T22:16:14.914702+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d25fac07db7ff86f3194da09cd37c8da",
-      "url": "https://www.energyconnects.com/news/utilities/2025/december/taiwan-may-restart-nuclear-power-plant-in-2028-minister-says/",
-      "title": "Taiwan May Restart Nuclear Power Plant in 2028, Minister Says",
-      "content": "<p>Article URL: <a href=\"https://www.energyconnects.com/news/utilities/2025/december/taiwan-may-restart-nuclear-power-plant-in-2028-minister-says/\">https://www.energyconnects.com/news/utilities/2025/december/taiwan-may-restart-nuclear-power-plant-in-2028-minister-says/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46279996\">https://news.ycombinator.com/item?id=46279996</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
-      "author": "mpweiher",
-      "published_date": "2025-12-15T20:20:05+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-15T20:47:40.457829+00:00",
-      "updated_at": "2025-12-15T22:16:14.914704+00:00",
-      "metadata": {
-        "processed_at": "2025-12-15T22:16:14.914706+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a543ab4c9b9eb95c31cc02352934f0bb",
-      "url": "https://www.reddit.com/r/Python/comments/1pnbze0/building_the_fastest_python_ci/",
-      "title": "Building the Fastest Python CI",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey all, there is a frustrating lack of resources and tooling for building Python CIs in a monorepo setting so I wrote up how we do it at $job. </p> <h1>What my project does</h1> <p>We use uv as a package manager and pex to bundle our Python code and dependencies into executables. Pex recently added a feature that allows it to consume its dependencies from uv which drastically speeds up builds. This trick is included in the guide. Additionally, to keep our builds fast and vertically scalable we use a light-weight build system called Grog that allows us to cache and skip builds aswell as run them in parallel.</p> <h1>Target Audience</h1> <p>Anyone building Python CI pipelines at small to medium scale.</p> <h1>Comparison</h1> <p>The closest comparison to this would be Pants which comes with a massive complexity tasks and does not play well with existing dev tooling (more about this in the post). This approach on the other hand builds on top of uv and thus keeps the setup pretty lean while still delivering great performance. </p> <p>Let me know what you think \ud83d\ude4f</p> <p>Guide: <a href=\"https://chrismati.cz/posts/building-the-fastest-python-ci/\">https://chrismati.cz/posts/building-the-fastest-python-ci/</a></p> <p>Demo repository: <a href=\"https://github.com/chrismatix/uv-pex-monorepo\">https://github.com/chrismatix/uv-pex-monorepo</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chrismatisch\"> /u/chrismatisch </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pnbze0/building_the_fastest_python_ci/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pnbze0/building_the_fastest_python_ci/\">[comments]</a></span>",
-      "author": "/u/chrismatisch",
-      "published_date": "2025-12-15T16:37:27+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 211,
-      "reading_time": 1,
-      "created_at": "2025-12-15T20:27:50.329220+00:00",
-      "updated_at": "2025-12-15T22:16:14.914708+00:00",
-      "metadata": {
-        "processed_at": "2025-12-15T22:16:14.914709+00:00",
         "processing_method": "github_actions"
       }
     }
