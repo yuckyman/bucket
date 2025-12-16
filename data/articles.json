@@ -1,5 +1,37 @@
 [
   {
+    "id": "d991e9b467ad5914d87cf6abf46215da",
+    "url": "https://www.reddit.com/r/Python/comments/1pnn7xm/tuesday_daily_thread_advanced_questions/",
+    "title": "Tuesday Daily Thread: Advanced questions",
+    "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Wednesday Thread: Advanced Questions \ud83d\udc0d</h1> <p>Dive deep into Python with our Advanced Questions thread! This space is reserved for questions about more advanced Python topics, frameworks, and best practices.</p> <h2>How it Works:</h2> <ol> <li><strong>Ask Away</strong>: Post your advanced Python questions here.</li> <li><strong>Expert Insights</strong>: Get answers from experienced developers.</li> <li><strong>Resource Pool</strong>: Share or discover tutorials, articles, and tips.</li> </ol> <h2>Guidelines:</h2> <ul> <li>This thread is for <strong>advanced questions only</strong>. Beginner questions are welcome in our <a href=\"#daily-beginner-thread-link\">Daily Beginner Thread</a> every Thursday.</li> <li>Questions that are not advanced may be removed and redirected to the appropriate thread.</li> </ul> <h2>Recommended Resources:</h2> <ul> <li>If you don't receive a response, consider exploring <a href=\"/r/LearnPython\">r/LearnPython</a> or join the <a href=\"https://discord.gg/python\">Python Discord Server</a> for quicker assistance.</li> </ul> <h2>Example Questions:</h2> <ol> <li><strong>How can you implement a custom memory allocator in Python?</strong></li> <li><strong>What are the best practices for optimizing Cython code for heavy numerical computations?</strong></li> <li><strong>How do you set up a multi-threaded architecture using Python's Global Interpreter Lock (GIL)?</strong></li> <li><strong>Can you explain the intricacies of metaclasses and how they influence object-oriented design in Python?</strong></li> <li><strong>How would you go about implementing a distributed task queue using Celery and RabbitMQ?</strong></li> <li><strong>What are some advanced use-cases for Python's decorators?</strong></li> <li><strong>How can you achieve real-time data streaming in Python with WebSockets?</strong></li> <li><strong>What are the performance implications of using native Python data structures vs NumPy arrays for large-scale data?</strong></li> <li><strong>Best practices for securing a Flask (or similar) REST API with OAuth 2.0?</strong></li> <li><strong>What are the best practices for using Python in a microservices architecture? (..and more generally, should I even use microservices?)</strong></li> </ol> <p>Let's deepen our Python knowledge together. Happy coding! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pnn7xm/tuesday_daily_thread_advanced_questions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pnn7xm/tuesday_daily_thread_advanced_questions/\">[comments]</a></span>",
+    "author": "/u/AutoModerator",
+    "published_date": "2025-12-16T00:00:32+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 288,
+    "reading_time": 1,
+    "created_at": "2025-12-16T10:50:53.656502+00:00",
+    "updated_at": "2025-12-16T10:50:53.656504+00:00"
+  },
+  {
+    "id": "0fec5670d5ed9818b197752f647225c6",
+    "url": "https://highimpactengineering.substack.com/p/the-illusion-of-shared-understanding",
+    "title": "Internal RFCs saved us months of wasted work",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46221016\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-10T17:57:43+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-16T10:50:52.400018+00:00",
+    "updated_at": "2025-12-16T10:50:52.400019+00:00"
+  },
+  {
     "id": "dddf5b59f2e4b309d5fc035e0846ee7c",
     "url": "https://www.biorxiv.org/content/10.64898/2025.12.15.694407v1?rss=1",
     "title": "Attention to Psuedo-Tone Melodies Enhances Cortical but Not Brainstem Responses in Humans",
@@ -17130,37 +17162,5 @@
     "reading_time": 1,
     "created_at": "2025-12-11T19:20:54.963884+00:00",
     "updated_at": "2025-12-11T19:20:54.963889+00:00"
-  },
-  {
-    "id": "3113a1735159727ffaeca890fbaffc1e",
-    "url": "https://www.reddit.com/r/Python/comments/1pk11us/mkvdb_a_tiny_keyvalue_store_wrapper_around_mongodb/",
-    "title": "mkvDB - A tiny key-value store wrapper around MongoDB",
-    "content": "<!-- SC_OFF --><div class=\"md\"><h3>What My Project Does</h3> <p><a href=\"https://patx.github.io/mkvdb\">mkvDB</a> is a unified sync + async key-value store backed by PyMongo that provides a dead-simple and super tiny Redis-like API (<code>set</code>, <code>get</code>, <code>remove</code>, etc). MongoDB handles concurrency so mkvDB is inherently safe across threads, processes, and ASGI workers.</p> <p>A long time ago I wrote a key-value store called pickleDB. Since its creation it has seen many changes in API and backend. Originally it used <code>pickle</code> to store things, had about 50 API methods, and was really crappy. Fast forward it is heavily simplified relies on <code>orjson</code>. It has great performance for single process/single threaded applications that run on a persistent file system. Well news flash to anyone living under a rock, most modern real world scenarios are NOT single threaded and use multiple worker processes. pickleDB and its limitations with a single file writer would never actually be suitable for this. Since most of my time is spent working with ASGI servers and frameworks (namely my own, <a href=\"https://patx.github.io/micropie\">MicroPie</a>, I wanted to create something with the same API pickleDB uses, but safe for ASGI. So mkvDB (MongoKeyValueDataBase) was born. Essentially its a very tiny API wrapper around PyMongo. It has some tricks (scary dark magic) up its sleave to provide a consistent API across sync and async applications.</p> <p>```</p> <h1>Sync context</h1> <p>db = Mkv(&quot;mongodb://localhost:27017&quot;) db.set(&quot;x&quot;, 1) # OK value = db.get(&quot;x&quot;) # OK</p> <h1>Async context</h1> <p>async def foo(): db = Mkv(&quot;mongodb://localhost:27017&quot;) await db.set(&quot;x&quot;, 1) # must await value = await db.get(&quot;x&quot;) ```</p> <h3>Target Audience</h3> <p>mkvDB was made for lazy people. If you already know MongoDB you definitely do not need this wrapper. But if you know MongoDB are lazy like me and need to spin up a couple different micro apps weekly (that DO NOT need a complex product relational schema) then this API is super convenient. I don't know if ANYONE actually needs this, but I like the tiny API, and I'd assume a beginner would too (idk)? If PyMongo is already part of your stack, you can use mkvDB as a side car, not the main engine.</p> <h3>Comparison</h3> <p>Nothing really directly competes with mkvDB (most likely for good reason lol). The API is based on <a href=\"https://patx.github.io/pickledb\">pickleDB</a>. <a href=\"https://dataset.readthedocs.io/\">DataSet</a> is also <em>sort</em> of like mkvDB but for SQL not Mongo.</p> <h3>Links and Other Stuff</h3> <p>Some useful links:</p> <ul> <li>Homepage: <a href=\"https://patx.github.io/mkvdb\">https://patx.github.io/mkvdb</a></li> <li>PyPI: <a href=\"https://pypi.org/project/mkvdb/\">https://pypi.org/project/mkvdb/</a></li> <li>GitHub: <a href=\"https://github.com/patx/mkvdb\">https://github.com/patx/mkvdb</a></li> </ul> <p>Reporting Issues</p> <ul> <li>Please report any issues, bugs, or glaring mistakes I made on the Github issues page.</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Miserable_Ear3789\"> /u/Miserable_Ear3789 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pk11us/mkvdb_a_tiny_keyvalue_store_wrapper_around_mongodb/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pk11us/mkvdb_a_tiny_keyvalue_store_wrapper_around_mongodb/\">[comments]</a></span>",
-    "author": "/u/Miserable_Ear3789",
-    "published_date": "2025-12-11T15:57:43+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 436,
-    "reading_time": 2,
-    "created_at": "2025-12-11T19:20:19.003833+00:00",
-    "updated_at": "2025-12-11T19:20:19.003835+00:00"
-  },
-  {
-    "id": "390a6c49800d863ba73b8e3b016f2545",
-    "url": "https://www.reddit.com/r/Python/comments/1pk5hnv/just_had_the_weirdest_bug_today/",
-    "title": "Just had the weirdest bug today",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>My plugin loading system started to hang indefinitely in all my tests randomly during one of my refactors. After a lot of painful stepping through I finally found out the bug was in fact cause by aiohttp which was hanging indefinitely on import for only God knows why. Rebooted my pc and it fixed itself and i couldn't replicate the bug since. Im on python 3.14 with the latest version of aiohttp anyone else had something similar to this happen to them recently? Trying to figure out the cause so it doesn't make my tests shit themselves again wasting debug time</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Orio_n\"> /u/Orio_n </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pk5hnv/just_had_the_weirdest_bug_today/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pk5hnv/just_had_the_weirdest_bug_today/\">[comments]</a></span>",
-    "author": "/u/Orio_n",
-    "published_date": "2025-12-11T18:48:04+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 122,
-    "reading_time": 1,
-    "created_at": "2025-12-11T19:20:19.003718+00:00",
-    "updated_at": "2025-12-11T19:20:19.003720+00:00"
   }
 ]

@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-16T10:28:14.150051+00:00",
+  "last_updated": "2025-12-16T10:51:56.592722+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d991e9b467ad5914d87cf6abf46215da",
+      "url": "https://www.reddit.com/r/Python/comments/1pnn7xm/tuesday_daily_thread_advanced_questions/",
+      "title": "Tuesday Daily Thread: Advanced questions",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Wednesday Thread: Advanced Questions \ud83d\udc0d</h1> <p>Dive deep into Python with our Advanced Questions thread! This space is reserved for questions about more advanced Python topics, frameworks, and best practices.</p> <h2>How it Works:</h2> <ol> <li><strong>Ask Away</strong>: Post your advanced Python questions here.</li> <li><strong>Expert Insights</strong>: Get answers from experienced developers.</li> <li><strong>Resource Pool</strong>: Share or discover tutorials, articles, and tips.</li> </ol> <h2>Guidelines:</h2> <ul> <li>This thread is for <strong>advanced questions only</strong>. Beginner questions are welcome in our <a href=\"#daily-beginner-thread-link\">Daily Beginner Thread</a> every Thursday.</li> <li>Questions that are not advanced may be removed and redirected to the appropriate thread.</li> </ul> <h2>Recommended Resources:</h2> <ul> <li>If you don't receive a response, consider exploring <a href=\"/r/LearnPython\">r/LearnPython</a> or join the <a href=\"https://discord.gg/python\">Python Discord Server</a> for quicker assistance.</li> </ul> <h2>Example Questions:</h2> <ol> <li><strong>How can you implement a custom memory allocator in Python?</strong></li> <li><strong>What are the best practices for optimizing Cython code for heavy numerical computations?</strong></li> <li><strong>How do you set up a multi-threaded architecture using Python's Global Interpreter Lock (GIL)?</strong></li> <li><strong>Can you explain the intricacies of metaclasses and how they influence object-oriented design in Python?</strong></li> <li><strong>How would you go about implementing a distributed task queue using Celery and RabbitMQ?</strong></li> <li><strong>What are some advanced use-cases for Python's decorators?</strong></li> <li><strong>How can you achieve real-time data streaming in Python with WebSockets?</strong></li> <li><strong>What are the performance implications of using native Python data structures vs NumPy arrays for large-scale data?</strong></li> <li><strong>Best practices for securing a Flask (or similar) REST API with OAuth 2.0?</strong></li> <li><strong>What are the best practices for using Python in a microservices architecture? (..and more generally, should I even use microservices?)</strong></li> </ol> <p>Let's deepen our Python knowledge together. Happy coding! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pnn7xm/tuesday_daily_thread_advanced_questions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pnn7xm/tuesday_daily_thread_advanced_questions/\">[comments]</a></span>",
+      "author": "/u/AutoModerator",
+      "published_date": "2025-12-16T00:00:32+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 288,
+      "reading_time": 1,
+      "created_at": "2025-12-16T10:50:53.656502+00:00",
+      "updated_at": "2025-12-16T10:50:53.656504+00:00"
+    },
+    {
+      "id": "0fec5670d5ed9818b197752f647225c6",
+      "url": "https://highimpactengineering.substack.com/p/the-illusion-of-shared-understanding",
+      "title": "Internal RFCs saved us months of wasted work",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46221016\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-10T17:57:43+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-16T10:50:52.400018+00:00",
+      "updated_at": "2025-12-16T10:50:52.400019+00:00"
+    },
     {
       "id": "dddf5b59f2e4b309d5fc035e0846ee7c",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.15.694407v1?rss=1",
@@ -309,46 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-16T08:31:43.834472+00:00",
       "updated_at": "2025-12-16T08:31:43.834474+00:00"
-    },
-    {
-      "id": "ef1d360d604223946bde97ad8fab7bd1",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1574044",
-      "title": "Path planning of industrial robots based on the adaptive field cooperative sampling algorithm",
-      "content": "For the low efficiency and poor generalization ability of path planning algorithm of industrial robots, this work proposes an adaptive field co-sampling algorithm (AFCS). Firstly, the environment complexity function is proposed to make full use of environment information and improve its generalization ability of the traditional rapidly random search tree algorithm (RRT) algorithm. Then an optimal sampling strategy is proposed to make the improvement of the efficiency and optimal direction of RRT algorithm. Finally, this article designs a collaborative extension strategy, which introduces the improved artificial potential field algorithm (APF) into the traditional RRT algorithm to determine the new nodes, so as to improve the orientation and expansion efficiency of the algorithm. The proposed AFCS algorithm completes simulation experiments in two environments with different complexity. Compared with the traditional RRT, RRT* and tRRT algorithm, the results show that the AFCS algorithm has achieved great improvement in environmental adaptability, stability and efficiency. At last, ROKAE industrial robot is taken as the object to build a simulation environment for the path planning, which further verifies the practicability of the algorithm.",
-      "author": "Lv Wei",
-      "published_date": "2025-11-13T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 178,
-      "reading_time": 1,
-      "created_at": "2025-12-16T07:44:39.433088+00:00",
-      "updated_at": "2025-12-16T08:24:16.767004+00:00",
-      "metadata": {
-        "processed_at": "2025-12-16T08:24:16.767014+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "975e5f34ffde3cc68f0f73effcea5c20",
-      "url": "https://lowkpro.com/blog/creating-c-closures-from-lua-closures.html",
-      "title": "Creating C closures from Lua closures",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46235699\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-11T19:08:33+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-16T07:44:11.169477+00:00",
-      "updated_at": "2025-12-16T08:24:16.767018+00:00",
-      "metadata": {
-        "processed_at": "2025-12-16T08:24:16.767020+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
