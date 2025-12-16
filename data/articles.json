@@ -1,5 +1,37 @@
 [
   {
+    "id": "80d1f642eb4da0958753076107ac0cbe",
+    "url": "http://daniellakens.blogspot.com/2025/07/easily-download-files-from-open-science.html",
+    "title": "Easily download files from the Open Science Framework with Papercheck",
+    "content": "<p>Researchers\nincreasingly use the <a href=\"https://osf.io/\">Open Science Framework</a> (OSF) to share files, such as data\nand code underlying scientific publications, or presentations and materials for\nscientific workshops. The OSF is an amazing service that has contributed\nimmensely to a changed research culture where psychologists share data, code, and\nmaterials. We are very grateful it exists.</p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">But it is\nnot always the most user-friendly. Specifically, downloading files from the OSF\nis a bigger hassle than we (<a href=\"https://debruine.github.io/\">Lisa DeBruine</a>\nand <a href=\"https://www.tue.nl/en/research/researchers/daniel-lakens/\">Daniel\nLakens</a>, the developers of Papercheck) would like it to be. Downloading individual\nfiles is so complex, <a href=\"https://bsky.app/profile/malte.the100.ci/post/3lpf4s6spns2i\">Malte Elson</a>\nrecently posted this meme on Bluesky. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"NL\"><!--[if gte vml 1]><v:shapetype\n id=\"_x0000_t75\" coordsize=\"21600,21600\" o:spt=\"75\" o:preferrelative=\"t\"\n path=\"m@4@5l@4@11@9@11@9@5xe\" filled=\"f\" stroked=\"f\">\n <v:stroke joinstyle=\"miter\"/>\n <v:formulas>\n  <v:f eqn=\"if lineDrawn pixelLineWidth 0\"/>\n  <v:f eqn=\"sum @0 1 0\"/>\n  <v:f eqn=\"sum 0 0 @1\"/>\n  <v:f eqn=\"prod @2 1 2\"/>\n  <v:f eqn=\"prod @3 21600 pixelWidth\"/>\n  <v:f eqn=\"prod @3 21600 pixelHeight\"/>\n  <v:f eqn=\"sum @0 0 1\"/>\n  <v:f eqn=\"prod @6 1 2\"/>\n  <v:f eqn=\"prod @7 21600 pixelWidth\"/>\n  <v:f eqn=\"sum @8 21600 0\"/>\n  <v:f eqn=\"prod @7 21600 pixelHeight\"/>\n  <v:f eqn=\"sum @10 21600 0\"/>\n </v:formulas>\n <v:path o:extrusionok=\"f\" gradientshapeok=\"t\" o:connecttype=\"rect\"/>\n <o:lock v:ext=\"edit\" aspectratio=\"t\"/>\n</v:shapetype><v:shape id=\"_x0000_i1026\" type=\"#_x0000_t75\" style='width:453.75pt;\n height:276pt;visibility:visible;mso-wrap-style:square'>\n <v:imagedata src=\"file:///C:/Users/DLakens/AppData/Local/Temp/msohtmlclip1/01/clip_image001.jpg\"\n  o:title=\"\"/>\n</v:shape><![endif]--><!--[if !vml]--><img border=\"0\" height=\"368\" src=\"https://blogger.googleusercontent.com/img/a/AVvXsEinS5tFoL5qX14Z2OcgT1APMZLGlghAD3BfBhSnJ9pleVbJyRFUFLShqReS2j7SXGozmLMcVQkoM62UhneJDtH4yx3NRnXOkVZZi-Dm-OPwbGaidxr2raF9wzjx5fU92nfPpE3jmGfwZEwHS1WGSB4gUfRfV3XWjOC2-lCjOYR108h3fwORIHOnqxIX9m8\" width=\"605\" /><!--[endif]--></span><span lang=\"EN-US\"></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span>&nbsp;</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Not only is\nthe download button for files difficult to find, but downloading all files\nrelated to a project can be surprisingly effortful. It is possible to download\nall files in a zip folder that will be called \u2018osfstorage-archive.zip\u2019 when\ndownloaded. But as the OSF supports a nested folder structure, you might miss a\nfolder, and you will quickly end up with \u2018osfstorage-archive (1).zip\u2019, \u2018osfstorage-archive\n(2).zip\u2019, etc. Unzipping these archives creates a lot of files without the\norganized folder structure, in folders with meaningless names, making it\ndifficult to understand where files are. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<h2 style=\"text-align: left;\"><b><span lang=\"EN-US\">The\nosf_file_download function in Papercheck </span></b></h2>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">We have added\na new function to our R package \u2018<a href=\"https://scienceverse.github.io/papercheck/\">Papercheck</a>\u2019 that will download all files and\nfolders in an OSF repository. It saves all files by recreating the folder\nstructure from the OSF in your download folder. Just install Papercheck, load\nthe library, and use the osf_file_download function to grab all files on the OSF:</span></p><p class=\"MsoNormal\"><span lang=\"EN-US\"><br /></span></p>\n\n<div style=\"text-align: left;\"><span style=\"font-family: courier;\"><b><span lang=\"EN-US\">devtools::install_github(\"scienceverse/papercheck\")<br /></span></b><b><span lang=\"EN-US\">library(papercheck)<br /></span></b><b><span lang=\"EN-US\">osf_file_download(\"6nt4v\")</span></b></span></div>\n\n\n\n\n\n<p class=\"MsoNormal\"><b><span lang=\"EN-US\">&nbsp;</span></b></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">All files\nwill be downloaded to your working directory. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Are you feeling\nFOMO for missing out on the <a href=\"https://www.kcl.ac.uk/events/open-research-summer-school-2025\">King Open\nResearch Summer School</a> that is going on these days, where <a href=\"https://research.tue.nl/en/persons/sajedeh-rasti\">Sajedeh Rasti</a> talked\nabout Preregistration, and <a href=\"https://research.tue.nl/en/persons/cristian-mesquida-caldentey\">Cristian\nMesquida</a> will give a workshop on using Papercheck? Well, at least it is\nvery easy to download all the files they have shared on the OSF and look at the\npresentations: </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: courier;\">osf_file_download(\"b7es8\")</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">In the\noutput, we see that by default large files (more than 10mb) are omitted. <span><!--[if gte vml 1]><v:shape id=\"Picture_x0020_1\"\n o:spid=\"_x0000_i1025\" type=\"#_x0000_t75\" alt=\"A screenshot of a computer&#10;&#10;AI-generated content may be incorrect.\"\n style='width:453.75pt;height:292.5pt;visibility:visible;mso-wrap-style:square'>\n <v:imagedata src=\"file:///C:/Users/DLakens/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png\"\n  o:title=\"A screenshot of a computer&#10;&#10;AI-generated content may be incorrect\"/>\n</v:shape><![endif]--><!--[if !vml]--><img alt=\"A screenshot of a computer\n\nAI-generated content may be incorrect.\" border=\"0\" height=\"390\" src=\"https://blogger.googleusercontent.com/img/a/AVvXsEj2jH76ywmEeLzL43u6gJl7GKR2lEGlhYS0LOXRPMMovOsJEVdXyamYCvmq96ez3p_GXHLoFz4JDyAKHlARK9pSy8QfzVa7yt1_uEg_H9IJfKgunnYWUwlROXABNcU6TvrA0_hx0KPZfj00b3Cb-Wn_7Bf3sFu9JApZoClcWoh_Vfl5bk1GQVZUH1tuGao\" width=\"605\" /><!--[endif]--></span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">If you want\nto download all files, regardless of the size, then set the parameter to ignore\nthe maximum file size: </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: courier;\">osf_file_download(\"b7es8\",\nmax_file_size = NULL)</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Sometimes\nyou might want to download all files but ignore the file structure on the OSF,\nto just have all the files in one folder. Setting the parameter ignore_folder_structure\n= TRUE will give you all the files on the OSF in a single folder. By default, files will be downloaded into your working directory, but you can also specify\nwhere you want the files to be saved. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: courier;\">osf_file_download(\"6nt4v\",\nignore_folder_structure = TRUE, download_to = \"C:\\\\test_download\")</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">We hope\nthis function will make it easier for reviewers to access all supplementary\nfiles stored on the OSF during peer review, and for researchers who want to re-use\ndata, code, or materials shared on the OSF by downloading all the files they\nneed easily. Make sure to install the latest version of Papercheck (0.0.0.9050)\nto get access to this new function. Papercheck is still in active development,\nso report any bugs on <a href=\"https://github.com/scienceverse/papercheck\">GitHub</a>.</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>",
+    "author": "noreply@blogger.com (Daniel Lakens)",
+    "published_date": "2025-07-22T09:53:00+00:00",
+    "source": "Twenty Percent Statistician",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 765,
+    "reading_time": 3,
+    "created_at": "2025-12-16T15:46:50.028623+00:00",
+    "updated_at": "2025-12-16T15:46:50.028624+00:00"
+  },
+  {
+    "id": "5cf06dd1c8477abb17ef4e5c3b5426e0",
+    "url": "https://erpinfo.org/blog/2021/12/22/applications-2023",
+    "title": "Applications now being accepted for UC-Davis/SDSU ERP Boot Camp, July 31 \u2013 August 9, 2023",
+    "content": "<p class=\"\">The next 10-day ERP Boot Camp will be held July 31 \u2013 August 9, 2023 in San Diego, California. We are now taking applications, which will be due by April 1, 2023. <a href=\"https://erpinfo.org/summer-boot-camp\">Click here</a> for more information.</p><p class=\"\">We are currently planning to hold this workshop as an in-person event. However, these plans are subject to change as the COVID-19 pandemic evolves. If the event is held in person, we will require that everyone is fully vaccinated, and we will also implement any other safety measures that are warranted at the time of the workshop.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"980\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/1609175691205-RTD3XM69YGOFMVP23U6T/Boot_Camp_Logo.png?format=1000w\" width=\"1148\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>",
+    "author": "Steve Luck",
+    "published_date": "2023-01-16T18:31:57+00:00",
+    "source": "Erp Boot Camp",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 108,
+    "reading_time": 1,
+    "created_at": "2025-12-16T15:46:47.560564+00:00",
+    "updated_at": "2025-12-16T15:46:47.560565+00:00"
+  },
+  {
     "id": "bd7398ecbbd90ecd3269866b2fd3744f",
     "url": "https://erpinfo.org/blog/2023/6/23/decoding-webinar",
     "title": "ERP Decoding for Everyone: Software and Webinar",
@@ -17116,46 +17148,6 @@
     "updated_at": "2025-12-12T01:15:16.766865+00:00",
     "metadata": {
       "processed_at": "2025-12-12T01:15:16.766867+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "bd87772b5547b0adcd28cdfe29cdb82d",
-    "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.692426v1?rss=1",
-    "title": "Pre-clinical validation of a novel AAV-mediated gene therapy for KCNV2 retinopathy improves visual function in a mouse model and expression in patient organoids",
-    "content": "Voltage-gated (Kv) potassium channels are critical for neuronal physiology, and their dysfunction can lead to serious consequences. For example, mutations in the silent modulatory Kv8.2 subunit are known to cause irreversible inherited blindness (KCNV2 retinopathy). This is a currently incurable condition that causes lifelong visual loss, reduced visual acuity, photoaversion, night blindness and abnormal colour vision, alongside a distinctive supernormal electrophysiological (ERG) retinal response to light. In this study, we demonstrate that AAV-mediated gene replacement therapy delivering a codon-optimised human KCNV2 gene subretinally into Kv8.2 knock-out mice significantly restores retinal function. Treated mice exhibited improved ERG responses and correct expression of KCNV2 and its encoded Kv8.2 protein in photoreceptors. Recovery of visually guided scotopic and photopic optomotor responses to wildtype levels was achieved at lower vector doses, highlighting dose-dependent efficacy. Furthermore, treatment of human retinal organoids derived from a KCNV2 patient iPSC line resulted in substantial Kv8.2 protein rescue. This work provides the first preclinical proof-of-concept for the safety and therapeutic potential of gene therapy for KCNV2 retinopathy, laying a strong foundation for future clinical trials.",
-    "author": "Rashwan, R., Fuller-Carter, P. I., Lim, X. R., Brunet, A. A., Miller, A. L., Bhatt, Y., James, R., Anderson, D., Voigt, V., Paulo, J. A., Mirzaei, M., Mangala, M. M., Wong, E. O., Jamieson, R. V., Gonzalez Cordero, A., Hunt, D. M., Carvalho, L. S.",
-    "published_date": "2025-12-11T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 176,
-    "reading_time": 1,
-    "created_at": "2025-12-11T23:21:24.802484+00:00",
-    "updated_at": "2025-12-12T01:15:16.766870+00:00",
-    "metadata": {
-      "processed_at": "2025-12-12T01:15:16.766871+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "ec99ae9e7d4e834ace63783ab4132001",
-    "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693152v1?rss=1",
-    "title": "Rac1 contributes to brain connectivity impairments and neuropsychiatric disorders in Tuberous Sclerosis Complex",
-    "content": "Tuberous sclerosis complex (TSC) is a neurodevelopmental disorder caused by inactivating mutations in the TSC1 or TSC2 genes, leading to constitutive activation of the mTOR complex 1 pathway. Patients commonly present with epilepsy and TSC-associated neuropsychiatric disorders (TANDs), including intellectual disability and anxiety. Our previous work identified anxiety-like behavior in tsc2vu242 zebrafish mutants, characterized by enhanced thigmotaxis. We found that anxiety-like behavior in tsc2vu242 zebrafish mutants was rescued by Rac1 inhibitors. These findings prompted further investigation into Rac1 signaling in the context of TSC pathology. Using G-LISA and FRET live imaging, we confirmed elevated Rac1 activity in the mutant brains. Rac1 activity was reduced following NSC23766 and EHT1864 treatment. Compared to wild-type controls, Rac1 activity in mutants was elevated by 50% in untreated animals, and reduced by ~30-40% after Rac1 inhibitors. Moreover, aberrant connectivity between brain hemispheres that correlated with anxiety before was restored after Rac1 inhibition. Transcriptomic profiling revealed 1,260 DEGs between homozygous and heterozygous tsc2vu242 zebrafish. Rac1 inhibition restored the expression of approximately 1,000 genes toward wild-type levels. KEGG pathway analysis identified significant enrichment in mTOR signaling and focal adhesion, while GO terms highlighted processes including axon guidance, axonogenesis, and neuronal projection. Collectively, our findings support a functional role for Rac1 in TSC pathology, linking cytoskeletal dysregulation with aberrant axon development and anxiety-like behavior. Rac1 inhibition emerges as a promising therapeutic avenue for modulating both brain structure and function in TSC-associated anxiety.",
-    "author": "Dulski, T., Doszyn, O., Zmorzynska, J.",
-    "published_date": "2025-12-11T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 234,
-    "reading_time": 1,
-    "created_at": "2025-12-11T23:21:24.802450+00:00",
-    "updated_at": "2025-12-12T03:19:53.275125+00:00",
-    "metadata": {
-      "processed_at": "2025-12-12T03:19:53.275126+00:00",
       "processing_method": "github_actions"
     }
   }
