@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-12-16T19:21:23.675622+00:00",
+  "last_updated": "2025-12-16T19:41:21.015206+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "8a9c0b017ef432760f79b366ba5fce6d",
+      "url": "https://yaschamounk.substack.com/p/the-world-happiness-report-is-a-sham",
+      "title": "The World Happiness Report is beset with methodological problems",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46282874\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-16T00:06:49+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-16T19:40:13.526930+00:00",
+      "updated_at": "2025-12-16T19:40:13.526931+00:00"
+    },
+    {
+      "id": "70c3599ef4230afa7a8f6864c560fc6a",
+      "url": "https://www.drawize.com/",
+      "title": "Show HN: My Tizen multiplayer drawing game flopped, but then hit 100M drawings",
+      "content": "<p>Hi HN,<p>I built the first version of Drawize back in late 2016 specifically for a Samsung Tizen OS app contest. I crunched and built the whole thing (including the real-time multiplayer engine) in under 4 weeks.<p>It didn\u2019t win anything in the contest.<p>Since it was built with web tech anyway, I published it on the open web in early 2017 just to see what would happen. It started living its own life, and today \u2014 8 years later \u2014 the database processed the 100,000,000th drawing.<p>On the busiest days it\u2019s been 30k+ active users, and storing 100M drawings currently sits at ~3.16 TB.<p>The milestone moment: I was watching live logs today, terrified the 100Mth drawing would be NSFW. Luckily, the RNG gods smiled and it turned out to be a Red Balloon \n(You can see the 100Mth drawing here: <a href=\"https://www.drawize.com/blog/100-million-drawings-milestone\" rel=\"nofollow\">https://www.drawize.com/blog/100-million-drawings-milestone</a>)<p>Tech stack (boring but fast):<p>Backend: .NET + WebSockets (real-time sync)<p>Frontend: hand-coded HTML/JS + jQuery (no React, no bundlers)<p>Data: PostgreSQL & MongoDB<p>Storage: Wasabi Cloud (moved there to save on S3 costs)<p>Scaling as a solo dev: real-time lobbies + reconnection edge cases + moderation/content filtering. I use content classification models trained in 2021 to filter bad content, and the real-time multiplayer side is mostly highly optimized .NET code.<p>Happy to answer questions about the \u201cfailed\u201d Tizen origin, real-time multiplayer on the web, moderation, or how .NET handles the load.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46290213\">https://news.ycombinator.com/item?id=46290213</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "lombarovic",
+      "published_date": "2025-12-16T16:02:39+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 236,
+      "reading_time": 1,
+      "created_at": "2025-12-16T19:40:12.186280+00:00",
+      "updated_at": "2025-12-16T19:40:12.186282+00:00"
+    },
+    {
+      "id": "8cbcf1533bf8f3d5b32624109f0609bb",
+      "url": "https://openai.com/index/new-chatgpt-images-is-here/",
+      "title": "The new ChatGPT Images is here",
+      "content": "<p>Article URL: <a href=\"https://openai.com/index/new-chatgpt-images-is-here/\">https://openai.com/index/new-chatgpt-images-is-here/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46291827\">https://news.ycombinator.com/item?id=46291827</a></p>\n<p>Points: 32</p>\n<p># Comments: 4</p>",
+      "author": "meetpateltech",
+      "published_date": "2025-12-16T17:58:59+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-16T19:40:12.186075+00:00",
+      "updated_at": "2025-12-16T19:40:12.186077+00:00"
+    },
     {
       "id": "24bf764700053bd109520c37d18e0ce3",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.694037v1?rss=1",
@@ -273,66 +321,6 @@
       "reading_time": 1,
       "created_at": "2025-12-16T18:33:52.254469+00:00",
       "updated_at": "2025-12-16T18:33:52.254479+00:00"
-    },
-    {
-      "id": "7f7383292b5f231321c44f48a84ca2bf",
-      "url": "https://resources.github.com/actions/2026-pricing-changes-for-github-actions/",
-      "title": "Pricing Changes for GitHub Actions",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46291156\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-16T17:12:02+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-16T17:48:03.921104+00:00",
-      "updated_at": "2025-12-16T18:24:40.811392+00:00",
-      "metadata": {
-        "processed_at": "2025-12-16T18:24:40.811402+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7f7383292b5f231321c44f48a84ca2bf",
-      "url": "https://resources.github.com/actions/2026-pricing-changes-for-github-actions/",
-      "title": "Pricing Changes for GitHub Actions",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46291156\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-16T17:12:02+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-16T17:48:03.921104+00:00",
-      "updated_at": "2025-12-16T18:24:40.811392+00:00",
-      "metadata": {
-        "processed_at": "2025-12-16T18:24:40.811402+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "307671786156803b09edaa9705ffbb17",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.694050v1?rss=1",
-      "title": "People report having consistent idiosyncratic diets of imagined sensations when they re-experience the past, and pre-experience the future",
-      "content": "To some extent, humans can re-experience the sensations of past events and pre-experience the future. These capacities are inter-related. But there are substantial individual differences. At the extremes, small minorities of people report that they either cannot have imagined experiences at all, or that their imagined sensations are as real to them as their actual experiences of the physical world. We wanted to know if such individual differences are uniform across different types of imagined experience (e.g. vision, audio, taste and smell), or if people generally have idiosyncratic patterns of different types (vision, audio, taste and smell) of imagined experiences. We find that people report having idiosyncratic diets of different types of imagined sensation, characterised by differences in salience. One person might have more salient imagined visual than taste experiences, while another reports the reverse. Moreover, these propensities are consistent across peoples attempts to re-experience the past, and to pre-experience the future, and they predict peoples experience and usage of different types of imagined sensation in their everyday lives.",
-      "author": "Arnold, D. H., Bouyer, L. N., Saurels, B. W., Schwarzkopf, D. S.",
-      "published_date": "2025-12-16T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 169,
-      "reading_time": 1,
-      "created_at": "2025-12-16T17:24:55.980903+00:00",
-      "updated_at": "2025-12-16T18:24:40.811411+00:00",
-      "metadata": {
-        "processed_at": "2025-12-16T18:24:40.811412+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
