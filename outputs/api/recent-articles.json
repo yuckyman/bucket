@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-17T14:52:00.101290+00:00",
+  "last_updated": "2025-12-17T15:26:25.556474+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "613a712795cae89d04b5c7e3674d9877",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1590994",
+      "title": "Adaptive-expert-weight-based load balance scheme for dynamic routing of MoE",
+      "content": "Load imbalance is a major performance bottleneck in training mixture-of-experts (MoE) models, as unbalanced expert loads can lead to routing collapse. Most existing approaches address this issue by introducing auxiliary loss functions to balance the load; however, the hyperparameters within these loss functions often need to be tuned for different tasks. Furthermore, increasing the number of activated experts tends to exacerbate load imbalance, while fixing the activation count can reduce the model\u2019s confidence in handling difficult tasks. To address these challenges, this paper proposes a dynamically balanced routing strategy that employs a threshold-based dynamic routing algorithm. After each routing step, the method adjusts expert weights to influence the load distribution in the subsequent routing. Unlike loss-function-based balancing methods, our approach operates directly at the routing level, avoiding gradient perturbations that could degrade model quality, while dynamically routing to make more efficient use of computational resources. Experiments on Natural Language Understanding (NLU) benchmarks demonstrate that the proposed method achieves accuracy comparable to top-2 routing, while significantly reducing the load standard deviation (e.g., from 12.25 to 1.18 on MNLI). In addition, threshold-based dynamic expert activation reduces model parameters and provides a new perspective for mitigating load imbalance among experts.",
+      "author": "Peng Cheng",
+      "published_date": "2025-10-14T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 197,
+      "reading_time": 1,
+      "created_at": "2025-12-17T15:25:44.545075+00:00",
+      "updated_at": "2025-12-17T15:25:44.545076+00:00"
+    },
+    {
+      "id": "99d8f09159523aed2385073522291c7b",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1663565",
+      "title": "TSLNet: a hierarchical multi-head attention-enabled two-stream LSTM network for accurate pedestrian tracking and behavior recognition",
+      "content": "Accurate pedestrian tracking and behavior recognition are essential for intelligent surveillance, smart transportation, and human-computer interaction systems. This paper introduces TSLNet, a Hierarchical Multi-Head Attention-Enabled Two-Stream LSTM Network, designed to overcome challenges such as environmental variability, high-density crowds, and diverse pedestrian movements in real-world video data. TSLNet combines a Two-Stream Convolutional Neural Network (Two-Stream CNN) with Long Short-Term Memory (LSTM) networks to effectively capture spatial and temporal features. The addition of a Multi-Head Attention mechanism allows the model to focus on relevant features in complex environments, while Hierarchical Classifiers within a Multi-Task Learning framework enable the simultaneous recognition of basic and complex behaviors. Experimental results on multiple public and proprietary datasets demonstrate that TSLNet significantly outperforms existing baseline models, achieving higher Accuracy, Precision, Recall, F1-Score, and Mean Average Precision (mAP) in behavior recognition, as well as superior Multiple Object Tracking Accuracy (MOTA) and ID F1 Score (IDF1) in pedestrian tracking. These improvements highlight TSLNet\u2019s effectiveness in enhancing tracking and recognition performance.",
+      "author": "Xiaoting Ma",
+      "published_date": "2025-10-20T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 161,
+      "reading_time": 1,
+      "created_at": "2025-12-17T15:25:44.545041+00:00",
+      "updated_at": "2025-12-17T15:25:44.545042+00:00"
+    },
     {
       "id": "d657fc9d29c71b2e4240b0970dc9a8f7",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452225011923?dgcid=rss_sd_all",
@@ -329,38 +361,6 @@
       "reading_time": 1,
       "created_at": "2025-12-17T11:21:45.229348+00:00",
       "updated_at": "2025-12-17T11:21:45.229349+00:00"
-    },
-    {
-      "id": "80944bde4fe2db2d2565fa0fd1fe1b7b",
-      "url": "https://www.nature.com/articles/s41598-025-32585-8",
-      "title": "Treadmill training or caloric restriction delays aging-associated increase in urocortin 2-induced hyperthermia in middle-aged male Wistar rats",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-17T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-17T11:21:45.229330+00:00",
-      "updated_at": "2025-12-17T11:21:45.229331+00:00"
-    },
-    {
-      "id": "9b9099d943ee09e8965cdaffebf4b51f",
-      "url": "https://www.nature.com/articles/s41467-025-66826-1",
-      "title": "Spatially heterogeneous acetylcholine dynamics in the striatum promote behavioral flexibility",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-17T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-17T11:21:45.229276+00:00",
-      "updated_at": "2025-12-17T11:21:45.229278+00:00"
     }
   ]
 }
