@@ -1,5 +1,37 @@
 [
   {
+    "id": "ba29615e997e000e350c437afe4483f2",
+    "url": "https://www.youtube.com/watch?v=nooPmXxO6K0",
+    "title": "Modern SID chip substitutes [video]",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46260485\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-14T03:17:11+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-17T12:47:47.633344+00:00",
+    "updated_at": "2025-12-17T12:47:47.633345+00:00"
+  },
+  {
+    "id": "360b66a39b6fc05e8dbdb9b3f8d58d10",
+    "url": "https://mephistomail.site",
+    "title": "Show HN: Mephisto \u2013 A RAM-only, ad-free disposable email PWA built with React",
+    "content": "<p>Hi HN,<p>I built Mephisto because I was frustrated with the current state of disposable email services\u2014most are riddled with intrusive ads, trackers, and captchas.<p>I wanted a tool that felt like a proper developer utility rather than a spam farm.<p>The stack is React, Vite, and Tailwind. Key architectural decisions:<p>1. Volatile Memory: The backend writes nothing to disk. Once a session terminates, the data is irretrievable.\n2. Client-Side Entropy: The password generator runs locally in the browser; keys are never sent to the server.\n3. PWA: It's installable and designed for low latency using WebSockets for incoming mail (no polling).\n4. Mobile Handoff: You can transfer an active session to mobile via an encrypted QR code.<p>It is completely free and open for public use. I'd love to hear your feedback on the implementation and UI.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46300047\">https://news.ycombinator.com/item?id=46300047</a></p>\n<p>Points: 11</p>\n<p># Comments: 9</p>",
+    "author": "benmxrt",
+    "published_date": "2025-12-17T09:54:48+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 144,
+    "reading_time": 1,
+    "created_at": "2025-12-17T12:47:46.435627+00:00",
+    "updated_at": "2025-12-17T12:47:46.435636+00:00"
+  },
+  {
     "id": "40e8e43288b1b388ca6c63b7687f730d",
     "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2520674122?af=R",
     "title": "The inferred functional connectome underlying circadian synchronization in the mouse suprachiasmatic nucleus",
@@ -17098,37 +17130,5 @@
       "processed_at": "2025-12-13T03:11:52.517459+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "c8c40b6e03bf6163c47993557e79e507",
-    "url": "https://victorpoughon.github.io/bidicalc/",
-    "title": "Show HN: I made a spreadsheet where formulas also update backwards",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46234734\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-11T18:00:55+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-13T01:40:03.457687+00:00",
-    "updated_at": "2025-12-13T01:40:03.457689+00:00"
-  },
-  {
-    "id": "f2717f1c73a65e4f9072700520aa3a63",
-    "url": "https://simonwillison.net/2025/Dec/12/openai-skills/",
-    "title": "OpenAI are quietly adopting skills, now available in ChatGPT and Codex CLI",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46250332\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-12T23:30:19+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-13T01:40:03.457608+00:00",
-    "updated_at": "2025-12-13T01:40:03.457616+00:00"
   }
 ]

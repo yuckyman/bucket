@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-17T12:34:43.175142+00:00",
+  "last_updated": "2025-12-17T12:49:00.609821+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "ba29615e997e000e350c437afe4483f2",
+      "url": "https://www.youtube.com/watch?v=nooPmXxO6K0",
+      "title": "Modern SID chip substitutes [video]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46260485\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-14T03:17:11+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-17T12:47:47.633344+00:00",
+      "updated_at": "2025-12-17T12:47:47.633345+00:00"
+    },
+    {
+      "id": "360b66a39b6fc05e8dbdb9b3f8d58d10",
+      "url": "https://mephistomail.site",
+      "title": "Show HN: Mephisto \u2013 A RAM-only, ad-free disposable email PWA built with React",
+      "content": "<p>Hi HN,<p>I built Mephisto because I was frustrated with the current state of disposable email services\u2014most are riddled with intrusive ads, trackers, and captchas.<p>I wanted a tool that felt like a proper developer utility rather than a spam farm.<p>The stack is React, Vite, and Tailwind. Key architectural decisions:<p>1. Volatile Memory: The backend writes nothing to disk. Once a session terminates, the data is irretrievable.\n2. Client-Side Entropy: The password generator runs locally in the browser; keys are never sent to the server.\n3. PWA: It's installable and designed for low latency using WebSockets for incoming mail (no polling).\n4. Mobile Handoff: You can transfer an active session to mobile via an encrypted QR code.<p>It is completely free and open for public use. I'd love to hear your feedback on the implementation and UI.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46300047\">https://news.ycombinator.com/item?id=46300047</a></p>\n<p>Points: 11</p>\n<p># Comments: 9</p>",
+      "author": "benmxrt",
+      "published_date": "2025-12-17T09:54:48+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 144,
+      "reading_time": 1,
+      "created_at": "2025-12-17T12:47:46.435627+00:00",
+      "updated_at": "2025-12-17T12:47:46.435636+00:00"
+    },
     {
       "id": "40e8e43288b1b388ca6c63b7687f730d",
       "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2520674122?af=R",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-17T10:26:24.927262+00:00",
       "updated_at": "2025-12-17T10:26:24.927263+00:00"
-    },
-    {
-      "id": "166c3e85476272ec22fe659a08ed58d2",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693276v1?rss=1",
-      "title": "Sleep-modulated disinhibition enables replay for memory consolidation, accelerated by ripples",
-      "content": "Memory consolidation involves elusive neural mechanisms. Here, we develop a biophysically detailed model of the entorhinal-hippocampal-cortical network to reveal that disinhibition drives synaptic and systems consolidation. Transitioning to slow-wave sleep via neuromodulatory dampening of inhibition generates up-down states and spontaneous, time-compressed replays of spatial sequences encoded with theta-phase precession. Lateral inhibition levels unify physiological and pathological ripple diversity. Cortical disinhibition enables memory transfer from hippocampus. Weakened afferent CA1 synapses eliminate ripples but spare replays, proposing strategies to mitigate ripple disruptions. Replays sustain systems consolidation even without ripples, albeit slower; excessive weakening halts it, rescuable by enhanced hippocampal-to-cortical connectivity. Inducing disinhibition during wakefulness--mimicking medial-entorhinal-cortex-input-dependent quiet wakefulness replay--activates these processes, underscoring disinhibition's state-agnostic role. These insights elucidate disinhibition's centrality in engraining memories and fostering hippocampal independence, reconciling empirical observations, yielding testable predictions, and identifying therapeutic avenues for memory disorders.",
-      "author": "Dutta, S.",
-      "published_date": "2025-12-17T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 137,
-      "reading_time": 1,
-      "created_at": "2025-12-17T10:26:24.927225+00:00",
-      "updated_at": "2025-12-17T10:26:24.927226+00:00"
-    },
-    {
-      "id": "e6c7f6e315d838763c7c57af2f6cbf00",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.16.694610v1?rss=1",
-      "title": "Temporal contrast enhancement generalizes across pain and auditory modalities",
-      "content": "The human brain continuously processes sensory inputs whose perceptual impact depends on stimulus intensity, salience, and context. Temporal filtering shapes this processing by dynamically modulating neural responses according to stimulus repetition, temporal structure, and predictive contingencies. Higher-order percepts such as pain are likewise a subject to temporal filtering, as exemplified by temporal contrast enhancement (TCE), a stimulation paradigm eliciting pain inhibition. However, given the prevalence of filtering mechanisms across sensory domains, it remains unclear whether TCE is specific to pain or represents a supramodal filtering mechanism. Here, we contrasted behavioral and neurophysiological responses, including electroencephalography and pupillometry, in a TCE paradigm for painful heat versus uncomfortable auditory stimulation. We sought to establish whether TCE generalizes across modalities and bases on similar or distinct underlying neurophysiological processes. Human participants took part in either a purely behavioral investigation (n = 33) or in a neurophysiological and behavioral investigation (n = 29). Both painful heat and loud sounds induced TCE effects, suggesting a supramodal temporal filtering mechanism with modality-specific temporal dynamics. Increasing pupil size and decreasing power of neural alpha oscillations (~10 Hz) with higher painful heat indicate bottom-up modulation of the autonomic nervous system and a release of neural inhibition, respectively. Critically, expectation of pain - but not loud sound - induced an alpha power increase, demonstrating to-down contributions to temporal filtering of pain. However, no direct neurophysiological correlates of subjectively experienced TCE effects were found. Findings suggests that a supramodal temporal filtering mechanism with modality-specific neurophysiological dynamics shapes the processing of aversive stimulation.",
-      "author": "Poehlmann, J., Szikszay, T. M., Luebke, L., Adamczyk, W. M., Luedtke, K., Wo\u0308stmann, M.",
-      "published_date": "2025-12-17T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 252,
-      "reading_time": 1,
-      "created_at": "2025-12-17T10:26:24.927191+00:00",
-      "updated_at": "2025-12-17T10:26:24.927193+00:00"
     }
   ]
 }
