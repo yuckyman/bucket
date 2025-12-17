@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-17T14:17:36.397121+00:00",
+  "last_updated": "2025-12-17T14:25:34.079365+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "051b00eb368bb3d8d8ce021fb514a810",
+      "url": "https://fmhy.net/posts/changelog-sites",
+      "title": "Changelog Sites",
+      "content": "<p>Hey everyone, as you guys know we make a lot of changes to FMHY, but the current ways to track those changes are pretty limited. The only real options are joining Discord, or watching markdown commits on GitHub, neither of which is ideal for everyone.</p>\n<p>To help make things easier, the following two changelog sites have been built.</p>\n<hr />\n<p><strong><a href=\"https://changes.fmhy.bid/\" rel=\"noreferrer\" target=\"_blank\">https://changes.fmhy.bid/</a></strong></p>\n<p>This covers changes that occur in both the #Recently-Added and #Monthly-Update channels in our Discord.</p>\n<hr />\n<p><strong><a href=\"https://fmhy-tracker.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">https://fmhy-tracker.pages.dev/</a></strong></p>\n<p>This covers links that have been added, updated, or removed by watching GitHub for changes.</p>\n<hr />\n<p>Note that we will also continue to make the monthly posts same as always, and you can still follow updates by joining our <a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Discord</a>, or watching the <a href=\"https://github.com/fmhy/edit/commits/main/\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub yourself.</p>\n<p>We hope you guys like them, if you have any suggestions or questions feel free to let us know.</p>",
+      "author": "",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 159,
+      "reading_time": 1,
+      "created_at": "2025-12-17T14:24:21.838599+00:00",
+      "updated_at": "2025-12-17T14:24:21.838604+00:00"
+    },
+    {
+      "id": "0328b4ff66f3f0e6183e1209996be92f",
+      "url": "https://emschwartz.me/short-circuiting-correlated-subqueries-in-sqlite/",
+      "title": "Short-Circuiting Correlated Subqueries in SQLite",
+      "content": "<p>Article URL: <a href=\"https://emschwartz.me/short-circuiting-correlated-subqueries-in-sqlite/\">https://emschwartz.me/short-circuiting-correlated-subqueries-in-sqlite/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46300776\">https://news.ycombinator.com/item?id=46300776</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "author": "emschwartz",
+      "published_date": "2025-12-17T11:26:59+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-17T14:24:17.961842+00:00",
+      "updated_at": "2025-12-17T14:24:17.961844+00:00"
+    },
     {
       "id": "3471ca7d28ecf1c693e3810e01eebb22",
       "url": "https://uncenter.dev/posts/learning-fortran/",
@@ -329,38 +361,6 @@
       "reading_time": 1,
       "created_at": "2025-12-17T10:50:06.156366+00:00",
       "updated_at": "2025-12-17T10:50:06.156367+00:00"
-    },
-    {
-      "id": "c13d5532481827beeb958f3b696e11c0",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1696824",
-      "title": "A novel intelligent physiotherapy robot based on dynamic acupoint recognition method",
-      "content": "BackgroundPhysiotherapy robots offer a feasible and promising solution for achieving safe and efficient treatment. Among these, acupoint recognition is the core component that ensures the precision of physiotherapy robots. Although the research on the acupoint recognition such as hand and ear has been extensive, the accurate location of acupoints on the back of the human body still faces great challenges due to the lack of significant external features.MethodsThis paper designs a two-stage acupoint recognition method, which is achieved through the cooperation of two detection networks. First, a lightweight RTMDet network is used to extract the effective back range from the image, and then the acupoint coordinates are inferred from the extracted back range, reducing the inference consumption caused by invalid information. In addition, the RTMPose network based on the SimCC framework converts the acupoint coordinate regression problem into a classification problem of sub-pixel block subregions on the X and Y axes by performing sub-pixel-level segmentation of images, significantly improving detection speed and accuracy. Meanwhile, the multi-layer feature fusion of CSPNeXt enhances feature extraction capabilities. Then, we designed a physiotherapy interaction interface. Through the three-dimensional coordinates of the acupoints, we independently planned the physiotherapy task path of the physiotherapy robot.ResultsWe conducted performance tests on the acupoint recognition system and physiotherapy task planning in the physiotherapy robot system. The experiments have proven our effectiveness, achieving a recall of 90.17% on human datasets, with a detection error of around 5.78\u202fmm. At the same time, it can accurately identify different back postures and achieve an inference speed of 30 FPS on a 4070Ti GPU. Finally, we conducted continuous physiotherapy tasks on multiple acupoints for the user.ConclusionThe experimental results demonstrate the significant advantages and broad application potential of this method in improving the accuracy and reliability of autonomous acupoint recognition by physiotherapy robots.",
-      "author": "Shuoyu Wang",
-      "published_date": "2025-11-24T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 299,
-      "reading_time": 1,
-      "created_at": "2025-12-17T10:50:03.397980+00:00",
-      "updated_at": "2025-12-17T10:50:03.397982+00:00"
-    },
-    {
-      "id": "c62351180f1bf792a5f77673e0b53f2c",
-      "url": "https://msanroman.io/blog/ai-consumption-paradigm",
-      "title": "AI's real superpower: consuming, not creating",
-      "content": "<p>Article URL: <a href=\"https://msanroman.io/blog/ai-consumption-paradigm\">https://msanroman.io/blog/ai-consumption-paradigm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46299552\">https://news.ycombinator.com/item?id=46299552</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "author": "firefoxd",
-      "published_date": "2025-12-17T08:34:00+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-17T10:49:36.574708+00:00",
-      "updated_at": "2025-12-17T10:49:36.574710+00:00"
     }
   ]
 }
