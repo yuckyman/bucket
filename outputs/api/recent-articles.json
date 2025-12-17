@@ -1,7 +1,103 @@
 {
-  "last_updated": "2025-12-17T20:18:41.122259+00:00",
+  "last_updated": "2025-12-17T20:27:20.052771+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "86e0231996c0416aba5bc5ba45c9cf4c",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006408?dgcid=rss_sd_all",
+      "title": "Quantitative neuroimaging meets normative modelling: the last mile for precision medicine applications",
+      "content": "<p>Publication date: January 2026</p><p><b>Source:</b> NeuroImage, Volume 325</p><p>Author(s): Lucia Maccioni, Alessio Giacomel, Marco Pinamonti, Mattia De Francisci, Federico Del Pup, Alice Giubergia, Giulia Vallini, Valentina Visani, Leonardo Barzon, Ottavia Dipasquale, Alessandra Bertoldo, Manuela Moretto, Mattia Veronese</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroimage",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 35,
+      "reading_time": 1,
+      "created_at": "2025-12-17T20:26:50.341186+00:00",
+      "updated_at": "2025-12-17T20:26:50.341193+00:00"
+    },
+    {
+      "id": "c3ca240d43aba587858b1b7d4bcfc0f7",
+      "url": "https://www.reddit.com/r/Python/comments/1pojsm0/interesting_or_innovative_python_toolslibs_youve/",
+      "title": "Interesting or innovative Python tools/libs you\u2019ve started using recently",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Python\u2019s ecosystem keeps evolving fast, and it feels like there are always new tools quietly improving how we build things.</p> <p>I\u2019m curious what Python libraries or tools you\u2019ve personally started using recently that genuinely changed or improved your workflow. Not necessarily brand new projects, but things that felt innovative, elegant, or surprisingly effective.</p> <p>This could include productivity tools, developer tooling, data or ML libraries, async or performance-related projects, or niche but well-designed packages.</p> <p>What problem did it solve for you, and why did it stand out compared to alternatives?</p> <p>I\u2019m mainly interested in real-world usage and practical impact rather than hype.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AliceTreeDraws\"> /u/AliceTreeDraws </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pojsm0/interesting_or_innovative_python_toolslibs_youve/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pojsm0/interesting_or_innovative_python_toolslibs_youve/\">[comments]</a></span>",
+      "author": "/u/AliceTreeDraws",
+      "published_date": "2025-12-17T01:32:28+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 122,
+      "reading_time": 1,
+      "created_at": "2025-12-17T20:26:09.674033+00:00",
+      "updated_at": "2025-12-17T20:26:09.674034+00:00"
+    },
+    {
+      "id": "3915a731f0386732d7b994a1a91f1b41",
+      "url": "https://www.greptile.com/state-of-ai-coding-2025",
+      "title": "The State of AI Coding Report 2025",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46301886\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-17T16:45:35+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-17T20:26:08.329556+00:00",
+      "updated_at": "2025-12-17T20:26:08.329558+00:00"
+    },
+    {
+      "id": "66428499672c61929a01ca354fb3345d",
+      "url": "https://vitaut.net/posts/2025/faster-dtoa/",
+      "title": "Zmij: Faster floating point double-to-string conversion",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46263821\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-14T15:42:03+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-17T20:26:08.329537+00:00",
+      "updated_at": "2025-12-17T20:26:08.329539+00:00"
+    },
+    {
+      "id": "03aeb2586fbe9643e2c564e826fc190c",
+      "url": "https://pypi.org/project/wavelet-matrix/",
+      "title": "Show HN: High-Performance Wavelet Matrix for Python, Implemented in Rust",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46304413\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-17T19:35:56+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-17T20:26:08.329482+00:00",
+      "updated_at": "2025-12-17T20:26:08.329483+00:00"
+    },
+    {
+      "id": "03aeb2586fbe9643e2c564e826fc190c",
+      "url": "https://pypi.org/project/wavelet-matrix/",
+      "title": "Show HN: High-Performance Wavelet Matrix for Python, Implemented in Rust",
+      "content": "<p>I built a Rust-powered Wavelet Matrix library for Python.<p>There were surprisingly few practical Wavelet Matrix implementations available for Python, so I implemented one with a focus on performance, usability, and typed APIs. It supports fast rank/select, top-k, quantile, range queries, and even dynamic updates.<p>Feedback welcome!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46304413\">https://news.ycombinator.com/item?id=46304413</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
+      "author": "math-hiyoko",
+      "published_date": "2025-12-17T19:35:56+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 56,
+      "reading_time": 1,
+      "created_at": "2025-12-17T20:26:07.207800+00:00",
+      "updated_at": "2025-12-17T20:26:07.207808+00:00"
+    },
     {
       "id": "afbe0ed3e3585a3dc9cb70c79b9b79ec",
       "url": "https://research.roundtable.ai/capabilities-humanness/",
@@ -103,22 +199,6 @@
       }
     },
     {
-      "id": "92f33df74d4541caf226588c832bbb15",
-      "url": "https://www.valmi.io/blog/an-imperative-for-ai-agents-outcome-billing-with-valmi/",
-      "title": "Why outcome-billing makes sense for AI Agents",
-      "content": "<p>Article URL: <a href=\"https://www.valmi.io/blog/an-imperative-for-ai-agents-outcome-billing-with-valmi/\">https://www.valmi.io/blog/an-imperative-for-ai-agents-outcome-billing-with-valmi/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46303090\">https://news.ycombinator.com/item?id=46303090</a></p>\n<p>Points: 8</p>\n<p># Comments: 5</p>",
-      "author": "rajvarkala",
-      "published_date": "2025-12-17T18:02:12+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-17T19:20:27.027352+00:00",
-      "updated_at": "2025-12-17T19:20:27.027354+00:00"
-    },
-    {
       "id": "1245b198f5838f12cac139196e092cb2",
       "url": "https://sqlite.org/testing.html",
       "title": "How SQLite Is Tested",
@@ -137,6 +217,22 @@
         "processed_at": "2025-12-17T20:18:41.013228+00:00",
         "processing_method": "github_actions"
       }
+    },
+    {
+      "id": "92f33df74d4541caf226588c832bbb15",
+      "url": "https://www.valmi.io/blog/an-imperative-for-ai-agents-outcome-billing-with-valmi/",
+      "title": "Why outcome-billing makes sense for AI Agents",
+      "content": "<p>Article URL: <a href=\"https://www.valmi.io/blog/an-imperative-for-ai-agents-outcome-billing-with-valmi/\">https://www.valmi.io/blog/an-imperative-for-ai-agents-outcome-billing-with-valmi/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46303090\">https://news.ycombinator.com/item?id=46303090</a></p>\n<p>Points: 8</p>\n<p># Comments: 5</p>",
+      "author": "rajvarkala",
+      "published_date": "2025-12-17T18:02:12+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-17T19:20:27.027352+00:00",
+      "updated_at": "2025-12-17T19:20:27.027354+00:00"
     },
     {
       "id": "4109e50b726a587631acf9dbcbeaa669",
@@ -249,122 +345,6 @@
       "reading_time": 1,
       "created_at": "2025-12-17T18:34:31.751560+00:00",
       "updated_at": "2025-12-17T18:34:31.751562+00:00"
-    },
-    {
-      "id": "3e75e5ac8423ff91e16746ae0fc5d2ad",
-      "url": "https://www.axios.com/2025/12/17/brendan-carr-fcc-independent-senate-testimony-website",
-      "title": "FCC chair suggests agency isn't independent, word cut from mission statement",
-      "content": "<p>Article URL: <a href=\"https://www.axios.com/2025/12/17/brendan-carr-fcc-independent-senate-testimony-website\">https://www.axios.com/2025/12/17/brendan-carr-fcc-independent-senate-testimony-website</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46303260\">https://news.ycombinator.com/item?id=46303260</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
-      "author": "jmsflknr",
-      "published_date": "2025-12-17T18:14:33+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-17T18:34:31.751530+00:00",
-      "updated_at": "2025-12-17T18:34:31.751538+00:00"
-    },
-    {
-      "id": "515d89d9bf33fb3432980f582d98daf8",
-      "url": "https://www.nature.com/articles/s42003-025-09170-w",
-      "title": "Microglial RUNX1/RBM47 ablation inhibits neuronal ferroptosis via regulating the cGAS-STING-MEF2C pathway in mice with postoperative cognitive dysfunction",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-17T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-17T17:49:14.497479+00:00",
-      "updated_at": "2025-12-17T18:25:24.425523+00:00",
-      "metadata": {
-        "processed_at": "2025-12-17T18:25:24.425532+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2e488cc7c47a4f0a4dadf31bc706a8e1",
-      "url": "https://www.nature.com/articles/s41392-025-02527-x",
-      "title": "Hypoglycemia induces brain metabolic reprogramming and neurodegeneration via serum response factor and myocardin-related transcription factor-A",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-17T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-17T17:49:14.497425+00:00",
-      "updated_at": "2025-12-17T18:25:24.425536+00:00",
-      "metadata": {
-        "processed_at": "2025-12-17T18:25:24.425538+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4ee8d58fd17da8bae2752891e27308cc",
-      "url": "https://www.nature.com/articles/s41586-025-09770-w",
-      "title": "Astrocyte CCN1 stabilizes neural circuits in the adult brain",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-17T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-17T17:49:14.497388+00:00",
-      "updated_at": "2025-12-17T18:25:24.425541+00:00",
-      "metadata": {
-        "processed_at": "2025-12-17T18:25:24.425542+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9bbe9d9358c5ee3e24d823ce86ca6843",
-      "url": "https://www.nature.com/articles/s41586-025-09887-y",
-      "title": "Lesion-remote astrocytes govern microglia-mediated white matter repair",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-17T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-17T17:49:14.497329+00:00",
-      "updated_at": "2025-12-17T18:25:24.425544+00:00",
-      "metadata": {
-        "processed_at": "2025-12-17T18:25:24.425546+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a088e7ddaa15ee7e515932e112f4e515",
-      "url": "https://www.nature.com/articles/s41598-025-31437-9",
-      "title": "Comparison of human and marmoset basic-level face categorization based on shape",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-17T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-17T17:49:14.497304+00:00",
-      "updated_at": "2025-12-17T18:25:24.425548+00:00",
-      "metadata": {
-        "processed_at": "2025-12-17T18:25:24.425549+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
