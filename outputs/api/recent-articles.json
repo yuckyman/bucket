@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-18T17:25:02.850983+00:00",
+  "last_updated": "2025-12-18T17:48:48.165238+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "6eda6a632e2933dd55c8fc20f9c470e5",
+      "url": "https://claude.com/blog/organization-skills-and-directory",
+      "title": "Agent Skills is now an open standard",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46315414\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-18T17:04:32+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-18T17:47:36.972764+00:00",
+      "updated_at": "2025-12-18T17:47:36.972779+00:00"
+    },
+    {
+      "id": "6eda6a632e2933dd55c8fc20f9c470e5",
+      "url": "https://claude.com/blog/organization-skills-and-directory",
+      "title": "Agent Skills is now an open standard",
+      "content": "<p>Article URL: <a href=\"https://claude.com/blog/organization-skills-and-directory\">https://claude.com/blog/organization-skills-and-directory</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46315414\">https://news.ycombinator.com/item?id=46315414</a></p>\n<p>Points: 13</p>\n<p># Comments: 7</p>",
+      "author": "adocomplete",
+      "published_date": "2025-12-18T17:04:32+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-18T17:47:35.811105+00:00",
+      "updated_at": "2025-12-18T17:47:35.811106+00:00"
+    },
     {
       "id": "d880e1e8b77d88e0aaf7e5375794a14c",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.15.694535v1?rss=1",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-18T15:46:36.615872+00:00",
       "updated_at": "2025-12-18T15:46:36.615874+00:00"
-    },
-    {
-      "id": "96f2822df7cccee57e931025b37386b9",
-      "url": "https://github.com/systemd/systemd/releases/tag/v259",
-      "title": "systemd v259 Released",
-      "content": "<p>Article URL: <a href=\"https://github.com/systemd/systemd/releases/tag/v259\">https://github.com/systemd/systemd/releases/tag/v259</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46313033\">https://news.ycombinator.com/item?id=46313033</a></p>\n<p>Points: 14</p>\n<p># Comments: 1</p>",
-      "author": "voxadam",
-      "published_date": "2025-12-18T14:24:26+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-18T15:46:35.205148+00:00",
-      "updated_at": "2025-12-18T15:46:35.205149+00:00"
-    },
-    {
-      "id": "8f7a768ce568ba98649c5e65f4ff519b",
-      "url": "https://news.ycombinator.com/item?id=46313930",
-      "title": "Launch HN: Pulse (YC S24) \u2013 Production-grade unstructured document extraction",
-      "content": "<p>Hi HN, we\u2019re Sid and Ritvik, co-founders of Pulse. Pulse is a document extraction system to create LLM-ready text. We built Pulse as we realized that although modern vision language models are very good at producing plausible text, that makes them risky for OCR and data ingestion at scale.<p>When we started working on document extraction, we assumed the same thing many teams do today: foundation models were improving quickly, multi modal systems appeared to read documents well, and for small or clean inputs that assumption often held. The limitations showed up once we began processing real documents in volume. Long PDFs, dense tables, mixed layouts, low-fidelity scans, and financial or operational data exposed errors that were subtle, hard to detect, and expensive to correct. Outputs often looked reasonable while containing small but meaningful mistakes, especially in tables and numeric fields.<p>A lot of our work since then has been applied research. We run controlled evaluations on complex documents, fine tune vision models, and build labeled datasets where ground truth actually matters. There have been many nights where our team stayed up hand annotating pages, drawing bounding boxes around tables, labeling charts point by point, or debating whether a number was unreadable or simply poorly scanned. That process shaped our intuition far more than benchmarks alone.<p>One thing became clear quickly. The core challenge was not extraction itself, but confidence. Vision language models embed document images into high-dimensional representations optimized for semantic understanding rather than precise transcription. That process is inherently lossy. When uncertainty appears, models tend to resolve it using learned priors instead of surfacing ambiguity. This behavior can be helpful in consumer settings. In production pipelines, it creates verification problems that do not scale well.<p>Pulse grew out of trying to address this gap through system design rather than prompting alone. Instead of treating document understanding as a single generative step, the system separates layout analysis from language modeling. Documents are normalized into structured representations that preserve hierarchy and tables before schema mapping occurs. Extraction is constrained by schemas defined ahead of time, and extracted values are tied back to source locations so uncertainty can be inspected rather than guessed away. In practice, this results in a hybrid approach that combines traditional computer vision techniques, layout models, and vision language models, because no single approach handled these cases reliably on its own.<p>We are intentionally sharing a few documents that reflect the types of inputs that motivated this work. These are representative of cases where we saw generic OCR or VLM-based pipelines struggle.<p>Here is a financial 10K:\n<a href=\"https://platform.runpulse.com/dashboard/examples/example1\">https://platform.runpulse.com/dashboard/examples/example1</a><p>Here is a newspaper:\n<a href=\"https://platform.runpulse.com/dashboard/examples/example2\">https://platform.runpulse.com/dashboard/examples/example2</a><p>Here is a rent roll: <a href=\"https://platform.runpulse.com/dashboard/examples/example3\">https://platform.runpulse.com/dashboard/examples/example3</a><p>Pulse is not perfect, particularly on highly degraded scans or uncommon handwriting, and there is still room for improvement. The goal is not to eliminate errors entirely, but to make them visible, auditable, and easier to reason about.<p>Pulse is available via usage-based access to the API and platform You can try it here and access the API docs here.<p>Demo link here: <a href=\"https://video.runpulse.com/video/pulse-platform-walkthrough-69f9\">https://video.runpulse.com/video/pulse-platform-walkthrough-...</a><p>We\u2019re interested in hearing how others here evaluate correctness for document extraction, which failure modes you have seen in practice, and what signals you rely on to decide whether an output can be trusted. We will be around to answer questions and are happy to run additional documents if people want to share examples.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46313930\">https://news.ycombinator.com/item?id=46313930</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "author": "sidmanchkanti21",
-      "published_date": "2025-12-18T15:35:52+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 563,
-      "reading_time": 2,
-      "created_at": "2025-12-18T15:46:35.205043+00:00",
-      "updated_at": "2025-12-18T15:46:35.205046+00:00"
     }
   ]
 }
