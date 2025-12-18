@@ -1,7 +1,71 @@
 {
-  "last_updated": "2025-12-18T20:44:52.346633+00:00",
+  "last_updated": "2025-12-18T21:23:27.344524+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "ced5b8fa63944f2ac00e7e9a5ed18355",
+      "url": "https://www.ycombinator.com/companies/delty/jobs/MDeC49o-machine-learning-engineer",
+      "title": "Delty (YC X25) Is Hiring an ML Engineer",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46318676\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-18T21:02:10+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-18T21:22:12.142218+00:00",
+      "updated_at": "2025-12-18T21:22:12.142219+00:00"
+    },
+    {
+      "id": "c578d9da9f03d8afe2c1c1d66da378aa",
+      "url": "https://spice.ai/blog/introducing-spice-cayenne-data-accelerator",
+      "title": "Show HN: Spice Cayenne \u2013 SQL acceleration built on Vortex",
+      "content": "<p>Hi HN, we\u2019re Luke and Phillip, and we\u2019re building Spice.ai OSS - a lightweight, portable data and AI engine and powered by Apache DataFusion & Ballista for SQL query, hybrid-search, and LLM-inference across disaggregated-storage used by enterprises like Barracuda Networks and Twilio.<p>We first introduced Spice [1] on HN in 2021 and re-launched it on HN [2] in 2024 re-built from the ground up in Rust.<p>Spice includes the concept of a Data Accelerator [3], which is a way to materialize data from disparate sources, such as other databases, in embedded databases like SQLite and DuckDB.<p>Today we\u2019re excited to announce a new Ducklake-inspired Data Accelerator built on Vortex [3], a highly performant, extensible columnar data format that claims 100x faster random access, 10-20x faster scans, 5x faster writes with a similar compression ratio vs. Apache Parquet.<p>In our tests with Spice, Vortex performs faster than DuckDB with a third of the memory usage, and is much more scalable (multi-file). For real-world deployments, we see the DuckDB Data Accelerator often capping out around 1TB, but Spice Cayenne can do Petabyte-scale.<p>You can read about it at <a href=\"https://spice.ai/blog\" rel=\"nofollow\">https://spice.ai/blog</a> and in the Spice OSS release notes [4].<p>This is just the first version, and we\u2019d love to get your feedback!<p>GitHub: <a href=\"https://github.com/spiceai/spiceai\" rel=\"nofollow\">https://github.com/spiceai/spiceai</a><p>[1] <a href=\"https://news.ycombinator.com/item?id=28448887\">https://news.ycombinator.com/item?id=28448887</a><p>[2] <a href=\"https://news.ycombinator.com/item?id=39854584\">https://news.ycombinator.com/item?id=39854584</a><p>[3] <a href=\"https://github.com/vortex-data/vortex\" rel=\"nofollow\">https://github.com/vortex-data/vortex</a><p>[4] <a href=\"https://spiceai.org/blog/releases/v1.9.0\" rel=\"nofollow\">https://spiceai.org/blog/releases/v1.9.0</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46316991\">https://news.ycombinator.com/item?id=46316991</a></p>\n<p>Points: 21</p>\n<p># Comments: 2</p>",
+      "author": "lukekim",
+      "published_date": "2025-12-18T19:00:56+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 228,
+      "reading_time": 1,
+      "created_at": "2025-12-18T21:22:11.046741+00:00",
+      "updated_at": "2025-12-18T21:22:11.046743+00:00"
+    },
+    {
+      "id": "2ae663c40e59f1454e4d145f5458d534",
+      "url": "https://www.newyorker.com/magazine/2025/12/15/oliver-sacks-put-himself-into-his-case-studies-what-was-the-cost",
+      "title": "Oliver Sacks put himself into his case studies \u2013 what was the cost?",
+      "content": "<p><a href=\"https://archive.ph/0MFPK\" rel=\"nofollow\">https://archive.ph/0MFPK</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46318544\">https://news.ycombinator.com/item?id=46318544</a></p>\n<p>Points: 6</p>\n<p># Comments: 51</p>",
+      "author": "barry-cotter",
+      "published_date": "2025-12-18T20:52:38+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 14,
+      "reading_time": 1,
+      "created_at": "2025-12-18T21:22:11.046589+00:00",
+      "updated_at": "2025-12-18T21:22:11.046591+00:00"
+    },
+    {
+      "id": "ced5b8fa63944f2ac00e7e9a5ed18355",
+      "url": "https://www.ycombinator.com/companies/delty/jobs/MDeC49o-machine-learning-engineer",
+      "title": "Delty (YC X25) Is Hiring an ML Engineer",
+      "content": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/delty/jobs/MDeC49o-machine-learning-engineer\">https://www.ycombinator.com/companies/delty/jobs/MDeC49o-machine-learning-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46318676\">https://news.ycombinator.com/item?id=46318676</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "author": "lalitkundu",
+      "published_date": "2025-12-18T21:02:10+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-18T21:22:11.046542+00:00",
+      "updated_at": "2025-12-18T21:22:11.046550+00:00"
+    },
     {
       "id": "892983c3c88fa6cac602246e03e80a9a",
       "url": "https://www.nature.com/articles/s41467-025-67738-w",
@@ -265,82 +329,6 @@
         "processed_at": "2025-12-18T20:16:27.617198+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "9670de0e6bb06aa0f4d3b4fc1dc8a64e",
-      "url": "https://blog.google/technology/developers/functiongemma/",
-      "title": "FunctionGemma 270M Model",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46316533\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-18T18:26:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-18T19:38:48.315780+00:00",
-      "updated_at": "2025-12-18T20:16:27.617196+00:00",
-      "metadata": {
-        "processed_at": "2025-12-18T20:16:27.617198+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bf31dc1775c5658d775f54ad875f9d45",
-      "url": "https://gist.github.com/hackermondev/5e2cdc32849405fff6b46957747a2d28",
-      "title": "We pwned X, Vercel, Cursor, and Discord through a supply-chain attack",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46317098\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-18T19:08:48+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-18T19:38:48.315761+00:00",
-      "updated_at": "2025-12-18T20:16:27.617201+00:00",
-      "metadata": {
-        "processed_at": "2025-12-18T20:16:27.617203+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1839f2a0283c32b4ccf674f46dc336b3",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.16.694568v1?rss=1",
-      "title": "Task-Dependent Motor Unit Recruitment and Rate Coding Reveal Redistribution of Neural Drive in the Human Hand",
-      "content": "Although Henneman's size principle dictates an orderly small-to-large activation, evidence suggests a certain level of flexibility in the recruitment of spinal motor neurons depending on task demands. Here, we investigate motor unit (MU) recruitment flexibility in the human first dorsal interosseous (FDI) muscle while controlling for overall muscle activation across two functionally distinct tasks using high-density intramuscular EMG (HD-iEMG) electrode arrays. Six participants performed isometric index finger abduction where the FDI serves as the prime mover, and flexion with the FDI functioning as a synergist. Recruitment thresholds (RTs) and recruitment orders (ROs) were highly consistent within the same task, but differed significantly between abduction and flexion. Across participants, 45.3% of MUs showed changes in recruitment above the coefficient of repeatability across tasks compared to only 5.0% within tasks. Changes in RT were accompanied by corresponding adaptations in discharge rate (DR), preserving the inverse RT-DR relationship. MU size did not have an effect on recruitment variability. Intramuscular coherence analysis revealed no differences in the delta (1-5 Hz) or alpha (5-13 Hz) band, but beta band (13-30 Hz) coherence was significantly lower during flexion than abduction, indicating reduced high-frequency inputs when FDI serves as a synergist muscle. Together, these results indicate different distributions of net excitatory input to FDI MUs across different functional tasks, that may include stronger involvement of spinal circuits during flexion as opposed to abduction, as indicated by the reduced intramuscular beta coherence. Moreover, the present findings also demonstrate that common synaptic input and not intrinsic motor neuron properties determines the inverse relation between MU RT and DR.",
-      "author": "Osswald, M., Ibanez, J., Unbehaun, N., Del Vecchio, A.",
-      "published_date": "2025-12-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 259,
-      "reading_time": 1,
-      "created_at": "2025-12-18T19:18:49.472998+00:00",
-      "updated_at": "2025-12-18T20:16:27.617209+00:00",
-      "metadata": {
-        "processed_at": "2025-12-18T20:16:27.617211+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "73d2edb410bd5c0770accbb79008a3db",
-      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2421823122?af=R",
-      "title": "Functional recovery induced by KCC2-enabled relay pathways in completely injured spinal cords in adult rats",
-      "content": "Proceedings of the National Academy of Sciences, Volume 122, Issue 50, December 2025. <br />SignificanceRestoring function after spinal cord injury (SCI) remains a major challenge due to the failure of regenerated connections to reintegrate into functional circuits. Our study demonstrates that while enhancing axon regeneration and neural stem ...",
-      "author": "Yaxian WangFenglan LiuQi ShanXuzhaoyu WangWei LiuXinxin ChenCheng TengYehua LvXiaosong GuXuhua WangBin YuaKey Laboratory of Neuroregeneration of Jiangsu and Ministry of Education, Co-innovation Center of Neuroregeneration, Nantong University, Nantong, Jiangsu Province 226001, People\u2019s Republic of ChinabSchool of Nursing and Rehabilitation, Nantong University, Nantong, Jiangsu Province 226001, People\u2019s Republic of ChinacNanhu Brain-computer Interface Institute, Hangzhou, Zhejiang Province 311100, People\u2019s Republic of ChinadDepartment of Neurobiology and Department of Rehabilitation Medicine, First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang Province 310003, People\u2019s Republic of China",
-      "published_date": "2025-12-08T08:00:00+00:00",
-      "source": "Pnas Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 49,
-      "reading_time": 1,
-      "created_at": "2025-12-18T19:18:43.026648+00:00",
-      "updated_at": "2025-12-18T19:18:43.026650+00:00"
     }
   ]
 }
