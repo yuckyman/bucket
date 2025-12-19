@@ -1,5 +1,37 @@
 [
   {
+    "id": "c20f51752c3c15eeaa568a4014375752",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.18.695138v1?rss=1",
+    "title": "Neural correlates of implicit memory for reoccurring sound patterns",
+    "content": "The human brain exhibits remarkable sensitivity to auditory patterns. Previous research has shown that beyond the detection of such patterns, humans form memories for them that are implicit, robust to interference, and persistent over time. Here, we examine the mechanisms underlying implicit memory formation for reoccurring regular tone patterns using UHF fMRI. Prior to scanning, implicit memory was induced through a standard behavioral task where participants detected regular patterns embedded in random tone sequences. Unbeknownst to participants, five regular patterns reoccurred sporadically (every 1.5 min) across trials. Consistent with previous reports, behavioral performance indicated a reaction time advantage to reoccurring patterns, confirming the formation of implicit memory traces. During passive listening in the scanner, regularity engaged the superior temporal gyrus, inferior frontal gyrus, insula, putamen, and hippocampus, a result we interpret as reflecting the higher perceptual precision of regular patterns. Reoccurrence interacted with regularity in the superior temporal gyrus and a frontal cluster, showing higher activity for reoccurring compared to novel regular patterns. The hippocampus showed sensitivity to reoccurrence in both regular and random patterns. Together, these results indicate that the neocortex may selectively amplify reoccurring inputs in line with their enhanced (memory driven) perceptual precision.",
+    "author": "Kolken, Y. J. T., Li, C., van de Ven, V., De Weerd, P., Auksztulewicz, R., Bianco, R., Chait, M., De Martino, F.",
+    "published_date": "2025-12-18T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 196,
+    "reading_time": 1,
+    "created_at": "2025-12-19T08:31:37.776511+00:00",
+    "updated_at": "2025-12-19T08:31:37.776516+00:00"
+  },
+  {
+    "id": "d96743b6ed8cc38b1f0828440b9483c9",
+    "url": "https://sdiehl.github.io/zero-to-qed/01_introduction.html",
+    "title": "From Zero to QED: An informal introduction to formality with Lean 4",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46259343\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-13T23:42:03+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-19T08:30:54.679248+00:00",
+    "updated_at": "2025-12-19T08:30:54.679250+00:00"
+  },
+  {
     "id": "8bec92d361ee3c15eab323f1288a063d",
     "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1699179",
     "title": "State-dependent filtering as a mechanism toward visual robustness",
@@ -17002,37 +17034,5 @@
     "reading_time": 1,
     "created_at": "2025-12-15T05:26:44.199049+00:00",
     "updated_at": "2025-12-15T05:26:44.199058+00:00"
-  },
-  {
-    "id": "23786a75d555e61c4ac0ed9f0e461f59",
-    "url": "https://www.biorxiv.org/content/10.64898/2025.12.10.693567v1?rss=1",
-    "title": "Automatic binding of basic sensory features requires consciousness",
-    "content": "Conscious awareness requires establishing coherent percepts. Yet, whether consciousness is necessary for initiating the integration of basic sensory features remains unclear. Competing theories implicate distinct functional regimes of consciousness in the process of feature binding and creating conscious percepts. We used a novel multi-feature oddball paradigm with intracranial stereo-electroencephalography (sEEG) recordings in awake and anesthetized states to investigate the functional boundary of consciousness. In the awake state, the auditory attributes of loudness and tone, as well as the binding of the two features, were automatically encoded without attention to the stimuli in a functionally localized sensory cortical network. In the anesthetized state, the cortical registration of single attributes was preserved, whereas the binding was abolished. Moreover, anesthesia mostly influenced later cortical processes after stimuli offset. These results reveal the borderline of exertion of consciousness between the encoding and manipulation of basic sensory features in local cortical circuits: the functional boundary of consciousness constrains the feedforward binding and recurrent process directly at local rather than global level computations.",
-    "author": "Han, Z., Zhu, H., Chu, Q., Wu, Y., Chen, X., Wang, Y., Li, S., Teng, X., Wong, P., Yao, C., Tian, X.",
-    "published_date": "2025-12-14T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 167,
-    "reading_time": 1,
-    "created_at": "2025-12-15T04:41:57.362066+00:00",
-    "updated_at": "2025-12-15T04:41:57.362071+00:00"
-  },
-  {
-    "id": "0776e62e75431e1a553ad13fcb6c12e2",
-    "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1647462",
-    "title": "A neural network model combining the successor representation and actor-critic methods reveals effective biological use of the representation",
-    "content": "In learning goal-directed behavior, state representation is important for adapting to the environment and achieving goals. A predictive state representation called successive representation (SR) has recently attracted attention as a candidate for state representation in animal brains, especially in the hippocampus. The relationship between the SR and the animal brain has been studied, and several neural network models for computing the SR have been proposed based on the findings. However, studies on implementation of the SR involving action selection have not yet advanced significantly. Therefore, we explore possible mechanisms by which the SR is utilized biologically for action selection and learning optimal action policies. The actor-critic architecture is a promising model of animal behavioral learning in terms of its correspondence to the anatomy and function of the basal ganglia, so it is suitable for our purpose. In this study, we construct neural network models for behavioral learning using the SR. By using them to perform reinforcement learning, we investigate their properties. Specifically, we investigated the effect of using different state representations for the actor and critic in the actor-critic method, and also compared the actor-critic method with Q-learning and SARSA. We found the difference between the effect of using the SR for the actor and the effect of using the SR for the critic in the actor-critic method, and observed that using the SR in conjunction with one-hot encoding makes it possible to learn with the benefits of both representations. These results suggest the possibility that the striatum can learn using multiple state representations complementarily.",
-    "author": "Kenji Morita",
-    "published_date": "2025-11-26T00:00:00+00:00",
-    "source": "Frontiers Computational Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 255,
-    "reading_time": 1,
-    "created_at": "2025-12-15T04:41:48.828586+00:00",
-    "updated_at": "2025-12-15T04:41:48.828587+00:00"
   }
 ]
