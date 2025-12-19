@@ -1,5 +1,37 @@
 [
   {
+    "id": "e6e5ba11664c5587b8b533cd82f50832",
+    "url": "http://doi.org/10.1037/neu0001032",
+    "title": "Comparison of multidomain assessment outcomes between older and middle-aged adults following concussion.",
+    "content": "Objective: This article\u2019s objective was to compare demographic/medical history and multidomain clinical assessment outcomes between older and middle-aged adults following concussion. Method: Seventy-six patients aged 50\u201380 years within 12 months of a concussion from a specialty clinic between October 2021 and August 2023 participated in the study. Participants were grouped into older (\u226560 years) and middle-aged (50\u201359 years) adults. At their first clinic visit, participants completed multidomain clinical assessments comprising symptoms, cognitive, vestibular/ocular motor, psychological health, and quality of life domains. Results: Older adults (<em>n</em> = 35) had less females (40.0% vs. 68.3%, <em>p</em> = .01), anxiety history (17.1% vs. 39.0%, <em>p</em> = .036), and employed individuals (57.1% vs. 82.9%, <em>p</em> = .002) than middle-aged adults (<em>n</em> = 41). Older adults had better Neuro-Quality of Life, <em>F</em>(1, 71) = 6.8, <em>p</em> = .01, \u03b7<sub>p</sub>\u00b2 = 0.09; Repeatable Battery for the Assessment of Neuropsychological Status recall, <em>F</em>(1, 71) = 12.6, <em>p</em>< .001, \u03b7\n<sub>p</sub>\u00b2 = 0.15; fluency,<em> F</em>(1, 71) = 5.7, <em>p</em> = .02, \u03b7<sub>p</sub>\u00b2 = 0.08; list recall, <em>F</em>(1, 69) = 5.2, <em>p</em> = .03, \u03b7<sub>p</sub>\u00b2 = 0.07; and list recognition, <em>F</em>(1, 69) = 5.3, <em>p</em> = .03, \u03b7<sub>p</sub>\u00b2 = 0.07, when controlling for sex, anxiety history, and employment status. Older adults also had lower odds of being impaired to borderline on Immediate Post-Concussion Assessment and Cognitive Testing verbal memory (<em>OR</em> = 0.05, 95% CI [0.01, 0.56], <em>p</em> = .01), visual motor speed (<em>OR</em> = 0.08, 95% CI [0.01, 0.73],<em> p</em> = .03), and reaction time (<em>OR</em> = 0.21, 95% CI [0.05, 0.89], <em>p</em> = .03), and lower odds of having moderate to severe impairment on Neuro-Quality of Life (<em>OR</em> = 0.32, 95% CI [0.11, 0.97], <em>p</em> = .04) than middle-aged adults. Conclusions: Older adults (\u226560 years) exhibited fewer subjective cognitive difficulties and objective cognitive impairments compared to middle-aged adults (50\u201359 years) following concussion. There were no differences between groups in symptoms, vestibular/ocular motor functioning, or psychological health. Clinicians should consider these findings when evaluating and interpreting outcomes from older and middle-aged adults following concussion. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
+    "author": "",
+    "published_date": "2025-08-25T00:00:00+00:00",
+    "source": "Neuropsychology",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 344,
+    "reading_time": 1,
+    "created_at": "2025-12-19T14:47:31.259431+00:00",
+    "updated_at": "2025-12-19T14:47:31.259433+00:00"
+  },
+  {
+    "id": "b04e931d069a9ae1412842733ecd3ce3",
+    "url": "https://www.reddit.com/r/Python/comments/1pqmfku/project_i_built_a_privacyfirst_data_cleaning/",
+    "title": "[Project] I built a privacy-first Data Cleaning engine using Polars LazyFrame and FAISS. 100% Local",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi <a href=\"/r/Python\">r/Python</a>!</p> <p>I wanted to share my first serious open-source project: <strong>EntropyGuard</strong>. It's a CLI tool for semantic deduplication and sanitization of datasets (for RAG/LLM pipelines), designed to run purely on CPU without sending data to the cloud.</p> <p><strong>The Engineering Challenge:</strong> I needed to process datasets larger than my RAM, identifying duplicates by <em>meaning</em> (vectors), not just string equality.</p> <p><strong>The Tech Stack:</strong></p> <ul> <li><strong>Polars LazyFrame:</strong> For streaming execution and memory efficiency.</li> <li><strong>FAISS + Sentence-Transformers:</strong> For local vector search.</li> <li><strong>Custom Recursive Chunker:</strong> I implemented a text splitter from scratch to avoid the heavy dependencies of frameworks like LangChain.</li> <li><strong>Tooling:</strong> Fully typed (<code>mypy</code> strict), managed with <code>poetry</code>, and dockerized.</li> </ul> <p><strong>Key Features:</strong></p> <ul> <li>Universal ingestion (Excel, Parquet, JSONL, CSV).</li> <li>Audit Logging (generates a JSON trail of every dropped row).</li> <li>Multilingual support via swappable HuggingFace models.</li> </ul> <p><strong>Repo:</strong> <a href=\"https://github.com/DamianSiuta/entropyguard\">https://github.com/DamianSiuta/entropyguard</a></p> <p>I'd love some code review on the project structure or the Polars implementation. I tried to follow best practices for modern Python packaging.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Low-Flow-6572\"> /u/Low-Flow-6572 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pqmfku/project_i_built_a_privacyfirst_data_cleaning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pqmfku/project_i_built_a_privacyfirst_data_cleaning/\">[comments]</a></span>",
+    "author": "/u/Low-Flow-6572",
+    "published_date": "2025-12-19T14:27:10+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 183,
+    "reading_time": 1,
+    "created_at": "2025-12-19T14:47:05.723938+00:00",
+    "updated_at": "2025-12-19T14:47:05.723939+00:00"
+  },
+  {
     "id": "a7c9cf6079049a981a8ebdf7e24be4ac",
     "url": "https://www.biorxiv.org/content/10.64898/2025.12.16.694766v1?rss=1",
     "title": "Mu opioid receptor mRNA and protein localization across the rat and mouse habenula",
@@ -17042,37 +17074,5 @@
     "reading_time": 1,
     "created_at": "2025-12-15T07:25:23.945848+00:00",
     "updated_at": "2025-12-15T07:25:23.945850+00:00"
-  },
-  {
-    "id": "e9a316e0fc02b027a89e9a5aaf990d23",
-    "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1681302",
-    "title": "Association between hippocampal subfield volumes and working memory in middle-aged and older adult cancer patients",
-    "content": "BackgroundCancer-related cognitive impairment (CRCI) is relatively common among middle-aged and older adult cancer patients, with working memory deficits being particularly prominent. However, the underlying structural basis of hippocampal subregions remains unclear. This study aimed to investigate differences in hippocampal subfield volumes and working memory function between cancer patients and healthy controls, as well as to analyze the correlation between hippocampal structural alterations and working memory impairment.MethodsThe cohort comprised 51 cancer patients and 45 healthy controls. All participants underwent 3D-T1 structural MRI scans and cognitive assessments. Hippocampal subfields were automatically segmented using FreeSurfer 7.4, and their volumes were calculated. Group differences in cognitive test scores were compared. After controlling for total intracranial volume (TIV), analysis of covariance (ANCOVA) was performed to examine differences in hippocampal subfield volumes between groups. Spearman correlation analysis was undertaken to assess the relationship between hippocampal subfield volumes and cognitive test scores in patients with cancer.ResultsCompared with healthy controls, cancer patients exhibited significantly lower scores in the digit span test (DST) total score (U\u2009=\u2009716.50, p\u2009=\u20090.001) and digit span forward (DSF) subtest (U\u2009=\u2009738.50, p\u2009=\u20090.002). Hippocampal subfield analysis revealed significant volume reductions in the cancer group, particularly in CA3 (F\u2009=\u20098.141, p\u2009=\u20090.005) and CA4 (F\u2009=\u20096.770, p\u2009=\u20090.011). Correlation analysis demonstrated that the volumes of the hippocampal head (r\u2009=\u20090.410, p\u2009=\u20090.003) and hippocampal molecular layer (r\u2009=\u20090.389, p\u2009=\u20090.005) were positively associated with DST scores in cancer patients.ConclusionCancer patients exhibit working memory impairment and hippocampal subfield atrophy. The significant correlation between the volumes of the hippocampal head and molecular layer with working memory performance suggests that these regions may play a critical role in cancer-related cognitive dysfunction.",
-    "author": "Yin Cao",
-    "published_date": "2025-12-15T00:00:00+00:00",
-    "source": "Frontiers Human Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 286,
-    "reading_time": 1,
-    "created_at": "2025-12-15T06:37:39.335167+00:00",
-    "updated_at": "2025-12-15T06:37:39.335169+00:00"
-  },
-  {
-    "id": "6812ae87ab2065006dfada34757550d5",
-    "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1716007",
-    "title": "A study on the cognitive-consumption behavior of sports content on OTT media platforms: applying the extended technology acceptance model (E-TAM)",
-    "content": "The purpose of this study is to provide basic data for the establishment of sustainable sports content and communication marketing strategies of effective OTT platforms by applying the extended technology acceptance model to clarify the causal relationship between the perceived usefulness, perceived ease of use, perceived enjoyment, perceived interactivity, usage intention, and usage behavior of users who watch OTT platform sports content. To achieve this purpose, 303 viewers with experience watching OTT platform sports content were used for the analysis. The data analysis methods were frequency analysis, correlation analysis, confirmatory factor analysis, and structural equation modeling analysis using SPSS 21.0 and AMOS 18.0. The results of this study are as follows. First, perceived usefulness was found to have no significant effect on usage intention. Second, perceived ease of use was found to have a significant effect on usage intention. Third, perceived enjoyment was found to have a significant effect on usage intention. Fourth, perceived interactivity was found to have a significant effect on usage intention. Fifth, usage intention was found to have a significant effect on usage behavior. Therefore, the intention of using OTT platform sports content will be to become a sustainable industry in terms of media business.",
-    "author": "Jae-Moon Lee",
-    "published_date": "2025-12-15T00:00:00+00:00",
-    "source": "Frontiers Human Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 199,
-    "reading_time": 1,
-    "created_at": "2025-12-15T06:37:39.335096+00:00",
-    "updated_at": "2025-12-15T06:37:39.335114+00:00"
   }
 ]

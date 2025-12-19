@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-19T14:23:21.329628+00:00",
+  "last_updated": "2025-12-19T14:48:35.187482+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "e6e5ba11664c5587b8b533cd82f50832",
+      "url": "http://doi.org/10.1037/neu0001032",
+      "title": "Comparison of multidomain assessment outcomes between older and middle-aged adults following concussion.",
+      "content": "Objective: This article\u2019s objective was to compare demographic/medical history and multidomain clinical assessment outcomes between older and middle-aged adults following concussion. Method: Seventy-six patients aged 50\u201380 years within 12 months of a concussion from a specialty clinic between October 2021 and August 2023 participated in the study. Participants were grouped into older (\u226560 years) and middle-aged (50\u201359 years) adults. At their first clinic visit, participants completed multidomain clinical assessments comprising symptoms, cognitive, vestibular/ocular motor, psychological health, and quality of life domains. Results: Older adults (<em>n</em> = 35) had less females (40.0% vs. 68.3%, <em>p</em> = .01), anxiety history (17.1% vs. 39.0%, <em>p</em> = .036), and employed individuals (57.1% vs. 82.9%, <em>p</em> = .002) than middle-aged adults (<em>n</em> = 41). Older adults had better Neuro-Quality of Life, <em>F</em>(1, 71) = 6.8, <em>p</em> = .01, \u03b7<sub>p</sub>\u00b2 = 0.09; Repeatable Battery for the Assessment of Neuropsychological Status recall, <em>F</em>(1, 71) = 12.6, <em>p</em>< .001, \u03b7\n<sub>p</sub>\u00b2 = 0.15; fluency,<em> F</em>(1, 71) = 5.7, <em>p</em> = .02, \u03b7<sub>p</sub>\u00b2 = 0.08; list recall, <em>F</em>(1, 69) = 5.2, <em>p</em> = .03, \u03b7<sub>p</sub>\u00b2 = 0.07; and list recognition, <em>F</em>(1, 69) = 5.3, <em>p</em> = .03, \u03b7<sub>p</sub>\u00b2 = 0.07, when controlling for sex, anxiety history, and employment status. Older adults also had lower odds of being impaired to borderline on Immediate Post-Concussion Assessment and Cognitive Testing verbal memory (<em>OR</em> = 0.05, 95% CI [0.01, 0.56], <em>p</em> = .01), visual motor speed (<em>OR</em> = 0.08, 95% CI [0.01, 0.73],<em> p</em> = .03), and reaction time (<em>OR</em> = 0.21, 95% CI [0.05, 0.89], <em>p</em> = .03), and lower odds of having moderate to severe impairment on Neuro-Quality of Life (<em>OR</em> = 0.32, 95% CI [0.11, 0.97], <em>p</em> = .04) than middle-aged adults. Conclusions: Older adults (\u226560 years) exhibited fewer subjective cognitive difficulties and objective cognitive impairments compared to middle-aged adults (50\u201359 years) following concussion. There were no differences between groups in symptoms, vestibular/ocular motor functioning, or psychological health. Clinicians should consider these findings when evaluating and interpreting outcomes from older and middle-aged adults following concussion. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2025-08-25T00:00:00+00:00",
+      "source": "Neuropsychology",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 344,
+      "reading_time": 1,
+      "created_at": "2025-12-19T14:47:31.259431+00:00",
+      "updated_at": "2025-12-19T14:47:31.259433+00:00"
+    },
+    {
+      "id": "b04e931d069a9ae1412842733ecd3ce3",
+      "url": "https://www.reddit.com/r/Python/comments/1pqmfku/project_i_built_a_privacyfirst_data_cleaning/",
+      "title": "[Project] I built a privacy-first Data Cleaning engine using Polars LazyFrame and FAISS. 100% Local",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi <a href=\"/r/Python\">r/Python</a>!</p> <p>I wanted to share my first serious open-source project: <strong>EntropyGuard</strong>. It's a CLI tool for semantic deduplication and sanitization of datasets (for RAG/LLM pipelines), designed to run purely on CPU without sending data to the cloud.</p> <p><strong>The Engineering Challenge:</strong> I needed to process datasets larger than my RAM, identifying duplicates by <em>meaning</em> (vectors), not just string equality.</p> <p><strong>The Tech Stack:</strong></p> <ul> <li><strong>Polars LazyFrame:</strong> For streaming execution and memory efficiency.</li> <li><strong>FAISS + Sentence-Transformers:</strong> For local vector search.</li> <li><strong>Custom Recursive Chunker:</strong> I implemented a text splitter from scratch to avoid the heavy dependencies of frameworks like LangChain.</li> <li><strong>Tooling:</strong> Fully typed (<code>mypy</code> strict), managed with <code>poetry</code>, and dockerized.</li> </ul> <p><strong>Key Features:</strong></p> <ul> <li>Universal ingestion (Excel, Parquet, JSONL, CSV).</li> <li>Audit Logging (generates a JSON trail of every dropped row).</li> <li>Multilingual support via swappable HuggingFace models.</li> </ul> <p><strong>Repo:</strong> <a href=\"https://github.com/DamianSiuta/entropyguard\">https://github.com/DamianSiuta/entropyguard</a></p> <p>I'd love some code review on the project structure or the Polars implementation. I tried to follow best practices for modern Python packaging.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Low-Flow-6572\"> /u/Low-Flow-6572 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pqmfku/project_i_built_a_privacyfirst_data_cleaning/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pqmfku/project_i_built_a_privacyfirst_data_cleaning/\">[comments]</a></span>",
+      "author": "/u/Low-Flow-6572",
+      "published_date": "2025-12-19T14:27:10+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 183,
+      "reading_time": 1,
+      "created_at": "2025-12-19T14:47:05.723938+00:00",
+      "updated_at": "2025-12-19T14:47:05.723939+00:00"
+    },
     {
       "id": "a7c9cf6079049a981a8ebdf7e24be4ac",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.16.694766v1?rss=1",
@@ -309,42 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-19T12:43:10.276059+00:00",
       "updated_at": "2025-12-19T12:43:10.276061+00:00"
-    },
-    {
-      "id": "507f9a892157b27f0f2b0a55561c9216",
-      "url": "https://github.com/moasq/production-saas-starter",
-      "title": "Show HN: I open-sourced my Go and Next B2B SaaS Starter (deploy anywhere, MIT)",
-      "content": "<p>Hi HN, I'm Mohammed, a technical founder who loves shipping and giving back to the community. I'm open-sourcing the full-stack engine that powers my B2B product, apflow.co.<p>What it is: A production B2B starter with a Go backend and Next.js frontend. Both are fully Dockerized with separate containers. No Vercel. No Supabase. Deploy the whole thing on a $6 VPS, or split frontend and backend across different providers. You own the infrastructure.<p>The problem I was solving:<p>Every SaaS starter I evaluated had the same issue: they locked me into someone else's platform. Vercel for hosting. PlanetScale for the database. Serverless functions billing per invocation. Fine for prototypes, but costs become unpredictable at scale and migrating away is painful.<p>I wanted something I could deploy on any Linux box with docker-compose up. Something where I could host the frontend on Cloudflare Pages and the backend on a Hetzner VPS if I wanted. No vendor-specific APIs buried in my code.<p>Why Go for the backend:<p>Go gives me exactly what I need for a SaaS backend:<p>Tiny footprint. The backend idles at ~50MB RAM. On a cheap VPS, that headroom lets me run more services without upgrading.\nConcurrency without complexity. Billing webhooks, file uploads, and AI calls run concurrently without callback hell.\nCompile-time type safety. Using SQLC, my SQL compiles to type-safe Go. If the query is wrong, it fails at build time, not in production.\nPredictable performance. No garbage collection pauses that surprise you under load.\nThe architecture (Modular Monolith):<p>I didn't want microservices complexity for a small team, but I needed clean separation. I built a Modular Monolith: features like Auth, Billing, and AI are isolated Go modules with explicit interfaces, but they deploy as a single binary.<p>This structure also made AI coding tools (Cursor, Claude Code) dramatically more effective. Because every module has strict boundaries, the AI knows exactly where new code belongs and doesn't break other modules.<p>Full-stack, not just backend:<p>Backend: Go 1.25 + Gin + SQLC (type-safe SQL, no ORM) + PostgreSQL with pgvector\nFrontend: Next.js 16 + React 19 + Tailwind + shadcn/ui\nCommunication: The frontend consumes a clean REST API. You can swap Next.js for any framework that speaks HTTP.\nInfrastructure: Separate Dockerfiles for frontend and backend. Deploy together or apart.\nWhat's pre-built:<p>The boring infrastructure is solved so you can focus on your actual product:<p>Auth + RBAC: Stytch B2B integration with Organizations, Teams, and Roles. Multi-tenant data isolation enforced at the query level.\nBilling: Polar.sh as Merchant of Record. Handles subscriptions, invoices, and global tax/VAT. No Stripe webhook edge cases.\nAI Pipeline: OpenAI RAG using pgvector. The retrieval service enforces strict context boundaries to minimize hallucinations.\nOCR: Mistral integration for document extraction.\nFile Storage: Cloudflare R2 integration.\nEach feature is a separate module. Don't need OCR? Remove it. Want Stripe instead of Polar? The billing interface is abstracted.<p>Real-world proof:<p>This isn't a template I made for GitHub stars. It's the exact code running apflow.co in production. When I added document OCR, I built it as a new module without touching Auth or Billing. The architecture held.<p>How to try it:<p>Clone the repo, read setup.md to check the prerequisite, run ./setup.sh, and you have a working B2B environment locally in minutes.<p>Feedback I want:<p>I'd appreciate feedback from Go developers on the module boundaries and cross-module interfaces. Also curious if anyone has suggestions for the Docker setup in production deployments.<p>GitHub: <a href=\"https://github.com/moasq/production-saas-starter\" rel=\"nofollow\">https://github.com/moasq/production-saas-starter</a><p>Live: <a href=\"https://apflow.co\" rel=\"nofollow\">https://apflow.co</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46324665\">https://news.ycombinator.com/item?id=46324665</a></p>\n<p>Points: 19</p>\n<p># Comments: 13</p>",
-      "author": "moh_quz",
-      "published_date": "2025-12-19T11:34:11+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 569,
-      "reading_time": 2,
-      "created_at": "2025-12-19T12:43:10.276028+00:00",
-      "updated_at": "2025-12-19T12:43:10.276036+00:00"
-    },
-    {
-      "id": "2a69ecdd8bc4dc778f4b6ed6a9288e81",
-      "url": "https://www.nature.com/articles/s41598-025-32534-5",
-      "title": "Multivariate data analysis of sex differences in emotional and cognitive evaluations over 1 year after stroke",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-19T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-19T11:41:33.219525+00:00",
-      "updated_at": "2025-12-19T12:32:13.715334+00:00",
-      "metadata": {
-        "processed_at": "2025-12-19T12:32:13.715342+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
