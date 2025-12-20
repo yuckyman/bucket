@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-20T19:38:45.140279+00:00",
+  "last_updated": "2025-12-20T20:16:03.255158+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "/u/AutoModerator",
       "published_date": "2025-12-20T00:00:48+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 180,
       "reading_time": 1,
       "created_at": "2025-12-20T19:37:30.617034+00:00",
-      "updated_at": "2025-12-20T19:37:30.617036+00:00"
+      "updated_at": "2025-12-20T20:16:03.145539+00:00",
+      "metadata": {
+        "processed_at": "2025-12-20T20:16:03.145548+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "2bfc640c02733f98722e119a211ba9c6",
@@ -26,13 +30,17 @@
       "author": "",
       "published_date": "2025-12-20T18:28:41+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2025-12-20T19:37:29.307408+00:00",
-      "updated_at": "2025-12-20T19:37:29.307409+00:00"
+      "updated_at": "2025-12-20T20:16:03.145553+00:00",
+      "metadata": {
+        "processed_at": "2025-12-20T20:16:03.145555+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "f73088b48c251b52a8107af84c33cae0",
@@ -42,29 +50,37 @@
       "author": "sedboyz",
       "published_date": "2025-12-20T16:08:17+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 13,
       "reading_time": 1,
       "created_at": "2025-12-20T19:37:28.195397+00:00",
-      "updated_at": "2025-12-20T19:37:28.195399+00:00"
+      "updated_at": "2025-12-20T20:16:03.145558+00:00",
+      "metadata": {
+        "processed_at": "2025-12-20T20:16:03.145559+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "2bfc640c02733f98722e119a211ba9c6",
       "url": "https://annas-archive.li/blog/backing-up-spotify.html",
       "title": "Backing Up Spotify",
-      "content": "<p>Article URL: <a href=\"https://annas-archive.li/blog/backing-up-spotify.html\">https://annas-archive.li/blog/backing-up-spotify.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46338339\">https://news.ycombinator.com/item?id=46338339</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
-      "author": "vitplister",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46338339\">Comments</a>",
+      "author": "",
       "published_date": "2025-12-20T18:28:41+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-12-20T19:37:28.195201+00:00",
-      "updated_at": "2025-12-20T19:37:28.195202+00:00"
+      "created_at": "2025-12-20T19:37:29.307408+00:00",
+      "updated_at": "2025-12-20T20:16:03.145553+00:00",
+      "metadata": {
+        "processed_at": "2025-12-20T20:16:03.145555+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "c6aa9a7156884b89a7d395bee7fd3a84",
@@ -74,13 +90,17 @@
       "author": "",
       "published_date": "2025-12-20T13:39:47+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2025-12-20T19:16:31.608421+00:00",
-      "updated_at": "2025-12-20T19:16:31.608422+00:00"
+      "updated_at": "2025-12-20T20:16:03.145566+00:00",
+      "metadata": {
+        "processed_at": "2025-12-20T20:16:03.145567+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "9572e9f7b12143f1bf25aedfc163bb2d",
@@ -102,17 +122,21 @@
       "id": "c6aa9a7156884b89a7d395bee7fd3a84",
       "url": "https://hn-wrapped.kadoa.com?year=2025",
       "title": "Show HN: HN Wrapped 2025 - an LLM reviews your year on HN",
-      "content": "<p>I was looking for some fun project to play around with the latest Gemini models and ended up building this :)<p>Enter your username and get:<p>- Generated roasts and stats based on your HN activity 2025<p>- Your personalized HN front page from 2035 (inspired by a recent Show HN [0])<p>- An xkcd-style comic of your HN persona<p>It uses the latest gemini-3-flash and gemini-3-pro-image (nano banana pro) models, which deliver pretty impressive and funny results.<p>A few examples:<p>- dang: <a href=\"https://hn-wrapped.kadoa.com/dang\" rel=\"nofollow\">https://hn-wrapped.kadoa.com/dang</a><p>- myself: <a href=\"https://hn-wrapped.kadoa.com/hubraumhugo\" rel=\"nofollow\">https://hn-wrapped.kadoa.com/hubraumhugo</a><p>Give it a try and share yours :)<p>Happy holidays!<p>[0] <a href=\"https://news.ycombinator.com/item?id=46205632\">https://news.ycombinator.com/item?id=46205632</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46336104\">https://news.ycombinator.com/item?id=46336104</a></p>\n<p>Points: 10</p>\n<p># Comments: 3</p>",
-      "author": "hubraumhugo",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46336104\">Comments</a>",
+      "author": "",
       "published_date": "2025-12-20T13:39:47+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 104,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-12-20T19:16:30.513273+00:00",
-      "updated_at": "2025-12-20T19:16:30.513275+00:00"
+      "created_at": "2025-12-20T19:16:31.608421+00:00",
+      "updated_at": "2025-12-20T20:16:03.145566+00:00",
+      "metadata": {
+        "processed_at": "2025-12-20T20:16:03.145567+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "92fab5ebda8f777f1b2e879bb3d36b8a",
