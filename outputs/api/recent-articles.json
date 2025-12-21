@@ -1,7 +1,71 @@
 {
-  "last_updated": "2025-12-21T10:15:47.266032+00:00",
+  "last_updated": "2025-12-21T10:22:27.793689+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "6856b23903083080d772af3b1e54f3b2",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.19.695526v1?rss=1",
+      "title": "Why motor learning involves multiple systems: an algorithmic perspective",
+      "content": "The initial stage of learning motor skills involves exploring vast action spaces, making it impractical to learn the value of every possible action independently. This poses a challenge for standard reinforcement learning approaches, which excel in constrained domains but struggle when the space of possible actions is high-dimensional. Recent work in machine learning has sought to mitigate this problem by combining deep reinforcement learning with a supervised learning system that reduces the complexity of the control policy space by learning low-dimensional embeddings of an action space. Here, we propose that in the mammalian brain, the cortico-cerebellar network learns these low-dimensional action embeddings in a supervised way, while the basal ganglia learn value and policies in this action embedding space using reinforcement learning. We trained this model on reaching tasks and show that, contrary to traditional models of the basal ganglia, it recapitulates features of neural activity whereby similar reaching movements are associated with similar neural activity patterns in the basal ganglia. We also demonstrate a link between learning these low-dimensional action embeddings and both generalisation and the limits of multi-task adaptation in human behavioural studies. Through this framework, we propose a novel computational view of how key motor regions of the brain interact to efficiently learn a new skill.",
+      "author": "Greenstreet, F., Geerts, J. P., Gallego, J. A., Clopath, C.",
+      "published_date": "2025-12-21T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 209,
+      "reading_time": 1,
+      "created_at": "2025-12-21T10:21:58.531986+00:00",
+      "updated_at": "2025-12-21T10:21:58.531988+00:00"
+    },
+    {
+      "id": "ec50f0b915a378b12956df03022ab883",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.19.695584v1?rss=1",
+      "title": "Excitatory nicotinic signaling drives action potential bursting in dopaminergic axons",
+      "content": "Axons of dopamine (DA) neurons express nicotinic receptors (nAChRs) that have been shown to both facilitate and suppress striatal DA release, but the mechanisms underlying these opposing actions are unclear. We combined axonal recordings and calcium imaging approaches to examine the effects of nAChRs on DAergic axon excitability. Activation of nAChRs consistently depolarized DAergic axons and increased the probability of evoking action potentials. Calcium imaging experiments showed that weak or moderate stimulation of striatal cholinergic interneurons (CINs) activated DAergic axons, while strong stimulation blunted multi-pulse protocols. Axon recordings showed that highly synchronous stimulation of CINs triggered a rapid (~125 Hz) burst of 2-4 action potentials in DAergic axons. Imaging experiments showed that nAChR-evoked axon bursts led to prolonged refractoriness, which was mimicked by direct burst stimulation. Thus, nAChR activation locally enhances excitability of DAergic axons over a range of intensities, including the production of locally generated burst firing and subsequent refractory inhibition.",
+      "author": "Kramer, P. F., Yanez, A., Clever, F., Zhang, R., Khaliq, Z. M.",
+      "published_date": "2025-12-21T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 152,
+      "reading_time": 1,
+      "created_at": "2025-12-21T10:21:58.531951+00:00",
+      "updated_at": "2025-12-21T10:21:58.531953+00:00"
+    },
+    {
+      "id": "cc45446e5e33057f8903e1730b81f514",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.19.695021v1?rss=1",
+      "title": "Dual cholinergic mechanisms for sculpting striatal dopamine in vivo",
+      "content": "Striatal dopamine (DA) and acetylcholine constitute a computationally powerful neuromodulatory dyad that orchestrates action selection, motivational vigor, and reward learning. Striatal cholinergic interneurons (CINs) synapse onto DA axons and stimulate DA release via {beta}2-containing nicotinic receptors ({beta}2-nAChRs), providing a local modulatory channel distinct from midbrain-derived spikes. Yet whether this mechanism operates in vivo and how it contributes to striatal computations, orthogonal to those facilitated by prediction errors encoded in the DA somata, remains unresolved. Using spatiotemporally precise optogenetic stimulation of CINs paired with ultrafast DA imaging in the dorsal striatum, we identify a biphasic mode of CIN-evoked DA release in awake mice. CIN activation evoked an ultra-fast {beta}2-nAChR-dependent DA transient peaking within ~40 ms that requires millimeter-scale CIN synchrony and is systematically obscured by conventional imaging bandwidths or slow DA sensor kinetics. A second, delayed DA elevation peaking at ~180 ms persists despite {beta}2-nAChR blockade and is mediated by muscarinic receptors, - and *-nAChRs, and a non-cholinergic CIN messenger, revealing a previously unrecognized polysynaptic CIN mechanism. Our observations reconcile discrepancies between slice and in vivo studies and show that CINs engage DA release through two mechanistically distinct pathways: (i) an ultra-fast, monosynaptic mode provides a spatially expansive DA signal ideally positioned to reconfigure striatal microcircuits globally, and (ii) a slower, spatially flexible polysynaptic DA mode suited for sustaining ongoing decisions. This dual architecture expands the computational repertoire of striatal DA dynamics in behavioral and cognitive control.",
+      "author": "Flink, D. R., Faturos, N. G., Zhang, H., Hamid, A. A.",
+      "published_date": "2025-12-21T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 236,
+      "reading_time": 1,
+      "created_at": "2025-12-21T10:21:58.531919+00:00",
+      "updated_at": "2025-12-21T10:21:58.531920+00:00"
+    },
+    {
+      "id": "8ec957207678deffd6f457661ddb44e5",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.19.695466v1?rss=1",
+      "title": "Magnetoencephalography reveals adaptive neural reorganization maintaining lexical-semantic proficiency in healthy aging",
+      "content": "Although semantic cognition remains behaviorally stable with age, neuroimaging studies report age-related alterations in response to semantic context. We aimed to reconcile these inconsistent findings by combining behavioral and magnetoencephalography (MEG) measures and examined the neural mechanisms underlying lexical-semantic processing in healthy aging. Forty-six Finnish-speaking adults (25 female) across younger (22 - 32 years) and older (62 - 69 years) cohorts performed a semantic congruency judgment task on word pairs. Both age groups performed the task with high accuracy, with older adults responding faster than young. While advancing age was not associated with impaired task performance, MEG revealed neural reorganization in the old compared to young adults. Young participants exhibited the canonical N400 effect in the left temporal cortex 300 - 400 ms post-stimulus, followed by a Late Positive Complex (LPC), whereas older adults showed less pronounced congruency effects, and the activation distribution was shifted toward frontal and bilateral regions. Despite the absence of the canonical N400 effect in older participants, multivariate time-resolved decoding demonstrated that the congruency effect was decodable from the MEG responses in both groups from ~300 ms post-stimulus, indicating preserved sensitivity to congruency with age. Decoding performance correlated with response time, suggesting that increased neural separation between semantic concepts facilitates rapid decision-making. Critically, age groups were distinguishable based on their neural responses 300 - 800 ms post-stimulus, reflecting functional reorganization in older adults. Overall, our findings suggest that healthy aging involves adaptive reconfiguration of neural systems, supported by experience-driven strategies that preserve semantic proficiency despite broader age-related cognitive changes.",
+      "author": "Nurmi, P., Ala-Saloma\u0308ki, H., Renvall, H., Liljestro\u0308m, M.",
+      "published_date": "2025-12-21T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 253,
+      "reading_time": 1,
+      "created_at": "2025-12-21T10:21:58.531874+00:00",
+      "updated_at": "2025-12-21T10:21:58.531878+00:00"
+    },
     {
       "id": "f91b7a4c3dea221f93572d1a7728b6e7",
       "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2524903122?af=R",
@@ -283,86 +347,6 @@
       "updated_at": "2025-12-21T06:23:48.019863+00:00",
       "metadata": {
         "processed_at": "2025-12-21T06:23:48.019872+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "62a5fc70afd5d5a5ebeb3852de5088ea",
-      "url": "https://missionlocal.org/2025/12/sf-waymo-halts-service-blackout/",
-      "title": "Waymo halts service during S.F. blackout after causing traffic jams",
-      "content": "<p>Article URL: <a href=\"https://missionlocal.org/2025/12/sf-waymo-halts-service-blackout/\">https://missionlocal.org/2025/12/sf-waymo-halts-service-blackout/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46342412\">https://news.ycombinator.com/item?id=46342412</a></p>\n<p>Points: 10</p>\n<p># Comments: 5</p>",
-      "author": "rwoll",
-      "published_date": "2025-12-21T05:12:03+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-21T05:44:53.737302+00:00",
-      "updated_at": "2025-12-21T06:23:48.019876+00:00",
-      "metadata": {
-        "processed_at": "2025-12-21T06:23:48.019878+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2ee8391104eb9ac9f2eb939297fd3ef5",
-      "url": "https://www.nature.com/articles/s41598-025-32428-6",
-      "title": "Overactive bladder phenotype induced by chronic activation of hypothalamic neuroendocrine stress pathways in rats with no extrinsic behavioral stress applied",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-21T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-21T05:23:22.426599+00:00",
-      "updated_at": "2025-12-21T06:23:48.019881+00:00",
-      "metadata": {
-        "processed_at": "2025-12-21T06:23:48.019882+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8201566bc7b22840dab4a20ab642aea3",
-      "url": "https://www.nature.com/articles/s41598-025-32288-0",
-      "title": "Missense variant in TTBK2 kinase domain causes loss of function and impaired protein phosphorylation",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-21T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-21T05:23:22.426580+00:00",
-      "updated_at": "2025-12-21T06:23:48.019885+00:00",
-      "metadata": {
-        "processed_at": "2025-12-21T06:23:48.019886+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "53913a12532f83acd386ebe2ab597d18",
-      "url": "https://www.nature.com/articles/s41598-025-30683-1",
-      "title": "Interoceptive profiles of eating and weight disorders",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-21T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-21T05:23:22.426555+00:00",
-      "updated_at": "2025-12-21T06:23:48.019888+00:00",
-      "metadata": {
-        "processed_at": "2025-12-21T06:23:48.019890+00:00",
         "processing_method": "github_actions"
       }
     }
