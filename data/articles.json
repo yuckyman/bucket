@@ -1,5 +1,53 @@
 [
   {
+    "id": "7d358a50de2869f89d49bd22afee1514",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1705970",
+    "title": "Effective and efficient self-supervised masked model based on mixed feature training",
+    "content": "Under the influence of Masked Language Modeling (MLM), Masked Image Modeling (MIM) employs an attention mechanism to perform masked training on images. However, processing a single image requires numerous iterations and substantial computational resources to reconstruct the masked regions, resulting in high computational complexity and significant time costs. To address this issue, we propose an Effective and Efficient self-supervised Masked model based on Mixed feature training (EESMM). First, we stack two images for encoding and input the fused features into the network, which not only reduces computational complexity but also enables the learning of more features. Second, during decoding, we obtain the decoding features corresponding to the original images based on the decoding features of the two input original images and the mixed images, and then construct a corresponding loss function to enhance feature representation. EESMM significantly reduces pre-training time without sacrificing accuracy, achieving 83% accuracy on ImageNet in just 363 h using four V100 GPUs\u2013only one-tenth of the training time required by SimMIM. This validates that the method can substantially accelerate the pre-training process without noticeable performance degradation.",
+    "author": "Chunliu Cai",
+    "published_date": "2025-10-30T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 179,
+    "reading_time": 1,
+    "created_at": "2025-12-21T21:40:05.591780+00:00",
+    "updated_at": "2025-12-21T21:40:05.591782+00:00"
+  },
+  {
+    "id": "e792c4b72bbde4738fd5b7ea64a3d4b6",
+    "url": "https://scottaaronson.blog/?p=9425",
+    "title": "More on whether useful quantum computing is \"imminent\"",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46348318\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-21T20:53:34+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-21T21:39:37.124939+00:00",
+    "updated_at": "2025-12-21T21:39:37.124940+00:00"
+  },
+  {
+    "id": "e792c4b72bbde4738fd5b7ea64a3d4b6",
+    "url": "https://scottaaronson.blog/?p=9425",
+    "title": "More on whether useful quantum computing is \"imminent\"",
+    "content": "<p>Article URL: <a href=\"https://scottaaronson.blog/?p=9425\">https://scottaaronson.blog/?p=9425</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46348318\">https://news.ycombinator.com/item?id=46348318</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+    "author": "A_D_E_P_T",
+    "published_date": "2025-12-21T20:53:34+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-21T21:39:36.026287+00:00",
+    "updated_at": "2025-12-21T21:39:36.026289+00:00"
+  },
+  {
     "id": "91afe3dc9b3e999e263bc4b5b3a269ff",
     "url": "https://www.aiforswes.com/p/you-dont-need-to-spend-100mo-on-claude",
     "title": "You Don't Need to Spend $100/Mo on Claude Code:Your Guide to Local Coding Models",
@@ -17218,57 +17266,5 @@
       "processed_at": "2025-12-16T20:19:12.398900+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "76d11d77def583b884781f26e3f7066c",
-    "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.693881v1?rss=1",
-    "title": "MRS4Brain: a processing toolbox for preclinical MR spectroscopy and spectroscopic imaging data",
-    "content": "Magnetic resonance spectroscopy is a non-invasive technique for probing metabolism and underpins advanced methods such as magnetic resonance spectroscopic imaging (MRSI) and diffusion-weighted spectroscopy (DWS). MRSI enables spatial mapping of metabolite distributions, offering insights into regional metabolic heterogeneity that single-voxel spectroscopy (SVS) cannot capture. However, MRSI produces large multidimensional datasets and requires complex processing pipelines, limiting reproducibility and accessibility. While human studies benefit from advanced processing tools, similar developments in preclinical research remain scarce, highlighting a demand for practical tools accessible to non-experts. To address this need, we introduce the MRS4Brain Toolbox, a freely available MATLAB-based platform for preclinical spectroscopy, including MRSI, SVS, and DWS. The toolbox integrates reconstruction, preprocessing, quantification, quality control, brain segmentation automatically overlaid on metabolite maps, modeling, and statistical analysis into unified workflows accessible via a graphical interface. By streamlining data processing and reducing technical barriers, MRS4Brain Toolbox promotes reproducibility, harmonization, and broader adoption of advanced spectroscopic techniques in preclinical studies, ultimately facilitating translational research.",
-    "author": "Alves, B., Phan, T. T., Briand, G., Siviglia, A., Nossa, G., Mosso, J., Mougel, E., Near, J., Dinh, T. N. A., Zenteno, O., Lanz, B., Le, T. P., Cudalbu, C.",
-    "published_date": "2025-12-16T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 159,
-    "reading_time": 1,
-    "created_at": "2025-12-16T19:20:47.650691+00:00",
-    "updated_at": "2025-12-16T20:19:12.398902+00:00",
-    "metadata": {
-      "processed_at": "2025-12-16T20:19:12.398904+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "c269b028afba4d3a70907e9a5b4c9bd7",
-    "url": "https://www.biorxiv.org/content/10.64898/2025.12.12.694017v1?rss=1",
-    "title": "Diffusion-weighted steady-state free precession imaging in the ex vivo macaque brain on a 10.5T human MRI scanner",
-    "content": "Diffusion MRI provides a non-invasive probe of local fibre bundles and long-range anatomical connections to characterise the structural connectome. One way to achieve very high spatial resolution diffusion MRI data for connectivity investigations is to scan ex-vivo brains over many hours or days, ideally at ultra-high field strength to boost signal levels. However, conventional diffusion MRI acquisition techniques do not generally deliver good data quality for the challenging conditions of ex-vivo tissue, characterised by reduced diffusivities and relaxation times when compared to in vivo. In this work, we investigate the potential of the diffusion-weighted steady-state free precession (DW-SSFP) sequence for ex vivo diffusion imaging of the macaque brain using a 10.5 T human MRI scanner with a conventional (G_max=70 mT/m) gradient set. SNR-efficiency optimisations incorporating experimental relaxation times demonstrate that the DW-SSFP sequence is predicted to achieve improved or similar SNR efficiency compared to a diffusion-weighted spin- and stimulated-echo sequence. Importantly, DW-SSFP can achieve this with the additional benefit of negligible geometric distortions, unlike conventional diffusion MRI using an echo-planar imaging readout. Using optimised DW-SSFP sequence parameters, we propose a protocol at 0.4 mm isotropic resolution using a two-shell multi-orientation protocol (effective b-values of 3200 s/mm^2 and 5600 s/mm^2). We fit the data using Tensor, Ball and 3-Sticks and Constrained Spherical Deconvolution signal representations. The results demonstrate high-quality diffusivity estimates across the entire brain with the ability to resolve multiple fibre populations in challenging crossing-fibre regions. The data will be made fully open source and multimodal as part of the Center for Mesoscale Connectomics, providing a resource for future connectivity investigations.",
-    "author": "Tendler, B. C., Warrington, S., Selim, M. K., Wu, W., Adriany, G., Auerbach, E. J., Bratch, A., Farooq, H., Harel, N., Heilbronner, S., Jbabdi, S., Jungst, S., Lenglet, C., Manea, A. M., Moeller, S., Pestilli, F., Pisharady, P. K., Ugurbil, K., Waks, M., Yacoub, E., Sotiropoulos, S. N., Miller, K. L., Zimmermann, J.",
-    "published_date": "2025-12-16T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 261,
-    "reading_time": 1,
-    "created_at": "2025-12-16T19:20:47.650652+00:00",
-    "updated_at": "2025-12-16T19:20:47.650656+00:00"
-  },
-  {
-    "id": "86240da3eaca0f7ab44548529db5e4cd",
-    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1628368",
-    "title": "A simple robot suggests trunk rotation is essential for emergence of inside leading limb during quadruped galloping turns",
-    "content": "During turning maneuvers in the galloping gait of quadruped animals, a strong relationship exists between the turning direction and the sequence in which the forelimbs make ground contact: the outer forelimb acts as the \u201ctrailing limb\u201d while the inner forelimb serves as the \u201cleading limb.\u201d However, the control mechanisms underlying this behavior remain largely unclear. Understanding these mechanisms could deepen biological knowledge and assist in developing more agile robots. To address this issue, we hypothesized that decentralized interlimb coordination mechanism and trunk movement are essential for the emergence of an inside leading limb in a galloping turn. To test the hypothesis, we developed a quasi-quadruped robot with simplified wheeled hind limbs and variable trunk roll and yaw angles. For forelimb coordination, we implemented a simple decentralized control based on local load-dependent sensory feedback, utilizing trunk roll inclination and yaw bending as turning methods. Our experimental results confirmed that in addition to the decentralized control from previous studies which reproduces animal locomotion in a straight line, adjusting the trunk roll angle spontaneously generates a ground contact sequence similar to gallop turning in quadruped animals. Furthermore, roll inclination showed a greater influence than yaw bending on differentiating the leading and trailing limbs. This study suggests that physical interactions serve as a universal mechanism of locomotor control in both forward and turning movements of quadrupedal animals.",
-    "author": "Akio Ishiguro",
-    "published_date": "2025-10-23T00:00:00+00:00",
-    "source": "Frontiers Neurorobotics",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 223,
-    "reading_time": 1,
-    "created_at": "2025-12-16T19:20:35.096000+00:00",
-    "updated_at": "2025-12-16T19:20:35.096001+00:00"
   }
 ]
