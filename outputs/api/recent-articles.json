@@ -1,7 +1,87 @@
 {
-  "last_updated": "2025-12-21T08:20:12.860469+00:00",
+  "last_updated": "2025-12-21T08:28:54.234801+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "fb11ce0aadf5a6e52d4b8289805e8350",
+      "url": "https://www.reddit.com/r/Python/comments/1prf1ko/fdir_commandline_utility_to_list_filter_and_sort/",
+      "title": "fdir: Command-line utility to list, filter, and sort files in a directory.",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>fdir</h1> <p><strong>fdir</strong> is a simple command-line utility to list, filter, and sort files and folders in your current directory. It provides a more flexible alternative to Windows's 'dir' command.</p> <h1>Features</h1> <ul> <li>List all files and folders in the current directory</li> <li>Filter files by: <ul> <li>Last modified date (<code>--gt</code>, <code>--lt</code>)</li> <li>File size (<code>--gt</code>, <code>--lt</code>)</li> <li>Name keywords (<code>--keyword</code>, <code>--swith</code>, <code>--ewith</code>)</li> <li>File type/extension (<code>--eq</code>)</li> </ul></li> <li>Sort results by: <ul> <li>Name, size, or modification date (<code>--order &lt;field&gt; &lt;a|d&gt;</code>)</li> </ul></li> </ul> <h1>Examples</h1> <pre><code>fdir modified --gt 1y --order name a fdir size --lt 100MB --order modified d fdir name --keyword report --order size a fdir type --eq .py --order name d fdir all --order modified a </code></pre> <h1>Installation</h1> <ol> <li>Install via <code>pip</code> (Python 3.8+ required):</li> </ol> <p>&#8203;</p> <pre><code>pip install fdir </code></pre> <ol> <li><p>Download the 'fdir.bat' launcher</p></li> <li><p>Place 'fdir.bat' in a folder on your PATH</p></li> </ol> <p>Try it out here: <a href=\"https://github.com/VG-dev1/fdir\">https://github.com/VG-dev1/fdir</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Apart-Television4396\"> /u/Apart-Television4396 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1prf1ko/fdir_commandline_utility_to_list_filter_and_sort/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1prf1ko/fdir_commandline_utility_to_list_filter_and_sort/\">[comments]</a></span>",
+      "author": "/u/Apart-Television4396",
+      "published_date": "2025-12-20T14:02:00+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 166,
+      "reading_time": 1,
+      "created_at": "2025-12-21T08:27:43.191013+00:00",
+      "updated_at": "2025-12-21T08:27:43.191014+00:00"
+    },
+    {
+      "id": "a193d638bfb9697b329575dce7017cb3",
+      "url": "https://www.ruby-lang.org/en/",
+      "title": "Ruby's Website Got an Overhaul",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46342859\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-21T07:06:48+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-21T08:27:41.921300+00:00",
+      "updated_at": "2025-12-21T08:27:41.921301+00:00"
+    },
+    {
+      "id": "b38ccbf4fadb753fe22f3fb803fa6953",
+      "url": "http://oldvcr.blogspot.com/2025/12/the-texas-instruments-cc-40-invades.html",
+      "title": "The Texas Instruments CC-40 invades Gopherspace (plus TI-74 BASICALC)",
+      "content": "<p>Article URL: <a href=\"http://oldvcr.blogspot.com/2025/12/the-texas-instruments-cc-40-invades.html\">http://oldvcr.blogspot.com/2025/12/the-texas-instruments-cc-40-invades.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46342195\">https://news.ycombinator.com/item?id=46342195</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "author": "todsacerdoti",
+      "published_date": "2025-12-21T04:11:56+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-21T08:27:40.814733+00:00",
+      "updated_at": "2025-12-21T08:27:40.814735+00:00"
+    },
+    {
+      "id": "56a4d382d76586ea1013b360823f20dc",
+      "url": "https://lareviewofbooks.org/article/isengard-in-oxford/",
+      "title": "Isengard in Oxford",
+      "content": "<p>Article URL: <a href=\"https://lareviewofbooks.org/article/isengard-in-oxford/\">https://lareviewofbooks.org/article/isengard-in-oxford/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46342528\">https://news.ycombinator.com/item?id=46342528</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
+      "author": "lermontov",
+      "published_date": "2025-12-21T05:42:17+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-21T08:27:40.814672+00:00",
+      "updated_at": "2025-12-21T08:27:40.814674+00:00"
+    },
+    {
+      "id": "a193d638bfb9697b329575dce7017cb3",
+      "url": "https://www.ruby-lang.org/en/",
+      "title": "Ruby's Website Got an Overhaul",
+      "content": "<p>Article URL: <a href=\"https://www.ruby-lang.org/en/\">https://www.ruby-lang.org/en/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46342859\">https://news.ycombinator.com/item?id=46342859</a></p>\n<p>Points: 14</p>\n<p># Comments: 2</p>",
+      "author": "psxuaw",
+      "published_date": "2025-12-21T07:06:48+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-21T08:27:40.814640+00:00",
+      "updated_at": "2025-12-21T08:27:40.814650+00:00"
+    },
     {
       "id": "5cf460440cabff85b535cbcef6734052",
       "url": "https://www.ucsf.edu/news/2025/12/431206/indoor-tanning-makes-youthful-skin-much-older-genetic-level",
@@ -283,106 +363,6 @@
       "updated_at": "2025-12-21T04:33:47.599934+00:00",
       "metadata": {
         "processed_at": "2025-12-21T04:33:47.599944+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "00ea168b06c031212f5b8ef529861b2a",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.17.695049v1?rss=1",
-      "title": "Theta-mediated conceptual reinstatement in vmPFC precedes perceptual reinstatement in ventral visual cortex during memory recall",
-      "content": "When recalling past episodes, different features of an experience, such as conceptual meaning and perceptual detail, are reconstructed and reinstated across distributed cortical regions. However, current models of human memory remain unclear how these feature-specific reinstatements unfold over time, and whether they interact hierarchically during memory retrieval. Using magnetoencephalography (MEG) and time-resolved encoding-retrieval cross-phase classification analysis, we compared the time course of conceptual and perceptual reinstatement during cued visual recall. Conceptual information decoding in the ventromedial prefrontal cortex (vmPFC) preceded perceptual information decoding in the ventral visual cortex (VVC), and the two were expressed in distinct frequency bands: theta (4-8 Hz) for conceptual and gamma (30-40 Hz) for perceptual information. Cross-correlation and spectral Granger causality analyses revealed that during reinstatement conceptual information in vmPFC predicted and directed perceptual information in VVC, with theta-band information flow predominantly from vmPFC to VVC. In addition, bottom-up connectivity from VVC to vmPFC was expressed in the alpha band. These findings suggest that memory retrieval proceeds from abstract conceptual reconstruction to the reinstatement of perceptual details, mediated by theta oscillatory communication between prefrontal and sensory areas. We propose a hierarchical interactive model in which vmPFC initiates conceptual activation through theta-band top-down signals, while VVC provides alpha-band feedback for evaluating reconstructed perceptual details.",
-      "author": "Zhang, L., Yuan, M., Gilboa, A., Alain, C.",
-      "published_date": "2025-12-20T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 207,
-      "reading_time": 1,
-      "created_at": "2025-12-21T03:40:00.471894+00:00",
-      "updated_at": "2025-12-21T04:33:47.599948+00:00",
-      "metadata": {
-        "processed_at": "2025-12-21T04:33:47.599950+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ef1d360d604223946bde97ad8fab7bd1",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1574044",
-      "title": "Path planning of industrial robots based on the adaptive field cooperative sampling algorithm",
-      "content": "For the low efficiency and poor generalization ability of path planning algorithm of industrial robots, this work proposes an adaptive field co-sampling algorithm (AFCS). Firstly, the environment complexity function is proposed to make full use of environment information and improve its generalization ability of the traditional rapidly random search tree algorithm (RRT) algorithm. Then an optimal sampling strategy is proposed to make the improvement of the efficiency and optimal direction of RRT algorithm. Finally, this article designs a collaborative extension strategy, which introduces the improved artificial potential field algorithm (APF) into the traditional RRT algorithm to determine the new nodes, so as to improve the orientation and expansion efficiency of the algorithm. The proposed AFCS algorithm completes simulation experiments in two environments with different complexity. Compared with the traditional RRT, RRT* and tRRT algorithm, the results show that the AFCS algorithm has achieved great improvement in environmental adaptability, stability and efficiency. At last, ROKAE industrial robot is taken as the object to build a simulation environment for the path planning, which further verifies the practicability of the algorithm.",
-      "author": "Lv Wei",
-      "published_date": "2025-11-13T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 178,
-      "reading_time": 1,
-      "created_at": "2025-12-21T03:39:47.481043+00:00",
-      "updated_at": "2025-12-21T04:33:47.599953+00:00",
-      "metadata": {
-        "processed_at": "2025-12-21T04:33:47.599954+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "607472031a54afb77cef53ac851abd33",
-      "url": "https://www.reddit.com/r/Python/comments/1prdst8/vrdndi_a_local_contextaware_productivityfocused/",
-      "title": "Vrdndi: A local context-aware productivity-focused recommendation system",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p><strong>What My Project Does:</strong> Vrdndi is a local-first recommendation system that curates media feed (currently YouTube) based on your current computer behavior. It uses <a href=\"https://activitywatch.net/\">ActivityWatch</a> (A time tracker) data to detect what you are working on (e.g., coding, gaming) and adjusts your feed to match your goal\u2014promoting productivity when you are working and entertainment when you are relaxing. (If you train it in this way)</p> <p><strong>Goal:</strong> To recommend content based on what you are actually doing (using your previous app history) and aiming for productivity, rather than what seems most interesting.</p> <p><strong>Target Audience:</strong> developers, self-hosters, and productivity enthusiasts</p> <p><strong>Comparison:</strong> As far as I know, I haven't seen someone else who has built an open-source recommendation that uses your app history to curate a feed, but probably just because I haven't found one. Unlike YouTube, which optimizes for <strong>watch time</strong>, Vrdndi optimizes for your <strong>intent</strong>\u2014aligning your feed with your current context (usually for productivity, if you train it for that)</p> <p><strong>The Stack:</strong></p> <ul> <li><strong>Backend</strong>: Python 3.11-3.12</li> <li><strong>ML Framework</strong>: PyTorch (custom neural network that can train on local app history).</li> <li><strong>Data Source</strong>: ActivityWatch (fetches your app history to understand context) and media data (currently Youtube)</li> <li><strong>Frontend</strong>: NiceGUI (for the web interface) &amp; Streamlit (for data labeling).</li> <li><strong>Database</strong>: SQLite (everything stays <strong>local</strong>).</li> </ul> <p><strong>How does it work:</strong> The system processes saved media data and fetches your current app history from ActivityWatch. The model rates the media based on your current context and saves the feed to the database, which the frontend displays. Since it uses a standard database, you could easily connect your own frontend to the model if you prefer.</p> <p>It\u2019s experimental currently. If anyone finds this project interesting, I would appreciate any thoughts you might have.</p> <p>Project: <a href=\"https://github.com/leuas/Vrdndi\">Vrdndi: A full-stack context-aware productivity-focused recommendation system </a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AcrobaticWeb6671\"> /u/AcrobaticWeb6671 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1prdst8/vrdndi_a_local_contextaware_productivityfocused/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1prdst8/vrdndi_a_local_contextaware_productivityfocused/\">[comments]</a></span>",
-      "author": "/u/AcrobaticWeb6671",
-      "published_date": "2025-12-20T13:00:28+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 319,
-      "reading_time": 1,
-      "created_at": "2025-12-21T03:39:20.259239+00:00",
-      "updated_at": "2025-12-21T04:33:47.599957+00:00",
-      "metadata": {
-        "processed_at": "2025-12-21T04:33:47.599958+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9f3bb3c8c2a218e0d18fdfa6d7968503",
-      "url": "https://haveibeenflocked.com/news/cyble-downtime",
-      "title": "Flock and Cyble Inc. Weaponize \"Cybercrime\" Takedowns to Silence Critics",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46341305\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-21T01:12:31+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-21T03:39:18.949888+00:00",
-      "updated_at": "2025-12-21T04:33:47.599960+00:00",
-      "metadata": {
-        "processed_at": "2025-12-21T04:33:47.599962+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9f3bb3c8c2a218e0d18fdfa6d7968503",
-      "url": "https://haveibeenflocked.com/news/cyble-downtime",
-      "title": "Flock and Cyble Inc. Weaponize \"Cybercrime\" Takedowns to Silence Critics",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46341305\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-21T01:12:31+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-21T03:39:18.949888+00:00",
-      "updated_at": "2025-12-21T04:33:47.599960+00:00",
-      "metadata": {
-        "processed_at": "2025-12-21T04:33:47.599962+00:00",
         "processing_method": "github_actions"
       }
     }
