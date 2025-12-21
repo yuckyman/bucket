@@ -1,5 +1,69 @@
 [
   {
+    "id": "2aa2e876d2288f7d4acf766d2fc26264",
+    "url": "https://www.nature.com/articles/s41467-025-67623-6",
+    "title": "Resolving forebrain developmental organisation by analysis of differential growth patterns",
+    "content": "",
+    "author": "",
+    "published_date": "2025-12-21T00:00:00+00:00",
+    "source": "Nature Neuroscience Subjects",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2025-12-21T08:49:43.448519+00:00",
+    "updated_at": "2025-12-21T08:49:43.448521+00:00"
+  },
+  {
+    "id": "34f2b84fe246c2853d6c09bfe11faaf5",
+    "url": "https://www.nature.com/articles/s41467-025-67930-y",
+    "title": "Chromatin remodeling factor BAF155 coordinates oligodendroglial-neuronal communications linked to regional myelination and autism-like behavioral deficits in mice",
+    "content": "",
+    "author": "",
+    "published_date": "2025-12-21T00:00:00+00:00",
+    "source": "Nature Neuroscience Subjects",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2025-12-21T08:49:43.448481+00:00",
+    "updated_at": "2025-12-21T08:49:43.448483+00:00"
+  },
+  {
+    "id": "2175e924adaf3e91def95411a64284a2",
+    "url": "https://mathstodon.xyz/@tao/115722360006034040",
+    "title": "I doubt anything resembling genuine AGI is within reach",
+    "content": "<p>Article URL: <a href=\"https://mathstodon.xyz/@tao/115722360006034040\">https://mathstodon.xyz/@tao/115722360006034040</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46342380\">https://news.ycombinator.com/item?id=46342380</a></p>\n<p>Points: 13</p>\n<p># Comments: 5</p>",
+    "author": "gmays",
+    "published_date": "2025-12-21T05:02:36+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-21T08:49:02.071248+00:00",
+    "updated_at": "2025-12-21T08:49:02.071250+00:00"
+  },
+  {
+    "id": "7dd38d14be39607d21d5a4ec0659d6e9",
+    "url": "https://www.earthasweknowit.com/pages/inca_construction",
+    "title": "Inca Stone Masonry",
+    "content": "<p>Article URL: <a href=\"https://www.earthasweknowit.com/pages/inca_construction\">https://www.earthasweknowit.com/pages/inca_construction</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46342950\">https://news.ycombinator.com/item?id=46342950</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+    "author": "jppope",
+    "published_date": "2025-12-21T07:26:39+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-21T08:49:02.071158+00:00",
+    "updated_at": "2025-12-21T08:49:02.071166+00:00"
+  },
+  {
     "id": "fb11ce0aadf5a6e52d4b8289805e8350",
     "url": "https://www.reddit.com/r/Python/comments/1prf1ko/fdir_commandline_utility_to_list_filter_and_sort/",
     "title": "fdir: Command-line utility to list, filter, and sort files in a directory.",
@@ -17130,81 +17194,5 @@
       "processed_at": "2025-12-16T14:19:46.791814+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "9726fce6a9f6f06ddf4a5399d1c2bbc9",
-    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2716",
-    "title": "Automated estimation of frequency and spatial extent of periodic and rhythmic epileptiform activity from continuous electroencephalography data",
-    "content": "Objective. Rhythmic and periodic patterns (RPPs) are harmful brain activity observed on electroencephalography (EEG) recordings of critically ill patients. This work describes automatic methods for detection of the frequency and spatial extent of specific RPPs: lateralized and generalized rhythmic delta activity (LRDA, GRDA) and lateralized and generalized periodic discharges (LPD, GPD). Approach. The frequency and spatial extent of RPPs is estimated using signal processing and rule-based logic. Three algorithm variants based on fast Fourier transform (FFT) and Hilbert\u2013Huang transforms (HHT) were developed for rhythmic delta activity, and three using derivative and time-based peak detection for periodic discharges. Annotations from three expert neurophysiologists served as the gold standard, and inter-rater reliability (IRR) and mean absolute error (MAE) were used to assess performance. Main results. We evaluated the algorithms on segments with 100% agreement on event classification (n = 389) and on the full cohort of 1087 segments (including disagreements). For the first subset, top algorithms matched or exceeded expert agreement for RPP frequency/spatial extent. RDA1b-FFT, the best algorithm for rhythmic delta activity, showed an expert-algorithm IRR of good to excellent with an intra-class correlation coefficient (ICC) of 91% and 96% (MAE 0.13 Hz and 0.26 Hz) frequency, and ICCs of 85% and 66% (MAE 0.19 and 0.09) for spatial extent for LRDA and GRDA. For periodic discharges, PD2a, showed and expert-algorithm IRR ICC of 80% and 61% (MAE 0.41 Hz and 0.15 Hz) for frequency, and ICC 77% and 13% (MAE 0.17 and 0.40) for spatial extent of LPD and GPD. For the full cohort, IRR declined, but expert-algorithm IRR remained comparable or superior to experts. Significance. The presence of RPPs at high frequencies and spatial extent are associated with a higher probability of poor outcomes. The proposed algorithms for estimating frequency and spatial extent of RPPs match expert performance and are a viable tool for large-scale EEG analysis.",
-    "author": "Alexandra-Maria T\u0103u\u021ban, Jin Jing, Lara Basovic, Peter N Hadar, Shadi Sartipi, Marta P Fernandes, Jennifer Kim, Aaron F Struck, M Brandon Westover and Sahar F Zafar",
-    "published_date": "2025-12-16T00:00:00+00:00",
-    "source": "Journal Neural Engineering",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 308,
-    "reading_time": 1,
-    "created_at": "2025-12-16T13:39:32.374794+00:00",
-    "updated_at": "2025-12-16T14:19:46.791816+00:00",
-    "metadata": {
-      "processed_at": "2025-12-16T14:19:46.791818+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "5b46d7cf0b0030cf012f7c2d1d5b3185",
-    "url": "http://doi.org/10.1037/drm0000321",
-    "title": "The significance of dreams and dreaming in the traditional culture of Luo people in Kenya.",
-    "content": "This article comprises two parts. Part I deals with Augustine Nwoye\u2019s classification of dreams in Africa, a theoretical background that has been used here purposively to explain the significance of dreams and dreaming to the Luo people in Kenya. This article is therefore deliberately anchored on Nwoye\u2019s African theoretical framework on dreams and dreaming. Part II of this article examines different types of dreams from the cultural perspective of the Luo traditional community, dreams that exemplify Nwoye\u2019s tripartite division of dreams and their sources. This article is particularly concerned with the meaning and significance of dreams and dreaming and what cultural practices and beliefs about dreams and dreaming might reveal about the ethical, epistemological, and metaphysical worldview of the Luo. Culturally, dreams serve various functions such as: sourcing names, counseling, healing, communication with ancestral spirits, mourning, solving personal and societal problems, prediction, divination, and fortune-telling, among many other pertinent issues. Dreams have social, cultural, epistemological, and metaphysical functions. These functions have been articulated in this article, \u201cThe Significance of Dreams and Dreaming.\u201d This article is one among only a few publications on the topic concerning the value of dreams and dreaming in the beliefs, customs, traditions, and beliefs of this community, the Luo in Kenya. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-    "author": "",
-    "published_date": "2025-10-23T00:00:00+00:00",
-    "source": "Dreaming",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 214,
-    "reading_time": 1,
-    "created_at": "2025-12-16T13:39:12.945868+00:00",
-    "updated_at": "2025-12-16T14:19:46.791820+00:00",
-    "metadata": {
-      "processed_at": "2025-12-16T14:19:46.791822+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "63b80cc0bf47e296d6b89c13a1e23210",
-    "url": "https://blog.julik.nl/2025/12/a-trap-with-global-ids",
-    "title": "Be Careful with GIDs in Rails",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46226779\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-11T02:03:58+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-16T13:39:06.886725+00:00",
-    "updated_at": "2025-12-16T14:19:46.791824+00:00",
-    "metadata": {
-      "processed_at": "2025-12-16T14:19:46.791826+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "283d987afc3230481dd8cf31040da2d0",
-    "url": "https://www.cursor.tue.nl/en/background/2025/december/week-2/should-we-fear-microsofts-monopoly",
-    "title": "Should we fear Microsoft's monopoly?",
-    "content": "<p>Article URL: <a href=\"https://www.cursor.tue.nl/en/background/2025/december/week-2/should-we-fear-microsofts-monopoly\">https://www.cursor.tue.nl/en/background/2025/december/week-2/should-we-fear-microsofts-monopoly</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46287098\">https://news.ycombinator.com/item?id=46287098</a></p>\n<p>Points: 12</p>\n<p># Comments: 7</p>",
-    "author": "sergdigon",
-    "published_date": "2025-12-16T10:56:40+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-16T13:39:05.723605+00:00",
-    "updated_at": "2025-12-16T13:39:05.723607+00:00"
   }
 ]
