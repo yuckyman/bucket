@@ -1,5 +1,101 @@
 [
   {
+    "id": "2f10238af64327be1a1b33ce254d1ff0",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.17.695041v1?rss=1",
+    "title": "OpenStride: an inexpensive, open-source force plate actometry system for quantification of rodent motor activity and behaviour",
+    "content": "Introduction: Force plate actometry (FPA) enables quantitative assessment of rodent motor and behavioural activity. Through tracking centre of mass at high temporal and spatial resolution, FPA can directly quantifying motor performance and various behaviours in the context of operator-independent, naturalistic movement. Previously designed systems have been expensive and non-customisable, and they are no longer commercially available. Methods: We designed OpenStride, an open-source FPA system consisting of both hardware and software. Our system was designed to be able to be constructed with standard tools worldwide at a cost of ~$550 USD, with modifiable hardware files, modular software, and support for both Mac and Windows operating systems. Required tools include 3D printing and acrylic laser cutting. Results: OpenStride reliably tracks position within a 30 x 30 cm2 environment. Based on these positional data, OpenStride currently quantifies tremor, ataxia, distance, velocity, low-mobility bouts, and centre-vs-margin time, with potential to expand to additional analyses. Conclusions: OpenStride is intended to provide a valuable tool for high-throughput, inexpensive study of motor and behavioural function and dysfunction. Software and hardware files will be freely disseminated online via GitHub at the time of final publication to enable others to construct and utilise the OpenStride system.",
+    "author": "Yang, Y., Cooper, B., Houghton, M., Dahiya, K., Haslam, S. E., Blackwell, H., Sekaran, K., Hu, L., Kavehei, O., Anderson, C. J.",
+    "published_date": "2025-12-20T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 197,
+    "reading_time": 1,
+    "created_at": "2025-12-21T03:40:00.471937+00:00",
+    "updated_at": "2025-12-21T03:40:00.471939+00:00"
+  },
+  {
+    "id": "00ea168b06c031212f5b8ef529861b2a",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.17.695049v1?rss=1",
+    "title": "Theta-mediated conceptual reinstatement in vmPFC precedes perceptual reinstatement in ventral visual cortex during memory recall",
+    "content": "When recalling past episodes, different features of an experience, such as conceptual meaning and perceptual detail, are reconstructed and reinstated across distributed cortical regions. However, current models of human memory remain unclear how these feature-specific reinstatements unfold over time, and whether they interact hierarchically during memory retrieval. Using magnetoencephalography (MEG) and time-resolved encoding-retrieval cross-phase classification analysis, we compared the time course of conceptual and perceptual reinstatement during cued visual recall. Conceptual information decoding in the ventromedial prefrontal cortex (vmPFC) preceded perceptual information decoding in the ventral visual cortex (VVC), and the two were expressed in distinct frequency bands: theta (4-8 Hz) for conceptual and gamma (30-40 Hz) for perceptual information. Cross-correlation and spectral Granger causality analyses revealed that during reinstatement conceptual information in vmPFC predicted and directed perceptual information in VVC, with theta-band information flow predominantly from vmPFC to VVC. In addition, bottom-up connectivity from VVC to vmPFC was expressed in the alpha band. These findings suggest that memory retrieval proceeds from abstract conceptual reconstruction to the reinstatement of perceptual details, mediated by theta oscillatory communication between prefrontal and sensory areas. We propose a hierarchical interactive model in which vmPFC initiates conceptual activation through theta-band top-down signals, while VVC provides alpha-band feedback for evaluating reconstructed perceptual details.",
+    "author": "Zhang, L., Yuan, M., Gilboa, A., Alain, C.",
+    "published_date": "2025-12-20T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 207,
+    "reading_time": 1,
+    "created_at": "2025-12-21T03:40:00.471894+00:00",
+    "updated_at": "2025-12-21T03:40:00.471900+00:00"
+  },
+  {
+    "id": "ef1d360d604223946bde97ad8fab7bd1",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1574044",
+    "title": "Path planning of industrial robots based on the adaptive field cooperative sampling algorithm",
+    "content": "For the low efficiency and poor generalization ability of path planning algorithm of industrial robots, this work proposes an adaptive field co-sampling algorithm (AFCS). Firstly, the environment complexity function is proposed to make full use of environment information and improve its generalization ability of the traditional rapidly random search tree algorithm (RRT) algorithm. Then an optimal sampling strategy is proposed to make the improvement of the efficiency and optimal direction of RRT algorithm. Finally, this article designs a collaborative extension strategy, which introduces the improved artificial potential field algorithm (APF) into the traditional RRT algorithm to determine the new nodes, so as to improve the orientation and expansion efficiency of the algorithm. The proposed AFCS algorithm completes simulation experiments in two environments with different complexity. Compared with the traditional RRT, RRT* and tRRT algorithm, the results show that the AFCS algorithm has achieved great improvement in environmental adaptability, stability and efficiency. At last, ROKAE industrial robot is taken as the object to build a simulation environment for the path planning, which further verifies the practicability of the algorithm.",
+    "author": "Lv Wei",
+    "published_date": "2025-11-13T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 178,
+    "reading_time": 1,
+    "created_at": "2025-12-21T03:39:47.481043+00:00",
+    "updated_at": "2025-12-21T03:39:47.481044+00:00"
+  },
+  {
+    "id": "607472031a54afb77cef53ac851abd33",
+    "url": "https://www.reddit.com/r/Python/comments/1prdst8/vrdndi_a_local_contextaware_productivityfocused/",
+    "title": "Vrdndi: A local context-aware productivity-focused recommendation system",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p><strong>What My Project Does:</strong> Vrdndi is a local-first recommendation system that curates media feed (currently YouTube) based on your current computer behavior. It uses <a href=\"https://activitywatch.net/\">ActivityWatch</a> (A time tracker) data to detect what you are working on (e.g., coding, gaming) and adjusts your feed to match your goal\u2014promoting productivity when you are working and entertainment when you are relaxing. (If you train it in this way)</p> <p><strong>Goal:</strong> To recommend content based on what you are actually doing (using your previous app history) and aiming for productivity, rather than what seems most interesting.</p> <p><strong>Target Audience:</strong> developers, self-hosters, and productivity enthusiasts</p> <p><strong>Comparison:</strong> As far as I know, I haven't seen someone else who has built an open-source recommendation that uses your app history to curate a feed, but probably just because I haven't found one. Unlike YouTube, which optimizes for <strong>watch time</strong>, Vrdndi optimizes for your <strong>intent</strong>\u2014aligning your feed with your current context (usually for productivity, if you train it for that)</p> <p><strong>The Stack:</strong></p> <ul> <li><strong>Backend</strong>: Python 3.11-3.12</li> <li><strong>ML Framework</strong>: PyTorch (custom neural network that can train on local app history).</li> <li><strong>Data Source</strong>: ActivityWatch (fetches your app history to understand context) and media data (currently Youtube)</li> <li><strong>Frontend</strong>: NiceGUI (for the web interface) &amp; Streamlit (for data labeling).</li> <li><strong>Database</strong>: SQLite (everything stays <strong>local</strong>).</li> </ul> <p><strong>How does it work:</strong> The system processes saved media data and fetches your current app history from ActivityWatch. The model rates the media based on your current context and saves the feed to the database, which the frontend displays. Since it uses a standard database, you could easily connect your own frontend to the model if you prefer.</p> <p>It\u2019s experimental currently. If anyone finds this project interesting, I would appreciate any thoughts you might have.</p> <p>Project: <a href=\"https://github.com/leuas/Vrdndi\">Vrdndi: A full-stack context-aware productivity-focused recommendation system </a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AcrobaticWeb6671\"> /u/AcrobaticWeb6671 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1prdst8/vrdndi_a_local_contextaware_productivityfocused/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1prdst8/vrdndi_a_local_contextaware_productivityfocused/\">[comments]</a></span>",
+    "author": "/u/AcrobaticWeb6671",
+    "published_date": "2025-12-20T13:00:28+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 319,
+    "reading_time": 1,
+    "created_at": "2025-12-21T03:39:20.259239+00:00",
+    "updated_at": "2025-12-21T03:39:20.259241+00:00"
+  },
+  {
+    "id": "9f3bb3c8c2a218e0d18fdfa6d7968503",
+    "url": "https://haveibeenflocked.com/news/cyble-downtime",
+    "title": "Flock and Cyble Inc. Weaponize \"Cybercrime\" Takedowns to Silence Critics",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46341305\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-21T01:12:31+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-21T03:39:18.949888+00:00",
+    "updated_at": "2025-12-21T03:39:18.949892+00:00"
+  },
+  {
+    "id": "9f3bb3c8c2a218e0d18fdfa6d7968503",
+    "url": "https://haveibeenflocked.com/news/cyble-downtime",
+    "title": "Flock and Cyble Inc. Weaponize \"Cybercrime\" Takedowns to Silence Critics",
+    "content": "<p>Article URL: <a href=\"https://haveibeenflocked.com/news/cyble-downtime\">https://haveibeenflocked.com/news/cyble-downtime</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46341305\">https://news.ycombinator.com/item?id=46341305</a></p>\n<p>Points: 122</p>\n<p># Comments: 19</p>",
+    "author": "_a9",
+    "published_date": "2025-12-21T01:12:31+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-21T03:39:17.854231+00:00",
+    "updated_at": "2025-12-21T03:39:17.854240+00:00"
+  },
+  {
     "id": "1ef7771c4c1c4de0c75402ec8e03e168",
     "url": "https://www.reddit.com/r/Python/comments/1pri95o/internship_bachelors_degree/",
     "title": "Internship (Bachelors Degree)",
@@ -60,26 +156,6 @@
     }
   },
   {
-    "id": "0a38367fe44ea9a247f08f729cc239e1",
-    "url": "https://blog.konsti.xyz/p/8c8a399f-8cfe-47dd-9278-9527105d07dc/",
-    "title": "More databases should be single-threaded",
-    "content": "<p>Article URL: <a href=\"https://blog.konsti.xyz/p/8c8a399f-8cfe-47dd-9278-9527105d07dc/\">https://blog.konsti.xyz/p/8c8a399f-8cfe-47dd-9278-9527105d07dc/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46340117\">https://news.ycombinator.com/item?id=46340117</a></p>\n<p>Points: 26</p>\n<p># Comments: 12</p>",
-    "author": "lawrencechen",
-    "published_date": "2025-12-20T22:12:22+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-21T01:51:39.179180+00:00",
-    "updated_at": "2025-12-21T03:25:46.689607+00:00",
-    "metadata": {
-      "processed_at": "2025-12-21T03:25:46.689609+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
     "id": "344c4db5ac04eafacac6c0eca7452678",
     "url": "https://www.nber.org/papers/w34558",
     "title": "Anatomy of US inequality",
@@ -96,6 +172,26 @@
     "updated_at": "2025-12-21T03:25:46.689603+00:00",
     "metadata": {
       "processed_at": "2025-12-21T03:25:46.689605+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "0a38367fe44ea9a247f08f729cc239e1",
+    "url": "https://blog.konsti.xyz/p/8c8a399f-8cfe-47dd-9278-9527105d07dc/",
+    "title": "More databases should be single-threaded",
+    "content": "<p>Article URL: <a href=\"https://blog.konsti.xyz/p/8c8a399f-8cfe-47dd-9278-9527105d07dc/\">https://blog.konsti.xyz/p/8c8a399f-8cfe-47dd-9278-9527105d07dc/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46340117\">https://news.ycombinator.com/item?id=46340117</a></p>\n<p>Points: 26</p>\n<p># Comments: 12</p>",
+    "author": "lawrencechen",
+    "published_date": "2025-12-20T22:12:22+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-21T01:51:39.179180+00:00",
+    "updated_at": "2025-12-21T03:25:46.689607+00:00",
+    "metadata": {
+      "processed_at": "2025-12-21T03:25:46.689609+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -17066,117 +17162,5 @@
     "reading_time": 1,
     "created_at": "2025-12-16T10:27:08.692771+00:00",
     "updated_at": "2025-12-16T10:27:08.692772+00:00"
-  },
-  {
-    "id": "d84f0b33f1ae32f043940a95052f68a8",
-    "url": "https://a2ui.org/",
-    "title": "A2UI: A Protocol for Agent-Driven Interfaces",
-    "content": "<p>Article URL: <a href=\"https://a2ui.org/\">https://a2ui.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46286407\">https://news.ycombinator.com/item?id=46286407</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-    "author": "makeramen",
-    "published_date": "2025-12-16T09:16:31+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-16T10:27:07.239829+00:00",
-    "updated_at": "2025-12-16T10:27:07.239831+00:00"
-  },
-  {
-    "id": "82d16c7740d50ddc25c1265ccb5cff5b",
-    "url": "https://world.hey.com/joaoqalves/i-m-a-tech-lead-and-nobody-listens-to-me-what-should-i-do-e16e454d",
-    "title": "I'm a Tech Lead, and nobody listens to me. What should I do?",
-    "content": "<p>Article URL: <a href=\"https://world.hey.com/joaoqalves/i-m-a-tech-lead-and-nobody-listens-to-me-what-should-i-do-e16e454d\">https://world.hey.com/joaoqalves/i-m-a-tech-lead-and-nobody-listens-to-me-what-should-i-do-e16e454d</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46286559\">https://news.ycombinator.com/item?id=46286559</a></p>\n<p>Points: 14</p>\n<p># Comments: 1</p>",
-    "author": "joaoqalves",
-    "published_date": "2025-12-16T09:38:42+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-16T10:27:07.239801+00:00",
-    "updated_at": "2025-12-16T10:27:07.239809+00:00"
-  },
-  {
-    "id": "1b442a41329959aa984549f22782af21",
-    "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006481?dgcid=rss_sd_all",
-    "title": "Evolution of users\u2019 subjective experience over three training sessions with an EEG Motor-Imagery Brain\u2013Computer Interface (MI-BCI)",
-    "content": "<p>Publication date: 1 February 2026</p><p><b>Source:</b> Brain Research, Volume 1872</p><p>Author(s): Aline Roc, L\u00e9na Kolodzienski, Pauline Dreyer, Aur\u00e9lien Appriou, Thibaut Monseigne, Fabien Lotte</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Brain Research",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 21,
-    "reading_time": 1,
-    "created_at": "2025-12-16T09:50:29.638413+00:00",
-    "updated_at": "2025-12-16T10:19:15.668023+00:00",
-    "metadata": {
-      "processed_at": "2025-12-16T10:19:15.668031+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "4b2e0e70dfe363641dced2a946dd5280",
-    "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006742?dgcid=rss_sd_all",
-    "title": "Oxidative Stress-Induced mechanisms in neurodegeneration and Eryptosis: Implications for neurological and systemic disorders",
-    "content": "<p>Publication date: 1 February 2026</p><p><b>Source:</b> Brain Research, Volume 1872</p><p>Author(s): Marijana Markovic Boras, Vanja Krulj, Alma Karahmet, Kanita Omerbasic, Asma Nawaz, Doris Pavkovi\u0107, Emina K. Sher</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Brain Research",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 25,
-    "reading_time": 1,
-    "created_at": "2025-12-16T09:50:29.638381+00:00",
-    "updated_at": "2025-12-16T10:19:15.668036+00:00",
-    "metadata": {
-      "processed_at": "2025-12-16T10:19:15.668038+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "d130092fadf5cce6537b37fb4113b353",
-    "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006202?dgcid=rss_sd_all",
-    "title": "Time-resolved functional connectivity during visuomotor graph learning",
-    "content": "<p>Publication date: January 2026</p><p><b>Source:</b> NeuroImage, Volume 325</p><p>Author(s): Sophie Loman, Lorenzo Caciagli, Shubhankar P. Patankar, Ari E. Kahn, Karol P. Szymula, Nathaniel Nyema, Dani S. Bassett</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Neuroimage",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 25,
-    "reading_time": 1,
-    "created_at": "2025-12-16T09:50:26.036728+00:00",
-    "updated_at": "2025-12-16T10:19:15.668040+00:00",
-    "metadata": {
-      "processed_at": "2025-12-16T10:19:15.668042+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "e98842765374373aa3203576e1a60667",
-    "url": "https://www.bbc.com/news/articles/c17p44w87rno",
-    "title": "The biggest heat pumps in the world",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46286030\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-16T08:13:01+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-16T09:27:45.567015+00:00",
-    "updated_at": "2025-12-16T10:19:15.668044+00:00",
-    "metadata": {
-      "processed_at": "2025-12-16T10:19:15.668046+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]
