@@ -1,7 +1,71 @@
 {
-  "last_updated": "2025-12-22T04:36:05.102143+00:00",
+  "last_updated": "2025-12-22T04:42:22.984347+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "04ede8d002a69068654d42d524778de0",
+      "url": "https://github.com/zayokami/GenresFox",
+      "title": "Show HN: GenresFox \u2013 Open-source, customizable new tab page extension in WASM",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46345157\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-21T14:40:03+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-22T04:41:04.784298+00:00",
+      "updated_at": "2025-12-22T04:41:04.784299+00:00"
+    },
+    {
+      "id": "19caf0b06c706ec4d84697c61070890f",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-observes-exoplanet-whose-composition-defies-explanation/",
+      "title": "Webb observes exoplanet that may have an exotic helium and carbon atmosphere",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46325475\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-19T13:16:57+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-22T04:41:04.784259+00:00",
+      "updated_at": "2025-12-22T04:41:04.784260+00:00"
+    },
+    {
+      "id": "1e1257160e66fa11330276659129c878",
+      "url": "https://github.com/ibaryshnikov/android-iced-example",
+      "title": "Build Android apps using Rust and iced",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46350641\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-22T02:14:32+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-22T04:41:04.784240+00:00",
+      "updated_at": "2025-12-22T04:41:04.784242+00:00"
+    },
+    {
+      "id": "1e1257160e66fa11330276659129c878",
+      "url": "https://github.com/ibaryshnikov/android-iced-example",
+      "title": "Build Android apps using Rust and iced",
+      "content": "<p>Some time ago I decided to try building an Android app using Rust. After a few weeks I got it working. There was a new iced release recently, so I've just updated the example to new iced and wgpu. I'd like to share my experience to attract more attention to Rust on Android.<p>First things, I want to thank all the people who work on the foundational crates and tools such as:\n- <a href=\"https://github.com/rust-mobile/android-activity\" rel=\"nofollow\">https://github.com/rust-mobile/android-activity</a>\n- <a href=\"https://github.com/jni-rs/jni-rs\" rel=\"nofollow\">https://github.com/jni-rs/jni-rs</a>\n- <a href=\"https://github.com/gfx-rs/wgpu\" rel=\"nofollow\">https://github.com/gfx-rs/wgpu</a>\n- <a href=\"https://github.com/rust-windowing/winit\" rel=\"nofollow\">https://github.com/rust-windowing/winit</a>\n- and many others<p>When I started I had to learn what tools and examples already exist. Luckily, there's a good set of examples using both NativeActivity and GameActivity:\n<a href=\"https://github.com/rust-mobile/rust-android-examples\" rel=\"nofollow\">https://github.com/rust-mobile/rust-android-examples</a><p>The basic approach is that we take android-activity, winit and wgpu and that's it. On top of that you can find a few egui examples in the rust-android-examples repo.<p>Alright, so after I've got the basic examples running, I wanted to combine them with iced. Iced is a crossplatform gui library focusing on desktop and web. The mobile support is explicitly a non-goal, as far as I can tell at the moment of writing. Yet, there's an issue where some people posted their experiments. That's how I knew it was possible:\n<a href=\"https://github.com/iced-rs/iced/issues/302\" rel=\"nofollow\">https://github.com/iced-rs/iced/issues/302</a><p>There's a way to integrate iced in wgpu applications, so called integration example:\n<a href=\"https://github.com/iced-rs/iced/tree/0.14.0/examples/integration\" rel=\"nofollow\">https://github.com/iced-rs/iced/tree/0.14.0/examples/integra...</a><p>Above I mentioned that using winit and wgpu in combination with android-activity is enough to build the app. Putting together 1 + 1 I got 2: let's use iced integration example with android-activity. It was quite easy to compile with almost no errors. First issue I encountered is that there was no text rendered. I solved this by loading fonts the way it was shown here:\n<a href=\"https://github.com/pop-os/cosmic-text/issues/243#issue-2189977938\" rel=\"nofollow\">https://github.com/pop-os/cosmic-text/issues/243#issue-21899...</a><p>Then I patched a few widgets to add touch support. And that's it. My role here was to take all the prior work and combine it together in a way that there's a working example.<p>Some other ways of building Android apps using Rust:\n- xilem has an explicit goal to support mobile <a href=\"https://github.com/linebender/xilem\" rel=\"nofollow\">https://github.com/linebender/xilem</a>\n- egui supports mobile <a href=\"https://github.com/emilk/egui\" rel=\"nofollow\">https://github.com/emilk/egui</a>\n- game engines such as Fyrox and Bevy support mobile:\n  - <a href=\"https://github.com/FyroxEngine/Fyrox\" rel=\"nofollow\">https://github.com/FyroxEngine/Fyrox</a>\n  - <a href=\"https://github.com/bevyengine/bevy\" rel=\"nofollow\">https://github.com/bevyengine/bevy</a>\n- pretty much anything built on top of winit and wgpu<p>All of the above is related to building native apps using either NativeActivity or GameActivity. I'm leaving webview out of scope of current post.<p>What about iOS? As far as I know it should be similar or maybe simpler compared to Android. I haven't built it yet, but the next time I have a sizeable amount of free time, I'll try to make it work. The plan is the same: pick winit, wgpu, iced integration example, mix it together until it works. It'll require the same trick to load fonts, and maybe something else, but no visible blockers as of now.<p>Once again, thanks to all the people who made it possible and I wish you have a great time building mobile apps with Rust!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46350641\">https://news.ycombinator.com/item?id=46350641</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "author": "rekireki",
+      "published_date": "2025-12-22T02:14:32+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 516,
+      "reading_time": 2,
+      "created_at": "2025-12-22T04:41:03.685857+00:00",
+      "updated_at": "2025-12-22T04:41:03.685866+00:00"
+    },
     {
       "id": "b0e727f4770d9de2aab2443e9a2fd3ca",
       "url": "https://www.nature.com/articles/s41598-025-31882-6",
@@ -43,26 +107,6 @@
       }
     },
     {
-      "id": "9a2bfae366a2b1072b01f33fd0844b56",
-      "url": "https://linusakesson.net/programming/kernighans-lever/index.php",
-      "title": "Kernighan's Lever",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46331292\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-19T21:42:55+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-22T03:43:49.971028+00:00",
-      "updated_at": "2025-12-22T04:36:04.997293+00:00",
-      "metadata": {
-        "processed_at": "2025-12-22T04:36:04.997294+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "bd3d9e341bcf71820c91a771bf211657",
       "url": "https://86box.net/2025/12/21/86box-v5-3.html",
       "title": "86Box v5.3",
@@ -79,6 +123,26 @@
       "updated_at": "2025-12-22T04:36:04.997288+00:00",
       "metadata": {
         "processed_at": "2025-12-22T04:36:04.997290+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "9a2bfae366a2b1072b01f33fd0844b56",
+      "url": "https://linusakesson.net/programming/kernighans-lever/index.php",
+      "title": "Kernighan's Lever",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46331292\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-19T21:42:55+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-22T03:43:49.971028+00:00",
+      "updated_at": "2025-12-22T04:36:04.997293+00:00",
+      "metadata": {
+        "processed_at": "2025-12-22T04:36:04.997294+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -317,70 +381,6 @@
         "processed_at": "2025-12-22T01:18:29.103311+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "0119f1ceae6cbf0b5d69165ff5bdfabe",
-      "url": "https://jyn.dev/i-m-just-having-fun/",
-      "title": "I'm Just Having Fun",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46287253\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-16T11:19:29+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-21T22:20:26.638802+00:00",
-      "updated_at": "2025-12-21T22:20:26.638803+00:00"
-    },
-    {
-      "id": "6c6e80672d532ede24b7fa9d2eb4444d",
-      "url": "https://www.bitsaboutmoney.com/archive/gift-card-accountability-sink/",
-      "title": "The gift card accountability sink",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46348455\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-21T21:07:01+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-21T22:20:26.638763+00:00",
-      "updated_at": "2025-12-21T22:20:26.638765+00:00"
-    },
-    {
-      "id": "59e3f273bde92c3f3a4a2246bd87e8e7",
-      "url": "https://rue-lang.dev/",
-      "title": "Rue: Higher level than Rust, lower level than Go",
-      "content": "<p>Article URL: <a href=\"https://rue-lang.dev/\">https://rue-lang.dev/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46348262\">https://news.ycombinator.com/item?id=46348262</a></p>\n<p>Points: 8</p>\n<p># Comments: 4</p>",
-      "author": "ingve",
-      "published_date": "2025-12-21T20:46:02+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-21T22:20:25.544297+00:00",
-      "updated_at": "2025-12-21T22:20:25.544299+00:00"
-    },
-    {
-      "id": "6c6e80672d532ede24b7fa9d2eb4444d",
-      "url": "https://www.bitsaboutmoney.com/archive/gift-card-accountability-sink/",
-      "title": "The gift card accountability sink",
-      "content": "<p>Article URL: <a href=\"https://www.bitsaboutmoney.com/archive/gift-card-accountability-sink/\">https://www.bitsaboutmoney.com/archive/gift-card-accountability-sink/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46348455\">https://news.ycombinator.com/item?id=46348455</a></p>\n<p>Points: 24</p>\n<p># Comments: 12</p>",
-      "author": "walterbell",
-      "published_date": "2025-12-21T21:07:01+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-21T22:20:25.544226+00:00",
-      "updated_at": "2025-12-21T22:20:25.544233+00:00"
     }
   ]
 }
