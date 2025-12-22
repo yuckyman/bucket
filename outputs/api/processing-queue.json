@@ -1,8 +1,24 @@
 {
-  "last_updated": "2025-12-22T12:33:09.310389+00:00",
-  "pending_count": 666,
-  "processed_count": 334,
+  "last_updated": "2025-12-22T14:16:58.164222+00:00",
+  "pending_count": 660,
+  "processed_count": 340,
   "pending_articles": [
+    {
+      "id": "f634827f56a23f649ef257f2864adeb9",
+      "url": "https://lucumr.pocoo.org/2025/12/22/a-year-of-vibes/",
+      "title": "A year of vibes",
+      "content": "<p>Article URL: <a href=\"https://lucumr.pocoo.org/2025/12/22/a-year-of-vibes/\">https://lucumr.pocoo.org/2025/12/22/a-year-of-vibes/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46352875\">https://news.ycombinator.com/item?id=46352875</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "author": "lumpa",
+      "published_date": "2025-12-22T10:19:57+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-22T13:34:45.898592+00:00",
+      "updated_at": "2025-12-22T13:34:45.898594+00:00"
+    },
     {
       "id": "9cc81995374428514335c25c05edb765",
       "url": "https://gregmckeown.com/if-you-dont-design-your-career-someone-else-will/",
@@ -146,25 +162,129 @@
       "reading_time": 1,
       "created_at": "2025-12-22T10:47:25.106695+00:00",
       "updated_at": "2025-12-22T10:47:25.106697+00:00"
+    }
+  ],
+  "recently_processed": [
+    {
+      "id": "a8199a3a87c4d4eda56eebe923889c3f",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2b0f",
+      "title": "EEG-based meditation decoding: tackling subject variability with spatial and temporal alignment",
+      "content": "Objective. Meditation and mindfulness are increasingly recognized as important in improving mental well-being. However, electroencephalography (EEG)-based neurofeedback systems supporting these practices typically fail to generalize to unseen subjects. This study investigates the application of both spatial and spectral alignment to EEG to improve the classification of meditation and rest states for new subjects without any model retraining. Approach. Two unsupervised domain adaptation techniques are employed to reduce differences between subjects in their EEG recordings. The first, Riemannian Space Data Alignment (RSDA), adjusts and brings together patterns of brain activity across electrodes (spatial domain). The second, Convolutional Monge Mapping Normalization (CMMN), aligns the distribution of brain rhythms across frequencies (spectral domain). Each method is evaluated separately, in combination, and in interaction with z-score normalization. Classification between meditation and rest is performed on the aligned time series using EEGNet, a compact convolutional neural network architecture, with leave-one-subject-out (LOSO) cross-validation to assess generalization across subjects. All experiments are based on a publicly available dataset of meditation EEG recordings from 53 subjects, including both novice and expert meditators. Main results. The combined RSDA+CMMN approach significantly improved LOSO classification accuracy (66.6%) compared to non-aligned (55.7%) and z-score normalized (59.6%) baselines, even though it did not improve overall harmonization. Spectral analysis identified consistent classification contributions from the Theta (4\u20138\u2009Hz), Alpha (8\u201314\u2009Hz), and Beta (14\u201330\u2009Hz) bands, while spatial analysis highlighted Frontopolar and Temporal regions as critical for distinguishing the mental states of meditation and rest. Significance. This work is the first to explore both spatial and spectral alignment in subject-independent meditation decoding for improved cross-subject generalization. Aligning EEG time series without retraining provides a practical solution for real-time neurofeedback, thereby reducing subject variability and paving the way toward calibration-free neurotechnology that supports mental well-being.",
+      "author": "Angeliki-Ilektra Karaiskou, Carolina Varon, Cem Ates Musluoglu, Kaat Alaerts and Maarten De Vos",
+      "published_date": "2025-12-22T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 290,
+      "reading_time": 1,
+      "created_at": "2025-12-22T13:35:11.209798+00:00",
+      "updated_at": "2025-12-22T14:16:58.055283+00:00",
+      "metadata": {
+        "processed_at": "2025-12-22T14:16:58.055294+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "e0ad553b4bf10e3820810c29109615c1",
-      "url": "https://www.ssp.sh/blog/well-being-algorithms/",
-      "title": "Well Being in Times of Algorithms",
-      "content": "<p>Article URL: <a href=\"https://www.ssp.sh/blog/well-being-algorithms/\">https://www.ssp.sh/blog/well-being-algorithms/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46352747\">https://news.ycombinator.com/item?id=46352747</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
-      "author": "articsputnik",
-      "published_date": "2025-12-22T09:58:50+00:00",
+      "id": "b5326541ae4013e7cd9bb4c5635841bd",
+      "url": "https://netrinos.com",
+      "title": "Show HN: Netrinos \u2013 A keep it simple Mesh VPN for small teams",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46331364\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-19T21:50:52+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-22T13:34:47.268827+00:00",
+      "updated_at": "2025-12-22T14:16:58.055301+00:00",
+      "metadata": {
+        "processed_at": "2025-12-22T14:16:58.055303+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "661232b3543f1cff1aaec3e54e0ba977",
+      "url": "https://carbuzz.com/bmw-roundel-logo-screw-patent/",
+      "title": "BMW Patents Proprietary Screws That Only Dealerships Can Remove",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46352459\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-22T09:13:57+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-22T13:34:47.268807+00:00",
+      "updated_at": "2025-12-22T14:16:58.055306+00:00",
+      "metadata": {
+        "processed_at": "2025-12-22T14:16:58.055308+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2b4b0788afc72bfe3a5bd193175d2b99",
+      "url": "https://dfarq.homeip.net/the-biggest-crt-ever-made-sonys-pvm-4300/",
+      "title": "The biggest CRT ever made: Sony's PVM-4300",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46353777\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-22T12:54:29+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-22T13:34:47.268767+00:00",
+      "updated_at": "2025-12-22T14:16:58.055310+00:00",
+      "metadata": {
+        "processed_at": "2025-12-22T14:16:58.055312+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a60550d82911bd0693b26539f36016ca",
+      "url": "https://diziet.dreamwidth.org/20436.html",
+      "title": "Debian's Git Transition",
+      "content": "<p>Article URL: <a href=\"https://diziet.dreamwidth.org/20436.html\">https://diziet.dreamwidth.org/20436.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46352231\">https://news.ycombinator.com/item?id=46352231</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
+      "author": "all-along",
+      "published_date": "2025-12-22T08:24:32+00:00",
+      "source": "Hacker News",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 13,
       "reading_time": 1,
-      "created_at": "2025-12-22T10:47:23.689773+00:00",
-      "updated_at": "2025-12-22T10:47:23.689781+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2025-12-22T13:34:45.898747+00:00",
+      "updated_at": "2025-12-22T14:16:58.055314+00:00",
+      "metadata": {
+        "processed_at": "2025-12-22T14:16:58.055315+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "661232b3543f1cff1aaec3e54e0ba977",
+      "url": "https://carbuzz.com/bmw-roundel-logo-screw-patent/",
+      "title": "BMW Patents Proprietary Screws That Only Dealerships Can Remove",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46352459\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-22T09:13:57+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-22T13:34:47.268807+00:00",
+      "updated_at": "2025-12-22T14:16:58.055306+00:00",
+      "metadata": {
+        "processed_at": "2025-12-22T14:16:58.055308+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "85c5f4178ba86329bbaaaf1bc2627c68",
       "url": "https://www.worldsbacklog.com/",
@@ -242,126 +362,6 @@
       "updated_at": "2025-12-22T12:33:09.203208+00:00",
       "metadata": {
         "processed_at": "2025-12-22T12:33:09.203210+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "364a51804208d21ae394238b0a5194d0",
-      "url": "https://www.nature.com/articles/s41593-025-02101-2",
-      "title": "Axonal Eif5a hypusination controls local translation and mitigates defects in FUS-ALS",
-      "content": "<p>Nature Neuroscience, Published online: 22 December 2025; <a href=\"https://www.nature.com/articles/s41593-025-02101-2\">doi:10.1038/s41593-025-02101-2</a></p>Piol et al. uncover that impaired eukaryotic initiation factor 5a (Eif5a) hypusination disrupts axonal translation and neuronal activity in fused in sarcoma-amyotrophic lateral sclerosis (FUS-ALS) by applying spatial transcriptomics in motor axons. In vitro and in vivo targeting Eif5a hypusination via spermidine supplementation improves ALS model phenotypes.",
-      "author": "Sandrine Da Cruz",
-      "published_date": "2025-12-22T00:00:00+00:00",
-      "source": "Nature Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 55,
-      "reading_time": 1,
-      "created_at": "2025-12-22T11:20:05.651530+00:00",
-      "updated_at": "2025-12-22T12:33:09.203212+00:00",
-      "metadata": {
-        "processed_at": "2025-12-22T12:33:09.203213+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9b9b9688b1b7ad0daae0d07393c16aad",
-      "url": "http://ieeexplore.ieee.org/document/11245797",
-      "title": "Front Cover",
-      "content": "null",
-      "author": "",
-      "published_date": "2025-11-13T13:16:42+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1,
-      "reading_time": 1,
-      "created_at": "2025-12-22T09:53:07.021024+00:00",
-      "updated_at": "2025-12-22T10:18:14.861310+00:00",
-      "metadata": {
-        "processed_at": "2025-12-22T10:18:14.861321+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "dffeccb3f834f22c820af1868391bd17",
-      "url": "https://www.bbc.com/culture/article/20251219-the-ancient-monuments-saluting-the-winter-solstice",
-      "title": "The ancient monuments saluting the winter solstice",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46352565\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-22T09:30:58+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-22T09:52:09.969540+00:00",
-      "updated_at": "2025-12-22T10:18:14.861325+00:00",
-      "metadata": {
-        "processed_at": "2025-12-22T10:18:14.861327+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "dffeccb3f834f22c820af1868391bd17",
-      "url": "https://www.bbc.com/culture/article/20251219-the-ancient-monuments-saluting-the-winter-solstice",
-      "title": "The ancient monuments saluting the winter solstice",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46352565\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-22T09:30:58+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-22T09:52:09.969540+00:00",
-      "updated_at": "2025-12-22T10:18:14.861325+00:00",
-      "metadata": {
-        "processed_at": "2025-12-22T10:18:14.861327+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5bd71184fcb728dd4076083b5640c04e",
-      "url": "https://www.nature.com/articles/s41598-025-30734-7",
-      "title": "Bridging pleiotropic mechanisms in leprosy type-1 reactions and neurodegenerative diseases",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-22T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-22T09:30:17.830041+00:00",
-      "updated_at": "2025-12-22T10:18:14.861334+00:00",
-      "metadata": {
-        "processed_at": "2025-12-22T10:18:14.861335+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6a9b46722c4605e95356080b0252238b",
-      "url": "https://www.nature.com/articles/s42003-025-09366-0",
-      "title": "Longitudinal human transcriptomic and spatial gene profiling at the incisional edge during long surgical procedures",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-22T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-22T09:30:17.829988+00:00",
-      "updated_at": "2025-12-22T10:18:14.861338+00:00",
-      "metadata": {
-        "processed_at": "2025-12-22T10:18:14.861339+00:00",
         "processing_method": "github_actions"
       }
     }
