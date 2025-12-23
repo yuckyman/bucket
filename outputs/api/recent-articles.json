@@ -1,7 +1,55 @@
 {
-  "last_updated": "2025-12-23T16:55:16.432888+00:00",
+  "last_updated": "2025-12-23T17:22:39.603268+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "b1cdce7f5e061a4ca5bf268adc4e71f2",
+      "url": "http://doi.org/10.1037/bne0000629",
+      "title": "Patterns of prefrontal cortical activity associated with attention-demanding and motor aspects of dual-task walking as measured with functional near-infrared spectroscopy.",
+      "content": "The ability to engage in everyday tasks, such as walking, requires the integration of cognitive and motor processes. How these processes integrate may be discernable through the relation of brain activity patterns to behavioral performance, particularly in the prefrontal cortex (PFC), examination of which has been restricted because of the limitations in experimental design. We related behavior (cognition, walking) to brain activity, as measured by functional near-infrared spectroscopy, under dual-task conditions (cognition while walking) in healthy young adults. Our probe design enabled us to examine eight regions of interest across PFC and motor cortex to identify key areas related to behavior. Healthy young adults (N = 19) engaged in standing cognition (Serial 3 subtraction), single-task walking, and dual-task walking. We used functional near-infrared spectroscopy to identify regions associated with increases or decreases in activity under dual-task relative to the other conditions. We observed differences in brain activity patterns by task across multiple regions of interest, mostly in PFC. Specifically, more lateral regions were related to attention-demanding tasks, whereas motor tasks were related to relatively medial regions. Our results relate behavior to brain activity, as measured by functional near-infrared spectroscopy, under dual-task conditions. Our finding of relatively lateral PFC activity during attention-demanding tasks provides insights into behavioral and brain processes during experimental analogues of everyday activity, bringing us closer to understanding behavior-brain relations in the real world. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2025-09-01T00:00:00+00:00",
+      "source": "Behavioral Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 235,
+      "reading_time": 1,
+      "created_at": "2025-12-23T17:21:38.042719+00:00",
+      "updated_at": "2025-12-23T17:21:38.042723+00:00"
+    },
+    {
+      "id": "98738c175114f372cd7deaeb64145720",
+      "url": "https://astroimagery.com/techniques/imaging/astrophotography-target-planner/",
+      "title": "Astrophotography Target Planner: Discover Hidden Nebulas",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46330012\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-19T19:44:41+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-23T17:21:33.565182+00:00",
+      "updated_at": "2025-12-23T17:21:33.565183+00:00"
+    },
+    {
+      "id": "23a96a2a2c038884db3681a5ba667d30",
+      "url": "https://yapi.run/blog/what-is-yapi",
+      "title": "Show HN: Yapi \u2013 FOSS terminal API client for power users",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46352350\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-22T08:49:47+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-23T17:21:33.565163+00:00",
+      "updated_at": "2025-12-23T17:21:33.565164+00:00"
+    },
     {
       "id": "e1385798428586a67ced89a895faeb47",
       "url": "https://erpinfo.org/blog/2024/6/10/erp-core-decoding-paper",
@@ -305,62 +353,6 @@
         "processed_at": "2025-12-23T14:16:49.739882+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "cce4d30e1d2374e23b4330c69793d7c8",
-      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2ba7",
-      "title": "An augmented preference-based Bayesian approach for optimizing neuromodulation stimulation parameters using meta learning",
-      "content": "Background. Electrical neuromodulation is increasingly used in the treatment of neurological disorders; however, the selection of stimulation parameters that provide optimal therapeutic benefits remains a major challenge. Moreover, identifying pathological biomarkers linking the effect of stimulation parameters to alleviating symptoms, and hence required for optimizing stimulation parameters, might not always be possible. Objective. We present an augmented, preference-based Bayesian optimization algorithm to optimize stimulation parameters for participants undergoing neuromodulation. This algorithm incorporates two key features: I) It prioritizes the participant\u2019s preferences for stimulation parameters, making it independent of the need for pathological biomarkers. II) It leverages meta learning, using historical participant data to guide the initial optimization for new participants and overcome initial data sparsity. This approach improves both prediction accuracy and convergence speed. Approach. Consider preference training data collected from a set of historical participants who share the same neurological disorder as a new (target) participant. Within that population, there may be different response phenotypes. The goal is to identify historical participants whose stimulation-response phenotype is most similar to the target participant, and leverage their data to accelerate and improve parameter optimization for the target participant. To achieve this, the algorithm iteratively performs a two-step process:(I) a novel, iterative weighting procedure that identifies historical participants with stimulation preferences closest to the target participant, and (II) meta learning that combines the training data of the identified participants with the limited training data of the target participant to train novel, augmented preference learning models. These models are then used to predict the stimulation parameters expected to maximize the target participant\u2019s preference. Mainresults. The proposed algorithm has been validated using synthetically generated data sets that simulate participant preference behavior during neuromodulation. Significance. This approach holds promise for improving personalized neuromodulation therapies and advancing treatment outcomes for neurological disorders without the need for a tedious data collection process and disease-specific pathological biomarkers.",
-      "author": "Hafsa Farooqi, Zixi Zhao, David Darrow, Andrew Lamperski and Th\u00e9oden I Netoff",
-      "published_date": "2025-12-23T00:00:00+00:00",
-      "source": "Journal Neural Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 309,
-      "reading_time": 1,
-      "created_at": "2025-12-23T13:36:54.891592+00:00",
-      "updated_at": "2025-12-23T14:16:49.739884+00:00",
-      "metadata": {
-        "processed_at": "2025-12-23T14:16:49.739886+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d836f968e21b6822df4a3de929edb8df",
-      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2954",
-      "title": "STeCANet: spatio-temporal cross attention network for brain computer interface systems using EEG-fNIRS signals",
-      "content": "Objective. Multimodal neuroimaging fusion has shown promise in enhancing brain\u2013computer interface (BCI) performance by capturing complementary neural dynamics. However, most existing fusion frameworks inadequately model the temporal asynchrony and adaptive fusion between electroencephalography (EEG) and functional near-infrared spectroscopy (fNIRS), thereby limiting their ability to generalize across sessions and subjects. This work aims to develop an adaptive fusion framework that effectively aligns and integrates EEG and fNIRS representations to improve cross-session and cross-subject generalization in BCI applications. Approach. To address this, we propose STeCANet, a novel Spatiotemporal Cross-Attention Network that integrates EEG and fNIRS signals through hierarchical attention-based alignment. The model leverages fNIRS-guided spatial attention, EEG-fNIRS temporal alignment, adaptive fusion, and adversarial training to ensure robust cross-modal interaction and spatiotemporal consistency. Main results. Evaluations across three cognitive paradigms, namely motor imagery, mental arithmetic, and word generation, demonstrate that STeCANet significantly outperforms unimodal and recent multimodal baselines under both session-independent and subject-independent settings. Ablation studies confirm the contribution of each sub-module and loss function, including the domain adaptation component, in boosting classification accuracy and robustness. Significance. These results suggest that STeCANet offers a robust and interpretable solution for next-generation BCI applications.",
-      "author": "Mohd Faisal, Sudarsan Sahoo and Jupitara Hazarika",
-      "published_date": "2025-12-23T00:00:00+00:00",
-      "source": "Journal Neural Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 189,
-      "reading_time": 1,
-      "created_at": "2025-12-23T13:36:54.891543+00:00",
-      "updated_at": "2025-12-23T16:21:13.349594+00:00",
-      "metadata": {
-        "processed_at": "2025-12-23T16:21:13.349595+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ae53fcc693742b2fa8226a65e47fced5",
-      "url": "https://github.com/pytorch/executorch",
-      "title": "Executorch: On-device AI across mobile, embedded and edge for PyTorch",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46312621\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-18T13:51:11+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-23T13:36:32.448576+00:00",
-      "updated_at": "2025-12-23T13:36:32.448577+00:00"
     }
   ]
 }
