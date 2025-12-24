@@ -1,5 +1,37 @@
 [
   {
+    "id": "ab4c3d63daed430cad03bc37b5ff57b8",
+    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae220d",
+    "title": "Enhancing SSVEP-BCI performance through multi-stimulus discriminant fusion analysis",
+    "content": "Objective. To enhance frequency recognition in steady-state visual evoked potential (SSVEP)-based brain\u2013computer interfaces (BCIs), particularly under short data acquisition and complex environmental conditions. Approach. We propose multi-stimulus discriminant fusion analysis (MSDFA), a novel method that integrates multi-stimulus strategies with discriminant modeling. MSDFA was evaluated on two public datasets (Benchmark and BETA) and compared with conventional approaches including eCCA, eTRCA, and their variants. Main results. MSDFA consistently outperformed existing methods across different data lengths and training block quantities. It achieved maximum information transfer rates of 247.17\u2009\u00b1\u200910.15\u2009bpm on the Benchmark dataset and 192.72\u2009\u00b1\u20099.44\u2009bpm on the BETA dataset, demonstrating superior robustness and efficiency. Significance. By combining complementary algorithmic strengths, MSDFA improves adaptability to individual variability and complex environments, advancing the practical utility and reliability of SSVEP-BCI systems.",
+    "author": "Senmiao Fang, Xi zhao, Zhenyu Wang, Yuan Si, Haifeng Liu, Honglin Hu, Tianheng Xu and Ting Zhou",
+    "published_date": "2025-12-24T00:00:00+00:00",
+    "source": "Journal Neural Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 130,
+    "reading_time": 1,
+    "created_at": "2025-12-24T09:26:21.484043+00:00",
+    "updated_at": "2025-12-24T09:26:21.484047+00:00"
+  },
+  {
+    "id": "e7929c4e68b635bb5bd9963201a18631",
+    "url": "https://github.com/tonbo-io/tonbo",
+    "title": "Show HN: Tonbo \u2013 an embedded database for serverless and edge runtimes",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46303638\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-17T18:41:40+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-24T09:25:58.594150+00:00",
+    "updated_at": "2025-12-24T09:25:58.594152+00:00"
+  },
+  {
     "id": "91f6c782e21b9da934fcd29f01d2dfa0",
     "url": "https://www.embs.org/featured-news/welcoming-congratulating-our-newly-elected-embs-excom-members/",
     "title": "Welcoming & Congratulating Our Newly Elected EMBS ExCom Members",
@@ -17266,37 +17298,5 @@
     "reading_time": 1,
     "created_at": "2025-12-19T05:23:34.668874+00:00",
     "updated_at": "2025-12-19T05:23:34.668878+00:00"
-  },
-  {
-    "id": "b6369e8785c5354d13270cea90bd3a02",
-    "url": "https://www.biorxiv.org/content/10.64898/2025.12.16.694702v1?rss=1",
-    "title": "STING_IFN_CH25H lipid axis links innate immune activation to tau pathology",
-    "content": "Genetic risk for Alzheimers disease is strongly enriched in pathways governing microglial activation and cholesterol metabolism, yet how these processes converge to drive neurodegeneration remains unclear. Here, we identify the oxysterol 25_hydroxycholesterol (25_HC) as a pathogenic lipid downstream of the cGAS_STING_IFN pathway. In models of tau pathology, interferon signaling induces Cholesterol 25_hydroxylase (CH25H) expression in microglia. Ch25h deletion in female P301S mice suppressed tau aggregation, preserved synapses, prevented brain atrophy, and rescued memory. Mechanistically, loss of CH25H disrupted STING trafficking, attenuated IFN activation, dampened self-perpetuating microglial inflammation. Strikingly, 25_HC directly accelerated tau propagation in human iPSC derived neurons. It also disrupted lysosomal and mitochondrial lipid composition, driving cholesteryl ester accumulation and promoting apoptosis under tau-induced stress. These findings define a STING_IFN_CH25H lipid axis that bridges innate immune activation to tau pathology and toxicity, offering a tractable therapeutic pathway for inflammation-driven neurodegenerative conditions.",
-    "author": "Chen, H., Fan, L., Wong, M. Y., A. Ambaw, Y., Zhu, J., Norman, K., Ye, P., Foxe, N., Zhu, D., Wan, Y., Srinivasan, M., Mok, S.-A., McIntire, L. B. J., Walther, T. C., Farese, R. V., Gan, L., Luo, W.",
-    "published_date": "2025-12-18T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 142,
-    "reading_time": 1,
-    "created_at": "2025-12-19T05:23:26.006241+00:00",
-    "updated_at": "2025-12-19T05:23:26.006242+00:00"
-  },
-  {
-    "id": "aa4d071ebcd00ddb6e984d4326796302",
-    "url": "https://www.biorxiv.org/content/10.64898/2025.12.16.694208v1?rss=1",
-    "title": "Phase diversity improves retinal image quality in adaptive optics scanning light ophthalmoscopy",
-    "content": "The quality of retinal images is compromised by aberrations that remain uncorrected even in confocal adaptive optics imaging. This study demonstrates phase diversity (PD), a computational imaging technique, to address residual aberrations and enhance image quality in adaptive optics scanning laser ophthalmoscopy (AOSLO). By using images of the same object obtained with and without deliberately added aberrations, PD computes and compensates for the effects of existing residual aberrations beyond those corrected by a closed-loop AO system. Experimental validation demonstrates that PD improves visualization of retinal microstructures, including cone mosaics and dendrites of fluorescently labeled retinal ganglion cells (RGCs).",
-    "author": "Cai, Y. N., Druszkiewicz, E., Patterson, S. S., Parkins, K., McGregor, J. E., William, M. H., Fienup, J. R., Williams, D. R.",
-    "published_date": "2025-12-18T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 98,
-    "reading_time": 1,
-    "created_at": "2025-12-19T05:23:26.006208+00:00",
-    "updated_at": "2025-12-19T05:23:26.006210+00:00"
   }
 ]
