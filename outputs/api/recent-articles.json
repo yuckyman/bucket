@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-24T23:21:44.057939+00:00",
+  "last_updated": "2025-12-24T23:42:21.121524+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "dfefe79b1f3514902d0681ca79e78183",
+      "url": "https://erpinfo.org/blog/2025/12/19/sme-now-available-in-bva-and-mne-python",
+      "title": "Standardized Measurement Error now available in BrainVision Analyzer and MNE-Python",
+      "content": "<p class=\"\">A few years ago, we developed a universal metric of data quality for averaged ERPs called the standardized measurement error (<a href=\"https://erpinfo.org/blog/2020/4/28/data-quality\">click here</a> for more information). It has been available in ERPLAB for several years, and I\u2019m happy to announce that it is now available in BrainVision Analyzer 2.3.1 and in MNE-Python.</p><p class=\"\">For BrainVision Analyzer, it is available as a Solution. At this point, you need to request it from Brain Products.<a href=\"https://pressrelease.brainproducts.com/analyzer231/#04\"> Click here</a> and scroll down to the last part of the page for more information.</p><p class=\"\">For MNE-Python, it is accessed with the mne.stats.erp.compute_sme() function. <a href=\"https://mne.tools/1.8/generated/mne.stats.erp.compute_sme.html\">Click here</a> for details.</p><p class=\"\">If you want to see some examples of how this metric can be used, check out these recent papers:</p><ul><li><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (2024a). Optimal filters for ERP research I: A general approach for selecting filter settings. <em>Psychophysiology, 61, </em>e14531. <a href=\"http://doi.org/10.1111/psyp.14531\">http://doi.org/10.1111/psyp.14531</a> [<a href=\"https://www.researchgate.net/publication/377773270_Optimal_filters_for_ERP_research_I_A_general_approach_for_selecting_filter_settings\" target=\"_blank\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (2024b). Optimal filters for ERP research II: Recommended settings for seven common ERP components. <em>Psychophysiology, 61, </em>e14530. <a href=\"https://doi.org/10.1111/psyp.14530\">https://doi.org/10.1111/psyp.14530</a> [<a href=\"https://www.researchgate.net/publication/377766656_Optimal_filters_for_ERP_research_II_Recommended_settings_for_seven_common_ERP_components\" target=\"_blank\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., Garrett, D. R., Simmons, A. M., Kiat, J. E., &amp; Luck, S. J. (2024). Evaluating the effectiveness of artifact correction and rejection in event-related potential research. Psychophysiology, 61, e14511. <a href=\"https://doi.org/10.1111/psyp.14511\">https://doi.org/10.1111/psyp.14511</a> [<a href=\"https://doi.org/10.1101/2023.09.16.558075\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., &amp; Luck, S. J. (2023). Variations in ERP data quality across paradigms, participants, and scoring procedures. <em>Psychophysiology, 60,</em> e14264. <a href=\"http://doi.org/10.1111/psyp.14264\">http://doi.org/10.1111/psyp.14264</a> [<a href=\"https://www.biorxiv.org/content/10.1101/2022.08.22.504647v2.full.pdf\">preprint</a>]</p></li></ul>",
+      "author": "Steve Luck",
+      "published_date": "2025-12-19T18:20:27+00:00",
+      "source": "Erp Boot Camp",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 244,
+      "reading_time": 1,
+      "created_at": "2025-12-24T23:42:12.662327+00:00",
+      "updated_at": "2025-12-24T23:42:12.662331+00:00"
+    },
+    {
+      "id": "e27e50789a36c19342054f312ffd25a8",
+      "url": "https://news.mcmaster.ca/mcmaster-research-team-digitizes-more-than-100-years-of-canadian-infectious-disease-data/",
+      "title": "Research team digitizes more than 100 years of Canadian infectious disease data",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46322815\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-19T06:24:52+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-24T23:41:09.731351+00:00",
+      "updated_at": "2025-12-24T23:41:09.731353+00:00"
+    },
     {
       "id": "feec13f2ef04f09fca3aa6cd3f9967ed",
       "url": "https://git.dec05eba.com/phoenix/about/",
@@ -309,38 +341,6 @@
         "processed_at": "2025-12-24T22:16:00.900994+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "2e0292e3c74dd2e476382dbcd89c63ee",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695982v1?rss=1",
-      "title": "Coordinated infraslow cortical oscillations of neuromodulators during NREM sleep",
-      "content": "Neurotransmitters and neuromodulators regulate brain states through diverse mechanisms, yet how their activities are coordinated during sleep remains unresolved. Using in vivo fiber photometry in adult mice expressing genetically encoded fluorescent biosensors, combined with EEG/EMG recordings, we investigated the temporal organization of multiple neuromodulators during sleep in barrel cortex, with norepinephrine (NE) as a reference signal. All five neuromodulators examined, acetylcholine, serotonin, dopamine, histamine, and NE, exhibited synchronized infraslow cortical oscillations during NREM sleep. Optogenetic suppression of locus coeruleus (LC) neurons abolished NE oscillations and selectively reduced acetylcholine fluctuations in barrel cortex, whereas targeted inhibition of basal forebrain cholinergic neurons attenuated REM-associated acetylcholine elevations without disrupting NREM-related oscillations or NE dynamics. The synchronized infraslow cortical oscillations spanning multiple neuromodulators reveal a previously unrecognized mechanism for organizing sleep architecture.",
-      "author": "Kjaerby, C., Radovanovic, T., Kovacs, E. R., Bojarowska, Z., Tokarska, K. A., Tsopanidou, A., Nielsen, E. S., Andersen, M., Li, Y., Weikop, P., Untiet, V., Nedergaard, M.",
-      "published_date": "2025-12-24T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 128,
-      "reading_time": 1,
-      "created_at": "2025-12-24T21:20:22.994179+00:00",
-      "updated_at": "2025-12-24T21:20:22.994181+00:00"
-    },
-    {
-      "id": "33a34c45654cecaea93a46403e628441",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.22.695316v1?rss=1",
-      "title": "Constitutive DREADD signalling modulates oligodendrocyte precursor cell bioelectrical membrane properties and fate",
-      "content": "Oligodendrocyte precursor cells (OPCs) are small cells in the central nervous system that proliferate and differentiate into myelinating oligodendrocytes throughout life, allowing for myelin plasticity and repair. G protein-coupled neuromodulator receptors can regulate OPC fate, but the role of individual G protein families is unclear. Here, we use chemogenetics to directly investigate the role of Gq and Gi proteins in OPC fate. We find that expressing the DREADDs (Designer Receptors Exclusively Activated by Designer Drugs) hM3Dq or hM4Di in OPCs without activating them with designer agonists induces constitutive G protein signalling, which alters bioelectrical membrane properties such as voltage-gated ion channels and glutamate receptors in OPCs. Further, we find that hM3Dq or hM4Di expression alone modulates OPC fate, increasing or decreasing differentiation, respectively, suggesting that directly targeting G protein signalling can be used to bidirectionally regulate differentiation. Importantly, our data raise a note of caution regarding the use of DREADDs in both excitable and non-excitable small cells.",
-      "author": "Kamen, Y., Vagionitis, S., de Faria, O., Karadottir, R. T.",
-      "published_date": "2025-12-24T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 157,
-      "reading_time": 1,
-      "created_at": "2025-12-24T21:20:22.994140+00:00",
-      "updated_at": "2025-12-24T21:20:22.994145+00:00"
     }
   ]
 }
