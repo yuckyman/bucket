@@ -1,24 +1,8 @@
 {
-  "last_updated": "2025-12-25T12:32:12.525584+00:00",
-  "pending_count": 669,
-  "processed_count": 331,
+  "last_updated": "2025-12-25T14:15:31.659028+00:00",
+  "pending_count": 667,
+  "processed_count": 333,
   "pending_articles": [
-    {
-      "id": "31d217014d1a7b90fc15f3f0ece6db35",
-      "url": "https://www.embs.org/featured-news/welcoming-the-newly-elected-embs-adcom-members-for-2026-2028/",
-      "title": "Welcoming the Newly Elected EMBS AdCom Members for 2026\u20132028",
-      "content": "<p>The post <a href=\"https://www.embs.org/featured-news/welcoming-the-newly-elected-embs-adcom-members-for-2026-2028/\">Welcoming the Newly Elected EMBS AdCom Members for 2026\u20132028</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "dziura",
-      "published_date": "2025-12-10T21:01:57+00:00",
-      "source": "Embs",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 18,
-      "reading_time": 1,
-      "created_at": "2025-12-25T10:47:36.436027+00:00",
-      "updated_at": "2025-12-25T10:47:36.436028+00:00"
-    },
     {
       "id": "3615eb4f5d1693ab42489c9aa6c1b740",
       "url": "http://doi.org/10.1037/neu0001024",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2025-12-25T05:27:40.938651+00:00",
       "updated_at": "2025-12-25T05:27:40.938653+00:00"
+    },
+    {
+      "id": "514b9621ebca6fc7f5557417e2312150",
+      "url": "https://arxiv.org/abs/2507.11783",
+      "title": "EEG Foundation Models: A Critical Review of Current Progress and Future Directions",
+      "content": "arXiv:2507.11783v3 Announce Type: replace-cross \nAbstract: Premise. Patterns of electrical brain activity recorded via electroencephalography (EEG) offer immense value for scientific and clinical investigations. The inability of supervised EEG encoders to learn robust EEG patterns and their over-reliance on expensive signal annotations have sparked a transition towards general-purpose self-supervised EEG encoders, i.e., EEG foundation models (EEG-FMs), for robust and scalable EEG feature extraction. However, the real-world readiness of early EEG-FMs and the rubrics for long-term research progress remain unclear. Objective. In this work, we conduct a review of ten early EEG-FMs to capture common trends and identify key directions for future development of EEG-FMs. Methods. We comparatively analyze each EEG-FM using three fundamental pillars of foundation modeling, namely the representation of input data, self-supervised modeling, and the evaluation strategy. Based on this analysis, we present a critical synthesis of EEG-FM methodology, empirical findings, and outstanding research gaps. Results. We find that most EEG-FMs adopt a sequence-based modeling scheme that relies on transformer-based backbones and the reconstruction of masked temporal EEG sequences for self-supervision. However, model evaluations remain heterogeneous and largely limited, making it challenging to assess their practical off-the-shelf utility. In addition to adopting standardized and realistic evaluations, future work should demonstrate more substantial scaling effects and make principled and trustworthy choices throughout the EEG representation learning pipeline. Significance. Our review indicates that the development of benchmarks, software tools, technical methodologies, and applications in collaboration with domain experts may advance the translational utility and real-world adoption of EEG-FMs.",
+      "author": "Gayal Kuruppu, Neeraj Wagh, Vaclav Kremen, Sandipan Pati, Gregory Worrell, Yogatheesan Varatharajah",
+      "published_date": "2025-12-25T05:00:00+00:00",
+      "source": "Arxiv Qbio Nc",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 247,
+      "reading_time": 1,
+      "created_at": "2025-12-25T05:27:40.938624+00:00",
+      "updated_at": "2025-12-25T05:27:40.938625+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "5d49304b30e3f1cca1ea313fc654375e",
+      "url": "https://www.embs.org/uncategorized/call-for-adcom-nominations/",
+      "title": "Open Call for AdCom Nominations",
+      "content": "<p>The post <a href=\"https://www.embs.org/uncategorized/call-for-adcom-nominations/\">Open Call for AdCom Nominations</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
+      "author": "Nancy Zimmerman",
+      "published_date": "2025-05-02T17:09:21+00:00",
+      "source": "Embs",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 14,
+      "reading_time": 1,
+      "created_at": "2025-12-25T13:33:50.251639+00:00",
+      "updated_at": "2025-12-25T14:15:31.549903+00:00",
+      "metadata": {
+        "processed_at": "2025-12-25T14:15:31.549911+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "19b00e0fe41ad642fb094cc9f4f8d447",
+      "url": "https://possiblywrong.wordpress.com/2020/12/10/the-fisher-yates-shuffle-is-backward/",
+      "title": "The Fisher-Yates shuffle is backward",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46336364\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-20T14:17:13+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-25T13:32:55.279487+00:00",
+      "updated_at": "2025-12-25T14:15:31.549916+00:00",
+      "metadata": {
+        "processed_at": "2025-12-25T14:15:31.549918+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "7559256faaa91118f7ea8c18bcb1a142",
+      "url": "https://github.com/mattermost/mattermost/issues/34271",
+      "title": "Mattermost restricted access to old messages after 10000 limit is reached",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46383675\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-25T11:03:59+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-25T12:43:28.955957+00:00",
+      "updated_at": "2025-12-25T14:15:31.549920+00:00",
+      "metadata": {
+        "processed_at": "2025-12-25T14:15:31.549922+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "7559256faaa91118f7ea8c18bcb1a142",
+      "url": "https://github.com/mattermost/mattermost/issues/34271",
+      "title": "Mattermost restricted access to old messages after 10000 limit is reached",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46383675\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-25T11:03:59+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-25T12:43:28.955957+00:00",
+      "updated_at": "2025-12-25T14:15:31.549920+00:00",
+      "metadata": {
+        "processed_at": "2025-12-25T14:15:31.549922+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "3727d0ebc34094cb889f4f09a3e22f0e",
       "url": "https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/",
@@ -226,26 +306,6 @@
       }
     },
     {
-      "id": "ee445bf6ea1ef84975aeebf9c235349d",
-      "url": "https://algassert.com/post/2503",
-      "title": "Quantum Error Correction Goes FOOM",
-      "content": "<p>Article URL: <a href=\"https://algassert.com/post/2503\">https://algassert.com/post/2503</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46383233\">https://news.ycombinator.com/item?id=46383233</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-      "author": "EvgeniyZh",
-      "published_date": "2025-12-25T09:18:15+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-25T11:19:05.300571+00:00",
-      "updated_at": "2025-12-25T12:32:12.422017+00:00",
-      "metadata": {
-        "processed_at": "2025-12-25T12:32:12.422019+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "27fd033de7aa8dde703245a914660924",
       "url": "https://www.bbc.co.uk/news/articles/cdxwllqz1l0o",
       "title": "We invited a man into our home at Christmas and he stayed with us for 45 years",
@@ -266,102 +326,42 @@
       }
     },
     {
-      "id": "4c594941f78e9dc192b8919875d49d5a",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006961?dgcid=rss_sd_all",
-      "title": "Molecular and neurochemical underpinnings of altered intrinsic neural timescales in Parkinson\u2019s disease: a multimodal imaging and transcriptomics study",
-      "content": "<p>Publication date: 15 February 2026</p><p><b>Source:</b> Brain Research, Volume 1873</p><p>Author(s): Zhi Wen, Yuan-Zhi He, Zhan-Xiang Hu, Xin Huang, Bao-jun Xie</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 19,
-      "reading_time": 1,
-      "created_at": "2025-12-25T09:45:33.978895+00:00",
-      "updated_at": "2025-12-25T10:17:29.548740+00:00",
-      "metadata": {
-        "processed_at": "2025-12-25T10:17:29.548748+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6ab3207cce0831051f36fb8bf50594de",
-      "url": "http://doi.org/10.1037/neu0001029",
-      "title": "Updating the Mattis Dementia Rating Scale to <em>DSM-5</em>-TR/<em>ICD-11</em>: A new item-division based on the current neurocognitive domains.",
-      "content": "Objective: The Mattis Dementia Rating Scale (DRS), a widely used cognitive assessment tool, has been revised to align with contemporary diagnostic criteria and cognitive domain classifications such as those outlined in <em>Diagnostic Statistical Manual for Mental Disorders</em>, fifth edition\u2013text revision (DSM-5-TR) and <em>eleventh version of the International Classification of Diseases (ICD-11).</em> This study proposed a reorganization of DRS items into five new subscales based on cognitive domains of those classificatory manuals, aiming to enhance its construct validity and clinical utility. Method: The DRS and other neuropsychological tests were used for the assessment of 407 older adults with low formal education and heterogeneous cognitive backgrounds. We used confirmatory factor analysis to test different arrangements of DRS items and correlated the final model with other neuropsychological tests. Results: Our final model (following the <em>DSM-5-TR/ICD-11</em> cognitive domains) showed better model fit in multiple indexes when compared with the original DRS subscales. They showed significant correlation with specific neuropsychological tests corresponding to their respective cognitive domains, supporting its validity. Group comparisons across cognitive impairment levels (cognitively unimpaired, mild neurocognitive disorder, major neurocognitive disorder) revealed progressive cognitive decline patterns consistent with clinical expectations. Conclusions: The proposed DRS item division based in <em>DSM-5-TR</em> and<em> ICD-11</em> cognitive domains showed more consistent evidences of validity than the original. The proposed revision can use the original DRS subtests and scoring system, just reorganizing the subscales to better fit the <em>DSM-5-TR/ICD-11</em> model and can in any translation/local version of the test. Further research is needed to replicate this findings and establish normative values and cutoff scores for clinical application. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-09-15T00:00:00+00:00",
-      "source": "Neuropsychology",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 268,
-      "reading_time": 1,
-      "created_at": "2025-12-25T07:22:59.717792+00:00",
-      "updated_at": "2025-12-25T08:22:20.801843+00:00",
-      "metadata": {
-        "processed_at": "2025-12-25T08:22:20.801853+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "052fdd4c6e19ae135fe1f440ead05fd6",
-      "url": "https://www.fsf.org/news/free-software-foundation-receives-historic-private-donations",
-      "title": "Free Software Foundation receives historic private donations",
-      "content": "<p>Article URL: <a href=\"https://www.fsf.org/news/free-software-foundation-receives-historic-private-donations\">https://www.fsf.org/news/free-software-foundation-receives-historic-private-donations</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46382134\">https://news.ycombinator.com/item?id=46382134</a></p>\n<p>Points: 23</p>\n<p># Comments: 1</p>",
-      "author": "pentagrama",
-      "published_date": "2025-12-25T04:47:38+00:00",
+      "id": "ee445bf6ea1ef84975aeebf9c235349d",
+      "url": "https://algassert.com/post/2503",
+      "title": "Quantum Error Correction Goes FOOM",
+      "content": "<p>Article URL: <a href=\"https://algassert.com/post/2503\">https://algassert.com/post/2503</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46383233\">https://news.ycombinator.com/item?id=46383233</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "EvgeniyZh",
+      "published_date": "2025-12-25T09:18:15+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 13,
       "reading_time": 1,
-      "created_at": "2025-12-25T07:22:51.541633+00:00",
-      "updated_at": "2025-12-25T08:22:20.801857+00:00",
+      "created_at": "2025-12-25T11:19:05.300571+00:00",
+      "updated_at": "2025-12-25T12:32:12.422017+00:00",
       "metadata": {
-        "processed_at": "2025-12-25T08:22:20.801859+00:00",
+        "processed_at": "2025-12-25T12:32:12.422019+00:00",
         "processing_method": "github_actions"
       }
     },
     {
-      "id": "f28537c10f4ef1b8dad83864441a8acf",
-      "url": "https://news.ycombinator.com/item?id=46381896",
-      "title": "The subtle Red of HN and so minimalist and beautiful",
-      "content": "<p>Merry Xmas everyone.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46381896\">https://news.ycombinator.com/item?id=46381896</a></p>\n<p>Points: 12</p>\n<p># Comments: 2</p>",
-      "author": "kinj28",
-      "published_date": "2025-12-25T03:48:20+00:00",
-      "source": "Hacker News",
+      "id": "31d217014d1a7b90fc15f3f0ece6db35",
+      "url": "https://www.embs.org/featured-news/welcoming-the-newly-elected-embs-adcom-members-for-2026-2028/",
+      "title": "Welcoming the Newly Elected EMBS AdCom Members for 2026\u20132028",
+      "content": "<p>The post <a href=\"https://www.embs.org/featured-news/welcoming-the-newly-elected-embs-adcom-members-for-2026-2028/\">Welcoming the Newly Elected EMBS AdCom Members for 2026\u20132028</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
+      "author": "dziura",
+      "published_date": "2025-12-10T21:01:57+00:00",
+      "source": "Embs",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 14,
+      "word_count": 18,
       "reading_time": 1,
-      "created_at": "2025-12-25T06:35:08.535288+00:00",
-      "updated_at": "2025-12-25T08:22:20.801861+00:00",
+      "created_at": "2025-12-25T10:47:36.436027+00:00",
+      "updated_at": "2025-12-25T14:15:31.549929+00:00",
       "metadata": {
-        "processed_at": "2025-12-25T08:22:20.801863+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "01749a8ddc23a0bf4312d50999f964ce",
-      "url": "http://doi.org/10.1037/neu0001018",
-      "title": "Inhibitory control underpins the relationship between cognitive and psychological inflexibility after a moderate to severe traumatic brain injury.",
-      "content": "Objective: Cognitive flexibility is proposed as being one \u201cbuilding block\u201d of psychological inflexibility/flexibility, yet empirical studies examining these associations are scarce. This study aims to examine the relationship between these constructs in those with a moderate to severe traumatic brain injury who demonstrate impairments in cognitive flexibility. Method: A total of 66 individuals with a traumatic brain injury were administered a battery of cognitive flexibility measures in conjunction with their standard neuropsychological assessment, general (Acceptance and Action Questionnaire\u2013II [AAQ-II]) and context-specific (Acceptance and Action Questionnaire\u2013Acquired Brain Injury [AAQ-ABI]) measures of psychological inflexibility and psychological distress (Depression Anxiety Stress Scale\u201321). Results: Linear regression modeling found the Stroop color\u2013word interference score was the only measure of cognitive flexibility that was significantly associated with AAQ-ABI (\u03b2 = \u2212.14, <em>p</em> < .001), a finding that remained when controlling for Full-Scale Intelligence Quotient and education. Similarly, the Stroop color\u2013word interference score significantly predicted the AAQ-II (\u03b2 = \u22120.13, <em>p</em> = .024). Simple mediation analysis found the AAQ-ABI and AAQ-II fully mediated the relationship between the Stroop color\u2013word interference score and psychological distress. Conclusions: This research provides support for the theory of cognitive flexibility being an essential component of psychological inflexibility. Inhibitory control may be an important process within cognitive flexibility that contributes to psychological inflexibility. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-05-08T00:00:00+00:00",
-      "source": "Neuropsychology",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 219,
-      "reading_time": 1,
-      "created_at": "2025-12-25T05:48:22.950789+00:00",
-      "updated_at": "2025-12-25T06:25:52.082883+00:00",
-      "metadata": {
-        "processed_at": "2025-12-25T06:25:52.082892+00:00",
+        "processed_at": "2025-12-25T14:15:31.549931+00:00",
         "processing_method": "github_actions"
       }
     }
