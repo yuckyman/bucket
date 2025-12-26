@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-26T19:18:02.429027+00:00",
+  "last_updated": "2025-12-26T19:39:44.685841+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "7d358a50de2869f89d49bd22afee1514",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1705970",
+      "title": "Effective and efficient self-supervised masked model based on mixed feature training",
+      "content": "Under the influence of Masked Language Modeling (MLM), Masked Image Modeling (MIM) employs an attention mechanism to perform masked training on images. However, processing a single image requires numerous iterations and substantial computational resources to reconstruct the masked regions, resulting in high computational complexity and significant time costs. To address this issue, we propose an Effective and Efficient self-supervised Masked model based on Mixed feature training (EESMM). First, we stack two images for encoding and input the fused features into the network, which not only reduces computational complexity but also enables the learning of more features. Second, during decoding, we obtain the decoding features corresponding to the original images based on the decoding features of the two input original images and the mixed images, and then construct a corresponding loss function to enhance feature representation. EESMM significantly reduces pre-training time without sacrificing accuracy, achieving 83% accuracy on ImageNet in just 363 h using four V100 GPUs\u2013only one-tenth of the training time required by SimMIM. This validates that the method can substantially accelerate the pre-training process without noticeable performance degradation.",
+      "author": "Chunliu Cai",
+      "published_date": "2025-10-30T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 179,
+      "reading_time": 1,
+      "created_at": "2025-12-26T19:39:01.451234+00:00",
+      "updated_at": "2025-12-26T19:39:01.451235+00:00"
+    },
+    {
+      "id": "83ca92a2e140f4efcce25f86bcb1863d",
+      "url": "https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/",
+      "title": "My insulin pump controller uses the Linux kernel. It also violates the GPL",
+      "content": "<p>Article URL: <a href=\"https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/\">https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46395184\">https://news.ycombinator.com/item?id=46395184</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "author": "davisr",
+      "published_date": "2025-12-26T19:13:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-26T19:38:34.959654+00:00",
+      "updated_at": "2025-12-26T19:38:34.959661+00:00"
+    },
     {
       "id": "92049b6f282e35d7e1e3df8a90a23437",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.25.696416v1?rss=1",
@@ -289,42 +321,6 @@
       "reading_time": 1,
       "created_at": "2025-12-26T18:31:33.032587+00:00",
       "updated_at": "2025-12-26T18:31:33.032589+00:00"
-    },
-    {
-      "id": "b297a62adc21c2b882fb0340d7e356e7",
-      "url": "https://www.politico.com/news/2025/12/26/ice-high-tech-surveillance-lower-privacy-guardrails-00705401",
-      "title": "ICE's interest in high-tech gear raises new questions: 'What is it for?'",
-      "content": "<p>Article URL: <a href=\"https://www.politico.com/news/2025/12/26/ice-high-tech-surveillance-lower-privacy-guardrails-00705401\">https://www.politico.com/news/2025/12/26/ice-high-tech-surveillance-lower-privacy-guardrails-00705401</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46394228\">https://news.ycombinator.com/item?id=46394228</a></p>\n<p>Points: 56</p>\n<p># Comments: 45</p>",
-      "author": "standardUser",
-      "published_date": "2025-12-26T17:37:31+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-26T18:31:33.032556+00:00",
-      "updated_at": "2025-12-26T18:31:33.032565+00:00"
-    },
-    {
-      "id": "80d1f642eb4da0958753076107ac0cbe",
-      "url": "http://daniellakens.blogspot.com/2025/07/easily-download-files-from-open-science.html",
-      "title": "Easily download files from the Open Science Framework with Papercheck",
-      "content": "<p>Researchers\nincreasingly use the <a href=\"https://osf.io/\">Open Science Framework</a> (OSF) to share files, such as data\nand code underlying scientific publications, or presentations and materials for\nscientific workshops. The OSF is an amazing service that has contributed\nimmensely to a changed research culture where psychologists share data, code, and\nmaterials. We are very grateful it exists.</p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">But it is\nnot always the most user-friendly. Specifically, downloading files from the OSF\nis a bigger hassle than we (<a href=\"https://debruine.github.io/\">Lisa DeBruine</a>\nand <a href=\"https://www.tue.nl/en/research/researchers/daniel-lakens/\">Daniel\nLakens</a>, the developers of Papercheck) would like it to be. Downloading individual\nfiles is so complex, <a href=\"https://bsky.app/profile/malte.the100.ci/post/3lpf4s6spns2i\">Malte Elson</a>\nrecently posted this meme on Bluesky. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"NL\"><!--[if gte vml 1]><v:shapetype\n id=\"_x0000_t75\" coordsize=\"21600,21600\" o:spt=\"75\" o:preferrelative=\"t\"\n path=\"m@4@5l@4@11@9@11@9@5xe\" filled=\"f\" stroked=\"f\">\n <v:stroke joinstyle=\"miter\"/>\n <v:formulas>\n  <v:f eqn=\"if lineDrawn pixelLineWidth 0\"/>\n  <v:f eqn=\"sum @0 1 0\"/>\n  <v:f eqn=\"sum 0 0 @1\"/>\n  <v:f eqn=\"prod @2 1 2\"/>\n  <v:f eqn=\"prod @3 21600 pixelWidth\"/>\n  <v:f eqn=\"prod @3 21600 pixelHeight\"/>\n  <v:f eqn=\"sum @0 0 1\"/>\n  <v:f eqn=\"prod @6 1 2\"/>\n  <v:f eqn=\"prod @7 21600 pixelWidth\"/>\n  <v:f eqn=\"sum @8 21600 0\"/>\n  <v:f eqn=\"prod @7 21600 pixelHeight\"/>\n  <v:f eqn=\"sum @10 21600 0\"/>\n </v:formulas>\n <v:path o:extrusionok=\"f\" gradientshapeok=\"t\" o:connecttype=\"rect\"/>\n <o:lock v:ext=\"edit\" aspectratio=\"t\"/>\n</v:shapetype><v:shape id=\"_x0000_i1026\" type=\"#_x0000_t75\" style='width:453.75pt;\n height:276pt;visibility:visible;mso-wrap-style:square'>\n <v:imagedata src=\"file:///C:/Users/DLakens/AppData/Local/Temp/msohtmlclip1/01/clip_image001.jpg\"\n  o:title=\"\"/>\n</v:shape><![endif]--><!--[if !vml]--><img border=\"0\" height=\"368\" src=\"https://blogger.googleusercontent.com/img/a/AVvXsEinS5tFoL5qX14Z2OcgT1APMZLGlghAD3BfBhSnJ9pleVbJyRFUFLShqReS2j7SXGozmLMcVQkoM62UhneJDtH4yx3NRnXOkVZZi-Dm-OPwbGaidxr2raF9wzjx5fU92nfPpE3jmGfwZEwHS1WGSB4gUfRfV3XWjOC2-lCjOYR108h3fwORIHOnqxIX9m8\" width=\"605\" /><!--[endif]--></span><span lang=\"EN-US\"></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span>&nbsp;</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Not only is\nthe download button for files difficult to find, but downloading all files\nrelated to a project can be surprisingly effortful. It is possible to download\nall files in a zip folder that will be called \u2018osfstorage-archive.zip\u2019 when\ndownloaded. But as the OSF supports a nested folder structure, you might miss a\nfolder, and you will quickly end up with \u2018osfstorage-archive (1).zip\u2019, \u2018osfstorage-archive\n(2).zip\u2019, etc. Unzipping these archives creates a lot of files without the\norganized folder structure, in folders with meaningless names, making it\ndifficult to understand where files are. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<h2 style=\"text-align: left;\"><b><span lang=\"EN-US\">The\nosf_file_download function in Papercheck </span></b></h2>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">We have added\na new function to our R package \u2018<a href=\"https://scienceverse.github.io/papercheck/\">Papercheck</a>\u2019 that will download all files and\nfolders in an OSF repository. It saves all files by recreating the folder\nstructure from the OSF in your download folder. Just install Papercheck, load\nthe library, and use the osf_file_download function to grab all files on the OSF:</span></p><p class=\"MsoNormal\"><span lang=\"EN-US\"><br /></span></p>\n\n<div style=\"text-align: left;\"><span style=\"font-family: courier;\"><b><span lang=\"EN-US\">devtools::install_github(\"scienceverse/papercheck\")<br /></span></b><b><span lang=\"EN-US\">library(papercheck)<br /></span></b><b><span lang=\"EN-US\">osf_file_download(\"6nt4v\")</span></b></span></div>\n\n\n\n\n\n<p class=\"MsoNormal\"><b><span lang=\"EN-US\">&nbsp;</span></b></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">All files\nwill be downloaded to your working directory. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Are you feeling\nFOMO for missing out on the <a href=\"https://www.kcl.ac.uk/events/open-research-summer-school-2025\">King Open\nResearch Summer School</a> that is going on these days, where <a href=\"https://research.tue.nl/en/persons/sajedeh-rasti\">Sajedeh Rasti</a> talked\nabout Preregistration, and <a href=\"https://research.tue.nl/en/persons/cristian-mesquida-caldentey\">Cristian\nMesquida</a> will give a workshop on using Papercheck? Well, at least it is\nvery easy to download all the files they have shared on the OSF and look at the\npresentations: </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: courier;\">osf_file_download(\"b7es8\")</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">In the\noutput, we see that by default large files (more than 10mb) are omitted. <span><!--[if gte vml 1]><v:shape id=\"Picture_x0020_1\"\n o:spid=\"_x0000_i1025\" type=\"#_x0000_t75\" alt=\"A screenshot of a computer&#10;&#10;AI-generated content may be incorrect.\"\n style='width:453.75pt;height:292.5pt;visibility:visible;mso-wrap-style:square'>\n <v:imagedata src=\"file:///C:/Users/DLakens/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png\"\n  o:title=\"A screenshot of a computer&#10;&#10;AI-generated content may be incorrect\"/>\n</v:shape><![endif]--><!--[if !vml]--><img alt=\"A screenshot of a computer\n\nAI-generated content may be incorrect.\" border=\"0\" height=\"390\" src=\"https://blogger.googleusercontent.com/img/a/AVvXsEj2jH76ywmEeLzL43u6gJl7GKR2lEGlhYS0LOXRPMMovOsJEVdXyamYCvmq96ez3p_GXHLoFz4JDyAKHlARK9pSy8QfzVa7yt1_uEg_H9IJfKgunnYWUwlROXABNcU6TvrA0_hx0KPZfj00b3Cb-Wn_7Bf3sFu9JApZoClcWoh_Vfl5bk1GQVZUH1tuGao\" width=\"605\" /><!--[endif]--></span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">If you want\nto download all files, regardless of the size, then set the parameter to ignore\nthe maximum file size: </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: courier;\">osf_file_download(\"b7es8\",\nmax_file_size = NULL)</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Sometimes\nyou might want to download all files but ignore the file structure on the OSF,\nto just have all the files in one folder. Setting the parameter ignore_folder_structure\n= TRUE will give you all the files on the OSF in a single folder. By default, files will be downloaded into your working directory, but you can also specify\nwhere you want the files to be saved. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: courier;\">osf_file_download(\"6nt4v\",\nignore_folder_structure = TRUE, download_to = \"C:\\\\test_download\")</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">We hope\nthis function will make it easier for reviewers to access all supplementary\nfiles stored on the OSF during peer review, and for researchers who want to re-use\ndata, code, or materials shared on the OSF by downloading all the files they\nneed easily. Make sure to install the latest version of Papercheck (0.0.0.9050)\nto get access to this new function. Papercheck is still in active development,\nso report any bugs on <a href=\"https://github.com/scienceverse/papercheck\">GitHub</a>.</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>",
-      "author": "noreply@blogger.com (Daniel Lakens)",
-      "published_date": "2025-07-22T09:53:00+00:00",
-      "source": "Twenty Percent Statistician",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 765,
-      "reading_time": 3,
-      "created_at": "2025-12-26T17:19:57.491016+00:00",
-      "updated_at": "2025-12-26T18:23:07.161963+00:00",
-      "metadata": {
-        "processed_at": "2025-12-26T18:23:07.161972+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }

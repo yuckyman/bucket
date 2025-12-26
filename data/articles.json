@@ -1,5 +1,37 @@
 [
   {
+    "id": "7d358a50de2869f89d49bd22afee1514",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1705970",
+    "title": "Effective and efficient self-supervised masked model based on mixed feature training",
+    "content": "Under the influence of Masked Language Modeling (MLM), Masked Image Modeling (MIM) employs an attention mechanism to perform masked training on images. However, processing a single image requires numerous iterations and substantial computational resources to reconstruct the masked regions, resulting in high computational complexity and significant time costs. To address this issue, we propose an Effective and Efficient self-supervised Masked model based on Mixed feature training (EESMM). First, we stack two images for encoding and input the fused features into the network, which not only reduces computational complexity but also enables the learning of more features. Second, during decoding, we obtain the decoding features corresponding to the original images based on the decoding features of the two input original images and the mixed images, and then construct a corresponding loss function to enhance feature representation. EESMM significantly reduces pre-training time without sacrificing accuracy, achieving 83% accuracy on ImageNet in just 363 h using four V100 GPUs\u2013only one-tenth of the training time required by SimMIM. This validates that the method can substantially accelerate the pre-training process without noticeable performance degradation.",
+    "author": "Chunliu Cai",
+    "published_date": "2025-10-30T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 179,
+    "reading_time": 1,
+    "created_at": "2025-12-26T19:39:01.451234+00:00",
+    "updated_at": "2025-12-26T19:39:01.451235+00:00"
+  },
+  {
+    "id": "83ca92a2e140f4efcce25f86bcb1863d",
+    "url": "https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/",
+    "title": "My insulin pump controller uses the Linux kernel. It also violates the GPL",
+    "content": "<p>Article URL: <a href=\"https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/\">https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46395184\">https://news.ycombinator.com/item?id=46395184</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+    "author": "davisr",
+    "published_date": "2025-12-26T19:13:22+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-26T19:38:34.959654+00:00",
+    "updated_at": "2025-12-26T19:38:34.959661+00:00"
+  },
+  {
     "id": "92049b6f282e35d7e1e3df8a90a23437",
     "url": "https://www.biorxiv.org/content/10.64898/2025.12.25.696416v1?rss=1",
     "title": "Profiling miRNAs involved in Human Oligodendrocyte Precursor Cell Differentiation and Maturation",
@@ -17186,37 +17218,5 @@
       "processed_at": "2025-12-22T01:18:29.103311+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "0119f1ceae6cbf0b5d69165ff5bdfabe",
-    "url": "https://jyn.dev/i-m-just-having-fun/",
-    "title": "I'm Just Having Fun",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46287253\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-16T11:19:29+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-21T22:20:26.638802+00:00",
-    "updated_at": "2025-12-21T22:20:26.638803+00:00"
-  },
-  {
-    "id": "6c6e80672d532ede24b7fa9d2eb4444d",
-    "url": "https://www.bitsaboutmoney.com/archive/gift-card-accountability-sink/",
-    "title": "The gift card accountability sink",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46348455\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-21T21:07:01+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-21T22:20:26.638763+00:00",
-    "updated_at": "2025-12-21T22:20:26.638765+00:00"
   }
 ]
