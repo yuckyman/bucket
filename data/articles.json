@@ -1,5 +1,37 @@
 [
   {
+    "id": "24ee28ae3b5cf2672aaf7b6913ce5eb1",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.25.696456v1?rss=1",
+    "title": "Kv1.3 inhibition alleviates neuropathology via neuroinflammatory and resilience pathways in a mouse model of A\u03b2 pathology",
+    "content": "Inhibition of voltage-gated potassium channel Kv1.3 is a therapeutic strategy to curb microglia-mediated neuroinflammation in neurodegeneration, although the cellular and signaling mechanisms of disease-modification by Kv1.3 blockers are unclear. In this study, we delineate protective mechanisms of Kv1.3 blockade in a mouse model of Alzheimers disease (AD) pathology using comprehensive transcriptomics and proteomics profiling of brain, corresponding with neuropathological effects of two translationally relevant Kv1.3 blockers, namely small molecule PAP-1 and peptide ShK-223. Following 3 months of treatment, both molecules reduced Ab plaque burden. Single nuclear RNA seq (snRNA seq) of brain nuclei showed that PAP-1 disproportionately impacted oligodendrocytes and microglia and increased crosstalk between neurons and astrocytes with endothelial cells. In contrast, ShK-223 had pronounced effects on glutamatergic neurons and astrocytes. Both blockers increased expression of myelination genes in oligodendrocytes and synaptic genes in neurons. Neuroprotective effects of PAP-1 were further confirmed by bulk brain transcriptomics and proteomics whereby PAP-1 increased levels of synaptic, cognitive resilience and mitochondrial proteins, while decreasing glial and immune pathways including STAT1/3 phosphorylation. Using proximity labeling and co-immunoprecipitation, we found that Kv1.3 interacts with STAT1/3 in microglia. Using microglial cell lines and primary microglia, we discovered a preferential functional coupling between Kv1.3 and type 2 but not type 1 IFN signaling. Brain-level disease modification by Kv1.3 blockade was reflected in the cerebrospinal fluid (CSF) via reduced levels of neurofilament-light (NEFL) and resilience protein RPH3A, both of which are increased in human AD CSF. Together, this study demonstrates functional links between Kv1.3 channels and type 2 IFN signaling and reveals distinct cellular effects of Kv1.3 blockers in AD pathology that correspond with reduced neuropathology and neuroinflammation, augmentation of resilience and neuro-vascular pathways, along with biomarkers of therapeutic effect.",
+    "author": "Kumari, R., bowen, C., Srivastava, U., Brandelli, A., Kumar, P., kour, D., Malepati, S., jang, w. E., Bromwich, M., zeng, H., Sing, A., Sloan, S. A., Wulff, H., Rangaraju, S.",
+    "published_date": "2025-12-25T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 283,
+    "reading_time": 1,
+    "created_at": "2025-12-26T06:34:59.033106+00:00",
+    "updated_at": "2025-12-26T06:34:59.033108+00:00"
+  },
+  {
+    "id": "32473714cb12e911efb33a39d2f945ba",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.25.696483v1?rss=1",
+    "title": "Hierarchical Semi-Markov Smooth Models of Latent Neural States",
+    "content": "Hidden (semi-) Markov Models (HsMMs) are increasingly being used to segment neurophysiological signals into sequences of latent cognitive processes. The idea: different processes will leave distinct traces in trial-level recordings of (multivariate) neuro-physiological signals. Markov models, equipped with an emission model of these traces and a latent process model describing the progression through the different latent processes involved in a task, can then be used to infer the most likely process for any time-point and trial. However, the currently used HsMMs remain limited in two important ways. First, they cannot account for subject-level heterogeneity in the latent and emission process. Instead, a single group-level model is assumed to explain the entire data. Second, they cannot account for the potentially nonlinear effects of experimental covariates on the latent and emission process. To address these problems, we present a modeling framework in which the HsMM parameters of the emission and latent process are replaced with mixed additive models, including smooth functions of experimental covariates and random effects. We derive all necessary quantities for empirical Bayes and fully Bayesian inference for all parameters and provide a Python implementation of all estimation algorithms. To demonstrate the advantages offered by this framework, we apply such a multi-level model to an existing lexical decision dataset. We show that, even in such a simple task, not all subjects rely on the same processes equally and that at least two semi-Markov states, previously believed to reflect distinct processes, might actually relate to the same cognitive process.",
+    "author": "Krause, J., van Rij, J., Borst, J. P.",
+    "published_date": "2025-12-25T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 248,
+    "reading_time": 1,
+    "created_at": "2025-12-26T06:34:59.033055+00:00",
+    "updated_at": "2025-12-26T06:34:59.033060+00:00"
+  },
+  {
     "id": "c2029e5d1c9b0d15ec3eaab794141760",
     "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1753714",
     "title": "Editorial: Exercising body & brain: the effects of physical exercise on brain health",
@@ -17238,41 +17270,5 @@
       "processed_at": "2025-12-21T08:20:12.754200+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "4b2e0e70dfe363641dced2a946dd5280",
-    "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006742?dgcid=rss_sd_all",
-    "title": "Oxidative Stress-Induced mechanisms in neurodegeneration and Eryptosis: Implications for neurological and systemic disorders",
-    "content": "<p>Publication date: 1 February 2026</p><p><b>Source:</b> Brain Research, Volume 1872</p><p>Author(s): Marijana Markovic Boras, Vanja Krulj, Alma Karahmet, Kanita Omerbasic, Asma Nawaz, Doris Pavkovi\u0107, Emina K. Sher</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Brain Research",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 25,
-    "reading_time": 1,
-    "created_at": "2025-12-21T04:38:36.096951+00:00",
-    "updated_at": "2025-12-21T08:20:12.754202+00:00",
-    "metadata": {
-      "processed_at": "2025-12-21T08:20:12.754204+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "d130092fadf5cce6537b37fb4113b353",
-    "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006202?dgcid=rss_sd_all",
-    "title": "Time-resolved functional connectivity during visuomotor graph learning",
-    "content": "<p>Publication date: January 2026</p><p><b>Source:</b> NeuroImage, Volume 325</p><p>Author(s): Sophie Loman, Lorenzo Caciagli, Shubhankar P. Patankar, Ari E. Kahn, Karol P. Szymula, Nathaniel Nyema, Dani S. Bassett</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Neuroimage",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 25,
-    "reading_time": 1,
-    "created_at": "2025-12-21T04:38:32.485826+00:00",
-    "updated_at": "2025-12-21T04:38:32.485828+00:00"
   }
 ]

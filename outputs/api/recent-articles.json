@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-26T06:25:30.817816+00:00",
+  "last_updated": "2025-12-26T06:35:28.941722+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "24ee28ae3b5cf2672aaf7b6913ce5eb1",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.25.696456v1?rss=1",
+      "title": "Kv1.3 inhibition alleviates neuropathology via neuroinflammatory and resilience pathways in a mouse model of A\u03b2 pathology",
+      "content": "Inhibition of voltage-gated potassium channel Kv1.3 is a therapeutic strategy to curb microglia-mediated neuroinflammation in neurodegeneration, although the cellular and signaling mechanisms of disease-modification by Kv1.3 blockers are unclear. In this study, we delineate protective mechanisms of Kv1.3 blockade in a mouse model of Alzheimers disease (AD) pathology using comprehensive transcriptomics and proteomics profiling of brain, corresponding with neuropathological effects of two translationally relevant Kv1.3 blockers, namely small molecule PAP-1 and peptide ShK-223. Following 3 months of treatment, both molecules reduced Ab plaque burden. Single nuclear RNA seq (snRNA seq) of brain nuclei showed that PAP-1 disproportionately impacted oligodendrocytes and microglia and increased crosstalk between neurons and astrocytes with endothelial cells. In contrast, ShK-223 had pronounced effects on glutamatergic neurons and astrocytes. Both blockers increased expression of myelination genes in oligodendrocytes and synaptic genes in neurons. Neuroprotective effects of PAP-1 were further confirmed by bulk brain transcriptomics and proteomics whereby PAP-1 increased levels of synaptic, cognitive resilience and mitochondrial proteins, while decreasing glial and immune pathways including STAT1/3 phosphorylation. Using proximity labeling and co-immunoprecipitation, we found that Kv1.3 interacts with STAT1/3 in microglia. Using microglial cell lines and primary microglia, we discovered a preferential functional coupling between Kv1.3 and type 2 but not type 1 IFN signaling. Brain-level disease modification by Kv1.3 blockade was reflected in the cerebrospinal fluid (CSF) via reduced levels of neurofilament-light (NEFL) and resilience protein RPH3A, both of which are increased in human AD CSF. Together, this study demonstrates functional links between Kv1.3 channels and type 2 IFN signaling and reveals distinct cellular effects of Kv1.3 blockers in AD pathology that correspond with reduced neuropathology and neuroinflammation, augmentation of resilience and neuro-vascular pathways, along with biomarkers of therapeutic effect.",
+      "author": "Kumari, R., bowen, C., Srivastava, U., Brandelli, A., Kumar, P., kour, D., Malepati, S., jang, w. E., Bromwich, M., zeng, H., Sing, A., Sloan, S. A., Wulff, H., Rangaraju, S.",
+      "published_date": "2025-12-25T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 283,
+      "reading_time": 1,
+      "created_at": "2025-12-26T06:34:59.033106+00:00",
+      "updated_at": "2025-12-26T06:34:59.033108+00:00"
+    },
+    {
+      "id": "32473714cb12e911efb33a39d2f945ba",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.25.696483v1?rss=1",
+      "title": "Hierarchical Semi-Markov Smooth Models of Latent Neural States",
+      "content": "Hidden (semi-) Markov Models (HsMMs) are increasingly being used to segment neurophysiological signals into sequences of latent cognitive processes. The idea: different processes will leave distinct traces in trial-level recordings of (multivariate) neuro-physiological signals. Markov models, equipped with an emission model of these traces and a latent process model describing the progression through the different latent processes involved in a task, can then be used to infer the most likely process for any time-point and trial. However, the currently used HsMMs remain limited in two important ways. First, they cannot account for subject-level heterogeneity in the latent and emission process. Instead, a single group-level model is assumed to explain the entire data. Second, they cannot account for the potentially nonlinear effects of experimental covariates on the latent and emission process. To address these problems, we present a modeling framework in which the HsMM parameters of the emission and latent process are replaced with mixed additive models, including smooth functions of experimental covariates and random effects. We derive all necessary quantities for empirical Bayes and fully Bayesian inference for all parameters and provide a Python implementation of all estimation algorithms. To demonstrate the advantages offered by this framework, we apply such a multi-level model to an existing lexical decision dataset. We show that, even in such a simple task, not all subjects rely on the same processes equally and that at least two semi-Markov states, previously believed to reflect distinct processes, might actually relate to the same cognitive process.",
+      "author": "Krause, J., van Rij, J., Borst, J. P.",
+      "published_date": "2025-12-25T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 248,
+      "reading_time": 1,
+      "created_at": "2025-12-26T06:34:59.033055+00:00",
+      "updated_at": "2025-12-26T06:34:59.033060+00:00"
+    },
     {
       "id": "c2029e5d1c9b0d15ec3eaab794141760",
       "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1753714",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2025-12-26T04:55:33.492626+00:00",
       "updated_at": "2025-12-26T04:55:33.492628+00:00"
-    },
-    {
-      "id": "a69e07e99d77bb2c32de6e91a3fea662",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.23.696261v1?rss=1",
-      "title": "Distinct mechanisms mediate dopamine-octopamine opponency in an insect model of olfaction",
-      "content": "Neuromodulators play a key role in determining how an organism processes and responds to sensory cues. Often, different neuromodulators act on the same set of neural circuits to produce diverging behavioral outcomes. In this study, we examined how dopamine and octopamine alter odor-driven neural activity in a peripheral olfactory circuit (the antennal lobe) and thereby alter behavioral responses in an opposing manner. Our results indicate that dopamine suppressed GABAergic local neuron activity during odor stimulation. Releasing the antennal lobe network from inhibition increased the principal neural activity for all odorants and led to nonspecific increases in a behavioral appetitive response. Octopamine, on the other hand, did not alter the GABAergic inhibition in the antennal lobe but still reduced the odor-evoked principal neural activity and the behavioral responses elicited by all odorants. Thus, both dopamine and octopamine used distinct mechanisms (altering recurrent inhibition vs intrinsic excitability) to mediate opponent changes in odor-evoked neural activity and behavioral outcomes.",
-      "author": "Bessonova, L., Clark, I., Sumida, R., Kelley, J., Alva, I., Raman, B.",
-      "published_date": "2025-12-25T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 156,
-      "reading_time": 1,
-      "created_at": "2025-12-26T04:55:33.492588+00:00",
-      "updated_at": "2025-12-26T04:55:33.492589+00:00"
-    },
-    {
-      "id": "f96ced1f2b3aa156e317db1933973a8c",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.23.696327v1?rss=1",
-      "title": "Comparative Study of BBB-Targeting AAV Capsids on Central Nervous System Delivery Efficiency",
-      "content": "The efficacy of adeno-associated virus (AAV)-mediated systemic gene therapy for central nervous system (CNS) diseases is often limited by the blood-brain barrier (BBB). This study systematically evaluated the tissue distribution of three BBB-crossing AAV capsid variants (PHP.eB, CNSRCV300, and BI-hTFR1) following intravenous injection in mice, using either a constitutive promoter (CAG) or a neuron-specific promoter (hSyn) to drive EGFP reporter expression. Compared with AAV9, both PHP.eB and CNSRCV300 demonstrated significantly enhanced BBB penetration and brain transduction efficiency. While the use of the hSyn promoter led to reduced transgene expression in the brain compared with the CAG promoter, and substantially decreased visible reporter expression in peripheral organs, viral deposition in the liver could still be detected via immunohistochemistry. Overall, CNSRCV300 exhibited the most favorable balance between brain-targeting efficiency and biosafety, highlighting its potential as a promising delivery vector. In summary, both the capsid and promoter jointly influence AAV-mediated expression in vivo, and although cell type-specific promoters can reduce off-target expression, residual viral deposition in non-target tissues remains a potential safety concern.",
-      "author": "Zhao, J., Ge, X., Song, M., Liu, W., Zhang, X., Zuo, L., JIN, L.",
-      "published_date": "2025-12-25T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 170,
-      "reading_time": 1,
-      "created_at": "2025-12-26T04:55:33.492557+00:00",
-      "updated_at": "2025-12-26T04:55:33.492558+00:00"
     }
   ]
 }
