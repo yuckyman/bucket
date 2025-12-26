@@ -1,5 +1,37 @@
 [
   {
+    "id": "192d45961aa3c26558eb30026556cc07",
+    "url": "https://www.reddit.com/r/Python/comments/1pw1ko7/beautiful_reprs/",
+    "title": "Beautiful reprs",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I wrote a <a href=\"https://pomponchik.org/notes/beautiful-reprs/\">short note</a> on how to make beautiful string representations for Python objects (mainly concerns those who write their own libraries).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pomponchik\"> /u/pomponchik </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pw1ko7/beautiful_reprs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pw1ko7/beautiful_reprs/\">[comments]</a></span>",
+    "author": "/u/pomponchik",
+    "published_date": "2025-12-26T10:49:57+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 45,
+    "reading_time": 1,
+    "created_at": "2025-12-26T21:39:59.983386+00:00",
+    "updated_at": "2025-12-26T21:39:59.983388+00:00"
+  },
+  {
+    "id": "bd445109261f653f2bd6512220ee2095",
+    "url": "https://www.janestreet.com/tech-talks/uv-an-extremely-fast-python-package-manager/",
+    "title": "Uv: An Fast Python Package Manager",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46396267\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-26T21:06:36+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-26T21:39:58.678380+00:00",
+    "updated_at": "2025-12-26T21:39:58.678381+00:00"
+  },
+  {
     "id": "76dd8a7b44199677090f2ce2efa15ef3",
     "url": "https://www.biorxiv.org/content/10.64898/2025.12.25.696439v1?rss=1",
     "title": "A shared ensemble in the prelimbic cortex links impulsivity and anxiety-like behavior.",
@@ -17146,37 +17178,5 @@
     "reading_time": 1,
     "created_at": "2025-12-22T05:25:44.075577+00:00",
     "updated_at": "2025-12-22T05:25:44.075579+00:00"
-  },
-  {
-    "id": "a892082b92e0df84831567fd52601a2b",
-    "url": "https://eulumdat.icu",
-    "title": "Show HN: Rust/WASM lighting data toolkit \u2013 parses legacy formats, generates SVGs",
-    "content": "<p>Hi HN, I'm Holger, a developer who worked in the lighting industry.<p>I built this to scratch my own itch and put it on crates.io and PyPI where nothing like it existed.<p>The old file formats (EULUMDAT from 1990, IES from 1991) still work fine for basic photometry. But the industry is moving toward spectral data \u2013 full wavelength distributions instead of just lumen values.<p>The new standards (TM-33, ATLA-S001) are barely supported by existing tools.<p>So this handles both: legacy formats for compatibility, spectral data for anyone who wants to work with the new standards.<p>Stack: Rust core, then UniFFI for bindings. One codebase compiles to WASM/Leptos, egui, SwiftUI, Jetpack Compose, PyO3.<p>At one point the generated Swift boilerplate got so large GitHub classified it as a Swift project. 3D viewer is Bevy, loaded on-demand.<p>Feedback welcome \u2013 especially on the SVG output and the 3D viewer.<p><a href=\"https://github.com/holg/eulumdat-rs\" rel=\"nofollow\">https://github.com/holg/eulumdat-rs</a> (MIT/Apache-2.0)</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46348344\">https://news.ycombinator.com/item?id=46348344</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-    "author": "holg",
-    "published_date": "2025-12-21T20:56:54+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 155,
-    "reading_time": 1,
-    "created_at": "2025-12-22T05:25:42.721524+00:00",
-    "updated_at": "2025-12-22T05:25:42.721526+00:00"
-  },
-  {
-    "id": "713e6de8de5c614f97da34928a616e58",
-    "url": "https://www.washingtonpost.com/health/2025/12/21/obamacare-monopolies-subsidies/",
-    "title": "A middle-class family's only option: A $43,000 health insurance premium",
-    "content": "<p>Article URL: <a href=\"https://www.washingtonpost.com/health/2025/12/21/obamacare-monopolies-subsidies/\">https://www.washingtonpost.com/health/2025/12/21/obamacare-monopolies-subsidies/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46351408\">https://news.ycombinator.com/item?id=46351408</a></p>\n<p>Points: 5</p>\n<p># Comments: 3</p>",
-    "author": "paulpauper",
-    "published_date": "2025-12-22T04:50:17+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-22T05:25:42.721301+00:00",
-    "updated_at": "2025-12-22T05:25:42.721310+00:00"
   }
 ]
