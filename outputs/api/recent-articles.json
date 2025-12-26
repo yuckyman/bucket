@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-12-26T09:25:30.892498+00:00",
+  "last_updated": "2025-12-26T09:45:32.491890+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "090fa7e29cb4b7a886f2bc7ece2b2350",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006778?dgcid=rss_sd_all",
+      "title": "Efficacy of transcranial direct current stimulation in children and adolescents with autism spectrum disorder: A systematic review and meta-analysis",
+      "content": "<p>Publication date: 15 February 2026</p><p><b>Source:</b> Brain Research, Volume 1873</p><p>Author(s): Muhammad Maaz Amjad, Hadiya Javed, Muhammad Zuhaz Azeem, Tuyyab Anwer, Bilal Wazir Khan, Muhammad Huzaifa Khattak, Umer Zaryab Khan, Muhammad Ahmed Zahoor, Zobia Tabassum, Muhammad Ehsan, Hafiza Sidra, Habeeb Ahmad, Sarmad Nazir, Komal Khan</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 43,
+      "reading_time": 1,
+      "created_at": "2025-12-26T09:45:08.377190+00:00",
+      "updated_at": "2025-12-26T09:45:08.377192+00:00"
+    },
     {
       "id": "f1601f76c52fc1e6e98a7d2e9648593b",
       "url": "https://catalinionescu.dev/ai-agent/building-ai-agent-part-1/",
@@ -345,22 +361,6 @@
       "reading_time": 1,
       "created_at": "2025-12-26T05:24:05.380754+00:00",
       "updated_at": "2025-12-26T05:24:05.380756+00:00"
-    },
-    {
-      "id": "23420e0250f75cf29523f6d16651d51c",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.24.696343v1?rss=1",
-      "title": "Stimulus sensitivity in noisy neural systems",
-      "content": "Understanding how neural populations encode sensory information requires a precise definition of neuronal sensitivity to stimuli. While tuning curves and firing rates offer intuitive insights, theoretical frameworks based on signal-to-noise ratio and decoding efficiency identify Fisher information as the canonical measure of sensitivity, due to its relation with decoding performance. However, this relation holds only under restrictive conditions--when many neurons encode the same stimulus feature or when neural noise is weak. In realistic settings, such as when complex or high-dimensional stimuli are represented by a small ensemble of neurons, Fisher information becomes ill-defined or misleading. To overcome these limitations, we investigate two complementary information-theoretic quantities--the stimulus-specific information (ISSI) and the local information (Iloc)--and propose them as robust alternatives for quantifying sensitivity. We show that ISSI and Iloc converge with Fisher information when signal to noise is large, yet remain meaningful and interpretable beyond that regime. Importantly, these measures capture distinct aspects of sensitivity: ISSI quantifies how observing a response reduces stimulus uncertainty, whereas Iloc reflects how small stimulus perturbations reshape the systems posterior beliefs. Together, they offer a unifying perspective linking information-theoretic and statistical notions of sensitivity, bridging theoretical analysis and experimental investigation of neural coding.",
-      "author": "Paris, C., Laquitaine, S., Chalk, M., Ferrari, U.",
-      "published_date": "2025-12-25T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 196,
-      "reading_time": 1,
-      "created_at": "2025-12-26T05:24:05.380711+00:00",
-      "updated_at": "2025-12-26T05:24:05.380716+00:00"
     }
   ]
 }
