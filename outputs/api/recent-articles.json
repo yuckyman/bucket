@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-27T20:17:43.278194+00:00",
+  "last_updated": "2025-12-27T20:24:37.401443+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "602f8c9feddf4098781eaf44a427be20",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2528478122?af=R",
+      "title": "Cystathionine \u03b3-lyase is a major regulator of cognitive function through neurotrophin signaling and neurogenesis",
+      "content": "Proceedings of the National Academy of Sciences, Volume 122, Issue 52, December 2025. <br />SignificanceOnce considered to function predominantly in the peripheral systems, cystathionine \u03b3-lyase (CSE) is emerging as a key player in neuroprotection. Prior studies had considered cystathionine \u03b2-synthase (CBS) to be the principal enzyme governing H...",
+      "author": "Suwarna ChakrabortySunil Jamuna TripathiEdwin V\u00e1zquez-RosaKalyani ChaubeyHisashi FujiokaEmiko MillerRicha TyagiThibaut VignaneSudarshana M. SharmaBobby ThomasZachary M. WeilRandy J. NelsonMilos R. FilipovicBenjamin C. OrsburnSolomon H. SnyderAndrew A. PieperBindu D. PaulaDepartment of Physiology, Pharmacology, & Therapeutics, Johns Hopkins University School of Medicine, Baltimore, MD 21205bDepartment of Psychiatry, Case Western Reserve University, Cleveland, OH 44106cBrain Health Medicines Center, Harrington Discovery Institute, University Hospitals Cleveland Medical Center, Cleveland, OH 44106dGeriatric Psychiatry, Geriatric Research Education and Clinical Center, Louis Stokes Cleveland Veterans Affairs Medical Center, Cleveland, OH 44106eInstitute for Transformative Molecular Medicine, School of Medicine, Case Western Reserve University, Cleveland, OH 44106fCryo-Electron Microscopy Core Facility, Case Western Reserve University School of Medicine, Cleveland, OH 44106gDepartment of Neurosciences, Case Western Reserve University, School of Medicine, Cleveland, OH 44106hThe Solomon H. Snyder Department of Neuroscience, Johns Hopkins University School of Medicine, Baltimore, MD 21205iLeibniz Institute for Analytical Sciences, Dortmund 44139, GermanyjDepartment of Biochemistry and Molecular Biology and Hollings Cancer Center, Medical University of South Carolina, Charleston, SC 29425kDarby Children\u2019s Research Institute, Medical University of South Carolina, Charleston, SC 29425lDepartment of Pediatrics, Medical University of South Carolina, Charleston, SC 29425mDepartment of Neuroscience, Medical University of South Carolina, Charleston, SC 29425nDepartment of Drug Discovery, Medical University of South Carolina, Charleston, SC 29425oDepartment of Neuroscience, Rockefeller Neuroscience Institute, West Virginia University School of Medicine, Morgantown, WV 26506pSchool of Molecular Biosciences, University of Glasgow, Glasgow G128QQ, United KingdomqDepartment of Psychiatry and Behavioral Sciences, Johns Hopkins University School of Medicine, Baltimore, MD 21205rDepartment of Pathology, Case Western Reserve University, School of Medicine, Cleveland, OH 44106sDepartment of Neurosciences, Case Western Reserve University, School of Medicine, Cleveland, OH 44106tLieber Institute for Brain Development, Baltimore, MD 21205",
+      "published_date": "2025-12-26T08:00:00+00:00",
+      "source": "Pnas Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 48,
+      "reading_time": 1,
+      "created_at": "2025-12-27T20:24:00.342437+00:00",
+      "updated_at": "2025-12-27T20:24:00.342438+00:00"
+    },
+    {
+      "id": "99e00bcbc3ba074ff6f5e007231a0548",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2515449122?af=R",
+      "title": "A complete spatial map of mouse retinal ganglion cells reveals density and gene expression specializations",
+      "content": "Proceedings of the National Academy of Sciences, Volume 122, Issue 52, December 2025. <br />SignificanceRetinal ganglion cells (RGCs) transmit visual signals to the brain, and their diversity supports specialized visual functions. Using gene expression mapping and machine learning, we charted the spatial distribution of all known RGC types in ...",
+      "author": "Samuel A. BudoffAlon Poleg-PolskyaDepartment of Physiology and Biophysics, University of Colorado Anschutz Medical Center, Aurora, CO 80045",
+      "published_date": "2025-12-26T08:00:00+00:00",
+      "source": "Pnas Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 50,
+      "reading_time": 1,
+      "created_at": "2025-12-27T20:24:00.342305+00:00",
+      "updated_at": "2025-12-27T20:24:00.342307+00:00"
+    },
     {
       "id": "8b7562bab01b2bc391d9c5f254a6be18",
       "url": "https://www.popularmechanics.com/science/health/a64815804/crispr-therapy/",
@@ -311,46 +343,6 @@
       "updated_at": "2025-12-27T18:21:56.994123+00:00",
       "metadata": {
         "processed_at": "2025-12-27T18:21:56.994132+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "15a993eadc3d4ed65a5540606f0dfda6",
-      "url": "https://www.reddit.com/r/Python/comments/1pwd01r/empathyframework_v330_enterpriseready_ai/",
-      "title": "empathy-framework v3.3.0: Enterprise-ready AI workflows with formatted reports",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Just released v3.3.0 of <a href=\"https://pypi.org/project/empathy-framework/\">empathy-framework</a> - major update focused on production readiness.</p> <p><strong>What's new:</strong></p> <ol> <li><strong>Formatted reports for all 10 workflows</strong> - Consistent, readable output you can share with stakeholders</li> <li><strong>Enterprise doc-gen</strong> - Auto-scaling tokens, chunked generation, cost guardrails, file export</li> <li><strong>Output chunking</strong> - Large reports split automatically (no more terminal truncation)</li> </ol> <p><strong>Example - Security Audit:</strong></p> <pre><code>from empathy_os.workflows import SecurityAuditWorkflow workflow = SecurityAuditWorkflow() result = await workflow.execute(code=your_code) # Clean, formatted output print(result.final_output[&quot;formatted_report&quot;]) </code></pre> <p><strong>Example - Doc-Gen with guardrails:</strong></p> <pre><code>from empathy_os.workflows import DocumentGenerationWorkflow workflow = DocumentGenerationWorkflow( export_path=&quot;docs/generated&quot;, # Auto-save max_cost=5.0, # Cost limit chunked_generation=True, # Handle large projects graceful_degradation=True, # Partial results on errors ) </code></pre> <p><strong>Cost optimization (80% savings):</strong></p> <pre><code>from empathy_llm_toolkit import EmpathyLLM llm = EmpathyLLM(provider=&quot;hybrid&quot;, enable_model_routing=True) # Routes to appropriate tier automatically await llm.interact(user_id=&quot;dev&quot;, task_type=&quot;summarize&quot;) # \u2192 Haiku await llm.interact(user_id=&quot;dev&quot;, task_type=&quot;architecture&quot;) # \u2192 Opus </code></pre> <p><strong>Quick start:</strong></p> <pre><code>pip install empathy-framework==3.3.0 python -m empathy_os.models.cli provider --set anthropic </code></pre> <p>GitHub: <a href=\"https://github.com/Smart-AI-Memory/empathy-framework\">https://github.com/Smart-AI-Memory/empathy-framework</a></p> <p>What workflows would be most useful for your projects?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Business-Appeal-2748\"> /u/Business-Appeal-2748 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pwd01r/empathyframework_v330_enterpriseready_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pwd01r/empathyframework_v330_enterpriseready_ai/\">[comments]</a></span>",
-      "author": "/u/Business-Appeal-2748",
-      "published_date": "2025-12-26T19:41:13+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 183,
-      "reading_time": 1,
-      "created_at": "2025-12-27T17:40:58.716645+00:00",
-      "updated_at": "2025-12-27T18:21:56.994137+00:00",
-      "metadata": {
-        "processed_at": "2025-12-27T18:21:56.994139+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "679d26f6864d11132d9014bb62b1bb04",
-      "url": "https://gpg.fail",
-      "title": "Gpg.fail",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46403200\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-27T17:05:50+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-27T17:40:57.534611+00:00",
-      "updated_at": "2025-12-27T18:21:56.994141+00:00",
-      "metadata": {
-        "processed_at": "2025-12-27T18:21:56.994142+00:00",
         "processing_method": "github_actions"
       }
     }
