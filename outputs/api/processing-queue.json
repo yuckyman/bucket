@@ -1,24 +1,8 @@
 {
-  "last_updated": "2025-12-27T10:15:37.060034+00:00",
-  "pending_count": 679,
-  "processed_count": 321,
+  "last_updated": "2025-12-27T12:30:04.296563+00:00",
+  "pending_count": 676,
+  "processed_count": 324,
   "pending_articles": [
-    {
-      "id": "720e6b96c3479434591138c643a389af",
-      "url": "https://www.economist.com/business/2025/12/17/retreating-from-evs-could-be-hazardous-for-western-carmakers",
-      "title": "Retreating from EVs could be hazardous for Western carmakers",
-      "content": "<p>Article URL: <a href=\"https://www.economist.com/business/2025/12/17/retreating-from-evs-could-be-hazardous-for-western-carmakers\">https://www.economist.com/business/2025/12/17/retreating-from-evs-could-be-hazardous-for-western-carmakers</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46398339\">https://news.ycombinator.com/item?id=46398339</a></p>\n<p>Points: 11</p>\n<p># Comments: 5</p>",
-      "author": "smurda",
-      "published_date": "2025-12-27T01:45:37+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-27T03:23:42.968965+00:00",
-      "updated_at": "2025-12-27T03:23:42.968974+00:00"
-    },
     {
       "id": "41a14e1bfbb3211b425afe0758df4253",
       "url": "https://blog.fogus.me/2025/12/23/the-best-things-and-stuff-of-2025.html",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2025-12-26T21:19:47.287429+00:00",
       "updated_at": "2025-12-26T21:19:47.287430+00:00"
+    },
+    {
+      "id": "14072b066ca45300d7161e31385acfc9",
+      "url": "https://www.reddit.com/r/Python/comments/1pw4q8b/vresto_python_toolkit_for_searching_downloading/",
+      "title": "vresto: Python toolkit for searching, downloading and analyzing Satellite Data",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p><strong>vresto</strong> is a Python toolkit that simplifies working with individual satellite products (mainly) from the Copernicus Sentinel program, with a current focus on Sentinel2 (L1C and L2A products). It provides three interfaces:</p> <ol> <li><strong>Web Interface</strong> \u2013 An interactive map-based UI (<code>niceGUI</code>) to visually search and filter satellite products by location, date range, and cloud cover. <a href=\"https://github.com/kalfasyan/vresto/blob/main/docs/assets/vresto_demo.gif\">Demo here</a></li> <li><strong>Python API</strong> \u2013 Clean, programmatic access for automation and batch processing</li> <li><strong>CLI</strong> \u2013 Command-line tools for quick searches and downloads</li> </ol> <p>Key capabilities:</p> <ul> <li>Search satellite products by name or geographic location</li> <li>Download individual spectral bands (RGB, infrared, etc.) for analysis and artifact detection</li> <li>Access metadata and quicklook previews</li> <li>Inspect and visualize Sentinel-2 L1C and L2A imagery (with support for more coming later)</li> <li>Handle S3 authentication securely</li> </ul> <h1>Why I built this</h1> <p>This came from a real need when exploring and cleaning large satellite datasets for ML model training: researchers and developers need a fast, intuitive way to find <strong>individual</strong> products, inspect their bands for quality issues, and download specific data\u2014without context-switching between multiple tools and programming languages.</p> <h1>Target Audience</h1> <ul> <li><strong>ML/AI researchers</strong> \u2013 Building datasets from satellite imagery and need to explore/clean individual products</li> <li><strong>Geospatial researchers &amp; scientists</strong> \u2013 Analyzing multispectral imagery for environmental monitoring, agriculture, or climate research</li> <li><strong>GIS developers &amp; engineers</strong> \u2013 Building Python applications that need streamlined satellite data discovery and access</li> <li><strong>Data analysts &amp; scientists</strong> \u2013 Working with remote sensing data for analysis and visualization</li> <li><strong>Hobbyists &amp; enthusiasts</strong> \u2013 Anyone curious about satellite data and earth observation</li> </ul> <h1>Comparison</h1> <p>The most popular alternatives to searching Satellite products with Python (and offering a CLI) are <a href=\"https://github.com/CS-SI/eodag\">eodag</a> and <a href=\"https://github.com/CDSETool/CDSETool\">CDSETool</a>. The former seems to be a quite mature project with a complete suite that goes beyond the scope of &quot;single products&quot;, while the latter focuses more on product downloads. Neither offers an intuitive web interface like that of vresto. However, an integration with <code>eodag</code> could be interesting in the future to combine the best of both worlds.</p> <h1>How It Works</h1> <p><code>vresto</code> is built on top of the Copernicus Data Space Ecosystem catalog, providing an intuitive Python-first interface for the most common tasks: finding individual products, examining their metadata and spectral bands, and downloading what you need. Whether you prefer clicking on a map, writing a few lines of Python, or using the CLI, <code>vresto</code> keeps you focused on the data rather than the infrastructure.</p> <ul> <li>\ud83d\udd17 <strong>GitHub:</strong> <a href=\"https://github.com/kalfasyan/vresto\">github.com/kalfasyan/vresto</a></li> <li>\ud83d\udcd6 <strong>Documentation:</strong> <a href=\"https://kalfasyan.github.io/vresto\">kalfasyan.github.io/vresto</a></li> <li>\ud83d\udce6 <strong>PyPI:</strong> <a href=\"https://pypi.org/project/vresto/\">pypi.org/project/vresto</a></li> <li>\ud83d\udef0\ufe0f <strong>Data Source:</strong> <a href=\"https://dataspace.copernicus.eu/\">Copernicus Data Space Ecosystem</a></li> </ul> <p><strong>Note:</strong> Free Copernicus account required (get one at dataspace.copernicus.eu). S3 static keys optional for higher usage limits.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kalfasyan\"> /u/kalfasyan </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pw4q8b/vresto_python_toolkit_for_searching_downloading/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pw4q8b/vresto_python_toolkit_for_searching_downloading/\">[comments]</a></span>",
+      "author": "/u/kalfasyan",
+      "published_date": "2025-12-26T13:49:39+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 460,
+      "reading_time": 2,
+      "created_at": "2025-12-26T21:19:47.287403+00:00",
+      "updated_at": "2025-12-26T21:19:47.287405+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "78bf0a1dc9403518509d667b3932a08a",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.26.696574v1?rss=1",
+      "title": "Characterization of aperiodic and theta activity in preterm infants using EEG: Insights into cerebral maturation and inter-individual variability",
+      "content": "Preterm birth disrupts critical processes of brain development, impacting the maturation of brain structural organisation and functional activity. In early development, theta oscillations are thought to play a key role in supporting the formation and development of functional networks, but their maturation appears vulnerable to prematurity. Traditional EEG spectral analyses have indicated marked development of theta power in early infancy, but these approaches mix oscillatory and non-oscillatory activity, limiting insights into the mechanisms underlying the neural changes. Using spectral parametrisation, we aimed to evaluate developmental changes in aperiodic activity and periodic theta power in infants born very preterm compared to full-terms, and to further explore whether clinical factors and brain microstructure could explain the inter-individual variability within preterms. High-density EEG was acquired during active/REM sleep at term-equivalent age (TEA) and 2 months corrected age (2mCA) in 41 very preterm infants and 13 full-term controls. Spectral parameterization was used to extract aperiodic components (offset, exponent) and periodic theta power globally and across spatial clusters (anterior, central, posterior). From TEA to 2mCA, aperiodic offset and exponent, as well as theta power, increased with no differences between preterm and full-term infants. Cluster-based analyses revealed regional differences at each age and in their maturation over two months. At TEA, aperiodic metrics and theta power were stronger in anterior compared with posterior areas, but this regional landscape shifted by 2mCA for aperiodic metrics, driven by pronounced increases in aperiodic offset and exponent in posterior areas from TEA to 2mCA. Within preterms, inter-individual variability in aperiodic and periodic metrics at TEA was partly explained by clinical risk factors and variations in brain microstructure, as assessed with diffusion MRI at the same age. Male sex was characterised by lower theta power; lower gestational age at birth was associated with lower exponent; being small for gestational age was related to higher theta power, and invasive ventilation was linked to lower offset and exponent. Additionally, higher theta power correlated with lower cortical fractional anisotropy, consistent with more advanced cortical maturation. Collectively, these findings indicate that EEG spectral parameterization combined with spatial analysis provides a sensitive framework for characterising the postnatal maturation of brain activity in infants, as well as early vulnerabilities associated with prematurity and perinatal adversity.",
+      "author": "Gonzalez-Carpinteiro, A., Nasser, H., Pedoux, A., Devisscher, L., Cai, K., Elbaz, N., Ghozland, C., Gueret, L., Neumane, S., Leprince, Y., Lefebvre, A., Hertz-Pannier, L., Heneau, A., Frerot, A., Sibony, O., Delanoe, C., Barbu-Roth, M., Alison, M., Delorme, R., Biran, V., Dubois, J., Adibpour, P.",
+      "published_date": "2025-12-27T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 368,
+      "reading_time": 1,
+      "created_at": "2025-12-27T10:22:15.807246+00:00",
+      "updated_at": "2025-12-27T12:30:04.188571+00:00",
+      "metadata": {
+        "processed_at": "2025-12-27T12:30:04.188581+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "375b284b89d3a88db40cdcb8479f2854",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.26.696598v1?rss=1",
+      "title": "Differential Cerebral White Matter Tract Alterations in Generalized Anxiety Disorder Revealed by Ultra-High Field 7T Diffusion-Weighted Imaging",
+      "content": "Background: Generalized anxiety disorder (GAD) is characterized by chronic worry and emotional dysregulation, yet its underlying white matter (WM) architecture remains inconsistent in previous neuroimaging studies. This study aimed to delineate microstructural WM alterations in GAD using ultra-high field (7T) diffusion tensor imaging (DTI) and advanced correlational tractography, evaluating their associations with symptom severity and diagnostic-aided value. Methods: Eighty-eight participants (27 GAD, 61 healthy controls, HCs) underwent 7T DTI scanning with 1.5-mm isotropic resolution. Whole-brain correlational tractography was applied to identify tracts exhibiting significant group-related differences in diffusion indices while controlling for demographic covariates. Associations with Hamilton Anxiety Rating Scale (HAM-A) and Penn State Worry Questionnaire (PSWQ) scores were examined, and machine learning-based models were used to assess the diagnostic-aided utility of identified WM features. Results: Two tract bundles showed significant fractional anisotropy (FA) alterations in GAD: decreased FA in the right prefrontal pathway (P-FDR = 0.039) and increased FA in the right cingulum (P-FDR < 0.001). The anterior portions of both tracts exhibited stronger effects of GAD. FA in the right cingulum positively correlated with HAM-A and PSWQ scores, indicating that greater microstructural coherence was associated with higher anxiety and worry severity (both P-FDR < 0.001). Inclusion of WM features could improve classification performance beyond neuropsychological measures alone. Conclusions: Ultra-high field 7T tractometry revealed a differential pattern of WM abnormalities in GAD, suggesting weakened prefrontal control and hyper-integrated cingulate connectivity as structural correlates of emotional dysregulation. These findings indicate the potential of 7T DTI markers for advancing mechanistic and diagnostic understanding of GAD.",
+      "author": "Chen, C.-L., Wu, M., Chi, Y., Rose, M., Weber, J. C., Lamb, S. T., Jin, H., Ibrahim, T. S., Ladouceur, C. D., Chang, Y.-F., Tseng, K. Y., Aizenstein, H. J., Yang, S.",
+      "published_date": "2025-12-27T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 254,
+      "reading_time": 1,
+      "created_at": "2025-12-27T10:22:15.807190+00:00",
+      "updated_at": "2025-12-27T12:30:04.188585+00:00",
+      "metadata": {
+        "processed_at": "2025-12-27T12:30:04.188587+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "81655bf0cca7966e6ece59b69c8de6c6",
+      "url": "https://www.biorxiv.org/content/10.64898/2025.12.26.696619v1?rss=1",
+      "title": "Bivalent habenula modulation of human monoaminergic midbrain and cortical pathways",
+      "content": "The habenula is implicated in signaling negative reward prediction errors (RPE), yet direct causal evidence demonstrating its influence on downstream human brain circuits is limited. Using ultra-high field (7T) fMRI and dynamic causal modelling across two negative RPE-inducing experimental tasks, we characterize habenula-directed connectivity with monoaminergic midbrain and cortical pathways in healthy adults. Negative feedback drove strong habenula inhibition of ventral tegmental area and dorsal raphe nucleus activity, while positive feedback had an excitatory effect. These core effects are replicated across reversal learning and perceptual decision uncertainty tasks, establishing a generalizable mechanism for behavioral adaptation. Task-specific modulatory effects emerged in pathways between the subcortical and cortical regions (ventral tegmental area[-&gt;]dorsal anterior cingulate cortex, dorsal raphe nucleus[-&gt;]medial prefrontal cortex, and dorsal anterior cingulate cortex[-&gt;]habenula), revealing context-dependent cortical elaboration of negative RPE-driven habenula signals. This provides the first evidence in humans for bivalent causal modulation of habenula function on monoaminergic midbrain and cortical pathways, demonstrating how the brain integrates negative and positive signals to guide adaptive behavior.",
+      "author": "Hudson, L. J., Davey, C. G., Steward, T., Kung, P.-H., Dai, Y., Unsworth, L., Jamieson, A. J., Moffat, B. A., Glarin, R., Harrison, B. J.",
+      "published_date": "2025-12-27T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 165,
+      "reading_time": 1,
+      "created_at": "2025-12-27T10:22:15.807139+00:00",
+      "updated_at": "2025-12-27T12:30:04.188590+00:00",
+      "metadata": {
+        "processed_at": "2025-12-27T12:30:04.188592+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a0723cd9de64d1f9d3c91cdd86ccb8ae",
+      "url": "https://www.slashgeek.net/2016/05/17/cloudflare-is-ruining-the-internet-for-me/",
+      "title": "Cloudflare Is Ruining the Internet",
+      "content": "<p>Article URL: <a href=\"https://www.slashgeek.net/2016/05/17/cloudflare-is-ruining-the-internet-for-me/\">https://www.slashgeek.net/2016/05/17/cloudflare-is-ruining-the-internet-for-me/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46400490\">https://news.ycombinator.com/item?id=46400490</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "author": "nomilk",
+      "published_date": "2025-12-27T09:33:14+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-27T10:21:34.297536+00:00",
+      "updated_at": "2025-12-27T12:30:04.188594+00:00",
+      "metadata": {
+        "processed_at": "2025-12-27T12:30:04.188596+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "a7e2f8696491da63e761e0b7d3570cf9",
       "url": "https://github.com/mruby/mruby",
@@ -282,86 +362,6 @@
       "updated_at": "2025-12-27T08:20:32.412205+00:00",
       "metadata": {
         "processed_at": "2025-12-27T08:20:32.412207+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "55214c83ec192645e66e421473f24467",
-      "url": "https://george.mand.is/2025/09/more-dynamic-cronjobs/",
-      "title": "More Dynamic Cronjobs",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46399576\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-27T06:10:42+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-27T07:19:36.511981+00:00",
-      "updated_at": "2025-12-27T08:20:32.412210+00:00",
-      "metadata": {
-        "processed_at": "2025-12-27T08:20:32.412212+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "55214c83ec192645e66e421473f24467",
-      "url": "https://george.mand.is/2025/09/more-dynamic-cronjobs/",
-      "title": "More Dynamic Cronjobs",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46399576\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-27T06:10:42+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-27T07:19:36.511981+00:00",
-      "updated_at": "2025-12-27T08:20:32.412210+00:00",
-      "metadata": {
-        "processed_at": "2025-12-27T08:20:32.412212+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8fb8e651192ead1045e9d737ebe74952",
-      "url": "https://xania.org/202512/20-simd-city",
-      "title": "SIMD City: Auto-Vectorisation",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46336019\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-20T13:25:40+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-27T06:32:37.530784+00:00",
-      "updated_at": "2025-12-27T08:20:32.412218+00:00",
-      "metadata": {
-        "processed_at": "2025-12-27T08:20:32.412220+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f8107d2322c78f7db77167f5a158c592",
-      "url": "https://www.eff.org/deeplinks/2025/12/ai-police-reports-year-review",
-      "title": "AI Police Reports: Year in Review",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46367195\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-23T17:30:15+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-27T05:45:38.207658+00:00",
-      "updated_at": "2025-12-27T06:23:49.510084+00:00",
-      "metadata": {
-        "processed_at": "2025-12-27T06:23:49.510093+00:00",
         "processing_method": "github_actions"
       }
     }
