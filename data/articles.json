@@ -1,5 +1,21 @@
 [
   {
+    "id": "80d41b25449cc59c2eadb5e9790ceaff",
+    "url": "https://gmpy.dev/blog/2025/psutil-heap-introspection-apis",
+    "title": "Detect memory leaks of C extensions with psutil and psleak",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46376608\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-24T15:53:41+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-27T15:20:02.612642+00:00",
+    "updated_at": "2025-12-27T15:20:02.612643+00:00"
+  },
+  {
     "id": "4abf903e26fec7957658c15efeee3be5",
     "url": "http://ieeexplore.ieee.org/document/11003397",
     "title": "Improving Calibration of EMG-Informed Neuromusculoskeletal Models Through Differentiable Physics and Muscle Synergies",
@@ -17242,25 +17258,5 @@
     "reading_time": 1,
     "created_at": "2025-12-22T14:22:12.995007+00:00",
     "updated_at": "2025-12-22T14:22:12.995009+00:00"
-  },
-  {
-    "id": "a8199a3a87c4d4eda56eebe923889c3f",
-    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2b0f",
-    "title": "EEG-based meditation decoding: tackling subject variability with spatial and temporal alignment",
-    "content": "Objective. Meditation and mindfulness are increasingly recognized as important in improving mental well-being. However, electroencephalography (EEG)-based neurofeedback systems supporting these practices typically fail to generalize to unseen subjects. This study investigates the application of both spatial and spectral alignment to EEG to improve the classification of meditation and rest states for new subjects without any model retraining. Approach. Two unsupervised domain adaptation techniques are employed to reduce differences between subjects in their EEG recordings. The first, Riemannian Space Data Alignment (RSDA), adjusts and brings together patterns of brain activity across electrodes (spatial domain). The second, Convolutional Monge Mapping Normalization (CMMN), aligns the distribution of brain rhythms across frequencies (spectral domain). Each method is evaluated separately, in combination, and in interaction with z-score normalization. Classification between meditation and rest is performed on the aligned time series using EEGNet, a compact convolutional neural network architecture, with leave-one-subject-out (LOSO) cross-validation to assess generalization across subjects. All experiments are based on a publicly available dataset of meditation EEG recordings from 53 subjects, including both novice and expert meditators. Main results. The combined RSDA+CMMN approach significantly improved LOSO classification accuracy (66.6%) compared to non-aligned (55.7%) and z-score normalized (59.6%) baselines, even though it did not improve overall harmonization. Spectral analysis identified consistent classification contributions from the Theta (4\u20138\u2009Hz), Alpha (8\u201314\u2009Hz), and Beta (14\u201330\u2009Hz) bands, while spatial analysis highlighted Frontopolar and Temporal regions as critical for distinguishing the mental states of meditation and rest. Significance. This work is the first to explore both spatial and spectral alignment in subject-independent meditation decoding for improved cross-subject generalization. Aligning EEG time series without retraining provides a practical solution for real-time neurofeedback, thereby reducing subject variability and paving the way toward calibration-free neurotechnology that supports mental well-being.",
-    "author": "Angeliki-Ilektra Karaiskou, Carolina Varon, Cem Ates Musluoglu, Kaat Alaerts and Maarten De Vos",
-    "published_date": "2025-12-22T00:00:00+00:00",
-    "source": "Journal Neural Engineering",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 290,
-    "reading_time": 1,
-    "created_at": "2025-12-22T13:35:11.209798+00:00",
-    "updated_at": "2025-12-22T14:16:58.055283+00:00",
-    "metadata": {
-      "processed_at": "2025-12-22T14:16:58.055294+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]
