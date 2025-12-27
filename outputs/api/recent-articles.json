@@ -1,7 +1,71 @@
 {
-  "last_updated": "2025-12-27T18:53:54.719543+00:00",
+  "last_updated": "2025-12-27T19:17:25.681087+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "138dbc20af95ce55414e7d62214f9607",
+      "url": "https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab",
+      "title": "Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings",
+      "content": "<p>&#160;</p>\n<p>The post <a href=\"https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab\">Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
+      "author": "Nancy Zimmerman",
+      "published_date": "2025-09-08T16:27:03+00:00",
+      "source": "Embs",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 17,
+      "reading_time": 1,
+      "created_at": "2025-12-27T19:17:06.075334+00:00",
+      "updated_at": "2025-12-27T19:17:06.075336+00:00"
+    },
+    {
+      "id": "38254576a99ab20bf29d51f66fd1e77e",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1649440",
+      "title": "SynSpine: an automated workflow for the generation of longitudinal spinal cord synthetic MRI data",
+      "content": "BackgroundSpinal cord atrophy is a key biomarker for tracking disease progression in neurological disorders, including multiple sclerosis, amyotrophic lateral sclerosis, and spinal cord injury. Recent MRI advancements have improved atrophy detection, particularly in the cervical region, facilitating longitudinal studies. However, validating atrophy quantification algorithms remains challenging due to limited ground truth data.ObjectiveThis study introduces SynSpine, a workflow for generating synthetic spinal cord MRI data (i.e., digital phantoms) with controlled levels of artificial atrophy. These phantoms support the development and preliminary validation of spinal cord imaging pipelines designed to measure degeneration over time.MethodsThe workflow consists of two phases: (1) generating synthetic MR images by isolating, extracting and scaling the spinal cord, simulating atrophy on the PAM50 template; (2) performing non-rigid registration to align the synthetic images with the subject\u2019s native space, ensuring accurate anatomical correspondence. A proof-of-concept application utilizing the Active Surface and Reg methods implemented in Jim demonstrated its effectiveness in detecting atrophy across various levels of simulated atrophy and noise.ResultsSynSpine successfully generates synthetic spinal cord images with varying atrophy levels. Non-rigid registration did not significantly affect atrophy measurements. Atrophy estimation errors, estimated using Active Surface and Reg methods, varied with both simulated atrophy magnitude and noise level, exhibiting region-dependent differences. Increased noise led to higher measurement errors.ConclusionThis work presents a novel and modular framework for simulating spinal cord atrophy data using digital phantoms, offering a controlled setting for testing spinal cord analysis pipelines. As the simulated atrophy may over-simplify in vivo conditions, future research will focus on enhancing the realism of the synthetic dataset by simulating additional pathologies, thus improving its application for evaluating spinal cord atrophy in clinical and research contexts.",
+      "author": "Licinio Craveiro",
+      "published_date": "2025-12-17T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 273,
+      "reading_time": 1,
+      "created_at": "2025-12-27T19:16:46.361716+00:00",
+      "updated_at": "2025-12-27T19:16:46.361721+00:00"
+    },
+    {
+      "id": "215fd43484e41fb9048f9f5ebdbbf00d",
+      "url": "https://www.economist.com/united-states/2025/12/18/toll-roads-are-spreading-in-america",
+      "title": "Toll roads are spreading in America",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46403992\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-27T18:31:27+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-27T19:16:13.425499+00:00",
+      "updated_at": "2025-12-27T19:16:13.425500+00:00"
+    },
+    {
+      "id": "ed90d428f6af58f3b0cb5b25d9b08b6b",
+      "url": "https://ossa-ma.github.io/blog/groq",
+      "title": "Nvidia's $20B Antitrust Loophole (Not an Acquisition)",
+      "content": "<p>Article URL: <a href=\"https://ossa-ma.github.io/blog/groq\">https://ossa-ma.github.io/blog/groq</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46403559\">https://news.ycombinator.com/item?id=46403559</a></p>\n<p>Points: 8</p>\n<p># Comments: 2</p>",
+      "author": "ossa-ma",
+      "published_date": "2025-12-27T17:42:46+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-27T19:16:12.307549+00:00",
+      "updated_at": "2025-12-27T19:16:12.307551+00:00"
+    },
     {
       "id": "8b44827759d3f5c2d433f9dfc5b27568",
       "url": "https://www.nature.com/articles/s41419-025-08399-x",
@@ -273,78 +337,6 @@
         "processed_at": "2025-12-27T18:21:56.994142+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "4621ced0a9c1ccd8db91c0f6fe0bcbac",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20220816-00/?p=106994",
-      "title": "Janet Jackson had the power to crash laptop computers (2022)",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46403291\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-27T17:16:08+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-27T17:40:57.534591+00:00",
-      "updated_at": "2025-12-27T18:21:56.994145+00:00",
-      "metadata": {
-        "processed_at": "2025-12-27T18:21:56.994146+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4621ced0a9c1ccd8db91c0f6fe0bcbac",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20220816-00/?p=106994",
-      "title": "Janet Jackson had the power to crash laptop computers (2022)",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46403291\">Comments</a>",
-      "author": "",
-      "published_date": "2025-12-27T17:16:08+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2025-12-27T17:40:57.534591+00:00",
-      "updated_at": "2025-12-27T18:21:56.994145+00:00",
-      "metadata": {
-        "processed_at": "2025-12-27T18:21:56.994146+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c21dac6942ed3767b45ef8ca6c689b9d",
-      "url": "http://ieeexplore.ieee.org/document/11005463",
-      "title": "Hybrid KLT\u2014LSTM Tracking for Robust Organ Motion Monitoring in 2D Ultrasound-Guided End-Organ Therapies",
-      "content": "Objective: Recent research highlights the potential of ultrasound (US) stimulation as a noninvasive tool for modulating neural and cellular signaling in the spleen and liver to treat inflammatory diseases and diabetes. However, challenges like nerve activation failures, off-target stimulation, and organ motion during respiration can affect treatment efficacy. This study introduces a novel tracking framework for accurate liver and spleen motion tracking using US imaging to overcome these challenges. Methods: The tracking framework integrates an enhanced Kanade\u2013Lucas\u2013Tomasi (EKLT) tracker with a long short-term memory (LSTM) predictor. The EKLT tracker provides precise annotations that improve LSTM training, while the LSTM compensates for occlusions and noise by making predictions based on prior data and dynamically adjusting the region of interest (ROI). Spleen motion tracking was evaluated using 40 recordings from 10 participants, each undergoing four distinct breathing patterns. Additionally, the method was evaluated on a liver motion dataset from MICCAI, collected from 9 subjects. Results: Spleen tracking was most accurate during slow, shallow breathing, with an average error of 0.4 $\\pm$ 0.4 mm, and had an average error of 1.37 $\\pm$ 0.9 mm during fast, deep breathing. Liver tracking results showed high accuracy with an average error of 0.3 $\\pm$ 0.2 mm. Conclusion: The EKLT-LSTM framework offers advantages over previous tracking models, providing high accuracy in tracking liver and spleen motion under occlusion and noisy conditions. Significance: The EKLT-LSTM is suitable for end-organ modulation applications and can be adapted to other ultrasound-guided therapies and bioelectronic medicine.",
-      "author": "",
-      "published_date": "2025-05-15T13:17:00+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 244,
-      "reading_time": 1,
-      "created_at": "2025-12-27T17:18:58.403342+00:00",
-      "updated_at": "2025-12-27T17:18:58.403343+00:00"
-    },
-    {
-      "id": "2c6df70fdce8d45fe5b34a1294ca7808",
-      "url": "http://ieeexplore.ieee.org/document/11005693",
-      "title": "Personalizing the Pressure Reactivity Index for Quantifying Cerebral Autoregulation in Neurocritical Care",
-      "content": "Objective: The Pressure Reactivity Index (PRx) is a common metric for assessing cerebral autoregulation in neurocritical care. This study aimed to enhance the clinical utility of PRx by developing a personalized PRx algorithm (pPRx) and identifying ideal hyperparameters. Methods: Algorithmic errors were quantified using simulated data and multimodal monitoring data from traumatic brain injury patients from the Track-TBI dataset. Using linear regression, heart rate was identified as a potential cause of PRx error. The pPRx method was developed by reparameterizing PRx averaging to heartbeats. Ideal hyperparameters for the standard PRx algorithm were identified that minimized algorithmic errors. Results: PRx was sensitive to hyperparameters and patient variability. Errors were related to patient heart rates. By parameterizing PRx to heartbeats, the pPRx methodology significantly reduced noise and sensitivity to both patient variability and hyperparameter selection. In the standard PRx algorithm, averaging windows of 10 seconds and correlation windows of 40 samples resulted in the lowest overall error. Conclusion: Personalized PRx enhances the robustness and accuracy of cerebral autoregulation estimation by addressing patient- and hyperparameter-sensitivity. This improvement is crucial for reliable clinical decision-making in neurocritical care. Significance: Robust estimation of cerebral autoregulation would be beneficial for identifying precision medicine targets and improving outcomes for neurocritical care patients. We systematically increased the robustness of PRx to make it more consistent across patient populations.",
-      "author": "",
-      "published_date": "2025-05-15T13:17:00+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 219,
-      "reading_time": 1,
-      "created_at": "2025-12-27T17:18:58.403301+00:00",
-      "updated_at": "2025-12-27T17:18:58.403302+00:00"
     }
   ]
 }
