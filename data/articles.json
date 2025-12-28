@@ -1,5 +1,37 @@
 [
   {
+    "id": "83bf2f1893b165d571efe7c5ebcfb9ef",
+    "url": "https://news.ycombinator.com/item?id=46411500",
+    "title": "Ask HN: Best Podcasts of 2025?",
+    "content": "<p>The Rest is Politics, Leading, Philosophize This and Stratechery (paid) are the podcasts that stood out the most in 2025. Curious what other HNers listen to.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46411500\">https://news.ycombinator.com/item?id=46411500</a></p>\n<p>Points: 23</p>\n<p># Comments: 16</p>",
+    "author": "adriancooney",
+    "published_date": "2025-12-28T14:57:47+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 37,
+    "reading_time": 1,
+    "created_at": "2025-12-28T19:16:57.005059+00:00",
+    "updated_at": "2025-12-28T19:16:57.005060+00:00"
+  },
+  {
+    "id": "26bef9db280b22da37183b939aea007d",
+    "url": "https://www.idc.com/resource-center/blog/global-memory-shortage-crisis-market-analysis-and-the-potential-impact-on-the-smartphone-and-pc-markets-in-2026/",
+    "title": "Global Memory Shortage Crisis: Market Analysis",
+    "content": "<p>Article URL: <a href=\"https://www.idc.com/resource-center/blog/global-memory-shortage-crisis-market-analysis-and-the-potential-impact-on-the-smartphone-and-pc-markets-in-2026/\">https://www.idc.com/resource-center/blog/global-memory-shortage-crisis-market-analysis-and-the-potential-impact-on-the-smartphone-and-pc-markets-in-2026/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46411902\">https://news.ycombinator.com/item?id=46411902</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+    "author": "naves",
+    "published_date": "2025-12-28T15:51:08+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-28T19:16:57.005017+00:00",
+    "updated_at": "2025-12-28T19:16:57.005018+00:00"
+  },
+  {
     "id": "3352595883ccb35de24e20a19b774dd2",
     "url": "https://brain.ieee.org/braininsight-articles/ieee-journal-on-flexible-electronics/",
     "title": "Call for Papers: IEEE Brain Special Issue",
@@ -17386,37 +17418,5 @@
     "reading_time": 1,
     "created_at": "2025-12-23T05:28:09.757191+00:00",
     "updated_at": "2025-12-23T05:28:09.757192+00:00"
-  },
-  {
-    "id": "6c653b695592c068a830d77d56914d88",
-    "url": "https://arxiv.org/abs/2512.19450",
-    "title": "A Rate-Distortion Perspective on the Emergence of Number Sense in Unsupervised Generative Models",
-    "content": "arXiv:2512.19450v1 Announce Type: new \nAbstract: Number sense is a core cognitive ability supporting various adaptive behaviors and is foundational for mathematical learning. Here, we study its emergence in unsupervised generative models through the lens of rate-distortion theory (RDT), a normative framework for understanding information processing under limited resources. We train $\\beta$-Variational Autoencoders -- which embody key formal principles of RDT -- on synthetic images containing varying numbers of items, as commonly used in numerosity perception research. We systematically vary the encoding capacity and assess the models' sensitivity to numerosity and the robustness of the emergent numerical representations through a comprehensive set of analyses, including numerosity estimation and discrimination tasks, latent-space analysis, generative capabilities and generalization to novel stimuli. In line with RDT, we find that behavioral performance in numerosity perception and the ability to extract numerosity unconfounded by non-numerical visual features scale with encoding capacity according to a power law. At high capacity, the unsupervised model develops a robust neural code for numerical information, with performance closely approximating a supervised model explicitly trained for visual enumeration. It exhibits strong generative abilities and generalizes well to novel images, whereas at low capacity, the model shows marked deficits in numerosity perception and representation. Finally, comparison with human data shows that models trained at intermediate capacity levels span the full range of human behavioral performance while still developing a robust emergent numerical code. In sum, our results show that unsupervised generative models can develop a number sense and demonstrate that rate-distortion theory provides a powerful information-theoretic framework for understanding how capacity constraints shape numerosity perception.",
-    "author": "Leo D'Amato, Davide Nuzzi, Alberto Testolin, Ivilin Peev Stoianov, Marco Zorzi, Giovanni Pezzulo",
-    "published_date": "2025-12-23T05:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 262,
-    "reading_time": 1,
-    "created_at": "2025-12-23T05:28:09.757155+00:00",
-    "updated_at": "2025-12-23T05:28:09.757157+00:00"
-  },
-  {
-    "id": "7b18ebcb58248c5f83cf68779d0b7def",
-    "url": "https://arxiv.org/abs/2512.18585",
-    "title": "Deep Teleportation: Quantum Simulation of Conscious Report in Attentional Blink",
-    "content": "arXiv:2512.18585v1 Announce Type: new \nAbstract: Recent quantum models of cognition have successfully simulated several interesting effects in human experimental data, from vision to reasoning and recently even consciousness. The latter case, consciousness has been a quite challenging phenomenon to model, and most efforts have been through abstract mathematical quantum methods, mainly focused on conceptual issues. Classical (non-quantum) models of consciousness-related experiments exist, but they generally fail to align well with human data. We developed a straightforward quantum model to simulate conscious reporting of seeing or missing competing stimuli within the famous attentional blink paradigm. In an attentional blink task, a target stimulus (T2) that appears after a previous one (T1) can be consciously reported if the delay between presenting them is short enough (called lag 1), otherwise it can be rendered invisible during the so-called refractory period of attention (lags 2 to 6 and even longer). For modeling this phenomenon, we employed a three-qubit entanglement ansatz circuit in the form of a deep teleportation channel instead of the well-known EPR channel. While reporting the competing stimuli was supposed to be the classical measurement outcomes, the effect of distractor stimuli (i.e., masks, if any) was encoded simply as random angle rotations. The simulation outcome for different states was measured, and the classical outcome probabilities were further used as inputs to a simple linear neural network. The result revealed a non-linear, alternating state pattern that closely mirrors human responses in conscious stimuli reporting. The main result was a successful simulation of Lag 1 sparing, lag 7 divergence, and masking effect through probabilistic outcome of measurement in different conditions.",
-    "author": "Ahmad Sohrabi",
-    "published_date": "2025-12-23T05:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 266,
-    "reading_time": 1,
-    "created_at": "2025-12-23T05:28:09.757119+00:00",
-    "updated_at": "2025-12-23T05:28:09.757120+00:00"
   }
 ]
