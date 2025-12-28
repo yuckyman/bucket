@@ -1,5 +1,21 @@
 [
   {
+    "id": "8d486873b6728e5969fb54b3a44976e8",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1679196",
+    "title": "Cross-modal privacy-preserving synthesis and mixture-of-experts ensemble for robust ASD prediction",
+    "content": "IntroductionAutism Spectrum Disorder (ASD) diagnosis remains complex due to limited access to large-scale multimodal datasets and privacy concerns surrounding clinical data. Traditional methods rely heavily on resource-intensive clinical assessments and are constrained by unimodal or non-adaptive learning models. To address these limitations, this study introduces AutismSynthGen, a privacy-preserving framework for synthesizing multimodal ASD data and enhancing prediction accuracy.Materials and methodsThe proposed system integrates a Multimodal Autism Data Synthesis Network (MADSN), which employs transformer-based encoders and cross-modal attention within a conditional GAN to generate synthetic data across structural MRI, EEG, behavioral vectors, and severity scores. Differential privacy is enforced via DP-SGD (\u03b5\u202f\u2264\u202f1.0). A complementary Adaptive Multimodal Ensemble Learning (AMEL) module, consisting of five heterogeneous experts and a gating network, is trained on both real and synthetic data. Evaluation is conducted on the ABIDE, NDAR, and SSC datasets using metrics such as AUC, F1 score, MMD, KS statistic, and BLEU.ResultsSynthetic augmentation improved model performance, yielding validation AUC gains of \u2265 0.04. AMEL achieved an AUC of 0.98 and an F1 score of 0.99 on real data and approached near-perfect internal performance (AUC\u202f\u2248\u202f1.00, F1\u202f\u2248\u202f1.00) when synthetic data were included. Distributional metrics (MMD\u202f=\u202f0.04; KS\u202f=\u202f0.03) and text similarity (BLEU\u202f=\u202f0.70) demonstrated high fidelity between the real and synthetic samples. Ablation studies confirmed the importance of cross-modal attention and entropy-regularized expert gating.DiscussionAutismSynthGen offers a scalable, privacy-compliant solution for augmenting limited multimodal datasets and enhancing ASD prediction. Future directions include semi-supervised learning, explainable AI for clinical trust, and deployment in federated environments to broaden accessibility while maintaining privacy.",
+    "author": "Karthiga M.",
+    "published_date": "2025-11-19T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 262,
+    "reading_time": 1,
+    "created_at": "2025-12-28T05:48:22.352978+00:00",
+    "updated_at": "2025-12-28T05:48:22.352980+00:00"
+  },
+  {
     "id": "d4753882f18217ccf61903c5d03a7914",
     "url": "https://www.biorxiv.org/content/10.64898/2025.12.27.696696v1?rss=1",
     "title": "Topological data analysis reveals rigid brain-state dynamics during self-viewing in trait rumination",
@@ -17292,26 +17308,6 @@
     "updated_at": "2025-12-23T01:15:25.261987+00:00",
     "metadata": {
       "processed_at": "2025-12-23T01:15:25.261988+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "eb2d00d206284ec6e2c022cdfb3e96c3",
-    "url": "https://www.reddit.com/r/Python/comments/1psvsrq/i_built_a_small_python_library_to_make/",
-    "title": "I built a small Python library to make simulations reproducible and audit-ready",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I kept running into a recurring issue with Python simulations:</p> <p>The results were fine, but months later I couldn\u2019t reliably answer:</p> <ul> <li><em>exactly</em> how a run was produced</li> <li>which assumptions were implicit</li> <li>whether two runs were meaningfully comparable</li> </ul> <p>This isn\u2019t a solver problem\u2014it\u2019s a <strong>provenance and trust</strong> problem.</p> <p>So I built a small library called <strong>phytrace</strong> that wraps existing ODE simulations (currently <code>scipy.integrate</code>) and adds:</p> <ul> <li>environment + dependency capture</li> <li>deterministic seed handling</li> <li>runtime invariant checks</li> <li>automatic \u201cevidence packs\u201d (data, plots, logs, config)</li> </ul> <p>Important:<br /> This is not certification or formal verification.<br /> It\u2019s audit-ready tracing, not guarantees.</p> <p>I built it because I needed it. I\u2019m sharing it to see if others do too.</p> <p>GitHub: <a href=\"https://github.com/mdcanocreates/phytrace\">https://github.com/mdcanocreates/phytrace</a><br /> PyPI: <a href=\"https://pypi.org/project/phytrace/\">https://pypi.org/project/phytrace/</a></p> <p>Would love feedback on:</p> <ul> <li>whether this solves a real pain point for you</li> <li>what\u2019s missing</li> <li>what would make it actually usable day-to-day</li> </ul> <p>Happy to answer questions or take criticism.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Any_Ad3278\"> /u/Any_Ad3278 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1psvsrq/i_built_a_small_python_library_to_make/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1psvsrq/i_built_a_small_python_library_to_make/\">[comments]</a></span>",
-    "author": "/u/Any_Ad3278",
-    "published_date": "2025-12-22T09:54:26+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 175,
-    "reading_time": 1,
-    "created_at": "2025-12-22T23:20:32.672021+00:00",
-    "updated_at": "2025-12-23T01:15:25.261991+00:00",
-    "metadata": {
-      "processed_at": "2025-12-23T01:15:25.261992+00:00",
       "processing_method": "github_actions"
     }
   }
