@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-12-28T09:22:59.929826+00:00",
+  "last_updated": "2025-12-28T09:43:55.592740+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "904edef5887fe6095e9de6e8d476fc05",
+      "url": "https://news.ycombinator.com/item?id=46409375",
+      "title": "Ask HN: By what percentage has AI changed your output as a software engineer?",
+      "content": "<p>Compared to the era before AI coding tools (say, ~2 years ago), if you had to put a number on it, how much has your productivity as a SWE changed?<p>I think about this a lot; am keen to hear what others' perceptions are. For me; the short answer: about 2x (i.e. 100% faster than pre LLMs). Long answer:<p>When I thoroughly understand the domain (i.e. business logic and real world problem I'm solving), and am familiar with the tech stack, I'm about ~10x faster for the same or better code quality.<p>When I don't understand the domain, prompts will be ambiguous or inadequate, the LLM will guess, it will do a month's work in a day, but I'll spend the next 3 weeks refactoring and realising how trash the code was, due to how trash the prompt was. All in all, it's probably still faster than pre AI, but can give a demoralising psychological phenomena where you <i>think</i> something's nearly completed only to spend weeks debugging it, refactoring, and often tossing it away and starting over.<p>In an unfamiliar tech stack, I can't always spot obvious mistakes (mistakes caused by the AI or the prompt), so it's less productive and more risky.<p>10-15% of the productivity improvement is due to improvements in the dev environment. I open ~/dotfiles with cursor and tell it a problem I have or ask for a specific improvement. It usually modifies .zshrc, .vimrc or similar (and iterates as necessary if the first attempt didn't work). Due to how fast this is (e.g. 5 minutes), I've made about 20 little tweaks that previously didn't justify the time. They definitely make me happier as well as a bit more productive.<p>But overall, taking everything into account, I'd say I'm about 2x as productive as before LLMs.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46409375\">https://news.ycombinator.com/item?id=46409375</a></p>\n<p>Points: 9</p>\n<p># Comments: 12</p>",
+      "author": "nomilk",
+      "published_date": "2025-12-28T08:15:35+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 305,
+      "reading_time": 1,
+      "created_at": "2025-12-28T09:42:42.033157+00:00",
+      "updated_at": "2025-12-28T09:42:42.033164+00:00"
+    },
     {
       "id": "31bc8820d87e19cccc0ee91e4ff05c86",
       "url": "https://manus.im/blog/manus-100m-arr",
@@ -353,22 +369,6 @@
       "reading_time": 1,
       "created_at": "2025-12-28T04:46:41.074467+00:00",
       "updated_at": "2025-12-28T04:46:41.074468+00:00"
-    },
-    {
-      "id": "613a712795cae89d04b5c7e3674d9877",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1590994",
-      "title": "Adaptive-expert-weight-based load balance scheme for dynamic routing of MoE",
-      "content": "Load imbalance is a major performance bottleneck in training mixture-of-experts (MoE) models, as unbalanced expert loads can lead to routing collapse. Most existing approaches address this issue by introducing auxiliary loss functions to balance the load; however, the hyperparameters within these loss functions often need to be tuned for different tasks. Furthermore, increasing the number of activated experts tends to exacerbate load imbalance, while fixing the activation count can reduce the model\u2019s confidence in handling difficult tasks. To address these challenges, this paper proposes a dynamically balanced routing strategy that employs a threshold-based dynamic routing algorithm. After each routing step, the method adjusts expert weights to influence the load distribution in the subsequent routing. Unlike loss-function-based balancing methods, our approach operates directly at the routing level, avoiding gradient perturbations that could degrade model quality, while dynamically routing to make more efficient use of computational resources. Experiments on Natural Language Understanding (NLU) benchmarks demonstrate that the proposed method achieves accuracy comparable to top-2 routing, while significantly reducing the load standard deviation (e.g., from 12.25 to 1.18 on MNLI). In addition, threshold-based dynamic expert activation reduces model parameters and provides a new perspective for mitigating load imbalance among experts.",
-      "author": "Peng Cheng",
-      "published_date": "2025-10-14T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 197,
-      "reading_time": 1,
-      "created_at": "2025-12-28T04:46:26.866014+00:00",
-      "updated_at": "2025-12-28T04:46:26.866016+00:00"
     }
   ]
 }

@@ -1,5 +1,21 @@
 [
   {
+    "id": "904edef5887fe6095e9de6e8d476fc05",
+    "url": "https://news.ycombinator.com/item?id=46409375",
+    "title": "Ask HN: By what percentage has AI changed your output as a software engineer?",
+    "content": "<p>Compared to the era before AI coding tools (say, ~2 years ago), if you had to put a number on it, how much has your productivity as a SWE changed?<p>I think about this a lot; am keen to hear what others' perceptions are. For me; the short answer: about 2x (i.e. 100% faster than pre LLMs). Long answer:<p>When I thoroughly understand the domain (i.e. business logic and real world problem I'm solving), and am familiar with the tech stack, I'm about ~10x faster for the same or better code quality.<p>When I don't understand the domain, prompts will be ambiguous or inadequate, the LLM will guess, it will do a month's work in a day, but I'll spend the next 3 weeks refactoring and realising how trash the code was, due to how trash the prompt was. All in all, it's probably still faster than pre AI, but can give a demoralising psychological phenomena where you <i>think</i> something's nearly completed only to spend weeks debugging it, refactoring, and often tossing it away and starting over.<p>In an unfamiliar tech stack, I can't always spot obvious mistakes (mistakes caused by the AI or the prompt), so it's less productive and more risky.<p>10-15% of the productivity improvement is due to improvements in the dev environment. I open ~/dotfiles with cursor and tell it a problem I have or ask for a specific improvement. It usually modifies .zshrc, .vimrc or similar (and iterates as necessary if the first attempt didn't work). Due to how fast this is (e.g. 5 minutes), I've made about 20 little tweaks that previously didn't justify the time. They definitely make me happier as well as a bit more productive.<p>But overall, taking everything into account, I'd say I'm about 2x as productive as before LLMs.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46409375\">https://news.ycombinator.com/item?id=46409375</a></p>\n<p>Points: 9</p>\n<p># Comments: 12</p>",
+    "author": "nomilk",
+    "published_date": "2025-12-28T08:15:35+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 305,
+    "reading_time": 1,
+    "created_at": "2025-12-28T09:42:42.033157+00:00",
+    "updated_at": "2025-12-28T09:42:42.033164+00:00"
+  },
+  {
     "id": "31bc8820d87e19cccc0ee91e4ff05c86",
     "url": "https://manus.im/blog/manus-100m-arr",
     "title": "Manus AI 100M USD ARR",
@@ -17330,21 +17346,5 @@
     "reading_time": 1,
     "created_at": "2025-12-23T01:47:00.369313+00:00",
     "updated_at": "2025-12-23T01:47:00.369315+00:00"
-  },
-  {
-    "id": "d555d74ab823850994e31fdfc89e9b45",
-    "url": "https://www.biorxiv.org/content/10.64898/2025.12.19.695484v1?rss=1",
-    "title": "Selective dysregulation of serotonin dynamics in the anterior cingulate cortex and central amygdala following binge alcohol consumption",
-    "content": "Serotonin (5HT) is a critical modulator of brain function and behavior that is dysregulated in alcohol use disorder (AUD). The anterior cingulate cortex (ACC) and central nucleus of the amygdala (CeA) play distinct roles in AUD and undergo functional changes in 5HT signaling following binge drinking, but our understanding of real-time 5HT dynamics in these structures is lacking. We hypothesized that binge drinking would elicit brain-region specific dysfunction in 5HT dynamics during appetitive and aversive stimuli processing. Using fiber photometry with the GRAB5HT sensor, we identified distinct reward and aversion 5HT signaling motifs in the ACC and CeA. Consumption of alcohol and other tastants elicited a suppression of GRAB5HT signal in the ACC and an increase in 5HT signal in the CeA. In contrast, aversive stimuli similarly increased 5HT in both structures. The effect of binge drinking on 5HT function was surprisingly non-uniform, producing brain-region, sex-, and stimulus-specific dysfunction in 5HT signaling that dramatically shifted across weeks of alcohol experience. This suggests that adaptations in 5HT signaling are specific to neural circuits underlying discrete functions. Optogenetically stimulating 5HT terminals in the ACC and CeA increased avoidance behavior without being overtly rewarding or aversive, and stimulating 5HT release in the ACC blunted alcohol drinking. Together, these data identify distinct 5HT reward and aversion signaling motifs in the ACC and CeA and highlight early binge drinking as a critical stage of 5HT adaptation and a potential window for therapeutic intervention.",
-    "author": "Ritchie, J. L., Eberle, M. R., Roland, A. V., Taxier, L. R., Campeau, M. R., George, B. E., Kooyman, L. S., Kash, T. L.",
-    "published_date": "2025-12-22T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 238,
-    "reading_time": 1,
-    "created_at": "2025-12-23T01:47:00.369271+00:00",
-    "updated_at": "2025-12-23T01:47:00.369277+00:00"
   }
 ]
