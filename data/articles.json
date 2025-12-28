@@ -1,5 +1,37 @@
 [
   {
+    "id": "31bc8820d87e19cccc0ee91e4ff05c86",
+    "url": "https://manus.im/blog/manus-100m-arr",
+    "title": "Manus AI 100M USD ARR",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46409245\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-28T07:45:16+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-28T08:28:34.435144+00:00",
+    "updated_at": "2025-12-28T08:28:34.435146+00:00"
+  },
+  {
+    "id": "31bc8820d87e19cccc0ee91e4ff05c86",
+    "url": "https://manus.im/blog/manus-100m-arr",
+    "title": "Manus AI 100M USD ARR",
+    "content": "<p>Article URL: <a href=\"https://manus.im/blog/manus-100m-arr\">https://manus.im/blog/manus-100m-arr</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46409245\">https://news.ycombinator.com/item?id=46409245</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+    "author": "ms7892",
+    "published_date": "2025-12-28T07:45:16+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-28T08:28:33.114725+00:00",
+    "updated_at": "2025-12-28T08:28:33.114733+00:00"
+  },
+  {
     "id": "dc72b6396929a0cf621b8717632ab43c",
     "url": "https://www.kapwing.com/blog/ai-slop-report-the-global-rise-of-low-quality-ai-videos/",
     "title": "A new research shows that 21-33% of YouTube's feed may consist of AI slop",
@@ -17314,37 +17346,5 @@
     "reading_time": 1,
     "created_at": "2025-12-23T01:47:00.369271+00:00",
     "updated_at": "2025-12-23T01:47:00.369277+00:00"
-  },
-  {
-    "id": "832dc8157f40f3b7bc378b541fa09ac2",
-    "url": "https://www.reddit.com/r/Python/comments/1pt6be5/built_a_terminalbased_encrypted_vault_in_python/",
-    "title": "Built a terminal-based encrypted vault in Python (learning project): PassFX",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi <a href=\"/r/Python\">r/Python</a>! </p> <p>I\u2019m sharing a small side project I built to learn about CLI UX and local encrypted storage in Python.</p> <p><strong>Important note:</strong> this is a learning/side project and <strong>has not</strong> been independently security-audited. I\u2019m not recommending it for high-stakes use. I\u2019m mainly looking for feedback on Python structure, packaging, and CLI design.</p> <h1>What My Project Does</h1> <p>PassFX is a terminal app that stores <strong>text secrets locally</strong> in an encrypted file and lets you:</p> <ul> <li>add / view / update entries</li> <li>search by name/tag</li> <li>store notes like API keys, recovery codes, PINs, etc.</li> </ul> <p>It\u2019s designed to be keyboard-driven and fast, with the goal of a clean \u201capp-like\u201d CLI workflow.</p> <h1>Target Audience</h1> <ul> <li>Python developers who like building/using CLI tools</li> <li>Anyone curious about implementing encrypted local persistence + a searchable CLI UI in Python</li> <li>Not intended for production / \u201cstore your crown jewels\u201d usage unless it\u2019s been properly reviewed/audited</li> </ul> <h1>Comparison</h1> <ul> <li>Unlike cloud-synced managers, this is <strong>local-only</strong> (no accounts, no sync).</li> <li>Unlike browser-based vaults, it\u2019s <strong>terminal-native</strong>.</li> <li>Compared to <code>pass</code> (the Unix password store), I\u2019m aiming for a more structured/interactive CLI flow (search + fields + notes), while keeping everything local.</li> </ul> <h1>Links</h1> <ul> <li>GitHub: <a href=\"https://github.com/dinesh-git17/passfx\">https://github.com/dinesh-git17/passfx</a></li> <li>(Optional) project page: <a href=\"https://passfx.dineshd.dev\">https://passfx.dineshd.dev</a></li> </ul> <h1>Feedback I\u2019d love</h1> <ul> <li>Python packaging/project layout</li> <li>CLI command design + UX</li> <li>Testing approach for a CLI like this</li> <li>\u201cGotchas\u201d I should be aware of when building encrypted local storage (high-level guidance)</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SemanticThreader\"> /u/SemanticThreader </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pt6be5/built_a_terminalbased_encrypted_vault_in_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pt6be5/built_a_terminalbased_encrypted_vault_in_python/\">[comments]</a></span>",
-    "author": "/u/SemanticThreader",
-    "published_date": "2025-12-22T18:02:32+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 259,
-    "reading_time": 1,
-    "created_at": "2025-12-23T01:46:23.884067+00:00",
-    "updated_at": "2025-12-23T01:46:23.884069+00:00"
-  },
-  {
-    "id": "3142946a8350211b32c91f8aeb6c92d3",
-    "url": "https://github.com/FransFaase/MES-replacement",
-    "title": "Show HN: C-compiler to compile TCC for live-bootstrap",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46307099\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-17T23:34:51+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-23T01:46:22.680957+00:00",
-    "updated_at": "2025-12-23T01:46:22.680958+00:00"
   }
 ]
