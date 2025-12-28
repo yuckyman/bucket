@@ -1,5 +1,37 @@
 [
   {
+    "id": "4b596f67008040945acc5053c5928bea",
+    "url": "https://news.ycombinator.com/item?id=46413348",
+    "title": "Tell HN: Google ignores English searches and forces localized results",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46413348\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-28T18:41:25+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-28T19:38:32.768582+00:00",
+    "updated_at": "2025-12-28T19:38:32.768584+00:00"
+  },
+  {
+    "id": "4b596f67008040945acc5053c5928bea",
+    "url": "https://news.ycombinator.com/item?id=46413348",
+    "title": "Tell HN: Google ignores English searches and forces localized results",
+    "content": "<p>Google Search change in a way that I can\u2019t seem to opt out of.<p>I\u2019m based in a non-English-speaking country, but I regularly search in English, especially for technical topics.<p>My Google account, my laptop, my phone, my interface language, and preferences are all set to English; only my physical location and payment methods are local.<p>What happens is that Google increasingly returns localized results in my native language and aggressively applies automatic translation.<p>Some concrete behaviors I\u2019m seeing:<p>- Queries written in English still prioritize pages in Portuguese, even when equivalent English sources exist.<p>- Reddit results are often force-translated instead of linking to the original English content.<p>- \u201cAI mode\u201d responses are always in Portuguese, even when the prompt is clearly in English, with no visible way to force output language.<p>- The UI offers a choice between \u201cPortuguese\u201d and \u201cAll web,\u201d but selecting \u201cAll web\u201d doesn\u2019t reliably return English results nor disable translation.<p>- In practice, explicit query language seems to be overridden by inferred user preferences (location / account language).<p>I\u2019m curious whether others are seeing the same behavior, and whether there\u2019s any way to restore search to become 100% useful again; or what are you using since this really limits search results, especially for technical things.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46413348\">https://news.ycombinator.com/item?id=46413348</a></p>\n<p>Points: 15</p>\n<p># Comments: 14</p>",
+    "author": "jeanlucas",
+    "published_date": "2025-12-28T18:41:25+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 212,
+    "reading_time": 1,
+    "created_at": "2025-12-28T19:38:31.415928+00:00",
+    "updated_at": "2025-12-28T19:38:31.415936+00:00"
+  },
+  {
     "id": "83bf2f1893b165d571efe7c5ebcfb9ef",
     "url": "https://news.ycombinator.com/item?id=46411500",
     "title": "Ask HN: Best Podcasts of 2025?",
@@ -17386,37 +17418,5 @@
     "reading_time": 1,
     "created_at": "2025-12-23T05:28:09.757262+00:00",
     "updated_at": "2025-12-23T05:28:09.757264+00:00"
-  },
-  {
-    "id": "4b0f380f17058399f4a70b917eb22aaa",
-    "url": "https://arxiv.org/abs/2512.18566",
-    "title": "Comparing Dynamical Models Through Diffeomorphic Vector Field Alignment",
-    "content": "arXiv:2512.18566v1 Announce Type: cross \nAbstract: Dynamical systems models such as recurrent neural networks (RNNs) are increasingly popular in theoretical neuroscience for hypothesis-generation and data analysis. Evaluating the dynamics in such models is key to understanding their learned generative mechanisms. However, such evaluation is impeded by two major challenges: First, comparison of learned dynamics across models is difficult because there is no enforced equivalence of their coordinate systems. Second, identification of mechanistically important low-dimensional motifs (e.g., limit sets) is intractable in high-dimensional nonlinear models such as RNNs. Here, we propose a comprehensive framework to address these two issues, termed Diffeomorphic vector field alignment FOR learned Models (DFORM). DFORM learns a nonlinear coordinate transformation between the state spaces of two dynamical systems, which aligns their trajectories in a maximally one-to-one manner. In so doing, DFORM enables an assessment of whether two models exhibit topological equivalence, i.e., similar mechanisms despite differences in coordinate systems. A byproduct of this method is a means to locate dynamical motifs on low-dimensional manifolds embedded within higher-dimensional systems. We verified DFORM's ability to identify linear and nonlinear coordinate transformations using canonical topologically equivalent systems, RNNs, and systems related by nonlinear flows. DFORM was also shown to provide a quantification of similarity between topologically distinct systems. We then demonstrated that DFORM can locate important dynamical motifs including invariant manifolds and saddle limit sets within high-dimensional models. Finally, using a set of RNN models trained on human functional MRI (fMRI) recordings, we illustrated that DFORM can identify limit cycles from high-dimensional data-driven models, which agreed well with prior numerical analysis.",
-    "author": "Ruiqi Chen (Division of Biology and Biomedical Sciences, Washington University in St. Louis), Giacomo Vedovati (Department of Electrical and Systems Engineering, Washington University in St. Louis), Todd Braver (Department of Psychological and Brain Sciences, Washington University in St. Louis), ShiNung Ching (Department of Electrical and Systems Engineering, Washington University in St. Louis)",
-    "published_date": "2025-12-23T05:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 260,
-    "reading_time": 1,
-    "created_at": "2025-12-23T05:28:09.757226+00:00",
-    "updated_at": "2025-12-23T05:28:09.757228+00:00"
-  },
-  {
-    "id": "43d4a7c14cc8d7a1a5ce84a0cbbff025",
-    "url": "https://arxiv.org/abs/2512.18471",
-    "title": "The Geometry of Abstraction: Continual Learning via Recursive Quotienting",
-    "content": "arXiv:2512.18471v1 Announce Type: cross \nAbstract: Continual learning systems operating in fixed-dimensional spaces face a fundamental geometric barrier: the flat manifold problem. When experience is represented as a linear trajectory in Euclidean space, the geodesic distance between temporal events grows linearly with time, forcing the required covering number to diverge. In fixed-dimensional hardware, this volume expansion inevitably forces trajectory overlap, manifesting as catastrophic interference. In this work, we propose a geometric resolution to this paradox based on Recursive Metric Contraction. We formalize abstraction not as symbolic grouping, but as a topological deformation: a quotient map that collapses the metric tensor within validated temporal neighborhoods, effectively driving the diameter of local sub-manifolds to zero. We substantiate our framework with four rigorous results. First, the Bounded Capacity Theorem establishes that recursive quotient maps allow the embedding of arbitrarily long trajectories into bounded representational volumes, trading linear metric growth for logarithmic topological depth. Second, the Topological Collapse Separability Theorem, derived via Urysohn's Lemma, proves that recursive quotienting renders non-linearly separable temporal sequences linearly separable in the limit, bypassing the need for infinite-dimensional kernel projections. Third, the Parity-Partitioned Stability Theorem solves the catastrophic forgetting problem by proving that if the state space is partitioned into orthogonal flow and scaffold manifolds, the metric deformations of active learning do not disturb the stability of stored memories. Our analysis reveals that tokens in neural architectures are physically realizable as singularities or wormholes, regions of extreme positive curvature that bridge distant points in the temporal manifold.",
-    "author": "Xin Li",
-    "published_date": "2025-12-23T05:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 247,
-    "reading_time": 1,
-    "created_at": "2025-12-23T05:28:09.757191+00:00",
-    "updated_at": "2025-12-23T05:28:09.757192+00:00"
   }
 ]
