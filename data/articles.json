@@ -1,5 +1,37 @@
 [
   {
+    "id": "96a143a742985b2daf241e86704aca3d",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.27.696670v1?rss=1",
+    "title": "\u03b2-catenin-independent regulation by TCF7L2 underlies isoform redundancy during embryonic thalamic development",
+    "content": "Alternative isoforms of transcription factors are common during brain development, but their functional significance remains poorly defined. One example is TCF7L2, a transcription factor critical for developing the thalamus and autism spectrum-associated gene. It exists in two isoforms from different promoters: the long isoform (L-TCF7L2) with the {beta}-catenin-binding domain, and the shorter isoform (S-TCF7L2), lacking this domain and classically considered a dominant-negative regulator of the L isoform. Here, we investigated the role of TCF7L2 isoforms in thalamic development using total and isoform-specific knockout strategies. Analysis of axonal phenotypes, regional markers, and RNA-seq uncovered that the isoforms are functionally redundant during development. Immunohistochemistry and ChIP-seq showed that in the embryonic thalamus -- unlike in the postnatal thalamus -- TCF7L2 regulates gene expression independently of {beta}-catenin. These findings reveal a switch from {beta}-catenin-independent and isoform-redundant to classical {beta}-catenin-dependent TCF7L2 activity, occurring between the embryonic and postnatal stages. This suggests that alternative promoter usage may, in some contexts, ensure robust availability of the regulatory protein during brain development.",
+    "author": "Gabriel, M. O., Bem, J., Lipiec, M. A., Agarwal, A., Liszewska, E., Baggio, S., Qi, H., Plewczynski, D., Wisniewska, M. B.",
+    "published_date": "2025-12-29T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 165,
+    "reading_time": 1,
+    "created_at": "2025-12-29T10:26:32.349052+00:00",
+    "updated_at": "2025-12-29T10:26:32.349057+00:00"
+  },
+  {
+    "id": "c2b22c23d8633f7efe07654f15d0e40d",
+    "url": "https://github.com/pattern-zones-co/koine",
+    "title": "Koine",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46389325\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-26T04:52:32+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-29T10:25:48.448187+00:00",
+    "updated_at": "2025-12-29T10:25:48.448189+00:00"
+  },
+  {
     "id": "02aeb922a4a3f6935820d4e448e4e90c",
     "url": "https://rubymamistvalove.com/block-editor",
     "title": "Developing a Beautiful and Performant Block Editor in Qt C++ and QML",
@@ -17398,37 +17430,5 @@
     "reading_time": 1,
     "created_at": "2025-12-23T20:24:30.588154+00:00",
     "updated_at": "2025-12-23T20:24:30.588159+00:00"
-  },
-  {
-    "id": "f696dd0700cee6d33cee0d16412c334f",
-    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1630133",
-    "title": "Super-resolution microscopy and deep learning methods: what can they bring to neuroscience: from neuron to 3D spine segmentation",
-    "content": "In recent years, advances in microscopy and the development of novel fluorescent probes have significantly improved neuronal imaging. Many neuropsychiatric disorders are characterized by alterations in neuronal arborization, neuronal loss\u2014as seen in Parkinson\u2019s disease\u2014or synaptic loss, as in Alzheimer\u2019s disease. Neurodevelopmental disorders can also impact dendritic spine morphogenesis, as observed in autism spectrum disorders and schizophrenia. In this review, we provide an overview of the various labeling and microscopy techniques available to visualize neuronal structure, including dendritic spines and synapses. Particular attention is given to available fluorescent probes, recent technological advances in super-resolution microscopy (SIM, STED, STORM, MINFLUX), and segmentation methods. Aimed at biologists, this review presents both classical segmentation approaches and recent tools based on deep learning methods, with the goal of remaining accessible to readers without programming expertise.",
-    "author": "Lydia Danglot",
-    "published_date": "2025-09-29T00:00:00+00:00",
-    "source": "Frontiers Neuroinformatics",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 130,
-    "reading_time": 1,
-    "created_at": "2025-12-23T20:24:22.481463+00:00",
-    "updated_at": "2025-12-23T20:24:22.481465+00:00"
-  },
-  {
-    "id": "1c4de011843d3ad5d75b4767c0221626",
-    "url": "https://www.reddit.com/r/Python/comments/1ptyyiw/iceoryx2_v08_released/",
-    "title": "iceoryx2 v0.8 released",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>It\u2019s Christmas, which means it\u2019s time for the iceoryx2 &quot;Christmas&quot; release!</p> <p>Check it out: <a href=\"https://github.com/eclipse-iceoryx/iceoryx2\">https://github.com/eclipse-iceoryx/iceoryx2</a> Full release announcement: <a href=\"https://ekxide.io/blog/iceoryx2-0.8-release/\">https://ekxide.io/blog/iceoryx2-0.8-release/</a></p> <p>iceoryx2 is a true zero-copy communication middleware designed to build robust and efficient systems. It enables ultra-low-latency communication between processes - comparable to Unix domain sockets or message queues, but significantly faster and easier to use.</p> <p>The library provides language bindings for C, C++, Python, Rust, and C#, and runs on Linux, macOS, Windows, FreeBSD, and QNX, with experimental support for Android and VxWorks.</p> <p>With the new release, we finished the Python language bindings for the blackboard pattern, a key-value repository that can be accessed by multiple processes. And we expanded the <a href=\"https://ekxide.github.io/iceoryx2-book/main/\">iceoryx2 Book</a> with more deep dive articles.</p> <p>I wish you a Merry Christmas and happy hacking if you\u2019d like to experiment with the new features!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/elfenpiff\"> /u/elfenpiff </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ptyyiw/iceoryx2_v08_released/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ptyyiw/iceoryx2_v08_released/\">[comments]</a></span>",
-    "author": "/u/elfenpiff",
-    "published_date": "2025-12-23T16:57:49+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 160,
-    "reading_time": 1,
-    "created_at": "2025-12-23T20:23:53.819961+00:00",
-    "updated_at": "2025-12-23T20:23:53.819963+00:00"
   }
 ]
