@@ -1,5 +1,53 @@
 [
   {
+    "id": "d952cb0a3bff2bd5fba1e27be507d95c",
+    "url": "https://www.gkbrk.com/hotel-music",
+    "title": "Reverse Engineering a Mysterious UDP Stream in My Hotel (2016)",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46366010\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-23T15:21:55+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-30T17:22:06.388328+00:00",
+    "updated_at": "2025-12-30T17:22:06.388329+00:00"
+  },
+  {
+    "id": "a63221df5bf05c06ccf15895e27c5986",
+    "url": "https://github.com/torokernel/torokernel",
+    "title": "Toro: Deploy Applications as Unikernels",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46435418\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-30T17:09:57+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-30T17:22:06.388190+00:00",
+    "updated_at": "2025-12-30T17:22:06.388192+00:00"
+  },
+  {
+    "id": "c949ce10a7aa565dffaf4c006014f793",
+    "url": "https://dfarq.homeip.net/what-happened-to-abit-motherboards/",
+    "title": "What Happened to Abit Motherboards",
+    "content": "<p>Article URL: <a href=\"https://dfarq.homeip.net/what-happened-to-abit-motherboards/\">https://dfarq.homeip.net/what-happened-to-abit-motherboards/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46433915\">https://news.ycombinator.com/item?id=46433915</a></p>\n<p>Points: 5</p>\n<p># Comments: 2</p>",
+    "author": "zdw",
+    "published_date": "2025-12-30T14:58:18+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-30T17:22:05.161336+00:00",
+    "updated_at": "2025-12-30T17:22:05.161344+00:00"
+  },
+  {
     "id": "7d82ef672d384048b10f88169dd2a697",
     "url": "https://www.biorxiv.org/content/10.64898/2025.12.29.696959v1?rss=1",
     "title": "Ensemble Coding of Hidden Objects in Visual Cortex",
@@ -17332,66 +17380,6 @@
     "updated_at": "2025-12-25T08:22:20.801869+00:00",
     "metadata": {
       "processed_at": "2025-12-25T08:22:20.801870+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "e2594c234e9cb7ef7a38b3c0a70ffc6d",
-    "url": "https://arxiv.org/abs/2512.21041",
-    "title": "When LLMs fall short in Deductive Coding: Model Comparison and Human AI Collaboration Workflow Design",
-    "content": "arXiv:2512.21041v1 Announce Type: new \nAbstract: With generative artificial intelligence driving the growth of dialogic data in education, automated coding is a promising direction for learning analytics to improve efficiency. This surge highlights the need to understand the nuances of student-AI interactions, especially those rare yet crucial. However, automated coding may struggle to capture these rare codes due to imbalanced data, while human coding remains time-consuming and labour-intensive. The current study examined the potential of large language models (LLMs) to approximate or replace humans in deductive, theory-driven coding, while also exploring how human-AI collaboration might support such coding tasks at scale. We compared the coding performance of small transformer classifiers (e.g., BERT) and LLMs in two datasets, with particular attention to imbalanced head-tail distributions in dialogue codes. Our results showed that LLMs did not outperform BERT-based models and exhibited systematic errors and biases in deductive coding tasks. We designed and evaluated a human-AI collaborative workflow that improved coding efficiency while maintaining coding reliability. Our findings reveal both the limitations of LLMs -- especially their difficulties with semantic similarity and theoretical interpretations and the indispensable role of human judgment -- while demonstrating the practical promise of human-AI collaborative workflows for coding.",
-    "author": "Zijian Li, Luzhen Tang, Mengyu Xia, Xinyu Li, Naping Chen, Dragan Ga\\v{s}evi\\'c, Yizhou Fan",
-    "published_date": "2025-12-25T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 199,
-    "reading_time": 1,
-    "created_at": "2025-12-25T05:27:42.085616+00:00",
-    "updated_at": "2025-12-25T10:17:29.548752+00:00",
-    "metadata": {
-      "processed_at": "2025-12-25T10:17:29.548754+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "b8de5c3154b68eae5ffa193b9b484e49",
-    "url": "https://arxiv.org/abs/2512.21034",
-    "title": "A Design Study Process Model for Medical Visualization",
-    "content": "arXiv:2512.21034v1 Announce Type: new \nAbstract: We introduce a design study process model for medical visualization based on the analysis of existing medical visualization and visual analysis works, and our own interdisciplinary research experience. With a literature review of related works covering various data types and applications, we identify features of medical visualization and visual analysis research and formulate our model thereafter. Compared to previous design study process models, our new model emphasizes: distinguishing between different stakeholders and target users before initiating specific designs, distinguishing design stages according to analytic logic or cognitive habits, and classifying task types as inferential or descriptive, and further hypothesis-based or hypothesis-free based on whether they involve multiple subgroups. In addition, our model refines previous models according to the characteristics of medical problems and provides referable guidance for each step. These improvements make the visualization design targeted, generalizable, and operational, which can adapt to the complexity and diversity of medical problems. We apply this model to guide the design of a visual analysis method and reanalyze three medical visualization-related works. These examples suggest that the new process model can provide a systematic theoretical framework and practical guidance for interdisciplinary medical visualization research. We give recommendations that future researchers can refer to, report on reflections on the model, and delineate it from existing models.",
-    "author": "Mengjie Fan, Liang Zhou",
-    "published_date": "2025-12-25T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 217,
-    "reading_time": 1,
-    "created_at": "2025-12-25T05:27:42.085580+00:00",
-    "updated_at": "2025-12-25T10:17:29.548757+00:00",
-    "metadata": {
-      "processed_at": "2025-12-25T10:17:29.548758+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "f1ecc649b4a29a5976ad4c649ed26187",
-    "url": "https://arxiv.org/abs/2512.20938",
-    "title": "Pioneering Multimodal Emotion Recognition in the Era of Large Models: From Closed Sets to Open Vocabularies",
-    "content": "arXiv:2512.20938v1 Announce Type: new \nAbstract: Recent advances in multimodal large language models (MLLMs) have demonstrated remarkable multi- and cross-modal integration capabilities. However, their potential for fine-grained emotion understanding remains systematically underexplored. While open-vocabulary multimodal emotion recognition (MER-OV) has emerged as a promising direction to overcome the limitations of closed emotion sets, no comprehensive evaluation of MLLMs in this context currently exists. To address this, our work presents the first large-scale benchmarking study of MER-OV on the OV-MERD dataset, evaluating 19 mainstream MLLMs, including general-purpose, modality-specialized, and reasoning-enhanced architectures. Through systematic analysis of model reasoning capacity, fusion strategies, contextual utilization, and prompt design, we provide key insights into the capabilities and limitations of current MLLMs for MER-OV. Our evaluation reveals that a two-stage, trimodal (audio, video, and text) fusion approach achieves optimal performance in MER-OV, with video emerging as the most critical modality. We further identify a surprisingly narrow gap between open- and closed-source LLMs. These findings establish essential benchmarks and offer practical guidelines for advancing open-vocabulary and fine-grained affective computing, paving the way for more nuanced and interpretable emotion AI systems. Associated code will be made publicly available upon acceptance.",
-    "author": "Jing Han, Zhiqiang Gao, Shihao Gao, Jialing Liu, Hongyu Chen, Zixing Zhang, Bj\\\"orn W. Schuller",
-    "published_date": "2025-12-25T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 190,
-    "reading_time": 1,
-    "created_at": "2025-12-25T05:27:42.085546+00:00",
-    "updated_at": "2025-12-25T10:17:29.548760+00:00",
-    "metadata": {
-      "processed_at": "2025-12-25T10:17:29.548762+00:00",
       "processing_method": "github_actions"
     }
   }
