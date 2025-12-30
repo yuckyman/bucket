@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-29T23:42:38.042024+00:00",
+  "last_updated": "2025-12-30T01:15:55.512403+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "Nancy Zimmerman",
       "published_date": "2025-12-14T18:48:47+00:00",
       "source": "Embs",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 18,
       "reading_time": 1,
       "created_at": "2025-12-29T23:21:22.965316+00:00",
-      "updated_at": "2025-12-29T23:21:22.965320+00:00"
+      "updated_at": "2025-12-30T01:15:55.402263+00:00",
+      "metadata": {
+        "processed_at": "2025-12-30T01:15:55.402272+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "ab4c3d63daed430cad03bc37b5ff57b8",
@@ -26,13 +30,17 @@
       "author": "Senmiao Fang, Xi zhao, Zhenyu Wang, Yuan Si, Haifeng Liu, Honglin Hu, Tianheng Xu and Ting Zhou",
       "published_date": "2025-12-24T00:00:00+00:00",
       "source": "Journal Neural Engineering",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 130,
       "reading_time": 1,
       "created_at": "2025-12-29T23:20:55.503067+00:00",
-      "updated_at": "2025-12-29T23:20:55.503068+00:00"
+      "updated_at": "2025-12-30T01:15:55.402277+00:00",
+      "metadata": {
+        "processed_at": "2025-12-30T01:15:55.402278+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "6a0ab316423ff20bacb5d20aa195f079",
@@ -42,13 +50,17 @@
       "author": "/u/Helpful_Garbage_7242",
       "published_date": "2025-12-29T01:58:10+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 55,
       "reading_time": 1,
       "created_at": "2025-12-29T23:20:34.226176+00:00",
-      "updated_at": "2025-12-29T23:20:34.226178+00:00"
+      "updated_at": "2025-12-30T01:15:55.402281+00:00",
+      "metadata": {
+        "processed_at": "2025-12-30T01:15:55.402283+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "6f7bd901e837599967fddc96185cd906",
@@ -58,13 +70,17 @@
       "author": "/u/MidnightBolt",
       "published_date": "2025-12-29T13:12:15+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 335,
       "reading_time": 1,
       "created_at": "2025-12-29T23:20:34.226152+00:00",
-      "updated_at": "2025-12-29T23:20:34.226154+00:00"
+      "updated_at": "2025-12-30T01:15:55.402285+00:00",
+      "metadata": {
+        "processed_at": "2025-12-30T01:15:55.402287+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "5b4da778158d92f8244c2a7f1bf6a7fe",
@@ -74,13 +90,17 @@
       "author": "",
       "published_date": "2025-12-29T22:30:25+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2025-12-29T23:20:33.023225+00:00",
-      "updated_at": "2025-12-29T23:20:33.023226+00:00"
+      "updated_at": "2025-12-30T01:15:55.402289+00:00",
+      "metadata": {
+        "processed_at": "2025-12-30T01:15:55.402290+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "1e64128703d98be1aa559d62be69cbb1",
@@ -118,17 +138,21 @@
       "id": "5b4da778158d92f8244c2a7f1bf6a7fe",
       "url": "https://github.com/mutable-state-inc/ensue-skill",
       "title": "Show HN: Stop Claude Code from forgetting everything",
-      "content": "<p>I got tired of Claude Code forgetting all my context every time I open a new session: set-up decisions, how I like my margins, decision history. etc.<p>We built a shared memory layer you can drop in as a Claude Code Skill. It\u2019s basically a tiny memory DB with recall that remembers your sessions. Not magic. Not AGI. Just state.<p>Install in Claude Code:<p><pre><code>  /plugin marketplace add https://github.com/mutable-state-inc/ensue-skill\n  /plugin install ensue-memory\n  # restart Claude Code\n</code></pre>\nWhat it does: (1) persists context between sessions (2) semantic & temportal search (not just string grep). Basically git for your Claude brain<p>What it doesn\u2019t do: - it won\u2019t read your mind - it\u2019s alpha; it might break if you throw a couch at it<p>Repo: <a href=\"https://github.com/mutable-state-inc/ensue-skill\" rel=\"nofollow\">https://github.com/mutable-state-inc/ensue-skill</a><p>If you try it and it sucks, tell me why so I can fix it. Don't be kind, tia</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46426624\">https://news.ycombinator.com/item?id=46426624</a></p>\n<p>Points: 14</p>\n<p># Comments: 7</p>",
-      "author": "austinbaggio",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46426624\">Comments</a>",
+      "author": "",
       "published_date": "2025-12-29T22:30:25+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 151,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-12-29T23:20:31.642865+00:00",
-      "updated_at": "2025-12-29T23:20:31.642873+00:00"
+      "created_at": "2025-12-29T23:20:33.023225+00:00",
+      "updated_at": "2025-12-30T01:15:55.402289+00:00",
+      "metadata": {
+        "processed_at": "2025-12-30T01:15:55.402290+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "c2badf68cacc9dec3d628aadc12aa158",
