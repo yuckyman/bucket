@@ -1,5 +1,21 @@
 [
   {
+    "id": "496d6808180f724674a807f244ab8024",
+    "url": "https://fontgenerator.design/symbols",
+    "title": "Show HN: One clean, developer-focused page for every Unicode symbol",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46384975\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-25T15:32:45+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-30T09:26:49.331454+00:00",
+    "updated_at": "2025-12-30T09:26:49.331455+00:00"
+  },
+  {
     "id": "2496a25e131147cc21db4493a787fd56",
     "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1764677",
     "title": "Correction: Retraining dorsal visual pathways improves cognitive skills and executive control networks following mild traumatic brain injury",
@@ -17390,21 +17406,5 @@
     "reading_time": 1,
     "created_at": "2025-12-24T20:44:00.845691+00:00",
     "updated_at": "2025-12-24T20:44:00.845693+00:00"
-  },
-  {
-    "id": "c61a3df8b8c9d6173e3ff3dab5da0e7e",
-    "url": "https://www.reddit.com/r/Python/comments/1puap2b/built_a_molecule_generator_using_pytorch/",
-    "title": "Built a molecule generator using PyTorch : Chempleter",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I wanted to get some experience using PyTorch, so I made a project : Chempleter. It is in its early days, but here goes.</p> <p>For anyone interested:</p> <p><a href=\"https://github.com/davistdaniel/chempleter\">Github</a></p> <h1>What my project does</h1> <p>Chempleter uses a simple Gated recurrent unit model to generate larger molecules from a starting structure. As an input it accepts SMILES notation. Chemical syntax validity is enforced during training and inference using SELFIES encoding. I also made an optional GUI to interact with the model using NiceGUI.</p> <p>Currently, it might seem like a glorified substructure search, however it is able to generate molecules which may not actually exist (yet?) while respecting chemical syntax and including the input structure in the generated structure. I have listed some possible use-cases and further improvements in the github README.</p> <h1>Target audience</h1> <ul> <li>People who find it intriguing to generate random, cool, possibly unsynthesisable molecules.</li> <li>Chemists</li> </ul> <h1>Comparison</h1> <p>I have not found many projects which uses a GRU and have a GUI to interact with the model. Transformers, LSTM are likely better for such uses-cases but may require more data and computational resources, and many projects exist which have demonstrated their capabilities.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/thecrypticcode\"> /u/thecrypticcode </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1puap2b/built_a_molecule_generator_using_pytorch/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1puap2b/built_a_molecule_generator_using_pytorch/\">[comments]</a></span>",
-    "author": "/u/thecrypticcode",
-    "published_date": "2025-12-24T01:17:26+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 212,
-    "reading_time": 1,
-    "created_at": "2025-12-24T20:44:00.845660+00:00",
-    "updated_at": "2025-12-24T20:44:00.845665+00:00"
   }
 ]
