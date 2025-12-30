@@ -1,5 +1,101 @@
 [
   {
+    "id": "c2319578819743fdf0159bf723bcb1b5",
+    "url": "https://erpinfo.org/blog/2024/3/5/changes-to-the-2024-erp-boot-camp",
+    "title": "Important Changes to the 2024 ERP Boot Camp",
+    "content": "<p class=\"\">We are disappointed to announce that we will not be holding a regular 10-day ERP Boot Camp this summer.</p><p class=\"\">We have held Boot Camps nearly every summer since 2007, supported by a series of generous grants from NIMH that allowed us to provide scholarships for all attendees. Unfortunately, although our recent renewal proposal received extremely positive reviews and scores, we were recently given the surprising and disappointing news that the renewal will not be funded this year. We believe that the ERP Boot Camp provides essential training to the field, and we will continue to pursue financial support to continue holding 10-day ERP Boot Camps in the future. </p><p class=\"\">In the meantime, we have partial funding that will allow us to hold a 5-day ERP Boot Camp this summer from July 8-12, 2024 in Davis, California. The workshop will include 5-days of lectures and activities on EEG and ERP measures, including practical and theoretical issues.</p><p class=\"\">Unfortunately, we will not be able to provide scholarships to pay for travel and lodging costs, and we must charge a registration fee. We are very sorry if this causes a hardship. </p><p class=\"\">We are no longer taking applications through our application portal. Instead of a competitive application process, we will simply accept the first 30 people who complete the registration process and pay the registration fee. This provides an opportunity to attend for individuals who might otherwise not make it through our ordinary application process, which is highly competitive. </p><p class=\"\">The registration fee will be $1000 (or $900 for people who register by April 15). The registration fee will cover 6 nights in a single occupancy hotel room (arriving July 7 and departing July 13), daily breakfast at the hotel, a catered lunch for each day of the workshop, and a group dinner. <strong>You must pay the registration fee with a credit card when you register.</strong> There are no exceptions to the registration fee policy.</p><p class=\"\"><strong>Registration is now open</strong> at <a href=\"https://na.eventscloud.com/793175\">https://na.eventscloud.com/793175</a>.</p><p class=\"\">Given that we will accept the first 30 registrants, we encourage you to register as soon as possible. <strong>Registration will close on May 20</strong>, but we anticipate that the workshop will be filled up long before then. </p><p class=\"\">You must pay for your own transportation to Davis. Davis is approximately 20 minutes away from the Sacramento Airport (SMF). You can take the <a href=\"https://www.davisairporter.com/\" target=\"_blank\">Davis Airporter</a> shuttle service or a rideshare service from SMF to Davis. If you are coming from outside North America, you may want to fly into the San Francisco airport (SFO), which is 135 km (84 miles) from Davis. We recommend taking the <a href=\"https://www.davisairporter.com/\" target=\"_blank\">Davis Airporter</a> from SFO to Davis.</p>",
+    "author": "Steve Luck",
+    "published_date": "2024-03-05T19:34:57+00:00",
+    "source": "Erp Boot Camp",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 444,
+    "reading_time": 2,
+    "created_at": "2025-12-30T14:23:11.716929+00:00",
+    "updated_at": "2025-12-30T14:23:11.716930+00:00"
+  },
+  {
+    "id": "dfefe79b1f3514902d0681ca79e78183",
+    "url": "https://erpinfo.org/blog/2025/12/19/sme-now-available-in-bva-and-mne-python",
+    "title": "Standardized Measurement Error now available in BrainVision Analyzer and MNE-Python",
+    "content": "<p class=\"\">A few years ago, we developed a universal metric of data quality for averaged ERPs called the standardized measurement error (<a href=\"https://erpinfo.org/blog/2020/4/28/data-quality\">click here</a> for more information). It has been available in ERPLAB for several years, and I\u2019m happy to announce that it is now available in BrainVision Analyzer 2.3.1 and in MNE-Python.</p><p class=\"\">For BrainVision Analyzer, it is available as a Solution. At this point, you need to request it from Brain Products.<a href=\"https://pressrelease.brainproducts.com/analyzer231/#04\"> Click here</a> and scroll down to the last part of the page for more information.</p><p class=\"\">For MNE-Python, it is accessed with the mne.stats.erp.compute_sme() function. <a href=\"https://mne.tools/1.8/generated/mne.stats.erp.compute_sme.html\">Click here</a> for details.</p><p class=\"\">If you want to see some examples of how this metric can be used, check out these recent papers:</p><ul><li><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (2024a). Optimal filters for ERP research I: A general approach for selecting filter settings. <em>Psychophysiology, 61, </em>e14531. <a href=\"http://doi.org/10.1111/psyp.14531\">http://doi.org/10.1111/psyp.14531</a> [<a href=\"https://www.researchgate.net/publication/377773270_Optimal_filters_for_ERP_research_I_A_general_approach_for_selecting_filter_settings\" target=\"_blank\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (2024b). Optimal filters for ERP research II: Recommended settings for seven common ERP components. <em>Psychophysiology, 61, </em>e14530. <a href=\"https://doi.org/10.1111/psyp.14530\">https://doi.org/10.1111/psyp.14530</a> [<a href=\"https://www.researchgate.net/publication/377766656_Optimal_filters_for_ERP_research_II_Recommended_settings_for_seven_common_ERP_components\" target=\"_blank\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., Garrett, D. R., Simmons, A. M., Kiat, J. E., &amp; Luck, S. J. (2024). Evaluating the effectiveness of artifact correction and rejection in event-related potential research. Psychophysiology, 61, e14511. <a href=\"https://doi.org/10.1111/psyp.14511\">https://doi.org/10.1111/psyp.14511</a> [<a href=\"https://doi.org/10.1101/2023.09.16.558075\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., &amp; Luck, S. J. (2023). Variations in ERP data quality across paradigms, participants, and scoring procedures. <em>Psychophysiology, 60,</em> e14264. <a href=\"http://doi.org/10.1111/psyp.14264\">http://doi.org/10.1111/psyp.14264</a> [<a href=\"https://www.biorxiv.org/content/10.1101/2022.08.22.504647v2.full.pdf\">preprint</a>]</p></li></ul>",
+    "author": "Steve Luck",
+    "published_date": "2025-12-19T18:20:27+00:00",
+    "source": "Erp Boot Camp",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 244,
+    "reading_time": 1,
+    "created_at": "2025-12-30T14:23:11.716424+00:00",
+    "updated_at": "2025-12-30T14:23:11.716428+00:00"
+  },
+  {
+    "id": "d768f8f14c561a4ac0efe7bca62696c4",
+    "url": "https://www.biorxiv.org/content/10.64898/2025.12.29.696939v1?rss=1",
+    "title": "Decoding medial entorhinal cortical dynamics produces planning-like alternations in hippocampal theta sequences",
+    "content": "The hippocampus plays a central role in memory and spatial planning. In rodents, theta oscillations (7-12Hz) are associated with active navigation and appear necessary for planning and spatial memory. A key neural mechanism held to support navigational decision making are theta sequences - brief (~120ms) sequential activations of hippocampal place cells representing trajectories ahead of the animal. Evidence for their role in planning includes their tendency to sample potential future paths at decision points, particularly the left-right sequences observed along the T-maze arms during alternation tasks. However, a recent study challenges this interpretation, proposing that the natural tendency of medial entorhinal cortex (MEC) theta sequences to alternate between leftward and rightward directions might account for the apparent sampling of arms on the T-maze. Given that MEC inputs drive hippocampal activity, this raises the possibility that hippocampal alternations in T-mazes simply reflect intrinsic MEC dynamics rather than active planning. Here, we test this hypothesis by modelling MEC theta sequences in a T-shaped maze and demonstrate that standard Bayesian decoding produces hippocampal theta sequences alternating between maze arms, consistent with experimental observations. Analysis of simultaneous MEC-hippocampal recordings reveals that MEC alternation consistently precedes hippocampus by ~50ms, suggesting a feedforward, state-independent mechanism. This coordinated MEC-hippocampal left-right alternation occurs not only at choice points but also during inbound trials (where no deliberate choice is required) and at forced-turn corners (where only one path exists). These findings suggest that left-right alternation in hippocampal theta sequences is a ubiquitous phenomenon driven by MEC dynamics, challenging the interpretation that these specifically reflect intentional decision-making or planning processes.",
+    "author": "Nakano, M., Barry, C., Clopath, C.",
+    "published_date": "2025-12-30T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 260,
+    "reading_time": 1,
+    "created_at": "2025-12-30T14:22:50.210483+00:00",
+    "updated_at": "2025-12-30T14:22:50.210490+00:00"
+  },
+  {
+    "id": "3cac49c2f6b34af51fa1001373768721",
+    "url": "https://subseacables.blogspot.com/2025/12/the-british-empires-resilient-subsea.html",
+    "title": "The British Empire's Resilient Subsea Telegraph Network",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46432999\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-30T13:10:56+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-30T14:22:09.890775+00:00",
+    "updated_at": "2025-12-30T14:22:09.890777+00:00"
+  },
+  {
+    "id": "0416fff609dbc40fae2af7d27f744eb1",
+    "url": "https://www.axios.com/2025/12/29/groq-alex-davis-data-center-concerns",
+    "title": "Groq investor sounds alarm on data centers",
+    "content": "<p>Article URL: <a href=\"https://www.axios.com/2025/12/29/groq-alex-davis-data-center-concerns\">https://www.axios.com/2025/12/29/groq-alex-davis-data-center-concerns</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46432791\">https://news.ycombinator.com/item?id=46432791</a></p>\n<p>Points: 15</p>\n<p># Comments: 8</p>",
+    "author": "giuliomagnifico",
+    "published_date": "2025-12-30T12:47:41+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-30T14:22:08.639787+00:00",
+    "updated_at": "2025-12-30T14:22:08.639788+00:00"
+  },
+  {
+    "id": "3cac49c2f6b34af51fa1001373768721",
+    "url": "https://subseacables.blogspot.com/2025/12/the-british-empires-resilient-subsea.html",
+    "title": "The British Empire's Resilient Subsea Telegraph Network",
+    "content": "<p>Article URL: <a href=\"https://subseacables.blogspot.com/2025/12/the-british-empires-resilient-subsea.html\">https://subseacables.blogspot.com/2025/12/the-british-empires-resilient-subsea.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46432999\">https://news.ycombinator.com/item?id=46432999</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
+    "author": "giuliomagnifico",
+    "published_date": "2025-12-30T13:10:56+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2025-12-30T14:22:08.639729+00:00",
+    "updated_at": "2025-12-30T14:22:08.639731+00:00"
+  },
+  {
     "id": "30c62259d3f0fa60ef1bd8a2c9fc9762",
     "url": "https://embc.embs.org/2026/#new_tab",
     "title": "Join the Mailing List",
@@ -56,6 +152,46 @@
     "updated_at": "2025-12-30T14:16:55.933207+00:00",
     "metadata": {
       "processed_at": "2025-12-30T14:16:55.933209+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "8cb8f6d74d7288b46ea159437de82466",
+    "url": "https://daniel.haxx.se/blog/2025/12/29/no-strcpy-either/",
+    "title": "no strpy either",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46433029\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-30T13:14:40+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-30T13:36:33.617808+00:00",
+    "updated_at": "2025-12-30T14:16:55.933207+00:00",
+    "metadata": {
+      "processed_at": "2025-12-30T14:16:55.933209+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "540bc170374c958f556e70a420df274b",
+    "url": "https://loss32.org/",
+    "title": "Win32 is the stable Linux ABI",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46433035\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-30T13:15:05+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2025-12-30T13:36:33.617769+00:00",
+    "updated_at": "2025-12-30T14:16:55.933211+00:00",
+    "metadata": {
+      "processed_at": "2025-12-30T14:16:55.933213+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -130,46 +266,6 @@
     "reading_time": 1,
     "created_at": "2025-12-30T13:36:32.501727+00:00",
     "updated_at": "2025-12-30T13:36:32.501729+00:00"
-  },
-  {
-    "id": "8cb8f6d74d7288b46ea159437de82466",
-    "url": "https://daniel.haxx.se/blog/2025/12/29/no-strcpy-either/",
-    "title": "no strpy either",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46433029\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-30T13:14:40+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-30T13:36:33.617808+00:00",
-    "updated_at": "2025-12-30T14:16:55.933207+00:00",
-    "metadata": {
-      "processed_at": "2025-12-30T14:16:55.933209+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "540bc170374c958f556e70a420df274b",
-    "url": "https://loss32.org/",
-    "title": "Win32 is the stable Linux ABI",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46433035\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-30T13:15:05+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-30T13:36:33.617769+00:00",
-    "updated_at": "2025-12-30T14:16:55.933211+00:00",
-    "metadata": {
-      "processed_at": "2025-12-30T14:16:55.933213+00:00",
-      "processing_method": "github_actions"
-    }
   },
   {
     "id": "462d809fc097cbd2a6515bc023757c9f",
@@ -17314,121 +17410,5 @@
       "processed_at": "2025-12-25T03:23:11.173980+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "c3dabeb7dafd7cde81a846b0eae10728",
-    "url": "https://github.com/sebastienros/comptime",
-    "title": "Comptime \u2013 C# meta-programming with compile-time code generation and evaluation",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46339532\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-20T20:49:52+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-25T01:46:38.960498+00:00",
-    "updated_at": "2025-12-25T03:23:11.173985+00:00",
-    "metadata": {
-      "processed_at": "2025-12-25T03:23:11.173986+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "4db005fa40c06e65a114a195b76ddc46",
-    "url": "https://github.com/hkjarral/Asterisk-AI-Voice-Agent",
-    "title": "Asterisk AI Voice Agent",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46380399\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-24T23:25:37+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-25T01:46:38.960420+00:00",
-    "updated_at": "2025-12-25T03:23:11.173989+00:00",
-    "metadata": {
-      "processed_at": "2025-12-25T03:23:11.173990+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "4db005fa40c06e65a114a195b76ddc46",
-    "url": "https://github.com/hkjarral/Asterisk-AI-Voice-Agent",
-    "title": "Asterisk AI Voice Agent",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46380399\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-24T23:25:37+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-25T01:46:38.960420+00:00",
-    "updated_at": "2025-12-25T03:23:11.173989+00:00",
-    "metadata": {
-      "processed_at": "2025-12-25T03:23:11.173990+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "543319dc251e26ee3061125e076328a0",
-    "url": "https://www.youtube.com/watch?v=oYU2hAbx_Fc",
-    "title": "Who Watches the Waymos? I do [video]",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46380758\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-25T00:10:12+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-25T01:46:38.960356+00:00",
-    "updated_at": "2025-12-25T03:23:11.173992+00:00",
-    "metadata": {
-      "processed_at": "2025-12-25T03:23:11.173994+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "543319dc251e26ee3061125e076328a0",
-    "url": "https://www.youtube.com/watch?v=oYU2hAbx_Fc",
-    "title": "Who Watches the Waymos? I do [video]",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46380758\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-25T00:10:12+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-25T01:46:38.960356+00:00",
-    "updated_at": "2025-12-25T03:23:11.173992+00:00",
-    "metadata": {
-      "processed_at": "2025-12-25T03:23:11.173994+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "83292d14bf2190c6ce342edefafac26c",
-    "url": "https://ivanca.github.io/programming/2025/11/26/microsoft-pls-get-your-tab-to-autocomplete-shit-together/",
-    "title": "Microsoft please get your tab to autocomplete shit together",
-    "content": "<p>Article URL: <a href=\"https://ivanca.github.io/programming/2025/11/26/microsoft-pls-get-your-tab-to-autocomplete-shit-together/\">https://ivanca.github.io/programming/2025/11/26/microsoft-pls-get-your-tab-to-autocomplete-shit-together/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46380475\">https://news.ycombinator.com/item?id=46380475</a></p>\n<p>Points: 92</p>\n<p># Comments: 42</p>",
-    "author": "AmbroseBierce",
-    "published_date": "2025-12-24T23:33:15+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-25T01:46:37.840002+00:00",
-    "updated_at": "2025-12-25T01:46:37.840004+00:00"
   }
 ]
