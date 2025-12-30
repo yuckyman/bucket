@@ -1,5 +1,21 @@
 [
   {
+    "id": "d08d4df4d20959def0b2574e2e8ac6f8",
+    "url": "https://tidy.baby",
+    "title": "Show HN: Tidy Baby is a SET game but with words",
+    "content": "<p>Hi HN \u2014<p>Tidy Baby is a new game made by me and Wyna Liu (of NYT Connections!) that is inspired by the legendary card-based game SET that we assume many of you love (we too love SET).<p>In SET, you\u2019ve got four dimensions: shape, number, color, and shading, each with three variants.<p>In Tidy Baby you only have to deal with three dimensions:<p>- word length (3, 4, or 5 letters)\n- part of speech (noun, verb, or adjective)\n- style (bold, underline, or italic)<p>Like in SET, you are trying to form sets of three cards where, along each dimension, the set is either all the same or all different. If you\u2019ve never played SET there are more details/examples at \u201chow to play\u201d in the game.<p>The mechanics of Tidy Baby are sort of inspired by a solitaire/practice version of SET I sometimes play where you draw two random cards and have to name the third card that would make a valid set.<p>In Tidy Baby you are presented with two \u201cgame cards\u201d and a grid of up to nine candidates to complete a valid set \u2013 your job is to pick the right one before the clock runs out.<p>Unlike in SET, you get points for \u201cpartial\u201d sets where your set is valid on one or two dimensions (but not all three). It\u2019s actually a pretty fun challenge to try to get only sets that are invalid along all three dimensions.<p>In building the game, we were sort of surprised that the biggest challenge was ensuring that all words were unambiguously one part of speech. You\u2019d be surprised how hard it is to find three-letter adjectives that are not also common verbs or nouns. We did our best!<p>We\u2019ve got three \u201cpaces\u201d in the game: Steady, Strenuous, and Grueling (s/o MECC!)<p>Let us know what you think!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46434580\">https://news.ycombinator.com/item?id=46434580</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
+    "author": "brgross",
+    "published_date": "2025-12-30T15:57:01+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 310,
+    "reading_time": 1,
+    "created_at": "2025-12-30T18:33:33.996575+00:00",
+    "updated_at": "2025-12-30T18:33:33.996577+00:00"
+  },
+  {
     "id": "2f970d8d39f27b1553082f27376c8f36",
     "url": "https://mwilczynski.dev/posts/riscv-gpu-zink/",
     "title": "Igniting the GPU: From Kernel Plumbing to 3D Rendering on RISC-V",
@@ -17368,26 +17384,6 @@
     "updated_at": "2025-12-25T06:25:52.082901+00:00",
     "metadata": {
       "processed_at": "2025-12-25T06:25:52.082902+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "7f67b6df5eaabc4b9ff037b51a32cf0a",
-    "url": "https://arxiv.org/abs/2512.20714",
-    "title": "From Pilots to Practices: A Scoping Review of GenAI-Enabled Personalization in Computer Science Education",
-    "content": "arXiv:2512.20714v1 Announce Type: cross \nAbstract: Generative AI enables personalized computer science education at scale, yet questions remain about whether such personalization supports or undermines learning. This scoping review synthesizes 32 studies (2023-2025) purposively sampled from 259 records to map personalization mechanisms and effectiveness signals in higher-education computer science contexts. We identify five application domains: intelligent tutoring, personalized materials, formative feedback, AI-augmented assessment, and code review, and analyze how design choices shape learning outcomes. Designs incorporating explanation-first guidance, solution withholding, graduated hint ladders, and artifact grounding (student code, tests, and rubrics) consistently show more positive learning processes than unconstrained chat interfaces. Successful implementations share four patterns: context-aware tutoring anchored in student artifacts, multi-level hint structures requiring reflection, composition with traditional CS infrastructure (autograders and rubrics), and human-in-the-loop quality assurance. We propose an exploration-first adoption framework emphasizing piloting, instrumentation, learning-preserving defaults, and evidence-based scaling. Recurrent risks include academic integrity, privacy, bias and equity, and over-reliance, and we pair these with operational mitigation. The evidence supports generative AI as a mechanism for precision scaffolding when embedded in audit-ready workflows that preserve productive struggle while scaling personalized support.",
-    "author": "Iman Reihanian, Yunfei Hou, Qingquan Sun",
-    "published_date": "2025-12-25T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 184,
-    "reading_time": 1,
-    "created_at": "2025-12-25T05:27:42.085750+00:00",
-    "updated_at": "2025-12-25T06:25:52.082905+00:00",
-    "metadata": {
-      "processed_at": "2025-12-25T06:25:52.082906+00:00",
       "processing_method": "github_actions"
     }
   }
