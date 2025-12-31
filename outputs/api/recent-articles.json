@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-31T04:34:50.872166+00:00",
+  "last_updated": "2025-12-31T04:58:22.983586+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "c68c3c8967e47ea8856716c9acafed15",
+      "url": "https://discourse.llvm.org/t/rfc-llvm-ai-tool-policy-human-in-the-loop/89159",
+      "title": "We don't need more contributors who aren't programmers to contribute code",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46440833\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-31T03:06:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2025-12-31T04:57:05.984552+00:00",
+      "updated_at": "2025-12-31T04:57:05.984554+00:00"
+    },
+    {
+      "id": "c68c3c8967e47ea8856716c9acafed15",
+      "url": "https://discourse.llvm.org/t/rfc-llvm-ai-tool-policy-human-in-the-loop/89159",
+      "title": "We don't need more contributors who aren't programmers to contribute code",
+      "content": "<p>Article URL: <a href=\"https://discourse.llvm.org/t/rfc-llvm-ai-tool-policy-human-in-the-loop/89159\">https://discourse.llvm.org/t/rfc-llvm-ai-tool-policy-human-in-the-loop/89159</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46440833\">https://news.ycombinator.com/item?id=46440833</a></p>\n<p>Points: 29</p>\n<p># Comments: 4</p>",
+      "author": "pertymcpert",
+      "published_date": "2025-12-31T03:06:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-31T04:57:04.745283+00:00",
+      "updated_at": "2025-12-31T04:57:04.745294+00:00"
+    },
     {
       "id": "259795b1c4b93d8655d57ac9a53ec2e1",
       "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006821?dgcid=rss_sd_all",
@@ -335,46 +367,6 @@
       "updated_at": "2025-12-31T01:16:55.285280+00:00",
       "metadata": {
         "processed_at": "2025-12-31T01:16:55.285281+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fcd9020f1d5788cd737561347bff9599",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.30.697023v1?rss=1",
-      "title": "Integration of Audiovisual Danger Stimuli in the Zebrafish Tectum is Linked with Premotor and Behavioral Enhancements",
-      "content": "Multisensory integration allows animals to combine cues from different sensory modalities to improve threat detection and drive evasive behaviors. While the zebrafish Tectum is classically viewed as a visual processing center, its role in integrating auditory and visual danger signals remains unclear. Using in vivo calcium imaging in larval zebrafish, we find that brief, high-amplitude auditory stimuli recruit a significant population of tectal neurons, predominantly in deep tectal layers. In addition, combined auditory and visual stimulation robustly increases both neural activity in the zebrafish Tectum and the probability of executing rapid escape maneuvers, especially for low salient stimuli. Interestingly, simultaneous auditory and visual cues engage more tectal neurons than either modality alone. Single neuron analysis reveal a population of neurons that respond to both auditory and visual cues, and importantly, shows that a proportion of those neurons only responds to multisensory stimulation. These results firmly establish the zebrafish Tectum as a multisensory processing area. Notably, the heightened tectal response during multisensory stimulation is strongly correlated with increased activity in hindbrain neurons implicated in escape-like motion events. These results link tectal multisensory integration to premotor circuits that drive behavioral output. Overall, our findings reveal the zebrafish Tectum as a hub for integration os audiovisual threat signals, and suggest a role of tectal multisensory processing in enhancing behavioral escape responses.",
-      "author": "Martorell, N., Medan, V.",
-      "published_date": "2025-12-30T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 218,
-      "reading_time": 1,
-      "created_at": "2025-12-30T23:20:50.360470+00:00",
-      "updated_at": "2025-12-31T01:16:55.285284+00:00",
-      "metadata": {
-        "processed_at": "2025-12-31T01:16:55.285285+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c5a20b91e8da31e2754e6d55ddd01090",
-      "url": "https://www.biorxiv.org/content/10.64898/2025.12.30.696730v1?rss=1",
-      "title": "Implications of recursive Bayesian Sensory Inference",
-      "content": "In this article, we examine how the balance between velocity-based and position-based proprioceptive feedback influences state estimation during motor control. We introduce a computational model of arm state inference grounded in Bayesian sensory integration and compare its behaviour to findings from three classical sensorimotor studies. The model allows us to contrast the predicted behaviour of two proprioceptive configurations: one relying primarily on position signals and another relying primarily on velocity signals, reflecting the distinct contributions of type II and type Ia muscle spindle afferents. Our simulations show that a system with strong reliance on velocity-based feedback tends to represent movement relative to previously estimated positions. In a simulated reaching task with briefly presented offset visual feedback, such an Agent produces systematic endpoint errors even after visual feedback is removed. In contrast, an Agent relying mainly on positional feedback is able to correctly update its inferred hand position after visual feedback is removed, thereby limiting this type of biased endpoint errors. When biased visual feedback remains continuously available, or when muscle vibration is simulated, the two configurations produce very similar behaviour. These results indicate that markedly different assumptions about the weighting of positional and velocity proprioceptive cues can yield similar observable behaviour in some of the often-used experimental setups designed to probe state inference processes. This underscores the importance of carefully considering the composition of proprioceptive signals when building computational models and interpreting human sensorimotor experiments. We highlight the task conditions under which our model predicts clear behavioural differences arising from the relative contribution of velocity versus positional feedback.",
-      "author": "Mortensen, E. S., Ottenheijm, M. E., Christensen, M. S.",
-      "published_date": "2025-12-30T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 258,
-      "reading_time": 1,
-      "created_at": "2025-12-30T23:20:50.360426+00:00",
-      "updated_at": "2025-12-31T03:23:18.566446+00:00",
-      "metadata": {
-        "processed_at": "2025-12-31T03:23:18.566447+00:00",
         "processing_method": "github_actions"
       }
     }
