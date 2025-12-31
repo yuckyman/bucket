@@ -1,7 +1,39 @@
 {
-  "last_updated": "2025-12-31T15:24:23.696107+00:00",
+  "last_updated": "2025-12-31T15:44:45.919818+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "3d6b5f8f7d117269f6d483cfe999ae04",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1641519",
+      "title": "Fractal memory structure in the spatiotemporal learning rule",
+      "content": "The spatiotemporal learning rule (STLR) can reproduce synaptic plasticity in the hippocampus. Analysis of the synaptic weights in the network with the STLR is challenging. Consequently, our previous research only focused on the network's outputs. However, a detailed analysis of the STLR requires focusing on the synaptic weights themselves. To address this issue, we mapped the synaptic weights to a distance space and analyzed the characteristics of the STLR. The results indicate that the synaptic weights form a fractal-like structure in Euclidean distance space. Furthermore, three analytical approaches\u2014multi-dimensional scaling, estimating fractal dimension, and modeling with an iterated function system\u2014demonstrate that the STLR forms a fractal structure in the synaptic weights through fractal coding. These findings contribute to clarifying the learning mechanisms in the hippocampus.",
+      "author": "Yoshihiko Horio",
+      "published_date": "2025-12-16T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 124,
+      "reading_time": 1,
+      "created_at": "2025-12-31T15:44:04.766381+00:00",
+      "updated_at": "2025-12-31T15:44:04.766383+00:00"
+    },
+    {
+      "id": "ed29d3b4394bcc9e70fb334249db2370",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/drugmakers-raise-us-prices-350-medicines-despite-pressure-trump-2025-12-31/",
+      "title": "Drugmakers raise US prices on 350 medicines despite pressure",
+      "content": "<p>Article URL: <a href=\"https://www.reuters.com/business/healthcare-pharmaceuticals/drugmakers-raise-us-prices-350-medicines-despite-pressure-trump-2025-12-31/\">https://www.reuters.com/business/healthcare-pharmaceuticals/drugmakers-raise-us-prices-350-medicines-despite-pressure-trump-2025-12-31/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46444564\">https://news.ycombinator.com/item?id=46444564</a></p>\n<p>Points: 12</p>\n<p># Comments: 1</p>",
+      "author": "JumpCrisscross",
+      "published_date": "2025-12-31T14:51:28+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2025-12-31T15:43:31.466002+00:00",
+      "updated_at": "2025-12-31T15:43:31.466010+00:00"
+    },
     {
       "id": "698a3967478d4ba61f5711c9117ea7e6",
       "url": "https://www.embs.org/uncategorized/call-for-applications-ieee-tmrb-editor-in-chief-search/",
@@ -289,42 +321,6 @@
       "reading_time": 1,
       "created_at": "2025-12-31T14:21:00.844723+00:00",
       "updated_at": "2025-12-31T14:21:00.844725+00:00"
-    },
-    {
-      "id": "d4b846ec975299adc8cb961ac83598cd",
-      "url": "https://carimbo.games/games/nintendo/",
-      "title": "Claude wrote a functional NES emulator using my engine's API",
-      "content": "<p>Article URL: <a href=\"https://carimbo.games/games/nintendo/\">https://carimbo.games/games/nintendo/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46443767\">https://news.ycombinator.com/item?id=46443767</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>",
-      "author": "delduca",
-      "published_date": "2025-12-31T13:07:22+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2025-12-31T14:20:59.458666+00:00",
-      "updated_at": "2025-12-31T14:20:59.458675+00:00"
-    },
-    {
-      "id": "f3ed660bcdcab989c4fb8c592bedc333",
-      "url": "https://www.nature.com/articles/s41598-025-33910-x",
-      "title": "Research on multimodal interaction intention recognition based on EEG, eye movement, and gesture signals",
-      "content": "",
-      "author": "",
-      "published_date": "2025-12-31T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2025-12-31T13:34:10.287238+00:00",
-      "updated_at": "2025-12-31T14:16:04.822186+00:00",
-      "metadata": {
-        "processed_at": "2025-12-31T14:16:04.822196+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
