@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-31T09:49:05.494841+00:00",
+  "last_updated": "2025-12-31T10:17:47.165766+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,29 +10,37 @@
       "author": "",
       "published_date": "2025-12-31T09:09:28+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2025-12-31T09:47:49.272920+00:00",
-      "updated_at": "2025-12-31T09:47:49.272924+00:00"
+      "updated_at": "2025-12-31T10:17:47.053842+00:00",
+      "metadata": {
+        "processed_at": "2025-12-31T10:17:47.053853+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "e46dcf8a3d23f10abc41d72c6c16958f",
       "url": "https://chrisloy.dev/post/2025/12/30/the-rise-of-industrial-software",
       "title": "The rise of industrial software",
-      "content": "<p>Article URL: <a href=\"https://chrisloy.dev/post/2025/12/30/the-rise-of-industrial-software\">https://chrisloy.dev/post/2025/12/30/the-rise-of-industrial-software</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46442597\">https://news.ycombinator.com/item?id=46442597</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
-      "author": "chrisloy",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46442597\">Comments</a>",
+      "author": "",
       "published_date": "2025-12-31T09:09:28+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-12-31T09:47:48.067675+00:00",
-      "updated_at": "2025-12-31T09:47:48.067684+00:00"
+      "created_at": "2025-12-31T09:47:49.272920+00:00",
+      "updated_at": "2025-12-31T10:17:47.053842+00:00",
+      "metadata": {
+        "processed_at": "2025-12-31T10:17:47.053853+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "ee03d1b086c312025958e297403fed35",
@@ -42,13 +50,17 @@
       "author": "",
       "published_date": "2025-12-24T15:17:48+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2025-12-31T09:26:20.836102+00:00",
-      "updated_at": "2025-12-31T09:26:20.836104+00:00"
+      "updated_at": "2025-12-31T10:17:47.053861+00:00",
+      "metadata": {
+        "processed_at": "2025-12-31T10:17:47.053863+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "4bee0db9612b19787832bec17c1be7b7",
@@ -58,13 +70,17 @@
       "author": "",
       "published_date": "2025-12-26T18:20:10+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2025-12-31T09:26:20.835984+00:00",
-      "updated_at": "2025-12-31T09:26:20.835985+00:00"
+      "updated_at": "2025-12-31T10:17:47.053865+00:00",
+      "metadata": {
+        "processed_at": "2025-12-31T10:17:47.053867+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "5297583b01ad4ce43a63e2a33a86e3f8",
@@ -74,29 +90,37 @@
       "author": "",
       "published_date": "2025-12-31T07:47:44+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2025-12-31T09:26:20.835943+00:00",
-      "updated_at": "2025-12-31T09:26:20.835944+00:00"
+      "updated_at": "2025-12-31T10:17:47.053869+00:00",
+      "metadata": {
+        "processed_at": "2025-12-31T10:17:47.053870+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "5297583b01ad4ce43a63e2a33a86e3f8",
       "url": "https://exopriors.com/scry",
       "title": "Show HN: Use Claude Code to Query 600 GB Indexes over Hacker News, ArXiv, etc.",
-      "content": "<p>Paste in my prompt to Claude Code with an embedded API key for accessing my public readonly SQL+vector database, and you have a state-of-the-art research tool over Hacker News, arXiv, LessWrong, and dozens of other high-quality public commons sites. Claude whips up the monster SQL queries that safely run on my machine, to answer your most nuanced questions.<p>There's also an Alerts functionality, where you can just ask Claude to submit a SQL query as an alert, and you'll be emailed when the ultra nuanced criteria is met (and the output changes). Like I want to know when somebody posts about \"estrogen\" in a psychoactive context, or enough biology metaphors when talking about building infrastructure.<p>Currently have embedded: \nposts: 1.4M / 4.6M\ncomments: 15.6M / 38M\nThat's with Voyage-3.5-lite. And you can do amazing compositional vector search, like search @FTX_crisis - (@guilt_tone - @guilt_topic) to find writing that was about the FTX crisis and distinctly without guilty tones, but that can mention \"guilt\".<p>I can embed everything and all the other sources for cheap, I just literally don't have the money.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46442245\">https://news.ycombinator.com/item?id=46442245</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
-      "author": "Xyra",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46442245\">Comments</a>",
+      "author": "",
       "published_date": "2025-12-31T07:47:44+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 189,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2025-12-31T09:26:19.487503+00:00",
-      "updated_at": "2025-12-31T09:26:19.487511+00:00"
+      "created_at": "2025-12-31T09:26:20.835943+00:00",
+      "updated_at": "2025-12-31T10:17:47.053869+00:00",
+      "metadata": {
+        "processed_at": "2025-12-31T10:17:47.053870+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "4261ef837f8e890f9063546b38ae170b",
