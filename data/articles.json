@@ -1,5 +1,37 @@
 [
   {
+    "id": "86240da3eaca0f7ab44548529db5e4cd",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1628368",
+    "title": "A simple robot suggests trunk rotation is essential for emergence of inside leading limb during quadruped galloping turns",
+    "content": "During turning maneuvers in the galloping gait of quadruped animals, a strong relationship exists between the turning direction and the sequence in which the forelimbs make ground contact: the outer forelimb acts as the \u201ctrailing limb\u201d while the inner forelimb serves as the \u201cleading limb.\u201d However, the control mechanisms underlying this behavior remain largely unclear. Understanding these mechanisms could deepen biological knowledge and assist in developing more agile robots. To address this issue, we hypothesized that decentralized interlimb coordination mechanism and trunk movement are essential for the emergence of an inside leading limb in a galloping turn. To test the hypothesis, we developed a quasi-quadruped robot with simplified wheeled hind limbs and variable trunk roll and yaw angles. For forelimb coordination, we implemented a simple decentralized control based on local load-dependent sensory feedback, utilizing trunk roll inclination and yaw bending as turning methods. Our experimental results confirmed that in addition to the decentralized control from previous studies which reproduces animal locomotion in a straight line, adjusting the trunk roll angle spontaneously generates a ground contact sequence similar to gallop turning in quadruped animals. Furthermore, roll inclination showed a greater influence than yaw bending on differentiating the leading and trailing limbs. This study suggests that physical interactions serve as a universal mechanism of locomotor control in both forward and turning movements of quadrupedal animals.",
+    "author": "Akio Ishiguro",
+    "published_date": "2025-10-23T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 223,
+    "reading_time": 1,
+    "created_at": "2026-01-01T05:52:18.110257+00:00",
+    "updated_at": "2026-01-01T05:52:18.110259+00:00"
+  },
+  {
+    "id": "7d358a50de2869f89d49bd22afee1514",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1705970",
+    "title": "Effective and efficient self-supervised masked model based on mixed feature training",
+    "content": "Under the influence of Masked Language Modeling (MLM), Masked Image Modeling (MIM) employs an attention mechanism to perform masked training on images. However, processing a single image requires numerous iterations and substantial computational resources to reconstruct the masked regions, resulting in high computational complexity and significant time costs. To address this issue, we propose an Effective and Efficient self-supervised Masked model based on Mixed feature training (EESMM). First, we stack two images for encoding and input the fused features into the network, which not only reduces computational complexity but also enables the learning of more features. Second, during decoding, we obtain the decoding features corresponding to the original images based on the decoding features of the two input original images and the mixed images, and then construct a corresponding loss function to enhance feature representation. EESMM significantly reduces pre-training time without sacrificing accuracy, achieving 83% accuracy on ImageNet in just 363 h using four V100 GPUs\u2013only one-tenth of the training time required by SimMIM. This validates that the method can substantially accelerate the pre-training process without noticeable performance degradation.",
+    "author": "Chunliu Cai",
+    "published_date": "2025-10-30T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 179,
+    "reading_time": 1,
+    "created_at": "2026-01-01T05:52:18.110218+00:00",
+    "updated_at": "2026-01-01T05:52:18.110219+00:00"
+  },
+  {
     "id": "886e0430756947999bc2ccba29b8466c",
     "url": "https://arxiv.org/abs/2512.24415",
     "title": "Language Model Agents Under Attack: A Cross Model-Benchmark of Profit-Seeking Behaviors in Customer Service",
@@ -17346,37 +17378,5 @@
     "reading_time": 1,
     "created_at": "2025-12-26T21:19:44.763379+00:00",
     "updated_at": "2025-12-26T21:19:44.763381+00:00"
-  },
-  {
-    "id": "01d1a94a19d2554f0176c3f3f5cb1701",
-    "url": "https://gothamist.com/news/nyc-phone-ban-reveals-some-students-cant-read-clocks",
-    "title": "NYC phone ban reveals some students can't read clocks",
-    "content": "<p>Article URL: <a href=\"https://gothamist.com/news/nyc-phone-ban-reveals-some-students-cant-read-clocks\">https://gothamist.com/news/nyc-phone-ban-reveals-some-students-cant-read-clocks</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46395757\">https://news.ycombinator.com/item?id=46395757</a></p>\n<p>Points: 24</p>\n<p># Comments: 22</p>",
-    "author": "geox",
-    "published_date": "2025-12-26T20:18:02+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-26T21:19:44.763292+00:00",
-    "updated_at": "2025-12-26T21:19:44.763293+00:00"
-  },
-  {
-    "id": "9b9f30dee4e6a7c5654fdee416db21c2",
-    "url": "https://garnaudov.com/writings/how-i-think-about-kubernetes/",
-    "title": "I Think about Kubernetes",
-    "content": "<p>Article URL: <a href=\"https://garnaudov.com/writings/how-i-think-about-kubernetes/\">https://garnaudov.com/writings/how-i-think-about-kubernetes/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46396043\">https://news.ycombinator.com/item?id=46396043</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
-    "author": "todsacerdoti",
-    "published_date": "2025-12-26T20:44:28+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-26T21:19:44.763263+00:00",
-    "updated_at": "2025-12-26T21:19:44.763271+00:00"
   }
 ]

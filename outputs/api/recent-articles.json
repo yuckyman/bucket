@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-01T05:29:21.615234+00:00",
+  "last_updated": "2026-01-01T05:53:02.436884+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "86240da3eaca0f7ab44548529db5e4cd",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1628368",
+      "title": "A simple robot suggests trunk rotation is essential for emergence of inside leading limb during quadruped galloping turns",
+      "content": "During turning maneuvers in the galloping gait of quadruped animals, a strong relationship exists between the turning direction and the sequence in which the forelimbs make ground contact: the outer forelimb acts as the \u201ctrailing limb\u201d while the inner forelimb serves as the \u201cleading limb.\u201d However, the control mechanisms underlying this behavior remain largely unclear. Understanding these mechanisms could deepen biological knowledge and assist in developing more agile robots. To address this issue, we hypothesized that decentralized interlimb coordination mechanism and trunk movement are essential for the emergence of an inside leading limb in a galloping turn. To test the hypothesis, we developed a quasi-quadruped robot with simplified wheeled hind limbs and variable trunk roll and yaw angles. For forelimb coordination, we implemented a simple decentralized control based on local load-dependent sensory feedback, utilizing trunk roll inclination and yaw bending as turning methods. Our experimental results confirmed that in addition to the decentralized control from previous studies which reproduces animal locomotion in a straight line, adjusting the trunk roll angle spontaneously generates a ground contact sequence similar to gallop turning in quadruped animals. Furthermore, roll inclination showed a greater influence than yaw bending on differentiating the leading and trailing limbs. This study suggests that physical interactions serve as a universal mechanism of locomotor control in both forward and turning movements of quadrupedal animals.",
+      "author": "Akio Ishiguro",
+      "published_date": "2025-10-23T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 223,
+      "reading_time": 1,
+      "created_at": "2026-01-01T05:52:18.110257+00:00",
+      "updated_at": "2026-01-01T05:52:18.110259+00:00"
+    },
+    {
+      "id": "7d358a50de2869f89d49bd22afee1514",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1705970",
+      "title": "Effective and efficient self-supervised masked model based on mixed feature training",
+      "content": "Under the influence of Masked Language Modeling (MLM), Masked Image Modeling (MIM) employs an attention mechanism to perform masked training on images. However, processing a single image requires numerous iterations and substantial computational resources to reconstruct the masked regions, resulting in high computational complexity and significant time costs. To address this issue, we propose an Effective and Efficient self-supervised Masked model based on Mixed feature training (EESMM). First, we stack two images for encoding and input the fused features into the network, which not only reduces computational complexity but also enables the learning of more features. Second, during decoding, we obtain the decoding features corresponding to the original images based on the decoding features of the two input original images and the mixed images, and then construct a corresponding loss function to enhance feature representation. EESMM significantly reduces pre-training time without sacrificing accuracy, achieving 83% accuracy on ImageNet in just 363 h using four V100 GPUs\u2013only one-tenth of the training time required by SimMIM. This validates that the method can substantially accelerate the pre-training process without noticeable performance degradation.",
+      "author": "Chunliu Cai",
+      "published_date": "2025-10-30T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 179,
+      "reading_time": 1,
+      "created_at": "2026-01-01T05:52:18.110218+00:00",
+      "updated_at": "2026-01-01T05:52:18.110219+00:00"
+    },
     {
       "id": "886e0430756947999bc2ccba29b8466c",
       "url": "https://arxiv.org/abs/2512.24415",
@@ -289,38 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-01-01T05:29:02.064812+00:00",
       "updated_at": "2026-01-01T05:29:02.064814+00:00"
-    },
-    {
-      "id": "22bffda635f507b680f82783c93bd795",
-      "url": "https://arxiv.org/abs/2512.23728",
-      "title": "Spike-Timing-Dependent Plasticity for Bernoulli Message Passing",
-      "content": "arXiv:2512.23728v1 Announce Type: new \nAbstract: Bayesian inference provides a principled framework for understanding brain function, while neural activity in the brain is inherently spike-based. This paper bridges these two perspectives by designing spiking neural networks that simulate Bayesian inference through message passing for Bernoulli messages. To train the networks, we employ spike-timing-dependent plasticity, a biologically plausible mechanism for synaptic plasticity which is based on the Hebbian rule. Our results demonstrate that the network's performance closely matches the true numerical solution. We further demonstrate the versatility of our approach by implementing a factor graph example from coding theory, illustrating signal transmission over an unreliable channel.",
-      "author": "Sepideh Adamiat, Wouter M. Kouw, Bert de Vries",
-      "published_date": "2026-01-01T05:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 104,
-      "reading_time": 1,
-      "created_at": "2026-01-01T05:29:02.064769+00:00",
-      "updated_at": "2026-01-01T05:29:02.064773+00:00"
-    },
-    {
-      "id": "003f9267b7274760cc67910ff4435492",
-      "url": "https://www.nature.com/articles/s41598-025-33192-3",
-      "title": "Multidimensional predictors of fatigue in amyotrophic lateral sclerosis: a cross-sectional study in China",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-01T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-01T05:28:51.737710+00:00",
-      "updated_at": "2026-01-01T05:28:51.737714+00:00"
     }
   ]
 }
