@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-01-01T08:23:08.672481+00:00",
-  "pending_count": 645,
-  "processed_count": 355,
+  "last_updated": "2026-01-01T10:18:15.201270+00:00",
+  "pending_count": 640,
+  "processed_count": 360,
   "pending_articles": [
     {
       "id": "527e7419a92247fbbbaf15cd3b784332",
@@ -166,6 +166,106 @@
   ],
   "recently_processed": [
     {
+      "id": "a380a3e14f3dd603cb18af723aa62df9",
+      "url": "https://www.nytimes.com/2025/12/26/business/sears-seritage-edward-lampert.html",
+      "title": "Only 5 Sears stores remain in the U.S.",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46404509\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-27T19:37:35+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-01T09:47:10.379228+00:00",
+      "updated_at": "2026-01-01T10:18:15.092891+00:00",
+      "metadata": {
+        "processed_at": "2026-01-01T10:18:15.092900+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "5c315d4deb0aead3fb6b6eab4f037975",
+      "url": "https://www.reddit.com/r/Python/comments/1q0jzwl/tessera_schema_registry_for_dbt/",
+      "title": "Tessera \u2014 Schema Registry for Dbt",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey y\u2019all, over the holidays I wrote Tessera (<a href=\"https://github.com/ashita-ai/tessera\">https://github.com/ashita-ai/tessera</a>)</p> <p>What My Project Does</p> <p>Tessera is a schema registry for data warehouses, similar to Kafka Schema Registry but designed for the broader data stack. It coordinates schema changes between producers and consumers across dbt, OpenAPI, GraphQL, and Kafka.</p> <p>Producers must acknowledge breaking changes before publishing. Consumers register their dependencies, receive notifications when schemas change, and can block breaking changes until they\u2019re ready to migrate.</p> <p>Target Audience</p> <p>Data teams dealing with schema evolution, data contracts, or frequent incidents from uncoordinated breaking changes. It\u2019s production-intended and MIT licensed, built with Python &amp; FastAPI.</p> <p>Comparison</p> <p>* Kafka Schema Registry: Only handles Kafka topics. Tessera extends the same concept to dbt models, APIs, and other data sources.</p> <p>* dbt contracts: Define expectations but don\u2019t track downstream consumers or coordinate change timing.</p> <p>* Data catalogs (Atlan, DataHub): Focus on discovery and documentation, not change coordination or blocking.</p> <p>Tessera sits in the middle and answers: \u201cwho depends on this, and are they ready for this change?\u201d</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Low-Sandwich-7607\"> /u/Low-Sandwich-7607 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q0jzwl/tessera_schema_registry_for_dbt/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q0jzwl/tessera_schema_registry_for_dbt/\">[comments]</a></span>",
+      "author": "/u/Low-Sandwich-7607",
+      "published_date": "2025-12-31T18:32:10+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 191,
+      "reading_time": 1,
+      "created_at": "2026-01-01T08:31:05.789848+00:00",
+      "updated_at": "2026-01-01T10:18:15.092907+00:00",
+      "metadata": {
+        "processed_at": "2026-01-01T10:18:15.092909+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f194c4e52605a6f11ad3ddcc0e726c30",
+      "url": "https://nchagnet.pages.dev/blog/pokemon-team-optimization/",
+      "title": "Pok\u00e9mon Team Optimization",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46401763\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-27T13:38:01+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-01T08:31:04.610472+00:00",
+      "updated_at": "2026-01-01T10:18:15.092912+00:00",
+      "metadata": {
+        "processed_at": "2026-01-01T10:18:15.092913+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "94771ade5f187196b5d55ab28f43a93f",
+      "url": "https://news.ycombinator.com/item?id=46452146",
+      "title": "Ask HN: How did you learn to code?",
+      "content": "<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46452146\">https://news.ycombinator.com/item?id=46452146</a></p>\n<p>Points: 4</p>\n<p># Comments: 7</p>",
+      "author": "chistev",
+      "published_date": "2026-01-01T07:50:17+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 9,
+      "reading_time": 1,
+      "created_at": "2026-01-01T08:31:03.234889+00:00",
+      "updated_at": "2026-01-01T10:18:15.092915+00:00",
+      "metadata": {
+        "processed_at": "2026-01-01T10:18:15.092917+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "527b1a7416978fbdc459d389b139e4a2",
+      "url": "https://www.abc.net.au/news/2025-12-31/denmark-postal-service-ends-letter-delivery/106188988",
+      "title": "Denmark becomes first country in world to end letter delivery",
+      "content": "<p>Article URL: <a href=\"https://www.abc.net.au/news/2025-12-31/denmark-postal-service-ends-letter-delivery/106188988\">https://www.abc.net.au/news/2025-12-31/denmark-postal-service-ends-letter-delivery/106188988</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46452178\">https://news.ycombinator.com/item?id=46452178</a></p>\n<p>Points: 5</p>\n<p># Comments: 2</p>",
+      "author": "Tomte",
+      "published_date": "2026-01-01T08:01:05+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-01T08:31:03.234860+00:00",
+      "updated_at": "2026-01-01T10:18:15.092919+00:00",
+      "metadata": {
+        "processed_at": "2026-01-01T10:18:15.092921+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "77db3477c8d22ebbd43d1cb7c510512e",
       "url": "https://fmhy.net/posts/jan-2026",
       "title": "Monthly Updates [Janurary]",
@@ -262,106 +362,6 @@
       "updated_at": "2026-01-01T06:26:24.930656+00:00",
       "metadata": {
         "processed_at": "2026-01-01T06:26:24.930657+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3b2813d27a4bd8476db2ed6b46094d6f",
-      "url": "https://arxiv.org/abs/2512.23844",
-      "title": "From Correctness to Collaboration: Toward a Human-Centered Framework for Evaluating AI Agent Behavior in Software Engineering",
-      "content": "arXiv:2512.23844v1 Announce Type: cross \nAbstract: As Large Language Models (LLMs) evolve from code generators into collaborative partners for software engineers, our methods for evaluation are lagging. Current benchmarks, focused on code correctness, fail to capture the nuanced, interactive behaviors essential for successful human-AI partnership. To bridge this evaluation gap, this paper makes two core contributions. First, we present a foundational taxonomy of desirable agent behaviors for enterprise software engineering, derived from an analysis of 91 sets of user-defined agent rules. This taxonomy defines four key expectations of agent behavior: Adhere to Standards and Processes, Ensure Code Quality and Reliability, Solving Problems Effectively, and Collaborating with the User.\n  Second, recognizing that these expectations are not static, we introduce the Context-Adaptive Behavior (CAB) Framework. This emerging framework reveals how behavioral expectations shift along two empirically-derived axes: the Time Horizon (from immediate needs to future ideals), established through interviews with 15 expert engineers, and the Type of Work (from enterprise production to rapid prototyping, for example), identified through a prompt analysis of a prototyping agent. Together, these contributions offer a human-centered foundation for designing and evaluating the next generation of AI agents, moving the field's focus from the correctness of generated code toward the dynamics of true collaborative intelligence.",
-      "author": "Tao Dong, Harini Sampath, Ja Young Lee, Sherry Y. Shi, Andrew Macvean",
-      "published_date": "2026-01-01T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 206,
-      "reading_time": 1,
-      "created_at": "2026-01-01T05:29:03.168479+00:00",
-      "updated_at": "2026-01-01T06:26:24.930659+00:00",
-      "metadata": {
-        "processed_at": "2026-01-01T06:26:24.930661+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1059422b10b19d220dd7ef5be6e7aeaf",
-      "url": "https://arxiv.org/abs/2512.23835",
-      "title": "Explaining News Bias Detection: A Comparative SHAP Analysis of Transformer Model Decision Mechanisms",
-      "content": "arXiv:2512.23835v1 Announce Type: cross \nAbstract: Automated bias detection in news text is heavily used to support journalistic analysis and media accountability, yet little is known about how bias detection models arrive at their decisions or why they fail. In this work, we present a comparative interpretability study of two transformer-based bias detection models: a bias detector fine-tuned on the BABE dataset and a domain-adapted pre-trained RoBERTa model fine-tuned on the BABE dataset, using SHAP-based explanations. We analyze word-level attributions across correct and incorrect predictions to characterize how different model architectures operationalize linguistic bias. Our results show that although both models attend to similar categories of evaluative language, they differ substantially in how these signals are integrated into predictions. The bias detector model assigns stronger internal evidence to false positives than to true positives, indicating a misalignment between attribution strength and prediction correctness and contributing to systematic over-flagging of neutral journalistic content. In contrast, the domain-adaptive model exhibits attribution patterns that better align with prediction outcomes and produces 63\\% fewer false positives. We further demonstrate that model errors arise from distinct linguistic mechanisms, with false positives driven by discourse-level ambiguity rather than explicit bias cues. These findings highlight the importance of interpretability-aware evaluation for bias detection systems and suggest that architectural and training choices critically affect both model reliability and deployment suitability in journalistic contexts.",
-      "author": "Himel Ghosh",
-      "published_date": "2026-01-01T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 224,
-      "reading_time": 1,
-      "created_at": "2026-01-01T05:29:03.168447+00:00",
-      "updated_at": "2026-01-01T08:23:08.567217+00:00",
-      "metadata": {
-        "processed_at": "2026-01-01T08:23:08.567219+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "336cfb879953db0585cb2cdac2ac492a",
-      "url": "https://arxiv.org/abs/2512.24939",
-      "title": "Vibe Coding, Interface Flattening",
-      "content": "arXiv:2512.24939v1 Announce Type: new \nAbstract: Large language models are reshaping programming by enabling 'vibe coding': the development of softwares through natural-language interaction with model-driven toolchains. This article argues that vibe coding is best understood as interface flattening, a reconfiguration in which previously distinct modalities (GUI, CLI, and API) appear to converge into a single conversational surface, even as the underlying chain of translation from intention to machinic effect lengthens and thickens. Drawing on Friedrich Kittler's materialist media theory and Alexander Galloway's account of interfaces as sites of protocol control, the paper situates programming as a historically localised interface arrangement rather than an essential relation to computation. Through a materialist reconstruction of the contemporary vibe-coding stack, it shows how remote compute infrastructures, latency and connectivity, structured outputs, function/tool calling, and interoperability standards such as the Model Context Protocol relocate control and meaning-making power to model and protocol providers. The apparent democratisation of technical capability therefore depends on new dependencies and new literacies. By foregrounding the tension between experiential flattening and infrastructural thickening, I demonstrate how LLM-mediated development redistributes symbolic labour/power, obscures responsibility, and privatises competencies previously dispersed across programming communities, contributing a critical lens on the political economy of AI-mediated human-computer interaction.",
-      "author": "Hongrui Jin",
-      "published_date": "2026-01-01T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 201,
-      "reading_time": 1,
-      "created_at": "2026-01-01T05:29:03.168413+00:00",
-      "updated_at": "2026-01-01T08:23:08.567221+00:00",
-      "metadata": {
-        "processed_at": "2026-01-01T08:23:08.567223+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "162ec865c159dd497c9148019ca2c91f",
-      "url": "https://arxiv.org/abs/2512.24632",
-      "title": "ReflecToMeet: An AI-Assisted Reflection Based System to Enhance Collaborative Preparedness",
-      "content": "arXiv:2512.24632v1 Announce Type: new \nAbstract: In collaborative settings, difficulties in sustaining a consistent pace and engagement often lead to task drift, reducing preparedness and overall effectiveness between meetings. To address this challenge, we conducted a formative study and developed ReflecToMeet, an AI assisted system that integrates theory driven reflective prompts with mechanisms for sharing teammates reflections. Informed by ten formative interviews, the system was evaluated in a mixed method study across three conditions: deeper reflection, regular reflection, and a control condition with unstructured reflection. Participants in the control condition demonstrated less deliberate thought and weaker collaboration, which led to stress and misalignment during team meetings. In contrast, structured reflection supported greater organization and steadier progress. The deeper reflection condition further facilitated confidence, teamwork, and idea generation, although it imposed a higher cognitive load. We conclude by discussing design implications for AI agents that facilitate reflection to enhance collaboration and broader considerations for AI assisted systems aimed at sustaining collaborative goals.",
-      "author": "Md Nazmus Sakib, Naga Manogna Rayasam, Ishika Tarin, Sanorita Dey",
-      "published_date": "2026-01-01T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 160,
-      "reading_time": 1,
-      "created_at": "2026-01-01T05:29:03.168379+00:00",
-      "updated_at": "2026-01-01T08:23:08.567225+00:00",
-      "metadata": {
-        "processed_at": "2026-01-01T08:23:08.567227+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7074273a4d377d3727624b76ccd3bf7c",
-      "url": "https://arxiv.org/abs/2512.24237",
-      "title": "A Framing and Analysis of Applicative Tangible Interfaces",
-      "content": "arXiv:2512.24237v1 Announce Type: new \nAbstract: The investigation of tangible user interfaces commenced approximately thirty years ago. Questions on its commercial potential become more pressing as the field becomes mature. To take the field one step further -- as the emergence of components contributed to the commercial development of graphical user interfaces -- this article suggests that applicative tangible user interfaces could also be split into components. These components are composed of the aggregation, combination, or coupling of physical items and fulfil four roles that are described through a new interaction model. This article successfully distributed among these four components' roles all of the 159 physical items from a representative collection of 35 applications. Further examination of these applicative tangible interfaces coincides with four research phases in the field and identifies three main paths for future research to fully realize the potential of tangible user interfaces.",
-      "author": "Guillaume Riviere",
-      "published_date": "2026-01-01T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 145,
-      "reading_time": 1,
-      "created_at": "2026-01-01T05:29:03.168349+00:00",
-      "updated_at": "2026-01-01T08:23:08.567229+00:00",
-      "metadata": {
-        "processed_at": "2026-01-01T08:23:08.567234+00:00",
         "processing_method": "github_actions"
       }
     }
