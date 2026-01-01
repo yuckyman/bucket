@@ -1,5 +1,21 @@
 [
   {
+    "id": "b16074336a5c705817b3ee37e476386c",
+    "url": "https://nullprogram.com/blog/2026/01/01/",
+    "title": "WebAssembly as a Python Extension Platform",
+    "content": "<p>Article URL: <a href=\"https://nullprogram.com/blog/2026/01/01/\">https://nullprogram.com/blog/2026/01/01/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46458624\">https://news.ycombinator.com/item?id=46458624</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+    "author": "ArmageddonIt",
+    "published_date": "2026-01-01T22:09:16+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-01T23:42:25.918147+00:00",
+    "updated_at": "2026-01-01T23:42:25.918154+00:00"
+  },
+  {
     "id": "abc6e5eedb99cefeb6bcf48a4195e01e",
     "url": "https://catalog.archives.gov/id/133360601",
     "title": "Moving Images Related to the Apollo Missions, 1967\u20131969",
@@ -17362,25 +17378,5 @@
     "reading_time": 1,
     "created_at": "2025-12-27T14:19:18.670564+00:00",
     "updated_at": "2025-12-27T14:19:18.670571+00:00"
-  },
-  {
-    "id": "cf13b70cdb53d67f33440a96bc36cc1d",
-    "url": "http://ieeexplore.ieee.org/document/11245650",
-    "title": "Compression-Enabled Joint Entropy Estimation for Seizure Detection on Human Intracortical Electroencephalography",
-    "content": "Objective: Of the 1% of the world population with epilepsy, one-third have drug-resistant epilepsy and often turn to surgical intervention. Current epilepsy treatment relies on manual review by epileptologists and could benefit from reliable quantitative electroencephalography (qEEG) approaches to speed up evaluation, minimize inter-reviewer variance, and deliver higher quality and more equitable care. Methods: We present the inverse compression ratio (ICR), an estimate of an upper bound of joint entropy using common compression algorithms, as a potential qEEG method for seizure detection. This technique was tested on our repository of 10 kHz intracortical neurophysiological data across 30 participants (15 adults and 15 children, 240+ total seizures). Results: Single-electrode ICR achieved a F1 score of 0.80 and an area under precision-recall curve of 0.69, outperforming conventional qEEG methods. Multielectrode ICR performed within the top 2% of individual electrodes, potentially eliminating the need for electrode selection. Conclusion: ICR may be useful for automated seizure detection; its integration into clinical systems may translate to broad clinical impact. Significance: We believe this clinical study analyzed the largest volume of continuous, multi-day intracortical neuroelectrophysiology for quantitative methods\u2013with 2,900+ recording hours (420,000+ electrode-hours, amounting to 30+ TB of data). It is also the first demonstration of compression-based multidimensional estimation in a biological or clinical application. By computing an ensemble effect without linear assumptions or parametric modeling, ICR offers a model-free solution to the classically combinatorially intractable problem of high-dimensional joint entropy; its application likely extends beyond epilepsy to other domains of biomedical signal processing.",
-    "author": "",
-    "published_date": "2025-11-13T13:16:42+00:00",
-    "source": "Transactions Biomedical Engineering",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 248,
-    "reading_time": 1,
-    "created_at": "2025-12-27T13:47:35.104168+00:00",
-    "updated_at": "2025-12-27T14:14:18.644585+00:00",
-    "metadata": {
-      "processed_at": "2025-12-27T14:14:18.644594+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]
