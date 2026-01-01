@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-01T12:46:11.787091+00:00",
+  "last_updated": "2026-01-01T13:35:11.678566+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "0775c6245bb39d4047e6b56e96c32853",
+      "url": "https://axotron.se/blog/vector-network-analyzer-a-christmas-present-to-myself/",
+      "title": "A Christmas Present to Myself \u2013 Vector Network Analyzer (2014)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46384349\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-25T13:45:04+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-01T13:33:58.977548+00:00",
+      "updated_at": "2026-01-01T13:33:58.977550+00:00"
+    },
+    {
+      "id": "cbcaa633781da402a94b3ec3a5f2b46b",
+      "url": "https://takes.jamesomalley.co.uk/p/this-might-be-oversharing",
+      "title": "I rebooted my social life",
+      "content": "<p>Article URL: <a href=\"https://takes.jamesomalley.co.uk/p/this-might-be-oversharing\">https://takes.jamesomalley.co.uk/p/this-might-be-oversharing</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46453114\">https://news.ycombinator.com/item?id=46453114</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "author": "edent",
+      "published_date": "2026-01-01T11:01:38+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-01T13:33:57.765917+00:00",
+      "updated_at": "2026-01-01T13:33:57.765919+00:00"
+    },
     {
       "id": "2d3c15fb711591b783a16bef23d1582d",
       "url": "https://blog.phronemophobic.com/easel-one-year.html",
@@ -339,46 +371,6 @@
       "updated_at": "2026-01-01T06:26:24.930647+00:00",
       "metadata": {
         "processed_at": "2026-01-01T06:26:24.930649+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "886e0430756947999bc2ccba29b8466c",
-      "url": "https://arxiv.org/abs/2512.24415",
-      "title": "Language Model Agents Under Attack: A Cross Model-Benchmark of Profit-Seeking Behaviors in Customer Service",
-      "content": "arXiv:2512.24415v1 Announce Type: cross \nAbstract: Customer-service LLM agents increasingly make policy-bound decisions (refunds, rebooking, billing disputes), but the same ``helpful'' interaction style can be exploited: a small fraction of users can induce unauthorized concessions, shifting costs to others and eroding trust in agentic workflows. We present a cross-domain benchmark of profit-seeking direct prompt injection in customer-service interactions, spanning 10 service domains and 100 realistic attack scripts grouped into five technique families. Across five widely used models under a unified rubric with uncertainty reporting, attacks are highly domain-dependent (airline support is most exploitable) and technique-dependent (payload splitting is most consistently effective). We release data and evaluation code to support reproducible auditing and to inform the design of oversight and recovery workflows for trustworthy, human centered agent interfaces.",
-      "author": "Jingyu Zhang",
-      "published_date": "2026-01-01T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 126,
-      "reading_time": 1,
-      "created_at": "2026-01-01T05:29:03.168535+00:00",
-      "updated_at": "2026-01-01T06:26:24.930652+00:00",
-      "metadata": {
-        "processed_at": "2026-01-01T06:26:24.930654+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1bd34c06df7a6614b9368bc2bcf507a1",
-      "url": "https://arxiv.org/abs/2512.24029",
-      "title": "Evaluation of Impression Difference of a Domestic Mobile Manipulator with Autonomous and/or Remote Control in Fetch-and-Carry Tasks",
-      "content": "arXiv:2512.24029v1 Announce Type: cross \nAbstract: A single service robot can present two distinct agencies: its onboard autonomy and an operator-mediated agency, yet users experience them through one physical body. We formalize this dual-agency structure as a User-Robot-Operator triad in an autonomous remote-control setting that combines autonomous execution with remote human support. Prior to the recent surge of language-based and multimodal interfaces, we developed and evaluated an early-stage prototype in 2020 that combined natural-language text chat with freehand sketch annotations over the robot's live camera view to support remote intervention. We evaluated three modes - autonomous, remote, and hybrid - in controlled fetch-and-carry tasks using a domestic mobile manipulator (HSR) on a World Robot Summit 2020 rule-compliant test field. The results show systematic mode-dependent differences in user-rated affinity and additional insights on perceived security, indicating that switching or blending agency within one robot measurably shapes human impressions. These findings provide empirical guidance for designing human-in-the-loop mobile manipulation in domestic physical tasks.",
-      "author": "Takashi Yamamoto, Hiroaki Yaguchi, Shohei Kato, Hiroyuki Okada",
-      "published_date": "2026-01-01T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 160,
-      "reading_time": 1,
-      "created_at": "2026-01-01T05:29:03.168508+00:00",
-      "updated_at": "2026-01-01T06:26:24.930656+00:00",
-      "metadata": {
-        "processed_at": "2026-01-01T06:26:24.930657+00:00",
         "processing_method": "github_actions"
       }
     }
