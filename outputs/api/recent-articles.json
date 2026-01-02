@@ -1,7 +1,103 @@
 {
-  "last_updated": "2026-01-02T06:26:30.787533+00:00",
+  "last_updated": "2026-01-02T06:36:58.147746+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "9a64d447a01fbedbe6fb1f009500f4c2",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1633272",
+      "title": "LLMs achieve adult human performance on higher-order theory of mind tasks",
+      "content": "This paper examines the extent to which large language models (LLMs) are able to perform tasks which require higher-order theory of mind (ToM)\u2014the human ability to reason about multiple mental and emotional states in a recursive manner (e.g., I think that you believe that she knows). This paper builds on prior work by introducing a handwritten test suite\u2014Multi-Order Theory of Mind Q&amp;A\u2014and using it to compare the performance of five LLMs of varying sizes and training paradigms to a newly gathered adult human benchmark. We find that GPT-4 and Flan-PaLM reach adult-level and near adult-level performance on our ToM tasks overall, and that GPT-4 exceeds adult performance on 6th order inferences. Our results suggest that there is an interplay between model size and finetuning for higher-order ToM performance, and that the linguistic abilities of large models may support more complex ToM inferences. Given the important role that higher-order ToM plays in group social interaction and relationships, these findings have significant implications for the development of a broad range of social, educational and assistive LLM applications.",
+      "author": "Robin I. M. Dunbar",
+      "published_date": "2026-01-02T00:00:00+00:00",
+      "source": "Frontiers Human Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 175,
+      "reading_time": 1,
+      "created_at": "2026-01-02T06:36:17.214346+00:00",
+      "updated_at": "2026-01-02T06:36:17.214351+00:00"
+    },
+    {
+      "id": "38b01b6664bdfad0d903ad32281f312c",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1731738",
+      "title": "Exploring the neuroprotective effects and underlying mechanisms of medical cannabinoids in ischemic stroke: a systematic meta-analysis with bibliometric mapping of cerebral ischemia research",
+      "content": "BackgroundIschemic stroke is an acute neurological disorder with limited treatment options. Medical cannabinoids (MCs), primary bioactive compounds extracted from cannabis plants, have shown therapeutic prospects for ischemic stroke. This study integrates bibliometrics and meta-analysis to comprehensively summarize the research landscape of MCs in cerebral ischemia and thoroughly investigate their role and potential mechanisms in ischemic stroke.MethodsBibliometric analysis was performed based on literature retrieved from Web of Science Core Collection (WoSCC), PubMed, and Scopus. For meta-analysis, a comprehensive search was conducted across four databases (WoSCC, PubMed, Embase, and Cochrane Library) and grey literature repositories. Studies were screened according to predefined criteria. Pooled standardized mean differences with 95% confidence interval were calculated, followed by subgroup analysis.ResultsA total of 241 publications were identified for bibliometric analysis. From 2000 to June 2025, the annual publication output on MCs in cerebral ischemia displayed a fluctuating yet overall upward trend. Keyword co-occurrence analysis revealed three major research topics: neuroprotective mechanisms of MCs, pathological models of cerebral ischemia, and bioactive components of MCs. Meta-analysis of 26 studies demonstrated that MCs provided significant neuroprotection in animal models of ischemic stroke, including cerebral infarct volume, neurological function score (NFS), cerebral blood flow (CBF), blood\u2013brain barrier (BBB) permeability, brain water content, apoptosis (TUNEL-positive cells), oxidative stress markers, inflammation (TNF-\u03b1, IL-1\u03b2), and excitotoxicity (Glu/NAA, Lac/NAA ratio). Subgroup analysis revealed that intraperitoneal administration and a full-course of cannabidiol (CBD) treatment were associated with reduced heterogeneity and enhanced therapeutic benefit. Isoflurane was identified as a potentially suitable anesthetic.ConclusionMCs exert multi-target neuroprotection in ischemic stroke by improving CBF, reducing brain edema and BBB permeability, and inhibiting oxidative stress, neuroinflammation, apoptosis, and excitotoxicity. Future research should focus on high-quality clinical trials to validate these findings and translate MCs into clinical practice.Systematic review registrationhttps://osf.io/6je7n.",
+      "author": "Miao Qu",
+      "published_date": "2026-01-02T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 288,
+      "reading_time": 1,
+      "created_at": "2026-01-02T06:36:14.075602+00:00",
+      "updated_at": "2026-01-02T06:36:14.075604+00:00"
+    },
+    {
+      "id": "bb0384a2b058ef12146f5d66b5fe1cd4",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1691929",
+      "title": "Transfer learning for subject-independent motor imagery EEG classification using convolutional relational networks",
+      "content": "Motor imagery (MI) based electroencephalography (EEG) classification is central to brain-computer interface (BCI) research but practical deployment remains challenging due to poor generalization across subjects. Inter-individual variability in neural activity patterns significantly limits the development of subject-independent BCIs for healthcare and assistive technologies. To address this limitation, we present a transfer learning framework based on Convolutional Relational Networks (ConvoReleNet) designed to extract subject-invariant neural representations while minimizing the risk of catastrophic forgetting. The method integrates convolutional feature extraction, relational modeling, and lightweight recurrent processing, combined with pretraining on a diverse subject pool followed by conservative fine-tuning. Validation was conducted on two widely used benchmarks, BNCI IV-2a (four-class motor imagery) and BNCI IV-2b (binary motor imagery), to evaluate subject-independent classification performance. Results demonstrate clear improvements over training from scratch: accuracy on BNCI IV-2a increased from 72.22 (\u00b120.49) to 79.44% (\u00b111.09), while BNCI IV-2b improved from 75.10 (\u00b117.17) to 83.85% (\u00b110.30). The best-case performance reached 87.55% on BNCI IV-2a with Tanh activation and 83.85% on BNCI IV-2b with ELU activation, accompanied by reductions in inter-subject variance of 45.9 and 40.0%, respectively. These findings establish transfer learning as an effective strategy for subject-independent MI-EEG classification. By enhancing accuracy, reducing variability, and maintaining computational efficiency, the proposed framework strengthens the feasibility of robust and user-friendly BCIs for rehabilitation, clinical use, and assistive applications.",
+      "author": "Abzal Kyzyrkanov",
+      "published_date": "2026-01-02T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 219,
+      "reading_time": 1,
+      "created_at": "2026-01-02T06:36:14.075551+00:00",
+      "updated_at": "2026-01-02T06:36:14.075553+00:00"
+    },
+    {
+      "id": "06d2f74011269068360ea62cf389c2d3",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1703718",
+      "title": "An unexpected discovery of a novel potentially pathogenic APP gene variant: a case report of slowly progressive Alzheimer\u2019s disease with prominent cerebral amyloid angiopathy",
+      "content": "Amyloid precursor protein (APP) plays an essential role in brain function and development. Variants in the APP gene are associated with both familial Alzheimer\u2019s disease and cerebral amyloid angiopathy. We report a case of early onset, slowly progressive mixed dementia with a newly identified APP variant. The patient developed mild cognitive impairment at age 51, followed by neuropsychiatric symptoms, seizures, and progressive white matter changes. Despite a fluctuating clinical course, significant deterioration occurred later, culminating in death at age 77. Genetic testing revealed an APP c.2086G\u202f>\u202fA (p.Gly696Ser) variant, currently classified as a variant of uncertain significance (VUS). Postmortem examination showed definite AD neuropathologic changes, with fully blown amyloid pathology including amyloid deposits in plaques as well as in severe generalized cerebral angiopathy with concomitant advanced FTLD-tau pathology. In silico analysis of the variant\u2019s impact was performed, and the inconclusive results are discussed later.",
+      "author": "Radoslav Mat\u011bj",
+      "published_date": "2026-01-02T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 145,
+      "reading_time": 1,
+      "created_at": "2026-01-02T06:36:14.075492+00:00",
+      "updated_at": "2026-01-02T06:36:14.075497+00:00"
+    },
+    {
+      "id": "2c2cc17e42bcb30171909e6e998dea1b",
+      "url": "https://hmmdaily.com/2018/10/18/your-real-biological-clock-is-youre-going-to-die/",
+      "title": "Real Biological Clock Is You're Going to Die",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46461778\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-02T05:39:13+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-02T06:35:45.562414+00:00",
+      "updated_at": "2026-01-02T06:35:45.562415+00:00"
+    },
+    {
+      "id": "2c2cc17e42bcb30171909e6e998dea1b",
+      "url": "https://hmmdaily.com/2018/10/18/your-real-biological-clock-is-youre-going-to-die/",
+      "title": "Real Biological Clock Is You're Going to Die",
+      "content": "<p>Article URL: <a href=\"https://hmmdaily.com/2018/10/18/your-real-biological-clock-is-youre-going-to-die/\">https://hmmdaily.com/2018/10/18/your-real-biological-clock-is-youre-going-to-die/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46461778\">https://news.ycombinator.com/item?id=46461778</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "author": "moultano",
+      "published_date": "2026-01-02T05:39:13+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-02T06:35:44.455322+00:00",
+      "updated_at": "2026-01-02T06:35:44.455330+00:00"
+    },
     {
       "id": "a0d956bdc32a05600d8ec1d525b9847a",
       "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006523?dgcid=rss_sd_all",
@@ -63,6 +159,26 @@
       }
     },
     {
+      "id": "2ea825af5332e8389ef7b0a6e189c742",
+      "url": "https://www.reddit.com/r/confession/s/gbrh2zxeou",
+      "title": "A confession from a mainstream food delivery app engineer",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46461578\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-02T05:00:25+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-02T05:26:34.739582+00:00",
+      "updated_at": "2026-01-02T06:26:30.676574+00:00",
+      "metadata": {
+        "processed_at": "2026-01-02T06:26:30.676575+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "812ef320964921391cf0de964a0b0e0e",
       "url": "https://fordauthority.com/2025/12/ford-engineer-that-designed-gas-tank-indicator-passes-away/",
       "title": "James Moylan, engineer behind arrow signaling which side to refuel a car, dies",
@@ -99,26 +215,6 @@
       "updated_at": "2026-01-02T06:26:30.676581+00:00",
       "metadata": {
         "processed_at": "2026-01-02T06:26:30.676583+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2ea825af5332e8389ef7b0a6e189c742",
-      "url": "https://www.reddit.com/r/confession/s/gbrh2zxeou",
-      "title": "A confession from a mainstream food delivery app engineer",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46461578\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-02T05:00:25+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-02T05:26:34.739582+00:00",
-      "updated_at": "2026-01-02T06:26:30.676574+00:00",
-      "metadata": {
-        "processed_at": "2026-01-02T06:26:30.676575+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -259,126 +355,6 @@
       "updated_at": "2026-01-02T04:36:47.547047+00:00",
       "metadata": {
         "processed_at": "2026-01-02T04:36:47.547049+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "79c86fcffea06e90a09973e261af74c3",
-      "url": "https://kyo.iroiro.party/en/posts/100-percent-lisp/",
-      "title": "Extensibility: The \"100% Lisp\" Fallacy",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46460394\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-02T01:36:25+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-02T03:41:11.092435+00:00",
-      "updated_at": "2026-01-02T04:36:47.547047+00:00",
-      "metadata": {
-        "processed_at": "2026-01-02T04:36:47.547049+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6623e6f28e8e50df509145636977046d",
-      "url": "https://github.com/ghostty-org/ghostty/issues/3558",
-      "title": "Why users cannot create Issues directly (Ghostty)",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46460319\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-02T01:24:51+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-02T03:41:11.092376+00:00",
-      "updated_at": "2026-01-02T04:36:47.547052+00:00",
-      "metadata": {
-        "processed_at": "2026-01-02T04:36:47.547054+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6623e6f28e8e50df509145636977046d",
-      "url": "https://github.com/ghostty-org/ghostty/issues/3558",
-      "title": "Why users cannot create Issues directly (Ghostty)",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46460319\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-02T01:24:51+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-02T03:41:11.092376+00:00",
-      "updated_at": "2026-01-02T04:36:47.547052+00:00",
-      "metadata": {
-        "processed_at": "2026-01-02T04:36:47.547054+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9e463a0972bc60f9e05aa5e201e6d803",
-      "url": "https://publicdomainreview.org/blog/2026/01/public-domain-day-2026/",
-      "title": "Happy Public Domain Day 2026",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46460440\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-02T01:42:16+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-02T03:41:11.092328+00:00",
-      "updated_at": "2026-01-02T04:36:47.547056+00:00",
-      "metadata": {
-        "processed_at": "2026-01-02T04:36:47.547058+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9e463a0972bc60f9e05aa5e201e6d803",
-      "url": "https://publicdomainreview.org/blog/2026/01/public-domain-day-2026/",
-      "title": "Happy Public Domain Day 2026",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46460440\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-02T01:42:16+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-02T03:41:11.092328+00:00",
-      "updated_at": "2026-01-02T04:36:47.547056+00:00",
-      "metadata": {
-        "processed_at": "2026-01-02T04:36:47.547058+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e441bc64fd4c5b2b4cf322d4bc7d8bff",
-      "url": "https://privacy.ca.gov/DROP/",
-      "title": "California Delete Request and Opt-out Platform (DROP)",
-      "content": "<p>Article URL: <a href=\"https://privacy.ca.gov/DROP/\">https://privacy.ca.gov/DROP/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46460208\">https://news.ycombinator.com/item?id=46460208</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
-      "author": "8organicbits",
-      "published_date": "2026-01-02T01:07:08+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-02T03:41:09.711419+00:00",
-      "updated_at": "2026-01-02T04:36:47.547060+00:00",
-      "metadata": {
-        "processed_at": "2026-01-02T04:36:47.547061+00:00",
         "processing_method": "github_actions"
       }
     }
