@@ -1,5 +1,37 @@
 [
   {
+    "id": "e7d823a54985f8c71451c3ecf55fc418",
+    "url": "https://sgoel.dev/posts/10-years-of-personal-finances-in-plain-text-files/",
+    "title": "10 years of personal finances in plain text files",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46463644\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-02T11:07:51+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-02T11:39:51.251181+00:00",
+    "updated_at": "2026-01-02T11:39:51.251183+00:00"
+  },
+  {
+    "id": "e7d823a54985f8c71451c3ecf55fc418",
+    "url": "https://sgoel.dev/posts/10-years-of-personal-finances-in-plain-text-files/",
+    "title": "10 years of personal finances in plain text files",
+    "content": "<p>Article URL: <a href=\"https://sgoel.dev/posts/10-years-of-personal-finances-in-plain-text-files/\">https://sgoel.dev/posts/10-years-of-personal-finances-in-plain-text-files/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46463644\">https://news.ycombinator.com/item?id=46463644</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+    "author": "wrxd",
+    "published_date": "2026-01-02T11:07:51+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-02T11:39:50.156720+00:00",
+    "updated_at": "2026-01-02T11:39:50.156728+00:00"
+  },
+  {
     "id": "8fc44375a0b1bf31861c90efc1118341",
     "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2530824122?af=R",
     "title": "How attention-like behavior emerges in an artificial neural network",
@@ -17418,41 +17450,5 @@
       "processed_at": "2025-12-27T22:15:17.375729+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "4cf9c31c7679ee23d4856fc79d60f25d",
-    "url": "https://www.reddit.com/r/Python/comments/1pwlcht/chanx_typesafe_websocket_framework_for_fastapi/",
-    "title": "Chanx: Type-safe WebSocket framework for FastAPI & Django",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I built <strong>Chanx</strong> to eliminate WebSocket boilerplate and bring the same developer experience we have with REST APIs (automatic validation, type safety, documentation) to WebSocket development.</p> <h2>The Problem</h2> <p>Traditional WebSocket code is painful:</p> <p>```python @app.websocket(&quot;/ws&quot;) async def websocket_endpoint(websocket: WebSocket): await websocket.accept() while True: data = await websocket.receive_json() action = data.get(&quot;action&quot;)</p> <pre><code> if action == &quot;chat&quot;: # Manual validation, no type safety, no docs if &quot;message&quot; not in data.get(&quot;payload&quot;, {}): await websocket.send_json({&quot;error&quot;: &quot;Missing message&quot;}) elif action == &quot;ping&quot;: await websocket.send_json({&quot;action&quot;: &quot;pong&quot;}) # ... endless if-else chains </code></pre> <p>```</p> <p>You're stuck with manual routing, validation, and zero documentation.</p> <h2>The Solution</h2> <p>With Chanx, the same code becomes:</p> <p>```python @channel(name=&quot;chat&quot;, description=&quot;Real-time chat API&quot;) class ChatConsumer(AsyncJsonWebsocketConsumer): groups = [&quot;chat_room&quot;] # Auto-join on connect</p> <pre><code>@ws_handler(output_type=ChatNotificationMessage) async def handle_chat(self, message: ChatMessage) -&gt; None: # Automatically routed, validated, and type-safe await self.broadcast_message( ChatNotificationMessage(payload=message.payload) ) @ws_handler async def handle_ping(self, message: PingMessage) -&gt; PongMessage: return PongMessage() # Auto-documented in AsyncAPI </code></pre> <p>```</p> <h2>Key Features</h2> <ul> <li><strong>Automatic routing</strong> via Pydantic discriminated unions (no if-else chains)</li> <li><strong>Type-safe</strong> with mypy/pyright support</li> <li><strong>AsyncAPI 3.0 docs</strong> auto-generated (like Swagger for WebSockets)</li> <li><strong>Type-safe client generator</strong> - generates Python clients from your API</li> <li><strong>Built-in testing utilities</strong> for both FastAPI and Django</li> <li><strong>Single codebase</strong> works with both FastAPI and Django Channels</li> <li><strong>Broadcasting &amp; groups</strong> out of the box</li> </ul> <h2>Installation</h2> <p>```bash</p> <h1>For FastAPI</h1> <p>pip install &quot;chanx[fast_channels]&quot;</p> <h1>For Django Channels</h1> <p>pip install &quot;chanx[channels]&quot; ```</p> <p><strong>Links:</strong> - PyPI: <a href=\"https://pypi.org/project/chanx/\">https://pypi.org/project/chanx/</a> - Docs: <a href=\"https://chanx.readthedocs.io/\">https://chanx.readthedocs.io/</a> - GitHub: <a href=\"https://github.com/huynguyengl99/chanx\">https://github.com/huynguyengl99/chanx</a></p> <p>Python 3.11+, fully typed. Open to feedback!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/huygl99\"> /u/huygl99 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pwlcht/chanx_typesafe_websocket_framework_for_fastapi/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pwlcht/chanx_typesafe_websocket_framework_for_fastapi/\">[comments]</a></span>",
-    "author": "/u/huygl99",
-    "published_date": "2025-12-27T01:46:12+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 266,
-    "reading_time": 1,
-    "created_at": "2025-12-27T21:39:48.582158+00:00",
-    "updated_at": "2025-12-27T22:15:17.375732+00:00",
-    "metadata": {
-      "processed_at": "2025-12-27T22:15:17.375733+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "639be8568164aed87c042268708c40db",
-    "url": "https://www.pbs.org/newshour/show/white-house-pushes-to-dismantle-leading-climate-and-weather-research-center",
-    "title": "White House pushes to dismantle leading climate and weather research center",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46405183\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-27T21:01:09+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-27T21:39:47.277049+00:00",
-    "updated_at": "2025-12-27T21:39:47.277050+00:00"
   }
 ]
