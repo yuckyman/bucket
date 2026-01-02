@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-01-02T14:23:07.062791+00:00",
+  "last_updated": "2026-01-02T14:47:08.178252+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "959a3e4899df3eab73eb0ef4b3685aca",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1718778",
+      "title": "From generative AI to the brain: five takeaways",
+      "content": "The big strides seen in generative AI are not based on somewhat obscure algorithms, but due to clearly defined generative principles. The resulting concrete implementations have proven themselves in large numbers of applications. We suggest that it is imperative to thoroughly investigate which of these generative principles may be operative also in the brain, and hence relevant for cognitive neuroscience. In addition, ML research led to a range of interesting characterizations of neural information processing systems. We discuss five examples, the shortcomings of world modeling, the generation of thought processes, attention, neural scaling laws, and quantization, that illustrate how much neuroscience could potentially learn from ML research.",
+      "author": "Claudius Gros",
+      "published_date": "2025-11-24T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 107,
+      "reading_time": 1,
+      "created_at": "2026-01-02T14:46:27.573680+00:00",
+      "updated_at": "2026-01-02T14:46:27.573682+00:00"
+    },
+    {
+      "id": "33acc2018b43158c8e62d015109085b0",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1711642",
+      "title": "Correction: RSA-TransUNet: a robust structure-adaptive TransUNet for enhanced road crack segmentation",
+      "content": "",
+      "author": "Ruoli Yang",
+      "published_date": "2025-11-10T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-02T14:46:24.836390+00:00",
+      "updated_at": "2026-01-02T14:46:24.836392+00:00"
+    },
+    {
+      "id": "c13d5532481827beeb958f3b696e11c0",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1696824",
+      "title": "A novel intelligent physiotherapy robot based on dynamic acupoint recognition method",
+      "content": "BackgroundPhysiotherapy robots offer a feasible and promising solution for achieving safe and efficient treatment. Among these, acupoint recognition is the core component that ensures the precision of physiotherapy robots. Although the research on the acupoint recognition such as hand and ear has been extensive, the accurate location of acupoints on the back of the human body still faces great challenges due to the lack of significant external features.MethodsThis paper designs a two-stage acupoint recognition method, which is achieved through the cooperation of two detection networks. First, a lightweight RTMDet network is used to extract the effective back range from the image, and then the acupoint coordinates are inferred from the extracted back range, reducing the inference consumption caused by invalid information. In addition, the RTMPose network based on the SimCC framework converts the acupoint coordinate regression problem into a classification problem of sub-pixel block subregions on the X and Y axes by performing sub-pixel-level segmentation of images, significantly improving detection speed and accuracy. Meanwhile, the multi-layer feature fusion of CSPNeXt enhances feature extraction capabilities. Then, we designed a physiotherapy interaction interface. Through the three-dimensional coordinates of the acupoints, we independently planned the physiotherapy task path of the physiotherapy robot.ResultsWe conducted performance tests on the acupoint recognition system and physiotherapy task planning in the physiotherapy robot system. The experiments have proven our effectiveness, achieving a recall of 90.17% on human datasets, with a detection error of around 5.78\u202fmm. At the same time, it can accurately identify different back postures and achieve an inference speed of 30 FPS on a 4070Ti GPU. Finally, we conducted continuous physiotherapy tasks on multiple acupoints for the user.ConclusionThe experimental results demonstrate the significant advantages and broad application potential of this method in improving the accuracy and reliability of autonomous acupoint recognition by physiotherapy robots.",
+      "author": "Shuoyu Wang",
+      "published_date": "2025-11-24T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 299,
+      "reading_time": 1,
+      "created_at": "2026-01-02T14:46:24.836308+00:00",
+      "updated_at": "2026-01-02T14:46:24.836309+00:00"
+    },
+    {
+      "id": "23e56f8fb482046eda78dbd65d30a941",
+      "url": "https://gist.github.com/arch1t3cht/b5b9552633567fa7658deee5aec60453/",
+      "title": "What You Need to Know Before Touching a Video File",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46404321\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-27T19:17:25+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-02T14:46:00.162986+00:00",
+      "updated_at": "2026-01-02T14:46:00.162988+00:00"
+    },
     {
       "id": "b2739e4e95411f97d15e18000e6ce60b",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.29.696938v1?rss=1",
@@ -259,86 +323,6 @@
       "updated_at": "2026-01-02T14:16:25.400095+00:00",
       "metadata": {
         "processed_at": "2026-01-02T14:16:25.400105+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "16a94db386db8f9eedc57fbb9d650ee2",
-      "url": "https://github.com/j-brooke/FracturedJson/wiki",
-      "title": "FracturedJson",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46464235\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-02T12:46:31+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-02T13:33:27.559801+00:00",
-      "updated_at": "2026-01-02T14:16:25.400095+00:00",
-      "metadata": {
-        "processed_at": "2026-01-02T14:16:25.400105+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "673985b5095aee355604c44e7c36a19f",
-      "url": "https://pku-yuangroup.github.io/UltraShape-1.0/",
-      "title": "High-Fidelity 3D Shape Generation",
-      "content": "<p>Article URL: <a href=\"https://pku-yuangroup.github.io/UltraShape-1.0/\">https://pku-yuangroup.github.io/UltraShape-1.0/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46463683\">https://news.ycombinator.com/item?id=46463683</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
-      "author": "nkko",
-      "published_date": "2026-01-02T11:15:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-02T13:33:26.460066+00:00",
-      "updated_at": "2026-01-02T14:16:25.400109+00:00",
-      "metadata": {
-        "processed_at": "2026-01-02T14:16:25.400111+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "42e09c125bcffc339300f472f254a826",
-      "url": "https://custompaste.com",
-      "title": "Show HN: I built a clipboard tool to strip/keep specific formatting like Italics",
-      "content": "<p>Hello HN,<p>I\u2019m Joseph, a solo developer. I built CustomPaste because I was frustrated by the binary choice standard clipboard tools give us: either keep all the messy formatting (background colors, huge fonts) or strip everything down to plain text.<p>We all know Ctrl+Shift+V (paste as plain text), but that is often too destructive, it kills hyperlinks, bolding, and lists when I usually just want to normalize the font family (e.g., force Arial 11pt) or remove background colors.<p>I wanted a tool that let me \"strip exactly what I want, and keep exactly what I want.\"<p>The Solution: Instead of a single \"paste\" behavior, the app lets you create reusable \"Recipes\" to define exactly how your text should land in your editor. It intercepts the clipboard, processes the structure locally, and transforms it based on your rules.<p>It offers granular control over:<p><pre><code>    Smart Preservation: You can strip or set specific font families and sizes but specifically preserve bold, italics, and hyperlinks.\n</code></pre>\nStructure: You can preserve tables while stripping the images inside them.<p>Data Cleanup: It can instantly purge duplicate lines, sort lists alphabetically, or flatten extra blank lines.<p>Text Fixes: It cleans up AI-generated artifacts (like \"smart quotes\" or em-dashes) and enforces casing (Title Case, Sentence Case).<p>Privacy & Pricing: The app runs 100% locally on your machine, no cloud processing and no data harvesting. It is a one-time purchase (lifetime license), not a subscription. There is a free trial (first 100 pastes) so you can test if it fits your workflow.<p>I\u2019d love to hear your feedback on the \"Recipe\" approach or any other edge cases you struggle with when pasting text!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46463992\">https://news.ycombinator.com/item?id=46463992</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
-      "author": "EvaWorld9",
-      "published_date": "2026-01-02T12:07:00+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 276,
-      "reading_time": 1,
-      "created_at": "2026-01-02T13:33:26.460043+00:00",
-      "updated_at": "2026-01-02T14:16:25.400114+00:00",
-      "metadata": {
-        "processed_at": "2026-01-02T14:16:25.400116+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6810e589348c3bb219be3bcfe9223998",
-      "url": "https://www.reddit.com/r/Python/comments/1q1b45z/the_fastest_http_library/",
-      "title": "The fastest http library",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Well someone claims he made the fastest library for http requests . faster than httpx , aiohttp , ...</p> <p>Before using this for my app, i really want to hear what you think about this :</p> <p><a href=\"https://github.com/shayanheidari01/fasthttp\">https://github.com/shayanheidari01/fasthttp</a></p> <p>There is some sort of a Benchmark in README.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mojtaba-cs\"> /u/mojtaba-cs </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q1b45z/the_fastest_http_library/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q1b45z/the_fastest_http_library/\">[comments]</a></span>",
-      "author": "/u/mojtaba-cs",
-      "published_date": "2026-01-01T18:28:04+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 68,
-      "reading_time": 1,
-      "created_at": "2026-01-02T12:43:09.951309+00:00",
-      "updated_at": "2026-01-02T14:16:25.400122+00:00",
-      "metadata": {
-        "processed_at": "2026-01-02T14:16:25.400123+00:00",
         "processing_method": "github_actions"
       }
     }
