@@ -1,5 +1,37 @@
 [
   {
+    "id": "77d55a61bd0915b527587880421a0a5a",
+    "url": "https://news.ycombinator.com/item?id=46466074",
+    "title": "Ask HN: Who is hiring? (January 2026)",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46466074\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-02T16:00:42+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-02T16:27:31.014075+00:00",
+    "updated_at": "2026-01-02T16:27:31.014077+00:00"
+  },
+  {
+    "id": "6520428465a274cf120dc3313cf06fe8",
+    "url": "https://www.theregister.com/2025/12/31/ipv6_at_30/",
+    "title": "IPv6 just turned 30 and still hasn't taken over the world",
+    "content": "<p>Article URL: <a href=\"https://www.theregister.com/2025/12/31/ipv6_at_30/\">https://www.theregister.com/2025/12/31/ipv6_at_30/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46465327\">https://news.ycombinator.com/item?id=46465327</a></p>\n<p>Points: 15</p>\n<p># Comments: 9</p>",
+    "author": "Brajeshwar",
+    "published_date": "2026-01-02T14:55:09+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-02T16:27:29.779439+00:00",
+    "updated_at": "2026-01-02T16:27:29.779447+00:00"
+  },
+  {
     "id": "b1f56db2753132a1ec85e5c8bf6e8664",
     "url": "https://news.ycombinator.com/item?id=46464962",
     "title": "I'm having the worst career winter of my life",
@@ -17442,37 +17474,5 @@
       "processed_at": "2025-12-28T03:43:36.596002+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "3ef27ac8ed86a9903c79e6c90719ed77",
-    "url": "https://www.biorxiv.org/content/10.64898/2025.12.27.696668v1?rss=1",
-    "title": "Neuropathologically validated MRI to tau PET synthesis via Covariate-modulated attention networks",
-    "content": "Tau PET is a powerful tool to assess tau pathology in vivo; however, in comparison to MRI, its development is more recent, is rarely available at scale, and substantially more difficult to acquire. Here, we present Covariate-Modulated Attention UNet (CoMA-UNet) to synthesize subject-specific 3D tau PET from T1 MRI while incorporating in the synthesis procedure readily available covariates. Across six external validation datasets, CoMA-UNet reproduced regional patterns of tau PET uptake showing strong agreement with true PET that was generalizable across tracers. Next, we submitted the synthetic tau PET to a series of downstream clinically relevant tasks. First, MMSE associations between the synthetic tau PET were statistically indistinguishable from true PET. Second, the synthetic tau PET achieved out-of-sample diagnostic classification of dementia with an AUROC=0.99. Third, out-of-sample synthetic tau PET tracked longitudinal progression with subject-level slopes closely matching true PET. Fourth, in two independent autopsy cohorts, voxel wise synthetic tau PET images closely followed neuropathologically defined Braak-stages. These findings demonstrate that the novel CoMA-UNet MRI-based synthesis augmented with covariate information can approximate tau PET with sufficient accuracy for downstream scientific and clinical applications.",
-    "author": "Borhi, M., Lyu, R. Q., Jagust, W. J., Wang, J., Giorgio, J.",
-    "published_date": "2025-12-27T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 183,
-    "reading_time": 1,
-    "created_at": "2025-12-28T01:57:33.395429+00:00",
-    "updated_at": "2025-12-28T01:57:33.395433+00:00"
-  },
-  {
-    "id": "f353dc1a52e39c2cdc3cd03474421a03",
-    "url": "https://www.reddit.com/r/Python/comments/1pwzf41/typeaware_json_serialization_in_python_without/",
-    "title": "Type-aware JSON serialization in Python without manual to_dict() code",
-    "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p>Jsonic is a small Python library for JSON serialization and deserialization of Python objects. It uses type hints to serialize classes, dataclasses, and nested objects directly, and validates data during deserialization to produce clear errors instead of silently accepting invalid input.</p> <p>It supports common Python constructs such as dataclasses (including <code>slots=True</code>), <code>__slots__</code> classes, enums, collections, and optional field exclusion (e.g. for sensitive or transient fields).</p> <h1>Target Audience</h1> <p>This project is aimed at Python developers who work with structured data models and want stricter, more predictable JSON round-tripping than what the standard <code>json</code> module provides.</p> <p>It\u2019s intended as a lightweight alternative for cases where full frameworks may be too heavy, and also as an exploration of design tradeoffs around type-aware serialization. It can be used in small to medium projects, internal tools, or as a learning/reference implementation.</p> <h1>Comparison</h1> <p>Compared to Python\u2019s built-in <code>json</code> module, Jsonic focuses on object serialization and type validation rather than raw JSON encoding.</p> <p>Compared to libraries like Pydantic or Marshmallow, it aims to be simpler and more lightweight, relying directly on Python type hints and existing classes instead of schema definitions or model inheritance. It does not try to replace full validation frameworks.</p> <p>Jsonic also works natively with Pydantic models, allowing them to be serialized and deserialized alongside regular Python classes without additional adapters or duplication of model definitions.</p> <p><strong>Project repository:</strong><br /> <a href=\"https://github.com/OrrBin/Jsonic\">https://github.com/OrrBin/Jsonic</a></p> <p>I\u2019d love feedback on where this approach makes sense, where it falls short, and how it compares to tools people use in practice.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Specific-Positive966\"> /u/Specific-Positive966 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pwzf41/typeaware_json_serialization_in_python_without/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pwzf41/typeaware_json_serialization_in_python_without/\">[comments]</a></span>",
-    "author": "/u/Specific-Positive966",
-    "published_date": "2025-12-27T14:43:13+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 275,
-    "reading_time": 1,
-    "created_at": "2025-12-28T01:56:52.106463+00:00",
-    "updated_at": "2025-12-28T01:56:52.106465+00:00"
   }
 ]
