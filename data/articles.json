@@ -1,5 +1,37 @@
 [
   {
+    "id": "9288874ed88dcb4c07cacc3dde11dab7",
+    "url": "https://github.com/patrick48001/ThinkPad-Stream-Sentinel-VLC-Video-Source-reset-disable-stream-shutter",
+    "title": "I wrote a batch script to keep my 2011 ThinkPad alive for 24/7 streaming",
+    "content": "<p>Article URL: <a href=\"https://github.com/patrick48001/ThinkPad-Stream-Sentinel-VLC-Video-Source-reset-disable-stream-shutter\">https://github.com/patrick48001/ThinkPad-Stream-Sentinel-VLC-Video-Source-reset-disable-stream-shutter</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46468411\">https://news.ycombinator.com/item?id=46468411</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+    "author": "techenthuziast",
+    "published_date": "2026-01-02T19:30:46+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-02T21:17:28.035139+00:00",
+    "updated_at": "2026-01-02T21:17:28.035141+00:00"
+  },
+  {
+    "id": "0fe0b0236374a9f5fe00abd7606e5997",
+    "url": "https://github.com/jank-lang/jank",
+    "title": "Jank Lang Hit Alpha",
+    "content": "<p>Article URL: <a href=\"https://github.com/jank-lang/jank\">https://github.com/jank-lang/jank</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46468517\">https://news.ycombinator.com/item?id=46468517</a></p>\n<p>Points: 9</p>\n<p># Comments: 2</p>",
+    "author": "makemethrowaway",
+    "published_date": "2026-01-02T19:39:38+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-02T21:17:28.035119+00:00",
+    "updated_at": "2026-01-02T21:17:28.035121+00:00"
+  },
+  {
     "id": "4a93a0ac6d86c5e8395a8d126dce65c3",
     "url": "https://www.sciencedirect.com/science/article/pii/S1053811925006500?dgcid=rss_sd_all",
     "title": "Disassembling infra-low-frequency neurofeedback: A neurophysiological investigation of its feedback components",
@@ -17408,46 +17440,6 @@
     "updated_at": "2025-12-28T08:20:49.086167+00:00",
     "metadata": {
       "processed_at": "2025-12-28T08:20:49.086169+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "e21240eea7ae8db3f2090f7afe33050c",
-    "url": "https://web.law.duke.edu/cspd/publicdomainday/2026/",
-    "title": "Public Domain Day 2026",
-    "content": "<p>Article URL: <a href=\"https://web.law.duke.edu/cspd/publicdomainday/2026/\">https://web.law.duke.edu/cspd/publicdomainday/2026/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46405866\">https://news.ycombinator.com/item?id=46405866</a></p>\n<p>Points: 18</p>\n<p># Comments: 1</p>",
-    "author": "rolph",
-    "published_date": "2025-12-27T22:15:43+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-28T06:33:14.026695+00:00",
-    "updated_at": "2025-12-28T10:16:07.618938+00:00",
-    "metadata": {
-      "processed_at": "2025-12-28T10:16:07.618939+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "8d486873b6728e5969fb54b3a44976e8",
-    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1679196",
-    "title": "Cross-modal privacy-preserving synthesis and mixture-of-experts ensemble for robust ASD prediction",
-    "content": "IntroductionAutism Spectrum Disorder (ASD) diagnosis remains complex due to limited access to large-scale multimodal datasets and privacy concerns surrounding clinical data. Traditional methods rely heavily on resource-intensive clinical assessments and are constrained by unimodal or non-adaptive learning models. To address these limitations, this study introduces AutismSynthGen, a privacy-preserving framework for synthesizing multimodal ASD data and enhancing prediction accuracy.Materials and methodsThe proposed system integrates a Multimodal Autism Data Synthesis Network (MADSN), which employs transformer-based encoders and cross-modal attention within a conditional GAN to generate synthetic data across structural MRI, EEG, behavioral vectors, and severity scores. Differential privacy is enforced via DP-SGD (\u03b5\u202f\u2264\u202f1.0). A complementary Adaptive Multimodal Ensemble Learning (AMEL) module, consisting of five heterogeneous experts and a gating network, is trained on both real and synthetic data. Evaluation is conducted on the ABIDE, NDAR, and SSC datasets using metrics such as AUC, F1 score, MMD, KS statistic, and BLEU.ResultsSynthetic augmentation improved model performance, yielding validation AUC gains of \u2265 0.04. AMEL achieved an AUC of 0.98 and an F1 score of 0.99 on real data and approached near-perfect internal performance (AUC\u202f\u2248\u202f1.00, F1\u202f\u2248\u202f1.00) when synthetic data were included. Distributional metrics (MMD\u202f=\u202f0.04; KS\u202f=\u202f0.03) and text similarity (BLEU\u202f=\u202f0.70) demonstrated high fidelity between the real and synthetic samples. Ablation studies confirmed the importance of cross-modal attention and entropy-regularized expert gating.DiscussionAutismSynthGen offers a scalable, privacy-compliant solution for augmenting limited multimodal datasets and enhancing ASD prediction. Future directions include semi-supervised learning, explainable AI for clinical trust, and deployment in federated environments to broaden accessibility while maintaining privacy.",
-    "author": "Karthiga M.",
-    "published_date": "2025-11-19T00:00:00+00:00",
-    "source": "Frontiers Neuroinformatics",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 262,
-    "reading_time": 1,
-    "created_at": "2025-12-28T05:48:22.352978+00:00",
-    "updated_at": "2025-12-28T06:24:32.540405+00:00",
-    "metadata": {
-      "processed_at": "2025-12-28T06:24:32.540415+00:00",
       "processing_method": "github_actions"
     }
   }
