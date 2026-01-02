@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-02T15:24:21.207709+00:00",
+  "last_updated": "2026-01-02T15:45:08.751913+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "b1f56db2753132a1ec85e5c8bf6e8664",
+      "url": "https://news.ycombinator.com/item?id=46464962",
+      "title": "I'm having the worst career winter of my life",
+      "content": "<p>SWE with 10+ years of experience, I've shipped great products and worked commercially with Ruby/Rails, Node.js, TypeScript, and Golang.<p>I'm open to learning new languages.<p>I'm UK-based and have been struggling to secure a good remote role for an extended period.<p>I'm hardworking and bring substantial experience and strong execution skills. I can also handle management functions.<p>Is anyone else going through the same? Any help understanding why this is happening would be greatly appreciated.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46464962\">https://news.ycombinator.com/item?id=46464962</a></p>\n<p>Points: 17</p>\n<p># Comments: 18</p>",
+      "author": "mariogintili",
+      "published_date": "2026-01-02T14:18:47+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 82,
+      "reading_time": 1,
+      "created_at": "2026-01-02T15:43:57.399422+00:00",
+      "updated_at": "2026-01-02T15:43:57.399430+00:00"
+    },
     {
       "id": "ec2e949df18e8af09580aa284629aeac",
       "url": "https://www.biorxiv.org/content/10.64898/2025.12.31.697186v1?rss=1",
@@ -305,22 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-01-02T14:21:55.205704+00:00",
       "updated_at": "2026-01-02T14:21:55.205706+00:00"
-    },
-    {
-      "id": "115bfbe9c6a450fabb1136c354f86086",
-      "url": "https://github.com/orgs/Dealta-Foundation/repositories",
-      "title": "Show HN: Dealta \u2013 A game-theoretic decentralized trading protocol",
-      "content": "<p>I\u2019ve been working on a solution to the \"Physical Oracle Problem\" (trustless trading of physical goods) and just released the full Alpha implementation.<p>The Core Thesis: Existing decentralized marketplaces rely on reputation, which inevitably centralizes. Dealta replaces reputation with a Nash Equilibrium-based mechanism. We use staked, pseudo-randomly selected \"Brokers\" to physically verify goods. The protocol ensures that honesty is the dominant strategy for all actors via strict payoff matrices. It intended use is preferably trading of mid to high value goods. Nobody expecting a computer, want a box full of stones.<p>What we are releasing: a custom Layer-1 blockchain stack.<p>Full Node: Implements Hybrid Consensus (PoW + PBFT) for instant finality.<p>Integrated Wallet: Native key management and transaction construction for the custom trade opcodes.<p>DB Management: Custom indexing for trade states and dispute evidence.<p>The system is currently in Alpha. I am looking for feedback on the protocol design, the node architecture and collaborators.<p>Code needs polishing, which i will do if people like the project. \nHowever, the project runs, and a testnet will be launched if people take interest in the project.<p>Readme files will be updated as well. Currently they provide a simple guide on how to build the project.<p>Feel free to send an email. It can be found my in profile or in the paper.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46464133\">https://news.ycombinator.com/item?id=46464133</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
-      "author": "kalenvale",
-      "published_date": "2026-01-02T12:31:03+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 221,
-      "reading_time": 1,
-      "created_at": "2026-01-02T14:21:55.205683+00:00",
-      "updated_at": "2026-01-02T14:21:55.205685+00:00"
     }
   ]
 }

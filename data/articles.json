@@ -1,5 +1,21 @@
 [
   {
+    "id": "b1f56db2753132a1ec85e5c8bf6e8664",
+    "url": "https://news.ycombinator.com/item?id=46464962",
+    "title": "I'm having the worst career winter of my life",
+    "content": "<p>SWE with 10+ years of experience, I've shipped great products and worked commercially with Ruby/Rails, Node.js, TypeScript, and Golang.<p>I'm open to learning new languages.<p>I'm UK-based and have been struggling to secure a good remote role for an extended period.<p>I'm hardworking and bring substantial experience and strong execution skills. I can also handle management functions.<p>Is anyone else going through the same? Any help understanding why this is happening would be greatly appreciated.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46464962\">https://news.ycombinator.com/item?id=46464962</a></p>\n<p>Points: 17</p>\n<p># Comments: 18</p>",
+    "author": "mariogintili",
+    "published_date": "2026-01-02T14:18:47+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 82,
+    "reading_time": 1,
+    "created_at": "2026-01-02T15:43:57.399422+00:00",
+    "updated_at": "2026-01-02T15:43:57.399430+00:00"
+  },
+  {
     "id": "ec2e949df18e8af09580aa284629aeac",
     "url": "https://www.biorxiv.org/content/10.64898/2025.12.31.697186v1?rss=1",
     "title": "Cognition does not automatically influence perception: Evidence from neural encoding of colours belonging to different categories",
@@ -17438,21 +17454,5 @@
     "reading_time": 1,
     "created_at": "2025-12-28T01:56:52.106463+00:00",
     "updated_at": "2025-12-28T01:56:52.106465+00:00"
-  },
-  {
-    "id": "2bf4e0e529ac832471b969128a3c92b8",
-    "url": "https://www.reddit.com/r/Python/comments/1pws1p8/turning_pdfs_into_ragready_data_pdfstract_cli_api/",
-    "title": "Turning PDFs into RAG-ready data: PDFStract (CLI + API + Web UI) \u2014 `pip install pdfstract`",
-    "content": "<!-- SC_OFF --><div class=\"md\"><h1>What PDFstract Does</h1> <p><strong>PDFStract</strong> is a Python tool to extract/convert PDFs into Markdown / JSON / text, with multiple backends so you can pick what works best per document type.</p> <p>It ships as:</p> <ul> <li><strong>CLI</strong> for scripts + batch jobs (convert, batch, compare, batch-compare)</li> <li>FastAPI <strong>API</strong> endpoints for programmatic integration</li> <li>Web <strong>UI</strong> for interactive conversions and comparisons and benchmarking</li> </ul> <p><strong>Install:</strong></p> <pre><code>pip install pdfstract </code></pre> <p><strong>Quick CLI examples:</strong></p> <pre><code>pdfstract libs pdfstract convert document.pdf --library pymupdf4llm pdfstract batch ./pdfs --library markitdown --output ./out --parallel 4 pdfstract compare sample.pdf -l pymupdf4llm -l markitdown -l marker --output ./compare_results </code></pre> <h1>Target Audience</h1> <ul> <li>Primary: developers building RAG ingestion pipelines, automation, or document processing workflows who need a repeatable way to turn PDFs into structured text.</li> <li>Secondary: anyone comparing extraction quality across libraries quickly (researchers, data teams).</li> <li>State: usable for real work, but PDFs vary wildly\u2014so I\u2019m actively looking for bug reports and edge cases to harden it further.</li> </ul> <h1>Comparison</h1> <p>Instead of being \u201cyet another single PDF-to-text tool\u201d, <strong>PDFStract is a unified wrapper over multiple extractors:</strong></p> <ul> <li>Versus picking one library (<strong>PyMuPDF</strong>/<strong>Marker</strong>/<strong>Unstructured</strong>/etc.): PDFStract lets you switch engines and compare outputs without rewriting scripts.</li> <li>Versus ad-hoc glue scripts: provides a consistent CLI/API/UI with batch processing and standardized outputs (MD/JSON/TXT).</li> <li>Versus hosted tools: runs locally/in your infra; easier to integrate into CI and data pipelines.</li> </ul> <p>If you try it, I\u2019d love feedback on which PDFs fail, which libraries you\u2019d want included , and what comparison metrics would be most helpful.</p> <p>Github repo: <a href=\"https://github.com/AKSarav/pdfstract\">https://github.com/AKSarav/pdfstract</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/GritSar\"> /u/GritSar </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pws1p8/turning_pdfs_into_ragready_data_pdfstract_cli_api/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pws1p8/turning_pdfs_into_ragready_data_pdfstract_cli_api/\">[comments]</a></span>",
-    "author": "/u/GritSar",
-    "published_date": "2025-12-27T07:37:50+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 270,
-    "reading_time": 1,
-    "created_at": "2025-12-28T01:56:52.106420+00:00",
-    "updated_at": "2025-12-28T01:56:52.106422+00:00"
   }
 ]
