@@ -1,5 +1,37 @@
 [
   {
+    "id": "c23429eb48a1b76bce9c5247ba953f9b",
+    "url": "https://myembeddedstuff.com/e-ink-spectra-6-color",
+    "title": "Exploring Dithering on Spectra 6-color E-Ink Displays",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46440037\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-31T00:43:30+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-03T20:43:32.407253+00:00",
+    "updated_at": "2026-01-03T20:43:32.407254+00:00"
+  },
+  {
+    "id": "9ff10c996dd210ddbf90d093c321393d",
+    "url": "https://log.schemescape.com/posts/diy/beating-myself-at-chess.html",
+    "title": "Beating myself at chess",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46433967\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-30T15:03:12+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-03T20:43:32.407156+00:00",
+    "updated_at": "2026-01-03T20:43:32.407158+00:00"
+  },
+  {
     "id": "c8eb1db228c44af47ffc70c47ce47210",
     "url": "https://www.neowin.net/news/report-microsoft-quietly-kills-official-way-to-activate-windows-1110-without-internet/#google_vignette",
     "title": "Microsoft kills official way to activate Windows 11/10 without internet",
@@ -17418,37 +17450,5 @@
     "reading_time": 1,
     "created_at": "2025-12-29T05:30:19.783264+00:00",
     "updated_at": "2025-12-29T05:30:19.783268+00:00"
-  },
-  {
-    "id": "f3ef16c1b80d0c5a14d9e3f1abed1ee3",
-    "url": "https://arxiv.org/abs/2512.21881",
-    "title": "SLIM-Brain: A Data- and Training-Efficient Foundation Model for fMRI Data Analysis",
-    "content": "arXiv:2512.21881v1 Announce Type: cross \nAbstract: Foundation models are emerging as a powerful paradigm for fMRI analysis, but current approaches face a dual bottleneck of data- and training-efficiency. Atlas-based methods aggregate voxel signals into fixed regions of interest, reducing data dimensionality but discarding fine-grained spatial details, and requiring extremely large cohorts to train effectively as general-purpose foundation models. Atlas-free methods, on the other hand, operate directly on voxel-level information - preserving spatial fidelity but are prohibitively memory- and compute-intensive, making large-scale pre-training infeasible. We introduce SLIM-Brain (Sample-efficient, Low-memory fMRI Foundation Model for Human Brain), a new atlas-free foundation model that simultaneously improves both data- and training-efficiency. SLIM-Brain adopts a two-stage adaptive design: (i) a lightweight temporal extractor captures global context across full sequences and ranks data windows by saliency, and (ii) a 4D hierarchical encoder (Hiera-JEPA) learns fine-grained voxel-level representations only from the top-$k$ selected windows, while deleting about 70% masked patches. Extensive experiments across seven public benchmarks show that SLIM-Brain establishes new state-of-the-art performance on diverse tasks, while requiring only 4 thousand pre-training sessions and approximately 30% of GPU memory comparing to traditional voxel-level methods.",
-    "author": "Mo Wang, Junfeng Xia, Wenhao Ye, Enyu Liu, Kaining Peng, Jianfeng Feng, Quanying Liu, Hongkai Wen",
-    "published_date": "2025-12-29T05:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 185,
-    "reading_time": 1,
-    "created_at": "2025-12-29T05:30:18.636955+00:00",
-    "updated_at": "2025-12-29T05:30:18.636958+00:00"
-  },
-  {
-    "id": "6269efe798c0ad90851bb63293b00dee",
-    "url": "https://arxiv.org/abs/2512.22045",
-    "title": "Learning continually with representational drift",
-    "content": "arXiv:2512.22045v1 Announce Type: new \nAbstract: Deep artificial neural networks famously struggle to learn from non-stationary streams of data. Without dedicated mitigation strategies, continual learning is associated with continuous forgetting of previous tasks and a progressive loss of plasticity. Current approaches to continual learning have either focused on increasing the stability of representations of past tasks, or on promoting plasticity for future learning. Paradoxically, while animals including humans achieve a desirable stability-plasticity trade-off, the responses of biological neurons to external stimuli that are associated with stable behaviors gradually change over time. This suggests that, although unstable representations have historically been seen as undesirable in artificial systems, they could be a core property of biological neural networks learning continually. Here, we examine how linking representational drift to continual learning in biological neural networks could inform artificial systems. We highlight the existence of representational drift across numerous animal species and brain regions and propose that drift reflects a mixture of homeostatic turnover and learning-related synaptic plasticity. In particular, we evaluate how plasticity induced by learning new tasks could induce drift in the representation of previous tasks, and how such drift could accumulate across brain regions. In deep artificial neural networks, we propose that representational drift is only compatible with approaches that do not explicitly prevent parameter changes to mitigate forgetting. Remarkably, jointly promoting plasticity while mitigating forgetting could in principle induce representational drift in continual learning. While we argue that drift is a byproduct rather than a solution to incremental learning, its investigation could inform approaches to continual learning in artificial systems.",
-    "author": "Suzanne van der Veldt, Gido M. van de Ven, Sanne Moorman, Guillaume Etter",
-    "published_date": "2025-12-29T05:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 259,
-    "reading_time": 1,
-    "created_at": "2025-12-29T05:30:18.636892+00:00",
-    "updated_at": "2025-12-29T05:30:18.636894+00:00"
   }
 ]
