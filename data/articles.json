@@ -1,5 +1,53 @@
 [
   {
+    "id": "23a64791917bec3074f438dab22b1716",
+    "url": "https://www.reuters.com/world/americas/loud-noises-heard-venezuela-capital-southern-area-without-electricity-2026-01-03/",
+    "title": "Loud noises heard in Venezuela capital, southern area without electricity",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46473348\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-03T06:35:21+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-03T07:40:08.184098+00:00",
+    "updated_at": "2026-01-03T07:40:08.184100+00:00"
+  },
+  {
+    "id": "23a64791917bec3074f438dab22b1716",
+    "url": "https://www.reuters.com/world/americas/loud-noises-heard-venezuela-capital-southern-area-without-electricity-2026-01-03/",
+    "title": "Loud noises heard in Venezuela capital, southern area without electricity",
+    "content": "<p>Article URL: <a href=\"https://www.reuters.com/world/americas/loud-noises-heard-venezuela-capital-southern-area-without-electricity-2026-01-03/\">https://www.reuters.com/world/americas/loud-noises-heard-venezuela-capital-southern-area-without-electricity-2026-01-03/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46473348\">https://news.ycombinator.com/item?id=46473348</a></p>\n<p>Points: 47</p>\n<p># Comments: 21</p>",
+    "author": "jumpocelot",
+    "published_date": "2026-01-03T06:35:21+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-03T07:40:07.020123+00:00",
+    "updated_at": "2026-01-03T07:40:07.020125+00:00"
+  },
+  {
+    "id": "9474da9afd750f2148048e99c80164c7",
+    "url": "https://apnews.com/article/venezuela-us-explosions-caracas-ca712a67aaefc30b1831f5bf0b50665e",
+    "title": "At least 7 explosions and low-flying aircraft are heard in Venezuela's Caracas",
+    "content": "<p>Article URL: <a href=\"https://apnews.com/article/venezuela-us-explosions-caracas-ca712a67aaefc30b1831f5bf0b50665e\">https://apnews.com/article/venezuela-us-explosions-caracas-ca712a67aaefc30b1831f5bf0b50665e</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46473491\">https://news.ycombinator.com/item?id=46473491</a></p>\n<p>Points: 13</p>\n<p># Comments: 2</p>",
+    "author": "mudil",
+    "published_date": "2026-01-03T07:09:16+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-03T07:40:07.020092+00:00",
+    "updated_at": "2026-01-03T07:40:07.020100+00:00"
+  },
+  {
     "id": "4f994de619d8c3777c740b1a58de70d3",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.02.697416v1?rss=1",
     "title": "Associations between habitual light exposure-related behaviors and sleep timing and sleep complaints in an international community sample",
@@ -17336,66 +17384,6 @@
     "updated_at": "2025-12-28T22:15:41.685568+00:00",
     "metadata": {
       "processed_at": "2025-12-28T22:15:41.685571+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "970fd4d8156cd7880b2c2812af3950b6",
-    "url": "https://www.reddit.com/r/Python/comments/1py070g/released_a_modern_replacement_for_pyautogui/",
-    "title": "Released: A modern replacement for PyAutoGUI",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>GIF of the GUI in action: <a href=\"https://i.imgur.com/OnWGM2f.gif\">https://i.imgur.com/OnWGM2f.gif</a> </p> <p><strong>#Please note it is only flickering because I had to make the overlay visible to recording, which hides the object when it draws the overlay.</strong> </p> <p>I just released a public version of my modern replacement for PyAutoGUI that natively handles High-DPI and Multi-Monitor setups.</p> <h1>What My Project Does</h1> <p>It allows you to create shareable image or coordinate based automation regardless of resolution or dpr.</p> <p>It features:<br /> - <strong>Built-in GUI Inspector</strong> to snip, edit, test, and generate code.<br /> - Uses <code>Session</code> logic to scale coordinates &amp; images automatically.<br /> - <strong>Up to 5x Faster.</strong> Uses <code>mss</code> &amp; Pyramid Template Matching &amp; Image caching.<br /> - <code>locateAny</code> / <code>locateAll</code> built-in. Finds the first or all matches from a list of images.</p> <h1>Target Audience</h1> <p>Programer who need to automate programs they don't have backend access to, and aren't browser based.</p> <p><strong>Comparison</strong> </p> <table><thead> <tr> <th align=\"left\">Feature</th> <th align=\"left\">pyauto-desktop</th> <th align=\"left\">pyautogui</th> </tr> </thead><tbody> <tr> <td align=\"left\"><strong>Cross-Resolution&amp;DPR</strong></td> <td align=\"left\"><strong>Automatic.</strong> Uses <code>Session</code> logic to scale coordinates &amp; images automatically.</td> <td align=\"left\"><strong>Manual.</strong> Scripts break if resolution changes.</td> </tr> <tr> <td align=\"left\"><strong>Performance</strong></td> <td align=\"left\"><strong>Up to 5x Faster.</strong> Uses <code>mss</code> &amp; Pyramid Template Matching &amp; Image caching.</td> <td align=\"left\">Standard speed.</td> </tr> <tr> <td align=\"left\"><strong>Logic</strong></td> <td align=\"left\"><code>locateAny</code> / <code>locateAll</code> built-in. Finds first or all matches from a list of images.</td> <td align=\"left\">Requires complex <code>for</code> loops / <code>try-except</code> blocks.</td> </tr> <tr> <td align=\"left\"><strong>Tooling</strong></td> <td align=\"left\"><strong>Built-in GUI Inspector</strong> to snip, edit, test, and generate code.</td> <td align=\"left\">None. Requires external tools.</td> </tr> <tr> <td align=\"left\"><strong>Backend</strong></td> <td align=\"left\"><code>opencv-python</code>, <code>mss</code>, <code>pynput</code></td> <td align=\"left\"><code>pyscreeze</code>, <code>pillow</code>, <code>mouse</code></td> </tr> </tbody></table> <p>You can find more information about it here: <a href=\"https://github.com/Omar-F-Rashed/pyauto-desktop\">pyauto-desktop: A desktop automation tool</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MrYaml\"> /u/MrYaml </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1py070g/released_a_modern_replacement_for_pyautogui/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1py070g/released_a_modern_replacement_for_pyautogui/\">[comments]</a></span>",
-    "author": "/u/MrYaml",
-    "published_date": "2025-12-28T19:33:49+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 299,
-    "reading_time": 1,
-    "created_at": "2025-12-28T21:40:45.538877+00:00",
-    "updated_at": "2025-12-28T22:15:41.685573+00:00",
-    "metadata": {
-      "processed_at": "2025-12-28T22:15:41.685575+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "cc8403f8e8f7d3efeaea44b87943c70c",
-    "url": "https://www.reddit.com/r/Python/comments/1pxdykw/pyrethrin_now_has_a_new_feature_shields_there_are/",
-    "title": "Pyrethrin now has a new feature - shields. There are three new shields for pandas, numpy and fastapi",
-    "content": "<!-- SC_OFF --><div class=\"md\"><h1>What's New in v0.2.0: Shields</h1> <p>The biggest complaint I got was: &quot;This is great for my code, but what about third-party libraries?&quot;</p> <p>If you are unfamiliar with <a href=\"https://github.com/4tyone/pyrethrin\">Pyrethrin</a>, it's a library that brings Rust/OCaml-style exhaustive error handling to Python.</p> <p><strong>Shields</strong> - drop-in replacements for popular libraries that add explicit exception declarations:</p> <pre><code># Before - exceptions are implicit import pandas as pd df = pd.read_csv(&quot;data.csv&quot;) # After - exceptions are explicit and must be handled from pyrethrin.shields import pandas as pd from pyrethrin import match, Ok result = match(pd.read_csv, &quot;data.csv&quot;)({ Ok: lambda df: process(df), OSError: lambda e: log_error(&quot;File not found&quot;, e), pd.ParserError: lambda e: log_error(&quot;Invalid CSV&quot;, e), ValueError: lambda e: log_error(&quot;Bad data&quot;, e), TypeError: lambda e: log_error(&quot;Type error&quot;, e), KeyError: lambda e: log_error(&quot;Missing column&quot;, e), UnicodeDecodeError: lambda e: log_error(&quot;Encoding error&quot;, e), }) </code></pre> <p>Shields export everything from the original library, so <code>from pyrethrin.shields import pandas as pd</code> is a drop-in replacement. Only the risky functions are wrapped.</p> <h1>Available Shields</h1> <table><thead> <tr> <th align=\"left\">Shield</th> <th align=\"left\">Coverage</th> </tr> </thead><tbody> <tr> <td align=\"left\"><code>pyrethrin.shields.pandas</code></td> <td align=\"left\"><code>read_csv</code>, <code>read_excel</code>, <code>read_json</code>, <code>read_parquet</code>, <code>concat</code>, <code>merge</code>, <code>pivot</code>, <code>cut</code>, <code>qcut</code>, <code>json_normalize</code>, and more</td> </tr> <tr> <td align=\"left\"><code>pyrethrin.shields.numpy</code></td> <td align=\"left\">95%+ of numpy API - array creation, math ops, linalg, FFT, random, file I/O</td> </tr> <tr> <td align=\"left\"><code>pyrethrin.shields.fastapi</code></td> <td align=\"left\"><code>FastAPI</code>, <code>APIRouter</code>, <code>Request</code>, <code>Response</code>, dependencies</td> </tr> </tbody></table> <h1>How I Built the Exception Declarations</h1> <p>Here's the cool part: I didn't guess what exceptions each function can raise. I built a separate tool called <a href=\"https://github.com/4tyone/arbor\">Arbor</a> that does static analysis on Python code.</p> <p>Arbor parses the AST, builds a symbol index, and traverses call graphs to collect every <code>raise</code> statement that can be reached from a function. For <code>pandas.read_csv</code>, it traced <strong>5,623 functions</strong> and found <strong>1,881 raise statements</strong> across 35 unique exception types.</p> <p>The most common ones:</p> <ul> <li><code>ValueError</code> (442 occurrences)</li> <li><code>TypeError</code> (227)</li> <li><code>NotImplementedError</code> (87)</li> <li><code>KeyError</code> (36)</li> <li><code>ParserError</code> (2)</li> </ul> <p>So the shields aren't guesswork - they're based on actual static analysis of the library code.</p> <h1>Design Philosophy</h1> <p>A few deliberate choices for the Pyrethrin as a whole:</p> <ol> <li><strong>No</strong> <code>unwrap()</code> - Unlike Rust, there's no escape hatch. You must use pattern matching. This is intentional - <code>unwrap()</code> defeats the purpose.</li> <li><strong>Static analysis at call time</strong> - Pyrethrin checks exhaustiveness when the decorated function is called, not at import time. This means you get errors exactly where the problem is.</li> <li><strong>Works with Python's match-case</strong> - You can use native pattern matching (Python 3.10+) instead of the <code>match()</code> function.</li> </ol> <h1>Installation</h1> <pre><code>pip install pyrethrin </code></pre> <h1>Links</h1> <ul> <li>GitHub: <a href=\"https://github.com/4tyone/pyrethrin\">https://github.com/4tyone/pyrethrin</a></li> <li>Arbor (the static analysis tool): <a href=\"https://github.com/4tyone/arbor\">https://github.com/4tyone/arbor</a></li> <li>PyPI: <a href=\"https://pypi.org/project/pyrethrin/\">https://pypi.org/project/pyrethrin/</a></li> </ul> <h1>What's Next</h1> <p>Planning to add shields for:</p> <ul> <li><code>openai</code> / <code>anthropic</code></li> </ul> <p>Would love feedback on which libraries would be most useful to shield next.</p> <p><strong>TL;DR:</strong> Pyrethrin v0.2.0 adds &quot;Shields&quot; - drop-in replacements for pandas, numpy, and FastAPI that make their exceptions explicit. Built using static analysis that traced 5,623 functions to find what exceptions <code>pd.read_csv</code> can actually raise.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mels_hakobyan\"> /u/mels_hakobyan </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pxdykw/pyrethrin_now_has_a_new_feature_shields_there_are/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pxdykw/pyrethrin_now_has_a_new_feature_shields_there_are/\">[comments]</a></span>",
-    "author": "/u/mels_hakobyan",
-    "published_date": "2025-12-28T01:04:56+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 505,
-    "reading_time": 2,
-    "created_at": "2025-12-28T21:40:45.538834+00:00",
-    "updated_at": "2025-12-28T22:15:41.685577+00:00",
-    "metadata": {
-      "processed_at": "2025-12-28T22:15:41.685578+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "c1eb3d04c524951748f335a94754b94b",
-    "url": "https://www.reddit.com/r/Python/comments/1pxxket/why_python_is_removing_the_gil_135_minutes_by/",
-    "title": "\"Why Python Is Removing The GIL\" (13.5 minutes by Core Dumped) -- good explainer on threads",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.youtube.com/watch?v=UXwoAKB-SvE\">https://www.youtube.com/watch?v=UXwoAKB-SvE</a></p> <p>YouTube's &quot;Ask&quot; button auto-summary, lightly proofread:</p> <blockquote> <p>This video explains the Python Global Interpreter Lock (GIL) and its implications for parallelism in Python. Key points:</p> <p>Concurrency vs. Parallelism (1:05): The video clarifies that concurrency allows a system to handle multiple tasks by alternating access to the CPU, creating the illusion of simultaneous execution. Parallelism, on the other hand, involves true simultaneous execution by assigning different tasks to different CPU cores.</p> <p>The Problem with Python Threads (2:04): Unlike most other programming languages, Python threads do not run in parallel, even on multi-core systems. This is due to the GIL.</p> <p>Race Conditions and Mutex Locks (2:17): The video explains how sharing mutable data between concurrent threads can lead to race conditions, where inconsistent data can be accessed. Mutex locks are introduced as a solution to prevent this by allowing only one thread to access a shared variable at a time.</p> <p>How the GIL Works (4:46): The official Python interpreter (CPython) is written in C. When Python threads are spawned, corresponding operating system threads are created in the C code (5:56). To prevent race conditions within the interpreter's internal data structures, a single global mutex, known as the Global Interpreter Lock (GIL), was implemented (8:37). This GIL ensures that only one thread can execute Python bytecode at a time, effectively preventing true parallelism.</p> <p>Proof of Concept (9:29): The video demonstrates that the GIL is a limitation of the CPython interpreter, not Python as a language, by showing a Python implementation in Rust (Rupop) that does scale across multiple cores when running the same program.</p> <p>Why the GIL was Introduced (9:48): Guido Van Rossum, Python's creator, explains that the GIL was a design choice made for simplicity. When threads became popular in the early 90s, the interpreter was not designed for concurrency or parallelism. Implementing fine-grained mutexes for every shared internal data structure would have been incredibly complex (10:52). The GIL provided a simpler way to offer concurrency without a massive rewrite, especially since multi-core CPUs were rare at the time (11:09).</p> <p>Why the GIL is Being Removed (13:16): With the widespread adoption of multi-core CPUs in the mid-2000s, the GIL became a significant limitation to Python's performance in parallel workloads. The process of removing the GIL has finally begun, which will enable Python threads to run in parallel.</p> </blockquote> <p>There's a sponsor read (JetBrains) at 3:48-4:42.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Competitive_Travel16\"> /u/Competitive_Travel16 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pxxket/why_python_is_removing_the_gil_135_minutes_by/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pxxket/why_python_is_removing_the_gil_135_minutes_by/\">[comments]</a></span>",
-    "author": "/u/Competitive_Travel16",
-    "published_date": "2025-12-28T17:51:44+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 416,
-    "reading_time": 2,
-    "created_at": "2025-12-28T21:40:45.538771+00:00",
-    "updated_at": "2025-12-28T22:15:41.685580+00:00",
-    "metadata": {
-      "processed_at": "2025-12-28T22:15:41.685582+00:00",
       "processing_method": "github_actions"
     }
   }
