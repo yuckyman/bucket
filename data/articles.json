@@ -1,5 +1,21 @@
 [
   {
+    "id": "21000fb4394335bedeba4f5395189844",
+    "url": "https://www.reddit.com/r/Python/comments/1q1yalc/i_got_tired_of_paying_for_clipping_tools_so_i/",
+    "title": "I got tired of paying for clipping tools, so I coded my own AI for Shorts with Python",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey community! \ud83d\udc4b</p> <p>I've been seeing tools like OpusClip or Munch for a while that charge a monthly subscription just to clip long videos and turn them into vertical format. As a dev, I thought: &quot;I bet I can do this myself in an afternoon.&quot; And this is the result.</p> <p>The Tech Stack: It's a 100% local Python script combining several models: </p> <ol> <li>Ears: OpenAI Whisper to transcribe audio with precise timestamps. </li> <li>Brain: Google Gemini 2.5 Flash (via free API) to analyze the text and detect the most viral/interesting segment.</li> <li>Hands: MoviePy v2 for automatic vertical cropping and dynamic subtitle rendering.</li> </ol> <p>Resources: The project is fully Open Source.</p> <ul> <li>GitHub Repo: <a href=\"https://github.com/JoaquinRuiz/miscoshorts-ai\">https://github.com/JoaquinRuiz/miscoshorts-ai</a> </li> <li>Video Tutorial (Live Coding): <a href=\"https://youtu.be/zukJLVUwMxA?si=zIFpCNrMicIDHbX0\">https://youtu.be/zukJLVUwMxA?si=zIFpCNrMicIDHbX0</a></li> </ul> <p>Any PRs or suggestions to improve face detection are welcome! Hope this saves you a few dollars a month. \ud83d\udcb8</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jokiruiz\"> /u/jokiruiz </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q1yalc/i_got_tired_of_paying_for_clipping_tools_so_i/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q1yalc/i_got_tired_of_paying_for_clipping_tools_so_i/\">[comments]</a></span>",
+    "author": "/u/jokiruiz",
+    "published_date": "2026-01-02T13:14:02+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 165,
+    "reading_time": 1,
+    "created_at": "2026-01-03T09:42:31.435073+00:00",
+    "updated_at": "2026-01-03T09:42:31.435075+00:00"
+  },
+  {
     "id": "b6ffcc514ecbd4c6a0893cf121d7fdca",
     "url": "https://bsdly.blogspot.com/2025/12/why-451-is-good-for-you-greylisting.html",
     "title": "Why 451 Is Good for You \u2013 Greylisting Perspectives from the Early Noughties",
@@ -17382,21 +17398,5 @@
     "reading_time": 1,
     "created_at": "2025-12-28T23:20:32.439988+00:00",
     "updated_at": "2025-12-28T23:20:32.439990+00:00"
-  },
-  {
-    "id": "094a4157cfffd69e9007682372140d84",
-    "url": "https://marekfiser.com/blog/mono-vs-dot-net-in-unity/",
-    "title": "Unity's Mono problem: Why your C# code runs slower than it should",
-    "content": "<p>Article URL: <a href=\"https://marekfiser.com/blog/mono-vs-dot-net-in-unity/\">https://marekfiser.com/blog/mono-vs-dot-net-in-unity/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46414819\">https://news.ycombinator.com/item?id=46414819</a></p>\n<p>Points: 27</p>\n<p># Comments: 7</p>",
-    "author": "iliketrains",
-    "published_date": "2025-12-28T21:41:42+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-28T23:20:31.107724+00:00",
-    "updated_at": "2025-12-28T23:20:31.107725+00:00"
   }
 ]

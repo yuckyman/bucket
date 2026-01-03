@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-03T09:22:56.451746+00:00",
+  "last_updated": "2026-01-03T09:43:40.246766+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "21000fb4394335bedeba4f5395189844",
+      "url": "https://www.reddit.com/r/Python/comments/1q1yalc/i_got_tired_of_paying_for_clipping_tools_so_i/",
+      "title": "I got tired of paying for clipping tools, so I coded my own AI for Shorts with Python",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey community! \ud83d\udc4b</p> <p>I've been seeing tools like OpusClip or Munch for a while that charge a monthly subscription just to clip long videos and turn them into vertical format. As a dev, I thought: &quot;I bet I can do this myself in an afternoon.&quot; And this is the result.</p> <p>The Tech Stack: It's a 100% local Python script combining several models: </p> <ol> <li>Ears: OpenAI Whisper to transcribe audio with precise timestamps. </li> <li>Brain: Google Gemini 2.5 Flash (via free API) to analyze the text and detect the most viral/interesting segment.</li> <li>Hands: MoviePy v2 for automatic vertical cropping and dynamic subtitle rendering.</li> </ol> <p>Resources: The project is fully Open Source.</p> <ul> <li>GitHub Repo: <a href=\"https://github.com/JoaquinRuiz/miscoshorts-ai\">https://github.com/JoaquinRuiz/miscoshorts-ai</a> </li> <li>Video Tutorial (Live Coding): <a href=\"https://youtu.be/zukJLVUwMxA?si=zIFpCNrMicIDHbX0\">https://youtu.be/zukJLVUwMxA?si=zIFpCNrMicIDHbX0</a></li> </ul> <p>Any PRs or suggestions to improve face detection are welcome! Hope this saves you a few dollars a month. \ud83d\udcb8</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jokiruiz\"> /u/jokiruiz </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q1yalc/i_got_tired_of_paying_for_clipping_tools_so_i/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q1yalc/i_got_tired_of_paying_for_clipping_tools_so_i/\">[comments]</a></span>",
+      "author": "/u/jokiruiz",
+      "published_date": "2026-01-02T13:14:02+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 165,
+      "reading_time": 1,
+      "created_at": "2026-01-03T09:42:31.435073+00:00",
+      "updated_at": "2026-01-03T09:42:31.435075+00:00"
+    },
     {
       "id": "b6ffcc514ecbd4c6a0893cf121d7fdca",
       "url": "https://bsdly.blogspot.com/2025/12/why-451-is-good-for-you-greylisting.html",
@@ -325,22 +341,6 @@
         "processed_at": "2026-01-03T08:21:06.008961+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "bec12bbe9a2e74fe23f9175c27fc043e",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.02.697435v1?rss=1",
-      "title": "Dlx2 reprograms the transcriptome and laminar position of glia-derivedAscl1-induced interneurons",
-      "content": "Direct lineage reprogramming of glial cells into neurons offers a promising strategy to repair diseased brain circuits, but engineering defined neuronal subtypes remains challenging. We found that a phospho-site-deficient Ascl1 variant, Ascl1SA6, but not wildtype Ascl1, induces hallmarks of parvalbumin fast-spiking interneurons, raising the question of how closely these induced neurons resemble canonical cortical interneurons and what transcriptional events underlie this process. Single-cell transcriptomic analysis revealed that Ascl1SA6-induced neurons only partially recapitulated canonical interneuron programs and failed to induce the transcription factor Dlx2 and its downstream targets. Co-expression of Dlx2 with Ascl1SA6 restored a more canonical interneuron-like transcriptome, including genes involved in migration, and resulted in neurons occupying laminar positions more typical of endogenous interneurons. These findings provide molecular insights into how Ascl1 posttranslational modifications regulate its transcriptional activity and demonstrate a strategy to engineer induced cortical interneurons that more closely resemble their native counterparts, offering a framework for layer-specific restoration of inhibitory circuits in neurological diseases.",
-      "author": "Cooper, A., Garcia Mora, A., Herrera-Oropeza, G., Beltran Arranz, A., Marichal, N., Shi, Y., Leaman, S., Lozano Gonzalez, K., Strom, M., Fursham, H., Guillemot, F., Berninger, B.",
-      "published_date": "2026-01-02T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 157,
-      "reading_time": 1,
-      "created_at": "2026-01-03T07:21:00.298911+00:00",
-      "updated_at": "2026-01-03T07:21:00.298913+00:00"
     }
   ]
 }
