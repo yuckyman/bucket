@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-03T22:15:08.137449+00:00",
+  "last_updated": "2026-01-03T22:21:34.754445+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "8a383591644cd46091e81ee7db11a224",
+      "url": "https://www.bbc.com/future/article/20251212-why-your-early-2000s-photos-are-probably-lost-forever",
+      "title": "Why your early 2000s photos are probably lost forever",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46417400\">Comments</a>",
+      "author": "",
+      "published_date": "2025-12-29T04:13:13+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-03T22:20:28.107604+00:00",
+      "updated_at": "2026-01-03T22:20:28.107605+00:00"
+    },
     {
       "id": "a55adc8d5bcb8ceb4213a012e0f5b6e1",
       "url": "https://jhurliman.org/post/804323197731373056/experiments-with-ableton-mcp-dec-2025",
@@ -19,6 +35,26 @@
       "updated_at": "2026-01-03T22:15:08.030746+00:00",
       "metadata": {
         "processed_at": "2026-01-03T22:15:08.030755+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a1dd7e70f499a7d0286ca6556aa20475",
+      "url": "https://stetsonblake.com/%2425+Walmart+Phone+for+Hackers",
+      "title": "Show HN: Vibe Coding a static site on a $25 Walmart Phone",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46480677\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-03T19:39:46+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-03T21:40:29.736440+00:00",
+      "updated_at": "2026-01-03T22:15:08.030760+00:00",
+      "metadata": {
+        "processed_at": "2026-01-03T22:15:08.030762+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -79,26 +115,6 @@
       "updated_at": "2026-01-03T22:15:08.030769+00:00",
       "metadata": {
         "processed_at": "2026-01-03T22:15:08.030770+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a1dd7e70f499a7d0286ca6556aa20475",
-      "url": "https://stetsonblake.com/%2425+Walmart+Phone+for+Hackers",
-      "title": "Show HN: Vibe Coding a static site on a $25 Walmart Phone",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46480677\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-03T19:39:46+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-03T21:40:29.736440+00:00",
-      "updated_at": "2026-01-03T22:15:08.030760+00:00",
-      "metadata": {
-        "processed_at": "2026-01-03T22:15:08.030762+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -345,22 +361,6 @@
       "reading_time": 1,
       "created_at": "2026-01-03T18:53:39.585500+00:00",
       "updated_at": "2026-01-03T18:53:39.585502+00:00"
-    },
-    {
-      "id": "04f9db720a8d4e2889941b7e3897fdcf",
-      "url": "https://github.com/superlucky84/fp-pack",
-      "title": "Show HN: FP-pack \u2013 Functional pipelines in TypeScript without monads",
-      "content": "<p>Hi HN,<p>I built fp-pack, a small TypeScript functional utility library focused on pipe-first composition.<p>The goal is to keep pipelines simple and readable, while still supporting early exits and side effects \u2014 without introducing monads like Option or Either.<p>Most code uses plain pipe/pipeAsync.\nFor the few cases that need early termination, fp-pack provides a SideEffect-based pipeline that short-circuits safely.<p>I also wrote an \u201cAI agent skills\u201d document to help LLMs generate consistent fp-pack-style code.<p>Feedback, criticism, or questions are very welcome.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46477439\">https://news.ycombinator.com/item?id=46477439</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
-      "author": "superlucky84",
-      "published_date": "2026-01-03T15:00:23+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 89,
-      "reading_time": 1,
-      "created_at": "2026-01-03T18:53:38.491357+00:00",
-      "updated_at": "2026-01-03T18:53:38.491358+00:00"
     }
   ]
 }
