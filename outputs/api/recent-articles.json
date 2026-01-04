@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-04T08:30:04.820568+00:00",
+  "last_updated": "2026-01-04T08:52:42.034015+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "7a8f872dd63b73ffd0ee7fcd46bc06a5",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1706099",
+      "title": "CNN-based framework for Alzheimer's disease detection from EEG via dynamic mode decomposition",
+      "content": "Alzheimer's disease (AD) and frontotemporal dementia (FTD) are major neurodegenerative disorders with characteristic EEG alterations. While most prior studies have focused on eyes-closed (EC) EEG, where stable alpha rhythms support relatively high classification performance, eyes-open (EO) EEG has proven particularly challenging for AD, as low-frequency instability obscures the typical spectral alterations. In contrast, FTD often remains more discriminable under EO conditions, reflecting distinct neurophysiological dynamics between the two disorders. To address this challenge, we propose a CNN-based framework that applies Dynamic Mode Decomposition (DMD) to segment EO EEG into shorter temporal windows and employs a 3D CNN to capture spatio-temporal-spectral representations. This approach outperformed not only the conventional short-epoch spectral ML pipeline but also the same CNN architecture trained on FFT-based features, with particularly pronounced improvements observed in AD classification. Excluding delta yielded small gains in AD-involving contrasts, whereas FTD/CN was unchanged or slightly better with delta retained\u2014suggesting delta is more perturbative in AD under EO conditions.",
+      "author": "Jong-Hyeon Seo",
+      "published_date": "2025-11-20T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 157,
+      "reading_time": 1,
+      "created_at": "2026-01-04T08:52:05.238098+00:00",
+      "updated_at": "2026-01-04T08:52:05.238100+00:00"
+    },
     {
       "id": "d9e9b0007bbbea26a4410a9e8ad3d6fe",
       "url": "https://gdimayhem.temari.fr/index.php?p=all",
@@ -345,22 +361,6 @@
       "reading_time": 1,
       "created_at": "2026-01-04T05:27:15.150012+00:00",
       "updated_at": "2026-01-04T05:27:15.150016+00:00"
-    },
-    {
-      "id": "27b42cb1d01c6070b893d235e4b483b0",
-      "url": "http://doi.org/10.1037/pmu0000305",
-      "title": "<em>Psychomusicology</em>: A resounding closing cadence.",
-      "content": "From 2012 to 2023, the American Psychological Association served as publisher of <em>Psychomusicology: Music, Mind, and Brain</em>. Annabel Cohen and Mark Schmuckler were the successive editors-in-chiefs during this time. As the journal is ceasing publication, the two editors reflect on the development and progress of the journal in the context of the history of psychology and publication trends. They present their review in 10 short movements each with a unique musical emotional expressivity: <em>overture, amabile, vivace, elegy doloroso, sforzando, capriccio, con brio, pendolo, agilmente,</em> and <em>finale risonante</em>, ending on a very upbeat note! Early on, <em>Psychomusicology</em> offered a much-needed research forum for the psychology of music. More recently, the recognized importance of music psychology to almost all areas of psychology has led to increasing numbers of outlets for publication. During the 12 recent years under APA\u2019s stewardship, the journal more than doubled the number of articles published since the journal\u2019s inception in 1981. The entire corpus of almost 600 articles represents foundational and well-cited contributions to such current research areas as musical expectancy, performance excellence, musical development, neuroscience, emotion, preference, and film music, among others. Cohen and Schmuckler express deep gratitude to the authors, past editorial board members, and reviewers for their contributions to this corpus, and to the American Psychological Association Publications office and staff both for support and, importantly, for holding and making accessible in perpetuity the outstanding scholarship within the archives of <em>Psychomusicology: Music Mind & Brain and Psychomusicology: A Journal of Music Cognition</em>. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2024-01-22T00:00:00+00:00",
-      "source": "Psychomusicology",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 256,
-      "reading_time": 1,
-      "created_at": "2026-01-04T05:26:49.332441+00:00",
-      "updated_at": "2026-01-04T05:26:49.332445+00:00"
     }
   ]
 }
