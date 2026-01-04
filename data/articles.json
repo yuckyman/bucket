@@ -1,5 +1,37 @@
 [
   {
+    "id": "d9e9b0007bbbea26a4410a9e8ad3d6fe",
+    "url": "https://gdimayhem.temari.fr/index.php?p=all",
+    "title": "GDI Effects from the PC cracking scene",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46424186\">Comments</a>",
+    "author": "",
+    "published_date": "2025-12-29T19:10:32+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-04T08:28:58.947207+00:00",
+    "updated_at": "2026-01-04T08:28:58.947208+00:00"
+  },
+  {
+    "id": "e00483e621604b7121875db8fcd86d00",
+    "url": "https://github.com/tenderlove/pixoo-rb",
+    "title": "Pixoo Sign Client for Ruby",
+    "content": "<p>Article URL: <a href=\"https://github.com/tenderlove/pixoo-rb\">https://github.com/tenderlove/pixoo-rb</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46485629\">https://news.ycombinator.com/item?id=46485629</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+    "author": "0x54MUR41",
+    "published_date": "2026-01-04T06:54:50+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-04T08:28:57.567131+00:00",
+    "updated_at": "2026-01-04T08:28:57.567140+00:00"
+  },
+  {
     "id": "963e984329c26f0157c5e210d69da086",
     "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1724345",
     "title": "Effectiveness of a teletherapy-based phonological short-term memory training in reducing phonological impairments in the logopenic variant of primary progressive aphasia: a multiple case study",
@@ -17414,41 +17446,5 @@
       "processed_at": "2025-12-29T18:24:08.051723+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "7a8f872dd63b73ffd0ee7fcd46bc06a5",
-    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1706099",
-    "title": "CNN-based framework for Alzheimer's disease detection from EEG via dynamic mode decomposition",
-    "content": "Alzheimer's disease (AD) and frontotemporal dementia (FTD) are major neurodegenerative disorders with characteristic EEG alterations. While most prior studies have focused on eyes-closed (EC) EEG, where stable alpha rhythms support relatively high classification performance, eyes-open (EO) EEG has proven particularly challenging for AD, as low-frequency instability obscures the typical spectral alterations. In contrast, FTD often remains more discriminable under EO conditions, reflecting distinct neurophysiological dynamics between the two disorders. To address this challenge, we propose a CNN-based framework that applies Dynamic Mode Decomposition (DMD) to segment EO EEG into shorter temporal windows and employs a 3D CNN to capture spatio-temporal-spectral representations. This approach outperformed not only the conventional short-epoch spectral ML pipeline but also the same CNN architecture trained on FFT-based features, with particularly pronounced improvements observed in AD classification. Excluding delta yielded small gains in AD-involving contrasts, whereas FTD/CN was unchanged or slightly better with delta retained\u2014suggesting delta is more perturbative in AD under EO conditions.",
-    "author": "Jong-Hyeon Seo",
-    "published_date": "2025-11-20T00:00:00+00:00",
-    "source": "Frontiers Neuroinformatics",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 157,
-    "reading_time": 1,
-    "created_at": "2025-12-29T17:20:39.750130+00:00",
-    "updated_at": "2025-12-29T18:24:08.051725+00:00",
-    "metadata": {
-      "processed_at": "2025-12-29T18:24:08.051727+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "ae1ccb09cd366055c91f09c07df1a528",
-    "url": "https://www.reddit.com/r/Python/comments/1py358p/i_cant_call_a_function_before_defining_it_and/",
-    "title": "I can\u2019t call a function before defining it and that feels like technology paternalism",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I use python for a small DSP project while not really knowing python; the superb functionality of numpy (to start with array handling, dot products, fast!!) more than justifies that even though it\u2019s a learning curve to work with.</p> <p>But today I tried to call a function above of its definition. I was really surprised that is not allowed. I couldn\u2019t even compute the error message (which was clear enoug tbh). I checked the function definition and it was fine. Poked around a bit. Only then I thought \u201edo i have to define functions at the top of the file?\u201c I mean even javascript doesn\u2019t require this. I have like 30 LOC so far including imports. I don\u2019t want to write modules for this stuff, even simple file includes (if they exist) are hardly justifiable. Coming from Java and JavaScript this behaviour is really unexpected. Why is python so, is it by philosophy or is about the compiler?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/innocent_victim_335\"> /u/innocent_victim_335 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1py358p/i_cant_call_a_function_before_defining_it_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1py358p/i_cant_call_a_function_before_defining_it_and/\">[comments]</a></span>",
-    "author": "/u/innocent_victim_335",
-    "published_date": "2025-12-28T21:32:31+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 179,
-    "reading_time": 1,
-    "created_at": "2025-12-29T17:20:04.256634+00:00",
-    "updated_at": "2025-12-29T17:20:04.256635+00:00"
   }
 ]
