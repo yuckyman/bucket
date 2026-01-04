@@ -1,5 +1,21 @@
 [
   {
+    "id": "963e984329c26f0157c5e210d69da086",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1724345",
+    "title": "Effectiveness of a teletherapy-based phonological short-term memory training in reducing phonological impairments in the logopenic variant of primary progressive aphasia: a multiple case study",
+    "content": "The logopenic variant of Primary Progressive Aphasia (lvPPA) is marked by phonological short-term memory deficits that compromise repetition and communication. While previous interventions in PPA have primarily targeted lexical-semantic abilities, little is known about therapies that directly address phonological impairments, primarily through teletherapy. This first study investigated the efficacy of an intensive phonological short-term memory training program delivered via teletherapy in individuals with the lvPPA. The intervention aimed to improve repetition of trained items, promote generalization to untrained items, facilitate transfer to functional tasks, and ensure maintenance over time. In the present study, significant improvements were observed in both immediate and delayed repetition of trained items, with partial short-term generalization to untrained items, particularly for words in delayed tasks. No substantial generalization effects were observed for functional language tasks, including picture description and picture naming, suggesting that the intervention\u2019s impact may remain task specific. Individual trajectories revealed heterogeneous responses, potentially influenced by baseline cognitive profiles, spontaneous strategies, or fatigue. Mixed-effects models confirmed that interindividual factors explained a substantial portion of the variance. These findings support the feasibility and clinical relevance of remote phonological training in the lvPPA and underline the importance of early, personalized interventions. The study also raises the hypothesis that delayed repetition may facilitate internal rehearsal, enhancing generalization. Further research is needed to assess broader functional outcomes and optimize protocol scalability.",
+    "author": "Joel Macoir",
+    "published_date": "2025-12-18T00:00:00+00:00",
+    "source": "Frontiers Human Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 223,
+    "reading_time": 1,
+    "created_at": "2026-01-04T07:42:32.098557+00:00",
+    "updated_at": "2026-01-04T07:42:32.098559+00:00"
+  },
+  {
     "id": "d679c11c8e474a499ae82756d2bd41c7",
     "url": "https://www.nature.com/articles/s41593-025-02107-w",
     "title": "Fractal analysis of brain shape formation predicts age and genetic similarity in human newborns",
@@ -17414,21 +17430,5 @@
     "reading_time": 1,
     "created_at": "2025-12-29T17:20:04.256634+00:00",
     "updated_at": "2025-12-29T17:20:04.256635+00:00"
-  },
-  {
-    "id": "1d4c8c28ea3b0e507c3253ed516f8486",
-    "url": "https://www.reddit.com/r/Python/comments/1pxyjjd/would_this_be_useful_for_people_distributing/",
-    "title": "Would this be useful for people distributing Python libraries? Looking for honest feedback",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey folks,</p> <p>I recently used a Python service that was available via pip. Most of the code was readable, but the core features were obfuscated. The package tracked usage using API keys and would limit functionality once a certain threshold was reached.</p> <p>Honestly, I didn\u2019t hate this approach. It felt like a reasonable middle ground between open code and sustainable monetization \u2014 free/visible parts stay open, and the high-value stuff is paid and usage-limited.</p> <p>That got me thinking: <em>why isn\u2019t there a simple, standardized way for library authors to do this themselves?</em></p> <p>So I started exploring an idea where:</p> <ul> <li>You can distribute a normal Python package</li> <li>Explicitly mark which functions are just tracked vs. paid</li> <li>Track usage at the function level</li> <li>Optionally obfuscate only the paid parts</li> <li>Handle limits and plans without turning the library into a full hosted SaaS</li> </ul> <p>I put together a small concept page to explain the flow with a Python example:<br /> [Link in comment]</p> <p>I\u2019m not trying to sell anything \u2014 just genuinely curious:</p> <ul> <li>Would this be useful if you maintain or distribute libraries?</li> <li>Does this feel reasonable, or does it cross a line?</li> <li>How have you handled monetization for code you ship?</li> </ul> <p>Looking for honest feedback (even if the answer is \u201cthis is a bad idea\u201d).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SnooCupcakes5746\"> /u/SnooCupcakes5746 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1pxyjjd/would_this_be_useful_for_people_distributing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1pxyjjd/would_this_be_useful_for_people_distributing/\">[comments]</a></span>",
-    "author": "/u/SnooCupcakes5746",
-    "published_date": "2025-12-28T18:29:24+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 237,
-    "reading_time": 1,
-    "created_at": "2025-12-29T17:20:04.256601+00:00",
-    "updated_at": "2025-12-29T17:20:04.256602+00:00"
   }
 ]
