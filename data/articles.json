@@ -1,5 +1,37 @@
 [
   {
+    "id": "91f6c782e21b9da934fcd29f01d2dfa0",
+    "url": "https://www.embs.org/featured-news/welcoming-congratulating-our-newly-elected-embs-excom-members/",
+    "title": "Welcoming & Congratulating Our Newly Elected EMBS ExCom Members",
+    "content": "<p>The post <a href=\"https://www.embs.org/featured-news/welcoming-congratulating-our-newly-elected-embs-excom-members/\">Welcoming &#038; Congratulating Our Newly Elected EMBS ExCom Members</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
+    "author": "Nancy Zimmerman",
+    "published_date": "2025-12-14T18:48:47+00:00",
+    "source": "Embs",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 18,
+    "reading_time": 1,
+    "created_at": "2026-01-04T20:25:21.053147+00:00",
+    "updated_at": "2026-01-04T20:25:21.053153+00:00"
+  },
+  {
+    "id": "28bddf766162387e1bcde2e55f3df1a6",
+    "url": "https://github.com/Sampsoon/hover",
+    "title": "Show HN: Hover \u2013 IDE style hover documentation on any webpage",
+    "content": "<p>I thought it would be interesting to have ID style hover docs outside the IDE.<p>Hover is a Chrome extension that gives you IDE style hover tooltips on any webpage: documentation sites, ChatGPT, Claude, etc.<p>How it works:\n- When a code block comes into view, the extension detects tokens and sends the code to an LLM (via OpenRouter or custom endpoint)\n- The LLM generates documentation for tokens worth documenting, which gets cached\n- On hover, the cached documentation is displayed instantly<p>A few things I wanted to get right:\n- Website permissions are granular and use Chrome's permission system, so the extension only runs where you allow it\n- Custom endpoints let you skip OpenRouter entirely \u2013 if you're at a company with its own infra, you can point it at AWS Bedrock, Google AI Studio, or whatever you have<p>Built with TypeScript, Vite, and the Chrome extension APIs. Coming to the Chrome Web Store soon.<p>Would love feedback on the onboarding experience and general UX \u2013 there were a lot of design decisions I wasn't sure about.<p>Happy to answer questions about the implementation.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46490895\">https://news.ycombinator.com/item?id=46490895</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+    "author": "sampsonj",
+    "published_date": "2026-01-04T18:43:45+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 192,
+    "reading_time": 1,
+    "created_at": "2026-01-04T20:24:30.348303+00:00",
+    "updated_at": "2026-01-04T20:24:30.348305+00:00"
+  },
+  {
     "id": "7ff6305e36e10a53527e4556b7035565",
     "url": "https://queue.acm.org/detail.cfm?id=3534854",
     "title": "Linear Address Spaces: Unsafe at any speed",
@@ -17458,37 +17490,5 @@
     "reading_time": 1,
     "created_at": "2025-12-30T01:47:12.398246+00:00",
     "updated_at": "2025-12-30T01:47:12.398248+00:00"
-  },
-  {
-    "id": "b9ac2f01d107e514a8d7e380ae0e1a9a",
-    "url": "https://www.mongodb.com/company/blog/news/mongodb-server-security-update-december-2025",
-    "title": "MongoDB Server Security Update, December 2025",
-    "content": "<p>Article URL: <a href=\"https://www.mongodb.com/company/blog/news/mongodb-server-security-update-december-2025\">https://www.mongodb.com/company/blog/news/mongodb-server-security-update-december-2025</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46427920\">https://news.ycombinator.com/item?id=46427920</a></p>\n<p>Points: 22</p>\n<p># Comments: 6</p>",
-    "author": "plorkyeran",
-    "published_date": "2025-12-30T00:23:47+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-30T01:47:12.398228+00:00",
-    "updated_at": "2025-12-30T01:47:12.398229+00:00"
-  },
-  {
-    "id": "60edf14e1e8b33c02b742f682fd7416c",
-    "url": "https://keithburgun.net/outside-dungeon-town-integrating-the-three-places-in-videogames/",
-    "title": "Outside, Dungeon, Town: Integrating the Three Places in Videogames (2024)",
-    "content": "<p>Article URL: <a href=\"https://keithburgun.net/outside-dungeon-town-integrating-the-three-places-in-videogames/\">https://keithburgun.net/outside-dungeon-town-integrating-the-three-places-in-videogames/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46428154\">https://news.ycombinator.com/item?id=46428154</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
-    "author": "vector_spaces",
-    "published_date": "2025-12-30T00:54:34+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2025-12-30T01:47:12.398208+00:00",
-    "updated_at": "2025-12-30T01:47:12.398210+00:00"
   }
 ]

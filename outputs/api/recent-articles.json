@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-04T20:18:16.385586+00:00",
+  "last_updated": "2026-01-04T20:25:38.809442+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "91f6c782e21b9da934fcd29f01d2dfa0",
+      "url": "https://www.embs.org/featured-news/welcoming-congratulating-our-newly-elected-embs-excom-members/",
+      "title": "Welcoming & Congratulating Our Newly Elected EMBS ExCom Members",
+      "content": "<p>The post <a href=\"https://www.embs.org/featured-news/welcoming-congratulating-our-newly-elected-embs-excom-members/\">Welcoming &#038; Congratulating Our Newly Elected EMBS ExCom Members</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
+      "author": "Nancy Zimmerman",
+      "published_date": "2025-12-14T18:48:47+00:00",
+      "source": "Embs",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 18,
+      "reading_time": 1,
+      "created_at": "2026-01-04T20:25:21.053147+00:00",
+      "updated_at": "2026-01-04T20:25:21.053153+00:00"
+    },
+    {
+      "id": "28bddf766162387e1bcde2e55f3df1a6",
+      "url": "https://github.com/Sampsoon/hover",
+      "title": "Show HN: Hover \u2013 IDE style hover documentation on any webpage",
+      "content": "<p>I thought it would be interesting to have ID style hover docs outside the IDE.<p>Hover is a Chrome extension that gives you IDE style hover tooltips on any webpage: documentation sites, ChatGPT, Claude, etc.<p>How it works:\n- When a code block comes into view, the extension detects tokens and sends the code to an LLM (via OpenRouter or custom endpoint)\n- The LLM generates documentation for tokens worth documenting, which gets cached\n- On hover, the cached documentation is displayed instantly<p>A few things I wanted to get right:\n- Website permissions are granular and use Chrome's permission system, so the extension only runs where you allow it\n- Custom endpoints let you skip OpenRouter entirely \u2013 if you're at a company with its own infra, you can point it at AWS Bedrock, Google AI Studio, or whatever you have<p>Built with TypeScript, Vite, and the Chrome extension APIs. Coming to the Chrome Web Store soon.<p>Would love feedback on the onboarding experience and general UX \u2013 there were a lot of design decisions I wasn't sure about.<p>Happy to answer questions about the implementation.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46490895\">https://news.ycombinator.com/item?id=46490895</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+      "author": "sampsonj",
+      "published_date": "2026-01-04T18:43:45+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 192,
+      "reading_time": 1,
+      "created_at": "2026-01-04T20:24:30.348303+00:00",
+      "updated_at": "2026-01-04T20:24:30.348305+00:00"
+    },
     {
       "id": "7ff6305e36e10a53527e4556b7035565",
       "url": "https://queue.acm.org/detail.cfm?id=3534854",
@@ -319,46 +351,6 @@
       "updated_at": "2026-01-04T18:22:42.032552+00:00",
       "metadata": {
         "processed_at": "2026-01-04T18:22:42.032554+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fbd1799ce60590b5ef043fa93cb1626d",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926000030?dgcid=rss_sd_all",
-      "title": "The Individual Alpha Bandwidth: A Trait-like Neural Marker Associated with Sensory Processing and Executive Function",
-      "content": "<p>Publication date: Available online 3 January 2026</p><p><b>Source:</b> NeuroImage</p><p>Author(s): Zeliang Jiang, Pan Zhang, Hanlin Wang, Wenxiao Zhong, Xingwei An, Zhijie Zhang</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 20,
-      "reading_time": 1,
-      "created_at": "2026-01-04T17:19:45.629207+00:00",
-      "updated_at": "2026-01-04T18:22:42.032579+00:00",
-      "metadata": {
-        "processed_at": "2026-01-04T18:22:42.032580+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "30575e3561f725a54045282de23f36e6",
-      "url": "https://www.ycombinator.com/companies/trellis-ai/jobs/ngvfeaq-member-of-technical-staff-full-time",
-      "title": "Trellis AI (YC W24) is hiring engineers to build AI agents for healthcare access",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46489830\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-04T17:01:43+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-04T17:18:59.781012+00:00",
-      "updated_at": "2026-01-04T18:22:42.032583+00:00",
-      "metadata": {
-        "processed_at": "2026-01-04T18:22:42.032584+00:00",
         "processing_method": "github_actions"
       }
     }
