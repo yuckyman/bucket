@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-01-05T10:20:14.897329+00:00",
+  "last_updated": "2026-01-05T10:27:58.999654+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "c2319578819743fdf0159bf723bcb1b5",
+      "url": "https://erpinfo.org/blog/2024/3/5/changes-to-the-2024-erp-boot-camp",
+      "title": "Important Changes to the 2024 ERP Boot Camp",
+      "content": "<p class=\"\">We are disappointed to announce that we will not be holding a regular 10-day ERP Boot Camp this summer.</p><p class=\"\">We have held Boot Camps nearly every summer since 2007, supported by a series of generous grants from NIMH that allowed us to provide scholarships for all attendees. Unfortunately, although our recent renewal proposal received extremely positive reviews and scores, we were recently given the surprising and disappointing news that the renewal will not be funded this year. We believe that the ERP Boot Camp provides essential training to the field, and we will continue to pursue financial support to continue holding 10-day ERP Boot Camps in the future. </p><p class=\"\">In the meantime, we have partial funding that will allow us to hold a 5-day ERP Boot Camp this summer from July 8-12, 2024 in Davis, California. The workshop will include 5-days of lectures and activities on EEG and ERP measures, including practical and theoretical issues.</p><p class=\"\">Unfortunately, we will not be able to provide scholarships to pay for travel and lodging costs, and we must charge a registration fee. We are very sorry if this causes a hardship. </p><p class=\"\">We are no longer taking applications through our application portal. Instead of a competitive application process, we will simply accept the first 30 people who complete the registration process and pay the registration fee. This provides an opportunity to attend for individuals who might otherwise not make it through our ordinary application process, which is highly competitive. </p><p class=\"\">The registration fee will be $1000 (or $900 for people who register by April 15). The registration fee will cover 6 nights in a single occupancy hotel room (arriving July 7 and departing July 13), daily breakfast at the hotel, a catered lunch for each day of the workshop, and a group dinner. <strong>You must pay the registration fee with a credit card when you register.</strong> There are no exceptions to the registration fee policy.</p><p class=\"\"><strong>Registration is now open</strong> at <a href=\"https://na.eventscloud.com/793175\">https://na.eventscloud.com/793175</a>.</p><p class=\"\">Given that we will accept the first 30 registrants, we encourage you to register as soon as possible. <strong>Registration will close on May 20</strong>, but we anticipate that the workshop will be filled up long before then. </p><p class=\"\">You must pay for your own transportation to Davis. Davis is approximately 20 minutes away from the Sacramento Airport (SMF). You can take the <a href=\"https://www.davisairporter.com/\" target=\"_blank\">Davis Airporter</a> shuttle service or a rideshare service from SMF to Davis. If you are coming from outside North America, you may want to fly into the San Francisco airport (SFO), which is 135 km (84 miles) from Davis. We recommend taking the <a href=\"https://www.davisairporter.com/\" target=\"_blank\">Davis Airporter</a> from SFO to Davis.</p>",
+      "author": "Steve Luck",
+      "published_date": "2024-03-05T19:34:57+00:00",
+      "source": "Erp Boot Camp",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 444,
+      "reading_time": 2,
+      "created_at": "2026-01-05T10:27:50.463356+00:00",
+      "updated_at": "2026-01-05T10:27:50.463357+00:00"
+    },
+    {
+      "id": "dfefe79b1f3514902d0681ca79e78183",
+      "url": "https://erpinfo.org/blog/2025/12/19/sme-now-available-in-bva-and-mne-python",
+      "title": "Standardized Measurement Error now available in BrainVision Analyzer and MNE-Python",
+      "content": "<p class=\"\">A few years ago, we developed a universal metric of data quality for averaged ERPs called the standardized measurement error (<a href=\"https://erpinfo.org/blog/2020/4/28/data-quality\">click here</a> for more information). It has been available in ERPLAB for several years, and I\u2019m happy to announce that it is now available in BrainVision Analyzer 2.3.1 and in MNE-Python.</p><p class=\"\">For BrainVision Analyzer, it is available as a Solution. At this point, you need to request it from Brain Products.<a href=\"https://pressrelease.brainproducts.com/analyzer231/#04\"> Click here</a> and scroll down to the last part of the page for more information.</p><p class=\"\">For MNE-Python, it is accessed with the mne.stats.erp.compute_sme() function. <a href=\"https://mne.tools/1.8/generated/mne.stats.erp.compute_sme.html\">Click here</a> for details.</p><p class=\"\">If you want to see some examples of how this metric can be used, check out these recent papers:</p><ul><li><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (2024a). Optimal filters for ERP research I: A general approach for selecting filter settings. <em>Psychophysiology, 61, </em>e14531. <a href=\"http://doi.org/10.1111/psyp.14531\">http://doi.org/10.1111/psyp.14531</a> [<a href=\"https://www.researchgate.net/publication/377773270_Optimal_filters_for_ERP_research_I_A_general_approach_for_selecting_filter_settings\" target=\"_blank\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (2024b). Optimal filters for ERP research II: Recommended settings for seven common ERP components. <em>Psychophysiology, 61, </em>e14530. <a href=\"https://doi.org/10.1111/psyp.14530\">https://doi.org/10.1111/psyp.14530</a> [<a href=\"https://www.researchgate.net/publication/377766656_Optimal_filters_for_ERP_research_II_Recommended_settings_for_seven_common_ERP_components\" target=\"_blank\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., Garrett, D. R., Simmons, A. M., Kiat, J. E., &amp; Luck, S. J. (2024). Evaluating the effectiveness of artifact correction and rejection in event-related potential research. Psychophysiology, 61, e14511. <a href=\"https://doi.org/10.1111/psyp.14511\">https://doi.org/10.1111/psyp.14511</a> [<a href=\"https://doi.org/10.1101/2023.09.16.558075\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., &amp; Luck, S. J. (2023). Variations in ERP data quality across paradigms, participants, and scoring procedures. <em>Psychophysiology, 60,</em> e14264. <a href=\"http://doi.org/10.1111/psyp.14264\">http://doi.org/10.1111/psyp.14264</a> [<a href=\"https://www.biorxiv.org/content/10.1101/2022.08.22.504647v2.full.pdf\">preprint</a>]</p></li></ul>",
+      "author": "Steve Luck",
+      "published_date": "2025-12-19T18:20:27+00:00",
+      "source": "Erp Boot Camp",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 244,
+      "reading_time": 1,
+      "created_at": "2026-01-05T10:27:50.462877+00:00",
+      "updated_at": "2026-01-05T10:27:50.462879+00:00"
+    },
+    {
+      "id": "3d0b4679f5672ed7608c32b3afaae270",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325007048?dgcid=rss_sd_all",
+      "title": "Cortical parvalbumin-positive neurons: Functional and ontogenetic characteristics and their relationship to brain pathologies",
+      "content": "<p>Publication date: 1 March 2026</p><p><b>Source:</b> Brain Research, Volume 1874</p><p>Author(s): Lina V. Becerra-Hern\u00e1ndez, Daniela Ortiz-Mu\u00f1oz, Adolfo S\u00e1nchez-Escobar, Carlos A. Gonz\u00e1lez-Acosta, Efra\u00edn Buritic\u00e1-Ram\u00edrez, Ver\u00f3nica Mart\u00ednez-Cerde\u00f1o</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 23,
+      "reading_time": 1,
+      "created_at": "2026-01-05T10:27:33.268850+00:00",
+      "updated_at": "2026-01-05T10:27:33.268863+00:00"
+    },
     {
       "id": "30c62259d3f0fa60ef1bd8a2c9fc9762",
       "url": "https://embc.embs.org/2026/#new_tab",
@@ -313,54 +361,6 @@
         "processed_at": "2026-01-05T08:26:33.190279+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "d08029d77a5902cd6fa8ef41f1918413",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1694812",
-      "title": "Electroencephalography differences in children with and without bilateral cerebral palsy during unimanual and bimanual drumming tasks",
-      "content": "BackgroundMultiple studies have examined bimanual coordination in children with unilateral cerebral palsy (CP) with few in bilateral CP and none utilized electroencephalography (EEG). This study investigates brain activation underlying bimanual performance in individuals with bilateral CP and typical development (TD).MethodsTwenty-six participants (13 CP; 13 TD) completed the Box and Block Test (BBT) and visually cued drumming tasks with each hand (unimanual) and then with both hands synchronously and asynchronously (bimanual). EEG and motion data were recorded during drumming tasks.ResultsChildren with CP demonstrated bilateral impairments in drumming cadence and BBT, increased alpha and beta and decreased gamma EEG band activation in mainly non-dominant brain regions compared to TD. Bimanual tasks tended to show decreased performance and greater alpha and beta band activation than unimanual tasks for both groups. EEG activity and BBT correlations were positive in TD, but negative in CP.DiscussionThis study showed that children with CP had worse motor performance bilaterally and EEG activation differences from TD similar to previous unimanual findings in bilateral CP, however, a more complex bimanual task may have uncovered greater differences.ConclusionEvidence of bimanual deficits and EEG differences reinforces the need for greater research and clinical attention on upper limb function in bilateral CP.",
-      "author": "Diane L. Damiano",
-      "published_date": "2026-01-05T00:00:00+00:00",
-      "source": "Frontiers Human Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 198,
-      "reading_time": 1,
-      "created_at": "2026-01-05T07:51:34.440369+00:00",
-      "updated_at": "2026-01-05T07:51:34.440374+00:00"
-    },
-    {
-      "id": "2254d338217d52f19df42d94537568b8",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1694948",
-      "title": "Advances in glaucoma biomechanics from 2000 to 2024: a bibliometric study and visualization analysis",
-      "content": "ObjectivesGlaucoma is an irreversible progressive optic neuropathy characterized by neurodegeneration of retinal ganglion cells. Elevated intraocular pressure induces mechanical stress and strain at the optic nerve head, impairing axonal function and contributing to the onset and progression of glaucoma. This study aims to generalize and visualize the dynamic evolution and research hotspots of glaucoma biomechanics through bibliometric methods.MethodsAll documents about glaucoma biomechanics research in 2000\u20132024 were extracted from two databases (Web of Science Core Collection and PubMed). The hotspots and frontiers of research in terms of remarkable countries, authors, journals, keywords, and cited references were analyzed using CiteSpace and VOSviewer programs.ResultsA collection of 1,655 English articles was included, with a steady increase in annual publications. 4,464 authors from 51 countries/regions were identified, led by the United States. Ethier CR was the most prolific contributor, while Downs JC was the most commonly cited author. Among 203 journals, Investigative Ophthalmology & Visual Science both led in publications and citations. In the domain of glaucoma biomechanics, keywords \u201clamina cribrosa,\u201d \u201copen angle glaucoma,\u201d and \u201cbiomechanical properties\u201d exhibited the significant centrality. The cited references formed 7 clusters, namely #0 (optic nerve head), #1 (ocular response analyzer), #2 (sclera), #3 (tonometry), #4 (lamina cribrosa), #5 (trabecular meshwork), and #6 (corneal biomechanics).ConclusionOur study employed bibliometric and visualization analyses to state the biomechanical mechanisms underlying intraocular pressure regulation and optic nerve damage, offering the development in the field of glaucoma biomechanics. Future directions may focus on the interdisciplinary applications of artificial intelligence, tissue engineering and novel biomaterials in glaucoma pathogenesis and therapies.",
-      "author": "Li Tang",
-      "published_date": "2026-01-05T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 254,
-      "reading_time": 1,
-      "created_at": "2026-01-05T07:51:31.624619+00:00",
-      "updated_at": "2026-01-05T07:51:31.624621+00:00"
-    },
-    {
-      "id": "1006f7d5ae0f3b7aaf64e5079da3d518",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1725728",
-      "title": "Future prospects for image-derived input function in molecular imaging quantification with the 7\u2009T MR-BrainPET insert",
-      "content": "Positron emission tomography (PET) and magnetic resonance imaging (MRI) offer complementary information about the human brain in health and disease. The simultaneous 7\u2009T MR-BrainPET insert enables molecular imaging quantification beyond the current limits. Here we present the current status of the field highlighting PET/MR synergies for the image-derived input function (IDIF). We also discuss promising applications that will benefit from these advancements, as well the challenges to be addressed in the near future.",
-      "author": "Christoph W. Lerche",
-      "published_date": "2026-01-05T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 74,
-      "reading_time": 1,
-      "created_at": "2026-01-05T07:51:31.624397+00:00",
-      "updated_at": "2026-01-05T07:51:31.624398+00:00"
     }
   ]
 }
