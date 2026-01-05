@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-01-05T03:51:03.625954+00:00",
-  "pending_count": 621,
-  "processed_count": 379,
+  "last_updated": "2026-01-05T04:53:34.291108+00:00",
+  "pending_count": 615,
+  "processed_count": 385,
   "pending_articles": [
     {
       "id": "8bec92d361ee3c15eab323f1288a063d",
@@ -166,6 +166,126 @@
   ],
   "recently_processed": [
     {
+      "id": "449f636bf19a9861fc4e17d727b8b060",
+      "url": "https://www.nature.com/articles/s44159-025-00516-z",
+      "title": "The development of spatial perception with and without visual experience",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-05T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-05T04:01:08.772008+00:00",
+      "updated_at": "2026-01-05T04:53:34.181756+00:00",
+      "metadata": {
+        "processed_at": "2026-01-05T04:53:34.181766+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "268dc7d9e199fe37a63e69771335c93e",
+      "url": "https://www.nature.com/articles/s41467-025-68218-x",
+      "title": "Neuronal feedback loop of the suprachiasmatic nucleus generates robust circadian rhythms",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-05T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-05T04:01:08.771984+00:00",
+      "updated_at": "2026-01-05T04:53:34.181770+00:00",
+      "metadata": {
+        "processed_at": "2026-01-05T04:53:34.181772+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "13475a4a2dc3268439d30940634f498d",
+      "url": "https://www.reddit.com/r/Python/comments/1q3oxk3/i_built_a_tui_process_manager_that_uses_a_local/",
+      "title": "I built a TUI Process Manager that uses a Local LLM to classify and \"roast\" background processes",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>**What My Project Does** </p> <p>A terminal\u2011based TUI that monitors the process tree (parent, CPU, memory, I/O) and feeds this context to a local LLM (Llama 3 via Ollama or Groq). The model classifies each process as \u201cCritical\u201d or \u201cBloatware\u201d. For bloatware it prints a short roast and offers to kill it. BrainKernel (<a href=\"https://github.com/mprajyothreddy/brainkernel\">https://github.com/mprajyothreddy/brainkernel</a>) replaces the usual CPU % sorting with \u201cvibe\u2011based\u201d sorting, shows a live\u2011updating table while staying under 1 % CPU, and can auto\u2011suspend distraction apps (e.g., Steam, games) when they exceed a user\u2011defined threshold. </p> <p>**Target Audience** </p> <p>- Developers who are tired of manually hunting down unknown processes. </p> <p>- Linux and Windows users who want a task manager that explains what a process is doing. </p> <p>- Anyone experimenting with local edge AI integrated into the OS loop. </p> <p>**Comparison** </p> <p>- **vs htop/top:** htop is faster and lighter but assumes you know every process name. BrainKernel adds semantic classification, giving meaning to each PID. </p> <p>- **vs Windows Task Manager:** Windows\u2019 manager is GUI\u2011centric and lacks process explanations. BrainKernel is keyboard\u2011centric, can \u201croast\u201d bloatware for entertainment, and includes a focus/governor mode that can automatically suspend or kill distracting applications.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Turbulent-Spark6633\"> /u/Turbulent-Spark6633 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q3oxk3/i_built_a_tui_process_manager_that_uses_a_local/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q3oxk3/i_built_a_tui_process_manager_that_uses_a_local/\">[comments]</a></span>",
+      "author": "/u/Turbulent-Spark6633",
+      "published_date": "2026-01-04T12:37:12+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 217,
+      "reading_time": 1,
+      "created_at": "2026-01-05T04:00:32.753453+00:00",
+      "updated_at": "2026-01-05T04:53:34.181775+00:00",
+      "metadata": {
+        "processed_at": "2026-01-05T04:53:34.181777+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a5170a3e4e73f927bab87d58eee2211a",
+      "url": "https://www.robinsloan.com/winter-garden/agi-is-here/",
+      "title": "AGI Is Here",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46494830\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-05T02:55:34+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-05T04:00:31.614830+00:00",
+      "updated_at": "2026-01-05T04:53:34.181779+00:00",
+      "metadata": {
+        "processed_at": "2026-01-05T04:53:34.181781+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "742c7afff5640d695b966fc3d40ebeee",
+      "url": "https://sparkbox.com/foundry/helene_and_mobile_web_performance",
+      "title": "During Helene, I just wanted a plain text website",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46494734\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-05T02:36:20+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-05T04:00:31.614751+00:00",
+      "updated_at": "2026-01-05T04:53:34.181783+00:00",
+      "metadata": {
+        "processed_at": "2026-01-05T04:53:34.181785+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "742c7afff5640d695b966fc3d40ebeee",
+      "url": "https://sparkbox.com/foundry/helene_and_mobile_web_performance",
+      "title": "During Helene, I just wanted a plain text website",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46494734\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-05T02:36:20+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-05T04:00:31.614751+00:00",
+      "updated_at": "2026-01-05T04:53:34.181783+00:00",
+      "metadata": {
+        "processed_at": "2026-01-05T04:53:34.181785+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "eb99afbf44b79cf266312c85904181fc",
       "url": "https://www.biorxiv.org/content/10.64898/2026.01.04.697049v1?rss=1",
       "title": "Snipers under stress: mentally simulated motor actions are resistant to acute stress in police officers",
@@ -242,126 +362,6 @@
       "updated_at": "2026-01-05T03:51:03.521047+00:00",
       "metadata": {
         "processed_at": "2026-01-05T03:51:03.521048+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "42a2db2f56e2a1a117e8ddf968928af5",
-      "url": "https://chuanqisun.github.io/quantum-tunnel/",
-      "title": "Show HN: Quantum Tunnel",
-      "content": "<p>Article URL: <a href=\"https://chuanqisun.github.io/quantum-tunnel/\">https://chuanqisun.github.io/quantum-tunnel/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46493533\">https://news.ycombinator.com/item?id=46493533</a></p>\n<p>Points: 13</p>\n<p># Comments: 4</p>",
-      "author": "osmoscraft",
-      "published_date": "2026-01-04T23:31:31+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-05T01:57:57.403312+00:00",
-      "updated_at": "2026-01-05T03:51:03.521050+00:00",
-      "metadata": {
-        "processed_at": "2026-01-05T03:51:03.521052+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7170c824cb5edc82590e7ad1302327c4",
-      "url": "https://warontherocks.com/2015/11/millennium-challenge-the-real-story-of-a-corrupted-military-exercise-and-its-legacy/",
-      "title": "Millennium Challenge: A corrupted military exercise and its legacy (2015)",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46493623\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-04T23:43:48+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-05T01:57:58.641138+00:00",
-      "updated_at": "2026-01-05T03:51:03.521047+00:00",
-      "metadata": {
-        "processed_at": "2026-01-05T03:51:03.521048+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d3c0ea6ae21b4d3688367ae171918fa8",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006857?dgcid=rss_sd_all",
-      "title": "Functional connectivity and graphical topological properties of the visual cortical network of minimally conscious state (MCS) patients",
-      "content": "<p>Publication date: 15 February 2026</p><p><b>Source:</b> Brain Research, Volume 1873</p><p>Author(s): Zina Li, Jichan Nian, Shuiyan Li, Zhiqing Deng, Hang Wu, Haili Zhong, Xiyan Huang, Pengmin Qin, Jinhui Wang, Qiuyou Xie, Juan Chen</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 31,
-      "reading_time": 1,
-      "created_at": "2026-01-04T23:42:27.131771+00:00",
-      "updated_at": "2026-01-05T01:23:23.001629+00:00",
-      "metadata": {
-        "processed_at": "2026-01-05T01:23:23.001638+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4516c6195696476bdf9a42aed6c320aa",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006833?dgcid=rss_sd_all",
-      "title": "A systematic review of the effect of pulse parameters of next-generation TMS devices on corticospinal excitability and neuroplasticity",
-      "content": "<p>Publication date: 15 February 2026</p><p><b>Source:</b> Brain Research, Volume 1873</p><p>Author(s): Desmond Agboada, Roman Rethwilm, Manuel Kuder, Wolfgang Mack, Wolfgang Seiberl</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 19,
-      "reading_time": 1,
-      "created_at": "2026-01-04T23:42:27.131712+00:00",
-      "updated_at": "2026-01-05T01:23:23.001642+00:00",
-      "metadata": {
-        "processed_at": "2026-01-05T01:23:23.001644+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "de64d79148bdd53306aab5f92ee8e278",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1704350",
-      "title": "Common characteristics of variants linked to autism spectrum disorder in the WAVE regulatory complex",
-      "content": "Six variants associated with autism spectrum disorder (ASD) abnormally activate the WASP-family Verprolin-homologous protein (WAVE) regulatory complex (WRC), a critical regulator of actin dynamics. This abnormal activation may contribute to the pathogenesis of this disorder. Using molecular dynamics (MD) simulations, we recently investigated the structural dynamics of wild-type (WT) WRC and R87C, A455P, and Q725R WRC disease-linked variants. Here, by extending MD simulations to I664M, E665K, and D724H WRC, we suggest that all of the mutations weaken the interactions and affect intra-complex allosteric communication between the WAVE1 active C-terminal region (ACR) and the rest of the complex. This might contribute to an abnormal complex activation, a hallmark of WRC-linked ASD. In addition, all mutants but I664M destabilize the ACR V-helix and increase the participation of ACR in large-scale movements. All these features may also abnormally influence the inactive WRC toward a dysfunctional state. We hypothesize that small-molecule ligands counteracting these effects may help restore normal WRC regulation in ASD-related variants.",
-      "author": "Paolo Carloni",
-      "published_date": "2025-11-12T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 160,
-      "reading_time": 1,
-      "created_at": "2026-01-04T23:42:12.810188+00:00",
-      "updated_at": "2026-01-05T01:23:23.001646+00:00",
-      "metadata": {
-        "processed_at": "2026-01-05T01:23:23.001648+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "699e9378a1ca54067c5e179fc4c87842",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1685586",
-      "title": "Simplex polynomial in complex networks and its applications to compute the Euler characteristic",
-      "content": "In algebraic topology, a k-dimensional simplex is defined as a convex polytope consisting of k + 1 vertices. If spatial dimensionality is not considered, it corresponds to the complete graph with k + 1 vertices in graph theory. The alternating sum of the number of simplices across dimensions yields a topological invariant known as the Euler characteristic, which has gained significant attention due to its widespread application in fields such as topology, homology theory, complex systems, and biology. The most common method for calculating the Euler characteristic is through simplicial decomposition and the Euler\u2013Poincar\u00e9 formula. In this study, we introduce a new \u201csubgraph\u201d polynomial, termed the simplex polynomial, and explore some of its properties. Using those properties, we provide a new method for computing the Euler characteristic and prove the existence of the Euler characteristic as an arbitrary integer by constructing the corresponding simplicial complex structure. When the Euler characteristic is 1, we determined a class of corresponding simplicial complex structures. Moreover, for three common network structures, we present the recurrence relations for their simplex polynomials and their corresponding Euler characteristics. Finally, at the end of this study, three basic questions are raised for the interested readers to study deeply.",
-      "author": "Haixing Zhao",
-      "published_date": "2025-11-26T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 200,
-      "reading_time": 1,
-      "created_at": "2026-01-04T23:42:12.810086+00:00",
-      "updated_at": "2026-01-05T01:23:23.001650+00:00",
-      "metadata": {
-        "processed_at": "2026-01-05T01:23:23.001652+00:00",
         "processing_method": "github_actions"
       }
     }
