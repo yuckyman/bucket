@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-06T13:39:27.957540+00:00",
+  "last_updated": "2026-01-06T14:18:23.062210+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "",
       "published_date": "2026-01-06T00:00:00+00:00",
       "source": "Nature Neuroscience Subjects",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 0,
       "reading_time": 1,
       "created_at": "2026-01-06T13:38:59.177184+00:00",
-      "updated_at": "2026-01-06T13:38:59.177186+00:00"
+      "updated_at": "2026-01-06T14:18:22.955936+00:00",
+      "metadata": {
+        "processed_at": "2026-01-06T14:18:22.955945+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "b7d0b3ce32d259e1f48569ef5223503e",
@@ -26,13 +30,17 @@
       "author": "",
       "published_date": "2026-01-06T00:00:00+00:00",
       "source": "Nature Neuroscience Subjects",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 0,
       "reading_time": 1,
       "created_at": "2026-01-06T13:38:59.177044+00:00",
-      "updated_at": "2026-01-06T13:38:59.177049+00:00"
+      "updated_at": "2026-01-06T14:18:22.955949+00:00",
+      "metadata": {
+        "processed_at": "2026-01-06T14:18:22.955951+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "be5901070282c40fd3e145d2d54bd5eb",
@@ -42,13 +50,17 @@
       "author": "",
       "published_date": "2026-01-02T21:18:10+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-01-06T13:38:23.804695+00:00",
-      "updated_at": "2026-01-06T13:38:23.804696+00:00"
+      "updated_at": "2026-01-06T14:18:22.955954+00:00",
+      "metadata": {
+        "processed_at": "2026-01-06T14:18:22.955955+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "c7b3d12fa80ead279110264f2d183f9b",
@@ -58,13 +70,17 @@
       "author": "",
       "published_date": "2026-01-06T12:33:49+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-01-06T13:38:23.804616+00:00",
-      "updated_at": "2026-01-06T13:38:23.804617+00:00"
+      "updated_at": "2026-01-06T14:18:22.955960+00:00",
+      "metadata": {
+        "processed_at": "2026-01-06T14:18:22.955962+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "4a73eda88ea66d042b17efb121915881",
@@ -74,45 +90,57 @@
       "author": "",
       "published_date": "2026-01-06T12:33:54+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-01-06T13:38:23.804577+00:00",
-      "updated_at": "2026-01-06T13:38:23.804579+00:00"
+      "updated_at": "2026-01-06T14:18:22.955964+00:00",
+      "metadata": {
+        "processed_at": "2026-01-06T14:18:22.955966+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "c7b3d12fa80ead279110264f2d183f9b",
       "url": "https://blgardner.github.io/prism.tools/",
       "title": "Show HN: Prism.Tools \u2013 Free and privacy-focused developer utilities",
-      "content": "<p>Hi HN, I'm Barry and I've built Prism.Tools (<a href=\"https://blgardner.github.io/prism.tools/\" rel=\"nofollow\">https://blgardner.github.io/prism.tools/</a>) \u2013 a collection of client-side developer utilities that respect your privacy.<p>Many of these tools were used way back in the days when I ran a BBS and started my communities first ISP, serving three local communities with Dial-Up Internet, Web Hosting etc. The tools have been refined to reflect the changes in tech since then and designed for the Novice and Pro alike. As I locate more tools others may find useful I will refine and add them to the collection. Use them, Share them, or not. They will be here if you need them...<p>40+ dev tools (JSON formatters, regex tester, base64 encoder, Git command helper, etc.) that run entirely in your browser.\nZero tracking, zero analytics, zero data collection \u2013 everything processes locally.\nSelf-contained HTML files with no build process or frameworks.<p>I realized I had a lot of tools/utilities I've built over the years for my own use. I lothe having to 'sign-up' just to access/use simple utilities that I can create myself. I've refined them and put them in one safe place so I could easily access them if/when needed. I decided to make them available via Github Pages for anyone that may find them useful. Prism.Tools is the result.<p>Each tool is a standalone HTML file with embedded CSS and JavaScript. No frameworks, no npm packages, no build steps \u2013 just open the file and it works.<p>The entire toolset:<p>- 100% client-side processing \u2013 your data never leaves your browser.<p>- No external dependencies except for specific libraries from cdnjs.cloudflare.com (marked.js for markdown, exifr for image metadata, etc.)<p>- Consistent dark UI \u2013 every tool follows the same design language for familiarity.<p>- Vanilla JS where possible \u2013 only reaching for Public CDN Resources when necessary.<p>The constraint of \"single HTML file\" was intentional. It forces simplicity and ensures tools remain maintainable. It also means users can inspect, modify, or self-host any tool trivially.<p>These tools have helped me with debugging production issues, Quick formatting tasks, learning Git commands (the Git command helper has been particularly helpful)<p>Just visit <a href=\"https://blgardner.github.io/prism.tools/\" rel=\"nofollow\">https://blgardner.github.io/prism.tools/</a> and try any tool. No signup, no install.<p>What tools are missing that you find yourself needing?\nAny performance issues with specific tools?\nUI/UX friction points?<p>All tools follow the same privacy-first philosophy...\nYour data stays in your browser. No accounts, no tracking, no servers processing your information.\nThe project is also a demonstration that you don't always need React, Vue, or complex build pipelines \u2013 sometimes vanilla JavaScript in a single HTML file is exactly the right tool for the job.<p>Vanilla JavaScript (ES6+)\nCSS3 with CSS Grid\nMinimal external libraries: marked.js, exifr, highlight.js, sql-formatter (all from CDN)\nNo frameworks, no bundlers, no npm\nHosted on Github Pages<p>Happy to answer questions about the technical implementation, design decisions, or specific tools!<p>All tools are inspectable \u2013 just view source on any page to see exactly how they work!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46511469\">https://news.ycombinator.com/item?id=46511469</a></p>\n<p>Points: 23</p>\n<p># Comments: 13</p>",
-      "author": "BLGardner",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46511469\">Comments</a>",
+      "author": "",
       "published_date": "2026-01-06T12:33:49+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 493,
-      "reading_time": 2,
-      "created_at": "2026-01-06T13:38:22.445116+00:00",
-      "updated_at": "2026-01-06T13:38:22.445118+00:00"
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-06T13:38:23.804616+00:00",
+      "updated_at": "2026-01-06T14:18:22.955960+00:00",
+      "metadata": {
+        "processed_at": "2026-01-06T14:18:22.955962+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "4a73eda88ea66d042b17efb121915881",
       "url": "https://sqlite.org/whyc.html",
       "title": "C Is Best",
-      "content": "<p>Article URL: <a href=\"https://sqlite.org/whyc.html\">https://sqlite.org/whyc.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46511470\">https://news.ycombinator.com/item?id=46511470</a></p>\n<p>Points: 31</p>\n<p># Comments: 21</p>",
-      "author": "alexpadula",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46511470\">Comments</a>",
+      "author": "",
       "published_date": "2026-01-06T12:33:54+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-01-06T13:38:22.445033+00:00",
-      "updated_at": "2026-01-06T13:38:22.445034+00:00"
+      "created_at": "2026-01-06T13:38:23.804577+00:00",
+      "updated_at": "2026-01-06T14:18:22.955964+00:00",
+      "metadata": {
+        "processed_at": "2026-01-06T14:18:22.955966+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "b0b6ac2749da3c4267bdcd80169f830e",
