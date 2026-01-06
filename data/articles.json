@@ -1,5 +1,37 @@
 [
   {
+    "id": "e51ed96cf7ef4387238fa71cceea2adb",
+    "url": "https://www.reddit.com/r/Python/comments/1q4qnii/lazyregistry_a_lightweight_python_library_for/",
+    "title": "lazyregistry: A lightweight Python library for lazy-loading registries with namespace support",
+    "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does:</h1> <p><strong>lazyregistry</strong> is a Python library that provides lazy-loading registries with namespace support and type safety. It allows you to defer expensive imports until the exact moment they're needed, making your applications faster to start and more memory-efficient.</p> <p>Instead of importing all your heavy dependencies upfront, you register them as import strings and they only get loaded when actually accessed.</p> <p><strong>GitHub:</strong> <a href=\"https://github.com/MilkClouds/lazyregistry\">https://github.com/MilkClouds/lazyregistry</a></p> <p><strong>PyPI:</strong> <code>pip install lazyregistry</code></p> <h1>Target Audience</h1> <ul> <li>CLI tools where startup time matters</li> <li>Libraries with optional dependencies (e.g., don't import torch if the user doesn't use it)</li> <li>ML projects with heavy dependencies (torch, tensorflow, transformers, etc.)</li> <li>Anyone who wants to build their own <code>AutoModel.from_pretrained()</code> system like transformers</li> </ul> <h1>Comparison</h1> <p>Implementing lazy loading yourself:</p> <pre><code>import importlib class LazyRegistry: def __init__(self): self._registry = {} self._cache = {} def register(self, key, import_path): self._registry[key] = import_path def __getitem__(self, key): if key in self._cache: return self._cache[key] import_path = self._registry[key] module_path, attr_name = import_path.split(&quot;:&quot;) module = importlib.import_module(module_path) obj = getattr(module, attr_name) self._cache[key] = obj return obj # Still missing: __setitem__, update(), keys(), values(), items(), # __contains__, __iter__, __len__, error handling, type hints, ... </code></pre> <p>Or just <code>pip install lazyregistry</code> \u2014 <strong>lightweight, only 1 dependency (pydantic)</strong>:</p> <pre><code>from lazyregistry import Registry registry = Registry(name=&quot;components&quot;) registry[&quot;a&quot;] = &quot;heavy_module_1:ClassA&quot; registry[&quot;b&quot;] = &quot;heavy_module_2:ClassB&quot; component = registry[&quot;a&quot;] # Imported here </code></pre> <h1>Basic Usage:</h1> <pre><code>from lazyregistry import Registry registry = Registry(name=&quot;plugins&quot;) # Register by import string (lazy - imported on access) registry[&quot;json&quot;] = &quot;json:dumps&quot; # Register by instance (immediate - already imported) import pickle registry[&quot;pickle&quot;] = pickle.dumps # Import happens HERE, not before serializer = registry[&quot;json&quot;] </code></pre> <h1>Build Your Own Auto Registry</h1> <p>Ever wanted to build your own <code>AutoModel.from_pretrained()</code> system like transformers? lazyregistry provides the building blocks:</p> <pre><code>from lazyregistry import Registry from lazyregistry.pretrained import AutoRegistry, PretrainedConfig, PretrainedMixin class BertConfig(PretrainedConfig): model_type: str = &quot;bert&quot; hidden_size: int = 768 class AutoModel(AutoRegistry): registry = Registry(name=&quot;models&quot;) config_class = PretrainedConfig type_key = &quot;model_type&quot; @AutoModel.register_module(&quot;bert&quot;) class BertModel(PretrainedMixin): config_class = BertConfig # Register third-party models lazily AutoModel.registry[&quot;gpt2&quot;] = &quot;transformers:GPT2Model&quot; # Save config to ./model/config.json config = BertConfig(hidden_size=1024) model = BertModel(config=config) model.save_pretrained(&quot;./model&quot;) # Load any registered model - auto-detects type from config.json loaded = AutoModel.from_pretrained(&quot;./model&quot;) </code></pre> <p>You get model registration, config-based type detection, and lazy loading of heavy dependencies.</p> <h1>Tip: Combining with lazy-loader</h1> <p>For packages with many heavy dependencies, you can combine <code>lazyregistry</code> with <a href=\"https://github.com/scientific-python/lazy-loader\">lazy-loader</a>:</p> <pre><code># mypackage/__init__.py from typing import TYPE_CHECKING if TYPE_CHECKING: # IDE autocomplete, mypy, pyright from .bert import BertModel as BertModel from .gpt2 import GPT2Model as GPT2Model else: # Runtime: nothing imported until accessed import lazy_loader as lazy __getattr__, __dir__, __all__ = lazy.attach(__name__, submod_attrs={...}) # mypackage/auto.py from lazyregistry import Registry AutoModel.registry.update({ &quot;bert&quot;: &quot;mypackage.bert:BertModel&quot;, # Deferred until registry access &quot;gpt2&quot;: &quot;mypackage.gpt2:GPT2Model&quot;, }) </code></pre> <p>Double lazy loading: <code>lazy-loader</code> defers module imports, <code>lazyregistry</code> defers registry lookups.</p> <p>I'd love to hear your thoughts and feedback!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Spirited_Prize_6058\"> /u/Spirited_Prize_6058 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q4qnii/lazyregistry_a_lightweight_python_library_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q4qnii/lazyregistry_a_lightweight_python_library_for/\">[comments]</a></span>",
+    "author": "/u/Spirited_Prize_6058",
+    "published_date": "2026-01-05T16:41:32+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 481,
+    "reading_time": 2,
+    "created_at": "2026-01-06T10:25:37.541968+00:00",
+    "updated_at": "2026-01-06T10:25:37.541970+00:00"
+  },
+  {
+    "id": "c7c25b67708a0aeffc121a38e986a76c",
+    "url": "https://scenelist.org/",
+    "title": "SCiZE's Classic Warez Collection",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46510625\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-06T10:13:43+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-06T10:25:36.376516+00:00",
+    "updated_at": "2026-01-06T10:25:36.376518+00:00"
+  },
+  {
     "id": "913299a49f0c6b896b8239a27259002a",
     "url": "https://www.sciencedirect.com/science/article/pii/S0306452225011716?dgcid=rss_sd_all",
     "title": "Differential Implications of the mediodorsal thalamic nucleus subdivisions in regulating prefrontal cortex GAD67 and GABA<sub>B</sub> receptors expression: behavioral and cognitive outcomes",
@@ -100,6 +132,26 @@
     }
   },
   {
+    "id": "8722484233d6969141b3f3733e5e336f",
+    "url": "https://www.ianvisits.co.uk/articles/tube-trains-could-navigate-the-underground-using-the-weird-rules-of-quantum-physics-86370/",
+    "title": "Tube trains could navigate the Underground using the rules of Quantum Physics",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46509967\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-06T08:26:23+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-06T09:27:40.590357+00:00",
+    "updated_at": "2026-01-06T10:18:56.402317+00:00",
+    "metadata": {
+      "processed_at": "2026-01-06T10:18:56.402319+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
     "id": "7784497f1a4f5554bdb6ef86569c5651",
     "url": "https://www.fdd.org/analysis/2025/06/25/mapping-the-protests-in-iran-2/",
     "title": "Mapping Protests in Iran",
@@ -130,26 +182,6 @@
     "reading_time": 1,
     "created_at": "2026-01-06T09:27:39.261085+00:00",
     "updated_at": "2026-01-06T09:27:39.261087+00:00"
-  },
-  {
-    "id": "8722484233d6969141b3f3733e5e336f",
-    "url": "https://www.ianvisits.co.uk/articles/tube-trains-could-navigate-the-underground-using-the-weird-rules-of-quantum-physics-86370/",
-    "title": "Tube trains could navigate the Underground using the rules of Quantum Physics",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46509967\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-06T08:26:23+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-06T09:27:40.590357+00:00",
-    "updated_at": "2026-01-06T10:18:56.402317+00:00",
-    "metadata": {
-      "processed_at": "2026-01-06T10:18:56.402319+00:00",
-      "processing_method": "github_actions"
-    }
   },
   {
     "id": "f6a8b78fd215d930390c43445313eb00",
@@ -17410,37 +17442,5 @@
     "reading_time": 1,
     "created_at": "2025-12-31T19:17:15.353940+00:00",
     "updated_at": "2025-12-31T19:17:15.353942+00:00"
-  },
-  {
-    "id": "af5aa89fbcbc910a3c4ee1c4370dcf11",
-    "url": "https://www.reuters.com/investigations/meta-created-playbook-fend-off-pressure-crack-down-scammers-documents-show-2025-12-31/",
-    "title": "Meta created 'playbook' to fend off pressure to crack down on scammers",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46446838\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-31T18:28:41+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-31T19:17:15.353860+00:00",
-    "updated_at": "2025-12-31T19:17:15.353861+00:00"
-  },
-  {
-    "id": "b1fde537cb110edaa9979f3f05937769",
-    "url": "https://austinhenley.com/blog/canceledbookdeal.html",
-    "title": "I canceled my book deal",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46446815\">Comments</a>",
-    "author": "",
-    "published_date": "2025-12-31T18:26:32+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2025-12-31T19:17:15.353792+00:00",
-    "updated_at": "2025-12-31T19:17:15.353796+00:00"
   }
 ]
