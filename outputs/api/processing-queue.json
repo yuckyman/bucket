@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-01-06T03:25:25.733993+00:00",
-  "pending_count": 641,
-  "processed_count": 359,
+  "last_updated": "2026-01-06T04:35:54.585939+00:00",
+  "pending_count": 638,
+  "processed_count": 362,
   "pending_articles": [
     {
       "id": "a6c526ae7e7367473ec23d71debbd45b",
@@ -166,6 +166,106 @@
   ],
   "recently_processed": [
     {
+      "id": "95514f245ada62eea2ae839ba693a005",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.05.697596v1?rss=1",
+      "title": "Shaped by meaning, weighted by reliability: New insights into multisensory integration",
+      "content": "In everyday perception, sensory information is rarely interpreted in isolation. Instead, observers generate expectations about what is likely to occur next, using contextual information to guide decisions, particularly when sensory input is weak, ambiguous, or uncertain. These expectations can facilitate behaviour when they align with incoming evidence, but impose costs when they conflict, shaping how information from different senses contributes to behaviour. However, it remains unclear what kind of multisensory process is engaged when meaning guides decisions, and whether multisensory facilitation and non-independence reflect a single integrative mechanism or distinct routes shaped by context. Here, we examined how semantic context, visual clarity, and the relationship between auditory and visual signals jointly shape behaviour in a semantic correspondence task using dynamic, naturalistic events. Participants judged whether a target matched a preceding concept prime, establishing an expectation at the level of meaning. Targets were auditory-only, visual-only (clear or blurry), or audiovisual (AV), with AV components conveying either the same or different meanings across modalities. AV facilitation was not a general consequence of stimulus redundancy. When the prime accurately predicted the target and auditory and visual signals conveyed the same meaning, degrading visual input increased the contribution of auditory information, leading to faster responses and violations of the race-model inequality. By contrast, when the prime indicated the target but auditory and visual signals conveyed competing meanings, AV stimulation produced robust behavioural costs relative to vision. When the prime did not match the target, congruent and incongruent audiovisual events produced comparable effects, and race-model violations were observed even when auditory and visual signals encoded different concepts, indicating convergence at the level of the response rather than shared perceptual content. Finally, exploratory clustering revealed two participant subgroups with comparable overall response speed but systematically different multisensory profiles when semantic expectations did not allow reliable anticipation of the upcoming event. Together, these findings show that multisensory effects in semantic decisions are shaped by meaning and arise through two functionally distinct routes: one in which reduced sensory reliability promotes joint use of congruent audiovisual information, and another in which perceptually different signals converge on the same response when semantic expectations are not met.",
+      "author": "Sycheva, E., St-Gelais, L., Jerbi, K., Bakhtiari, S., Lepore, F., Hadid, V.",
+      "published_date": "2026-01-05T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 356,
+      "reading_time": 1,
+      "created_at": "2026-01-06T03:40:18.807652+00:00",
+      "updated_at": "2026-01-06T04:35:54.489810+00:00",
+      "metadata": {
+        "processed_at": "2026-01-06T04:35:54.489820+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "22491e792e57181ab46c6058d4e6b095",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.05.697573v1?rss=1",
+      "title": "Zebrin molecular identity and cerebellar location determine Purkinje cell vulnerability in Christianson syndrome mice",
+      "content": "Ataxia is a major characteristic feature in Christianson syndrome, where Purkinje cells in the anterior cerebellar vermis are vulnerable to degeneration while those in the posterior vermis are resilient. Here, we provide a temporal study of changes in Purkinje cell function, cell vulnerability and innervation of cerebellar nuclei in a mouse model of Christianson syndrome. Purkinje cells express certain molecules in a patterned manner across the cerebellum, such as aldolase C/zebrin-II (zebrin). We show that zebrin patterning appears normal before disease onset in Christianson syndrome mice with no apparent cell death, similar to what has been reported in patients. We observe rapid Purkinje cell death in the anterior lobe of Christianson syndrome mice that is exclusive to zebrin-negative Purkinje cells, with zebrin-positive Purkinje cells showing resilience. Intrinsic firing deficits exclusively in the anterior cerebellum are observed at the same time as the first observed cell death in the anterior cerebellum. In contrast, posterior Purkinje cells degenerated later, but zebrin-negative and zebrin-positive cells were equally susceptible to degeneration. Purkinje cells' innervation in the cerebellar nuclei was also lost in Christianson syndrome mice in a region-specific manner: neurons in the anterior cerebellar nuclei, with predominantly zebrin-negative Purkinje cells' inputs, displayed dramatic loss of Purkinje cells' innervation, while neurons in the posterior cerebellar nuclei, innervated by both zebrin-negative and zebrin-positive terminals, showed greater resiliency. Together, our results highlight that cerebellar location and zebrin molecular identity appear important to the vulnerability of Purkinje cells and their innervation in the cerebellar nuclei in Christianson syndrome.",
+      "author": "Masson, L.-C., Tourbina-Kolomiets, J., Marquez, B. T., Watt, A. J., McKinney, R. A.",
+      "published_date": "2026-01-05T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 250,
+      "reading_time": 1,
+      "created_at": "2026-01-06T03:40:18.807597+00:00",
+      "updated_at": "2026-01-06T04:35:54.489824+00:00",
+      "metadata": {
+        "processed_at": "2026-01-06T04:35:54.489825+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "3c8470c23ff8be8a416bb2fa09cb697d",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.05.697753v1?rss=1",
+      "title": "HONeD-in on Brain Activity: Deconvolving Passive Diffusion on the Structural Network from Functional Brain Signals",
+      "content": "Brain regions perform distinct computations, and their signals propagate through the whole-brain white matter network. Yet, mathematical models that describe this signal propagation via purely passive diffusion can predict a considerable amount of the observed functional connectivity between regions. This raises a critical question: if so much functional connectivity can be explained by a passive process, how can we isolate the active process? Here, we calculate in closed-form an estimate for such an active signal in functional MRI by spatially deconvolving the effect of passive signal spread over the brain's structural connectivity using a higher-order network diffusion (HONeD) model. Across 770 Human Connectome Project subjects, we show that the resulting HONeD-innovation (HONeD-in) signal 1) sparsifies functional connectivity while retaining a well-connected network, 2) remodels resting-state networks (RSNs), 3) mixes the unimodal--multimodal hierarchical organization of RSNs into a circle with no clear hierarchy, and 4) deblurs task-activation maps. Together, our results highlight HONeD deconvolution as a generalizable new way to study resting-state and task fMRI brain signals.",
+      "author": "Sipes, B. S., Arab, F., Nagarajan, S., Raj, A.",
+      "published_date": "2026-01-05T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 166,
+      "reading_time": 1,
+      "created_at": "2026-01-06T03:40:18.807542+00:00",
+      "updated_at": "2026-01-06T04:35:54.489827+00:00",
+      "metadata": {
+        "processed_at": "2026-01-06T04:35:54.489829+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "8057d50ed0efb2e0a2ccee59885388e7",
+      "url": "https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-gogograndparent-yc-s16-is-hiring-backend-and-full-stack-engineers",
+      "title": "GoGoGrandparent (YC S16) Is Back End Engineers",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46508441\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-06T03:32:41+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-06T03:39:37.589484+00:00",
+      "updated_at": "2026-01-06T04:35:54.489831+00:00",
+      "metadata": {
+        "processed_at": "2026-01-06T04:35:54.489833+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "8057d50ed0efb2e0a2ccee59885388e7",
+      "url": "https://www.ycombinator.com/companies/gogograndparent/jobs/2vbzAw8-gogograndparent-yc-s16-is-hiring-backend-and-full-stack-engineers",
+      "title": "GoGoGrandparent (YC S16) Is Back End Engineers",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46508441\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-06T03:32:41+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-06T03:39:37.589484+00:00",
+      "updated_at": "2026-01-06T04:35:54.489831+00:00",
+      "metadata": {
+        "processed_at": "2026-01-06T04:35:54.489833+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "e714567c1a7b730964febe386ca79c41",
       "url": "https://www.nature.com/articles/s41583-025-01018-w",
       "title": "Composing cognition via neural subspaces",
@@ -262,106 +362,6 @@
       "updated_at": "2026-01-06T03:25:25.623104+00:00",
       "metadata": {
         "processed_at": "2026-01-06T03:25:25.623106+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d971e84cb9b023fd6a19b7b48f489136",
-      "url": "https://brave.com/privacy-updates/36-adblock-memory-reduction/",
-      "title": "Brave overhauled its Rust adblock engine with FlatBuffers, cutting memory 75%",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46501894\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-05T17:34:33+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-05T23:42:45.595306+00:00",
-      "updated_at": "2026-01-06T01:17:24.132892+00:00",
-      "metadata": {
-        "processed_at": "2026-01-06T01:17:24.132902+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e0b4eb6f1f58e3b4a681600545af7ea5",
-      "url": "https://www.reddit.com/r/Python/comments/1q4n4yd/pypdfform_v411_has_released/",
-      "title": "PyPDFForm v4.1.1 has released",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Happy new year <a href=\"/r/Python\">r/Python</a>! It's been a bit over half a year since the <a href=\"https://www.reddit.com/r/Python/comments/1ljas6t/pypdfform_v300_has_released/\">last post</a> I made about PyPDFForm. As the project starts its sixth year of development, I'd like to update you with a handful (yet not a complete list) of new features that have been introduced in the last 7 months, some of which were requested by the exact fellow redditors of you guys:</p> <ol> <li>Performance! Yes I know people mock Python for its performance, but that doesn't stop us from writing faster code. A number of PyPDFForm's old, not performant APIs, for example create form fields, are deprecated/removed and replaced by their more performant equivalencies. Now it should be faster to do things with PyPDFForm, especially in bulk.</li> <li>Thanks to qpdf, the project now has even better appearance handling ability, making it capable of generating at least ASCII based text appearances for single line text fields. This is rather significant because not all PDF viewers have bulitin appearance generation functionality. In the case when one doesn't, PyPDFForm now offers a fallback.</li> <li>You can draw more types of elements on a PDF. On top of the already supported texts and images, you can now draw different shapes such as line segments, rectangles, circles, and ellipses, with some starter level of styling you could customize for each. I plan on continuously expand this feature so that we can have more elements to draw and more styling to customize in the future.</li> <li>The <a href=\"https://chinapandaman.github.io/PyPDFForm/v4.1/\">docs site</a> has been revamped, it was completely rebuilt using the Material for MkDocs theme. Previously it was just using the default Read the Docs theme that came with MkDocs. While it's simple and minimal, it lacked critical features for what I consider a production ready project's documentation. With the new theme, you should have a much better time navigating through the docs with better syntax highlighting, searching, layouts, etc. Also the docs site is now versioned, as it should for a long time.</li> <li>You can now embed JavaScript code into form fields using PyPDFForm. This is a beta feature that just got rolled out in v4.1. The reason it's beta is that...it may not be secure, and I debated for a while whether to offer this or not. I decided to do so because in the end, you could always do it, and PyPDFForm is just making it simpler. So if all things go well, you can use JavaScript to make your PDF forms more dynamic with your own creativity.</li> <li>To further prove the level of dynamic you could achieve with PyPDFForm, I spent this past weekend hacked together a POC project which, <a href=\"https://github.com/chinapandaman/pdf-tic-tac-toe\">literally lets you play Tic-tac-toe on a PDF form</a>.</li> </ol> <p>If you find this interesting, feel free to checkout the project's <a href=\"https://github.com/chinapandaman/PyPDFForm\">GitHub repo</a>, its <a href=\"https://pypi.org/project/PyPDFForm/\">PyPi page</a>, and its <a href=\"https://chinapandaman.github.io/PyPDFForm/\">documentation</a>. And like always, I hope you guys find the library helpful for your own PDF generation workflow. Feel free to try it, test it, leave comments or suggestions, and open issues. And of course if you are willing, kindly give me a star on GitHub (I'm INCHES away from 1k stars so do it :D).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chinapandaman\"> /u/chinapandaman </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q4n4yd/pypdfform_v411_has_released/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q4n4yd/pypdfform_v411_has_released/\">[comments]</a></span>",
-      "author": "/u/chinapandaman",
-      "published_date": "2026-01-05T14:30:16+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 550,
-      "reading_time": 2,
-      "created_at": "2026-01-05T23:21:43.400192+00:00",
-      "updated_at": "2026-01-06T01:17:24.132907+00:00",
-      "metadata": {
-        "processed_at": "2026-01-06T01:17:24.132908+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "956c713c3c5017d334e4308747f59451",
-      "url": "https://www.reddit.com/r/Python/comments/1q4i3yu/amzpy_an_amazon_scraper_born_out_of_api/",
-      "title": "AmzPy: An Amazon Scraper born out of API frustration (uses curl_cffi for TLS fingerprinting)",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>What My Project Does:</p> <p><strong>AmzPy</strong> is a Python library designed to scrape Amazon product details and search results without needing official PA-API access.</p> <p>It specifically solves the common &quot;bot detection&quot; issue by using <code>curl_cffi</code> for browser impersonation. Instead of standard <code>requests</code>, it mimics the TLS/JA3 fingerprints of real browsers (Chrome, Safari, Firefox), making it much harder for Amazon to block your requests.</p> <p><strong>GitHub:</strong> <a href=\"https://github.com/theonlyanil/amzpy\">https://github.com/theonlyanil/amzpy</a></p> <p><strong>PyPI:</strong> <code>pip install amzpy</code></p> <h1>Target Audience</h1> <p>This is intended for <strong>developers and data researchers</strong> who need to build MVPs, price trackers, or affiliate tools but have been denied Amazon PA-API access or find the official API's limitations too restrictive for early-stage development.</p> <h1>Comparison</h1> <ul> <li><strong>Vs. Official PA-API:</strong> Doesn't require manual approval or maintaining a specific sales volume to keep your keys active.</li> <li><strong>Vs. Scrapy/BeautifulSoup:</strong> Standard scrapers often get hit with CAPTCHAs immediately. AmzPy uses <code>curl_cffi</code> to bypass these hurdles natively. PLUS, amzpy handles beautifulsoup stuff well.</li> <li><strong>Vs. Selenium/Playwright:</strong> AmzPy is much lighter and faster as it doesn't require spinning up a full headless browser instance.</li> </ul> <p><strong>Basic Usage:</strong></p> <pre><code>from amzpy import AmazonScraper scraper = AmazonScraper(country_code=&quot;in&quot;) products = scraper.search_products(query=&quot;gaming mouse&quot;, max_pages=1) for item in products: print(f&quot;{item['title']} - {item['price']}&quot;) </code></pre> <p>I\u2019d love to hear your thoughts on my library...</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/convicted_redditor\"> /u/convicted_redditor </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q4i3yu/amzpy_an_amazon_scraper_born_out_of_api/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q4i3yu/amzpy_an_amazon_scraper_born_out_of_api/\">[comments]</a></span>",
-      "author": "/u/convicted_redditor",
-      "published_date": "2026-01-05T10:20:50+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 223,
-      "reading_time": 1,
-      "created_at": "2026-01-05T23:21:43.400122+00:00",
-      "updated_at": "2026-01-06T01:17:24.132911+00:00",
-      "metadata": {
-        "processed_at": "2026-01-06T01:17:24.132913+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "854a575aaceba015b3783c721babb00a",
-      "url": "https://www.reddit.com/r/Python/comments/1q4vsnn/understanding_multithreading_multiprocessing_in/",
-      "title": "Understanding multithreading & multiprocessing in Python",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently needed to squeeze more performance out of the hardware running my Python backend. This led me to take a deep dive into threading, processing, and async code in Python.</p> <p>I wrote a <a href=\"https://anmols.bearblog.dev/understanding-multithreading-and-multiprocessing-in-python/\">short blog post</a>\u201a with <a href=\"https://github.com/AnmolS99/multithreading-multiprocessing-python\">figures and code</a>, giving an overview of these, which hopefully will be helpful for others looking to serve their backend more efficiently \ud83d\ude0a</p> <p>Feedback and corrections are very welcome!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AnmolS99\"> /u/AnmolS99 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q4vsnn/understanding_multithreading_multiprocessing_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q4vsnn/understanding_multithreading_multiprocessing_in/\">[comments]</a></span>",
-      "author": "/u/AnmolS99",
-      "published_date": "2026-01-05T19:42:41+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 90,
-      "reading_time": 1,
-      "created_at": "2026-01-05T23:21:43.400079+00:00",
-      "updated_at": "2026-01-06T01:17:24.132915+00:00",
-      "metadata": {
-        "processed_at": "2026-01-06T01:17:24.132917+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "dd62c786680dda06aad0ef8d293b7cab",
-      "url": "https://www.reddit.com/r/Python/comments/1q48yxl/python_format_string_visualizer/",
-      "title": "Python format string visualizer",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm going through the book <a href=\"https://effectivepython.com/\">Effective Python</a> by Brett Slatkin and got bogged down by f-string formatting (literally in Chapter 1; cue eyeroll). I thought there might be a tool like Pythex (for f-strings) but I couldn't find anything. Got Claude to whack out a quick HTML app using the spec from help('FORMATTING'). Might be helpful to someone learning.</p> <p><a href=\"https://github.com/genericpenguin/python-format-string\">Repo</a> and <a href=\"https://genericpenguin.github.io/python-format-string/\">Page</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ilostagunfight\"> /u/ilostagunfight </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q48yxl/python_format_string_visualizer/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q48yxl/python_format_string_visualizer/\">[comments]</a></span>",
-      "author": "/u/ilostagunfight",
-      "published_date": "2026-01-05T02:09:36+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 86,
-      "reading_time": 1,
-      "created_at": "2026-01-05T23:21:43.400048+00:00",
-      "updated_at": "2026-01-06T01:17:24.132919+00:00",
-      "metadata": {
-        "processed_at": "2026-01-06T01:17:24.132920+00:00",
         "processing_method": "github_actions"
       }
     }
