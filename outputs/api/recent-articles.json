@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-07T07:27:46.852341+00:00",
+  "last_updated": "2026-01-07T07:47:38.148700+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "9d414f3b56ac788715b1f6d8b57a6e78",
+      "url": "https://fmhy.net/posts/Nov-2025",
+      "title": "Monthly Updates [November]",
+      "content": "<div class=\"info custom-block\"><p class=\"custom-block-title\">INFO</p>\n<p>These update threads only contains major updates. If you're interested\nin seeing all minor changes you can follow our\n<a href=\"https://github.com/fmhy/FMHYedit/commits/main\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub or\n<a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Updates Channel</a> in Discord.</p>\n</div>\n<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Added the <strong><a href=\"https://i.ibb.co/hx97zL3W/978676.jpg\" rel=\"noreferrer\" target=\"_blank\">Amoled Theme</a></strong> / <a href=\"https://i.imgur.com/fMrnGmF.png\" rel=\"noreferrer\" target=\"_blank\">2</a> to our site as a <a href=\"https://i.ibb.co/pvkfg3hC/image.png\" rel=\"noreferrer\" target=\"_blank\">Toggle</a> / <a href=\"https://i.imgur.com/qF7exKw.png\" rel=\"noreferrer\" target=\"_blank\">2</a> that can be turned on or off. Thank you to @Land for doing this.</p>\n</li>\n<li>\n<p>Built a <strong><a href=\"https://fmhy-search.dev.zenir.tech/\" rel=\"noreferrer\" target=\"_blank\">External Search Engine</a></strong> that should work better in most cases than the built in VitePress search on our website.</p>\n</li>\n<li>\n<p>Added a <strong><a href=\"https://fmhyclone.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">New Backup</a></strong> of FMHY with daily sync, hosted on GitLab. It also has a backup of the <a href=\"https://fmhyapi.wispy.qzz.io/single-page\" rel=\"noreferrer\" target=\"_blank\">raw markdown</a> page. We also added another <a href=\"https://a-fmhy.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">backup</a> of our website that has the theme on from above on automatically.</p>\n</li>\n<li>\n<p>The Space section has become a bit hard to navigate (60+ lines,) so we've split it into its <a href=\"https://fmhy.net/educational#space\" rel=\"noreferrer\" target=\"_blank\">own head section</a>, with 2 new subsections: <a href=\"https://fmhy.net/educational#astronomy\" rel=\"noreferrer\" target=\"_blank\">Astronomy</a> and <a href=\"https://fmhy.net/educational#spacecraft\" rel=\"noreferrer\" target=\"_blank\">Spacecraft</a>. Astronomy will cover things related to celestial objects or phenomena in the cosmos. Spacecraft will cover things like rockets, launches and the ISS. The head section will be for more general space related things, like NASAs website, news, etc.</p>\n</li>\n<li>\n<p>Remakes / Ports in gaming had over 80 lines, and was pretty disorganized, so we've split it into 3 new sections to make it more comprehensible: <a href=\"https://fmhy.net/gaming#decomps-ports\" rel=\"noreferrer\" target=\"_blank\">Decomps / Ports</a>, <a href=\"https://fmhy.net/gaming#remakes-recreations\" rel=\"noreferrer\" target=\"_blank\">Remakes / Recreations</a> and <a href=\"https://fmhy.net/gaming#revival-projects\" rel=\"noreferrer\" target=\"_blank\">Revival Projects</a>. Also turned Special Interest into its own head category to help organize TOC better.</p>\n</li>\n<li>\n<p>Re-ordered <a href=\"https://fmhy.net/reading#manga\" rel=\"noreferrer\" target=\"_blank\">Manga Sites</a> based on poll results from our Discord. Weeb Central has been moved to #1 spot, and MangaFire + MangaNato have both been starred. Thank you to everyone who took part in voting and gave their thoughts. <a href=\"https://i.ibb.co/j9Sn4hRR/image.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/u8zFZTX.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Cleaned up multiple Audio Streaming sections, and added new ones to help better organize it including: <a href=\"https://fmhy.net/audio#specialty-streaming\" rel=\"noreferrer\" target=\"_blank\">Specialty</a>, <a href=\"https://fmhy.net/audio#genre-specific-streaming\" rel=\"noreferrer\" target=\"_blank\">Genre Specific</a>, <a href=\"https://fmhy.net/audio#radio-directories\" rel=\"noreferrer\" target=\"_blank\">Radio Directories</a>, and <a href=\"https://fmhy.net/audio#lofi-radio\" rel=\"noreferrer\" target=\"_blank\">Lofi Radio</a>. <a href=\"https://github.com/fmhy/edit/pull/4128#issuecomment-3476036920\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a>. Thank you to @AnarchyDR for doing this.</p>\n</li>\n<li>\n<p>Updated <a href=\"https://fmhy.net/audio\" rel=\"noreferrer\" target=\"_blank\">Audio Streaming</a> table of contents to make it less cluttered and easier to navigate. <a href=\"https://i.ibb.co/0yJbh03H/234243.jpg\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/fhgqKzb.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Cleaned up <a href=\"https://fmhy.net/gaming#browser-emulators\" rel=\"noreferrer\" target=\"_blank\">Browser Emulators</a>, fixed labels, removed dead sites, bumped sites with multiple, or unique emulators higher, and moved any only serving as EmulatorJS / NeptunJS frontends to storage. <a href=\"https://i.ibb.co/LXdhcDFD/Untitled.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/W9x8jY4.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>We removed the &quot;No Torrenting&quot; label from ProtonVPN as you can set it up with a OpenVPN config that allows you to torrent for free. Note that they do expire and must be regenerated sometimes. Guide is listed next to <a href=\"https://fmhy.net/privacy#vpn\" rel=\"noreferrer\" target=\"_blank\">Proton</a>. TY to Wispy and others for figuring this out.</p>\n</li>\n<li>\n<p>Added <a href=\"https://fmhy.net/gaming#tetris\" rel=\"noreferrer\" target=\"_blank\">Tetris</a> Section to Gaming.</p>\n</li>\n<li>\n<p>Fixed ugly formatting in Game Optimization. <a href=\"https://i.ibb.co/Vc99kJhh/image.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/HRPUwL3.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#download-managers\" rel=\"noreferrer\" target=\"_blank\">AB Download Manager</a> in Download Managers. Open source, fast, cross platform, has resumable downloads, and a active dev team.</p>\n</li>\n<li>\n<p>Bumped <a href=\"https://fmhy.net/gaming#rom-sites\" rel=\"noreferrer\" target=\"_blank\">CrocDB</a> to new #1 over Myrient in ROM sites. Croc covers multiple sites (including myrient), has a better UI, and a new rompack feature.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#torrent-apps\" rel=\"noreferrer\" target=\"_blank\">PlayTorrio</a> in Torrent Streaming Apps. New client that is very feature rich. It has similar addons to Stremio, such as Torrentio. It also has Jackett integration, Debrid support, and so many other features we're unable to list them all here.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#specialized-chatbots\" rel=\"noreferrer\" target=\"_blank\">NotebookLM</a> in Specialized Chatbots. Document chatbots + note taking. Works well for quickly studying, has good audio/video overviews, can generate quizzes, flashcards, etc.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#anime-streaming\" rel=\"noreferrer\" target=\"_blank\">Anidap</a> in Anime Streaming. Has a nice UI, uses hosts that are both unique and fast.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#live-tv\" rel=\"noreferrer\" target=\"_blank\">PlayTorrio IPTV</a> in Live TV / Sports. Fast streams, huge library, good quality, one of the better Live TV sites we've been sent in awhile. Note that Darkness TV is the original, PlayTorrio just improved on their UI.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/linux-macos#linux-gaming\" rel=\"noreferrer\" target=\"_blank\">Heroic Games Launcher</a> in Linux Gaming. Linux game launcher for Epic, GOG, and prime games, better maintained than Lutris now.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#curated-recommendations\" rel=\"noreferrer\" target=\"_blank\">ComicBookRoundup</a> in Reading Recommendations. Comic focused review / rating aggregator, similar to Metacritic or Rotten Tomatoes.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#rom-sites\" rel=\"noreferrer\" target=\"_blank\">Ziperto</a> in ROM Sites. Been around for a long time now, has a solid library, and uses fast hosts.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#live-sports\" rel=\"noreferrer\" target=\"_blank\">Sportsbite</a> in live sports. Aggregator with lots of hosts, nice UI, covers most big events.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>\n<p>Removed DramaGo as they seem to have shut down.</p>\n</li>\n<li>\n<p>Unstarred Character.AI as they had to <a href=\"https://deadline.com/2025/09/disney-cease-and-desist-letter-characterai-copyright-infringement-1236566831\" rel=\"noreferrer\" target=\"_blank\">remove a bunch of characters</a> recently due to copyright, and people were already unhappy with their limits / restrictions.</p>\n</li>\n</ul>",
+      "author": "",
+      "published_date": "2025-11-01T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 924,
+      "reading_time": 4,
+      "created_at": "2026-01-07T07:46:34.469731+00:00",
+      "updated_at": "2026-01-07T07:46:34.469732+00:00"
+    },
+    {
+      "id": "049dc217c1be56b2e26e78404f2e57b2",
+      "url": "https://www.thecodedmessage.com/posts/oop-3-inheritance/",
+      "title": "Rust Is Beyond Object-Oriented, Part 3: Inheritance (2023)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46476915\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-03T14:15:11+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-07T07:46:31.949035+00:00",
+      "updated_at": "2026-01-07T07:46:31.949037+00:00"
+    },
     {
       "id": "031fcac6e94ed9b71c9bf920d51a0b5a",
       "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1689023",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-07T05:27:39.899089+00:00",
       "updated_at": "2026-01-07T05:27:39.899091+00:00"
-    },
-    {
-      "id": "ba70e609cdbb9e9b847625ac540af753",
-      "url": "https://arxiv.org/abs/2601.03218",
-      "title": "Enhancing Safety in Automated Ports: A Virtual Reality Study of Pedestrian-Autonomous Vehicle Interactions under Time Pressure, Visual Constraints, and Varying Vehicle Size",
-      "content": "arXiv:2601.03218v1 Announce Type: new \nAbstract: Autonomous driving improves traffic efficiency but presents safety challenges in complex port environments. This study investigates how environmental factors, traffic factors, and pedestrian characteristics influence interaction safety between autonomous vehicles and pedestrians in ports. Using virtual reality (VR) simulations of typical port scenarios, 33 participants completed pedestrian crossing tasks under varying visibility, vehicle sizes, and time pressure conditions. Results indicate that low-visibility conditions, partial occlusions and larger vehicle sizes significantly increase perceived risk, prompting pedestrians to wait longer and accept larger gaps. Specifically, pedestrians tended to accept larger gaps and waited longer when interacting with large autonomous truck platoons, reflecting heightened caution due to their perceived threat. However, local obstructions also reduce post-encroachment time, compressing safety margins. Individual attributes such as age, gender, and driving experience further shape decision-making, while time pressure undermines compensatory behaviors and increases risk. Based on these findings, safety strategies are proposed, including installing wide-angle cameras at multiple viewpoints, enabling real-time vehicle-infrastructure communication, enhancing port lighting and signage, and strengthening pedestrian safety training. This study offers practical recommendations for improving the safety and deployment of vision-based autonomous systems in port settings.",
-      "author": "Yuan Che, Mun On Wong, Xiaowei Gao, Haoyang Liang, Yun Ye",
-      "published_date": "2026-01-07T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 190,
-      "reading_time": 1,
-      "created_at": "2026-01-07T05:27:39.899046+00:00",
-      "updated_at": "2026-01-07T05:27:39.899048+00:00"
-    },
-    {
-      "id": "9921f689332702cb1d19174ed30e5465",
-      "url": "https://arxiv.org/abs/2601.02829",
-      "title": "Resolution deficits drive simulator sickness and compromise reading performance in virtual environments",
-      "content": "arXiv:2601.02829v1 Announce Type: new \nAbstract: Extended reality (XR) is evolving into a general-purpose computing platform, yet its adoption for productivity is hindered by visual fatigue and simulator sickness. While these symptoms are often attributed to latency or motion conflicts, the precise impact of textual clarity on physiological comfort remains undefined. Here we show that sub-optimal effective resolution, the clarity that reaches the eye after the full display-optics-rendering pipeline, is a primary driver of simulator sickness during reading tasks in both virtual reality and video see-through environments. By systematically manipulating end-to-end effective resolution on a unified logMAR scale, we measured reading psychophysics and sickness symptoms in a controlled within-subjects study. We find that reading performance and user comfort degrade exponentially as resolution drops below 0 logMAR (normal visual acuity). Notably, our results reveal 0 logMAR as a key physiological tipping point: resolutions better than this threshold yield naked-eye-level performance with minimal sickness, whereas poorer resolutions trigger rapid, non-linear increases in nausea and oculomotor strain. These findings suggest that the cognitive and perceptual effort required to resolve blurry text directly compromises user comfort, establishing human-eye resolution as a critical baseline for the design of future ergonomic XR systems.",
-      "author": "Jialin Wang, Xinru Cheng, Boyong Hou, Hai-Ning Liang",
-      "published_date": "2026-01-07T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 196,
-      "reading_time": 1,
-      "created_at": "2026-01-07T05:27:39.899014+00:00",
-      "updated_at": "2026-01-07T05:27:39.899016+00:00"
     }
   ]
 }
