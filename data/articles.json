@@ -1,5 +1,37 @@
 [
   {
+    "id": "64731fc605b6c125649b3006efdeb3b8",
+    "url": "https://www.bbc.com/future/article/20250121-the-enormous-challenge-of-mining-greenland",
+    "title": "The mineral riches hiding under Greenland's ice",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46524576\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-07T10:05:29+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-07T10:50:38.270857+00:00",
+    "updated_at": "2026-01-07T10:50:38.270862+00:00"
+  },
+  {
+    "id": "64731fc605b6c125649b3006efdeb3b8",
+    "url": "https://www.bbc.com/future/article/20250121-the-enormous-challenge-of-mining-greenland",
+    "title": "The mineral riches hiding under Greenland's ice",
+    "content": "<p>Article URL: <a href=\"https://www.bbc.com/future/article/20250121-the-enormous-challenge-of-mining-greenland\">https://www.bbc.com/future/article/20250121-the-enormous-challenge-of-mining-greenland</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46524576\">https://news.ycombinator.com/item?id=46524576</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+    "author": "1659447091",
+    "published_date": "2026-01-07T10:05:29+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-07T10:50:37.013737+00:00",
+    "updated_at": "2026-01-07T10:50:37.013746+00:00"
+  },
+  {
     "id": "60bf6028b5b027db3c41ded980cf556a",
     "url": "https://www.sciencedirect.com/science/article/pii/S0006899326000090?dgcid=rss_sd_all",
     "title": "A mouse model of a patient derived P544L mutation in the <em>Slc6a8</em> gene shows hypoactivity and cognitive deficits",
@@ -17232,46 +17264,6 @@
     "updated_at": "2026-01-02T10:16:58.302353+00:00",
     "metadata": {
       "processed_at": "2026-01-02T10:16:58.302355+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "b675a20fccd337c38b9b76ff8196ae12",
-    "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2025.1701633",
-    "title": "Altering visual feedback during reaching: no mitigating effect on pain for individuals with complex regional pain syndrome, but visuomotor adaptation is preserved",
-    "content": "IntroductionComplex regional pain syndrome (CRPS) is often associated with pain-related fear of movement, and virtual reality has been proposed as a potential rehabilitation intervention to overcome this issue. Therefore, this cross-sectional study aimed to test whether altering the visual feedback (VF) on movement could mitigate pain and promote movement.MethodsFifteen participants with upper-limb CRPS and 15 age- and gender-matched pain-free participants undertook a target reaching task in the Kinarm exoskeleton, with two VF conditions being tested (Per Exposure: GREATER or SMALLER VF; two separate sessions), preceded and followed by reaching movements without VF (Pre-/Post-Exposure). Proprioception was assessed with a Limb Position Sense task, and a Movement Accuracy outcome was derived from the Pre-Exposure reaching movements.ResultsContrary to our hypothesis, pain intensity was not influenced by VF conditions but increased over Time (p < 0.001). Analyses performed on kinematics data showed that participants displayed visuomotor adaptation both Per Exposure, and Pre-/Post-Exposure to altered VF (VF condition*Time: p < 0.001). Per Exposure analyses revealed that CRPS participants tended to adapt their Movement Length to a lesser extent than pain-free participants (Group*VF condition: p = 0.048). Pre-/Post-Exposure analyses revealed that CRPS participants consistently performed larger movements than pain-free participants (p = 0.002). Both groups performed similarly for the Limb Position Sense task, but CRPS participants displayed significantly larger errors for Movement Accuracy, suggesting impaired proprioceptive integration in the CRPS group.DiscussionThese findings support the idea that visuomotor adaptation is preserved in CRPS and can be used to promote movement.",
-    "author": "Catherine Mercier",
-    "published_date": "2025-12-17T00:00:00+00:00",
-    "source": "Frontiers Human Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 243,
-    "reading_time": 1,
-    "created_at": "2026-01-02T09:26:25.345983+00:00",
-    "updated_at": "2026-01-02T10:16:58.302357+00:00",
-    "metadata": {
-      "processed_at": "2026-01-02T10:16:58.302358+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "2fbd5c793e2619297064d8eebcb7100a",
-    "url": "https://www.reddit.com/r/Python/comments/1q12x31/i_built_a_toolkit_to_postprocess_snapchat/",
-    "title": "I built a toolkit to post-process Snapchat Memories using Python",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>Maybe like many of you, I wanted to backup my Snapchat Memories locally. The problem is that standard exports are a total mess: thousands of files, random filenames, metadata dates set to &quot;today&quot; and worst of all, the text captions/stickers are separated from the images (stored as transparent PNGs).</p> <p>I spent some time building a complete workflow to solve these issues, and I decided to share it open-source on GitHub.</p> <p><strong>What this project does:</strong></p> <ul> <li><strong>The Guide:</strong> It consolidates all the necessary steps, including the correct ExifTool commands (from the original downloader's documentation) to restore the correct &quot;Date Taken&quot; so your gallery is chronological.</li> <li><strong>The Scripts (My contribution):</strong> I wrote a suite of Python scripts that automatically: <ul> <li><strong>Organize:</strong> Moves files out of the weird date-code folders and sorts them into a clean <code>Year &gt; Month</code> structure.</li> <li><strong>Rename:</strong> Cleans up the filenames inside the folders to match the directory dates.</li> <li><strong>Merge Overlays:</strong> This is the big one. It detects if a video/photo has a separate overlay file (the text/stickers) and uses FFmpeg to &quot;burn&quot; it back onto the media permanently. It even handles resizing so the text doesn't get cut off.</li> </ul></li> </ul> <p><strong>How to use it:</strong></p> <p>It\u2019s a collection of instructions and Python scripts designed for Windows (but adaptable for Mac/Linux). I wrote a detailed step-by-step guide in the README, even if you aren't a coding expert.</p> <p><strong>Link to the repo:</strong> <a href=\"https://github.com/annsopirate/snapchat-memories-organizer\">https://github.com/annsopirate/snapchat-memories-organizer</a></p> <p>I hope this helps anyone looking to archive their memories properly before they get lost! Let me know if you have any questions. Don't hesitate to DM me.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/lord_annso\"> /u/lord_annso </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q12x31/i_built_a_toolkit_to_postprocess_snapchat/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q12x31/i_built_a_toolkit_to_postprocess_snapchat/\">[comments]</a></span>",
-    "author": "/u/lord_annso",
-    "published_date": "2026-01-01T12:15:30+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 285,
-    "reading_time": 1,
-    "created_at": "2026-01-02T09:25:59.721441+00:00",
-    "updated_at": "2026-01-02T10:16:58.302361+00:00",
-    "metadata": {
-      "processed_at": "2026-01-02T10:16:58.302362+00:00",
       "processing_method": "github_actions"
     }
   }
