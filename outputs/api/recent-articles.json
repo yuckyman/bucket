@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-07T11:22:16.856142+00:00",
+  "last_updated": "2026-01-07T11:43:34.512686+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "38254576a99ab20bf29d51f66fd1e77e",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1649440",
+      "title": "SynSpine: an automated workflow for the generation of longitudinal spinal cord synthetic MRI data",
+      "content": "BackgroundSpinal cord atrophy is a key biomarker for tracking disease progression in neurological disorders, including multiple sclerosis, amyotrophic lateral sclerosis, and spinal cord injury. Recent MRI advancements have improved atrophy detection, particularly in the cervical region, facilitating longitudinal studies. However, validating atrophy quantification algorithms remains challenging due to limited ground truth data.ObjectiveThis study introduces SynSpine, a workflow for generating synthetic spinal cord MRI data (i.e., digital phantoms) with controlled levels of artificial atrophy. These phantoms support the development and preliminary validation of spinal cord imaging pipelines designed to measure degeneration over time.MethodsThe workflow consists of two phases: (1) generating synthetic MR images by isolating, extracting and scaling the spinal cord, simulating atrophy on the PAM50 template; (2) performing non-rigid registration to align the synthetic images with the subject\u2019s native space, ensuring accurate anatomical correspondence. A proof-of-concept application utilizing the Active Surface and Reg methods implemented in Jim demonstrated its effectiveness in detecting atrophy across various levels of simulated atrophy and noise.ResultsSynSpine successfully generates synthetic spinal cord images with varying atrophy levels. Non-rigid registration did not significantly affect atrophy measurements. Atrophy estimation errors, estimated using Active Surface and Reg methods, varied with both simulated atrophy magnitude and noise level, exhibiting region-dependent differences. Increased noise led to higher measurement errors.ConclusionThis work presents a novel and modular framework for simulating spinal cord atrophy data using digital phantoms, offering a controlled setting for testing spinal cord analysis pipelines. As the simulated atrophy may over-simplify in vivo conditions, future research will focus on enhancing the realism of the synthetic dataset by simulating additional pathologies, thus improving its application for evaluating spinal cord atrophy in clinical and research contexts.",
+      "author": "Licinio Craveiro",
+      "published_date": "2025-12-17T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 273,
+      "reading_time": 1,
+      "created_at": "2026-01-07T11:42:50.998691+00:00",
+      "updated_at": "2026-01-07T11:42:50.998696+00:00"
+    },
     {
       "id": "993b572730da051a0a5e93758d11e24e",
       "url": "https://brooker.co.za/blog/2022/06/02/formal.html",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-07T09:29:29.187095+00:00",
       "updated_at": "2026-01-07T09:29:29.187096+00:00"
-    },
-    {
-      "id": "eee8a4c03649dd56b7003264599ddb38",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.06.697024v1?rss=1",
-      "title": "Placental Insulin-like Growth Factor 1 Deficiency Drives Autism-Relevant Behavioral Changes with Sex-Specific Vulnerabilities",
-      "content": "Preterm birth and other perinatal adversities lead to loss of placental support including critical hormones, such as insulin-like growth factor 1 (IGF1), required for neurodevelopment. Decreased IGF1 and preterm birth are associated with neurodevelopmental disorder risk, including autism spectrum disorder. Whether placental Igf1 insufficiency impacts these neurodevelopmental risks is not understood. To understand these mechanisms, placental-targeted CRISPR manipulation in mice was employed to create placental Igf1 insufficiency. Subsequently, embryonic forebrain development was assessed sex-specifically to identify structural and transcriptomic changes. Postnatal offspring were used to determine neurobehavioral trajectories relevant to neurodevelopmental disorders as assessed through learning, motor, and affective behavioral tasks and neurostereology. Placental Igf1 insufficiency reduced embryonic forebrain growth, including decreased cell population across males and females. Embryonic forebrain transcriptomics revealed sex-specific alterations. Autism relevant developmental pathways were downregulated in male forebrain, driven by genes including Reln and Lama1. Altered genes in female forebrain were enriched for autism-risk genes including Grin2b and Dync1h1. Following these transcriptomic differences, postnatal neurobehavioral trajectories were sex specific. Male offspring uniquely showed reduced motor learning, increased stereotyped behaviors, altered reversal learning, and reduced forebrain neuronal number. Female offspring displayed opposite behavioral changes as males and few changes in forebrain structure. The provision of Igf1 specifically from placenta is critical for offspring forebrain development. This temporary early deficit has persistent sex-specific neurobehavioral effects. These outcomes have relevance for autism risk and highlight mechanisms that could facilitate intervention development for adverse outcomes after early loss of placental hormone support in perinatal adversity.",
-      "author": "Carver, A. J., Fairbairn, F. M., Taylor, R. J., Hing, B. W. Q., Gajmer, A., Fair, R. T., Stevens, H. E.",
-      "published_date": "2026-01-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 246,
-      "reading_time": 1,
-      "created_at": "2026-01-07T08:33:39.545105+00:00",
-      "updated_at": "2026-01-07T08:33:39.545106+00:00"
     }
   ]
 }
