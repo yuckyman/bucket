@@ -1,5 +1,53 @@
 [
   {
+    "id": "9b7968741403d6b479424052728c8879",
+    "url": "http://ieeexplore.ieee.org/document/10856260",
+    "title": "Front Cover",
+    "content": "null",
+    "author": "",
+    "published_date": "2025-01-28T13:17:19+00:00",
+    "source": "Reviews Biomedical Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 1,
+    "reading_time": 1,
+    "created_at": "2026-01-07T19:42:51.198043+00:00",
+    "updated_at": "2026-01-07T19:42:51.198048+00:00"
+  },
+  {
+    "id": "db72d953c64a1b356f05615bfb73fe2d",
+    "url": "https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/",
+    "title": "US will ban Wall Street investors from buying single-family homes",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46531068\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-07T19:13:19+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-07T19:41:53.606689+00:00",
+    "updated_at": "2026-01-07T19:41:53.606690+00:00"
+  },
+  {
+    "id": "db72d953c64a1b356f05615bfb73fe2d",
+    "url": "https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/",
+    "title": "US will ban Wall Street investors from buying single-family homes",
+    "content": "<p>Article URL: <a href=\"https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/\">https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46531068\">https://news.ycombinator.com/item?id=46531068</a></p>\n<p>Points: 16</p>\n<p># Comments: 0</p>",
+    "author": "kpw94",
+    "published_date": "2026-01-07T19:13:19+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-07T19:41:52.495729+00:00",
+    "updated_at": "2026-01-07T19:41:52.495739+00:00"
+  },
+  {
     "id": "c87375ce966fb45b500b6809facf2108",
     "url": "https://www.biorxiv.org/content/10.1101/2025.03.04.641398v1?rss=1",
     "title": "The fluctuations of alpha power: bimodalities, connectivity, and neural mass models",
@@ -17160,66 +17208,6 @@
     "updated_at": "2026-01-03T01:13:05.295205+00:00",
     "metadata": {
       "processed_at": "2026-01-03T01:13:05.295207+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "f37d416c0e817c1c85cdad5d147441a0",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.01.697284v1?rss=1",
-    "title": "MyoGen: Unified Biophysical Modeling of Human Neuromotor Activity and Resulting Signals",
-    "content": "Understanding human motor control requires integrating cortical and spinal cord activity, muscle mechanics, and electrophysiology, levels that are often studied separately. We present MyoGen, an open-source framework that unifies spinal circuitry, proprioceptive feedback, musculotendon dynamics, cortical activity, and multimodal electromyography (EMG) generation in a single, interoperable platform. Spinal motor neurons and the resulting motor unit (MU) action potentials represent the only neural cells that can be accessed at scale in humans. We used human MU ensembles to validate our model across a wide range of experimental conditions. Using data-driven optimization, we found that MyoGen produces MU population activity that closely matches experimental discharge-rate distributions and discharge variability across human muscles. Moreover, it generates decomposable surface and intramuscular EMG, reproduces beta-band modulation of descending drive and its nonlinear transformation into force, and implements complete sensorimotor loops. Dimensionality reduction of simulated agonist-antagonist EMG reveals low-dimensional control manifolds consistent with experimental recordings from both healthy and spinal cord injured individuals. MyoGen provides physiologically grounded, ground-truth data and integrates seamlessly with analysis pipelines, enabling systematic investigation of motor control principles, validation of signal-processing algorithms, and exploration of sensorimotor interactions that are experimentally inaccessible.",
-    "author": "Simpetru, R. C., Molinari, R. G., Rohlf, D. R., Batichotti, R. L., Watanabe, R. N., Elias, L. A., Del Vecchio, A.",
-    "published_date": "2026-01-02T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 189,
-    "reading_time": 1,
-    "created_at": "2026-01-02T23:22:53.516101+00:00",
-    "updated_at": "2026-01-03T01:13:05.295209+00:00",
-    "metadata": {
-      "processed_at": "2026-01-03T01:13:05.295211+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "5b299b84b39357c80c8b59f346e92c6b",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.01.696999v1?rss=1",
-    "title": "Dorsal striatal dopamine integrates sensory and reward prediction errors to guide perceptual decisions",
-    "content": "Perceptual decisions are shaped by expectations about sensory stimuli and rewards, learned through sensory and reward prediction errors. Dopamine is known to convey reward prediction errors that shape perceptual decisions. However, whether dopamine also signals sensory prediction errors during perceptual decision-making remains unknown. We recorded dopamine release in the dorsal striatum of mice performing a visual decision-making task while manipulating sensory and reward expectations. The two manipulations produced similar behavioral biases but elicited opposite dopamine signals, indicating that dopamine within the same striatal region encoded both sensory and reward prediction errors. Sensory prediction error signaling was specific to dopamine as striatal acetylcholine showed no such error signals. Optogenetically stimulating striatal dopamine at stimulus onset biased subsequent perceptual decisions, consistent with updating sensory expectations. A computational model learning from both sensory and reward prediction errors captured behavioral biases and dopamine data, revealing distinct but spatially overlapping dopaminergic teaching signals.",
-    "author": "Fritsche, M., Toschi, C., Shevchuk, Y., Didenko, O., Puliyadi, R., Majumdar, A., Bogacz, R., Lak, A.",
-    "published_date": "2026-01-02T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 148,
-    "reading_time": 1,
-    "created_at": "2026-01-02T23:22:53.516066+00:00",
-    "updated_at": "2026-01-03T01:13:05.295213+00:00",
-    "metadata": {
-      "processed_at": "2026-01-03T01:13:05.295215+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "907ee295838aadcdb3f55f5f8d125aad",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.01.697291v1?rss=1",
-    "title": "Versatile Learning without Synaptic Plasticity in a Spiking Neural Network",
-    "content": "Learning in the brain's cerebral cortex is widely attributed to synaptic plasticity among cortical neurons. However, a growing body of evidence suggests that alternative processes, such as modulation of intrinsic excitability or gating by subcortical inputs, may also serve as important learning mechanisms. We developed the Bias Adaptive Neural Firing Framework (BANFF) as a simplified model of such phenomena embodied by a learnable bias current for each neuron of a rate-based network. Here, we extend this framework to spiking neural networks. We show that learning such biases enables one recurrent spiking neural network with fixed and random synaptic weights to perform well on nine tasks spanning classification, regression, and closed-loop dynamical systems mimicry. The network learnt a unique bias set for each task, and unlike recurrent synapse-based learning, new learning did not interfere with previous learning. The network was robust to non-stationary F-I curves (spike frequency adaptation), and biases could be learned with a learning algorithm (e-prop) that is more biologically plausible than stock gradient descent. Overall, we show that the BANFF can be extended from rate-based to spiking neural networks, maintaining good multi-task performance with a single network of spiking neurons.",
-    "author": "Mason, K., Akbari, N., Gruber, A., Nicola, W.",
-    "published_date": "2026-01-02T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 192,
-    "reading_time": 1,
-    "created_at": "2026-01-02T23:22:53.516026+00:00",
-    "updated_at": "2026-01-03T01:13:05.295217+00:00",
-    "metadata": {
-      "processed_at": "2026-01-03T01:13:05.295218+00:00",
       "processing_method": "github_actions"
     }
   }
