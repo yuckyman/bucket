@@ -1,5 +1,37 @@
 [
   {
+    "id": "3a7feb88deed3c3c8ddaa93eab217971",
+    "url": "https://blog.trailofbits.com/2025/11/18/we-found-cryptography-bugs-in-the-elliptic-library-using-wycheproof/",
+    "title": "We found cryptography bugs in the elliptic library using Wycheproof",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46454577\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-01T14:52:27+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-07T21:42:56.921917+00:00",
+    "updated_at": "2026-01-07T21:42:56.921919+00:00"
+  },
+  {
+    "id": "bf5e6a91fbcd6448b9079b63cf27f107",
+    "url": "https://a26z.fun/",
+    "title": "Show HN: A to Z \u2013 A word game I built from a childhood road trip memory",
+    "content": "<p>Long time lurker here. My family had a pen-and-paper game we'd play on long drives to visit my great-grandmother. After she passed, I spent the holidays recreating it: \n<a href=\"https://a26z.fun\" rel=\"nofollow\">https://a26z.fun</a><p>How it works:<p>Find 15 words from a category (like \"Stone Fruits,\" \"US States,\" or \"Dog Breeds\") as fast as you can. Once you meet the 15 word minimum, you can play for as long as you want.<p>Each letter shows how many target words start with it (A\u00b9 = one word starts with A, N\u00b2 = two words start with N)<p>That small \u00b2 in the bottom-right? Multi-word answers allowed. For \"US States\" with N\u00b2, both \"NEW YORK\" and \"NORTH DAKOTA\" count<p>Unlimited guesses, 2 hints, and a shuffle button to reorder by frequency.<p>Example:\nCategory: US States | Letters: A\u00b9 M\u00b9 N\u00b2 S\u00b2\nAnswers: ALABAMA, MONTANA, NEW MEXICO, SOUTH DAKOTA<p>If you're into Connections or Strands, this scratches a similar itch but with a deduction twist.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46531295\">https://news.ycombinator.com/item?id=46531295</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+    "author": "jackhulbert",
+    "published_date": "2026-01-07T19:31:04+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 163,
+    "reading_time": 1,
+    "created_at": "2026-01-07T21:42:55.680888+00:00",
+    "updated_at": "2026-01-07T21:42:55.680890+00:00"
+  },
+  {
     "id": "a610c79371b97d15878cadc5290cfb92",
     "url": "https://avc.xyz/notebook-lawyer",
     "title": "Notebook Lawyer",
@@ -17180,46 +17212,6 @@
     "updated_at": "2026-01-03T03:18:54.391103+00:00",
     "metadata": {
       "processed_at": "2026-01-03T03:18:54.391105+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "657d79cc3f8db886c3a8b28986c3ca47",
-    "url": "https://www.biorxiv.org/content/10.64898/2025.12.31.697231v1?rss=1",
-    "title": "Neural representations of beliefs in a multi-dimensional inference task",
-    "content": "Adaptive behavior requires maintaining and updating probabilistic beliefs about the world, yet how distributed brain circuits implement such computations remains unknown. We recorded from over 1,400 neurons across six brain regions in monkeys performing a multi-dimensional inference task requiring them to infer hidden rules through trial-and-error learning. Behavior was well-described by models based on Bayesian updating of beliefs over rule features. Neural representations of both observable variables (stimuli, rewards) and latent beliefs (rule preferences, confidence) were broadly distributed across hippocampus, amygdala, prefrontal cortex, anterior cingulate, striatum, and inferior temporal cortex. Belief representations were present throughout all task periods but exhibited region- and epoch-specific dynamics. Critically, trial-to-trial changes in population activity reflected Bayesian belief updating: neural responses evolved according to the integration of prior beliefs with new evidence. Additionally, we identified confidence representations that were independent of specific beliefs and showed distinct temporal profiles. These results demonstrate that probabilistic inference emerges from coordinated dynamics across distributed brain systems, with different regions contributing flexibly according to computational demands at different states of learning and decision-making.",
-    "author": "Zhang, P. Q., Jutras, M. J., Dede, A. J., Walker, E. Y., Buffalo, E. A., Fairhall, A. L.",
-    "published_date": "2026-01-02T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 173,
-    "reading_time": 1,
-    "created_at": "2026-01-03T01:43:36.216842+00:00",
-    "updated_at": "2026-01-03T03:18:54.391108+00:00",
-    "metadata": {
-      "processed_at": "2026-01-03T03:18:54.391109+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "dfd8513c851e4405fd13739f7fe4d4b5",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.01.696994v1?rss=1",
-    "title": "Anxiety Selectively Impairs Reward Learning Under Uncertainty, While N3 Sleep Recalibrates It",
-    "content": "Adapting to uncertain environments requires distinguishing stochastic variability from genuine environmental change, yet how anxiety and sleep shape this process remains unclear. Using a probabilistic reversal-learning task that simultaneously manipulated stochasticity and volatility, we show that high trait anxiety selectively impairs reward learning in stable but noisy environments, despite preserved sensitivity to true volatility. Computational modeling revealed that anxious individuals misattribute stochastic fluctuations to environmental change, resulting in elevated reward learning rates and impaired evidence accumulation. In a second experiment combining task performance with overnight sleep EEG, greater N3 sleep was associated with reduced learning rates and improved evidence accumulation. These findings identify a selective computational mechanism underlying anxiety-related learning deficits and suggest N3 sleep as a state-dependent pathway for recalibrating adaptive learning under uncertainty.",
-    "author": "Deshmukh, R., Ramakrishnan, A.",
-    "published_date": "2026-01-02T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 125,
-    "reading_time": 1,
-    "created_at": "2026-01-03T01:43:36.216808+00:00",
-    "updated_at": "2026-01-03T03:18:54.391112+00:00",
-    "metadata": {
-      "processed_at": "2026-01-03T03:18:54.391113+00:00",
       "processing_method": "github_actions"
     }
   }

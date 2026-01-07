@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-07T21:22:46.580566+00:00",
+  "last_updated": "2026-01-07T21:44:03.754900+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "3a7feb88deed3c3c8ddaa93eab217971",
+      "url": "https://blog.trailofbits.com/2025/11/18/we-found-cryptography-bugs-in-the-elliptic-library-using-wycheproof/",
+      "title": "We found cryptography bugs in the elliptic library using Wycheproof",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46454577\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-01T14:52:27+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-07T21:42:56.921917+00:00",
+      "updated_at": "2026-01-07T21:42:56.921919+00:00"
+    },
+    {
+      "id": "bf5e6a91fbcd6448b9079b63cf27f107",
+      "url": "https://a26z.fun/",
+      "title": "Show HN: A to Z \u2013 A word game I built from a childhood road trip memory",
+      "content": "<p>Long time lurker here. My family had a pen-and-paper game we'd play on long drives to visit my great-grandmother. After she passed, I spent the holidays recreating it: \n<a href=\"https://a26z.fun\" rel=\"nofollow\">https://a26z.fun</a><p>How it works:<p>Find 15 words from a category (like \"Stone Fruits,\" \"US States,\" or \"Dog Breeds\") as fast as you can. Once you meet the 15 word minimum, you can play for as long as you want.<p>Each letter shows how many target words start with it (A\u00b9 = one word starts with A, N\u00b2 = two words start with N)<p>That small \u00b2 in the bottom-right? Multi-word answers allowed. For \"US States\" with N\u00b2, both \"NEW YORK\" and \"NORTH DAKOTA\" count<p>Unlimited guesses, 2 hints, and a shuffle button to reorder by frequency.<p>Example:\nCategory: US States | Letters: A\u00b9 M\u00b9 N\u00b2 S\u00b2\nAnswers: ALABAMA, MONTANA, NEW MEXICO, SOUTH DAKOTA<p>If you're into Connections or Strands, this scratches a similar itch but with a deduction twist.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46531295\">https://news.ycombinator.com/item?id=46531295</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "jackhulbert",
+      "published_date": "2026-01-07T19:31:04+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 163,
+      "reading_time": 1,
+      "created_at": "2026-01-07T21:42:55.680888+00:00",
+      "updated_at": "2026-01-07T21:42:55.680890+00:00"
+    },
     {
       "id": "a610c79371b97d15878cadc5290cfb92",
       "url": "https://avc.xyz/notebook-lawyer",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-07T19:21:33.635920+00:00",
       "updated_at": "2026-01-07T19:21:33.635922+00:00"
-    },
-    {
-      "id": "2010577ae71f0387ffa53188603562bb",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.03.05.641401v1?rss=1",
-      "title": "Predictive processing in the cortical network of biological motion perception: An fMRI-DCM study",
-      "content": "Biological motion perception (BMP) is fundamental for interpreting and predicting human actions, playing a crucial role in social cognition. While traditionally viewed as a bottom-up process, recent evidence suggests that top-down mechanisms, particularly expectations, influence BMP. This fMRI study investigates how prior expectations shape BMP by employing a predictive cueing paradigm. Participants discriminated between biological and scrambled motion while presented with congruent, incongruent, or uninformative cues. Behavioral results revealed that correct expectations facilitated performance, while incorrect expectations impaired it. Dynamic Causal Modeling (DCM) analysis demonstrated bidirectional connectivity within the action observation network (AON), particularly between the posterior superior temporal sulcus (pSTS), posterior parietal cortex (PPC), and inferior frontal gyrus (IFG) under all expectation conditions. Additionally, Multivariate Pattern Analysis (MVPA) confirmed the involvement of these regions in BMP. These findings challenge traditional bottom-up models by highlighting the role of predictive processes in action perception and provide evidence for expectation-dependent modulation of AON connectivity.",
-      "author": "Tunca, M., Urgen, B.",
-      "published_date": "2025-03-10T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 152,
-      "reading_time": 1,
-      "created_at": "2026-01-07T19:21:33.635876+00:00",
-      "updated_at": "2026-01-07T19:21:33.635878+00:00"
-    },
-    {
-      "id": "04c19c0b7c797db550ad3d2c337d6dec",
-      "url": "https://www.biorxiv.org/content/10.1101/2025.03.04.641424v1?rss=1",
-      "title": "Physical Activity and Depressive Mood Shared the Structural Connectivity between Motor and Reward Network: a population-based study from the UK Biobank",
-      "content": "BackgroundExercise has been revealed to leave a positive effect on alleviating depressive symptoms by various existing studies. However, the neural basis behind this phenomenon remains unknown, as well as its underlying biological mechanism.AimsUsing a large neuroimaging cohort from UK Biobank, this study aimed to identify structural connectivity (SC) patterns simultaneously linked with physical activity and depression, as well as its biological interpretation.Method492 participants with major depression disorder (MDD) and 535 healthy controls (HC) were extracted from the UK Biobank dataset. Partial least squares regression was first utilized to explore a replicable SC pattern simultaneously associated with physical activity and depressive mood. The neuromaps toolbox was applied to interpret the biological ontologies of the identified SC pattern. Neuroimaging-transcriptome association and enrichment analyses were conducted to explore its underlying genetic basis, pathways and cell types. The reproducibility and generalizability were tested on another independent MDD dataset (N=3,496) and bipolar disorder (BD) dataset (N=81).ResultsA SC pattern linked with exercise was identified to be both significantly correlated with depressive mood and group discriminative between MDDs and HCs, which primarily located between the motor-related regions and reward-related regions. This pattern was associated with multiple neurotransmitter receptors, such as serotonin and GABA receptors, and enriched in pathways like synaptic signaling and astrocytes cell type. The SC pattern and genetic results were also replicated in another independent MDD dataset and present commonalities with BD.ConclusionsThis study not only initially identified a reproducible shared SC pattern between physical activity and depressive mood, but also elucidated the underlying biological mechanisms, which enhanced our understanding of how exercise helps alleviate depression and may inform the development of novel neuromodulation targets.",
-      "author": "Di, S., Luo, N., Shi, W., Yang, Z., Sui, J., Jiang, R., Cui, Y., Du, Z., Zhang, J., Ma, Y., Wang, H., Chu, C., Zhong, Y., Li, W., Lu, Y., Yan, H., Liao, J., Zhang, D., Calhoun, V., Song, M., Jiang, T.",
-      "published_date": "2025-03-10T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 269,
-      "reading_time": 1,
-      "created_at": "2026-01-07T19:21:33.635845+00:00",
-      "updated_at": "2026-01-07T19:21:33.635847+00:00"
     }
   ]
 }
