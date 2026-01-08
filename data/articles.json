@@ -1,5 +1,37 @@
 [
   {
+    "id": "d315369c9bfa21d98d851588723d489c",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.01.06.697873v1?rss=1",
+    "title": "A Glycaemia-Prolonging Carbohydrate Gel Reduces Hunger and Cognitive Fatigue During Prolonged Esports Play",
+    "content": "Prolonged esports play can induce cognitive fatigue by placing sustained demands on executive control, decision-making, and stress regulation. Since the brain relies primarily on glucose as an immediate energy source, we hypothesized that a carbohydrate gel designed to prolong post-ingestion glycaemia stabilizes interstitial glucose, attenuates hunger and cognitive fatigue, and helps preserve performance during extended esports play. Eleven healthy young men completed a randomized, double-blind crossover study with two sessions in which they ingested one of two carbohydrate gels matched for total energy and total carbohydrate but differing in carbohydrate composition (high-fructose corn syrup [HFCS]-dominant vs maltodextrin [MDX]-dominant) before gameplay. Interstitial glucose was monitored continuously, while hunger, salivary cortisol, pupil diameter, executive function, and in-game performance were assessed repeatedly. Compared with the control (HFCS-dominant) condition, the glycaemia-prolonging formulation maintained higher interstitial glucose levels during the later phase of gameplay, blunted the progressive increase in hunger, and attenuated cortisol responses. These physiological and subjective advantages were accompanied by better executive control and more adaptive defensive behaviors in-game, including fewer fouls and more interceptions. In contrast, pupil diameter, an index of global arousal, remained unchanged across conditions, suggesting that benefits were not driven by altered arousal but by improved glycaemic stability and appetite regulation. These findings indicate that a carbohydrate formulation that prolongs glycaemia can reduce hunger-linked cognitive fatigue and support task-relevant behavior during prolonged esports play. This low-burden nutritional strategy may help sustain mental performance during prolonged digital activities that impose high cognitive demands.",
+    "author": "Matsui, T., Takahashi, S., Yamaguchi, T., Funabashi, D., Imada, T., Shimizu, H.",
+    "published_date": "2026-01-08T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 243,
+    "reading_time": 1,
+    "created_at": "2026-01-08T11:22:26.931255+00:00",
+    "updated_at": "2026-01-08T11:22:26.931260+00:00"
+  },
+  {
+    "id": "df0d21166377df051e1fc37e28682878",
+    "url": "https://www.reddit.com/r/Python/comments/1q6d3qd/mlship_zeroconfig_ml_model_serving_across/",
+    "title": "mlship \u2013 Zero-config ML model serving across frameworks",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I\u2019ve watched a lot of students and working developers struggle with the same problem:<br /> they learn scikit-learn, PyTorch, TensorFlow, and HuggingFace - but <em>each framework has a completely different deployment story</em>.</p> <p>Flask/FastAPI for sklearn, TorchServe for PyTorch, TF Serving for TensorFlow, transformers-serve for HuggingFace - all with different configs and mental models.</p> <p>So I built <strong>mlship</strong>, a small Python CLI that turns <em>any</em> ML model into a REST API with a single command:</p> <pre><code>mlship serve model.pkl </code></pre> <p>No Docker. No YAML. No framework-specific server code.</p> <h1>What My Project Does</h1> <p><code>mlship</code> automatically detects the model type and serves it as a local HTTP API with:</p> <ul> <li><code>POST /predict</code> \u2013 inference</li> <li><code>GET /health</code> \u2013 health check</li> <li><code>/docs</code> \u2013 auto-generated Swagger UI</li> </ul> <p>Supported today:</p> <ul> <li>scikit-learn (<code>.pkl</code>, <code>.joblib</code>)</li> <li>PyTorch (<code>.pt</code>, <code>.pth</code> via TorchScript)</li> <li>TensorFlow (<code>.h5</code>, <code>.keras</code>, SavedModel)</li> <li>HuggingFace models (local or directly from the Hub)</li> </ul> <p>The goal is to make <em>deployment feel the same</em> regardless of the training framework.</p> <h1>Installation</h1> <pre><code>pip install mlship </code></pre> <p>(Optional extras are available for specific frameworks.)</p> <h1>Example</h1> <p>Serving a HuggingFace model directly from the Hub:</p> <pre><code>mlship serve distilbert-base-uncased-finetuned-sst-2-english --source huggingface </code></pre> <p>Test it:</p> <pre><code>curl -X POST http://localhost:8000/predict \\ -H &quot;Content-Type: application/json&quot; \\ -d '{&quot;features&quot;: &quot;This product is amazing!&quot;}' </code></pre> <p>No model download, no custom server code.</p> <h1>Target Audience</h1> <p>mlship is aimed at:</p> <ul> <li>Students learning ML deployment</li> <li>Data scientists prototyping models locally</li> <li>Educators teaching framework-agnostic ML systems</li> <li>Developers who want a quick, inspectable API around a model</li> </ul> <p>It is <strong>not</strong> meant to replace full production ML platforms - it\u2019s intentionally local-first and simple.</p> <h1>Why This Exists (Motivation)</h1> <p>Most ML tooling optimizes for:</p> <ul> <li>training</li> <li>scaling</li> <li>orchestration</li> </ul> <p>But a huge amount of friction exists <em>before</em> that - just getting a model behind an API to test, demo, or teach.</p> <p>mlship focuses on:</p> <ul> <li>reducing deployment fragmentation</li> <li>minimizing configuration</li> <li>making ML systems feel more like regular software services</li> </ul> <h1>Project Status</h1> <ul> <li>Open source (MIT)</li> <li>Early but usable</li> <li>Actively developed</li> <li>Known rough edges</li> </ul> <p>I\u2019m actively looking for feedback and contributors, especially around:</p> <ul> <li>XGBoost / LightGBM support</li> <li>GPU handling</li> <li>More HuggingFace task types</li> </ul> <h1>Links</h1> <ul> <li><strong>GitHub:</strong> <a href=\"https://github.com/sudhanvalabs/mlship\">https://github.com/sudhanvalabs/mlship</a></li> <li><strong>Quick Start:</strong> <a href=\"https://github.com/sudhanvalabs/mlship/blob/main/QUICKSTART.md\">https://github.com/sudhanvalabs/mlship/blob/main/QUICKSTART.md</a></li> <li><strong>PyPI:</strong> <a href=\"https://pypi.org/project/mlship/\">https://pypi.org/project/mlship/</a></li> <li><strong>Why mlship</strong>: <a href=\"https://github.com/sudhanvalabs/mlship/blob/main/WHY_MLSHIP.md\">https://github.com/sudhanvalabs/mlship/blob/main/WHY_MLSHIP.md</a></li> </ul> <p>I\u2019d really appreciate:</p> <ul> <li>practical feedback</li> <li>edge cases you run into</li> <li>suggestions on where the abstraction breaks down</li> </ul> <p>Thanks for reading!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/peshwar9\"> /u/peshwar9 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q6d3qd/mlship_zeroconfig_ml_model_serving_across/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q6d3qd/mlship_zeroconfig_ml_model_serving_across/\">[comments]</a></span>",
+    "author": "/u/peshwar9",
+    "published_date": "2026-01-07T11:36:55+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 410,
+    "reading_time": 2,
+    "created_at": "2026-01-08T11:21:50.728782+00:00",
+    "updated_at": "2026-01-08T11:21:50.728784+00:00"
+  },
+  {
     "id": "c89d2ad698747e7dcffde4a37776f9ab",
     "url": "https://www.nature.com/articles/s41593-025-02191-y",
     "title": "Rethinking the role of position in cortical function",
@@ -17106,37 +17138,5 @@
     "reading_time": 1,
     "created_at": "2026-01-03T22:44:13.071495+00:00",
     "updated_at": "2026-01-03T22:44:13.071497+00:00"
-  },
-  {
-    "id": "ad4d9557d336afda54e75d82d2ea5e8a",
-    "url": "https://www.reddit.com/r/Python/comments/1q2w477/stubtester_run_doctests_from_pyi_files/",
-    "title": "stubtester - run doctests from pyi files",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello everyone!</p> <p>I've been using this small project of mine for a bit and tought &quot;why not share it ?&quot; cause it seems that it doesn't exist anywhere else and it's quite simple whilst being a huge helper sometimes for me.</p> <p>Repo link: <a href=\"https://github.com/OutSquareCapital/stubtester\">https://github.com/OutSquareCapital/stubtester</a></p> <p><strong>Install with</strong></p> <pre><code>uv add git+https://github.com/OutSquareCapital/stubtester.git </code></pre> <p>(I will publish it on Pypi sooner or latter, sooner if people show interest)</p> <h1>What My Project Does</h1> <p>Allows you to run pytest doctests on docstrings who lives on stub files. That's it.</p> <p>Fully typed, linted, and tested (by itself and pytest)!</p> <p>For those who do not know, you can test your docstrings with doctests/pytest, if they look like this:</p> <pre><code>def foo(x: int) -&gt; int: &quot;&quot;&quot;Example function. &gt;&gt;&gt; foo(2) 4 &quot;&quot;&quot; return x * 2 </code></pre> <p>This will fail if you wrote 3 instead of 4 for example.</p> <p>However it will only work for .py files, not for .pyi files (stubs)</p> <p>More infos here:<br /> <a href=\"https://docs.python.org/3/library/doctest.html\">https://docs.python.org/3/library/doctest.html</a><br /> <a href=\"https://docs.pytest.org/en/7.1.x/how-to/doctest.html\">https://docs.pytest.org/en/7.1.x/how-to/doctest.html</a></p> <h1>Usage</h1> <p>Run on all stubs in a directory -&gt;</p> <pre><code>uv run stubtester path/to/your/package </code></pre> <p>Run on a single stub file -&gt;</p> <pre><code>uv run stubtester path/to/file.pyi </code></pre> <p>Or programmatically -&gt;</p> <pre><code>from pathlib import Path import stubtester stubtester.run(Path(&quot;my_package&quot;)) </code></pre> <p>It will:</p> <ul> <li>Discover the stubs files</li> <li>Generate .py files in a temp directory with the docstrings extracted</li> <li>Run pytest --doctest on it</li> <li>Clean up the files once done</li> </ul> <h1>Target Audience</h1> <p>Altough writing docstrings in stubs files is not considered idiomatic (see <a href=\"https://docs.astral.sh/ruff/rules/docstring-in-stub/\">https://docs.astral.sh/ruff/rules/docstring-in-stub/</a>), it's sometimes necessary if a lot of your code lives in Pyo3, cython, or if you are writing a third-party stubs package and want to ensure correctness.</p> <p>I currently use it in two of my repos for example:</p> <p>- <a href=\"https://github.com/OutSquareCapital/pyopath\">https://github.com/OutSquareCapital/pyopath</a> (Pyo3 WIP reimplementation of pathlib)</p> <p>- <a href=\"https://github.com/OutSquareCapital/cytoolz-stubs\">https://github.com/OutSquareCapital/cytoolz-stubs</a> (third party stubs package)</p> <p>There's still some improvements that could be done (delegating arguments to pytest for more custom uses cases, finding a solution between not having to manually manage the temp directory whilst still having convenient &quot;go to&quot; when an error occur), however the error handling of the code in itself is already solid IMO and I'm happy with it as it is right now.</p> <h1>Comparison</h1> <p>I'm not aware of similar tools so far (otherwise I wouldn't have wrote it!).</p> <h1>Dependencies</h1> <p>- my library pyochain for iterations and error handling -&gt; <a href=\"https://github.com/OutSquareCapital/pyochain\">https://github.com/OutSquareCapital/pyochain</a><br /> - typer/rich for the CLI<br /> - pytest</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Beginning-Fruit-1397\"> /u/Beginning-Fruit-1397 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q2w477/stubtester_run_doctests_from_pyi_files/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q2w477/stubtester_run_doctests_from_pyi_files/\">[comments]</a></span>",
-    "author": "/u/Beginning-Fruit-1397",
-    "published_date": "2026-01-03T14:36:57+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 416,
-    "reading_time": 2,
-    "created_at": "2026-01-03T22:44:13.071460+00:00",
-    "updated_at": "2026-01-03T22:44:13.071462+00:00"
-  },
-  {
-    "id": "bc9c8f29014e341da2f6449855d5ac99",
-    "url": "https://www.reddit.com/r/Python/comments/1q2y6wm/async_tasks_in_production/",
-    "title": "Async Tasks in Production",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I have few apis with some endpoints that need to follow async pattern. Typically, this is just a db stored proc call that can take anywhere between 5-20 minutes but few cases where we have some jobs that require compute. These use cases for worker-job come up a lot in my apis. </p> <p>Wondering what people are doing for async jobs. I know celery-redis seems popular wondering how you guys are running that in production especially if you have many different apis requiring different jobs.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ProudPeak3570\"> /u/ProudPeak3570 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q2y6wm/async_tasks_in_production/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q2y6wm/async_tasks_in_production/\">[comments]</a></span>",
-    "author": "/u/ProudPeak3570",
-    "published_date": "2026-01-03T16:01:29+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 106,
-    "reading_time": 1,
-    "created_at": "2026-01-03T22:44:13.071402+00:00",
-    "updated_at": "2026-01-03T22:44:13.071404+00:00"
   }
 ]

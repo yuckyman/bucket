@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-08T10:52:18.047920+00:00",
+  "last_updated": "2026-01-08T11:22:55.536186+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d315369c9bfa21d98d851588723d489c",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.06.697873v1?rss=1",
+      "title": "A Glycaemia-Prolonging Carbohydrate Gel Reduces Hunger and Cognitive Fatigue During Prolonged Esports Play",
+      "content": "Prolonged esports play can induce cognitive fatigue by placing sustained demands on executive control, decision-making, and stress regulation. Since the brain relies primarily on glucose as an immediate energy source, we hypothesized that a carbohydrate gel designed to prolong post-ingestion glycaemia stabilizes interstitial glucose, attenuates hunger and cognitive fatigue, and helps preserve performance during extended esports play. Eleven healthy young men completed a randomized, double-blind crossover study with two sessions in which they ingested one of two carbohydrate gels matched for total energy and total carbohydrate but differing in carbohydrate composition (high-fructose corn syrup [HFCS]-dominant vs maltodextrin [MDX]-dominant) before gameplay. Interstitial glucose was monitored continuously, while hunger, salivary cortisol, pupil diameter, executive function, and in-game performance were assessed repeatedly. Compared with the control (HFCS-dominant) condition, the glycaemia-prolonging formulation maintained higher interstitial glucose levels during the later phase of gameplay, blunted the progressive increase in hunger, and attenuated cortisol responses. These physiological and subjective advantages were accompanied by better executive control and more adaptive defensive behaviors in-game, including fewer fouls and more interceptions. In contrast, pupil diameter, an index of global arousal, remained unchanged across conditions, suggesting that benefits were not driven by altered arousal but by improved glycaemic stability and appetite regulation. These findings indicate that a carbohydrate formulation that prolongs glycaemia can reduce hunger-linked cognitive fatigue and support task-relevant behavior during prolonged esports play. This low-burden nutritional strategy may help sustain mental performance during prolonged digital activities that impose high cognitive demands.",
+      "author": "Matsui, T., Takahashi, S., Yamaguchi, T., Funabashi, D., Imada, T., Shimizu, H.",
+      "published_date": "2026-01-08T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 243,
+      "reading_time": 1,
+      "created_at": "2026-01-08T11:22:26.931255+00:00",
+      "updated_at": "2026-01-08T11:22:26.931260+00:00"
+    },
+    {
+      "id": "df0d21166377df051e1fc37e28682878",
+      "url": "https://www.reddit.com/r/Python/comments/1q6d3qd/mlship_zeroconfig_ml_model_serving_across/",
+      "title": "mlship \u2013 Zero-config ML model serving across frameworks",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I\u2019ve watched a lot of students and working developers struggle with the same problem:<br /> they learn scikit-learn, PyTorch, TensorFlow, and HuggingFace - but <em>each framework has a completely different deployment story</em>.</p> <p>Flask/FastAPI for sklearn, TorchServe for PyTorch, TF Serving for TensorFlow, transformers-serve for HuggingFace - all with different configs and mental models.</p> <p>So I built <strong>mlship</strong>, a small Python CLI that turns <em>any</em> ML model into a REST API with a single command:</p> <pre><code>mlship serve model.pkl </code></pre> <p>No Docker. No YAML. No framework-specific server code.</p> <h1>What My Project Does</h1> <p><code>mlship</code> automatically detects the model type and serves it as a local HTTP API with:</p> <ul> <li><code>POST /predict</code> \u2013 inference</li> <li><code>GET /health</code> \u2013 health check</li> <li><code>/docs</code> \u2013 auto-generated Swagger UI</li> </ul> <p>Supported today:</p> <ul> <li>scikit-learn (<code>.pkl</code>, <code>.joblib</code>)</li> <li>PyTorch (<code>.pt</code>, <code>.pth</code> via TorchScript)</li> <li>TensorFlow (<code>.h5</code>, <code>.keras</code>, SavedModel)</li> <li>HuggingFace models (local or directly from the Hub)</li> </ul> <p>The goal is to make <em>deployment feel the same</em> regardless of the training framework.</p> <h1>Installation</h1> <pre><code>pip install mlship </code></pre> <p>(Optional extras are available for specific frameworks.)</p> <h1>Example</h1> <p>Serving a HuggingFace model directly from the Hub:</p> <pre><code>mlship serve distilbert-base-uncased-finetuned-sst-2-english --source huggingface </code></pre> <p>Test it:</p> <pre><code>curl -X POST http://localhost:8000/predict \\ -H &quot;Content-Type: application/json&quot; \\ -d '{&quot;features&quot;: &quot;This product is amazing!&quot;}' </code></pre> <p>No model download, no custom server code.</p> <h1>Target Audience</h1> <p>mlship is aimed at:</p> <ul> <li>Students learning ML deployment</li> <li>Data scientists prototyping models locally</li> <li>Educators teaching framework-agnostic ML systems</li> <li>Developers who want a quick, inspectable API around a model</li> </ul> <p>It is <strong>not</strong> meant to replace full production ML platforms - it\u2019s intentionally local-first and simple.</p> <h1>Why This Exists (Motivation)</h1> <p>Most ML tooling optimizes for:</p> <ul> <li>training</li> <li>scaling</li> <li>orchestration</li> </ul> <p>But a huge amount of friction exists <em>before</em> that - just getting a model behind an API to test, demo, or teach.</p> <p>mlship focuses on:</p> <ul> <li>reducing deployment fragmentation</li> <li>minimizing configuration</li> <li>making ML systems feel more like regular software services</li> </ul> <h1>Project Status</h1> <ul> <li>Open source (MIT)</li> <li>Early but usable</li> <li>Actively developed</li> <li>Known rough edges</li> </ul> <p>I\u2019m actively looking for feedback and contributors, especially around:</p> <ul> <li>XGBoost / LightGBM support</li> <li>GPU handling</li> <li>More HuggingFace task types</li> </ul> <h1>Links</h1> <ul> <li><strong>GitHub:</strong> <a href=\"https://github.com/sudhanvalabs/mlship\">https://github.com/sudhanvalabs/mlship</a></li> <li><strong>Quick Start:</strong> <a href=\"https://github.com/sudhanvalabs/mlship/blob/main/QUICKSTART.md\">https://github.com/sudhanvalabs/mlship/blob/main/QUICKSTART.md</a></li> <li><strong>PyPI:</strong> <a href=\"https://pypi.org/project/mlship/\">https://pypi.org/project/mlship/</a></li> <li><strong>Why mlship</strong>: <a href=\"https://github.com/sudhanvalabs/mlship/blob/main/WHY_MLSHIP.md\">https://github.com/sudhanvalabs/mlship/blob/main/WHY_MLSHIP.md</a></li> </ul> <p>I\u2019d really appreciate:</p> <ul> <li>practical feedback</li> <li>edge cases you run into</li> <li>suggestions on where the abstraction breaks down</li> </ul> <p>Thanks for reading!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/peshwar9\"> /u/peshwar9 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q6d3qd/mlship_zeroconfig_ml_model_serving_across/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q6d3qd/mlship_zeroconfig_ml_model_serving_across/\">[comments]</a></span>",
+      "author": "/u/peshwar9",
+      "published_date": "2026-01-07T11:36:55+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 410,
+      "reading_time": 2,
+      "created_at": "2026-01-08T11:21:50.728782+00:00",
+      "updated_at": "2026-01-08T11:21:50.728784+00:00"
+    },
     {
       "id": "c89d2ad698747e7dcffde4a37776f9ab",
       "url": "https://www.nature.com/articles/s41593-025-02191-y",
@@ -309,42 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-08T09:29:43.327136+00:00",
       "updated_at": "2026-01-08T09:29:43.327138+00:00"
-    },
-    {
-      "id": "14f0b2add61a1ce215f0ef02a0a02132",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1710961",
-      "title": "Neurocognition, cerebellar functions and psychiatric features in spinocerebellar ataxia type 34: a case series",
-      "content": "ObjectiveThis study primarily aimed to comprehensively characterize the neurological, neuroradiological and neurocognitive profiles, as well psychiatric features of individuals with Spinocerebellar Ataxia Type 34 (SCA34) associated with pathogenic variants in the ELOVL4 gene. Secondarily, we investigated the relationship between neurocognitive functions and cerebellar morphology in individuals with SCA34 by correlating structural changes to cognitive performance. Given involvement of the cerebellum in SCA34, our findings will contribute to a broader understanding of the role of the cerebellum in cognition.MethodsFour individuals (52 f, 72\u2009m, 76\u2009m, 76 f) underwent DNA testing using Next-Generation Sequencing and detailed assessment of neurocognitive functions. The test battery evaluated all six cognitive domains: verbal functions, executive functions, attention and processing speed, learning and memory, visuospatial perception and abilities, and social cognition. In addition, cerebellar and motor functions were evaluated using Finger Tapping, Prism Adaptation, and the Motor Speed subtest of the Delis-Kaplan executive function system (D-KEFS). Test results were compared with each individual\u2019s estimated premorbid cognitive level, determined from their highest educational attainment or occupational status prior to disease onset. Psychiatric symptoms related to anxiety, depression, and sleep were reported using clinical scales. The Scale for the Assessment and Rating of Ataxia (SARA) was used to assess ataxia severity. Two individuals and one matched control underwent high-resolution 7T MRI to characterize cerebellar morphology.ResultsNeurocognitive assessments identified cognitive and motor dysfunction across all individuals, including distinct neurocognitive impairments consistent with cerebellar cognitive-affective syndrome (CCAS), along with additional deficits in learning, visual and verbal episodic memory, emotion recognition\u2014a component of social cognition. Anxiety and sleep disturbance, but not depression, were observed in both female participants. High-resolution 7\u2009T MRI revealed structural cerebellar alterations, with moderate to severe bilateral cerebellar atrophy, including the vermis and multiple lobules (Crus II, VIIb, VIIIa, VIIIb, IX), as well as atrophy of the middle and superior cerebellar peduncles, accompanied by mild pontine atrophy. Genetic analyses confirmed the involvement of ELOVL4-related disruptions in long-chain fatty acid biosynthesis, offering insight into the molecular underpinnings of cerebellar degeneration in SCA34.ConclusionIndividuals with SCA34 show cerebellar degeneration accompanied by cognitive, motor, and social-affective impairments consistent with CCAS. Atrophy of the vermis, multiple lobules, and cerebellar peduncles align with these deficits, highlighting the cerebellum\u2019s key role in cognition. ELOVL4-related disruptions in fatty acid biosynthesis provides insight into the molecular basis of SCA34. Together, these findings advance our understanding of how cerebellar pathology contributes to complex neurocognitive and psychiatric symptoms in genetic ataxias.",
-      "author": "Sorina Gorcenco",
-      "published_date": "2025-12-09T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 402,
-      "reading_time": 2,
-      "created_at": "2026-01-08T08:33:30.130239+00:00",
-      "updated_at": "2026-01-08T08:33:30.130241+00:00"
-    },
-    {
-      "id": "8bfe7b7f37af142b24b0fcd318868131",
-      "url": "https://brain.ieee.org/braininsight-articles/ieee-brain-annual-flagship-workshop-a-success/",
-      "title": "IEEE Brain Annual Flagship Workshop a Success",
-      "content": "IEEE Brain once again hosted the IEEE Brain Discovery and Neurotechnology Workshop as a satellite event to the 2024 Society of Neuroscience Workshop (SfN). Approximately 180 attended the two-day event, which was held at the University of Illinois Chicago (UIC), October 3-4, 2024 (Figure 1). Groundbreaking solutions with the potential to improve quality of life and address neural disorders require ...",
-      "author": "ieeebrain",
-      "published_date": "2025-03-03T16:55:37+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 61,
-      "reading_time": 1,
-      "created_at": "2026-01-08T07:46:33.484006+00:00",
-      "updated_at": "2026-01-08T08:24:15.596806+00:00",
-      "metadata": {
-        "processed_at": "2026-01-08T08:24:15.596818+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
