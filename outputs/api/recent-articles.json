@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-01-08T10:27:38.332521+00:00",
+  "last_updated": "2026-01-08T10:52:18.047920+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "c89d2ad698747e7dcffde4a37776f9ab",
+      "url": "https://www.nature.com/articles/s41593-025-02191-y",
+      "title": "Rethinking the role of position in cortical function",
+      "content": "<p>Nature Neuroscience, Published online: 08 January 2026; <a href=\"https://www.nature.com/articles/s41593-025-02191-y\">doi:10.1038/s41593-025-02191-y</a></p>Abnormally located cortical neurons, displaced in developing mice lacking cortical Eml1, retain their molecular identities, form appropriate connections and build functional sensory maps. Most strikingly, these misplaced neurons can drive behavior by themselves \u2014 showing that brain function depends on how neurons connect, and to what, more than where they live.",
+      "author": "",
+      "published_date": "2026-01-08T00:00:00+00:00",
+      "source": "Nature Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 59,
+      "reading_time": 1,
+      "created_at": "2026-01-08T10:51:47.396158+00:00",
+      "updated_at": "2026-01-08T10:51:47.396162+00:00"
+    },
+    {
+      "id": "cb985508c82ff275099651880c945849",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2e8c",
+      "title": "Neuropacify: a method to transform and match a patient\u2019s intracranial EEG to their NeuroPace RNS system data",
+      "content": "Objective. Closed-loop responsive neurostimulators, such as the NeuroPace responsive neurostimulation (RNS) system, continuously monitor brain activity and deliver electrical stimulation in response to abnormal electrographic activity in patients with drug-resistant epilepsy. Practical technical constraints limit the temporal resolution of these devices, reducing the quality of EEG recordings. Approach. In this work, we introduce a novel technique to convert high-resolution intracranial electroencephalography (iEEG) obtained from inpatient monitoring into the same format, parameters, and resolution produced by the RNS system, allowing direct comparison of iEEG with RNS system data. We validated this technique using data from patients who had both iEEG and RNS. Electrodes from the iEEG and RNS system were co-registered onto the same 3D coordinate grid, and vector math was applied to determine the iEEG electrodes closest to the operational RNS electrodes. Main results. Through spectral analysis, we derived a transfer function that accounts for all filtering and data processing produced by the RNS system. Comparison of the recorded data using visual and spectral analysis from iEEG and RNS confirmed that EEG characteristics were correctly transformed by the filtering function, allowing analysis of how iEEG signals would appear within the RNS system. We demonstrate two examples from the extreme edges of the spectra, showing how DC shifts and high frequency oscillations would be transformed by the RNS. We provide a tutorial to tune this method to local device parameters, a process that can be applied to other devices as well. Significance. This tool allows researchers and clinicians to extract EEG biomarkers from high-resolution iEEG and determine if/how they can be detected in lower-resolution RNS. This provides an opportunity to develop patient-specific seizure detection parameters and investigate the long-term effects of neurostimulation therapy.",
+      "author": "Grant Barkelew, Kathleen Kish, Zachary T Sanger, Raghav Varshney, Sarah Dykstra, David Brang, Theoden I Netoff and William C Stacey",
+      "published_date": "2026-01-08T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 282,
+      "reading_time": 1,
+      "created_at": "2026-01-08T10:51:35.131833+00:00",
+      "updated_at": "2026-01-08T10:51:35.131837+00:00"
+    },
+    {
+      "id": "a668eff328603c5780f8e2b42a4f50bc",
+      "url": "https://en.wikipedia.org/wiki/Audio_induction_loop",
+      "title": "Anyone have experiences with Audio Induction Loops?",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46492401\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-04T21:23:27+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-08T10:51:13.090072+00:00",
+      "updated_at": "2026-01-08T10:51:13.090073+00:00"
+    },
     {
       "id": "feff8a1ee194ff9f73450f00f3b9ca2f",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452225012357?dgcid=rss_sd_all",
@@ -295,66 +343,6 @@
       "updated_at": "2026-01-08T08:24:15.596806+00:00",
       "metadata": {
         "processed_at": "2026-01-08T08:24:15.596818+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2eb57dbdbc858b57282cfad12fa8d826",
-      "url": "https://brain.ieee.org/braininsight-articles/ieee-brain-workshop-on-ai-for-neurotechnology/",
-      "title": "IEEE Brain Workshop on AI for Neurotechnology",
-      "content": "The IEEE Brain Workshop on AI for Neurotechnology was held on June 30, 2024, at the Pacifico Yokohama Conference Center in Japan. This event was part of the World Congress on Computational Intelligence (WCCI 2024) and was conducted in association with the International Joint Conference on Neural Networks (IJCNN). The workshop focused on the application of artificial intelligence to neurotechnology, ...",
-      "author": "ieeebrain",
-      "published_date": "2025-03-03T17:05:59+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 61,
-      "reading_time": 1,
-      "created_at": "2026-01-08T07:46:33.483984+00:00",
-      "updated_at": "2026-01-08T08:24:15.596822+00:00",
-      "metadata": {
-        "processed_at": "2026-01-08T08:24:15.596825+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "095166e6e1c6f475254679b8ca29e5e2",
-      "url": "https://www.nature.com/articles/s41746-025-02326-2",
-      "title": "Automated video-based differentiation of sleep-related hypermotor epilepsy and parasomnia episodes",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-08T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-08T07:26:30.335667+00:00",
-      "updated_at": "2026-01-08T08:24:15.596827+00:00",
-      "metadata": {
-        "processed_at": "2026-01-08T08:24:15.596829+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "53a7d2af9230f42fe83e6aae7bf0d013",
-      "url": "https://www.nature.com/articles/s41531-025-01253-z",
-      "title": "Prevalence of low muscle mass and its association with orthostatic hypotension and related symptoms in Parkinson\u2019s disease",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-08T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-08T07:26:30.335648+00:00",
-      "updated_at": "2026-01-08T08:24:15.596835+00:00",
-      "metadata": {
-        "processed_at": "2026-01-08T08:24:15.596836+00:00",
         "processing_method": "github_actions"
       }
     }
