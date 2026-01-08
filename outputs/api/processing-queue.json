@@ -1,8 +1,56 @@
 {
-  "last_updated": "2026-01-08T08:24:15.707128+00:00",
-  "pending_count": 713,
-  "processed_count": 287,
+  "last_updated": "2026-01-08T10:19:37.036360+00:00",
+  "pending_count": 710,
+  "processed_count": 290,
   "pending_articles": [
+    {
+      "id": "050dddef8940bf13dedcc9c8a99be244",
+      "url": "https://www.reddit.com/r/Python/comments/1q6fk62/pgmqsqlalchemy_020_transactionfriendly_op_is_now/",
+      "title": "pgmq-sqlalchemy 0.2.0 \u2014 Transaction-Friendly `op` Is Now Supported",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1><a href=\"https://github.com/jason810496/pgmq-sqlalchemy\">pgmq-sqlalchemy 0.2.0</a></h1> <h1>What My Project Does</h1> <p>A more flexible <a href=\"https://github.com/tembo-io/pgmq\">PGMQ Postgres extension</a> Python client using <strong>SQLAlchemy ORM</strong>, supporting both <strong>async</strong> and <strong>sync</strong> <code>engines</code>, <code>sessionmakers</code>, or built from <code>dsn</code>.</p> <h1>Features</h1> <ul> <li>Supports <strong>async</strong> and <strong>sync</strong> <code>engines</code> and <code>sessionmakers</code>, or built from <code>dsn</code>.</li> <li>Supports <strong>all Postgres DBAPIs supported by SQLAlchemy</strong>, e.g., <code>psycopg</code>, <code>psycopg2</code>, <code>asyncpg</code></li> <li><strong>Transaction-friendly operations</strong> via the <code>op</code> module for combining PGMQ with your business logic in the same transaction.</li> <li><a href=\"https://github.com/jason810496/pgmq-sqlalchemy/actions/workflows/codecov.yml\">Fully tested across all <strong>supported DBAPIs</strong> in both <strong>async</strong> and <strong>sync</strong> modes</a>.</li> <li>Battle-tested with <a href=\"https://github.com/jason810496/pgmq-sqlalchemy/blob/main/examples/fastapi_pub_sub/README.md\"><strong>real-world FastAPI Pub/Sub examples</strong></a> and <a href=\"https://github.com/jason810496/pgmq-sqlalchemy/actions/workflows/examples.yml\"><strong>corresponding tests</strong></a>.</li> </ul> <h1>Comparison</h1> <ul> <li>The <a href=\"https://github.com/pgmq/pgmq-py\">official PGMQ package</a> only supports <code>psycopg3</code> DBAPIs.</li> <li>For most use cases, using <code>SQLAlchemy</code> ORM as the PGMQ client is more flexible, as most Python backend developers won't directly use Python Postgres DBAPIs.</li> <li>The <strong>new transaction\u2011friendly</strong> <code>op</code> module is now a first\u2011class citizen in SQLAlchemy, supported within the same transaction when used with ORM classes.</li> </ul> <h1>Target Audience</h1> <p><a href=\"https://github.com/jason810496/pgmq-sqlalchemy\">pgmq-sqlalchemy</a> is a production package that can be used in scenarios that need a message queue for general fan-out systems or third-party dependencies retry mechanisms.</p> <h1>Links</h1> <ul> <li><a href=\"https://pypi.org/project/pgmq-sqlalchemy/\">PyPI</a></li> <li><a href=\"https://github.com/jason810496/pgmq-sqlalchemy\">GitHub</a></li> <li><a href=\"https://pgmq-sqlalchemy.readthedocs.io/en/latest/\">Documentation</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jason810496\"> /u/jason810496 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q6fk62/pgmqsqlalchemy_020_transactionfriendly_op_is_now/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q6fk62/pgmqsqlalchemy_020_transactionfriendly_op_is_now/\">[comments]</a></span>",
+      "author": "/u/jason810496",
+      "published_date": "2026-01-07T13:37:33+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 213,
+      "reading_time": 1,
+      "created_at": "2026-01-08T09:29:44.529639+00:00",
+      "updated_at": "2026-01-08T09:29:44.529641+00:00"
+    },
+    {
+      "id": "b7e9227bb4cece0cccdb48e50797879e",
+      "url": "https://gist.github.com/attractivechaos/d2efc77cc1db56bbd5fc597987e73338",
+      "title": "Lessons from Hash Table Merging",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46464270\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-02T12:51:55+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-08T09:29:43.327136+00:00",
+      "updated_at": "2026-01-08T09:29:43.327138+00:00"
+    },
+    {
+      "id": "14f0b2add61a1ce215f0ef02a0a02132",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1710961",
+      "title": "Neurocognition, cerebellar functions and psychiatric features in spinocerebellar ataxia type 34: a case series",
+      "content": "ObjectiveThis study primarily aimed to comprehensively characterize the neurological, neuroradiological and neurocognitive profiles, as well psychiatric features of individuals with Spinocerebellar Ataxia Type 34 (SCA34) associated with pathogenic variants in the ELOVL4 gene. Secondarily, we investigated the relationship between neurocognitive functions and cerebellar morphology in individuals with SCA34 by correlating structural changes to cognitive performance. Given involvement of the cerebellum in SCA34, our findings will contribute to a broader understanding of the role of the cerebellum in cognition.MethodsFour individuals (52 f, 72\u2009m, 76\u2009m, 76 f) underwent DNA testing using Next-Generation Sequencing and detailed assessment of neurocognitive functions. The test battery evaluated all six cognitive domains: verbal functions, executive functions, attention and processing speed, learning and memory, visuospatial perception and abilities, and social cognition. In addition, cerebellar and motor functions were evaluated using Finger Tapping, Prism Adaptation, and the Motor Speed subtest of the Delis-Kaplan executive function system (D-KEFS). Test results were compared with each individual\u2019s estimated premorbid cognitive level, determined from their highest educational attainment or occupational status prior to disease onset. Psychiatric symptoms related to anxiety, depression, and sleep were reported using clinical scales. The Scale for the Assessment and Rating of Ataxia (SARA) was used to assess ataxia severity. Two individuals and one matched control underwent high-resolution 7T MRI to characterize cerebellar morphology.ResultsNeurocognitive assessments identified cognitive and motor dysfunction across all individuals, including distinct neurocognitive impairments consistent with cerebellar cognitive-affective syndrome (CCAS), along with additional deficits in learning, visual and verbal episodic memory, emotion recognition\u2014a component of social cognition. Anxiety and sleep disturbance, but not depression, were observed in both female participants. High-resolution 7\u2009T MRI revealed structural cerebellar alterations, with moderate to severe bilateral cerebellar atrophy, including the vermis and multiple lobules (Crus II, VIIb, VIIIa, VIIIb, IX), as well as atrophy of the middle and superior cerebellar peduncles, accompanied by mild pontine atrophy. Genetic analyses confirmed the involvement of ELOVL4-related disruptions in long-chain fatty acid biosynthesis, offering insight into the molecular underpinnings of cerebellar degeneration in SCA34.ConclusionIndividuals with SCA34 show cerebellar degeneration accompanied by cognitive, motor, and social-affective impairments consistent with CCAS. Atrophy of the vermis, multiple lobules, and cerebellar peduncles align with these deficits, highlighting the cerebellum\u2019s key role in cognition. ELOVL4-related disruptions in fatty acid biosynthesis provides insight into the molecular basis of SCA34. Together, these findings advance our understanding of how cerebellar pathology contributes to complex neurocognitive and psychiatric symptoms in genetic ataxias.",
+      "author": "Sorina Gorcenco",
+      "published_date": "2025-12-09T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 402,
+      "reading_time": 2,
+      "created_at": "2026-01-08T08:33:30.130239+00:00",
+      "updated_at": "2026-01-08T08:33:30.130241+00:00"
+    },
     {
       "id": "0d342f523fda205e120dd489404016dc",
       "url": "https://www.nature.com/articles/s42003-025-09375-z",
@@ -114,57 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-01-08T07:25:47.477236+00:00",
       "updated_at": "2026-01-08T07:25:47.477238+00:00"
-    },
+    }
+  ],
+  "recently_processed": [
     {
-      "id": "e6bd537847e46ebe5ca9e3a06de22661",
-      "url": "https://www.emjreviews.com/radiology/news/ai-misses-nearly-one-third-of-breast-cancers-study-finds/",
-      "title": "AI misses nearly one-third of breast cancers, study finds",
-      "content": "<p>Article URL: <a href=\"https://www.emjreviews.com/radiology/news/ai-misses-nearly-one-third-of-breast-cancers-study-finds/\">https://www.emjreviews.com/radiology/news/ai-misses-nearly-one-third-of-breast-cancers-study-finds/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46537983\">https://news.ycombinator.com/item?id=46537983</a></p>\n<p>Points: 20</p>\n<p># Comments: 14</p>",
-      "author": "Liquidity",
-      "published_date": "2026-01-08T06:43:07+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-08T07:25:47.477167+00:00",
-      "updated_at": "2026-01-08T07:25:47.477169+00:00"
-    },
-    {
-      "id": "4ad707f3a5befbd9c7870f3c982f9b06",
-      "url": "https://blog.cloudflare.com/bgp-route-leak-venezuela/",
-      "title": "A closer look at a BGP anomaly in Venezuela",
-      "content": "<p>Article URL: <a href=\"https://blog.cloudflare.com/bgp-route-leak-venezuela/\">https://blog.cloudflare.com/bgp-route-leak-venezuela/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46538001\">https://news.ycombinator.com/item?id=46538001</a></p>\n<p>Points: 25</p>\n<p># Comments: 3</p>",
-      "author": "ChrisArchitect",
-      "published_date": "2026-01-08T06:46:26+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-08T07:25:47.477138+00:00",
-      "updated_at": "2026-01-08T07:25:47.477145+00:00"
-    },
-    {
-      "id": "d66ee4626a0316a53dbca7be5dfe001f",
-      "url": "https://www.sciencedirect.com/science/article/pii/S000689932500705X?dgcid=rss_sd_all",
-      "title": "Lysergic acid diethylamide modulates hippocampal and cortical local field potential oscillatory rhythms in male mice",
-      "content": "<p>Publication date: 1 March 2026</p><p><b>Source:</b> Brain Research, Volume 1874</p><p>Author(s): B.S. Rabinovitch, N. Silverman, D. Ji, D. Shizgal, E.C. Lewis, P.L. Carlen</p>",
+      "id": "c72a3dfd48839469f5e1f515e01eb43e",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006845?dgcid=rss_sd_all",
+      "title": "Plasma protein signatures associated with functional outcome heterogeneity in rtPA-treated acute ischemic stroke",
+      "content": "<p>Publication date: 1 March 2026</p><p><b>Source:</b> Brain Research, Volume 1874</p><p>Author(s): Lanjing Wang, Tong Shen, Shuangfeng Huang, Yue Hu, Yumin Luo, Sijie Li</p>",
       "author": "",
       "published_date": null,
       "source": "Brain Research",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 21,
       "reading_time": 1,
-      "created_at": "2026-01-08T06:37:10.005073+00:00",
-      "updated_at": "2026-01-08T06:37:10.005075+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-01-08T09:53:22.889523+00:00",
+      "updated_at": "2026-01-08T10:19:36.927817+00:00",
+      "metadata": {
+        "processed_at": "2026-01-08T10:19:36.927827+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "eada020362126118f5d44203652fe552",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325006985?dgcid=rss_sd_all",
+      "title": "Daily temporal organization of inflammation and cognition-related factors and antioxidant enzymes are modified by an intracerebroventricular injection of amyloid-beta peptide (1\u201342) aggregates in the rat temporal cortex",
+      "content": "<p>Publication date: 1 March 2026</p><p><b>Source:</b> Brain Research, Volume 1874</p><p>Author(s): Cinthia Coria-Lucero, Mariana Lopez, Sandra Gomez-Mejiba, Dario Ramirez, Mar\u00eda Bel\u00e9n Delsouc, Marilina Casais, Richard Alba, Jorge Leporatti, Silvia Delgado, Ana Cecilia Anzulovich, Lorena Navigatore-Fonzo</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 33,
+      "reading_time": 1,
+      "created_at": "2026-01-08T09:53:22.889502+00:00",
+      "updated_at": "2026-01-08T10:19:36.927834+00:00",
+      "metadata": {
+        "processed_at": "2026-01-08T10:19:36.927836+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "5218c22053382239301b2ca5a1431dfe",
+      "url": "https://www.nature.com/articles/s41598-025-34943-y",
+      "title": "Coarse-grained molecular dynamics simulation of gallic acid delivery using span60-based niosomes",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-08T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-08T09:30:17.768461+00:00",
+      "updated_at": "2026-01-08T10:19:36.927839+00:00",
+      "metadata": {
+        "processed_at": "2026-01-08T10:19:36.927840+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "d46ff9f8585cdfac2cf8d513dde9b6b1",
+      "url": "https://www.nature.com/articles/s41538-025-00679-2",
+      "title": "No indication of histological changes in embryonic somatosensory cortex development upon maternal aspartame consumption in mice",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-08T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-08T09:30:17.768385+00:00",
+      "updated_at": "2026-01-08T10:19:36.927842+00:00",
+      "metadata": {
+        "processed_at": "2026-01-08T10:19:36.927844+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f74d69f3153946dca6b8dc78eb0e8db6",
+      "url": "https://www.nature.com/articles/s42003-025-09483-w",
+      "title": "Excessive daytime sleepiness in parkinsonism is associated with cortical and basal ganglia beta oscillatory activity",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-08T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-08T09:30:17.768298+00:00",
+      "updated_at": "2026-01-08T10:19:36.927846+00:00",
+      "metadata": {
+        "processed_at": "2026-01-08T10:19:36.927848+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "8bfe7b7f37af142b24b0fcd318868131",
       "url": "https://brain.ieee.org/braininsight-articles/ieee-brain-annual-flagship-workshop-a-success/",
@@ -262,106 +362,6 @@
       "updated_at": "2026-01-08T08:24:15.596839+00:00",
       "metadata": {
         "processed_at": "2026-01-08T08:24:15.596841+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c3c697db967db31df099def9bf845216",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926000042?dgcid=rss_sd_all",
-      "title": "Repeatability analysis of ICA-based harmonization for multi-site MRI data using dual projection models",
-      "content": "<p>Publication date: 1 February 2026</p><p><b>Source:</b> NeuroImage, Volume 326</p><p>Author(s): Yuxing Hao, Yongjie Zhu, Chenwei Yan, Huanjie Li, Tommi K\u00e4rkk\u00e4inen, Fengyu Cong</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 20,
-      "reading_time": 1,
-      "created_at": "2026-01-08T05:50:01.870892+00:00",
-      "updated_at": "2026-01-08T06:27:31.032135+00:00",
-      "metadata": {
-        "processed_at": "2026-01-08T06:27:31.032145+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5573a972d361e4bbcdb1d912a0abdc6a",
-      "url": "https://words.filippo.io/gosum/",
-      "title": "go.sum Is Not a Lockfile",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46537095\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-08T04:10:34+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-08T05:49:23.583069+00:00",
-      "updated_at": "2026-01-08T06:27:31.032149+00:00",
-      "metadata": {
-        "processed_at": "2026-01-08T06:27:31.032151+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5573a972d361e4bbcdb1d912a0abdc6a",
-      "url": "https://words.filippo.io/gosum/",
-      "title": "go.sum Is Not a Lockfile",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46537095\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-08T04:10:34+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-08T05:49:23.583069+00:00",
-      "updated_at": "2026-01-08T06:27:31.032149+00:00",
-      "metadata": {
-        "processed_at": "2026-01-08T06:27:31.032151+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d1532b3ce455d3f343f9378cb314d493",
-      "url": "https://patchouli.readthedocs.io/en/latest/",
-      "title": "Project Patchouli: Open-source electromagnetic drawing tablet hardware",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46537489\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-08T05:20:05+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-08T05:49:23.582944+00:00",
-      "updated_at": "2026-01-08T06:27:31.032153+00:00",
-      "metadata": {
-        "processed_at": "2026-01-08T06:27:31.032155+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d1532b3ce455d3f343f9378cb314d493",
-      "url": "https://patchouli.readthedocs.io/en/latest/",
-      "title": "Project Patchouli: Open-source electromagnetic drawing tablet hardware",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46537489\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-08T05:20:05+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-08T05:49:23.582944+00:00",
-      "updated_at": "2026-01-08T06:27:31.032153+00:00",
-      "metadata": {
-        "processed_at": "2026-01-08T06:27:31.032155+00:00",
         "processing_method": "github_actions"
       }
     }
