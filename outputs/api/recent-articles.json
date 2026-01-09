@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-01-09T10:26:17.438983+00:00",
+  "last_updated": "2026-01-09T10:51:09.438893+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "dc42d7d5d4bd1d9ac1aaa2d9c4fcb82b",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1679664",
+      "title": "Enhancing dementia and cognitive decline detection with large language models and speech representation learning",
+      "content": "Dementia poses a major challenge to individuals and public health systems. Detecting cognitive decline through spontaneous speech offers a promising, non-invasive avenue for diagnosis of mild cognitive impairment (MCI) and dementia, enabling timely intervention and improved outcomes. This study describes our submission to the PROCESS Signal Processing Grand Challenge (ICASSP 2025), which tasked participants with predicting cognitive decline from speech samples. Our method combines eGeMAPS features from openSMILE, HuBERT (a self-supervised speech representation model), and GPT-4o, OpenAI's state-of-the-art large language model. These are integrated with the custom LSTM and ResMLP neural networks, and supported by Scikit-learn regressors/classifiers for both cognitive score regression and dementia classification. Our regression model based on LightGBM achieved an RMSE of 2.7775, placing us 10th out of 80 teams globally and surpassing the RoBERTa baseline by 7.5%. For the three-class classification task (Dementia/MCI/Control), our LSTM model obtained an F1-score of 0.5521, ranking 20th of 106 and marginally outperforming the best baseline. We trained models on speech data from 157 study participants, with independent evaluation performed on a separate test set of 40 individuals. We discoved that integrating large language models with self-supervised speech representations enhances the detection of cognitive decline. The proposed approach offers a scalable, data-driven method for early cognitive screening and may support emerging applications in neuropsychological informatics.",
+      "author": "Grzegorz M. W\u00f3jcik",
+      "published_date": "2025-12-05T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 214,
+      "reading_time": 1,
+      "created_at": "2026-01-09T10:50:28.735540+00:00",
+      "updated_at": "2026-01-09T10:50:28.735542+00:00"
+    },
+    {
+      "id": "990f9b667bfea3f56f2e161c9fdc91bb",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2a6f",
+      "title": "The state of science convergence in implantable brain-computer interface clinical trials",
+      "content": "Objective. Advances in implantable brain-computer interfaces (iBCI) have rapidly accelerated in the last decade that promises to improve the quality of life of patients with communications, sensory, and motor control disabilities. Approach. In this Perspective, we quantify the extent and nature of scientific convergence across 21 research groups conducting iBCI clinical trials worldwide. Using medical subject headers and Classification of Instructional Programs taxonomies, we analyze topical and disciplinary integration within 161 publications from 1998\u20132023 to assess how deeply team composition aligns with research themes and translational impact. Main Results. Our findings indicate uneven patterns of convergence, with many teams combining engineering and clinical expertise yet omitting ethical, legal, and social dimensions. This represents what we term short-cut convergence. Significance. We propose an operational definition of this phenomenon and identify practical steps for researchers and funders to strengthen full convergence to accelerate iBCI translation and implementation.",
+      "author": "K Michelle Patrick-Krueger, Ioannis Pavlidis and J L Contreras-Vidal",
+      "published_date": "2025-12-30T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 145,
+      "reading_time": 1,
+      "created_at": "2026-01-09T10:50:21.974320+00:00",
+      "updated_at": "2026-01-09T10:50:21.974322+00:00"
+    },
+    {
+      "id": "ba82281588e1baaac47103e5da9c6656",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2956",
+      "title": "Electrical characterization and accelerated aging of amorphous silicon carbide implantable encapsulation",
+      "content": "Objective. Chronically implanted microelectrode arrays (MEAs) are used for stimulating and recording neural activity in research and clinical settings. However, their reliability can be compromised by insufficient encapsulation stability. Amorphous silicon carbide (a-SiC), a chemically stable and biocompatible material, has emerged as a potential thin-film encapsulation for MEAs. We aimed to evaluate thin-film a-SiC encapsulation using electrical-accelerated aging (EAA) and to demonstrate a methodology for obtaining acceleration factors for EAA by Weibull analysis. Approach. Interdigitated electrodes (IDEs) encapsulated with a-SiC were subjected to voltage cycling and stepped-voltage protocols to measure leakage currents in buffered saline at 37 \u00b0C. EAA employed incrementally increasing voltage biases over time to induce degradation and reveal failure mechanisms. Main results. IDEs exhibited a significant change in electrical behavior on exposure to saline, with failure initiating at specific voltages and accompanied by gas evolution at defect sites. Incremental voltage biasing revealed a capacitive-to-faradaic transition in leakage current response that was used as a failure criterion. Significance. Acceleration factors for voltage-driven accelerated aging of a-SiC thin-film encapsulation can be obtained by Weibull analysis using a mechanistic failure criterion. Breakdown occurs at processing-related defects in the a-SiC. This study demonstrates the use of EAA for evaluating failure in a-SiC thin-film encapsulation used in implantable MEAs. EAA is broadly applicable to thin-film MEAs and provides a highly relevant method of predicting implanted lifetimes of bioelectronics.",
+      "author": "Christopher K Nguyen, Negar Geramifard, Yupeng Wu, Madhav Bhatt, Alexandra Joshi-Imre, Sandeep Negi and Stuart F Cogan",
+      "published_date": "2025-12-30T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 226,
+      "reading_time": 1,
+      "created_at": "2026-01-09T10:50:21.974287+00:00",
+      "updated_at": "2026-01-09T10:50:21.974289+00:00"
+    },
+    {
+      "id": "98c795ecc7af540b431020ec45da0e1d",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2955",
+      "title": "sEEG-based brain-computer interfacing in a large adult and pediatric cohort",
+      "content": "Objective. Stereoelectroencephalography (sEEG) is a mesoscale intracranial monitoring technique that records from the brain volumetrically with depth electrodes. sEEG is typically used for monitoring of epileptic foci, but can also serve as a useful tool to study distributed brain dynamics. Herein, we detail the implementation of sEEG-based brain-computer interfacing (BCI) across a diverse and large patient cohort. Approach. Across 27 subjects (15 female, 31 total feedback experiments), we identified channels with increases in broadband during hand, tongue, or foot movements using a simple block-design screening task. Subsequently, broadband power in these channels was coupled to continuous movement of a cursor on a screen during both overt movement and kinesthetic imagery. Main results. 26 subjects (29 out of 31 feedback conditions) established successful control, defined as more than 80 percent accuracy, during the overt movement BCI task, while only 12 (of the same 31 conditions) achieved control during the motor imagery BCI task. In successful imagery BCI, broadband power in the reinforced control channel(s) in the two target conditions separated into distinct subpopulations. Outside of the control channel(s), we demonstrate that imagery BCI engages unique subnetworks of the motor system compared to cued movement or kinesthetic imagery alone. Significance. Pericentral sEEG-based motor BCI utilizing overt movement and kinesthetic imagery is robust across a diverse patient cohort with inconsistent accuracy during imagined movement. Cued movement, kinesthetic imagery, and feedback engage the motor network uniquely, providing the opportunity to understand the network dynamics underlying BCI control and improve future BCIs.",
+      "author": "Michael A Jensen, Gerwin Schalk, Nuri Ince, Dora Hermes, Greg A Worrell, Peter Brunner, Nathan P Staff and Kai J Miller",
+      "published_date": "2025-12-30T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 247,
+      "reading_time": 1,
+      "created_at": "2026-01-09T10:50:21.974239+00:00",
+      "updated_at": "2026-01-09T10:50:21.974241+00:00"
+    },
+    {
+      "id": "3ba1b0729866713d0ca6e0d376b20876",
+      "url": "https://tombedor.dev/mcp-is-a-fad/",
+      "title": "MCP Is a Fad",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46552254\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-09T10:27:11+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-09T10:49:59.888393+00:00",
+      "updated_at": "2026-01-09T10:49:59.888395+00:00"
+    },
     {
       "id": "d33ced43d4a128c17609f2e7e8597417",
       "url": "https://www.sciencedirect.com/science/article/pii/S0006899325007036?dgcid=rss_sd_all",
@@ -273,102 +353,6 @@
         "processed_at": "2026-01-09T08:23:59.924023+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "7da6d1af0dd2d3a2aa27ca710d9bf7db",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1614268",
-      "title": "Cognitive and emotional responses to viewing mummies in an Egyptian museum",
-      "content": "IntroductionA recent subfield of neuropsychology is the study of people\u2019s reactions to visiting a museum and observing artworks. However, museums do not only contain artworks or archeological finds, and some of them exhibit human remains, such as mummies. A growing debate concerns the ethical issues of such exhibitions, but the psychological and physiological reactions of visitors when viewing mummies have not yet been measured.MethodsIn this study, 33 subjects (40.3 \u00b1 14.4 years old) participated in two experiments conducted at the Egyptian Museum of Turin (Italy). In the first experiment, they were asked to observe an empty sarcophagus, an opened sarcophagus with a mummy inside, and an open sarcophagus with the mummy placed between the cover and the coffin of the sarcophagus. Subjects wore an electroencephalographic (EEG) system on their heads, electrodes on their fingers to measure skin conductance levels (SCL) and wore eye-tracking glasses. In the second experiment, they visited the room of the \u201cThree Sisters\u201d with two completely bandaged mummies and one partially unbandaged. The indices extracted from EEG and SCL signals were compared before and after they noticed the partially unbandaged mummy.ResultsCognitive workload was found to increase due to the presence of the mummies in the first experiment, whereas an increase in emotional arousal (SCL) was observed in the second experiment after participants saw that partially unbandaged mummy.DiscussionThe presence of mummies increased the emotional engagement, but it was not an effect specific leading to negative emotions.",
-      "author": "M. Franz\u00f2",
-      "published_date": "2026-01-09T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 238,
-      "reading_time": 1,
-      "created_at": "2026-01-09T07:27:04.725777+00:00",
-      "updated_at": "2026-01-09T08:23:59.924025+00:00",
-      "metadata": {
-        "processed_at": "2026-01-09T08:23:59.924027+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "08da14ac4f9fadbacc79cc24a37c5f66",
-      "url": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
-      "title": "MIT's \"Mathematics for Computer Science\" (2018) [pdf]",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46550895\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-09T07:06:41+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-09T07:26:38.037963+00:00",
-      "updated_at": "2026-01-09T08:23:59.924030+00:00",
-      "metadata": {
-        "processed_at": "2026-01-09T08:23:59.924031+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "96bc5017dd1e557c1d98768c31a49d2a",
-      "url": "https://www.economist.com/leaders/2026/01/08/do-not-mistake-a-resilient-global-economy-for-populist-success",
-      "title": "Do not mistake a resilient global economy for populist success",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46550777\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-09T06:43:27+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-09T07:26:38.037878+00:00",
-      "updated_at": "2026-01-09T08:23:59.924034+00:00",
-      "metadata": {
-        "processed_at": "2026-01-09T08:23:59.924036+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "96bc5017dd1e557c1d98768c31a49d2a",
-      "url": "https://www.economist.com/leaders/2026/01/08/do-not-mistake-a-resilient-global-economy-for-populist-success",
-      "title": "Do not mistake a resilient global economy for populist success",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46550777\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-09T06:43:27+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-09T07:26:38.037878+00:00",
-      "updated_at": "2026-01-09T08:23:59.924034+00:00",
-      "metadata": {
-        "processed_at": "2026-01-09T08:23:59.924036+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "699e9378a1ca54067c5e179fc4c87842",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1685586",
-      "title": "Simplex polynomial in complex networks and its applications to compute the Euler characteristic",
-      "content": "In algebraic topology, a k-dimensional simplex is defined as a convex polytope consisting of k + 1 vertices. If spatial dimensionality is not considered, it corresponds to the complete graph with k + 1 vertices in graph theory. The alternating sum of the number of simplices across dimensions yields a topological invariant known as the Euler characteristic, which has gained significant attention due to its widespread application in fields such as topology, homology theory, complex systems, and biology. The most common method for calculating the Euler characteristic is through simplicial decomposition and the Euler\u2013Poincar\u00e9 formula. In this study, we introduce a new \u201csubgraph\u201d polynomial, termed the simplex polynomial, and explore some of its properties. Using those properties, we provide a new method for computing the Euler characteristic and prove the existence of the Euler characteristic as an arbitrary integer by constructing the corresponding simplicial complex structure. When the Euler characteristic is 1, we determined a class of corresponding simplicial complex structures. Moreover, for three common network structures, we present the recurrence relations for their simplex polynomials and their corresponding Euler characteristics. Finally, at the end of this study, three basic questions are raised for the interested readers to study deeply.",
-      "author": "Haixing Zhao",
-      "published_date": "2025-11-26T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 200,
-      "reading_time": 1,
-      "created_at": "2026-01-09T06:36:47.303276+00:00",
-      "updated_at": "2026-01-09T06:36:47.303278+00:00"
     }
   ]
 }
