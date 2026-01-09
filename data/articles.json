@@ -1,5 +1,37 @@
 [
   {
+    "id": "ed0c328f6231b43201a786b95d31e8f9",
+    "url": "https://www.reddit.com/r/Python/comments/1q7e0tp/i_am_working_on_a_weightcost_based_rate_limiter/",
+    "title": "I am working on a weight(cost) based Rate Limiter",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I searched on the internet for RateLimiters limiters, there are many.<br /> Even the throttling strategy have many flavours like:</p> <ol> <li>Leacky bucket</li> <li>Token bucket</li> <li>Sliding window</li> </ol> <p>But all these RateLimiters are based on task completions. For example the RateLimit may be defined as 100 tasks per second.</p> <p>But there are many scenarios where all tasks are not equivalent, each task might have a separate cost. For example task A might send 10 bytes over network but task B might send 50.</p> <p>In that case it makes more sense to define the RateLimit not as the no. of tasks but the total weight(or cost) of the tasks executed in the unit interval.</p> <p>So, to be precise i need a RateLimiter that:</p> <ol> <li>Throttled based on net cost, not on the total no. of tasks</li> <li>Provides strict sliding window guarentees</li> <li>Asyncio friendly, both normal functions as well as async function can be queues in the RateLimiter</li> </ol> <p>Has anyone ever used/written such a utility, i am eager to know and i will also write my own, for pure learning if not for usage.</p> <p>I would like to hear ideas from the community.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Perfect_Evidence8928\"> /u/Perfect_Evidence8928 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q7e0tp/i_am_working_on_a_weightcost_based_rate_limiter/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q7e0tp/i_am_working_on_a_weightcost_based_rate_limiter/\">[comments]</a></span>",
+    "author": "/u/Perfect_Evidence8928",
+    "published_date": "2026-01-08T15:01:24+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 213,
+    "reading_time": 1,
+    "created_at": "2026-01-09T09:29:26.408375+00:00",
+    "updated_at": "2026-01-09T09:29:26.408376+00:00"
+  },
+  {
+    "id": "9abd9021f33444ec5fb6607ad45f3627",
+    "url": "https://www.theguardian.com/technology/2026/jan/09/grok-image-generator-outcry-sexualised-ai-imagery",
+    "title": "Grok turns off image generator for most after outcry over sexualised AI imagery",
+    "content": "<p>Article URL: <a href=\"https://www.theguardian.com/technology/2026/jan/09/grok-image-generator-outcry-sexualised-ai-imagery\">https://www.theguardian.com/technology/2026/jan/09/grok-image-generator-outcry-sexualised-ai-imagery</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46551238\">https://news.ycombinator.com/item?id=46551238</a></p>\n<p>Points: 13</p>\n<p># Comments: 5</p>",
+    "author": "beardyw",
+    "published_date": "2026-01-09T08:10:31+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-09T09:29:23.864763+00:00",
+    "updated_at": "2026-01-09T09:29:23.864771+00:00"
+  },
+  {
     "id": "792a17f39d22adfaea23c32803663bb3",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.08.698257v1?rss=1",
     "title": "Human Neocortical Glutamatergic Neurons Revealed Through Multimodal Profiling",
@@ -17022,37 +17054,5 @@
     "reading_time": 1,
     "created_at": "2026-01-05T05:57:21.541072+00:00",
     "updated_at": "2026-01-05T05:57:21.541077+00:00"
-  },
-  {
-    "id": "d5e9056584e6bd8adfe3df54f4fe96bd",
-    "url": "https://idiallo.com/blog/18000-dollars-static-web-page",
-    "title": "I charged $18k for a Static HTML Page (2019)",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46469877\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-02T21:54:56+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-05T05:57:14.358123+00:00",
-    "updated_at": "2026-01-05T05:57:14.358125+00:00"
-  },
-  {
-    "id": "13e62cfb483a1082d68309f465488cad",
-    "url": "https://logicaffeine.com/guide",
-    "title": "Logos Language Guide: Compile English to Rust",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46454085\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-01T13:48:27+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-05T05:57:14.357981+00:00",
-    "updated_at": "2026-01-05T05:57:14.357983+00:00"
   }
 ]

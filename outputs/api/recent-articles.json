@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-09T08:33:51.184395+00:00",
+  "last_updated": "2026-01-09T09:30:38.606425+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "ed0c328f6231b43201a786b95d31e8f9",
+      "url": "https://www.reddit.com/r/Python/comments/1q7e0tp/i_am_working_on_a_weightcost_based_rate_limiter/",
+      "title": "I am working on a weight(cost) based Rate Limiter",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I searched on the internet for RateLimiters limiters, there are many.<br /> Even the throttling strategy have many flavours like:</p> <ol> <li>Leacky bucket</li> <li>Token bucket</li> <li>Sliding window</li> </ol> <p>But all these RateLimiters are based on task completions. For example the RateLimit may be defined as 100 tasks per second.</p> <p>But there are many scenarios where all tasks are not equivalent, each task might have a separate cost. For example task A might send 10 bytes over network but task B might send 50.</p> <p>In that case it makes more sense to define the RateLimit not as the no. of tasks but the total weight(or cost) of the tasks executed in the unit interval.</p> <p>So, to be precise i need a RateLimiter that:</p> <ol> <li>Throttled based on net cost, not on the total no. of tasks</li> <li>Provides strict sliding window guarentees</li> <li>Asyncio friendly, both normal functions as well as async function can be queues in the RateLimiter</li> </ol> <p>Has anyone ever used/written such a utility, i am eager to know and i will also write my own, for pure learning if not for usage.</p> <p>I would like to hear ideas from the community.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Perfect_Evidence8928\"> /u/Perfect_Evidence8928 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q7e0tp/i_am_working_on_a_weightcost_based_rate_limiter/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q7e0tp/i_am_working_on_a_weightcost_based_rate_limiter/\">[comments]</a></span>",
+      "author": "/u/Perfect_Evidence8928",
+      "published_date": "2026-01-08T15:01:24+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 213,
+      "reading_time": 1,
+      "created_at": "2026-01-09T09:29:26.408375+00:00",
+      "updated_at": "2026-01-09T09:29:26.408376+00:00"
+    },
+    {
+      "id": "9abd9021f33444ec5fb6607ad45f3627",
+      "url": "https://www.theguardian.com/technology/2026/jan/09/grok-image-generator-outcry-sexualised-ai-imagery",
+      "title": "Grok turns off image generator for most after outcry over sexualised AI imagery",
+      "content": "<p>Article URL: <a href=\"https://www.theguardian.com/technology/2026/jan/09/grok-image-generator-outcry-sexualised-ai-imagery\">https://www.theguardian.com/technology/2026/jan/09/grok-image-generator-outcry-sexualised-ai-imagery</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46551238\">https://news.ycombinator.com/item?id=46551238</a></p>\n<p>Points: 13</p>\n<p># Comments: 5</p>",
+      "author": "beardyw",
+      "published_date": "2026-01-09T08:10:31+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-09T09:29:23.864763+00:00",
+      "updated_at": "2026-01-09T09:29:23.864771+00:00"
+    },
     {
       "id": "792a17f39d22adfaea23c32803663bb3",
       "url": "https://www.biorxiv.org/content/10.64898/2026.01.08.698257v1?rss=1",
@@ -313,38 +345,6 @@
       "reading_time": 1,
       "created_at": "2026-01-09T06:36:28.891498+00:00",
       "updated_at": "2026-01-09T06:36:28.891501+00:00"
-    },
-    {
-      "id": "0b416d9759ffd3682e5fa2e6532f771e",
-      "url": "http://doi.org/10.1037/neu0001031",
-      "title": "Psychometrics of a fear-avoidance measure adapted for youth with persistent postconcussive symptoms: Fear of Concussive Symptoms Questionnaire (FOCSQ) child and parent-proxy versions.",
-      "content": "Objective: This article aimed to examine the psychometric properties of a measure of youth fear-avoidance of concussive symptoms. Method: Fear-avoidance is thought to be a risk factor for prolonged concussion recovery; however, current measures of fear-avoidance focus on pain rather than broader symptoms. We adapted the Fear of Pain Questionnaire to be relevant to concussion symptoms with a new version called the Fear of Concussive Symptoms Questionnaire (FOCSQ). We assessed the psychometrics of this scale with a sample of <em>N</em> = 115 youth with persistent postconcussive symptoms (<em>M</em><sub>age</sub> = 15.1 years, 58% female, 70% non-Hispanic White, 15% Hispanic, <em>M</em> = 79.2 days since injury), including reliability, construct validity, and cross-informant reliability. Results: Exploratory factor analysis suggested a two-factor model was a good fit for youth report (fear and avoidance) and a three-factor model for parent proxy (fear, school/social avoidance, and movement avoidance). Reliability was excellent, with Cronbach\u2019s \u03b1 for both youth report and parent proxy of 0.93 (95% CI [0.91, 0.95]). Construct validity indicated moderate correlation between youth-report FOCSQ and concussive symptoms 0.55 (95% CI [0.41, 0.66]), headache severity 0.37 (95% CI [0.19, 0.53]), depression 0.62 (95% CI [0.49, 0.72]), and anxiety 0.64 (95% CI [0.51, 0.73]). Criterion-related validity was supported by an inverse correlation between FOCSQ and the Pediatric Quality of Life Inventory: \u22120.64 (95% CI [\u22120.74, \u22120.52]). Youth report and parent proxy were moderately correlated, with Pearson\u2019s correlation coefficient <em>r</em> = 0.60 (95% CI [0.47, 0.71]). Conclusions: The FOCSQ is a reliable and valid measure of fear-avoidance in youth with concussion, and future research might explore whether this measure could be used to identify youth at risk for prolonged recovery. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-10-02T00:00:00+00:00",
-      "source": "Neuropsychology",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 281,
-      "reading_time": 1,
-      "created_at": "2026-01-09T06:36:26.116021+00:00",
-      "updated_at": "2026-01-09T06:36:26.116023+00:00"
-    },
-    {
-      "id": "2e128a45b90ffe236abf056a288447c9",
-      "url": "http://doi.org/10.1037/neu0001040",
-      "title": "Phonological networks remain intact in multiple sclerosis.",
-      "content": "Objective: Multiple sclerosis (MS) is a neurological condition characterized by white and gray matter decline that leads to slower motor function and cognitive impairment. Although language remains relatively intact, individuals with MS often have word retrieval difficulties. Previous research suggests that these difficulties may be related to vocabulary, the number of words an individual knows, and other semantic aspects of language. However, few studies have examined phonological aspects of speech. Method: We examined speech in 89 individuals with MS and 88 age-matched neurotypical adults using a phonemic verbal fluency task. We took a network science approach, building a phonological network from participants\u2019 responses and their close phonological neighbors. We then examined the local network characteristics (degree, clustering coefficient) of participants\u2019 responses to assess whether responses differed between the groups. Results: Although individuals with MS produced fewer responses during the task, the network characteristics of their responses were similar to neurotypical adults, the control group. Moreover, lexical characteristics such as word length and lexical frequency were also similar between groups (model <em>R</em>\u00b2 values < 1%). Finally, a forward flow analysis, which quantifies the phonological similarity between adjacent responses and provides a metric of how people search phonemic space, did not differ between groups. Conclusions: Overall, these results suggest that phonological aspects of speech remain stable in individuals with MS. Word retrieval difficulties in MS may arise from neurological changes in semantic processes, in combination with other cognitive abilities such as speed of processing and executive function, which are common in MS. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-09-22T00:00:00+00:00",
-      "source": "Neuropsychology",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 259,
-      "reading_time": 1,
-      "created_at": "2026-01-09T06:36:26.115978+00:00",
-      "updated_at": "2026-01-09T06:36:26.115979+00:00"
     }
   ]
 }
