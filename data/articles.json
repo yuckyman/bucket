@@ -1,5 +1,37 @@
 [
   {
+    "id": "adc4781ea11d927ebc2d92cc947ef47f",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1647194",
+    "title": "Speech pattern disorders in verbally fluent individuals with autism spectrum disorder: a machine learning analysis",
+    "content": "IntroductionDiagnosing Autism Spectrum Disorder (ASD) in verbally fluent individuals based on speech patterns in examiner-patient dialogues is challenging because speech-related symptoms are often subtle and heterogeneous. This study aimed to identify distinctive speech characteristics associated with ASD by analyzing recorded dialogues from the Autism Diagnostic Observation Schedule (ADOS-2).MethodsWe analyzed examiner-participant dialogues from ADOS-2 Module 4 and extracted 40 speech-related features categorized into intonation, volume, rate, pauses, spectral characteristics, chroma, and duration. These acoustic and prosodic features were processed using advanced speech analysis tools and used to train machine learning models to classify ASD participants into two subgroups: those with and without A2-defined speech pattern abnormalities. Model performance was evaluated using cross-validation and standard classification metrics.ResultsUsing all 40 features, the support vector machine (SVM) achieved an F1-score of 84.49%. After removing Mel-Frequency Cepstral Coefficients (MFCC) and Chroma features to focus on prosodic, rhythmic, energy, and selected spectral features aligned with ADOS-2 A2 scores, performance improved, achieving 85.77% accuracy and an F1-score of 86.27%. Spectral spread and spectral centroid emerged as key features in the reduced set, while MFCC 6 and Chroma 4 also contributed significantly in the full feature set.DiscussionThese findings demonstrate that a compact, diverse set of non-MFCC and selected spectral features effectively characterizes speech abnormalities in verbally fluent individuals with ASD. The approach highlights the potential of context-aware, data-driven models to complement clinical assessments and enhance understanding of speech-related manifestations in ASD.",
+    "author": "Xin Li",
+    "published_date": "2025-10-24T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 233,
+    "reading_time": 1,
+    "created_at": "2026-01-09T11:20:47.661564+00:00",
+    "updated_at": "2026-01-09T11:20:47.661565+00:00"
+  },
+  {
+    "id": "f121f6351ea82215cb10862322d1c82a",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1724386",
+    "title": "Editorial: Women pioneering neuroinformatics and neuroscience-related machine learning, 2024",
+    "content": "",
+    "author": "Alice Geminiani",
+    "published_date": "2025-11-12T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2026-01-09T11:20:47.661494+00:00",
+    "updated_at": "2026-01-09T11:20:47.661495+00:00"
+  },
+  {
     "id": "dc42d7d5d4bd1d9ac1aaa2d9c4fcb82b",
     "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1679664",
     "title": "Enhancing dementia and cognitive decline detection with large language models and speech representation learning",
@@ -17026,37 +17058,5 @@
     "reading_time": 1,
     "created_at": "2026-01-05T06:47:19.211760+00:00",
     "updated_at": "2026-01-05T06:47:19.211765+00:00"
-  },
-  {
-    "id": "a5a5f1afc6b5f3707edd19161d35026a",
-    "url": "http://doi.org/10.1037/neu0001037",
-    "title": "Neural correlates of stigma: A systematic review.",
-    "content": "Objective: Understanding neural mechanisms underlying the experience and enactment of stigma is needed to address the public health challenge posed by both experienced and enacted stigma. In this systematic review, we synthesized the literature on neural correlates of stigma from the perspective of (a) the stigmatizer (enacted stigma) and (b) the stigmatized (experienced stigma). Method: We searched PsychInfo, PubMed, Web of Science, Medline, and SCOPUS for articles assessing stigma using neuroimaging. Results: Thirty-one articles were included covering a variety of stigmatized identities (i.e., mental health, medical conditions, homelessness), with 20 articles on enacted stigma and 11 on experienced stigma. There was a large variety in methodological approaches, including varying experimental paradigms, analytical approaches (e.g., whole-brain vs. region-of-interest analyses), samples, and degree to which stigma is assessed and/or verified (as opposed to assumed to be present in response to exclusion or in response to specific stimuli). Regardless, our review indicates that a widespread network of brain regions is implicated in the enactment of stigma (in the stigmatizer), including frontal, cingulate, parietal, occipital, and subcortical regions, which are characterized by inconsistencies that likely result from methodological differences. In contrast, a blunted medial prefrontal cortex response to experienced stigma is relatively consistently observed (in the stigmatized). Conclusions: Our review is the first to comprehensively synthesize studies examining neural correlates of stigma, revealing tangible brain patterns reflecting its experience and enactment, enhancing our understanding of stigma and its assessment. Last, we highlight the complexity of this research area and discuss insights and considerations for future work. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-    "author": "",
-    "published_date": "2025-09-15T00:00:00+00:00",
-    "source": "Neuropsychology",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 261,
-    "reading_time": 1,
-    "created_at": "2026-01-05T06:47:19.211682+00:00",
-    "updated_at": "2026-01-05T06:47:19.211684+00:00"
-  },
-  {
-    "id": "d9c70854305de8455436c424a24ee877",
-    "url": "http://mpaxos.com/blog/rusty-cpp.html",
-    "title": "Building a Rust-style static analyzer for C++ with AI",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46495539\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-05T05:11:59+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-05T06:47:11.863019+00:00",
-    "updated_at": "2026-01-05T06:47:11.863023+00:00"
   }
 ]
