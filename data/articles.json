@@ -1,5 +1,21 @@
 [
   {
+    "id": "838ce6dda9d8f247f16bd1061e9b4086",
+    "url": "https://www.reddit.com/r/Python/comments/1q8c0q4/released_a_tiny_vectorfield_attractor/",
+    "title": "Released a tiny vector-field + attractor visualization tool (fieldviz-mini)",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>What My Project Does:</p> <p>fieldviz-mini is a tiny (&lt;200 lines) Python library for visualizing 2D dynamical systems, including: </p> <ul> <li>vector fields</li> <li>flow lines</li> <li>attractor trajectories</li> </ul> <p>It\u2019s designed as a clean, minimal way to explore dynamical behavior sans heavy dependencies or large frameworks.</p> <p>Target audience:</p> <p>This project is intended for: </p> <ul> <li>students learning dynamical systems</li> <li>researchers for quick visualization tool</li> <li>hobbyists experimenting with fields, flows, attractors, or numerical systems (my use)</li> <li>anyone who wants a tiny, readable reference implementation instead of a large black-box lib.</li> </ul> <p>It\u2019s not meant to replace full simulation environments. It\u2019s just a super lightweight field visualizer you can plug into notebooks or small scripts.</p> <p>Comparison:</p> <p>Compared to larger libraries like matplotlib streamplots, scipy ODE solvers, or full simulation frameworks (e.g., PyDSTool), fieldviz-mini gives: </p> <ul> <li>Dramatically smaller code (&lt;150 LOC)</li> <li>a simple API</li> <li>attractor-oriented plotting out the door</li> <li>no config overhead</li> <li>easy embedding for educational materials or prototypes </li> </ul> <p>It\u2019s intentionally minimalistic. I needed (and mean) it to be easy to read and extend.</p> <p>PyPI</p> <p>pip install fieldviz-mini<br /> <a href=\"https://pypi.org/project/fieldviz-mini/\">https://pypi.org/project/fieldviz-mini/</a></p> <p>GitHub</p> <p><a href=\"https://github.com/rjsabouhi/fieldviz-mini\">https://github.com/rjsabouhi/fieldviz-mini</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RJSabouhi\"> /u/RJSabouhi </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q8c0q4/released_a_tiny_vectorfield_attractor/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q8c0q4/released_a_tiny_vectorfield_attractor/\">[comments]</a></span>",
+    "author": "/u/RJSabouhi",
+    "published_date": "2026-01-09T15:58:01+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 203,
+    "reading_time": 1,
+    "created_at": "2026-01-10T09:21:42.850972+00:00",
+    "updated_at": "2026-01-10T09:21:42.850973+00:00"
+  },
+  {
     "id": "a0e1014b4f36e4b983b4890c5026b0ef",
     "url": "http://daniellakens.blogspot.com/2025/12/dogmatic-bayesianism-disorder.html",
     "title": "Dogmatic Bayesianism Disorder",
@@ -17080,26 +17096,6 @@
     "updated_at": "2026-01-06T01:17:24.132892+00:00",
     "metadata": {
       "processed_at": "2026-01-06T01:17:24.132902+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "e0b4eb6f1f58e3b4a681600545af7ea5",
-    "url": "https://www.reddit.com/r/Python/comments/1q4n4yd/pypdfform_v411_has_released/",
-    "title": "PyPDFForm v4.1.1 has released",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Happy new year <a href=\"/r/Python\">r/Python</a>! It's been a bit over half a year since the <a href=\"https://www.reddit.com/r/Python/comments/1ljas6t/pypdfform_v300_has_released/\">last post</a> I made about PyPDFForm. As the project starts its sixth year of development, I'd like to update you with a handful (yet not a complete list) of new features that have been introduced in the last 7 months, some of which were requested by the exact fellow redditors of you guys:</p> <ol> <li>Performance! Yes I know people mock Python for its performance, but that doesn't stop us from writing faster code. A number of PyPDFForm's old, not performant APIs, for example create form fields, are deprecated/removed and replaced by their more performant equivalencies. Now it should be faster to do things with PyPDFForm, especially in bulk.</li> <li>Thanks to qpdf, the project now has even better appearance handling ability, making it capable of generating at least ASCII based text appearances for single line text fields. This is rather significant because not all PDF viewers have bulitin appearance generation functionality. In the case when one doesn't, PyPDFForm now offers a fallback.</li> <li>You can draw more types of elements on a PDF. On top of the already supported texts and images, you can now draw different shapes such as line segments, rectangles, circles, and ellipses, with some starter level of styling you could customize for each. I plan on continuously expand this feature so that we can have more elements to draw and more styling to customize in the future.</li> <li>The <a href=\"https://chinapandaman.github.io/PyPDFForm/v4.1/\">docs site</a> has been revamped, it was completely rebuilt using the Material for MkDocs theme. Previously it was just using the default Read the Docs theme that came with MkDocs. While it's simple and minimal, it lacked critical features for what I consider a production ready project's documentation. With the new theme, you should have a much better time navigating through the docs with better syntax highlighting, searching, layouts, etc. Also the docs site is now versioned, as it should for a long time.</li> <li>You can now embed JavaScript code into form fields using PyPDFForm. This is a beta feature that just got rolled out in v4.1. The reason it's beta is that...it may not be secure, and I debated for a while whether to offer this or not. I decided to do so because in the end, you could always do it, and PyPDFForm is just making it simpler. So if all things go well, you can use JavaScript to make your PDF forms more dynamic with your own creativity.</li> <li>To further prove the level of dynamic you could achieve with PyPDFForm, I spent this past weekend hacked together a POC project which, <a href=\"https://github.com/chinapandaman/pdf-tic-tac-toe\">literally lets you play Tic-tac-toe on a PDF form</a>.</li> </ol> <p>If you find this interesting, feel free to checkout the project's <a href=\"https://github.com/chinapandaman/PyPDFForm\">GitHub repo</a>, its <a href=\"https://pypi.org/project/PyPDFForm/\">PyPi page</a>, and its <a href=\"https://chinapandaman.github.io/PyPDFForm/\">documentation</a>. And like always, I hope you guys find the library helpful for your own PDF generation workflow. Feel free to try it, test it, leave comments or suggestions, and open issues. And of course if you are willing, kindly give me a star on GitHub (I'm INCHES away from 1k stars so do it :D).</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chinapandaman\"> /u/chinapandaman </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q4n4yd/pypdfform_v411_has_released/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q4n4yd/pypdfform_v411_has_released/\">[comments]</a></span>",
-    "author": "/u/chinapandaman",
-    "published_date": "2026-01-05T14:30:16+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 550,
-    "reading_time": 2,
-    "created_at": "2026-01-05T23:21:43.400192+00:00",
-    "updated_at": "2026-01-06T01:17:24.132907+00:00",
-    "metadata": {
-      "processed_at": "2026-01-06T01:17:24.132908+00:00",
       "processing_method": "github_actions"
     }
   }

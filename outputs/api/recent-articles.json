@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-10T08:52:14.402217+00:00",
+  "last_updated": "2026-01-10T09:22:56.292510+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "838ce6dda9d8f247f16bd1061e9b4086",
+      "url": "https://www.reddit.com/r/Python/comments/1q8c0q4/released_a_tiny_vectorfield_attractor/",
+      "title": "Released a tiny vector-field + attractor visualization tool (fieldviz-mini)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>What My Project Does:</p> <p>fieldviz-mini is a tiny (&lt;200 lines) Python library for visualizing 2D dynamical systems, including: </p> <ul> <li>vector fields</li> <li>flow lines</li> <li>attractor trajectories</li> </ul> <p>It\u2019s designed as a clean, minimal way to explore dynamical behavior sans heavy dependencies or large frameworks.</p> <p>Target audience:</p> <p>This project is intended for: </p> <ul> <li>students learning dynamical systems</li> <li>researchers for quick visualization tool</li> <li>hobbyists experimenting with fields, flows, attractors, or numerical systems (my use)</li> <li>anyone who wants a tiny, readable reference implementation instead of a large black-box lib.</li> </ul> <p>It\u2019s not meant to replace full simulation environments. It\u2019s just a super lightweight field visualizer you can plug into notebooks or small scripts.</p> <p>Comparison:</p> <p>Compared to larger libraries like matplotlib streamplots, scipy ODE solvers, or full simulation frameworks (e.g., PyDSTool), fieldviz-mini gives: </p> <ul> <li>Dramatically smaller code (&lt;150 LOC)</li> <li>a simple API</li> <li>attractor-oriented plotting out the door</li> <li>no config overhead</li> <li>easy embedding for educational materials or prototypes </li> </ul> <p>It\u2019s intentionally minimalistic. I needed (and mean) it to be easy to read and extend.</p> <p>PyPI</p> <p>pip install fieldviz-mini<br /> <a href=\"https://pypi.org/project/fieldviz-mini/\">https://pypi.org/project/fieldviz-mini/</a></p> <p>GitHub</p> <p><a href=\"https://github.com/rjsabouhi/fieldviz-mini\">https://github.com/rjsabouhi/fieldviz-mini</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RJSabouhi\"> /u/RJSabouhi </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q8c0q4/released_a_tiny_vectorfield_attractor/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q8c0q4/released_a_tiny_vectorfield_attractor/\">[comments]</a></span>",
+      "author": "/u/RJSabouhi",
+      "published_date": "2026-01-09T15:58:01+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 203,
+      "reading_time": 1,
+      "created_at": "2026-01-10T09:21:42.850972+00:00",
+      "updated_at": "2026-01-10T09:21:42.850973+00:00"
+    },
     {
       "id": "a0e1014b4f36e4b983b4890c5026b0ef",
       "url": "http://daniellakens.blogspot.com/2025/12/dogmatic-bayesianism-disorder.html",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-10T06:33:22.128924+00:00",
       "updated_at": "2026-01-10T06:33:22.128926+00:00"
-    },
-    {
-      "id": "676d128fe7b91fbaf7b2a727dfce9520",
-      "url": "https://www.nature.com/articles/s41598-026-35374-z",
-      "title": "Robust averaging of emotional faces and its association with psychotic-like experiences and social connection",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-10T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-10T06:33:22.128903+00:00",
-      "updated_at": "2026-01-10T06:33:22.128906+00:00"
     }
   ]
 }
