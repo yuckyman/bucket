@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-10T18:22:56.205699+00:00",
+  "last_updated": "2026-01-10T18:31:48.350246+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "2143bfc4f5149061c64df17426382b4d",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1692719",
+      "title": "Eye-tracking during free visual exploration of familiar dramatic character faces facilitates rapid and accurate stroke recognition",
+      "content": "BackgroundStroke patients often experience significant impairments, making rapid and accurate detection crucial for timely intervention and early warning. However, existing diagnostic methods such as advanced neuroimaging are often time-consuming, highly dependent on operator expertise, or costly and complex to deploy, limiting their scalability in resource-restricted settings. Eye movement patterns in stroke patients present a promising opportunity for efficient detection, given their close ties to underlying neurocognitive mechanisms and potential diagnostic sensitivity. Nevertheless, the lack of a feasible task paradigm and robust detection strategy has hindered the practical application of eye movement-based stroke identification. This study aimed to capture eye movement dysfunction associated with stroke through an ecological paradigm and develop a machine learning model with improved diagnostic accuracy.MethodsWe recorded eye movement signals in stroke patients (N = 16) and healthy controls (N = 23) during free visual exploration of familiar dramatic character faces. A diverse set of eye movement features, encompassing saccadic, fixation, and scanpath features, was extracted and analyzed. These features were subsequently employed to construct machine learning models for the recognition of stroke patients.ResultsWe identified distinctive eye movement patterns in the stroke group, including prolonged fixation duration, restricted saccadic movements, and reduced scanpath length, which reflect underlying visual processing impairments. Furthermore, by integrating these multi-dimensional eye movement features, our machine learning model achieved a high accuracy of 87.18% and an excellent area under the receiver operating characteristic curve (AUROC) of 0.92 in distinguishing stroke patients.DiscussionThis study demonstrates that ecologically valid eye-tracking, combined with multi-type feature analytics, serves as a practical screening tool with the potential to significantly improve identification accuracy and alleviate logistical burdens in community and primary care settings.",
+      "author": "Cong Yan",
+      "published_date": "2026-01-06T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 272,
+      "reading_time": 1,
+      "created_at": "2026-01-10T18:31:05.394373+00:00",
+      "updated_at": "2026-01-10T18:31:05.394375+00:00"
+    },
     {
       "id": "698a3967478d4ba61f5711c9117ea7e6",
       "url": "https://www.embs.org/uncategorized/call-for-applications-ieee-tmrb-editor-in-chief-search/",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-10T16:48:17.828402+00:00",
       "updated_at": "2026-01-10T16:48:17.828410+00:00"
-    },
-    {
-      "id": "25836caafaf680e990193c2b8068eb66",
-      "url": "https://www.nature.com/articles/s41598-026-35580-9",
-      "title": "Temporal calibration in taste temporal order judgment is associated with empathizing traits",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-10T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-10T16:26:55.235945+00:00",
-      "updated_at": "2026-01-10T16:26:55.235947+00:00"
     }
   ]
 }

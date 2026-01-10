@@ -1,5 +1,21 @@
 [
   {
+    "id": "2143bfc4f5149061c64df17426382b4d",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1692719",
+    "title": "Eye-tracking during free visual exploration of familiar dramatic character faces facilitates rapid and accurate stroke recognition",
+    "content": "BackgroundStroke patients often experience significant impairments, making rapid and accurate detection crucial for timely intervention and early warning. However, existing diagnostic methods such as advanced neuroimaging are often time-consuming, highly dependent on operator expertise, or costly and complex to deploy, limiting their scalability in resource-restricted settings. Eye movement patterns in stroke patients present a promising opportunity for efficient detection, given their close ties to underlying neurocognitive mechanisms and potential diagnostic sensitivity. Nevertheless, the lack of a feasible task paradigm and robust detection strategy has hindered the practical application of eye movement-based stroke identification. This study aimed to capture eye movement dysfunction associated with stroke through an ecological paradigm and develop a machine learning model with improved diagnostic accuracy.MethodsWe recorded eye movement signals in stroke patients (N = 16) and healthy controls (N = 23) during free visual exploration of familiar dramatic character faces. A diverse set of eye movement features, encompassing saccadic, fixation, and scanpath features, was extracted and analyzed. These features were subsequently employed to construct machine learning models for the recognition of stroke patients.ResultsWe identified distinctive eye movement patterns in the stroke group, including prolonged fixation duration, restricted saccadic movements, and reduced scanpath length, which reflect underlying visual processing impairments. Furthermore, by integrating these multi-dimensional eye movement features, our machine learning model achieved a high accuracy of 87.18% and an excellent area under the receiver operating characteristic curve (AUROC) of 0.92 in distinguishing stroke patients.DiscussionThis study demonstrates that ecologically valid eye-tracking, combined with multi-type feature analytics, serves as a practical screening tool with the potential to significantly improve identification accuracy and alleviate logistical burdens in community and primary care settings.",
+    "author": "Cong Yan",
+    "published_date": "2026-01-06T00:00:00+00:00",
+    "source": "Frontiers Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 272,
+    "reading_time": 1,
+    "created_at": "2026-01-10T18:31:05.394373+00:00",
+    "updated_at": "2026-01-10T18:31:05.394375+00:00"
+  },
+  {
     "id": "698a3967478d4ba61f5711c9117ea7e6",
     "url": "https://www.embs.org/uncategorized/call-for-applications-ieee-tmrb-editor-in-chief-search/",
     "title": "Call for Applications: IEEE T-MRB Editor in Chief Search",
@@ -17130,21 +17146,5 @@
     "reading_time": 1,
     "created_at": "2026-01-06T06:36:56.883882+00:00",
     "updated_at": "2026-01-06T06:36:56.883883+00:00"
-  },
-  {
-    "id": "5903ed4e9a06708b541d7bc1ba86a7d5",
-    "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1731143",
-    "title": "Robustness, spatial detail, and pitfalls of fixed ICA dimensionality in resting-state fMRI networks at 1.5, 3, and 7\u202fT",
-    "content": "Resting-state fMRI functional connectivity analysis is usually performed with seed-based methods that strongly rely on user-dependent definitions of regions of interest. Data-driven methods like independent component analysis (ICA) can mitigate this need. However, the number of components that should be expected in an fMRI acquisition, which determines the model order of the ICA, is not defined, and it is not uniformly chosen across studies. This variability is further complicated by the dependence of component number on field strength, with higher field strengths typically yielding more detectable components. Therefore, relying on a predetermined number may influence the results. Here, we compare functional maps obtained through ICA analysis at different magnetic field strengths and at various levels of spatial detail. Our results confirm the presence of the most frequently reported resting-state networks across field strengths and demonstrate that higher magnetic field strength enables more robust detection of functional networks with greater spatial detail. We also show that: (1) fixing the number of components, although improving interpretability of group results, may provide an incomplete picture of brain function; (2) a greater number of components is consistently identified at higher field strength, suggesting that the model order should be adapted according to both field strength and spatial detail.",
-    "author": "Laura Biagi",
-    "published_date": "2026-01-06T00:00:00+00:00",
-    "source": "Frontiers Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 204,
-    "reading_time": 1,
-    "created_at": "2026-01-06T06:36:56.883863+00:00",
-    "updated_at": "2026-01-06T06:36:56.883865+00:00"
   }
 ]
