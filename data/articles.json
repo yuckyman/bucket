@@ -1,5 +1,21 @@
 [
   {
+    "id": "c8a1d75f006986b3f2857acb8592e89d",
+    "url": "https://www.reddit.com/r/Python/comments/1q9j1tr/a_correctnessfirst_selfimproving_loop_for_python/",
+    "title": "A correctness-first self-improving loop for Python code optimization",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>What My Project Does</p> <p>This project experiments with a correctness-first self-improving loop written in Python.</p> <p>It automatically generates multiple candidate implementations for a task, verifies correctness using test cases, benchmarks performance, rejects regressions, and iterates until performance converges.</p> <p>The system records past attempts and reflections to avoid repeating failed optimization paths.</p> <p>\u2e3b</p> <p>Target Audience This is an experimental / research-oriented project.</p> <p>It is not intended for production use. It is mainly for: \u2022 developers interested in program optimization \u2022 people exploring automated code evaluation \u2022 learning how correctness constraints affect optimization loops</p> <p>\u2e3b</p> <p>Comparison Unlike many auto-optimization or AI coding tools that focus only on performance or code generation, this project enforces strict correctness checks at every step.</p> <p>It also explicitly detects regressions and uses convergence criteria (\u201cno improvement for N iterations\u201d) instead of running indefinitely.</p> <p>This makes the system more conservative but more stable compared to naive optimization loops.</p> <p>\u2e3b</p> <p>Source Code GitHub: <a href=\"https://github.com/byte271/Redo-Self-Improve-Agent\">https://github.com/byte271/Redo-Self-Improve-Agent</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cyh-c\"> /u/cyh-c </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q9j1tr/a_correctnessfirst_selfimproving_loop_for_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q9j1tr/a_correctnessfirst_selfimproving_loop_for_python/\">[comments]</a></span>",
+    "author": "/u/cyh-c",
+    "published_date": "2026-01-10T23:22:36+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 177,
+    "reading_time": 1,
+    "created_at": "2026-01-11T15:21:10.514819+00:00",
+    "updated_at": "2026-01-11T15:21:10.514820+00:00"
+  },
+  {
     "id": "13a1d4d2d7efdd4f10e71c30f84186cb",
     "url": "https://github.com/eyengin/xv6-riscv-unmatched",
     "title": "Show HN: Porting xv6 to HiFive Unmatched board",
@@ -17166,21 +17182,5 @@
     "reading_time": 1,
     "created_at": "2026-01-06T22:46:55.626660+00:00",
     "updated_at": "2026-01-06T22:46:55.626662+00:00"
-  },
-  {
-    "id": "d7fb0d6f4677fbb1a81b45352e1c9460",
-    "url": "https://github.com/neelsomani/symbolic-circuit-distillation",
-    "title": "Show HN: Symbolic Circuit Distillation: prove program to LLM circuit equivalence",
-    "content": "<p>Hi HN, I've been exploring various applications of formal methods to ML/interpretability and I've been hoping to get more eyes on the approach.<p>I have been working on a small interpretability project I call Symbolic Circuit Distillation. The goal is to take a tiny neuron-level circuit (like the ones in OpenAI's \"Sparse Circuits\" work) and automatically recover a concise Python program that implements the same algorithm, along with a bounded formal proof that the two are equivalent on a finite token domain.<p>Roughly, the pipeline is:<p>1. Start from a pruned circuit graph for a specific behavior (e.g. quote closing or bracket depth) extracted from a transformer.\n2. Treat the circuit as an executable function and train a tiny ReLU network (\"surrogate\") that exactly matches the circuit on all inputs in a bounded domain (typically sequences of length 5\u201310 over a small token alphabet).\n3. Search over a constrained DSL of common transformer motifs (counters, toggles, threshold detectors, small state machines) to synthesize candidate Python programs.\n4. Use SMT-based bounded equivalence checking to either:\n   - Prove that a candidate program and the surrogate agree on all inputs in the domain, or\n   - Produce a counterexample input that rules the program out.<p>If the solver finds a proof, you get a small, human-readable Python function plus a machine-checkable guarantee that it matches the original circuit on that bounded domain.<p>Why I built this<p>Mechanistic interpretability has gotten pretty good at extracting \"small crisp circuits\" from large models, but turning those graphs into clean, human-readable algorithms is still very manual. My goal here is to automate that last step: go from \"here is a sparse circuit\" to \"here is a verified algorithm that explains what it does\", without hand-holding.<p>What works today<p>- Tasks: quote closing and bracket-depth detection from the OpenAI circuit_sparsity repo.\n- Exact surrogate fitting on a finite token domain.\n- DSL templates for simple counters, toggles, and small state machines.\n- SMT-based bounded equivalence between:\n  sparse circuit -> ReLU surrogate -> Python program in the DSL.<p>Limitations and open questions<p>- The guarantees are bounded: equivalence is only proven on a finite token domain (short sequences and a small vocabulary).\n- Currently focused on very small circuits. Scaling to larger circuits and longer contexts is open engineering and research work.\n- The DSL is hand-designed around a few motifs. I am not yet learning the DSL itself or doing anything very clever in the search.<p>What I would love feedback on<p>- Are the problem framing and guarantees interesting to people working on mechanistic interpretability or formal methods?\n- Suggestions for next benchmarks: which circuits or behaviors would you want to see distilled next?\n- Feedback on the DSL design, search strategy, and SMT setup.<p>Happy to answer questions about implementation details, the SMT encoding, integration with OpenAI's Sparse Circuits repo, or anything else.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46518608\">https://news.ycombinator.com/item?id=46518608</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-    "author": "nsomani",
-    "published_date": "2026-01-06T20:57:06+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 474,
-    "reading_time": 2,
-    "created_at": "2026-01-06T22:46:55.626639+00:00",
-    "updated_at": "2026-01-06T22:46:55.626641+00:00"
   }
 ]

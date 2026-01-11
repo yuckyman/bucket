@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-11T14:44:39.536810+00:00",
+  "last_updated": "2026-01-11T15:22:15.997312+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "c8a1d75f006986b3f2857acb8592e89d",
+      "url": "https://www.reddit.com/r/Python/comments/1q9j1tr/a_correctnessfirst_selfimproving_loop_for_python/",
+      "title": "A correctness-first self-improving loop for Python code optimization",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>What My Project Does</p> <p>This project experiments with a correctness-first self-improving loop written in Python.</p> <p>It automatically generates multiple candidate implementations for a task, verifies correctness using test cases, benchmarks performance, rejects regressions, and iterates until performance converges.</p> <p>The system records past attempts and reflections to avoid repeating failed optimization paths.</p> <p>\u2e3b</p> <p>Target Audience This is an experimental / research-oriented project.</p> <p>It is not intended for production use. It is mainly for: \u2022 developers interested in program optimization \u2022 people exploring automated code evaluation \u2022 learning how correctness constraints affect optimization loops</p> <p>\u2e3b</p> <p>Comparison Unlike many auto-optimization or AI coding tools that focus only on performance or code generation, this project enforces strict correctness checks at every step.</p> <p>It also explicitly detects regressions and uses convergence criteria (\u201cno improvement for N iterations\u201d) instead of running indefinitely.</p> <p>This makes the system more conservative but more stable compared to naive optimization loops.</p> <p>\u2e3b</p> <p>Source Code GitHub: <a href=\"https://github.com/byte271/Redo-Self-Improve-Agent\">https://github.com/byte271/Redo-Self-Improve-Agent</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/cyh-c\"> /u/cyh-c </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q9j1tr/a_correctnessfirst_selfimproving_loop_for_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q9j1tr/a_correctnessfirst_selfimproving_loop_for_python/\">[comments]</a></span>",
+      "author": "/u/cyh-c",
+      "published_date": "2026-01-10T23:22:36+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 177,
+      "reading_time": 1,
+      "created_at": "2026-01-11T15:21:10.514819+00:00",
+      "updated_at": "2026-01-11T15:21:10.514820+00:00"
+    },
     {
       "id": "13a1d4d2d7efdd4f10e71c30f84186cb",
       "url": "https://github.com/eyengin/xv6-riscv-unmatched",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-11T12:42:51.821979+00:00",
       "updated_at": "2026-01-11T12:42:51.821981+00:00"
-    },
-    {
-      "id": "56725734f8a185819d1e8e30f1587b75",
-      "url": "https://www.notebookcheck.net/I-dumped-Windows-11-for-Linux-and-you-should-too.1190961.0.html",
-      "title": "I dumped Windows 11 for Linux, and you should too",
-      "content": "<p>Article URL: <a href=\"https://www.notebookcheck.net/I-dumped-Windows-11-for-Linux-and-you-should-too.1190961.0.html\">https://www.notebookcheck.net/I-dumped-Windows-11-for-Linux-and-you-should-too.1190961.0.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46574707\">https://news.ycombinator.com/item?id=46574707</a></p>\n<p>Points: 66</p>\n<p># Comments: 57</p>",
-      "author": "smurda",
-      "published_date": "2026-01-11T11:31:22+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-11T12:42:51.821950+00:00",
-      "updated_at": "2026-01-11T12:42:51.821957+00:00"
     }
   ]
 }
