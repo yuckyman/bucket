@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-11T10:23:45.307247+00:00",
+  "last_updated": "2026-01-11T10:46:53.709641+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "5faf3aeb53e6da8581fdae0f32b88e5c",
+      "url": "https://www.reddit.com/r/Python/comments/1q94jdp/new_python_sdk_for_the_product_hunt_api/",
+      "title": "New Python SDK for the Product Hunt API",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all!</p> <p>Made an open source Python SDK for the Product Hunt API since I couldn't find a maintained one.</p> <p>What My Project Does</p> <p>It lets you fetch trending products, track launches, browse topics/collections, and monitor your own products. Handles rate limits and pagination automatically, supports both sync and async.</p> <ul> <li>GitHub: <a href=\"https://github.com/Domoryonok/producthunt-sdk\">https://github.com/Domoryonok/producthunt-sdk</a></li> <li>Live demo: <a href=\"https://domoryonok.github.io/producthunt-sdk/\">https://domoryonok.github.io/producthunt-sdk/</a></li> </ul> <p>Target Audience</p> <ul> <li>Startup founders and indie hackers launching on Product Hunt - they can track votes, comments, and reviews on their launches in real-time and build monitoring dashboards or Slack notifications.</li> <li>Product managers and marketers - for competitive intelligence, tracking what's trending in their space, and discovering what kinds of products are getting traction.</li> <li>Developers building aggregation tools - anyone creating tech discovery apps, newsletters, or dashboards that curate the best new products.</li> </ul> <p>Comparison </p> <p>I built this because the existing Python libraries for Product Hunt are either outdated (haven't been touched in years) or too barebones (no async, no rate limit handling, no OAuth flow, returns raw dicts instead of typed objects) - I needed a modern, production-ready SDK with automatic rate limiting, async support, and proper typing for a real project. Also, the docs here might be the most complete guide to Product Hunt API quirks and data access limitations you'll find \ud83d\ude04 </p> <p>What are your thoughts on having both synchronous and asynchronous implementations? How do you do it in your own libraries?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/walkaway-96\"> /u/walkaway-96 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1q94jdp/new_python_sdk_for_the_product_hunt_api/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1q94jdp/new_python_sdk_for_the_product_hunt_api/\">[comments]</a></span>",
+      "author": "/u/walkaway-96",
+      "published_date": "2026-01-10T13:50:03+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 258,
+      "reading_time": 1,
+      "created_at": "2026-01-11T10:45:49.960722+00:00",
+      "updated_at": "2026-01-11T10:45:49.960723+00:00"
+    },
     {
       "id": "a6998a2de99bf0a6a477fa3d2cc9007e",
       "url": "https://darkcephas.blogspot.com/2021/07/max-payne-two-decades-later-graphics.html",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-11T08:28:49.159978+00:00",
       "updated_at": "2026-01-11T08:28:49.159979+00:00"
-    },
-    {
-      "id": "f5d48b717c919893f96492998ce36e60",
-      "url": "http://doi.org/10.1037/cns0000368",
-      "title": "Autonomous sensory meridian response (ASMR): A PRISMA-guided systematic review.",
-      "content": "The present PRISMA-guided article systematically reviews the current state of research on the autonomous sensory meridian response (ASMR). A systematic literature search was conducted in Pubmed, SCOPUS, and Web of Science (last search: March 2022) selecting all studies that conducted quantitative scientific research on the ASMR phenomenon. Fifty-four studies focusing on ASMR were retrieved (total participant number: <em>n</em> = 11,140). ASMR can be linked to several mental health-related variables (e.g., improved mood) and personality traits (e.g., neuroticism). On the neurobiological level, ASMR has been associated with altered electrophysiological response patterns (tentatively suggesting \u03b4 wave decreases), activation of specific brain areas (particularly the anterior cingulate gyrus and movement-related regions), and atypical functional connectivity patterns as well as physiological changes such as heart rate reduction. Future studies should evaluate the link between ASMR and additional psychological constructs, reveal more specific neurobiological outcome patterns and conduct long-term ASMR intervention studies. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2023-11-02T00:00:00+00:00",
-      "source": "Clinical Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 156,
-      "reading_time": 1,
-      "created_at": "2026-01-11T08:28:47.712956+00:00",
-      "updated_at": "2026-01-11T08:28:47.712958+00:00"
     }
   ]
 }
