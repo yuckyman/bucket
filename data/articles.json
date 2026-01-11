@@ -1,5 +1,37 @@
 [
   {
+    "id": "4f9fe6179f5aac46d09cff085a6fb271",
+    "url": "https://www.youtube.com/watch?v=il-TXbn5iMA",
+    "title": "I'm making a game engine based on dynamic signed distance fields (SDFs) [video]",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46539478\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-08T10:34:05+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-11T21:40:30.639039+00:00",
+    "updated_at": "2026-01-11T21:40:30.639041+00:00"
+  },
+  {
+    "id": "75bbbbba520b63daeea8ddf6e5cef22d",
+    "url": "https://www.npr.org/2026/01/11/nx-s1-5673949/dhs-restricts-congressional-visits-to-ice-facilities-in-minneapolis-with-new-policy",
+    "title": "DHS restricts congressional visits to ICE facilities in Minneapolis",
+    "content": "<p>Article URL: <a href=\"https://www.npr.org/2026/01/11/nx-s1-5673949/dhs-restricts-congressional-visits-to-ice-facilities-in-minneapolis-with-new-policy\">https://www.npr.org/2026/01/11/nx-s1-5673949/dhs-restricts-congressional-visits-to-ice-facilities-in-minneapolis-with-new-policy</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46579764\">https://news.ycombinator.com/item?id=46579764</a></p>\n<p>Points: 32</p>\n<p># Comments: 3</p>",
+    "author": "mickle00",
+    "published_date": "2026-01-11T20:39:37+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-11T21:40:29.272399+00:00",
+    "updated_at": "2026-01-11T21:40:29.272401+00:00"
+  },
+  {
     "id": "aad281ad3853225f6035ec7f3fb8ea3f",
     "url": "https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/",
     "title": "The struggle of resizing windows on macOS Tahoe",
@@ -17150,37 +17182,5 @@
     "reading_time": 1,
     "created_at": "2026-01-07T05:27:38.809603+00:00",
     "updated_at": "2026-01-07T05:27:38.809605+00:00"
-  },
-  {
-    "id": "73eb4fa501cbe588380a97166832c450",
-    "url": "https://arxiv.org/abs/2601.02618",
-    "title": "Hierarchical temporal receptive windows and zero-shot timescale generalization in biologically constrained scale-invariant deep networks",
-    "content": "arXiv:2601.02618v1 Announce Type: new \nAbstract: Human cognition integrates information across nested timescales. While the cortex exhibits hierarchical Temporal Receptive Windows (TRWs), local circuits often display heterogeneous time constants. To reconcile this, we trained biologically constrained deep networks, based on scale-invariant hippocampal time cells, on a language classification task mimicking the hierarchical structure of language (e.g., 'letters' forming 'words'). First, using a feedforward model (SITHCon), we found that a hierarchy of TRWs emerged naturally across layers, despite the network having an identical spectrum of time constants within layers. We then distilled these inductive priors into a biologically plausible recurrent architecture, SITH-RNN. Training a sequence of architectures ranging from generic RNNs to this restricted subset showed that the scale-invariant SITH-RNN learned faster with orders-of-magnitude fewer parameters, and generalized zero-shot to out-of-distribution timescales. These results suggest the brain employs scale-invariant, sequential priors - coding \"what\" happened \"when\" - making recurrent networks with such priors particularly well-suited to describe human cognition.",
-    "author": "Aakash Sarkar, Marc W. Howard",
-    "published_date": "2026-01-07T05:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 157,
-    "reading_time": 1,
-    "created_at": "2026-01-07T05:27:38.809571+00:00",
-    "updated_at": "2026-01-07T05:27:38.809573+00:00"
-  },
-  {
-    "id": "1bd0159dca20bde715ade51956489aad",
-    "url": "https://arxiv.org/abs/2601.02606",
-    "title": "gPC-based robustness analysis of neural systems through probabilistic recurrence metrics",
-    "content": "arXiv:2601.02606v1 Announce Type: new \nAbstract: Neuronal systems often preserve their characteristic functions and signalling patterns, also referred to as regimes, despite parametric uncertainties and variations. For neural models having uncertain parameters with a known probability distribution, probabilistic robustness analysis (PRA) allows us to understand and quantify under which uncertainty conditions a regime is preserved in expectation. We introduce a new computational framework for the efficient and systematic PRA of dynamical systems in neuroscience and we show its efficacy in analysing well-known neural models that exhibit multiple dynamical regimes: the Hindmarsh-Rose model for single neurons and the Jansen-Rit model for cortical columns. Given a model subject to parametric uncertainty, we employ generalised polynomial chaos to derive mean neural activity signals, which are then used to assess the amount of parametric uncertainty that the system can withstand while preserving the current regime, thereby quantifying the regime's robustness to such uncertainty. To assess persistence of regimes, we propose new metrics, which we apply to recurrence plots obtained from the mean neural activity signals. The overall result is a novel, general computational methodology that combines recurrence plot analysis and systematic persistence analysis to assess how much the uncertain model parameters can vary, with respect to their nominal value, while preserving the nominal regimes in expectation. We summarise the PRA results through probabilistic regime preservation (PRP) plots, which capture the effect of parametric uncertainties on the robustness of dynamical regimes in the considered models.",
-    "author": "Uros Sutulovic, Daniele Proverbio, Rami Katz, Giulia Giordano",
-    "published_date": "2026-01-07T05:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 239,
-    "reading_time": 1,
-    "created_at": "2026-01-07T05:27:38.809535+00:00",
-    "updated_at": "2026-01-07T05:27:38.809539+00:00"
   }
 ]
