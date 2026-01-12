@@ -1,5 +1,53 @@
 [
   {
+    "id": "efd378a9779a9bd0ecc2fc16dd7e8e37",
+    "url": "https://www.reddit.com/r/Python/comments/1qal0mz/just_launched_plano_v04_a_unified_data_plane/",
+    "title": "Just launched Plano v0.4 - a unified data plane supporting polyglot AI development",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Thrilled to be launching <a href=\"https://github.com/katanemo/plano\">Plano</a> (0.4+)- an edge and service proxy (aka data plane) with orchestration for agentic apps. Plano offloads the rote plumbing work like orchestration, routing, observability and guardrails not central to any codebase but tightly coupled today in the application layer thanks to the many hundreds of AI frameworks out there.</p> <p>Runs alongside your app servers (cloud, on-prem, or local dev) deployed as a side-car, and leaves GPUs where your models are hosted.</p> <p><strong>The problem</strong></p> <p>AI practitioners will probably tell you that calling an LLM is not the hard. The really hard part is delivering agentic apps to production quickly and reliably, then iterating without rewriting system code every time. In practice, teams keep rebuilding the same concerns that sit outside any single agent\u2019s core logic:</p> <p>This includes model choice - the ability to pull from a large set of LLMs and swap providers without refactoring prompts or streaming handlers. Developers need to learn from production by collecting signals and traces that tell them what to fix. They also need consistent policy enforcement for moderation and jailbreak protection, rather than sprinkling hooks across codebases. And they need multi-agent patterns to improve performance and latency without turning their app into orchestration glue.</p> <p>These concerns get rebuilt and maintained inside fast-changing frameworks and application code, coupling product logic to infrastructure decisions. It\u2019s brittle, and pulls teams away from core product work into plumbing they shouldn\u2019t have to own.</p> <p><strong>What Plano does</strong></p> <p>Plano moves core delivery concerns out of process into a modular proxy and dataplane designed for agents. It supports inbound listeners (agent orchestration, safety and moderation hooks), outbound listeners (hosted or API-based LLM routing), or both together. Plano provides the following capabilities via a unified dataplane:</p> <p>- Orchestration: Low-latency routing and handoff between agents. Add or change agents without modifying app code, and evolve strategies centrally instead of duplicating logic across services.</p> <p>- Guardrails &amp; Memory Hooks: Apply jailbreak protection, content policies, and context workflows (rewriting, retrieval, redaction) once via filter chains. This centralizes governance and ensures consistent behavior across your stack.</p> <p>- Model Agility: Route by model name, semantic alias, or preference-based policies. Swap or add models without refactoring prompts, tool calls, or streaming handlers.</p> <p>- Agentic Signals\u2122: Zero-code capture of behavior signals, traces, and metrics across every agent, surfacing traces, token usage, and learning signals in one place.</p> <p>The goal is to keep application code focused on product logic while Plano owns delivery mechanics.</p> <p><strong>On Architecture</strong></p> <p>Plano has two main parts:</p> <p>Envoy-based data plane. Uses Envoy\u2019s HTTP connection management to talk to model APIs, services, and tool backends. We didn\u2019t build a separate model server\u2014Envoy already handles streaming, retries, timeouts, and connection pooling. Some of us were core Envoy contributors.</p> <p>Brightstaff, a lightweight controller and state machine written in Rust. It inspects prompts and conversation state, decides which agents to call and in what order, and coordinates routing and fallback. It uses small LLMs (1\u20134B parameters) trained for constrained routing and orchestration. These models do not generate responses and fall back to static policies on failure. The models are open sourced here: <a href=\"https://huggingface.co/katanemo\">https://huggingface.co/katanemo</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AdditionalWeb107\"> /u/AdditionalWeb107 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qal0mz/just_launched_plano_v04_a_unified_data_plane/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qal0mz/just_launched_plano_v04_a_unified_data_plane/\">[comments]</a></span>",
+    "author": "/u/AdditionalWeb107",
+    "published_date": "2026-01-12T04:13:40+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 540,
+    "reading_time": 2,
+    "created_at": "2026-01-12T23:40:04.566125+00:00",
+    "updated_at": "2026-01-12T23:40:04.566127+00:00"
+  },
+  {
+    "id": "e7f81cc05ac44205880f244409397aa4",
+    "url": "https://www.reddit.com/r/Python/comments/1qaka1l/my_first_shipped_project_bmi_calculator_with/",
+    "title": "My First Shipped Project: BMI Calculator with Flexible Units & History Tracking\" + link + \"Feedback",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>**What My Project Does*\\</strong>*<br /> This is a simple console-based BMI calculator built in Python. It calculates your Body Mass Index, supports flexible units (weight in kg or lbs, height in cm/m/ft/in), automatically saves your history with dates, and gives personalized health advice based on BMI categories (Underweight to Extreme Obesity). It's fully offline and stores data in a text file so your records persist between runs.</p> <p><strong>**Target Audience*\\</strong>*<br /> This is primarily a toy/learning project for beginners like me (first real shipped app after ~1 month of Python from zero). It's useful for anyone wanting a private, no-internet BMI tracker (e.g., students, fitness enthusiasts, or people who prefer console tools over web/apps). Not meant for production or medical use \u2014 just fun and educational!</p> <p><strong>**Comparison*\\</strong>*<br /> Unlike online BMI calculators (which require internet and don't save history), or basic scripts (which often lack unit flexibility or persistence), this one combines:<br /> - Multi-unit input (no conversion needed by user)<br /> - Automatic file-based history tracking<br /> - Motivational messages per category<br /> - Easy menu and delete option<br /> It's more feature-rich than most beginner projects while staying simple and local.</p> <p>Repo link: <a href=\"https://github.com/Kunalcoded/bmi-health-tracker\">https://github.com/Kunalcoded/bmi-health-tracker</a></p> <p>Screenshots:<br /> ![Menu](<a href=\"https://github.com/Kunalcoded/bmi-health-tracker/raw/main/menu.png\">https://github.com/Kunalcoded/bmi-health-tracker/raw/main/menu.png</a>)<br /> ![Calculation](<a href=\"https://github.com/Kunalcoded/bmi-health-tracker/raw/main/calculation.png\">https://github.com/Kunalcoded/bmi-health-tracker/raw/main/calculation.png</a>)<br /> ![History](<a href=\"https://github.com/Kunalcoded/bmi-health-tracker/raw/main/history.png\">https://github.com/Kunalcoded/bmi-health-tracker/raw/main/history.png</a>)</p> <p>Feedback welcome! Any suggestions for improvements or next features? (Planning to add charts or export next.)</p> <p>#Python #BeginnerProject</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TwoNo9469\"> /u/TwoNo9469 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qaka1l/my_first_shipped_project_bmi_calculator_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qaka1l/my_first_shipped_project_bmi_calculator_with/\">[comments]</a></span>",
+    "author": "/u/TwoNo9469",
+    "published_date": "2026-01-12T03:37:56+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 245,
+    "reading_time": 1,
+    "created_at": "2026-01-12T23:40:04.566046+00:00",
+    "updated_at": "2026-01-12T23:40:04.566048+00:00"
+  },
+  {
+    "id": "191490c2ce1b39cd2225fbd6a3096c61",
+    "url": "https://www.barrons.com/news/non-essential-french-embassy-staff-have-left-iran-sources-d84d1f51",
+    "title": "Non-Essential French Embassy Staff Have Left Iran",
+    "content": "<p>Article URL: <a href=\"https://www.barrons.com/news/non-essential-french-embassy-staff-have-left-iran-sources-d84d1f51\">https://www.barrons.com/news/non-essential-french-embassy-staff-have-left-iran-sources-d84d1f51</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46595394\">https://news.ycombinator.com/item?id=46595394</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
+    "author": "mhb",
+    "published_date": "2026-01-12T23:02:30+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-12T23:40:02.160340+00:00",
+    "updated_at": "2026-01-12T23:40:02.160350+00:00"
+  },
+  {
     "id": "0312b003835a7a7e9e111cc57c4fdd65",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.10.698757v1?rss=1",
     "title": "Investigating cross-memory interactions of timing structures",
@@ -17150,61 +17198,5 @@
       "processed_at": "2026-01-08T06:27:31.032155+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "d1532b3ce455d3f343f9378cb314d493",
-    "url": "https://patchouli.readthedocs.io/en/latest/",
-    "title": "Project Patchouli: Open-source electromagnetic drawing tablet hardware",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46537489\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-08T05:20:05+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-08T05:49:23.582944+00:00",
-    "updated_at": "2026-01-08T06:27:31.032153+00:00",
-    "metadata": {
-      "processed_at": "2026-01-08T06:27:31.032155+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "b06b7946e1b03c0e80d7071417121993",
-    "url": "https://iceraidsnearme.com/",
-    "title": "Show HN: IceRaidsNearMe \u2013 Real-time, crowdsourced map of immigration enforcement",
-    "content": "<p>I built this to provide transparency around enforcement activities. It uses [mention tech stack, e.g., Mapbox/Leaflet] and a verification system to prevent false positives. Feedback on the verification logic is welcome.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46536862\">https://news.ycombinator.com/item?id=46536862</a></p>\n<p>Points: 32</p>\n<p># Comments: 4</p>",
-    "author": "todaycompanies",
-    "published_date": "2026-01-08T03:30:39+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 42,
-    "reading_time": 1,
-    "created_at": "2026-01-08T05:49:22.279863+00:00",
-    "updated_at": "2026-01-08T06:27:31.032160+00:00",
-    "metadata": {
-      "processed_at": "2026-01-08T06:27:31.032161+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "e76ccc91b6076281f9625489ea93e3fb",
-    "url": "https://arxiv.org/abs/2601.03928",
-    "title": "FocusUI: Efficient UI Grounding via Position-Preserving Visual Token Selection",
-    "content": "arXiv:2601.03928v1 Announce Type: cross \nAbstract: Vision-Language Models (VLMs) have shown remarkable performance in User Interface (UI) grounding tasks, driven by their ability to process increasingly high-resolution screenshots. However, screenshots are tokenized into thousands of visual tokens (e.g., about 4700 for 2K resolution), incurring significant computational overhead and diluting attention. In contrast, humans typically focus on regions of interest when interacting with UI. In this work, we pioneer the task of efficient UI grounding. Guided by practical analysis of the task's characteristics and challenges, we propose FocusUI, an efficient UI grounding framework that selects patches most relevant to the instruction while preserving positional continuity for precise grounding. FocusUI addresses two key challenges: (1) Eliminating redundant tokens in visual encoding. We construct patch-level supervision by fusing an instruction-conditioned score with a rule-based UI-graph score that down-weights large homogeneous regions to select distinct and instruction-relevant visual tokens. (2) Preserving positional continuity during visual token selection. We find that general visual token pruning methods suffer from severe accuracy degradation on UI grounding tasks due to broken positional information. We introduce a novel PosPad strategy, which compresses each contiguous sequence of dropped visual tokens into a single special marker placed at the sequence's last index to preserve positional continuity. Comprehensive experiments on four grounding benchmarks demonstrate that FocusUI surpasses GUI-specific baselines. On the ScreenSpot-Pro benchmark, FocusUI-7B achieves a performance improvement of 3.7% over GUI-Actor-7B. Even with only 30% visual token retention, FocusUI-7B drops by only 3.2% while achieving up to 1.44x faster inference and 17% lower peak GPU memory.",
-    "author": "Mingyu Ouyang, Kevin Qinghong Lin, Mike Zheng Shou, Hwee Tou Ng",
-    "published_date": "2026-01-08T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 254,
-    "reading_time": 1,
-    "created_at": "2026-01-08T05:27:03.187905+00:00",
-    "updated_at": "2026-01-08T05:27:03.187907+00:00"
   }
 ]
