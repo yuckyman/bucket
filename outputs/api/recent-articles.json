@@ -1,7 +1,103 @@
 {
-  "last_updated": "2026-01-13T20:19:46.724693+00:00",
+  "last_updated": "2026-01-13T20:28:24.376721+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "9bc93c2c4c7716c042d2e1a81bb91674",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.699003v1?rss=1",
+      "title": "TMS-EEG Indices to Define Local Cortical Excitability Thresholds",
+      "content": "Introduction - Transcranial magnetic stimulation (TMS) is widely employed to treat various psychiatric and neurological disorders. However, TMS protocols typically rely on generalizations, particularly in selecting stimulation intensities, leading to suboptimal and variable outcomes. Combining TMS with electroencephalography (EEG) offers a potential solution by allowing direct monitoring of stimulation effects. In this study, we investigate how features of the TMS-EEG signal change with intensity to identify thresholds implying qualitative shifts in the brain response. Methods - We stimulated eight subjects at both the primary motor cortex (M1) and the pre-supplementary motor area (pre-SMA) with navigated TMS at 15 closely spaced intensities and measured TMS-evoked EEG responses (TMS-evoked potential, TEP) with 60 trials per intensity. TEP thresholds were identified with three methods: by selecting the intensity where the TEP peak-to-peak exceeds 6 V, or by fitting either piecewise-linear or sigmoid curves into the power spectral density (PSD) frequency components to identify nonlinear intensity behavior. Results - The identified TEP thresholds varied depending on subject, target, and identification method. In M1, the thresholds attained with the fixed-amplitude and piecewise PSD fit methods averaged around the motor threshold, and in pre-SMA around 120% of the motor threshold. The TEP thresholds yielded by the sigmoid fit method were higher in intensity, and least consistent between subjects. Conclusions - Our findings support the hypothesis that detectable changes in EEG patterns occur at specific TMS intensities. These results provide a basis for individualized stimulation dosing, potentially enhancing therapeutic efficacy and reliability. Future research should focus on refining these methods and validating their clinical applicability across diverse conditions and patient populations.",
+      "author": "Rissanen, I. J., Grano\u0308, I., Souza, V. H., Sathyan, S., Thirugnanasambandam, N., Ilmoniemi, R. J., Lioumis, P.",
+      "published_date": "2026-01-13T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 264,
+      "reading_time": 1,
+      "created_at": "2026-01-13T20:27:53.802573+00:00",
+      "updated_at": "2026-01-13T20:27:53.802575+00:00"
+    },
+    {
+      "id": "79f624b8ed3aaf7b88c2bade46110bc6",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.699047v1?rss=1",
+      "title": "Modeling Time to Visual Insight in Mooney Image Recognition with a Chaotic Recurrent Neural Network",
+      "content": "Insight is often described as a sudden shift in or formation of a conceptual representation, enabling humans to restructure existing knowledge and solve problems beyond conventional analytical approaches. Although prior computational studies have modeled aspects of insight using deep neural networks (DNNs) or reinforcement learning, few have captured the dynamic emergence of insight through autonomous neural computation. Here, we present a neural network model that simulates the time required to reach visual insight in the Mooney image recognition task, a widely used paradigm for studying visual insight and perceptual reorganization. The model couples a DNN module for perceptual feature extraction with a recurrent neural network (RNN) that implements a chaotic search process for recognition. The RNN is formulated as a continuous-time dynamical system, autonomously explores internal states, and stabilizes when the missing visual features required for recognition are internally reconstructed. Using the same image set as in human psychophysical experiments, the model reproduces key statistical properties of human search times (STs), including (i) lognormal-like ST distributions across participants for each image, (ii) a proportional relationship between the log-scale mean and standard deviation estimated from lognormal fits across images, and (iii) discrete levels of the fitted log-scale mean across images (a proxy for image difficulty). Importantly, these properties emerge without assuming any lognormal distribution for participant-to-participant variability, whereas previous models reproduced similar signatures by positing lognormal-distributed individual differences. We further show that lognormal-like signatures can arise from exponential search dynamics when combined with both standard experimental preprocessing and finite observation windows, highlighting the need to distinguish generative mechanisms from measurement and analysis effects. Together, these results motivate a mechanistic link between chaotic neural dynamics and insight-related search and provide a computational framework for implementing insight in artificial systems.",
+      "author": "Kimura, M., Matsushita, Y., Inoue, M., Seno, S., Murata, T., Ohzawa, I., Yanagida, T., Kaneko, K., Hosoda, K.",
+      "published_date": "2026-01-13T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 287,
+      "reading_time": 1,
+      "created_at": "2026-01-13T20:27:53.802531+00:00",
+      "updated_at": "2026-01-13T20:27:53.802533+00:00"
+    },
+    {
+      "id": "32e0df5445b21d60fe59e6b9875062d9",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.09.698680v1?rss=1",
+      "title": "A neural moonshine conjecture. The representation of error-correcting codes in 3D symmetries invites the prospect of a Golay in the machine.",
+      "content": "Conant-Ashby's (\"good regulator\") theorem states that a simple regulator of a system must behave as an image of it. Notably, evolutionary features present in living beings often mirror natural processes, yielding symmetries between biological structures and the external environment. For instance, nervous cells can represent abstract entities through coordinated activities of neural networks. Central pattern generators (CPGs) used in locomotion display cyclic group symmetries (e.g. Zn ), while the visual cortex and hyperbolic geometries in the hippocampus are respectively connected with Euclidean (SE(2), SE(3)) and Special linear (SL(2, R)) groups. This study renders conceivable a very efficient instance of the perfect error-correcting Golay code, whose automorphism group is the Mathieu sporadic simple group M24 . We demonstrate that a set of 24 neurons is naturally organizable in a fully symmetric 3D polygonal network that embodies corruption-resistant dynamics. The existence of this configuration in biological systems is yet to be observed.",
+      "author": "Argolo, F.",
+      "published_date": "2026-01-13T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 150,
+      "reading_time": 1,
+      "created_at": "2026-01-13T20:27:53.802475+00:00",
+      "updated_at": "2026-01-13T20:27:53.802480+00:00"
+    },
+    {
+      "id": "a952033ae54c426d07b2d1040e13df91",
+      "url": "https://www.404media.co/instagram-ai-influencers-are-defaming-celebrities-with-sex-scandals/",
+      "title": "Instagram AI Influencers Are Defaming Celebrities with Sex Scandals",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46606633\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-13T19:39:04+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-13T20:27:12.629908+00:00",
+      "updated_at": "2026-01-13T20:27:12.629909+00:00"
+    },
+    {
+      "id": "12563ca73cf5b1f563a58532a0858d63",
+      "url": "https://www.theverge.com/2021/4/30/22410164/linux-kernel-university-of-minnesota-banned-open-source",
+      "title": "A university got itself banned from the Linux kernel (2021)",
+      "content": "<p>Article URL: <a href=\"https://www.theverge.com/2021/4/30/22410164/linux-kernel-university-of-minnesota-banned-open-source\">https://www.theverge.com/2021/4/30/22410164/linux-kernel-university-of-minnesota-banned-open-source</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46605950\">https://news.ycombinator.com/item?id=46605950</a></p>\n<p>Points: 18</p>\n<p># Comments: 2</p>",
+      "author": "italophil",
+      "published_date": "2026-01-13T18:58:55+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-13T20:27:11.519757+00:00",
+      "updated_at": "2026-01-13T20:27:11.519759+00:00"
+    },
+    {
+      "id": "a952033ae54c426d07b2d1040e13df91",
+      "url": "https://www.404media.co/instagram-ai-influencers-are-defaming-celebrities-with-sex-scandals/",
+      "title": "Instagram AI Influencers Are Defaming Celebrities with Sex Scandals",
+      "content": "<p>Article URL: <a href=\"https://www.404media.co/instagram-ai-influencers-are-defaming-celebrities-with-sex-scandals/\">https://www.404media.co/instagram-ai-influencers-are-defaming-celebrities-with-sex-scandals/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46606633\">https://news.ycombinator.com/item?id=46606633</a></p>\n<p>Points: 36</p>\n<p># Comments: 13</p>",
+      "author": "cdrnsf",
+      "published_date": "2026-01-13T19:39:04+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-13T20:27:11.519723+00:00",
+      "updated_at": "2026-01-13T20:27:11.519735+00:00"
+    },
     {
       "id": "c5df907383dc5077b3c790401b6c5762",
       "url": "https://fmhy.net/posts/dec-2025",
@@ -63,6 +159,26 @@
       }
     },
     {
+      "id": "c5cba350aaaca21e38fc75f45f04f4d3",
+      "url": "https://github.com/A1darbek/ayder",
+      "title": "Show HN: Ayder \u2013 HTTP-native durable event log written in C (curl as client)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46604862\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-13T17:55:37+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-13T19:21:03.584992+00:00",
+      "updated_at": "2026-01-13T20:19:46.628785+00:00",
+      "metadata": {
+        "processed_at": "2026-01-13T20:19:46.628787+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "49bd3d855d2fdbba04558f22aca82b67",
       "url": "https://old.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/",
       "title": "AI Generated Music Barred from Bandcamp",
@@ -79,6 +195,46 @@
       "updated_at": "2026-01-13T20:19:46.628789+00:00",
       "metadata": {
         "processed_at": "2026-01-13T20:19:46.628791+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "49bd3d855d2fdbba04558f22aca82b67",
+      "url": "https://old.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/",
+      "title": "AI Generated Music Barred from Bandcamp",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46605490\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-13T18:31:50+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-13T19:21:03.584937+00:00",
+      "updated_at": "2026-01-13T20:19:46.628789+00:00",
+      "metadata": {
+        "processed_at": "2026-01-13T20:19:46.628791+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "8c5fbbe3733b836cd4e8e904ee0b64fa",
+      "url": "https://coywolf.com/news/productivity/signal-president-and-vp-warn-agentic-ai-is-insecure-unreliable-and-a-surveillance-nightmare/",
+      "title": "Signal leaders warn agentic AI is an insecure, unreliable surveillance risk",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46605553\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-13T18:35:52+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-13T19:21:03.584893+00:00",
+      "updated_at": "2026-01-13T20:19:46.628793+00:00",
+      "metadata": {
+        "processed_at": "2026-01-13T20:19:46.628795+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -119,26 +275,6 @@
       "updated_at": "2026-01-13T19:21:02.294962+00:00"
     },
     {
-      "id": "c5cba350aaaca21e38fc75f45f04f4d3",
-      "url": "https://github.com/A1darbek/ayder",
-      "title": "Show HN: Ayder \u2013 HTTP-native durable event log written in C (curl as client)",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46604862\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-13T17:55:37+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-13T19:21:03.584992+00:00",
-      "updated_at": "2026-01-13T20:19:46.628785+00:00",
-      "metadata": {
-        "processed_at": "2026-01-13T20:19:46.628787+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "c0973633729a4158a3398b75d6941bd3",
       "url": "https://garymarcus.substack.com/p/the-rapid-rise-and-slow-decline-of",
       "title": "The rapid rise and slow decline of Sam Altman",
@@ -153,46 +289,6 @@
       "reading_time": 1,
       "created_at": "2026-01-13T19:21:02.294889+00:00",
       "updated_at": "2026-01-13T19:21:02.294891+00:00"
-    },
-    {
-      "id": "49bd3d855d2fdbba04558f22aca82b67",
-      "url": "https://old.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/",
-      "title": "AI Generated Music Barred from Bandcamp",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46605490\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-13T18:31:50+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-13T19:21:03.584937+00:00",
-      "updated_at": "2026-01-13T20:19:46.628789+00:00",
-      "metadata": {
-        "processed_at": "2026-01-13T20:19:46.628791+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8c5fbbe3733b836cd4e8e904ee0b64fa",
-      "url": "https://coywolf.com/news/productivity/signal-president-and-vp-warn-agentic-ai-is-insecure-unreliable-and-a-surveillance-nightmare/",
-      "title": "Signal leaders warn agentic AI is an insecure, unreliable surveillance risk",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46605553\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-13T18:35:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-13T19:21:03.584893+00:00",
-      "updated_at": "2026-01-13T20:19:46.628793+00:00",
-      "metadata": {
-        "processed_at": "2026-01-13T20:19:46.628795+00:00",
-        "processing_method": "github_actions"
-      }
     },
     {
       "id": "8beade9960924b928096b8619cc4f2b4",
@@ -257,114 +353,6 @@
       "reading_time": 1,
       "created_at": "2026-01-13T18:33:11.482476+00:00",
       "updated_at": "2026-01-13T18:33:11.482480+00:00"
-    },
-    {
-      "id": "fa34d77856eadbb294cb653ef318883e",
-      "url": "https://github.com/MichielMe/fastscheduler",
-      "title": "Show HN: FastScheduler \u2013 Decorator-first Python task scheduler, async support",
-      "content": "<p>Hi! I've built this because I kept reaching for Celery for simple scheduled tasks and it felt like overkill. I just needed \"run this function every hour\" or \"daily at 9am\", not distributed workers.<p>So it's decorators for scheduling (@scheduler.every(5).minutes, @scheduler.daily.at(\"09:00\")), state saves to JSON so jobs survive restarts, and there's an optional FastAPI dashboard if you want to see what's running.<p>No Redis, no message broker, runs in-process with your app. Trade-off is it's single process only \u2014 if you need distributed workers, stick with Celery.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46601631\">https://news.ycombinator.com/item?id=46601631</a></p>\n<p>Points: 8</p>\n<p># Comments: 2</p>",
-      "author": "michielme",
-      "published_date": "2026-01-13T14:45:44+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 96,
-      "reading_time": 1,
-      "created_at": "2026-01-13T18:33:10.183793+00:00",
-      "updated_at": "2026-01-13T18:33:10.183795+00:00"
-    },
-    {
-      "id": "fa1aab3bf1979cd94f124fbe1c538b9c",
-      "url": "https://state-of-iranblackout.whisper.security/",
-      "title": "90M people. 118 hours of silence. One nation erased from the internet",
-      "content": "<p>Article URL: <a href=\"https://state-of-iranblackout.whisper.security/\">https://state-of-iranblackout.whisper.security/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46603910\">https://news.ycombinator.com/item?id=46603910</a></p>\n<p>Points: 86</p>\n<p># Comments: 52</p>",
-      "author": "silencednetizen",
-      "published_date": "2026-01-13T17:05:43+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-13T18:33:10.183653+00:00",
-      "updated_at": "2026-01-13T18:33:10.183655+00:00"
-    },
-    {
-      "id": "2785beeaa858dc2eabf4453cf6b4cbce",
-      "url": "https://www.joanwestenberg.com/the-case-for-blogging-in-the-ruins/",
-      "title": "The Case for Blogging in the Ruins",
-      "content": "<p>Article URL: <a href=\"https://www.joanwestenberg.com/the-case-for-blogging-in-the-ruins/\">https://www.joanwestenberg.com/the-case-for-blogging-in-the-ruins/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46604959\">https://news.ycombinator.com/item?id=46604959</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
-      "author": "herbertl",
-      "published_date": "2026-01-13T18:00:20+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-13T18:33:10.183601+00:00",
-      "updated_at": "2026-01-13T18:33:10.183610+00:00"
-    },
-    {
-      "id": "4ed56417db3e1f2ead422cafbb7d4a7a",
-      "url": "https://www.reddit.com/r/Python/comments/1qban32/pato_query_summarize_and_transform_files_on_the/",
-      "title": "Pato - Query, Summarize, and Transform files on the command line with SQL",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I wanted to show off my latest project, Pato. Pato is a unix command line tool for running a Duck DB memory database and conveniently loading, querying, summarizing, and transforming your data files from the command line.</p> <p># What My post does</p> <p>An example would be<br /> <code>(pato) ksmeeks0001@LAPTOP-QB317V9D:~/pato$ pato load ../example.csv</code></p> <p><code>Loaded '/home/ksmeeks0001/example.csv' as 'example'</code></p> <p><code>(pato) ksmeeks0001@LAPTOP-QB317V9D:~/pato$ pato describe example</code></p> <p><code>column_name column_type null key default extra</code></p> <p><code>Username VARCHAR YES None None None</code></p> <p><code>Identifier BIGINT YES None None None</code></p> <p><code>First name VARCHAR YES None None None</code></p> <p><code>Last name VARCHAR YES None None None</code></p> <p><code>(pato) ksmeeks0001@LAPTOP-QB317V9D:~/pato$ pato count example</code></p> <p><code>example has 5 rows</code></p> <p><code>(pato) ksmeeks0001@LAPTOP-QB317V9D:~/pato$ pato summarize example</code></p> <p><code>column_name column_type min max approx_unique avg std q25 q50 q75 count null_percentage</code></p> <p><code>Username VARCHAR booker12 smith79 5 None None None None None 5 0.0</code></p> <p><code>Identifier BIGINT 2070 9346 4 5917.6 3170.5525228262663 3578 5079 9096 5 0.0</code></p> <p><code>First name VARCHAR Craig Rachel 5 None None None None None 5 0.0</code></p> <p><code>Last name VARCHAR Booker Smith 5 None None None None None 5 0.0</code></p> <p><code>(pato) ksmeeks0001@LAPTOP-QB317V9D:~/pato$ pato exec</code></p> <p><code>-- ENTER SQL</code></p> <p><code>create table usernames as</code></p> <p><code>select distinct username from example;</code></p> <p><code>Count</code></p> <p><code>0 5</code></p> <p><code>(pato) ksmeeks0001@LAPTOP-QB317V9D:~/pato$ pato export usernames ../usernames.json</code></p> <p><code>Exported 'usernames' to '/home/ksmeeks0001/usernames.json'</code></p> <p><code>(pato) ksmeeks0001@LAPTOP-QB317V9D:~/pato$ pato stop</code></p> <p><code>Pato stopped</code></p> <p># Target Audience</p> <p>Anyone wanting to quickly query or transform a csv, json, or parquet file on the command line. </p> <p># Comparison</p> <p>This project is similar in nature to the Duck Db Cli but Pato provides a database that is persistent while the server is running and allows for other commands to be executed. This allows you to also use environment variables while using Pato. </p> <p><code>export MYFILE=&quot;../example.csv&quot;</code></p> <p><code>pato load $MYFILE</code></p> <p>While the Duck DB Cli does add some shortcuts through its dot methods, Pato's commands make loading, inspecting, and exporting files easier. </p> <p>Check out the repo or pip install pato-cli and let me know what you think.</p> <p><a href=\"https://github.com/ksmeeks0001/Pato/tree/v0.1.4\">https://github.com/ksmeeks0001/Pato/tree/v0.1.4</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/KBaggins900\"> /u/KBaggins900 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qban32/pato_query_summarize_and_transform_files_on_the/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qban32/pato_query_summarize_and_transform_files_on_the/\">[comments]</a></span>",
-      "author": "/u/KBaggins900",
-      "published_date": "2026-01-12T23:15:03+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 337,
-      "reading_time": 1,
-      "created_at": "2026-01-13T17:54:33.079002+00:00",
-      "updated_at": "2026-01-13T18:26:00.444025+00:00",
-      "metadata": {
-        "processed_at": "2026-01-13T18:26:00.444034+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1bd39c1fdadea5f74c677a55222c1d42",
-      "url": "https://www.inc.com/jennifer-conrad/scott-adams-dilbert-dies-at-68/91286247",
-      "title": "Dilbert's Scott Adams Dies",
-      "content": "<p>Article URL: <a href=\"https://www.inc.com/jennifer-conrad/scott-adams-dilbert-dies-at-68/91286247\">https://www.inc.com/jennifer-conrad/scott-adams-dilbert-dies-at-68/91286247</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46604443\">https://news.ycombinator.com/item?id=46604443</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
-      "author": "MHofman12",
-      "published_date": "2026-01-13T17:32:39+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-13T17:54:30.664699+00:00",
-      "updated_at": "2026-01-13T18:26:00.444038+00:00",
-      "metadata": {
-        "processed_at": "2026-01-13T18:26:00.444040+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f1f54e3bc58a17c032c55b9beb72b922",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.698666v1?rss=1",
-      "title": "Proteome analysis reveals common players between the physiological neurodegeneration of the ascidian Ciona intestinalis and the pathological neurodegeneration in humans",
-      "content": "Tunicates, including ascidians, are recognized as the true 'sister group' of vertebrates and are emerging as models to study the development and degeneration of central nervous system (CNS). Ascidian larvae have the typical chordate body plan that includes a dorsal neural tube. During their metamorphosis, a deep tissue reorganization takes place, with some tissues that degenerate while others develop to become functional during the adult life. The larval CNS also degenerates and most neurons disappear, making room for the formation of adult CNS. The genome of the ascidian Ciona intestinalis has been sequenced and annotated, with several CNS specific genes that have been characterized, revealing specification mechanisms shared with humans. These features make ascidian metamorphosis a good model to study the mechanisms underlying physiological CNS degeneration and to compare them to the pathological conditions typical of neurodegenerative diseases. In order to shed light on the molecular determinants of C. intestinalis metamorphosis and neurodegeneration, we analyzed the proteome at three stages of development: swimming larva (SwL, Hotta stage 28), settled larva (SetL, Hotta stage 32) and metamorphosing larva (MetL, Hotta stage 34). A total of 405 modulated proteins were identified by mass spectrometry by comparing the three stages. Enrichment and network analysis showed the involvement of several processes/pathways, including autophagy and mTOR pathway, and actin cytoskeleton organization and remodeling among the most significant ones. This study elucidates molecular pathways underlying ascidian metamorphosis and highlights shared mechanisms between physiological neurodegeneration in ascidians and pathological neurodegeneration in humans.",
-      "author": "Capitanio, D., Mercurio, S., Mosca, E., Battaglia, C., Venturin, M., Pennati, R.",
-      "published_date": "2026-01-13T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 245,
-      "reading_time": 1,
-      "created_at": "2026-01-13T17:28:15.642327+00:00",
-      "updated_at": "2026-01-13T18:26:00.444043+00:00",
-      "metadata": {
-        "processed_at": "2026-01-13T18:26:00.444044+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }

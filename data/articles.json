@@ -1,5 +1,101 @@
 [
   {
+    "id": "9bc93c2c4c7716c042d2e1a81bb91674",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.699003v1?rss=1",
+    "title": "TMS-EEG Indices to Define Local Cortical Excitability Thresholds",
+    "content": "Introduction - Transcranial magnetic stimulation (TMS) is widely employed to treat various psychiatric and neurological disorders. However, TMS protocols typically rely on generalizations, particularly in selecting stimulation intensities, leading to suboptimal and variable outcomes. Combining TMS with electroencephalography (EEG) offers a potential solution by allowing direct monitoring of stimulation effects. In this study, we investigate how features of the TMS-EEG signal change with intensity to identify thresholds implying qualitative shifts in the brain response. Methods - We stimulated eight subjects at both the primary motor cortex (M1) and the pre-supplementary motor area (pre-SMA) with navigated TMS at 15 closely spaced intensities and measured TMS-evoked EEG responses (TMS-evoked potential, TEP) with 60 trials per intensity. TEP thresholds were identified with three methods: by selecting the intensity where the TEP peak-to-peak exceeds 6 V, or by fitting either piecewise-linear or sigmoid curves into the power spectral density (PSD) frequency components to identify nonlinear intensity behavior. Results - The identified TEP thresholds varied depending on subject, target, and identification method. In M1, the thresholds attained with the fixed-amplitude and piecewise PSD fit methods averaged around the motor threshold, and in pre-SMA around 120% of the motor threshold. The TEP thresholds yielded by the sigmoid fit method were higher in intensity, and least consistent between subjects. Conclusions - Our findings support the hypothesis that detectable changes in EEG patterns occur at specific TMS intensities. These results provide a basis for individualized stimulation dosing, potentially enhancing therapeutic efficacy and reliability. Future research should focus on refining these methods and validating their clinical applicability across diverse conditions and patient populations.",
+    "author": "Rissanen, I. J., Grano\u0308, I., Souza, V. H., Sathyan, S., Thirugnanasambandam, N., Ilmoniemi, R. J., Lioumis, P.",
+    "published_date": "2026-01-13T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 264,
+    "reading_time": 1,
+    "created_at": "2026-01-13T20:27:53.802573+00:00",
+    "updated_at": "2026-01-13T20:27:53.802575+00:00"
+  },
+  {
+    "id": "79f624b8ed3aaf7b88c2bade46110bc6",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.699047v1?rss=1",
+    "title": "Modeling Time to Visual Insight in Mooney Image Recognition with a Chaotic Recurrent Neural Network",
+    "content": "Insight is often described as a sudden shift in or formation of a conceptual representation, enabling humans to restructure existing knowledge and solve problems beyond conventional analytical approaches. Although prior computational studies have modeled aspects of insight using deep neural networks (DNNs) or reinforcement learning, few have captured the dynamic emergence of insight through autonomous neural computation. Here, we present a neural network model that simulates the time required to reach visual insight in the Mooney image recognition task, a widely used paradigm for studying visual insight and perceptual reorganization. The model couples a DNN module for perceptual feature extraction with a recurrent neural network (RNN) that implements a chaotic search process for recognition. The RNN is formulated as a continuous-time dynamical system, autonomously explores internal states, and stabilizes when the missing visual features required for recognition are internally reconstructed. Using the same image set as in human psychophysical experiments, the model reproduces key statistical properties of human search times (STs), including (i) lognormal-like ST distributions across participants for each image, (ii) a proportional relationship between the log-scale mean and standard deviation estimated from lognormal fits across images, and (iii) discrete levels of the fitted log-scale mean across images (a proxy for image difficulty). Importantly, these properties emerge without assuming any lognormal distribution for participant-to-participant variability, whereas previous models reproduced similar signatures by positing lognormal-distributed individual differences. We further show that lognormal-like signatures can arise from exponential search dynamics when combined with both standard experimental preprocessing and finite observation windows, highlighting the need to distinguish generative mechanisms from measurement and analysis effects. Together, these results motivate a mechanistic link between chaotic neural dynamics and insight-related search and provide a computational framework for implementing insight in artificial systems.",
+    "author": "Kimura, M., Matsushita, Y., Inoue, M., Seno, S., Murata, T., Ohzawa, I., Yanagida, T., Kaneko, K., Hosoda, K.",
+    "published_date": "2026-01-13T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 287,
+    "reading_time": 1,
+    "created_at": "2026-01-13T20:27:53.802531+00:00",
+    "updated_at": "2026-01-13T20:27:53.802533+00:00"
+  },
+  {
+    "id": "32e0df5445b21d60fe59e6b9875062d9",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.01.09.698680v1?rss=1",
+    "title": "A neural moonshine conjecture. The representation of error-correcting codes in 3D symmetries invites the prospect of a Golay in the machine.",
+    "content": "Conant-Ashby's (\"good regulator\") theorem states that a simple regulator of a system must behave as an image of it. Notably, evolutionary features present in living beings often mirror natural processes, yielding symmetries between biological structures and the external environment. For instance, nervous cells can represent abstract entities through coordinated activities of neural networks. Central pattern generators (CPGs) used in locomotion display cyclic group symmetries (e.g. Zn ), while the visual cortex and hyperbolic geometries in the hippocampus are respectively connected with Euclidean (SE(2), SE(3)) and Special linear (SL(2, R)) groups. This study renders conceivable a very efficient instance of the perfect error-correcting Golay code, whose automorphism group is the Mathieu sporadic simple group M24 . We demonstrate that a set of 24 neurons is naturally organizable in a fully symmetric 3D polygonal network that embodies corruption-resistant dynamics. The existence of this configuration in biological systems is yet to be observed.",
+    "author": "Argolo, F.",
+    "published_date": "2026-01-13T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 150,
+    "reading_time": 1,
+    "created_at": "2026-01-13T20:27:53.802475+00:00",
+    "updated_at": "2026-01-13T20:27:53.802480+00:00"
+  },
+  {
+    "id": "a952033ae54c426d07b2d1040e13df91",
+    "url": "https://www.404media.co/instagram-ai-influencers-are-defaming-celebrities-with-sex-scandals/",
+    "title": "Instagram AI Influencers Are Defaming Celebrities with Sex Scandals",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46606633\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-13T19:39:04+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-13T20:27:12.629908+00:00",
+    "updated_at": "2026-01-13T20:27:12.629909+00:00"
+  },
+  {
+    "id": "12563ca73cf5b1f563a58532a0858d63",
+    "url": "https://www.theverge.com/2021/4/30/22410164/linux-kernel-university-of-minnesota-banned-open-source",
+    "title": "A university got itself banned from the Linux kernel (2021)",
+    "content": "<p>Article URL: <a href=\"https://www.theverge.com/2021/4/30/22410164/linux-kernel-university-of-minnesota-banned-open-source\">https://www.theverge.com/2021/4/30/22410164/linux-kernel-university-of-minnesota-banned-open-source</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46605950\">https://news.ycombinator.com/item?id=46605950</a></p>\n<p>Points: 18</p>\n<p># Comments: 2</p>",
+    "author": "italophil",
+    "published_date": "2026-01-13T18:58:55+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-13T20:27:11.519757+00:00",
+    "updated_at": "2026-01-13T20:27:11.519759+00:00"
+  },
+  {
+    "id": "a952033ae54c426d07b2d1040e13df91",
+    "url": "https://www.404media.co/instagram-ai-influencers-are-defaming-celebrities-with-sex-scandals/",
+    "title": "Instagram AI Influencers Are Defaming Celebrities with Sex Scandals",
+    "content": "<p>Article URL: <a href=\"https://www.404media.co/instagram-ai-influencers-are-defaming-celebrities-with-sex-scandals/\">https://www.404media.co/instagram-ai-influencers-are-defaming-celebrities-with-sex-scandals/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46606633\">https://news.ycombinator.com/item?id=46606633</a></p>\n<p>Points: 36</p>\n<p># Comments: 13</p>",
+    "author": "cdrnsf",
+    "published_date": "2026-01-13T19:39:04+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-13T20:27:11.519723+00:00",
+    "updated_at": "2026-01-13T20:27:11.519735+00:00"
+  },
+  {
     "id": "c5df907383dc5077b3c790401b6c5762",
     "url": "https://fmhy.net/posts/dec-2025",
     "title": "Monthly Updates [December]",
@@ -60,6 +156,26 @@
     }
   },
   {
+    "id": "c5cba350aaaca21e38fc75f45f04f4d3",
+    "url": "https://github.com/A1darbek/ayder",
+    "title": "Show HN: Ayder \u2013 HTTP-native durable event log written in C (curl as client)",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46604862\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-13T17:55:37+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-13T19:21:03.584992+00:00",
+    "updated_at": "2026-01-13T20:19:46.628785+00:00",
+    "metadata": {
+      "processed_at": "2026-01-13T20:19:46.628787+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
     "id": "49bd3d855d2fdbba04558f22aca82b67",
     "url": "https://old.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/",
     "title": "AI Generated Music Barred from Bandcamp",
@@ -76,6 +192,46 @@
     "updated_at": "2026-01-13T20:19:46.628789+00:00",
     "metadata": {
       "processed_at": "2026-01-13T20:19:46.628791+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "49bd3d855d2fdbba04558f22aca82b67",
+    "url": "https://old.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/",
+    "title": "AI Generated Music Barred from Bandcamp",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46605490\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-13T18:31:50+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-13T19:21:03.584937+00:00",
+    "updated_at": "2026-01-13T20:19:46.628789+00:00",
+    "metadata": {
+      "processed_at": "2026-01-13T20:19:46.628791+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "8c5fbbe3733b836cd4e8e904ee0b64fa",
+    "url": "https://coywolf.com/news/productivity/signal-president-and-vp-warn-agentic-ai-is-insecure-unreliable-and-a-surveillance-nightmare/",
+    "title": "Signal leaders warn agentic AI is an insecure, unreliable surveillance risk",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46605553\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-13T18:35:52+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-13T19:21:03.584893+00:00",
+    "updated_at": "2026-01-13T20:19:46.628793+00:00",
+    "metadata": {
+      "processed_at": "2026-01-13T20:19:46.628795+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -116,26 +272,6 @@
     "updated_at": "2026-01-13T19:21:02.294962+00:00"
   },
   {
-    "id": "c5cba350aaaca21e38fc75f45f04f4d3",
-    "url": "https://github.com/A1darbek/ayder",
-    "title": "Show HN: Ayder \u2013 HTTP-native durable event log written in C (curl as client)",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46604862\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-13T17:55:37+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-13T19:21:03.584992+00:00",
-    "updated_at": "2026-01-13T20:19:46.628785+00:00",
-    "metadata": {
-      "processed_at": "2026-01-13T20:19:46.628787+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
     "id": "c0973633729a4158a3398b75d6941bd3",
     "url": "https://garymarcus.substack.com/p/the-rapid-rise-and-slow-decline-of",
     "title": "The rapid rise and slow decline of Sam Altman",
@@ -150,46 +286,6 @@
     "reading_time": 1,
     "created_at": "2026-01-13T19:21:02.294889+00:00",
     "updated_at": "2026-01-13T19:21:02.294891+00:00"
-  },
-  {
-    "id": "49bd3d855d2fdbba04558f22aca82b67",
-    "url": "https://old.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/",
-    "title": "AI Generated Music Barred from Bandcamp",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46605490\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-13T18:31:50+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-13T19:21:03.584937+00:00",
-    "updated_at": "2026-01-13T20:19:46.628789+00:00",
-    "metadata": {
-      "processed_at": "2026-01-13T20:19:46.628791+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "8c5fbbe3733b836cd4e8e904ee0b64fa",
-    "url": "https://coywolf.com/news/productivity/signal-president-and-vp-warn-agentic-ai-is-insecure-unreliable-and-a-surveillance-nightmare/",
-    "title": "Signal leaders warn agentic AI is an insecure, unreliable surveillance risk",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46605553\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-13T18:35:52+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-13T19:21:03.584893+00:00",
-    "updated_at": "2026-01-13T20:19:46.628793+00:00",
-    "metadata": {
-      "processed_at": "2026-01-13T20:19:46.628795+00:00",
-      "processing_method": "github_actions"
-    }
   },
   {
     "id": "8beade9960924b928096b8619cc4f2b4",
@@ -17138,113 +17234,5 @@
     "reading_time": 1,
     "created_at": "2026-01-09T01:49:35.762003+00:00",
     "updated_at": "2026-01-09T01:49:35.762004+00:00"
-  },
-  {
-    "id": "dad26cd61242bb80fb0dc3438418a816",
-    "url": "https://arstechnica.com/gadgets/2026/01/bose-open-sources-its-soundtouch-home-theater-smart-speakers-ahead-of-eol/",
-    "title": "Bose has released API docs and opened the API for its EoL SoundTouch speakers",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46541892\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-08T15:07:57+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-09T01:49:35.761907+00:00",
-    "updated_at": "2026-01-09T01:49:35.761909+00:00"
-  },
-  {
-    "id": "4a9672e9c80582101b98e646e41a62c1",
-    "url": "https://audioxpress.com/news/flint-confirms-biodegradable-paper-batteries-are-now-in-production",
-    "title": "Flint Confirms Biodegradable Paper Batteries Are Now in Production",
-    "content": "<p>Article URL: <a href=\"https://audioxpress.com/news/flint-confirms-biodegradable-paper-batteries-are-now-in-production\">https://audioxpress.com/news/flint-confirms-biodegradable-paper-batteries-are-now-in-production</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46547345\">https://news.ycombinator.com/item?id=46547345</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
-    "author": "rmason",
-    "published_date": "2026-01-08T22:24:50+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-01-09T01:49:34.393325+00:00",
-    "updated_at": "2026-01-09T01:49:34.393327+00:00"
-  },
-  {
-    "id": "0236de70ef6406e4c54de66dc383a3b2",
-    "url": "https://arstechnica.com/gadgets/2026/01/expired-certificate-completely-breaks-macos-logitech-apps-user-customizations/",
-    "title": "Expired certificate breaks macOS Logitech apps",
-    "content": "<p>Article URL: <a href=\"https://arstechnica.com/gadgets/2026/01/expired-certificate-completely-breaks-macos-logitech-apps-user-customizations/\">https://arstechnica.com/gadgets/2026/01/expired-certificate-completely-breaks-macos-logitech-apps-user-customizations/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46548201\">https://news.ycombinator.com/item?id=46548201</a></p>\n<p>Points: 18</p>\n<p># Comments: 7</p>",
-    "author": "worik",
-    "published_date": "2026-01-08T23:51:15+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-01-09T01:49:34.393275+00:00",
-    "updated_at": "2026-01-09T01:49:34.393283+00:00"
-  },
-  {
-    "id": "33d65ef37e12f640f3dd5d1413be8be3",
-    "url": "https://github.com/embassy-rs/embassy",
-    "title": "Embassy: Modern embedded framework, using Rust and async",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46547740\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-08T23:00:45+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-08T23:19:18.354534+00:00",
-    "updated_at": "2026-01-09T01:18:07.382413+00:00",
-    "metadata": {
-      "processed_at": "2026-01-09T01:18:07.382422+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "792f96a56a61a0117fb6e8dcf670e451",
-    "url": "https://pouyaii.github.io/Iran/",
-    "title": "Iran Protest Map",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46547303\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-08T22:20:34+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-08T23:19:18.354515+00:00",
-    "updated_at": "2026-01-09T01:18:07.382426+00:00",
-    "metadata": {
-      "processed_at": "2026-01-09T01:18:07.382428+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "792f96a56a61a0117fb6e8dcf670e451",
-    "url": "https://pouyaii.github.io/Iran/",
-    "title": "Iran Protest Map",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46547303\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-08T22:20:34+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-08T23:19:18.354515+00:00",
-    "updated_at": "2026-01-09T01:18:07.382426+00:00",
-    "metadata": {
-      "processed_at": "2026-01-09T01:18:07.382428+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]
