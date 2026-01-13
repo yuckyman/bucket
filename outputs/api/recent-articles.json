@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-13T08:33:55.720042+00:00",
+  "last_updated": "2026-01-13T09:30:42.812786+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d7067d150b0a12a646689d485a64be92",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1700481",
+      "title": "Information-theoretic gradient flows in mouse visual cortex",
+      "content": "IntroductionNeural activity can be described in terms of probability distributions that are continuously evolving in time. Characterizing how these distributions are reshaped as they pass between cortical regions is key to understanding how information is organized in the brain.MethodsWe developed a mathematical framework that represents these transformations as information-theoretic gradient flows \u2014 dynamical trajectories that follow the steepest ascent of entropy and expectation. The relative strengths of these two functionals provide interpretable measures of how neural probability distributions change as they propagate within neural systems. Following construct validation in silico, we applied the framework to publicly available continuous \u0394F/F two-photon calcium recordings from the mouse visual cortex.ResultsThe analysis revealed consistent bi-directional transformations between the rostrolateral area and the primary visual cortex across all five mice. These findings demonstrate that the relative contributions of entropy and expectation can be disambiguated and used to describe information flow within cortical networks.DiscussionWe introduce a framework for decomposing neural signal transformations into interpretable information-theoretic components. Beyond the mouse visual cortex, the method can be applied to diverse neuroimaging modalities and scales, thereby providing a generalizable approach for quantifying how information geometry shapes cortical communication.",
+      "author": "Milan Br\u00e1zdil",
+      "published_date": "2025-10-30T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 189,
+      "reading_time": 1,
+      "created_at": "2026-01-13T09:30:04.715855+00:00",
+      "updated_at": "2026-01-13T09:30:04.715856+00:00"
+    },
+    {
+      "id": "db7d1be3747af720b1169d7bc81f7aa7",
+      "url": "https://www.brethorsting.com/blog/2026/01/git-rebase-for-the-terrified/",
+      "title": "Git Rebase for the Terrified",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46530920\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-07T19:03:24+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-13T09:29:34.917348+00:00",
+      "updated_at": "2026-01-13T09:29:34.917349+00:00"
+    },
     {
       "id": "e1385798428586a67ced89a895faeb47",
       "url": "https://erpinfo.org/blog/2024/6/10/erp-core-decoding-paper",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-13T07:27:14.075626+00:00",
       "updated_at": "2026-01-13T07:27:14.075628+00:00"
-    },
-    {
-      "id": "0166860f6ebaf53bff77f9385cf15738",
-      "url": "https://www.nature.com/articles/s41537-025-00720-z",
-      "title": "Cognitive and emotional effects of bilateral prefrontal anodal tDCS and high-frequency tRNS in schizophrenia: a randomized sham-controlled study",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-13T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-13T07:26:53.117399+00:00",
-      "updated_at": "2026-01-13T07:26:53.117400+00:00"
-    },
-    {
-      "id": "b76e33f4877811ed9826d5f822416256",
-      "url": "https://www.nature.com/articles/s41531-025-01247-x",
-      "title": "Parkinson\u2019s disease: spatiotemporal regulation and therapeutic prospects of TREM2-mediated microglial responses",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-13T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-13T07:26:53.117326+00:00",
-      "updated_at": "2026-01-13T07:26:53.117328+00:00"
     }
   ]
 }
