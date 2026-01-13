@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-13T14:28:54.463775+00:00",
+  "last_updated": "2026-01-13T14:55:34.965203+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "7a8f872dd63b73ffd0ee7fcd46bc06a5",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1706099",
+      "title": "CNN-based framework for Alzheimer's disease detection from EEG via dynamic mode decomposition",
+      "content": "Alzheimer's disease (AD) and frontotemporal dementia (FTD) are major neurodegenerative disorders with characteristic EEG alterations. While most prior studies have focused on eyes-closed (EC) EEG, where stable alpha rhythms support relatively high classification performance, eyes-open (EO) EEG has proven particularly challenging for AD, as low-frequency instability obscures the typical spectral alterations. In contrast, FTD often remains more discriminable under EO conditions, reflecting distinct neurophysiological dynamics between the two disorders. To address this challenge, we propose a CNN-based framework that applies Dynamic Mode Decomposition (DMD) to segment EO EEG into shorter temporal windows and employs a 3D CNN to capture spatio-temporal-spectral representations. This approach outperformed not only the conventional short-epoch spectral ML pipeline but also the same CNN architecture trained on FFT-based features, with particularly pronounced improvements observed in AD classification. Excluding delta yielded small gains in AD-involving contrasts, whereas FTD/CN was unchanged or slightly better with delta retained\u2014suggesting delta is more perturbative in AD under EO conditions.",
+      "author": "Jong-Hyeon Seo",
+      "published_date": "2025-11-20T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 157,
+      "reading_time": 1,
+      "created_at": "2026-01-13T14:54:57.215762+00:00",
+      "updated_at": "2026-01-13T14:54:57.215764+00:00"
+    },
     {
       "id": "07e96bca917b11f0b9a49094619ec317",
       "url": "https://www.nature.com/articles/s41531-025-01257-9",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-13T12:50:38.652595+00:00",
       "updated_at": "2026-01-13T12:50:38.652596+00:00"
-    },
-    {
-      "id": "fc0f86d4a6b05123758d7bd472ce7c46",
-      "url": "https://blog.openresty.com/en/luajit-plus/",
-      "title": "Deconstructing the LuaJIT Pseudo Memory Leak",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46557146\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-09T18:23:38+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-13T12:50:37.329103+00:00",
-      "updated_at": "2026-01-13T12:50:37.329105+00:00"
     }
   ]
 }
