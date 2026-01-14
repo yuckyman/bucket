@@ -1,5 +1,21 @@
 [
   {
+    "id": "3caf5ae0504fd6beb8fda8c97e8245ad",
+    "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1712896",
+    "title": "Transferable CNN-based data mining approaches for medical imaging: application to spine DXA scans for osteoporosis detection",
+    "content": "IntroductionOsteoporosis is the leading cause of sudden bone fractures. This is a silent and deadly disease that can affect any part of the body, such as the spine, hips, and knee bones.AimTo measure bone mineral density, dual-energy X-ray absorptiometry (DXA) scans help radiologists and other medical professionals identify early signs of osteoporosis in the spine.MethodsA proposed 21-layer convolutional neural network (CNN) model is implemented and validated to automatically detect osteoporosis in spine DXA images. The dataset contains 174 spine DXA images, including 114 affected by osteoporosis and the rest normal or non-fractured. To improve training, the dataset is expanded using various data augmentation techniques.ResultsThe classification performance of the proposed model is compared with that of four popular pre-trained models: ResNet-50, Visual Geometry Group 16 (VGG-16), VGG-19, and InceptionV3. With an F1-score of 97.16%, recall of 95.41%, classification accuracy of 97.14%, and precision of 99.04%, the proposed model consistently outperforms competing approaches.ConclusionThe proposed paradigm would therefore be very valuable to radiologists and other medical professionals. The proposed approach\u2019s capacity to detect, monitor, and diagnose osteoporosis may reduce the risk of developing the condition.",
+    "author": "Jawad Rasheed",
+    "published_date": "2025-12-30T00:00:00+00:00",
+    "source": "Frontiers Computational Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 182,
+    "reading_time": 1,
+    "created_at": "2026-01-14T10:53:43.931730+00:00",
+    "updated_at": "2026-01-14T10:53:43.931732+00:00"
+  },
+  {
     "id": "c46eb5babd6f3fe246a7fe037e50bb01",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.13.699372v1?rss=1",
     "title": "Substantia nigra pars reticulata regulates prefrontal cortex via ventromedial thalamus",
@@ -17154,21 +17170,5 @@
     "reading_time": 1,
     "created_at": "2026-01-09T20:47:09.727026+00:00",
     "updated_at": "2026-01-09T20:47:09.727027+00:00"
-  },
-  {
-    "id": "d5f50db49f2e75783bc3cc24bd5c5e9a",
-    "url": "https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/",
-    "title": "How Markdown Took over the World",
-    "content": "<p>Article URL: <a href=\"https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/\">https://www.anildash.com/2026/01/09/how-markdown-took-over-the-world/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46556695\">https://news.ycombinator.com/item?id=46556695</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
-    "author": "zdw",
-    "published_date": "2026-01-09T17:52:20+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-01-09T20:47:08.327280+00:00",
-    "updated_at": "2026-01-09T20:47:08.327282+00:00"
   }
 ]
