@@ -7,13 +7,17 @@
     "author": "Moass, J., Ashokkumar, K., Job, M. O.",
     "published_date": "2026-01-13T00:00:00+00:00",
     "source": "Biorxiv Neuroscience",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 250,
     "reading_time": 1,
     "created_at": "2026-01-14T01:53:49.667004+00:00",
-    "updated_at": "2026-01-14T01:53:49.667009+00:00"
+    "updated_at": "2026-01-14T03:43:16.245538+00:00",
+    "metadata": {
+      "processed_at": "2026-01-14T03:43:16.245548+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "2187b29b3ee37b5558c2699084c3d8d6",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": "2026-01-14T01:01:12+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-01-14T01:53:11.997776+00:00",
-    "updated_at": "2026-01-14T01:53:11.997778+00:00"
+    "updated_at": "2026-01-14T03:43:16.245552+00:00",
+    "metadata": {
+      "processed_at": "2026-01-14T03:43:16.245554+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "9026f642a95bc92b3cbf908f67fd3e47",
@@ -39,13 +47,17 @@
     "author": "",
     "published_date": "2026-01-13T18:22:00+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-01-14T01:53:11.997739+00:00",
-    "updated_at": "2026-01-14T01:53:11.997741+00:00"
+    "updated_at": "2026-01-14T03:43:16.245557+00:00",
+    "metadata": {
+      "processed_at": "2026-01-14T03:43:16.245558+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "9b675fb20e241b3535acf2dd7d15ad49",
@@ -55,13 +67,17 @@
     "author": "",
     "published_date": "2026-01-13T15:59:59+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-01-14T01:53:11.997700+00:00",
-    "updated_at": "2026-01-14T01:53:11.997701+00:00"
+    "updated_at": "2026-01-14T03:43:16.245561+00:00",
+    "metadata": {
+      "processed_at": "2026-01-14T03:43:16.245562+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "5fe630fc86b12c8af074a15eaa9f3890",
@@ -71,13 +87,17 @@
     "author": "",
     "published_date": "2026-01-14T00:17:19+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-01-14T01:53:11.997680+00:00",
-    "updated_at": "2026-01-14T01:53:11.997681+00:00"
+    "updated_at": "2026-01-14T03:43:16.245565+00:00",
+    "metadata": {
+      "processed_at": "2026-01-14T03:43:16.245566+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "cf568baed68763175bb9a440fb22783c",
@@ -147,33 +167,41 @@
     "id": "5fe630fc86b12c8af074a15eaa9f3890",
     "url": "https://news.ycombinator.com/item?id=46610557",
     "title": "The $LANG Programming Language",
-    "content": "<p>This afternoon I posted some tips on how to present a new* programming language to HN: <a href=\"https://news.ycombinator.com/item?id=46608577\">https://news.ycombinator.com/item?id=46608577</a>. It occurred to me that HN has a tradition of posts called \"The {name} programming language\" (part of the long tradition of papers and books with such titles) and it might be fun to track them down. I tried to keep only the interesting ones:<p><a href=\"https://news.ycombinator.com/thelang\">https://news.ycombinator.com/thelang</a><p>Similarly, Show HNs of programming languages are at <a href=\"https://news.ycombinator.com/showlang\">https://news.ycombinator.com/showlang</a>.<p>These are curated lists so they're frozen in time. Maybe we can figure out how to update them.<p>A few famous cases:<p><i>The Go Programming Language</i> - <a href=\"https://news.ycombinator.com/item?id=934142\">https://news.ycombinator.com/item?id=934142</a> - Nov 2009 (219 comments)<p><i>The Rust programming language</i> - <a href=\"https://news.ycombinator.com/item?id=1498528\">https://news.ycombinator.com/item?id=1498528</a> - July 2010 (44 comments)<p><i>The Julia Programming Language</i> - <a href=\"https://news.ycombinator.com/item?id=3606380\">https://news.ycombinator.com/item?id=3606380</a> - Feb 2012 (203 comments)<p><i>The Swift Programming Language</i> - <a href=\"https://news.ycombinator.com/item?id=7835099\">https://news.ycombinator.com/item?id=7835099</a> - June 2014 (926 comments)<p>But the obscure and esoteric ones are the most fun.<p>(* where 'new' might mean old, a la <a href=\"https://news.ycombinator.com/item?id=23459210\">https://news.ycombinator.com/item?id=23459210</a>)</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46610557\">https://news.ycombinator.com/item?id=46610557</a></p>\n<p>Points: 64</p>\n<p># Comments: 6</p>",
-    "author": "dang",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46610557\">Comments</a>",
+    "author": "",
     "published_date": "2026-01-14T00:17:19+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 166,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-01-14T01:53:10.648279+00:00",
-    "updated_at": "2026-01-14T01:53:10.648282+00:00"
+    "created_at": "2026-01-14T01:53:11.997680+00:00",
+    "updated_at": "2026-01-14T03:43:16.245565+00:00",
+    "metadata": {
+      "processed_at": "2026-01-14T03:43:16.245566+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "2187b29b3ee37b5558c2699084c3d8d6",
     "url": "https://www.ycombinator.com/companies/sei/jobs/Rn0KPXR-devops-platform-ai-infrastructure-engineer",
     "title": "Sei (YC W22) Is Hiring a DevOps Engineer (India/In-Office/Chennai/Gurgaon)",
-    "content": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/sei/jobs/Rn0KPXR-devops-platform-ai-infrastructure-engineer\">https://www.ycombinator.com/companies/sei/jobs/Rn0KPXR-devops-platform-ai-infrastructure-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46610967\">https://news.ycombinator.com/item?id=46610967</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
-    "author": "ramkumarvenkat",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46610967\">Comments</a>",
+    "author": "",
     "published_date": "2026-01-14T01:01:12+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-01-14T01:53:10.648215+00:00",
-    "updated_at": "2026-01-14T01:53:10.648224+00:00"
+    "created_at": "2026-01-14T01:53:11.997776+00:00",
+    "updated_at": "2026-01-14T03:43:16.245552+00:00",
+    "metadata": {
+      "processed_at": "2026-01-14T03:43:16.245554+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "fb6312bd93da7b36119c943e8a71cf1e",
