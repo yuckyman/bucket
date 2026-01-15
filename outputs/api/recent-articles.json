@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-15T10:29:08.468437+00:00",
+  "last_updated": "2026-01-15T10:52:12.068623+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "ee525704b4e7c558e1a6043cec626595",
+      "url": "https://e360.yale.edu/digest/china-renewable-photo-essay",
+      "title": "Photos Capture the Breathtaking Scale of China's Wind and Solar Buildout",
+      "content": "<p>Article URL: <a href=\"https://e360.yale.edu/digest/china-renewable-photo-essay\">https://e360.yale.edu/digest/china-renewable-photo-essay</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46630369\">https://news.ycombinator.com/item?id=46630369</a></p>\n<p>Points: 18</p>\n<p># Comments: 0</p>",
+      "author": "mrtksn",
+      "published_date": "2026-01-15T09:54:10+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-15T10:51:04.801973+00:00",
+      "updated_at": "2026-01-15T10:51:04.801981+00:00"
+    },
     {
       "id": "eb60da22d11aa10dd9168d7a2534b142",
       "url": "https://www.sciencedirect.com/science/article/pii/S0006899325007012?dgcid=rss_sd_all",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-15T09:51:59.931356+00:00",
       "updated_at": "2026-01-15T09:51:59.931358+00:00"
-    },
-    {
-      "id": "329e701ba368cdc25816839a409550e9",
-      "url": "https://www.reddit.com/r/Python/comments/1qddgxf/handling_30m_rows_pandascolab_chunking_vs/",
-      "title": "Handling 30M rows pandas/colab - Chunking vs Sampling vs Lossing Context?",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I\u2019m working with a fairly large dataset (CSV) (~3 crore / 30 million rows). Due to memory and compute limits (I\u2019m currently using Google Colab), I can\u2019t load the entire dataset into memory at once.</p> <p>What I\u2019ve done so far:</p> <ul> <li>Randomly sampled ~1 lakh (100k) rows</li> <li>Performed EDA on the sample to understand distributions, correlations, and basic patterns</li> </ul> <p>However, I\u2019m concerned that sampling may lose important data context, especially:</p> <ul> <li>Outliers or rare events</li> <li>Long-tail behavior</li> <li>Rare categories that may not appear in the sample</li> </ul> <p>So I\u2019m considering an alternative approach using pandas chunking:</p> <ul> <li>Read the data with chunksize=1_000_000</li> <li>Define separate functions for:</li> <li>preprocessing</li> <li>EDA/statistics</li> <li>feature engineering</li> </ul> <p>Apply these functions to each chunk</p> <p>Store the processed chunks in a list</p> <p>Concatenate everything at the end into a final DataFrame</p> <p>My questions:</p> <ol> <li><p>Is this chunk-based approach actually safe and scalable for ~30M rows in pandas?</p></li> <li><p>Which types of preprocessing / feature engineering are not safe to do chunk-wise due to missing global context?</p></li> <li><p>If sampling can lose data context, what\u2019s the recommended way to analyze and process such large datasets while still capturing outliers and rare patterns?</p></li> <li><p>Specifically for Google Colab, what are best practices here?</p></li> </ol> <p>-Multiple passes over data? -Storing intermediate results to disk (Parquet/CSV)? -Using Dask/Polars instead of pandas?</p> <p>I\u2019m trying to balance:</p> <p>-Limited RAM -Correct statistical behavior -Practical workflows (not enterprise Spark clusters)</p> <p>Would love to hear how others handle large datasets like this in Colab or similar constrained environments</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/insidePassenger0\"> /u/insidePassenger0 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qddgxf/handling_30m_rows_pandascolab_chunking_vs/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qddgxf/handling_30m_rows_pandascolab_chunking_vs/\">[comments]</a></span>",
-      "author": "/u/insidePassenger0",
-      "published_date": "2026-01-15T07:45:51+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 270,
-      "reading_time": 1,
-      "created_at": "2026-01-15T09:29:22.263397+00:00",
-      "updated_at": "2026-01-15T09:29:22.263398+00:00"
     }
   ]
 }
