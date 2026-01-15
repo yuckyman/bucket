@@ -1,8 +1,72 @@
 {
-  "last_updated": "2026-01-15T16:29:05.850955+00:00",
+  "last_updated": "2026-01-15T18:30:08.145868+00:00",
   "pending_count": 742,
   "processed_count": 258,
   "pending_articles": [
+    {
+      "id": "79839f00d30305b9f3c2efb93bf34e29",
+      "url": "https://www.scientificamerican.com/article/americans-overwhelmingly-support-science-but-some-think-the-u-s-is-lagging/",
+      "title": "Americans Overwhelmingly Support Science, but Some Think the U.S. Is Lagging",
+      "content": "<p>Article URL: <a href=\"https://www.scientificamerican.com/article/americans-overwhelmingly-support-science-but-some-think-the-u-s-is-lagging/\">https://www.scientificamerican.com/article/americans-overwhelmingly-support-science-but-some-think-the-u-s-is-lagging/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46635018\">https://news.ycombinator.com/item?id=46635018</a></p>\n<p>Points: 34</p>\n<p># Comments: 28</p>",
+      "author": "beardyw",
+      "published_date": "2026-01-15T16:29:13+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-15T17:33:06.231562+00:00",
+      "updated_at": "2026-01-15T17:33:06.231564+00:00"
+    },
+    {
+      "id": "70662ff87fae97773d757da2df4fe42f",
+      "url": "https://www.nature.com/articles/s41597-026-06581-0",
+      "title": "RAID-Dataset: human responses to affine image distortions and Gaussian noise",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-15T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-15T16:39:19.322413+00:00",
+      "updated_at": "2026-01-15T16:39:19.322415+00:00"
+    },
+    {
+      "id": "d59165fb60b827ee1f69aa7dbcd5c382",
+      "url": "https://www.nature.com/articles/s41540-025-00643-6",
+      "title": "Modeling the microRNA regulation of TGF-\u03b2/SMAD signaling pathways for seizure control in temporal lobe epilepsy",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-15T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-15T16:39:19.322376+00:00",
+      "updated_at": "2026-01-15T16:39:19.322378+00:00"
+    },
+    {
+      "id": "0c81420144a6bbcadce35173dd26e00f",
+      "url": "https://www.nature.com/articles/s41467-025-68275-2",
+      "title": "Brain-gonad axes harmonize male mating drive and reproductive strategy via steroid hormones",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-15T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-15T16:39:19.322303+00:00",
+      "updated_at": "2026-01-15T16:39:19.322305+00:00"
+    },
     {
       "id": "cb9ba606bfba02b26e76bcf647ac4b97",
       "url": "https://github.com/chrisdiana/TinyCity",
@@ -98,73 +162,129 @@
       "reading_time": 1,
       "created_at": "2026-01-15T14:51:50.753333+00:00",
       "updated_at": "2026-01-15T14:51:50.753341+00:00"
-    },
+    }
+  ],
+  "recently_processed": [
     {
-      "id": "7d358a50de2869f89d49bd22afee1514",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1705970",
-      "title": "Effective and efficient self-supervised masked model based on mixed feature training",
-      "content": "Under the influence of Masked Language Modeling (MLM), Masked Image Modeling (MIM) employs an attention mechanism to perform masked training on images. However, processing a single image requires numerous iterations and substantial computational resources to reconstruct the masked regions, resulting in high computational complexity and significant time costs. To address this issue, we propose an Effective and Efficient self-supervised Masked model based on Mixed feature training (EESMM). First, we stack two images for encoding and input the fused features into the network, which not only reduces computational complexity but also enables the learning of more features. Second, during decoding, we obtain the decoding features corresponding to the original images based on the decoding features of the two input original images and the mixed images, and then construct a corresponding loss function to enhance feature representation. EESMM significantly reduces pre-training time without sacrificing accuracy, achieving 83% accuracy on ImageNet in just 363 h using four V100 GPUs\u2013only one-tenth of the training time required by SimMIM. This validates that the method can substantially accelerate the pre-training process without noticeable performance degradation.",
-      "author": "Chunliu Cai",
-      "published_date": "2025-10-30T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 179,
-      "reading_time": 1,
-      "created_at": "2026-01-15T14:51:37.116619+00:00",
-      "updated_at": "2026-01-15T14:51:37.116620+00:00"
-    },
-    {
-      "id": "77db3477c8d22ebbd43d1cb7c510512e",
-      "url": "https://fmhy.net/posts/jan-2026",
-      "title": "Monthly Updates [January]",
-      "content": "<div class=\"info custom-block\"><p class=\"custom-block-title\">INFO</p>\n<p>These update threads only contains major updates. If you're interested\nin seeing all minor changes you can follow our\n<a href=\"https://github.com/fmhy/FMHYedit/commits/main\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub or\n<a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Updates Channel</a> in Discord.</p>\n</div>\n<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Added <strong><a href=\"https://ffmhy.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">Alternative Frontend</a></strong> of FMHY with totally different design. This pulls from the official source, so it will stay synced with new edits. It also has a <a href=\"https://i.ibb.co/fVkHqhRP/image.png\" rel=\"noreferrer\" target=\"_blank\">random site</a> / <a href=\"https://i.imgur.com/p4Mxs8y.png\" rel=\"noreferrer\" target=\"_blank\">2</a> button that works per page. Note the front page for this has been removed, and it now directs to the wiki itself. Thank you to nw for making this.</p>\n</li>\n<li>\n<p>Added <strong><a href=\"https://fmhy.net/other/backups\" rel=\"noreferrer\" target=\"_blank\">3 New Instances</a></strong> to our Backups Page. (Samidy, JBugel, ArtistGrid.)</p>\n</li>\n<li>\n<p>Added <strong><a href=\"https://i.ibb.co/Ps8vDJL0/image.png\" rel=\"noreferrer\" target=\"_blank\">Catppuccin</a></strong> / <a href=\"https://i.imgur.com/558l4gH.png\" rel=\"noreferrer\" target=\"_blank\">2</a> as a option in our color picker. Thank you to Samidy for doing this.</p>\n</li>\n<li>\n<p>Added new section for <a href=\"https://fmhy.net/reading#textbooks\" rel=\"noreferrer\" target=\"_blank\">Textbooks</a>.</p>\n</li>\n<li>\n<p>Added new section for <a href=\"https://fmhy.net/file-tools#file-info-metadata\" rel=\"noreferrer\" target=\"_blank\">File Info / Metadata</a>.</p>\n</li>\n<li>\n<p>Merged Linux + Mac Torrent Clients into <a href=\"https://fmhy.net/torrenting#torrent-clients\" rel=\"noreferrer\" target=\"_blank\">Main Section</a>, and added labels + platform icons. <a href=\"https://i.ibb.co/fV1zdt44/Untitled.jpg\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/THLiMqL.jpeg\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Re-ordered <a href=\"https://fmhy.net/reading#light-novels\" rel=\"noreferrer\" target=\"_blank\">Light Novel Sites</a> based on library size and UI, added labels, removed small libraries, and starred two that stood out (NovelCool + WuxiaClick). <a href=\"https://i.ibb.co/DSRfsrM/Untitled.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/IMRUQoo.png\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Debloated <a href=\"https://fmhy.net/audio#curated-recommendations\" rel=\"noreferrer\" target=\"_blank\">Audio Recommendation</a> section + added new section for <a href=\"https://fmhy.net/audio#song-artist-discovery\" rel=\"noreferrer\" target=\"_blank\">Song / Artist Discovery</a>. <a href=\"https://i.ibb.co/zTDNZgr9/Untitled.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/V6h0mQx.png\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Added Labels to both <a href=\"https://fmhy.net/linux-macos#cli-cheat-sheets\" rel=\"noreferrer\" target=\"_blank\">Linux Cheat Sheets</a> + <a href=\"https://fmhy.net/linux-macos#linux-distros\" rel=\"noreferrer\" target=\"_blank\">Linux Distros</a>, thank you to <a href=\"https://github.com/fmhy/edit/commit/9a9cd6dd47027ac63370b453ec86a943cdc0b9d6\" rel=\"noreferrer\" target=\"_blank\">helxop</a>. <a href=\"https://ibb.co/gMD8mKbw\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/hqqLsCB.png\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Revamped our <a href=\"https://i.ibb.co/JjpzRXL7/image.png\" rel=\"noreferrer\" target=\"_blank\">Feedback Window</a> / <a href=\"https://i.imgur.com/nODLPVM.png\" rel=\"noreferrer\" target=\"_blank\">2</a> to try to improve its look. Thank you to Samidy for doing this.</p>\n</li>\n<li>\n<p>Added a backup / frontend for our <a href=\"https://fmhy-grading.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">Grading Page</a>, and moved both our <a href=\"https://fmhy.net/other/backups\" rel=\"noreferrer\" target=\"_blank\">Backup</a> + <a href=\"https://fmhy.net/other/FAQ\" rel=\"noreferrer\" target=\"_blank\">FAQ</a> pages to our website instead of reddit/github. Thank you to Roi Goat + Samidy for doing this.</p>\n</li>\n<li>\n<p>Improved our <a href=\"https://github.com/fmhy/edit/pull/4386\" rel=\"noreferrer\" target=\"_blank\">theme handler</a>, which will help us more easily switch or add themes in the future (like halloween, christmas, etc.) Thank you to Land for doing this.</p>\n</li>\n<li>\n<p>Added 360 Total Security to unsafe sites. If you install any of their apps, it will keep giving the user popups to install their &quot;toolbox,&quot; or will install it without consent if you use clean, repair, or optimize options. Once installed, the toolbox will then <a href=\"https://en.wikipedia.org/wiki/Criticism_of_Qihoo_360#Malicious_promotion\" rel=\"noreferrer\" target=\"_blank\">modify your default apps</a> (such as your browser) and switch them all to 360 options.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#download-sites\" rel=\"noreferrer\" target=\"_blank\">DDLBase</a> in Video Download, has both 4K + 1080p content, uses only fast hosts, has huge library.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#anime-streaming\" rel=\"noreferrer\" target=\"_blank\">Anime Realms</a> in Anime Streaming. Good sources, nice UI, auto-next, custom player, multi-language.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/audio#telegram-bots\" rel=\"noreferrer\" target=\"_blank\">Music Hunters</a> in Telegram Audio Bots. Supports lots of sites, has good quality, easy to use.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#download-games\" rel=\"noreferrer\" target=\"_blank\">AstralGames </a> in Game Downloading, big library, fast hosts, pre-installs, allows requests.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#manga\" rel=\"noreferrer\" target=\"_blank\">Comix</a> in Manga Sites, big library, allows uploads, nice UI, will be adding more languages soon.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/audio#streaming-sites\" rel=\"noreferrer\" target=\"_blank\">Monochrome</a> in Audio Streaming, no-signup needed, multi API integrations, last.fm integration, customizable, big library.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video\" rel=\"noreferrer\" target=\"_blank\">Rive, Aether, Willow, and FlyX</a> in Streaming. These have nice custom players, lots of features, fast streams, and impressive UIs.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#live-sports\" rel=\"noreferrer\" target=\"_blank\">StreamSports99</a> in Live Sports, has fast servers and solid UI.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/social-media-tools#twitter-x-customization\" rel=\"noreferrer\" target=\"_blank\">Control Panel for Twitter</a> Twitter/X Customization, adds a lot of extra features, lets you hide sections you don't use, improves UI, and much more.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#file-hosts\" rel=\"noreferrer\" target=\"_blank\">Rootz</a> File Hosts, good speed, 25GB per file, lasts 15 days after last download.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#image-generation\" rel=\"noreferrer\" target=\"_blank\">PigenAI</a> in Image Gen, has unlimited Imagen 4, Qwen, and Nano Banana.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/mobile#ios-streaming\" rel=\"noreferrer\" target=\"_blank\">Nuvio</a> in iOS Streaming, this uses Stremio Plugins, and has less limits than the &quot;Lite&quot; version currently available on iOS.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/mobile#android-torrenting\" rel=\"noreferrer\" target=\"_blank\">Flud</a> in Android Torrenting, allows binding, well maintained, ads can easily be blocked via DNS.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/misc#physical-health\" rel=\"noreferrer\" target=\"_blank\">Sleeping Guide</a> in Physical Health, sleep hygiene / science guide, seems to be well received so far, curated by Dan.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#remakes-recreations\" rel=\"noreferrer\" target=\"_blank\">OpenMW</a> in Remakes / Recreations, complete ground up reimplementation of Morrowind, <a href=\"https://wiki.openmw.org/index.php?title=Bethesda_Emails\" rel=\"noreferrer\" target=\"_blank\">approved by Bethesda</a> themselves.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#remakes-recreations\" rel=\"noreferrer\" target=\"_blank\">Clone Hero</a> in Remakes / Recreations, feature-rich Guitar Hero clone, thousands of songs + playlists, no lag, works with all guitar controllers, and supports midi drum kits.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#party-multiplayer\" rel=\"noreferrer\" target=\"_blank\">Gidd</a> in Multiplayer Browser Games, has quality versions of things like monopoly, geoguessr, card games, etc.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/system-tools#virtual-machines\" rel=\"noreferrer\" target=\"_blank\">QEMU</a> in Virtual Machines, performs well on non-windows systems, best used with Virt-Manager or Vagrantup.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#file-backup\" rel=\"noreferrer\" target=\"_blank\">Restic</a> in File Backup, easy to use, multi-platform, performed well in benchmarks.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#coding-ais\" rel=\"noreferrer\" target=\"_blank\">Gemini CLI</a> in Coding AIs, this seems to have some of the best limits as of now.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>\n<p>Removed CrocDB as they've been <a href=\"https://i.ibb.co/RpDvJFgf/image.png\" rel=\"noreferrer\" target=\"_blank\">hit by DMCA</a> / <a href=\"https://i.imgur.com/iSV0MHq.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Removed IcebergCharts website as they've been <a href=\"https://i.ibb.co/XxMMwqDk/image.png\" rel=\"noreferrer\" target=\"_blank\">hacked a few times now</a> / <a href=\"https://i.imgur.com/MkvElvr.png\" rel=\"noreferrer\" target=\"_blank\">2</a>, and can't figure out why its happening. We may re-add in future if they figure it out. Note that we'll keep the subreddit in its place for now.</p>\n</li>\n<li>\n<p>Removed CanvasBlocker as its Firefox only, and FF has this built in now, it can also apparently make fingerprinting worse in some cases, and isn't maintained well anymore.</p>\n</li>\n<li>\n<p>Removed FTV and WAC from Live Sports as both are now gone.</p>\n</li>\n<li>\n<p>Removed Foxified as its suddenly <a href=\"https://i.ibb.co/4RzPsQ8Z/image.png\" rel=\"noreferrer\" target=\"_blank\">filling results with ads</a> / <a href=\"https://i.imgur.com/AjBMdfX.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Unstarred OnTheSpot as it will be losing Spotify Support soon.</p>\n</li>\n<li>\n<p>Unstarred Windsurf in Coding AIs as its limits and free models aren't as good anymore.</p>\n</li>\n</ul>",
+      "id": "06b224298d2ce96b6376d3861f45e87a",
+      "url": "https://en.wikipedia.org/wiki/Sinclair_C5",
+      "title": "Sinclair C5",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46569640\">Comments</a>",
       "author": "",
-      "published_date": "2026-01-01T00:00:00+00:00",
-      "source": "Fmhy",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1122,
-      "reading_time": 5,
-      "created_at": "2026-01-15T14:51:10.179853+00:00",
-      "updated_at": "2026-01-15T14:51:10.179856+00:00"
-    },
-    {
-      "id": "a70fd712a757bb0edfe3d9cd1b558802",
-      "url": "https://www.reddit.com/r/Python/comments/1qctxjw/i_built_wxpath_a_declarative_web_crawler_where/",
-      "title": "I built wxpath: a declarative web crawler where crawling/scraping is one XPath expression",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>This is wxpath's first public release, and I'd love feedback on the expression syntax, any use cases this might unlock, or anything else. </p> <h4>What My Project Does</h4> <hr /> <p><strong><a href=\"https://github.com/rodricios/wxpath\">wxpath</a></strong> is a declarative web crawler where traversal is expressed directly in XPath. Instead of writing imperative crawl loops, wxpath lets you describe what to follow and what to extract in a single expression (it's async under the hood; results are streamed as they\u2019re discovered). </p> <p>By introducing the <code>url(...)</code> operator and the <code>///</code> syntax, wxpath's engine can perform deep/recursive web crawling and extraction.</p> <p>For example, to build a simple Wikipedia knowledge graph: </p> <pre><code>import wxpath path_expr = &quot;&quot;&quot; url('https://en.wikipedia.org/wiki/Expression_language') ///url(//main//a/@href[starts-with(., '/wiki/') and not(contains(., ':'))]) /map{ 'title': (//span[contains(@class, &quot;mw-page-title-main&quot;)]/text())[1] ! string(.), 'url': string(base-uri(.)), 'short_description': //div[contains(@class, 'shortdescription')]/text() ! string(.), 'forward_links': //div[@id=&quot;mw-content-text&quot;]//a/@href ! string(.) } &quot;&quot;&quot; for item in wxpath.wxpath_async_blocking_iter(path_expr, max_depth=1): print(item) </code></pre> <p>Output:</p> <pre><code>map{'title': 'Computer language', 'url': 'https://en.wikipedia.org/wiki/Computer_language', 'short_description': 'Formal language for communicating with a computer', 'forward_links': ['/wiki/Formal_language', '/wiki/Communication', ...]} map{'title': 'Advanced Boolean Expression Language', 'url': 'https://en.wikipedia.org/wiki/Advanced_Boolean_Expression_Language', 'short_description': 'Hardware description language and software', 'forward_links': ['/wiki/File:ABEL_HDL_example_SN74162.png', '/wiki/Hardware_description_language', ...]} map{'title': 'Machine-readable medium and data', 'url': 'https://en.wikipedia.org/wiki/Machine_readable', 'short_description': 'Medium capable of storing data in a format readable by a machine', 'forward_links': ['/wiki/File:EAN-13-ISBN-13.svg', '/wiki/ISBN', ...]} ... </code></pre> <hr /> <h4>Target Audience</h4> <hr /> <p>The target audience is anyone who: </p> <ol> <li>wants to quickly prototype and build web scrapers</li> <li>familiar with XPath or data selectors</li> <li>builds datasets (think RAG, data hoarding, etc.)</li> <li>wants to study link structure of the web (quickly) i.e. web network scientists</li> </ol> <hr /> <h4>Comparison</h4> <hr /> <p>From Scrapy's official <a href=\"https://docs.scrapy.org/en/latest/intro/overview.html#walk-through-of-an-example-spider\">documentation</a>, here is an example of a simple spider that scrapes quotes from a website and writes to a file.</p> <h5>Scrapy:</h5> <pre><code>import scrapy class QuotesSpider(scrapy.Spider): name = &quot;quotes&quot; start_urls = [ &quot;https://quotes.toscrape.com/tag/humor/&quot;, ] def parse(self, response): for quote in response.css(&quot;div.quote&quot;): yield { &quot;author&quot;: quote.xpath(&quot;span/small/text()&quot;).get(), &quot;text&quot;: quote.css(&quot;span.text::text&quot;).get(), } next_page = response.css('li.next a::attr(&quot;href&quot;)').get() if next_page is not None: yield response.follow(next_page, self.parse) </code></pre> <p>Then from the command line, you would run:</p> <pre><code>scrapy runspider quotes_spider.py -o quotes.jsonl </code></pre> <h5>wxpath:</h5> <p><strong>wxpath</strong> gives you two options: write directly from a Python script or from the command line.</p> <pre><code>from wxpath import wxpath_async_blocking_iter from wxpath.hooks import registry, builtin path_expr = &quot;&quot;&quot; url('https://quotes.toscrape.com/tag/humor/', follow=//li[@class='next']/a/@href) //div[@class='quote'] /map{ 'author': (./span/small/text())[1], 'text': (./span[@class='text']/text())[1] } registry.register(builtin.JSONLWriter(path='quotes.jsonl')) items = list(wxpath_async_blocking_iter(path_expr, max_depth=3)) </code></pre> <p>or from the command line:</p> <pre><code>wxpath --depth 1 &quot;\\ url('https://quotes.toscrape.com/tag/humor/', follow=//li[@class='next']/a/@href) \\ //div[@class='quote'] \\ /map{ \\ 'author': (./span/small/text())[1], \\ 'text': (./span[@class='text']/text())[1] \\ }&quot; &gt; quotes.jsonl </code></pre> <hr /> <h4>Links</h4> <hr /> <p>GitHub: <a href=\"https://github.com/rodricios/wxpath\">https://github.com/rodricios/wxpath</a></p> <p>PyPI: pip install wxpath</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fourhoarsemen\"> /u/fourhoarsemen </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qctxjw/i_built_wxpath_a_declarative_web_crawler_where/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qctxjw/i_built_wxpath_a_declarative_web_crawler_where/\">[comments]</a></span>",
-      "author": "/u/fourhoarsemen",
-      "published_date": "2026-01-14T17:45:20+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 438,
-      "reading_time": 2,
-      "created_at": "2026-01-15T14:51:08.919888+00:00",
-      "updated_at": "2026-01-15T14:51:08.919890+00:00"
-    },
-    {
-      "id": "d9099297f79bc14e9b6dc31987b67f89",
-      "url": "https://cinegraphs.ai/",
-      "title": "Show HN: Fine-tuned Qwen2.5-7B on 100 films for probabilistic story graphs",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46628336\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-15T05:15:40+00:00",
+      "published_date": "2026-01-10T20:31:51+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-01-15T14:51:07.621840+00:00",
-      "updated_at": "2026-01-15T14:51:07.621841+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-01-15T17:33:07.338272+00:00",
+      "updated_at": "2026-01-15T18:30:08.040271+00:00",
+      "metadata": {
+        "processed_at": "2026-01-15T18:30:08.040281+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "41a5728e54d8ac4e81d96e7e12f01ef5",
+      "url": "https://fly.io/blog/design-and-implementation/",
+      "title": "Design and Implementation of Sprites",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46634450\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-15T15:59:21+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-15T17:33:07.338215+00:00",
+      "updated_at": "2026-01-15T18:30:08.040285+00:00",
+      "metadata": {
+        "processed_at": "2026-01-15T18:30:08.040287+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "5ba8c765b2a91a0b939858dc4460b377",
+      "url": "https://www.githubstatus.com/incidents/q987xpbqjbpl",
+      "title": "GitHub Incident",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46635550\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-15T17:00:38+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-15T17:33:07.338138+00:00",
+      "updated_at": "2026-01-15T18:30:08.040289+00:00",
+      "metadata": {
+        "processed_at": "2026-01-15T18:30:08.040291+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "5ca7a8c1babda95dba0a173550ac51ae",
+      "url": "https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/",
+      "title": "Found: Medieval Cargo Ship \u2013 Largest Vessel of Its Kind Ever",
+      "content": "<p>Article URL: <a href=\"https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/\">https://www.smithsonianmag.com/smart-news/archaeologists-say-theyve-unearthed-a-massive-medieval-cargo-ship-thats-the-largest-vessel-of-its-kind-ever-found-180987984/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46633574\">https://news.ycombinator.com/item?id=46633574</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
+      "author": "bookofjoe",
+      "published_date": "2026-01-15T15:09:16+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-15T17:33:06.231603+00:00",
+      "updated_at": "2026-01-15T18:30:08.040295+00:00",
+      "metadata": {
+        "processed_at": "2026-01-15T18:30:08.040297+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "41a5728e54d8ac4e81d96e7e12f01ef5",
+      "url": "https://fly.io/blog/design-and-implementation/",
+      "title": "Design and Implementation of Sprites",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46634450\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-15T15:59:21+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-15T17:33:07.338215+00:00",
+      "updated_at": "2026-01-15T18:30:08.040285+00:00",
+      "metadata": {
+        "processed_at": "2026-01-15T18:30:08.040287+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "5ba8c765b2a91a0b939858dc4460b377",
+      "url": "https://www.githubstatus.com/incidents/q987xpbqjbpl",
+      "title": "GitHub Incident",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46635550\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-15T17:00:38+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-15T17:33:07.338138+00:00",
+      "updated_at": "2026-01-15T18:30:08.040289+00:00",
+      "metadata": {
+        "processed_at": "2026-01-15T18:30:08.040291+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "c8e93747fabae2ac41179eb85661f213",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452226000047?dgcid=rss_sd_all",
@@ -226,86 +346,6 @@
       }
     },
     {
-      "id": "434807c4e2397bf342dd9d069e9599ce",
-      "url": "https://wikipedia25.org",
-      "title": "25 Years of Wikipedia",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46632023\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-15T13:17:07+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-15T15:29:44.960933+00:00",
-      "updated_at": "2026-01-15T16:29:05.743234+00:00",
-      "metadata": {
-        "processed_at": "2026-01-15T16:29:05.743235+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ddacb0c6ac4cde11f8ce8c2e4da0faf3",
-      "url": "https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/",
-      "title": "The Palantir app helping ICE raids in Minneapolis",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46633378\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-15T14:54:51+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-15T15:29:44.960914+00:00",
-      "updated_at": "2026-01-15T16:29:05.743237+00:00",
-      "metadata": {
-        "processed_at": "2026-01-15T16:29:05.743239+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "434807c4e2397bf342dd9d069e9599ce",
-      "url": "https://wikipedia25.org",
-      "title": "25 Years of Wikipedia",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46632023\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-15T13:17:07+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-15T15:29:44.960933+00:00",
-      "updated_at": "2026-01-15T16:29:05.743234+00:00",
-      "metadata": {
-        "processed_at": "2026-01-15T16:29:05.743235+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ddacb0c6ac4cde11f8ce8c2e4da0faf3",
-      "url": "https://www.404media.co/elite-the-palantir-app-ice-uses-to-find-neighborhoods-to-raid/",
-      "title": "The Palantir app helping ICE raids in Minneapolis",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46633378\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-15T14:54:51+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-15T15:29:44.960914+00:00",
-      "updated_at": "2026-01-15T16:29:05.743237+00:00",
-      "metadata": {
-        "processed_at": "2026-01-15T16:29:05.743239+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "5184b542fa2cb25c93b740449091ba88",
       "url": "https://github.com/obsproject/obs-studio/releases/tag/32.1.0-beta1",
       "title": "OBS Studio 32.1.0 Beta 1 available",
@@ -322,46 +362,6 @@
       "updated_at": "2026-01-15T16:29:05.743230+00:00",
       "metadata": {
         "processed_at": "2026-01-15T16:29:05.743232+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "79911c81530fdf8b3a2e8dd0c263da6e",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226000035?dgcid=rss_sd_all",
-      "title": "Modulation of cofilin 1 phosphorylation induces juvenile-like plasticity in the adult mouse visual cortex",
-      "content": "<p>Publication date: 16 February 2026</p><p><b>Source:</b> Neuroscience, Volume 595</p><p>Author(s): Agustina Dapueto, Emilia Hayek, Alejo Acu\u00f1a, Bruno Pannunzio, Leonel Gomez, Francesco M. Rossi</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 21,
-      "reading_time": 1,
-      "created_at": "2026-01-15T13:41:20.677208+00:00",
-      "updated_at": "2026-01-15T14:20:57.218985+00:00",
-      "metadata": {
-        "processed_at": "2026-01-15T14:20:57.218995+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "11972aaf22b74a1a32efacc8069dac18",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226000151?dgcid=rss_sd_all",
-      "title": "Zebrafish neural regeneration: mechanistic insights into human nervous system repair",
-      "content": "<p>Publication date: 5 March 2026</p><p><b>Source:</b> Neuroscience, Volume 596</p><p>Author(s): Lilesh Kumar Pradhan, Saroj Kumar Das</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 14,
-      "reading_time": 1,
-      "created_at": "2026-01-15T13:41:20.677169+00:00",
-      "updated_at": "2026-01-15T14:20:57.218999+00:00",
-      "metadata": {
-        "processed_at": "2026-01-15T14:20:57.219001+00:00",
         "processing_method": "github_actions"
       }
     }
