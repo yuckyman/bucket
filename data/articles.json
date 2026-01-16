@@ -1,5 +1,37 @@
 [
   {
+    "id": "43780c4ee8ce7ebeb8c433cf96befa89",
+    "url": "https://refactoring.fm/p/the-engineer-executive-translation",
+    "title": "The Engineer to Executive Translation Layer",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46652299\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-16T21:13:48+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-16T21:43:39.523991+00:00",
+    "updated_at": "2026-01-16T21:43:39.523993+00:00"
+  },
+  {
+    "id": "43780c4ee8ce7ebeb8c433cf96befa89",
+    "url": "https://refactoring.fm/p/the-engineer-executive-translation",
+    "title": "The Engineer to Executive Translation Layer",
+    "content": "<p>Article URL: <a href=\"https://refactoring.fm/p/the-engineer-executive-translation\">https://refactoring.fm/p/the-engineer-executive-translation</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46652299\">https://news.ycombinator.com/item?id=46652299</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+    "author": "lucidplot",
+    "published_date": "2026-01-16T21:13:48+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-16T21:43:38.207104+00:00",
+    "updated_at": "2026-01-16T21:43:38.207115+00:00"
+  },
+  {
     "id": "9ebb73c1ad17f296bc8af013bcca681e",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.15.699730v1?rss=1",
     "title": "The influence of force on the encoding and perception of affective touch",
@@ -16970,37 +17002,5 @@
     "reading_time": 1,
     "created_at": "2026-01-12T22:21:09.261275+00:00",
     "updated_at": "2026-01-12T22:21:09.261279+00:00"
-  },
-  {
-    "id": "4886a08a3b25a411398fbe5788c46db1",
-    "url": "https://www.reddit.com/r/Python/comments/1qaei36/released_another_tiny_200_lines_python_tool_for/",
-    "title": "Released another tiny (<200 lines) Python tool for detecting drift + regime shifts in time-series",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I\u2019ve been experimenting with micro tools, this time with minimal time-series utilities. I wrote a small (&lt;200 lines) pure-Python tool called signal-scope.</p> <p>What My Project Does</p> <p>signal-scope is a tiny Python library for analyzing 1D time-series data. It produces lightweight versions of common signal diagnostics: - trend strength - volatility - drift detection - regime shift indicators - anomaly scoring - optional matplotlib visualizations</p> <p>It\u2019s meant as a fast, readable tool for exploratory analysis. As opposed to pulling in large scientific stacks.</p> <p>Target Audience</p> <p>This project is intended for: - students learning time-series or signal processing - researchers &amp; grad students in need of quick diagnostics in scripts / notebooks - data analysts doing exploratory work - hobbyists working with finance, sensors, forecasting, or anomaly detection - anyone who wants a tiny, transparent reference implementation instead of a big dependency</p> <p>What This Project Isn\u2019t</p> <p>It\u2019s not a replacement for full frameworks like statsmodels, tsfresh, kats / merlion, scipy.signal</p> <p>It\u2019s just supposed to be a super-lightweight diagnostic layer. Just drop into small scripts.</p> <p>Comparison</p> <p>In contrast to larger time-series packages, signal-scope provides: - dramatically smaller codebase - simple API: analyze_ts(...) - no config overhead - zero external dependencies besides numpy/matplotlib - easy reading &amp; extension for people learning TS analysis - quick integration into Jupyter notebooks or scripts</p> <p>Again, these are all intentionally minimalistic. I needed (and mean) a fast, readable toolkit.</p> <p>pip install signal-scope</p> <p>PyPI: <a href=\"https://pypi.org/project/signal-scope/\">https://pypi.org/project/signal-scope/</a></p> <p>GitHub: <a href=\"https://github.com/rjsabouhi/signal-scope\">https://github.com/rjsabouhi/signal-scope</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RJSabouhi\"> /u/RJSabouhi </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qaei36/released_another_tiny_200_lines_python_tool_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qaei36/released_another_tiny_200_lines_python_tool_for/\">[comments]</a></span>",
-    "author": "/u/RJSabouhi",
-    "published_date": "2026-01-11T23:22:07+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 261,
-    "reading_time": 1,
-    "created_at": "2026-01-12T22:20:32.698807+00:00",
-    "updated_at": "2026-01-12T22:20:32.698809+00:00"
-  },
-  {
-    "id": "d266e6369d7e93f212030197d75bd77a",
-    "url": "https://www.promptarmor.com/resources/superhuman-ai-exfiltrates-emails",
-    "title": "Superhuman AI exfiltrates emails",
-    "content": "<p>Article URL: <a href=\"https://www.promptarmor.com/resources/superhuman-ai-exfiltrates-emails\">https://www.promptarmor.com/resources/superhuman-ai-exfiltrates-emails</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46592424\">https://news.ycombinator.com/item?id=46592424</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
-    "author": "takira",
-    "published_date": "2026-01-12T18:38:39+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-01-12T22:20:30.077855+00:00",
-    "updated_at": "2026-01-12T22:20:30.077856+00:00"
   }
 ]
