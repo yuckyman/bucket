@@ -1,5 +1,21 @@
 [
   {
+    "id": "d49e25e40d21d1e322d41064ab898706",
+    "url": "https://www.reddit.com/r/Python/comments/1qebmcw/introducing_flaskgaelogging_for_a_better_dx_when/",
+    "title": "Introducing flask-gae-logging, for a better DX when building Flask apps in Google AppEngine",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I've been working with Flask on Google App Engine (GAE) and found the logging experience a bit annoying.</p> <p>After transition in Python3, the lack of clear, structured logging and severity propagation across the request lifecycle was a major pain point.</p> <p>So, I decided to create a custom Cloud Logging handler specifically for Flask apps deployed on GAE.</p> <p>\u2728 Introducing FlaskGAEMaxLogLevelPropagateHandler with flask-gae-logging package! \u2728</p> <p>This handler groups logs from the same request lifecycle and ensures the highest log level is propagated consistently. If you've been pulling your hair out trying to get clean, organized logs on GAE, this might just save your sanity.</p> <p>Key Features:</p> <ul> <li>Grouping of logs within the same request lifecycle.</li> <li>Propagation of the maximum log level.</li> <li>Easy integration with your existing Flask app.</li> <li>Some extra, nice-to-have, log filters for GAE.</li> </ul> <p>I\u2019ve written an article detailing how it works and how you can integrate it into your project. Would love to hear your thoughts, feedback, or any other logging pain points you\u2019ve encountered on GAE with Flask!</p> <p>\ud83d\udd17 GitHub Repo: <a href=\"https://github.com/trebbble/flask-gae-logging\">https://github.com/trebbble/flask-gae-logging</a></p> <p>Happy coding! \ud83d\ude80</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SearchMobile6431\"> /u/SearchMobile6431 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qebmcw/introducing_flaskgaelogging_for_a_better_dx_when/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qebmcw/introducing_flaskgaelogging_for_a_better_dx_when/\">[comments]</a></span>",
+    "author": "/u/SearchMobile6431",
+    "published_date": "2026-01-16T09:34:33+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 202,
+    "reading_time": 1,
+    "created_at": "2026-01-16T23:42:23.761966+00:00",
+    "updated_at": "2026-01-16T23:42:23.761967+00:00"
+  },
+  {
     "id": "ce3ed985744a9ab4c77573eb4151f204",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.15.699797v1?rss=1",
     "title": "Joint Pupillometry and Heart Rate Monitoring Identify Zone-Like High Performance in Esports",
@@ -16956,26 +16972,6 @@
     "updated_at": "2026-01-13T04:36:03.145175+00:00",
     "metadata": {
       "processed_at": "2026-01-13T04:36:03.145177+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "4dd3854b97f0fedcf831d13b166a8449",
-    "url": "https://www.nature.com/articles/s41598-026-35683-3",
-    "title": "Odors modulate self face perception and frontal ERP responses",
-    "content": "",
-    "author": "",
-    "published_date": "2026-01-12T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-01-13T03:39:51.258616+00:00",
-    "updated_at": "2026-01-13T04:36:03.145179+00:00",
-    "metadata": {
-      "processed_at": "2026-01-13T04:36:03.145180+00:00",
       "processing_method": "github_actions"
     }
   }
