@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-01-16T12:34:16.332647+00:00",
+  "last_updated": "2026-01-16T12:49:10.561241+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "a205c9e4927b7777292d6f663f5747f3",
+      "url": "https://www.reddit.com/r/Python/comments/1qe2hfx/pdc_struct_pydanticpowered_binary_serialization/",
+      "title": "PDC Struct: Pydantic-Powered Binary Serialization for Python",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I've just released <strong>PDC Struct</strong> (Pydantic Data Class Struct), a library that lets you define binary structures using Pydantic models and Python type hints. If you've ever needed to parse network packets, read binary file formats, or communicate with C programs, this might save you some headaches.</p> <p><strong>Links:</strong> - PyPI: <a href=\"https://pypi.org/project/pdc-struct/\">https://pypi.org/project/pdc-struct/</a> - GitHub: <a href=\"https://github.com/boxcake/pdc_struct\">https://github.com/boxcake/pdc_struct</a> - Documentation: <a href=\"https://boxcake.github.io/pdc_struct/\">https://boxcake.github.io/pdc_struct/</a></p> <h2>What My Project Does</h2> <p>PDC Struct lets you define binary data structures as Pydantic models and automatically serialize/deserialize them:</p> <p>```python from pdc_struct import StructModel, StructConfig, ByteOrder from pdc_struct.c_types import UInt8, UInt16, UInt32</p> <p>class ARPPacket(StructModel): hw_type: UInt16 proto_type: UInt16 hw_size: UInt8 proto_size: UInt8 opcode: UInt16 sender_mac: bytes = Field(struct_length=6) sender_ip: bytes = Field(struct_length=4) target_mac: bytes = Field(struct_length=6) target_ip: bytes = Field(struct_length=4)</p> <pre><code>struct_config = StructConfig(byte_order=ByteOrder.BIG_ENDIAN) </code></pre> <h1>Parse raw bytes</h1> <p>packet = ARPPacket.from_bytes(raw_data) print(f&quot;Opcode: {packet.opcode}&quot;)</p> <h1>Serialize back to bytes</h1> <p>binary = packet.to_bytes() # Always 28 bytes ```</p> <p><strong>Key features:</strong></p> <ul> <li><strong>Type-safe</strong>: Full Pydantic validation, type hints, IDE autocomplete</li> <li><strong>C-compatible</strong>: Produces binary data matching C struct layouts</li> <li><strong>Configurable byte order</strong>: Big-endian, little-endian, or native</li> <li><strong>Bit fields</strong>: Pack multiple values into single bytes with <code>BitFieldModel</code></li> <li><strong>Nested structs</strong>: Compose complex structures from simpler ones</li> <li><strong>Two modes</strong>: Fixed-size C-compatible mode, or flexible dynamic mode with optional fields</li> </ul> <h2>Target Audience</h2> <p>This is aimed at developers who work with:</p> <ul> <li><strong>Network protocols</strong> - Parsing/creating packets (ARP, TCP headers, custom protocols)</li> <li><strong>Binary file formats</strong> - Reading/writing structured binary files (WAV headers, game saves, etc.)</li> <li><strong>Hardware/embedded systems</strong> - Communicating with sensors, microcontrollers over serial/I2C</li> <li><strong>C interoperability</strong> - Exchanging binary data between Python and C programs</li> <li><strong>Reverse engineering</strong> - Quickly defining structures for binary analysis</li> </ul> <p>If you've ever written <code>struct.pack('&gt;HHBBH6s4s6s4s', ...)</code> and then struggled to remember what each field was, this is for you.</p> <h2>Comparison</h2> <p><strong>vs. <code>struct</code> module (stdlib)</strong></p> <p>The <code>struct</code> module is powerful but low-level. You're working with format strings and tuples:</p> <p>```python</p> <h1>struct module</h1> <p>data = struct.pack('&gt;HH', 1, 0x0800) hw_type, proto_type = struct.unpack('&gt;HH', data) ```</p> <p>PDC Struct gives you named fields, validation, and type safety:</p> <p>```python</p> <h1>pdc_struct</h1> <p>packet = ARPPacket(hw_type=1, proto_type=0x0800, ...) packet.hw_type # IDE knows this is an int ```</p> <p><strong>vs. <code>ctypes.Structure</code></strong></p> <p><code>ctypes</code> is designed for C FFI, not general binary serialization. It's tied to native byte order and doesn't integrate with Pydantic's validation ecosystem.</p> <p><strong>vs. <code>construct</code></strong></p> <p>Construct is a mature declarative parser, but uses its own DSL rather than Python classes. PDC Struct uses standard Pydantic models, so you get: - Native Python type hints - Pydantic validation, serialization, JSON schema - IDE autocomplete and type checking - Familiar class-based syntax</p> <p><strong>vs. <code>dataclasses</code> + manual packing</strong></p> <p>You could use dataclasses and write your own <code>to_bytes()</code>/<code>from_bytes()</code> methods, but that's boilerplate for every struct. PDC Struct handles it automatically.</p> <hr /> <p>Happy to answer any questions or hear feedback. The library has comprehensive docs with examples for ARP packet parsing, C interop, and IoT sensor communication.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/9011442\"> /u/9011442 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qe2hfx/pdc_struct_pydanticpowered_binary_serialization/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qe2hfx/pdc_struct_pydanticpowered_binary_serialization/\">[comments]</a></span>",
+      "author": "/u/9011442",
+      "published_date": "2026-01-16T01:35:54+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 489,
+      "reading_time": 2,
+      "created_at": "2026-01-16T12:48:00.473402+00:00",
+      "updated_at": "2026-01-16T12:48:00.473404+00:00"
+    },
+    {
+      "id": "abf3ee1063f2b5c179a2fc318be2622b",
+      "url": "https://justthebrowser.com/",
+      "title": "Just the Browser",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46645615\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-16T12:03:52+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-16T12:47:59.186496+00:00",
+      "updated_at": "2026-01-16T12:47:59.186501+00:00"
+    },
+    {
+      "id": "2ea191100a38dcfbb00dc8c390b7d107",
+      "url": "https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/",
+      "title": "Signal creator Moxie Marlinspike wants to do for AI what he did for messaging",
+      "content": "<p>Article URL: <a href=\"https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/\">https://arstechnica.com/security/2026/01/signal-creator-moxie-marlinspike-wants-to-do-for-ai-what-he-did-for-messaging/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46645430\">https://news.ycombinator.com/item?id=46645430</a></p>\n<p>Points: 9</p>\n<p># Comments: 1</p>",
+      "author": "aarghh",
+      "published_date": "2026-01-16T11:36:51+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-16T12:47:57.834022+00:00",
+      "updated_at": "2026-01-16T12:47:57.834024+00:00"
+    },
+    {
+      "id": "abf3ee1063f2b5c179a2fc318be2622b",
+      "url": "https://justthebrowser.com/",
+      "title": "Just the Browser",
+      "content": "<p>Article URL: <a href=\"https://justthebrowser.com/\">https://justthebrowser.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46645615\">https://news.ycombinator.com/item?id=46645615</a></p>\n<p>Points: 27</p>\n<p># Comments: 0</p>",
+      "author": "cl3misch",
+      "published_date": "2026-01-16T12:03:52+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-16T12:47:57.833988+00:00",
+      "updated_at": "2026-01-16T12:47:57.833999+00:00"
+    },
     {
       "id": "7441f8a9c001207bbbea8adb1642b1f2",
       "url": "https://www.nature.com/articles/s41593-025-02192-x",
@@ -279,86 +343,6 @@
       "updated_at": "2026-01-16T10:18:43.923126+00:00",
       "metadata": {
         "processed_at": "2026-01-16T10:18:43.923137+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0f8941b3b4f16f6a9acd48782e80746b",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899325007024?dgcid=rss_sd_all",
-      "title": "The impact of <em>NGF</em> overexpression on proteome profile in WJ-MSC cultures",
-      "content": "<p>Publication date: 1 March 2026</p><p><b>Source:</b> Brain Research, Volume 1874</p><p>Author(s): Paulina Borkowska, Aleksandra Krawczyk, Malgorzata Kowalczyk, Aleksandra Zielinska, Dariusz Kusmierz, Magdalena B. Rother, Monika Paul-Samojedny</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 24,
-      "reading_time": 1,
-      "created_at": "2026-01-16T09:51:02.658748+00:00",
-      "updated_at": "2026-01-16T10:18:43.923141+00:00",
-      "metadata": {
-        "processed_at": "2026-01-16T10:18:43.923142+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "58f969db166c023e19eee3b66427c0ed",
-      "url": "https://buildsoftwaresystems.com/post/guide-to-execution-environments/",
-      "title": "The spectrum of isolation: From bare metal to WebAssembly",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46644661\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-16T09:27:03+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-16T09:50:21.087606+00:00",
-      "updated_at": "2026-01-16T10:18:43.923145+00:00",
-      "metadata": {
-        "processed_at": "2026-01-16T10:18:43.923146+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "58f969db166c023e19eee3b66427c0ed",
-      "url": "https://buildsoftwaresystems.com/post/guide-to-execution-environments/",
-      "title": "The spectrum of isolation: From bare metal to WebAssembly",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46644661\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-16T09:27:03+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-16T09:50:21.087606+00:00",
-      "updated_at": "2026-01-16T10:18:43.923145+00:00",
-      "metadata": {
-        "processed_at": "2026-01-16T10:18:43.923146+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c2b1040363b782993e374043f2d0b017",
-      "url": "https://undeadly.org/cgi?action=article;sid=20260116085115",
-      "title": "pf: Make af-to less magical",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46644541\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-16T09:06:45+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-16T09:50:21.087586+00:00",
-      "updated_at": "2026-01-16T10:18:43.923148+00:00",
-      "metadata": {
-        "processed_at": "2026-01-16T10:18:43.923150+00:00",
         "processing_method": "github_actions"
       }
     }
