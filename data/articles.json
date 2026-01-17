@@ -1,5 +1,37 @@
 [
   {
+    "id": "727ea12b41a2cc366c32d9e00c5b7f3f",
+    "url": "https://github.com/PABannier/WSIStreamer",
+    "title": "Show HN: Streaming gigabyte medical images from S3 without downloading them",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46656358\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-17T08:46:08+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-17T10:21:29.471395+00:00",
+    "updated_at": "2026-01-17T10:21:29.471397+00:00"
+  },
+  {
+    "id": "727ea12b41a2cc366c32d9e00c5b7f3f",
+    "url": "https://github.com/PABannier/WSIStreamer",
+    "title": "Show HN: Streaming gigabyte medical images from S3 without downloading them",
+    "content": "<p>Article URL: <a href=\"https://github.com/PABannier/WSIStreamer\">https://github.com/PABannier/WSIStreamer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46656358\">https://news.ycombinator.com/item?id=46656358</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+    "author": "el_pa_b",
+    "published_date": "2026-01-17T08:46:08+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-17T10:21:28.089588+00:00",
+    "updated_at": "2026-01-17T10:21:28.089590+00:00"
+  },
+  {
     "id": "7117754ba462738bca2dfd31841d22ef",
     "url": "https://langfuse.com/blog/joining-clickhouse",
     "title": "ClickHouse Acquires Langfuse",
@@ -17050,37 +17082,5 @@
     "reading_time": 1,
     "created_at": "2026-01-13T05:50:03.567160+00:00",
     "updated_at": "2026-01-13T05:50:03.567161+00:00"
-  },
-  {
-    "id": "cb985508c82ff275099651880c945849",
-    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2e8c",
-    "title": "Neuropacify: a method to transform and match a patient\u2019s intracranial EEG to their NeuroPace RNS system data",
-    "content": "Objective. Closed-loop responsive neurostimulators, such as the NeuroPace responsive neurostimulation (RNS) system, continuously monitor brain activity and deliver electrical stimulation in response to abnormal electrographic activity in patients with drug-resistant epilepsy. Practical technical constraints limit the temporal resolution of these devices, reducing the quality of EEG recordings. Approach. In this work, we introduce a novel technique to convert high-resolution intracranial electroencephalography (iEEG) obtained from inpatient monitoring into the same format, parameters, and resolution produced by the RNS system, allowing direct comparison of iEEG with RNS system data. We validated this technique using data from patients who had both iEEG and RNS. Electrodes from the iEEG and RNS system were co-registered onto the same 3D coordinate grid, and vector math was applied to determine the iEEG electrodes closest to the operational RNS electrodes. Main results. Through spectral analysis, we derived a transfer function that accounts for all filtering and data processing produced by the RNS system. Comparison of the recorded data using visual and spectral analysis from iEEG and RNS confirmed that EEG characteristics were correctly transformed by the filtering function, allowing analysis of how iEEG signals would appear within the RNS system. We demonstrate two examples from the extreme edges of the spectra, showing how DC shifts and high frequency oscillations would be transformed by the RNS. We provide a tutorial to tune this method to local device parameters, a process that can be applied to other devices as well. Significance. This tool allows researchers and clinicians to extract EEG biomarkers from high-resolution iEEG and determine if/how they can be detected in lower-resolution RNS. This provides an opportunity to develop patient-specific seizure detection parameters and investigate the long-term effects of neurostimulation therapy.",
-    "author": "Grant Barkelew, Kathleen Kish, Zachary T Sanger, Raghav Varshney, Sarah Dykstra, David Brang, Theoden I Netoff and William C Stacey",
-    "published_date": "2026-01-08T00:00:00+00:00",
-    "source": "Journal Neural Engineering",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 282,
-    "reading_time": 1,
-    "created_at": "2026-01-13T05:49:57.622218+00:00",
-    "updated_at": "2026-01-13T05:49:57.622220+00:00"
-  },
-  {
-    "id": "318be31a5554d45f67b59f7fff501c1f",
-    "url": "https://www.reddit.com/r/Python/comments/1qb1nds/shuuten_v02_get_slack_email_alerts_when_python/",
-    "title": "Shuuten v0.2 \u2013 Get Slack & Email alerts when Python Lambdas / ECS tasks fail",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I kept missing Lambda failures because they were buried in CloudWatch, and I didn\u2019t want to set up CloudWatch Alarms + SNS for every small automation. So I built a tiny library that sends failures straight to Slack (and optionally email).</p> <p><strong>Example:</strong></p> <p>```python import shuuten</p> <p>@shuuten.capture() def handler(event, context): 1 / 0 ```</p> <p>That\u2019s it \u2014 uncaught exceptions and <code>ERROR+</code> logs show up in Slack or email with full Lambda/ECS context.</p> <h2>What my project does</h2> <p>Shuuten is a lightweight Python library that sends Slack and email alerts when AWS Lambdas or ECS tasks fail. It captures uncaught exceptions and ERROR-level logs and forwards them to Slack and/or email so teams don\u2019t have to live in CloudWatch.</p> <p>It supports: * Slack alerts via Incoming Webhooks * Email alerts via AWS SES * Environment-based configuration * Both Lambda handlers and containerized ECS workloads</p> <h2>Target audience</h2> <p>Shuuten is meant for developers running Python automation or backend workloads on AWS \u2014 especially Lambdas and ECS jobs \u2014 who want immediate Slack/email visibility when something breaks without setting up CloudWatch alarms, SNS, or heavy observability stacks.</p> <p>It\u2019s designed for real production usage, but intentionally simple.</p> <h2>Comparison</h2> <p>Most AWS setups rely on CloudWatch + Alarms + SNS or full observability platforms (Datadog, Sentry, etc.) to get failure alerts. That works, but it\u2019s often heavy for small services and one-off automations.</p> <p>Shuuten sits in your Python code instead: * no AWS alarm configuration * no dashboards to maintain * just \u201csend me a message when this fails\u201d</p> <p>It\u2019s closer to a \u201cdrop-in failure notifier\u201d than a full monitoring system.</p> <p>This grew out of a previous project of mine (<code>aws-teams-logger</code>) that sent AWS automation failures to Microsoft Teams; Shuuten generalizes the idea and focuses on Slack + email first.</p> <p>I\u2019d love feedback on: * the API (<code>@capture</code>, logging integration, config) * what alerting features are missing * whether this would fit into your AWS workflows</p> <p>Links: * Docs: <a href=\"https://shuuten.ritviknag.com\">https://shuuten.ritviknag.com</a> * GitHub: <a href=\"https://github.com/rnag/shuuten\">https://github.com/rnag/shuuten</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/The_Ritvik\"> /u/The_Ritvik </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qb1nds/shuuten_v02_get_slack_email_alerts_when_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qb1nds/shuuten_v02_get_slack_email_alerts_when_python/\">[comments]</a></span>",
-    "author": "/u/The_Ritvik",
-    "published_date": "2026-01-12T17:45:01+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 347,
-    "reading_time": 1,
-    "created_at": "2026-01-13T05:49:36.714662+00:00",
-    "updated_at": "2026-01-13T05:49:36.714664+00:00"
   }
 ]
