@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-17T20:24:39.506598+00:00",
+  "last_updated": "2026-01-17T20:44:46.188523+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "7a8f872dd63b73ffd0ee7fcd46bc06a5",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1706099",
+      "title": "CNN-based framework for Alzheimer's disease detection from EEG via dynamic mode decomposition",
+      "content": "Alzheimer's disease (AD) and frontotemporal dementia (FTD) are major neurodegenerative disorders with characteristic EEG alterations. While most prior studies have focused on eyes-closed (EC) EEG, where stable alpha rhythms support relatively high classification performance, eyes-open (EO) EEG has proven particularly challenging for AD, as low-frequency instability obscures the typical spectral alterations. In contrast, FTD often remains more discriminable under EO conditions, reflecting distinct neurophysiological dynamics between the two disorders. To address this challenge, we propose a CNN-based framework that applies Dynamic Mode Decomposition (DMD) to segment EO EEG into shorter temporal windows and employs a 3D CNN to capture spatio-temporal-spectral representations. This approach outperformed not only the conventional short-epoch spectral ML pipeline but also the same CNN architecture trained on FFT-based features, with particularly pronounced improvements observed in AD classification. Excluding delta yielded small gains in AD-involving contrasts, whereas FTD/CN was unchanged or slightly better with delta retained\u2014suggesting delta is more perturbative in AD under EO conditions.",
+      "author": "Jong-Hyeon Seo",
+      "published_date": "2025-11-20T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 157,
+      "reading_time": 1,
+      "created_at": "2026-01-17T20:44:09.228216+00:00",
+      "updated_at": "2026-01-17T20:44:09.228217+00:00"
+    },
+    {
+      "id": "5cfb80ac447ff74e1d484f2d79eb2638",
+      "url": "https://www.stephenlewis.me/blog/the-thing-that-brought-me-joy/",
+      "title": "The thing that brought me joy",
+      "content": "<p>Article URL: <a href=\"https://www.stephenlewis.me/blog/the-thing-that-brought-me-joy/\">https://www.stephenlewis.me/blog/the-thing-that-brought-me-joy/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46660663\">https://news.ycombinator.com/item?id=46660663</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+      "author": "monooso",
+      "published_date": "2026-01-17T18:42:39+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-17T20:43:36.006838+00:00",
+      "updated_at": "2026-01-17T20:43:36.006839+00:00"
+    },
     {
       "id": "cfcbcfd41b1addca79e6a149de456bcf",
       "url": "https://www.reddit.com/r/Python/comments/1qfe6hi/workaround_for_pythondocx_footnotes_sharing_in/",
@@ -309,38 +341,6 @@
       "reading_time": 17,
       "created_at": "2026-01-17T18:31:19.941269+00:00",
       "updated_at": "2026-01-17T18:31:19.941271+00:00"
-    },
-    {
-      "id": "7210558597288682542ae92a31dec20a",
-      "url": "https://eugeneyan.com/writing/counterfactual-evaluation/",
-      "title": "Counterfactual evaluation for recommendation systems",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46655524\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-17T05:20:20+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-17T18:30:15.996630+00:00",
-      "updated_at": "2026-01-17T18:30:15.996632+00:00"
-    },
-    {
-      "id": "02b750e033fe0c0ecc93a1915afb7ede",
-      "url": "https://www.economist.com/science-and-technology/2026/01/14/2025-was-the-third-hottest-year-on-record",
-      "title": "2025 was the third hottest year on record",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46659913\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-17T17:29:31+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-17T18:30:15.996592+00:00",
-      "updated_at": "2026-01-17T18:30:15.996594+00:00"
     }
   ]
 }
