@@ -1,5 +1,37 @@
 [
   {
+    "id": "b67111bbc8860c532496435f4fd8bb97",
+    "url": "https://sunnyamrat.com/posts/2026-01-17-artisanal-code/",
+    "title": "Artisanal Code",
+    "content": "<p>Article URL: <a href=\"https://sunnyamrat.com/posts/2026-01-17-artisanal-code/\">https://sunnyamrat.com/posts/2026-01-17-artisanal-code/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46654956\">https://news.ycombinator.com/item?id=46654956</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+    "author": "sunnyam",
+    "published_date": "2026-01-17T03:27:31+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-17T05:44:19.747878+00:00",
+    "updated_at": "2026-01-17T05:44:19.747880+00:00"
+  },
+  {
+    "id": "9a0bbd23d3605b633b48bf5029fd7c10",
+    "url": "https://johncodes.com/archive/2026/01-16-a-glimpse-into-the-future/",
+    "title": "Gas Town is a glimpse into the future",
+    "content": "<p>Article URL: <a href=\"https://johncodes.com/archive/2026/01-16-a-glimpse-into-the-future/\">https://johncodes.com/archive/2026/01-16-a-glimpse-into-the-future/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46655034\">https://news.ycombinator.com/item?id=46655034</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+    "author": "jpmcb",
+    "published_date": "2026-01-17T03:47:12+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-17T05:44:19.747848+00:00",
+    "updated_at": "2026-01-17T05:44:19.747856+00:00"
+  },
+  {
     "id": "446b68850603287bf093b05fe982d65f",
     "url": "https://git.sr.ht/~willowf/beebo/",
     "title": "Beebo, a wave simulator written in C",
@@ -16990,37 +17022,5 @@
     "reading_time": 1,
     "created_at": "2026-01-13T05:27:44.310343+00:00",
     "updated_at": "2026-01-13T05:27:44.310344+00:00"
-  },
-  {
-    "id": "3795e7ed4e2302107ca2ee1e1142be36",
-    "url": "https://arxiv.org/abs/2601.06029",
-    "title": "A Recommendation System-Based Framework for Enhancing Human-Machine Collaboration in Industrial Timetabling Rescheduling: Application in Preventive Maintenance",
-    "content": "arXiv:2601.06029v1 Announce Type: new \nAbstract: Industrial timetabling is a critical task for decision-makers across various sectors to ensure efficient system operation. In real-world settings, it remains challenging because unexpected events often disrupt execution. When such events arise, effective rescheduling and collaboration between humans and machines becomes essential. This paper presents a recommendation system-based framework for handling rescheduling challenges, built on Timefold, a powerful AI-driven planning engine. Our experimental study evaluates nine instances inspired by a realworld preventive maintenance use case, aiming to identify the heuristic that best balances solution quality and computing time to support near-optimal decisionmaking when rescheduling is required due to unexpected events during operational days. Finally, we illustrate the complete process of our recommendation system through a simple use case.",
-    "author": "K\\'evin Ducharlet, Liwen Zhang, Sara Maqrot, Houssem Saidi",
-    "published_date": "2026-01-13T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 123,
-    "reading_time": 1,
-    "created_at": "2026-01-13T05:27:44.310314+00:00",
-    "updated_at": "2026-01-13T05:27:44.310315+00:00"
-  },
-  {
-    "id": "a77f5121b5790d16d994b34bfde45ef2",
-    "url": "https://arxiv.org/abs/2601.06028",
-    "title": "Leveraging Foundation Models for Calibration-Free c-VEP BCIs",
-    "content": "arXiv:2601.06028v1 Announce Type: new \nAbstract: Foundation Models (FMs) have surged in popularity over the past five years, with applications spanning fields from computer vision to natural language processing. Brain-Computer Interfaces (BCIs) have also gained momentum due to their potential to support individuals with complex disabilities. Among BCI paradigms, code-modulated Visual Evoked Potentials (c-VEPs) remain relatively understudied, despite offering high information transfer rates and large selection target capacities. However, c-VEP systems require lengthy calibration sessions, limiting their practicality outside of laboratory settings. In this study, we use a FM for the first time to eliminate the need for lengthy calibration in c-VEP BCI systems. We evaluated two approaches: (1) a truly calibration-free approach requiring no subject-specific data, and (2) a limited calibration approach, where we assessed the benefit of incorporating incremental amounts of calibration data. In both cases, a classification head is trained on data from other subjects. For a new subject, no calibration data is required in the calibration-free setup, making the c-VEP system effectively plug-and-play. The proposed method was tested on two c-VEP datasets. For the calibration-free approach, the average accuracy on the first dataset (n = 17) was 68.8% +/- 17.6%, comparable to the full-calibration performance reported in the original study (66.2% +/- 13.8%), which required approximately 11 minutes of calibration. On the second dataset (n = 12), the calibration-free accuracy was 71.8% +/- 20.2%, versus 93.7% +/- 5.5% from the original study, which required around 3.5 minutes. A limited-calibration approach using only 20% of the subject's data (approximately 43 seconds) yielded 92% +/- 5.2% accuracy. These results indicate that our FM-based approach can effectively eliminate or significantly reduce the need for lengthy calibration in c-VEP BCIs.",
-    "author": "Mohammadreza Behboodi, Eli Kinney-Lang, Ali Etemad, Adam Kirton, Hatem Abou-Zeid",
-    "published_date": "2026-01-13T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 279,
-    "reading_time": 1,
-    "created_at": "2026-01-13T05:27:44.310284+00:00",
-    "updated_at": "2026-01-13T05:27:44.310286+00:00"
   }
 ]
