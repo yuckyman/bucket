@@ -1,5 +1,37 @@
 [
   {
+    "id": "ce2834ff6be8a78f6e4217922408aef3",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1655003",
+    "title": "Early heart disease prediction using LV-PSO and Fuzzy Inference Xception Convolution Neural Network on phonocardiogram signals",
+    "content": "IntroductionHeart disease is one of the leading causes of mortality worldwide, and early detection is crucial for effective treatment. Phonocardiogram (PCG) signals have shown potential in diagnosing cardiovascular conditions. However, accurate classification of PCG signals remains challenging due to high dimensional features, leading to misclassification and reduced performance in conventional systems.MethodsTo address these challenges, we propose a Linear Vectored Particle Swarm Optimization (LV-PSO) integrated with a Fuzzy Inference Xception Convolutional Neural Network (XCNN) for early heart risk prediction. PC G signals are analyzed to extract variations such as delta, theta, diastolic, and systolic differences. A Support Scalar Cardiac Impact Rate (S2CIR) is employed to capture disease specific scalar variations and behavioral impacts. LV-PSO is used to reduce feature dimensionality, and the optimized features are subsequently trained using the Fuzzy Inference XCNN model to classify disease types.ResultsExperimental evaluation demonstrates that the proposed system achieves superior predictive performance compared to existing models. The method attained a precision of 95.6%, recall of 93.1%, and an overall prediction accuracy of 95.8% across multiple disease categories.DiscussionThe integration of LV-PSO with Fuzzy Inference XCNN enhances feature selection aPSO with Fuzzy Inference XCNN enhances feature selection and nd classification accuracy, significantly improving the diagnostic capabilities of PCG-classification accuracy, significantly improving the diagnostic capabilities of PCG-based systems. These results highlight the potential of the proposed framework as a based systems. These results highlight the potential of the proposed framework as a reliable tool for early heart disease prediction and clinical decision support.reliable tool for early heart disease prediction and clinical decision support.",
+    "author": "C. Palanisamy",
+    "published_date": "2025-10-01T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 254,
+    "reading_time": 1,
+    "created_at": "2026-01-17T16:25:26.703167+00:00",
+    "updated_at": "2026-01-17T16:25:26.703169+00:00"
+  },
+  {
+    "id": "36e9e7eb571d82ae31f57d4136b2184c",
+    "url": "https://labs.ramp.com/rct",
+    "title": "We Put Claude Code in Rollercoaster Tycoon",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46588972\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-12T14:28:17+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-17T16:24:54.289792+00:00",
+    "updated_at": "2026-01-17T16:24:54.289794+00:00"
+  },
+  {
     "id": "a0e74a9fff07f32226af5c7b913ef263",
     "url": "https://www.nature.com/articles/s42003-026-09530-0",
     "title": "Differentially expressed miRNAs in the temporal cortex of Alzheimer\u2019s disease patients and their association to tau pathology",
@@ -17050,37 +17082,5 @@
     "reading_time": 1,
     "created_at": "2026-01-13T11:22:16.048735+00:00",
     "updated_at": "2026-01-13T11:22:16.048737+00:00"
-  },
-  {
-    "id": "010c87b3db77af47780bb71666454d70",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.698703v1?rss=1",
-    "title": "Aging-related Transcriptomic Changes with Spatial Resolution in the Human Prefrontal Cortex",
-    "content": "The human prefrontal cortex (PFC), whose laminar organization is essential for cognitive function, is among the first regions to show age-related functional decline. Single-cell sequencing studies revealed cell type-dependent aging effects but lacked spatial specificity. Spatial transcriptomics (ST) advanced our molecular understanding of the human PFC, yet whether aging-driven changes differ across PFC layers remains unclear. Here, we performed whole-transcriptome ST on postmortem PFC from 37 individuals across the adult lifespan. We mapped cortical layers and revealed aging mechanisms across layers. This represents one of the largest and most comprehensive lifespan ST analysis of the human PFC brain, offering crucial insight into how the brain ages and identifying potential molecular targets to mitigate cognitive aging and extend healthspan.",
-    "author": "Rai, A., Iatrou, A., Valenzuela, I., Bartlett, A., Banahan, J., Desai, V., Pantano, L., Castanho, I., Naderi Yeganeh, P., Ploumakis, A., Wang, S., Arruda de Amaral, A., Kalavros, N., Umensh, S., Tsvetkov, P., Berretta, S., Solomon, I. H., Hide, W., Vlachos, I., Slack, F., Ozdemir, R. A., Ho Sui, S., Daskalakis, N., Mavrikaki, M.",
-    "published_date": "2026-01-12T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 118,
-    "reading_time": 1,
-    "created_at": "2026-01-13T11:22:16.048682+00:00",
-    "updated_at": "2026-01-13T11:22:16.048687+00:00"
-  },
-  {
-    "id": "f696dd0700cee6d33cee0d16412c334f",
-    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1630133",
-    "title": "Super-resolution microscopy and deep learning methods: what can they bring to neuroscience: from neuron to 3D spine segmentation",
-    "content": "In recent years, advances in microscopy and the development of novel fluorescent probes have significantly improved neuronal imaging. Many neuropsychiatric disorders are characterized by alterations in neuronal arborization, neuronal loss\u2014as seen in Parkinson\u2019s disease\u2014or synaptic loss, as in Alzheimer\u2019s disease. Neurodevelopmental disorders can also impact dendritic spine morphogenesis, as observed in autism spectrum disorders and schizophrenia. In this review, we provide an overview of the various labeling and microscopy techniques available to visualize neuronal structure, including dendritic spines and synapses. Particular attention is given to available fluorescent probes, recent technological advances in super-resolution microscopy (SIM, STED, STORM, MINFLUX), and segmentation methods. Aimed at biologists, this review presents both classical segmentation approaches and recent tools based on deep learning methods, with the goal of remaining accessible to readers without programming expertise.",
-    "author": "Lydia Danglot",
-    "published_date": "2025-09-29T00:00:00+00:00",
-    "source": "Frontiers Neuroinformatics",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 130,
-    "reading_time": 1,
-    "created_at": "2026-01-13T11:22:08.770411+00:00",
-    "updated_at": "2026-01-13T11:22:08.770413+00:00"
   }
 ]
