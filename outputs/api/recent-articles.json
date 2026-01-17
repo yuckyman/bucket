@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-17T03:24:52.744810+00:00",
+  "last_updated": "2026-01-17T04:08:39.706367+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "3473a425f53da0974589e2a08adb1fbf",
+      "url": "https://news.ycombinator.com/item?id=46654726",
+      "title": "Ask HN: Is it still worth pursuing a software startup?",
+      "content": "<p>Considering there is very little moat left in software and big companies can copy your product in no time?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46654726\">https://news.ycombinator.com/item?id=46654726</a></p>\n<p>Points: 11</p>\n<p># Comments: 5</p>",
+      "author": "newbebee",
+      "published_date": "2026-01-17T02:29:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 30,
+      "reading_time": 1,
+      "created_at": "2026-01-17T04:07:30.709593+00:00",
+      "updated_at": "2026-01-17T04:07:30.709595+00:00"
+    },
+    {
+      "id": "0995db29d55bf47eb7832ab9c717a074",
+      "url": "https://www.bloomberg.com/graphics/2026-college-enrollment-cliff/",
+      "title": "Plunging US Birth Rate Leaves Too Many Colleges with Too Few Kids",
+      "content": "<p>Article URL: <a href=\"https://www.bloomberg.com/graphics/2026-college-enrollment-cliff/\">https://www.bloomberg.com/graphics/2026-college-enrollment-cliff/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46654728\">https://news.ycombinator.com/item?id=46654728</a></p>\n<p>Points: 27</p>\n<p># Comments: 9</p>",
+      "author": "toomuchtodo",
+      "published_date": "2026-01-17T02:30:28+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-17T04:07:30.709560+00:00",
+      "updated_at": "2026-01-17T04:07:30.709568+00:00"
+    },
     {
       "id": "bdc6897b3eb3dcdf14a6ec3bf14d3fe0",
       "url": "https://bvisness.me/high-level/",
@@ -309,46 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-17T01:44:29.620566+00:00",
       "updated_at": "2026-01-17T01:44:29.620574+00:00"
-    },
-    {
-      "id": "d49e25e40d21d1e322d41064ab898706",
-      "url": "https://www.reddit.com/r/Python/comments/1qebmcw/introducing_flaskgaelogging_for_a_better_dx_when/",
-      "title": "Introducing flask-gae-logging, for a better DX when building Flask apps in Google AppEngine",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I've been working with Flask on Google App Engine (GAE) and found the logging experience a bit annoying.</p> <p>After transition in Python3, the lack of clear, structured logging and severity propagation across the request lifecycle was a major pain point.</p> <p>So, I decided to create a custom Cloud Logging handler specifically for Flask apps deployed on GAE.</p> <p>\u2728 Introducing FlaskGAEMaxLogLevelPropagateHandler with flask-gae-logging package! \u2728</p> <p>This handler groups logs from the same request lifecycle and ensures the highest log level is propagated consistently. If you've been pulling your hair out trying to get clean, organized logs on GAE, this might just save your sanity.</p> <p>Key Features:</p> <ul> <li>Grouping of logs within the same request lifecycle.</li> <li>Propagation of the maximum log level.</li> <li>Easy integration with your existing Flask app.</li> <li>Some extra, nice-to-have, log filters for GAE.</li> </ul> <p>I\u2019ve written an article detailing how it works and how you can integrate it into your project. Would love to hear your thoughts, feedback, or any other logging pain points you\u2019ve encountered on GAE with Flask!</p> <p>\ud83d\udd17 GitHub Repo: <a href=\"https://github.com/trebbble/flask-gae-logging\">https://github.com/trebbble/flask-gae-logging</a></p> <p>Happy coding! \ud83d\ude80</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SearchMobile6431\"> /u/SearchMobile6431 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qebmcw/introducing_flaskgaelogging_for_a_better_dx_when/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qebmcw/introducing_flaskgaelogging_for_a_better_dx_when/\">[comments]</a></span>",
-      "author": "/u/SearchMobile6431",
-      "published_date": "2026-01-16T09:34:33+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 202,
-      "reading_time": 1,
-      "created_at": "2026-01-16T23:42:23.761966+00:00",
-      "updated_at": "2026-01-17T01:14:48.673296+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T01:14:48.673308+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ce3ed985744a9ab4c77573eb4151f204",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.15.699797v1?rss=1",
-      "title": "Joint Pupillometry and Heart Rate Monitoring Identify Zone-Like High Performance in Esports",
-      "content": "Zone-like states, defined as high objective performance with low subjective workload, are sought in esports and other demanding digital activities, yet subjective flow does not consistently index efficient performance. We hypothesized that zone-like high performance is supported by regulated arousal dynamics rather than strongly elevated arousal responses, and that such episodes can be detected from the combined dynamics of heart rate and pupil diameter. Fourteen healthy young adult men completed repeated sessions of a one-versus-one fighting game under three contexts: passive watching, play against a computer-controlled opponent, and competition against a human opponent. Heart rate and pupil diameter were recorded continuously, and subjective flow (Sports Flow Scale), subjective workload (NASA Task Load Index), and in-game performance metrics were assessed. Two-dimensional k-means clustering of heart rate and pupil changes relative to the watching condition revealed three arousal-reactivity profiles. Sessions with larger physiological deviations showed higher flow and higher workload but poorer performance. Sessions with smaller deviations showed higher performance with lower workload despite only moderate flow. Nonlinear analyses indicated inverted-U relationships between physiological deviations and performance, with peak performance occurring when heart rate and pupil responses remained close to the watching baseline during active play. These findings indicate that combined heart rate and pupillometry measures provide a useful multimodal physiological marker for identifying efficient high-performance states and for informing strategies to support performance while managing workload in cognitively demanding digital activities.",
-      "author": "Dobashi, S., Takahashi, S., Yamaguchi, T., Tachibana, Y., Kasahara, R., Takamizawa, R., Matsui, T.",
-      "published_date": "2026-01-16T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 230,
-      "reading_time": 1,
-      "created_at": "2026-01-16T23:22:07.422182+00:00",
-      "updated_at": "2026-01-17T01:14:48.673312+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T01:14:48.673314+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
