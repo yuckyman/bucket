@@ -1,24 +1,8 @@
 {
-  "last_updated": "2026-01-17T06:24:05.660970+00:00",
-  "pending_count": 739,
-  "processed_count": 261,
+  "last_updated": "2026-01-17T08:20:35.310716+00:00",
+  "pending_count": 734,
+  "processed_count": 266,
   "pending_articles": [
-    {
-      "id": "b32e59434e192a433a4c04255ec08cdc",
-      "url": "https://www.sfgate.com/tech/article/calif-teen-chatgpt-drug-advice-fatal-overdose-21266718.php",
-      "title": "A Calif. teen trusted ChatGPT's drug advice. He died from an overdose",
-      "content": "<p>Article URL: <a href=\"https://www.sfgate.com/tech/article/calif-teen-chatgpt-drug-advice-fatal-overdose-21266718.php\">https://www.sfgate.com/tech/article/calif-teen-chatgpt-drug-advice-fatal-overdose-21266718.php</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46655048\">https://news.ycombinator.com/item?id=46655048</a></p>\n<p>Points: 15</p>\n<p># Comments: 8</p>",
-      "author": "freediver",
-      "published_date": "2026-01-17T03:50:43+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-17T05:21:42.296979+00:00",
-      "updated_at": "2026-01-17T05:21:42.296988+00:00"
-    },
     {
       "id": "436550d6c0eb7f131d6aae3d3dd43638",
       "url": "https://www.seangoedecke.com/gas-and-ralph/",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2026-01-17T01:44:32.108786+00:00",
       "updated_at": "2026-01-17T01:44:32.108787+00:00"
+    },
+    {
+      "id": "77b505d4feb1c2392d45321ed79989c1",
+      "url": "https://www.reddit.com/r/Python/comments/1qectxu/finally_automated_my_pdftoexcel_workflow_using/",
+      "title": "Finally automated my PDF-to-Excel workflow using Python, Shared the core logic!",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone, I\u2019ve been working on a tool to handle one of the most annoying tasks: extracting structured data from messy, inconsistent PDF invoices. After some trial and error with different libraries, I settled on PDFPlumber for extraction and Pandas for the data cleaning part. It currently captures Invoice IDs, Dates, and nested tables, then exports everything into a clean Excel file. I\u2019m looking to optimize the logic for even larger datasets. I've shared the core extraction logic on GitHub for anyone looking to build something similar: <a href=\"https://github.com/ViroAI/PDF-Data-Extractor-Demo/blob/main/main.py\">https://github.com/ViroAI/PDF-Data-Extractor-Demo/blob/main/main.py</a> Would love to hear your thoughts on how you handle complex table structures in PDFs!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sensitive_Hope_1136\"> /u/Sensitive_Hope_1136 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qectxu/finally_automated_my_pdftoexcel_workflow_using/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qectxu/finally_automated_my_pdftoexcel_workflow_using/\">[comments]</a></span>",
+      "author": "/u/Sensitive_Hope_1136",
+      "published_date": "2026-01-16T10:47:20+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 125,
+      "reading_time": 1,
+      "created_at": "2026-01-17T01:44:32.108758+00:00",
+      "updated_at": "2026-01-17T01:44:32.108759+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "dc6b49ff981e6fd7b585171169b6456c",
+      "url": "https://old.reddit.com/r/webdev/comments/1qcxres/vibe_coding_is_a_blight_on_opensource/",
+      "title": "Vibe coding is a blight on open-source",
+      "content": "<p>Article URL: <a href=\"https://old.reddit.com/r/webdev/comments/1qcxres/vibe_coding_is_a_blight_on_opensource/\">https://old.reddit.com/r/webdev/comments/1qcxres/vibe_coding_is_a_blight_on_opensource/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46655702\">https://news.ycombinator.com/item?id=46655702</a></p>\n<p>Points: 16</p>\n<p># Comments: 0</p>",
+      "author": "doppp",
+      "published_date": "2026-01-17T05:58:19+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-17T07:40:09.240639+00:00",
+      "updated_at": "2026-01-17T08:20:35.203522+00:00",
+      "metadata": {
+        "processed_at": "2026-01-17T08:20:35.203533+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "bcd84af9df48400fd688be3ede769347",
+      "url": "https://www.nature.com/articles/s41386-026-02354-w",
+      "title": "Intrinsic connectivity patterns of striatal subfields predict individual dimensions of psychopathology and are associated with cholinergic and serotonergic neurotransmission in schizophrenia",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-17T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-17T06:33:08.426146+00:00",
+      "updated_at": "2026-01-17T08:20:35.203537+00:00",
+      "metadata": {
+        "processed_at": "2026-01-17T08:20:35.203539+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "d1953660de9585d0cb12bcd4decf7964",
+      "url": "https://www.nature.com/articles/s41598-026-36313-8",
+      "title": "The association between probable sarcopenia, non-motor symptoms, and fall-related outcomes in parkinson\u2019s disease",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-17T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-17T06:33:08.426127+00:00",
+      "updated_at": "2026-01-17T08:20:35.203544+00:00",
+      "metadata": {
+        "processed_at": "2026-01-17T08:20:35.203546+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "70690cbb4af4a540067b0bd7ccf00a74",
+      "url": "https://www.nature.com/articles/s41598-025-34476-4",
+      "title": "GPR156 is required in sensory hair cells for proper auditory and vestibular function",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-17T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-17T06:33:08.426107+00:00",
+      "updated_at": "2026-01-17T08:20:35.203549+00:00",
+      "metadata": {
+        "processed_at": "2026-01-17T08:20:35.203550+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "b67111bbc8860c532496435f4fd8bb97",
       "url": "https://sunnyamrat.com/posts/2026-01-17-artisanal-code/",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "3473a425f53da0974589e2a08adb1fbf",
-      "url": "https://news.ycombinator.com/item?id=46654726",
-      "title": "Ask HN: Is it still worth pursuing a software startup?",
-      "content": "<p>Considering there is very little moat left in software and big companies can copy your product in no time?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46654726\">https://news.ycombinator.com/item?id=46654726</a></p>\n<p>Points: 11</p>\n<p># Comments: 5</p>",
-      "author": "newbebee",
-      "published_date": "2026-01-17T02:29:07+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 30,
-      "reading_time": 1,
-      "created_at": "2026-01-17T04:07:30.709593+00:00",
-      "updated_at": "2026-01-17T04:28:52.947943+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T04:28:52.947952+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0995db29d55bf47eb7832ab9c717a074",
-      "url": "https://www.bloomberg.com/graphics/2026-college-enrollment-cliff/",
-      "title": "Plunging US Birth Rate Leaves Too Many Colleges with Too Few Kids",
-      "content": "<p>Article URL: <a href=\"https://www.bloomberg.com/graphics/2026-college-enrollment-cliff/\">https://www.bloomberg.com/graphics/2026-college-enrollment-cliff/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46654728\">https://news.ycombinator.com/item?id=46654728</a></p>\n<p>Points: 27</p>\n<p># Comments: 9</p>",
-      "author": "toomuchtodo",
-      "published_date": "2026-01-17T02:30:28+00:00",
+      "id": "b32e59434e192a433a4c04255ec08cdc",
+      "url": "https://www.sfgate.com/tech/article/calif-teen-chatgpt-drug-advice-fatal-overdose-21266718.php",
+      "title": "A Calif. teen trusted ChatGPT's drug advice. He died from an overdose",
+      "content": "<p>Article URL: <a href=\"https://www.sfgate.com/tech/article/calif-teen-chatgpt-drug-advice-fatal-overdose-21266718.php\">https://www.sfgate.com/tech/article/calif-teen-chatgpt-drug-advice-fatal-overdose-21266718.php</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46655048\">https://news.ycombinator.com/item?id=46655048</a></p>\n<p>Points: 15</p>\n<p># Comments: 8</p>",
+      "author": "freediver",
+      "published_date": "2026-01-17T03:50:43+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 13,
       "reading_time": 1,
-      "created_at": "2026-01-17T04:07:30.709560+00:00",
-      "updated_at": "2026-01-17T04:28:52.947957+00:00",
+      "created_at": "2026-01-17T05:21:42.296979+00:00",
+      "updated_at": "2026-01-17T08:20:35.203552+00:00",
       "metadata": {
-        "processed_at": "2026-01-17T04:28:52.947959+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bdc6897b3eb3dcdf14a6ec3bf14d3fe0",
-      "url": "https://bvisness.me/high-level/",
-      "title": "High-Level Is the Goal",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46630816\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-15T11:01:34+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-17T03:23:45.975729+00:00",
-      "updated_at": "2026-01-17T04:28:52.947961+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T04:28:52.947963+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0e2e8192ca184757efcf9e1e2225896e",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.15.699393v1?rss=1",
-      "title": "Direction-dependent bias in the perceived approach speed and its implications for robot motion design",
-      "content": "Humans frequently interact with robots that approach from different directions; however, how the approach direction systematically biases the perceived speed remains unclear. Here, we demonstrate a robust direction-dependent bias in the perceived approach speed, whereby objects approaching from behind are consistently perceived as moving faster than those approaching from the front are. Across five experiments using both physical robots and immersive virtual reality, this bias manifests as a systematic shift in the point of subjective equality without corresponding changes in discrimination sensitivity, indicating a perceptual bias rather than altered precision. We further show that this effect can be explained by body-induced differences in interocular velocity that arise when observers orient themselves toward stimuli approaching from behind. This bias persists in virtual environments and for nonrobotic objects, suggesting that it is driven primarily by visual factors rather than multisensory cues or robot-specific appearance. Together, these findings provide a perceptual foundation for incorporating approach direction into the design and evaluation of the motion behavior of robots in human-centered environments.",
-      "author": "Yamauchi, T., Tamura, H., Minami, T., Nakauchi, S.",
-      "published_date": "2026-01-16T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 167,
-      "reading_time": 1,
-      "created_at": "2026-01-17T01:45:16.855578+00:00",
-      "updated_at": "2026-01-17T03:18:59.648650+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T03:18:59.648661+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f019212c84ce145489e30ac3b28f542d",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.699854v1?rss=1",
-      "title": "Differential TDP-43 interactomes between the cortex and cerebellum in the mouse",
-      "content": "TAR DNA binding protein 43 (TDP-43) is the core pathogenic protein across a spectrum of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) cases, but its pathological deposition shows regional selectivity, with abundant TDP-43 positive aggregates in the frontal cortex and spinal cord, and a much lower burden in the cerebellum. In health, TDP-43 expression in the cerebellum is higher than in cortex, hence what underpins this differential vulnerability to TDP-43 aggregation is unclear. Here we demonstrate that in healthy C57Bl/6J mice not only is TDP-43 expression higher in the cerebellum than the cortex, but that this expression difference is driven primarily by differences in cytoplasmic load. Mass spectrometry analysis of TDP-43 pull downs from the cortex and cerebellum of healthy mice identified TDP-43 interactors across a number of core functional pathways, with numerous differences between the two brain regions. Data are available via ProteomeXchange with identifier PXD062532. Notably, there were more interactors identified in both nuclear and cytoplasmic fractions within the cortex than the cerebellum. Putative interactions with four core paraspeckle proteins; SFPQ, NONO, FUS and PSPC1 were confirmed using immunoprecipitation and western blot analysis. Follow up validation using proximity ligation assay showed abundant perinuclear cytoplasmic interactions between TDP-43 and all four paraspeckle proteins in both large motor cortex neurons and purkinje cells, with significantly reduced nuclear interactions detected in the motor cortex for SFPQ, FUS and PSPC1. These findings suggest that TDP-43-protein interactions markedly differ between the TDP-43 pathogenesis vulnerable cortex and relatively resistant cerebellum and exploring these differences may yield new insight into disease mechanisms within ALS/FTD.",
-      "author": "Baldacchino, T., Lynham, S., Tacconelli, S., Vance, C., Mitchell, J. C.",
-      "published_date": "2026-01-16T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 260,
-      "reading_time": 1,
-      "created_at": "2026-01-17T01:45:16.855546+00:00",
-      "updated_at": "2026-01-17T03:18:59.648666+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T03:18:59.648668+00:00",
+        "processed_at": "2026-01-17T08:20:35.203554+00:00",
         "processing_method": "github_actions"
       }
     }
