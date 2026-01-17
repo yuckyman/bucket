@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-17T14:44:18.409399+00:00",
+  "last_updated": "2026-01-17T15:22:18.343555+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "cfe9fc0e389537b5495e45cf7346c6b3",
+      "url": "https://www.reddit.com/r/Python/comments/1qf9ns8/mesas_new_unified_scheduling_api_rethinking_how/",
+      "title": "Mesa's new unified scheduling API: Rethinking how time works in agent-based models",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi <a href=\"/r/Python\">r/Python</a>,</p> <p>I'm one of the maintainers of <a href=\"https://github.com/projectmesa/mesa\">Mesa</a>, the Python framework for agent-based modeling. We're working on a pretty significant change to how models handle time and event scheduling, and I think (hope) it's a cool demonstration of user API design.</p> <h3>The problem</h3> <p>Right now, Mesa has two separate systems for advancing time. The traditional approach looks like this:</p> <p><code>python model = MyModel() for _ in range(100): model.step() </code></p> <p>Simple, but limited. If you want discrete event simulation (where things happen at irregular intervals), you need to use our experimental <code>Simulator</code> classes: a completely separate API that feels (and is) bolted on rather than integrated.</p> <h3>The new approach</h3> <p>We're unifying everything into a single, clean API that lives directly on the Model. Here's what it looks like:</p> <p>```python from mesa import Model from mesa.timeflow import scheduled</p> <p>class WolfSheep(Model): @scheduled # Runs every 1 time unit by default def step(self): self.agents.shuffle_do(&quot;step&quot;)</p> <p>model = WolfSheep() model.run_for(100) # Run for 100 time units ```</p> <p>The <code>@scheduled</code> decorator marks methods for automatic recurring execution. You can customize the interval:</p> <p>```python @scheduled(interval=7) # Weekly def collect_statistics(self): ...</p> <p>@scheduled(interval=0.5) # Twice per time unit def physics_update(self): ... ```</p> <h3>Start simple, add complexity</h3> <p>The real power comes from mixing regular stepping with one-off events:</p> <p>```python class EpidemicModel(Model): def <strong>init</strong>(self): super().<strong>init</strong>() # Schedule a one-time event self.schedule_at(self.introduce_vaccine, time=50)</p> <pre><code>@scheduled def step(self): self.agents.shuffle_do(&quot;step&quot;) def introduce_vaccine(self): # This fires once at t=50 self.vaccine_available = True </code></pre> <p>```</p> <p>Agents can even schedule their own future actions:</p> <p>```python class Prisoner(Agent): def get_arrested(self, sentence): self.in_jail = True self.model.schedule_after(self.release, delay=sentence)</p> <pre><code>def release(self): self.in_jail = False </code></pre> <p>```</p> <p>And for pure discrete event simulation (no regular stepping at all):</p> <p>```python class QueueingModel(Model): def <strong>init</strong>(self, arrival<em>rate): super().</em><em>init</em>_() self.schedule_at(self.customer_arrival, time=0)</p> <pre><code>def customer_arrival(self): Customer(self) # Schedule next arrival (Poisson process) next_time = self.time + self.random.expovariate(arrival_rate) self.schedule_at(self.customer_arrival, time=next_time) </code></pre> <p>model = QueueingModel(arrival_rate=2.0) model.run_until(1000.0) # Time jumps: 0 \u2192 0.3 \u2192 0.8 \u2192 1.2... ```</p> <h3>Run control methods</h3> <p><code>python model.run_for(100) # Run for 100 time units model.run_until(500) # Run until time reaches 500 model.run_while(lambda m: m.running) # Run while condition is true model.run_next_event() # Step through events one at a time </code></p> <h3>Design considerations</h3> <p>We kept in mind our wide user base: both students who just starting to learn ABM and PhD-level research. We try to allow progressive complexity: Start simple with <code>@scheduled</code> + <code>run_for()</code>, add events as needed</p> <p>There's now no more second tier: both paradigms are a first-class citizen</p> <p>What's also cool that agents can schedule their own future actions naturally, not everything has to be controlled centrally. This leads to complex patterns and emergent behavior (a very important concept in ABM).</p> <p>Finally we're quite proud that's it's fully backward compatible, that was very hard to get right.</p> <h3>Current status</h3> <p>This is in active development (<a href=\"https://github.com/projectmesa/mesa/pull/3155\">PR #3155</a>), so any insights (both on the specific PR and on a higher level) are appreciated!</p> <p>The (extensive) design discussion is in <a href=\"https://github.com/projectmesa/mesa/discussions/2921\">#2921</a> if you want to dive deeper.</p> <p>If you're more interested in the process of designing a new API in a larger community for a library with a varied user base, we recently wrote up our perspective on that: <a href=\"https://github.com/mesa/mesa/blob/main/CONTRIBUTING.md#mesa-development-process\">Mesa development process</a>.</p> <h3>What's next</h3> <p>We're also <a href=\"https://github.com/mesa/mesa/discussions/2921#discussioncomment-15524497\">designing</a> a more advanced <code>schedule()</code> method for complex patterns:</p> <p>```python</p> <h1>Poisson arrivals with stochastic intervals</h1> <p>model.schedule(customer_arrival, interval=lambda m: m.random.expovariate(2.0))</p> <h1>Run only during market hours, stop after 100 executions</h1> <p>model.schedule(trade, interval=1, only_if=lambda m: m.market_open, count=100)</p> <h1>Seasonal events</h1> <p>@scheduled(interval=1, only_if=lambda m: 90 &lt;= m.time % 365 &lt; 180) def breeding_season(self): ... ```</p> <p>I hope you guys find something like this interesting and it will lead to fruitful a discussion!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Balance-\"> /u/Balance- </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qf9ns8/mesas_new_unified_scheduling_api_rethinking_how/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qf9ns8/mesas_new_unified_scheduling_api_rethinking_how/\">[comments]</a></span>",
+      "author": "/u/Balance-",
+      "published_date": "2026-01-17T10:15:22+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 621,
+      "reading_time": 3,
+      "created_at": "2026-01-17T15:21:13.202532+00:00",
+      "updated_at": "2026-01-17T15:21:13.202534+00:00"
+    },
     {
       "id": "61240e61f3a4d95adfa6ee3bc02b8b30",
       "url": "https://www.sciencedirect.com/science/article/pii/S0006899326000181?dgcid=rss_sd_all",
@@ -325,22 +341,6 @@
         "processed_at": "2026-01-17T14:14:56.699056+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "efbd1fbf2b13b98ed3aa0bd6ef3fc254",
-      "url": "http://doi.org/10.1037/bne0000632",
-      "title": "Chemogenetic modulation of PAC1-expressing neurons in the bed nucleus of the stria terminalis (BNST) alters anxiety-related behaviors in male mice.",
-      "content": "Pituitary adenylate cyclase-activating polypeptide (PACAP, <em>ADCYAP1</em>) is a highly conserved neuropeptide that plays essential roles in numerous physiological functions, and central PACAP signaling has been associated with mechanisms regulating stress-induced psychopathologies. PACAP binds to several receptor subtypes, including PAC1 (<em>ADCYAP1R1</em>), VPAC1 (<em>VIPR1</em>), and VPAC2 (<em>VIPR2</em>), to activate several signaling cascades that can alter neuronal excitability and enhance indices of neuroplasticity, and much of our prior work has suggested that the anxiogenic effects of bed nucleus of the stria terminalis (BNST) PACAP depend on the activation of PAC1 receptors. To complement our previous work that evaluated the roles of BNST PACAP expression and secretion in anxiety-related responses, we employed in the current work chemogenetic approaches in male PAC1-Ires-Cre mice to directly and specifically modulate the activities of BNST PAC1 receptor-expressing neurons. Inhibition of BNST PAC1 receptor neuron activity with clozapine-N-oxide significantly increased open arm exploration without reducing total locomotor activity; conversely, stimulating BNST PAC1 receptor function significantly reduced open arm exploratory activities. In sum, these data are consistent with our prior work suggesting a key role for BNST PACAP receptor activation in anxiety and stress; further, these observations importantly clarify the neural circuits involved in anxiety-like behaviors. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-09-01T00:00:00+00:00",
-      "source": "Behavioral Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 205,
-      "reading_time": 1,
-      "created_at": "2026-01-17T13:47:29.854645+00:00",
-      "updated_at": "2026-01-17T13:47:29.854647+00:00"
     }
   ]
 }
