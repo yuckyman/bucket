@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-17T22:45:23.211631+00:00",
+  "last_updated": "2026-01-17T23:21:23.096333+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "14d683fc13a3e435ba74c5756a11a330",
+      "url": "https://xous.dev/",
+      "title": "Xous Operating System",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46619059\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-14T17:29:09+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-17T23:20:17.174817+00:00",
+      "updated_at": "2026-01-17T23:20:17.174819+00:00"
+    },
+    {
+      "id": "bcc6d83f83a513e9e7f3fc1772ee56e6",
+      "url": "https://mike.tech/blog/death-of-software-development",
+      "title": "The Death of Software Development",
+      "content": "<p>Article URL: <a href=\"https://mike.tech/blog/death-of-software-development\">https://mike.tech/blog/death-of-software-development</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46661936\">https://news.ycombinator.com/item?id=46661936</a></p>\n<p>Points: 4</p>\n<p># Comments: 2</p>",
+      "author": "andrewdb",
+      "published_date": "2026-01-17T20:49:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-17T23:20:15.833335+00:00",
+      "updated_at": "2026-01-17T23:20:15.833337+00:00"
+    },
     {
       "id": "c76adb7668d5270ef53d8ab06116d124",
       "url": "https://www.eff.org/deeplinks/2026/01/congress-wants-hand-your-parenting-big-tech",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-17T20:23:32.152455+00:00",
       "updated_at": "2026-01-17T20:23:32.152457+00:00"
-    },
-    {
-      "id": "aa181fa2ea6c77172785f822c228c056",
-      "url": "https://arstechnica.com/information-technology/2026/01/openai-to-test-ads-in-chatgpt-as-it-burns-through-billions/",
-      "title": "OpenAI to test ads in ChatGPT as it burns through billions",
-      "content": "<p>Article URL: <a href=\"https://arstechnica.com/information-technology/2026/01/openai-to-test-ads-in-chatgpt-as-it-burns-through-billions/\">https://arstechnica.com/information-technology/2026/01/openai-to-test-ads-in-chatgpt-as-it-burns-through-billions/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46661231\">https://news.ycombinator.com/item?id=46661231</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
-      "author": "Terretta",
-      "published_date": "2026-01-17T19:31:15+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-17T20:23:32.152434+00:00",
-      "updated_at": "2026-01-17T20:23:32.152436+00:00"
-    },
-    {
-      "id": "75c2c5818fcab4be84987de08865e26e",
-      "url": "https://github.com/whispem/minikv",
-      "title": "Show HN: Minikv \u2013 Distributed key-value and object store in Rust (Raft, S3 API)",
-      "content": "<p>Hi HN,<p>I\u2019m releasing minikv, a distributed key-value and object store in Rust.<p>What is minikv?\nminikv is an open-source, distributed storage engine built for learning, experimentation, and self-hosted setups. \nIt combines a strongly-consistent key-value database (Raft), S3-compatible object storage, and basic multi-tenancy. \nI started minikv as a learning project about distributed systems, and it grew into something production-ready and fun to extend.<p>Features/highlights:<p>- Raft consensus with automatic failover and sharding\n- S3-compatible HTTP API (plus REST/gRPC APIs)\n- Pluggable storage backends: in-memory, RocksDB, Sled\n- Multi-tenant: per-tenant namespaces, role-based access, quotas, and audit\n- Metrics (Prometheus), TLS, JWT-based API keys\n- Easy to deploy (single binary, works with Docker/Kubernetes)<p>Quick demo (single node):<p>git clone <a href=\"https://github.com/whispem/minikv.git\" rel=\"nofollow\">https://github.com/whispem/minikv.git</a>\ncd minikv\ncargo run --release -- --config config.example.toml\ncurl localhost:8080/health/ready\n# S3 upload + read\ncurl -X PUT localhost:8080/s3/mybucket/hello -d \"hi HN\"\ncurl localhost:8080/s3/mybucket/hello<p>Docs, cluster setup, and architecture details are in the repo.\nI\u2019d love to hear feedback, questions, ideas, or your stories running distributed infra in Rust!<p>Repo: <a href=\"https://github.com/whispem/minikv\" rel=\"nofollow\">https://github.com/whispem/minikv</a>\nCrate: <a href=\"https://crates.io/crates/minikv\" rel=\"nofollow\">https://crates.io/crates/minikv</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46661308\">https://news.ycombinator.com/item?id=46661308</a></p>\n<p>Points: 13</p>\n<p># Comments: 7</p>",
-      "author": "whispem",
-      "published_date": "2026-01-17T19:39:36+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 180,
-      "reading_time": 1,
-      "created_at": "2026-01-17T20:23:32.152401+00:00",
-      "updated_at": "2026-01-17T20:23:32.152410+00:00"
     }
   ]
 }
