@@ -1,5 +1,37 @@
 [
   {
+    "id": "7117754ba462738bca2dfd31841d22ef",
+    "url": "https://langfuse.com/blog/joining-clickhouse",
+    "title": "ClickHouse Acquires Langfuse",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46656552\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-17T09:15:45+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-17T09:42:04.238829+00:00",
+    "updated_at": "2026-01-17T09:42:04.238834+00:00"
+  },
+  {
+    "id": "b25f77d76ad192baf1bb7087512957e8",
+    "url": "https://old.reddit.com/r/Office365/comments/1q2b28q/office_app_has_changed_to_copilot_and_now_i_cant",
+    "title": "Office app has changed to copilot and now I can't open files",
+    "content": "<p>Article URL: <a href=\"https://old.reddit.com/r/Office365/comments/1q2b28q/office_app_has_changed_to_copilot_and_now_i_cant\">https://old.reddit.com/r/Office365/comments/1q2b28q/office_app_has_changed_to_copilot_and_now_i_cant</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46656373\">https://news.ycombinator.com/item?id=46656373</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+    "author": "csmantle",
+    "published_date": "2026-01-17T08:48:26+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-17T09:42:02.899778+00:00",
+    "updated_at": "2026-01-17T09:42:02.899786+00:00"
+  },
+  {
     "id": "9708a7ef9ff5f8a2ecd38e133d7a6e9e",
     "url": "https://www.policyalternatives.ca/news-research/every-data-centre-is-a-u-s-military-base/",
     "title": "Every data centre is a U.S. military base",
@@ -17030,37 +17062,5 @@
     "reading_time": 1,
     "created_at": "2026-01-13T05:49:36.714662+00:00",
     "updated_at": "2026-01-13T05:49:36.714664+00:00"
-  },
-  {
-    "id": "dcf07aa0c49212ec3fc4c2d1d9d075e4",
-    "url": "https://www.reddit.com/r/Python/comments/1qar754/monica_a_python_interactive_cli_that_wraps_ffmpeg/",
-    "title": "MONICA: A Python interactive CLI that wraps FFmpeg into a keyboard-driven media workflow",
-    "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p><strong>MONICA (Media Operations Navigator with Interactive Command-line Assistance)</strong> is a Python-based interactive CLI application that simplifies audio and video manipulation by abstracting FFmpeg behind a guided, keyboard-driven interface.</p> <p>Instead of memorizing FFmpeg flags or writing one-off scripts, you:</p> <ul> <li>Drop media files into an <code>/import</code> folder</li> <li>Run the program</li> <li>Navigate an interactive menu using arrow keys, Enter, and Space</li> <li>Select predefined \u201crecipes\u201d (convert, extract audio, resize, remux, etc.)</li> <li>Get processed outputs in an <code>/export</code> folder with timestamped filenames</li> </ul> <p>Key features:</p> <ul> <li>Interactive menus (no raw FFmpeg commands exposed)</li> <li>Multi-file selection and queued processing</li> <li>Recipe-based presets for common media operations</li> <li>Auto-detection and auto-download of FFmpeg if missing</li> <li>Progress bar during execution</li> <li>Cross-platform (Windows &amp; Linux)</li> <li>Designed for batch work and repeatable workflows</li> </ul> <p>Supported operations include:</p> <ul> <li>Video conversion (MP4, MKV, WebM, AVI with H.264, H.265, VP9)</li> <li>Audio conversion (MP3, AAC, FLAC, WAV, OGG, Opus)</li> <li>Audio extraction from video</li> <li>Resize / compress to common resolutions</li> <li>Remuxing without re-encoding</li> </ul> <h1>Target Audience</h1> <p>MONICA is intended for:</p> <ul> <li>Python developers who regularly work with media</li> <li>Developers who also handle marketing, content, or HR tasks (interviews, onboarding videos, demos)</li> <li>Anyone who needs fast, repeatable batch media operations without building custom FFmpeg scripts</li> <li>Internal tooling, automation pipelines, or solo dev workflows</li> </ul> <h1>Comparison</h1> <p>Compared to raw <strong>FFmpeg CLI</strong>:</p> <ul> <li>MONICA removes the need to remember or maintain command-line syntax</li> <li>Uses structured presets instead of ad-hoc commands</li> <li>Safer for non-FFmpeg experts while still leveraging FFmpeg\u2019s power</li> </ul> <p>Compared to <strong>GUI tools</strong> (HandBrake, media converters):</p> <ul> <li>Faster for batch and repeated operations</li> <li>Scriptable and automatable</li> <li>No heavy UI, no mouse-driven friction</li> <li>Easier to integrate into developer workflows</li> </ul> <p>Compared to writing <strong>custom Python + FFmpeg scripts</strong>:</p> <ul> <li>Less boilerplate</li> <li>Reusable recipes</li> <li>Cleaner separation between UI, execution, and configuration</li> <li>Extensible via custom JSON recipes without touching core code</li> </ul> <p>The project is MIT-licensed, extensible, and open to contributions.<br /> Feedback from Python devs who deal with media pipelines is especially welcome.</p> <p><em>Huge respect and thanks to the</em> <strong><em>FFmpeg team and contributors</em></strong> <em>for building and maintaining one of the most powerful open-source multimedia frameworks ever created.</em></p> <p>Github Link: <a href=\"https://github.com/Ssenseii/monica/blob/main/docs/guides/getting-started.md\">https://github.com/Ssenseii/monica/blob/main/docs/guides/getting-started.md</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Punk_Saint\"> /u/Punk_Saint </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qar754/monica_a_python_interactive_cli_that_wraps_ffmpeg/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qar754/monica_a_python_interactive_cli_that_wraps_ffmpeg/\">[comments]</a></span>",
-    "author": "/u/Punk_Saint",
-    "published_date": "2026-01-12T10:13:34+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 377,
-    "reading_time": 1,
-    "created_at": "2026-01-13T05:49:36.714613+00:00",
-    "updated_at": "2026-01-13T05:49:36.714615+00:00"
-  },
-  {
-    "id": "9c2f820e83a5f72f1f51d996a75da869",
-    "url": "https://www.reddit.com/r/Python/comments/1qbblti/sampo_automate_changelogs_versioning_and/",
-    "title": "Sampo \u2014 Automate changelogs, versioning, and publishing",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm excited to share <a href=\"https://github.com/bruits/sampo\">Sampo</a>, a tool suite to automate changelogs, versioning, and publishing\u2014even for monorepos spanning multiple package registries.</p> <p>Thanks to <a href=\"https://github.com/rafaeelaudibert\">Rafael Audibert</a> from <a href=\"https://github.com/PostHog\">PostHog</a>, Sampo now supports <strong>PyPI packages managed via</strong> <code>pyproject.toml</code> <strong>and</strong> <code>uv</code>. And it already supported Rust (crates.io), JavaScript/TypeScript (npm), and Elixir (Hex) packages, including in mixed setups.</p> <h1>What My Project Does</h1> <p>Sampo comes as a <a href=\"https://github.com/bruits/sampo/tree/main/crates/sampo\">CLI tool</a>, a <a href=\"https://github.com/bruits/sampo/tree/main/crates/sampo-github-action\">GitHub Action</a>, and a <a href=\"https://github.com/apps/sampo-s-bot\">GitHub App</a>. It automatically discovers <code>pyproject.toml</code> in your workspace, enforces <a href=\"https://semver.org/\">Semantic Versioning</a> (SemVer), helps you write user-facing changesets, consumes them to generate changelogs, bumps package versions accordingly, and automates your release and publishing process.</p> <p>It\u2019s fully open source, and easy to opt in and opt out. We\u2019re also open to contributions to extend support to other Python registries and/or package managers.</p> <h1>Target Audience</h1> <p>The project is still in its initial development versions <code>(0.x.x)</code>, so expect some rough edges. However, its core features are already here, and breaking changes should be minimal going forward.</p> <p>It\u2019s particularly well-suited to multi-ecosystem monorepos (e.g. mixing Python and TypeScript packages), organisations with repos across several ecosystems (that want a consistent release workflow everywhere), or maintainers who are struggling to keep changelogs and releases under control.</p> <p>I\u2019d say the project is starting to be production-ready: we use it for our various open-source projects (Sampo of course, but also <a href=\"https://github.com/bruits/maudit/\">Maudit</a>), my previous company still uses it in production, and others (like PostHog) are evaluating adoption.</p> <h1>Comparison</h1> <p>Sampo is deeply inspired by <a href=\"https://github.com/changesets/changesets\">Changesets</a> and <a href=\"https://github.com/lerna/lerna\">Lerna</a>, from which we borrow the changeset format and monorepo release workflows. But our project goes beyond the JavaScript/TypeScript ecosystem, as it is made with Rust, and designed to support multiple mixed ecosystems. Other npm-limited tools include <a href=\"https://github.com/microsoft/rushstack\">Rush</a>, <a href=\"https://github.com/algolia/shipjs\">Ship.js</a>, <a href=\"https://github.com/release-it/release-it\">Release It!</a>, and <a href=\"https://github.com/microsoft/beachball\">beachball</a>.</p> <p>Google's <a href=\"https://github.com/googleapis/release-please\">Release Please</a> is ecosystem-agnostic, but lacks publishing capabilities, and is not monorepo-focused. Also, it uses <a href=\"https://www.conventionalcommits.org/en/v1.0.0/\">Conventional Commits</a> messages to infer changes instead of explicit changesets, which confuses the technical history (used and written by contributors) with the API changelog (used by users, can be written/reviewed by product/docs owner). Other commit-based tools include <a href=\"https://github.com/semantic-release/semantic-release\">semantic-release</a> and <a href=\"https://github.com/intuit/auto\">auto</a>.</p> <p><a href=\"https://github.com/knope-dev/knope\">Knope</a> is an ecosystem-agnostic tool inspired by Changesets, but lacks publishing capabilities, and is more config-heavy. But we are thankful for their open-source <a href=\"https://github.com/knope-dev/changesets\">changeset parser</a> that we reused in Sampo!</p> <p>To our knowledge, no other tool automates versioning, changelogs, and publishing, with explicit changesets, and multi-ecosystem support. That's the gap Sampo aims to fill!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nev____\"> /u/Nev____ </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qbblti/sampo_automate_changelogs_versioning_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qbblti/sampo_automate_changelogs_versioning_and/\">[comments]</a></span>",
-    "author": "/u/Nev____",
-    "published_date": "2026-01-12T23:54:21+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 437,
-    "reading_time": 2,
-    "created_at": "2026-01-13T05:49:36.714557+00:00",
-    "updated_at": "2026-01-13T05:49:36.714559+00:00"
   }
 ]
