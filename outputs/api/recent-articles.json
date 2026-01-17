@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-01-17T10:22:35.374732+00:00",
+  "last_updated": "2026-01-17T10:45:45.982638+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "cb985508c82ff275099651880c945849",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2e8c",
+      "title": "Neuropacify: a method to transform and match a patient\u2019s intracranial EEG to their NeuroPace RNS system data",
+      "content": "Objective. Closed-loop responsive neurostimulators, such as the NeuroPace responsive neurostimulation (RNS) system, continuously monitor brain activity and deliver electrical stimulation in response to abnormal electrographic activity in patients with drug-resistant epilepsy. Practical technical constraints limit the temporal resolution of these devices, reducing the quality of EEG recordings. Approach. In this work, we introduce a novel technique to convert high-resolution intracranial electroencephalography (iEEG) obtained from inpatient monitoring into the same format, parameters, and resolution produced by the RNS system, allowing direct comparison of iEEG with RNS system data. We validated this technique using data from patients who had both iEEG and RNS. Electrodes from the iEEG and RNS system were co-registered onto the same 3D coordinate grid, and vector math was applied to determine the iEEG electrodes closest to the operational RNS electrodes. Main results. Through spectral analysis, we derived a transfer function that accounts for all filtering and data processing produced by the RNS system. Comparison of the recorded data using visual and spectral analysis from iEEG and RNS confirmed that EEG characteristics were correctly transformed by the filtering function, allowing analysis of how iEEG signals would appear within the RNS system. We demonstrate two examples from the extreme edges of the spectra, showing how DC shifts and high frequency oscillations would be transformed by the RNS. We provide a tutorial to tune this method to local device parameters, a process that can be applied to other devices as well. Significance. This tool allows researchers and clinicians to extract EEG biomarkers from high-resolution iEEG and determine if/how they can be detected in lower-resolution RNS. This provides an opportunity to develop patient-specific seizure detection parameters and investigate the long-term effects of neurostimulation therapy.",
+      "author": "Grant Barkelew, Kathleen Kish, Zachary T Sanger, Raghav Varshney, Sarah Dykstra, David Brang, Theoden I Netoff and William C Stacey",
+      "published_date": "2026-01-08T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 282,
+      "reading_time": 1,
+      "created_at": "2026-01-17T10:44:59.943320+00:00",
+      "updated_at": "2026-01-17T10:44:59.943322+00:00"
+    },
+    {
+      "id": "0ce4cdb46e0a095d5c113e6d6681af1f",
+      "url": "https://www.lesswrong.com/posts/rhAPh3YzhPoBNpgHg/lies-damned-lies-and-proofs-formal-methods-are-not-slopless",
+      "title": "Lies, Damned Lies and Proofs: Formal Methods Are Not Slopless",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46615084\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-14T12:01:08+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-17T10:44:34.379982+00:00",
+      "updated_at": "2026-01-17T10:44:34.379983+00:00"
+    },
+    {
+      "id": "be3dfe9c24de39fb14eff8e964384efa",
+      "url": "https://github.com/originalankur/maptoposter",
+      "title": "Map To Poster \u2013 Create Art of your favourite city",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46656834\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-17T10:13:57+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-17T10:44:34.379884+00:00",
+      "updated_at": "2026-01-17T10:44:34.379886+00:00"
+    },
     {
       "id": "727ea12b41a2cc366c32d9e00c5b7f3f",
       "url": "https://github.com/PABannier/WSIStreamer",
@@ -325,62 +373,6 @@
         "processed_at": "2026-01-17T06:24:05.552013+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "5652167a2682773da5c88848ab535beb",
-      "url": "https://neodyme.io/en/blog/drone_hacking_part_1/",
-      "title": "Drone Hacking Part 1: Dumping Firmware and Bruteforcing ECC",
-      "content": "<p>Article URL: <a href=\"https://neodyme.io/en/blog/drone_hacking_part_1/\">https://neodyme.io/en/blog/drone_hacking_part_1/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46654749\">https://news.ycombinator.com/item?id=46654749</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-      "author": "tripdout",
-      "published_date": "2026-01-17T02:35:28+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-17T05:21:42.297030+00:00",
-      "updated_at": "2026-01-17T06:24:05.552015+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T06:24:05.552017+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "b32e59434e192a433a4c04255ec08cdc",
-      "url": "https://www.sfgate.com/tech/article/calif-teen-chatgpt-drug-advice-fatal-overdose-21266718.php",
-      "title": "A Calif. teen trusted ChatGPT's drug advice. He died from an overdose",
-      "content": "<p>Article URL: <a href=\"https://www.sfgate.com/tech/article/calif-teen-chatgpt-drug-advice-fatal-overdose-21266718.php\">https://www.sfgate.com/tech/article/calif-teen-chatgpt-drug-advice-fatal-overdose-21266718.php</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46655048\">https://news.ycombinator.com/item?id=46655048</a></p>\n<p>Points: 15</p>\n<p># Comments: 8</p>",
-      "author": "freediver",
-      "published_date": "2026-01-17T03:50:43+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-17T05:21:42.296979+00:00",
-      "updated_at": "2026-01-17T08:20:35.203552+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T08:20:35.203554+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "436550d6c0eb7f131d6aae3d3dd43638",
-      "url": "https://www.seangoedecke.com/gas-and-ralph/",
-      "title": "Crypto grifters are recruiting open-source AI developers",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46654878\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-17T03:07:08+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-17T04:52:52.284856+00:00",
-      "updated_at": "2026-01-17T04:52:52.284858+00:00"
     }
   ]
 }
