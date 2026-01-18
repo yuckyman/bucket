@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-18T21:20:34.338121+00:00",
+  "last_updated": "2026-01-18T21:41:28.968509+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "9e6de67eebb6d47b33a09a5bcf2d03e4",
+      "url": "https://www.cnn.com/2026/01/18/business/crafting-soars-ai-analog-wellness",
+      "title": "Tired of AI, people are committing to the analog lifestyle in 2026",
+      "content": "<p>Article URL: <a href=\"https://www.cnn.com/2026/01/18/business/crafting-soars-ai-analog-wellness\">https://www.cnn.com/2026/01/18/business/crafting-soars-ai-analog-wellness</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46671020\">https://news.ycombinator.com/item?id=46671020</a></p>\n<p>Points: 33</p>\n<p># Comments: 17</p>",
+      "author": "andy99",
+      "published_date": "2026-01-18T19:04:48+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-18T21:40:18.473184+00:00",
+      "updated_at": "2026-01-18T21:40:18.473186+00:00"
+    },
     {
       "id": "fa55482085d71450c9cb7f74381fa63f",
       "url": "https://ohioopen.library.ohio.edu/opentextbooks/9/",
@@ -311,26 +327,6 @@
       "updated_at": "2026-01-18T20:18:13.208000+00:00",
       "metadata": {
         "processed_at": "2026-01-18T20:18:13.208002+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "22fa3baa23d216508d6f8da74e548308",
-      "url": "http://ieeexplore.ieee.org/document/11023078",
-      "title": "Phase Correction of MR Spectroscopic Imaging Data Using Model-Based Signal Estimation and Extrapolation",
-      "content": "Objective: To develop an effective method for phase correction of magnetic resonance spectroscopic imaging (MRSI) data. Methods: In many MRSI applications, it is desirable to generate absorption-mode spectra, which requires correction of phase errors in the measured MRSI data. Conventional phase correction methods are sensitive to measurement noise and baseline distortion, often resulting in distorted absorption-mode spectra from MRSI data with low-SNR and long acquisition dead time. This paper proposed a novel model-based method for improved phase correction of MRSI data. The proposed method determined the zeroth-order phase and acquisition dead time using a Lorentzian-based spectral model and performed signal extrapolation using a generalized series model. Absorption-mode spectra were then generated from the phase-corrected and extrapolated MRSI data. Results: The proposed method was evaluated using both simulated data and experimental data acquired from human subjects in multi-nuclei (31P, 2H, and 1H) MRSI experiments. Simulation results demonstrated improved parameter estimation accuracy by the proposed method under various noise levels and dead times. The proposed method also consistently generated high-quality absorption-mode spectra with minimal spectral distortions from experimental data. The proposed method was compared with state-of-the-art methods (including the entropy method and LCModel method) and showed more robust phase correction performance with less spectral distortions. Conclusion: This paper introduced a novel method for phase correction of MRSI data. Results from simulated and in vivo data demonstrated that high-quality absorption-mode spectra could be obtained using the proposed method. Significance: This method will provide a useful tool for processing MRSI data.",
-      "author": "",
-      "published_date": "2025-06-04T13:17:30+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 247,
-      "reading_time": 1,
-      "created_at": "2026-01-18T19:38:58.858770+00:00",
-      "updated_at": "2026-01-18T20:18:13.208005+00:00",
-      "metadata": {
-        "processed_at": "2026-01-18T20:18:13.208006+00:00",
         "processing_method": "github_actions"
       }
     }
