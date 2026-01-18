@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-18T22:15:24.373401+00:00",
+  "last_updated": "2026-01-18T22:22:23.580898+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "18e23fefebcc874e0763046c17f016d8",
+      "url": "https://kudmitry.com/articles/dead-internet-theory/",
+      "title": "Dead Internet Theory",
+      "content": "<p>Article URL: <a href=\"https://kudmitry.com/articles/dead-internet-theory/\">https://kudmitry.com/articles/dead-internet-theory/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46671731\">https://news.ycombinator.com/item?id=46671731</a></p>\n<p>Points: 9</p>\n<p># Comments: 5</p>",
+      "author": "skwee357",
+      "published_date": "2026-01-18T20:19:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-18T22:21:08.147132+00:00",
+      "updated_at": "2026-01-18T22:21:08.147134+00:00"
+    },
     {
       "id": "9e6de67eebb6d47b33a09a5bcf2d03e4",
       "url": "https://www.cnn.com/2026/01/18/business/crafting-soars-ai-analog-wellness",
@@ -327,26 +343,6 @@
       "updated_at": "2026-01-18T20:18:13.207986+00:00",
       "metadata": {
         "processed_at": "2026-01-18T20:18:13.207996+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "755f2e75bf9f701e6cbb3e2e5e345b01",
-      "url": "http://ieeexplore.ieee.org/document/11024015",
-      "title": "GONet: A Generalizable Deep Learning Model for Glaucoma Detection",
-      "content": "Glaucomatous optic neuropathy (GON), affecting an estimated 64.3 million people globally, causes irreversible vision loss when not detected early. Traditional diagnosis requires time-consuming ophthalmic examinations by specialists. Recent deep learning models for automating GON detection from colour fundus photographs (CFP) have shown promise but often suffer from limited generalizability across different ethnicities, disease groups and examination settings. To address these limitations, we introduce GONet, a robust deep learning model developed using seven independent datasets, including over 119\u2009000 CFPs with gold-standard annotations and from patients of diverse geographic backgrounds. GONet consists of a DINOv2 pre-trained self-supervised vision transformer fine-tuned using a multisource domain strategy. GONet demonstrated high out-of-distribution generalizability, with an AUC of 0.88-0.99 in target domains. GONet performance was similar or superior to state-of-the-art works and the cup-to-disc ratio, by up to 18.4%. GONet is available via Lirot.ai (www.aimlab-technion.com/lirot-ai). We also contribute a new dataset consisting of 747 CFPs with GON labels as open access, available at https://doi.org/10.13026/pdxv-m215.",
-      "author": "",
-      "published_date": "2025-06-04T13:17:30+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 159,
-      "reading_time": 1,
-      "created_at": "2026-01-18T19:38:58.858805+00:00",
-      "updated_at": "2026-01-18T20:18:13.208000+00:00",
-      "metadata": {
-        "processed_at": "2026-01-18T20:18:13.208002+00:00",
         "processing_method": "github_actions"
       }
     }
