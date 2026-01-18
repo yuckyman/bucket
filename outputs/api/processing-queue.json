@@ -1,24 +1,8 @@
 {
-  "last_updated": "2026-01-18T03:42:00.787777+00:00",
-  "pending_count": 721,
-  "processed_count": 279,
+  "last_updated": "2026-01-18T04:38:17.459706+00:00",
+  "pending_count": 717,
+  "processed_count": 283,
   "pending_articles": [
-    {
-      "id": "22766d26ddef73e62e2eb8485039a2c1",
-      "url": "https://css.csail.mit.edu/6.858/2024/",
-      "title": "MIT's Computer Systems Security (2024)",
-      "content": "<p>Article URL: <a href=\"https://css.csail.mit.edu/6.858/2024/\">https://css.csail.mit.edu/6.858/2024/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46663507\">https://news.ycombinator.com/item?id=46663507</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
-      "author": "barishnamazov",
-      "published_date": "2026-01-18T00:09:43+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-18T01:56:56.373631+00:00",
-      "updated_at": "2026-01-18T01:56:56.373633+00:00"
-    },
     {
       "id": "1af432b5f6f73fa93be8709d9f65a1f0",
       "url": "https://geohot.github.io//blog/jekyll/update/2026/01/18/how-do-i-stop.html",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2026-01-17T20:23:32.152434+00:00",
       "updated_at": "2026-01-17T20:23:32.152436+00:00"
+    },
+    {
+      "id": "75c2c5818fcab4be84987de08865e26e",
+      "url": "https://github.com/whispem/minikv",
+      "title": "Show HN: Minikv \u2013 Distributed key-value and object store in Rust (Raft, S3 API)",
+      "content": "<p>Hi HN,<p>I\u2019m releasing minikv, a distributed key-value and object store in Rust.<p>What is minikv?\nminikv is an open-source, distributed storage engine built for learning, experimentation, and self-hosted setups. \nIt combines a strongly-consistent key-value database (Raft), S3-compatible object storage, and basic multi-tenancy. \nI started minikv as a learning project about distributed systems, and it grew into something production-ready and fun to extend.<p>Features/highlights:<p>- Raft consensus with automatic failover and sharding\n- S3-compatible HTTP API (plus REST/gRPC APIs)\n- Pluggable storage backends: in-memory, RocksDB, Sled\n- Multi-tenant: per-tenant namespaces, role-based access, quotas, and audit\n- Metrics (Prometheus), TLS, JWT-based API keys\n- Easy to deploy (single binary, works with Docker/Kubernetes)<p>Quick demo (single node):<p>git clone <a href=\"https://github.com/whispem/minikv.git\" rel=\"nofollow\">https://github.com/whispem/minikv.git</a>\ncd minikv\ncargo run --release -- --config config.example.toml\ncurl localhost:8080/health/ready\n# S3 upload + read\ncurl -X PUT localhost:8080/s3/mybucket/hello -d \"hi HN\"\ncurl localhost:8080/s3/mybucket/hello<p>Docs, cluster setup, and architecture details are in the repo.\nI\u2019d love to hear feedback, questions, ideas, or your stories running distributed infra in Rust!<p>Repo: <a href=\"https://github.com/whispem/minikv\" rel=\"nofollow\">https://github.com/whispem/minikv</a>\nCrate: <a href=\"https://crates.io/crates/minikv\" rel=\"nofollow\">https://crates.io/crates/minikv</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46661308\">https://news.ycombinator.com/item?id=46661308</a></p>\n<p>Points: 13</p>\n<p># Comments: 7</p>",
+      "author": "whispem",
+      "published_date": "2026-01-17T19:39:36+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 180,
+      "reading_time": 1,
+      "created_at": "2026-01-17T20:23:32.152401+00:00",
+      "updated_at": "2026-01-17T20:23:32.152410+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "6d79727041124a21f53470f88a30791f",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1754834",
+      "title": "Correction: Path planning of industrial robots based on the adaptive field cooperative sampling algorithm",
+      "content": "",
+      "author": "Lv Wei",
+      "published_date": "2025-12-18T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-18T03:49:19.523456+00:00",
+      "updated_at": "2026-01-18T04:38:17.352550+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T04:38:17.352559+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "7f3169d4ab0c2e2908498e398f69533e",
+      "url": "https://mastodon.social/@heliographe_studio/115890819509545391",
+      "title": "If you put Apple icons in reverse it looks like someone getting good at design",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46663338\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-17T23:47:16+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-18T03:48:54.314052+00:00",
+      "updated_at": "2026-01-18T04:38:17.352563+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T04:38:17.352565+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a5cd686de08f04a999aa7adf847379f8",
+      "url": "https://speedminers.fun/",
+      "title": "Show HN: Speed Miners \u2013 A tiny RTS resource mini-game",
+      "content": "<p>I've always loved RTS games and wanted to make a game similar for a long time. I thought I'd just try and build a mini / puzzle game around the resource gathering aspects of an RTS.<p>Objective: You have a base at the center and you need to mine and \"refine\" all of the resources on the map in as short a time as possible.<p>By default, the game will play automatically, but not optimally (moving and buying  upgrades). You can disable that with the buttons. You can select drones and right click to move them to specific resources patches and buy upgrades as you earn upgrade points.<p>I've implemented three different levels and some basic sounds. I used Phaser at the game library (first time using it). It won't work well on a mobile.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46662399\">https://news.ycombinator.com/item?id=46662399</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "author": "nickponline",
+      "published_date": "2026-01-17T21:40:53+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 143,
+      "reading_time": 1,
+      "created_at": "2026-01-18T03:48:52.987577+00:00",
+      "updated_at": "2026-01-18T04:38:17.352570+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T04:38:17.352571+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "7f3169d4ab0c2e2908498e398f69533e",
+      "url": "https://mastodon.social/@heliographe_studio/115890819509545391",
+      "title": "If you put Apple icons in reverse it looks like someone getting good at design",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46663338\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-17T23:47:16+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-18T03:48:54.314052+00:00",
+      "updated_at": "2026-01-18T04:38:17.352563+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T04:38:17.352565+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "2fedcdd2ae4da36c63a0b9658ae060b0",
       "url": "https://www.reddit.com/r/Python/comments/1qf7kbd/data_analysts_what_actually_takes_up_most_of_your/",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "14d683fc13a3e435ba74c5756a11a330",
-      "url": "https://xous.dev/",
-      "title": "Xous Operating System",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46619059\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-14T17:29:09+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-17T23:20:17.174817+00:00",
-      "updated_at": "2026-01-18T01:23:22.926766+00:00",
-      "metadata": {
-        "processed_at": "2026-01-18T01:23:22.926775+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bcc6d83f83a513e9e7f3fc1772ee56e6",
-      "url": "https://mike.tech/blog/death-of-software-development",
-      "title": "The Death of Software Development",
-      "content": "<p>Article URL: <a href=\"https://mike.tech/blog/death-of-software-development\">https://mike.tech/blog/death-of-software-development</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46661936\">https://news.ycombinator.com/item?id=46661936</a></p>\n<p>Points: 4</p>\n<p># Comments: 2</p>",
-      "author": "andrewdb",
-      "published_date": "2026-01-17T20:49:15+00:00",
+      "id": "22766d26ddef73e62e2eb8485039a2c1",
+      "url": "https://css.csail.mit.edu/6.858/2024/",
+      "title": "MIT's Computer Systems Security (2024)",
+      "content": "<p>Article URL: <a href=\"https://css.csail.mit.edu/6.858/2024/\">https://css.csail.mit.edu/6.858/2024/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46663507\">https://news.ycombinator.com/item?id=46663507</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "author": "barishnamazov",
+      "published_date": "2026-01-18T00:09:43+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 13,
       "reading_time": 1,
-      "created_at": "2026-01-17T23:20:15.833335+00:00",
-      "updated_at": "2026-01-18T01:23:22.926779+00:00",
+      "created_at": "2026-01-18T01:56:56.373631+00:00",
+      "updated_at": "2026-01-18T04:38:17.352577+00:00",
       "metadata": {
-        "processed_at": "2026-01-18T01:23:22.926781+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c76adb7668d5270ef53d8ab06116d124",
-      "url": "https://www.eff.org/deeplinks/2026/01/congress-wants-hand-your-parenting-big-tech",
-      "title": "Congress Wants to Hand Your Parenting to Big Tech",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46662503\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-17T21:54:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-17T22:44:10.633813+00:00",
-      "updated_at": "2026-01-18T01:23:22.926784+00:00",
-      "metadata": {
-        "processed_at": "2026-01-18T01:23:22.926786+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c76adb7668d5270ef53d8ab06116d124",
-      "url": "https://www.eff.org/deeplinks/2026/01/congress-wants-hand-your-parenting-big-tech",
-      "title": "Congress Wants to Hand Your Parenting to Big Tech",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46662503\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-17T21:54:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-17T22:44:10.633813+00:00",
-      "updated_at": "2026-01-18T01:23:22.926784+00:00",
-      "metadata": {
-        "processed_at": "2026-01-18T01:23:22.926786+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ab935afdc711b2ccc67fee4fc89c3cec",
-      "url": "https://github.com/chunkhound/chunkhound",
-      "title": "Show HN: ChunkHound, a local-first tool for understanding large codebases",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46662078\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-17T21:03:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-17T22:44:10.633795+00:00",
-      "updated_at": "2026-01-18T01:23:22.926788+00:00",
-      "metadata": {
-        "processed_at": "2026-01-18T01:23:22.926789+00:00",
+        "processed_at": "2026-01-18T04:38:17.352579+00:00",
         "processing_method": "github_actions"
       }
     }
