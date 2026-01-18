@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-01-17T22:15:35.450848+00:00",
-  "pending_count": 730,
-  "processed_count": 270,
+  "last_updated": "2026-01-18T01:23:23.031904+00:00",
+  "pending_count": 722,
+  "processed_count": 278,
   "pending_articles": [
+    {
+      "id": "1fb502ed728801219b8769edb0adb487",
+      "url": "https://docker.how/",
+      "title": "Show HN: Docker.how \u2013 Docker command cheat sheet",
+      "content": "<p>Article URL: <a href=\"https://docker.how/\">https://docker.how/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46661630\">https://news.ycombinator.com/item?id=46661630</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
+      "author": "anagogistis",
+      "published_date": "2026-01-17T20:17:49+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-17T22:20:35.943312+00:00",
+      "updated_at": "2026-01-17T22:20:35.943314+00:00"
+    },
     {
       "id": "5cfb80ac447ff74e1d484f2d79eb2638",
       "url": "https://www.stephenlewis.me/blog/the-thing-that-brought-me-joy/",
@@ -146,25 +162,169 @@
       "reading_time": 22,
       "created_at": "2026-01-17T18:53:47.654172+00:00",
       "updated_at": "2026-01-17T18:53:47.654175+00:00"
-    },
-    {
-      "id": "55852b727088ea2ba7a232b9120b6145",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926000194?dgcid=rss_sd_all",
-      "title": "VSSI-TBM: A variational sparse source imaging method based on time basis matrix",
-      "content": "<p>Publication date: 1 February 2026</p><p><b>Source:</b> NeuroImage, Volume 326</p><p>Author(s): Tianyu Gao, Jin Ding, Wen Li, Fulong Wang, Yujie Ma, Ruonan Wang, Yang Gao, Xiaolin Ning</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 24,
-      "reading_time": 1,
-      "created_at": "2026-01-17T18:53:25.512367+00:00",
-      "updated_at": "2026-01-17T18:53:25.512369+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "14d683fc13a3e435ba74c5756a11a330",
+      "url": "https://xous.dev/",
+      "title": "Xous Operating System",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46619059\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-14T17:29:09+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-17T23:20:17.174817+00:00",
+      "updated_at": "2026-01-18T01:23:22.926766+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T01:23:22.926775+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "bcc6d83f83a513e9e7f3fc1772ee56e6",
+      "url": "https://mike.tech/blog/death-of-software-development",
+      "title": "The Death of Software Development",
+      "content": "<p>Article URL: <a href=\"https://mike.tech/blog/death-of-software-development\">https://mike.tech/blog/death-of-software-development</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46661936\">https://news.ycombinator.com/item?id=46661936</a></p>\n<p>Points: 4</p>\n<p># Comments: 2</p>",
+      "author": "andrewdb",
+      "published_date": "2026-01-17T20:49:15+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-17T23:20:15.833335+00:00",
+      "updated_at": "2026-01-18T01:23:22.926779+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T01:23:22.926781+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c76adb7668d5270ef53d8ab06116d124",
+      "url": "https://www.eff.org/deeplinks/2026/01/congress-wants-hand-your-parenting-big-tech",
+      "title": "Congress Wants to Hand Your Parenting to Big Tech",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46662503\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-17T21:54:52+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-17T22:44:10.633813+00:00",
+      "updated_at": "2026-01-18T01:23:22.926784+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T01:23:22.926786+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ab935afdc711b2ccc67fee4fc89c3cec",
+      "url": "https://github.com/chunkhound/chunkhound",
+      "title": "Show HN: ChunkHound, a local-first tool for understanding large codebases",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46662078\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-17T21:03:52+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-17T22:44:10.633795+00:00",
+      "updated_at": "2026-01-18T01:23:22.926788+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T01:23:22.926789+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "fc1afb4142bb4cd72c4be3129ae8112a",
+      "url": "https://willhbr.net/2025/10/20/light-mode-infffffflation/",
+      "title": "Light Mode InFFFFFFlation",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46662662\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-17T22:19:25+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-17T22:44:10.633667+00:00",
+      "updated_at": "2026-01-18T01:23:22.926791+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T01:23:22.926793+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ab935afdc711b2ccc67fee4fc89c3cec",
+      "url": "https://github.com/chunkhound/chunkhound",
+      "title": "Show HN: ChunkHound, a local-first tool for understanding large codebases",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46662078\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-17T21:03:52+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-17T22:44:10.633795+00:00",
+      "updated_at": "2026-01-18T01:23:22.926788+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T01:23:22.926789+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c76adb7668d5270ef53d8ab06116d124",
+      "url": "https://www.eff.org/deeplinks/2026/01/congress-wants-hand-your-parenting-big-tech",
+      "title": "Congress Wants to Hand Your Parenting to Big Tech",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46662503\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-17T21:54:52+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-17T22:44:10.633813+00:00",
+      "updated_at": "2026-01-18T01:23:22.926784+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T01:23:22.926786+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "fc1afb4142bb4cd72c4be3129ae8112a",
+      "url": "https://willhbr.net/2025/10/20/light-mode-infffffflation/",
+      "title": "Light Mode InFFFFFFlation",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46662662\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-17T22:19:25+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-17T22:44:10.633667+00:00",
+      "updated_at": "2026-01-18T01:23:22.926791+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T01:23:22.926793+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "b7f494cc037c33b8550150343fdc5617",
       "url": "https://belowthesurface.amsterdam/en/vondsten",
@@ -202,166 +362,6 @@
       "updated_at": "2026-01-17T22:15:35.335229+00:00",
       "metadata": {
         "processed_at": "2026-01-17T22:15:35.335231+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e1883c9c7b43e64dfba739c78a8543d0",
-      "url": "https://www.honeycomb.io/blog/you-had-one-job-why-twenty-years-of-devops-has-failed-to-do-it",
-      "title": "Why Twenty Years of DevOps Has Failed to Do It",
-      "content": "<p>Article URL: <a href=\"https://www.honeycomb.io/blog/you-had-one-job-why-twenty-years-of-devops-has-failed-to-do-it\">https://www.honeycomb.io/blog/you-had-one-job-why-twenty-years-of-devops-has-failed-to-do-it</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46661132\">https://news.ycombinator.com/item?id=46661132</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
-      "author": "mooreds",
-      "published_date": "2026-01-17T19:21:38+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-17T21:40:31.852583+00:00",
-      "updated_at": "2026-01-17T22:15:35.335233+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T22:15:35.335235+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "b6b2d2f6ebac1079651880b35113d878",
-      "url": "https://github.com/kip-dili/kip",
-      "title": "A programming language based on grammatical cases of Turkish",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46661897\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-17T20:44:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-17T21:19:32.445851+00:00",
-      "updated_at": "2026-01-17T22:15:35.335237+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T22:15:35.335238+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7a8f872dd63b73ffd0ee7fcd46bc06a5",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1706099",
-      "title": "CNN-based framework for Alzheimer's disease detection from EEG via dynamic mode decomposition",
-      "content": "Alzheimer's disease (AD) and frontotemporal dementia (FTD) are major neurodegenerative disorders with characteristic EEG alterations. While most prior studies have focused on eyes-closed (EC) EEG, where stable alpha rhythms support relatively high classification performance, eyes-open (EO) EEG has proven particularly challenging for AD, as low-frequency instability obscures the typical spectral alterations. In contrast, FTD often remains more discriminable under EO conditions, reflecting distinct neurophysiological dynamics between the two disorders. To address this challenge, we propose a CNN-based framework that applies Dynamic Mode Decomposition (DMD) to segment EO EEG into shorter temporal windows and employs a 3D CNN to capture spatio-temporal-spectral representations. This approach outperformed not only the conventional short-epoch spectral ML pipeline but also the same CNN architecture trained on FFT-based features, with particularly pronounced improvements observed in AD classification. Excluding delta yielded small gains in AD-involving contrasts, whereas FTD/CN was unchanged or slightly better with delta retained\u2014suggesting delta is more perturbative in AD under EO conditions.",
-      "author": "Jong-Hyeon Seo",
-      "published_date": "2025-11-20T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 157,
-      "reading_time": 1,
-      "created_at": "2026-01-17T20:44:09.228216+00:00",
-      "updated_at": "2026-01-17T22:15:35.335240+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T22:15:35.335242+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "83f8cb4789409c51f8afb4636ed19c9a",
-      "url": "https://www.abortretry.fail/p/the-olivetti-company",
-      "title": "The Olivetti Company \u2013 By Bradford Morgan White",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46576581\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-11T15:33:04+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-17T19:38:15.314426+00:00",
-      "updated_at": "2026-01-17T20:17:12.384448+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T20:17:12.384459+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7f0d3dcbb5f4518aefa3154ee75dc06f",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.700011v1?rss=1",
-      "title": "Brain-like dynamics in speech representations can emerge through self-supervised learning",
-      "content": "Speech representations in the human brain do not simply mirror the instantaneous speech signal; rather, they display several properties that are hypothesized to facilitate the integration of speech sounds into words. In particular, neural encodings of speech maintain information that has dissipated from the acoustics, and have also been argued to abstract over variability in how individual speech sounds are produced. Here, we investigate how such characteristics could arise. We introduce a computational framework that uses modern neural network models from speech technology to examine two factors in particular: the learning mechanism and the learning input. We find that self-supervised models trained without lexical or semantic feedback developed temporal dynamics similar to brain representations, regardless of whether they were trained on speech or non-speech audio. In contrast, only models trained on speech learn to abstract over variability due to word position and phonetic context. Overall, our results suggest that domain-general learning mechanisms can lead to several important properties of speech representations, but in some cases require domain-specific input in order to do so.",
-      "author": "Liu, O. D., Tang, H., Feldman, N. H., Goldwater, S.",
-      "published_date": "2026-01-17T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 173,
-      "reading_time": 1,
-      "created_at": "2026-01-17T19:17:32.739965+00:00",
-      "updated_at": "2026-01-17T20:17:12.384463+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T20:17:12.384465+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bc14486b14c645f409e6b039868d06ad",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.699530v1?rss=1",
-      "title": "In vivo Proximity & Spatial Proteomics with CRISPR Screening Identify STXBP1 as a Protective Modifier of a-synuclein Toxicity in Dopamine Neurons.",
-      "content": "Parkinson's disease (PD) is a disease of adults involving the loss of dopaminergic neurons after a long, asymptomatic, prodromal period. a-synuclein, LRRK2, and VPS35 are linked to familial PD, however, how these mutations predispose dopamine neurons to death during the early prodromal phases remains unclear. Here, we used in vivo native proximity proteomics (iBioID) and dopaminergic neuron-specific subcellular proteomics across multiple PD models to uncover early alterations preceding neuronal loss. Our analyses identified convergent disruptions in synaptic protein abundance, indicating that presynaptic trafficking defects are early events in PD pathogenesis. Using a targeted CRISPR-based genetic screen in dopamine neurons, we demonstrated that mimicking this misregulation of STXBP1 amplifies vulnerability to a-synuclein, implicating it as a previously underappreciated toxicity buffering factor. These findings highlight convergent mechanisms that sensitize dopamine neuronal degeneration and that presynaptic vesicle SNARE-complex proteins could serve as key targets for disease-modifying therapies in PD and related neurodegenerative disorders.",
-      "author": "Shonai, D., Kent, J., Okafor, A., Gao, Y., Parameswaran, P., Bustamante, E., Ramani, B., Diao, Y., Kampmann, M., Soderblom, E. J., Soderling, S. H.",
-      "published_date": "2026-01-17T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 150,
-      "reading_time": 1,
-      "created_at": "2026-01-17T19:17:32.739931+00:00",
-      "updated_at": "2026-01-17T20:17:12.384468+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T20:17:12.384470+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1f8fbc9ceb81cfedf3198d19834dc45b",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.699956v1?rss=1",
-      "title": "Impaired temporal prediction mechanisms in dyslexia",
-      "content": "Effective speech analysis involves deconstructing the acoustic signal into identifiable linguistic units, which depends on the ability to recognize and anticipate temporal patterns within the speech stream. However, these processes may be less efficient in individuals with dyslexia. This study investigated the effects of temporal context and related temporal predictions in dyslexic adult participants and matched control participants, using an auditory oddball task with non-verbal stimuli. Pure tones were presented in sequences, and participants were requested to discriminate the pitch of target stimuli. The temporal intervals between the sounds varied in regularity across the sequences, thereby creating contexts with different levels of temporal predictability. At the end of each sequence, participants were prompted to evaluate the perceived rhythmicity of the sequence and to assess their own performance in the auditory discrimination task. Dyslexic participants demonstrated overall lower accuracy in discriminating target sounds than controls. They also showed reduced influence of the temporal context of the sequences on response times, while controls responded faster in sequences that were temporally more regular and predictable. Additionally, individuals with dyslexia perceived the rhythmicity of sound sequences less accurately, overestimating the temporal regularity in irregular sequences and underestimating it in regular sequences. They also reported lower overall confidence in their ability to perform the task compared to control participants. Altogether, these findings provide converging evidence for altered temporal prediction abilities in dyslexia, which may impact auditory perception and then impair language processing.",
-      "author": "Bonnet, P. A., Tillmann, B., Chettih, E., Bedoin, N., Kosem, A.",
-      "published_date": "2026-01-17T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 237,
-      "reading_time": 1,
-      "created_at": "2026-01-17T19:17:32.739892+00:00",
-      "updated_at": "2026-01-17T20:17:12.384472+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T20:17:12.384474+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9e43b7ea0adc2ff8d939be900fdf4886",
-      "url": "https://news.ycombinator.com/item?id=46660067",
-      "title": "For me, Hacker News is probably the best community on the internet",
-      "content": "<p>For me, Hacker News is probably the best community on the internet. It\u2019s not like others. Take Reddit, for example: at first glance it seems better, with tons of subreddits. But for a beginner, there is no real main entrance. With a new account, it\u2019s a challenge - first you wait 5 days, then you need to earn karma just to post or comment in popular subreddits. On Twitter, you have to spend a long time building followers, or buy a checkmark, just to get access to recommendations. On Hacker News, everything feels right even if you are a beginner. Your post appears in the \u201cnew\u201d feed, where everyone can see it. Karma is not so limiting here. At the start, you can make one post a day and a few comments, and after reaching just 10 karma, you become almost a full user - free to participate, contribute, and enjoy the platform. Hacker News is a place that survived the revolution of the modern internet and remained true to itself. A place without subscribers, paid boosts, or artificial promotion. The most important thing that keeps this world going is our elders people who preserve this spirit with discipline, guiding others who may have strayed from the path. HN is where the good, clean internet has survived after all these years. And I truly hope it will always stay this way. Thanks, HN.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46660067\">https://news.ycombinator.com/item?id=46660067</a></p>\n<p>Points: 15</p>\n<p># Comments: 8</p>",
-      "author": "DenisDolya",
-      "published_date": "2026-01-17T17:41:11+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 244,
-      "reading_time": 1,
-      "created_at": "2026-01-17T19:16:53.915914+00:00",
-      "updated_at": "2026-01-17T20:17:12.384476+00:00",
-      "metadata": {
-        "processed_at": "2026-01-17T20:17:12.384478+00:00",
         "processing_method": "github_actions"
       }
     }
