@@ -1,5 +1,21 @@
 [
   {
+    "id": "8f9474fece7760c9f11267a9335a1982",
+    "url": "https://www.reddit.com/r/Python/comments/1qfa86s/is_it_a_good_idea_to_make_a_100_python_written_3d/",
+    "title": "Is it a good idea to make a 100% Python written 3D engine?",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I mean an engine that has everything from base rendering to textures, lightning and tools for making simple objects and maps, also that doesn't use anything like OpenGL, DirectX and others (has his own rendering calculations and pipeline).</p> <p>Because I'm working on my engine right now, I'm using OpenGL only for drawing 2D lines on a window (because opengl has C++ backend and runs on GPU right?), I'm on the stage of making wireframe 3D objects, rotate them, position, scale etc. I don't know if I should rewrite all my rendering code on C++, but 10 fps rendering a simple wireframe sphere makes me think.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/REMIZERexe\"> /u/REMIZERexe </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qfa86s/is_it_a_good_idea_to_make_a_100_python_written_3d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qfa86s/is_it_a_good_idea_to_make_a_100_python_written_3d/\">[comments]</a></span>",
+    "author": "/u/REMIZERexe",
+    "published_date": "2026-01-17T10:49:42+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 126,
+    "reading_time": 1,
+    "created_at": "2026-01-18T06:33:37.559706+00:00",
+    "updated_at": "2026-01-18T06:33:37.559708+00:00"
+  },
+  {
     "id": "c5df907383dc5077b3c790401b6c5762",
     "url": "https://fmhy.net/posts/dec-2025",
     "title": "Monthly Updates [December]",
@@ -40,46 +56,6 @@
     }
   },
   {
-    "id": "55bb33c070cf1bfe6a9576979c319ecb",
-    "url": "https://www.abelard.org/asimov.php",
-    "title": "Profession by Isaac Asimov",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46664195\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-18T02:17:25+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-18T05:24:35.551012+00:00",
-    "updated_at": "2026-01-18T06:24:58.555681+00:00",
-    "metadata": {
-      "processed_at": "2026-01-18T06:24:58.555683+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "526821d5ca2a30828f7ec156aba33680",
-    "url": "https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/",
-    "title": "The life of a playboy publisher who shaped 20th-century literature",
-    "content": "<p>Article URL: <a href=\"https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/\">https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46663686\">https://news.ycombinator.com/item?id=46663686</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
-    "author": "benbreen",
-    "published_date": "2026-01-18T00:41:51+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-01-18T05:24:34.445177+00:00",
-    "updated_at": "2026-01-18T06:24:58.555685+00:00",
-    "metadata": {
-      "processed_at": "2026-01-18T06:24:58.555686+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
     "id": "95d662e8a70b585b3a51c37c20f044a1",
     "url": "https://www.nngroup.com/articles/dark-mode/",
     "title": "Dark Mode vs. Light Mode: Which Is Better?",
@@ -116,6 +92,46 @@
     "updated_at": "2026-01-18T06:24:58.555681+00:00",
     "metadata": {
       "processed_at": "2026-01-18T06:24:58.555683+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "55bb33c070cf1bfe6a9576979c319ecb",
+    "url": "https://www.abelard.org/asimov.php",
+    "title": "Profession by Isaac Asimov",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46664195\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-18T02:17:25+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-18T05:24:35.551012+00:00",
+    "updated_at": "2026-01-18T06:24:58.555681+00:00",
+    "metadata": {
+      "processed_at": "2026-01-18T06:24:58.555683+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "526821d5ca2a30828f7ec156aba33680",
+    "url": "https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/",
+    "title": "The life of a playboy publisher who shaped 20th-century literature",
+    "content": "<p>Article URL: <a href=\"https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/\">https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46663686\">https://news.ycombinator.com/item?id=46663686</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
+    "author": "benbreen",
+    "published_date": "2026-01-18T00:41:51+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-18T05:24:34.445177+00:00",
+    "updated_at": "2026-01-18T06:24:58.555685+00:00",
+    "metadata": {
+      "processed_at": "2026-01-18T06:24:58.555686+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -17106,21 +17122,5 @@
     "reading_time": 1,
     "created_at": "2026-01-13T20:27:53.802531+00:00",
     "updated_at": "2026-01-13T20:27:53.802533+00:00"
-  },
-  {
-    "id": "32e0df5445b21d60fe59e6b9875062d9",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.09.698680v1?rss=1",
-    "title": "A neural moonshine conjecture. The representation of error-correcting codes in 3D symmetries invites the prospect of a Golay in the machine.",
-    "content": "Conant-Ashby's (\"good regulator\") theorem states that a simple regulator of a system must behave as an image of it. Notably, evolutionary features present in living beings often mirror natural processes, yielding symmetries between biological structures and the external environment. For instance, nervous cells can represent abstract entities through coordinated activities of neural networks. Central pattern generators (CPGs) used in locomotion display cyclic group symmetries (e.g. Zn ), while the visual cortex and hyperbolic geometries in the hippocampus are respectively connected with Euclidean (SE(2), SE(3)) and Special linear (SL(2, R)) groups. This study renders conceivable a very efficient instance of the perfect error-correcting Golay code, whose automorphism group is the Mathieu sporadic simple group M24 . We demonstrate that a set of 24 neurons is naturally organizable in a fully symmetric 3D polygonal network that embodies corruption-resistant dynamics. The existence of this configuration in biological systems is yet to be observed.",
-    "author": "Argolo, F.",
-    "published_date": "2026-01-13T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 150,
-    "reading_time": 1,
-    "created_at": "2026-01-13T20:27:53.802475+00:00",
-    "updated_at": "2026-01-13T20:27:53.802480+00:00"
   }
 ]

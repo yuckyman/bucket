@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-18T06:24:58.665738+00:00",
+  "last_updated": "2026-01-18T06:34:49.512096+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "8f9474fece7760c9f11267a9335a1982",
+      "url": "https://www.reddit.com/r/Python/comments/1qfa86s/is_it_a_good_idea_to_make_a_100_python_written_3d/",
+      "title": "Is it a good idea to make a 100% Python written 3D engine?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I mean an engine that has everything from base rendering to textures, lightning and tools for making simple objects and maps, also that doesn't use anything like OpenGL, DirectX and others (has his own rendering calculations and pipeline).</p> <p>Because I'm working on my engine right now, I'm using OpenGL only for drawing 2D lines on a window (because opengl has C++ backend and runs on GPU right?), I'm on the stage of making wireframe 3D objects, rotate them, position, scale etc. I don't know if I should rewrite all my rendering code on C++, but 10 fps rendering a simple wireframe sphere makes me think.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/REMIZERexe\"> /u/REMIZERexe </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qfa86s/is_it_a_good_idea_to_make_a_100_python_written_3d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qfa86s/is_it_a_good_idea_to_make_a_100_python_written_3d/\">[comments]</a></span>",
+      "author": "/u/REMIZERexe",
+      "published_date": "2026-01-17T10:49:42+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 126,
+      "reading_time": 1,
+      "created_at": "2026-01-18T06:33:37.559706+00:00",
+      "updated_at": "2026-01-18T06:33:37.559708+00:00"
+    },
     {
       "id": "c5df907383dc5077b3c790401b6c5762",
       "url": "https://fmhy.net/posts/dec-2025",
@@ -43,46 +59,6 @@
       }
     },
     {
-      "id": "55bb33c070cf1bfe6a9576979c319ecb",
-      "url": "https://www.abelard.org/asimov.php",
-      "title": "Profession by Isaac Asimov",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46664195\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-18T02:17:25+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-18T05:24:35.551012+00:00",
-      "updated_at": "2026-01-18T06:24:58.555681+00:00",
-      "metadata": {
-        "processed_at": "2026-01-18T06:24:58.555683+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "526821d5ca2a30828f7ec156aba33680",
-      "url": "https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/",
-      "title": "The life of a playboy publisher who shaped 20th-century literature",
-      "content": "<p>Article URL: <a href=\"https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/\">https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46663686\">https://news.ycombinator.com/item?id=46663686</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
-      "author": "benbreen",
-      "published_date": "2026-01-18T00:41:51+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-18T05:24:34.445177+00:00",
-      "updated_at": "2026-01-18T06:24:58.555685+00:00",
-      "metadata": {
-        "processed_at": "2026-01-18T06:24:58.555686+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "95d662e8a70b585b3a51c37c20f044a1",
       "url": "https://www.nngroup.com/articles/dark-mode/",
       "title": "Dark Mode vs. Light Mode: Which Is Better?",
@@ -119,6 +95,46 @@
       "updated_at": "2026-01-18T06:24:58.555681+00:00",
       "metadata": {
         "processed_at": "2026-01-18T06:24:58.555683+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "55bb33c070cf1bfe6a9576979c319ecb",
+      "url": "https://www.abelard.org/asimov.php",
+      "title": "Profession by Isaac Asimov",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46664195\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-18T02:17:25+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-18T05:24:35.551012+00:00",
+      "updated_at": "2026-01-18T06:24:58.555681+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T06:24:58.555683+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "526821d5ca2a30828f7ec156aba33680",
+      "url": "https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/",
+      "title": "The life of a playboy publisher who shaped 20th-century literature",
+      "content": "<p>Article URL: <a href=\"https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/\">https://www.washingtonpost.com/books/2026/01/09/bennett-cerf-biography-nothing-random-feldman-book-review/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46663686\">https://news.ycombinator.com/item?id=46663686</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
+      "author": "benbreen",
+      "published_date": "2026-01-18T00:41:51+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-18T05:24:34.445177+00:00",
+      "updated_at": "2026-01-18T06:24:58.555685+00:00",
+      "metadata": {
+        "processed_at": "2026-01-18T06:24:58.555686+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -315,26 +331,6 @@
       "updated_at": "2026-01-18T04:38:17.352550+00:00",
       "metadata": {
         "processed_at": "2026-01-18T04:38:17.352559+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7f3169d4ab0c2e2908498e398f69533e",
-      "url": "https://mastodon.social/@heliographe_studio/115890819509545391",
-      "title": "If you put Apple icons in reverse it looks like someone getting good at design",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46663338\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-17T23:47:16+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-18T03:48:54.314052+00:00",
-      "updated_at": "2026-01-18T04:38:17.352563+00:00",
-      "metadata": {
-        "processed_at": "2026-01-18T04:38:17.352565+00:00",
         "processing_method": "github_actions"
       }
     },
