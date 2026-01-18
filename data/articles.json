@@ -1,5 +1,37 @@
 [
   {
+    "id": "226524cd93191200820e5fac780efb49",
+    "url": "https://www.reddit.com/r/Python/comments/1qfb2j4/004_an_important_update_in_skelet/",
+    "title": "0.0.4: an important update in Skelet",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>In the <a href=\"https://github.com/pomponchik/skelet\">skelet</a> library, designed for collecting configs, an important feature has been added: reading command-line arguments. Now, in a dataclass-like object, you can access not only configs in different formats, but also dynamic application input.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pomponchik\"> /u/pomponchik </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qfb2j4/004_an_important_update_in_skelet/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qfb2j4/004_an_important_update_in_skelet/\">[comments]</a></span>",
+    "author": "/u/pomponchik",
+    "published_date": "2026-01-17T11:38:35+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 58,
+    "reading_time": 1,
+    "created_at": "2026-01-18T07:20:54.809723+00:00",
+    "updated_at": "2026-01-18T07:20:54.809725+00:00"
+  },
+  {
+    "id": "a4080014658e1c205e505dd63c6abd70",
+    "url": "https://thinknextdesign.com/home.html",
+    "title": "Spirit of ThinkPad",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46665310\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-18T06:27:24+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-18T07:20:53.609172+00:00",
+    "updated_at": "2026-01-18T07:20:53.609174+00:00"
+  },
+  {
     "id": "8f9474fece7760c9f11267a9335a1982",
     "url": "https://www.reddit.com/r/Python/comments/1qfa86s/is_it_a_good_idea_to_make_a_100_python_written_3d/",
     "title": "Is it a good idea to make a 100% Python written 3D engine?",
@@ -17090,37 +17122,5 @@
     "reading_time": 1,
     "created_at": "2026-01-13T20:48:44.414822+00:00",
     "updated_at": "2026-01-13T20:48:44.414824+00:00"
-  },
-  {
-    "id": "9bc93c2c4c7716c042d2e1a81bb91674",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.699003v1?rss=1",
-    "title": "TMS-EEG Indices to Define Local Cortical Excitability Thresholds",
-    "content": "Introduction - Transcranial magnetic stimulation (TMS) is widely employed to treat various psychiatric and neurological disorders. However, TMS protocols typically rely on generalizations, particularly in selecting stimulation intensities, leading to suboptimal and variable outcomes. Combining TMS with electroencephalography (EEG) offers a potential solution by allowing direct monitoring of stimulation effects. In this study, we investigate how features of the TMS-EEG signal change with intensity to identify thresholds implying qualitative shifts in the brain response. Methods - We stimulated eight subjects at both the primary motor cortex (M1) and the pre-supplementary motor area (pre-SMA) with navigated TMS at 15 closely spaced intensities and measured TMS-evoked EEG responses (TMS-evoked potential, TEP) with 60 trials per intensity. TEP thresholds were identified with three methods: by selecting the intensity where the TEP peak-to-peak exceeds 6 V, or by fitting either piecewise-linear or sigmoid curves into the power spectral density (PSD) frequency components to identify nonlinear intensity behavior. Results - The identified TEP thresholds varied depending on subject, target, and identification method. In M1, the thresholds attained with the fixed-amplitude and piecewise PSD fit methods averaged around the motor threshold, and in pre-SMA around 120% of the motor threshold. The TEP thresholds yielded by the sigmoid fit method were higher in intensity, and least consistent between subjects. Conclusions - Our findings support the hypothesis that detectable changes in EEG patterns occur at specific TMS intensities. These results provide a basis for individualized stimulation dosing, potentially enhancing therapeutic efficacy and reliability. Future research should focus on refining these methods and validating their clinical applicability across diverse conditions and patient populations.",
-    "author": "Rissanen, I. J., Grano\u0308, I., Souza, V. H., Sathyan, S., Thirugnanasambandam, N., Ilmoniemi, R. J., Lioumis, P.",
-    "published_date": "2026-01-13T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 264,
-    "reading_time": 1,
-    "created_at": "2026-01-13T20:27:53.802573+00:00",
-    "updated_at": "2026-01-13T20:27:53.802575+00:00"
-  },
-  {
-    "id": "79f624b8ed3aaf7b88c2bade46110bc6",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.12.699047v1?rss=1",
-    "title": "Modeling Time to Visual Insight in Mooney Image Recognition with a Chaotic Recurrent Neural Network",
-    "content": "Insight is often described as a sudden shift in or formation of a conceptual representation, enabling humans to restructure existing knowledge and solve problems beyond conventional analytical approaches. Although prior computational studies have modeled aspects of insight using deep neural networks (DNNs) or reinforcement learning, few have captured the dynamic emergence of insight through autonomous neural computation. Here, we present a neural network model that simulates the time required to reach visual insight in the Mooney image recognition task, a widely used paradigm for studying visual insight and perceptual reorganization. The model couples a DNN module for perceptual feature extraction with a recurrent neural network (RNN) that implements a chaotic search process for recognition. The RNN is formulated as a continuous-time dynamical system, autonomously explores internal states, and stabilizes when the missing visual features required for recognition are internally reconstructed. Using the same image set as in human psychophysical experiments, the model reproduces key statistical properties of human search times (STs), including (i) lognormal-like ST distributions across participants for each image, (ii) a proportional relationship between the log-scale mean and standard deviation estimated from lognormal fits across images, and (iii) discrete levels of the fitted log-scale mean across images (a proxy for image difficulty). Importantly, these properties emerge without assuming any lognormal distribution for participant-to-participant variability, whereas previous models reproduced similar signatures by positing lognormal-distributed individual differences. We further show that lognormal-like signatures can arise from exponential search dynamics when combined with both standard experimental preprocessing and finite observation windows, highlighting the need to distinguish generative mechanisms from measurement and analysis effects. Together, these results motivate a mechanistic link between chaotic neural dynamics and insight-related search and provide a computational framework for implementing insight in artificial systems.",
-    "author": "Kimura, M., Matsushita, Y., Inoue, M., Seno, S., Murata, T., Ohzawa, I., Yanagida, T., Kaneko, K., Hosoda, K.",
-    "published_date": "2026-01-13T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 287,
-    "reading_time": 1,
-    "created_at": "2026-01-13T20:27:53.802531+00:00",
-    "updated_at": "2026-01-13T20:27:53.802533+00:00"
   }
 ]
