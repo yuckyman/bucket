@@ -1,5 +1,37 @@
 [
   {
+    "id": "35f19fdf8d117c7f2a371b7020dde4de",
+    "url": "https://gitlab.winehq.org/wine/wine/-/releases/wine-11.0",
+    "title": "Wine 11.0",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46611816\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-14T03:08:10+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-18T23:20:43.621033+00:00",
+    "updated_at": "2026-01-18T23:20:43.621035+00:00"
+  },
+  {
+    "id": "98940c127331cb086f05d87273df572a",
+    "url": "https://talk24.ai/blog/ai-killing-legal-search",
+    "title": "60% of Legal Searches Now End Without a Click",
+    "content": "<p>Article URL: <a href=\"https://talk24.ai/blog/ai-killing-legal-search\">https://talk24.ai/blog/ai-killing-legal-search</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46670780\">https://news.ycombinator.com/item?id=46670780</a></p>\n<p>Points: 15</p>\n<p># Comments: 11</p>",
+    "author": "atreeleaf",
+    "published_date": "2026-01-18T18:40:20+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-18T23:20:42.315166+00:00",
+    "updated_at": "2026-01-18T23:20:42.315168+00:00"
+  },
+  {
     "id": "ffa1b1891cc0f1973233d57133e08b49",
     "url": "https://github.com/blue-monads/potato-apps/tree/master/cimple-gis",
     "title": "Simple GIS on Potato",
@@ -17170,37 +17202,5 @@
     "reading_time": 1,
     "created_at": "2026-01-14T05:26:43.088960+00:00",
     "updated_at": "2026-01-14T05:26:43.088962+00:00"
-  },
-  {
-    "id": "62aaeaec9edf04939e73b09571131187",
-    "url": "https://arxiv.org/abs/2601.08565",
-    "title": "Rewriting Video: Text-Driven Reauthoring of Video Footage",
-    "content": "arXiv:2601.08565v1 Announce Type: new \nAbstract: Video is a powerful medium for communication and storytelling, yet reauthoring existing footage remains challenging. Even simple edits often demand expertise, time, and careful planning, constraining how creators envision and shape their narratives. Recent advances in generative AI suggest a new paradigm: what if editing a video were as straightforward as rewriting text? To investigate this, we present a tech probe and a study on text-driven video reauthoring. Our approach involves two technical contributions: (1) a generative reconstruction algorithm that reverse-engineers video into an editable text prompt, and (2) an interactive probe, Rewrite Kit, that allows creators to manipulate these prompts. A technical evaluation of the algorithm reveals a critical human-AI perceptual gap. A probe study with 12 creators surfaced novel use cases such as virtual reshooting, synthetic continuity, and aesthetic restyling. It also highlighted key tensions around coherence, control, and creative alignment in this new paradigm. Our work contributes empirical insights into the opportunities and challenges of text-driven video reauthoring, offering design implications for future co-creative video tools.",
-    "author": "Sitong Wang, Anh Truong, Lydia B. Chilton, Dingzeyu Li",
-    "published_date": "2026-01-14T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 174,
-    "reading_time": 1,
-    "created_at": "2026-01-14T05:26:43.088938+00:00",
-    "updated_at": "2026-01-14T05:26:43.088940+00:00"
-  },
-  {
-    "id": "56b57e71c29319a28493e8ed14fd8739",
-    "url": "https://arxiv.org/abs/2601.08287",
-    "title": "Characterizing Personality from Eye-Tracking: The Role of Gaze and Its Absence in Interactive Search Environments",
-    "content": "arXiv:2601.08287v1 Announce Type: new \nAbstract: Personality traits influence how individuals engage, behave, and make decisions during the information-seeking process. However, few studies have linked personality to observable search behaviors. This study aims to characterize personality traits through a multimodal time-series model that integrates eye-tracking data and gaze missingness-periods when the user's gaze is not captured. This approach is based on the idea that people often look away when they think, signaling disengagement or reflection. We conducted a user study with 25 participants, who used an interactive application on an iPad, allowing them to engage with digital artifacts from a museum. We rely on raw gaze data from an eye tracker, minimizing preprocessing so that behavioral patterns can be preserved without substantial data cleaning. From this perspective, we trained models to predict personality traits using gaze signals. Our results from a five-fold cross-validation study demonstrate strong predictive performance across all five dimensions: Neuroticism (Macro F1 = 77.69%), Conscientiousness (74.52%), Openness (77.52%), Agreeableness (73.09%), and Extraversion (76.69%). The ablation study examines whether the absence of gaze information affects the model performance, demonstrating that incorporating missingness improves multimodal time-series modeling. The full model, which integrates both time-series signals and missingness information, achieves 10-15% higher accuracy and macro F1 scores across all Big Five traits compared to the model without time-series signals and missingness. These findings provide evidence that personality can be inferred from search-related gaze behavior and demonstrate the value of incorporating missing gaze data into time-series multimodal modeling.",
-    "author": "Jiaman He, Marta Micheli, Damiano Spina, Dana McKay, Johanne R. Trippas, Noriko Kando",
-    "published_date": "2026-01-14T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 246,
-    "reading_time": 1,
-    "created_at": "2026-01-14T05:26:43.088908+00:00",
-    "updated_at": "2026-01-14T05:26:43.088909+00:00"
   }
 ]
