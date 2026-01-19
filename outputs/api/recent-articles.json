@@ -1,7 +1,123 @@
 {
-  "last_updated": "2026-01-19T16:23:02.906866+00:00",
+  "last_updated": "2026-01-19T16:32:30.842956+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "6dc22791935f2224d444041ff8c70d79",
+      "url": "https://www.reddit.com/r/Python/comments/1qgydi3/pksinew_pythonpowered_pokemon_save_manager_with/",
+      "title": "PKsinew: Python-powered Pokemon save manager with embedded emulator,tracking,achievements & rewards",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What My Project Does</strong><br /> Sinew is a Python application that provides an offline Pok\u00e9mon GBA experience. It embeds an emulator using the mGBA libretro core, allowing you to play your gen3 pokemon games within the app while accessing a suite of management tools. You can track your Pokemon across multiple save files, transfer Pokemon (including trade evolutions) between games, view detailed trainer and Pokemon stats, and interact with a fully featured Pokedex that shows both individual game data and combined \u201cSinew\u201d data. Additional features include achievements, event systems, a mass storage system with 20 boxes \u00d7 120 slots, theme customization, and exporting save data to readable JSON format.</p> <p><strong>Target Audience</strong><br /> Sinew is intended for hobbyists, retro Pokemon fans, and Python developers interested in game save management, UI design with Pygame, and emulator integration. It\u2019s designed as an offline, fully user-owned experience.</p> <p><strong>Comparison</strong><br /> Unlike other Pok\u00e9mon save managers, Sinew combines live gameplay with offline management, cross-game Pokedex tracking, and a complete achievement and rewards system. It\u2019s modular, written entirely in Python, and fully open-source, with an emphasis on safety, user-owned data, and customizability.</p> <p><strong>Source Code / Project Link</strong><br /> GitHub: <a href=\"https://github.com/Cambotz/PKsinew\">https://github.com/Cambotz/PKsinew</a></p> <p>Devlog: <a href=\"https://pksinew.hashnode.dev/pksinew-devlog-index-start-here\">https://pksinew.hashnode.dev/pksinew-devlog-index-start-here</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Cambotz\"> /u/Cambotz </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qgydi3/pksinew_pythonpowered_pokemon_save_manager_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qgydi3/pksinew_pythonpowered_pokemon_save_manager_with/\">[comments]</a></span>",
+      "author": "/u/Cambotz",
+      "published_date": "2026-01-19T08:08:06+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 218,
+      "reading_time": 1,
+      "created_at": "2026-01-19T16:31:22.075243+00:00",
+      "updated_at": "2026-01-19T16:31:22.075245+00:00"
+    },
+    {
+      "id": "2413685826918d312fb520928f1f5d15",
+      "url": "https://www.reddit.com/r/Python/comments/1qgt083/python_version_in_production/",
+      "title": "Python Version in Production ?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>3.12 / 3.13 / 3.14 (Stable) </p> <p>So in production, which version of Python are you using? Apparently I'm using 3.12, but I'm thinking off upgrading to 3.13 What's the main difference? What version are you using for your production in these cases? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TopicBig1308\"> /u/TopicBig1308 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qgt083/python_version_in_production/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qgt083/python_version_in_production/\">[comments]</a></span>",
+      "author": "/u/TopicBig1308",
+      "published_date": "2026-01-19T03:23:58+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 65,
+      "reading_time": 1,
+      "created_at": "2026-01-19T16:31:22.075205+00:00",
+      "updated_at": "2026-01-19T16:31:22.075207+00:00"
+    },
+    {
+      "id": "ce2250c23cbd0ec96b71821229f27c64",
+      "url": "https://www.reddit.com/r/Python/comments/1qgjcsk/pyauto_desktop_benchmarks_window_controls_ocr/",
+      "title": "pyauto_desktop: Benchmarks, window controls, OCR",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I have just released a major update to my pyauto_desktop module. Below is the list of new features introduced:</p> <h1>Optical character recognition</h1> <p>I have added OCR support to my pyauto_desktop module, you can now detect text on your screen and automate it.</p> <p>Example of the inspector at work: <a href=\"https://i.imgur.com/TqiXLWA.gif\">https://i.imgur.com/TqiXLWA.gif</a></p> <h1>Window Control:</h1> <p>You can now control program windows like minimize, maximize, move, focus and much more!</p> <h1>Benchmarks:</h1> <p><strong>1. Standard UI Match</strong></p> <p><em>Settings: 56x56 Template | Pyramid=True | Grayscale=False | Conf=0.95</em></p> <table><thead> <tr> <th align=\"left\"><strong>Function</strong></th> <th align=\"left\"><strong>Library</strong></th> <th align=\"left\"><strong>FPS</strong></th> <th align=\"left\"><strong>Time (ms)</strong></th> <th align=\"left\"><strong>Speedup</strong></th> </tr> </thead><tbody> <tr> <td align=\"left\"><code>locateOnScreen</code></td> <td align=\"left\">PyAutoGUI</td> <td align=\"left\">5.55</td> <td align=\"left\">180ms</td> <td align=\"left\">\u2014</td> </tr> <tr> <td align=\"left\"><code>locateOnScreen</code></td> <td align=\"left\"><strong>pyauto_desktop</strong></td> <td align=\"left\"><strong>23.35</strong></td> <td align=\"left\"><strong>42ms</strong></td> <td align=\"left\"><strong>4.2x</strong></td> </tr> <tr> <td align=\"left\"><code>locateAllOnScreen</code></td> <td align=\"left\">PyAutoGUI</td> <td align=\"left\">5.56</td> <td align=\"left\">180ms</td> <td align=\"left\">\u2014</td> </tr> <tr> <td align=\"left\"><code>locateAllOnScreen</code></td> <td align=\"left\"><strong>pyauto_desktop</strong></td> <td align=\"left\"><strong>24.14</strong></td> <td align=\"left\"><strong>41ms</strong></td> <td align=\"left\"><strong>4.3x</strong></td> </tr> </tbody></table> <p><strong>2. Max Performance (Grayscale)</strong></p> <p><em>Settings: 56x56 Template | Pyramid=True | Grayscale=True | Conf=0.95</em></p> <table><thead> <tr> <th align=\"left\"><strong>Function</strong></th> <th align=\"left\"><strong>Library</strong></th> <th align=\"left\"><strong>FPS</strong></th> <th align=\"left\"><strong>Time (ms)</strong></th> <th align=\"left\"><strong>Speedup</strong></th> </tr> </thead><tbody> <tr> <td align=\"left\"><code>locateOnScreen</code></td> <td align=\"left\">PyAutoGUI</td> <td align=\"left\">10.27</td> <td align=\"left\">97ms</td> <td align=\"left\">\u2014</td> </tr> <tr> <td align=\"left\"><code>locateOnScreen</code></td> <td align=\"left\"><strong>pyauto_desktop</strong></td> <td align=\"left\"><strong>27.13</strong></td> <td align=\"left\"><strong>36ms</strong></td> <td align=\"left\"><strong>2.6x</strong></td> </tr> <tr> <td align=\"left\"><code>locateAllOnScreen</code></td> <td align=\"left\">PyAutoGUI</td> <td align=\"left\">10.20</td> <td align=\"left\">98ms</td> <td align=\"left\">\u2014</td> </tr> <tr> <td align=\"left\"><code>locateAllOnScreen</code></td> <td align=\"left\"><strong>pyauto_desktop</strong></td> <td align=\"left\"><strong>27.01</strong></td> <td align=\"left\"><strong>37ms</strong></td> <td align=\"left\"><strong>2.6x</strong></td> </tr> </tbody></table> <p><strong>3. Small Image / Raw Search (No Scaling)</strong></p> <p><em>Settings: 24x24 Template | Pyramid=False | Grayscale=False | Conf=0.95</em></p> <table><thead> <tr> <th align=\"left\"><strong>Function</strong></th> <th align=\"left\"><strong>Library</strong></th> <th align=\"left\"><strong>FPS</strong></th> <th align=\"left\"><strong>Time (ms)</strong></th> <th align=\"left\"><strong>Speedup</strong></th> </tr> </thead><tbody> <tr> <td align=\"left\"><code>locateOnScreen</code></td> <td align=\"left\">PyAutoGUI</td> <td align=\"left\">6.08</td> <td align=\"left\">164ms</td> <td align=\"left\">\u2014</td> </tr> <tr> <td align=\"left\"><code>locateOnScreen</code></td> <td align=\"left\"><strong>pyauto_desktop</strong></td> <td align=\"left\"><strong>6.74</strong></td> <td align=\"left\"><strong>148ms</strong></td> <td align=\"left\"><strong>1.1x</strong></td> </tr> <tr> <td align=\"left\"><code>locateAllOnScreen</code></td> <td align=\"left\">PyAutoGUI</td> <td align=\"left\">6.14</td> <td align=\"left\">162ms</td> <td align=\"left\">\u2014</td> </tr> <tr> <td align=\"left\"><code>locateAllOnScreen</code></td> <td align=\"left\"><strong>pyauto_desktop</strong></td> <td align=\"left\"><strong>7.12</strong></td> <td align=\"left\"><strong>140ms</strong></td> <td align=\"left\"><strong>1.2x</strong></td> </tr> </tbody></table> <h1>What My Project Does</h1> <p>It allows you to create shareable image or coordinate based automation regardless of resolution or dpr.</p> <p>It features:<br /> - <strong>Built-in GUI Inspector</strong> to snip, edit, test, and generate code.<br /> - Uses <code>Session</code> logic to scale coordinates &amp; images automatically.<br /> - <strong>Up to 5x Faster.</strong> Uses <code>mss</code> &amp; Pyramid Template Matching &amp; Image caching.<br /> - <code>locateAny</code> / <code>locateAll</code> built-in. Finds the first or all matches from a list of images.<br /> - OCR &amp; Window control</p> <h1>Target Audience</h1> <p>Programer who need to automate programs they don't have backend access to and aren't browser-based.</p> <p>You can install it here: <a href=\"https://pypi.org/project/pyauto-desktop/\">pyauto-desktop \u00b7 PyPI</a><br /> Code and Documentation: <a href=\"https://github.com/Omar-F-Rashed/pyauto-desktop\">pyauto-desktop: github</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MrYaml\"> /u/MrYaml </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qgjcsk/pyauto_desktop_benchmarks_window_controls_ocr/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qgjcsk/pyauto_desktop_benchmarks_window_controls_ocr/\">[comments]</a></span>",
+      "author": "/u/MrYaml",
+      "published_date": "2026-01-18T20:26:37+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 439,
+      "reading_time": 2,
+      "created_at": "2026-01-19T16:31:22.075179+00:00",
+      "updated_at": "2026-01-19T16:31:22.075182+00:00"
+    },
+    {
+      "id": "3eac33d2c8d16825aa5e82504111fe4d",
+      "url": "https://www.reddit.com/r/Python/comments/1qh6733/i_built_a_python_ui_framework_inspired_by/",
+      "title": "I built a Python UI framework inspired by Streamlit, but with O(1) state updates",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"/r/Python\">r/Python</a>,</p> <p>I love Streamlit's simplicity, but the &quot;full script rerun&quot; on every interaction drove me crazy. It gets super slow once your app grows, and using <code>st.cache</code> everywhere felt like a band-aid.</p> <p>So I spent the last few weeks building <strong>Violit</strong>. I wanted something that feels like writing a simple Python script but performs like a modern React app.</p> <p><strong>What My Project Does</strong></p> <p>Violit is a high-performance Python web framework. It allows you to build interactive web apps using pure Python without the performance penalty of full-page reloads.</p> <p>It uses a <strong>&quot;Zero Rerun&quot;</strong> architecture based on FastAPI, htmx, and WebSockets. When you interact with a widget (like a button or slider), Violit updates <em>only</em> that specific component in <strong>O(1)</strong> time, ensuring no screen flickering and instant feedback. It also supports running your web app into a desktop app (like electron) with a single flag (<code>--native</code>).</p> <p><strong>Target Audience</strong></p> <ul> <li><strong>Data Scientists &amp; Python Devs:</strong> Who need to build dashboards or internal tools quickly but are frustrated by Streamlit's lag.</li> <li><strong>Production Use:</strong> It's currently in early Alpha (v0.0.2), so it's best for internal tools, side projects, and early adopters who want to contribute to a faster Python UI ecosystem.</li> </ul> <p><strong>Comparison</strong></p> <p>Here is how Violit differs from existing alternatives:</p> <ul> <li><strong>vs. Streamlit:</strong> Violit keeps the intuitive API (90% compatible) but removes the &quot;Full Script Rerun.&quot; State updates are O(1) instead of O(N).</li> <li><strong>vs. Dash:</strong> Violit offers reactive state management without the &quot;callback hell&quot; complexity of Dash.</li> <li><strong>vs. Reflex:</strong> Violit requires <strong>Zero Configuration</strong>. No Node.js dependency, no build steps. Just <code>pip install</code> and run. Plus, it has built-in native desktop support.</li> <li><strong>vs. NiceGUI:</strong> The theme system for the beautiful app. Unlike Streamlit's rigid look or NiceGUI's engineer-first aesthetic, Violit comes with <strong>30+ Themes</strong> out of the box. You can switch from &quot;cyberpunk&quot; to &quot;retro&quot; styles with a single line of code\u2014no CSS mastery required. <strong>Plus, it's fully extensible\u2014you can easily add your own custom themes via CSS.</strong></li> </ul> <p><strong>Code Example</strong></p> <pre><code>import violit as vl \u200b app = vl.App() count = app.state(0) # Reactive State \u200b # No rerun! Only the label updates instantly. app.button(&quot;Increment&quot;, on_click=lambda: count.set(count.value + 1)) app.write(&quot;Count:&quot;, count) \u200b app.run() </code></pre> <p><strong>Link to Source Code</strong></p> <p>It is open source (MIT License).</p> <ul> <li><strong>Repo:</strong> <a href=\"https://github.com/violit-dev/violit\">https://github.com/violit-dev/violit</a></li> <li><strong>PyPI:</strong> <code>pip install violit</code></li> <li><strong>Example:</strong> <ul> <li><a href=\"https://github.com/violit-dev/violit/blob/main/examples/1_demo_showcase/demo_showcase.py\">demo showcase source code</a></li> <li><a href=\"https://github.com/violit-dev/violit/tree/main/examples/2_violit_blog\">(Tutorial) Build Your Own Blog in 10 Minutes with Violit!</a></li> </ul></li> </ul> <p>I'd love to hear your feedback!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Puzzleheaded_Clerk68\"> /u/Puzzleheaded_Clerk68 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qh6733/i_built_a_python_ui_framework_inspired_by/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qh6733/i_built_a_python_ui_framework_inspired_by/\">[comments]</a></span>",
+      "author": "/u/Puzzleheaded_Clerk68",
+      "published_date": "2026-01-19T14:52:16+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 427,
+      "reading_time": 2,
+      "created_at": "2026-01-19T16:31:22.075102+00:00",
+      "updated_at": "2026-01-19T16:31:22.075104+00:00"
+    },
+    {
+      "id": "f0b1301ab2159fa3000fbb76ca57701d",
+      "url": "https://www.reddit.com/r/Python/comments/1qh1ekg/i_built_bytesreplace_for_cuda_process_multigb/",
+      "title": "I built bytes.replace() for CUDA - process multi-GB files without leaving the GPU",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Built a CUDA kernel that does Python's <code>bytes.replace()</code> on the GPU without CPU transfers.</p> <p><strong>Performance (RTX 3090):</strong></p> <pre><code>Benchmark | Size | CPU (ms) | GPU (ms) | Speedup ----------------------------------------------------------------------------------- Dense/Small (1MB) | 1.0 MB | 3.03 | 2.79 | 1.09x Expansion (5MB, 2x growth) | 5.0 MB | 22.08 | 12.28 | 1.80x Large/Dense (50MB) | 50.0 MB | 192.64 | 56.16 | 3.43x Huge/Sparse (100MB) | 100.0 MB | 492.07 | 112.70 | 4.37x Average: 3.45x faster | 0.79 GB/s throughput </code></pre> <p><strong>Features:</strong></p> <ul> <li>Exact Python semantics (leftmost, non-overlapping)</li> <li>Streaming mode for files larger than GPU memory</li> <li>Session API for chained replacements</li> <li>Thread-safe</li> </ul> <p><strong>Example:</strong></p> <p>python</p> <pre><code>from cuda_replace_wrapper import CudaReplaceLib lib = CudaReplaceLib('./cuda_replace.dll') result = lib.unified(data, b&quot;pattern&quot;, b&quot;replacement&quot;) # Or streaming for huge files cleaned = gpu_replace_streaming(lib, huge_data, pairs, chunk_bytes=256*1024*1024) </code></pre> <p>Built this for a custom compression algorithm. Includes Python wrapper, benchmark suite, and pre-built binaries.</p> <p>GitHub: <a href=\"https://github.com/RAZZULLIX/cuda_replace\">https://github.com/RAZZULLIX/cuda_replace</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/andreabarbato\"> /u/andreabarbato </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qh1ekg/i_built_bytesreplace_for_cuda_process_multigb/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qh1ekg/i_built_bytesreplace_for_cuda_process_multigb/\">[comments]</a></span>",
+      "author": "/u/andreabarbato",
+      "published_date": "2026-01-19T11:10:04+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 171,
+      "reading_time": 1,
+      "created_at": "2026-01-19T16:31:22.075031+00:00",
+      "updated_at": "2026-01-19T16:31:22.075036+00:00"
+    },
+    {
+      "id": "fa353f91373fc837e3b40dfdbeae3022",
+      "url": "https://hawkticehurst.com/2024/11/css-web-components-for-marketing-sites/",
+      "title": "CSS Web Components for marketing sites",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46679907\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-19T15:15:41+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T16:31:20.891002+00:00",
+      "updated_at": "2026-01-19T16:31:20.891004+00:00"
+    },
+    {
+      "id": "26a1bee5c6ba5888beed9e1874cd6d27",
+      "url": "https://huggingface.co/zai-org/GLM-4.7-Flash",
+      "title": "GLM-4.7-Flash",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46679872\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-19T15:12:12+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T15:52:06.766456+00:00",
+      "updated_at": "2026-01-19T16:23:02.799886+00:00",
+      "metadata": {
+        "processed_at": "2026-01-19T16:23:02.799896+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "26a1bee5c6ba5888beed9e1874cd6d27",
       "url": "https://huggingface.co/zai-org/GLM-4.7-Flash",
@@ -43,22 +159,22 @@
       }
     },
     {
-      "id": "26a1bee5c6ba5888beed9e1874cd6d27",
-      "url": "https://huggingface.co/zai-org/GLM-4.7-Flash",
-      "title": "GLM-4.7-Flash",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46679872\">Comments</a>",
+      "id": "55dae170b3a0a59de330721ddd71788c",
+      "url": "https://www.kielinstitut.de/publications/americas-own-goal-who-pays-the-tariffs-19398/",
+      "title": "Kiel Institute Analysis: US Americans pay 96% of tariff burden",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46680212\">Comments</a>",
       "author": "",
-      "published_date": "2026-01-19T15:12:12+00:00",
+      "published_date": "2026-01-19T15:43:01+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-01-19T15:52:06.766456+00:00",
-      "updated_at": "2026-01-19T16:23:02.799886+00:00",
+      "created_at": "2026-01-19T15:52:06.766429+00:00",
+      "updated_at": "2026-01-19T16:23:02.799900+00:00",
       "metadata": {
-        "processed_at": "2026-01-19T16:23:02.799896+00:00",
+        "processed_at": "2026-01-19T16:23:02.799902+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -79,26 +195,6 @@
       "updated_at": "2026-01-19T16:23:02.799909+00:00",
       "metadata": {
         "processed_at": "2026-01-19T16:23:02.799910+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "55dae170b3a0a59de330721ddd71788c",
-      "url": "https://www.kielinstitut.de/publications/americas-own-goal-who-pays-the-tariffs-19398/",
-      "title": "Kiel Institute Analysis: US Americans pay 96% of tariff burden",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46680212\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-19T15:43:01+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-19T15:52:06.766429+00:00",
-      "updated_at": "2026-01-19T16:23:02.799900+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T16:23:02.799902+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -249,118 +345,6 @@
         "processed_at": "2026-01-19T14:22:44.168548+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "bcfde2ec1e791028db0664eb75b55399",
-      "url": "https://www.nature.com/articles/s41598-025-27861-6",
-      "title": "Lactiplantibacillus plantarum Lp815 improves sleep and increases urinary GABA in a randomized, double-blind, placebo-controlled study of sleep disturbance",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-19T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-19T13:47:48.478192+00:00",
-      "updated_at": "2026-01-19T14:22:44.168552+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T14:22:44.168554+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7bdd0a3ef7cde3cd7a70130fc7b46b90",
-      "url": "https://www.nature.com/articles/s41598-025-34668-y",
-      "title": "Effects of combined intermittent theta burst stimulation with neuromuscular electrical stimulation in the treatment of dysphagia after stroke",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-19T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-19T13:47:48.478156+00:00",
-      "updated_at": "2026-01-19T14:22:44.168557+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T14:22:44.168558+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d56e0d7a3d3bfc947f3e9dacf465793c",
-      "url": "https://www.nature.com/articles/s42255-025-01446-z",
-      "title": "Hepatic tryptophan metabolism links chronic stress to liver cancer",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-19T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-19T13:47:48.478108+00:00",
-      "updated_at": "2026-01-19T14:22:44.168561+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T14:22:44.168562+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "40cec4a0b634f06b3600db04491f0a43",
-      "url": "https://www.nature.com/articles/s42003-026-09527-9",
-      "title": "Comprehensive metabolic profiling across five lifespan stages in murine hippocampus and cortex reveals sex-related variation in age-related cognitive decline",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-19T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-19T13:47:48.478082+00:00",
-      "updated_at": "2026-01-19T14:22:44.168564+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T14:22:44.168566+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7df0ac2e6324d9ff892c96423ce91234",
-      "url": "https://www.nature.com/articles/s41598-026-36277-9",
-      "title": "Effects of DRG pulsed radiofrequency parameters on the clinical outcome for battered sensory never syndrome: a prospective, triple-blind, randomized controlled trial",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-19T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-19T13:47:48.478055+00:00",
-      "updated_at": "2026-01-19T13:47:48.478058+00:00"
-    },
-    {
-      "id": "ed9049eaad1314b71a0da4f7913fb371",
-      "url": "https://www.nature.com/articles/s41467-026-68403-6",
-      "title": "Pragmatic representations of self- and others\u2019 action in the monkey putamen",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-19T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-19T13:47:48.478027+00:00",
-      "updated_at": "2026-01-19T13:47:48.478029+00:00"
     }
   ]
 }
