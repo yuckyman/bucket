@@ -1,5 +1,69 @@
 [
   {
+    "id": "1ff1e3a3ab55a4b51cb643628fceeecb",
+    "url": "https://iscinumpy.dev/post/packaging-faster/",
+    "title": "How we made Python's packaging library 3x faster",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46644173\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-16T08:00:07+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-19T23:23:07.981878+00:00",
+    "updated_at": "2026-01-19T23:23:07.981879+00:00"
+  },
+  {
+    "id": "def807370b4c5e89abc88577d4cae063",
+    "url": "https://github.com/jordanhubbard/nanolang",
+    "title": "Nanolang: A tiny experimental language designed to be targeted by coding LLMs",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46684958\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-19T21:48:07+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-19T23:23:07.981798+00:00",
+    "updated_at": "2026-01-19T23:23:07.981800+00:00"
+  },
+  {
+    "id": "50d04ed0915a55ac17d15539a896a6ed",
+    "url": "https://danielleheberling.xyz/blog/mindful-social-media/",
+    "title": "Use Social Media Mindfully",
+    "content": "<p>Article URL: <a href=\"https://danielleheberling.xyz/blog/mindful-social-media/\">https://danielleheberling.xyz/blog/mindful-social-media/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46684862\">https://news.ycombinator.com/item?id=46684862</a></p>\n<p>Points: 9</p>\n<p># Comments: 4</p>",
+    "author": "mooreds",
+    "published_date": "2026-01-19T21:39:44+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-19T23:23:06.881788+00:00",
+    "updated_at": "2026-01-19T23:23:06.881790+00:00"
+  },
+  {
+    "id": "def807370b4c5e89abc88577d4cae063",
+    "url": "https://github.com/jordanhubbard/nanolang",
+    "title": "Nanolang: A tiny experimental language designed to be targeted by coding LLMs",
+    "content": "<p>Article URL: <a href=\"https://github.com/jordanhubbard/nanolang\">https://github.com/jordanhubbard/nanolang</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46684958\">https://news.ycombinator.com/item?id=46684958</a></p>\n<p>Points: 16</p>\n<p># Comments: 2</p>",
+    "author": "Scramblejams",
+    "published_date": "2026-01-19T21:48:07+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-19T23:23:06.881757+00:00",
+    "updated_at": "2026-01-19T23:23:06.881766+00:00"
+  },
+  {
     "id": "eb5032f7ec971b0893a4572c34e6e1d0",
     "url": "https://whathaveunionsdoneforus.uk/",
     "title": "What Have Unions Done for Us?",
@@ -17190,81 +17254,5 @@
       "processed_at": "2026-01-15T01:15:56.633016+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "193a463be2e6751def296de2a5c61256",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.13.699305v1?rss=1",
-    "title": "NEuRT: A Transformer-Based Model for Explainable Neuronal Activity Analysis",
-    "content": "The study of neuronal activity is essential for understanding brain function and its alterations in neurodegenerative diseases. Advances in in vivo imaging have enabled real-time observation of neuronal dynamics, but classical statistical methods struggle to capture the complex, time-dependent interactions within neuronal networks. Machine learning offers promising solutions for analyzing high-dimensional neuronal data, yet their application in neuroscience remains limited. Here, we introduce NEuRT, a Bidirectional Encoder Representations from Transformers (BERT)-based model adapted for neuronal activity analysis. NEuRT leverages self-attention mechanisms to interpret complex neuronal interactions, providing insights into patterns that traditional methods may overlook. Pre-trained on the recently introduced large annotated dataset MICrONS for signal reconstruction, NeuRT demonstrates strong generalization, effectively reconstructing activity from both visual cortex two-photon and hippocampal miniature fluorescence microscopy. Built on the BERT architecture, the NEuRT model can be efficiently fine-tuned for a wide range of downstream tasks. We showcase its application in classifying wild-type and transgenic Alzheimer's disease model mice, based on hippocampal activity, revealing group-specific features through attention map analysis. By reducing reliance on extensive labeled data, addressing a critical challenge in neuroscience, NEuRT bridges fundamental neuroscience and disease research, offering a robust framework for AI-driven and explainable neuronal activity analysis.",
-    "author": "Raev, G., Baev, D., Gerasimov, E., Chukanov, V., Pchitskaya, E.",
-    "published_date": "2026-01-14T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 198,
-    "reading_time": 1,
-    "created_at": "2026-01-14T23:19:58.581470+00:00",
-    "updated_at": "2026-01-15T01:15:56.633019+00:00",
-    "metadata": {
-      "processed_at": "2026-01-15T01:15:56.633020+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "0b478c4d050a33723822897fb35d144f",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.13.698088v1?rss=1",
-    "title": "Alteration of empathy-related behaviors in two strains of mice expressing mutations of the \u03b15 cholinergic nicotinic receptor subunit",
-    "content": "Human genetic association studies have linked a single nucleotide polymorphism (SNP) of the alpha5 subunit of nicotinic acetylcholine receptors (nAChRs) to an increased risk of nicotine dependence, alcohol use disorders (AUDs) and schizophrenia. We used transgenic mice expressing either the SNP rs16969968 (termed 5SNP or 5KI) or a knockout of the Chrna5 gene (5KO) to investigate the role of 5-containing nAChRs (5*nAChRs) in emotion recognition and prosocial, rescuing-like behavioral tasks. We found that 5KO mice are impaired in the recognition of a negative affective state in a familiar peer, and displayed severely altered pro-social, altruistic behaviors, eventually assaulting peers in distress. In contrast, 5KI mice exhibited normal or improved emotion recognition and increased rescuing-like behavior. Importantly, effects of 5 mutations on emotion recognition were modulated by sex. These results demonstrate the critical implication of 5*nAChRs in emotion recognition and prosocial behaviors, revealing, sex-dependent patterns of these social emotional deficits in 5KI and 5KO mice. The current study also supports the view that 5KI and 5KO may provide a valuable preclinical model of Type I (female 5KI mice), and Type II (male 5KO mice) behavioral profiles of AUD.",
-    "author": "Tochon, L., Pageze, C., Henkous, N., Guillou, J.-L., David, V.",
-    "published_date": "2026-01-14T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 187,
-    "reading_time": 1,
-    "created_at": "2026-01-14T23:19:58.581427+00:00",
-    "updated_at": "2026-01-15T01:15:56.633025+00:00",
-    "metadata": {
-      "processed_at": "2026-01-15T01:15:56.633027+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "48bcb4c876d76b9f3d704362aa5ad27f",
-    "url": "https://www.reddit.com/r/Python/comments/1qch5cv/licenses_on_pypi/",
-    "title": "Licenses on PyPI",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>As I am working on the new version of the <a href=\"https://pydigger.code-maven.com/\">PyDigger</a> I am trying to make sense (again) the licenses of Python packages on PyPI.</p> <p>A lot of packages don't have a &quot;license&quot; field in their meta-data.</p> <p>Among those that have, most have a short identifier of a license, but it is not enforced in any way.</p> <p>Some packages include the full text of a license in that meta field. Some include some arbitrary text.</p> <p>Two I'd like to point out that I found just in the last few minutes:</p> <ul> <li><p><a href=\"https://pypi.org/project/iris-sdk/\">iris-sdk 0.1.13</a> has a license: <strong>Nobody can use this</strong></p></li> <li><p><a href=\"https://pypi.org/project/pyscreeps-arena/\">pyscreeps-arena 0.5.8.8</a> has a license: <strong>Apache Licence 2.0</strong> (the word license having a typo)</p></li> </ul> <p>This seems like a problem.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/szabgab\"> /u/szabgab </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qch5cv/licenses_on_pypi/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qch5cv/licenses_on_pypi/\">[comments]</a></span>",
-    "author": "/u/szabgab",
-    "published_date": "2026-01-14T07:34:46+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 144,
-    "reading_time": 1,
-    "created_at": "2026-01-14T23:19:22.279155+00:00",
-    "updated_at": "2026-01-15T01:15:56.633029+00:00",
-    "metadata": {
-      "processed_at": "2026-01-15T01:15:56.633031+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "175a82ef69b14b9cf2d58c525af87bd7",
-    "url": "https://josem.co/simple-to-ornate-and-back-again/",
-    "title": "Simple to Ornate and Back Again (2024)",
-    "content": "<p>Article URL: <a href=\"https://josem.co/simple-to-ornate-and-back-again/\">https://josem.co/simple-to-ornate-and-back-again/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46624208\">https://news.ycombinator.com/item?id=46624208</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-    "author": "nikodunk",
-    "published_date": "2026-01-14T21:55:05+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-01-14T23:19:19.797513+00:00",
-    "updated_at": "2026-01-14T23:19:19.797515+00:00"
   }
 ]
