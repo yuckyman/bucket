@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-01-19T03:45:59.971326+00:00",
-  "pending_count": 689,
-  "processed_count": 311,
+  "last_updated": "2026-01-19T04:47:24.270170+00:00",
+  "pending_count": 684,
+  "processed_count": 316,
   "pending_articles": [
+    {
+      "id": "90385161ecca368bbd8299bcacf523ba",
+      "url": "https://www.bbc.com/news/articles/cedw6ylpynyo",
+      "title": "At least 21 killed in Spain after crash involving high-speed trains",
+      "content": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/cedw6ylpynyo\">https://www.bbc.com/news/articles/cedw6ylpynyo</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46673453\">https://news.ycombinator.com/item?id=46673453</a></p>\n<p>Points: 17</p>\n<p># Comments: 8</p>",
+      "author": "akyuu",
+      "published_date": "2026-01-18T23:54:43+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-19T03:51:46.429154+00:00",
+      "updated_at": "2026-01-19T03:51:46.429156+00:00"
+    },
     {
       "id": "18e23fefebcc874e0763046c17f016d8",
       "url": "https://kudmitry.com/articles/dead-internet-theory/",
@@ -146,25 +162,129 @@
       "reading_time": 1,
       "created_at": "2026-01-18T20:24:49.528541+00:00",
       "updated_at": "2026-01-18T20:24:49.528542+00:00"
-    },
-    {
-      "id": "aea9415351c5d68a628bc706512f5174",
-      "url": "http://doi.org/10.1037/neu0001030",
-      "title": "Moral decision making and moral judgment in multiple sclerosis.",
-      "content": "Objective: Moral cognition has been insufficiently studied in people with multiple sclerosis (pwMS). This study investigated moral decision making and judgment using ecologically valid moral dilemmas in relapsing-remitting multiple sclerosis (MS) and progressive MS phenotypes, exploring associations with clinical and psychological variables. Method: Twenty-one individuals with relapsing-remitting MS and 21 with progressive MS completed a battery of moral dilemmas (instrumental, incidental, and ecological) and questionnaires assessing quality of life, mood, alexithymia, and empathy. Data from pwMS were compared to those of 56 age- and education-matched healthy controls. Group differences were analyzed using Mann\u2013Whitney U tests, and effect sizes (<em>r</em>) were reported. Results: Compared to healthy controls, pwMS showed significantly higher moral acceptability in instrumental (<em>U</em> = 633.0, <em>p</em> = .001, <em>r</em> = 0.39), incidental (<em>U</em> = 745.5, <em>p</em> = .035, <em>r</em> = 0.23), and ecological dilemmas (<em>U</em> = 563.0, <em>p</em>< .001, \n<em>r</em> = 0.44). Moral permissiveness was positively correlated with disability (Expanded Disability Status Scale: \u03c1 = 0.36, <em>p</em> = .019) and negatively with physical quality of life (Multiple Sclerosis Quality of Life\u2013Physical: \u03c1 = \u22120.33, <em>p</em> = .034) and inhibitory control (Stroop Test: \u03c1 = 0.47, <em>p</em> = .002). Empathy scores were inversely correlated with moral acceptability across all dilemmas (<em>p</em> < .05). Conclusions: PwMS exhibit increased moral permissiveness, particularly in relation to clinical disability, physical functioning, and executive control. These findings contribute to characterizing the sociocognitive profile of MS and support the inclusion of moral cognition in future research, though implications for patient care remain preliminary. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-09-18T00:00:00+00:00",
-      "source": "Neuropsychology",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 257,
-      "reading_time": 1,
-      "created_at": "2026-01-18T20:24:49.528500+00:00",
-      "updated_at": "2026-01-18T20:24:49.528501+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "98c795ecc7af540b431020ec45da0e1d",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2955",
+      "title": "sEEG-based brain-computer interfacing in a large adult and pediatric cohort",
+      "content": "Objective. Stereoelectroencephalography (sEEG) is a mesoscale intracranial monitoring technique that records from the brain volumetrically with depth electrodes. sEEG is typically used for monitoring of epileptic foci, but can also serve as a useful tool to study distributed brain dynamics. Herein, we detail the implementation of sEEG-based brain-computer interfacing (BCI) across a diverse and large patient cohort. Approach. Across 27 subjects (15 female, 31 total feedback experiments), we identified channels with increases in broadband during hand, tongue, or foot movements using a simple block-design screening task. Subsequently, broadband power in these channels was coupled to continuous movement of a cursor on a screen during both overt movement and kinesthetic imagery. Main results. 26 subjects (29 out of 31 feedback conditions) established successful control, defined as more than 80 percent accuracy, during the overt movement BCI task, while only 12 (of the same 31 conditions) achieved control during the motor imagery BCI task. In successful imagery BCI, broadband power in the reinforced control channel(s) in the two target conditions separated into distinct subpopulations. Outside of the control channel(s), we demonstrate that imagery BCI engages unique subnetworks of the motor system compared to cued movement or kinesthetic imagery alone. Significance. Pericentral sEEG-based motor BCI utilizing overt movement and kinesthetic imagery is robust across a diverse patient cohort with inconsistent accuracy during imagined movement. Cued movement, kinesthetic imagery, and feedback engage the motor network uniquely, providing the opportunity to understand the network dynamics underlying BCI control and improve future BCIs.",
+      "author": "Michael A Jensen, Gerwin Schalk, Nuri Ince, Dora Hermes, Greg A Worrell, Peter Brunner, Nathan P Staff and Kai J Miller",
+      "published_date": "2025-12-30T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 247,
+      "reading_time": 1,
+      "created_at": "2026-01-19T03:52:10.113764+00:00",
+      "updated_at": "2026-01-19T04:47:24.162525+00:00",
+      "metadata": {
+        "processed_at": "2026-01-19T04:47:24.162536+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "7c35f09f1bfd2c6ea50a82a703f96a43",
+      "url": "https://www.cl.cam.ac.uk/archive/rm135/Bigraphs-draft.pdf",
+      "title": "The Space and Motion of Communicating Agents (2008) [pdf]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46639897\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-15T21:55:36+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T03:51:47.803249+00:00",
+      "updated_at": "2026-01-19T04:47:24.162540+00:00",
+      "metadata": {
+        "processed_at": "2026-01-19T04:47:24.162542+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ff401b1fb5f5446c0b0841d311fc95f8",
+      "url": "https://rijnard.com/blog/the-code-only-agent",
+      "title": "The Code-Only Agent",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46674416\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-19T02:27:07+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T03:51:47.803230+00:00",
+      "updated_at": "2026-01-19T04:47:24.162545+00:00",
+      "metadata": {
+        "processed_at": "2026-01-19T04:47:24.162546+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "5a9bbd27b80e3e346cf63e1386458f86",
+      "url": "https://www.alilleybrinker.com/mini/gas-town-decoded/",
+      "title": "Gas Town Decoded",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46624883\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-14T22:39:33+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T03:51:47.803192+00:00",
+      "updated_at": "2026-01-19T04:47:24.162549+00:00",
+      "metadata": {
+        "processed_at": "2026-01-19T04:47:24.162550+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4bccd3d1be131bb0fe2d639cd5f058e5",
+      "url": "https://banay.me/dont-waste-your-backpressure/",
+      "title": "Don't waste your back pressure",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46656897\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-17T10:26:18+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T03:51:47.803094+00:00",
+      "updated_at": "2026-01-19T04:47:24.162552+00:00",
+      "metadata": {
+        "processed_at": "2026-01-19T04:47:24.162554+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ff401b1fb5f5446c0b0841d311fc95f8",
+      "url": "https://rijnard.com/blog/the-code-only-agent",
+      "title": "The Code-Only Agent",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46674416\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-19T02:27:07+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T03:51:47.803230+00:00",
+      "updated_at": "2026-01-19T04:47:24.162545+00:00",
+      "metadata": {
+        "processed_at": "2026-01-19T04:47:24.162546+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "901593a96e697db8cc6ea1e283c43bd2",
       "url": "https://www.nature.com/articles/s41392-025-02545-9",
@@ -242,126 +362,6 @@
       "updated_at": "2026-01-19T03:45:59.865611+00:00",
       "metadata": {
         "processed_at": "2026-01-19T03:45:59.865613+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "35f19fdf8d117c7f2a371b7020dde4de",
-      "url": "https://gitlab.winehq.org/wine/wine/-/releases/wine-11.0",
-      "title": "Wine 11.0",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46611816\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-14T03:08:10+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-18T23:20:43.621033+00:00",
-      "updated_at": "2026-01-19T01:22:05.366053+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T01:22:05.366062+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "98940c127331cb086f05d87273df572a",
-      "url": "https://talk24.ai/blog/ai-killing-legal-search",
-      "title": "60% of Legal Searches Now End Without a Click",
-      "content": "<p>Article URL: <a href=\"https://talk24.ai/blog/ai-killing-legal-search\">https://talk24.ai/blog/ai-killing-legal-search</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46670780\">https://news.ycombinator.com/item?id=46670780</a></p>\n<p>Points: 15</p>\n<p># Comments: 11</p>",
-      "author": "atreeleaf",
-      "published_date": "2026-01-18T18:40:20+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-18T23:20:42.315166+00:00",
-      "updated_at": "2026-01-19T01:22:05.366067+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T01:22:05.366069+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ffa1b1891cc0f1973233d57133e08b49",
-      "url": "https://github.com/blue-monads/potato-apps/tree/master/cimple-gis",
-      "title": "Simple GIS on Potato",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46672701\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-18T22:15:01+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-18T22:44:16.372734+00:00",
-      "updated_at": "2026-01-19T01:22:05.366071+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T01:22:05.366073+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8aeb64f063befb199edca5843fc0ad63",
-      "url": "https://getdock.io/",
-      "title": "Show HN: Dock \u2013 Slack minus the bloat, tax, and 90-day memory loss",
-      "content": "<p>Article URL: <a href=\"https://getdock.io/\">https://getdock.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46671952\">https://news.ycombinator.com/item?id=46671952</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
-      "author": "yadavrh",
-      "published_date": "2026-01-18T20:42:49+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-18T22:44:15.015185+00:00",
-      "updated_at": "2026-01-19T01:22:05.366078+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T01:22:05.366079+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5e2213b3d8448b8549771add8e5e6652",
-      "url": "https://beats.lasagna.pizza",
-      "title": "Show HN: Beats, a web-based drum machine",
-      "content": "<p>Hello all!<p>I've been an avid fan of Pocket Operators by Teenage Engineering since I found out about them. I even own an EP-133 K.O. II today, which I love.<p>A couple of months ago, Reddit user andiam03 shared a Google Sheet with some drum patterns [1]. I thought it was a very cool way to share and understand beats.<p>During the weekend I coded a basic version of this app I am sharing today. I iterated over it in my free time, and yesterday I felt like I had a pretty good version to share with y'all.<p>It's not meant to be a sequencer but rather a way to experiment with beats and basic sounds, save them, and use them in your songs. It also has a sharing feature with a link.<p>It was built using Tone.js [2], Stimulus [3] and deployed in Render [4] as a static website. I used an LLM to read the Tone.js documentation and generate sounds, since I have no knowledge about sound production, and modified from there.<p>Anyway, hope you like it! I had a blast building it.<p>[0]: <a href=\"https://teenage.engineering\" rel=\"nofollow\">https://teenage.engineering</a><p>[1]: <a href=\"https://docs.google.com/spreadsheets/d/1GMRWxEqcZGdBzJg52soeVaY7iUSj1YncfIJZIPScBhM/edit\" rel=\"nofollow\">https://docs.google.com/spreadsheets/d/1GMRWxEqcZGdBzJg52soe...</a><p>[2]: <a href=\"https://tonejs.github.io\" rel=\"nofollow\">https://tonejs.github.io</a><p>[3]: <a href=\"https://stimulus.hotwired.dev\" rel=\"nofollow\">https://stimulus.hotwired.dev</a><p>[4]: <a href=\"http://render.com\" rel=\"nofollow\">http://render.com</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46672181\">https://news.ycombinator.com/item?id=46672181</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
-      "author": "kinduff",
-      "published_date": "2026-01-18T21:10:08+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 205,
-      "reading_time": 1,
-      "created_at": "2026-01-18T22:44:15.015123+00:00",
-      "updated_at": "2026-01-19T01:22:05.366082+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T01:22:05.366083+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4bc9930e67e68413e5c65d8225512c0e",
-      "url": "https://www.spiegel.de/politik/groenland-plaene-der-usa-eu-plant-gegenzoelle-im-wert-von-93-milliarden-euro-a-2262fda5-0071-4352-bad5-289e8ca37cf9",
-      "title": "EU to Retaliate on Tariffs",
-      "content": "<p>Article URL: <a href=\"https://www.spiegel.de/politik/groenland-plaene-der-usa-eu-plant-gegenzoelle-im-wert-von-93-milliarden-euro-a-2262fda5-0071-4352-bad5-289e8ca37cf9\">https://www.spiegel.de/politik/groenland-plaene-der-usa-eu-plant-gegenzoelle-im-wert-von-93-milliarden-euro-a-2262fda5-0071-4352-bad5-289e8ca37cf9</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46672714\">https://news.ycombinator.com/item?id=46672714</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
-      "author": "pintxo",
-      "published_date": "2026-01-18T22:16:46+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-18T22:44:15.015074+00:00",
-      "updated_at": "2026-01-19T03:45:59.865615+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T03:45:59.865617+00:00",
         "processing_method": "github_actions"
       }
     }
