@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-19T08:36:14.246502+00:00",
+  "last_updated": "2026-01-19T09:37:05.177874+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "3caf5ae0504fd6beb8fda8c97e8245ad",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1712896",
+      "title": "Transferable CNN-based data mining approaches for medical imaging: application to spine DXA scans for osteoporosis detection",
+      "content": "IntroductionOsteoporosis is the leading cause of sudden bone fractures. This is a silent and deadly disease that can affect any part of the body, such as the spine, hips, and knee bones.AimTo measure bone mineral density, dual-energy X-ray absorptiometry (DXA) scans help radiologists and other medical professionals identify early signs of osteoporosis in the spine.MethodsA proposed 21-layer convolutional neural network (CNN) model is implemented and validated to automatically detect osteoporosis in spine DXA images. The dataset contains 174 spine DXA images, including 114 affected by osteoporosis and the rest normal or non-fractured. To improve training, the dataset is expanded using various data augmentation techniques.ResultsThe classification performance of the proposed model is compared with that of four popular pre-trained models: ResNet-50, Visual Geometry Group 16 (VGG-16), VGG-19, and InceptionV3. With an F1-score of 97.16%, recall of 95.41%, classification accuracy of 97.14%, and precision of 99.04%, the proposed model consistently outperforms competing approaches.ConclusionThe proposed paradigm would therefore be very valuable to radiologists and other medical professionals. The proposed approach\u2019s capacity to detect, monitor, and diagnose osteoporosis may reduce the risk of developing the condition.",
+      "author": "Jawad Rasheed",
+      "published_date": "2025-12-30T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 182,
+      "reading_time": 1,
+      "created_at": "2026-01-19T09:36:28.186380+00:00",
+      "updated_at": "2026-01-19T09:36:28.186382+00:00"
+    },
+    {
+      "id": "e11df0407acd1ea02e9310496934c4e7",
+      "url": "https://www.jamesdysonaward.org/en-US/2019/project/self-sanitizing-door-handle/",
+      "title": "Self Sanitizing Door Handle",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46633025\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-15T14:31:04+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T09:35:59.894821+00:00",
+      "updated_at": "2026-01-19T09:35:59.894823+00:00"
+    },
     {
       "id": "4f683f04d3a3e4e9bbbe917540afc7c3",
       "url": "https://github.com/VBranimir/mTOTP/tree/develop",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-19T07:29:52.409870+00:00",
       "updated_at": "2026-01-19T07:29:52.409878+00:00"
-    },
-    {
-      "id": "f2768235da7c191e06c5df284d801d37",
-      "url": "https://www.nature.com/articles/s41598-026-36272-0",
-      "title": "D-mannose alleviates rotenone-induced PD mouse model through microbiota-gut-brain axis",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-19T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-19T06:41:02.075867+00:00",
-      "updated_at": "2026-01-19T06:41:02.075871+00:00"
-    },
-    {
-      "id": "bcb07803d6a3cb8a3e31abbf3b613a39",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1742563",
-      "title": "Dynamic mode decomposition of resting-state fMRI revealing abnormal brain region features in schizophrenia",
-      "content": "Extracting features from abnormal brain regions in schizophrenia patients\u2019 brain images holds significant importance for aiding diagnosis. However, existing methods remained limited in simultaneously capturing spatiotemporal information. Dynamic mode decomposition (DMD) effectively extracts spatiotemporal features from dynamic systems, making it suitable for time-series signals such as functional magnetic resonance imaging (fMRI) and electrocorticography (ECoG). This study utilized resting-state fMRI data from 68 healthy subjects and 68 schizophrenia patients. The DMD method was employed to extract the mean amplitude of dynamic patterns as features, with feature selection conducted via Least Absolute Shrinkage and Selection Operator (LASSO) regression. A support vector machine (SVM) was further employed to validate the predictive capability of the selected features across subject groups. Based on the LASSO screening, we identified brain regions exhibiting significant inter-group differences in mean amplitude, designated these as abnormal regions, and subsequently analyzed their functional deviations. The DMD method not only provided explicit temporal dynamic representations of brain activity but also supported signal reconstruction and prediction, thereby enhancing feature interpretability. Results demonstrated that DMD effectively extracted mean amplitude features from fMRI data. Combined with LASSO and SVM, it enabled the identification of abnormal brain regions and functional abnormalities in schizophrenia patients. Furthermore, this method captured frequency-dependent signal patterns, with extracted features correlating with both regional activation intensity and functional connectivity. This approach provides novel insights for exploring potential biomarkers of psychiatric disorders.",
-      "author": "Xiaochuan Pan",
-      "published_date": "2026-01-14T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 229,
-      "reading_time": 1,
-      "created_at": "2026-01-19T06:40:54.551545+00:00",
-      "updated_at": "2026-01-19T06:40:54.551547+00:00"
     }
   ]
 }
