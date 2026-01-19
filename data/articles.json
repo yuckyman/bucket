@@ -7,13 +7,17 @@
     "author": "",
     "published_date": "2026-01-15T02:47:16+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-01-19T11:22:23.301551+00:00",
-    "updated_at": "2026-01-19T11:22:23.301553+00:00"
+    "updated_at": "2026-01-19T12:38:31.455976+00:00",
+    "metadata": {
+      "processed_at": "2026-01-19T12:38:31.455985+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "b6e9ae666d81f1bbc87299176cc9d608",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": "2026-01-19T10:09:38+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-01-19T11:22:23.301461+00:00",
-    "updated_at": "2026-01-19T11:22:23.301462+00:00"
+    "updated_at": "2026-01-19T12:38:31.455989+00:00",
+    "metadata": {
+      "processed_at": "2026-01-19T12:38:31.455991+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "3c90710660bc46bddd1818f6a3a1317a",
@@ -39,13 +47,17 @@
     "author": "",
     "published_date": "2026-01-19T11:00:31+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-01-19T11:22:23.301422+00:00",
-    "updated_at": "2026-01-19T11:22:23.301424+00:00"
+    "updated_at": "2026-01-19T12:38:31.455996+00:00",
+    "metadata": {
+      "processed_at": "2026-01-19T12:38:31.455998+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "156764bd9ec4375a2b302d04830a7205",
@@ -55,29 +67,37 @@
     "author": "doener",
     "published_date": "2026-01-19T09:33:50+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 13,
     "reading_time": 1,
     "created_at": "2026-01-19T11:22:22.013590+00:00",
-    "updated_at": "2026-01-19T11:22:22.013592+00:00"
+    "updated_at": "2026-01-19T12:38:31.456000+00:00",
+    "metadata": {
+      "processed_at": "2026-01-19T12:38:31.456002+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "b6e9ae666d81f1bbc87299176cc9d608",
     "url": "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup",
     "title": "Wikipedia: WikiProject AI Cleanup",
-    "content": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup\">https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46677106\">https://news.ycombinator.com/item?id=46677106</a></p>\n<p>Points: 36</p>\n<p># Comments: 8</p>",
-    "author": "thinkingemote",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46677106\">Comments</a>",
+    "author": "",
     "published_date": "2026-01-19T10:09:38+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-01-19T11:22:22.013571+00:00",
-    "updated_at": "2026-01-19T11:22:22.013572+00:00"
+    "created_at": "2026-01-19T11:22:23.301461+00:00",
+    "updated_at": "2026-01-19T12:38:31.455989+00:00",
+    "metadata": {
+      "processed_at": "2026-01-19T12:38:31.455991+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "8defc6502449ac289c634be206a4cf2f",
@@ -99,17 +119,21 @@
     "id": "3c90710660bc46bddd1818f6a3a1317a",
     "url": "https://kacet.com/",
     "title": "Show HN: Kacet \u2013 a freelancer marketplace with crypto-native payments",
-    "content": "<p>Hi HN,<p>I\u2019m a co-founder building kacet, a new freelancing platform that connects freelancers and employers, with crypto as the core payment rail.<p>The problem I\u2019m trying to solve is pretty familiar: existing platforms take high fees, are slow to pay out, and don\u2019t work well for international teams. kacet is an experiment in building a simpler, more neutral marketplace where payments are borderless by default.<p>Some highlights:<p>\u2022 Crypto-native payments \u2013 fast, borderless payouts without banks, delays, or surprise freezes\n\u2022 Peer-to-peer contracts \u2013 clients and freelancers work directly, the platform doesn\u2019t own the relationship\n Built for teams \u2013 multi-user organisations for agencies and startups out of the box\n\u2022 Low, transparent fees \u2013 simple pricing with no boosts, ads, or hidden take rates\n\u2022 No dark patterns \u2013 a calm UI focused on agreeing work and getting paid, not maximising engagement<p>Payments are handled by Solana smart contracts, with a React frontend (TanStack Start). We\u2019re keeping the feature set small to validate the core workflow: post work \u2192 agree terms \u2192 get paid.<p>This is still early and very much a work in progress. I\u2019d really appreciate feedback from people who have hired freelancers, worked as one, or built marketplaces before.<p>Site: <a href=\"https://kacet.com\" rel=\"nofollow\">https://kacet.com</a><p>Happy to answer any questions or go into more detail on the payment model, trust mechanics, or why I think this approach might (or might not) work.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46677549\">https://news.ycombinator.com/item?id=46677549</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
-    "author": "wrux",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46677549\">Comments</a>",
+    "author": "",
     "published_date": "2026-01-19T11:00:31+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 237,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-01-19T11:22:22.013501+00:00",
-    "updated_at": "2026-01-19T11:22:22.013510+00:00"
+    "created_at": "2026-01-19T11:22:23.301422+00:00",
+    "updated_at": "2026-01-19T12:38:31.455996+00:00",
+    "metadata": {
+      "processed_at": "2026-01-19T12:38:31.455998+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "8990b7d838cc43940377c3e09263c7c1",
