@@ -1,7 +1,135 @@
 {
-  "last_updated": "2026-01-19T04:47:24.270681+00:00",
+  "last_updated": "2026-01-19T04:54:43.912838+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "adc4781ea11d927ebc2d92cc947ef47f",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1647194",
+      "title": "Speech pattern disorders in verbally fluent individuals with autism spectrum disorder: a machine learning analysis",
+      "content": "IntroductionDiagnosing Autism Spectrum Disorder (ASD) in verbally fluent individuals based on speech patterns in examiner-patient dialogues is challenging because speech-related symptoms are often subtle and heterogeneous. This study aimed to identify distinctive speech characteristics associated with ASD by analyzing recorded dialogues from the Autism Diagnostic Observation Schedule (ADOS-2).MethodsWe analyzed examiner-participant dialogues from ADOS-2 Module 4 and extracted 40 speech-related features categorized into intonation, volume, rate, pauses, spectral characteristics, chroma, and duration. These acoustic and prosodic features were processed using advanced speech analysis tools and used to train machine learning models to classify ASD participants into two subgroups: those with and without A2-defined speech pattern abnormalities. Model performance was evaluated using cross-validation and standard classification metrics.ResultsUsing all 40 features, the support vector machine (SVM) achieved an F1-score of 84.49%. After removing Mel-Frequency Cepstral Coefficients (MFCC) and Chroma features to focus on prosodic, rhythmic, energy, and selected spectral features aligned with ADOS-2 A2 scores, performance improved, achieving 85.77% accuracy and an F1-score of 86.27%. Spectral spread and spectral centroid emerged as key features in the reduced set, while MFCC 6 and Chroma 4 also contributed significantly in the full feature set.DiscussionThese findings demonstrate that a compact, diverse set of non-MFCC and selected spectral features effectively characterizes speech abnormalities in verbally fluent individuals with ASD. The approach highlights the potential of context-aware, data-driven models to complement clinical assessments and enhance understanding of speech-related manifestations in ASD.",
+      "author": "Xin Li",
+      "published_date": "2025-10-24T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 233,
+      "reading_time": 1,
+      "created_at": "2026-01-19T04:54:04.730297+00:00",
+      "updated_at": "2026-01-19T04:54:04.730298+00:00"
+    },
+    {
+      "id": "f121f6351ea82215cb10862322d1c82a",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1724386",
+      "title": "Editorial: Women pioneering neuroinformatics and neuroscience-related machine learning, 2024",
+      "content": "",
+      "author": "Alice Geminiani",
+      "published_date": "2025-11-12T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-19T04:54:04.730228+00:00",
+      "updated_at": "2026-01-19T04:54:04.730230+00:00"
+    },
+    {
+      "id": "dc42d7d5d4bd1d9ac1aaa2d9c4fcb82b",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1679664",
+      "title": "Enhancing dementia and cognitive decline detection with large language models and speech representation learning",
+      "content": "Dementia poses a major challenge to individuals and public health systems. Detecting cognitive decline through spontaneous speech offers a promising, non-invasive avenue for diagnosis of mild cognitive impairment (MCI) and dementia, enabling timely intervention and improved outcomes. This study describes our submission to the PROCESS Signal Processing Grand Challenge (ICASSP 2025), which tasked participants with predicting cognitive decline from speech samples. Our method combines eGeMAPS features from openSMILE, HuBERT (a self-supervised speech representation model), and GPT-4o, OpenAI's state-of-the-art large language model. These are integrated with the custom LSTM and ResMLP neural networks, and supported by Scikit-learn regressors/classifiers for both cognitive score regression and dementia classification. Our regression model based on LightGBM achieved an RMSE of 2.7775, placing us 10th out of 80 teams globally and surpassing the RoBERTa baseline by 7.5%. For the three-class classification task (Dementia/MCI/Control), our LSTM model obtained an F1-score of 0.5521, ranking 20th of 106 and marginally outperforming the best baseline. We trained models on speech data from 157 study participants, with independent evaluation performed on a separate test set of 40 individuals. We discoved that integrating large language models with self-supervised speech representations enhances the detection of cognitive decline. The proposed approach offers a scalable, data-driven method for early cognitive screening and may support emerging applications in neuropsychological informatics.",
+      "author": "Grzegorz M. W\u00f3jcik",
+      "published_date": "2025-12-05T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 214,
+      "reading_time": 1,
+      "created_at": "2026-01-19T04:54:04.730137+00:00",
+      "updated_at": "2026-01-19T04:54:04.730139+00:00"
+    },
+    {
+      "id": "ebf0d110a8cce1f4d7e80f2bc097866a",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1665528",
+      "title": "Subdomain adaptation method based on transferable semantic alignment and class correlation",
+      "content": "To address these challenges, we propose a subdomain adaptation framework driven by transferable semantic alignment and class correlation. First, source and target domains are divided into subdomains according to class labels, and a joint subdomain distribution alignment mechanism is introduced to reduce intra-class distribution divergence while enlarging inter-class disparities. Second, a domain-adaptive semantic consistency loss is employed to cluster semantically similar samples and separate dissimilar ones in a unified representation space, enabling precise cross-domain semantic alignment. Third, pseudo-label quality in the target domain is improved via temperature-based label smoothing, complemented by a class correlation matrix and a loss function capturing inter-class relationships to exploit intrinsic intra-class coherence and inter-class distinction. Extensive experiments on multiple public datasets demonstrate that the proposed method achieves superior average classification accuracy compared to existing approaches, validating the effectiveness of semantic alignment and class correlation modeling. By explicitly modeling intra-class coherence and inter-class distinction without additional architectural complexity, the framework effectively mitigates domain shift, enhances semantic alignment, and improves recognition performance on the target domain, offering a robust solution for deep unsupervised domain adaptation.",
+      "author": "Jinyong Zhang",
+      "published_date": "2026-01-05T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 178,
+      "reading_time": 1,
+      "created_at": "2026-01-19T04:54:00.466099+00:00",
+      "updated_at": "2026-01-19T04:54:00.466101+00:00"
+    },
+    {
+      "id": "5436315068483e1e9392a2880b4a81fa",
+      "url": "https://shihab-shahriar.github.io//blog/2026/AVX-512-First-Impressions-on-Performance-and-Programmability/",
+      "title": "AVX-512: First Impressions on Performance and Programmability",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46610800\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-14T00:43:36+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T04:53:34.251054+00:00",
+      "updated_at": "2026-01-19T04:53:34.251056+00:00"
+    },
+    {
+      "id": "a7885c2586c3260569ec58dc1261e891",
+      "url": "https://calquio.com/finance/compound-interest",
+      "title": "Show HN: I quit coding years ago. AI brought me back",
+      "content": "<p>Quick background: I used to code. Studied it in school, wrote some projects, but eventually convinced myself I wasn't cut out for it. Too slow, too many bugs, imposter syndrome \u2014 the usual story. So I pivoted, ended up as an investment associate at an early-stage angel fund, and haven't written real code in years.<p>Fast forward to now. I'm a Buffett nerd \u2014 big believer in compound interest as a mental model for life. I run compound interest calculations constantly. Not because I need to, but because watching numbers grow over 30-40 years keeps me patient when markets get wild. It's basically meditation for long-term investors.<p>The problem? Every compound interest calculator online is terrible. Ugly interfaces, ads covering half the screen, can't customize compounding frequency properly, no year-by-year breakdowns. I've tried so many. They all suck.<p>When vibe coding started blowing up, something clicked. Maybe I could actually build the calculators I wanted? I don't have to be a \"real developer\" anymore \u2014 I just need to describe what I want clearly.<p>So I tried it.<p>Two weeks and ~$100\uff08Opus 4.5 thinking model\uff09 in API costs later: I somehow have 60+ calculators. Started with compound interest, naturally. Then thought \"well, while I'm here...\" and added mortgage, loan amortization, savings goals, retirement projections. Then it spiraled \u2014 BMI calculator, timezone converter, regex tester. Oops.<p>The AI (I'm using Claude via Windsurf) handled the grunt work beautifully. I'd describe exactly what I wanted \u2014 \"compound interest calculator with monthly/quarterly/yearly options, year-by-year breakdown table, recurring contribution support\" \u2014 and it delivered. With validation, nice components, even tests.<p>What I realized: my years away from coding weren't wasted. I still understood architecture, I still knew what good UX looked like, I still had domain expertise (financial math). I just couldn't type it all out efficiently. AI filled that gap perfectly.<p>Vibe coding didn't make me a 10x engineer. But it gave me permission to build again. Ideas I've had for years suddenly feel achievable. That's honestly the bigger win for me.<p>Stack: Next.js, React, TailwindCSS, shadcn/ui, four languages (EN/DE/FR/JA). The AI picked most of this when I said \"modern and clean.\"<p>Site's live at <a href=\"https://calquio.com\" rel=\"nofollow\">https://calquio.com</a> . The compound interest calculator is still my favorite page \u2014 finally exactly what I wanted.<p>Curious if others have similar stories. Anyone else come back to building after stepping away?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46673809\">https://news.ycombinator.com/item?id=46673809</a></p>\n<p>Points: 25</p>\n<p># Comments: 19</p>",
+      "author": "ivcatcher",
+      "published_date": "2026-01-19T00:50:20+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 396,
+      "reading_time": 1,
+      "created_at": "2026-01-19T04:53:32.887580+00:00",
+      "updated_at": "2026-01-19T04:53:32.887582+00:00"
+    },
+    {
+      "id": "cde72ad21f8ef6da98351eb6e339b10e",
+      "url": "https://johncodes.com/archive/2026/01-18-all-your-opencodes/",
+      "title": "All your OpenCodes belong to us",
+      "content": "<p>Article URL: <a href=\"https://johncodes.com/archive/2026/01-18-all-your-opencodes/\">https://johncodes.com/archive/2026/01-18-all-your-opencodes/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46674424\">https://news.ycombinator.com/item?id=46674424</a></p>\n<p>Points: 14</p>\n<p># Comments: 2</p>",
+      "author": "jpmcb",
+      "published_date": "2026-01-19T02:28:21+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-19T04:53:32.887479+00:00",
+      "updated_at": "2026-01-19T04:53:32.887481+00:00"
+    },
+    {
+      "id": "9e47dac536dae04311e8e673aff20378",
+      "url": "https://www.patreon.com/posts/another-one-dust-148437771",
+      "title": "CD Projekt issue DMCA takedown notice against popular Cyberpunk VR mod",
+      "content": "<p>Article URL: <a href=\"https://www.patreon.com/posts/another-one-dust-148437771\">https://www.patreon.com/posts/another-one-dust-148437771</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46674505\">https://news.ycombinator.com/item?id=46674505</a></p>\n<p>Points: 21</p>\n<p># Comments: 6</p>",
+      "author": "wjdp",
+      "published_date": "2026-01-19T02:42:08+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-19T04:53:32.887449+00:00",
+      "updated_at": "2026-01-19T04:53:32.887457+00:00"
+    },
     {
       "id": "98c795ecc7af540b431020ec45da0e1d",
       "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae2955",
@@ -39,6 +167,26 @@
       "updated_at": "2026-01-19T04:47:24.162540+00:00",
       "metadata": {
         "processed_at": "2026-01-19T04:47:24.162542+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ff401b1fb5f5446c0b0841d311fc95f8",
+      "url": "https://rijnard.com/blog/the-code-only-agent",
+      "title": "The Code-Only Agent",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46674416\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-19T02:27:07+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T03:51:47.803230+00:00",
+      "updated_at": "2026-01-19T04:47:24.162545+00:00",
+      "metadata": {
+        "processed_at": "2026-01-19T04:47:24.162546+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -117,26 +265,6 @@
       "reading_time": 1,
       "created_at": "2026-01-19T03:51:46.429154+00:00",
       "updated_at": "2026-01-19T03:51:46.429156+00:00"
-    },
-    {
-      "id": "ff401b1fb5f5446c0b0841d311fc95f8",
-      "url": "https://rijnard.com/blog/the-code-only-agent",
-      "title": "The Code-Only Agent",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46674416\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-19T02:27:07+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-19T03:51:47.803230+00:00",
-      "updated_at": "2026-01-19T04:47:24.162545+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T04:47:24.162546+00:00",
-        "processing_method": "github_actions"
-      }
     },
     {
       "id": "901593a96e697db8cc6ea1e283c43bd2",
@@ -235,162 +363,6 @@
       "updated_at": "2026-01-19T01:22:05.366053+00:00",
       "metadata": {
         "processed_at": "2026-01-19T01:22:05.366062+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "98940c127331cb086f05d87273df572a",
-      "url": "https://talk24.ai/blog/ai-killing-legal-search",
-      "title": "60% of Legal Searches Now End Without a Click",
-      "content": "<p>Article URL: <a href=\"https://talk24.ai/blog/ai-killing-legal-search\">https://talk24.ai/blog/ai-killing-legal-search</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46670780\">https://news.ycombinator.com/item?id=46670780</a></p>\n<p>Points: 15</p>\n<p># Comments: 11</p>",
-      "author": "atreeleaf",
-      "published_date": "2026-01-18T18:40:20+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-18T23:20:42.315166+00:00",
-      "updated_at": "2026-01-19T01:22:05.366067+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T01:22:05.366069+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ffa1b1891cc0f1973233d57133e08b49",
-      "url": "https://github.com/blue-monads/potato-apps/tree/master/cimple-gis",
-      "title": "Simple GIS on Potato",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46672701\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-18T22:15:01+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-18T22:44:16.372734+00:00",
-      "updated_at": "2026-01-19T01:22:05.366071+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T01:22:05.366073+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8aeb64f063befb199edca5843fc0ad63",
-      "url": "https://getdock.io/",
-      "title": "Show HN: Dock \u2013 Slack minus the bloat, tax, and 90-day memory loss",
-      "content": "<p>Article URL: <a href=\"https://getdock.io/\">https://getdock.io/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46671952\">https://news.ycombinator.com/item?id=46671952</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
-      "author": "yadavrh",
-      "published_date": "2026-01-18T20:42:49+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-18T22:44:15.015185+00:00",
-      "updated_at": "2026-01-19T01:22:05.366078+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T01:22:05.366079+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5e2213b3d8448b8549771add8e5e6652",
-      "url": "https://beats.lasagna.pizza",
-      "title": "Show HN: Beats, a web-based drum machine",
-      "content": "<p>Hello all!<p>I've been an avid fan of Pocket Operators by Teenage Engineering since I found out about them. I even own an EP-133 K.O. II today, which I love.<p>A couple of months ago, Reddit user andiam03 shared a Google Sheet with some drum patterns [1]. I thought it was a very cool way to share and understand beats.<p>During the weekend I coded a basic version of this app I am sharing today. I iterated over it in my free time, and yesterday I felt like I had a pretty good version to share with y'all.<p>It's not meant to be a sequencer but rather a way to experiment with beats and basic sounds, save them, and use them in your songs. It also has a sharing feature with a link.<p>It was built using Tone.js [2], Stimulus [3] and deployed in Render [4] as a static website. I used an LLM to read the Tone.js documentation and generate sounds, since I have no knowledge about sound production, and modified from there.<p>Anyway, hope you like it! I had a blast building it.<p>[0]: <a href=\"https://teenage.engineering\" rel=\"nofollow\">https://teenage.engineering</a><p>[1]: <a href=\"https://docs.google.com/spreadsheets/d/1GMRWxEqcZGdBzJg52soeVaY7iUSj1YncfIJZIPScBhM/edit\" rel=\"nofollow\">https://docs.google.com/spreadsheets/d/1GMRWxEqcZGdBzJg52soe...</a><p>[2]: <a href=\"https://tonejs.github.io\" rel=\"nofollow\">https://tonejs.github.io</a><p>[3]: <a href=\"https://stimulus.hotwired.dev\" rel=\"nofollow\">https://stimulus.hotwired.dev</a><p>[4]: <a href=\"http://render.com\" rel=\"nofollow\">http://render.com</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46672181\">https://news.ycombinator.com/item?id=46672181</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
-      "author": "kinduff",
-      "published_date": "2026-01-18T21:10:08+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 205,
-      "reading_time": 1,
-      "created_at": "2026-01-18T22:44:15.015123+00:00",
-      "updated_at": "2026-01-19T01:22:05.366082+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T01:22:05.366083+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4bc9930e67e68413e5c65d8225512c0e",
-      "url": "https://www.spiegel.de/politik/groenland-plaene-der-usa-eu-plant-gegenzoelle-im-wert-von-93-milliarden-euro-a-2262fda5-0071-4352-bad5-289e8ca37cf9",
-      "title": "EU to Retaliate on Tariffs",
-      "content": "<p>Article URL: <a href=\"https://www.spiegel.de/politik/groenland-plaene-der-usa-eu-plant-gegenzoelle-im-wert-von-93-milliarden-euro-a-2262fda5-0071-4352-bad5-289e8ca37cf9\">https://www.spiegel.de/politik/groenland-plaene-der-usa-eu-plant-gegenzoelle-im-wert-von-93-milliarden-euro-a-2262fda5-0071-4352-bad5-289e8ca37cf9</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46672714\">https://news.ycombinator.com/item?id=46672714</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
-      "author": "pintxo",
-      "published_date": "2026-01-18T22:16:46+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-18T22:44:15.015074+00:00",
-      "updated_at": "2026-01-19T03:45:59.865615+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T03:45:59.865617+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "18e23fefebcc874e0763046c17f016d8",
-      "url": "https://kudmitry.com/articles/dead-internet-theory/",
-      "title": "Dead Internet Theory",
-      "content": "<p>Article URL: <a href=\"https://kudmitry.com/articles/dead-internet-theory/\">https://kudmitry.com/articles/dead-internet-theory/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46671731\">https://news.ycombinator.com/item?id=46671731</a></p>\n<p>Points: 9</p>\n<p># Comments: 5</p>",
-      "author": "skwee357",
-      "published_date": "2026-01-18T20:19:07+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-18T22:21:08.147132+00:00",
-      "updated_at": "2026-01-18T22:21:08.147134+00:00"
-    },
-    {
-      "id": "9e6de67eebb6d47b33a09a5bcf2d03e4",
-      "url": "https://www.cnn.com/2026/01/18/business/crafting-soars-ai-analog-wellness",
-      "title": "Tired of AI, people are committing to the analog lifestyle in 2026",
-      "content": "<p>Article URL: <a href=\"https://www.cnn.com/2026/01/18/business/crafting-soars-ai-analog-wellness\">https://www.cnn.com/2026/01/18/business/crafting-soars-ai-analog-wellness</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46671020\">https://news.ycombinator.com/item?id=46671020</a></p>\n<p>Points: 33</p>\n<p># Comments: 17</p>",
-      "author": "andy99",
-      "published_date": "2026-01-18T19:04:48+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-18T21:40:18.473184+00:00",
-      "updated_at": "2026-01-18T22:15:24.261444+00:00",
-      "metadata": {
-        "processed_at": "2026-01-18T22:15:24.261454+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fa55482085d71450c9cb7f74381fa63f",
-      "url": "https://ohioopen.library.ohio.edu/opentextbooks/9/",
-      "title": "Stirling Cycle Machine Analysis",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46671982\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-18T20:45:54+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-18T21:19:27.927885+00:00",
-      "updated_at": "2026-01-18T22:15:24.261458+00:00",
-      "metadata": {
-        "processed_at": "2026-01-18T22:15:24.261460+00:00",
         "processing_method": "github_actions"
       }
     }
