@@ -1,24 +1,8 @@
 {
-  "last_updated": "2026-01-19T08:26:36.828352+00:00",
-  "pending_count": 688,
-  "processed_count": 312,
+  "last_updated": "2026-01-19T10:23:02.457883+00:00",
+  "pending_count": 687,
+  "processed_count": 313,
   "pending_articles": [
-    {
-      "id": "30c62259d3f0fa60ef1bd8a2c9fc9762",
-      "url": "https://embc.embs.org/2026/#new_tab",
-      "title": "Join the Mailing List",
-      "content": "<p>The post <a href=\"https://embc.embs.org/2026/#new_tab\">Join the Mailing List</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "dziura",
-      "published_date": "2025-12-10T16:41:05+00:00",
-      "source": "Embs",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-19T07:30:43.084992+00:00",
-      "updated_at": "2026-01-19T07:30:43.084994+00:00"
-    },
     {
       "id": "462d809fc097cbd2a6515bc023757c9f",
       "url": "https://app.smartsheet.com/b/form/0199e95f16727ef99ec5b9ea73e78ab6#new_tab",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2026-01-19T07:29:52.409904+00:00",
       "updated_at": "2026-01-19T07:29:52.409906+00:00"
+    },
+    {
+      "id": "d5aa0c0dba4a5cb2de36f1f323eb4e4f",
+      "url": "https://www.railly.dev/blog/intent-layer/",
+      "title": "Show HN: Intent Layer: A context engineering skill for AI agents",
+      "content": "<p>Article URL: <a href=\"https://www.railly.dev/blog/intent-layer/\">https://www.railly.dev/blog/intent-layer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46675236\">https://news.ycombinator.com/item?id=46675236</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
+      "author": "Hunter17",
+      "published_date": "2026-01-19T05:04:40+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-19T07:29:52.409870+00:00",
+      "updated_at": "2026-01-19T07:29:52.409878+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "3caf5ae0504fd6beb8fda8c97e8245ad",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2025.1712896",
+      "title": "Transferable CNN-based data mining approaches for medical imaging: application to spine DXA scans for osteoporosis detection",
+      "content": "IntroductionOsteoporosis is the leading cause of sudden bone fractures. This is a silent and deadly disease that can affect any part of the body, such as the spine, hips, and knee bones.AimTo measure bone mineral density, dual-energy X-ray absorptiometry (DXA) scans help radiologists and other medical professionals identify early signs of osteoporosis in the spine.MethodsA proposed 21-layer convolutional neural network (CNN) model is implemented and validated to automatically detect osteoporosis in spine DXA images. The dataset contains 174 spine DXA images, including 114 affected by osteoporosis and the rest normal or non-fractured. To improve training, the dataset is expanded using various data augmentation techniques.ResultsThe classification performance of the proposed model is compared with that of four popular pre-trained models: ResNet-50, Visual Geometry Group 16 (VGG-16), VGG-19, and InceptionV3. With an F1-score of 97.16%, recall of 95.41%, classification accuracy of 97.14%, and precision of 99.04%, the proposed model consistently outperforms competing approaches.ConclusionThe proposed paradigm would therefore be very valuable to radiologists and other medical professionals. The proposed approach\u2019s capacity to detect, monitor, and diagnose osteoporosis may reduce the risk of developing the condition.",
+      "author": "Jawad Rasheed",
+      "published_date": "2025-12-30T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 182,
+      "reading_time": 1,
+      "created_at": "2026-01-19T09:36:28.186380+00:00",
+      "updated_at": "2026-01-19T10:23:02.353114+00:00",
+      "metadata": {
+        "processed_at": "2026-01-19T10:23:02.353124+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "e11df0407acd1ea02e9310496934c4e7",
+      "url": "https://www.jamesdysonaward.org/en-US/2019/project/self-sanitizing-door-handle/",
+      "title": "Self Sanitizing Door Handle",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46633025\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-15T14:31:04+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T09:35:59.894821+00:00",
+      "updated_at": "2026-01-19T10:23:02.353128+00:00",
+      "metadata": {
+        "processed_at": "2026-01-19T10:23:02.353130+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4f683f04d3a3e4e9bbbe917540afc7c3",
+      "url": "https://github.com/VBranimir/mTOTP/tree/develop",
+      "title": "MTOTP: Wouldn't it be nice if you were the 2FA device?",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46676264\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-19T08:21:44+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T08:35:09.312489+00:00",
+      "updated_at": "2026-01-19T10:23:02.353133+00:00",
+      "metadata": {
+        "processed_at": "2026-01-19T10:23:02.353134+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4f683f04d3a3e4e9bbbe917540afc7c3",
+      "url": "https://github.com/VBranimir/mTOTP/tree/develop",
+      "title": "MTOTP: Wouldn't it be nice if you were the 2FA device?",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46676264\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-19T08:21:44+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-19T08:35:09.312489+00:00",
+      "updated_at": "2026-01-19T10:23:02.353133+00:00",
+      "metadata": {
+        "processed_at": "2026-01-19T10:23:02.353134+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "c2319578819743fdf0159bf723bcb1b5",
       "url": "https://erpinfo.org/blog/2024/3/5/changes-to-the-2024-erp-boot-camp",
@@ -226,26 +306,6 @@
       }
     },
     {
-      "id": "db00265549f5d58b99d4969f22c3fd35",
-      "url": "https://simonhartcher.com/posts/2026-01-19-my-thoughts-on-gas-town-after-10000-hours-of-claude-code/",
-      "title": "My thoughts on Gas Town after 10k hours of Claude Code",
-      "content": "<p>Article URL: <a href=\"https://simonhartcher.com/posts/2026-01-19-my-thoughts-on-gas-town-after-10000-hours-of-claude-code/\">https://simonhartcher.com/posts/2026-01-19-my-thoughts-on-gas-town-after-10000-hours-of-claude-code/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46674976\">https://news.ycombinator.com/item?id=46674976</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>",
-      "author": "todsacerdoti",
-      "published_date": "2026-01-19T04:11:28+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-19T07:51:42.542008+00:00",
-      "updated_at": "2026-01-19T08:26:36.721762+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T08:26:36.721764+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "b9e1188f2fbc696568d7e46cbb5340e1",
       "url": "https://bitchat.free/",
       "title": "A decentralized peer-to-peer messaging application that operates over Bluetooth",
@@ -266,102 +326,42 @@
       }
     },
     {
-      "id": "f113c1f40f68774b237147f08d8c7c0a",
-      "url": "https://arxiv.org/abs/2601.11218",
-      "title": "Game Accessibility Through Shared Control for People With Upper-Limb Impairments",
-      "content": "arXiv:2601.11218v1 Announce Type: new \nAbstract: Accessing video games is challenging for people with upper-limb impairments, especially when multiple inputs are required in rapid succession. Human cooperation, where a copilot assists the main player, has been proposed as a solution, but relying on a human assistant poses limitations in terms of availability and co-location. An alternative solution is to use partial automation, where the player is assisted by a software agent. In this work, we present a study with 13 participants with upper-limb impairments, comparatively evaluating how participants collaborate with their copilot in human cooperation and partial automation. The experiment is supported by GamePals, a modular framework that enables both human cooperation and partial automation on existing third-party video games.",
-      "author": "Sergio Mascetti, Matteo Manzoni, Filippo Corti, Dragan Ahmetovic",
-      "published_date": "2026-01-19T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
+      "id": "db00265549f5d58b99d4969f22c3fd35",
+      "url": "https://simonhartcher.com/posts/2026-01-19-my-thoughts-on-gas-town-after-10000-hours-of-claude-code/",
+      "title": "My thoughts on Gas Town after 10k hours of Claude Code",
+      "content": "<p>Article URL: <a href=\"https://simonhartcher.com/posts/2026-01-19-my-thoughts-on-gas-town-after-10000-hours-of-claude-code/\">https://simonhartcher.com/posts/2026-01-19-my-thoughts-on-gas-town-after-10000-hours-of-claude-code/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46674976\">https://news.ycombinator.com/item?id=46674976</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>",
+      "author": "todsacerdoti",
+      "published_date": "2026-01-19T04:11:28+00:00",
+      "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 119,
+      "word_count": 13,
       "reading_time": 1,
-      "created_at": "2026-01-19T05:33:28.762384+00:00",
-      "updated_at": "2026-01-19T06:31:28.860220+00:00",
+      "created_at": "2026-01-19T07:51:42.542008+00:00",
+      "updated_at": "2026-01-19T08:26:36.721762+00:00",
       "metadata": {
-        "processed_at": "2026-01-19T06:31:28.860245+00:00",
+        "processed_at": "2026-01-19T08:26:36.721764+00:00",
         "processing_method": "github_actions"
       }
     },
     {
-      "id": "1e5fce3332fc4cd5b51f584a895bac55",
-      "url": "https://arxiv.org/abs/2601.11171",
-      "title": "Noisy Graph Patterns via Ordered Matrices",
-      "content": "arXiv:2601.11171v1 Announce Type: new \nAbstract: The high-level structure of a graph is a crucial ingredient for the analysis and visualization of relational data. However, discovering the salient graph patterns that form this structure is notoriously difficult for two reasons. (1) Finding important patterns, such as cliques and bicliques, is computationally hard. (2) Real-world graphs contain noise, and therefore do not always exhibit patterns in their pure form. Defining meaningful noisy patterns and detecting them efficiently is a currently unsolved challenge. In this paper, we propose to use well-ordered matrices as a tool to both define and effectively detect noisy patterns. Specifically, we represent a graph as its adjacency matrix and optimally order it using Moran's $I$. Standard graph patterns (cliques, bicliques, and stars) now translate to rectangular submatrices. Using Moran's $I$, we define a permitted level of noise for such patterns. A combination of exact algorithms and heuristics allows us to efficiently decompose the matrix into noisy patterns. We also introduce a novel motif simplification that visualizes noisy patterns while explicitly encoding the level of noise. We showcase our techniques on several real-world data sets.",
-      "author": "Jules Wulms, Wouter Meulemans, Bettina Speckmann",
-      "published_date": "2026-01-19T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
+      "id": "30c62259d3f0fa60ef1bd8a2c9fc9762",
+      "url": "https://embc.embs.org/2026/#new_tab",
+      "title": "Join the Mailing List",
+      "content": "<p>The post <a href=\"https://embc.embs.org/2026/#new_tab\">Join the Mailing List</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
+      "author": "dziura",
+      "published_date": "2025-12-10T16:41:05+00:00",
+      "source": "Embs",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 185,
+      "word_count": 13,
       "reading_time": 1,
-      "created_at": "2026-01-19T05:33:28.762358+00:00",
-      "updated_at": "2026-01-19T06:31:28.860249+00:00",
+      "created_at": "2026-01-19T07:30:43.084992+00:00",
+      "updated_at": "2026-01-19T10:23:02.353141+00:00",
       "metadata": {
-        "processed_at": "2026-01-19T06:31:28.860251+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "78731ea080a68e9c32adb7e279352f6e",
-      "url": "https://arxiv.org/abs/2601.11103",
-      "title": "AI Twin: Enhancing ESL Speaking Practice through AI Self-Clones of a Better Me",
-      "content": "arXiv:2601.11103v1 Announce Type: new \nAbstract: Advances in AI have enabled ESL learners to practice speaking through conversational systems. However, most tools rely on explicit correction, which can interrupt the conversation and undermine confidence. Grounded in second language acquisition and motivational psychology, we present AI Twin, a system that rephrases learner utterances into more fluent English and delivers them in the learner's voice. Embodying a more confident and proficient version of the learner, AI Twin reinforces motivation through alignment with their aspirational Ideal L2 Self. Also, its use of implicit feedback through rephrasing preserves conversational flow and fosters an emotionally supportive environment. In a within-subject study with 20 adult ESL learners, we compared AI Twin with explicit correction and a non-personalized rephrasing agent. Results show that AI Twin elicited higher emotional engagement, with participants describing the experience as more motivating. These findings highlight the potential of self-representative AI for personalized, psychologically grounded support in ESL learning.",
-      "author": "Minju Park, Seunghyun Lee, Juhwan Ma, Dongwook Yoon",
-      "published_date": "2026-01-19T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 155,
-      "reading_time": 1,
-      "created_at": "2026-01-19T05:33:28.762327+00:00",
-      "updated_at": "2026-01-19T06:31:28.860253+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T06:31:28.860255+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ee9e239e91a7e9f3ae47545bf319c3cf",
-      "url": "https://arxiv.org/abs/2601.11072",
-      "title": "More Human or More AI? Visualizing Human-AI Collaboration Disclosures in Journalistic News Production",
-      "content": "arXiv:2601.11072v1 Announce Type: new \nAbstract: Within journalistic editorial processes, disclosing AI usage is currently limited to simplistic labels, which misses the nuance of how humans and AI collaborated on a news article. Through co-design sessions (N=10), we elicited 69 disclosure designs and implemented four prototypes that visually disclose human-AI collaboration in journalism. We then ran a within-subjects lab study (N=32) to examine how disclosure visualizations (Textual, Role-based Timeline, Task-based Timeline, Chatbot) and collaboration ratios (Primarily Human vs. Primarily AI) influenced visualization perceptions, gaze patterns, and post-experience responses. We found that textual disclosures were least effective in communicating human-AI collaboration, whereas Chatbot offered the most in-depth information. Furthermore, while role-based timelines amplified AI contribution in primarily human articles, task-based timeline shifted perceptions toward human involvement in primarily AI articles. We contribute Human-AI collaboration disclosure visualizations and their evaluation, and cautionary considerations on how visualizations can alter perceptions of AI's actual role during news article creation.",
-      "author": "Amber Kusters, Pooja Prajod, Pablo Cesar, Abdallah El Ali",
-      "published_date": "2026-01-19T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 154,
-      "reading_time": 1,
-      "created_at": "2026-01-19T05:33:28.762286+00:00",
-      "updated_at": "2026-01-19T06:31:28.860257+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T06:31:28.860259+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "daac2decd938bb93fbd28e11a1153b34",
-      "url": "https://arxiv.org/abs/2601.11060",
-      "title": "Children's Expectations, Engagement, and Evaluation of an LLM-enabled Spherical Visualization Platform in the Classroom",
-      "content": "arXiv:2601.11060v1 Announce Type: new \nAbstract: We present our first stage results from deploying an LLM-augmented visualization software in a classroom setting to engage primary school children with earth-related datasets. Motivated by the growing interest in conversational AI as a means to support inquiry-based learning, we investigate children's expectations, engagement, and evaluation of a spoken LLM interface with a shared, immersive visualization system in a formal educational context. Our system integrates a speech-capable large language model with an interactive spherical display. It enables children to ask natural-language questions and receive coordinated verbal explanations and visual responses through the LLM-augmented visualization updating in real time based on spoken queries. We report on a classroom study with Swedish children aged 9-10, combining structured observation and small-group discussions to capture expectations prior to interaction, interaction patterns during facilitated sessions, and children's reflections on their encounter afterward. Our results provide empirical insights into children's initial encounters with an LLM-enabled visualization platform within a classroom setting and their expectations, interactions, and evaluations of the system. These findings inform the technology's potential for educational use and highlight important directions for future research.",
-      "author": "Emelie F\\\"alton, Isabelle Str\\\"omstedt, Mathis Brossier, Andreas G\\\"oransson, Konrad Sch\\\"onborn, Amy Loutfi, Erik Sunden, Mujtaba Fadhil Jawad, Yadgar Suleiman, Johanna Bj\\\"orklund, Mario Romero, Anders Ynnerman, Lonni Besan\\c{c}on",
-      "published_date": "2026-01-19T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 185,
-      "reading_time": 1,
-      "created_at": "2026-01-19T05:33:28.762252+00:00",
-      "updated_at": "2026-01-19T06:31:28.860261+00:00",
-      "metadata": {
-        "processed_at": "2026-01-19T06:31:28.860263+00:00",
+        "processed_at": "2026-01-19T10:23:02.353143+00:00",
         "processing_method": "github_actions"
       }
     }
