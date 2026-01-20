@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-01-20T10:57:54.638804+00:00",
+  "last_updated": "2026-01-20T11:28:16.650624+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "0f150e2fbd6dd55739e9f2a15d445ef1",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.699887v1?rss=1",
+      "title": "Behavioral state-dependent norepinephrine dynamics in the primary somatosensory and prefrontal cortices during tactile detection tasks",
+      "content": "Animals must integrate sensory information, ignore behaviorally irrelevant stimuli, and respond to behaviorally relevant stimuli to find food, find mates, avoid predators, and ultimately survive. In mammals, these goal-directed behaviors require the coordinated activity of many brain regions, including sensory and prefrontal cortices as well as neuromodulatory brainstem nuclei like the locus coeruleus (LC), which is the brain's primary source of norepinephrine. Norepinephrine resulting from LC activity and arousal indexed by pupil size exert strong influences on goal-directed behavior. We explored the relationships between pupil size, cortical noradrenergic dynamics, and behavior in a tactile signal detection task. We monitored pupil dynamics and fluorescent GRAB_NE signals in somatosensory and prefrontal cortices simultaneously during task execution and found that pupil size and synchronization of GRAB_NE signals at baseline were strong predictors of whether animals chose to respond but not baseline cortical GRABNE levels. We also employed a generalized linear model - hidden Markov model (GLM-HMM) framework to identify distinct, stable behavioral states throughout the task that optimally account for task performance. We found distinct psychometric curves, task-evoked pupil dynamics, and cortical NE dynamics across these behavioral states.",
+      "author": "Kelley, C., Lantin, T., Slater, C., Sorrentino, M., Yu, K., Yuan, B., Kann, M., Liu, Y. A., Kim, J. S., Wang, Q.",
+      "published_date": "2026-01-20T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 185,
+      "reading_time": 1,
+      "created_at": "2026-01-20T11:27:47.133704+00:00",
+      "updated_at": "2026-01-20T11:27:47.133709+00:00"
+    },
+    {
+      "id": "0cf8d32024856e7ae087920f112995f8",
+      "url": "https://www.reddit.com/r/Python/comments/1qhclqs/timetracer_v14_update_django_support_pytest/",
+      "title": "TimeTracer v1.4 update: Django support + pytest integration + aiohttp + dashboard",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What My Project Does</strong></p> <p>TimeTracer records API requests into JSON \u201ccassettes\u201d (timings + inputs/outputs + dependency calls) and lets you replay them locally with dependencies mocked (or hybrid replay). It also includes a built-in dashboard + timeline view to inspect requests, failures, and slow calls.</p> <p><strong>Target Audience</strong></p> <p>Python developers working on API/backend services (FastAPI/Flask/Django) who want an easier way to reproduce staging/production issues locally, create regression tests from real traffic, or debug without relying on external APIs/DB/cache being available.</p> <p><strong>Comparison</strong></p> <p>There are tools that record/replay HTTP calls (VCR-style approaches) and tools focused on tracing/observability. TimeTracer is my attempt to combine record/replay with a practical debugging workflow (API + DB/cache calls) and a lightweight dashboard/timeline that helps you inspect what happened during a request.</p> <p><strong>What\u2019s New in v1.3 / v1.4</strong></p> <p>- Django support (Django 3.2+ and 4.x, supports both sync + async views)</p> <p>- pytest integration (zero-config fixture like timetracer_replay to replay cassettes inside tests)</p> <p>- aiohttp support (now supports httpx, requests, and aiohttp)</p> <p>- Dashboard + timeline improvements for faster debugging</p> <p><strong>Install:</strong> pip install timetracer</p> <p><strong>GitHub:</strong> <a href=\"https://github.com/usv240/timetracer\">https://github.com/usv240/timetracer</a></p> <p>Previous post (original launch)</p> <p><a href=\"https://www.reddit.com/r/Python/comments/1qflvmi/i_built_timetracer_recordreplay_api_calls_locally/\">https://www.reddit.com/r/Python/comments/1qflvmi/i_built_timetracer_recordreplay_api_calls_locally/</a></p> <p>Contributions welcome, if anyone is interested in helping (features, tests, docs, or new integrations), I\u2019d love the support.</p> <p><strong>Looking for feedback:</strong></p> <p>If you use Django/pytest, does this workflow make sense? What should I prioritize next \u2014 better CI integration, more database support, improved diffing, or something else?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/usv240\"> /u/usv240 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qhclqs/timetracer_v14_update_django_support_pytest/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qhclqs/timetracer_v14_update_django_support_pytest/\">[comments]</a></span>",
+      "author": "/u/usv240",
+      "published_date": "2026-01-19T18:38:42+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 252,
+      "reading_time": 1,
+      "created_at": "2026-01-20T11:27:11.050123+00:00",
+      "updated_at": "2026-01-20T11:27:11.050125+00:00"
+    },
+    {
+      "id": "121a38313ba5765c4d42f0837f01bb12",
+      "url": "https://www.quantamagazine.org/string-theory-can-now-describe-a-universe-that-has-dark-energy-20260114/",
+      "title": "String Theory Can Now Describe a Universe That Has Dark Energy",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46690295\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-20T10:30:46+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-20T11:27:09.845797+00:00",
+      "updated_at": "2026-01-20T11:27:09.845802+00:00"
+    },
+    {
+      "id": "121a38313ba5765c4d42f0837f01bb12",
+      "url": "https://www.quantamagazine.org/string-theory-can-now-describe-a-universe-that-has-dark-energy-20260114/",
+      "title": "String Theory Can Now Describe a Universe That Has Dark Energy",
+      "content": "<p>Article URL: <a href=\"https://www.quantamagazine.org/string-theory-can-now-describe-a-universe-that-has-dark-energy-20260114/\">https://www.quantamagazine.org/string-theory-can-now-describe-a-universe-that-has-dark-energy-20260114/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46690295\">https://news.ycombinator.com/item?id=46690295</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+      "author": "nsoonhui",
+      "published_date": "2026-01-20T10:30:46+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-20T11:27:08.565227+00:00",
+      "updated_at": "2026-01-20T11:27:08.565236+00:00"
+    },
     {
       "id": "22959b1866a81d9927f9e964781198ca",
       "url": "https://www.nature.com/articles/s41593-025-02190-z",
@@ -257,86 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-01-20T10:29:22.337089+00:00",
       "updated_at": "2026-01-20T10:29:22.337090+00:00"
-    },
-    {
-      "id": "266b581c4145ab1a26c94481269ce1d2",
-      "url": "https://www.nature.com/articles/s41539-025-00383-6",
-      "title": "Modulating sleep: slow oscillation and spindle stimulation effects on physiology and memory",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-20T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-20T09:35:14.355465+00:00",
-      "updated_at": "2026-01-20T10:22:29.240320+00:00",
-      "metadata": {
-        "processed_at": "2026-01-20T10:22:29.240330+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fc62fda015c456c83a0662ea29674787",
-      "url": "https://www.nature.com/articles/s41598-026-36614-y",
-      "title": "The role of take-over cue informativity in interrupted take-over requests in a semi-automated driving scenario",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-20T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-20T09:35:14.355430+00:00",
-      "updated_at": "2026-01-20T10:22:29.240333+00:00",
-      "metadata": {
-        "processed_at": "2026-01-20T10:22:29.240335+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5b46d7cf0b0030cf012f7c2d1d5b3185",
-      "url": "http://doi.org/10.1037/drm0000321",
-      "title": "The significance of dreams and dreaming in the traditional culture of Luo people in Kenya.",
-      "content": "This article comprises two parts. Part I deals with Augustine Nwoye\u2019s classification of dreams in Africa, a theoretical background that has been used here purposively to explain the significance of dreams and dreaming to the Luo people in Kenya. This article is therefore deliberately anchored on Nwoye\u2019s African theoretical framework on dreams and dreaming. Part II of this article examines different types of dreams from the cultural perspective of the Luo traditional community, dreams that exemplify Nwoye\u2019s tripartite division of dreams and their sources. This article is particularly concerned with the meaning and significance of dreams and dreaming and what cultural practices and beliefs about dreams and dreaming might reveal about the ethical, epistemological, and metaphysical worldview of the Luo. Culturally, dreams serve various functions such as: sourcing names, counseling, healing, communication with ancestral spirits, mourning, solving personal and societal problems, prediction, divination, and fortune-telling, among many other pertinent issues. Dreams have social, cultural, epistemological, and metaphysical functions. These functions have been articulated in this article, \u201cThe Significance of Dreams and Dreaming.\u201d This article is one among only a few publications on the topic concerning the value of dreams and dreaming in the beliefs, customs, traditions, and beliefs of this community, the Luo in Kenya. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-10-23T00:00:00+00:00",
-      "source": "Dreaming",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 214,
-      "reading_time": 1,
-      "created_at": "2026-01-20T09:34:43.747385+00:00",
-      "updated_at": "2026-01-20T10:22:29.240337+00:00",
-      "metadata": {
-        "processed_at": "2026-01-20T10:22:29.240339+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "548397db16e779b45f193e2c8e69b364",
-      "url": "https://www.theatlantic.com/technology/2026/01/america-polymarket-disaster/685662/",
-      "title": "America Is Slow-Walking into a Polymarket Disaster",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46689143\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-20T08:05:39+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-20T09:34:38.318943+00:00",
-      "updated_at": "2026-01-20T10:22:29.240341+00:00",
-      "metadata": {
-        "processed_at": "2026-01-20T10:22:29.240343+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
