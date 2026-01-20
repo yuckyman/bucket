@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-20T20:15:35.122599+00:00",
+  "last_updated": "2026-01-20T20:40:37.835136+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "Boulaassafre, S., Ainani, H., ELKHAYARI, A., SONG, Y., ELFATIMY, R.",
       "published_date": "2026-01-20T00:00:00+00:00",
       "source": "Biorxiv Neuroscience",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 250,
       "reading_time": 1,
       "created_at": "2026-01-20T20:15:04.308947+00:00",
-      "updated_at": "2026-01-20T20:15:04.308952+00:00"
+      "updated_at": "2026-01-20T20:40:37.727086+00:00",
+      "metadata": {
+        "processed_at": "2026-01-20T20:40:37.727095+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "235c339d065adc44c9f449b8d831d9d4",
@@ -26,13 +30,17 @@
       "author": "/u/AverageMechUser",
       "published_date": "2026-01-20T15:25:00+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 498,
       "reading_time": 2,
       "created_at": "2026-01-20T20:14:23.976397+00:00",
-      "updated_at": "2026-01-20T20:14:23.976398+00:00"
+      "updated_at": "2026-01-20T20:40:37.727100+00:00",
+      "metadata": {
+        "processed_at": "2026-01-20T20:40:37.727102+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "6716218ea43ad982450297e83c6285ae",
@@ -42,13 +50,17 @@
       "author": "",
       "published_date": "2026-01-20T16:38:56+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-01-20T20:14:22.729652+00:00",
-      "updated_at": "2026-01-20T20:14:22.729653+00:00"
+      "updated_at": "2026-01-20T20:40:37.727105+00:00",
+      "metadata": {
+        "processed_at": "2026-01-20T20:40:37.727106+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "a7877152ca21ba41ac0b346f3a3061db",
@@ -58,29 +70,37 @@
       "author": "",
       "published_date": "2026-01-20T19:06:56+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-01-20T20:14:22.729537+00:00",
-      "updated_at": "2026-01-20T20:14:22.729539+00:00"
+      "updated_at": "2026-01-20T20:40:37.727108+00:00",
+      "metadata": {
+        "processed_at": "2026-01-20T20:40:37.727110+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "6716218ea43ad982450297e83c6285ae",
       "url": "https://github.com/mastra-ai/mastra",
       "title": "Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs",
-      "content": "<p>Hi HN, we're Sam, Shane, and Abhi.<p>Almost a year ago, we first shared Mastra here (<a href=\"https://news.ycombinator.com/item?id=43103073\">https://news.ycombinator.com/item?id=43103073</a>). It\u2019s kind of fun looking back since we were only a few months into building at the time. The HN community gave a lot of enthusiasm and some helpful feedback.<p>Today, we released Mastra 1.0 in stable, so we wanted to come back and talk about what\u2019s changed.<p>If you\u2019re new to Mastra, it's an open-source TypeScript agent framework that also lets you create multi-agent workflows, run evals, inspect in a local studio, and emit observability.<p>Since our last post, Mastra has grown to over 300k weekly npm downloads and 19.4k GitHub stars. It\u2019s now Apache 2.0 licensed and runs in prod at companies like Replit, PayPal, and Sanity.<p>Agent development is changing quickly, so we\u2019ve added a lot since February:<p>- Native model routing: You can access 600+ models from 40+ providers by specifying a model string (e.g., `openai/gpt-5.2-codex`) with TS autocomplete and fallbacks.\n- Guardrails: Low-latency input and output processors for prompt injection detection, PII redaction, and content moderation. The tricky thing here was the low-latency part.\n- Scorers: An async eval primitive for grading agent outputs. Users were asking how they should do evals. We wanted to make it easy to attach to Mastra agents, runnable in Mastra studio, and save results in Mastra storage.\n- Plus a few other features like AI tracing (per-call costing for Langfuse, Braintrust, etc), memory processors, a `.network()` method that turns any agent into a routing agent, and server adapters to integrate Mastra within an existing Express/Hono server.<p>(That last one took a bit of time, we went down the ESM/CJS bundling rabbithole, ran into lots of monorepo issues, and ultimately opted for a more explicit approach.)<p>Anyway, we'd love for you to try Mastra out and let us know what you think. You can get started with `npm create mastra@latest`.<p>We'll be around and happy to answer any questions!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46693959\">https://news.ycombinator.com/item?id=46693959</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
-      "author": "calcsam",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46693959\">Comments</a>",
+      "author": "",
       "published_date": "2026-01-20T16:38:56+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 329,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-01-20T20:14:21.626028+00:00",
-      "updated_at": "2026-01-20T20:14:21.626029+00:00"
+      "created_at": "2026-01-20T20:14:22.729652+00:00",
+      "updated_at": "2026-01-20T20:40:37.727105+00:00",
+      "metadata": {
+        "processed_at": "2026-01-20T20:40:37.727106+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "11564e5a906db7974b1f18c846af29e0",
@@ -118,17 +138,21 @@
       "id": "a7877152ca21ba41ac0b346f3a3061db",
       "url": "https://novalauncher.com/nova-is-here-to-stay",
       "title": "Instabridge has acquired Nova Launcher",
-      "content": "<p>Article URL: <a href=\"https://novalauncher.com/nova-is-here-to-stay\">https://novalauncher.com/nova-is-here-to-stay</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46696357\">https://news.ycombinator.com/item?id=46696357</a></p>\n<p>Points: 29</p>\n<p># Comments: 17</p>",
-      "author": "KORraN",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46696357\">Comments</a>",
+      "author": "",
       "published_date": "2026-01-20T19:06:56+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-01-20T20:14:21.625892+00:00",
-      "updated_at": "2026-01-20T20:14:21.625894+00:00"
+      "created_at": "2026-01-20T20:14:22.729537+00:00",
+      "updated_at": "2026-01-20T20:40:37.727108+00:00",
+      "metadata": {
+        "processed_at": "2026-01-20T20:40:37.727110+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "ef860bbe9b79e0e24561541ecf2ebac8",
