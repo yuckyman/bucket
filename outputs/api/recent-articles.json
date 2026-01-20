@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-01-20T22:18:57.437698+00:00",
+  "last_updated": "2026-01-20T22:25:33.826500+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "2cf8ea946574ae19cc4f5034d29ef299",
+      "url": "https://www.reddit.com/r/Python/comments/1qif5o1/tracking_13000_satellites_in_under_3_seconds_from/",
+      "title": "Tracking 13,000 satellites in under 3 seconds from Python",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I've been working on <a href=\"https://github.com/ATTron/astroz\">https://github.com/ATTron/astroz</a>, an orbital mechanics toolkit with Python bindings. The core is written in Zig with SIMD vectorization.</p> <h1>What My Project Does</h1> <p>astroz is an astrodynamics toolkit, including propagating satellite orbits using the SGP4 algorithm. It writes directly to numpy arrays, so there's very little overhead going between Python and Zig. You can propagate 13,000+ satellites in under 3 seconds.</p> <p>pip install astroz is all you need to get started!</p> <h1>Target Audience</h1> <p>Anyone doing orbital mechanics, satellite tracking, or space situational awareness work in Python. It's production-ready. I'm using it myself and the API is stable, though I'm still adding more functionality to the Python bindings.</p> <h1>Comparison</h1> <p>It's about 2-3x faster than python-sgp4, far and away the most popular sgp4 implementation being used:</p> <table><thead> <tr> <th align=\"left\">Library</th> <th align=\"left\">Throughput</th> </tr> </thead><tbody> <tr> <td align=\"left\">astroz</td> <td align=\"left\">~8M props/sec</td> </tr> <tr> <td align=\"left\">python-sgp4</td> <td align=\"left\">~3M props/sec</td> </tr> </tbody></table> <h1>Demo &amp; Links</h1> <p>If you want to see it in action, I put together a live demo that visualizes all 13,000+ active satellites generated from Python in under 3 seconds: <a href=\"https://attron.github.io/astroz-demo/\">https://attron.github.io/astroz-demo/</a></p> <p>Also wrote a blog post about how the SIMD stuff works under the hood if you're into that, but it's more Zig heavy than Python: <a href=\"https://atempleton.bearblog.dev/i-made-zig-compute-33-million-satellite-positions-in-3-seconds-no-gpu-required/\">https://atempleton.bearblog.dev/i-made-zig-compute-33-million-satellite-positions-in-3-seconds-no-gpu-required/</a></p> <p>Repo: <a href=\"https://github.com/ATTron/astroz\">https://github.com/ATTron/astroz</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Frozen_Poseidon\"> /u/Frozen_Poseidon </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qif5o1/tracking_13000_satellites_in_under_3_seconds_from/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qif5o1/tracking_13000_satellites_in_under_3_seconds_from/\">[comments]</a></span>",
+      "author": "/u/Frozen_Poseidon",
+      "published_date": "2026-01-20T22:06:02+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 233,
+      "reading_time": 1,
+      "created_at": "2026-01-20T22:24:23.557993+00:00",
+      "updated_at": "2026-01-20T22:24:23.557994+00:00"
+    },
+    {
+      "id": "bf29ea615a6da7ab9d1cebc520ce79bd",
+      "url": "https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars",
+      "title": "Inside the secret world of Japanese snack bars",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46698038\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-20T21:34:06+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-20T22:24:22.320554+00:00",
+      "updated_at": "2026-01-20T22:24:22.320556+00:00"
+    },
+    {
+      "id": "bf29ea615a6da7ab9d1cebc520ce79bd",
+      "url": "https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars",
+      "title": "Inside the secret world of Japanese snack bars",
+      "content": "<p>Article URL: <a href=\"https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars\">https://www.bbc.com/travel/article/20260116-inside-the-secret-world-of-japanese-snack-bars</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46698038\">https://news.ycombinator.com/item?id=46698038</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "rmason",
+      "published_date": "2026-01-20T21:34:06+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-20T22:24:21.191094+00:00",
+      "updated_at": "2026-01-20T22:24:21.191105+00:00"
+    },
     {
       "id": "8d01e3478c407d4de839f6fef0db2612",
       "url": "https://iafisher.com/concordance/",
@@ -299,66 +347,6 @@
       "updated_at": "2026-01-20T20:40:37.727100+00:00",
       "metadata": {
         "processed_at": "2026-01-20T20:40:37.727102+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6716218ea43ad982450297e83c6285ae",
-      "url": "https://github.com/mastra-ai/mastra",
-      "title": "Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46693959\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-20T16:38:56+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-20T20:14:22.729652+00:00",
-      "updated_at": "2026-01-20T20:40:37.727105+00:00",
-      "metadata": {
-        "processed_at": "2026-01-20T20:40:37.727106+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6716218ea43ad982450297e83c6285ae",
-      "url": "https://github.com/mastra-ai/mastra",
-      "title": "Show HN: Mastra 1.0, open-source JavaScript agent framework from the Gatsby devs",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46693959\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-20T16:38:56+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-20T20:14:22.729652+00:00",
-      "updated_at": "2026-01-20T20:40:37.727105+00:00",
-      "metadata": {
-        "processed_at": "2026-01-20T20:40:37.727106+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a7877152ca21ba41ac0b346f3a3061db",
-      "url": "https://novalauncher.com/nova-is-here-to-stay",
-      "title": "Instabridge has acquired Nova Launcher",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46696357\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-20T19:06:56+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-20T20:14:22.729537+00:00",
-      "updated_at": "2026-01-20T20:40:37.727108+00:00",
-      "metadata": {
-        "processed_at": "2026-01-20T20:40:37.727110+00:00",
         "processing_method": "github_actions"
       }
     }
