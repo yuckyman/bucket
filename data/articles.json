@@ -1,5 +1,37 @@
 [
   {
+    "id": "3b6d4945098fec0dcab76af069f743f4",
+    "url": "http://doi.org/10.1037/drm0000319",
+    "title": "The Oneiric Circle and the Misioneros del Temporal in Morelos, Mexico.",
+    "content": "The Misioneros del Temporal is an agricultural community of \u201critual specialists\u201d located in the state of Morelos, Mexico. For this community, dream content serves as a bridge between individual experiences and collective life, linking the ecological environment with their cosmovision. Dreams function both as a means of communication with the divine and as tools for ritual action. This research is based on semistructured interviews, participation in rituals, and participant observation. Additionally, a domain analysis was conducted, with results presented that illustrate the relationship between the most common dreams, their meanings, and associated ritual actions. The study further describes the dynamics through which dreams are shared within the community. The findings suggest that dreams become public forms through their narration and gain meaning through the community\u2019s underlying cosmovision and collective validation. From a cognitive anthropology perspective, this study emphasizes the importance of analyzing the social, cultural, and ecological contexts in which these forms of knowledge emerge. It also highlights the need for dialogue with the individuals involved to better understand the processes of knowledge generation, transmission, and ritual action. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
+    "author": "",
+    "published_date": "2025-08-11T00:00:00+00:00",
+    "source": "Dreaming",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 187,
+    "reading_time": 1,
+    "created_at": "2026-01-20T11:46:45.537525+00:00",
+    "updated_at": "2026-01-20T11:46:45.537527+00:00"
+  },
+  {
+    "id": "cc575551f5500d328e18bb82f7d8f2e5",
+    "url": "https://www.reddit.com/r/Python/comments/1qh22sc/async_for_iobound_components_only/",
+    "title": "async for IO-bound components only?",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I have started developing a python app where I have employed the Clean Architecture.</p> <p>In the infrastructure layer I have implemented a thin Websocket wrapper class for the aiohttp and the communication with the server. Listening to the web socket will run indefinitely. If the connection breaks, it will reconnect. </p> <p>I've noticed that it is async.</p> <p>Does this mean I should make my whole code base (application and domain layers) async? Or is it possible (desirable) to contain the async code within the Websocket wrapper, but have the rest of the code base written in sync code? \u200b</p> <p>More info:</p> <p>The app is basically a client that listens to many high-frequency incoming messages via a web socket. Occasionally I will need to send a message back.</p> <p>The app will have a few responsibilities: listening to msgs and updating local cache, sending msgs to the web socket, sending REST requests to a separate endpoint, monitoring the whole process.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/expectationManager3\"> /u/expectationManager3 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qh22sc/async_for_iobound_components_only/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qh22sc/async_for_iobound_components_only/\">[comments]</a></span>",
+    "author": "/u/expectationManager3",
+    "published_date": "2026-01-19T11:47:50+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 180,
+    "reading_time": 1,
+    "created_at": "2026-01-20T11:46:40.589920+00:00",
+    "updated_at": "2026-01-20T11:46:40.589921+00:00"
+  },
+  {
     "id": "0f150e2fbd6dd55739e9f2a15d445ef1",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.699887v1?rss=1",
     "title": "Behavioral state-dependent norepinephrine dynamics in the primary somatosensory and prefrontal cortices during tactile detection tasks",
@@ -17262,37 +17294,5 @@
     "reading_time": 1,
     "created_at": "2026-01-15T09:51:59.931473+00:00",
     "updated_at": "2026-01-15T09:51:59.931475+00:00"
-  },
-  {
-    "id": "ce665d7dd92e5429875519aa49007a16",
-    "url": "http://doi.org/10.1037/drm0000318",
-    "title": "A study on the dreams of Miao and Han college students in Guizhou Province.",
-    "content": "The goal of this study attempts to explore the differences in attitude toward dreams and their possible cultural causes between Han (the majority ethnicity in China) and Miao ethnicity by comparing the dreams from these two groups. Both quantitative (Attitude Towards Dreams Scale and Typical Dream Questionnaire) and qualitative analysis of dream contents have been utilized to explore the dreams of Han and Miao college students in Guizhou Province, where the largest percentage of the Miao ethnic group in the world now resides. The results showed that: (a) There is a significant difference in the themes of typical dreams from Miao and Han college students, which is related to geographical and cultural factors. (b) Miao college students generally have richer dream contents, but a more peaceful attitude toward dreams; this is likely because they have more psychological resources; therefore, dreams are mostly viewed as only one of the channels for them to communicate with their ancestors and nature. Compared to their Han counterparts, Miao college students have more psychological resources because of their cultural identity. The Miao ethnic group\u2019s unique culture is ever present in their unconscious, allowing for more ordinary attitudes toward their dreams. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-    "author": "",
-    "published_date": "2025-08-04T00:00:00+00:00",
-    "source": "Dreaming",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 204,
-    "reading_time": 1,
-    "created_at": "2026-01-15T09:51:59.931436+00:00",
-    "updated_at": "2026-01-15T09:51:59.931437+00:00"
-  },
-  {
-    "id": "fe29090922ac85ebab441eefe64c5ad4",
-    "url": "http://doi.org/10.1037/drm0000314",
-    "title": "Cultural influences on dream: A comparative study of Tibetan and Han Chinese populations.",
-    "content": "This study sought to compare the dream experiences of Tibetan and Han Chinese populations by employing the Attitudes Toward Dreams Scale, Dream Intensity Scale, and Frequency of Dream Sharing Scale, with a focus on analyzing the influence of cultural differences on these dimensions. The sample comprised 311 Tibetan and 320 Han Chinese participants. The results revealed that Tibetans demonstrated more positive attitudes toward dreams, experienced dreams with greater intensity, and shared dreams more frequently than Han Chinese. Moreover, the attitudes of the Tibetans toward dreams were more indicative of dream intensity and the frequency of dream sharing compared to Han Chinese. Additionally, dream intensity completely mediated in the relationship between attitudes toward dreams and the frequency of dream sharing in both Tibetan and Han Chinese populations. The findings indicate that different cultural contexts demonstrate unique attitudes toward dreams, including variations in dream intensity and the frequency of dream sharing. The Tibetan population, closely intertwined with nature and characterized by a unified set of religious beliefs, such as Tibetan Buddhism, likely has heightened positive perceptions of dreams. This is reflected in their elevated attitudes toward dreams, increased dream intensity, and more frequent dream sharing, as well as a stronger interconnection among these dimensions. Conversely, the Han Chinese, characterized by their widespread distribution and diverse religious beliefs, tend to prioritize material reality over spiritual practices such as dreaming, especially in the context of rapid urban development. These findings shed light on the cultural influences on dreaming. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-    "author": "",
-    "published_date": "2025-06-02T00:00:00+00:00",
-    "source": "Dreaming",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 253,
-    "reading_time": 1,
-    "created_at": "2026-01-15T09:51:59.931401+00:00",
-    "updated_at": "2026-01-15T09:51:59.931402+00:00"
   }
 ]
