@@ -1,5 +1,21 @@
 [
   {
+    "id": "da17c67d4556aaef27f7c5fbbe3ef253",
+    "url": "https://github.com/soegaard/webracket",
+    "title": "The WebRacket language is a subset of Racket that compiles to WebAssembly",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46662247\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-17T21:23:58+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-21T20:32:37.442725+00:00",
+    "updated_at": "2026-01-21T20:32:37.442727+00:00"
+  },
+  {
     "id": "4ac0af26d84d62380a67bc3b902d9c96",
     "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2521872123?af=R",
     "title": "Microvascular architecture and physiological fluctuations constrain the control of cerebral microcirculation",
@@ -17230,21 +17246,5 @@
     "reading_time": 1,
     "created_at": "2026-01-16T23:22:07.421968+00:00",
     "updated_at": "2026-01-16T23:22:07.421973+00:00"
-  },
-  {
-    "id": "d3d24863d92b2b295c75e5791838414d",
-    "url": "https://www.reddit.com/r/Python/comments/1qdzt0o/zerosetup_python_execution_with_pyodide/",
-    "title": "Zero-setup Python execution with Pyodide (client-side) and Binder execution environments",
-    "content": "<!-- SC_OFF --><div class=\"md\"><h3>What My Project Does</h3> <p>This project showcases the <strong>intentional use and combination of open-source Python execution environments</strong> to reduce setup friction while preserving real, interactive Python workflows.</p> <p>It uses: - <strong>Client-side Pyodide</strong> for instant, zero-install Python execution in the browser<br /> - <strong>JupyterLite</strong> for lightweight, notebook-style workflows using base Python<br /> - <strong>Binder-backed Jupyter environments</strong> for notebooks that require packages, datasets, or more compute<br /> - <strong>A full GitHub repository</strong> for users who prefer running everything locally </p> <p>Each execution environment is used <strong>by design</strong> in the sections where it best balances: - startup time<br /> - available compute<br /> - dependency needs<br /> - data size<br /> - interactivity </p> <p>The focus is on letting users run real Python immediately, without local setup or accounts, while still supporting more realistic workflows when needed.</p> <hr /> <h3>Target Audience</h3> <p>The project is aimed at: - learners who want to experiment with Python without installing or configuring environments<br /> - instructors or mentors who frequently run into setup and onboarding friction<br /> - developers interested in Pyodide, Binder, JupyterLite, or execution-model tradeoffs </p> <p>It is not a new execution engine or hosted compute service, but a <strong>practical demonstration of how existing open-source tools can be combined and used appropriately</strong> to minimize friction while maintaining developer control.</p> <hr /> <h3>Comparison</h3> <p>This project is best understood in relation to common approaches rather than as a replacement for any single tool:</p> <ul> <li><strong>Compared to static code tutorials (text or images)</strong>, all examples are executable, encouraging experimentation rather than passive reading.</li> <li><strong>Compared to cloud notebook platforms (e.g., Colab)</strong>, it avoids accounts, tracking, and persistent environments by using client-side execution where possible and ephemeral environments when packages are required.</li> <li><strong>Compared to standalone GitHub repositories</strong>, it lowers the barrier to entry for users who are not yet comfortable managing local Python environments, while still offering a full repo for those who are.</li> </ul> <p>Rather than introducing a new platform, the project demonstrates how <strong>Pyodide, JupyterLite, Binder, and local environments can be used together</strong>, each where it makes sense, to reduce friction without hiding important tradeoffs.</p> <hr /> <p><a href=\"https://pixelprocess.org\">Website</a></p> <p><a href=\"https://github.com/pixel-process-dev/pixel-process\">Source Code</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pixel-process\"> /u/pixel-process </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qdzt0o/zerosetup_python_execution_with_pyodide/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qdzt0o/zerosetup_python_execution_with_pyodide/\">[comments]</a></span>",
-    "author": "/u/pixel-process",
-    "published_date": "2026-01-15T23:41:02+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 375,
-    "reading_time": 1,
-    "created_at": "2026-01-16T23:21:31.867220+00:00",
-    "updated_at": "2026-01-16T23:21:31.867222+00:00"
   }
 ]
