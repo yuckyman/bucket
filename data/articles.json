@@ -1,5 +1,85 @@
 [
   {
+    "id": "549277f215050c05c36f624c1c9043d0",
+    "url": "https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/",
+    "title": "Spotify won court order against Anna's Archive, taking down .org domain",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46711380\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-21T20:52:00+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-21T22:54:01.853687+00:00",
+    "updated_at": "2026-01-21T22:54:01.853690+00:00"
+  },
+  {
+    "id": "6bbf98fefc722c151ff2e097c4836de1",
+    "url": "https://www.kenkoonwong.com/blog/parallel-computing/",
+    "title": "Setting Up a Cluster of Tiny PCs for Parallel Computing",
+    "content": "<p>Article URL: <a href=\"https://www.kenkoonwong.com/blog/parallel-computing/\">https://www.kenkoonwong.com/blog/parallel-computing/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46710042\">https://news.ycombinator.com/item?id=46710042</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
+    "author": "speckx",
+    "published_date": "2026-01-21T19:08:37+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-21T22:54:00.753184+00:00",
+    "updated_at": "2026-01-21T22:54:00.753186+00:00"
+  },
+  {
+    "id": "549277f215050c05c36f624c1c9043d0",
+    "url": "https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/",
+    "title": "Spotify won court order against Anna's Archive, taking down .org domain",
+    "content": "<p>Article URL: <a href=\"https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/\">https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46711380\">https://news.ycombinator.com/item?id=46711380</a></p>\n<p>Points: 66</p>\n<p># Comments: 29</p>",
+    "author": "voxadam",
+    "published_date": "2026-01-21T20:52:00+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-21T22:54:00.753139+00:00",
+    "updated_at": "2026-01-21T22:54:00.753141+00:00"
+  },
+  {
+    "id": "740019a6cf761fbed2f3bff960dd4e89",
+    "url": "https://deadneurons.substack.com/p/what-if-ai-is-both-really-good-and",
+    "title": "What if AI is both good and not that disruptive?",
+    "content": "<p>Article URL: <a href=\"https://deadneurons.substack.com/p/what-if-ai-is-both-really-good-and\">https://deadneurons.substack.com/p/what-if-ai-is-both-really-good-and</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46711615\">https://news.ycombinator.com/item?id=46711615</a></p>\n<p>Points: 18</p>\n<p># Comments: 22</p>",
+    "author": "nr378",
+    "published_date": "2026-01-21T21:11:29+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-21T22:54:00.753100+00:00",
+    "updated_at": "2026-01-21T22:54:00.753101+00:00"
+  },
+  {
+    "id": "dd06a363b13384b743cd560d56e20ca2",
+    "url": "https://github.com/TonyStef/Grov",
+    "title": "Show HN: Grov \u2013 Multiplayer for AI coding agents",
+    "content": "<p>Hi HN, I'm Tony.<p>I built Grov (<a href=\"https://grov.dev/\" rel=\"nofollow\">https://grov.dev/</a>) because I hit a wall with current AI coding assistants: they are \"single-player.\" The moment I kill a terminal pane or close a chat session, the high-level reasoning and architectural decisions generated during that session are lost. If a teammate touches that same code an hour later, their agent has to re-derive everything from scratch or read many documentation files for basically any feature implemented or bug fixed.<p>I wanted to stop writing a lot of docs for everything just to give context to my agents or have to re-explain to my agents what my teammate did and why.<p>Grov is an open-source context layer that effectively gives your team's AI agents a shared, persistent memory.<p>Here is the technical approach:<p>1. Decision-grain memory, not document storage: When you sync a memory, Grov structures knowledge at the decision level. We capture the specific aspect (e.g., \"Auth Strategy\"), the choice made (\"JWT\"), and the reasoning (\"Stateless for scaling\"). Crucially, when your codebase evolves, we don't overwrite memories, we mark old decisions as superseded and link them to the new choice. This gives your team an audit trail of architectural evolution, not just the current snapshot.<p>2. Git-like branches for memories: Teams experimenting with different approaches can create memory branches. Memories on a feature branch stay isolated until you are ready to merge. Access control mirrors Git: main is team-wide, while feature branches keep noise isolated. When you merge the branch, those accumulated insights become instantly available to everyone's agents.<p>3. Two-stage injection (Token Optimization): The expensive part of shared memory isn't storage it's the context window. Loading 10 irrelevant memories wastes tokens and confuses the model. Grov uses a \"Preview \u2192 Expand\" strategy:\n Preview: A hybrid semantic/keyword search returns lightweight memory summaries (~100 tokens). \n Expand: The full reasoning traces (~500-1k tokens) are only injected if the agent explicitly requests more detail. This typically results in a 50-70% token reduction per session compared to raw context dumping.<p>The result: Your teammate's agent doesn't waste 5 minutes re-exploring why you chose Postgres over Redis, or re-reading auth middleware. It just knows, because your agent already figured it out and shared it.<p>Github: <a href=\"https://github.com/TonyStef/Grov\" rel=\"nofollow\">https://github.com/TonyStef/Grov</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46711958\">https://news.ycombinator.com/item?id=46711958</a></p>\n<p>Points: 12</p>\n<p># Comments: 6</p>",
+    "author": "tonyystef",
+    "published_date": "2026-01-21T21:40:48+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 374,
+    "reading_time": 1,
+    "created_at": "2026-01-21T22:54:00.753019+00:00",
+    "updated_at": "2026-01-21T22:54:00.753026+00:00"
+  },
+  {
     "id": "c0dc1b91649f4aca71ea24031df3bb67",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.19.700243v1?rss=1",
     "title": "Tonically active interneurons gate motor output in Drosophila larvae",
@@ -17128,106 +17208,6 @@
     "updated_at": "2026-01-17T04:28:52.947943+00:00",
     "metadata": {
       "processed_at": "2026-01-17T04:28:52.947952+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "0995db29d55bf47eb7832ab9c717a074",
-    "url": "https://www.bloomberg.com/graphics/2026-college-enrollment-cliff/",
-    "title": "Plunging US Birth Rate Leaves Too Many Colleges with Too Few Kids",
-    "content": "<p>Article URL: <a href=\"https://www.bloomberg.com/graphics/2026-college-enrollment-cliff/\">https://www.bloomberg.com/graphics/2026-college-enrollment-cliff/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46654728\">https://news.ycombinator.com/item?id=46654728</a></p>\n<p>Points: 27</p>\n<p># Comments: 9</p>",
-    "author": "toomuchtodo",
-    "published_date": "2026-01-17T02:30:28+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-01-17T04:07:30.709560+00:00",
-    "updated_at": "2026-01-17T04:28:52.947957+00:00",
-    "metadata": {
-      "processed_at": "2026-01-17T04:28:52.947959+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "bdc6897b3eb3dcdf14a6ec3bf14d3fe0",
-    "url": "https://bvisness.me/high-level/",
-    "title": "High-Level Is the Goal",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46630816\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-15T11:01:34+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-17T03:23:45.975729+00:00",
-    "updated_at": "2026-01-17T04:28:52.947961+00:00",
-    "metadata": {
-      "processed_at": "2026-01-17T04:28:52.947963+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "0e2e8192ca184757efcf9e1e2225896e",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.15.699393v1?rss=1",
-    "title": "Direction-dependent bias in the perceived approach speed and its implications for robot motion design",
-    "content": "Humans frequently interact with robots that approach from different directions; however, how the approach direction systematically biases the perceived speed remains unclear. Here, we demonstrate a robust direction-dependent bias in the perceived approach speed, whereby objects approaching from behind are consistently perceived as moving faster than those approaching from the front are. Across five experiments using both physical robots and immersive virtual reality, this bias manifests as a systematic shift in the point of subjective equality without corresponding changes in discrimination sensitivity, indicating a perceptual bias rather than altered precision. We further show that this effect can be explained by body-induced differences in interocular velocity that arise when observers orient themselves toward stimuli approaching from behind. This bias persists in virtual environments and for nonrobotic objects, suggesting that it is driven primarily by visual factors rather than multisensory cues or robot-specific appearance. Together, these findings provide a perceptual foundation for incorporating approach direction into the design and evaluation of the motion behavior of robots in human-centered environments.",
-    "author": "Yamauchi, T., Tamura, H., Minami, T., Nakauchi, S.",
-    "published_date": "2026-01-16T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 167,
-    "reading_time": 1,
-    "created_at": "2026-01-17T01:45:16.855578+00:00",
-    "updated_at": "2026-01-17T03:18:59.648650+00:00",
-    "metadata": {
-      "processed_at": "2026-01-17T03:18:59.648661+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "f019212c84ce145489e30ac3b28f542d",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.699854v1?rss=1",
-    "title": "Differential TDP-43 interactomes between the cortex and cerebellum in the mouse",
-    "content": "TAR DNA binding protein 43 (TDP-43) is the core pathogenic protein across a spectrum of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) cases, but its pathological deposition shows regional selectivity, with abundant TDP-43 positive aggregates in the frontal cortex and spinal cord, and a much lower burden in the cerebellum. In health, TDP-43 expression in the cerebellum is higher than in cortex, hence what underpins this differential vulnerability to TDP-43 aggregation is unclear. Here we demonstrate that in healthy C57Bl/6J mice not only is TDP-43 expression higher in the cerebellum than the cortex, but that this expression difference is driven primarily by differences in cytoplasmic load. Mass spectrometry analysis of TDP-43 pull downs from the cortex and cerebellum of healthy mice identified TDP-43 interactors across a number of core functional pathways, with numerous differences between the two brain regions. Data are available via ProteomeXchange with identifier PXD062532. Notably, there were more interactors identified in both nuclear and cytoplasmic fractions within the cortex than the cerebellum. Putative interactions with four core paraspeckle proteins; SFPQ, NONO, FUS and PSPC1 were confirmed using immunoprecipitation and western blot analysis. Follow up validation using proximity ligation assay showed abundant perinuclear cytoplasmic interactions between TDP-43 and all four paraspeckle proteins in both large motor cortex neurons and purkinje cells, with significantly reduced nuclear interactions detected in the motor cortex for SFPQ, FUS and PSPC1. These findings suggest that TDP-43-protein interactions markedly differ between the TDP-43 pathogenesis vulnerable cortex and relatively resistant cerebellum and exploring these differences may yield new insight into disease mechanisms within ALS/FTD.",
-    "author": "Baldacchino, T., Lynham, S., Tacconelli, S., Vance, C., Mitchell, J. C.",
-    "published_date": "2026-01-16T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 260,
-    "reading_time": 1,
-    "created_at": "2026-01-17T01:45:16.855546+00:00",
-    "updated_at": "2026-01-17T03:18:59.648666+00:00",
-    "metadata": {
-      "processed_at": "2026-01-17T03:18:59.648668+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "b1fbe3e18679a9e729ca6cfda217bc80",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.15.699612v1?rss=1",
-    "title": "Simultaneous Real-time Imaging of Neurofluid and Neurovascular Dynamics Using Ultrafast Flow-weighted Echo-Planar Imaging",
-    "content": "Cerebrospinal fluid (CSF) circulation is tightly coupled to cerebral blood flow under the fixed-volume constraint of the cranial vault, with cardiac pulsations and respiration acting as dominant physiological drivers. Disruption of these flow dynamics has been implicated in various neurological disorders, motivating the need for imaging methods that capture CSF and vascular flow simultaneously and in real time. Conventional phase contrast MRI (PC-MRI) provides quantitative CSF velocity measurements but relies on cardiac gating and velocity encoding, which limit temporal resolution, dynamic range, and sensitivity to non-cardiac fluctuations. Here, we introduce self-gated ultrafast real-time flow-weighted echo-planar imaging (SURF-EPI), an inflow-weighted approach in which signal intensity reflects the replacement of saturated spins by freshly inflowing, unsaturated water molecules, yielding higher signal with higher flow. This allows simultaneous assessment of arterial inflow, venous outflow, and CSF motion at high temporal resolution. SURF-EPI was acquired at the C2-C3 spinal level, enabling real-time imaging of CSF flow dynamics in the cervical spinal canal alongside arterial and venous blood flow in major cervical vessels (frame-rate: 21.7 Hz). In addition to frequency-domain analyses, we leveraged intrinsic arterial signal fluctuations as a timing reference to reconstruct cardiac-resolved CSF dynamics for individual cardiac cycles without external physiological recordings. Frequency-domain analysis revealed distinct spectral signatures in CSF flow compared with neurovascular flow, including broadened cardiac peaks and enhanced respiratory modulation, particularly within the ventral spinal canal. In contrast, dorsal CSF showed increased power within the cardiac frequency band, higher coherence with cervical vasculature at the cardiac frequency, and reduced non-cardiac contributions. Time-domain analysis showed strong correlation between CSF flow waveforms derived from SURF-EPI and PC-MRI. Beyond ensemble-averaged waveforms, SURF-EPI enabled beat-to-beat analysis, revealing substantial cycle-to-cycle variability in CSF flow that is not captured by time-averaged gated approaches. Together, these findings establish SURF-EPI as a rapid, complementary framework to PC-MRI, enabling real-time neurofluid imaging with integrated time- and frequency-domain characterization of CSF and neurovascular flow dynamics.",
-    "author": "Shaker, A. H., Arani, A. H. G., Martin, B. A., Sotiras, A., Eldeniz, C., Shimony, J. S., Limbrick, D. D., Strahle, J. M., Nazeri, A.",
-    "published_date": "2026-01-16T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 315,
-    "reading_time": 1,
-    "created_at": "2026-01-17T01:45:16.855507+00:00",
-    "updated_at": "2026-01-17T03:18:59.648670+00:00",
-    "metadata": {
-      "processed_at": "2026-01-17T03:18:59.648672+00:00",
       "processing_method": "github_actions"
     }
   }
