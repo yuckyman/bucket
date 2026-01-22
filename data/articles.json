@@ -1,5 +1,37 @@
 [
   {
+    "id": "472c12aa9d90e6853562703f9b34a3eb",
+    "url": "https://eieio.games/blog/ssh-sends-100-packets-per-keystroke/",
+    "title": "Why does SSH send 100 packets per keystroke?",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46723990\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-22T19:27:32+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-22T19:45:43.256867+00:00",
+    "updated_at": "2026-01-22T19:45:43.256869+00:00"
+  },
+  {
+    "id": "472c12aa9d90e6853562703f9b34a3eb",
+    "url": "https://eieio.games/blog/ssh-sends-100-packets-per-keystroke/",
+    "title": "Why does SSH send 100 packets per keystroke?",
+    "content": "<p>Article URL: <a href=\"https://eieio.games/blog/ssh-sends-100-packets-per-keystroke/\">https://eieio.games/blog/ssh-sends-100-packets-per-keystroke/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46723990\">https://news.ycombinator.com/item?id=46723990</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+    "author": "eieio",
+    "published_date": "2026-01-22T19:27:32+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-22T19:45:41.903199+00:00",
+    "updated_at": "2026-01-22T19:45:41.903212+00:00"
+  },
+  {
     "id": "b26e6dbeee956b052383041a77349c4c",
     "url": "https://www.nature.com/articles/s41467-026-68704-w",
     "title": "Hierarchical maturation of structural brain connectomes from birth to childhood",
@@ -17042,37 +17074,5 @@
     "reading_time": 1,
     "created_at": "2026-01-18T13:29:35.513512+00:00",
     "updated_at": "2026-01-18T13:29:35.513513+00:00"
-  },
-  {
-    "id": "cbc7f4e4bc2fc5ab12f8ce49bc8a699b",
-    "url": "https://github.com/dannote/figma-use",
-    "title": "Show HN: Figma-use \u2013 CLI to control Figma for AI agents",
-    "content": "<p>I'm Dan, and I built a CLI that lets AI agents design in Figma.<p>What it does: 100 commands to create shapes, text, frames, components, modify styles, export assets. JSX importing that's ~100x faster than any plugin API import. Works with any LLM coding assistant.<p>Why I built it: The official Figma MCP server can only read files. I wanted AI to actually design \u2014 create buttons, build layouts, generate entire component systems. Existing solutions were either read-only or required verbose JSON schemas that burn through tokens.<p>Demo (45 sec): <a href=\"https://youtu.be/9eSYVZRle7o\" rel=\"nofollow\">https://youtu.be/9eSYVZRle7o</a><p>Tech stack: Bun + Citty for CLI, Elysia WebSocket proxy, Figma plugin. The render command connects to Figma's internal multiplayer protocol via Chrome DevTools for extra performance when dealing with large groups of objects.<p>Try it: bun install -g @dannote/figma-use<p>Looking for feedback on CLI ergonomics, missing commands, and whether the JSX syntax feels natural.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46665169\">https://news.ycombinator.com/item?id=46665169</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
-    "author": "dannote",
-    "published_date": "2026-01-18T05:55:48+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 153,
-    "reading_time": 1,
-    "created_at": "2026-01-18T13:29:34.383006+00:00",
-    "updated_at": "2026-01-18T13:29:34.383007+00:00"
-  },
-  {
-    "id": "c5415f0fc32bcac999919d09365f5f40",
-    "url": "https://lwn.net/SubscriberLink/1053099/19c2e8180aeb0438/",
-    "title": "A free and open-source rootkit for Linux",
-    "content": "<p>Article URL: <a href=\"https://lwn.net/SubscriberLink/1053099/19c2e8180aeb0438/\">https://lwn.net/SubscriberLink/1053099/19c2e8180aeb0438/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46666288\">https://news.ycombinator.com/item?id=46666288</a></p>\n<p>Points: 9</p>\n<p># Comments: 1</p>",
-    "author": "jwilk",
-    "published_date": "2026-01-18T09:36:25+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-01-18T13:29:34.382847+00:00",
-    "updated_at": "2026-01-18T13:29:34.382849+00:00"
   }
 ]
