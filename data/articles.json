@@ -1,5 +1,21 @@
 [
   {
+    "id": "32e4724cb9f421c03fa650bce1d4a5c0",
+    "url": "https://www.docker.com/blog/fips-dependencies-and-prebuilt-binaries/",
+    "title": "FIPS Dependencies and Prebuilt Binaries",
+    "content": "<p>Author here. This came out of debugging a real Rails app running in a FIPS enabled container.<p>Everything looked correct. OpenSSL 3 with the FIPS provider enabled. Ruby built against it. A simple pg connection worked.<p>The app failed once ActiveRecord was involved. The error came from libpq. It turned out the pg gem had pulled in a prebuilt native dependency that was linked against different crypto. That path was always there. It just was not exercised until ActiveRecord hit it.<p>Forcing a source build fixed the issue because the extension then linked against the OpenSSL in the image.<p>The takeaway is that a FIPS base image does not mean your dependency graph respects the same boundary once native code is involved.<p>Curious how others have seen this play out in Ruby, Python wheels, Go with CGO, or Node native addons.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46726259\">https://news.ycombinator.com/item?id=46726259</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+    "author": "LaurentGoderre",
+    "published_date": "2026-01-22T23:04:25+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 147,
+    "reading_time": 1,
+    "created_at": "2026-01-22T23:44:00.710124+00:00",
+    "updated_at": "2026-01-22T23:44:00.710131+00:00"
+  },
+  {
     "id": "cde406ac8952f875b5f418eb05338fb0",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.19.700132v1?rss=1",
     "title": "Cryo-EM structure of pro-aggregant P301L/S320F double-mutant tau filaments formed in mouse brains following peripheral AAV delivery",
@@ -17034,21 +17050,5 @@
     "reading_time": 1,
     "created_at": "2026-01-18T18:52:17.895529+00:00",
     "updated_at": "2026-01-18T18:52:17.895531+00:00"
-  },
-  {
-    "id": "44675f75cb736188c69d19fa30921a30",
-    "url": "https://httpcolon.dev/",
-    "title": "Show HN: HTTP:COLON \u2013 A quick HTTP header/directive inspector and reference",
-    "content": "<p>Hi HN -- I built HTTP:COLON, a small, open-source web tool for quickly checking a site\u2019s HTTP response headers and learning what they mean as you go.<p>Link: <a href=\"https://httpcolon.dev/\" rel=\"nofollow\">https://httpcolon.dev/</a><p>What it does<p>- Enter a URL and fetch its response headers<p>- Groups common headers into handy buckets (cache, content, security)<p>- Includes short docs/tooltips for headers and directives so you can look things up while debugging. I find hovering on highlighted headers quite useful!<p>Supports different HTTP methods (GET/POST/PUT/DELETE)<p>Deep links<p>- You can link directly to a host, e.g. <a href=\"https://httpcolon.dev/www.google.com\" rel=\"nofollow\">https://httpcolon.dev/www.google.com</a><p>(or any domain) to jump straight into inspecting it.<p>Why I made it<p>- I kept bouncing between DevTools, MDN, and random blog posts while debugging caching + security headers. I wanted one place that\u2019s quick for \u201cwhat am I getting back?\u201d and \u201cwhat does this header/directive do?\u201d<p>It\u2019s in beta, and I\u2019d love feedback on:<p>- Missing features you\u2019d want for day-to-day debugging (export/share formats, comparisons, presets, etc.)<p>Thanks!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46670290\">https://news.ycombinator.com/item?id=46670290</a></p>\n<p>Points: 3</p>\n<p># Comments: 2</p>",
-    "author": "ultimoo",
-    "published_date": "2026-01-18T18:03:03+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 163,
-    "reading_time": 1,
-    "created_at": "2026-01-18T18:52:17.895508+00:00",
-    "updated_at": "2026-01-18T18:52:17.895510+00:00"
   }
 ]

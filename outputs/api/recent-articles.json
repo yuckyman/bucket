@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-22T23:23:39.688984+00:00",
+  "last_updated": "2026-01-22T23:45:09.187484+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "32e4724cb9f421c03fa650bce1d4a5c0",
+      "url": "https://www.docker.com/blog/fips-dependencies-and-prebuilt-binaries/",
+      "title": "FIPS Dependencies and Prebuilt Binaries",
+      "content": "<p>Author here. This came out of debugging a real Rails app running in a FIPS enabled container.<p>Everything looked correct. OpenSSL 3 with the FIPS provider enabled. Ruby built against it. A simple pg connection worked.<p>The app failed once ActiveRecord was involved. The error came from libpq. It turned out the pg gem had pulled in a prebuilt native dependency that was linked against different crypto. That path was always there. It just was not exercised until ActiveRecord hit it.<p>Forcing a source build fixed the issue because the extension then linked against the OpenSSL in the image.<p>The takeaway is that a FIPS base image does not mean your dependency graph respects the same boundary once native code is involved.<p>Curious how others have seen this play out in Ruby, Python wheels, Go with CGO, or Node native addons.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46726259\">https://news.ycombinator.com/item?id=46726259</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "author": "LaurentGoderre",
+      "published_date": "2026-01-22T23:04:25+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 147,
+      "reading_time": 1,
+      "created_at": "2026-01-22T23:44:00.710124+00:00",
+      "updated_at": "2026-01-22T23:44:00.710131+00:00"
+    },
     {
       "id": "cde406ac8952f875b5f418eb05338fb0",
       "url": "https://www.biorxiv.org/content/10.64898/2026.01.19.700132v1?rss=1",
@@ -305,22 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-01-22T22:25:27.505096+00:00",
       "updated_at": "2026-01-22T22:25:27.505098+00:00"
-    },
-    {
-      "id": "6dfeae7135c328b33c4db808c45f4f2b",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.19.700256v1?rss=1",
-      "title": "Reinforced Hippocampus-Accumbens pathway marks a shift towards cognitive decline in aging",
-      "content": "Aging triggers early functional alterations in brain circuits that precede cognitive impairment, yet the underlying mechanisms remain unclear. Spatial navigation and memory, among the earliest affected, depend on hippocampus and downstream targets such as the nucleus accumbens (NAc), which integrates spatial and motivational information to guide goal directed behaviors. Here we identify age-related, sex-dependent changes of the dorsal hippocampus - NAc (dHPC - NAc) pathway. Combining optogenetics with electrophysiology, chemogenetics, and behavioral analyses in mice, we show that aging shifts excitation - inhibition balance in dorsal CA1 toward pyramidal neuron hyperexcitability, strengthening hippocampal outputs. This selectively enhances synaptic drive onto D1 receptor-expressing medium spiny neurons and involves a previously unrecognized long-range parvalbumin-expressing glutamatergic projection. Reducing dHPC-NAc excitability improves memory in aged mice. In humans, fMRI reveals heightened posterior hippocampal activity and stronger pHPC-NAc coupling during navigation. Together, we uncover a targetable pathway acting in an intervention-sensitive window of aging to correct negative cognitive trajectories.",
-      "author": "Ribera, A., Fernandes-Dias, B., Yugay, L., Deneuville, E., Dias-Silva, M., Violain, M., Bouet, T., Bethus, I., Lopes, L. V., Vanhoutte, P., Ramanoel, S., Barik, J., Pousinha, P. A.",
-      "published_date": "2026-01-22T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 154,
-      "reading_time": 1,
-      "created_at": "2026-01-22T22:25:27.505043+00:00",
-      "updated_at": "2026-01-22T22:25:27.505048+00:00"
     }
   ]
 }
