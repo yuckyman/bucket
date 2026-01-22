@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-01-22T17:31:15.988614+00:00",
+  "last_updated": "2026-01-22T17:58:31.769436+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d510ec01eb293e89bb3e572a62270513",
+      "url": "https://www.reddit.com/r/Python/comments/1qjk4ip/python_packaging_library_directory_structure_when/",
+      "title": "Python Packaging - Library - Directory structure when using uv or src approach",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I wanted some thoughts on this, as I haven't found an official answer. I'm trying to get familiar with using the default structures that 'uv init' provides with it's --lib/--package/--app flags.</p> <p>The most relevant official documentation I can find is the following, with respect to creating a --lib (library):<br /> <a href=\"https://docs.astral.sh/uv/concepts/projects/workspaces/#workspace-layouts\">https://docs.astral.sh/uv/concepts/projects/workspaces/#workspace-layouts</a></p> <p>Assuming you are making a library (libroot) with two sub-packages (pkg1, pkg2) each with a respective module (modulea.py and moduleb.py). There are two approaches, I'm curious which people feel makes the most sense and why?</p> <p>Approach 1 is essentially what is outlined in the link above, but you have to make the 'libroot\\packages' sub dir manually, it's not as though uv does that automatically.</p> <p>Approach 2 is more in keeping with my understanding of how one is meant to structure sub-packages when using the src directory structure for packaging, but maybe I have misunderstood the convention?</p> <p><strong>APPROACH 1:</strong></p> <pre><code>\u2514\u2500\u2500\u2500libroot \u2502 .gitignore \u2502 .python-version \u2502 pyproject.toml \u2502 README.md \u2502 \u251c\u2500\u2500\u2500packages \u2502 \u251c\u2500\u2500\u2500pkg1 \u2502 \u2502 \u2502 pyproject.toml \u2502 \u2502 \u2502 README.md \u2502 \u2502 \u2502 \u2502 \u2502 \u2514\u2500\u2500\u2500src \u2502 \u2502 \u2514\u2500\u2500\u2500pkg1 \u2502 \u2502 modulea.py \u2502 \u2502 __init__.py \u2502 \u2502 \u2502 \u2514\u2500\u2500\u2500pkg2 \u2502 \u2502 pyproject.toml \u2502 \u2502 README.md \u2502 \u2502 \u2502 \u2514\u2500\u2500\u2500src \u2502 \u2514\u2500\u2500\u2500pkg2 \u2502 moduleb.py \u2502 __init__.py \u2502 \u2514\u2500\u2500\u2500src \u2514\u2500\u2500\u2500libroot py.typed __init__.py </code></pre> <p><strong>APPROACH 2:</strong></p> <pre><code>\u2514\u2500\u2500\u2500libroot \u2502 .gitignore \u2502 .python-version \u2502 pyproject.toml \u2502 README.md \u2502 \u2514\u2500\u2500\u2500src \u2514\u2500\u2500\u2500libroot \u2502 py.typed \u2502 __init__.py \u2502 \u251c\u2500\u2500\u2500pkg1 \u2502 \u2502 pyproject.toml \u2502 \u2502 README.md \u2502 \u2502 \u2502 \u2514\u2500\u2500\u2500src \u2502 \u2514\u2500\u2500\u2500pkg1 \u2502 modulea.py \u2502 __init__.py \u2502 \u2514\u2500\u2500\u2500pkg2 \u2502 pyproject.toml \u2502 README.md \u2502 \u2514\u2500\u2500\u2500src \u2514\u2500\u2500\u2500pkg2 moduleb.py __init__.py </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/LazyLichen\"> /u/LazyLichen </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qjk4ip/python_packaging_library_directory_structure_when/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qjk4ip/python_packaging_library_directory_structure_when/\">[comments]</a></span>",
+      "author": "/u/LazyLichen",
+      "published_date": "2026-01-22T03:56:33+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 281,
+      "reading_time": 1,
+      "created_at": "2026-01-22T17:57:21.217176+00:00",
+      "updated_at": "2026-01-22T17:57:21.217178+00:00"
+    },
+    {
+      "id": "ec6f0531d1c205d0ee967b0a766b1b64",
+      "url": "https://alvaromontoro.com/blog/68091/css-optical-illusions",
+      "title": "CSS Optical Illusions",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46722570\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-22T17:41:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-22T17:57:19.858659+00:00",
+      "updated_at": "2026-01-22T17:57:19.858661+00:00"
+    },
+    {
+      "id": "ec6f0531d1c205d0ee967b0a766b1b64",
+      "url": "https://alvaromontoro.com/blog/68091/css-optical-illusions",
+      "title": "CSS Optical Illusions",
+      "content": "<p>Article URL: <a href=\"https://alvaromontoro.com/blog/68091/css-optical-illusions\">https://alvaromontoro.com/blog/68091/css-optical-illusions</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46722570\">https://news.ycombinator.com/item?id=46722570</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "ulrischa",
+      "published_date": "2026-01-22T17:41:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-22T17:57:18.522124+00:00",
+      "updated_at": "2026-01-22T17:57:18.522147+00:00"
+    },
     {
       "id": "c5df907383dc5077b3c790401b6c5762",
       "url": "https://fmhy.net/posts/dec-2025",
@@ -273,62 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-01-22T16:37:10.500254+00:00",
       "updated_at": "2026-01-22T16:37:10.500256+00:00"
-    },
-    {
-      "id": "9dc8a61586b3df81338851a62437e591",
-      "url": "https://www.thecanary.co/uk/news/2026/01/22/zack-polanski-to-hand-in-nhs-contract-termination-notice-to-palantir/",
-      "title": "Zack Polanski to hand in NHS contract termination notice to Palantir",
-      "content": "<p>Article URL: <a href=\"https://www.thecanary.co/uk/news/2026/01/22/zack-polanski-to-hand-in-nhs-contract-termination-notice-to-palantir/\">https://www.thecanary.co/uk/news/2026/01/22/zack-polanski-to-hand-in-nhs-contract-termination-notice-to-palantir/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46721220\">https://news.ycombinator.com/item?id=46721220</a></p>\n<p>Points: 13</p>\n<p># Comments: 3</p>",
-      "author": "robtherobber",
-      "published_date": "2026-01-22T16:13:16+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-22T16:37:10.500223+00:00",
-      "updated_at": "2026-01-22T16:37:10.500232+00:00"
-    },
-    {
-      "id": "3520e7680e2c552654898c0d90daf5a2",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.699955v1?rss=1",
-      "title": "A fast and simple algorithm for accurate spike detection in HD-MEA recordings",
-      "content": "Background: High density microelectrode arrays provide a strong platform to study individual neuronal activity and neuronal network dynamics. However, the analysis of high volume and complex data present several challenges. Common spike detection methods based on Root-Mean-Square (RMS) threshold crossing underestimate the number of spikes during neuronal bursting, which frequently occurs in neuronal cultures. In addition, the detection of action potentials by multiple electrodes makes spikes sorting a computationally expensive task. New Method: We optimized a previously described detection method, based on the scaled median of absolute deviations (MED) that is more accurate during high rates of neuronal firing. In addition, we added a step to de-duplicate (DP) spikes recorded on multiple electrodes, which enhanced the accuracy of MED. The combined method of detection and de-duplication (DP-MED) is less computationally expensive and easier to implement than popular sorting alternatives like Kilosort-4. Results and Conclusions: During burst periods, the MED-based method detected over half of spikes that were undetected by the RMS-based method. To evaluate the performance of DP-MED, we simulated data that emulates neuronal activity recorded with HD-MEA. Across increasing firing rates, DP-MED shows more precision than Kilosort-4 but is slightly less accurate. After inducing high firing rate in cortical cultures with pharmacological stimulation, DP-MED detected a similar number of spikes than Kilosort-4, however, the analysis in Kilosort-4 was 40-fold more time-consuming. These results highlight the effectiveness of the DP-MED method in the context of drug screening using HD-MEAs.",
-      "author": "Zegers Delgado, J. A., Renegar, N., Pathirage, K., Horiuchi, T. K., Abshire, P. A., Araneda, R. C.",
-      "published_date": "2026-01-22T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 239,
-      "reading_time": 1,
-      "created_at": "2026-01-22T15:33:12.059394+00:00",
-      "updated_at": "2026-01-22T16:28:35.479462+00:00",
-      "metadata": {
-        "processed_at": "2026-01-22T16:28:35.479471+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8a6f0c2578a1e7202005f3ab172c6a76",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.19.700348v1?rss=1",
-      "title": "A neuronal pathway for the supraspinal relay of warm and cool sensation",
-      "content": "Cutaneous thermosensation is a fundamental sense allowing discrimination of external temperature changes and driving adaptive responses essential for survival and well-being. This sensory process begins with the activation of peripheral thermoreceptors, which encode the quality and intensity of thermal stimuli into neuronal activity that is further integrated by spinal cord circuits and relayed to supraspinal centres through the anterolateral tract (ALT). While classical experiments identified thermal responsive ALT neurons in the superficial spinal dorsal horn, the functional logic of innocuous temperature relay remains poorly understood. We show that, in mice, the majority of Phox2a-lineage lamina I ALT are selectively tuned to innocuous warming or cooling, and receive direct inputs from peripheral thermoreceptors. Their genetic ablation, chemogenetic or optogenetic manipulation impaired temperature discrimination. Our findings contrast with the previous finding that the majority of ALT neurons being mechano- and thermo-nociceptive and provide novel evidence for the existence of a large ensemble of genetically defined warming- and cooling- responsive ALT neurons. The large representation of innocuous temperature in supraspinal-relaying ALT neurons indicates substantial spinal amplification of thermal information and underscores the importance of innocuous thermosensation in the ascending sensory pathway.",
-      "author": "Zhang, X., Bourojeni, F. B., Ferland, S., McFarlane, A., Boyle, K. A., Koyanagi, M., Paquet, M.-E., Todd, A. J., Hachisuka, J., De Koninck, Y., Wang, F., Kania, A.",
-      "published_date": "2026-01-22T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 188,
-      "reading_time": 1,
-      "created_at": "2026-01-22T15:33:12.059347+00:00",
-      "updated_at": "2026-01-22T16:28:35.479475+00:00",
-      "metadata": {
-        "processed_at": "2026-01-22T16:28:35.479477+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
