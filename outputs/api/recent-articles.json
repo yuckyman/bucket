@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-22T07:29:47.957624+00:00",
+  "last_updated": "2026-01-22T07:51:44.395613+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "f1813e6279928e4f5767c2679c94044f",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926000467?dgcid=rss_sd_all",
+      "title": "Maturation and reorganization of structural connectivity in infants within half a year",
+      "content": "<p>Publication date: 15 February 2026</p><p><b>Source:</b> NeuroImage, Volume 327</p><p>Author(s): Tingting Liu, Mingyang Li, Yuqing You, Hongxi Zhang, Ying Lv, Chai Ji, Yuting Li, Dan Wu, Shenghong Ju</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroimage",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 26,
+      "reading_time": 1,
+      "created_at": "2026-01-22T07:51:04.805716+00:00",
+      "updated_at": "2026-01-22T07:51:04.805718+00:00"
+    },
+    {
+      "id": "e096e9aecec2a2e9abecc62825936975",
+      "url": "https://www.reddit.com/r/Python/comments/1qjkwnx/understanding_pythons_typing_system_draft_guide/",
+      "title": "Understanding Python\u2019s typing system (draft guide, 3.14)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all \u2014 I\u2019ve been working on a Python 3.14 typing guide and am sharing it publicly in hopes that other people find it useful and/or can make it better.</p> <p>It\u2019s not a reference manual or a PEP summary. It\u2019s an attempt to explain how Python\u2019s typing system behaves <em>as a system</em> \u2014 how inference, narrowing, boundaries, and async typing interact, and how typing can be used as a way of reasoning about code rather than just silencing linters.</p> <p>It\u2019s long, but modular; you can drop into any section. The main chunks are:</p> <ul> <li>What Python typing is (and is not) good at</li> <li>How checkers resolve ambiguity and refine types (and why inference fails)</li> <li>Typing data at boundaries (TypedDict vs parsing)</li> <li>Structural typing, guards, match, and resolution</li> <li>Async typing and control flow</li> <li>Generics (TypeVar, ParamSpec, higher-order functions)</li> <li>Architectural patterns and tradeoffs</li> </ul> <p>If you\u2019ve ever felt that typing \u201cmostly works but feels opaque,\u201d this is aimed at that gap.</p> <p>If you notice errors, confusing explanations, or places where it breaks down in real usage, I\u2019d appreciate hearing about it \u2014 even partial or section-level feedback helps.</p> <p>Repo: <a href=\"https://github.com/JBogEsq/python_type_hinting_guide\">https://github.com/JBogEsq/python_type_hinting_guide</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JoelBEsq\"> /u/JoelBEsq </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qjkwnx/understanding_pythons_typing_system_draft_guide/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qjkwnx/understanding_pythons_typing_system_draft_guide/\">[comments]</a></span>",
+      "author": "/u/JoelBEsq",
+      "published_date": "2026-01-22T04:33:41+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 210,
+      "reading_time": 1,
+      "created_at": "2026-01-22T07:50:22.167920+00:00",
+      "updated_at": "2026-01-22T07:50:22.167921+00:00"
+    },
     {
       "id": "e1385798428586a67ced89a895faeb47",
       "url": "https://erpinfo.org/blog/2024/6/10/erp-core-decoding-paper",
@@ -289,38 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-01-22T06:37:46.513331+00:00",
       "updated_at": "2026-01-22T06:37:46.513336+00:00"
-    },
-    {
-      "id": "808a7ea2a495492206e9d79f6de88c25",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2025.1739877",
-      "title": "ASXL3 gene variants causing Bainbridge-Ropers syndrome: clinical and genetic analysis of four Chinese patients",
-      "content": "Bainbridge-Ropers syndrome (BRPS, OMIM #615485) is a rare, heterogeneous autosomal dominant genetic disease that is mainly characterized by intellectual disability (ID) of varying degrees, developmental delay (DD), language impairments, failure to thrive, behavioral issues, hypotonia, feeding difficulties, and distinctive craniofacial features. It is caused by heterozygous pathogenic variants in the additional sex combs-like 3 (ASXL3, OMIM #615115) gene. In this study, four Chinese patients were diagnosed with BRPS caused by ASXL3 variants through whole exome sequencing. We detected two novel and two previously reported variants of the ASXL3 gene (NM_030632.3) in these 4 unrelated Chinese patients: two novel variants, namely, c.1276del (p.Val426*) and c.3750del (p.Glu1251Asnfs*5), and two recurrent variants, namely, c.4330C>T (p.Arg1444*) and c.4336_4337delAG (p.Arg1446fs*2). All four patients had a clinical profile similar to that associated with BRPS. Compared with previously reported cases of BRPS, these patients exhibited novel complications, including long eyelashes, congenital laryngeal cartilage hypoplasia and dextrocardia. These findings broaden our understanding of the mutational and clinical spectrum of BRPS, emphasizing the importance of long-term monitoring and vigilance regarding potential complications, such as cardiac abnormalities, in BRPS patients.",
-      "author": "Jingsi Luo",
-      "published_date": "2026-01-22T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 180,
-      "reading_time": 1,
-      "created_at": "2026-01-22T06:37:43.480193+00:00",
-      "updated_at": "2026-01-22T06:37:43.480195+00:00"
-    },
-    {
-      "id": "475b3b4f27b316e4623e1407e277b0b5",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2026.1702092",
-      "title": "Altered gut fungal microbiota and associated mycotoxins in juvenile rat offspring induced by maternal immune activation with Poly I:C",
-      "content": "BackgroundMaternal immune activation (MIA) is a risk factor for neurodevelopmental disorders (NDDs) in offspring. While MIA-induced changes in the gut bacterial communities of offspring and their metabolites have been linked to behavioral abnormalities, the effects of MIA on the gut fungal communities and their mycotoxin-associated metabolites in offspring remain poorly characterized.MethodsIn this study, MIA was modeled in pregnant rats through intraperitoneal injection of 5 mg/kg Poly I:C on gestational day 15. The model\u2019s efficacy was validated using behavioral assessments, including the open-field test, elevated plus maze, and Morris water maze. Internal transcribed spacer (ITS) sequencing and untargeted metabolomics analysis were employed to detect the alterations of gut fungal microbiota and mycotoxin levels.ResultsPoly I:C-exposed offspring exhibited increased anxiety and cognitive deficits. Meanwhile, Poly I:C induces sex-related differences in gut fungal communities and mycotoxin levels in juvenile offspring rats. Several fungal genera and mycotoxins were significantly correlated with variations in anxiety-like behaviors and spatial learning performance.DiscussionOur findings suggest that MIA-induced behavioral deficits in offspring are accompanied by sex-specific disruptions in gut fungal composition and mycotoxin metabolism, which highlights the need for further intervention studies to establish causality and elucidate the underlying mechanisms of gut fungi and mycotoxins in NDDs.",
-      "author": "Yueqing Su",
-      "published_date": "2026-01-22T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 197,
-      "reading_time": 1,
-      "created_at": "2026-01-22T06:37:43.480157+00:00",
-      "updated_at": "2026-01-22T06:37:43.480159+00:00"
     }
   ]
 }
