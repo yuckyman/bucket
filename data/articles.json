@@ -1,5 +1,85 @@
 [
   {
+    "id": "03a40551dfa5302819b3f882939de6cb",
+    "url": "https://www.reddit.com/r/Python/comments/1qjpxs1/mdsync_cli_tool_to_sync_markdown_files_to_notion/",
+    "title": "mdsync: CLI tool to sync markdown files to Notion",
+    "content": "<!-- SC_OFF --><div class=\"md\"><h2>What My Project Does</h2> <p>mdsync is a command-line tool that syncs markdown files and directories to Notion while preserving your folder hierarchy and resolving internal links between files.</p> <p><strong>Key Features:</strong></p> <ul> <li>Syncs individual files or entire directory trees to Notion</li> <li>Preserves folder structure as nested Notion pages</li> <li>Resolves relative markdown links to Notion page URLs</li> <li>Uses python-markdown parser with extensions for robust handling of complex syntax (math equations, code blocks, tables, etc.)</li> <li>Dry-run mode to preview changes before syncing</li> <li>Optional random emoji icons for pages</li> <li>Choose between filename or first heading as page title</li> </ul> <p><strong>Example Usage:</strong></p> <p>```bash</p> <h1>Install</h1> <p>pip install mdsync</p> <h1>Sync a directory</h1> <p>mdsync notion --token YOUR_TOKEN --parent PAGE_ID docs/</p> <h1>Preview with dry-run</h1> <p>mdsync notion --token YOUR_TOKEN --parent PAGE_ID --dry-run docs/ ```</p> <h2>Target Audience</h2> <p>This tool is designed for:</p> <ul> <li>Developers and technical writers who maintain documentation in markdown and want to publish to Notion</li> <li>Teams that prefer writing in markdown editors but need to share content on Notion</li> <li>Anyone migrating existing markdown-based knowledge bases, notes, or documentation to Notion while preserving structure</li> <li>Users who need to keep markdown as source of truth while syncing to Notion for collaboration</li> </ul> <p>It's production-ready and ideal for automating documentation workflows.</p> <h2>Comparison</h2> <p>Unlike manual copy-pasting or other sync tools, mdsync:</p> <ul> <li><strong>vs Manual copying</strong>: Automates the entire process, preserves folder hierarchy automatically, and resolves internal links</li> <li><strong>vs Notion's native import</strong>: Handles directory trees recursively, resolves relative markdown links to Notion page URLs, and doesn't mess up complex content formats (native import often breaks math equations, nested lists, and code blocks)</li> <li><strong>vs Other markdown-to-Notion tools</strong>: Most tools use regex-based parsing which is unreliable and breaks on complex syntax. mdsync uses a proper python-markdown parser for stable, robust handling of math equations, nested structures, technical content, and edge cases</li> </ul> <p><strong>GitHub:</strong> <a href=\"https://github.com/alasdairpan/mdsync\">https://github.com/alasdairpan/mdsync</a></p> <p>Built with Python using Click for CLI, Rich for pretty output, and the Notion API. Would love feedback or contributions!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sad-Drop7052\"> /u/Sad-Drop7052 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qjpxs1/mdsync_cli_tool_to_sync_markdown_files_to_notion/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qjpxs1/mdsync_cli_tool_to_sync_markdown_files_to_notion/\">[comments]</a></span>",
+    "author": "/u/Sad-Drop7052",
+    "published_date": "2026-01-22T09:18:17+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 341,
+    "reading_time": 1,
+    "created_at": "2026-01-22T16:37:13.078016+00:00",
+    "updated_at": "2026-01-22T16:37:13.078018+00:00"
+  },
+  {
+    "id": "4268829d7c6026d29e15103febe5b282",
+    "url": "https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels",
+    "title": "In Europe, Wind and Solar Overtake Fossil Fuels",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46719491\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-22T14:14:15+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-22T16:37:11.768134+00:00",
+    "updated_at": "2026-01-22T16:37:11.768136+00:00"
+  },
+  {
+    "id": "4268829d7c6026d29e15103febe5b282",
+    "url": "https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels",
+    "title": "In Europe, Wind and Solar Overtake Fossil Fuels",
+    "content": "<p>Article URL: <a href=\"https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels\">https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46719491\">https://news.ycombinator.com/item?id=46719491</a></p>\n<p>Points: 145</p>\n<p># Comments: 95</p>",
+    "author": "speckx",
+    "published_date": "2026-01-22T14:14:15+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-22T16:37:10.500314+00:00",
+    "updated_at": "2026-01-22T16:37:10.500315+00:00"
+  },
+  {
+    "id": "640a86b1e7cddb6cd19cc5a8da95fd42",
+    "url": "https://antonz.org/interfaces-in-c/",
+    "title": "Interfaces and Traits in C",
+    "content": "<p>Article URL: <a href=\"https://antonz.org/interfaces-in-c/\">https://antonz.org/interfaces-in-c/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46721172\">https://news.ycombinator.com/item?id=46721172</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+    "author": "ibobev",
+    "published_date": "2026-01-22T16:10:02+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-22T16:37:10.500254+00:00",
+    "updated_at": "2026-01-22T16:37:10.500256+00:00"
+  },
+  {
+    "id": "9dc8a61586b3df81338851a62437e591",
+    "url": "https://www.thecanary.co/uk/news/2026/01/22/zack-polanski-to-hand-in-nhs-contract-termination-notice-to-palantir/",
+    "title": "Zack Polanski to hand in NHS contract termination notice to Palantir",
+    "content": "<p>Article URL: <a href=\"https://www.thecanary.co/uk/news/2026/01/22/zack-polanski-to-hand-in-nhs-contract-termination-notice-to-palantir/\">https://www.thecanary.co/uk/news/2026/01/22/zack-polanski-to-hand-in-nhs-contract-termination-notice-to-palantir/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46721220\">https://news.ycombinator.com/item?id=46721220</a></p>\n<p>Points: 13</p>\n<p># Comments: 3</p>",
+    "author": "robtherobber",
+    "published_date": "2026-01-22T16:13:16+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-22T16:37:10.500223+00:00",
+    "updated_at": "2026-01-22T16:37:10.500232+00:00"
+  },
+  {
     "id": "3520e7680e2c552654898c0d90daf5a2",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.699955v1?rss=1",
     "title": "A fast and simple algorithm for accurate spike detection in HD-MEA recordings",
@@ -17012,106 +17092,6 @@
     "updated_at": "2026-01-18T08:21:04.445661+00:00",
     "metadata": {
       "processed_at": "2026-01-18T08:21:04.445670+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "08ba750599fb0bed6303d0f97fbab2bc",
-    "url": "https://handmade.network/blog/p/9106-welcome_to_2026%2521#30623",
-    "title": "Launching the Handmade Software Foundation",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46665453\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-18T07:01:12+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-18T07:40:59.101254+00:00",
-    "updated_at": "2026-01-18T08:21:04.445661+00:00",
-    "metadata": {
-      "processed_at": "2026-01-18T08:21:04.445670+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "226524cd93191200820e5fac780efb49",
-    "url": "https://www.reddit.com/r/Python/comments/1qfb2j4/004_an_important_update_in_skelet/",
-    "title": "0.0.4: an important update in Skelet",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>In the <a href=\"https://github.com/pomponchik/skelet\">skelet</a> library, designed for collecting configs, an important feature has been added: reading command-line arguments. Now, in a dataclass-like object, you can access not only configs in different formats, but also dynamic application input.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pomponchik\"> /u/pomponchik </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qfb2j4/004_an_important_update_in_skelet/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qfb2j4/004_an_important_update_in_skelet/\">[comments]</a></span>",
-    "author": "/u/pomponchik",
-    "published_date": "2026-01-17T11:38:35+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 58,
-    "reading_time": 1,
-    "created_at": "2026-01-18T07:20:54.809723+00:00",
-    "updated_at": "2026-01-18T08:21:04.445679+00:00",
-    "metadata": {
-      "processed_at": "2026-01-18T08:21:04.445680+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "a4080014658e1c205e505dd63c6abd70",
-    "url": "https://thinknextdesign.com/home.html",
-    "title": "Spirit of ThinkPad",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46665310\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-18T06:27:24+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-18T07:20:53.609172+00:00",
-    "updated_at": "2026-01-18T08:21:04.445682+00:00",
-    "metadata": {
-      "processed_at": "2026-01-18T08:21:04.445684+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "8f9474fece7760c9f11267a9335a1982",
-    "url": "https://www.reddit.com/r/Python/comments/1qfa86s/is_it_a_good_idea_to_make_a_100_python_written_3d/",
-    "title": "Is it a good idea to make a 100% Python written 3D engine?",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>I mean an engine that has everything from base rendering to textures, lightning and tools for making simple objects and maps, also that doesn't use anything like OpenGL, DirectX and others (has his own rendering calculations and pipeline).</p> <p>Because I'm working on my engine right now, I'm using OpenGL only for drawing 2D lines on a window (because opengl has C++ backend and runs on GPU right?), I'm on the stage of making wireframe 3D objects, rotate them, position, scale etc. I don't know if I should rewrite all my rendering code on C++, but 10 fps rendering a simple wireframe sphere makes me think.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/REMIZERexe\"> /u/REMIZERexe </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qfa86s/is_it_a_good_idea_to_make_a_100_python_written_3d/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qfa86s/is_it_a_good_idea_to_make_a_100_python_written_3d/\">[comments]</a></span>",
-    "author": "/u/REMIZERexe",
-    "published_date": "2026-01-17T10:49:42+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 126,
-    "reading_time": 1,
-    "created_at": "2026-01-18T06:33:37.559706+00:00",
-    "updated_at": "2026-01-18T08:21:04.445686+00:00",
-    "metadata": {
-      "processed_at": "2026-01-18T08:21:04.445688+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "c5df907383dc5077b3c790401b6c5762",
-    "url": "https://fmhy.net/posts/dec-2025",
-    "title": "Monthly Updates [December]",
-    "content": "<div class=\"info custom-block\"><p class=\"custom-block-title\">INFO</p>\n<p>These update threads only contains major updates. If you're interested\nin seeing all minor changes you can follow our\n<a href=\"https://github.com/fmhy/FMHYedit/commits/main\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub or\n<a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Updates Channel</a> in Discord.</p>\n</div>\n<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Added new backup site <strong><a href=\"https://fmhy.bid/\" rel=\"noreferrer\" target=\"_blank\">FMHY.bid</a></strong>. Should be unblocked more places than .net currently.</p>\n</li>\n<li>\n<p>Added new section for <a href=\"https://fmhy.net/image-tools#photography-cameras\" rel=\"noreferrer\" target=\"_blank\">Photography / Cameras</a>.</p>\n</li>\n<li>\n<p>Added new section for <a href=\"https://fmhy.net/image-tools#_3d-printing\" rel=\"noreferrer\" target=\"_blank\">3D Printing / Printers</a>.</p>\n</li>\n<li>\n<p>Re-ordered <a href=\"https://fmhy.net/ai#ai-benchmarks\" rel=\"noreferrer\" target=\"_blank\">AI Benchmarks</a>, starred Kaggle Benchmarks, removed ones with dated testing, and added a subsection for <a href=\"https://fmhy.net/ai#specialized-benchmarks\" rel=\"noreferrer\" target=\"_blank\">Specialized Benchmarks</a>. <a href=\"https://i.ibb.co/5xY36Pk5/Untitled.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/NuIHGhC.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Re-ordered and cleaned up ugly formatting in <a href=\"https://fmhy.net/developer-tools#hosting-tools\" rel=\"noreferrer\" target=\"_blank\">Hosting Tools</a>. <a href=\"https://i.ibb.co/21g23vSy/Untitled.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/G6sJPo1.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Moved <a href=\"https://fmhy.net/internet-tools#browser-startpages\" rel=\"noreferrer\" target=\"_blank\">Browser Startpages</a> + <a href=\"https://fmhy.net/internet-tools#custom-new-tab-pages\" rel=\"noreferrer\" target=\"_blank\">Custom New Tab Pages</a> out of storage into their own sections.</p>\n</li>\n<li>\n<p>Brought back the <a href=\"https://fmhy.github.io/FMHY-SafeGuard/\" rel=\"noreferrer\" target=\"_blank\">Website</a> for FMHY SafeGuard.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#anime-streaming\" rel=\"noreferrer\" target=\"_blank\">AnimeX</a> in Anime Streaming. Feature-rich, solid sources, big library, nice UI, has forums.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#image-generation\" rel=\"noreferrer\" target=\"_blank\">Bing Image Creator</a> in Image Gen. Gives 200 daily, has good editing, seems to be best way to use GPT Image 1 as of now.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#android-tv\" rel=\"noreferrer\" target=\"_blank\">\u2060TizenTube Cobalt</a> in Android TV. Ad-free YouTube app, updated often, has Sponsorblock support, uses official YouTube UI.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#live-sports\" rel=\"noreferrer\" target=\"_blank\">Watch Footy</a> in Live Sports. Solid sources, nice UI, lots of events.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video-tools#live-streaming\" rel=\"noreferrer\" target=\"_blank\">Streamer.bot</a> in Live Streaming Tools. <a href=\"https://streamer.bot/features\" rel=\"noreferrer\" target=\"_blank\">Feature-rich</a> live stream manager, compatible w/ OBS, Streamlabs, etc.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming-tools#roblox-tools\" rel=\"noreferrer\" target=\"_blank\">RoSeal</a> in Roblox Tools. Improves Roblox website and adds nearly 200 extra features.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/mobile#android-reading\" rel=\"noreferrer\" target=\"_blank\">Voice</a> in Android Audiobook Players. Open-source, multi-format, has cover fetch, and nice minimal design.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/mobile#productivity-trackers\" rel=\"noreferrer\" target=\"_blank\">Loop Habit Tracker</a> in Mobile Productivity. Open-source, has sticky notifications, and better limits than most free options.</p>\n</li>\n<li>\n<p>Re-starred <a href=\"https://fmhy.net/gaming#rom-sites\" rel=\"noreferrer\" target=\"_blank\">CDRomance</a> in ROM Sites as its made a comeback. Note that RetroGamingTalk accounts will work on CDRomance.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>\n<p>Removed Anadius as they've <a href=\"https://i.ibb.co/TD9kRCR3/image.png\" rel=\"noreferrer\" target=\"_blank\">decided to step down</a> / <a href=\"https://i.imgur.com/2Xk8Jor.png\" rel=\"noreferrer\" target=\"_blank\">2</a>. It may be re-added in the future if someone new steps up to maintain it.</p>\n</li>\n<li>\n<p>Removed ContextSearch as it's been removed by Firefox. It seems to be causing issues, and in some cases flooding sites with requests. We're unsure if it's purposefully malicious, or mistakes by its dev, but regardless its recommended to remove it, and try other options like <a href=\"https://fmhy.net/internet-tools#firefox-extensions\" rel=\"noreferrer\" target=\"_blank\">ContextSearch web-ext</a>.</p>\n</li>\n<li>\n<p>Unstarred <a href=\"https://fmhy.net/file-tools#file-managers\" rel=\"noreferrer\" target=\"_blank\">Files</a> in File Managers. There was a lot of hype for this originally, but people have started to come forward saying its too laggy / slow to be useful.</p>\n</li>\n<li>\n<p>Unstarred Grok, Qwen, Mage and Flux.1 Schnell in <a href=\"https://fmhy.net/ai#image-generation\" rel=\"noreferrer\" target=\"_blank\">Image Gen</a>. These were considered good in the past, but there's much better, less dated free options at this point.</p>\n</li>\n</ul>",
-    "author": "",
-    "published_date": "2025-12-01T00:00:00+00:00",
-    "source": "Fmhy",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 563,
-    "reading_time": 2,
-    "created_at": "2026-01-18T05:47:26.948260+00:00",
-    "updated_at": "2026-01-18T06:24:58.555663+00:00",
-    "metadata": {
-      "processed_at": "2026-01-18T06:24:58.555673+00:00",
       "processing_method": "github_actions"
     }
   }

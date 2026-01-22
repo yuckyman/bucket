@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-01-22T16:28:35.585651+00:00",
+  "last_updated": "2026-01-22T16:38:24.818660+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "03a40551dfa5302819b3f882939de6cb",
+      "url": "https://www.reddit.com/r/Python/comments/1qjpxs1/mdsync_cli_tool_to_sync_markdown_files_to_notion/",
+      "title": "mdsync: CLI tool to sync markdown files to Notion",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h2>What My Project Does</h2> <p>mdsync is a command-line tool that syncs markdown files and directories to Notion while preserving your folder hierarchy and resolving internal links between files.</p> <p><strong>Key Features:</strong></p> <ul> <li>Syncs individual files or entire directory trees to Notion</li> <li>Preserves folder structure as nested Notion pages</li> <li>Resolves relative markdown links to Notion page URLs</li> <li>Uses python-markdown parser with extensions for robust handling of complex syntax (math equations, code blocks, tables, etc.)</li> <li>Dry-run mode to preview changes before syncing</li> <li>Optional random emoji icons for pages</li> <li>Choose between filename or first heading as page title</li> </ul> <p><strong>Example Usage:</strong></p> <p>```bash</p> <h1>Install</h1> <p>pip install mdsync</p> <h1>Sync a directory</h1> <p>mdsync notion --token YOUR_TOKEN --parent PAGE_ID docs/</p> <h1>Preview with dry-run</h1> <p>mdsync notion --token YOUR_TOKEN --parent PAGE_ID --dry-run docs/ ```</p> <h2>Target Audience</h2> <p>This tool is designed for:</p> <ul> <li>Developers and technical writers who maintain documentation in markdown and want to publish to Notion</li> <li>Teams that prefer writing in markdown editors but need to share content on Notion</li> <li>Anyone migrating existing markdown-based knowledge bases, notes, or documentation to Notion while preserving structure</li> <li>Users who need to keep markdown as source of truth while syncing to Notion for collaboration</li> </ul> <p>It's production-ready and ideal for automating documentation workflows.</p> <h2>Comparison</h2> <p>Unlike manual copy-pasting or other sync tools, mdsync:</p> <ul> <li><strong>vs Manual copying</strong>: Automates the entire process, preserves folder hierarchy automatically, and resolves internal links</li> <li><strong>vs Notion's native import</strong>: Handles directory trees recursively, resolves relative markdown links to Notion page URLs, and doesn't mess up complex content formats (native import often breaks math equations, nested lists, and code blocks)</li> <li><strong>vs Other markdown-to-Notion tools</strong>: Most tools use regex-based parsing which is unreliable and breaks on complex syntax. mdsync uses a proper python-markdown parser for stable, robust handling of math equations, nested structures, technical content, and edge cases</li> </ul> <p><strong>GitHub:</strong> <a href=\"https://github.com/alasdairpan/mdsync\">https://github.com/alasdairpan/mdsync</a></p> <p>Built with Python using Click for CLI, Rich for pretty output, and the Notion API. Would love feedback or contributions!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sad-Drop7052\"> /u/Sad-Drop7052 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qjpxs1/mdsync_cli_tool_to_sync_markdown_files_to_notion/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qjpxs1/mdsync_cli_tool_to_sync_markdown_files_to_notion/\">[comments]</a></span>",
+      "author": "/u/Sad-Drop7052",
+      "published_date": "2026-01-22T09:18:17+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 341,
+      "reading_time": 1,
+      "created_at": "2026-01-22T16:37:13.078016+00:00",
+      "updated_at": "2026-01-22T16:37:13.078018+00:00"
+    },
+    {
+      "id": "4268829d7c6026d29e15103febe5b282",
+      "url": "https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels",
+      "title": "In Europe, Wind and Solar Overtake Fossil Fuels",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46719491\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-22T14:14:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-22T16:37:11.768134+00:00",
+      "updated_at": "2026-01-22T16:37:11.768136+00:00"
+    },
+    {
+      "id": "4268829d7c6026d29e15103febe5b282",
+      "url": "https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels",
+      "title": "In Europe, Wind and Solar Overtake Fossil Fuels",
+      "content": "<p>Article URL: <a href=\"https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels\">https://e360.yale.edu/digest/europe-wind-solar-fossil-fuels</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46719491\">https://news.ycombinator.com/item?id=46719491</a></p>\n<p>Points: 145</p>\n<p># Comments: 95</p>",
+      "author": "speckx",
+      "published_date": "2026-01-22T14:14:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-22T16:37:10.500314+00:00",
+      "updated_at": "2026-01-22T16:37:10.500315+00:00"
+    },
+    {
+      "id": "640a86b1e7cddb6cd19cc5a8da95fd42",
+      "url": "https://antonz.org/interfaces-in-c/",
+      "title": "Interfaces and Traits in C",
+      "content": "<p>Article URL: <a href=\"https://antonz.org/interfaces-in-c/\">https://antonz.org/interfaces-in-c/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46721172\">https://news.ycombinator.com/item?id=46721172</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+      "author": "ibobev",
+      "published_date": "2026-01-22T16:10:02+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-22T16:37:10.500254+00:00",
+      "updated_at": "2026-01-22T16:37:10.500256+00:00"
+    },
+    {
+      "id": "9dc8a61586b3df81338851a62437e591",
+      "url": "https://www.thecanary.co/uk/news/2026/01/22/zack-polanski-to-hand-in-nhs-contract-termination-notice-to-palantir/",
+      "title": "Zack Polanski to hand in NHS contract termination notice to Palantir",
+      "content": "<p>Article URL: <a href=\"https://www.thecanary.co/uk/news/2026/01/22/zack-polanski-to-hand-in-nhs-contract-termination-notice-to-palantir/\">https://www.thecanary.co/uk/news/2026/01/22/zack-polanski-to-hand-in-nhs-contract-termination-notice-to-palantir/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46721220\">https://news.ycombinator.com/item?id=46721220</a></p>\n<p>Points: 13</p>\n<p># Comments: 3</p>",
+      "author": "robtherobber",
+      "published_date": "2026-01-22T16:13:16+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-22T16:37:10.500223+00:00",
+      "updated_at": "2026-01-22T16:37:10.500232+00:00"
+    },
     {
       "id": "3520e7680e2c552654898c0d90daf5a2",
       "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.699955v1?rss=1",
@@ -261,106 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-22T15:32:33.985739+00:00",
       "updated_at": "2026-01-22T15:32:33.985747+00:00"
-    },
-    {
-      "id": "29b59ee3c9b3dfeb517fc10a86f5d866",
-      "url": "https://pdfa.org/want-to-make-your-pdfs-20-smaller-for-free/",
-      "title": "ISO PDF spec is getting Brotli \u2013 ~20 % smaller documents with no quality loss",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46717507\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-22T10:41:23+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-22T13:48:47.107608+00:00",
-      "updated_at": "2026-01-22T14:25:29.953247+00:00",
-      "metadata": {
-        "processed_at": "2026-01-22T14:25:29.953257+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "29b59ee3c9b3dfeb517fc10a86f5d866",
-      "url": "https://pdfa.org/want-to-make-your-pdfs-20-smaller-for-free/",
-      "title": "ISO PDF spec is getting Brotli \u2013 ~20 % smaller documents with no quality loss",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46717507\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-22T10:41:23+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-22T13:48:47.107608+00:00",
-      "updated_at": "2026-01-22T14:25:29.953247+00:00",
-      "metadata": {
-        "processed_at": "2026-01-22T14:25:29.953257+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e8c1161429d2bf5782a078a9a512b54a",
-      "url": "https://reactos.org/blogs/30yrs-of-ros/",
-      "title": "30 Years of ReactOS",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46716469\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-22T08:03:57+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-22T13:48:47.107550+00:00",
-      "updated_at": "2026-01-22T14:25:29.953261+00:00",
-      "metadata": {
-        "processed_at": "2026-01-22T14:25:29.953263+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e8c1161429d2bf5782a078a9a512b54a",
-      "url": "https://reactos.org/blogs/30yrs-of-ros/",
-      "title": "30 Years of ReactOS",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46716469\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-22T08:03:57+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-22T13:48:47.107550+00:00",
-      "updated_at": "2026-01-22T14:25:29.953261+00:00",
-      "metadata": {
-        "processed_at": "2026-01-22T14:25:29.953263+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "673097846a89b71e4416981c493d78fe",
-      "url": "https://arstechnica.com/space/2026/01/the-first-commercial-space-station-haven-1-is-now-undergoing-assembly-for-launch/",
-      "title": "The first commercial space station, Haven-1, now undergoing assembly for launch",
-      "content": "<p>Article URL: <a href=\"https://arstechnica.com/space/2026/01/the-first-commercial-space-station-haven-1-is-now-undergoing-assembly-for-launch/\">https://arstechnica.com/space/2026/01/the-first-commercial-space-station-haven-1-is-now-undergoing-assembly-for-launch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46718330\">https://news.ycombinator.com/item?id=46718330</a></p>\n<p>Points: 9</p>\n<p># Comments: 1</p>",
-      "author": "rbanffy",
-      "published_date": "2026-01-22T12:22:59+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-22T13:48:45.722843+00:00",
-      "updated_at": "2026-01-22T14:25:29.953273+00:00",
-      "metadata": {
-        "processed_at": "2026-01-22T14:25:29.953275+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
