@@ -1,5 +1,21 @@
 [
   {
+    "id": "7895939116a617cfeb97b8721303d331",
+    "url": "https://arstechnica.com/security/2026/01/wiper-malware-targeted-poland-energy-grid-but-failed-to-knock-out-electricity/",
+    "title": "Poland's energy grid was targeted by never-before-seen wiper malware",
+    "content": "<p>Article URL: <a href=\"https://arstechnica.com/security/2026/01/wiper-malware-targeted-poland-energy-grid-but-failed-to-knock-out-electricity/\">https://arstechnica.com/security/2026/01/wiper-malware-targeted-poland-energy-grid-but-failed-to-knock-out-electricity/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46747827\">https://news.ycombinator.com/item?id=46747827</a></p>\n<p>Points: 19</p>\n<p># Comments: 0</p>",
+    "author": "Bender",
+    "published_date": "2026-01-24T21:24:13+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-24T22:44:19.598335+00:00",
+    "updated_at": "2026-01-24T22:44:19.598342+00:00"
+  },
+  {
     "id": "80d1f642eb4da0958753076107ac0cbe",
     "url": "http://daniellakens.blogspot.com/2025/07/easily-download-files-from-open-science.html",
     "title": "Easily download files from the Open Science Framework with Papercheck",
@@ -17066,21 +17082,5 @@
     "reading_time": 5,
     "created_at": "2026-01-20T17:31:02.331722+00:00",
     "updated_at": "2026-01-20T17:31:02.331727+00:00"
-  },
-  {
-    "id": "c2859c3c59c189ca896e378e48bcf92b",
-    "url": "https://www.reddit.com/r/Python/comments/1qi4o7p/network_monitoring_dashboard_built_with_flask/",
-    "title": "Network monitoring dashboard built with Flask, scapy, and nmap",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>built a home network monitor as a learning project useful to anyone.</p> <p>- what it does: monitors local network in real time, tracks devices, bandwidth usage per device, and detects anomalies like new unknown devices or suspicious traffic patterns.</p> <p>- target audience: educational/homelab project, not production ready. built for learning networking fundamentals and packet analysis. runs on any linux machine, good for raspberry pi setups.</p> <p>- comparison: most alternatives are either commercial closed source like fing or heavyweight enterprise tools like ntopng. this is intentionally simple and focused on learning. everything runs locally, no cloud, full control. anomaly detection is basic rule based so you can actually understand what triggers alerts, not black box ml.</p> <p>tech stack used:</p> <ul> <li>flask for web backend + api</li> <li>scapy for packet sniffing / bandwidth monitoring</li> <li>python-nmap for device discovery</li> <li>sqlite for data persistence</li> <li>chart.js for visualization</li> </ul> <p>it was a good way to learn about networking protocols, concurrent packet processing, and building a full stack monitoring application from scratch.</p> <p>code + screenshots: <a href=\"https://github.com/torchiachristian/HomeNetMonitor\">https://github.com/torchiachristian/HomeNetMonitor</a></p> <p>feedback welcome, especially on the packet sniffing implementation and anomaly detection logic</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/christiantorchia\"> /u/christiantorchia </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qi4o7p/network_monitoring_dashboard_built_with_flask/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qi4o7p/network_monitoring_dashboard_built_with_flask/\">[comments]</a></span>",
-    "author": "/u/christiantorchia",
-    "published_date": "2026-01-20T15:49:52+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 204,
-    "reading_time": 1,
-    "created_at": "2026-01-20T17:31:00.960464+00:00",
-    "updated_at": "2026-01-20T17:31:00.960465+00:00"
   }
 ]
