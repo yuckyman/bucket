@@ -1,5 +1,53 @@
 [
   {
+    "id": "733759b3d1d3afacbeafc7c58bee4024",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.01.22.700520v1?rss=1",
+    "title": "Long-Term Expression and Safety of AAV1-Mediated PI3K\u03b4 Overexpression in the Adult Rat Cortex",
+    "content": "Mature CNS neurons are incapable of sufficiently regenerating their axons following spinal cord injury (SCI). This is largely due to developmental changes in epigenetic control leading to suppression of axon growth transcriptomic profile, leading to a shift towards synapse function support. Recently, manipulating the PI3K/Akt/mTOR pathway through PI3K{delta} overexpression in cortical neurons enhanced axonal regeneration of corticospinal tract axons, which was accompanied by functional recovery monitored for up to 16 weeks. However, PI3K is more widely known for its role as an oncogene, and since overexpression is achieved by the use of AAVs, valid safety concerns are raised as it is unknown what the long-term consequences of sustained PI3K{delta} expression in the brain are, which may be necessary to achieve complete re-establishment of the motor pathway. In this study, AAV1-hSYN-PIK3CD was injected into the motor cortex of rats, which survived for 1 year. Comparison with uninjected control animals reveal stable PI3K{delta} expression and sustained pathway activation through increased pS6. PI3K{delta}-treated animals show absence of tumour formation, neural soma hypertrophy, glial cell activation, or haematological or biochemical abnormalities. Thus, long-term neuronal PI3K{delta} expression appears to be well tolerated and may provide a safe and durable strategy to promote functional repair following SCI.",
+    "author": "Knight, L., Polcanova, Z., Marekova, D., Machova Urdzikova, L., Jirak, D., Ziolkowska, N., Makovicky, P., de Winter, F., Kwok, J. C. F., Jendelova, P., Fawcett, J., Karova, K.",
+    "published_date": "2026-01-23T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 201,
+    "reading_time": 1,
+    "created_at": "2026-01-24T04:55:51.875197+00:00",
+    "updated_at": "2026-01-24T04:55:51.875202+00:00"
+  },
+  {
+    "id": "1d04b73ba10c5ace3f867683cc1e4079",
+    "url": "https://www.nature.com/articles/s41531-026-01272-4",
+    "title": "Micro-nanoplastics and Parkinson\u2019s disease: evidence and perspectives",
+    "content": "",
+    "author": "",
+    "published_date": "2026-01-24T00:00:00+00:00",
+    "source": "Nature Neuroscience Subjects",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2026-01-24T04:55:50.519112+00:00",
+    "updated_at": "2026-01-24T04:55:50.519117+00:00"
+  },
+  {
+    "id": "a69fd94758543cc723146e27f10ddd14",
+    "url": "https://blog.dshr.org/2026/01/internet-archives-storage.html",
+    "title": "Internet Archive's Storage",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46694618\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-20T17:16:49+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-24T04:55:09.608844+00:00",
+    "updated_at": "2026-01-24T04:55:09.608846+00:00"
+  },
+  {
     "id": "42337398c10dab8aedd4ffb73b1895ab",
     "url": "https://riverseeber.net/blog/post/the-internet-doesnt-suck/",
     "title": "The Internet Doesn't Suck: Blame Big Tech, Not the Internet",
@@ -16984,66 +17032,6 @@
     "updated_at": "2026-01-20T04:40:50.237888+00:00",
     "metadata": {
       "processed_at": "2026-01-20T04:40:50.237890+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "79fbf7da38f0014fb26baa4d94dd41f5",
-    "url": "https://www.reddit.com/r/Python/comments/1qhl2o2/opticol_memory_optimized_python_collections/",
-    "title": "Opticol: memory optimized python collections",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I just created a new library called <a href=\"https://github.com/lessico/opticol/\">opticol</a> (which stands for optimized collections), which I wanted to share with the community. The idea of the library is to create space optimized versions of Sequence, Set, and Mapping for small collections leveraging the collections.ABC vocabulary.</p> <h2>What My Project Does</h2> <p>Creates optimized versions of the main python collection types (Sequence, Set, Mapping) along with vocabulary types and convenience methods for transforming builtins to the optimized type.</p> <p>For collections of size 3 or less, it is pretty trivial (using slots) to create an object that can act as a collection, but uses notably less memory than the builtins. Consider the fact that an empty set requires 216 bytes, or a dictionary with one element requires 224 bytes. Applications that create many (on the order of 100k to a million) of these objects can substantially reduce their memory usage with this library.</p> <h2>Target Audience</h2> <p>This will benefit users who use Python for various forms of data analysis. These problems often have many collection instances, which can often be just a few items. I myself have run into issues with memory pressure like this with some NLP datasets. Additionally, this is helpful for those doing this primarily in Python or for situations where dropping to a lower level language is not advantageous yet.</p> <h2>Comparison</h2> <p>I could not find a similar library to this, nor even discussion of implementing such an idea. I would be happy to update this section if something comes up, but as far as I know, there are no direct comparisons.</p> <p>Anyway, it's currently a beta release as I'm working on finishing up the last unit tests, but the main use case generally works. I'm also very interested in any feedback on the project itself or other optimizations that may be good to add!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/matgrioni\"> /u/matgrioni </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qhl2o2/opticol_memory_optimized_python_collections/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qhl2o2/opticol_memory_optimized_python_collections/\">[comments]</a></span>",
-    "author": "/u/matgrioni",
-    "published_date": "2026-01-19T23:53:38+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 326,
-    "reading_time": 1,
-    "created_at": "2026-01-20T03:45:10.441718+00:00",
-    "updated_at": "2026-01-20T04:40:50.237892+00:00",
-    "metadata": {
-      "processed_at": "2026-01-20T04:40:50.237894+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "4ce67569f60c7face2f55fc5ced80d70",
-    "url": "https://latamlist.com/legal-structures-for-latin-american-startups/",
-    "title": "Legal Structures for Latin American Startups (2021)",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46686745\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-20T01:21:35+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-20T03:45:09.166282+00:00",
-    "updated_at": "2026-01-20T04:40:50.237896+00:00",
-    "metadata": {
-      "processed_at": "2026-01-20T04:40:50.237898+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "4ce67569f60c7face2f55fc5ced80d70",
-    "url": "https://latamlist.com/legal-structures-for-latin-american-startups/",
-    "title": "Legal Structures for Latin American Startups (2021)",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46686745\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-20T01:21:35+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-20T03:45:09.166282+00:00",
-    "updated_at": "2026-01-20T04:40:50.237896+00:00",
-    "metadata": {
-      "processed_at": "2026-01-20T04:40:50.237898+00:00",
       "processing_method": "github_actions"
     }
   }
