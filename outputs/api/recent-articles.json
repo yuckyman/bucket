@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-01-24T14:45:17.554843+00:00",
+  "last_updated": "2026-01-24T15:22:41.325804+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "22959b1866a81d9927f9e964781198ca",
+      "url": "https://www.nature.com/articles/s41593-025-02190-z",
+      "title": "A prefrontal cortex map based on single-neuron activity",
+      "content": "<p>Nature Neuroscience, Published online: 20 January 2026; <a href=\"https://www.nature.com/articles/s41593-025-02190-z\">doi:10.1038/s41593-025-02190-z</a></p>The authors mapped spontaneous and choice activity across mouse prefrontal cortex. The activity maps aligned with intrinsic connectivity rather than anatomical subregions, suggesting that connectivity, not cytoarchitecture, organizes prefrontal function.",
+      "author": "Marie Carl\u00e9n",
+      "published_date": "2026-01-20T00:00:00+00:00",
+      "source": "Nature Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 38,
+      "reading_time": 1,
+      "created_at": "2026-01-24T15:22:08.789862+00:00",
+      "updated_at": "2026-01-24T15:22:08.789864+00:00"
+    },
+    {
+      "id": "8f768c2b893b7663e5c1c3476a60533b",
+      "url": "https://www.reddit.com/r/Python/comments/1qlp6k6/mdrefcheck_a_simple_cli_tool_to_validate_local/",
+      "title": "mdrefcheck: a simple cli tool to validate local references in markdown files",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>A small CLI tool for validating Markdown files (CommonMark spec) with pre-commit integration that I've been slowly developing in my spare time while learning Rust.</p> <h1>Features</h1> <ul> <li>Local file path validation for image and file references</li> <li>Section link validation against actual headings, following <a href=\"https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#section-links\">GitHub Flavored Markdown (GFM)</a> rules, including cross-file references (e.g., <code>./subfolder/another-file.md#heading-link</code>)</li> <li>Broken reference-style link detection (e.g. <code>[text][ref]</code> with missing <code>[ref]:</code>)</li> <li>Basic email validation</li> <li>Ignore file support using the <a href=\"https://docs.rs/ignore/latest/ignore/\">ignore</a> crate</li> <li>pre-commit integration</li> </ul> <h1>Comparison</h1> <p>While VS Code's <a href=\"https://code.visualstudio.com/docs/languages/markdown#_link-validation\">markdown validation</a> has similar functionality, it's not a CLI tool and lacks some useful configuration options (e.g., this <a href=\"https://github.com/microsoft/vscode-markdown-languageservice/issues/152\">issue</a>).</p> <p>Other tools like <a href=\"https://github.com/tcort/markdown-link-check\">markdown-link-check</a> focus on external URL validation rather than internal reference checking.</p> <h1>Installation</h1> <p><strong>PyPI</strong>:</p> <pre><code>pip install mdrefcheck </code></pre> <p>or run it directly in an isolated environment, e.g., with <code>uvx</code>:</p> <pre><code>uvx mdrefcheck . </code></pre> <p><strong>Cargo</strong>:</p> <pre><code>cargo install mdrefcheck </code></pre> <p><strong>Pre-commit integration</strong>:</p> <p>Add this to your <code>.pre-commit-config.yaml</code>:</p> <pre><code>repos: - repo: https://github.com/gospodima/mdrefcheck rev: v0.2.1 hooks: - id: mdrefcheck </code></pre> <h1>Source code</h1> <p><a href=\"https://github.com/gospodima/mdrefcheck\">https://github.com/gospodima/mdrefcheck</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_dmsk\"> /u/_dmsk </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qlp6k6/mdrefcheck_a_simple_cli_tool_to_validate_local/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qlp6k6/mdrefcheck_a_simple_cli_tool_to_validate_local/\">[comments]</a></span>",
+      "author": "/u/_dmsk",
+      "published_date": "2026-01-24T15:02:04+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 186,
+      "reading_time": 1,
+      "created_at": "2026-01-24T15:21:33.922744+00:00",
+      "updated_at": "2026-01-24T15:21:33.922746+00:00"
+    },
+    {
+      "id": "abd309022344d7f8f17e1e7117d8fd53",
+      "url": "https://www.med.unc.edu/uncaims/wp-content/uploads/sites/764/2014/03/Oncken-_-Wass-Who_s-Got-the-Monkey.pdf",
+      "title": "Management Time: Who's Got the Monkey? [pdf]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46688133\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-20T05:10:39+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-24T15:21:32.621572+00:00",
+      "updated_at": "2026-01-24T15:21:32.621573+00:00"
+    },
+    {
+      "id": "c8adadc430ad7e2a30084aca18694199",
+      "url": "https://news.ycombinator.com/item?id=46743867",
+      "title": "Ask HN: May an Agent accepts a license to produce a build?",
+      "content": "<p>For example, Android builds steer towards using `sdkmanager --licenses`.<p>Suppose I get a preconfigured VPS with Claude Code, and ask it to make an android port of an app I have built, it will almost always automatically downloads the sdkmanager and accepts the license.<p>That is the flow that exists many times in its training data (which represents its own interesting wrinkle).<p>Regardless of what is in the license; I was a bit surprised to see it happen, and I'm sure I won't be the last nor will the android sdk license be the only one.<p>What is the legal status of an agreement accepted in such a manner - and perhaps more importantly - what ought to be the legal status considering that any position you take will be exploited by bad faith ~~actors~~ agents?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46743867\">https://news.ycombinator.com/item?id=46743867</a></p>\n<p>Points: 9</p>\n<p># Comments: 7</p>",
+      "author": "athrowaway3z",
+      "published_date": "2026-01-24T14:31:58+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 143,
+      "reading_time": 1,
+      "created_at": "2026-01-24T15:21:31.255209+00:00",
+      "updated_at": "2026-01-24T15:21:31.255211+00:00"
+    },
+    {
+      "id": "eb5009b11a7ee98175beab4d2245d392",
+      "url": "https://twitter.com/NicerInPerson/status/2014989679796347375",
+      "title": "Claude Code's new hidden feature: Swarms",
+      "content": "<p>Article URL: <a href=\"https://twitter.com/NicerInPerson/status/2014989679796347375\">https://twitter.com/NicerInPerson/status/2014989679796347375</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46743908\">https://news.ycombinator.com/item?id=46743908</a></p>\n<p>Points: 6</p>\n<p># Comments: 2</p>",
+      "author": "AffableSpatula",
+      "published_date": "2026-01-24T14:35:47+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-24T15:21:31.255166+00:00",
+      "updated_at": "2026-01-24T15:21:31.255174+00:00"
+    },
     {
       "id": "df4449806d5f13a33f22863cb619e0b5",
       "url": "https://www.sciencedirect.com/science/article/pii/S000689932600020X?dgcid=rss_sd_all",
@@ -241,106 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-01-24T14:20:35.809541+00:00",
       "updated_at": "2026-01-24T14:20:35.809551+00:00"
-    },
-    {
-      "id": "27829649f3d6f0eb7dcffd8e07cc8acc",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926000480?dgcid=rss_sd_all",
-      "title": "Excess iron in deep gray matter is associated with cognitive and functional decline: The mediating role of white matter myelin",
-      "content": "<p>Publication date: 15 February 2026</p><p><b>Source:</b> NeuroImage, Volume 327</p><p>Author(s): Jonghyun Bae, Angelique De Rouen, Zhaoyuan Gong, Nathan Zhang, Noam Y. Fox, Murat Bilgel, Christopher M. Bergeron, Luigi Ferrucci, Mustapha Bouhrara</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 29,
-      "reading_time": 1,
-      "created_at": "2026-01-24T13:32:14.135744+00:00",
-      "updated_at": "2026-01-24T14:15:40.750319+00:00",
-      "metadata": {
-        "processed_at": "2026-01-24T14:15:40.750329+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "cb5571ce34934d2239d0d96a14694b69",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926000595?dgcid=rss_sd_all",
-      "title": "Functional brain-to-brain transformation without shared stimuli",
-      "content": "<p>Publication date: 15 February 2026</p><p><b>Source:</b> NeuroImage, Volume 327</p><p>Author(s): Navve Wasserman, Roman Beliy, Roy Urbach, Michal Irani</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 16,
-      "reading_time": 1,
-      "created_at": "2026-01-24T13:32:14.135724+00:00",
-      "updated_at": "2026-01-24T14:15:40.750333+00:00",
-      "metadata": {
-        "processed_at": "2026-01-24T14:15:40.750335+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fe7d125ae209711d44fde46c7efa6752",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926000649?dgcid=rss_sd_all",
-      "title": "Standardized quantification of [<sup>18</sup>F]Florbetazine amyloid PET with the Centiloid scale",
-      "content": "<p>Publication date: 15 February 2026</p><p><b>Source:</b> NeuroImage, Volume 327</p><p>Author(s): Meiqi Wu, Menglin Liang, Chenhui Mao, Liling Dong, Qi Ge, Yuying Li, Jingnan Wang, Chao Ren, Haiqiong Zhang, Zhenghai Huang, Haiqun Xing, Xueqian Yang, Yuan Wang, Runze Wu, Feng Feng, Mengchao Cui, Jing Gao, Li Huo</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 44,
-      "reading_time": 1,
-      "created_at": "2026-01-24T13:32:14.135705+00:00",
-      "updated_at": "2026-01-24T14:15:40.750338+00:00",
-      "metadata": {
-        "processed_at": "2026-01-24T14:15:40.750339+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d2b7aaf4cd45a936ad085d7e214bd828",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926000546?dgcid=rss_sd_all",
-      "title": "Differential representations of spatial environments in mPFC and hippocampus underpinning flexible navigation",
-      "content": "<p>Publication date: 15 February 2026</p><p><b>Source:</b> NeuroImage, Volume 327</p><p>Author(s): Paulina Maxim, Thackery I. Brown</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-24T13:32:14.135683+00:00",
-      "updated_at": "2026-01-24T14:15:40.750342+00:00",
-      "metadata": {
-        "processed_at": "2026-01-24T14:15:40.750343+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "29eedc82df2c87e25f86837177f4003c",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926000613?dgcid=rss_sd_all",
-      "title": "A watershed algorithm GUI for personalized fMRI-guided rTMS target",
-      "content": "<p>Publication date: 15 February 2026</p><p><b>Source:</b> NeuroImage, Volume 327</p><p>Author(s): Zi-Jian Feng, Ziyu Wei, Liquan Hong, Hongli Fang, Yu Han, Peifeng Yang, Dongsheng Lv, Yu-Feng Zang</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 24,
-      "reading_time": 1,
-      "created_at": "2026-01-24T13:32:14.135654+00:00",
-      "updated_at": "2026-01-24T14:15:40.750345+00:00",
-      "metadata": {
-        "processed_at": "2026-01-24T14:15:40.750347+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
