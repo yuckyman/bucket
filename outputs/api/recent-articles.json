@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-01-24T14:21:43.280239+00:00",
+  "last_updated": "2026-01-24T14:45:17.554843+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "df4449806d5f13a33f22863cb619e0b5",
+      "url": "https://www.sciencedirect.com/science/article/pii/S000689932600020X?dgcid=rss_sd_all",
+      "title": "EAE models of neuropathic pain in multiple sclerosis do not require pertussis toxin",
+      "content": "<p>Publication date: 15 March 2026</p><p><b>Source:</b> Brain Research, Volume 1875</p><p>Author(s): Sydney R. Lamerand, Paramita Basu, Nina E. Gakii, Skyy S. Steber, Bradley K. Taylor</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 23,
+      "reading_time": 1,
+      "created_at": "2026-01-24T14:44:50.934743+00:00",
+      "updated_at": "2026-01-24T14:44:50.934745+00:00"
+    },
+    {
+      "id": "3df256d524e3fc7842bdb6b5772d75c7",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899326000223?dgcid=rss_sd_all",
+      "title": "Genetics of Autism Spectrum Disorder underscores the role of altered spontaneous neuronal activity as a catalyst for the neurodevelopmental anomalies",
+      "content": "<p>Publication date: 15 March 2026</p><p><b>Source:</b> Brain Research, Volume 1875</p><p>Author(s): Sarani Dey, Abhijit Das</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-24T14:44:50.934683+00:00",
+      "updated_at": "2026-01-24T14:44:50.934685+00:00"
+    },
+    {
+      "id": "2b5e21d5c9d66628fd1b2e60407de021",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899326000260?dgcid=rss_sd_all",
+      "title": "The oral-gut-brain axis in periodontitis: microbial signaling in systemic and neuroinflammatory disease",
+      "content": "<p>Publication date: 15 March 2026</p><p><b>Source:</b> Brain Research, Volume 1875</p><p>Author(s): V. Pravin, Chitra Vellapandian, V. Naveen Kumar</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 16,
+      "reading_time": 1,
+      "created_at": "2026-01-24T14:44:50.934663+00:00",
+      "updated_at": "2026-01-24T14:44:50.934665+00:00"
+    },
     {
       "id": "2909b7e052720644ba0f677c0daab39d",
       "url": "https://www.nature.com/articles/s41467-026-68449-6",
@@ -293,54 +341,6 @@
         "processed_at": "2026-01-24T14:15:40.750347+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "dba557f57b31bdb4995dfe3caca8122a",
-      "url": "https://www.nature.com/articles/s42003-026-09563-5",
-      "title": "Differential GABA dynamics across brain functional networks in autism",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-24T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-24T13:32:11.787259+00:00",
-      "updated_at": "2026-01-24T13:32:11.787261+00:00"
-    },
-    {
-      "id": "23c06baf9010768b659cb2979b2c4502",
-      "url": "https://www.nature.com/articles/s41598-026-36872-w",
-      "title": "Integrative molecular simulations reveal NeuroAid II mechanisms in ischemic stroke through network pharmacology, molecular dynamics, and pharmacophore modeling",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-24T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-24T13:32:11.787239+00:00",
-      "updated_at": "2026-01-24T13:32:11.787241+00:00"
-    },
-    {
-      "id": "11d3c138fe5364721c8bdb77a1469f0a",
-      "url": "https://www.reddit.com/r/Python/comments/1qlm4hf/pyvq_a_vector_quantization_library_for_python/",
-      "title": "PyVq: A vector quantization library for Python",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What My Project Does</strong> PyVq is a Python library for vector quantization. It helps reduce the size of high-dimensional vectors like vector embeddings. It can help with memory use and also make similarity search faster.</p> <p>Currently, PyVq has these features.</p> <ul> <li>Implementations for BQ, SQ, PQ, and TSVQ algorithms.</li> <li>Support for SIMD acceleration and multi-threading.</li> <li>Support for zero-copy operations.</li> <li>Support for Euclidean, cosine, and Manhattan distances.</li> <li>A uniform API for all quantizer types.</li> <li>Storage reduction of 50 percent or more for input vectors.</li> </ul> <p><strong>Target Audience</strong> AI and ML engineers who optimize vector storage in production. Data scientists who work with high-dimensional embedding datasets. Python developers who want vector compression in their applications. For example, to speed up semantic search.</p> <p><strong>Comparison</strong> I'm aware of very few similar libraries for Python. There is a package called vector-quantize-pytorch that implements a few quantization algorithms in PyTorch. However, there are a few big differences between the PyVq and vector-quantize-pytorch. PyVq's main usefulness is for storage reduction. It can help reduce the storage size for vector data in RAG applications and speed up search. Vector-quantize-pytorch is mainly for deep learning tasks. It helps speed up model training.</p> <p><strong>Why I Made This</strong> I started PyVq because it is an extension of its parent project Vq (which is a vector quantization library for Rust). More people are familiar with Python than Rust, including AI engineers and data scientists, so I made PyVq to make Vq available to a broader audience and make it more useful.</p> <p><strong>Source code</strong> <a href=\"https://github.com/CogitatorTech/vq/tree/main/pyvq\">https://github.com/CogitatorTech/vq/tree/main/pyvq</a></p> <p><strong>Installation</strong></p> <pre><code>pip install pyvq </code></pre> <p>pip install pyvq</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Pomegranate7508\"> /u/No_Pomegranate7508 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qlm4hf/pyvq_a_vector_quantization_library_for_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qlm4hf/pyvq_a_vector_quantization_library_for_python/\">[comments]</a></span>",
-      "author": "/u/No_Pomegranate7508",
-      "published_date": "2026-01-24T12:47:58+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 282,
-      "reading_time": 1,
-      "created_at": "2026-01-24T13:31:36.978736+00:00",
-      "updated_at": "2026-01-24T13:31:36.978738+00:00"
     }
   ]
 }
