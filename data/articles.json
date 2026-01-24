@@ -1,5 +1,21 @@
 [
   {
+    "id": "1c5c3dc69cf80c84cacc27b03325b8ea",
+    "url": "https://www.reddit.com/r/Python/comments/1qllryp/python_api_framework_benchmark_fastapi_vs_django/",
+    "title": "Python API Framework Benchmark: FastAPI vs Django vs Litestar - Real Database Workloads",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I benchmarked the major Python frameworks with <strong>real PostgreSQL workloads</strong>: complex queries, nested relationships, and properly optimized eager loading for each framework (select_related/prefetch_related for Django, selectinload for SQLAlchemy). Each framework tested with multiple servers (Uvicorn, Granian, Gunicorn) in isolated Docker containers with strict resource limits.</p> <p>All database queries are optimized using each framework's best practices - this is a fair comparison of properly-written production code, not naive implementations.</p> <h1>Key Finding</h1> <p><strong>Performance differences collapse from 20x (JSON) to 1.7x (paginated queries) to 1.3x (complex DB queries).</strong> Database I/O is the great equalizer - framework choice barely matters for database-heavy apps.</p> <h1>Frameworks &amp; Servers Tested</h1> <ul> <li><strong>Django Bolt</strong> (runbolt server)</li> <li><strong>FastAPI</strong> (fastapi-uvicorn, fastapi-granian)</li> <li><strong>Litestar</strong> (litestar-uvicorn, litestar-granian)</li> <li><strong>Django REST Framework</strong> (drf-uvicorn, drf-granian, drf-gunicorn)</li> <li><strong>Django Ninja</strong> (ninja-uvicorn, ninja-granian)</li> </ul> <p>Each framework tested with multiple production servers: Uvicorn (ASGI), Granian (Rust-based ASGI/WSGI), and Gunicorn+gevent (async workers).</p> <h1>Test Setup</h1> <ul> <li><strong>Hardware:</strong> MacBook M2 Pro, 32GB RAM</li> <li><strong>Database:</strong> PostgreSQL with realistic data (500 articles, 2000 comments, 100 tags, 50 authors)</li> <li><strong>Docker Isolation:</strong> Each framework runs in its own container with strict resource limits: <ul> <li>500MB RAM limit (<code>--memory=500m</code>)</li> <li>1 CPU core limit (<code>--cpus=1</code>)</li> <li>Sequential execution (start \u2192 benchmark \u2192 stop \u2192 next framework)</li> </ul></li> <li><strong>Load:</strong> 100 concurrent connections, 10s duration, 3 runs (best taken)</li> </ul> <p>This setup ensures completely fair comparison - no resource contention between frameworks, each gets identical isolated environment.</p> <h1>Endpoints Tested</h1> <table><thead> <tr> <th align=\"left\">Endpoint</th> <th align=\"left\">Description</th> </tr> </thead><tbody> <tr> <td align=\"left\"><code>/json-1k</code></td> <td align=\"left\">~1KB JSON response</td> </tr> <tr> <td align=\"left\"><code>/json-10k</code></td> <td align=\"left\">~10KB JSON response</td> </tr> <tr> <td align=\"left\"><code>/db</code></td> <td align=\"left\">10 database reads (simple query)</td> </tr> <tr> <td align=\"left\"><code>/articles?page=1&amp;page_size=20</code></td> <td align=\"left\">Paginated articles with nested author + tags (20 per page)</td> </tr> <tr> <td align=\"left\"><code>/articles/1</code></td> <td align=\"left\">Single article with nested author + tags + comments</td> </tr> </tbody></table> <h1>Results</h1> <h1>1. Simple JSON (/json-1k) - Requests Per Second</h1> <p><strong>20x performance difference</strong> between fastest and slowest.</p> <table><thead> <tr> <th align=\"left\">Framework</th> <th align=\"left\">RPS</th> <th align=\"left\">Latency (avg)</th> </tr> </thead><tbody> <tr> <td align=\"left\">litestar-uvicorn</td> <td align=\"left\"><strong>31,745</strong></td> <td align=\"left\">0.00ms</td> </tr> <tr> <td align=\"left\">litestar-granian</td> <td align=\"left\">22,523</td> <td align=\"left\">0.00ms</td> </tr> <tr> <td align=\"left\">bolt</td> <td align=\"left\">22,289</td> <td align=\"left\">0.00ms</td> </tr> <tr> <td align=\"left\">fastapi-uvicorn</td> <td align=\"left\">12,838</td> <td align=\"left\">0.01ms</td> </tr> <tr> <td align=\"left\">fastapi-granian</td> <td align=\"left\">8,695</td> <td align=\"left\">0.01ms</td> </tr> <tr> <td align=\"left\">drf-gunicorn</td> <td align=\"left\">4,271</td> <td align=\"left\">0.02ms</td> </tr> <tr> <td align=\"left\">drf-granian</td> <td align=\"left\">4,056</td> <td align=\"left\">0.02ms</td> </tr> <tr> <td align=\"left\">ninja-granian</td> <td align=\"left\">2,403</td> <td align=\"left\">0.04ms</td> </tr> <tr> <td align=\"left\">ninja-uvicorn</td> <td align=\"left\">2,267</td> <td align=\"left\">0.04ms</td> </tr> <tr> <td align=\"left\">drf-uvicorn</td> <td align=\"left\">1,582</td> <td align=\"left\">0.06ms</td> </tr> </tbody></table> <h1>2. Real Database - Paginated Articles (/articles?page=1&amp;page_size=20)</h1> <p><strong>Performance gap shrinks to just 1.7x</strong> when hitting the database. Query optimization becomes the bottleneck.</p> <table><thead> <tr> <th align=\"left\">Framework</th> <th align=\"left\">RPS</th> <th align=\"left\">Latency (avg)</th> </tr> </thead><tbody> <tr> <td align=\"left\">litestar-uvicorn</td> <td align=\"left\"><strong>253</strong></td> <td align=\"left\">0.39ms</td> </tr> <tr> <td align=\"left\">litestar-granian</td> <td align=\"left\">238</td> <td align=\"left\">0.41ms</td> </tr> <tr> <td align=\"left\">bolt</td> <td align=\"left\">237</td> <td align=\"left\">0.42ms</td> </tr> <tr> <td align=\"left\">fastapi-uvicorn</td> <td align=\"left\">225</td> <td align=\"left\">0.44ms</td> </tr> <tr> <td align=\"left\">drf-granian</td> <td align=\"left\">221</td> <td align=\"left\">0.44ms</td> </tr> <tr> <td align=\"left\">fastapi-granian</td> <td align=\"left\">218</td> <td align=\"left\">0.45ms</td> </tr> <tr> <td align=\"left\">drf-uvicorn</td> <td align=\"left\">178</td> <td align=\"left\">0.54ms</td> </tr> <tr> <td align=\"left\">drf-gunicorn</td> <td align=\"left\">146</td> <td align=\"left\">0.66ms</td> </tr> <tr> <td align=\"left\">ninja-uvicorn</td> <td align=\"left\">146</td> <td align=\"left\">0.66ms</td> </tr> <tr> <td align=\"left\">ninja-granian</td> <td align=\"left\">142</td> <td align=\"left\">0.68ms</td> </tr> </tbody></table> <h1>3. Real Database - Article Detail (/articles/1)</h1> <p><strong>Gap narrows to 1.3x</strong> - frameworks perform nearly identically on complex database queries.</p> <p>Single article with all nested data (author + tags + comments):</p> <table><thead> <tr> <th align=\"left\">Framework</th> <th align=\"left\">RPS</th> <th align=\"left\">Latency (avg)</th> </tr> </thead><tbody> <tr> <td align=\"left\">fastapi-uvicorn</td> <td align=\"left\"><strong>550</strong></td> <td align=\"left\">0.18ms</td> </tr> <tr> <td align=\"left\">litestar-granian</td> <td align=\"left\">543</td> <td align=\"left\">0.18ms</td> </tr> <tr> <td align=\"left\">litestar-uvicorn</td> <td align=\"left\">519</td> <td align=\"left\">0.19ms</td> </tr> <tr> <td align=\"left\">bolt</td> <td align=\"left\">487</td> <td align=\"left\">0.21ms</td> </tr> <tr> <td align=\"left\">fastapi-granian</td> <td align=\"left\">480</td> <td align=\"left\">0.21ms</td> </tr> <tr> <td align=\"left\">drf-granian</td> <td align=\"left\">367</td> <td align=\"left\">0.27ms</td> </tr> <tr> <td align=\"left\">ninja-uvicorn</td> <td align=\"left\">346</td> <td align=\"left\">0.28ms</td> </tr> <tr> <td align=\"left\">ninja-granian</td> <td align=\"left\">332</td> <td align=\"left\">0.30ms</td> </tr> <tr> <td align=\"left\">drf-uvicorn</td> <td align=\"left\">285</td> <td align=\"left\">0.35ms</td> </tr> <tr> <td align=\"left\">drf-gunicorn</td> <td align=\"left\">200</td> <td align=\"left\">0.49ms</td> </tr> </tbody></table> <h1>Complete Performance Summary</h1> <table><thead> <tr> <th align=\"left\">Framework</th> <th align=\"left\">JSON 1k</th> <th align=\"left\">JSON 10k</th> <th align=\"left\">DB (10 reads)</th> <th align=\"left\">Paginated</th> <th align=\"left\">Article Detail</th> </tr> </thead><tbody> <tr> <td align=\"left\">litestar-uvicorn</td> <td align=\"left\">31,745</td> <td align=\"left\">24,503</td> <td align=\"left\">1,032</td> <td align=\"left\">253</td> <td align=\"left\">519</td> </tr> <tr> <td align=\"left\">litestar-granian</td> <td align=\"left\">22,523</td> <td align=\"left\">17,827</td> <td align=\"left\">1,184</td> <td align=\"left\">238</td> <td align=\"left\">543</td> </tr> <tr> <td align=\"left\">bolt</td> <td align=\"left\">22,289</td> <td align=\"left\">18,923</td> <td align=\"left\">2,000</td> <td align=\"left\">237</td> <td align=\"left\">487</td> </tr> <tr> <td align=\"left\">fastapi-uvicorn</td> <td align=\"left\">12,838</td> <td align=\"left\">2,383</td> <td align=\"left\">1,105</td> <td align=\"left\">225</td> <td align=\"left\"><strong>550</strong></td> </tr> <tr> <td align=\"left\">fastapi-granian</td> <td align=\"left\">8,695</td> <td align=\"left\">2,039</td> <td align=\"left\">1,051</td> <td align=\"left\">218</td> <td align=\"left\">480</td> </tr> <tr> <td align=\"left\">drf-granian</td> <td align=\"left\">4,056</td> <td align=\"left\">2,817</td> <td align=\"left\">972</td> <td align=\"left\">221</td> <td align=\"left\">367</td> </tr> <tr> <td align=\"left\">drf-gunicorn</td> <td align=\"left\">4,271</td> <td align=\"left\">3,423</td> <td align=\"left\">298</td> <td align=\"left\">146</td> <td align=\"left\">200</td> </tr> <tr> <td align=\"left\">ninja-uvicorn</td> <td align=\"left\">2,267</td> <td align=\"left\">2,084</td> <td align=\"left\">890</td> <td align=\"left\">146</td> <td align=\"left\">346</td> </tr> <tr> <td align=\"left\">ninja-granian</td> <td align=\"left\">2,403</td> <td align=\"left\">2,085</td> <td align=\"left\">831</td> <td align=\"left\">142</td> <td align=\"left\">332</td> </tr> <tr> <td align=\"left\">drf-uvicorn</td> <td align=\"left\">1,582</td> <td align=\"left\">1,440</td> <td align=\"left\">642</td> <td align=\"left\">178</td> <td align=\"left\">285</td> </tr> </tbody></table> <h1>Resource Usage Insights</h1> <p><strong>Memory:</strong></p> <ul> <li>Most frameworks: 170-220MB</li> <li>DRF-Granian: 640-670MB (WSGI interface vs ASGI for others - Granian's WSGI mode uses more memory)</li> </ul> <p><strong>CPU:</strong></p> <ul> <li>Most frameworks saturate the 1 CPU limit (100%+) under load</li> <li>Granian variants consistently max out CPU across all frameworks</li> </ul> <h1>Server Performance Notes</h1> <ul> <li><strong>Uvicorn</strong> surprisingly won for Litestar (31,745 RPS), beating Granian</li> <li><strong>Granian</strong> delivered consistent high performance for FastAPI and other frameworks</li> <li><strong>Gunicorn + gevent</strong> showed good performance for DRF on simple queries, but struggled with database workloads</li> </ul> <h1>Key Takeaways</h1> <ol> <li><strong>Performance gap collapse:</strong> 20x difference in JSON serialization \u2192 1.7x in paginated queries \u2192 1.3x in complex queries</li> <li><strong>Litestar-Uvicorn</strong> dominates simple workloads (31,745 RPS), but <strong>FastAPI-Uvicorn</strong> wins on complex database queries (550 RPS)</li> <li><strong>Database I/O is the equalizer:</strong> Once you hit the database, framework overhead becomes negligible. Query optimization matters infinitely more than framework choice.</li> <li><strong>WSGI uses more memory:</strong> Granian's WSGI mode (DRF-Granian) uses 640MB vs ~200MB for ASGI variants - just a difference in protocol handling, not a performance issue.</li> </ol> <h1>Bottom Line</h1> <p><strong>If you're building a database-heavy API (which most are), spend your time optimizing queries, not choosing between frameworks. They all perform nearly identically when properly optimized.</strong></p> <h1>Links</h1> <ul> <li><strong>Full results, code, and reproducible Docker setup:</strong> <a href=\"https://github.com/huynguyengl99/python-api-frameworks-benchmark\">https://github.com/huynguyengl99/python-api-frameworks-benchmark</a></li> <li><strong>Original post with graphs and detailed analysis:</strong> <a href=\"https://www.reddit.com/r/FastAPIShare/comments/1qlfihg/python_api_framework_benchmark_fastapi_vs/\">https://www.reddit.com/r/FastAPIShare/comments/1qlfihg/python_api_framework_benchmark_fastapi_vs/</a></li> <li><strong>More discussion:</strong> <a href=\"/r/FastAPIShare\">r/FastAPIShare</a></li> </ul> <p>Inspired by the original python-api-frameworks-benchmark project. All feedback and suggestions welcome!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/huygl99\"> /u/huygl99 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qllryp/python_api_framework_benchmark_fastapi_vs_django/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qllryp/python_api_framework_benchmark_fastapi_vs_django/\">[comments]</a></span>",
+    "author": "/u/huygl99",
+    "published_date": "2026-01-24T12:29:55+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 1059,
+    "reading_time": 5,
+    "created_at": "2026-01-24T12:42:41.643541+00:00",
+    "updated_at": "2026-01-24T12:42:41.643543+00:00"
+  },
+  {
     "id": "ef1d360d604223946bde97ad8fab7bd1",
     "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1574044",
     "title": "Path planning of industrial robots based on the adaptive field cooperative sampling algorithm",
@@ -36,6 +52,26 @@
     "updated_at": "2026-01-24T12:31:31.338150+00:00",
     "metadata": {
       "processed_at": "2026-01-24T12:31:31.338152+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "2ba7ee955f31cb6042d8d4fb8f8da7ee",
+    "url": "https://maxwell.eurofusion.eu/git/rnhmjoj/modetc",
+    "title": "Modetc: Move your dotfiles from kernel space",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46741929\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-24T08:16:25+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-24T10:45:50.453318+00:00",
+    "updated_at": "2026-01-24T12:31:31.338154+00:00",
+    "metadata": {
+      "processed_at": "2026-01-24T12:31:31.338156+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -130,26 +166,6 @@
     "reading_time": 1,
     "created_at": "2026-01-24T10:45:49.056109+00:00",
     "updated_at": "2026-01-24T10:45:49.056111+00:00"
-  },
-  {
-    "id": "2ba7ee955f31cb6042d8d4fb8f8da7ee",
-    "url": "https://maxwell.eurofusion.eu/git/rnhmjoj/modetc",
-    "title": "Modetc: Move your dotfiles from kernel space",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46741929\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-24T08:16:25+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-24T10:45:50.453318+00:00",
-    "updated_at": "2026-01-24T12:31:31.338154+00:00",
-    "metadata": {
-      "processed_at": "2026-01-24T12:31:31.338156+00:00",
-      "processing_method": "github_actions"
-    }
   },
   {
     "id": "5b8cf016ee9785a9d9fd2a807c3458f6",
@@ -17064,26 +17080,6 @@
     "updated_at": "2026-01-20T08:25:38.519458+00:00",
     "metadata": {
       "processed_at": "2026-01-20T08:25:38.519460+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "5a287f5968e2c7c357c288d25d4e9a27",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.18.700235v1?rss=1",
-    "title": "Neural representation of action grammar structure in primate frontal cortex",
-    "content": "Humans and other animals can solve new problems, even on the first attempt. This capacity to generate novel problem-solving behavior has been hypothesized to depend on brain mechanisms for recombining units of knowledge using systems of procedural rules, or grammars. Yet, whether and how the brain represents and implements grammars remains unclear, in large part due to the lack of neural recordings (typically performed in animal models) during grammar-based problem solving (typically studied in humans). Here, we address that gap, and in turn identify an underlying neural basis of grammatical behavior. We designed a visual-motor construction task in which macaque monkeys trace complex, often novel, geometric figures by generating a sequence of strokes, each a distinct shape, like a circle, dash, or chevron (action symbols [1]). Critically, sequencing was guided by a learned hierarchical action grammar AnBmCk, meaning \"repeat shape A, then repeat shape B, then repeat shape C\", where the number of repetitions (n, m, and k) varied across problems. Behavior was internally generated (no cues guiding stroke order), problem-directed (to construct a specific image), and exhibited zero-shot generalization (successful on the first trial for novel problems, including harder ones)--key hallmarks of grammar use. To identify underlying neural substrates, we recorded from multiple frontal cortical areas previously implicated in rule use or action sequencing. Activity during drawing encoded key structural properties of the action grammar: (i) shape index (A, B, C), (ii) abstract role (e.g., the role A independent of the specific shape), and (iii) ordinal position within a shape repeat. Moreover, all three properties were strongest in a single region, the pre-supplementary motor area (preSMA). We suggest that this conjunction of representations is a signature of an implementation of an iterative algorithm resembling a \"for-loop\" program: internally tracking how many repetitions remain for each shape index and switching to the next when complete. Our study establishes a paradigm for studying the neural basis of grammar-guided novel behavior and identifies in preSMA a dynamic representation of grammatical structure supporting such behavior.",
-    "author": "Tian, L. Y., Hanuska, D. J., Garzon Gupta, K., Liu, Y., Wang, X.-J., Tenenbaum, J. B., Freiwald, W. A.",
-    "published_date": "2026-01-19T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 332,
-    "reading_time": 1,
-    "created_at": "2026-01-20T06:38:48.037406+00:00",
-    "updated_at": "2026-01-20T08:25:38.519462+00:00",
-    "metadata": {
-      "processed_at": "2026-01-20T08:25:38.519464+00:00",
       "processing_method": "github_actions"
     }
   }
