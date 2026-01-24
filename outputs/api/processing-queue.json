@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-01-24T08:21:07.833893+00:00",
-  "pending_count": 734,
-  "processed_count": 266,
+  "last_updated": "2026-01-24T10:16:54.973707+00:00",
+  "pending_count": 731,
+  "processed_count": 269,
   "pending_articles": [
     {
       "id": "e90c8acde3c9ba067f38bdeae7a84d3d",
@@ -166,6 +166,126 @@
   ],
   "recently_processed": [
     {
+      "id": "11eba19df08616fa5f3729b527a2eefb",
+      "url": "https://www.nytimes.com/2026/01/14/arts/music/oboe-laubin-jim-phelan.html",
+      "title": "If You Think This Instrument Is Hard to Play, Try Building One",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46675193\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-19T04:55:23+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-24T08:51:50.243208+00:00",
+      "updated_at": "2026-01-24T10:16:54.867900+00:00",
+      "metadata": {
+        "processed_at": "2026-01-24T10:16:54.867909+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "90c3984632bd4ab82fb6cc44f4e618f2",
+      "url": "https://www.npr.org/2026/01/20/nx-s1-5683170/let-them-the-small-bit-of-advice-that-made-a-big-difference-to-a-grieving-widow",
+      "title": "\"People are going to stop and ask you, 'How can I help?' Let them.\"",
+      "content": "<p>Article URL: <a href=\"https://www.npr.org/2026/01/20/nx-s1-5683170/let-them-the-small-bit-of-advice-that-made-a-big-difference-to-a-grieving-widow\">https://www.npr.org/2026/01/20/nx-s1-5683170/let-them-the-small-bit-of-advice-that-made-a-big-difference-to-a-grieving-widow</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46740748\">https://news.ycombinator.com/item?id=46740748</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "author": "NaOH",
+      "published_date": "2026-01-24T03:20:51+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-24T08:51:48.919564+00:00",
+      "updated_at": "2026-01-24T10:16:54.867913+00:00",
+      "metadata": {
+        "processed_at": "2026-01-24T10:16:54.867915+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "437dd11491bad5ef899b86bf9271e125",
+      "url": "http://doi.org/10.1037/cns0000370",
+      "title": "Investigating how individual differences in selective attention relate to schizotypy and altered states of consciousness.",
+      "content": "Measures of altered states of consciousness (ASC) are useful for understanding anomalies within conscious experiences. Within psychedelic clinical trials, ASC have been associated with long-term positive treatment outcomes for numerous types of mental illnesses. Schizotypal Personality Scale (STA), a set of personality traits that can be related to psychedelic-induced ASC, is associated with potential changes in selective attention, such as being less bound to previously learned associations (i.e., reduced associative blocking). Given the similarity between schizotypy and psychedelic-induced ASC, we hypothesized that there may be attentional differences in individuals with past experiences of ASC. This study examined how differences in selective attention relate to past experiences of ASC and STA. In Study 1, participants completed a visual categorization task designed to elicit associative blocking, the STA, and the ASC scale. Results revealed slow learning feature\u2013category associations in participants high in ASC and STA. Study 2 tested whether this deficit in performance was due to widened attention by implementing additional inference trials that measured incidental learning of feature\u2013feature associations. Results from Study 2 confirmed that participants high in ASC and STA show deficits in learning categories, but this was not accounted for by wider selective attention per se. Our results suggest that flexible or widened attention may not be the locus of cognitive changes associated with past experiences of ASC. Rather, by showing reliable latency in an error-driven learning task, we add to a comprehensive understanding of the relationships between cognition and ASC. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2023-09-14T00:00:00+00:00",
+      "source": "Clinical Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 251,
+      "reading_time": 1,
+      "created_at": "2026-01-24T08:28:51.948911+00:00",
+      "updated_at": "2026-01-24T10:16:54.867918+00:00",
+      "metadata": {
+        "processed_at": "2026-01-24T10:16:54.867920+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "39eac35265c4cc6ceb91c57d4c10c332",
+      "url": "https://www.reddit.com/r/Python/comments/1qlh0bl/i_built_a_cli_that_turns_websites_into_real/",
+      "title": "I built a CLI that turns websites into real Playwright scrapers",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I built <strong>ScrapeWizard</strong> because using LLMs to write scrapers is slow and expensive \u2014 you keep generating code, running it, fixing it, and burning API credits.</p> <p>ScrapeWizard does it differently.<br /> It scans the website (DOM, JS, network calls, selectors, pagination) and uses AI <strong>only to generate and fix the scraper code</strong>.<br /> The actual scraping runs locally with Playwright.</p> <p>So even if data extraction fails, you still get a full working script with all the site details that you can edit and reuse.</p> <p>GitHub:<br /> <a href=\"https://github.com/pras-ops/ScrapeWizard\">https://github.com/pras-ops/ScrapeWizard</a></p> <p>Would love feedback from people who scrape or automate.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Acceptable_Grass2812\"> /u/Acceptable_Grass2812 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qlh0bl/i_built_a_cli_that_turns_websites_into_real/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qlh0bl/i_built_a_cli_that_turns_websites_into_real/\">[comments]</a></span>",
+      "author": "/u/Acceptable_Grass2812",
+      "published_date": "2026-01-24T07:49:30+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 118,
+      "reading_time": 1,
+      "created_at": "2026-01-24T08:28:43.100558+00:00",
+      "updated_at": "2026-01-24T10:16:54.867922+00:00",
+      "metadata": {
+        "processed_at": "2026-01-24T10:16:54.867923+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "41e04ddadda9ef8273b9eeaab5d88acb",
+      "url": "https://nand2mario.github.io/posts/2026/80386_multiplication_and_division/",
+      "title": "80386 Multiplication and Division",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46741482\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-24T06:11:42+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-24T08:28:41.883583+00:00",
+      "updated_at": "2026-01-24T10:16:54.867925+00:00",
+      "metadata": {
+        "processed_at": "2026-01-24T10:16:54.867927+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "41e04ddadda9ef8273b9eeaab5d88acb",
+      "url": "https://nand2mario.github.io/posts/2026/80386_multiplication_and_division/",
+      "title": "80386 Multiplication and Division",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46741482\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-24T06:11:42+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-24T08:28:41.883583+00:00",
+      "updated_at": "2026-01-24T10:16:54.867925+00:00",
+      "metadata": {
+        "processed_at": "2026-01-24T10:16:54.867927+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "b84f4acfaa385c55c9bcc74850be8c16",
       "url": "http://doi.org/10.1037/cns0000380",
       "title": "Sensory-processing sensitivity as a confounder in the positive relationship between mindful awareness and psychological distress: A theoretical review.",
@@ -242,126 +362,6 @@
       "updated_at": "2026-01-24T08:21:07.720194+00:00",
       "metadata": {
         "processed_at": "2026-01-24T08:21:07.720196+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3cace5c5d9bdc4eeebb05365c3e99538",
-      "url": "http://doi.org/10.1037/cns0000402",
-      "title": "Creating a world in the head: The conscious apprehension of neural content originating from internal sources.",
-      "content": "Klein et al. (2023) argued that the evolutionary transition from respondent to agent during the Cambrian explosion would be a promising vantage point from which to gain insight into the evolution of organic sentience. They focused on how increased competition for resources\u2014in consequence of the proliferation of new, neurally sophisticated life-forms\u2014made awareness of the external world (in the service of agentic acts) an adaptive priority. The explanatory scope of Klein et al. (2023) was limited to consideration of the conscious apprehension of externally sourced content\u2014that is, content delivered from the sensory registration of objects occupying phenomenal space. But consciousness\u2014at least for humans\u2014takes its objects from internal as well as external sources. In the present article, we extend their analysis to the question of how internally sourced content (i.e., mental states) became the object of conscious apprehension. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2024-09-09T00:00:00+00:00",
-      "source": "Clinical Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 145,
-      "reading_time": 1,
-      "created_at": "2026-01-24T07:21:06.196694+00:00",
-      "updated_at": "2026-01-24T08:21:07.720198+00:00",
-      "metadata": {
-        "processed_at": "2026-01-24T08:21:07.720199+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "733759b3d1d3afacbeafc7c58bee4024",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.22.700520v1?rss=1",
-      "title": "Long-Term Expression and Safety of AAV1-Mediated PI3K\u03b4 Overexpression in the Adult Rat Cortex",
-      "content": "Mature CNS neurons are incapable of sufficiently regenerating their axons following spinal cord injury (SCI). This is largely due to developmental changes in epigenetic control leading to suppression of axon growth transcriptomic profile, leading to a shift towards synapse function support. Recently, manipulating the PI3K/Akt/mTOR pathway through PI3K{delta} overexpression in cortical neurons enhanced axonal regeneration of corticospinal tract axons, which was accompanied by functional recovery monitored for up to 16 weeks. However, PI3K is more widely known for its role as an oncogene, and since overexpression is achieved by the use of AAVs, valid safety concerns are raised as it is unknown what the long-term consequences of sustained PI3K{delta} expression in the brain are, which may be necessary to achieve complete re-establishment of the motor pathway. In this study, AAV1-hSYN-PIK3CD was injected into the motor cortex of rats, which survived for 1 year. Comparison with uninjected control animals reveal stable PI3K{delta} expression and sustained pathway activation through increased pS6. PI3K{delta}-treated animals show absence of tumour formation, neural soma hypertrophy, glial cell activation, or haematological or biochemical abnormalities. Thus, long-term neuronal PI3K{delta} expression appears to be well tolerated and may provide a safe and durable strategy to promote functional repair following SCI.",
-      "author": "Knight, L., Polcanova, Z., Marekova, D., Machova Urdzikova, L., Jirak, D., Ziolkowska, N., Makovicky, P., de Winter, F., Kwok, J. C. F., Jendelova, P., Fawcett, J., Karova, K.",
-      "published_date": "2026-01-23T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 201,
-      "reading_time": 1,
-      "created_at": "2026-01-24T04:55:51.875197+00:00",
-      "updated_at": "2026-01-24T06:25:09.733525+00:00",
-      "metadata": {
-        "processed_at": "2026-01-24T06:25:09.733535+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1d04b73ba10c5ace3f867683cc1e4079",
-      "url": "https://www.nature.com/articles/s41531-026-01272-4",
-      "title": "Micro-nanoplastics and Parkinson\u2019s disease: evidence and perspectives",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-24T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-24T04:55:50.519112+00:00",
-      "updated_at": "2026-01-24T06:25:09.733539+00:00",
-      "metadata": {
-        "processed_at": "2026-01-24T06:25:09.733541+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a69fd94758543cc723146e27f10ddd14",
-      "url": "https://blog.dshr.org/2026/01/internet-archives-storage.html",
-      "title": "Internet Archive's Storage",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46694618\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-20T17:16:49+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-24T04:55:09.608844+00:00",
-      "updated_at": "2026-01-24T06:25:09.733544+00:00",
-      "metadata": {
-        "processed_at": "2026-01-24T06:25:09.733546+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "42337398c10dab8aedd4ffb73b1895ab",
-      "url": "https://riverseeber.net/blog/post/the-internet-doesnt-suck/",
-      "title": "The Internet Doesn't Suck: Blame Big Tech, Not the Internet",
-      "content": "<p>Article URL: <a href=\"https://riverseeber.net/blog/post/the-internet-doesnt-suck/\">https://riverseeber.net/blog/post/the-internet-doesnt-suck/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46740280\">https://news.ycombinator.com/item?id=46740280</a></p>\n<p>Points: 12</p>\n<p># Comments: 3</p>",
-      "author": "cratermoon",
-      "published_date": "2026-01-24T01:41:45+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-24T04:11:56.271205+00:00",
-      "updated_at": "2026-01-24T04:32:06.469126+00:00",
-      "metadata": {
-        "processed_at": "2026-01-24T04:32:06.469136+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bb5c420905a3815f787af6b349ca15c5",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.21.700857v1?rss=1",
-      "title": "Beyond the Focus of Expansion: Retinal curl as a functional signal for heading estimation",
-      "content": "Prevailing models aiming at explaining heading assume that humans need to recover the Focus of Expansion (FOE) while filtering out rotational flow (curl) caused by eye movements. We propose an alternative: the visual system utilizes retinal curl directly to estimate heading, rendering the explicit recovery of the FOE unnecessary. Stationary participants viewed simulated walking paths on a large screen while fixating on ground targets at varying eccentricities -a natural behavior inducing sustained retinal curl. Participants continuously reported perceived heading. To isolate the role of rotational flow, we employed a real-time manipulation that kept translational flow constant while the foveal curl component was either intact, cancelled, or overcancelled. Under natural conditions, participants exhibited systematic heading biases opposite the direction of gaze. Crucially, these biases vanished in the 'cancelled curl' condition, identifying retinal curl as the specific driver of perceptual bias. We modeled these results using a simple feedback controller and a ring-attractor neural network featuring gaze-contingent inhibition and a 'straight-ahead' prior. These findings suggest the brain exploits the geometry of gaze stabilization to simplify navigation, treating retinal curl as a functional signal rather than noise to be filtered.",
-      "author": "Zorpala, K. I., Lopez-Moliner, J.",
-      "published_date": "2026-01-23T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 187,
-      "reading_time": 1,
-      "created_at": "2026-01-24T03:28:21.025631+00:00",
-      "updated_at": "2026-01-24T04:32:06.469140+00:00",
-      "metadata": {
-        "processed_at": "2026-01-24T04:32:06.469142+00:00",
         "processing_method": "github_actions"
       }
     }
