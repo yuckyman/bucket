@@ -1,5 +1,37 @@
 [
   {
+    "id": "a5d7ec5cf71e881e1a784d32d0c21202",
+    "url": "https://www.nature.com/articles/s41598-025-31833-1",
+    "title": "Effects of immersive virtual reality and adaptive cognitive training on cognition and function in parkinson\u2019s disease mild cognitive impairment: a randomized clinical trial",
+    "content": "",
+    "author": "",
+    "published_date": "2026-01-25T00:00:00+00:00",
+    "source": "Nature Neuroscience Subjects",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2026-01-25T11:40:51.234560+00:00",
+    "updated_at": "2026-01-25T11:40:51.234562+00:00"
+  },
+  {
+    "id": "8300e967204a2d887253815b023463c7",
+    "url": "https://www.batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries/",
+    "title": "BU-808: How to Prolong Lithium-based Batteries (2023)",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46729198\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-23T06:34:31+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-25T11:40:11.127512+00:00",
+    "updated_at": "2026-01-25T11:40:11.127514+00:00"
+  },
+  {
     "id": "1d8ce7b29333d57e214aad5844105dcd",
     "url": "https://github.com/cyril/accept_language.rb",
     "title": "Accept_language 2.2 \u2013 RFC 7231/4647 compliant Accept-Language parsing for Ruby",
@@ -17042,37 +17074,5 @@
     "reading_time": 1,
     "created_at": "2026-01-21T05:30:22.145832+00:00",
     "updated_at": "2026-01-21T05:30:22.145834+00:00"
-  },
-  {
-    "id": "42f6ce73a7f148914ccf7fb852d4d579",
-    "url": "https://arxiv.org/abs/2601.11653",
-    "title": "AI Agents Need Memory Control Over More Context",
-    "content": "arXiv:2601.11653v1 Announce Type: new \nAbstract: AI agents are increasingly used in long, multi-turn workflows in both research and enterprise settings. As interactions grow, agent behavior often degrades due to loss of constraint focus, error accumulation, and memory-induced drift. This problem is especially visible in real-world deployments where context evolves, distractions are introduced, and decisions must remain consistent over time. A common practice is to equip agents with persistent memory through transcript replay or retrieval-based mechanisms. While convenient, these approaches introduce unbounded context growth and are vulnerable to noisy recall and memory poisoning, leading to unstable behavior and increased drift. In this work, we introduce the Agent Cognitive Compressor (ACC), a bio-inspired memory controller that replaces transcript replay with a bounded internal state updated online at each turn. ACC separates artifact recall from state commitment, enabling stable conditioning while preventing unverified content from becoming persistent memory. We evaluate ACC using an agent-judge-driven live evaluation framework that measures both task outcomes and memory-driven anomalies across extended interactions. Across scenarios spanning IT operations, cybersecurity response, and healthcare workflows, ACC consistently maintains bounded memory and exhibits more stable multi-turn behavior, with significantly lower hallucination and drift than transcript replay and retrieval-based agents. These results show that cognitive compression provides a practical and effective foundation for reliable memory control in long-horizon AI agents.",
-    "author": "Fouad Bousetouane",
-    "published_date": "2026-01-21T05:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 218,
-    "reading_time": 1,
-    "created_at": "2026-01-21T05:30:22.145787+00:00",
-    "updated_at": "2026-01-21T05:30:22.145791+00:00"
-  },
-  {
-    "id": "ef0b7cbd37bda26821e7c3af30e9d040",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.16.699975v1?rss=1",
-    "title": "Motor unit discharge properties are modestly influenced by menstrual cycle-related fluctuations in sex hormone concentrations",
-    "content": "Concentrations of estradiol (E2) and progesterone (P4), the main female sex hormones, exhibit large fluctuations across the menstrual cycle. Due to their receptors throughout the central nervous system, both hormones have the potential to influence motor function by influencing ionotropic and metabotropic inputs to motor pools, which can be estimated through the neural codes extracted from motor unit discharge patterns. To address key methodological limitations in prior menstrual cycle research on motor output, we established the Motor Units and Sex Hormones (MUSH) collaboration. The objective of this multi-site investigation was to determine whether endogenous fluctuations in estradiol and progesterone influence human motor unit activity. We hypothesized that motor unit discharge rates and persistent inward current (PIC)-related contributions to discharge would be greatest during the late follicular phase, when estradiol concentrations were highest. Fifty females completed a comprehensive protocol involving menstrual cycle and ovulation tracking, serum hormone measurement, and high-density surface electromyographic recordings during isometric contractions to quantify motor unit activity in the early follicular, late follicular, and mid luteal phases. After exclusion of 10 females with either atypical hormone concentration profiles or insufficient motor unit yield, 40 remained in the final analysis. There were significant changes in several motor unit discharge variables between menstrual cycle phases and significant associations with hormone concentrations. Increased estradiol was associated with higher peak discharge rates and ascending discharge rate nonlinearity, while increased progesterone was associated with higher peak discharge rates, more discharge rate hysteresis and ascending discharge rate nonlinearity. Despite reaching statistical significance, the magnitudes of these effects (i.e., effect sizes) were small. Overall, these findings indicate that fluctuations in sex hormones influence motor unit behavior, but the effects are subtle, highlighting the need for well-powered and methodologically rigorous menstrual cycle research.",
-    "author": "Jenz, S. T., Spillane, P., O'Hanlon, M., Nedelec, E., The MUSH Collaboration,, Heckman, C., Piasecki, M., Ansdell, P., Piasecki, J., Pearcey, G. E.",
-    "published_date": "2026-01-20T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 288,
-    "reading_time": 1,
-    "created_at": "2026-01-21T05:30:13.337906+00:00",
-    "updated_at": "2026-01-21T05:30:13.337908+00:00"
   }
 ]
