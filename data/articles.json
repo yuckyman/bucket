@@ -1,5 +1,37 @@
 [
   {
+    "id": "138dbc20af95ce55414e7d62214f9607",
+    "url": "https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab",
+    "title": "Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings",
+    "content": "<p>&#160;</p>\n<p>The post <a href=\"https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab\">Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
+    "author": "Nancy Zimmerman",
+    "published_date": "2025-09-08T16:27:03+00:00",
+    "source": "Embs",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 17,
+    "reading_time": 1,
+    "created_at": "2026-01-25T19:40:15.014812+00:00",
+    "updated_at": "2026-01-25T19:40:15.014814+00:00"
+  },
+  {
+    "id": "38254576a99ab20bf29d51f66fd1e77e",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1649440",
+    "title": "SynSpine: an automated workflow for the generation of longitudinal spinal cord synthetic MRI data",
+    "content": "BackgroundSpinal cord atrophy is a key biomarker for tracking disease progression in neurological disorders, including multiple sclerosis, amyotrophic lateral sclerosis, and spinal cord injury. Recent MRI advancements have improved atrophy detection, particularly in the cervical region, facilitating longitudinal studies. However, validating atrophy quantification algorithms remains challenging due to limited ground truth data.ObjectiveThis study introduces SynSpine, a workflow for generating synthetic spinal cord MRI data (i.e., digital phantoms) with controlled levels of artificial atrophy. These phantoms support the development and preliminary validation of spinal cord imaging pipelines designed to measure degeneration over time.MethodsThe workflow consists of two phases: (1) generating synthetic MR images by isolating, extracting and scaling the spinal cord, simulating atrophy on the PAM50 template; (2) performing non-rigid registration to align the synthetic images with the subject\u2019s native space, ensuring accurate anatomical correspondence. A proof-of-concept application utilizing the Active Surface and Reg methods implemented in Jim demonstrated its effectiveness in detecting atrophy across various levels of simulated atrophy and noise.ResultsSynSpine successfully generates synthetic spinal cord images with varying atrophy levels. Non-rigid registration did not significantly affect atrophy measurements. Atrophy estimation errors, estimated using Active Surface and Reg methods, varied with both simulated atrophy magnitude and noise level, exhibiting region-dependent differences. Increased noise led to higher measurement errors.ConclusionThis work presents a novel and modular framework for simulating spinal cord atrophy data using digital phantoms, offering a controlled setting for testing spinal cord analysis pipelines. As the simulated atrophy may over-simplify in vivo conditions, future research will focus on enhancing the realism of the synthetic dataset by simulating additional pathologies, thus improving its application for evaluating spinal cord atrophy in clinical and research contexts.",
+    "author": "Licinio Craveiro",
+    "published_date": "2025-12-17T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 273,
+    "reading_time": 1,
+    "created_at": "2026-01-25T19:39:56.366559+00:00",
+    "updated_at": "2026-01-25T19:39:56.366564+00:00"
+  },
+  {
     "id": "4260770eab13a74b01f726889a2cb4a3",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.23.701389v1?rss=1",
     "title": "Metabolic reallocation in spinal cord oligodendrocytes drives chronic pain via neuronal \u03b2-amyloid production",
@@ -17086,41 +17118,5 @@
       "processed_at": "2026-01-21T10:22:35.965856+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "7f05b16471525bf8a5535343921ffcd8",
-    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae33f7",
-    "title": "Differences in stimulus evoked electroencephalographic entropy reduction distinguishes cognitively normal Parkinson\u2019s disease participants from healthy aged-matched controls",
-    "content": "Objective. Parkinson\u2019s disease (PD) is a common neurodegenerative disease best known for its defining motor symptoms. However, it is also associated with significant cognitive impairment at all stages of the disease, with many patients eventually progressing to dementia. Therefore, there exists a significant need to identify objective functional biomarkers that better predict and monitor cognitive decline. While methods that analyse either spontaneous or evoked electroencephalogram (EEG), due to increasing practical usability and ostensible objectivity, have been investigated, current approaches are limited in that the associated measures are, in the absence of a theoretical basis, purely correlative. Approach. To address this shortcoming, we propose calculating changes in evoked EEG amplitude variability, quantified using information theoretic differential entropy (DE), during a three-level passive auditory oddball task, as it is argued this will directly index functional changes in cognition. We therefore estimate changes in stimulus-evoked DE in cognitively normal PD participants (N = 25), both on and off their medication, and in healthy age-matched controls (N = 25), and find substantial stimulus (standard, target, novel) and group differences. Main results. Notably, we find the time-course of the return of post-stimulus reductions in DE (i.e. information processing) to pre-stimulus levels delayed in PD compared to healthy controls, thus mirroring the assumed bradyphrenia. The observed changes in DE, together with the corollary increases in resting alpha (8\u201313 Hz) band activity seen in PD, are explained in the context of a well-known macroscopic theory of mammalian electrocortical activity, in terms of reduced tonic thalamo-cortical drive. Significance. This method of task-evoked DE EEG amplitude variability is expected to generalise to any situation where the objective determination of cognitive function is sought.",
-    "author": "David T J Liley",
-    "published_date": "2026-01-21T00:00:00+00:00",
-    "source": "Journal Neural Engineering",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 274,
-    "reading_time": 1,
-    "created_at": "2026-01-21T09:34:33.222043+00:00",
-    "updated_at": "2026-01-21T10:22:35.965861+00:00",
-    "metadata": {
-      "processed_at": "2026-01-21T10:22:35.965863+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "f744ebd582e9cda2fb17abf62e11610c",
-    "url": "https://www.pcgamer.com/movies-tv/director-gore-verbinski-says-unreal-engine-is-the-greatest-slip-backwards-for-movie-cgi/",
-    "title": "Director Gore Verbinski: Unreal Engine is the greatest slip backwards for movie",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46703019\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-21T09:09:57+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-21T09:34:10.993420+00:00",
-    "updated_at": "2026-01-21T09:34:10.993422+00:00"
   }
 ]
