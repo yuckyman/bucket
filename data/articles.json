@@ -1,5 +1,53 @@
 [
   {
+    "id": "5be38527cf47bbe1f092b154381372ce",
+    "url": "https://www.nature.com/articles/s41593-025-02194-9",
+    "title": "Composing behavior",
+    "content": "<p>Nature Neuroscience, Published online: 07 January 2026; <a href=\"https://www.nature.com/articles/s41593-025-02194-9\">doi:10.1038/s41593-025-02194-9</a></p>Composing behavior",
+    "author": "William P. Olson",
+    "published_date": "2026-01-07T00:00:00+00:00",
+    "source": "Nature Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 10,
+    "reading_time": 1,
+    "created_at": "2026-01-25T22:46:10.786580+00:00",
+    "updated_at": "2026-01-25T22:46:10.786582+00:00"
+  },
+  {
+    "id": "33acc2018b43158c8e62d015109085b0",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1711642",
+    "title": "Correction: RSA-TransUNet: a robust structure-adaptive TransUNet for enhanced road crack segmentation",
+    "content": "",
+    "author": "Ruoli Yang",
+    "published_date": "2025-11-10T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2026-01-25T22:46:01.282787+00:00",
+    "updated_at": "2026-01-25T22:46:01.282789+00:00"
+  },
+  {
+    "id": "c13d5532481827beeb958f3b696e11c0",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1696824",
+    "title": "A novel intelligent physiotherapy robot based on dynamic acupoint recognition method",
+    "content": "BackgroundPhysiotherapy robots offer a feasible and promising solution for achieving safe and efficient treatment. Among these, acupoint recognition is the core component that ensures the precision of physiotherapy robots. Although the research on the acupoint recognition such as hand and ear has been extensive, the accurate location of acupoints on the back of the human body still faces great challenges due to the lack of significant external features.MethodsThis paper designs a two-stage acupoint recognition method, which is achieved through the cooperation of two detection networks. First, a lightweight RTMDet network is used to extract the effective back range from the image, and then the acupoint coordinates are inferred from the extracted back range, reducing the inference consumption caused by invalid information. In addition, the RTMPose network based on the SimCC framework converts the acupoint coordinate regression problem into a classification problem of sub-pixel block subregions on the X and Y axes by performing sub-pixel-level segmentation of images, significantly improving detection speed and accuracy. Meanwhile, the multi-layer feature fusion of CSPNeXt enhances feature extraction capabilities. Then, we designed a physiotherapy interaction interface. Through the three-dimensional coordinates of the acupoints, we independently planned the physiotherapy task path of the physiotherapy robot.ResultsWe conducted performance tests on the acupoint recognition system and physiotherapy task planning in the physiotherapy robot system. The experiments have proven our effectiveness, achieving a recall of 90.17% on human datasets, with a detection error of around 5.78\u202fmm. At the same time, it can accurately identify different back postures and achieve an inference speed of 30 FPS on a 4070Ti GPU. Finally, we conducted continuous physiotherapy tasks on multiple acupoints for the user.ConclusionThe experimental results demonstrate the significant advantages and broad application potential of this method in improving the accuracy and reliability of autonomous acupoint recognition by physiotherapy robots.",
+    "author": "Shuoyu Wang",
+    "published_date": "2025-11-24T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 299,
+    "reading_time": 1,
+    "created_at": "2026-01-25T22:46:01.282685+00:00",
+    "updated_at": "2026-01-25T22:46:01.282687+00:00"
+  },
+  {
     "id": "249d51a3c9474798635314b252cea8df",
     "url": "https://www.biorxiv.org/content/10.64898/2026.01.23.701396v1?rss=1",
     "title": "Reconfiguration of Premotor Excitation and Inhibition Drives Behavior-Specific Protopodium Dynamics in Drosophila Larvae",
@@ -17074,65 +17122,5 @@
     "reading_time": 1,
     "created_at": "2026-01-21T12:53:15.374036+00:00",
     "updated_at": "2026-01-21T12:53:15.374045+00:00"
-  },
-  {
-    "id": "fdd139153265377815b377d4b9cd0f4c",
-    "url": "https://www.nature.com/articles/s41598-025-29882-7",
-    "title": "Home lighting, blue-light filtering, and their effects on melatonin suppression",
-    "content": "",
-    "author": "",
-    "published_date": "2026-01-21T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-01-21T11:46:47.858954+00:00",
-    "updated_at": "2026-01-21T12:38:59.326451+00:00",
-    "metadata": {
-      "processed_at": "2026-01-21T12:38:59.326460+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "92cc2578fffd584badbfda0849d367eb",
-    "url": "https://www.nature.com/articles/s41598-026-36220-y",
-    "title": "The contributions of biological maturity and experience to fine motor development in adolescence",
-    "content": "",
-    "author": "",
-    "published_date": "2026-01-21T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-01-21T11:46:47.858899+00:00",
-    "updated_at": "2026-01-21T12:38:59.326464+00:00",
-    "metadata": {
-      "processed_at": "2026-01-21T12:38:59.326466+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "38d15326aed9596698c02d2b2d4ec1e0",
-    "url": "https://www.nature.com/articles/s41562-025-02385-1",
-    "title": "Indecision and recency-weighted evidence integration in non-clinical and clinical settings",
-    "content": "",
-    "author": "",
-    "published_date": "2026-01-21T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-01-21T11:46:47.858881+00:00",
-    "updated_at": "2026-01-21T12:38:59.326469+00:00",
-    "metadata": {
-      "processed_at": "2026-01-21T12:38:59.326470+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]
