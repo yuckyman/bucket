@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-01-26T19:25:56.065876+00:00",
+  "last_updated": "2026-01-26T19:46:02.722296+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "64140889d5ce0219063ec434c8e26505",
+      "url": "https://www.reddit.com/r/Python/comments/1qno6hj/gopdfsuit_v400_a_highperformance_pdf_engine_for/",
+      "title": "GoPdfSuit v4.0.0: A high-performance PDF engine for Python devs (No Go knowledge required)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I\u2019m the author of <strong>GoPdfSuit</strong> (<a href=\"https://chinmay-sawant.github.io/gopdfsuit\">https://chinmay-sawant.github.io/gopdfsuit</a>), and we just hit <strong>350+ stars</strong> and launched <strong>v4.0.0</strong> today! I wanted to share this with the community because it solves a pain point many of us have had with legacy PDF libraries: manual coordinate-based coding.</p> <h1>What My Project Does</h1> <p>GoPdfSuit is a high-performance PDF generation engine that allows you to design layouts visually and generate documents via a simple Python API.</p> <ul> <li><strong>Drag-and-Drop Editor:</strong> Includes a React-based UI to design your PDF. It exports a JSON template, so you never have to manually calculate <code>x,y</code> coordinates again.</li> <li><strong>Python Integration:</strong> You interact with the engine purely via standard Python <code>requests</code> (HTTP/JSON). You deploy the container/binary once and just hit the endpoint from your Python scripts.</li> <li><strong>Compliance:</strong> Supports Arlington Compatibility, PDF/UA-2 (Accessibility), and PDF/A (Archival) out of the box.</li> </ul> <h1>Target Audience</h1> <p>This is built for <strong>Production Use</strong>. It is specifically designed for:</p> <ul> <li><strong>Developers</strong> who need to generate complex reports (invoices, financial statements) but find existing libraries slow or hard to maintain.</li> <li><strong>Enterprise Teams</strong> requiring strict PDF compliance (accessibility and archival standards).</li> <li><strong>High-Volume Apps</strong> where PDF generation is a bottleneck (e.g., generating 1,000+ PDFs per minute).</li> </ul> <p><strong>Why this matters for Python devs:</strong></p> <ul> <li><strong>Insane Performance:</strong> The heavy lifting is done in Go, keeping generation lightning fast. <ul> <li><strong>Engine Generation:</strong> ~61ms</li> <li><strong>Total Python Execution:</strong> ~73ms</li> </ul></li> <li><strong>No Go Required:</strong> You interact with the engine purely via standard Python requests (HTTP/JSON). You just deploy the container/binary and hit the endpoint.</li> <li><strong>Modern Editor:</strong> Includes a React-based UI to visually drag-and-drop your layout. It exports a JSON template that your Python script fills with data.</li> <li><strong>Strict Compliance:</strong> Out-of-the-box support for Arlington Compatibility, PDF/UA-2 (Accessibility), and PDF/A (Archival).</li> </ul> <h1>Comparison (How it differs from ReportLab/JasperReports)</h1> <table><thead> <tr> <th align=\"left\"><strong>Feature</strong></th> <th align=\"left\"><strong>ReportLab / JasperReports</strong></th> <th align=\"left\"><strong>GoPdfSuit</strong></th> </tr> </thead><tbody> <tr> <td align=\"left\"><strong>Layout Design</strong></td> <td align=\"left\">Manual code / XML</td> <td align=\"left\">Visual Drag-and-Drop</td> </tr> <tr> <td align=\"left\"><strong>Performance</strong></td> <td align=\"left\">Python-level speed / Heavy Java</td> <td align=\"left\">Native Go speed (~70ms execution)</td> </tr> <tr> <td align=\"left\"><strong>Maintenance</strong></td> <td align=\"left\">Changing a layout requires code edits</td> <td align=\"left\">Change the JSON template; no code changes</td> </tr> <tr> <td align=\"left\"><strong>Compliance</strong></td> <td align=\"left\">Requires extra plugins/config</td> <td align=\"left\">Built-in PDF/UA and PDF/A support</td> </tr> </tbody></table> <h1>Performance Benchmarks</h1> <p>Tested on a standard financial report template including XMP data, image processing, and bookmarks:</p> <ul> <li><strong>Go Engine Internal Logic:</strong> ~61.53ms</li> <li><strong>Total Python Execution (Network + API):</strong> ~73.08ms</li> </ul> <h1>Links &amp; Resources</h1> <ul> <li><strong>Repository:</strong> <a href=\"https://github.com/chinmay-sawant/gopdfsuit\">github.com/chinmay-sawant/gopdfsuit</a></li> <li><strong>Python Integration Examples:</strong> <a href=\"https://github.com/chinmay-sawant/gopdfsuit/tree/master/sampledata/python\">Python Examples Folder</a></li> <li><strong>Validation:</strong> You can validate the output using <strong>OctoPDF</strong> or <strong>veraPDF</strong> to confirm compliance.</li> </ul> <p>If you find this useful, a <strong>Star</strong> on GitHub is much appreciated! I'm happy to answer any questions about the architecture or implementation.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chinmay06\"> /u/chinmay06 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qno6hj/gopdfsuit_v400_a_highperformance_pdf_engine_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qno6hj/gopdfsuit_v400_a_highperformance_pdf_engine_for/\">[comments]</a></span>",
+      "author": "/u/chinmay06",
+      "published_date": "2026-01-26T18:22:35+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 465,
+      "reading_time": 2,
+      "created_at": "2026-01-26T19:44:53.955378+00:00",
+      "updated_at": "2026-01-26T19:44:53.955380+00:00"
+    },
+    {
+      "id": "beda9dd7458b660f36f0a89e6371437f",
+      "url": "https://tetrisbench.com/tetrisbench/",
+      "title": "Show HN: TetrisBench \u2013 Gemini Flash reaches 66% win rate on Tetris against Opus",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46769752\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-26T18:42:40+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-26T19:44:52.685438+00:00",
+      "updated_at": "2026-01-26T19:44:52.685439+00:00"
+    },
+    {
+      "id": "beda9dd7458b660f36f0a89e6371437f",
+      "url": "https://tetrisbench.com/tetrisbench/",
+      "title": "Show HN: TetrisBench \u2013 Gemini Flash reaches 66% win rate on Tetris against Opus",
+      "content": "<p>Article URL: <a href=\"https://tetrisbench.com/tetrisbench/\">https://tetrisbench.com/tetrisbench/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46769752\">https://news.ycombinator.com/item?id=46769752</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "ykhli",
+      "published_date": "2026-01-26T18:42:40+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-26T19:44:51.394555+00:00",
+      "updated_at": "2026-01-26T19:44:51.394557+00:00"
+    },
+    {
+      "id": "c0346ea40590698a825bf3f8bf36cb35",
+      "url": "https://www.theregister.com/2026/01/26/cursor_opinion/",
+      "title": "When AI 'builds a browser,' check the repo before believing the hype",
+      "content": "<p>Article URL: <a href=\"https://www.theregister.com/2026/01/26/cursor_opinion/\">https://www.theregister.com/2026/01/26/cursor_opinion/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46769965\">https://news.ycombinator.com/item?id=46769965</a></p>\n<p>Points: 25</p>\n<p># Comments: 0</p>",
+      "author": "CrankyBear",
+      "published_date": "2026-01-26T18:58:37+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-26T19:44:51.394525+00:00",
+      "updated_at": "2026-01-26T19:44:51.394532+00:00"
+    },
     {
       "id": "34bee8f48f95f50d92a9f9f36f414b5f",
       "url": "https://www.biorxiv.org/content/10.64898/2026.01.23.700559v1?rss=1",
@@ -269,78 +333,6 @@
         "processed_at": "2026-01-26T18:28:13.122856+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "18ea9fbb6adbb808c35988fa0a2b7c16",
-      "url": "https://www.darioamodei.com/essay/the-adolescence-of-technology",
-      "title": "The Adolescence of Technology",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46768257\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-26T17:07:24+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-26T17:56:00.625232+00:00",
-      "updated_at": "2026-01-26T18:28:13.122858+00:00",
-      "metadata": {
-        "processed_at": "2026-01-26T18:28:13.122859+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "18ea9fbb6adbb808c35988fa0a2b7c16",
-      "url": "https://www.darioamodei.com/essay/the-adolescence-of-technology",
-      "title": "The Adolescence of Technology",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46768257\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-26T17:07:24+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-26T17:56:00.625232+00:00",
-      "updated_at": "2026-01-26T18:28:13.122858+00:00",
-      "metadata": {
-        "processed_at": "2026-01-26T18:28:13.122859+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "cc5b8af4ecad4afd5a3bc08aaba7091c",
-      "url": "https://signoregalilei.com/2026/01/18/the-mountain-that-weighed-the-earth/",
-      "title": "The mountain that weighed the Earth",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46767875\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-26T16:43:30+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-26T17:30:46.832033+00:00",
-      "updated_at": "2026-01-26T17:30:46.832035+00:00"
-    },
-    {
-      "id": "500108025500d50cf821fc825fbdc02c",
-      "url": "https://diamondgeezer.blogspot.com/2026/01/tv100.html",
-      "title": "Television is 100 years old today",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46766188\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-26T14:41:04+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-26T17:30:46.831976+00:00",
-      "updated_at": "2026-01-26T17:30:46.831977+00:00"
     }
   ]
 }
