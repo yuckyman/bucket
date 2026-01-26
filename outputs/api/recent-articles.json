@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-01-26T10:55:44.506742+00:00",
+  "last_updated": "2026-01-26T11:23:11.985491+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "3352595883ccb35de24e20a19b774dd2",
+      "url": "https://brain.ieee.org/braininsight-articles/ieee-journal-on-flexible-electronics/",
+      "title": "Call for Papers: IEEE Brain Special Issue",
+      "content": "In a unique interdisciplinary collaboration with the IEEE\u2019s Society on Social Implications of Technology (SSIT) and IEEE Brain, J-FLEX is joining forces to explore both the technology of the Internet-of-Medical-Things (IoMT) solutions and medical wearables/implantables. &#160;",
+      "author": "ieeebrain",
+      "published_date": "2025-03-03T17:16:40+00:00",
+      "source": "Brain",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 36,
+      "reading_time": 1,
+      "created_at": "2026-01-26T11:23:00.124277+00:00",
+      "updated_at": "2026-01-26T11:23:00.124279+00:00"
+    },
+    {
+      "id": "626415b9abcab4a79433d23aa150042f",
+      "url": "https://brain.ieee.org/braininsight-articles/ieee-brain-joins-the-american-brain-coalition-as-a-nonprofit-member/",
+      "title": "IEEE Brain Joins the American Brain Coalition",
+      "content": "IEEE Brain is pleased to announce its acceptance as a nonprofit member of the American Brain Coalition (ABC), a prestigious alliance of over 150 organizations dedicated to advancing brain research, advocacy, and improving treatments for individuals affected by brain conditions. The ABC Board has enthusiastically welcomed IEEE Brain into its network, reinforcing a shared commitment to fostering innovation and collaboration ...",
+      "author": "ieeebrain",
+      "published_date": "2025-03-03T17:22:08+00:00",
+      "source": "Brain",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 61,
+      "reading_time": 1,
+      "created_at": "2026-01-26T11:23:00.124253+00:00",
+      "updated_at": "2026-01-26T11:23:00.124255+00:00"
+    },
+    {
+      "id": "b2c70e1a85190da499cd9b3cf598eed9",
+      "url": "https://www.reddit.com/r/Python/comments/1qncckp/prototyping_a_realtime_product_recommender_using/",
+      "title": "Prototyping a Real-Time Product Recommender using Contextual Bandits",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I am writing a blog series on implementing real-time recommender systems. Part 1 covers the theoretical implementation and prototyping of a Contextual Bandit system.</p> <p><strong>Contextual Bandits</strong> optimize recommendations by considering the current &quot;state&quot; (context) of the user and the item. Unlike standard A/B testing or global popularity models, bandits update their internal confidence bounds after every interaction. This allows the system to learn distinct preferences for different contexts (e.g., Morning vs. Evening) without waiting for a daily retraining job.</p> <p>In Part 1, I discuss:</p> <ul> <li><strong>Feature Engineering:</strong> Constructing context vectors that combine static user attributes with dynamic event features (e.g., timestamps), alongside item embeddings.</li> <li><strong>Offline Policy Evaluation:</strong> Benchmarking algorithms like LinUCB against Random and Popularity baselines using historical logs to validate ranking logic.</li> <li><strong>Simulation Loop:</strong> Implementing a local feedback loop to demonstrate how the model &quot;reverse-engineers&quot; hidden logic, such as time-based purchasing habits.</li> </ul> <p>Looking Ahead:</p> <p>This prototype lays the groundwork for Part 2, where I will discuss scaling this logic using an Event-Driven Architecture with Flink, Kafka, and Redis.</p> <p>Link to Post: <a href=\"https://jaehyeon.me/blog/2026-01-29-prototype-recommender-with-python/\">https://jaehyeon.me/blog/2026-01-29-prototype-recommender-with-python/</a></p> <p>I welcome any feedback on the product recommender.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jaehyeon-kim\"> /u/jaehyeon-kim </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qncckp/prototyping_a_realtime_product_recommender_using/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qncckp/prototyping_a_realtime_product_recommender_using/\">[comments]</a></span>",
+      "author": "/u/jaehyeon-kim",
+      "published_date": "2026-01-26T10:20:42+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 206,
+      "reading_time": 1,
+      "created_at": "2026-01-26T11:22:01.024400+00:00",
+      "updated_at": "2026-01-26T11:22:01.024401+00:00"
+    },
+    {
+      "id": "77881ec86b11c07b1485911f9f63aba9",
+      "url": "https://maplibre.org/news/2026-01-23-mlt-release/",
+      "title": "MapLibre Tile: a modern and efficient vector tile format",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46763864\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-26T10:19:51+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-26T11:21:59.711416+00:00",
+      "updated_at": "2026-01-26T11:21:59.711419+00:00"
+    },
+    {
+      "id": "77881ec86b11c07b1485911f9f63aba9",
+      "url": "https://maplibre.org/news/2026-01-23-mlt-release/",
+      "title": "MapLibre Tile: a modern and efficient vector tile format",
+      "content": "<p>Article URL: <a href=\"https://maplibre.org/news/2026-01-23-mlt-release/\">https://maplibre.org/news/2026-01-23-mlt-release/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46763864\">https://news.ycombinator.com/item?id=46763864</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "author": "todsacerdoti",
+      "published_date": "2026-01-26T10:19:51+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-26T11:21:58.461128+00:00",
+      "updated_at": "2026-01-26T11:21:58.461135+00:00"
+    },
     {
       "id": "ac6f3ab92725084e2b49600ca6243d2a",
       "url": "https://brain.ieee.org/braininsight-articles/call-for-papers-ieee-transactions-on-human-machine-systems/",
@@ -241,106 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-01-26T10:28:23.522261+00:00",
       "updated_at": "2026-01-26T10:28:23.522282+00:00"
-    },
-    {
-      "id": "e569331f9591eca9e6b275e8f8090f8b",
-      "url": "https://github.com/joel-jeremy/emissary",
-      "title": "Emissary, a fast open-source Java messaging library",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46723049\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-22T18:15:47+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-26T09:35:49.284093+00:00",
-      "updated_at": "2026-01-26T10:21:48.400887+00:00",
-      "metadata": {
-        "processed_at": "2026-01-26T10:21:48.400896+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d8471993d2378ed5dfcc0089c54476bc",
-      "url": "https://github.com/quaadgras/graphics.gd/discussions/242",
-      "title": "The Holy Grail of Linux Binary Compatibility: Musl and Dlopen",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46762882\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-26T07:41:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-26T09:35:49.283957+00:00",
-      "updated_at": "2026-01-26T10:21:48.400901+00:00",
-      "metadata": {
-        "processed_at": "2026-01-26T10:21:48.400902+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d8471993d2378ed5dfcc0089c54476bc",
-      "url": "https://github.com/quaadgras/graphics.gd/discussions/242",
-      "title": "The Holy Grail of Linux Binary Compatibility: Musl and Dlopen",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46762882\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-26T07:41:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-26T09:35:49.283957+00:00",
-      "updated_at": "2026-01-26T10:21:48.400901+00:00",
-      "metadata": {
-        "processed_at": "2026-01-26T10:21:48.400902+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "52048e21ed9d002bb8a9870035dec1ff",
-      "url": "https://arthur.pizza/2025/12/running-stupid-cricut-software-under-linux/",
-      "title": "Running the Stupid Cricut Software on Linux",
-      "content": "<p>Article URL: <a href=\"https://arthur.pizza/2025/12/running-stupid-cricut-software-under-linux/\">https://arthur.pizza/2025/12/running-stupid-cricut-software-under-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46761761\">https://news.ycombinator.com/item?id=46761761</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
-      "author": "starkparker",
-      "published_date": "2026-01-26T04:05:38+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-26T09:35:48.178613+00:00",
-      "updated_at": "2026-01-26T10:21:48.400905+00:00",
-      "metadata": {
-        "processed_at": "2026-01-26T10:21:48.400906+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "801cf48fe8556f996c82721c8dcc5fbd",
-      "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/conclave.rst",
-      "title": "Linux Conclave",
-      "content": "<p>Article URL: <a href=\"https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/conclave.rst\">https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/conclave.rst</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46763200\">https://news.ycombinator.com/item?id=46763200</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-      "author": "Tomte",
-      "published_date": "2026-01-26T08:36:05+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-26T09:35:48.178523+00:00",
-      "updated_at": "2026-01-26T10:21:48.400912+00:00",
-      "metadata": {
-        "processed_at": "2026-01-26T10:21:48.400914+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
