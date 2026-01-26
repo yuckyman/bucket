@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-01-26T12:37:38.733153+00:00",
-  "pending_count": 704,
-  "processed_count": 296,
+  "last_updated": "2026-01-26T14:24:06.004126+00:00",
+  "pending_count": 703,
+  "processed_count": 297,
   "pending_articles": [
+    {
+      "id": "db9de866c12668285b45bdbf155897aa",
+      "url": "https://yabirgb.com/posts/dark-age/",
+      "title": "The New Dark Ages",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46764811\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-26T12:22:01+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-26T12:51:43.217903+00:00",
+      "updated_at": "2026-01-26T12:51:43.217905+00:00"
+    },
     {
       "id": "77881ec86b11c07b1485911f9f63aba9",
       "url": "https://maplibre.org/news/2026-01-23-mlt-release/",
@@ -146,25 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-01-26T10:55:12.344164+00:00",
       "updated_at": "2026-01-26T10:55:12.344166+00:00"
-    },
-    {
-      "id": "e8225ec9bcaa1d9f064863befd340b9c",
-      "url": "https://www.nature.com/articles/s42003-026-09616-9",
-      "title": "Characterization of mouse melanocytes reveals ultrastructural and immunological insights into the inner ear function",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-26T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-26T10:55:12.344139+00:00",
-      "updated_at": "2026-01-26T10:55:12.344143+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "fcf92e0b38f3c2ed10ca32dee6b9d2ed",
+      "url": "https://www.reddit.com/r/Python/comments/1qna2n0/project_showcase_reflow_studio_v05_a_local/",
+      "title": "Project Showcase: Reflow Studio v0.5 - A local, open-source GUI for RVC and Wav2Lip.",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I have released v0.5 of <strong>Reflow Studio</strong>, an open-source application that combines RVC and Wav2Lip into a single local pipeline.</p> <p><strong><a href=\"https://github.com/ananta-sj/ReFlow-Studio\">Link to GitHub Repo</a></strong> <strong><a href=\"https://github.com/user-attachments/assets/9297d024-b4ea-4577-adde-5174235c2056\">Link to Demo Video</a></strong></p> <h3>What My Project Does</h3> <p>It provides a Gradio-based interface for running offline PyTorch inference. It orchestrates voice conversion (RVC) and lip synchronization (Wav2Lip) using subprocess calls to prevent UI freezing.</p> <h3>Target Audience</h3> <p>Developers interested in local AI pipelines and Python GUI implementations.</p> <h3>Comparison</h3> <p>Unlike the original CLI implementations of these models, this project bundles dependencies and provides a unified UI. It runs entirely offline on the user's GPU.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MeanManagement834\"> /u/MeanManagement834 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qna2n0/project_showcase_reflow_studio_v05_a_local/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qna2n0/project_showcase_reflow_studio_v05_a_local/\">[comments]</a></span>",
+      "author": "/u/MeanManagement834",
+      "published_date": "2026-01-26T08:03:01+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 119,
+      "reading_time": 1,
+      "created_at": "2026-01-26T13:45:32.659455+00:00",
+      "updated_at": "2026-01-26T14:24:05.897544+00:00",
+      "metadata": {
+        "processed_at": "2026-01-26T14:24:05.897553+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "1635b5db51bc0207e363943ef87f8b58",
+      "url": "https://www.snyderfamily.com/chimecalcs/",
+      "title": "Wind Chime Length Calculator (2022)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46698456\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-20T22:17:39+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-26T13:45:31.331971+00:00",
+      "updated_at": "2026-01-26T14:24:05.897557+00:00",
+      "metadata": {
+        "processed_at": "2026-01-26T14:24:05.897559+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "681eca5b03c84f75cd803a1c4f051af2",
+      "url": "https://arxiv.org/abs/2601.15494",
+      "title": "Vibe Coding Kills Open Source",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46765120\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-26T13:01:00+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-26T13:45:31.331914+00:00",
+      "updated_at": "2026-01-26T14:24:05.897562+00:00",
+      "metadata": {
+        "processed_at": "2026-01-26T14:24:05.897563+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "5affef41c883fdc1871f1f8776fb53dd",
+      "url": "https://kreya.app/blog/transfering-files-with-grpc/",
+      "title": "Transfering Files with gRPC",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46765273\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-26T13:17:19+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-26T13:45:31.331876+00:00",
+      "updated_at": "2026-01-26T14:24:05.897565+00:00",
+      "metadata": {
+        "processed_at": "2026-01-26T14:24:05.897567+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "240c32d24c128d4922251ee828913356",
+      "url": "https://www.experimental-history.com/p/text-is-king",
+      "title": "Text Is King",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46698264\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-20T21:57:08+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-26T12:51:43.218019+00:00",
+      "updated_at": "2026-01-26T14:24:05.897569+00:00",
+      "metadata": {
+        "processed_at": "2026-01-26T14:24:05.897571+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "244fe9103027aad760afd143daf51d6d",
       "url": "https://petegoldsmith.com/2026/01/26/2026-01-26-show-hn-trends/",
@@ -262,106 +362,6 @@
       "updated_at": "2026-01-26T12:37:38.626246+00:00",
       "metadata": {
         "processed_at": "2026-01-26T12:37:38.626248+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e569331f9591eca9e6b275e8f8090f8b",
-      "url": "https://github.com/joel-jeremy/emissary",
-      "title": "Emissary, a fast open-source Java messaging library",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46723049\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-22T18:15:47+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-26T09:35:49.284093+00:00",
-      "updated_at": "2026-01-26T10:21:48.400887+00:00",
-      "metadata": {
-        "processed_at": "2026-01-26T10:21:48.400896+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d8471993d2378ed5dfcc0089c54476bc",
-      "url": "https://github.com/quaadgras/graphics.gd/discussions/242",
-      "title": "The Holy Grail of Linux Binary Compatibility: Musl and Dlopen",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46762882\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-26T07:41:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-26T09:35:49.283957+00:00",
-      "updated_at": "2026-01-26T10:21:48.400901+00:00",
-      "metadata": {
-        "processed_at": "2026-01-26T10:21:48.400902+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d8471993d2378ed5dfcc0089c54476bc",
-      "url": "https://github.com/quaadgras/graphics.gd/discussions/242",
-      "title": "The Holy Grail of Linux Binary Compatibility: Musl and Dlopen",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46762882\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-26T07:41:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-26T09:35:49.283957+00:00",
-      "updated_at": "2026-01-26T10:21:48.400901+00:00",
-      "metadata": {
-        "processed_at": "2026-01-26T10:21:48.400902+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "52048e21ed9d002bb8a9870035dec1ff",
-      "url": "https://arthur.pizza/2025/12/running-stupid-cricut-software-under-linux/",
-      "title": "Running the Stupid Cricut Software on Linux",
-      "content": "<p>Article URL: <a href=\"https://arthur.pizza/2025/12/running-stupid-cricut-software-under-linux/\">https://arthur.pizza/2025/12/running-stupid-cricut-software-under-linux/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46761761\">https://news.ycombinator.com/item?id=46761761</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
-      "author": "starkparker",
-      "published_date": "2026-01-26T04:05:38+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-26T09:35:48.178613+00:00",
-      "updated_at": "2026-01-26T10:21:48.400905+00:00",
-      "metadata": {
-        "processed_at": "2026-01-26T10:21:48.400906+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "801cf48fe8556f996c82721c8dcc5fbd",
-      "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/conclave.rst",
-      "title": "Linux Conclave",
-      "content": "<p>Article URL: <a href=\"https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/conclave.rst\">https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/Documentation/process/conclave.rst</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46763200\">https://news.ycombinator.com/item?id=46763200</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-      "author": "Tomte",
-      "published_date": "2026-01-26T08:36:05+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-26T09:35:48.178523+00:00",
-      "updated_at": "2026-01-26T10:21:48.400912+00:00",
-      "metadata": {
-        "processed_at": "2026-01-26T10:21:48.400914+00:00",
         "processing_method": "github_actions"
       }
     }
