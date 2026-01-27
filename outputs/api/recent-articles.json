@@ -1,7 +1,103 @@
 {
-  "last_updated": "2026-01-27T04:42:50.978072+00:00",
+  "last_updated": "2026-01-27T04:51:23.814680+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "e1385798428586a67ced89a895faeb47",
+      "url": "https://erpinfo.org/blog/2024/6/10/erp-core-decoding-paper",
+      "title": "New Paper: Using Multivariate Pattern Analysis to Increase Effect Sizes for ERP Amplitude Comparisons",
+      "content": "<p class=\"\">Carrasco, C. D., Bahle, B., Simmons, A. M., &amp; Luck, S. J. (2024). Using multivariate pattern analysis to increase effect sizes for event-related potential analyses. Psychophysiology, 61, e14570. <a href=\"https://doi.org/10.1111/psyp.14570\">https://doi.org/10.1111/psyp.14570</a> [<a href=\"https://doi.org/10.1101/2023.11.07.566051\">preprint</a>]</p><p class=\"\">Multivariate pattern analysis (MVPA) can be used to \u201cdecode\u201d subtle information from ERP signals, such as which of several faces a participant is perceiving or the orientation that someone is holding in working memory (see <a href=\"https://erpinfo.org/blog/2018/9/16/decoding\">this previous blog post</a>). This approach is so powerful that we started wondering whether it might also give us greater statistical power in more typical experiments where the goal is to determine whether an ERP component differs in amplitude across experimental conditions. For example, might we more easily be able to tell if N400 amplitude is different between two different classes of words by using decoding? If so, that might make it possible to detect effects that would otherwise be too small to be significant.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"688\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/08f353c7-f484-4e87-b5d3-a256fe1206e2/N170_ES.png?format=1000w\" width=\"971\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">To address this question, we compared decoding with the conventional ERP analysis approach with using the 6 experimental paradigms in the <a href=\"https://doi.org/10.18115/D5JW4R\">ERP CORE</a>. In the conventional ERP analysis, we measured the mean amplitude during the standard measurement window from each participant in the two conditions of the paradigm (e.g., faces versus cars for N170, deviants versus standards for MMN). We quantified the magnitude of the difference between conditions using Cohen\u2019s <em>dz</em> (the variant of Cohen\u2019s <em>d</em> corresponding to a paired <em>t</em> test). For example, the effect size in the conventional ERP comparison of faces versus cars in the N170 paradigm was approximately 1.7 (see the figure).</p><p class=\"\">We also applied decoding to each paradigm. For example, in the N170 paradigm, we trained a support vector machine (SVM) to distinguish between ERPs elicited by faces and ERPs elicited by cars. This was done separately for each subject, and we converted the decoding accuracy into Cohen\u2019s <em>dz</em> so that it could be compared with the <em>dz</em> from the conventional ERP analysis. As you can see from the bar labeled SVM in the figure above, the effect size for the SVM-based decoding analysis was almost twice as large as the effect size for the conventional ERP analysis. That\u2019s a huge difference!</p><p class=\"\">We found a similar benefit for SVM-based decoding over conventional ERP analyses in 7 of the 10 cases we tested (see the figure below). In the other 3 cases, the ERP and SVM effects were approximately equivalent. So, there doesn\u2019t seem to be a downside to using decoding, at least in terms of effect size. But there can be a big benefit.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1371\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/d16f0782-7205-4d50-95e1-c6729cbc153e/All_Components.png?format=1000w\" width=\"4641\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">Because decoding has many possible benefits, we\u2019ve added it into <a href=\"ERPLAB Toolbox\">ERPLAB Toolbox</a>. It\u2019s super easy to use, and we\u2019ve created <a href=\"https://erpinfo.org/blog/2023/6/23/decoding-webinar\">detailed documentation and a video</a> to explain how it works at a conceptual level and to show you how to use it.</p><p class=\"\">We encourage you to apply it to your own data. It may give you the power to detect effects that are too small to be detected with conventional ERP analyses.</p>",
+      "author": "Steve Luck",
+      "published_date": "2024-06-10T18:01:45+00:00",
+      "source": "Erp Boot Camp",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 525,
+      "reading_time": 2,
+      "created_at": "2026-01-27T04:51:14.842310+00:00",
+      "updated_at": "2026-01-27T04:51:14.842312+00:00"
+    },
+    {
+      "id": "906f73f5c36ba087882a0ad17e01fc20",
+      "url": "https://erpinfo.org/blog/2024/6/11/erplab-studio",
+      "title": "New software package: ERPLAB Studio",
+      "content": "<p class=\"\">We are excited to announce the release of a new EEG/ERP analysis package, <a href=\"https://github.com/ucdavis/erplab/releases\">ERPLAB Studio</a>. We think it\u2019s a huge improvement over the classic EEGLAB user interface. See our cheesy <a href=\"https://www.youtube.com/watch?v=lIaKVQ9DD6E\">\u201cadvertisement\u201d video</a> to get a quick overview. </p><p class=\"\">Rather than operating as an EEGLAB plugin, ERPLAB Studio is a standalone Matlab program that provides a more efficient and user-friendly interface to the most commonly used EEGLAB and ERPLAB routines.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/c874d4ec-5186-4de9-981b-58010c7a06e1/Interface.jpeg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">With ERPLAB Studio, you automatically see the EEG or ERP waveforms as soon as you load a file. And as soon as you perform an operation, you see what the new EEG/ERP looks like. For example, when you filter the data, you immediately see the filtered waveforms.</p><p class=\"\">You can even select multiple datasets and apply an operation like artifact detection on all of them in one step. And then you can immediately see the results, such as which EEG epochs have been marked with artifacts.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/b45f514d-2d21-4a5a-8be6-f3a8ff99c388/Artifacts.jpeg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">We give you access to EEGLAB\u2019s ICA-based artifact correction tools, but with a nice bonus. You can plot the ICA activations in the same window with the EEG data, making it easy to see which ICA components correspond to specific artifacts such as eyeblinks.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/8bc191da-9040-4042-ae9c-550cd98def7d/ICA.jpeg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">The program has an EEG tab for processing continuous and epoched EEG data, and an ERP tab for processing averaged ERPs.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/84bdd9df-b02e-4fc5-83b9-1139a91938f5/Tabs.jpg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">The automatic ERP plotting makes it easy for you to view the data laid out according to the electrode locations. And we have an Advanced Waveform Viewer that can make publication-quality plots.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/a932631f-fc30-415f-b11d-660d2bf90da5/ERP.jpeg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">ERPLAB Studio is mainly just a new user interface. Under the hood, we\u2019re running the same EEGLAB and ERPLAB routines you\u2019ve always used. And scripting is identical.</p><p class=\"\">ERPLAB Studio is included in <a href=\"https://github.com/ucdavis/erplab/releases\">version 11 and higher of ERPLAB</a>. You simply follow our <a href=\"https://github.com/ucdavis/erplab/wiki/installation\">download/installation instructions</a> and then type estudio from the Matlab command line. </p><p class=\"\">If you\u2019re new to ERPLAB, we strongly recommend that you go through our <a href=\"https://github.com/ucdavis/erplab/wiki/ERPLAB-Studio-Tutorial\" target=\"_blank\">tutorial</a> before starting to process your own data. </p><p class=\"\">If you already know how to use the original version of ERPLAB (which we now call ERPLAB Classic), you can quickly learn how to use ERPLAB Studio with our <a href=\"https://ucdavis.box.com/s/i4jfv22gv6rj9t5obctuk6yaruxqomcc\">Transition Guide</a>.</p><p class=\"\">We also have a <a href=\"https://github.com/ucdavis/erplab/wiki/ERPLAB-Studio-Manual\">manual</a> that describes every feature in detail. </p>",
+      "author": "Steve Luck",
+      "published_date": "2024-06-12T02:02:16+00:00",
+      "source": "Erp Boot Camp",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 444,
+      "reading_time": 2,
+      "created_at": "2026-01-27T04:51:14.842237+00:00",
+      "updated_at": "2026-01-27T04:51:14.842239+00:00"
+    },
+    {
+      "id": "713c1634956624cd282fa91b76f14e30",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.18.700221v1?rss=1",
+      "title": "When Randomness Becomes Rigid: Dynamic Connectivity Entropy and Symptom-Linked Network Dysfunction in Schizophrenia",
+      "content": "High dimensionality of dynamic functional connectivity (dFNC) data representation complicates clinical interpretation and biomarker discovery. We propose a new complementary analytical framework based on dynamic inter-network connectivity entropy (DICE) and its potential use as a biomarker of mental illness. Our framework shows that DICE features extend beyond patient-control discrimination, revealing distinct pathophysiological signatures and differential associations with symptom dimensions. Using resting-state fMRI data from 311 participants, 160 controls, 151 schizophrenia (SZ) patients, we identified 53 intrinsic networks, computed DICE and derived three families of DICE-based metrics: (i) entropy level and range, (ii) distributional shape and temporal organization, (iii) entropy-state repertoire and occupancy. These measures revealed a multidimensional signature of altered entropy dynamics in SZ: (1) elevated baseline entropy with reduced fluctuation magnitude and reduced entropy acceleration; (2) reduced temporal persistence of entropy excursions and entropy distributions closer to Gaussian; and (3) a narrowed repertoire of entropy states, prolonged time in near-baseline entropy configurations. The DICE-based metrics within the SZ group show different associations with symptom dimensions. Reduced fluctuation magnitude and acceleration were associated with greater PANSS general symptom severity (disturbance of volition and preoccupation). Reduced deviation from Gaussianity was associated with higher PANSS positive severity (delusions and hallucinations). Reduced temporal persistence was associated with multiple PANSS positive, negative, and general symptoms. Reduced entropy-state diversity and prolonged dwell time in near-baseline states were associated with depression and PANSS positive/general severity, respectively. The multidimensional pathophysiology revealed through the different entropy patterns may potentially guide biomarker development and personalized treatments.",
+      "author": "Maksymchuk, N., Miller, R. L., Iraji, A., Calhoun, V. D.",
+      "published_date": "2026-01-26T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 247,
+      "reading_time": 1,
+      "created_at": "2026-01-27T04:50:52.661170+00:00",
+      "updated_at": "2026-01-27T04:50:52.661172+00:00"
+    },
+    {
+      "id": "57736c4b9d9d21777e01cafa2d037b23",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.01.24.701498v1?rss=1",
+      "title": "Pulsed taVNS-elicited pupil dilation: effects of intermixed stimulation, sham location and respiratory phase",
+      "content": "Transcutaneous auricular vagus nerve stimulation (taVNS) may offer a powerful, noninvasive way to stimulate activity of brainstem arousal systems, including the locus coeruleus-norepinephrine (LC-NE) system. Pulsed taVNS is known to elicit pupil dilation, a marker of LC activity. However, studies reporting taVNS effects on pupil dilation have delivered taVNS and sham stimulation in separate blocks of trials or in separate sessions, hindering the integration of taVNS into rapid, event-related task designs of cognitive neuroscientists. In two experiments, we examined the effectiveness of pulsed taVNS in eliciting pupil dilation when active and sham stimulation were intermixed within the same blocks of trials, and whether these effects depend on sham location and respiratory phase. In Experiment 1 (N = 40), intermixed taVNS and (earlobe) sham pulses of 3.4 seconds produced inconclusive evidence for increased taVNS-evoked pupil dilation. In contrast, in Experiment 2 (N = 60), taVNS pulses of 1.0 seconds had a strong effect on pupil dilation, but only in a group of participants that received sham stimulation at the earlobe; this effect was abolished in a group that received sham stimulation at the upper scapha, a non-vagal control area with a similar density of sympathetic nerve fibers as the cymba concha. Furthermore, taVNS-evoked pupil dilation was not enhanced when stimulation was delivered during exhalation, as would be expected if pupil effects were mediated by the vagus nerve-nucleus tractus solitarius-LC pathway. Together, these findings show that the effect of pulsed taVNS on pupil dilation can be preserved when taVNS and (earlobe) sham are delivered in the same blocks of trials. However, the null finding with the scapha as sham location, and the absence of an enhanced taVNS effect during exhalation call into question the assumption that taVNS-induced pupil dilation is mediated by activation of the vagal afferent pathway.",
+      "author": "Kolnes, M., Nieuwenhuis, S.",
+      "published_date": "2026-01-26T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 296,
+      "reading_time": 1,
+      "created_at": "2026-01-27T04:50:52.661123+00:00",
+      "updated_at": "2026-01-27T04:50:52.661127+00:00"
+    },
+    {
+      "id": "a6b97bfefdaa254e5f667c1e49c9edd0",
+      "url": "https://www.nature.com/articles/s41598-026-37264-w",
+      "title": "Contrast-enhanced T1-weighted MRI, 11C-DPA-713 PET and 11C-CPPC PET as predictive imaging biomarkers of neuroinflammation in radiotherapy-induced brain injury",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-27T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-27T04:50:51.083998+00:00",
+      "updated_at": "2026-01-27T04:50:51.084002+00:00"
+    },
+    {
+      "id": "fd8a7df5ff0adb8e8f9a6948d6ed6bfa",
+      "url": "https://fmhy.net/posts/oct-2025",
+      "title": "Monthly Updates [Oct]",
+      "content": "<div class=\"info custom-block\"><p class=\"custom-block-title\">INFO</p>\n<p>These update threads only contains major updates. If you're interested\nin seeing all minor changes you can follow our\n<a href=\"https://github.com/fmhy/FMHYedit/commits/main\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub or\n<a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Updates Channel</a> in Discord.</p>\n</div>\n<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Reorganized <a href=\"https://fmhy.net/downloading#download-sites\" rel=\"noreferrer\" target=\"_blank\">Download Sites</a>, retested each, bumped ones with faster hosts higher, moved any that fit other sections better, removed dead or premium-only, and fixed inaccurate labels. <a href=\"https://i.imgur.com/B2kJ23O.png\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a>.</p>\n</li>\n<li>\n<p>Reorganized <a href=\"https://fmhy.net/educational#programming-languages\" rel=\"noreferrer\" target=\"_blank\">Programming Learning</a>, removed outdated sites, and fixed bad formatting.  <a href=\"https://i.imgur.com/LE1ozRI.png\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a>.</p>\n</li>\n<li>\n<p>Reworked all our VPN + Proxy sections. There was too much to fit into a &quot;before vs after&quot; image, but you can see all of the changes in the <a href=\"https://github.com/fmhy/edit/pull/4108/files\" rel=\"noreferrer\" target=\"_blank\">pull request</a> by Wispy.</p>\n</li>\n<li>\n<p>Fixed formatting in <a href=\"https://fmhy.net/mobile#android-camera\" rel=\"noreferrer\" target=\"_blank\">Android Camera Tools</a>, turned it into its own head section, and added new subsections for <a href=\"https://fmhy.net/mobile#image-tools\" rel=\"noreferrer\" target=\"_blank\">Image Editing</a> + <a href=\"https://fmhy.net/mobile#image-galleries\" rel=\"noreferrer\" target=\"_blank\">Image Galleries</a> to make it easier to navigate.</p>\n</li>\n<li>\n<p>Added PWA (Progressive Web App) support to our website. This means our site can be added to your home screen or desktop like an app. It can (in theory) allow a smoother experience when browsing the site. For mobile it may prompt, or you can add it by selecting <a href=\"https://i.imgur.com/JgyjqBI.png\" rel=\"noreferrer\" target=\"_blank\">&quot;Add to Home Screen&quot;</a>. For desktop, simply hit the <a href=\"https://i.imgur.com/gcu8r0U.png\" rel=\"noreferrer\" target=\"_blank\">PWA icon</a> in the address bar.</p>\n</li>\n<li>\n<p>Updated Windscribe's description to &quot;No Torrenting w/ Free Version&quot; as they can no longer <a href=\"https://redd.it/1nos1a9\" rel=\"noreferrer\" target=\"_blank\">afford to keep it running</a>. We've also bumped it below Proton, as Proton is unlimited despite having the same no torrent limitation.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred new <a href=\"https://fmhy.net/mobile#ios-sideloading\" rel=\"noreferrer\" target=\"_blank\">Sideloading Guide</a> in iOS section. This is more up to date than ios.cfw's now.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/downloading#software-sites\" rel=\"noreferrer\" target=\"_blank\">Virgil Software Search</a> in Software Sites. Custom multi-site software search engine, only uses trusted sites already listed on FMHY.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#official-model-sites\" rel=\"noreferrer\" target=\"_blank\">Kimi</a> in AI Chatbots. Good free limits, highest rated open-source model on LMArena, adding K2 reasoning soon.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#specialized-chatbots\" rel=\"noreferrer\" target=\"_blank\">LMArena Search</a> in Specialized Chatbots. Unlimited, shows all sources, has good search options.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#manga\" rel=\"noreferrer\" target=\"_blank\">Kagane</a> in Manhwa / Manga. Big library, no compression, nice UI, can toggle SFW / NSFW.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#tracking-database\" rel=\"noreferrer\" target=\"_blank\">MangaBaka</a> in Manga / Light Novel Tracking. Has expansive, detailed database, and nice UI, seems to be well liked so far.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#file-hosts\" rel=\"noreferrer\" target=\"_blank\">VikingFile</a> in File Hosts. Fast, unlimited size, files last 15 days (after last download). Seems to be used by lots of sites now.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/misc#shopping\" rel=\"noreferrer\" target=\"_blank\">Consumer Rights Wiki</a> in Shopping section. In-depth wiki that documents practices that impact consumer rights. Founded by Louis Rossmann.</p>\n</li>\n<li>\n<p>Re-starred <a href=\"https://fmhy.net/gaming#rom-sites\" rel=\"noreferrer\" target=\"_blank\">Vimm's Lair</a> as they've recovered a lot of content that had been deleted.</p>\n</li>\n<li>\n<p>Re-Starred Firehawk52 as it's fully functionating again.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>\n<p>Removed Comick as they had to <a href=\"https://www.reddit.com/r/animepiracy/s/NInzfJ7GUK\" rel=\"noreferrer\" target=\"_blank\">remove all of their content</a>. Such a huge amount of material, both popular, and obscure, has been ripped from the internet. Truly unfortunate. They will be very missed. Thank you to Comick for all the years of making peoples lives better.</p>\n</li>\n<li>\n<p>Removed ReVanced in Android Audio as it <a href=\"https://torrentfreak.com/revanced-complies-with-spotify-takedown-but-explores-options-to-fight-back/\" rel=\"noreferrer\" target=\"_blank\">no longer blocks spotify ads</a>, and instead moved it to YouTube Music, as it still works fine for that.</p>\n</li>\n<li>\n<p>Removed Canva Pro telegram invite, it's gone and we don't have a new link for it. That was our last working Canva Pro method, so it might be awhile before we find an alt.</p>\n</li>\n<li>\n<p>Unstarred Cobalt (in audio ripping, not video) as it's soundcloud + newgrounds only, making it less useful than it was.</p>\n</li>\n<li>\n<p>Unstarred Koalageddon in DLC unlockers, as v1/v2 are both archived and no longer updated.</p>\n</li>\n</ul>",
+      "author": "",
+      "published_date": "2025-10-01T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 696,
+      "reading_time": 3,
+      "created_at": "2026-01-27T04:50:13.772077+00:00",
+      "updated_at": "2026-01-27T04:50:13.772079+00:00"
+    },
     {
       "id": "adf25316b6f2490e8ebf900936910e5f",
       "url": "https://www.biorxiv.org/content/10.64898/2026.01.24.700725v1?rss=1",
@@ -103,22 +199,6 @@
       }
     },
     {
-      "id": "3ff3569d31a32be6417ee3c8dfd13c8c",
-      "url": "https://www.avraam.dev/blog/system-language-corollary",
-      "title": "Any application that can be written in a system language, eventually will be",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46729769\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-23T07:59:44+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-27T03:49:41.349808+00:00",
-      "updated_at": "2026-01-27T03:49:41.349813+00:00"
-    },
-    {
       "id": "47227ef70c45ab0d4b54344ca89c7cd5",
       "url": "https://flymag.com/heathrow-drops-the-liquids-rule-what-changes-at-lhr-and-how-close-the-u-s-really-is/",
       "title": "Heathrow Drops the Liquids Rule",
@@ -137,6 +217,22 @@
         "processed_at": "2026-01-27T04:42:50.864730+00:00",
         "processing_method": "github_actions"
       }
+    },
+    {
+      "id": "3ff3569d31a32be6417ee3c8dfd13c8c",
+      "url": "https://www.avraam.dev/blog/system-language-corollary",
+      "title": "Any application that can be written in a system language, eventually will be",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46729769\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-23T07:59:44+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-27T03:49:41.349808+00:00",
+      "updated_at": "2026-01-27T03:49:41.349813+00:00"
     },
     {
       "id": "79d603b3db5911be59b9e07e11acc674",
@@ -269,122 +365,6 @@
       "reading_time": 1,
       "created_at": "2026-01-27T01:56:11.063614+00:00",
       "updated_at": "2026-01-27T01:56:11.063616+00:00"
-    },
-    {
-      "id": "055591d57d1e0040cbe808b1ed882c86",
-      "url": "https://www.macrumors.com/2026/01/26/iphone-5s-software-update/",
-      "title": "iPhone 5s Gets New Software Update 13 Years After Launch",
-      "content": "<p>Article URL: <a href=\"https://www.macrumors.com/2026/01/26/iphone-5s-software-update/\">https://www.macrumors.com/2026/01/26/iphone-5s-software-update/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46774108\">https://news.ycombinator.com/item?id=46774108</a></p>\n<p>Points: 12</p>\n<p># Comments: 2</p>",
-      "author": "angott",
-      "published_date": "2026-01-27T01:04:54+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-27T01:56:11.063584+00:00",
-      "updated_at": "2026-01-27T01:56:11.063592+00:00"
-    },
-    {
-      "id": "8a37f4aa5925a5559bd2dd315d94013b",
-      "url": "https://brain.ieee.org/publications/neuroethics-framework/education/standards-education/education-standards/",
-      "title": "Education: Standards",
-      "content": "",
-      "author": "Adriel Carridice",
-      "published_date": "2025-02-13T19:51:15+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-26T23:47:20.306590+00:00",
-      "updated_at": "2026-01-27T01:23:24.173188+00:00",
-      "metadata": {
-        "processed_at": "2026-01-27T01:23:24.173198+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "417111e13e4858f79734781862a95c17",
-      "url": "https://brain.ieee.org/publications/neuroethics-framework/education/educational-and-training-resources-education/education-additional-resources/",
-      "title": "Education: Additional Resources",
-      "content": "Buckingham Shum, S. (2022). The UTS \u201cEdTech Ethics\u201d Deliberative Democracy Consultation: Rationale, Process and Outcomes. Connected Intelligence Centre, University of Technology Sydney, AUS. https://cic.uts.edu.au/projects/edtech-ethics Le\u00f3n Declaration on European neurotechnology (2023): a human-focused and rights-oriented approach October 2023. An informal meeting will be held with all telecommunications and digital ministers from EU member states. https://spanish-presidency.consilium.europa.eu/media/o4rh53jr/le%C3%B3n-declaration.pdf Neurotechnology Report: https://www.perseus-strategies.com/wp-content/uploads/2024/04/FINAL-Consumer-Neurotechnology-Report-Neurorights-Foundation-March-2024-3.pdf Al-Emran, M., Al-Nuaimi, ...",
-      "author": "Adriel Carridice",
-      "published_date": "2025-02-13T19:54:30+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 61,
-      "reading_time": 1,
-      "created_at": "2026-01-26T23:47:20.306573+00:00",
-      "updated_at": "2026-01-27T01:23:24.173203+00:00",
-      "metadata": {
-        "processed_at": "2026-01-27T01:23:24.173204+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "eddcbadea083b0a5930cbd4a70baf32e",
-      "url": "https://brain.ieee.org/publications/neuroethics-framework/education/references/education-references/",
-      "title": "Education: References",
-      "content": "[1] OECD \u201cNeurotechnology Toolkit To support policymakers in implementing the OECD Recommendation on Responsible Innovation in Neurotechnology,\u201d 2024.: https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/emerging-technologies/neurotech-toolkit.pdf. [2] van Kesteren and Meeter, 2020 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7339924/ [3]\u00a0 Bikson, M., Esmaeilpour, Z., Adair, D., Kronberg, G., Tyler, W. J., Antal, A., Datta, A., Sabel, B. A., Nitsche, M. A., Loo, C., Edwards, D., Ekhtiari, H., Knotkova, H., Woods, A. J., Hampstead, ...",
-      "author": "Adriel Carridice",
-      "published_date": "2025-02-13T19:57:58+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 61,
-      "reading_time": 1,
-      "created_at": "2026-01-26T23:47:20.306548+00:00",
-      "updated_at": "2026-01-27T01:23:24.173207+00:00",
-      "metadata": {
-        "processed_at": "2026-01-27T01:23:24.173208+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8bfe7b7f37af142b24b0fcd318868131",
-      "url": "https://brain.ieee.org/braininsight-articles/ieee-brain-annual-flagship-workshop-a-success/",
-      "title": "IEEE Brain Annual Flagship Workshop a Success",
-      "content": "IEEE Brain once again hosted the IEEE Brain Discovery and Neurotechnology Workshop as a satellite event to the 2024 Society of Neuroscience Workshop (SfN). Approximately 180 attended the two-day event, which was held at the University of Illinois Chicago (UIC), October 3-4, 2024 (Figure 1). Groundbreaking solutions with the potential to improve quality of life and address neural disorders require ...",
-      "author": "ieeebrain",
-      "published_date": "2025-03-03T16:55:37+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 61,
-      "reading_time": 1,
-      "created_at": "2026-01-26T23:47:20.306510+00:00",
-      "updated_at": "2026-01-27T01:23:24.173211+00:00",
-      "metadata": {
-        "processed_at": "2026-01-27T01:23:24.173212+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ef59dd8528eb92e0c4d2ea2de6bbb63b",
-      "url": "http://doi.org/10.1037/bne0000635",
-      "title": "A rational information gathering account of infant habituation.",
-      "content": "Gaze is one of the primary experimental measures for studying cognitive development, especially in preverbal infants. However, the field is only beginning to develop a principled explanatory framework for making sense of the various factors affecting gaze. We approach this issue by addressing infant gaze from first principles, using rational information gathering. In particular, we revisit the influential descriptive account of Hunter and Ames (1988), which posits a set of regularities argued to govern how gaze preference for a stimulus changes with experience and other factors. When the Hunter and Ames\u2019s (1988) model is reconsidered from the perspective of rational information gathering (as recently also proposed by other authors), one feature of the model emerges as surprising: that preference for a stimulus is not monotonic with exposure. This claim, which has at least some empirical support, is in contrast to most statistical measures of informativeness, which strictly decline with experience. We present a normative, computational theory of visual exploration that rationalizes this and other features of the classic account. Our account suggests that Hunter and Ames\u2019s (1988) signature nonmonotonic pattern is a direct manifestation of a ubiquitous principle of the value of information in sequential tasks, other consequences of which have recently been observed in a range of settings including deliberation, exploration, curiosity, and boredom. This is that the value of information gathering, putatively driving gaze, depends on the interplay of a stimulus\u2019 informativeness (called gain, the focus of other rationally motivated accounts) with a second factor (called need) reflecting the estimated chance that information will be used in the future. This computational decomposition draws new connections between infant gaze and other cases of exploration, and offers novel, quantitative interpretations and predictions about the factors that may impact infant exploratory attention. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-11-24T00:00:00+00:00",
-      "source": "Behavioral Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 300,
-      "reading_time": 1,
-      "created_at": "2026-01-26T23:46:29.098693+00:00",
-      "updated_at": "2026-01-27T01:23:24.173214+00:00",
-      "metadata": {
-        "processed_at": "2026-01-27T01:23:24.173216+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
