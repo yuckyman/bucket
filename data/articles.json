@@ -1,5 +1,85 @@
 [
   {
+    "id": "bb8e9e136828dcdc4c63d47aa000ab75",
+    "url": "https://www.reddit.com/r/Python/comments/1qpdnxn/uv_fastapi_tortoise_orm_template/",
+    "title": "UV + FastAPI + Tortoise ORM template",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I found myself writing this code every time I start a new project, so I made it a template.</p> <p>I wrote a pretty-descriptive guide on how it's structured in the README, it's basically <code>project.lib</code> for application support code, <code>project.db</code> for the ORM models and migrations, and <code>project.api</code> for the FastAPI code, route handlers, and Pydantic schemas.</p> <h1>What My Project Does</h1> <p>It's a starter template for writing FastAPI + Tortoise ORM code. Some key notes:</p> <ul> <li>Redoc by default, no swagger.</li> <li>Automatic markdown-based OpenAPI tag and API documentation from files in a directory.</li> <li>NanoID-based, includes some little types to help with that.</li> <li>The usual FastAPI.</li> <li>Error types and handlers bundled-in.</li> <li>Simple architecture. API, DB, and lib.</li> <li>Bundled-in .env settings support.</li> <li>A template not a framework, so it's all easily customizable.</li> </ul> <h1>Target Audience</h1> <p>It can be used anywhere. It's a template so you work on it and change everything as you like. It only lacks API versioning by default, which can always be added by creating <code>project.api.vX.*</code> modules, that's on you. I mean the template to be easy and simple for small-to-mid-sized projects, though again, it's a template so you work on it as you wish. Certainly beginner-friendly if you know ORM and FastAPI.</p> <h1>Comparison</h1> <p>I don't know about alternatives, this is what I came up with after a few times of making projects with this stack. There's different templates out there and you have your taste, so it depends on what you like your projects to look and feel like best.</p> <p>GitHub: <a href=\"https://github.com/Nekidev/uv-fastapi-tortoise\">https://github.com/Nekidev/uv-fastapi-tortoise</a></p> <p>My own Git: <a href=\"https://git.nyeki.dev/templates/uv-fastapi-tortoise\">https://git.nyeki.dev/templates/uv-fastapi-tortoise</a></p> <p>All suggestions are appreciated, issues and PRs too as always.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Nekogi1\"> /u/Nekogi1 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qpdnxn/uv_fastapi_tortoise_orm_template/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qpdnxn/uv_fastapi_tortoise_orm_template/\">[comments]</a></span>",
+    "author": "/u/Nekogi1",
+    "published_date": "2026-01-28T15:00:39+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 290,
+    "reading_time": 1,
+    "created_at": "2026-01-28T19:29:31.378001+00:00",
+    "updated_at": "2026-01-28T19:29:31.378003+00:00"
+  },
+  {
+    "id": "2593c7f0cb03923037602c33086b0661",
+    "url": "https://hessammehr.github.io/blog/posts/2025-12-24-maths-to-lampshade.html",
+    "title": "3D-Printed Mathematical Lampshades",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46744272\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-24T15:17:11+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-28T19:29:30.197530+00:00",
+    "updated_at": "2026-01-28T19:29:30.197532+00:00"
+  },
+  {
+    "id": "29d4111a80e2f2fd692829d55e137a99",
+    "url": "https://netrinos.com/blog/conflicting-subnets",
+    "title": "When Every Network is 192.168.1.x",
+    "content": "<p>Article URL: <a href=\"https://netrinos.com/blog/conflicting-subnets\">https://netrinos.com/blog/conflicting-subnets</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46795582\">https://news.ycombinator.com/item?id=46795582</a></p>\n<p>Points: 25</p>\n<p># Comments: 12</p>",
+    "author": "pcarroll",
+    "published_date": "2026-01-28T14:06:39+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-28T19:29:28.910627+00:00",
+    "updated_at": "2026-01-28T19:29:28.910628+00:00"
+  },
+  {
+    "id": "3bbc1404edeb950c7ed2f107dcf6e778",
+    "url": "https://computerhistory.org/press-releases/computer-history-museum-launches-digital-portal-to-its-vast-collection/",
+    "title": "Computer History Museum Launches Digital Portal to Its Collection",
+    "content": "<p>Article URL: <a href=\"https://computerhistory.org/press-releases/computer-history-museum-launches-digital-portal-to-its-vast-collection/\">https://computerhistory.org/press-releases/computer-history-museum-launches-digital-portal-to-its-vast-collection/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46798994\">https://news.ycombinator.com/item?id=46798994</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
+    "author": "ChrisArchitect",
+    "published_date": "2026-01-28T17:54:54+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-28T19:29:28.910500+00:00",
+    "updated_at": "2026-01-28T19:29:28.910501+00:00"
+  },
+  {
+    "id": "084f778eaf02912f4b36e7b0415d8c32",
+    "url": "https://lmstudio.ai/blog/0.4.0",
+    "title": "LM Studio 0.4.0",
+    "content": "<p>Article URL: <a href=\"https://lmstudio.ai/blog/0.4.0\">https://lmstudio.ai/blog/0.4.0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46799477\">https://news.ycombinator.com/item?id=46799477</a></p>\n<p>Points: 22</p>\n<p># Comments: 3</p>",
+    "author": "jiqiren",
+    "published_date": "2026-01-28T18:23:14+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-01-28T19:29:28.910447+00:00",
+    "updated_at": "2026-01-28T19:29:28.910456+00:00"
+  },
+  {
     "id": "a0e1014b4f36e4b983b4890c5026b0ef",
     "url": "http://daniellakens.blogspot.com/2025/12/dogmatic-bayesianism-disorder.html",
     "title": "Dogmatic Bayesianism Disorder",
@@ -17148,106 +17228,6 @@
     "updated_at": "2026-01-23T22:14:34.458863+00:00",
     "metadata": {
       "processed_at": "2026-01-23T22:14:34.458872+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "01dc1e0ee3c426a54c0c53d84ae4654d",
-    "url": "https://www.nature.com/articles/s42003-026-09586-y",
-    "title": "Task demand modulates somatosensory-frontoparietal networks during delay and retrieval periods in tactile working memory",
-    "content": "",
-    "author": "",
-    "published_date": "2026-01-23T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-01-23T21:44:21.090504+00:00",
-    "updated_at": "2026-01-23T22:14:34.458877+00:00",
-    "metadata": {
-      "processed_at": "2026-01-23T22:14:34.458879+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "630a3ee283cd241702e2e2df14b4ef72",
-    "url": "https://fs.blog/mental-models/",
-    "title": "Mental Models (2018)",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46737957\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-23T21:08:55+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-23T21:43:43.405396+00:00",
-    "updated_at": "2026-01-23T22:14:34.458881+00:00",
-    "metadata": {
-      "processed_at": "2026-01-23T22:14:34.458883+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "630a3ee283cd241702e2e2df14b4ef72",
-    "url": "https://fs.blog/mental-models/",
-    "title": "Mental Models (2018)",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46737957\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-23T21:08:55+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-23T21:43:43.405396+00:00",
-    "updated_at": "2026-01-23T22:14:34.458881+00:00",
-    "metadata": {
-      "processed_at": "2026-01-23T22:14:34.458883+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "8d46c238369e2f7a451dda0c63c67533",
-    "url": "https://www.ycombinator.com/blog/congratulations-to-equipmentshare/",
-    "title": "EquipmentShare (YC W15) goes public",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46738241\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-23T21:34:29+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-23T21:43:43.405377+00:00",
-    "updated_at": "2026-01-23T22:14:34.458885+00:00",
-    "metadata": {
-      "processed_at": "2026-01-23T22:14:34.458887+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "8d46c238369e2f7a451dda0c63c67533",
-    "url": "https://www.ycombinator.com/blog/congratulations-to-equipmentshare/",
-    "title": "EquipmentShare (YC W15) goes public",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46738241\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-23T21:34:29+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-23T21:43:43.405377+00:00",
-    "updated_at": "2026-01-23T22:14:34.458885+00:00",
-    "metadata": {
-      "processed_at": "2026-01-23T22:14:34.458887+00:00",
       "processing_method": "github_actions"
     }
   }
