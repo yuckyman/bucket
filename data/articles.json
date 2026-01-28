@@ -7,13 +7,17 @@
     "author": "",
     "published_date": "2026-01-26T17:46:22+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-01-28T15:34:45.156291+00:00",
-    "updated_at": "2026-01-28T15:34:45.156293+00:00"
+    "updated_at": "2026-01-28T16:30:20.802658+00:00",
+    "metadata": {
+      "processed_at": "2026-01-28T16:30:20.802667+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "4cdf11f0b60d1af2c5a299de9d34bf4c",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": "2026-01-28T02:08:14+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-01-28T15:34:45.156253+00:00",
-    "updated_at": "2026-01-28T15:34:45.156255+00:00"
+    "updated_at": "2026-01-28T16:30:20.802672+00:00",
+    "metadata": {
+      "processed_at": "2026-01-28T16:30:20.802674+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "a648ffc3acf1068f9e20e530e6106f44",
@@ -39,13 +47,17 @@
     "author": "",
     "published_date": "2026-01-28T15:27:49+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-01-28T15:34:45.156214+00:00",
-    "updated_at": "2026-01-28T15:34:45.156216+00:00"
+    "updated_at": "2026-01-28T16:30:20.802676+00:00",
+    "metadata": {
+      "processed_at": "2026-01-28T16:30:20.802678+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "ac33857b1e7f428bc93602b1745d4f4d",
@@ -55,13 +67,17 @@
     "author": "",
     "published_date": "2026-01-28T14:32:30+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-01-28T15:34:45.156153+00:00",
-    "updated_at": "2026-01-28T15:34:45.156155+00:00"
+    "updated_at": "2026-01-28T16:30:20.802680+00:00",
+    "metadata": {
+      "processed_at": "2026-01-28T16:30:20.802682+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "33117f2e151e21dc46e49006da0605b1",
@@ -71,61 +87,77 @@
     "author": "",
     "published_date": "2026-01-28T14:28:21+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-01-28T15:34:45.156125+00:00",
-    "updated_at": "2026-01-28T15:34:45.156130+00:00"
+    "updated_at": "2026-01-28T16:30:20.802684+00:00",
+    "metadata": {
+      "processed_at": "2026-01-28T16:30:20.802686+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "4cdf11f0b60d1af2c5a299de9d34bf4c",
     "url": "https://sentienceapi.com/blog/verification-layer-amazon-case-study",
     "title": "A verification layer for browser agents: Amazon case study",
-    "content": "<p>A common approach to automating Amazon shopping or similar complex websites is to reach for large cloud models (often vision-capable). I wanted to test a contradiction: can a ~3B parameter local LLM model complete the flow using only structural page data (DOM) plus deterministic assertions?<p>This post summarizes four runs of the same task (search \u2192 first product \u2192 add to cart \u2192 checkout on Amazon). The key comparison is Demo 0 (cloud baseline) vs Demo 3 (local autonomy); Demos 1\u20132 are intermediate controls.<p>More technical detail (architecture, code excerpts, additional log snippets):<p><a href=\"https://www.sentienceapi.com/blog/verification-layer-amazon-case-study\" rel=\"nofollow\">https://www.sentienceapi.com/blog/verification-layer-amazon-...</a><p>Demo 0 vs Demo 3:<p>Demo 0 (cloud, GLM\u20114.6 + structured snapshots)\n  success: 1/1 run\n  tokens:  19,956  (~43% reduction vs ~35k estimate)\n  time:    ~60,000ms\n  cost:    cloud API (varies)\n  vision:  not required<p>Demo 3 (local, DeepSeek R1 planner + Qwen ~3B executor)\n  success: 7/7 steps (re-run)\n  tokens:  11,114\n  time:    405,740ms\n  cost:    $0.00 incremental (local inference)\n  vision:  not required<p>Latency note: the local stack is slower end-to-end here largely because inference runs on local hardware (Mac Studio with M4); the cloud baseline benefits from hosted inference, but has per-token API cost.<p>Architecture<p>This worked because we changed the control plane and added a verification loop.<p>1) Constrain what the model sees (DOM pruning).\nWe don\u2019t feed the entire DOM or screenshots. We collect raw elements, then run a WASM pass to produce a compact \u201csemantic snapshot\u201d (roles/text/geometry) and prune the rest (often on the order of ~95% of nodes).<p>2) Split reasoning from acting (planner vs executor).<p>Planner (reasoning): DeepSeek R1 (local) generates step intent + what must be true afterward.\nExecutor (action): Qwen ~3B (local) selects concrete DOM actions like CLICK(id) / TYPE(text).\n3) Gate every step with Jest\u2011style verification.\nAfter each action, we assert state changes (URL changed, element exists/doesn\u2019t exist, modal/drawer appeared). If a required assertion fails, the step fails with artifacts and bounded retries.<p>Minimal shape:<p>ok = await runtime.check(\n    exists(\"role=textbox\"),\n    label=\"search_box_visible\",\n    required=True,\n).eventually(timeout_s=10.0, poll_s=0.25, max_snapshot_attempts=3)<p>What changed between \u201cagents that look smart\u201d and agents that work\nTwo examples from the logs:<p>Deterministic override to enforce \u201cfirst result\u201d intent: \u201cExecutor decision \u2026 [override] first_product_link -> CLICK(1022)\u201d<p>Drawer handling that verifies and forces the correct branch: \u201cresult: PASS | add_to_cart_verified_after_drawer\u201d<p>The important point is that these are not post\u2011hoc analytics. They are inline gates: the system either proves it made progress or it stops and recovers.<p>Takeaway\nIf you\u2019re trying to make browser agents reliable, the highest\u2011leverage move isn\u2019t a bigger model. It\u2019s constraining the state space and making success/failure explicit with per-step assertions.<p>Reliability in agents comes from verification (assertions on structured snapshots), not just scaling model size.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46790127\">https://news.ycombinator.com/item?id=46790127</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
-    "author": "tonyww",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46790127\">Comments</a>",
+    "author": "",
     "published_date": "2026-01-28T02:08:14+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 427,
-    "reading_time": 2,
-    "created_at": "2026-01-28T15:34:43.844682+00:00",
-    "updated_at": "2026-01-28T15:34:43.844684+00:00"
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-28T15:34:45.156253+00:00",
+    "updated_at": "2026-01-28T16:30:20.802672+00:00",
+    "metadata": {
+      "processed_at": "2026-01-28T16:30:20.802674+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "33117f2e151e21dc46e49006da0605b1",
     "url": "https://www.himthe.dev/blog/microsoft-to-linux",
     "title": "Microsoft forced me to switch to Linux",
-    "content": "<p>Article URL: <a href=\"https://www.himthe.dev/blog/microsoft-to-linux\">https://www.himthe.dev/blog/microsoft-to-linux</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46795864\">https://news.ycombinator.com/item?id=46795864</a></p>\n<p>Points: 89</p>\n<p># Comments: 51</p>",
-    "author": "bobsterlobster",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46795864\">Comments</a>",
+    "author": "",
     "published_date": "2026-01-28T14:28:21+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-01-28T15:34:43.844482+00:00",
-    "updated_at": "2026-01-28T15:34:43.844484+00:00"
+    "created_at": "2026-01-28T15:34:45.156125+00:00",
+    "updated_at": "2026-01-28T16:30:20.802684+00:00",
+    "metadata": {
+      "processed_at": "2026-01-28T16:30:20.802686+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "ac33857b1e7f428bc93602b1745d4f4d",
     "url": "https://ciechanow.ski/airfoil/",
     "title": "Airfoil (2024)",
-    "content": "<p>Article URL: <a href=\"https://ciechanow.ski/airfoil/\">https://ciechanow.ski/airfoil/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46795908\">https://news.ycombinator.com/item?id=46795908</a></p>\n<p>Points: 96</p>\n<p># Comments: 13</p>",
-    "author": "brk",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46795908\">Comments</a>",
+    "author": "",
     "published_date": "2026-01-28T14:32:30+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-01-28T15:34:43.844450+00:00",
-    "updated_at": "2026-01-28T15:34:43.844459+00:00"
+    "created_at": "2026-01-28T15:34:45.156153+00:00",
+    "updated_at": "2026-01-28T16:30:20.802680+00:00",
+    "metadata": {
+      "processed_at": "2026-01-28T16:30:20.802682+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "3727d0ebc34094cb889f4f09a3e22f0e",
