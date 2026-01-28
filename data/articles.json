@@ -1,5 +1,37 @@
 [
   {
+    "id": "8e3f1c276050821a5ac8724396c1f604",
+    "url": "https://www.reddit.com/r/Python/comments/1qp94or/ahe_a_minimalist_imageprocessing_library_for/",
+    "title": "ahe: a minimalist image-processing library for contrast enhancement",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I just published the first alpha version of my new project: a minimal, highly consistent, portable and fast library for (contrast limited) (adaptive) histogram equalization of image arrays in Python. The heavily lifting is done in Rust. If you find this useful, please star it ! If you need some feature currently missing, or if you find a bug, please drop by the issue tracker. I want this to be as useful as possible to as many people as possible !</p> <p><a href=\"https://github.com/neutrinoceros/ahe\">https://github.com/neutrinoceros/ahe</a></p> <h1>What My Project Does</h1> <p>Histogram Equalization is a common data-processing trick to improve visual contrast in an image. ahe supports 3 different algorithms: simple histogram equalization (HE), together with 2 variants of Adaptive Histogram Equalization (AHE), namely sliding-tile and tile-interpolation. Contrast limitation is supported for all three.</p> <h1>Target Audience</h1> <p>Data analysts, researchers dealing with images, including (but not restricted to) biologists, geologists, astronomers... as well as generative artists and photographers.</p> <h1>Comparison</h1> <p><code>ahe</code> is designed as an alternative to <code>scikit-image</code> for the 2 functions it replaces: <code>skimage.exposure.equalize_(adapt)hist</code> Compared to its direct competition, <code>ahe</code> has better performance, portability, much smaller and portable binaries, and a much more consistent interface, all algorithms are exposed through a single function, making the feature set intrinsically cohesive. See the <code>README</code> for a much closer look at the differences.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chromium52\"> /u/chromium52 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qp94or/ahe_a_minimalist_imageprocessing_library_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qp94or/ahe_a_minimalist_imageprocessing_library_for/\">[comments]</a></span>",
+    "author": "/u/chromium52",
+    "published_date": "2026-01-28T11:43:56+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 236,
+    "reading_time": 1,
+    "created_at": "2026-01-28T19:53:29.851497+00:00",
+    "updated_at": "2026-01-28T19:53:29.851499+00:00"
+  },
+  {
+    "id": "a4ab0048afb606ce755c9bf063cca0ee",
+    "url": "https://github.com/robitec97/gemma3.c",
+    "title": "I have written gemma3 inference in pure C",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46765772\">Comments</a>",
+    "author": "",
+    "published_date": "2026-01-26T14:05:46+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-01-28T19:53:28.536828+00:00",
+    "updated_at": "2026-01-28T19:53:28.536830+00:00"
+  },
+  {
     "id": "bb8e9e136828dcdc4c63d47aa000ab75",
     "url": "https://www.reddit.com/r/Python/comments/1qpdnxn/uv_fastapi_tortoise_orm_template/",
     "title": "UV + FastAPI + Tortoise ORM template",
@@ -17194,41 +17226,5 @@
     "reading_time": 1,
     "created_at": "2026-01-23T22:20:16.158790+00:00",
     "updated_at": "2026-01-23T22:20:16.158791+00:00"
-  },
-  {
-    "id": "570e4f23faf105ce8acd74dad2aa8d2f",
-    "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2505682122?af=R",
-    "title": "Brain displacement and nonlinear deformation following human spaceflight",
-    "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 3, January 2026. <br />SignificanceUnderstanding how spaceflight impacts the human brain is crucial as space exploration and tourism expand. We find that the brain shifts upward and backward within the skull following spaceflight, with sensory and motor regions exhibiting the ...",
-    "author": "Tianyi WangRouglas J. OdorYiri E. De DiosEdwin MulderJacob J. BloombergScott J. WoodRachael D. SeidleraDepartment of Applied Physiology and Kinesiology, University of Florida, Gainesville, FL 32611bKBR, Inc., Houston, TX 77058cGerman Aerospace Center, Cologne 51147, GermanydNeuroscience Laboratory, NASA Johnson Space Center, Houston, TX 77058eDepartment of Neurology, University of Florida, Gainesville, FL 32610",
-    "published_date": "2026-01-12T08:00:00+00:00",
-    "source": "Pnas Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 51,
-    "reading_time": 1,
-    "created_at": "2026-01-23T22:20:16.158766+00:00",
-    "updated_at": "2026-01-23T22:20:16.158768+00:00"
-  },
-  {
-    "id": "5b8a29aee446c9de58193ac69106f6a3",
-    "url": "https://www.nature.com/articles/s42003-026-09565-3",
-    "title": "Entrained cortical delta\u2013spindle activity, not periodic synchrony, prevents arousal by NREM thalamic bursts",
-    "content": "",
-    "author": "",
-    "published_date": "2026-01-23T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-01-23T21:44:21.090560+00:00",
-    "updated_at": "2026-01-23T22:14:34.458863+00:00",
-    "metadata": {
-      "processed_at": "2026-01-23T22:14:34.458872+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]

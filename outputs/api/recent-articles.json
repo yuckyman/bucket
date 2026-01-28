@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-28T19:30:35.673993+00:00",
+  "last_updated": "2026-01-28T19:54:40.127170+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "8e3f1c276050821a5ac8724396c1f604",
+      "url": "https://www.reddit.com/r/Python/comments/1qp94or/ahe_a_minimalist_imageprocessing_library_for/",
+      "title": "ahe: a minimalist image-processing library for contrast enhancement",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I just published the first alpha version of my new project: a minimal, highly consistent, portable and fast library for (contrast limited) (adaptive) histogram equalization of image arrays in Python. The heavily lifting is done in Rust. If you find this useful, please star it ! If you need some feature currently missing, or if you find a bug, please drop by the issue tracker. I want this to be as useful as possible to as many people as possible !</p> <p><a href=\"https://github.com/neutrinoceros/ahe\">https://github.com/neutrinoceros/ahe</a></p> <h1>What My Project Does</h1> <p>Histogram Equalization is a common data-processing trick to improve visual contrast in an image. ahe supports 3 different algorithms: simple histogram equalization (HE), together with 2 variants of Adaptive Histogram Equalization (AHE), namely sliding-tile and tile-interpolation. Contrast limitation is supported for all three.</p> <h1>Target Audience</h1> <p>Data analysts, researchers dealing with images, including (but not restricted to) biologists, geologists, astronomers... as well as generative artists and photographers.</p> <h1>Comparison</h1> <p><code>ahe</code> is designed as an alternative to <code>scikit-image</code> for the 2 functions it replaces: <code>skimage.exposure.equalize_(adapt)hist</code> Compared to its direct competition, <code>ahe</code> has better performance, portability, much smaller and portable binaries, and a much more consistent interface, all algorithms are exposed through a single function, making the feature set intrinsically cohesive. See the <code>README</code> for a much closer look at the differences.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/chromium52\"> /u/chromium52 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qp94or/ahe_a_minimalist_imageprocessing_library_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qp94or/ahe_a_minimalist_imageprocessing_library_for/\">[comments]</a></span>",
+      "author": "/u/chromium52",
+      "published_date": "2026-01-28T11:43:56+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 236,
+      "reading_time": 1,
+      "created_at": "2026-01-28T19:53:29.851497+00:00",
+      "updated_at": "2026-01-28T19:53:29.851499+00:00"
+    },
+    {
+      "id": "a4ab0048afb606ce755c9bf063cca0ee",
+      "url": "https://github.com/robitec97/gemma3.c",
+      "title": "I have written gemma3 inference in pure C",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46765772\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-26T14:05:46+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-28T19:53:28.536828+00:00",
+      "updated_at": "2026-01-28T19:53:28.536830+00:00"
+    },
     {
       "id": "bb8e9e136828dcdc4c63d47aa000ab75",
       "url": "https://www.reddit.com/r/Python/comments/1qpdnxn/uv_fastapi_tortoise_orm_template/",
@@ -291,46 +323,6 @@
       "updated_at": "2026-01-28T18:31:14.607572+00:00",
       "metadata": {
         "processed_at": "2026-01-28T18:31:14.607582+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5e17bd812d6d4ee0ce9b7b322115038c",
-      "url": "https://www.youtube.com/watch?v=Wp5NodfvvF4",
-      "title": "I Overengineered a Spinning Top",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46728070\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-23T03:32:26+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-28T17:33:20.104777+00:00",
-      "updated_at": "2026-01-28T18:31:14.607587+00:00",
-      "metadata": {
-        "processed_at": "2026-01-28T18:31:14.607589+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8279db0047afc86e26f70742a3ccdc81",
-      "url": "https://amazonone.aws.com/help",
-      "title": "Amazone One palm authentication discontinued",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46797913\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-28T16:52:05+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-28T17:33:20.104738+00:00",
-      "updated_at": "2026-01-28T18:31:14.607592+00:00",
-      "metadata": {
-        "processed_at": "2026-01-28T18:31:14.607593+00:00",
         "processing_method": "github_actions"
       }
     }
