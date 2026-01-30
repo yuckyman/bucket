@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-01-30T11:30:44.071031+00:00",
+  "last_updated": "2026-01-30T11:54:55.367310+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "8d486873b6728e5969fb54b3a44976e8",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1679196",
+      "title": "Cross-modal privacy-preserving synthesis and mixture-of-experts ensemble for robust ASD prediction",
+      "content": "IntroductionAutism Spectrum Disorder (ASD) diagnosis remains complex due to limited access to large-scale multimodal datasets and privacy concerns surrounding clinical data. Traditional methods rely heavily on resource-intensive clinical assessments and are constrained by unimodal or non-adaptive learning models. To address these limitations, this study introduces AutismSynthGen, a privacy-preserving framework for synthesizing multimodal ASD data and enhancing prediction accuracy.Materials and methodsThe proposed system integrates a Multimodal Autism Data Synthesis Network (MADSN), which employs transformer-based encoders and cross-modal attention within a conditional GAN to generate synthetic data across structural MRI, EEG, behavioral vectors, and severity scores. Differential privacy is enforced via DP-SGD (\u03b5\u202f\u2264\u202f1.0). A complementary Adaptive Multimodal Ensemble Learning (AMEL) module, consisting of five heterogeneous experts and a gating network, is trained on both real and synthetic data. Evaluation is conducted on the ABIDE, NDAR, and SSC datasets using metrics such as AUC, F1 score, MMD, KS statistic, and BLEU.ResultsSynthetic augmentation improved model performance, yielding validation AUC gains of \u2265 0.04. AMEL achieved an AUC of 0.98 and an F1 score of 0.99 on real data and approached near-perfect internal performance (AUC\u202f\u2248\u202f1.00, F1\u202f\u2248\u202f1.00) when synthetic data were included. Distributional metrics (MMD\u202f=\u202f0.04; KS\u202f=\u202f0.03) and text similarity (BLEU\u202f=\u202f0.70) demonstrated high fidelity between the real and synthetic samples. Ablation studies confirmed the importance of cross-modal attention and entropy-regularized expert gating.DiscussionAutismSynthGen offers a scalable, privacy-compliant solution for augmenting limited multimodal datasets and enhancing ASD prediction. Future directions include semi-supervised learning, explainable AI for clinical trust, and deployment in federated environments to broaden accessibility while maintaining privacy.",
+      "author": "Karthiga M.",
+      "published_date": "2025-11-19T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 262,
+      "reading_time": 1,
+      "created_at": "2026-01-30T11:54:17.970160+00:00",
+      "updated_at": "2026-01-30T11:54:17.970162+00:00"
+    },
     {
       "id": "02e4e1f8e211cdaaff1259c5e49f05c3",
       "url": "https://www.nature.com/articles/s41597-026-06694-6",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-01-30T08:41:37.544608+00:00",
       "updated_at": "2026-01-30T08:41:37.544610+00:00"
-    },
-    {
-      "id": "00dac4b08f21db028bf31e82372fa831",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.01.29.701494v1?rss=1",
-      "title": "Resting-state functional connectivity after creativity training with music composing",
-      "content": "Creativity is one of the unique cognitive constructs in human beings and its neurobiological correlates are one of the current hot topics in neuroscience. The Different Hearing program (DHP) is an educational activity aimed at stimulating musical creativity by means of group composing in the classroom, alternative to the mainstream model of music education in Czechia. In our previous study, the data from task-related functional MRI with passive listening was analyzed. The results suggested that DHP training modified the response to diverse sound samples, differentially changing the engagement of functional networks known to be related to creative thinking, namely, increasing default mode network activation and decreasing activation of executive and salience networks. In the present study, we hypothesized that the DHP short-term (2 days) intense workshop would also induce changes in the resting-state networks that were significantly modified during task. To investigate it, seed-based, ROI-to-ROI resting-state functional connectivity and degree centrality analysis were performed on the acquired resting-state fMRI data. The results showed no significant group-by-time interaction.",
-      "author": "Arkhipova, A., Hok, P., Trneckova, M., Zatkova, G., Zouhar, V., Hlustik, P.",
-      "published_date": "2026-01-29T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 167,
-      "reading_time": 1,
-      "created_at": "2026-01-30T08:41:37.544562+00:00",
-      "updated_at": "2026-01-30T08:41:37.544566+00:00"
     }
   ]
 }
