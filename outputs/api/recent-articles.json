@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-01-31T10:28:11.903002+00:00",
+  "last_updated": "2026-01-31T10:53:26.848314+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "06fb0350dfcf543319179a8f26af4bcb",
+      "url": "https://www.reddit.com/r/Python/comments/1qrguk2/is_it_reliable_to_run_lab_equipment_on_python/",
+      "title": "Is it reliable to run lab equipment on Python?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>In our laboratory we have this automation projects encompassing a 2 syringe pumps, 4 rotary valves and a chiller. The idea is that it will do some chemical synthesis and be in operation roughly 70-80% of the time (apart from the chiller, the other equipment will not actually do things most of the time, as they wait for reactions to happen). It would run a pre-determined program set by the user which lasts anything from 2-72 hours, during which it would pump reagents to different places, change temperature etc. I have seen equipment like this run of LabView/similar, PLC but not so many on Python. </p> <p>Could python be a reliable approach to control this? It would save us so much money and time (easier programming than PLC).</p> <p>Note: All these parts have RS232/RS485 ports and some already have python driver in GitHub.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/deduhej_\"> /u/deduhej_ </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qrguk2/is_it_reliable_to_run_lab_equipment_on_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qrguk2/is_it_reliable_to_run_lab_equipment_on_python/\">[comments]</a></span>",
+      "author": "/u/deduhej_",
+      "published_date": "2026-01-30T20:22:06+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 164,
+      "reading_time": 1,
+      "created_at": "2026-01-31T10:52:22.679389+00:00",
+      "updated_at": "2026-01-31T10:52:22.679391+00:00"
+    },
+    {
+      "id": "bc7c6dcbd741290cd333da0f79ffd6c4",
+      "url": "https://antirez.com/news/159",
+      "title": "Automatic Programming",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46835208\">Comments</a>",
+      "author": "",
+      "published_date": "2026-01-31T10:11:25+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-01-31T10:52:21.443296+00:00",
+      "updated_at": "2026-01-31T10:52:21.443298+00:00"
+    },
+    {
+      "id": "bc7c6dcbd741290cd333da0f79ffd6c4",
+      "url": "https://antirez.com/news/159",
+      "title": "Automatic Programming",
+      "content": "<p>Article URL: <a href=\"https://antirez.com/news/159\">https://antirez.com/news/159</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46835208\">https://news.ycombinator.com/item?id=46835208</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "author": "dvrp",
+      "published_date": "2026-01-31T10:11:25+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-31T10:52:20.167916+00:00",
+      "updated_at": "2026-01-31T10:52:20.167923+00:00"
+    },
     {
       "id": "b05325b1f548b2fee6e2bfe98b44d4f6",
       "url": "https://www.reddit.com/r/Python/comments/1qrc7lh/does_anyone_feel_like_intellijpycharm_github/",
@@ -311,62 +359,6 @@
       "updated_at": "2026-01-31T08:23:24.757618+00:00",
       "metadata": {
         "processed_at": "2026-01-31T08:23:24.757620+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5075903ae82ff0a3ad6570fab5dd0ff6",
-      "url": "https://finance.yahoo.com/news/musks-starlink-updates-privacy-policy-230853500.html",
-      "title": "Starlink updates privacy policy to allow consumer data to train",
-      "content": "<p>Article URL: <a href=\"https://finance.yahoo.com/news/musks-starlink-updates-privacy-policy-230853500.html\">https://finance.yahoo.com/news/musks-starlink-updates-privacy-policy-230853500.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46833847\">https://news.ycombinator.com/item?id=46833847</a></p>\n<p>Points: 12</p>\n<p># Comments: 1</p>",
-      "author": "malchow",
-      "published_date": "2026-01-31T05:44:49+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-31T06:54:51.021909+00:00",
-      "updated_at": "2026-01-31T06:54:51.021918+00:00"
-    },
-    {
-      "id": "99540860652c04a52d8976f85951fc94",
-      "url": "https://phage-explorer.org/",
-      "title": "Show HN: Phage Explorer",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46833754\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-31T05:22:03+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-31T06:00:19.966614+00:00",
-      "updated_at": "2026-01-31T06:32:17.449743+00:00",
-      "metadata": {
-        "processed_at": "2026-01-31T06:32:17.449752+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f0ccc3aad0f112fa856910681b6e8e32",
-      "url": "https://viewfromthewing.com/court-filings-ice-uses-mobile-fortify-to-identify-protesters-global-entry-and-precheck-get-revoked/",
-      "title": "Court Filings: ICE App Identifies Protesters; Global Entry, PreCheck Get Revoked",
-      "content": "<p>Article URL: <a href=\"https://viewfromthewing.com/court-filings-ice-uses-mobile-fortify-to-identify-protesters-global-entry-and-precheck-get-revoked/\">https://viewfromthewing.com/court-filings-ice-uses-mobile-fortify-to-identify-protesters-global-entry-and-precheck-get-revoked/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46832751\">https://news.ycombinator.com/item?id=46832751</a></p>\n<p>Points: 132</p>\n<p># Comments: 63</p>",
-      "author": "datsci_est_2015",
-      "published_date": "2026-01-31T02:29:45+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-31T06:00:18.619626+00:00",
-      "updated_at": "2026-01-31T06:32:17.449756+00:00",
-      "metadata": {
-        "processed_at": "2026-01-31T06:32:17.449758+00:00",
         "processing_method": "github_actions"
       }
     }
