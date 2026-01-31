@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-01-31T15:26:22.441136+00:00",
+  "last_updated": "2026-01-31T15:49:14.648721+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "e1385798428586a67ced89a895faeb47",
+      "url": "https://erpinfo.org/blog/2024/6/10/erp-core-decoding-paper",
+      "title": "New Paper: Using Multivariate Pattern Analysis to Increase Effect Sizes for ERP Amplitude Comparisons",
+      "content": "<p class=\"\">Carrasco, C. D., Bahle, B., Simmons, A. M., &amp; Luck, S. J. (2024). Using multivariate pattern analysis to increase effect sizes for event-related potential analyses. Psychophysiology, 61, e14570. <a href=\"https://doi.org/10.1111/psyp.14570\">https://doi.org/10.1111/psyp.14570</a> [<a href=\"https://doi.org/10.1101/2023.11.07.566051\">preprint</a>]</p><p class=\"\">Multivariate pattern analysis (MVPA) can be used to \u201cdecode\u201d subtle information from ERP signals, such as which of several faces a participant is perceiving or the orientation that someone is holding in working memory (see <a href=\"https://erpinfo.org/blog/2018/9/16/decoding\">this previous blog post</a>). This approach is so powerful that we started wondering whether it might also give us greater statistical power in more typical experiments where the goal is to determine whether an ERP component differs in amplitude across experimental conditions. For example, might we more easily be able to tell if N400 amplitude is different between two different classes of words by using decoding? If so, that might make it possible to detect effects that would otherwise be too small to be significant.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"688\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/08f353c7-f484-4e87-b5d3-a256fe1206e2/N170_ES.png?format=1000w\" width=\"971\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">To address this question, we compared decoding with the conventional ERP analysis approach with using the 6 experimental paradigms in the <a href=\"https://doi.org/10.18115/D5JW4R\">ERP CORE</a>. In the conventional ERP analysis, we measured the mean amplitude during the standard measurement window from each participant in the two conditions of the paradigm (e.g., faces versus cars for N170, deviants versus standards for MMN). We quantified the magnitude of the difference between conditions using Cohen\u2019s <em>dz</em> (the variant of Cohen\u2019s <em>d</em> corresponding to a paired <em>t</em> test). For example, the effect size in the conventional ERP comparison of faces versus cars in the N170 paradigm was approximately 1.7 (see the figure).</p><p class=\"\">We also applied decoding to each paradigm. For example, in the N170 paradigm, we trained a support vector machine (SVM) to distinguish between ERPs elicited by faces and ERPs elicited by cars. This was done separately for each subject, and we converted the decoding accuracy into Cohen\u2019s <em>dz</em> so that it could be compared with the <em>dz</em> from the conventional ERP analysis. As you can see from the bar labeled SVM in the figure above, the effect size for the SVM-based decoding analysis was almost twice as large as the effect size for the conventional ERP analysis. That\u2019s a huge difference!</p><p class=\"\">We found a similar benefit for SVM-based decoding over conventional ERP analyses in 7 of the 10 cases we tested (see the figure below). In the other 3 cases, the ERP and SVM effects were approximately equivalent. So, there doesn\u2019t seem to be a downside to using decoding, at least in terms of effect size. But there can be a big benefit.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1371\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/d16f0782-7205-4d50-95e1-c6729cbc153e/All_Components.png?format=1000w\" width=\"4641\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">Because decoding has many possible benefits, we\u2019ve added it into <a href=\"ERPLAB Toolbox\">ERPLAB Toolbox</a>. It\u2019s super easy to use, and we\u2019ve created <a href=\"https://erpinfo.org/blog/2023/6/23/decoding-webinar\">detailed documentation and a video</a> to explain how it works at a conceptual level and to show you how to use it.</p><p class=\"\">We encourage you to apply it to your own data. It may give you the power to detect effects that are too small to be detected with conventional ERP analyses.</p>",
+      "author": "Steve Luck",
+      "published_date": "2024-06-10T18:01:45+00:00",
+      "source": "Erp Boot Camp",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 525,
+      "reading_time": 2,
+      "created_at": "2026-01-31T15:49:05.587339+00:00",
+      "updated_at": "2026-01-31T15:49:05.587341+00:00"
+    },
+    {
+      "id": "906f73f5c36ba087882a0ad17e01fc20",
+      "url": "https://erpinfo.org/blog/2024/6/11/erplab-studio",
+      "title": "New software package: ERPLAB Studio",
+      "content": "<p class=\"\">We are excited to announce the release of a new EEG/ERP analysis package, <a href=\"https://github.com/ucdavis/erplab/releases\">ERPLAB Studio</a>. We think it\u2019s a huge improvement over the classic EEGLAB user interface. See our cheesy <a href=\"https://www.youtube.com/watch?v=lIaKVQ9DD6E\">\u201cadvertisement\u201d video</a> to get a quick overview. </p><p class=\"\">Rather than operating as an EEGLAB plugin, ERPLAB Studio is a standalone Matlab program that provides a more efficient and user-friendly interface to the most commonly used EEGLAB and ERPLAB routines.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/c874d4ec-5186-4de9-981b-58010c7a06e1/Interface.jpeg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">With ERPLAB Studio, you automatically see the EEG or ERP waveforms as soon as you load a file. And as soon as you perform an operation, you see what the new EEG/ERP looks like. For example, when you filter the data, you immediately see the filtered waveforms.</p><p class=\"\">You can even select multiple datasets and apply an operation like artifact detection on all of them in one step. And then you can immediately see the results, such as which EEG epochs have been marked with artifacts.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/b45f514d-2d21-4a5a-8be6-f3a8ff99c388/Artifacts.jpeg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">We give you access to EEGLAB\u2019s ICA-based artifact correction tools, but with a nice bonus. You can plot the ICA activations in the same window with the EEG data, making it easy to see which ICA components correspond to specific artifacts such as eyeblinks.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/8bc191da-9040-4042-ae9c-550cd98def7d/ICA.jpeg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">The program has an EEG tab for processing continuous and epoched EEG data, and an ERP tab for processing averaged ERPs.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/84bdd9df-b02e-4fc5-83b9-1139a91938f5/Tabs.jpg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">The automatic ERP plotting makes it easy for you to view the data laid out according to the electrode locations. And we have an Advanced Waveform Viewer that can make publication-quality plots.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/a932631f-fc30-415f-b11d-660d2bf90da5/ERP.jpeg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">ERPLAB Studio is mainly just a new user interface. Under the hood, we\u2019re running the same EEGLAB and ERPLAB routines you\u2019ve always used. And scripting is identical.</p><p class=\"\">ERPLAB Studio is included in <a href=\"https://github.com/ucdavis/erplab/releases\">version 11 and higher of ERPLAB</a>. You simply follow our <a href=\"https://github.com/ucdavis/erplab/wiki/installation\">download/installation instructions</a> and then type estudio from the Matlab command line. </p><p class=\"\">If you\u2019re new to ERPLAB, we strongly recommend that you go through our <a href=\"https://github.com/ucdavis/erplab/wiki/ERPLAB-Studio-Tutorial\" target=\"_blank\">tutorial</a> before starting to process your own data. </p><p class=\"\">If you already know how to use the original version of ERPLAB (which we now call ERPLAB Classic), you can quickly learn how to use ERPLAB Studio with our <a href=\"https://ucdavis.box.com/s/i4jfv22gv6rj9t5obctuk6yaruxqomcc\">Transition Guide</a>.</p><p class=\"\">We also have a <a href=\"https://github.com/ucdavis/erplab/wiki/ERPLAB-Studio-Manual\">manual</a> that describes every feature in detail. </p>",
+      "author": "Steve Luck",
+      "published_date": "2024-06-12T02:02:16+00:00",
+      "source": "Erp Boot Camp",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 444,
+      "reading_time": 2,
+      "created_at": "2026-01-31T15:49:05.587276+00:00",
+      "updated_at": "2026-01-31T15:49:05.587278+00:00"
+    },
     {
       "id": "79d603b3db5911be59b9e07e11acc674",
       "url": "https://erpinfo.org/blog/2024/6/28/recording-and-slides-now-available-for-erplab-studio-webinar",
@@ -289,38 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-01-31T14:51:32.123455+00:00",
       "updated_at": "2026-01-31T14:51:32.123456+00:00"
-    },
-    {
-      "id": "37545bf33ffd5527abb21c7322984d9c",
-      "url": "https://www.nature.com/articles/s41398-026-03844-7",
-      "title": "Regarding \u201cThe molecular mechanisms through which psilocybin prevents suicide: evidence from network pharmacology and molecular docking analyses\u201d",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-31T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-31T14:51:32.123435+00:00",
-      "updated_at": "2026-01-31T14:51:32.123437+00:00"
-    },
-    {
-      "id": "82b2a556495558aafd352901f3208819",
-      "url": "https://www.nature.com/articles/s41598-026-35852-4",
-      "title": "Human chorionic gonadotropin decreases cerebral cystic encephalomalacia and parvalbumin interneuron degeneration in a pro-inflammatory model of mouse neonatal hypoxia-ischemia",
-      "content": "",
-      "author": "",
-      "published_date": "2026-01-31T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-31T14:51:32.123408+00:00",
-      "updated_at": "2026-01-31T14:51:32.123413+00:00"
     }
   ]
 }
