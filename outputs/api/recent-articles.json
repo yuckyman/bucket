@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-01-31T23:25:24.631469+00:00",
+  "last_updated": "2026-01-31T23:47:39.622330+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "50a3291f566a19d79a2c77f38eb78832",
+      "url": "https://www.nature.com/articles/s41746-026-02360-8",
+      "title": "Towards a speech-based digital biomarker for cognitive impairment: speech as a proxy for cognitive assessment",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-31T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-31T23:47:09.007524+00:00",
+      "updated_at": "2026-01-31T23:47:09.007526+00:00"
+    },
+    {
+      "id": "86b9775da6e2a38728d79f80d812f749",
+      "url": "https://www.nature.com/articles/s41398-026-03854-5",
+      "title": "Social valence dictates sex differences in identity recognition",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-31T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-31T23:47:09.007505+00:00",
+      "updated_at": "2026-01-31T23:47:09.007506+00:00"
+    },
+    {
+      "id": "55a328d1dfc5c71005b3db38c9b44dff",
+      "url": "https://www.nature.com/articles/s41419-026-08437-2",
+      "title": "Mutant TDP-43 drives impairments in axonal transport and glycolysis in a mouse stem-cell-derived motor neuron model of amyotrophic lateral sclerosis (ALS)",
+      "content": "",
+      "author": "",
+      "published_date": "2026-01-31T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-01-31T23:47:09.007439+00:00",
+      "updated_at": "2026-01-31T23:47:09.007443+00:00"
+    },
+    {
+      "id": "292414592ef6dda10f9e575900986339",
+      "url": "https://old.reddit.com/r/golang/comments/1qr9375/rewrote_our_python_api_gateway_in_go_and_now_its/",
+      "title": "Rewrote our Python API gateway in Go and nobody cares",
+      "content": "<p>Article URL: <a href=\"https://old.reddit.com/r/golang/comments/1qr9375/rewrote_our_python_api_gateway_in_go_and_now_its/\">https://old.reddit.com/r/golang/comments/1qr9375/rewrote_our_python_api_gateway_in_go_and_now_its/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46841802\">https://news.ycombinator.com/item?id=46841802</a></p>\n<p>Points: 6</p>\n<p># Comments: 2</p>",
+      "author": "dcu",
+      "published_date": "2026-01-31T23:03:26+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-01-31T23:46:32.092670+00:00",
+      "updated_at": "2026-01-31T23:46:32.092677+00:00"
+    },
     {
       "id": "c5df907383dc5077b3c790401b6c5762",
       "url": "https://fmhy.net/posts/dec-2025",
@@ -269,78 +333,6 @@
         "processed_at": "2026-01-31T22:18:02.177114+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "6d79727041124a21f53470f88a30791f",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1754834",
-      "title": "Correction: Path planning of industrial robots based on the adaptive field cooperative sampling algorithm",
-      "content": "",
-      "author": "Lv Wei",
-      "published_date": "2025-12-18T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-01-31T21:23:35.970658+00:00",
-      "updated_at": "2026-01-31T22:18:02.177116+00:00",
-      "metadata": {
-        "processed_at": "2026-01-31T22:18:02.177118+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "390e0bbc0a93748a097b7fe44799edad",
-      "url": "https://www.reddit.com/r/Python/comments/1qsd7bn/copierastral_modern_python_project_scaffolding/",
-      "title": "copier-astral: Modern Python project scaffolding with the entire Astral ecosystem",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"https://www.reddit.com/r/Python/\">r/Python</a>!</p> <p>I've been using Astral's tools (uv, ruff, and now ty) for a while and got tired of setting up the same boilerplate every time. So I built <a href=\"https://github.com/ritwiktiwari/copier-astral\">copier-astral</a> \u2014 a Copier template that gives you a production-ready Python project in seconds.</p> <h1>What My Project Does</h1> <p>Scaffolds a complete Python project with modern tooling pre-configured:</p> <ul> <li>uv for package management (10-100x faster than pip)</li> <li>ruff for linting + formatting (replaces black, isort, flake8)</li> <li>ty for type checking (Astral's new Rust-based type checker)</li> <li>pytest + hatch for testing (including multi-version matrix)</li> <li>MkDocs with Material theme + mkdocstrings</li> <li>pre-commit hooks</li> <li>GitHub Actions CI/CD</li> <li>Docker support</li> <li>Typer CLI scaffold (optional)</li> <li>git-cliff for auto-generated changelogs</li> <li>License selection \u2014 choose from MIT, Apache 2.0, GPL, etc. during setup</li> </ul> <h1>Target Audience</h1> <p>Python developers who want a modern, opinionated starting point for new projects. Good for:</p> <ul> <li>Side projects where you don't want to spend an hour on setup</li> <li>Production code that needs proper CI/CD, testing, and docs from day one</li> <li>Anyone who's already bought into the Astral ecosystem and wants it all wired up</li> </ul> <h1>Comparison</h1> <p>The main difference: this uses Copier (which supports template updates) and goes all-in on Astral's toolchain including ty for type checking with optional Typer CLI scaffold if you're building a command-line tool and git-cliff for changelog generation from conventional commits.</p> <h1>Quick start:</h1> <pre><code>pip install copier copier-template-extensions copier copy --trust gh:ritwiktiwari/copier-astral my-project </code></pre> <h1>Links:</h1> <ul> <li><strong>Template</strong>: <a href=\"https://github.com/ritwiktiwari/copier-astral\">https://github.com/ritwiktiwari/copier-astral</a></li> <li><strong>Docs</strong>: <a href=\"https://ritwiktiwari.github.io/copier-astral/\">https://ritwiktiwari.github.io/copier-astral/</a></li> <li><strong>Example generated project</strong>: <a href=\"https://github.com/ritwiktiwari/copier-astral-example\">https://github.com/ritwiktiwari/copier-astral-example</a></li> <li><strong>Example generated docs</strong>: <a href=\"https://ritwiktiwari.github.io/copier-astral-example/\">https://ritwiktiwari.github.io/copier-astral-example/</a></li> </ul> <h1>Try it out!</h1> <p>Would love to hear your feedback. If you run into any bugs or rough edges, please open an issue \u2014 trying to make this as smooth as possible.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_ritwiktiwari\"> /u/_ritwiktiwari </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qsd7bn/copierastral_modern_python_project_scaffolding/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qsd7bn/copierastral_modern_python_project_scaffolding/\">[comments]</a></span>",
-      "author": "/u/_ritwiktiwari",
-      "published_date": "2026-01-31T20:24:38+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 307,
-      "reading_time": 1,
-      "created_at": "2026-01-31T21:23:04.603844+00:00",
-      "updated_at": "2026-01-31T22:18:02.177120+00:00",
-      "metadata": {
-        "processed_at": "2026-01-31T22:18:02.177122+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6998917615a369420bb2b62c56e358bd",
-      "url": "https://www.ycombinator.com/companies/collectwise/jobs/ZunnO6k-ai-agent-engineer",
-      "title": "CollectWise (YC F24) Is Hiring",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46840801\">Comments</a>",
-      "author": "",
-      "published_date": "2026-01-31T21:00:56+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-01-31T21:23:03.296669+00:00",
-      "updated_at": "2026-01-31T21:23:03.296670+00:00"
-    },
-    {
-      "id": "6998917615a369420bb2b62c56e358bd",
-      "url": "https://www.ycombinator.com/companies/collectwise/jobs/ZunnO6k-ai-agent-engineer",
-      "title": "CollectWise (YC F24) Is Hiring",
-      "content": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/collectwise/jobs/ZunnO6k-ai-agent-engineer\">https://www.ycombinator.com/companies/collectwise/jobs/ZunnO6k-ai-agent-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46840801\">https://news.ycombinator.com/item?id=46840801</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
-      "author": "OBrien_1107",
-      "published_date": "2026-01-31T21:00:56+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-01-31T21:23:02.210917+00:00",
-      "updated_at": "2026-01-31T21:23:02.210925+00:00"
     }
   ]
 }
