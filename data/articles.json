@@ -1,5 +1,37 @@
 [
   {
+    "id": "70064dbebfb1b457c40558395eb54f5f",
+    "url": "https://www.reddit.com/r/Python/comments/1qsxie3/kore_a_new_systems_language_with_python_syntax/",
+    "title": "KORE: A new systems language with Python syntax, Actor concurrency, and LLVM/SPIR-V output",
+    "content": "<!-- SC_OFF --><div class=\"md\"><h1><a href=\"https://github.com/ephemara/kore-lang\">kore-lang</a></h1> <p><strong>What My Project Does</strong> KORE is a self-hosting, universal programming language designed to collapse the entire software stack. It spans from low-level systems programming (no GC, direct memory control) up to high-level full-stack web development. It natively supports JSX/UI components, database ORMs, and Actor-based concurrency without needing external frameworks or build tools. It compiles to LLVM native, WASM, SPIR-V (shaders), and transpiles to Rust.</p> <p><strong>Target Audience</strong> Developers tired of the &quot;glue code&quot; era. It is for systems engineers who need performance, but also for full-stack web developers who want React-style UI, GraphQL, and backend logic in a single type-safe language without the JavaScript/npm ecosystem chaos.</p> <p><strong>Comparison</strong></p> <ul> <li><strong>vs TypeScript/React:</strong> KORE has native JSX, hooks, and state management built directly into the language syntax. No <code>npm install</code>, no Webpack, no distinct build step.</li> <li><strong>vs Go/Erlang:</strong> Uses the Actor model for concurrency (perfect for WebSockets/Networking) but combines it with Rust-like memory safety.</li> <li><strong>vs Rust:</strong> Offers the same ownership/borrowing guarantees but with Python's clean whitespace syntax and less ceremony.</li> <li><strong>vs SQL/ORMs:</strong> Database models and query builders are first-class citizens, allowing type-safe queries without reflection or external tools.</li> </ul> <h1>What is KORE?</h1> <p>KORE is a <strong>self-hosting programming language</strong> that combines the best ideas from multiple paradigms:</p> <table><thead> <tr> <th align=\"left\"><strong>Paradigm</strong></th> <th align=\"left\"><strong>Inspiration</strong></th> <th align=\"left\"><strong>KORE Implementation</strong></th> </tr> </thead><tbody> <tr> <td align=\"left\"><strong>Safety</strong></td> <td align=\"left\">Rust</td> <td align=\"left\">Ownership, borrowing, no null, no data races</td> </tr> <tr> <td align=\"left\"><strong>Syntax</strong></td> <td align=\"left\">Python</td> <td align=\"left\">Significant whitespace, minimal ceremony</td> </tr> <tr> <td align=\"left\"><strong>UI/Web</strong></td> <td align=\"left\">React</td> <td align=\"left\">Native JSX, Hooks (<code>use_state</code>), Virtual DOM</td> </tr> <tr> <td align=\"left\"><strong>Concurrency</strong></td> <td align=\"left\">Erlang</td> <td align=\"left\">Actor model, message passing, supervision trees</td> </tr> <tr> <td align=\"left\"><strong>Data</strong></td> <td align=\"left\">GraphQL/SQL</td> <td align=\"left\">Built-in ORM patterns and schema definition</td> </tr> <tr> <td align=\"left\"><strong>Compile-Time</strong></td> <td align=\"left\">Zig</td> <td align=\"left\"><code>comptime</code> execution, hygienic macros</td> </tr> <tr> <td align=\"left\"><strong>Targets</strong></td> <td align=\"left\">Universal</td> <td align=\"left\">WASM, LLVM Native, SPIR-V, Rust</td> </tr> </tbody></table> <pre><code>// 1. Define Data Model (ORM) let User = model! { table &quot;users&quot; field id: Int field name: String } // 2. Define Backend Actor actor Server: on GetUser(id: Int) -&gt; Option&lt;User&gt;: return await db.users.find(id) // 3. Define UI Component (Native JSX) fn UserProfile(id: Int) -&gt; Component: let (user, set_user) = use_state(None) use_effect(fn(): let u = await Server.ask(GetUser(id)) set_user(u) , [id]) return match user: Some(u) =&gt; &lt;div class=&quot;profile&quot;&gt;&lt;h1&gt;{u.name}&lt;/h1&gt;&lt;/div&gt; None =&gt; &lt;Spinner /&gt; </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ephemara\"> /u/Ephemara </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qsxie3/kore_a_new_systems_language_with_python_syntax/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qsxie3/kore_a_new_systems_language_with_python_syntax/\">[comments]</a></span>",
+    "author": "/u/Ephemara",
+    "published_date": "2026-02-01T12:43:53+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 397,
+    "reading_time": 1,
+    "created_at": "2026-02-01T15:49:11.173402+00:00",
+    "updated_at": "2026-02-01T15:49:11.173403+00:00"
+  },
+  {
+    "id": "6c6024331e97f8b68b0c77ba5fc618a4",
+    "url": "https://github.com/zuckermanai/zuckerman",
+    "title": "Show HN: Zuckerman \u2013 minimalist personal AI agent that self-edits its own code",
+    "content": "<p>Article URL: <a href=\"https://github.com/zuckermanai/zuckerman\">https://github.com/zuckermanai/zuckerman</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46846210\">https://news.ycombinator.com/item?id=46846210</a></p>\n<p>Points: 4</p>\n<p># Comments: 4</p>",
+    "author": "ddaniel10",
+    "published_date": "2026-02-01T13:50:15+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-02-01T15:49:08.757833+00:00",
+    "updated_at": "2026-02-01T15:49:08.757835+00:00"
+  },
+  {
     "id": "560b53b8a9f1b10c46ba5f7d619d4dec",
     "url": "http://ieeexplore.ieee.org/document/11164370",
     "title": "Drawing the Line: Wearable Linear Haptics Motivated by Guided Breathing",
@@ -17102,37 +17134,5 @@
     "reading_time": 1,
     "created_at": "2026-01-27T19:28:55.837536+00:00",
     "updated_at": "2026-01-27T19:28:55.837538+00:00"
-  },
-  {
-    "id": "c2badf68cacc9dec3d628aadc12aa158",
-    "url": "http://ieeexplore.ieee.org/document/11303644",
-    "title": "Monolingual, Non-tone Bilingual, and Tone Bilingual Infants: Language Experiences Alter Speech and Nonspeech Perception",
-    "content": "Studies on first-year infants' pitch perception have witnessed shifts of perceptual focus from acoustic to linguistic information and from a wide range of contrasts to those relevant to their native language. Nevertheless, how linguistic experience interacts with this developmental process remains an open question. This study compared the neural discrimination of speech/lexical and nonspeech/violin tone contrasts by 5- to 6- and 11- to 12-month-old infants across three types of language backgrounds: monolingual infants learning a non-tone language (Mono), bilingual infants learning two non-tone languages (Bi-NT), and bilingual infants learning a non-tone and a tone language (Bi-Tone). Although Mono infants do not show significant responses to the lexical tone contrast, both Bi-NT and Bi-Tone infants showed positive mismatch responses at both ages, indicating an enhancement effect brought by a complex language environment as early as 5 months after birth. Regarding the violin tone perception, distinct patterns were observed across language backgrounds: a perceptual decrease for Mono infants, no significant response for Bi-NT infants, and a perceptual increase for Bi-Tone infants over the first year. These patterns suggest that pitch perception may be affected across domains by language experiences at this stage, where interactions in cognitive processing between speech and nonspeech prosodic information may occur.",
-    "author": "",
-    "published_date": "2025-12-18T13:16:55+00:00",
-    "source": "Cognitive Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 203,
-    "reading_time": 1,
-    "created_at": "2026-01-27T19:28:51.494640+00:00",
-    "updated_at": "2026-01-27T19:28:51.494642+00:00"
-  },
-  {
-    "id": "ab043b2bcd71b18a1c1891ad57329ddc",
-    "url": "http://ieeexplore.ieee.org/document/11303559",
-    "title": "Oscillatory Correlates of Metacontrol: Beta and Theta Band Contributions to Feedback-dependent Cognitive Adaptation",
-    "content": "The ability to adapt to varying task demands is essential for goal-directed behavior. Cognitive control styles regulate this adaptation, with persistence reflecting high top\u2013down control and flexibility reflecting lower control. Metacontrol facilitates the dynamic adjustment between these states based on current demands. The present study investigated short-term feedback-dependent adaptations in cognitive control style during conflict monitoring. Behavioral results demonstrated that RT feedback promoted a more persistent cognitive control style in subsequent trials, improving performance in incongruent conditions while diminishing facilitative effects in congruent conditions. On the neurophysiological level, theta-band activity primarily reflected these changes during conflict processing. Crucially, intertrial interval analyses revealed a key role of beta-band activity in using RT feedback. Correlations with behavioral congruency effects suggested that decreased beta-band activity reflected a generally more flexible control style, whereas increased beta-band activity was associated with generally greater persistence. By demonstrating that pretrial beta-band modulations reflect cognitive control dispositions, this study provides novel insights into the neural mechanisms underlying metacontrol.",
-    "author": "",
-    "published_date": "2025-12-18T13:16:55+00:00",
-    "source": "Cognitive Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 160,
-    "reading_time": 1,
-    "created_at": "2026-01-27T19:28:51.494606+00:00",
-    "updated_at": "2026-01-27T19:28:51.494608+00:00"
   }
 ]
