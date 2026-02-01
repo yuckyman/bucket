@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-02-01T22:54:18.234704+00:00",
+  "last_updated": "2026-02-01T23:28:02.715546+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "917f722ca1b7f7cc4b9952e86d47a049",
+      "url": "https://github.com/gavrielc/nanoclaw",
+      "title": "Show HN: NanoClaw \u2013 \u201cClawdbot\u201d in 500 lines of TS with Apple container isolation",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46850205\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-01T22:49:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-01T23:26:51.623612+00:00",
+      "updated_at": "2026-02-01T23:26:51.623614+00:00"
+    },
+    {
+      "id": "917f722ca1b7f7cc4b9952e86d47a049",
+      "url": "https://github.com/gavrielc/nanoclaw",
+      "title": "Show HN: NanoClaw \u2013 \u201cClawdbot\u201d in 500 lines of TS with Apple container isolation",
+      "content": "<p>I\u2019ve been running Clawdbot for the last couple weeks and have genuinely found it useful but running it scares the crap out of me.<p>OpenClaw has 52+ modules and runs agents with near-unlimited permissions in a single Node process. NanoClaw is ~500 lines of core code, agents run in actual Apple containers with filesystem isolation. Each chat gets its own sandboxed context.<p>This is not a swiss army knife. It\u2019s built to match my exact needs. Fork it and make it yours.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46850205\">https://news.ycombinator.com/item?id=46850205</a></p>\n<p>Points: 24</p>\n<p># Comments: 4</p>",
+      "author": "jimminyx",
+      "published_date": "2026-02-01T22:49:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 91,
+      "reading_time": 1,
+      "created_at": "2026-02-01T23:26:50.391855+00:00",
+      "updated_at": "2026-02-01T23:26:50.391863+00:00"
+    },
     {
       "id": "6309fe51366e561677734ca5a0b65f2e",
       "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1706626",
@@ -305,42 +337,6 @@
         "processed_at": "2026-02-01T22:19:16.865698+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "ddb795ba6e9dc883eef8c0b35e3beceb",
-      "url": "https://asymco.com/2026/02/01/margin-call-3/",
-      "title": "Apple's Q4 2025 margin on Services was 76.5%",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46849588\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-01T21:33:02+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-01T21:47:04.020862+00:00",
-      "updated_at": "2026-02-01T22:19:16.865700+00:00",
-      "metadata": {
-        "processed_at": "2026-02-01T22:19:16.865702+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "67228a4246e7418914af273169624e3c",
-      "url": "https://www.nature.com/articles/s41598-025-33761-6",
-      "title": "Disentangling the functional roles of pre-stimulus oscillations in crossmodal associative memory formation via sensory entrainment",
-      "content": "",
-      "author": "",
-      "published_date": "2026-02-01T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-02-01T21:25:36.212556+00:00",
-      "updated_at": "2026-02-01T21:25:36.212558+00:00"
     }
   ]
 }
