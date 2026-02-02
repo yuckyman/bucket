@@ -1,7 +1,119 @@
 {
-  "last_updated": "2026-02-02T04:20:17.651140+00:00",
+  "last_updated": "2026-02-02T04:37:25.597860+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "adc4781ea11d927ebc2d92cc947ef47f",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1647194",
+      "title": "Speech pattern disorders in verbally fluent individuals with autism spectrum disorder: a machine learning analysis",
+      "content": "IntroductionDiagnosing Autism Spectrum Disorder (ASD) in verbally fluent individuals based on speech patterns in examiner-patient dialogues is challenging because speech-related symptoms are often subtle and heterogeneous. This study aimed to identify distinctive speech characteristics associated with ASD by analyzing recorded dialogues from the Autism Diagnostic Observation Schedule (ADOS-2).MethodsWe analyzed examiner-participant dialogues from ADOS-2 Module 4 and extracted 40 speech-related features categorized into intonation, volume, rate, pauses, spectral characteristics, chroma, and duration. These acoustic and prosodic features were processed using advanced speech analysis tools and used to train machine learning models to classify ASD participants into two subgroups: those with and without A2-defined speech pattern abnormalities. Model performance was evaluated using cross-validation and standard classification metrics.ResultsUsing all 40 features, the support vector machine (SVM) achieved an F1-score of 84.49%. After removing Mel-Frequency Cepstral Coefficients (MFCC) and Chroma features to focus on prosodic, rhythmic, energy, and selected spectral features aligned with ADOS-2 A2 scores, performance improved, achieving 85.77% accuracy and an F1-score of 86.27%. Spectral spread and spectral centroid emerged as key features in the reduced set, while MFCC 6 and Chroma 4 also contributed significantly in the full feature set.DiscussionThese findings demonstrate that a compact, diverse set of non-MFCC and selected spectral features effectively characterizes speech abnormalities in verbally fluent individuals with ASD. The approach highlights the potential of context-aware, data-driven models to complement clinical assessments and enhance understanding of speech-related manifestations in ASD.",
+      "author": "Xin Li",
+      "published_date": "2025-10-24T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 233,
+      "reading_time": 1,
+      "created_at": "2026-02-02T04:36:47.248853+00:00",
+      "updated_at": "2026-02-02T04:36:47.248855+00:00"
+    },
+    {
+      "id": "f121f6351ea82215cb10862322d1c82a",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1724386",
+      "title": "Editorial: Women pioneering neuroinformatics and neuroscience-related machine learning, 2024",
+      "content": "",
+      "author": "Alice Geminiani",
+      "published_date": "2025-11-12T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-02-02T04:36:47.248782+00:00",
+      "updated_at": "2026-02-02T04:36:47.248784+00:00"
+    },
+    {
+      "id": "dc42d7d5d4bd1d9ac1aaa2d9c4fcb82b",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1679664",
+      "title": "Enhancing dementia and cognitive decline detection with large language models and speech representation learning",
+      "content": "Dementia poses a major challenge to individuals and public health systems. Detecting cognitive decline through spontaneous speech offers a promising, non-invasive avenue for diagnosis of mild cognitive impairment (MCI) and dementia, enabling timely intervention and improved outcomes. This study describes our submission to the PROCESS Signal Processing Grand Challenge (ICASSP 2025), which tasked participants with predicting cognitive decline from speech samples. Our method combines eGeMAPS features from openSMILE, HuBERT (a self-supervised speech representation model), and GPT-4o, OpenAI's state-of-the-art large language model. These are integrated with the custom LSTM and ResMLP neural networks, and supported by Scikit-learn regressors/classifiers for both cognitive score regression and dementia classification. Our regression model based on LightGBM achieved an RMSE of 2.7775, placing us 10th out of 80 teams globally and surpassing the RoBERTa baseline by 7.5%. For the three-class classification task (Dementia/MCI/Control), our LSTM model obtained an F1-score of 0.5521, ranking 20th of 106 and marginally outperforming the best baseline. We trained models on speech data from 157 study participants, with independent evaluation performed on a separate test set of 40 individuals. We discoved that integrating large language models with self-supervised speech representations enhances the detection of cognitive decline. The proposed approach offers a scalable, data-driven method for early cognitive screening and may support emerging applications in neuropsychological informatics.",
+      "author": "Grzegorz M. W\u00f3jcik",
+      "published_date": "2025-12-05T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 214,
+      "reading_time": 1,
+      "created_at": "2026-02-02T04:36:47.248686+00:00",
+      "updated_at": "2026-02-02T04:36:47.248687+00:00"
+    },
+    {
+      "id": "ebf0d110a8cce1f4d7e80f2bc097866a",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1665528",
+      "title": "Subdomain adaptation method based on transferable semantic alignment and class correlation",
+      "content": "To address these challenges, we propose a subdomain adaptation framework driven by transferable semantic alignment and class correlation. First, source and target domains are divided into subdomains according to class labels, and a joint subdomain distribution alignment mechanism is introduced to reduce intra-class distribution divergence while enlarging inter-class disparities. Second, a domain-adaptive semantic consistency loss is employed to cluster semantically similar samples and separate dissimilar ones in a unified representation space, enabling precise cross-domain semantic alignment. Third, pseudo-label quality in the target domain is improved via temperature-based label smoothing, complemented by a class correlation matrix and a loss function capturing inter-class relationships to exploit intrinsic intra-class coherence and inter-class distinction. Extensive experiments on multiple public datasets demonstrate that the proposed method achieves superior average classification accuracy compared to existing approaches, validating the effectiveness of semantic alignment and class correlation modeling. By explicitly modeling intra-class coherence and inter-class distinction without additional architectural complexity, the framework effectively mitigates domain shift, enhances semantic alignment, and improves recognition performance on the target domain, offering a robust solution for deep unsupervised domain adaptation.",
+      "author": "Jinyong Zhang",
+      "published_date": "2026-01-05T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 178,
+      "reading_time": 1,
+      "created_at": "2026-02-02T04:36:41.771797+00:00",
+      "updated_at": "2026-02-02T04:36:41.771799+00:00"
+    },
+    {
+      "id": "2a53c087bd05ae5a6e360a125b57fe03",
+      "url": "https://www.reddit.com/r/Python/comments/1qt0niz/learn_numpy_indexing_with_our_little_game_numpy/",
+      "title": "Learn NumPy indexing with our little game: NumPy Ducky",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>NumPy Ducky is a game that helps beginners learn basics of NumPy indexing by helping ducks get into water, inspired by the legendary Flexbox Froggy.</p> <p><strong>Repo:</strong> <a href=\"https://github.com/0stam/numpy-ducky\">https://github.com/0stam/numpy-ducky</a><br /> <strong>Download:</strong> <a href=\"https://github.com/0stam/numpy-ducky/releases\">https://github.com/0stam/numpy-ducky/releases</a></p> <p><strong>What My Project Does</strong></p> <p>It allows you to see visual results of your code, which should make it easier to grasp indexing and dimensionality up to 3D.</p> <p>Each level contains ducks sitting on a 1-3D array. Your goal is to put a pool of water under them. As you type the indexing code, the pool changes it's position, so that you can understand and correct your mistakes.</p> <p><strong>Target Audience</strong></p> <p>Beginners wanting to understand NumPy indexing and dimensionality, especially for the purpose of working with ML/image data.</p> <p><strong>Comparison</strong></p> <p>I haven't seen any similar NumPy games. The project heavily inspired by Flexbox Froggy, which provides a similar game for understanding CSS Flexbox parameters.</p> <p>The game was made as a university project. The scope is not huge, but I hope it's helpful.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ktostam0\"> /u/ktostam0 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qt0niz/learn_numpy_indexing_with_our_little_game_numpy/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qt0niz/learn_numpy_indexing_with_our_little_game_numpy/\">[comments]</a></span>",
+      "author": "/u/ktostam0",
+      "published_date": "2026-02-01T15:00:08+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 182,
+      "reading_time": 1,
+      "created_at": "2026-02-02T04:36:14.426827+00:00",
+      "updated_at": "2026-02-02T04:36:14.426828+00:00"
+    },
+    {
+      "id": "cd4fc396e76ef252c642402e1606294a",
+      "url": "https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging/",
+      "title": "Two kinds of AI users are emerging",
+      "content": "<p>Article URL: <a href=\"https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging/\">https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46850588\">https://news.ycombinator.com/item?id=46850588</a></p>\n<p>Points: 67</p>\n<p># Comments: 74</p>",
+      "author": "martinald",
+      "published_date": "2026-02-01T23:45:18+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-02T04:36:11.960945+00:00",
+      "updated_at": "2026-02-02T04:36:11.960946+00:00"
+    },
+    {
+      "id": "9c878badcdc28502ca8c551c3a509ea9",
+      "url": "https://arstechnica.com/tech-policy/2026/01/ice-protester-says-her-global-entry-was-revoked-after-agent-scanned-her-face/",
+      "title": "ICE protester says her Global Entry was revoked after agent scanned her face",
+      "content": "<p>Article URL: <a href=\"https://arstechnica.com/tech-policy/2026/01/ice-protester-says-her-global-entry-was-revoked-after-agent-scanned-her-face/\">https://arstechnica.com/tech-policy/2026/01/ice-protester-says-her-global-entry-was-revoked-after-agent-scanned-her-face/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46852073\">https://news.ycombinator.com/item?id=46852073</a></p>\n<p>Points: 47</p>\n<p># Comments: 8</p>",
+      "author": "theahura",
+      "published_date": "2026-02-02T03:25:31+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-02T04:36:11.960815+00:00",
+      "updated_at": "2026-02-02T04:36:11.960822+00:00"
+    },
     {
       "id": "a2414cb3f9d4fb2e1d77b963f9b2416a",
       "url": "https://www.nature.com/articles/s41598-026-37240-4",
@@ -79,6 +191,46 @@
       "updated_at": "2026-02-02T04:20:17.556060+00:00",
       "metadata": {
         "processed_at": "2026-02-02T04:20:17.556062+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "d7bd01077d19340614bdcf34468ff5ac",
+      "url": "https://samuelhewitt.com/blog/2018-06-05-time-machine-style-backups-with-rsync",
+      "title": "Time Machine-style Backups with rsync (2018)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46850709\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-02T00:00:07+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-02T02:22:16.360028+00:00",
+      "updated_at": "2026-02-02T04:20:17.556060+00:00",
+      "metadata": {
+        "processed_at": "2026-02-02T04:20:17.556062+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "103619af302cf98383c5531f73633612",
+      "url": "https://xikipedia.org",
+      "title": "Show HN: Wikipedia as a doomscrollable social media feed",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46850803\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-02T00:12:19+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-02T02:22:16.359991+00:00",
+      "updated_at": "2026-02-02T04:20:17.556077+00:00",
+      "metadata": {
+        "processed_at": "2026-02-02T04:20:17.556079+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -183,46 +335,6 @@
       "updated_at": "2026-02-02T02:22:15.230315+00:00"
     },
     {
-      "id": "d7bd01077d19340614bdcf34468ff5ac",
-      "url": "https://samuelhewitt.com/blog/2018-06-05-time-machine-style-backups-with-rsync",
-      "title": "Time Machine-style Backups with rsync (2018)",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46850709\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-02T00:00:07+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-02T02:22:16.360028+00:00",
-      "updated_at": "2026-02-02T04:20:17.556060+00:00",
-      "metadata": {
-        "processed_at": "2026-02-02T04:20:17.556062+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "103619af302cf98383c5531f73633612",
-      "url": "https://xikipedia.org",
-      "title": "Show HN: Wikipedia as a doomscrollable social media feed",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46850803\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-02T00:12:19+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-02T02:22:16.359991+00:00",
-      "updated_at": "2026-02-02T04:20:17.556077+00:00",
-      "metadata": {
-        "processed_at": "2026-02-02T04:20:17.556079+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "093cd6c016f3c233e8f69d8601d1d388",
       "url": "https://apps.dtic.mil/sti/tr/pdf/ADA157917.pdf",
       "title": "Actors: A Model of Concurrent Computation [pdf]",
@@ -237,138 +349,6 @@
       "reading_time": 1,
       "created_at": "2026-02-02T02:22:15.230256+00:00",
       "updated_at": "2026-02-02T02:22:15.230258+00:00"
-    },
-    {
-      "id": "b3f23a6bbc84b7f808b82da73b108d2b",
-      "url": "https://notepad-plus-plus.org/news/hijacked-incident-info-update/",
-      "title": "Notepad++ hijacked by state-sponsored actors",
-      "content": "<p>Article URL: <a href=\"https://notepad-plus-plus.org/news/hijacked-incident-info-update/\">https://notepad-plus-plus.org/news/hijacked-incident-info-update/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46851548\">https://news.ycombinator.com/item?id=46851548</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
-      "author": "mysterydip",
-      "published_date": "2026-02-02T01:59:56+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-02T02:22:15.230225+00:00",
-      "updated_at": "2026-02-02T02:22:15.230235+00:00"
-    },
-    {
-      "id": "53cfef4b1be8b7c127d3f1ba577ae9fb",
-      "url": "https://solidean.com/blog/2026/building-your-own-u128/",
-      "title": "Building Your Own Efficient uint128 in C++",
-      "content": "<p>Article URL: <a href=\"https://solidean.com/blog/2026/building-your-own-u128/\">https://solidean.com/blog/2026/building-your-own-u128/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46849154\">https://news.ycombinator.com/item?id=46849154</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
-      "author": "PaulHoule",
-      "published_date": "2026-02-01T20:40:45+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-01T23:50:06.642051+00:00",
-      "updated_at": "2026-02-02T01:46:20.433168+00:00",
-      "metadata": {
-        "processed_at": "2026-02-02T01:46:20.433179+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1ecb0691db60430b4b0b631d2e19a8dd",
-      "url": "https://github.com/aljazceru/awesome-nostr",
-      "title": "A Collection of Awesome Nostr Projects",
-      "content": "<p>Article URL: <a href=\"https://github.com/aljazceru/awesome-nostr\">https://github.com/aljazceru/awesome-nostr</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46849375\">https://news.ycombinator.com/item?id=46849375</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
-      "author": "nout",
-      "published_date": "2026-02-01T21:07:24+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-01T23:50:06.642015+00:00",
-      "updated_at": "2026-02-02T01:46:20.433183+00:00",
-      "metadata": {
-        "processed_at": "2026-02-02T01:46:20.433185+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "917f722ca1b7f7cc4b9952e86d47a049",
-      "url": "https://github.com/gavrielc/nanoclaw",
-      "title": "Show HN: NanoClaw \u2013 \u201cClawdbot\u201d in 500 lines of TS with Apple container isolation",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46850205\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-01T22:49:22+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-01T23:26:51.623612+00:00",
-      "updated_at": "2026-02-02T01:46:20.433191+00:00",
-      "metadata": {
-        "processed_at": "2026-02-02T01:46:20.433192+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "917f722ca1b7f7cc4b9952e86d47a049",
-      "url": "https://github.com/gavrielc/nanoclaw",
-      "title": "Show HN: NanoClaw \u2013 \u201cClawdbot\u201d in 500 lines of TS with Apple container isolation",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46850205\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-01T22:49:22+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-01T23:26:51.623612+00:00",
-      "updated_at": "2026-02-02T01:46:20.433191+00:00",
-      "metadata": {
-        "processed_at": "2026-02-02T01:46:20.433192+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6309fe51366e561677734ca5a0b65f2e",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1706626",
-      "title": "IAP-TransUNet: integration of the attention mechanism and pyramid pooling for medical image segmentation",
-      "content": "IntroductionThe combination of CNN and Transformer has attracted much attention for medical image segmentation due to its superior performance at present. However, the segmentation performance is affected by limitations such as the local receptive field and static weights of CNN convolution operations, as well as insufficient information exchange between Transformer local regions.MethodsTo address these issues, an integrated attention mechanism and pyramid pooling network is proposed in this paper. Firstly, an efficient channel attention mechanism is embedded into CNN to extract more comprehensive image features. Then, CBAM_ASPP module is introduced into the bottleneck layer to obtain multi-scale context information. Finally, in order to address the limitations of traditional convolution, depthwise separable convolution is used to achieve a lightweight network.ResultsThe experiments based on the Synapse multi organ segmentation dataset and ACDC dataset showed that the proposed IAP-TransUNet achieved Dice similarity coefficients (DSCs) of 78.85% and 90.46%, respectively. Compared with the state-of-the-art method, for the Synapse multi organ segmentation dataset, the Hausdorff distance was reduced by 2.92%. For the ACDC dataset, the segmentation accuracy of the left ventricle, myocardium, and right ventricle was improved by 0.14%, 1.89%, and 0.23%, respectively.DiscussionThe experimental results demonstrate that the proposed network has improved the effectiveness and shows strong performance on both CT and MRI data, which suggests its potential for generalization across different medical imaging modalities.",
-      "author": "Quan Liu",
-      "published_date": "2025-12-01T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 219,
-      "reading_time": 1,
-      "created_at": "2026-02-01T22:53:36.376129+00:00",
-      "updated_at": "2026-02-02T01:46:20.433199+00:00",
-      "metadata": {
-        "processed_at": "2026-02-02T01:46:20.433201+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ee819809cbe7491b6e2eeacc5576b5c7",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1704111",
-      "title": "AMANet: a data-augmented multi-scale temporal attention convolutional network for motor imagery classification",
-      "content": "Motor imagery brain\u2013computer interface (MI-BCI) has garnered considerable attention due to its potential for neural plasticity. However, the limited number of MI-EEG samples per subject and the susceptibility of features to noise and artifacts posed significant challenges for achieving high decoding performance. To address this problem, a Data-Augmented Multi-Scale Temporal Attention Convolutional Network (AMANet) was proposed. The network mainly consisted of four modules. First, the data augmentation module comprises three steps: sliding-window segmentation to increase sample size, Common Spatial Pattern (CSP) extraction of discriminative spatial features, and linear scaling to enhance network robustness. Then, multi-scale temporal convolution was incorporated to dynamically extract temporal and spatial features. Subsequently, the ECA attention mechanism was integrated to realize the adaptive adjustment of the weights of different channels. Finally, depthwise separable convolution was utilized to fully integrate and classify the deep extraction of temporal and spatial features. In 10-fold cross-validation, the results show that AMANet achieves classification accuracies of 84.06 and 85.09% on the BCI Competition IV Datasets 2a and 2b, respectively, significantly outperforming baseline models such as Incep-EEGNet. On the High-Gamma dataset, AMANet attains a classification accuracy of 95.48%. These results demonstrate the excellent performance of AMANet in motor imagery decoding tasks.",
-      "author": "Lingyan Hu",
-      "published_date": "2026-01-09T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 199,
-      "reading_time": 1,
-      "created_at": "2026-02-01T22:53:36.376039+00:00",
-      "updated_at": "2026-02-01T22:53:36.376041+00:00"
     }
   ]
 }
