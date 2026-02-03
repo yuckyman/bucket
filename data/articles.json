@@ -1,5 +1,117 @@
 [
   {
+    "id": "567ccb8352f63290dc9d5b13475db327",
+    "url": "https://www.nature.com/articles/s41467-025-67398-w",
+    "title": "Neurocognitive characterization of behaviour and mental illness through time-varying brain network analysis",
+    "content": "",
+    "author": "",
+    "published_date": "2026-02-03T00:00:00+00:00",
+    "source": "Nature Neuroscience Subjects",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2026-02-03T19:28:53.811173+00:00",
+    "updated_at": "2026-02-03T19:28:53.811174+00:00"
+  },
+  {
+    "id": "3c349ec10b1f2a5151284ace3498ee41",
+    "url": "https://waspdev.com/articles/2026-01-11/kilobyte-is-1000-bytes",
+    "title": "Kilobyte is precisely 1000 bytes",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46873539\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-03T16:53:50+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-03T19:28:07.256267+00:00",
+    "updated_at": "2026-02-03T19:28:07.256268+00:00"
+  },
+  {
+    "id": "a1df1deae9c3af246a24510fef1821e5",
+    "url": "https://github.com/alibaba/AliSQL",
+    "title": "AliSQL: Alibaba's open-source MySQL with vector and DuckDB engines",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46875228\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-03T18:40:18+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-03T19:28:07.256171+00:00",
+    "updated_at": "2026-02-03T19:28:07.256172+00:00"
+  },
+  {
+    "id": "38f858756411a86b89722822390c9980",
+    "url": "https://narrator.sh/llm-leaderboard",
+    "title": "Show HN: I built \"AI Wattpad\" to eval LLMs on fiction",
+    "content": "<p>I've been a webfiction reader for years (too many hours on Royal Road), and I kept running into the same question: which LLMs actually write fiction that people want to keep reading? That's why I built Narrator (<a href=\"https://narrator.sh/llm-leaderboard\" rel=\"nofollow\">https://narrator.sh/llm-leaderboard</a>) \u2013 a platform where LLMs generate serialized fiction and get ranked by real reader engagement.<p>Turns out this is surprisingly hard to answer. Creative writing isn't a single capability \u2013 it's a pipeline: brainstorming \u2192 writing \u2192 memory. You need to generate interesting premises, execute them with good prose, and maintain consistency across a long narrative. Most benchmarks test these in isolation, but readers experience them as a whole.<p>The current evaluation landscape is fragmented:\nMemory benchmarks like FictionLive's tests use MCQs to check if models remember plot details across long contexts. Useful, but memory is necessary for good fiction, not sufficient. A model can ace recall and still write boring stories.<p>Author-side usage data from tools like Novelcrafter shows which models writers prefer as copilots. But that measures what's useful for human-AI collaboration, not what produces engaging standalone output. Authors and readers have different needs.<p>LLM-as-a-judge is the most common approach for prose quality, but it's notoriously unreliable for creative work. Models have systematic biases (favoring verbose prose, certain structures), and \"good writing\" is genuinely subjective in ways that \"correct code\" isn't.<p>What's missing is a reader-side quantitative benchmark \u2013 something that measures whether real humans actually enjoy reading what these models produce. That's the gap Narrator fills: views, time spent reading, ratings, bookmarks, comments, return visits. Think of it as an \"AI Wattpad\" where the models are the authors.<p>I shared an early DSPy-based version here 5 months ago (<a href=\"https://news.ycombinator.com/item?id=44903265\">https://news.ycombinator.com/item?id=44903265</a>). The big lesson: one-shot generation doesn't work for long-form fiction. Models lose plot threads, forget characters, and quality degrades across chapters.<p>The rewrite: from one-shot to a persistent agent loop<p>The current version runs each model through a writing harness that maintains state across chapters. Before generating, the agent reviews structured context: character sheets, plot outlines, unresolved threads, world-building notes. After generating, it updates these artifacts for the next chapter. Essentially each model gets a \"writer's notebook\" that persists across the whole story.<p>This made a measurable difference \u2013 models that struggled with consistency in the one-shot version improved significantly with access to their own notes.<p>Granular filtering instead of a single score:<p>We classify stories upfront by language, genre, tags, and content rating. Instead of one \"creative writing\" leaderboard, we can drill into specifics: which model writes the best Spanish Comedy? Which handles LitRPG stories with Male Leads the best? Which does well with romance versus horror?<p>The answers aren't always what you'd expect from general benchmarks. Some models that rank mid-tier overall dominate specific niches.<p>A few features I'm proud of:<p>Story forking lets readers branch stories CYOA-style \u2013 if you don't like where the plot went, fork it and see how the same model handles the divergence. Creates natural A/B comparisons.<p>Visual LitRPG was a personal itch to scratch. Instead of walls of [STR: 15 \u2192 16] text, stats and skill trees render as actual UI elements. Example: <a href=\"https://narrator.sh/novel/beware-the-starter-pet/chapter/1\" rel=\"nofollow\">https://narrator.sh/novel/beware-the-starter-pet/chapter/1</a><p>What I'm looking for:<p>More readers to build out the engagement data. Also curious if anyone else working on long-form LLM generation has found better patterns for maintaining consistency across chapters \u2013 the agent harness approach works but I'm sure there are improvements.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46873742\">https://news.ycombinator.com/item?id=46873742</a></p>\n<p>Points: 8</p>\n<p># Comments: 5</p>",
+    "author": "jauws",
+    "published_date": "2026-02-03T17:08:43+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 564,
+    "reading_time": 2,
+    "created_at": "2026-02-03T19:28:05.797616+00:00",
+    "updated_at": "2026-02-03T19:28:05.797618+00:00"
+  },
+  {
+    "id": "43e278ea0d1e242a8a5cbf44340baa92",
+    "url": "https://internationaljournalofwellbeing.org/index.php/ijow/article/view/6001/1299",
+    "title": "Young adults report lower life satisfaction in Sweden",
+    "content": "<p>Article URL: <a href=\"https://internationaljournalofwellbeing.org/index.php/ijow/article/view/6001/1299\">https://internationaljournalofwellbeing.org/index.php/ijow/article/view/6001/1299</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46873798\">https://news.ycombinator.com/item?id=46873798</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
+    "author": "late",
+    "published_date": "2026-02-03T17:12:53+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-02-03T19:28:05.797474+00:00",
+    "updated_at": "2026-02-03T19:28:05.797476+00:00"
+  },
+  {
+    "id": "64caf289087d91de3bbec3e9c551b32c",
+    "url": "https://fortune.com/2026/02/03/famed-startup-incubator-y-combinator-to-let-founders-receive-funds-in-stablecoins/",
+    "title": "Y Combinator will let founders receive funds in stablecoins",
+    "content": "<p>Article URL: <a href=\"https://fortune.com/2026/02/03/famed-startup-incubator-y-combinator-to-let-founders-receive-funds-in-stablecoins/\">https://fortune.com/2026/02/03/famed-startup-incubator-y-combinator-to-let-founders-receive-funds-in-stablecoins/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46875033\">https://news.ycombinator.com/item?id=46875033</a></p>\n<p>Points: 19</p>\n<p># Comments: 7</p>",
+    "author": "shscs911",
+    "published_date": "2026-02-03T18:28:48+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-02-03T19:28:05.797393+00:00",
+    "updated_at": "2026-02-03T19:28:05.797395+00:00"
+  },
+  {
+    "id": "a1df1deae9c3af246a24510fef1821e5",
+    "url": "https://github.com/alibaba/AliSQL",
+    "title": "AliSQL: Alibaba's open-source MySQL with vector and DuckDB engines",
+    "content": "<p>Article URL: <a href=\"https://github.com/alibaba/AliSQL\">https://github.com/alibaba/AliSQL</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46875228\">https://news.ycombinator.com/item?id=46875228</a></p>\n<p>Points: 23</p>\n<p># Comments: 2</p>",
+    "author": "baotiao",
+    "published_date": "2026-02-03T18:40:18+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-02-03T19:28:05.797363+00:00",
+    "updated_at": "2026-02-03T19:28:05.797371+00:00"
+  },
+  {
     "id": "91ba76e28749f9cb4834aefff569220e",
     "url": "https://www.reddit.com/r/Python/comments/1quw6r6/v200_meth_a_mathematical_expression_evaluator/",
     "title": "v2.0.0 meth: A mathematical expression evaluator.",
@@ -40,6 +152,26 @@
     }
   },
   {
+    "id": "50a0e1b2931b27f88ebd3538e6f7f5e7",
+    "url": "https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/",
+    "title": "Xcode 26.3 unlocks the power of agentic coding",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46874619\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-03T18:04:08+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-03T18:29:41.299569+00:00",
+    "updated_at": "2026-02-03T18:50:01.576890+00:00",
+    "metadata": {
+      "processed_at": "2026-02-03T18:50:01.576892+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
     "id": "4ffdac577c8867b128350694cffce3b6",
     "url": "https://deno.com/blog/introducing-deno-sandbox",
     "title": "Deno Sandbox",
@@ -56,6 +188,46 @@
     "updated_at": "2026-02-03T18:50:01.576895+00:00",
     "metadata": {
       "processed_at": "2026-02-03T18:50:01.576897+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "4ffdac577c8867b128350694cffce3b6",
+    "url": "https://deno.com/blog/introducing-deno-sandbox",
+    "title": "Deno Sandbox",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46874097\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-03T17:33:20+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-03T18:29:41.299551+00:00",
+    "updated_at": "2026-02-03T18:50:01.576895+00:00",
+    "metadata": {
+      "processed_at": "2026-02-03T18:50:01.576897+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "50879aa958e254e58682ff27889904a3",
+    "url": "https://nikolak.com/gdpr-failure/",
+    "title": "I made 20 GDPR deletion requests. 12 were ignored",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46874345\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-03T17:48:22+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-03T18:29:41.299532+00:00",
+    "updated_at": "2026-02-03T18:50:01.576899+00:00",
+    "metadata": {
+      "processed_at": "2026-02-03T18:50:01.576901+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -146,66 +318,6 @@
     "reading_time": 1,
     "created_at": "2026-02-03T18:29:40.209685+00:00",
     "updated_at": "2026-02-03T18:29:40.209687+00:00"
-  },
-  {
-    "id": "4ffdac577c8867b128350694cffce3b6",
-    "url": "https://deno.com/blog/introducing-deno-sandbox",
-    "title": "Deno Sandbox",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46874097\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-03T17:33:20+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-03T18:29:41.299551+00:00",
-    "updated_at": "2026-02-03T18:50:01.576895+00:00",
-    "metadata": {
-      "processed_at": "2026-02-03T18:50:01.576897+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "50879aa958e254e58682ff27889904a3",
-    "url": "https://nikolak.com/gdpr-failure/",
-    "title": "I made 20 GDPR deletion requests. 12 were ignored",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46874345\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-03T17:48:22+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-03T18:29:41.299532+00:00",
-    "updated_at": "2026-02-03T18:50:01.576899+00:00",
-    "metadata": {
-      "processed_at": "2026-02-03T18:50:01.576901+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "50a0e1b2931b27f88ebd3538e6f7f5e7",
-    "url": "https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/",
-    "title": "Xcode 26.3 unlocks the power of agentic coding",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46874619\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-03T18:04:08+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-03T18:29:41.299569+00:00",
-    "updated_at": "2026-02-03T18:50:01.576890+00:00",
-    "metadata": {
-      "processed_at": "2026-02-03T18:50:01.576892+00:00",
-      "processing_method": "github_actions"
-    }
   },
   {
     "id": "4a5ea46a1983025a40046b7adbefb9ce",
@@ -16958,137 +17070,5 @@
     "reading_time": 1,
     "created_at": "2026-01-29T22:29:16.894808+00:00",
     "updated_at": "2026-01-29T22:29:16.894810+00:00"
-  },
-  {
-    "id": "7dff0a6de0019aceeb626fbe5e0be032",
-    "url": "https://www.sciencedirect.com/science/article/pii/S0006899326000387?dgcid=rss_sd_all",
-    "title": "Dynamic structural and metabolic changes during the epileptogenesis in the pilocarpine model of temporal lobe epilepsy: A longitudinal MRI study",
-    "content": "<p>Publication date: 15 March 2026</p><p><b>Source:</b> Brain Research, Volume 1875</p><p>Author(s): Luciana Ramalho Pimentel-Silva, Renata Barbosa, Alexandre Hilario Berenguer de Matos, Raphael Fernandes Casseb, Brunno Machado de Campos, M\u00f4nica Mingone Cordeiro, Juliana Francischinelli Casseb, Elayne Vieira Dias, Andre Schwambach Vieira, Luis Concha, Iscia Lopes-Cendes, Fernando Cendes</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Brain Research",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 44,
-    "reading_time": 1,
-    "created_at": "2026-01-29T21:54:16.651308+00:00",
-    "updated_at": "2026-01-29T22:23:40.638611+00:00",
-    "metadata": {
-      "processed_at": "2026-01-29T22:23:40.638620+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "21443c989a4abcd6eab17511221ec0e1",
-    "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2509561123?af=R",
-    "title": "Neurochemical imaging reveals changes in dopamine dynamics with photoperiod in a seasonally social vole species",
-    "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 4, January 2026. <br />SignificanceMost neurobiological insights come from traditional model organisms, which often lack the behavioral diversity found in nature. Meadow voles, in contrast, undergo seasonal shifts in social behavior that offer a rare opportunity to study ...",
-    "author": "Jaewan MunKelley C. PowerNatsumi KomatsuSophia A. TomatzAnnaliese K. BeeryMarkita P. LandryaCalifornia Institute for Quantitative Biosciences, University of California, Berkeley, CA 94720bDepartment of Integrative Biology, University of California, Berkeley, CA 94720cDepartment of Bioengineering, University of Illinois Urbana-Champaign, Urbana, IL 61801dDepartment of Plant and Microbial Biology, University of California, Berkeley, CA 94720eHelen Wills Neuroscience Institute, University of California, Berkeley, CA 94720fDepartment of Neuroscience, University of California, Berkeley, CA 94720gDepartment of Chemical and Biomolecular Engineering, University of California, Berkeley, CA 94720",
-    "published_date": "2026-01-23T08:00:00+00:00",
-    "source": "Pnas Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 49,
-    "reading_time": 1,
-    "created_at": "2026-01-29T21:54:05.850302+00:00",
-    "updated_at": "2026-01-29T22:23:40.638624+00:00",
-    "metadata": {
-      "processed_at": "2026-01-29T22:23:40.638626+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "2f681ae7976f2aaa72de498294c3ff27",
-    "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2425460123?af=R",
-    "title": "mGluR1 signaling is necessary for strengthening winner climbing fiber inputs in the developing mouse cerebellum",
-    "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 4, January 2026. <br />SignificanceThe precise formation of neural circuits relies on both the selective strengthening of frequently used synaptic inputs and the elimination of redundant connections. In cerebellar Purkinje cells, strengthening a single \u201cwinner\u201d climbing fiber (...",
-    "author": "Miwako YamasakiTaisuke MiyazakiKouichi HashimotoNorio TakeiAtsu AibaMasanobu KanoMasahiko WatanabeaDepartment of Anatomy, Faculty of Medicine, Hokkaido University, Sapporo 060-8638, JapanbDepartment of Functioning and Disability, Faculty of Health Sciences, Hokkaido University, Sapporo 060-0812, JapancDepartment of Neurophysiology, Graduate School of Biomedical and Health Sciences, Hiroshima University, Minami-Ku, Hiroshima 734-8551, JapandInstitute for Animal Experimentation, Faculty of Medicine, Hokkaido University, Sapporo 060-8638, JapaneLaboratory of Animal Resources, Center for Disease Biology and Integrative Medicine, Graduate School of Medicine, The University of Tokyo, Tokyo 113-0033, JapanfDepartment of Neurophysiology, Graduate School of Medicine, The University of Tokyo, Tokyo 113-0033, JapangInternational Research Center for Neurointelligence, World Premier International Research Center Initiative, The University of Tokyo Institutes for Advanced Study, The University of Tokyo, Tokyo 113-0033, JapanhDivision of Complex System and Cognitive Sciences, Advanced Comprehensive Research Organization, Teikyo University, Tokyo 173-0003, Japan",
-    "published_date": "2026-01-23T08:00:00+00:00",
-    "source": "Pnas Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 48,
-    "reading_time": 1,
-    "created_at": "2026-01-29T21:54:05.850280+00:00",
-    "updated_at": "2026-01-29T22:23:40.638628+00:00",
-    "metadata": {
-      "processed_at": "2026-01-29T22:23:40.638630+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "aa9b8806a00dda5f1e71376fb432f5da",
-    "url": "https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals",
-    "title": "Compressed Agents.md > Agent Skills",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46809708\">Comments</a>",
-    "author": "",
-    "published_date": "2026-01-29T13:08:11+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-01-29T21:53:34.868219+00:00",
-    "updated_at": "2026-01-29T22:23:40.638633+00:00",
-    "metadata": {
-      "processed_at": "2026-01-29T22:23:40.638634+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "880c08204407143c1992a03bc0cea150",
-    "url": "https://github.com/xenodium/agent-shell",
-    "title": "Agent-shell: A native Emacs buffer to interact with LLM agents powered by ACP",
-    "content": "<p>Article URL: <a href=\"https://github.com/xenodium/agent-shell\">https://github.com/xenodium/agent-shell</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46815899\">https://news.ycombinator.com/item?id=46815899</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-    "author": "trelane",
-    "published_date": "2026-01-29T20:11:26+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-01-29T21:53:33.513692+00:00",
-    "updated_at": "2026-01-29T22:23:40.638637+00:00",
-    "metadata": {
-      "processed_at": "2026-01-29T22:23:40.638638+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "9c8db57c209f3f64c16dbdf98629954d",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.28.702127v1?rss=1",
-    "title": "Chondroitin 4-sulphate depletion enhances synaptic plasticity and memory in aging",
-    "content": "Perineuronal nets (PNNs), specialised extracellular matrix structures enriched in chondroitin sulphate proteoglycans (CSPGs), are key regulators of synaptic plasticity, learning, and memory. Aging is characterised by a shift in chondroitin sulphate composition toward increased chondroitin-4-sulfation (C4S) and reduced C6S, a pattern associated with declining cognitive flexibility. Here, we investigated how selective reduction of C4S affects PNN structure, PV-interneuron connectivity, and cognitive performance across the lifespan. Conditional deletion of the C4-sulfotransferase Chst11 markedly reduced C4S levels and diminished dendritic PNN complexity while preserving somatic PNN structure. This partial destabilisation of PNNs increased excitatory synaptic input onto PV interneurons in both young and aged mice, without major alterations in basal hippocampal transmission or long-term potentiation. Behaviourally, Chst11 knockout mice showed robust and persistent protection against age-related cognitive decline. Working memory performance remained stable across aging, short-term spatial memory was enhanced from early adulthood onward, and object recognition memory was significantly prolonged at all retention delays, even in old age. Sociability and social novelty preference were also preserved longer in aging knockouts compared with controls. These improvements occurred despite an overall preservation of PNN architecture, indicating that modifying sulphation rather than removing CSPGs is sufficient to enhance plasticity. Our findings demonstrate that reducing C4S through Chst11 deletion confers long-lasting enhancements in cognitive function and mitigates aging-related decline. Targeting CS-GAG sulphation patterns may therefore represent a promising strategy for maintaining cognitive resilience and restoring plasticity in aging or neurodegenerative conditions.",
-    "author": "Svobodova Burianova, J., Svoboda, J., Ruzicka, J., Stepankova, K., Klausova, T., Gmiterkova, L., Spundova, T., Martinez-Varea, N., Kralikova, M., Turecek, R., Machova Urdzikova, L., Fawcett, J. W., Jendelova, P., Kwok, J. C. F.",
-    "published_date": "2026-01-29T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 236,
-    "reading_time": 1,
-    "created_at": "2026-01-29T21:29:03.184508+00:00",
-    "updated_at": "2026-01-29T21:29:03.184509+00:00"
-  },
-  {
-    "id": "db775a6f924605ee6abe1adba55c0118",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.01.28.702429v1?rss=1",
-    "title": "Diurnality reconfigures circadian network dynamics in the suprachiasmatic nucleus",
-    "content": "Diurnal and nocturnal mammals occupy opposite temporal niches, but whether the suprachiasmatic nucleus (SCN), the central circadian pacemaker, follows the same intrinsic rules for timing adjustment and network coordination across species is unknown. Because SCN clock gene rhythms and population-level activity measurements look broadly similar across species, the prevailing interpretation in comparative studies has been that temporal niche differences are implemented upstream or downstream of the SCN. However, these coarse readouts do not test how clock resetting depends on circadian phase or how neuronal timing is coordinated across SCN space. Here, we combined long-duration ex vivo SCN recordings with optogenetic stimulation to compare SCN network dynamics in the nocturnal mouse (Mus musculus) and the diurnal four-striped grass mouse (Rhabdomys pumilio). Rhabdomys SCN molecular clock rhythms exhibited a longer intrinsic period and, under the same daily stimulation protocol, converged on a larger absolute phase angle relative to the stimulus. Molecular clock phase response curves differed in overall structure across circadian time between species, including pronounced early subjective day delays in Rhabdomys when Mus responses were minimal. Phase mapping of single-cell SCN calcium rhythms revealed species-specific spatial timing organization, with a graded dorsomedial-to-ventrolateral phase progression in Rhabdomys and a sharper transition in Mus. The Mus and Rhabdomys SCN can thus appear similar by coarse readouts yet diverge in phase-dependent molecular clock resetting and network timing organization. These results indicate that models placing temporal niche divergence solely outside the SCN are mechanistically incomplete.",
-    "author": "Muhl, V., Ono, D., Jones, J.",
-    "published_date": "2026-01-29T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 240,
-    "reading_time": 1,
-    "created_at": "2026-01-29T21:29:03.184469+00:00",
-    "updated_at": "2026-01-29T21:29:03.184471+00:00"
   }
 ]
