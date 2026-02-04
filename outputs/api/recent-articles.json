@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-02-04T23:30:51.048667+00:00",
+  "last_updated": "2026-02-04T23:55:34.618105+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "481dfa37bf7daab6bffc0cab5731c993",
+      "url": "https://evjang.com/2026/02/04/rocks.html",
+      "title": "As Rocks May Think",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46893018\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-04T22:50:34+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-04T23:54:26.852737+00:00",
+      "updated_at": "2026-02-04T23:54:26.852739+00:00"
+    },
+    {
+      "id": "481dfa37bf7daab6bffc0cab5731c993",
+      "url": "https://evjang.com/2026/02/04/rocks.html",
+      "title": "As Rocks May Think",
+      "content": "<p>Article URL: <a href=\"https://evjang.com/2026/02/04/rocks.html\">https://evjang.com/2026/02/04/rocks.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46893018\">https://news.ycombinator.com/item?id=46893018</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "author": "modeless",
+      "published_date": "2026-02-04T22:50:34+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-04T23:54:25.514113+00:00",
+      "updated_at": "2026-02-04T23:54:25.514115+00:00"
+    },
     {
       "id": "5a05a15855530d14c8c0be6b8bb748dc",
       "url": "https://www.biorxiv.org/content/10.64898/2026.02.02.703320v1?rss=1",
@@ -289,46 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-02-04T22:29:54.019501+00:00",
       "updated_at": "2026-02-04T22:29:54.019509+00:00"
-    },
-    {
-      "id": "891c4f2ce519eb767ed52c256bc00f88",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.02.703242v1?rss=1",
-      "title": "Impacts of heminode disruption on auditory processing of noisy sound stimuli",
-      "content": "Hidden hearing loss (HHL) is an auditory neuropathy characterized by altered auditory nerve responses despite normal hearing thresholds. Recent experimental and computational studies suggest that permanent disruptions to heminode positions in spiral ganglion neuron (SGN) fibers can contribute to these deficits. However, the interaction between heminode disruption and noisy backgrounds ubiquitous in daily listening remains unexplored. This study investigates how background noise affects auditory processing with these peripheral disorders and how deficits propagate to downstream sound localization circuits in the superior olivary complex. We developed computational models of SGN fibers with mild and severe degrees of heminode disruption, subjected to sinusoidal tone stimuli in the presence of background noise with varying spectral characteristics. We analyzed the phase-locking of SGN fiber responses to the stimulus tone and modeled the subsequent effects on interaural time difference (ITD) sensitivity in the medial superior olive (MSO) using a binaural localization network. We found that near-tone-frequency noise disrupted SGN phase locking through cycle-to-cycle variability in spike phases, with effects consistent across tone frequencies. Mild heminode disruption produced frequency-dependent degradation in SGN phase locking, with effects observed only at higher frequencies tested (600-1000 Hz), without reducing overall firing rates. Critically, the effects of noise and heminode disruption were additive, with combined exposure leading to reduced ITD sensitivity and large temporal fluctuations in MSO responses. Severe heminode disruption, which additionally reduced firing rates at the SGN fibers and subsequent stages, produced profound localization deficits across all frequencies tested. Thus, our model results suggest that noisy environments exacerbate auditory deficits from peripheral disorders implicated in HHL and could potentially impair speech intelligibility through degradation in localization ability. This model may be useful for understanding the downstream impacts of SGN neuropathies.",
-      "author": "Tripathy, S., Budak, M., Maddox, R., Mehta, A. H., Roberts, M. T., Corfas, G., Booth, V., Zochowski, M.",
-      "published_date": "2026-02-04T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 282,
-      "reading_time": 1,
-      "created_at": "2026-02-04T21:35:19.676102+00:00",
-      "updated_at": "2026-02-04T22:21:43.059943+00:00",
-      "metadata": {
-        "processed_at": "2026-02-04T22:21:43.059954+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e2b0b48df7779b7fd01196190180db66",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.02.703195v1?rss=1",
-      "title": "Deep Learning Reveals Cross-Modal Neural Representations of Auditory and Visual Mental Imagery in MEG",
-      "content": "Mental imagery provides a unique window into the brain's ability to internally simulate sensory experiences, offering valuable insights for both cognitive neuroscience and brain-computer interface (BCI) research. This study examined the neural representations of imagined auditory and visual stimuli using magnetoencephalography (MEG) and assessed the ability of machine learning models to decode these mental processes. MEG data were recorded from 18 right-handed participants during auditory and visual imagery tasks and source-reconstructed within modality-specific cortical regions of interest. We compared a convolutional neural network (CNN) and a linear logistic regression model within a subject-specific classification framework. Both approaches achieved above-chance decoding accuracies, with the CNN outperforming the linear model in the auditory task, whereas the linear model showed slightly higher accuracy for visual imagery. Notably, the CNN achieved significant decoding performance even when trained on non-task-relevant cortical regions, indicating that imagined stimuli are represented in distributed and partially overlapping neural networks across modalities. This cross-modal decoding capability highlights the potential of deep learning models to capture complex, multimodal neural patterns and suggests that future brain-computer interfaces could benefit from integrating auditory and visual information. A secondary, behavioral analysis revealed correlation of memory capacity and individual learning preferences with decoding performances, suggesting that individual cognitive differences may further shape the quality of neural representations. Together, these findings advance our understanding of cross-modal mental imagery and point toward more flexible and personalized approaches in BCI design.",
-      "author": "Schu\u0308ller, A., Jehn, C., Stegmaier, M., Riegel, J., Reichenbach, T.",
-      "published_date": "2026-02-04T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 233,
-      "reading_time": 1,
-      "created_at": "2026-02-04T21:35:19.676049+00:00",
-      "updated_at": "2026-02-04T22:21:43.059958+00:00",
-      "metadata": {
-        "processed_at": "2026-02-04T22:21:43.059960+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
