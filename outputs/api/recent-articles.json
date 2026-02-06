@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-02-06T10:34:19.433189+00:00",
+  "last_updated": "2026-02-06T10:42:17.442322+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "7094de84a745356b4b8096391e610f3f",
+      "url": "https://www.4rknova.com/blog/2016/11/01/plasma",
+      "title": "Plasma Effect",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46867271\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-03T06:26:01+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-06T10:41:03.768693+00:00",
+      "updated_at": "2026-02-06T10:41:03.768694+00:00"
+    },
+    {
+      "id": "42961a0824a2d69526324f08d0e3840b",
+      "url": "https://www.caltech.edu/about/news/invention-dna-page-numbers-synthesis-kaihang-wang",
+      "title": "Invention of DNA \"Page Numbers\" Opens Up Possibilities for the Bioeconomy",
+      "content": "<p>Article URL: <a href=\"https://www.caltech.edu/about/news/invention-dna-page-numbers-synthesis-kaihang-wang\">https://www.caltech.edu/about/news/invention-dna-page-numbers-synthesis-kaihang-wang</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46911170\">https://news.ycombinator.com/item?id=46911170</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "dagurp",
+      "published_date": "2026-02-06T10:26:16+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-06T10:41:02.651126+00:00",
+      "updated_at": "2026-02-06T10:41:02.651135+00:00"
+    },
     {
       "id": "401e506bd720bde5689426a51c7854a2",
       "url": "https://tldraw.dev/blog/stay-away-from-my-trash",
@@ -325,42 +357,6 @@
         "processed_at": "2026-02-06T08:35:44.214680+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "1e5a1454ea24b33d44e9b6e91b4b7f65",
-      "url": "http://ieeexplore.ieee.org/document/11072028",
-      "title": "A Multimodal Ultrasound-Driven Approach for Automated Tumor Assessment With B-Mode and Multi-Frequency Harmonic Motion Images",
-      "content": "Objective: Harmonic Motion Imaging (HMI) is an ultrasound elasticity imaging method that measures the mechanical properties of tissue using amplitude-modulated acoustic radiation force (AM-ARF). Multi-frequency HMI (MF-HMI) excites tissue at various AM frequencies simultaneously, allowing for image optimization without prior knowledge of inclusion size and stiffness. However, challenges remain in size estimation as inconsistent boundary effects result in different perceived sizes across AM frequencies. Herein, we developed an automated assessment method for tumor and focused ultrasound surgery (FUS) induced lesions using a transformer-based multi-modality neural network, HMINet, and further automated neoadjuvant chemotherapy (NACT) response prediction. HMINet was trained on 380 pairs of MF-HMI and B-mode images of phantoms and in vivo orthotopic breast cancer mice (4T1). Test datasets included phantoms (n = 32), in vivo 4T1 mice (n = 24), breast cancer patients (n = 20), FUS-induced lesions in ex vivo animal tissue and in vivo clinical settings with real-time inference, with average segmentation accuracy (Dice) of 0.91, 0.83, 0.80, and 0.81, respectively. HMINet outperformed state-of-the-art models; we also demonstrated the enhanced robustness of the multi-modality strategy over B-mode-only, both quantitatively through Dice scores and in terms of interpretation using saliency analysis. The contribution of AM frequency based on the number of salient pixels showed that the most significant AM frequencies are 800 and 200 Hz across clinical cases. Significance: We developed an automated, multimodality ultrasound-based tumor and FUS lesion assessment method, which facilitates the clinical translation of stiffness-based breast cancer treatment response prediction and real-time image-guided FUS therapy.",
-      "author": "",
-      "published_date": "2025-07-04T13:19:16+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 249,
-      "reading_time": 1,
-      "created_at": "2026-02-06T07:50:33.203624+00:00",
-      "updated_at": "2026-02-06T08:35:44.214682+00:00",
-      "metadata": {
-        "processed_at": "2026-02-06T08:35:44.214684+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1dba4516d93f599a125b21be2c0d94a4",
-      "url": "http://doi.org/10.1037/pmu0000295",
-      "title": "Continuous affect responses to a large diverse set of unfamiliar music: Bayesian time-series and cluster analyses.",
-      "content": "Sixty-nine participants made continuous response judgments of perceived arousal and valence while listening to 30-s extracts of 100 unfamiliar pieces within a novel recommender system. Our purpose was to take advantage of the relatively large number of participants and pieces studied (compared with prior work on time series analysis [TSA] of continuous affective responses to music) to test the generality of the deductions made from prior evidence in smaller studies. Accordingly, we expected highly autoregressive responses, and hypothesized that acoustic intensity fluctuation would be a major (population-wide, fixed-effect) predictor of arousal and to a lesser degree valence responses in multivariate models, operating in conjunction with broad features of the spectral profile of the music (such as spectral flatness and centroid). We expected considerable interparticipant variability and were interested in the degree to which there was also interpiece variability (both being features of group-specific, random effects). The basic expectations were supported, and we also demonstrated, partly by means of a novel use of cluster analysis, that the observed group variabilities in response features could not be readily attributed to indices of a range of participant-preference and piece-feature characteristics, determined prior to the experiments. A Bayesian analysis was developed, possibly for the first time in the TSA of continuous affect responses to music, since it provides a more comprehensive description of the parameters of the analysis (not only their best estimate point values) and their effects, and a comprehensive range of tests for meaningful effects. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2023-04-20T00:00:00+00:00",
-      "source": "Psychomusicology",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 252,
-      "reading_time": 1,
-      "created_at": "2026-02-06T07:49:50.214239+00:00",
-      "updated_at": "2026-02-06T07:49:50.214241+00:00"
     }
   ]
 }
