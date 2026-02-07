@@ -1,8 +1,56 @@
 {
-  "last_updated": "2026-02-07T01:28:48.511098+00:00",
-  "pending_count": 761,
-  "processed_count": 239,
+  "last_updated": "2026-02-07T04:04:11.038519+00:00",
+  "pending_count": 756,
+  "processed_count": 244,
   "pending_articles": [
+    {
+      "id": "3656e4ced85e80b672427890b8393f44",
+      "url": "https://blog.szczepan.org/blog/three-points/",
+      "title": "Dark Alley Mathematics",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46857453\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-02T15:58:13+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-07T02:04:32.172726+00:00",
+      "updated_at": "2026-02-07T02:04:32.172727+00:00"
+    },
+    {
+      "id": "2c5c01a75ba70f99e91b3a3011c617dc",
+      "url": "https://arstechnica.com/science/2026/02/a-century-of-hair-samples-proves-leaded-gas-ban-worked/",
+      "title": "A century of hair samples proves leaded gas ban worked",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46866937\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-03T05:38:51+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-07T02:04:32.172649+00:00",
+      "updated_at": "2026-02-07T02:04:32.172650+00:00"
+    },
+    {
+      "id": "d8bbca0023a602db7813c3c0209bcab9",
+      "url": "https://byandrev.dev/en/blog/ollama-in-linux",
+      "title": "Installing Ollama and Gemma 3B on Linux",
+      "content": "<p>Article URL: <a href=\"https://byandrev.dev/en/blog/ollama-in-linux\">https://byandrev.dev/en/blog/ollama-in-linux</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46920157\">https://news.ycombinator.com/item?id=46920157</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+      "author": "byandrev",
+      "published_date": "2026-02-07T00:50:28+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-07T02:04:30.838739+00:00",
+      "updated_at": "2026-02-07T02:04:30.838746+00:00"
+    },
     {
       "id": "8acb4282a59a8b0be821f9db234677a5",
       "url": "https://github.com/phreda4/r3",
@@ -114,57 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-02-06T22:26:34.772924+00:00",
       "updated_at": "2026-02-06T22:26:34.772926+00:00"
-    },
-    {
-      "id": "cdfb8da17f4877a4a1c11fb8f5a38c05",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703701v1?rss=1",
-      "title": "Modeling behavior to disentangle motion-related effects in functional ultrasound imaging in awake, head-fixed mice",
-      "content": "Functional ultrasound imaging (fUSI) enables brain-wide mapping of hemodynamic activity in awake rodents, offering a powerful bridge between systems neuroscience in animals and human neuroimaging. However, extending fUSI beyond tightly controlled sensory paradigms to more naturalistic behaviors is limited by motion-related confounds arising from locomotion, physiological arousal, and movement-linked neural activity. Here, we introduce a behavior-informed modeling framework that explicitly incorporates continuous measurements of running speed and head motion into a general linear model to account for motion-related variance while preserving interpretable task-related signals. We validate this approach in two head-fixed paradigms with distinct motion profiles: a visual stimulation task with minimal stimulus-driven movement, and a noxious stimulation task in which locomotion and arousal are intrinsic to the behavioral response. In both cases, explicit behavioral modeling recovers neural response patterns that more closely resemble low-motion reference conditions than blind, model-free denoising approaches. Critically, during noxious stimulation, behavior-informed modeling preserves shock-intensity-dependent activity in the primary somatosensory cortex that is attenuated by global component removal. These findings demonstrate that explicit modeling of behavior enables reliable interpretation of brain-wide fUSI signals during naturalistic, high-motion conditions, opening the door to studying affective and cognitive processes that were previously difficult to access with functional ultrasound imaging.",
-      "author": "Qin, C., Nelissen, F., Waasdorp, R., Lotfi, A., Rojas, C., De Angelis, L., Heemskerk, M., Kruizinga, P., Maresca, D., Keysers, C., Heiles, B., Gazzola, V.",
-      "published_date": "2026-02-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 201,
-      "reading_time": 1,
-      "created_at": "2026-02-06T22:26:34.772879+00:00",
-      "updated_at": "2026-02-06T22:26:34.772881+00:00"
-    },
-    {
-      "id": "f02e768c75539e8c3ce3ca4e29038a41",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703742v1?rss=1",
-      "title": "Topological Phase Transitions in Whole-Brain Dynamics Driven by Spatially Heterogeneous Receptor Gain Modulation: A Receptor-Constrained Dynamical Topology (RCDT) Hypothesis",
-      "content": "The mechanistic link between molecular pharmacology and global brain dynamics remains unresolved - a \"scale bridge\" problem central to consciousness research. We propose the Receptor-Constrained Dynamical Topology (RCDT) hypothesis: that the functional impact of neuromodulatory drugs propagates from local ligand-receptor binding events through spatially heterogeneous gain modulation to produce qualitative reorganizations of the whole-brain dynamical attractor. Using a biophysically grounded whole-brain model - Wilson-Cowan excitatory-inhibitory dynamics on structural connectivity with axonal delays - we implement pharmacology via gain modulation weighted by 5-HT2A receptor density (Beliveau et al., 2017). Topological state-space analysis via Takens embedding and persistent homology reveals a mapping from molecular receptor distribution to the global topological manifold. We define ego dissolution operationally as a breakdown of low-dimensional Betti-1 stability: a transition from a single dominant 1-cycle (constrained dynamics) to fragmented or higher-dimensional topological structure. The RCDT hypothesis is explicitly falsifiable: receptor-shuffling controls and concentration-topology response curves provide clear failure criteria. This work establishes a formal framework for bridging pharmacology, dynamics, and topology without invoking phenomenological experience as a premise.",
-      "author": "Wang, H.",
-      "published_date": "2026-02-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 171,
-      "reading_time": 1,
-      "created_at": "2026-02-06T22:26:34.772843+00:00",
-      "updated_at": "2026-02-06T22:26:34.772845+00:00"
-    },
-    {
-      "id": "21c1f7b326eba0a409688885b97d9b6f",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703688v1?rss=1",
-      "title": "Circadian-Modulated Thresholds as a Mechanistic Basis for Sleep-Wake Transitions, Recovery, and Sleepiness",
-      "content": "Human sleep-wake cycles arise from the interplay between homeostatic sleep pressure and circadian rhythms, yet the underlying mechanistic basis by which these drives jointly govern state transitions, recovery from sleep loss, and subjective sleepiness remains unclear. Here, we use the extended Phillips-Robinson model incorporating circadian excitation of orexin and locus coeruleus populations, yielding analytically tractable, circadian-modulated thresholds for sleep onset and awakening, and delineating the roles of circadian and homeostatic drives. We show that homeostatic feedback alone generates intrinsic sleep-wake oscillations via a saddle-node on invariant circle bifurcation, while circadian drive reshapes the stability landscape to account for immediate sleep onset and partial first-night recovery after prolonged deprivation, and enables analytic predictions of sleep timing and duration. We further define sleepiness as the distance between the homeostatic state and the active circadian sleep threshold, which robustly predicts subjective sleepiness across various deprivation, restriction, extension, and recovery protocols. Together, these results establish circadian-modulated thresholds as a unifying dynamical principle linking sleep-wake transitions, recovery dynamics, and sleepiness, with implications for circadian misalignment, shift work, and individualized sleep interventions.",
-      "author": "Yao, C., Jiang, J., Gu, C., Shuai, J., Yang, D.",
-      "published_date": "2026-02-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 176,
-      "reading_time": 1,
-      "created_at": "2026-02-06T22:26:34.772806+00:00",
-      "updated_at": "2026-02-06T22:26:34.772809+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "974cd385a59b3980abab0388f57b0fa5",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703741v1?rss=1",
+      "title": "Extracting large-scale neural activity with Suite2p",
+      "content": "Neural recordings using optical methods have improved dramatically. For example, we demonstrate here recordings of over 100,000 neurons from the mouse cortex obtained with a standard commercial microscope. To process such large datasets, we developed Suite2p, a collection of efficient algorithms for motion correction, cell detection, activity extraction and quality control. We also developed new approaches to benchmark performance on these tasks. Our GPU-accelerated non-rigid motion correction substantially outperforms alternative methods, while running over five times faster. For cell detection, Suite2p outperforms the CNMF algorithm in Caiman and Fiola, finding more cells and producing fewer false positives, while running in a fraction of the time. We also introduce quality control steps for users to evaluate performance on their own data, while offering alternative algorithms for specialized types of recordings such as those from one-photon and voltage imaging.",
+      "author": "Stringer, C., Ki, C., Del Grosso, N., LaFosse, P., Zhang, Q., Pachitariu, M.",
+      "published_date": "2026-02-06T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 137,
+      "reading_time": 1,
+      "created_at": "2026-02-07T02:05:10.199696+00:00",
+      "updated_at": "2026-02-07T04:04:10.926711+00:00",
+      "metadata": {
+        "processed_at": "2026-02-07T04:04:10.926723+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "07261e8c210e7e4f35d4c266ac955201",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.701688v1?rss=1",
+      "title": "Topography of distance-modulated multisensory object location encoding in mouse area RL",
+      "content": "The spatial arrangement of an animal's sensory environment is encoded by spatial codes of the external world, often simultaneously in different modalities. How these modalities are brought together in a universal spatial map and how potential differences are reconciled during multisensory integration remains unclear. To tackle this question, we systematically mapped object location receptive fields (OLRFs) across different sensory modalities in area RL, a pivot of visuo-tactile integration within mouse posterior parietal cortex, using a custom high-resolution three-dimensional multisensory stimulation system. Most RL neurons have three-dimensional receptive fields, with many exhibiting OLRFs across visual, tactile (i.e. vibrissal), and bimodal stimulus conditions. Comparing OLRFs across modalities revealed that distance strongly shapes visuo-tactile integration, reflected in the shift of bimodal OLRFs from tactile-dominant to visual-dominant with increasing distance. Distance also affects the linearity and spatial mode of integration. At near distances, neurons integrate object location information sublinearly from overlapping regions of visual and tactile OLRFs. At far distances, information is integrated supralinearly from regions covered by OLRFs of either modality. This distance dependency extends to cortical organization, leading to a distance tuning gradient along which the spatial, modality, and integration properties of RL neurons are aligned. Together, our findings suggest distance as a key factor in visuo-tactile integration, reflecting that the limited reach of whiskers makes visual information more important for farther objects. In parallel, the system shifts from a localization dominated mode for nearby objects to a detection dominated mode for farther objects.",
+      "author": "Zhang, Y., Lewin, U., La Chioma, A., Bonhoeffer, T., Huebener, M.",
+      "published_date": "2026-02-06T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 242,
+      "reading_time": 1,
+      "created_at": "2026-02-07T02:05:10.199662+00:00",
+      "updated_at": "2026-02-07T04:04:10.926727+00:00",
+      "metadata": {
+        "processed_at": "2026-02-07T04:04:10.926729+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "afbc2a4f342e02f364e7b93cdd5ea395",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703556v1?rss=1",
+      "title": "Neurons in the Human Substantia Nigra Respond to Cognitive Boundaries and Predict Memory",
+      "content": "Segmenting mnemonic episodes from continuous experience is a key aspect of human episodic memory. The brain constantly forms predictions about what will happen next based on previous experience and knowledge, and prediction errors are thought to signal when a new event begins (cognitive boundaries). Dopamine has been closely linked to prediction error signals, yet it remains unknown how human midbrain neurons are modulated by cognitive boundaries and how their responses influence memory. To address these questions, we recorded activity of individual neurons in the human substantia nigra, a critical brain structure for dopamine production and regulation, while participants undergoing deep brain stimulation surgery watched a series of clips embedded with cognitive boundaries and performed a recognition memory task. We found that neural activity in the substantia nigra was robustly modulated by cognitive boundaries during clip viewing. Moreover, a subset of these boundary-responsive neurons also differentiated novel from familiar images during recognition, and their firing rates were indicative of participants' memory success. These findings reveal that neurons in the human substantia nigra carry boundary- and novelty-related signals consistent with prediction error mechanisms that influence the encoding and retrieval of episodic memories.",
+      "author": "Shi, L., Flores, A., Shimelis, L., Liu, Y., Jiang, C., Zhang, J., Meng, F., Zheng, J.",
+      "published_date": "2026-02-06T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 190,
+      "reading_time": 1,
+      "created_at": "2026-02-07T02:05:10.199612+00:00",
+      "updated_at": "2026-02-07T04:04:10.926731+00:00",
+      "metadata": {
+        "processed_at": "2026-02-07T04:04:10.926733+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "9fe5610f015bd2d22756db063b399cde",
+      "url": "https://www.nature.com/articles/s41598-026-38027-3",
+      "title": "Subjective mental fatigue mediates the relationship between information processing speed and verbal memory deficits in multiple sclerosis",
+      "content": "",
+      "author": "",
+      "published_date": "2026-02-06T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-02-07T02:05:08.916141+00:00",
+      "updated_at": "2026-02-07T04:04:10.926735+00:00",
+      "metadata": {
+        "processed_at": "2026-02-07T04:04:10.926737+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6094a840607af4fe8c1b516273bd7802",
+      "url": "https://www.reddit.com/r/Python/comments/1qxzdz1/skylos_python_sast_dead_code_detection_security/",
+      "title": "Skylos: Python SAST, Dead Code Detection & Security Auditor (Benchmark against Vulture)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey! I was here a couple of days back, but I just wanted to update that we have created a benchmark against vulture and fixed some logic to reduce false positives. For the uninitiated, is a local first static analysis tool for Python codebases. <strong>If you've already read this skip to the bottom where the benchmark link is.</strong> </p> <h1>What my project does</h1> <p>Skylos focuses on the stuff below:</p> <ul> <li>dead code (unused functions/classes/imports. The cli will display confidence scoring)</li> <li>security patterns (taint-flow style checks, secrets, hallucination etc)</li> <li>quality checks (complexity, nesting, function size, etc.)</li> <li>pytest hygiene (unused <a href=\"https://www.reddit.com/user/pytest/\">u/pytest</a>.fixtures etc.)</li> <li>agentic feedback (uses a hybrid of static + agent analysis to reduce false positives)</li> <li><code>--trace</code> to catch dynamic code</li> </ul> <h1>Quick start (how to use)</h1> <p>Install:</p> <p><code>pip install skylos</code></p> <p>Run a basic scan (which is essentially just dead code):</p> <p><code>skylos .</code></p> <p>Run sec + secrets + quality:</p> <p><code>skylos . --secrets --danger --quality</code></p> <p>Uses runtime tracing to reduce dynamic FPs:</p> <p><code>skylos . --trace</code></p> <p>Gate your repo in CI:</p> <p><code>skylos . --danger --gate --strict</code></p> <p>To use <a href=\"http://skylos.dev/\">skylos.dev</a> and upload a report. You will be prompted for an api key etc.</p> <p><code>skylos . --danger --upload</code></p> <h1>VS Code Extension</h1> <p>I also made a <strong>VS Code extension</strong> so you can see findings in-editor.</p> <ul> <li>Marketplace: You can search it in your VSC market place or via oha.skylos-vscode-extension</li> <li>It runs the CLI on save for static checks</li> <li>Optional AI actions if you configure a provider key</li> </ul> <h1>Target Audience</h1> <p>Everyone working on python</p> <h1>Comparison (UPDATED)</h1> <p>Our closest comparison will be vulture. We have a benchmark which we created. We tried to make it as realistic as possible, trying to mimic what a lightweight repo might look like. We will be expanding the benchmark to include monorepos and a much heavier benchmark. The logic and explanation behind the benchmark can be found here. The link to the document is here <a href=\"https://github.com/duriantaco/skylos/blob/main/BENCHMARK.md\">https://github.com/duriantaco/skylos/blob/main/BENCHMARK.md</a> and the actual repo is here <a href=\"https://github.com/duriantaco/skylos-demo\">https://github.com/duriantaco/skylos-demo</a></p> <h1>Links / where to follow up</h1> <ul> <li>Website: <a href=\"https://skylos.dev/\">https://skylos.dev</a></li> <li>Discord (support/bugs/features request): <a href=\"https://discord.gg/Ftn9t9tErf\">https://discord.gg/Ftn9t9tErf</a></li> <li>Repo: <a href=\"https://github.com/duriantaco/skylos\">https://github.com/duriantaco/skylos</a></li> <li>Docs: <a href=\"https://docs.skylos.dev/\">https://docs.skylos.dev/</a></li> </ul> <p>Happy to take any constructive criticism/feedback. We do take all your feedback seriously and will continue to improve our engine. The reason why we have not expanded into other languages is because we're trying to make sure we reduce false positives as much as possible and we can only do it with your help. </p> <p>We'd love for you to try out the stuff above. If you try it and it breaks or is annoying, let us know via discord. We recently created the discord channel for more real time feedback. We will also be launching a &quot;False Positive Hunt Event&quot; which will be on <a href=\"https://skylos.dev\">https://skylos.dev</a> so if you're keen to take part, let us know via discord! <strong>And give it a star if you found it useful.</strong> </p> <p><strong>Last but not least, if you'll like your repo cleaned, do drop us a discord or email us at</strong> [<strong><a href=\"mailto:founder@skylos.dev\">founder@skylos.dev</a></strong>](mailto:<a href=\"mailto:founder@skylos.dev\">founder@skylos.dev</a>) <strong>. We'll be happy to work together with you.</strong> </p> <p>Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/papersashimi\"> /u/papersashimi </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qxzdz1/skylos_python_sast_dead_code_detection_security/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qxzdz1/skylos_python_sast_dead_code_detection_security/\">[comments]</a></span>",
+      "author": "/u/papersashimi",
+      "published_date": "2026-02-07T00:46:29+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 532,
+      "reading_time": 2,
+      "created_at": "2026-02-07T02:04:33.431536+00:00",
+      "updated_at": "2026-02-07T04:04:10.926739+00:00",
+      "metadata": {
+        "processed_at": "2026-02-07T04:04:10.926740+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "3727d0ebc34094cb889f4f09a3e22f0e",
       "url": "https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/",
@@ -262,106 +362,6 @@
       "updated_at": "2026-02-07T01:28:48.399861+00:00",
       "metadata": {
         "processed_at": "2026-02-07T01:28:48.399862+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1c80a112fe4780c71f11c08ae0139afd",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703681v1?rss=1",
-      "title": "A Population Coupling Model Identifies Reduced Propagation from V1 to Higher Visual Areas During Locomotion",
-      "content": "Point process generalized linear models (GLMs) have been a major tool for studying coordinated activity across populations of neurons. These models typically quantify how the spiking of a single neuron depends on the past activity of other neurons at multiple time lags, and the resulting neuron-to-neuron interactions are then aggregated to obtain population-coupling effects. However, when neurons within the same population exhibit similar spiking patterns, explicitly modeling individual interactions can be redundant and can unnecessarily increase model complexity. In such cases, population-level formulations may offer a more efficient alternative. For example, biophysical population models often characterize circuit dynamics using the average firing rate across neurons within a population, and recent data-driven approaches have similarly demonstrated the utility of population-level statistics for capturing cross-population interactions. Motivated by this consideration, we reformulate the GLM framework to operate directly at the population level. The resulting model, which we call pop-GLM, provides a computationally efficient method for estimating coupling between populations. In a simulated dataset, we show that pop-GLM achieves greater sensitivity in detecting coupling effects and can account for trial-to-trial variation in stimulus drive, which would otherwise introduce bias. We also note that moving from single-neuron to population-level modeling requires a specific modification of the traditional GLM framework. We then apply pop-GLM to real data and find reduced functional connectivity from primary visual cortex (V1) to a higher visual area during locomotion, a change not detected by single-neuron GLMs.",
-      "author": "Xin, Q., Urban, K. N., Siegle, J. H., Kass, R. E.",
-      "published_date": "2026-02-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 236,
-      "reading_time": 1,
-      "created_at": "2026-02-06T21:33:04.686295+00:00",
-      "updated_at": "2026-02-06T22:18:23.448179+00:00",
-      "metadata": {
-        "processed_at": "2026-02-06T22:18:23.448188+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "938cf2d17049fa3988cf7c3c7e667e04",
-      "url": "https://www.josh.ing/blog/claude-composer",
-      "title": "Claude Composer",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46891689\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-04T20:59:29+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-06T21:32:23.330205+00:00",
-      "updated_at": "2026-02-06T22:18:23.448192+00:00",
-      "metadata": {
-        "processed_at": "2026-02-06T22:18:23.448194+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "08cc867aa84ffc19dc8af52069b7814c",
-      "url": "https://infisical.com/blog/devops-to-solutions-engineering",
-      "title": "I spent 5 years in DevOps \u2013 Solutions engineering gave me what I was missing",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46915102\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-06T16:45:47+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-06T21:32:23.330167+00:00",
-      "updated_at": "2026-02-06T22:18:23.448199+00:00",
-      "metadata": {
-        "processed_at": "2026-02-06T22:18:23.448200+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "08cc867aa84ffc19dc8af52069b7814c",
-      "url": "https://infisical.com/blog/devops-to-solutions-engineering",
-      "title": "I spent 5 years in DevOps \u2013 Solutions engineering gave me what I was missing",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46915102\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-06T16:45:47+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-06T21:32:23.330167+00:00",
-      "updated_at": "2026-02-06T22:18:23.448199+00:00",
-      "metadata": {
-        "processed_at": "2026-02-06T22:18:23.448200+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0997b98f16cbab9285e739fdaafc07f5",
-      "url": "https://www.biotradingarena.com/hn",
-      "title": "Show HN: BioTradingArena \u2013 Benchmark for LLMs to predict biotech stock movements",
-      "content": "<p>Hi HN,<p>My friend and I have been experimenting with using LLMs to reason about biotech stocks. Unlike many other sectors, Biotech trading is largely event-driven: FDA decisions, clinical trial readouts, safety updates, or changes in trial design can cause a stock to 3x in a single day (<a href=\"https://www.biotradingarena.com/cases/MDGL_2023-12-14_Resmetirom_NASH\" rel=\"nofollow\">https://www.biotradingarena.com/cases/MDGL_2023-12-14_Resmet...</a>).<p>Interpreting these \u2018catalysts,\u2019 which comes in the form of a press release, usually requires analysts with previous expertise in biology or medicine. A catalyst that sounds \u201cpositive\u201d can still lead to a selloff if, for example:\nthe effect size is weaker than expected<p>- results apply only to a narrow subgroup<p>- endpoints don\u2019t meaningfully de-risk later phases,<p>- the readout doesn\u2019t materially change approval odds.<p>To explore this, we built BioTradingArena, a benchmark for evaluating how well LLMs can interpret biotech catalysts and predict stock reactions. Given only the catalyst and the information available before the date of the press release (trial design, prior data, PubMed articles, and market expectations), the benchmark tests to see how accurate the model is at predicting the stock movement for when the catalyst is released.<p>The benchmark currently includes 317 historical catalysts. We also created subsets for specific indications (with the largest in Oncology) as different indications often have different patterns. We plan to add more catalysts to the public dataset over the next few weeks. The dataset spans companies of different sizes and creates an adjusted score, since large-cap biotech tends to exhibit much lower volatility than small and mid-cap names.<p>Each row of data includes:<p>- Real historical biotech catalysts (Phase 1\u20133 readouts, FDA actions, etc.) and pricing data from the day before, and the day of the catalyst<p>- Linked Clinical Trial data, and PubMed pdfs<p>Note, there are may exist some fairly obvious problems with our approach. First, many clinical trial press releases are likely already included in the LLMs\u2019 pretraining data. While we try to reduce this by \u2018de-identifying each press release\u2019, and providing only the data available to the LLM up to the date of the catalyst, there are obviously some uncertainties about whether this is sufficient.<p>We\u2019ve been using this benchmark to test prompting strategies and model families. Results so far are mixed but interesting as the most reliable approach we found was to use LLMs to quantify qualitative features and then a linear regression of these features, rather than direct price prediction.<p>Just wanted to share this with HN. I built a playground link for those of you who would like to play around with it in a sandbox. Would love to hear some ideas and hope people can play around with this!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46915427\">https://news.ycombinator.com/item?id=46915427</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
-      "author": "dchu17",
-      "published_date": "2026-02-06T17:11:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 437,
-      "reading_time": 2,
-      "created_at": "2026-02-06T21:32:22.244406+00:00",
-      "updated_at": "2026-02-06T22:18:23.448207+00:00",
-      "metadata": {
-        "processed_at": "2026-02-06T22:18:23.448209+00:00",
         "processing_method": "github_actions"
       }
     }
