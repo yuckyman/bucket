@@ -1,24 +1,8 @@
 {
-  "last_updated": "2026-02-07T06:36:00.140371+00:00",
-  "pending_count": 756,
-  "processed_count": 244,
+  "last_updated": "2026-02-07T08:24:59.707638+00:00",
+  "pending_count": 751,
+  "processed_count": 249,
   "pending_articles": [
-    {
-      "id": "e9b68f29a7cbb9cf4cf2fbc9e44d320b",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703753v1?rss=1",
-      "title": "MicroRNA-sensing plasmid system for dynamic control of functional ion channel expression",
-      "content": "Gene therapy offers the potential for long-term treatment or cures for a range of chronic diseases. However, permanent gene therapy expression may not be desirable. Efforts have been made to create systems which can be switched on/off by stimuli including light, designer drugs, or cellular contexts such as increased electrical activity. Here, we designed a novel plasmid system in which ion channel expression, and therefore function, is regulated by microRNA (miR) - an endogenous class of short noncoding RNAs which negatively regulate gene expression via binding the 3' untranslated region of target transcripts. We modified an existing voltage-gated potassium channel gene therapy with a binding cassette for miR-193a-3p, and transfected this \"miR-193-OFF\" system in neuro2A cells. Co-transfection with an inhibitor or mimic of miR-193a-3p respectively enhanced or repressed expression of our transgene, assessed using a GFP marker. Using whole-cell voltage clamp, we observed enhanced voltage-gated potassium currents in cells co-transfected with a miR-193a-3p inhibitor, compared with a non-targeting control oligonucleotide. Together, this demonstrates the concept of a novel miR-mediated molecular switch which can bias therapeutic ion channel expression based on a specific miR signal. As miRs are a ubiquitous molecular mechanism, our approach could be applied to a wide range of cellular and disease contexts, potentially expanding gene therapy to new patient populations.",
-      "author": "Geuter, J., Tian, N., Brown, J., Schorge, S., Morris, G.",
-      "published_date": "2026-02-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 213,
-      "reading_time": 1,
-      "created_at": "2026-02-07T04:19:39.687541+00:00",
-      "updated_at": "2026-02-07T04:19:39.687546+00:00"
-    },
     {
       "id": "6cc16b24ee81bbc58bb290cda58d0511",
       "url": "https://www.nature.com/articles/s41593-025-02198-5",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2026-02-07T02:04:32.172726+00:00",
       "updated_at": "2026-02-07T02:04:32.172727+00:00"
+    },
+    {
+      "id": "2c5c01a75ba70f99e91b3a3011c617dc",
+      "url": "https://arstechnica.com/science/2026/02/a-century-of-hair-samples-proves-leaded-gas-ban-worked/",
+      "title": "A century of hair samples proves leaded gas ban worked",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46866937\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-03T05:38:51+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-07T02:04:32.172649+00:00",
+      "updated_at": "2026-02-07T02:04:32.172650+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "e280563c9a71dc39fc47ab6a68b9db0b",
+      "url": "https://arcadeblogger.com/2026/02/02/unseen-footage-of-atari-battlezone-cabinet-production/",
+      "title": "Unseen Footage of Atari Battlezone Arcade Cabinet Production",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46868343\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-03T08:49:40+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-07T07:52:10.730234+00:00",
+      "updated_at": "2026-02-07T08:24:59.598605+00:00",
+      "metadata": {
+        "processed_at": "2026-02-07T08:24:59.598614+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "53808bae8592dfc818db6506cf994173",
+      "url": "https://github.com/dmtrKovalenko/zlob",
+      "title": "Zlob.h 100% POSIX and glibc compatible globbing lib that is faste and better",
+      "content": "<p>Article URL: <a href=\"https://github.com/dmtrKovalenko/zlob\">https://github.com/dmtrKovalenko/zlob</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46921491\">https://news.ycombinator.com/item?id=46921491</a></p>\n<p>Points: 6</p>\n<p># Comments: 3</p>",
+      "author": "neogoose",
+      "published_date": "2026-02-07T05:07:39+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-07T07:52:09.346851+00:00",
+      "updated_at": "2026-02-07T08:24:59.598618+00:00",
+      "metadata": {
+        "processed_at": "2026-02-07T08:24:59.598620+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "94f4b57da37035831b732d5a397d4da0",
+      "url": "https://issues.chromium.org/issues/40817676",
+      "title": "WebView performance significantly slower than PWA",
+      "content": "<p>Article URL: <a href=\"https://issues.chromium.org/issues/40817676\">https://issues.chromium.org/issues/40817676</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46920273\">https://news.ycombinator.com/item?id=46920273</a></p>\n<p>Points: 16</p>\n<p># Comments: 2</p>",
+      "author": "denysonique",
+      "published_date": "2026-02-07T01:10:00+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-07T07:08:50.124500+00:00",
+      "updated_at": "2026-02-07T08:24:59.598623+00:00",
+      "metadata": {
+        "processed_at": "2026-02-07T08:24:59.598624+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "10c1a7fc68eefa5ad8d6880b22fbaa51",
+      "url": "https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html",
+      "title": "Why I Joined OpenAI",
+      "content": "<p>Article URL: <a href=\"https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html\">https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46920487\">https://news.ycombinator.com/item?id=46920487</a></p>\n<p>Points: 85</p>\n<p># Comments: 72</p>",
+      "author": "SerCe",
+      "published_date": "2026-02-07T01:45:04+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-07T07:08:50.124479+00:00",
+      "updated_at": "2026-02-07T08:24:59.598626+00:00",
+      "metadata": {
+        "processed_at": "2026-02-07T08:24:59.598628+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "0538cf39a75749ed45e73a2f60084b3a",
       "url": "https://www.embs.org/ojemb/search-for-editor-in-chief/#new_tab",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "974cd385a59b3980abab0388f57b0fa5",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703741v1?rss=1",
-      "title": "Extracting large-scale neural activity with Suite2p",
-      "content": "Neural recordings using optical methods have improved dramatically. For example, we demonstrate here recordings of over 100,000 neurons from the mouse cortex obtained with a standard commercial microscope. To process such large datasets, we developed Suite2p, a collection of efficient algorithms for motion correction, cell detection, activity extraction and quality control. We also developed new approaches to benchmark performance on these tasks. Our GPU-accelerated non-rigid motion correction substantially outperforms alternative methods, while running over five times faster. For cell detection, Suite2p outperforms the CNMF algorithm in Caiman and Fiola, finding more cells and producing fewer false positives, while running in a fraction of the time. We also introduce quality control steps for users to evaluate performance on their own data, while offering alternative algorithms for specialized types of recordings such as those from one-photon and voltage imaging.",
-      "author": "Stringer, C., Ki, C., Del Grosso, N., LaFosse, P., Zhang, Q., Pachitariu, M.",
+      "id": "e9b68f29a7cbb9cf4cf2fbc9e44d320b",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703753v1?rss=1",
+      "title": "MicroRNA-sensing plasmid system for dynamic control of functional ion channel expression",
+      "content": "Gene therapy offers the potential for long-term treatment or cures for a range of chronic diseases. However, permanent gene therapy expression may not be desirable. Efforts have been made to create systems which can be switched on/off by stimuli including light, designer drugs, or cellular contexts such as increased electrical activity. Here, we designed a novel plasmid system in which ion channel expression, and therefore function, is regulated by microRNA (miR) - an endogenous class of short noncoding RNAs which negatively regulate gene expression via binding the 3' untranslated region of target transcripts. We modified an existing voltage-gated potassium channel gene therapy with a binding cassette for miR-193a-3p, and transfected this \"miR-193-OFF\" system in neuro2A cells. Co-transfection with an inhibitor or mimic of miR-193a-3p respectively enhanced or repressed expression of our transgene, assessed using a GFP marker. Using whole-cell voltage clamp, we observed enhanced voltage-gated potassium currents in cells co-transfected with a miR-193a-3p inhibitor, compared with a non-targeting control oligonucleotide. Together, this demonstrates the concept of a novel miR-mediated molecular switch which can bias therapeutic ion channel expression based on a specific miR signal. As miRs are a ubiquitous molecular mechanism, our approach could be applied to a wide range of cellular and disease contexts, potentially expanding gene therapy to new patient populations.",
+      "author": "Geuter, J., Tian, N., Brown, J., Schorge, S., Morris, G.",
       "published_date": "2026-02-06T00:00:00+00:00",
       "source": "Biorxiv Neuroscience",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 137,
+      "word_count": 213,
       "reading_time": 1,
-      "created_at": "2026-02-07T02:05:10.199696+00:00",
-      "updated_at": "2026-02-07T04:04:10.926711+00:00",
+      "created_at": "2026-02-07T04:19:39.687541+00:00",
+      "updated_at": "2026-02-07T08:24:59.598630+00:00",
       "metadata": {
-        "processed_at": "2026-02-07T04:04:10.926723+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "07261e8c210e7e4f35d4c266ac955201",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.701688v1?rss=1",
-      "title": "Topography of distance-modulated multisensory object location encoding in mouse area RL",
-      "content": "The spatial arrangement of an animal's sensory environment is encoded by spatial codes of the external world, often simultaneously in different modalities. How these modalities are brought together in a universal spatial map and how potential differences are reconciled during multisensory integration remains unclear. To tackle this question, we systematically mapped object location receptive fields (OLRFs) across different sensory modalities in area RL, a pivot of visuo-tactile integration within mouse posterior parietal cortex, using a custom high-resolution three-dimensional multisensory stimulation system. Most RL neurons have three-dimensional receptive fields, with many exhibiting OLRFs across visual, tactile (i.e. vibrissal), and bimodal stimulus conditions. Comparing OLRFs across modalities revealed that distance strongly shapes visuo-tactile integration, reflected in the shift of bimodal OLRFs from tactile-dominant to visual-dominant with increasing distance. Distance also affects the linearity and spatial mode of integration. At near distances, neurons integrate object location information sublinearly from overlapping regions of visual and tactile OLRFs. At far distances, information is integrated supralinearly from regions covered by OLRFs of either modality. This distance dependency extends to cortical organization, leading to a distance tuning gradient along which the spatial, modality, and integration properties of RL neurons are aligned. Together, our findings suggest distance as a key factor in visuo-tactile integration, reflecting that the limited reach of whiskers makes visual information more important for farther objects. In parallel, the system shifts from a localization dominated mode for nearby objects to a detection dominated mode for farther objects.",
-      "author": "Zhang, Y., Lewin, U., La Chioma, A., Bonhoeffer, T., Huebener, M.",
-      "published_date": "2026-02-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 242,
-      "reading_time": 1,
-      "created_at": "2026-02-07T02:05:10.199662+00:00",
-      "updated_at": "2026-02-07T04:04:10.926727+00:00",
-      "metadata": {
-        "processed_at": "2026-02-07T04:04:10.926729+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "afbc2a4f342e02f364e7b93cdd5ea395",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.04.703556v1?rss=1",
-      "title": "Neurons in the Human Substantia Nigra Respond to Cognitive Boundaries and Predict Memory",
-      "content": "Segmenting mnemonic episodes from continuous experience is a key aspect of human episodic memory. The brain constantly forms predictions about what will happen next based on previous experience and knowledge, and prediction errors are thought to signal when a new event begins (cognitive boundaries). Dopamine has been closely linked to prediction error signals, yet it remains unknown how human midbrain neurons are modulated by cognitive boundaries and how their responses influence memory. To address these questions, we recorded activity of individual neurons in the human substantia nigra, a critical brain structure for dopamine production and regulation, while participants undergoing deep brain stimulation surgery watched a series of clips embedded with cognitive boundaries and performed a recognition memory task. We found that neural activity in the substantia nigra was robustly modulated by cognitive boundaries during clip viewing. Moreover, a subset of these boundary-responsive neurons also differentiated novel from familiar images during recognition, and their firing rates were indicative of participants' memory success. These findings reveal that neurons in the human substantia nigra carry boundary- and novelty-related signals consistent with prediction error mechanisms that influence the encoding and retrieval of episodic memories.",
-      "author": "Shi, L., Flores, A., Shimelis, L., Liu, Y., Jiang, C., Zhang, J., Meng, F., Zheng, J.",
-      "published_date": "2026-02-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 190,
-      "reading_time": 1,
-      "created_at": "2026-02-07T02:05:10.199612+00:00",
-      "updated_at": "2026-02-07T04:04:10.926731+00:00",
-      "metadata": {
-        "processed_at": "2026-02-07T04:04:10.926733+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9fe5610f015bd2d22756db063b399cde",
-      "url": "https://www.nature.com/articles/s41598-026-38027-3",
-      "title": "Subjective mental fatigue mediates the relationship between information processing speed and verbal memory deficits in multiple sclerosis",
-      "content": "",
-      "author": "",
-      "published_date": "2026-02-06T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-02-07T02:05:08.916141+00:00",
-      "updated_at": "2026-02-07T04:04:10.926735+00:00",
-      "metadata": {
-        "processed_at": "2026-02-07T04:04:10.926737+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6094a840607af4fe8c1b516273bd7802",
-      "url": "https://www.reddit.com/r/Python/comments/1qxzdz1/skylos_python_sast_dead_code_detection_security/",
-      "title": "Skylos: Python SAST, Dead Code Detection & Security Auditor (Benchmark against Vulture)",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey! I was here a couple of days back, but I just wanted to update that we have created a benchmark against vulture and fixed some logic to reduce false positives. For the uninitiated, is a local first static analysis tool for Python codebases. <strong>If you've already read this skip to the bottom where the benchmark link is.</strong> </p> <h1>What my project does</h1> <p>Skylos focuses on the stuff below:</p> <ul> <li>dead code (unused functions/classes/imports. The cli will display confidence scoring)</li> <li>security patterns (taint-flow style checks, secrets, hallucination etc)</li> <li>quality checks (complexity, nesting, function size, etc.)</li> <li>pytest hygiene (unused <a href=\"https://www.reddit.com/user/pytest/\">u/pytest</a>.fixtures etc.)</li> <li>agentic feedback (uses a hybrid of static + agent analysis to reduce false positives)</li> <li><code>--trace</code> to catch dynamic code</li> </ul> <h1>Quick start (how to use)</h1> <p>Install:</p> <p><code>pip install skylos</code></p> <p>Run a basic scan (which is essentially just dead code):</p> <p><code>skylos .</code></p> <p>Run sec + secrets + quality:</p> <p><code>skylos . --secrets --danger --quality</code></p> <p>Uses runtime tracing to reduce dynamic FPs:</p> <p><code>skylos . --trace</code></p> <p>Gate your repo in CI:</p> <p><code>skylos . --danger --gate --strict</code></p> <p>To use <a href=\"http://skylos.dev/\">skylos.dev</a> and upload a report. You will be prompted for an api key etc.</p> <p><code>skylos . --danger --upload</code></p> <h1>VS Code Extension</h1> <p>I also made a <strong>VS Code extension</strong> so you can see findings in-editor.</p> <ul> <li>Marketplace: You can search it in your VSC market place or via oha.skylos-vscode-extension</li> <li>It runs the CLI on save for static checks</li> <li>Optional AI actions if you configure a provider key</li> </ul> <h1>Target Audience</h1> <p>Everyone working on python</p> <h1>Comparison (UPDATED)</h1> <p>Our closest comparison will be vulture. We have a benchmark which we created. We tried to make it as realistic as possible, trying to mimic what a lightweight repo might look like. We will be expanding the benchmark to include monorepos and a much heavier benchmark. The logic and explanation behind the benchmark can be found here. The link to the document is here <a href=\"https://github.com/duriantaco/skylos/blob/main/BENCHMARK.md\">https://github.com/duriantaco/skylos/blob/main/BENCHMARK.md</a> and the actual repo is here <a href=\"https://github.com/duriantaco/skylos-demo\">https://github.com/duriantaco/skylos-demo</a></p> <h1>Links / where to follow up</h1> <ul> <li>Website: <a href=\"https://skylos.dev/\">https://skylos.dev</a></li> <li>Discord (support/bugs/features request): <a href=\"https://discord.gg/Ftn9t9tErf\">https://discord.gg/Ftn9t9tErf</a></li> <li>Repo: <a href=\"https://github.com/duriantaco/skylos\">https://github.com/duriantaco/skylos</a></li> <li>Docs: <a href=\"https://docs.skylos.dev/\">https://docs.skylos.dev/</a></li> </ul> <p>Happy to take any constructive criticism/feedback. We do take all your feedback seriously and will continue to improve our engine. The reason why we have not expanded into other languages is because we're trying to make sure we reduce false positives as much as possible and we can only do it with your help. </p> <p>We'd love for you to try out the stuff above. If you try it and it breaks or is annoying, let us know via discord. We recently created the discord channel for more real time feedback. We will also be launching a &quot;False Positive Hunt Event&quot; which will be on <a href=\"https://skylos.dev\">https://skylos.dev</a> so if you're keen to take part, let us know via discord! <strong>And give it a star if you found it useful.</strong> </p> <p><strong>Last but not least, if you'll like your repo cleaned, do drop us a discord or email us at</strong> [<strong><a href=\"mailto:founder@skylos.dev\">founder@skylos.dev</a></strong>](mailto:<a href=\"mailto:founder@skylos.dev\">founder@skylos.dev</a>) <strong>. We'll be happy to work together with you.</strong> </p> <p>Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/papersashimi\"> /u/papersashimi </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qxzdz1/skylos_python_sast_dead_code_detection_security/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qxzdz1/skylos_python_sast_dead_code_detection_security/\">[comments]</a></span>",
-      "author": "/u/papersashimi",
-      "published_date": "2026-02-07T00:46:29+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 532,
-      "reading_time": 2,
-      "created_at": "2026-02-07T02:04:33.431536+00:00",
-      "updated_at": "2026-02-07T04:04:10.926739+00:00",
-      "metadata": {
-        "processed_at": "2026-02-07T04:04:10.926740+00:00",
+        "processed_at": "2026-02-07T08:24:59.598632+00:00",
         "processing_method": "github_actions"
       }
     }
