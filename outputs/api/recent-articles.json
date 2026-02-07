@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-02-07T06:36:00.140919+00:00",
+  "last_updated": "2026-02-07T07:09:55.561551+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "94f4b57da37035831b732d5a397d4da0",
+      "url": "https://issues.chromium.org/issues/40817676",
+      "title": "WebView performance significantly slower than PWA",
+      "content": "<p>Article URL: <a href=\"https://issues.chromium.org/issues/40817676\">https://issues.chromium.org/issues/40817676</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46920273\">https://news.ycombinator.com/item?id=46920273</a></p>\n<p>Points: 16</p>\n<p># Comments: 2</p>",
+      "author": "denysonique",
+      "published_date": "2026-02-07T01:10:00+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-07T07:08:50.124500+00:00",
+      "updated_at": "2026-02-07T07:08:50.124502+00:00"
+    },
+    {
+      "id": "10c1a7fc68eefa5ad8d6880b22fbaa51",
+      "url": "https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html",
+      "title": "Why I Joined OpenAI",
+      "content": "<p>Article URL: <a href=\"https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html\">https://www.brendangregg.com/blog/2026-02-07/why-i-joined-openai.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46920487\">https://news.ycombinator.com/item?id=46920487</a></p>\n<p>Points: 85</p>\n<p># Comments: 72</p>",
+      "author": "SerCe",
+      "published_date": "2026-02-07T01:45:04+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-07T07:08:50.124479+00:00",
+      "updated_at": "2026-02-07T07:08:50.124481+00:00"
+    },
     {
       "id": "0538cf39a75749ed45e73a2f60084b3a",
       "url": "https://www.embs.org/ojemb/search-for-editor-in-chief/#new_tab",
@@ -325,42 +357,6 @@
         "processed_at": "2026-02-07T04:04:10.926737+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "6094a840607af4fe8c1b516273bd7802",
-      "url": "https://www.reddit.com/r/Python/comments/1qxzdz1/skylos_python_sast_dead_code_detection_security/",
-      "title": "Skylos: Python SAST, Dead Code Detection & Security Auditor (Benchmark against Vulture)",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey! I was here a couple of days back, but I just wanted to update that we have created a benchmark against vulture and fixed some logic to reduce false positives. For the uninitiated, is a local first static analysis tool for Python codebases. <strong>If you've already read this skip to the bottom where the benchmark link is.</strong> </p> <h1>What my project does</h1> <p>Skylos focuses on the stuff below:</p> <ul> <li>dead code (unused functions/classes/imports. The cli will display confidence scoring)</li> <li>security patterns (taint-flow style checks, secrets, hallucination etc)</li> <li>quality checks (complexity, nesting, function size, etc.)</li> <li>pytest hygiene (unused <a href=\"https://www.reddit.com/user/pytest/\">u/pytest</a>.fixtures etc.)</li> <li>agentic feedback (uses a hybrid of static + agent analysis to reduce false positives)</li> <li><code>--trace</code> to catch dynamic code</li> </ul> <h1>Quick start (how to use)</h1> <p>Install:</p> <p><code>pip install skylos</code></p> <p>Run a basic scan (which is essentially just dead code):</p> <p><code>skylos .</code></p> <p>Run sec + secrets + quality:</p> <p><code>skylos . --secrets --danger --quality</code></p> <p>Uses runtime tracing to reduce dynamic FPs:</p> <p><code>skylos . --trace</code></p> <p>Gate your repo in CI:</p> <p><code>skylos . --danger --gate --strict</code></p> <p>To use <a href=\"http://skylos.dev/\">skylos.dev</a> and upload a report. You will be prompted for an api key etc.</p> <p><code>skylos . --danger --upload</code></p> <h1>VS Code Extension</h1> <p>I also made a <strong>VS Code extension</strong> so you can see findings in-editor.</p> <ul> <li>Marketplace: You can search it in your VSC market place or via oha.skylos-vscode-extension</li> <li>It runs the CLI on save for static checks</li> <li>Optional AI actions if you configure a provider key</li> </ul> <h1>Target Audience</h1> <p>Everyone working on python</p> <h1>Comparison (UPDATED)</h1> <p>Our closest comparison will be vulture. We have a benchmark which we created. We tried to make it as realistic as possible, trying to mimic what a lightweight repo might look like. We will be expanding the benchmark to include monorepos and a much heavier benchmark. The logic and explanation behind the benchmark can be found here. The link to the document is here <a href=\"https://github.com/duriantaco/skylos/blob/main/BENCHMARK.md\">https://github.com/duriantaco/skylos/blob/main/BENCHMARK.md</a> and the actual repo is here <a href=\"https://github.com/duriantaco/skylos-demo\">https://github.com/duriantaco/skylos-demo</a></p> <h1>Links / where to follow up</h1> <ul> <li>Website: <a href=\"https://skylos.dev/\">https://skylos.dev</a></li> <li>Discord (support/bugs/features request): <a href=\"https://discord.gg/Ftn9t9tErf\">https://discord.gg/Ftn9t9tErf</a></li> <li>Repo: <a href=\"https://github.com/duriantaco/skylos\">https://github.com/duriantaco/skylos</a></li> <li>Docs: <a href=\"https://docs.skylos.dev/\">https://docs.skylos.dev/</a></li> </ul> <p>Happy to take any constructive criticism/feedback. We do take all your feedback seriously and will continue to improve our engine. The reason why we have not expanded into other languages is because we're trying to make sure we reduce false positives as much as possible and we can only do it with your help. </p> <p>We'd love for you to try out the stuff above. If you try it and it breaks or is annoying, let us know via discord. We recently created the discord channel for more real time feedback. We will also be launching a &quot;False Positive Hunt Event&quot; which will be on <a href=\"https://skylos.dev\">https://skylos.dev</a> so if you're keen to take part, let us know via discord! <strong>And give it a star if you found it useful.</strong> </p> <p><strong>Last but not least, if you'll like your repo cleaned, do drop us a discord or email us at</strong> [<strong><a href=\"mailto:founder@skylos.dev\">founder@skylos.dev</a></strong>](mailto:<a href=\"mailto:founder@skylos.dev\">founder@skylos.dev</a>) <strong>. We'll be happy to work together with you.</strong> </p> <p>Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/papersashimi\"> /u/papersashimi </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qxzdz1/skylos_python_sast_dead_code_detection_security/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qxzdz1/skylos_python_sast_dead_code_detection_security/\">[comments]</a></span>",
-      "author": "/u/papersashimi",
-      "published_date": "2026-02-07T00:46:29+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 532,
-      "reading_time": 2,
-      "created_at": "2026-02-07T02:04:33.431536+00:00",
-      "updated_at": "2026-02-07T04:04:10.926739+00:00",
-      "metadata": {
-        "processed_at": "2026-02-07T04:04:10.926740+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3656e4ced85e80b672427890b8393f44",
-      "url": "https://blog.szczepan.org/blog/three-points/",
-      "title": "Dark Alley Mathematics",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46857453\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-02T15:58:13+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-07T02:04:32.172726+00:00",
-      "updated_at": "2026-02-07T02:04:32.172727+00:00"
     }
   ]
 }
