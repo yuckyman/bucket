@@ -1,5 +1,21 @@
 [
   {
+    "id": "4130322777abb1243a2712730a35e40b",
+    "url": "https://shattered.io/",
+    "title": "We have broken SHA-1 in practice",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46927661\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-07T20:34:03+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-07T20:54:57.373777+00:00",
+    "updated_at": "2026-02-07T20:54:57.373779+00:00"
+  },
+  {
     "id": "e89e40b4c1c8f0b5c154e4a7e285d42c",
     "url": "https://www.nature.com/articles/s41598-026-38199-y",
     "title": "SHH pathway inhibition and astrocyte co-culture induce distinct responses in glioblastoma and cancer stem cells",
@@ -17066,21 +17082,5 @@
     "reading_time": 1,
     "created_at": "2026-02-03T05:36:12.389298+00:00",
     "updated_at": "2026-02-03T05:36:12.389300+00:00"
-  },
-  {
-    "id": "a35266c306ae21486602b34284863f17",
-    "url": "https://arxiv.org/abs/2602.00123",
-    "title": "Visual Affect Analysis: Predicting Emotions of Image Viewers with Vision-Language Models",
-    "content": "arXiv:2602.00123v1 Announce Type: new \nAbstract: Vision-language models (VLMs) show promise as tools for inferring affect from visual stimuli at scale; it is not yet clear how closely their outputs align with human affective ratings. We benchmarked nine VLMs, ranging from state-of-the-art proprietary models to open-source models, on three psycho-metrically validated affective image datasets: the International Affective Picture System, the Nencki Affective Picture System, and the Library of AI-Generated Affective Images. The models performed two tasks in the zero-shot setting: (i) top-emotion classification (selecting the strongest discrete emotion elicited by an image) and (ii) continuous prediction of human ratings on 1-7/9 Likert scales for discrete emotion categories and affective dimensions. We also evaluated the impact of rater-conditioned prompting on the LAI-GAI dataset using de-identified participant metadata. The results show good performance in discrete emotion classification, with accuracies typically ranging from 60% to 80% on six-emotion labels and from 60% to 75% on a more challenging 12-category task. The predictions of anger and surprise had the lowest accuracy in all datasets. For continuous rating prediction, models showed moderate to strong alignment with humans (r > 0.75) but also exhibited consistent biases, notably weaker performance on arousal, and a tendency to overestimate response strength. Rater-conditioned prompting resulted in only small, inconsistent changes in predictions. Overall, VLMs capture broad affective trends but lack the nuance found in validated psychological ratings, highlighting their potential and current limitations for affective computing and mental health-related applications.",
-    "author": "Filip Nowicki, Hubert Marciniak, Jakub {\\L}\\k{a}czkowski, Krzysztof Jassem, Tomasz G\\'orecki, Vimala Balakrishnan, Desmond C. Ong, Maciej Behnke",
-    "published_date": "2026-02-03T05:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 239,
-    "reading_time": 1,
-    "created_at": "2026-02-03T05:36:12.389264+00:00",
-    "updated_at": "2026-02-03T05:36:12.389266+00:00"
   }
 ]
