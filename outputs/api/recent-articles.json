@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-02-07T10:28:36.386294+00:00",
+  "last_updated": "2026-02-07T10:55:25.626576+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "8f9979dc83dd5a87e9792126a4d02902",
+      "url": "https://rhodesmill.org/brandon/2009/commands-with-comma/",
+      "title": "Start all of your commands with a comma",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46890814\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-04T19:59:12+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-07T10:54:15.100588+00:00",
+      "updated_at": "2026-02-07T10:54:15.100589+00:00"
+    },
     {
       "id": "e5ba7a75f7f91345ef18575249a358a5",
       "url": "https://www.sciencedirect.com/science/article/pii/S0006899326000491?dgcid=rss_sd_all",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-02-07T08:34:19.318195+00:00",
       "updated_at": "2026-02-07T08:34:19.318199+00:00"
-    },
-    {
-      "id": "25968c3d2d641124d92576907f8a730c",
-      "url": "https://www.reddit.com/r/Python/comments/1qy7ek0/bakefile_an_oop_task_runner_in_python/",
-      "title": "bakefile - An OOP Task Runner in Python",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What My Project Does</strong></p> <p>bakefile is a task runner (like Make/Justfile) that uses Python OOP for reusable tasks. Define tasks as Python class methods\u2014inherit, compose, and share them across projects instead of copy-pasting shell scripts.</p> <p><strong>Target Audience</strong></p> <p>Developers who want:</p> <p>- Reusable task definitions across projects (no more copy-pasting Makefiles)</p> <p>- Python code instead of Makefile syntax or shell scripts</p> <p>- Type safety and tooling (ruff, ty) in their task runner</p> <p>- Language-agnostic tasks (use it for Go, Rust, JS, or any project)</p> <table><thead> <tr> <th align=\"left\">bakefile</th> <th align=\"left\">Makefile</th> <th align=\"left\">Justfile</th> </tr> </thead><tbody> <tr> <td align=\"left\">Language</td> <td align=\"left\">Python</td> <td align=\"left\">Make syntax</td> </tr> <tr> <td align=\"left\">Reusability</td> <td align=\"left\">OOP inheritance</td> <td align=\"left\">Copy-paste</td> </tr> <tr> <td align=\"left\">Config</td> <td align=\"left\">Pydantic</td> <td align=\"left\">Shell vars</td> </tr> <tr> <td align=\"left\">Type Safety</td> <td align=\"left\">Pydantic/Typer/Ruff/ty any python tooling</td> <td align=\"left\">No</td> </tr> </tbody></table> <p><strong>Why bakefile?</strong></p> <p>- <strong>Reusable</strong> - Use OOP class methods to inherit, compose, and share tasks across projects</p> <p>- <strong>Python</strong> - Full Python language features, tooling (ruff/ty), and type safety with subprocess support for CLI commands</p> <p>- <strong>Language-agnostic</strong> - Write tasks in Python, run commands for any language (Go, Rust, JS, etc.)</p> <p><strong>Installation</strong></p> <pre><code>pip install bakefile # or uv tool install bakefile </code></pre> <p><strong>Quick Start</strong></p> <p>Bakebook extends Pydantic's `BaseSettings` for configuration and uses Typer's `@command()` decorator\u2014so you get type safety, env vars, and familiar CLI syntax.</p> <p>Create `bakefile.py`:</p> <pre><code>from bake import Bakebook, command, Context, console class MyBakebook(Bakebook): @command() def build(self, ctx: Context) -&gt; None: console.echo(&quot;Building...&quot;) ctx.run(&quot;go build&quot;) bakebook = MyBakebook() @bakebook.command() def hello(name: str = &quot;world&quot;): console.echo(f&quot;Hello {name}!&quot;) </code></pre> <p>**Or generate automatically:**</p> <pre><code>bakefile init # Basic bakefile bakefile init --inline # With PEP 723 standalone dependencies </code></pre> <p>Run tasks:</p> <pre><code>bake hello # Hello world! bake hello --name Alice # Hello Alice! bake build # Building... </code></pre> <p><strong>PythonSpace (Example)</strong></p> <p>`PythonSpace` shows how to create a custom Bakebook class for Python projects. It's opinionated (uses ruff, ty, uv, deptry), but you can create your own Bakebook with your preferred tools. *Note: Full support on macOS; for other OS, some commands unsupported\u2014use `--dry-run` to preview.*</p> <p>Install with the lib extra:</p> <pre><code>pip install bakefile[lib] </code></pre> <p>Then create your `bakefile.py`:</p> <pre><code>from bakelib import PythonSpace bakebook = PythonSpace() </code></pre> <p>Available commands:</p> <p>- `bake lint` - prettier, ruff, ty, deptry</p> <p>- `bake test` - pytest with coverage</p> <p>- `bake test-integration` - integration tests</p> <p>- `bake clean` - clean gitignored files</p> <p>- `bake setup-dev` - setup dev environment</p> <p>---</p> <p>GitHub: <a href=\"https://github.com/wislertt/bakefile\">https://github.com/wislertt/bakefile</a></p> <p>PyPI: <a href=\"https://pypi.org/pypi/bakefile\">https://pypi.org/pypi/bakefile</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Glad_Friendship_5353\"> /u/Glad_Friendship_5353 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qy7ek0/bakefile_an_oop_task_runner_in_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qy7ek0/bakefile_an_oop_task_runner_in_python/\">[comments]</a></span>",
-      "author": "/u/Glad_Friendship_5353",
-      "published_date": "2026-02-07T07:20:45+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 420,
-      "reading_time": 2,
-      "created_at": "2026-02-07T08:33:43.428329+00:00",
-      "updated_at": "2026-02-07T08:33:43.428331+00:00"
     }
   ]
 }
