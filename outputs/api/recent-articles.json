@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-02-08T10:57:58.727329+00:00",
+  "last_updated": "2026-02-08T11:27:42.264136+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "ca911a2bc1a311c035f9c590283a8bd5",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae33f8",
+      "title": "A multi-view neural framework with attention for epileptic seizure classification",
+      "content": "Objective. Epilepsy is a chronic brain disorder characterized by recurrent seizures due to abnormal neuronal firing. Electroencephalogram (EEG)-based seizure classification has become an important auxiliary tool in clinical practice. This study aims to reduce reliance on expert experience in diagnosis and to improve the automated classification of epileptic seizures using EEG signals. Approach. We propose a novel filter-bank multi-view and attention-based mechanism neural network model for seizure classification. The model employs a learnable filter bank to decompose the raw EEG into multiple frequency sub-bands, forming multi-view representations. A multi-branch group convolution network is designed to capture multi-scale frequency\u2013spatial features, while temporal dependencies are extracted through a bidirectional long short-term memory with an attention mechanism. A shared attention module adaptively emphasizes the most informative sub-bands and time windows for classification. Main results. The proposed model achieves an overall score of 0.7105, a weighted ( ) score of 0.8314, and a Cohen\u2019s kappa coefficient of 0.6345 on the TUSZ v1.5.2 dataset. Compared with the baseline method FBCNet, the proposed model outperform by 3.22% in overall score (p\u2009<\u20090.05), 1.42% in score (p\u2009<\u20090.05), and 2.87% in Cohen\u2019s kappa coefficient (p\u2009<\u20090.05). The best results are also obtained on the CHB-MIT dataset. Significance. These results demonstrate the effectiveness of combining multi-view feature extraction with attention-enhanced temporal modeling.",
+      "author": "Lufeng Feng, Baomin Xu, Li Duan, Wei Ni and Quan Z Sheng",
+      "published_date": "2026-02-03T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 217,
+      "reading_time": 1,
+      "created_at": "2026-02-08T11:26:57.005185+00:00",
+      "updated_at": "2026-02-08T11:26:57.005187+00:00"
+    },
     {
       "id": "f8d9a41231c5494993f2b3f518c2281b",
       "url": "https://www.sciencedirect.com/science/article/pii/S1053811926001114?dgcid=rss_sd_all",
@@ -315,26 +331,6 @@
       "updated_at": "2026-02-08T10:21:50.363480+00:00",
       "metadata": {
         "processed_at": "2026-02-08T10:21:50.363482+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d06f196190bec1fc72233931d2fae3ae",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.05.704129v1?rss=1",
-      "title": "Altered Baseline Brain Network Topology in High-Risk Individuals Progressing to Mild Cognitive Impairment",
-      "content": "Background: Identifying early brain-based markers of cognitive decline is critical for preventive strategies in Alzheimer's disease. Individuals with a familial risk may exhibit subtle functional brain changes years before clinical symptoms emerge. This exploratory study examined whether baseline functional brain network topology differentiates high-risk cognitively normal older adults who later progress to mild cognitive impairment (MCI) from those who remain cognitively stable. Methods: Baseline resting-state fMRI data were analyzed from 90 cognitively normal adults with a family history of Alzheimer's (PREVENT-AD cohort), classified longitudinally as converters (MCI-C; n=45) or non-converters (MCI-NC; n=45). Whole-brain functional networks were analyzed across multiple thresholds; primary results are reported at 12% network density, with robustness verified at 16% density. Group differences were assessed using ANCOVA or Rank ANCOVA (controlling for age, sex, and education) at an uncorrected threshold (p < 0.05). Predictive utility was evaluated via a 100-repetition nested cross-validation machine-learning framework on a multimodal feature set combining functional network metrics, average cortical thickness, and plasma p-tau217, with covariates included within training folds. Results: At baseline, MCI-C participants were older, had fewer years of education, exhibited higher plasma p-tau217 levels, and showed trend-level lower MoCA scores. At 12% density, MCI-C showed increased average nodal strength (F=4.50, p=0.036, p^2=0.050) and reduced global efficiency (F=4.07, p=0.046, p^2=0.045). Increased betweenness centrality within the Default Mode Network (F=4.07, p=0.046, p^2=0.045) and trend-level increases in average clustering (F=3.10, p=0.081, p^2=0.035) were observed. Initial largest connected component (LCC) showed a trend-level decrease (F=3.84, p=0.053, p^2=0.043). At 16% density, MCI-C exhibited significantly reduced initial LCC (F=4.41, p=0.038, p^2=0.049) and increased nodal strength (F=4.29, p=0.041, p^2=0.048), with directionally consistent trend-level reductions in global efficiency (F=3.74, p=0.056, p^2=0.042). In machine learning, the k-nearest neighbors classifier showed the most stable performance (nested CV accuracy=59.6%; test F1 score=0.56). Feature stability analysis identified global efficiency (selected in 25.8% of iterations) and critical drop (19.4%) as the most consistent predictors. Conclusion: Baseline disruptions in functional network integration precede clinical conversion to MCI. The consistent selection of graph-theoretical metrics, particularly global efficiency and critical drop, as top predictors suggests that functional network reorganization provides unique information for classification before widespread cortical atrophy emerges.",
-      "author": "Nawani, H., Jaganathan, R., Baths, V.",
-      "published_date": "2026-02-07T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 354,
-      "reading_time": 1,
-      "created_at": "2026-02-08T09:32:33.796084+00:00",
-      "updated_at": "2026-02-08T10:21:50.363484+00:00",
-      "metadata": {
-        "processed_at": "2026-02-08T10:21:50.363485+00:00",
         "processing_method": "github_actions"
       }
     }

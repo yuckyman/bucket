@@ -1,5 +1,21 @@
 [
   {
+    "id": "ca911a2bc1a311c035f9c590283a8bd5",
+    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae33f8",
+    "title": "A multi-view neural framework with attention for epileptic seizure classification",
+    "content": "Objective. Epilepsy is a chronic brain disorder characterized by recurrent seizures due to abnormal neuronal firing. Electroencephalogram (EEG)-based seizure classification has become an important auxiliary tool in clinical practice. This study aims to reduce reliance on expert experience in diagnosis and to improve the automated classification of epileptic seizures using EEG signals. Approach. We propose a novel filter-bank multi-view and attention-based mechanism neural network model for seizure classification. The model employs a learnable filter bank to decompose the raw EEG into multiple frequency sub-bands, forming multi-view representations. A multi-branch group convolution network is designed to capture multi-scale frequency\u2013spatial features, while temporal dependencies are extracted through a bidirectional long short-term memory with an attention mechanism. A shared attention module adaptively emphasizes the most informative sub-bands and time windows for classification. Main results. The proposed model achieves an overall score of 0.7105, a weighted ( ) score of 0.8314, and a Cohen\u2019s kappa coefficient of 0.6345 on the TUSZ v1.5.2 dataset. Compared with the baseline method FBCNet, the proposed model outperform by 3.22% in overall score (p\u2009<\u20090.05), 1.42% in score (p\u2009<\u20090.05), and 2.87% in Cohen\u2019s kappa coefficient (p\u2009<\u20090.05). The best results are also obtained on the CHB-MIT dataset. Significance. These results demonstrate the effectiveness of combining multi-view feature extraction with attention-enhanced temporal modeling.",
+    "author": "Lufeng Feng, Baomin Xu, Li Duan, Wei Ni and Quan Z Sheng",
+    "published_date": "2026-02-03T00:00:00+00:00",
+    "source": "Journal Neural Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 217,
+    "reading_time": 1,
+    "created_at": "2026-02-08T11:26:57.005185+00:00",
+    "updated_at": "2026-02-08T11:26:57.005187+00:00"
+  },
+  {
     "id": "f8d9a41231c5494993f2b3f518c2281b",
     "url": "https://www.sciencedirect.com/science/article/pii/S1053811926001114?dgcid=rss_sd_all",
     "title": "VSSI<math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si58.svg\" display=\"inline\" id=\"d1e857\" class=\"math\"><msub><mrow></mrow><mrow><mn>2</mn><mi>p</mi></mrow></msub></math>-Net: Physics-guided deep unfolding with <math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si11.svg\" display=\"inline\" id=\"d1e867\" class=\"math\"><msub><mrow><mi mathvariant=\"bold-italic\">L</mi></mrow><mrow><mn>2</mn><mi>p</mi></mrow></msub></math>-norm and variation sparsity for EEG source imaging",
@@ -17110,21 +17126,5 @@
     "reading_time": 1,
     "created_at": "2026-02-03T13:04:09.798474+00:00",
     "updated_at": "2026-02-03T13:04:09.798476+00:00"
-  },
-  {
-    "id": "4a00b6cc2f58ce12bdad5dc761353551",
-    "url": "https://www.nature.com/articles/s41398-026-03849-2",
-    "title": "Acute effects of selective serotonin reuptake inhibitors on cerebral glucose metabolism and blood flow",
-    "content": "",
-    "author": "",
-    "published_date": "2026-02-03T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-02-03T13:04:09.798456+00:00",
-    "updated_at": "2026-02-03T13:04:09.798458+00:00"
   }
 ]
