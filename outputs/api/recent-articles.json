@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-02-08T19:27:54.105313+00:00",
+  "last_updated": "2026-02-08T19:48:36.678065+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "f14d3d22df93e9a782dce9d6c5b0294b",
+      "url": "https://www.reddit.com/r/Python/comments/1qzfnee/i_built_a_python_framework_for_creating_native/",
+      "title": "I built a Python framework for creating native macOS menu bar apps",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone! In the past years I've used python to do basically anything, there are really few things python can't do. Unfortunately one of them is creating rich, extensively customizable macOS statusbar apps (guis in general, but with projects like Flet we are getting there). This is why I've been working on Nib, a Python framework that lets you build native macOS menu bar applications with a declarative, SwiftUI-inspired API. </p> <p>For anyone curious on how it works you can read about it here: <a href=\"https://bbalduzz.github.io/nib/concepts/\">https://bbalduzz.github.io/nib/concepts/</a>, but basically you write python, Nib renders native SwiftUI. Two processes connected over a Unix socket, Python owns the logic, Swift owns the screen. No Electron, no web views, just a real native app (yay!).</p> <h3>What My Project Does</h3> <p>Nib lets you write your entire menu bar app in Python using a declarative API, and it renders real native SwiftUI under the hood. What it brings to the table (or better say desktop): - 30+ SwiftUI components (text, buttons, toggles, sliders, charts, maps, canvas, etc.) and counting :) - Reactive updates: mutate a property, UI updates automatically - System services: battery, notifications, keychain, camera, hotkeys, clipboard - Hot reload with <code>nib run</code> - Build standalone .app bundles with <code>nib build</code> - Settings persistence, file dialogs, drag &amp; drop etc..</p> <h3>Target Audience</h3> <p>Python devs on macOS who want to build small utilities, status bar tools, or productivity apps without learning Swift. It's usable today but still evolving \u2014 I'm using it for my own apps.</p> <h3>Comparison</h3> <ul> <li><em>Rumps</em>: menu bar apps in Python but limited to basic menus, no rich UI</li> <li><em>py2app</em>: bundles Python as .app but doesn't give you native UI</li> <li><em>Flet</em>: cross-platform Flutter-based GUIs, great but not native macOS and not menu bar focused</li> <li><em>SwiftBar/xbar</em>: run scripts in the menu bar but output is just text, no interactive UI</li> </ul> <p>Nib is the only option that gives you actual SwiftUI rendering with a full component library, specifically for menu bar apps.</p> <h3>Links:</h3> <ul> <li>GitHub: <a href=\"https://github.com/Bbalduzz/nib\">https://github.com/Bbalduzz/nib</a></li> <li>Docs: <a href=\"https://bbalduzz.github.io/nib/\">https://bbalduzz.github.io/nib/</a></li> </ul> <p>With this being said I would love feedback! Especially on the API design and what components you'd want to see next.</p> <p>EDIT: forgot to make the GitHub repo public, sorry :) Now its available</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/IlBaldo\"> /u/IlBaldo </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1qzfnee/i_built_a_python_framework_for_creating_native/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1qzfnee/i_built_a_python_framework_for_creating_native/\">[comments]</a></span>",
+      "author": "/u/IlBaldo",
+      "published_date": "2026-02-08T17:53:30+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 392,
+      "reading_time": 1,
+      "created_at": "2026-02-08T19:47:27.292933+00:00",
+      "updated_at": "2026-02-08T19:47:27.292935+00:00"
+    },
+    {
+      "id": "fa8a257fd0fd288d1e7776437ea6ffa7",
+      "url": "https://github.com/adityaprasad-sudo/Explore-Singapore",
+      "title": "Show HN: The biggest achievement of my life so far",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46937543\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-08T19:21:10+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-08T19:47:25.971808+00:00",
+      "updated_at": "2026-02-08T19:47:25.971810+00:00"
+    },
+    {
+      "id": "d530e6e383d563e8e0ecbae3ef88c1a8",
+      "url": "https://www.latent.space/p/adversarial-reasoning",
+      "title": "Experts Have World Models. LLMs Have Word Models",
+      "content": "<p>Article URL: <a href=\"https://www.latent.space/p/adversarial-reasoning\">https://www.latent.space/p/adversarial-reasoning</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46936920\">https://news.ycombinator.com/item?id=46936920</a></p>\n<p>Points: 6</p>\n<p># Comments: 2</p>",
+      "author": "aaronng91",
+      "published_date": "2026-02-08T18:13:48+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-08T19:47:24.866264+00:00",
+      "updated_at": "2026-02-08T19:47:24.866266+00:00"
+    },
     {
       "id": "1280296e5c5932ab76916c05c7a6495d",
       "url": "https://www.nature.com/articles/s41598-026-39025-1",
@@ -301,54 +349,6 @@
         "processed_at": "2026-02-08T18:28:57.551092+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "48bfc9a31351012e7c288779bb659750",
-      "url": "https://freethemath.org",
-      "title": "Five disciplines discovered the same math independently \u2013 none of them knew",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46935104\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-08T15:29:22+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-08T17:27:50.647625+00:00",
-      "updated_at": "2026-02-08T17:27:50.647627+00:00"
-    },
-    {
-      "id": "7dd13102b6b00c32c14a897856982bee",
-      "url": "https://github.com/microsoft/vscode/issues/292452",
-      "title": "Billing can be bypassed using a combo of subagents with an agent definition",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=46936105\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-08T16:56:08+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-08T17:27:50.647597+00:00",
-      "updated_at": "2026-02-08T17:27:50.647602+00:00"
-    },
-    {
-      "id": "d68fcea4f46b51aa0397bfc24d35fb46",
-      "url": "https://habr.com/en/articles/446238/",
-      "title": "Exploiting signed bootloaders to circumvent UEFI Secure Boot",
-      "content": "<p>Article URL: <a href=\"https://habr.com/en/articles/446238/\">https://habr.com/en/articles/446238/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46934579\">https://news.ycombinator.com/item?id=46934579</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
-      "author": "todsacerdoti",
-      "published_date": "2026-02-08T14:40:52+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-08T17:27:49.551854+00:00",
-      "updated_at": "2026-02-08T17:27:49.551855+00:00"
     }
   ]
 }
