@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-02-08T14:23:12.186413+00:00",
+  "last_updated": "2026-02-08T14:29:47.390917+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "77db3477c8d22ebbd43d1cb7c510512e",
+      "url": "https://fmhy.net/posts/jan-2026",
+      "title": "Monthly Updates [January]",
+      "content": "<div class=\"info custom-block\"><p class=\"custom-block-title\">INFO</p>\n<p>These update threads only contain major updates. If you're interested\nin seeing all minor changes you can follow our\n<a href=\"https://github.com/fmhy/FMHYedit/commits/main\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub or\n<a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Updates Channel</a> in Discord.</p>\n</div>\n<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Added <strong><a href=\"https://ffmhy.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">Alternative Frontend</a></strong> of FMHY with a totally different design. This pulls from the official source, so it will stay synced with new edits. It also has a <a href=\"https://i.ibb.co/fVkHqhRP/image.png\" rel=\"noreferrer\" target=\"_blank\">random site</a> / <a href=\"https://i.imgur.com/p4Mxs8y.png\" rel=\"noreferrer\" target=\"_blank\">2</a> button that works per page. Note the front page for this has been removed, and it now directs to the wiki itself. Thank you to nw for making this.</p>\n</li>\n<li>\n<p>Added <strong><a href=\"https://fmhy.net/other/backups\" rel=\"noreferrer\" target=\"_blank\">3 New Instances</a></strong> to our Backups Page (Samidy, JBugel, ArtistGrid).</p>\n</li>\n<li>\n<p>Added <strong><a href=\"https://i.ibb.co/Ps8vDJL0/image.png\" rel=\"noreferrer\" target=\"_blank\">Catppuccin</a></strong> / <a href=\"https://i.imgur.com/558l4gH.png\" rel=\"noreferrer\" target=\"_blank\">2</a> as an option in our color picker. Thank you to Samidy for doing this.</p>\n</li>\n<li>\n<p>Added a new section for <a href=\"https://fmhy.net/reading#textbooks\" rel=\"noreferrer\" target=\"_blank\">Textbooks</a>.</p>\n</li>\n<li>\n<p>Added a new section for <a href=\"https://fmhy.net/file-tools#file-info-metadata\" rel=\"noreferrer\" target=\"_blank\">File Info / Metadata</a>.</p>\n</li>\n<li>\n<p>Merged Linux + Mac Torrent Clients into the <a href=\"https://fmhy.net/torrenting#torrent-clients\" rel=\"noreferrer\" target=\"_blank\">Main Section</a>, and added labels + platform icons. <a href=\"https://i.ibb.co/fV1zdt44/Untitled.jpg\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a> / <a href=\"https://i.imgur.com/THLiMqL.jpeg\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Re-ordered <a href=\"https://fmhy.net/reading#light-novels\" rel=\"noreferrer\" target=\"_blank\">Light Novel Sites</a> based on library size and UI, added labels, removed small libraries, and starred two that stood out (NovelCool + WuxiaClick). <a href=\"https://i.ibb.co/DSRfsrM/Untitled.png\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a> / <a href=\"https://i.imgur.com/IMRUQoo.png\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Debloated the <a href=\"https://fmhy.net/audio#curated-recommendations\" rel=\"noreferrer\" target=\"_blank\">Audio Recommendation</a> section + added a new section for <a href=\"https://fmhy.net/audio#song-artist-discovery\" rel=\"noreferrer\" target=\"_blank\">Song / Artist Discovery</a>. <a href=\"https://i.ibb.co/zTDNZgr9/Untitled.png\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a> / <a href=\"https://i.imgur.com/V6h0mQx.png\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Added Labels to both <a href=\"https://fmhy.net/linux-macos#cli-cheat-sheets\" rel=\"noreferrer\" target=\"_blank\">Linux Cheat Sheets</a> + <a href=\"https://fmhy.net/linux-macos#linux-distros\" rel=\"noreferrer\" target=\"_blank\">Linux Distros</a>. Thank you to <a href=\"https://github.com/fmhy/edit/commit/9a9cd6dd47027ac63370b453ec86a943cdc0b9d6\" rel=\"noreferrer\" target=\"_blank\">helxop</a>. <a href=\"https://ibb.co/gMD8mKbw\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a> / <a href=\"https://i.imgur.com/hqqLsCB.png\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Revamped our <a href=\"https://i.ibb.co/JjpzRXL7/image.png\" rel=\"noreferrer\" target=\"_blank\">Feedback Window</a> / <a href=\"https://i.imgur.com/nODLPVM.png\" rel=\"noreferrer\" target=\"_blank\">2</a> to try to improve its look. Thank you to Samidy for doing this.</p>\n</li>\n<li>\n<p>Added a backup / frontend for our <a href=\"https://fmhy-grading.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">Grading Page</a>, and moved both our <a href=\"https://fmhy.net/other/backups\" rel=\"noreferrer\" target=\"_blank\">Backup</a> + <a href=\"https://fmhy.net/other/FAQ\" rel=\"noreferrer\" target=\"_blank\">FAQ</a> pages to our website instead of Reddit/GitHub. Thank you to Roi Goat + Samidy for doing this.</p>\n</li>\n<li>\n<p>Improved our <a href=\"https://github.com/fmhy/edit/pull/4386\" rel=\"noreferrer\" target=\"_blank\">theme handler</a>, which will help us more easily switch or add themes in the future (like Halloween, Christmas, etc.). Thank you to Land for doing this.</p>\n</li>\n<li>\n<p>Added 360 Total Security to unsafe sites. If you install any of their apps, it will keep giving the user popups to install their &quot;toolbox,&quot; or will install it without consent if you use clean, repair, or optimize options. Once installed, the toolbox will then <a href=\"https://en.wikipedia.org/wiki/Criticism_of_Qihoo_360#Malicious_promotion\" rel=\"noreferrer\" target=\"_blank\">modify your default apps</a> (such as your browser) and switch them all to 360 options.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#download-sites\" rel=\"noreferrer\" target=\"_blank\">DDLBase</a> in Video Download. Has both 4K + 1080p content, uses only fast hosts, and has a huge library.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#anime-streaming\" rel=\"noreferrer\" target=\"_blank\">Anime Realms</a> in Anime Streaming. Good sources, nice UI, auto-next, custom player, and multi-language support.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/audio#telegram-bots\" rel=\"noreferrer\" target=\"_blank\">Music Hunters</a> in Telegram Audio Bots. Supports lots of sites, has good quality, and is easy to use.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#download-games\" rel=\"noreferrer\" target=\"_blank\">AstralGames</a> in Game Downloading. Big library, fast hosts, pre-installs, and allows requests.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#manga\" rel=\"noreferrer\" target=\"_blank\">Comix</a> in Manga Sites. Big library, allows uploads, nice UI, and will be adding more languages soon.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/audio#streaming-sites\" rel=\"noreferrer\" target=\"_blank\">Monochrome</a> in Audio Streaming. No sign-up needed, multi-API integrations, Last.fm integration, customizable, and a big library.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video\" rel=\"noreferrer\" target=\"_blank\">Rive, Aether, Willow, and FlyX</a> in Streaming. These have nice custom players, lots of features, fast streams, and impressive UIs.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#live-sports\" rel=\"noreferrer\" target=\"_blank\">StreamSports99</a> in Live Sports. Has fast servers and a solid UI.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/social-media-tools#twitter-x-customization\" rel=\"noreferrer\" target=\"_blank\">Control Panel for Twitter</a> in Twitter/X Customization. Adds a lot of extra features, lets you hide sections you don't use, improves UI, and much more.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#file-hosts\" rel=\"noreferrer\" target=\"_blank\">Rootz</a> in File Hosts. Good speed, 25GB per file, and lasts 15 days after the last download.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#image-generation\" rel=\"noreferrer\" target=\"_blank\">PigenAI</a> in Image Gen. Has unlimited Imagen 4, Qwen, and Nano Banana.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/mobile#ios-streaming\" rel=\"noreferrer\" target=\"_blank\">Nuvio</a> in iOS Streaming. This uses Stremio plugins and has fewer limits than the &quot;Lite&quot; version currently available on iOS.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/mobile#android-torrenting\" rel=\"noreferrer\" target=\"_blank\">Flud</a> in Android Torrenting. Allows binding, is well-maintained, and ads can easily be blocked via DNS.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/misc#physical-health\" rel=\"noreferrer\" target=\"_blank\">Sleeping Guide</a> in Physical Health. A sleep hygiene/science guide; seems to be well-received so far, curated by Dan.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#remakes-recreations\" rel=\"noreferrer\" target=\"_blank\">OpenMW</a> in Remakes / Recreations. Complete ground-up reimplementation of Morrowind, <a href=\"https://wiki.openmw.org/index.php?title=Bethesda_Emails\" rel=\"noreferrer\" target=\"_blank\">approved by Bethesda</a> themselves.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#remakes-recreations\" rel=\"noreferrer\" target=\"_blank\">Clone Hero</a> in Remakes / Recreations. Feature-rich Guitar Hero clone, thousands of songs + playlists, no lag, works with all guitar controllers, and supports MIDI drum kits.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#party-multiplayer\" rel=\"noreferrer\" target=\"_blank\">Gidd</a> in Multiplayer Browser Games. Has quality versions of things like Monopoly, GeoGuessr, card games, etc.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/system-tools#virtual-machines\" rel=\"noreferrer\" target=\"_blank\">QEMU</a> in Virtual Machines. Performs well on non-Windows systems; best used with Virt-Manager or Vagrantup.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#file-backup\" rel=\"noreferrer\" target=\"_blank\">Restic</a> in File Backup. Easy to use, multi-platform, and performed well in benchmarks.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#coding-ais\" rel=\"noreferrer\" target=\"_blank\">Gemini CLI</a> in Coding AIs. This seems to have some of the best limits as of now.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>\n<p>Removed CrocDB as they've been <a href=\"https://i.ibb.co/RpDvJFgf/image.png\" rel=\"noreferrer\" target=\"_blank\">hit by DMCA</a> / <a href=\"https://i.imgur.com/iSV0MHq.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Removed the IcebergCharts website as they've been <a href=\"https://i.ibb.co/XxMMwqDk/image.png\" rel=\"noreferrer\" target=\"_blank\">hacked a few times now</a> / <a href=\"https://i.imgur.com/MkvElvr.png\" rel=\"noreferrer\" target=\"_blank\">2</a>, and can't figure out why it's happening. We may re-add it in the future if they figure it out. Note that we'll keep the subreddit in its place for now.</p>\n</li>\n<li>\n<p>Removed CanvasBlocker as it's Firefox-only, and FF has this built-in now; it can also apparently make fingerprinting worse in some cases and isn't maintained well anymore.</p>\n</li>\n<li>\n<p>Removed FTV and WAC from Live Sports as both are now gone.</p>\n</li>\n<li>\n<p>Removed Foxified as it's suddenly <a href=\"https://i.ibb.co/4RzPsQ8Z/image.png\" rel=\"noreferrer\" target=\"_blank\">filling results with ads</a> / <a href=\"https://i.imgur.com/AjBMdfX.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Unstarred OnTheSpot as it will be losing Spotify support soon.</p>\n</li>\n<li>\n<p>Unstarred Windsurf in Coding AIs as its limits and free models aren't as good anymore.</p>\n</li>\n</ul>",
+      "author": "",
+      "published_date": "2026-01-01T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 1142,
+      "reading_time": 5,
+      "created_at": "2026-02-08T14:28:41.858469+00:00",
+      "updated_at": "2026-02-08T14:28:41.858471+00:00"
+    },
+    {
+      "id": "01819a1037aa4f7582921241c6110c7a",
+      "url": "https://derekyan.com/ma-book/",
+      "title": "Show HN: It took 4 years to sell my startup. I wrote a book about it",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46888258\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-04T16:56:11+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-08T14:28:39.276224+00:00",
+      "updated_at": "2026-02-08T14:28:39.276226+00:00"
+    },
+    {
+      "id": "eff1284b55d06823d79cd335693a3374",
+      "url": "https://apps.apple.com/us/app/festiveo-music-festivals/id6755355854",
+      "title": "Show HN: I built a festival tracker that matches lineups to your music library",
+      "content": "<p>Hi HN,<p>I built this app because I was tired of manually checking festival lineups against my music library every summer. I wanted a way to instantly see which festivals had the highest 'match' density for my specific taste.<p>Why I built this:<p>I missed one of my favorite artists at a festival last year simply because I didn't recognize their name on a crowded poster. I realized that with Apple Music/Spotify APIs, this discovery process should be automated.<p>Key Features:<p>Library Matching:\nIt scans your library and ranks upcoming festivals by how many artists you actually follow.<p>Apple Sync: \nSeamlessly imports your top artists and creates custom schedules.<p>Offline-First:\nSince festival cell service is notoriously terrible, I focused on a robust local caching system so your schedule and maps work without a signal.<p>Technical Details:<p>Stack:\nReact Native, MongoDB, AWS.<p>Data:\nI built a custom aggregator that scrapes and normalizes lineup data from various sources to handle the 'entity resolution' problem (e.g., ensuring 'Artist A' is the same person across different posters).<p>Privacy:\nAll music library analysis is performed locally on-device where possible.\nI'd love to hear your thoughts on the UI or any technical questions about the matching logic. I\u2019m also looking for feedback on how to improve the schedule-sharing feature for groups!<p>How do you find concerts/music festivals that match your taste? How many festivals you join per year?<p>Cheers!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46934190\">https://news.ycombinator.com/item?id=46934190</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "kirillstyopkin",
+      "published_date": "2026-02-08T13:53:16+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 231,
+      "reading_time": 1,
+      "created_at": "2026-02-08T14:28:38.166419+00:00",
+      "updated_at": "2026-02-08T14:28:38.166426+00:00"
+    },
     {
       "id": "978e7b6aba8fc6f43fea89b9f3a72c39",
       "url": "https://www.sciencedirect.com/science/article/pii/S0006899326000466?dgcid=rss_sd_all",
@@ -313,54 +361,6 @@
         "processed_at": "2026-02-08T12:37:52.201589+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "bd820cf1d223e9a262568f311b1d3851",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926000972?dgcid=rss_sd_all",
-      "title": "Influence of teacher-student closeness on interpersonal emotion regulation in graduate students: Evidence from behavioral and hyper-scanning studies",
-      "content": "<p>Publication date: March 2026</p><p><b>Source:</b> NeuroImage, Volume 328</p><p>Author(s): Wenmei Sun, Xubo Liu, Sasa Ding, Daixin He, Qiaoyu Wu, Shang Li</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 19,
-      "reading_time": 1,
-      "created_at": "2026-02-08T10:57:29.934519+00:00",
-      "updated_at": "2026-02-08T10:57:29.934520+00:00"
-    },
-    {
-      "id": "e8daea8aa53c6ecc41888ffd760eaa89",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926000856?dgcid=rss_sd_all",
-      "title": "Morphological and microstructural brain changes induced by cognitive training among non-demented participants: a systematic review and meta-analysis",
-      "content": "<p>Publication date: March 2026</p><p><b>Source:</b> NeuroImage, Volume 328</p><p>Author(s): Eszter Radics, T\u00edmea L\u00e1z\u00e1r, Marah Qussous, Szilvia Kiss-Dala, Marie Anne Engh, P\u00e9ter Hegyi, Szabolcs K\u00e9ri, Andr\u00e1s Attila Horv\u00e1th</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 25,
-      "reading_time": 1,
-      "created_at": "2026-02-08T10:57:29.934500+00:00",
-      "updated_at": "2026-02-08T10:57:29.934501+00:00"
-    },
-    {
-      "id": "9cd0254c39a5d1cba2e80b8d5aa4c1e8",
-      "url": "https://www.sciencedirect.com/science/article/pii/S105381192600100X?dgcid=rss_sd_all",
-      "title": "Toward a better measure of functional laterality: Comparing and refining laterality indices in resting-state functional connectivity",
-      "content": "<p>Publication date: March 2026</p><p><b>Source:</b> NeuroImage, Volume 328</p><p>Author(s): Taeyoung Lee, Kyung Hwan Kim, Seo Yeong Ha, Hang Joon Jo</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 18,
-      "reading_time": 1,
-      "created_at": "2026-02-08T10:57:29.934476+00:00",
-      "updated_at": "2026-02-08T10:57:29.934478+00:00"
     }
   ]
 }
