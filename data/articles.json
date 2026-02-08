@@ -7,13 +7,17 @@
     "author": "",
     "published_date": null,
     "source": "Brain Research",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 23,
     "reading_time": 1,
     "created_at": "2026-02-08T13:47:14.911119+00:00",
-    "updated_at": "2026-02-08T13:47:14.911120+00:00"
+    "updated_at": "2026-02-08T14:23:12.091091+00:00",
+    "metadata": {
+      "processed_at": "2026-02-08T14:23:12.091102+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "b9c7aded3bed7f716585f48dba19a166",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": "2026-02-04T14:57:38+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-02-08T13:46:32.676823+00:00",
-    "updated_at": "2026-02-08T13:46:32.676825+00:00"
+    "updated_at": "2026-02-08T14:23:12.091106+00:00",
+    "metadata": {
+      "processed_at": "2026-02-08T14:23:12.091107+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "d9099297f79bc14e9b6dc31987b67f89",
@@ -39,29 +47,37 @@
     "author": "",
     "published_date": "2026-02-08T12:00:02+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-02-08T13:46:32.676689+00:00",
-    "updated_at": "2026-02-08T13:46:32.676691+00:00"
+    "updated_at": "2026-02-08T14:23:12.091110+00:00",
+    "metadata": {
+      "processed_at": "2026-02-08T14:23:12.091111+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "d9099297f79bc14e9b6dc31987b67f89",
     "url": "https://cinegraphs.ai/",
     "title": "Show HN: Fine-tuned Qwen2.5-7B on 100 films for probabilistic story graphs",
-    "content": "<p>Hi HN, I'm a computer systems engineering student in Mexico who switched from film school. I built CineGraphs because my filmmaker friends and I kept hitting the same wall\u2014we'd have a vague idea for a film but no structured way to explore where it could go. Every AI writing tool we tried output generic, formulaic slop. I didn't want to build another ChatGPT wrapper, so I went a different route.<p>The idea is simple: you input a rough concept, and the tool generates branching narrative paths visualized as a graph. You can sculpt those branches into a structured screenplay format and export to Fountain for use in professional screenwriting software.<p>Most AI writing tools are trained on generic internet text, which is why they output generic results. I wanted something that understood actual cinematic storytelling\u2014not plot summaries or Wikipedia synopses, but the actual structural DNA of films. So I spent a month curating 100 films I consider high-quality cinema. Not just popular films, but works with distinctive narrative structures: Godard's jump cuts and essay-film digressions, Kurosawa's parallel character arcs, Brakhage's non-linear visual poetry, Tarkovsky's slow-burn temporal structures. The selection was deliberately eclectic because I wanted the model to learn that \"story\" can mean many things.<p>Getting useful training data from films is harder than it sounds. I built a 1000+ line Python pipeline using Qwen3-VL to analyze each film with subtitles enabled. The pipeline extracts scene-level narrative beats, character relationships and how they evolve, thematic threads, and dialogue patterns. The tricky part was getting Qwen3-VL to understand cinematic structure rather than just summarizing plot. I had to iterate on the prompts extensively to get it to identify things like \"this scene functions as a mirror to the opening\" or \"this character's arc inverts the protagonist's.\" That took weeks and I'm still not fully satisfied with it, but it's good enough to produce useful training data.<p>From those extractions I generated a 10K example dataset of prompt-to-branching-narrative pairs, then fine-tuned Qwen2.5-7B-Instruct with a LoRA optimized for probabilistic story branching. The LoRA handles the graph generation\u2014exploring possible narrative directions\u2014while the full 7B model generates the actual technical screenplay format when you export. I chose the 7B model because I wanted something that could run affordably at scale while still being capable enough for nuanced generation. The whole thing is served on a single 4090 GPU using vLLM. The frontend uses React Flow for the graph visualization. The key insight was that screenwriting is fundamentally about making choices\u2014what if the character goes left instead of right?\u2014but most writing tools force you into a linear document too early. The graph structure lets you explore multiple paths before committing, which matches how writers actually think in early development.<p>The biggest surprise was how much the film selection mattered. Early versions trained on more mainstream films produced much more formulaic outputs. Adding experimental and international cinema dramatically improved the variety and interestingness of the generations. The model seemed to learn that narrative structure is a design space, not a formula.<p>We've been using it ourselves to break through second-act problems\u2014when you know where you want to end up but can't figure out how to get there. The branching format forces you to think in possibilities rather than committing too early.<p>You can try it at <a href=\"https://cinegraphs.ai/\" rel=\"nofollow\">https://cinegraphs.ai/</a> \u2014 no signup required to test it out. You get a full project with up to 50 branches without registering, though you'll need to create an account to save it. Registered users get 3 free projects. I'd love feedback on whether the generation quality feels meaningfully different from generic AI tools, and whether the graph interface adds value or just friction.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46933515\">https://news.ycombinator.com/item?id=46933515</a></p>\n<p>Points: 16</p>\n<p># Comments: 3</p>",
-    "author": "graphpilled",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46933515\">Comments</a>",
+    "author": "",
     "published_date": "2026-02-08T12:00:02+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 617,
-    "reading_time": 3,
-    "created_at": "2026-02-08T13:46:31.332028+00:00",
-    "updated_at": "2026-02-08T13:46:31.332037+00:00"
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-08T13:46:32.676689+00:00",
+    "updated_at": "2026-02-08T14:23:12.091110+00:00",
+    "metadata": {
+      "processed_at": "2026-02-08T14:23:12.091111+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "c5a88c468ea05c85bcfbcd584ab815db",
@@ -71,13 +87,17 @@
     "author": "/u/SeaHighlight2262",
     "published_date": "2026-02-08T11:47:12+00:00",
     "source": "Reddit Python",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 415,
     "reading_time": 2,
     "created_at": "2026-02-08T12:52:54.167904+00:00",
-    "updated_at": "2026-02-08T12:52:54.167905+00:00"
+    "updated_at": "2026-02-08T14:23:12.091117+00:00",
+    "metadata": {
+      "processed_at": "2026-02-08T14:23:12.091119+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "6e5cc4438cc3923081af02366ae1835f",
