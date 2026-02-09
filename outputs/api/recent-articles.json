@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-09T13:54:59.155645+00:00",
+  "last_updated": "2026-02-09T14:47:48.766962+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "",
       "published_date": null,
       "source": "Neuroimage",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 15,
       "reading_time": 1,
       "created_at": "2026-02-09T13:54:31.799856+00:00",
-      "updated_at": "2026-02-09T13:54:31.799858+00:00"
+      "updated_at": "2026-02-09T14:47:48.657679+00:00",
+      "metadata": {
+        "processed_at": "2026-02-09T14:47:48.657688+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "e5a834cb87588deb41e37d4a1a34fb3a",
@@ -26,13 +30,17 @@
       "author": "",
       "published_date": null,
       "source": "Neuroimage",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 17,
       "reading_time": 1,
       "created_at": "2026-02-09T13:54:31.799800+00:00",
-      "updated_at": "2026-02-09T13:54:31.799811+00:00"
+      "updated_at": "2026-02-09T14:47:48.657692+00:00",
+      "metadata": {
+        "processed_at": "2026-02-09T14:47:48.657694+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "62e88471f3db4c81eef82f8e325ba608",
@@ -42,13 +50,17 @@
       "author": "/u/Raion17",
       "published_date": "2026-02-09T04:25:00+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 201,
       "reading_time": 1,
       "created_at": "2026-02-09T13:53:54.113747+00:00",
-      "updated_at": "2026-02-09T13:53:54.113749+00:00"
+      "updated_at": "2026-02-09T14:47:48.657696+00:00",
+      "metadata": {
+        "processed_at": "2026-02-09T14:47:48.657698+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "19a88d471e7e4cea2e7802c74e6c2943",
@@ -58,13 +70,17 @@
       "author": "",
       "published_date": "2026-02-09T11:30:06+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-02-09T13:53:52.897657+00:00",
-      "updated_at": "2026-02-09T13:53:52.897659+00:00"
+      "updated_at": "2026-02-09T14:47:48.657700+00:00",
+      "metadata": {
+        "processed_at": "2026-02-09T14:47:48.657702+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "23048ae0f156ceeca1223797585e7237",
@@ -74,13 +90,17 @@
       "author": "",
       "published_date": "2026-02-09T11:53:13+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-02-09T13:53:52.897618+00:00",
-      "updated_at": "2026-02-09T13:53:52.897619+00:00"
+      "updated_at": "2026-02-09T14:47:48.657704+00:00",
+      "metadata": {
+        "processed_at": "2026-02-09T14:47:48.657706+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "99853f88fd2482412fb6b30363b9037b",
@@ -118,33 +138,41 @@
       "id": "19a88d471e7e4cea2e7802c74e6c2943",
       "url": "https://github.com/vhscom/private-landing",
       "title": "Show HN: Minimal NIST/OWASP-compliant auth implementation for Cloudflare Workers",
-      "content": "<p>This is an educational reference implementation showing how to build reasonably secure, standards-compliant authentication from first principles on Cloudflare Workers.<p>Stack: Hono, Turso (libSQL), PBKDF2-SHA384 + normalization + common-password checks, JWT access + refresh tokens with revocation support, HTTP-only SameSite cookies, device tracking.<p>It's deliberately minimal \u2014 no OAuth, no passkeys, no magic links, no rate limiting \u2014 because the goal is clarity and auditability.<p>I wrote it mainly to deeply understand edge-runtime auth constraints and to have a clean Apache-2.0 example that follows NIST SP 800-63B / SP 800-132 and OWASP guidance.<p>For production I'd almost always reach for Better Auth instead (<a href=\"https://www.better-auth.com\">https://www.better-auth.com</a>) \u2014 this repo is not trying to compete with it.<p>Live demo: <a href=\"https://private-landing.vhsdev.workers.dev/\" rel=\"nofollow\">https://private-landing.vhsdev.workers.dev/</a><p>Repo: <a href=\"https://github.com/vhscom/private-landing\" rel=\"nofollow\">https://github.com/vhscom/private-landing</a><p>Happy to answer questions about the crypto choices, the refresh token revocation pattern, Turso schema, constant-time comparison, unicode pitfalls, etc.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46944084\">https://news.ycombinator.com/item?id=46944084</a></p>\n<p>Points: 13</p>\n<p># Comments: 4</p>",
-      "author": "vhsdev",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46944084\">Comments</a>",
+      "author": "",
       "published_date": "2026-02-09T11:30:06+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 148,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-02-09T13:53:51.495876+00:00",
-      "updated_at": "2026-02-09T13:53:51.495878+00:00"
+      "created_at": "2026-02-09T13:53:52.897657+00:00",
+      "updated_at": "2026-02-09T14:47:48.657700+00:00",
+      "metadata": {
+        "processed_at": "2026-02-09T14:47:48.657702+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "23048ae0f156ceeca1223797585e7237",
       "url": "https://www.theregister.com/2026/02/09/matrix_element_secure_chat/",
       "title": "Matrix messaging gaining ground in government IT",
-      "content": "<p>Article URL: <a href=\"https://www.theregister.com/2026/02/09/matrix_element_secure_chat/\">https://www.theregister.com/2026/02/09/matrix_element_secure_chat/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46944245\">https://news.ycombinator.com/item?id=46944245</a></p>\n<p>Points: 63</p>\n<p># Comments: 39</p>",
-      "author": "rbanffy",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46944245\">Comments</a>",
+      "author": "",
       "published_date": "2026-02-09T11:53:13+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-02-09T13:53:51.495840+00:00",
-      "updated_at": "2026-02-09T13:53:51.495842+00:00"
+      "created_at": "2026-02-09T13:53:52.897618+00:00",
+      "updated_at": "2026-02-09T14:47:48.657704+00:00",
+      "metadata": {
+        "processed_at": "2026-02-09T14:47:48.657706+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "ef3b118f434f5d52a82d013dee3d2e42",
