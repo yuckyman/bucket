@@ -1,5 +1,53 @@
 [
   {
+    "id": "e4c8ef8c2149a70ff39331dbc036aecb",
+    "url": "https://www.reddit.com/r/Python/comments/1r3loue/i_released_djangotortoiseobjects_tool_to_have_orm/",
+    "title": "I released django-tortoise-objects, tool to have ORM in your ORM",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>When I made a post about the Tortoise-ORM 1.0 release a few days ago, there was some interest in the comments about making it work within Django, to use as an ORM in an async context.</p> <p>Although I'm still not sure about the advantages of such an approach, I decided it would be a fun project to try with AI coding, to see if it's really feasible and if there are any pros.</p> <p>So here we are: <a href=\"https://github.com/tortoise/django-tortoise-objects\">https://github.com/tortoise/django-tortoise-objects</a></p> <h1>What My Project Does</h1> <p>This project basically gives you a simple way to init Tortoise and it injects a Tortoise model into your Django model, enabling you to query it seamlessly:</p> <pre><code>articles = await Article.tortoise_objects.filter(published=True) </code></pre> <p>While I was at it, I also added a <a href=\"http://manage.py\">manage.py</a> command that allows you to export your Django models to Tortoise format, if you want to reuse them somewhere.</p> <p>I conducted some benchmarks to see if there are any real advantages, and they showed that in most cases it gives a small boost to performance, so at least there's that.</p> <h1>Target Audience</h1> <p>Please don't take this project too seriously \u2014 for me it was a fun little experiment that also helped me identify one existing performance issue in Tortoise. That said, if you're working with Django in an async context and want to try a fully async ORM alongside it, feel free to give it a spin.</p> <h1>Comparison</h1> <p>There is an existing project with a similar goal \u2014 <a href=\"https://github.com/KhDenys/django-tortoise\">django-tortoise</a> \u2014 but it appears to be unmaintained and doesn't provide clear entrypoints or a compelling reason to use it. In contrast, django-tortoise-objects offers a straightforward setup, automatic model injection, and a Django management command for exporting models to Tortoise format.</p> <p>What do you think? Do you have any ideas how this project could be more useful to you? Please share in the comments!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/pehibah\"> /u/pehibah </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r3loue/i_released_djangotortoiseobjects_tool_to_have_orm/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r3loue/i_released_djangotortoiseobjects_tool_to_have_orm/\">[comments]</a></span>",
+    "author": "/u/pehibah",
+    "published_date": "2026-02-13T10:25:00+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 330,
+    "reading_time": 1,
+    "created_at": "2026-02-13T19:23:41.708691+00:00",
+    "updated_at": "2026-02-13T19:23:41.708693+00:00"
+  },
+  {
+    "id": "62e042e6d3455f6d27ebdb23785dbe3b",
+    "url": "https://github.com/nearai/ironclaw",
+    "title": "IronClaw: a Rust-based clawd that runs tools in isolated WASM sandboxes",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47004312\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-13T16:10:07+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-13T19:23:40.408966+00:00",
+    "updated_at": "2026-02-13T19:23:40.408968+00:00"
+  },
+  {
+    "id": "62e042e6d3455f6d27ebdb23785dbe3b",
+    "url": "https://github.com/nearai/ironclaw",
+    "title": "IronClaw: a Rust-based clawd that runs tools in isolated WASM sandboxes",
+    "content": "<p>Article URL: <a href=\"https://github.com/nearai/ironclaw\">https://github.com/nearai/ironclaw</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47004312\">https://news.ycombinator.com/item?id=47004312</a></p>\n<p>Points: 44</p>\n<p># Comments: 15</p>",
+    "author": "dawg91",
+    "published_date": "2026-02-13T16:10:07+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-02-13T19:23:39.219683+00:00",
+    "updated_at": "2026-02-13T19:23:39.219685+00:00"
+  },
+  {
     "id": "33d3d8b2b399085bd2366fd605eeb339",
     "url": "http://ieeexplore.ieee.org/document/11162721",
     "title": "Hill-Type Models of Skeletal Muscle and Neuromuscular Actuators: A Systematic Review",
@@ -16880,66 +16928,6 @@
     "updated_at": "2026-02-09T12:57:58.348454+00:00",
     "metadata": {
       "processed_at": "2026-02-09T12:57:58.348464+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "4c40a0958de0e65854d4b486664f5b2e",
-    "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1763727",
-    "title": "Explainable AI uncovers novel EEG microstate candidate neurophysiological markers for autism spectrum disorder",
-    "content": "BackgroundAutism spectrum disorder (ASD) is a complex neurodevelopmental condition characterized by atypical brain connectivity and impaired cognitive flexibility. Electroencephalography (EEG) based microstate analysis provides insight into the rapid temporal dynamics of brain networks, offering potential biomarkers for ASD.ObjectiveThis study proposes an interpretable classification framework for ASD diagnosis using multidomain microstate-informed features derived from EEG, integrating temporal, spectral, complexity-based, and higher-order metrics to comprehensively characterize brain dynamics.MethodsResting state EEG data from 56 participants (28 with ASD and 28 neurotypical controls; age range: 18\u201368 years) from the publicly available Sheffield dataset were preprocessed and segmented into microstates using a data-driven clustering approach. From these microstate sequences, we extracted a rich set of features across four domains: (i) temporal, (ii) spectral, (iii) temporal complexity, and (iv) higher-order metrics. Multiple classifiers were evaluated using 10-fold cross-validation, with hyperparameter tuning via a randomized search.ResultsAmong all classifiers, XGBoost achieved the highest performance, with an accuracy of 80.87% when utilizing the complete multidomain feature set, significantly outperforming single domain models. Explainable AI analysis using SHapley Additive exPlanations (SHAP) identified the top 20 discriminative features, including fractional occupancy derivative for microstate 3, delta-band power in states 1 and 3, and mean inter-transition interval. Retraining XGBoost on these SHAP-selected features yielded 80.34% accuracy, confirming their robustness as potential biomarkers. Statistical validation via Mann\u2013Whitney U-tests and effect size measures further established their significance.ConclusionThe findings from the study demonstrated that microstate-informed features capturing temporal instability, transition unpredictability, and spectral alterations serve as clinically relevant and interpretable candidate neurophysiological markers of ASD, offering translational potential for objective diagnosis, treatment monitoring, and personalized interventions.",
-    "author": "Gowsalya M.",
-    "published_date": "2026-02-04T00:00:00+00:00",
-    "source": "Frontiers Computational Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 261,
-    "reading_time": 1,
-    "created_at": "2026-02-09T12:04:30.693153+00:00",
-    "updated_at": "2026-02-09T12:57:58.348468+00:00",
-    "metadata": {
-      "processed_at": "2026-02-09T12:57:58.348470+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "38d5a82a068efcdf800f5f15482a33c6",
-    "url": "https://www.durham.ac.uk/news-events/latest-news/2026/01/roman-industrial-hub-discovered-on-banks-of-river-wear-/",
-    "title": "Roman industrial hub discovered on banks of River Wear",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46899900\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-05T14:20:38+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-09T12:03:59.779291+00:00",
-    "updated_at": "2026-02-09T12:57:58.348473+00:00",
-    "metadata": {
-      "processed_at": "2026-02-09T12:57:58.348475+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "c83e8b2332fc4fe29e9a7722d946774a",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.02.05.704069v1?rss=1",
-    "title": "MV-ComBat and MV-CovBat: Multivariate Frameworks for Joint Harmonization of Multi-Metric Neuroimaging Data",
-    "content": "Aggregating neuroimaging data across sites and studies is increasingly common, yet site- and scanner-related batch effects can obscure meaningful biological variation and introduce spurious associations. Although ComBat and its extensions are widely used, they are primarily designed for single-metric (univariate) harmonization. In practice, neuroimaging studies often involve multiple biologically coupled metrics (e.g., cortical thickness, surface area, and gray-matter volume) measured across multiple features (e.g., regional values), with shared covariance structure both within and across metrics. Applying univariate ComBat independently to each metric ignores these dependencies and can leave residual batch effects in cross-metric covariance. Using data from the NIH Acute to Chronic Pain Signatures (A2CPS) program, we show that batch effects occur not only in means and variances but also in covariance across cortical regions and metrics--relationships that univariate ComBat does not fully remove. We propose MV-ComBat, a multivariate extension of ComBat that jointly harmonizes multiple metrics by borrowing strength across them. Both empirical Bayes (EB) and Bayesian Markov Chain Monte Carlo (MCMC) implementations of MV-ComBat effectively reduce batch effects. In our experiments, EB is more robust to measurement error, whereas MCMC more accurately recovers cross-metric correlations when priors are well specified. Recognizing that batch effects can also affect feature-level covariance, CovBat was recently introduced as an extension of ComBat that harmonizes both first- and second-order moments across sites. We extend CovBat to the multivariate framework as MV-CovBat, which performs a second-stage latent-space harmonization to address covariance-related batch effects across features and metrics. Simulations confirm that MV-ComBat improves correlation recovery and biological signal preservation relative to univariate ComBat, particularly for moderate-to-strong effects, and that MV-CovBat further improves separation of true biological variation from batch effects when independence assumptions are violated. Together, these methods provide a flexible and unified framework for harmonizing complex, multi-metric neuroimaging data in large-scale, multi-site studies.",
-    "author": "Ren, Z., Sadil, P., Lindquist, M.",
-    "published_date": "2026-02-09T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 299,
-    "reading_time": 1,
-    "created_at": "2026-02-09T11:25:57.352226+00:00",
-    "updated_at": "2026-02-09T12:57:58.348477+00:00",
-    "metadata": {
-      "processed_at": "2026-02-09T12:57:58.348479+00:00",
       "processing_method": "github_actions"
     }
   }
