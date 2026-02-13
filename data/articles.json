@@ -1,5 +1,53 @@
 [
   {
+    "id": "8e7940e4a98eacc3ec3c0213e65b1560",
+    "url": "https://www.reddit.com/r/Python/comments/1r2tdmq/building_a_dlnaupnp_local_media_server_from/",
+    "title": "Building a DLNA/UPnP Local Media Server from Scratch in Python",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I\u2019ve been working on a small side project to better understand how DLNA and UPnP actually work at the protocol level.</p> <p>It\u2019s a lightweight media server written in Python that implements SSDP discovery, a basic UPnP ContentDirectory service, event subscriptions (<code>SUBSCRIBE</code> / <code>NOTIFY</code>), HTTP range streaming, and optional FFmpeg-based transcoding.</p> <p>The main goal was educational - implementing the networking and protocol stack directly instead of relying on an existing framework - but it\u2019s functional enough to stream local video files to DLNA clients on a home network.</p> <p>It\u2019s not meant to compete with Plex/Jellyfin or be production-grade. There\u2019s no metadata scraping, no adaptive bitrate streaming, and the focus is strictly on the protocol layer.</p> <p>If anyone is interested in networking internals or UPnP service implementation in Python, I\u2019d appreciate feedback.</p> <p><a href=\"https://github.com/EdenGold98/GoldMedia\">GitHub repository</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Reasonable_Run_6724\"> /u/Reasonable_Run_6724 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r2tdmq/building_a_dlnaupnp_local_media_server_from/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r2tdmq/building_a_dlnaupnp_local_media_server_from/\">[comments]</a></span>",
+    "author": "/u/Reasonable_Run_6724",
+    "published_date": "2026-02-12T13:26:34+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 154,
+    "reading_time": 1,
+    "created_at": "2026-02-13T09:10:38.997004+00:00",
+    "updated_at": "2026-02-13T09:10:38.997006+00:00"
+  },
+  {
+    "id": "a362eefca8182e023b69c5bcdfa0111e",
+    "url": "https://github.com/minio/minio/commit/7aac2a2c5b7c882e68c1ce017d8256be2feea27f",
+    "title": "MinIO repository is no longer maintained",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47000041\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-13T07:46:03+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-13T09:10:37.784167+00:00",
+    "updated_at": "2026-02-13T09:10:37.784171+00:00"
+  },
+  {
+    "id": "a362eefca8182e023b69c5bcdfa0111e",
+    "url": "https://github.com/minio/minio/commit/7aac2a2c5b7c882e68c1ce017d8256be2feea27f",
+    "title": "MinIO repository is no longer maintained",
+    "content": "<p>Article URL: <a href=\"https://github.com/minio/minio/commit/7aac2a2c5b7c882e68c1ce017d8256be2feea27f\">https://github.com/minio/minio/commit/7aac2a2c5b7c882e68c1ce017d8256be2feea27f</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47000041\">https://news.ycombinator.com/item?id=47000041</a></p>\n<p>Points: 56</p>\n<p># Comments: 15</p>",
+    "author": "psvmcc",
+    "published_date": "2026-02-13T07:46:03+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-02-13T09:10:36.391708+00:00",
+    "updated_at": "2026-02-13T09:10:36.391715+00:00"
+  },
+  {
     "id": "6b5b00d23d1f2254aadd02c7b0eed4c3",
     "url": "https://www.nature.com/articles/s41380-026-03483-w",
     "title": "Distinct roles for MNK1 and MNK2 in social and cognitive behavior through kinase-specific regulation of the synaptic proteome and phosphoproteome",
@@ -16882,57 +16930,5 @@
       "processed_at": "2026-02-09T04:23:12.086029+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "a4b7c2e2296f9dbf52ae896ef55af13c",
-    "url": "https://www.pa3fwm.nl/technotes/tn13a.html",
-    "title": "Quartz Crystals",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46932444\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-08T08:26:36+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-09T02:24:15.678804+00:00",
-    "updated_at": "2026-02-09T04:23:12.086032+00:00",
-    "metadata": {
-      "processed_at": "2026-02-09T04:23:12.086033+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "2c7f101c61499deb4967f9313defc5e2",
-    "url": "https://sandboxspirit.com/blog/art-of-roads-in-games/",
-    "title": "Art of Roads in Games",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46938511\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-08T21:05:24+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-09T02:24:15.678746+00:00",
-    "updated_at": "2026-02-09T02:24:15.678748+00:00"
-  },
-  {
-    "id": "2c7f101c61499deb4967f9313defc5e2",
-    "url": "https://sandboxspirit.com/blog/art-of-roads-in-games/",
-    "title": "Art of Roads in Games",
-    "content": "<p>Article URL: <a href=\"https://sandboxspirit.com/blog/art-of-roads-in-games/\">https://sandboxspirit.com/blog/art-of-roads-in-games/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=46938511\">https://news.ycombinator.com/item?id=46938511</a></p>\n<p>Points: 25</p>\n<p># Comments: 2</p>",
-    "author": "linolevan",
-    "published_date": "2026-02-08T21:05:24+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-02-09T02:24:14.579359+00:00",
-    "updated_at": "2026-02-09T02:24:14.579361+00:00"
   }
 ]
