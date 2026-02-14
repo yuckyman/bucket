@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-02-14T21:27:17.124841+00:00",
+  "last_updated": "2026-02-14T21:49:25.157653+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "fe08e1e06e320ef73f28d737f005dc92",
+      "url": "https://www.reddit.com/r/Python/comments/1r4viqt/pulled_a_pypi_package_that_was_exfiltrating_our/",
+      "title": "Pulled a PyPI package that was exfiltrating our environment variable",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Our new dev added what looked like a legit package from PyPI and it turned out to be stealing our .env files. Only caught it during code review when someone noticed weird network requests going out to some random IP.</p> <p>The package had over 50k downloads and a normal looking name so it seemed totally safe. This has me rethinking our entire approach to dependency management. We've always just pip installed whatever we needed without much verification. Now I'm realizing that's probably naive but also don't know what the alternative is.</p> <p>Scanning every package manually before install would kill our velocity. How do larger teams handle this without slowing down development?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ForexedOut\"> /u/ForexedOut </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4viqt/pulled_a_pypi_package_that_was_exfiltrating_our/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4viqt/pulled_a_pypi_package_that_was_exfiltrating_our/\">[comments]</a></span>",
+      "author": "/u/ForexedOut",
+      "published_date": "2026-02-14T20:49:20+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 132,
+      "reading_time": 1,
+      "created_at": "2026-02-14T21:48:22.035865+00:00",
+      "updated_at": "2026-02-14T21:48:22.035870+00:00"
+    },
+    {
+      "id": "eae2560d114159ee3ec32ed117c00cbf",
+      "url": "https://hacks.mozilla.org/2026/02/launching-interop-2026/",
+      "title": "Launching Interop 2026",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47008821\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-13T22:40:28+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-14T21:48:20.759418+00:00",
+      "updated_at": "2026-02-14T21:48:20.759420+00:00"
+    },
+    {
+      "id": "238db68e1560524f32309a576a62fe40",
+      "url": "https://www.fast.ai/posts/2026-01-28-dark-flow/",
+      "title": "Breaking the spell of vibe coding",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47006615\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-13T19:22:18+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-14T21:48:20.759362+00:00",
+      "updated_at": "2026-02-14T21:48:20.759364+00:00"
+    },
     {
       "id": "4ac6951e0a2f27624478e1f038fc36ad",
       "url": "https://www.nature.com/articles/s41598-026-37635-3",
@@ -273,62 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-02-14T20:28:36.594938+00:00",
       "updated_at": "2026-02-14T20:28:36.594939+00:00"
-    },
-    {
-      "id": "90da8dda64dbd2fca4621458febda3c9",
-      "url": "https://nicole.express/2026/not-my-casual-hobby.html",
-      "title": "You can't trust the internet anymore",
-      "content": "<p>Article URL: <a href=\"https://nicole.express/2026/not-my-casual-hobby.html\">https://nicole.express/2026/not-my-casual-hobby.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47017727\">https://news.ycombinator.com/item?id=47017727</a></p>\n<p>Points: 19</p>\n<p># Comments: 3</p>",
-      "author": "panic",
-      "published_date": "2026-02-14T19:51:25+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-14T20:28:36.594909+00:00",
-      "updated_at": "2026-02-14T20:28:36.594915+00:00"
-    },
-    {
-      "id": "8cc8c36e0687ec0412912a76dd8d977a",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2026.1738876",
-      "title": "Individualized brain-computer interface for people with disabilities: a review",
-      "content": "Brain-computer interfaces (BCIs) facilitate functional interaction between the brain and external devices, enabling users to bypass their typical peripheral motor actions to control assistive and rehabilitative technologies (ARTs). This review critically evaluates the state-of-the-art BCI-based ARTs by integrating the psychosocial and health-related factors impacting user needs, highlighting the influence of brain changes during development and aging on the design and ethical use of BCI technologies. As direct human-computer interfaces, BCI-based ARTs offer extended degrees of freedom via augmented mobility, cognition and communication, especially to people with disabilities. However, the innovation in BCI-based ARTs is guided by the complexity of disability types and levels of function across users that define individual needs. Therefore, an adaptable design is essential for tailoring a BCI-based ART that can fulfill user-specific requirements, which may hinder the scalability of BCIs for their widespread adoption across users with disabilities. The trade-offs between implantable and non-implantable BCIs are explored along with complex decisions around informed consent for people with communication or cognitive disabilities and pediatric settings. Non-implantable BCIs offer broader accessibility and transferability across users due to wider standardized signal acquisition and algorithm generalization, making them suited for a more comprehensive user group. This review contributes to the field by providing individualized user needs-informed discussion of BCI-based ARTs, emphasizing the need for adaptable designs that align the evolving functional and developmental needs of users with disabilities.",
-      "author": "Alistair McEwan",
-      "published_date": "2026-02-10T00:00:00+00:00",
-      "source": "Frontiers Human Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 228,
-      "reading_time": 1,
-      "created_at": "2026-02-14T19:25:47.799807+00:00",
-      "updated_at": "2026-02-14T20:20:16.629682+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T20:20:16.629691+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e90edd783d8dc6297232b2b18dbd65d5",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2026.1733811",
-      "title": "Differentiation timing-dependent axon targeting and subtype specification in retinal ganglion cells",
-      "content": "Subtypes of retinal ganglion cells (RGCs) in the mouse retina are each tuned to particular visual features and contribute to parallel visual processing in the brain. We addressed how RGCs are specified into distinct and diverse subtypes based on their differentiation timing. We used a neurogenic tagging mouse line, Neurod1CreER (D1B), in which tamoxifen-inducible CreER was driven by a putative Neurod1 enhancer. Timed tamoxifen injection in this mouse line induced CreER-loxP recombination in neurons that shared the same differentiation timing. This analysis revealed that RGC axon projections to the lateral geniculate nucleus and medial terminal nucleus were segregated depending on the stage of tamoxifen injection. We further characterized the properties of these neurogenically tagged RGCs based on their molecular markers and morphological features. Our study extends the concept that differentiation timing is linked to the specification of RGC subtypes.",
-      "author": "Tatsumi Hirata",
-      "published_date": "2026-02-10T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 139,
-      "reading_time": 1,
-      "created_at": "2026-02-14T19:25:44.975189+00:00",
-      "updated_at": "2026-02-14T20:20:16.629695+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T20:20:16.629697+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
