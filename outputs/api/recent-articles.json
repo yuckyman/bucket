@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-02-14T23:27:28.276817+00:00",
+  "last_updated": "2026-02-14T23:49:59.446930+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "14c9927f44a135eb9f471e87d6d42f1f",
+      "url": "https://www.ncl.ac.uk/press/articles/latest/2026/02/ancientegyptiandrillbit/",
+      "title": "5,300-year-old 'bow drill' rewrites story of ancient Egyptian tools",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46970733\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-11T04:12:00+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-14T23:48:47.891879+00:00",
+      "updated_at": "2026-02-14T23:48:47.891881+00:00"
+    },
     {
       "id": "da1fc93cd406721d6e25a4ff4a027b89",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452226000631?dgcid=rss_sd_all",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-02-14T20:53:35.164499+00:00",
       "updated_at": "2026-02-14T20:53:35.164500+00:00"
-    },
-    {
-      "id": "257d3b4ab2878616f433a4605df67904",
-      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae3d66",
-      "title": "A physics-based rigid-body model of motion-induced electromagnetic harmonic artifacts in surface biosignals",
-      "content": "Motion-induced electromagnetic interference remains a major obstacle to the accurate interpretation of surface-recorded biosignals collected during movement. This study presented a physics-based rigid-body model that integrated electromagnetic theory with a kinematic framework to describe the generation of motion-induced artifacts in surface biosignals through electromagnetic induction. The model was derived from Faraday\u2019s law and a 6D rigid-body kinematic formulation, which coupled rotational and translational motion to spatial magnetic-field gradients and curvature. This formulation predicted that any conductive loop moving within a nonuniform magnetic field produced a time-varying electromotive force (EMF) determined by the interaction between motion, field geometry, and sensor orientation. To illustrate and validate the theoretical model, computational simulations reproduced treadmill locomotion under two conditions: (1) an idealized fixed-cadence case with time-invariant field gradients, and (2) a realistic varying-cadence case incorporating stride-to-stride jitter and event-related spectral perturbation baseline correction. The simulated EMF spectra exhibited motion-locked harmonic patterns extending up to 15 Hz with electrode-dependent variations in magnitude and broadened harmonic envelopes, closely matching empirical treadmill electroencephalography spectra. Accelerometer spectra displayed broader harmonic content up to 50 Hz, consistent with their direct measurement of kinematic oscillations. Quantitative decomposition further revealed that rotational motion dominated the induced EMF, with smaller, electrode-dependent contributions from translation. Robustness analyses indicated that dominant harmonic structure is preserved under multi-axis kinematics and increased magnetic-field complexity, with greater sensitivity confined to weaker higher-order components. These results demonstrated that harmonic contamination could emerge naturally from rigid-body motion in a spatially varying magnetic field, providing a physics-based foundation for interpreting motion artifacts in surface electrical potentials and motivating practical mitigation strategies that incorporate motion and magnetic-field measurements. Through principled understanding and physics-based modeling of motion-induced electromagnetic artifacts, this framework supports interpretation of surface biosignals during movement and motivates the development of mitigation algorithms.",
-      "author": "Hyuk Oh",
-      "published_date": "2026-02-10T00:00:00+00:00",
-      "source": "Journal Neural Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 293,
-      "reading_time": 1,
-      "created_at": "2026-02-14T20:53:35.164457+00:00",
-      "updated_at": "2026-02-14T20:53:35.164459+00:00"
     }
   ]
 }
