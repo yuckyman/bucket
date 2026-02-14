@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-02-14T12:52:56.807297+00:00",
+  "last_updated": "2026-02-14T13:46:51.652238+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "05d42dcb691f339e2b028a3d46da8a09",
+      "url": "https://www.reddit.com/r/Python/comments/1r4jkf8/design_feedback_on_an_opensource_finance_library/",
+      "title": "Design feedback on an open-source finance library (API structure + scope)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey folks,</p> <p>I\u2019m building an open-source Python library called InvestorMate focused on stock analysis (fundamentals, indicators, screening, portfolio analytics, optional AI layer).</p> <p>I\u2019m at a point where I\u2019d really value architectural feedback rather than feature ideas.</p> <p>Specifically:</p> <pre><code>\u2022 For a library like this, would you keep it opinionated and batteries-included, or split it into smaller modular subpackages? \u2022 How do you decide when scope becomes too broad for a single PyPI package? \u2022 What signals make a data/finance library feel production-ready to you (tests, API stability, versioning discipline, type hints, performance benchmarks, etc.)? \u2022 For projects that sit \u201cabove\u201d data providers (like yfinance), what builds trust in abstraction layers? </code></pre> <p>Roadmap here for context:</p> <p><a href=\"https://github.com/siddartha19/investormate/blob/main/ROADMAP.md\">https://github.com/siddartha19/investormate/blob/main/ROADMAP.md</a></p> <p>Not looking for promotion. Genuinely trying to design this in a way that fits Python ecosystem norms and doesn\u2019t become an unmaintainable monolith.</p> <p>Would appreciate perspective from folks who\u2019ve maintained or contributed to medium/large OSS libraries.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/polarkyle19\"> /u/polarkyle19 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4jkf8/design_feedback_on_an_opensource_finance_library/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4jkf8/design_feedback_on_an_opensource_finance_library/\">[comments]</a></span>",
+      "author": "/u/polarkyle19",
+      "published_date": "2026-02-14T12:35:50+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 173,
+      "reading_time": 1,
+      "created_at": "2026-02-14T13:45:46.808254+00:00",
+      "updated_at": "2026-02-14T13:45:46.808255+00:00"
+    },
+    {
+      "id": "2b64e11e5f35b62ed9bc308cdac6ce0a",
+      "url": "https://www.slinging.org/",
+      "title": "The Sling: Humanity's Forgotten Power",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46951430\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-09T21:13:54+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-14T13:45:45.652779+00:00",
+      "updated_at": "2026-02-14T13:45:45.652780+00:00"
+    },
     {
       "id": "e102c8d6c8bc0d381371e72056c23471",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452226000965?dgcid=rss_sd_all",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-02-14T10:56:31.599444+00:00",
       "updated_at": "2026-02-14T10:56:31.599446+00:00"
-    },
-    {
-      "id": "b580b5a4f797b68fc99e97bb3020e9f1",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.11.705445v1?rss=1",
-      "title": "Cortex-Wide Cellular Imaging in Freely Locomoting Mice Using Cortex Camera Array Microscope (CortexCAM)",
-      "content": "Understanding single-cell neuronal activity across multiple brain regions in the context of ethologically relevant behaviors is a major goal in systems neuroscience. We have engineered the Cortex Camera Array Microscope (CortexCAM), integrating four miniaturized fluorescence imaging microscopes to simultaneously capture cellular activity from contiguous fields of view spanning over 48 mm2 of the dorsal cortex. The CortexCAM is capable of imaging > 9000 individual neurons across much of the primary and secondary motor, somatosensory, visual, retrosplenial, and association cortices across both hemispheres of the dorsal cortex. The compact nature of the CortexCAM allows integration into a passive mechanical gantry system to form the mobile CortexCAM. The mobile CortexCAM allows volitional control of translational motion (x, y) and rotational motion (yaw) in physical behavior arenas. We then use the mobile CortexCAM to perform cortex-wide cellular resolution imaging in freely locomoting mice performing alternating choice tasks, as well as during social interactions. Thus the CortexCAM allows studying cortex-wide cellular dynamics in behaviors that cannot be achieved in headfixed settings.",
-      "author": "Cherkkil, A., Viavattine, Z., Kota, V., Saxena, K., Surinach, D. A., Oladepo, I., Juneau, J., Hu, J., Fausner, S. M. L., Ko, E., Panchal, S., Srivatsa, S., Lehman, M., Horstmeyer, R., kodandaramaiah, S. B.",
-      "published_date": "2026-02-14T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 167,
-      "reading_time": 1,
-      "created_at": "2026-02-14T10:56:31.599406+00:00",
-      "updated_at": "2026-02-14T10:56:31.599407+00:00"
-    },
-    {
-      "id": "aa3b78138e457424db3665404daf910c",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.12.705483v1?rss=1",
-      "title": "Vicious circle of amyloid and leptomeningeal macrophages evokes vascular dysfunction in CAA",
-      "content": "The subarachnoid space contains leptomeningeal arteries and resident immune cells known as subarachnoid macrophages (SAMs). In Alzheimers disease (AD) and related cerebral amyloid angiopathy, amyloid-{beta} (A{beta}) frequently accumulates around the leptomeningeal arteries. Nevertheless, the local immune responses and their functional consequences remain poorly understood. Using longitudinal intravital imaging in a mouse model of AD, we tracked A{beta} deposition and identified a distinct SAM population that migrates to and phagocytoses these arterial A{beta} deposits. SAM recruitment correlated with vascular remodeling, including smooth muscle loss, aneurysm formation, and reduced cerebral perfusion. Transcriptomic profiling revealed a distinct SAM population in AD with upregulated CD39 expression. Pharmacological inhibition of CD39 attenuated arterial A{beta} deposition, identifying SAMs as a potential therapeutic target in AD.",
-      "author": "Wake, H., Hartantyo, R. Y., TSUJI, T., Hou, L., Saito, R., Yamasaki, A., Kochi, T., Saito, Y., Tada, M., Cheung, D. L., Moorhouse, A. J., Prinz, M., Masuda, T., Kakita, A.",
-      "published_date": "2026-02-14T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 119,
-      "reading_time": 1,
-      "created_at": "2026-02-14T10:56:31.599362+00:00",
-      "updated_at": "2026-02-14T10:56:31.599367+00:00"
     }
   ]
 }

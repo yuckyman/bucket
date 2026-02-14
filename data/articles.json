@@ -1,5 +1,37 @@
 [
   {
+    "id": "05d42dcb691f339e2b028a3d46da8a09",
+    "url": "https://www.reddit.com/r/Python/comments/1r4jkf8/design_feedback_on_an_opensource_finance_library/",
+    "title": "Design feedback on an open-source finance library (API structure + scope)",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey folks,</p> <p>I\u2019m building an open-source Python library called InvestorMate focused on stock analysis (fundamentals, indicators, screening, portfolio analytics, optional AI layer).</p> <p>I\u2019m at a point where I\u2019d really value architectural feedback rather than feature ideas.</p> <p>Specifically:</p> <pre><code>\u2022 For a library like this, would you keep it opinionated and batteries-included, or split it into smaller modular subpackages? \u2022 How do you decide when scope becomes too broad for a single PyPI package? \u2022 What signals make a data/finance library feel production-ready to you (tests, API stability, versioning discipline, type hints, performance benchmarks, etc.)? \u2022 For projects that sit \u201cabove\u201d data providers (like yfinance), what builds trust in abstraction layers? </code></pre> <p>Roadmap here for context:</p> <p><a href=\"https://github.com/siddartha19/investormate/blob/main/ROADMAP.md\">https://github.com/siddartha19/investormate/blob/main/ROADMAP.md</a></p> <p>Not looking for promotion. Genuinely trying to design this in a way that fits Python ecosystem norms and doesn\u2019t become an unmaintainable monolith.</p> <p>Would appreciate perspective from folks who\u2019ve maintained or contributed to medium/large OSS libraries.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/polarkyle19\"> /u/polarkyle19 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4jkf8/design_feedback_on_an_opensource_finance_library/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4jkf8/design_feedback_on_an_opensource_finance_library/\">[comments]</a></span>",
+    "author": "/u/polarkyle19",
+    "published_date": "2026-02-14T12:35:50+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 173,
+    "reading_time": 1,
+    "created_at": "2026-02-14T13:45:46.808254+00:00",
+    "updated_at": "2026-02-14T13:45:46.808255+00:00"
+  },
+  {
+    "id": "2b64e11e5f35b62ed9bc308cdac6ce0a",
+    "url": "https://www.slinging.org/",
+    "title": "The Sling: Humanity's Forgotten Power",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=46951430\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-09T21:13:54+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-14T13:45:45.652779+00:00",
+    "updated_at": "2026-02-14T13:45:45.652780+00:00"
+  },
+  {
     "id": "e102c8d6c8bc0d381371e72056c23471",
     "url": "https://www.sciencedirect.com/science/article/pii/S0306452226000965?dgcid=rss_sd_all",
     "title": "Unravelling the therapeutic potential of chrysin against ischemic stroke and post-stroke cognitive impairment: a network pharmacology and <em>in-silico</em> perspective",
@@ -16982,37 +17014,5 @@
       "processed_at": "2026-02-10T04:33:50.104980+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "b2afe7c6ae0307b3e961d8c6b612a91a",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.02.06.704430v1?rss=1",
-    "title": "Microglial reactivity in the hippocampal CA2 is associated with advanced neuronal \u03b1-synulceinopathy",
-    "content": "Lewy body diseases are thought to evolve by the spread of intraneuronal -synuclein pathology. However, staging models of -synuclein pathology in the human brain seldom evaluate regions with direct synaptic connectivity to model microglial processes in disease. Here, we address this gap by testing the hypothesis that, within the well-defined synaptic connectivity of the intrahippocampal circuit, neuronal -synuclein pathology is associated with microglial reactivity. We selected a cohort of autopsy-confirmed Lewy body disease patients with hippocampal neuronal -synuclein pathology and minimal age-related co-pathologies (n=62) and as a control for other intraneuronal hippocampal pathology, we used a cohort of cognitively healthy patients with focal hippocampal tau accumulation with minimal amyloid plaques, termed primary age-related tauopathy (n=12). We immunostained consecutive hippocampal sections for -synuclein pathology and established markers of microglial reactivity, Iba1, HLA-DR, and CD68. With validated digital histology methods, we measured percent area occupied in 6 hippocampal subfields to compare the percent area occupied within subfields between patient cohorts, correlate the percent area occupied within and between subfields, and use linear-mixed effects models to compare the percent area occupied across subfields while co-varying for demographics. We also constructed two groups of either low-level hippocampal -synuclein pathology restricted to the cornu ammonis 2-3 subfields (Focal Subtype) or widespread -synuclein pathology within additional subfields (Widespread Subtype) to model hypothesized -synuclein pathological spread within the intrahippocampal circuit. Lewy body disease patients exhibited increased HLA-DR and CD68 in most hippocampal subfields compared with primary age-related tauopathy. In Lewy body disease patients, staining for all microglial markers was highest in the cornu ammonis field 2. Neuronal -synuclein pathology in the cornu ammonis field 2 consistently correlated with only HLA-DR and CD68 but not Iba1. Patients classified as the Widespread Subtype had worse cognitive impairment and increased HLA-DR and CD68 within the cornu ammonis field 2. Furthermore, HLA-DR and CD68 in the cornu ammonis field 2 correlated with distal neuronal -synuclein pathology only in subfields with retrograde connectivity. We found increased hippocampal microglial abnormalities in Lewy body disease patients compared with cognitively normal controls with primary age-related tauopathy, suggesting a relatively specific microglial/inflammatory response to neuronal -synuclein pathology. Our data is consistent with predominantly retrograde transmission of neuronal -synuclein pathology across hippocampal subfields, where the focal microglial response in the cornu ammonis field 2 may influence clinical outcomes and -synuclein pathological spread. These data suggest that microglial processes can help refine Lewy body disease histopathological staging.",
-    "author": "Luna, E., Cousins, K. A. Q., Emrani, S., Xie, S. X., Trotman, W., Weintraub, D., Chen-Plotkin, A. S., Lee, E. B., Irwin, D. J.",
-    "published_date": "2026-02-09T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 399,
-    "reading_time": 1,
-    "created_at": "2026-02-10T02:32:58.647105+00:00",
-    "updated_at": "2026-02-10T02:32:58.647107+00:00"
-  },
-  {
-    "id": "4b97be11ed039b3dc6eb44a8d5d4bf9e",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.02.06.704442v1?rss=1",
-    "title": "Decoding the RNA Splicing Network in HNRNPH2-R114W Brain Organoids",
-    "content": "Autism spectrum disorder and related neurodevelopmental diseases are increasingly linked to disrupted RNA processing during corticogenesis, yet resolving variant-specific mechanisms during early human development remains challenging. We generated isogenic cerebral organoids from a patient iPSC line carrying the HNRNPH2-R114W mutation and its CRISPR-corrected counterpart. Developmental validation by time-course imaging, followed by bulk RNA-Seq at day 20, showed comparable early differentiation and corticogenesis. Genotype was the primary determinant of global expression state, with organized remodeling of neuronal and metabolic programs. Splicing analyses demonstrated junction-dominant dysregulation, where 6,310 junctions exhibited significant differential usage. Junction-level resolution revealed a dominant genotype-related signal than exon-centric analysis. A structural docking model shows HNRNPH2 RNA recognition motifs 1-3 within a spliceosomal context and position residue R114 at an RNA-contact cleft, consistent with direct disruption of RNA engagement by R114W. Integrating differential expression with event- and isoform-level evidence prioritized convergent regulatory hubs enriched for axon guidance, synaptic signaling, and extracellular matrix programs. Single-cell RNA-Seq deconvolution revealed modest compositional shifts that do not account for the magnitude of transcriptional and splicing alterations. Collectively, these data support that HNRNPH2-R114W drives pervasive, junction-centered RNA rewiring in human cortical organoids and defines isoform-level endpoints for mechanistic studies and therapeutic testing in an isogenic developmental model.",
-    "author": "CAIAFFA, C. D., Ghousifam, N., Watkins, S. L., Nakaya, H., Bowling, R., Finnell, R. H., Cabrera, R. M.",
-    "published_date": "2026-02-09T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 203,
-    "reading_time": 1,
-    "created_at": "2026-02-10T02:32:58.647035+00:00",
-    "updated_at": "2026-02-10T02:32:58.647040+00:00"
   }
 ]
