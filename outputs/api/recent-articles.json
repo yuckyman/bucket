@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-02-14T20:54:21.144669+00:00",
+  "last_updated": "2026-02-14T21:27:17.124841+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "4ac6951e0a2f27624478e1f038fc36ad",
+      "url": "https://www.nature.com/articles/s41598-026-37635-3",
+      "title": "Longitudinal modeling of Post-COVID-19 condition over three years: A machine learning approach using clinical, neuropsychological, and fluid markers",
+      "content": "",
+      "author": "",
+      "published_date": "2026-02-14T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-02-14T21:26:44.340317+00:00",
+      "updated_at": "2026-02-14T21:26:44.340318+00:00"
+    },
+    {
+      "id": "1ded90df766fc6025f79c105530c83d8",
+      "url": "https://www.reddit.com/r/Python/comments/1r4tjl8/what_would_you_want_in_a_modern_python_testing/",
+      "title": "What would you want in a modern Python testing framework?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Tools like uv and ruff have shown us what is possible when we take the time to rethink Python tooling, as well as implement parts in Rust for speed improvements. What would you, the community, want to see in a modern Python testing framework that could be a successor to the tried and true pytest?</p> <p>Some off the cuff ideas I think of: * Fast test discovery via Rust * Explicit fixture import (no auto discoverable conftest.py magic) * Monorepo / workspace support * Built-in parallel test execution * Built-in asyncio support</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SideQuest2026\"> /u/SideQuest2026 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4tjl8/what_would_you_want_in_a_modern_python_testing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4tjl8/what_would_you_want_in_a_modern_python_testing/\">[comments]</a></span>",
+      "author": "/u/SideQuest2026",
+      "published_date": "2026-02-14T19:29:10+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 113,
+      "reading_time": 1,
+      "created_at": "2026-02-14T21:26:06.105006+00:00",
+      "updated_at": "2026-02-14T21:26:06.105007+00:00"
+    },
+    {
+      "id": "cd5245292d14c013e1769f4de6132eeb",
+      "url": "https://www.usatoday.com/story/life/health-wellness/2026/02/11/full-body-mris-cancer-aneurysm/88396037007/",
+      "title": "How often do full-body MRIs find cancer?",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47008607\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-13T22:21:55+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-14T21:26:04.787587+00:00",
+      "updated_at": "2026-02-14T21:26:04.787588+00:00"
+    },
+    {
+      "id": "1ae4278f335a83e2caa4a79c36891571",
+      "url": "https://www.latent.space/p/ainews-why-openai-should-build-slack",
+      "title": "OpenAI should build Slack",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47012553\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-14T07:50:13+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-14T21:26:04.787530+00:00",
+      "updated_at": "2026-02-14T21:26:04.787532+00:00"
+    },
+    {
+      "id": "bbf70882dfaf76daf0126024d39cc156",
+      "url": "https://blog.sao.dev/cpns-llms-distributed-apps/",
+      "title": "Colored Petri Nets, LLMs, and distributed applications",
+      "content": "<p>Article URL: <a href=\"https://blog.sao.dev/cpns-llms-distributed-apps/\">https://blog.sao.dev/cpns-llms-distributed-apps/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47018405\">https://news.ycombinator.com/item?id=47018405</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "stuartaxelowen",
+      "published_date": "2026-02-14T21:08:08+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-14T21:26:03.544493+00:00",
+      "updated_at": "2026-02-14T21:26:03.544500+00:00"
+    },
     {
       "id": "fa1d0f010faffd57c3e24bd028de2a67",
       "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae3e17",
@@ -249,102 +329,6 @@
         "processed_at": "2026-02-14T20:20:16.629697+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "c7072164ef000363b164e191bb28a92b",
-      "url": "https://www.reddit.com/r/Python/comments/1r4sc7v/any_good_ides_for_mobile/",
-      "title": "Any Good IDE\u2019s for Mobile",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I\u2019ve been using Pyto but wondering if anyone recommends something else. Don\u2019t really need library support aside from Math and random, just something to use when commuting to keep busy \u2014 I\u2019m on iPhone </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Atsoc1993\"> /u/Atsoc1993 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4sc7v/any_good_ides_for_mobile/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4sc7v/any_good_ides_for_mobile/\">[comments]</a></span>",
-      "author": "/u/Atsoc1993",
-      "published_date": "2026-02-14T18:40:52+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 56,
-      "reading_time": 1,
-      "created_at": "2026-02-14T19:25:22.108181+00:00",
-      "updated_at": "2026-02-14T20:20:16.629702+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T20:20:16.629703+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "220225d8ba78884996bd0317b2cd163a",
-      "url": "https://www.reddit.com/r/Python/comments/1r4r7c0/update_copierastral_now_uses_prek_faster/",
-      "title": "Update: copier-astral now uses prek (faster pre-commit) + bug fixes from your feedback",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Two weeks ago I shared copier-astral here and the response was incredible \u2014 thank you! The feedback helped me find and fix real bugs.</p> <h1>What's new since last post:</h1> <ul> <li>Fixed <code>github_username</code> not being set during installation</li> <li>Fixed <code>uv tool inject</code> bug</li> <li>Fixed missing <code>ty</code> dependency in generated projects</li> <li>Replaced <code>pre-commit</code> with <code>prek</code> \u2014 a faster Rust-based alternative</li> <li>Added <code>pysentry-rs</code> and <code>semgrep</code> to scan for potential vulnerabilities</li> <li>Now at 100+ stars</li> </ul> <h1>Quick reminder \u2014 what it does:</h1> <p>Scaffolds a complete Python project with modern tooling pre-configured:</p> <ul> <li>ruff for linting + formatting (replaces black, isort, flake8)</li> <li>ty for type checking (Astral's new Rust-based type checker)</li> <li>pytest + hatch for testing (including multi-version matrix)</li> <li>MkDocs with Material theme + mkdocstrings</li> <li>pre-commit hooks with prek</li> <li>GitHub Actions CI/CD</li> <li>Docker support</li> <li>Typer CLI scaffold (optional)</li> <li>git-cliff for auto-generated changelogs</li> </ul> <h1>Looking for contributors:</h1> <p>3 open issues if anyone wants to help out: <a href=\"https://github.com/ritwiktiwari/copier-astral/issues\">https://github.com/ritwiktiwari/copier-astral/issues</a></p> <p>Thanks again \u2014 happy to answer any questions!</p> <p><strong>Links:</strong></p> <ul> <li>GitHub: <a href=\"https://github.com/ritwiktiwari/copier-astral\">https://github.com/ritwiktiwari/copier-astral</a></li> <li>Docs: <a href=\"https://ritwiktiwari.github.io/copier-astral/\">https://ritwiktiwari.github.io/copier-astral/</a></li> <li>Reddit: <a href=\"https://www.reddit.com/r/Python/comments/1qsd7bn/copierastral_modern_python_project_scaffolding/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button\">Previous Post</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_ritwiktiwari\"> /u/_ritwiktiwari </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4r7c0/update_copierastral_now_uses_prek_faster/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4r7c0/update_copierastral_now_uses_prek_faster/\">[comments]</a></span>",
-      "author": "/u/_ritwiktiwari",
-      "published_date": "2026-02-14T17:56:44+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 194,
-      "reading_time": 1,
-      "created_at": "2026-02-14T19:25:22.108039+00:00",
-      "updated_at": "2026-02-14T20:20:16.629706+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T20:20:16.629707+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e9357470903cbc0ed64529c7b2398ecc",
-      "url": "https://github.com/i5heu/ublock-hide-yt-shorts/",
-      "title": "uBlock filter list to hide all YouTube Shorts",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47016443\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-14T17:36:45+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-14T19:25:20.606015+00:00",
-      "updated_at": "2026-02-14T20:20:16.629709+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T20:20:16.629711+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e9357470903cbc0ed64529c7b2398ecc",
-      "url": "https://github.com/i5heu/ublock-hide-yt-shorts/",
-      "title": "uBlock filter list to hide all YouTube Shorts",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47016443\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-14T17:36:45+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-14T19:25:20.606015+00:00",
-      "updated_at": "2026-02-14T20:20:16.629709+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T20:20:16.629711+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "cc076a01ad3b60fd9515d92352e6e9f7",
-      "url": "https://www.niemanlab.org/2026/01/news-publishers-limit-internet-archive-access-due-to-ai-scraping-concerns/",
-      "title": "Internet Increasingly Becoming Unarchivable",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47017138\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-14T18:46:32+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-14T19:25:20.605930+00:00",
-      "updated_at": "2026-02-14T19:25:20.605935+00:00"
     }
   ]
 }
