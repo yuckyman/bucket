@@ -1,24 +1,8 @@
 {
-  "last_updated": "2026-02-14T12:36:43.316416+00:00",
-  "pending_count": 746,
-  "processed_count": 254,
+  "last_updated": "2026-02-14T14:21:54.528469+00:00",
+  "pending_count": 741,
+  "processed_count": 259,
   "pending_articles": [
-    {
-      "id": "451c9966e0389ab5a4afee51546ddc94",
-      "url": "https://prompttoplanet.n4ze3m.com/",
-      "title": "Show HN: Prompt to Planet, generate procedural 3D planets from text",
-      "content": "<p>Article URL: <a href=\"https://prompttoplanet.n4ze3m.com/\">https://prompttoplanet.n4ze3m.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47012637\">https://news.ycombinator.com/item?id=47012637</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-      "author": "error404x",
-      "published_date": "2026-02-14T08:05:47+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-14T11:23:58.381767+00:00",
-      "updated_at": "2026-02-14T11:23:58.381768+00:00"
-    },
     {
       "id": "01139653e25691b126db7227f9a5a283",
       "url": "https://infosec.exchange/@mttaggart/116065340523529645",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2026-02-14T10:56:31.599478+00:00",
       "updated_at": "2026-02-14T10:56:31.599480+00:00"
+    },
+    {
+      "id": "dfa98660e75f925be37a8cca8e6477b2",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705797v1?rss=1",
+      "title": "Ecological Suboptimality in Naturalistic Foraging: Amplified Deviation from Optimality in a Mouse Model of Alzheimer Disease",
+      "content": "Foraging requires animals to integrate spatial, temporal, and reward-related costs to guide adaptive action selection, yet how neurodegenerative pathology alters this process remains poorly understood. We compared foraging behavior in control (C57BL/6J) and APPNL-G-F transgenic mice, a knock-in mouse model of Alzheimer disease. The foraging task was structured such that distance to home, the size of food-pellet rewards, and food texture jointly shaped choices. These task variables implicitly imposed time costs related to travel, handling, and inter trial intervals. While control mice adjusted foraging behavior in relation to task demands across conditions, APPNL-G-F mice showed systematic deviations from control patterns. Their choices were characterized by increased withdrawal and reduced flexibility as spatial and temporal costs increased. Using a normative rate-maximization framework grounded in classical foraging theory, we quantified optimality and found marked suboptimality in both groups: control mice achieved 53% of the optimal reward rate, whereas APPNL-G-F mice achieved 45%. This suboptimality indicates that naturalistic decision making operates under context-dependent constraints rather than adhering to strict theoretical optimality. Within this constrained landscape, APPNL-G-F mice deviated more strongly from optimality than control mice, particularly under conditions requiring fine-grained integration of time-based costs. Group differences were most pronounced when optimal policies were highly sensitive to small errors in the estimation of temporal and spatial trade-offs. These findings suggest that Alzheimer-related pathology selectively amplified normative decision deficits rather than producing qualitatively distinct foraging strategies.",
+      "author": "Rezaei, Z., Torabi, R., Ryait, H., Whishaw, I. Q., Sutherland, R. J., Mohajerani, M. H.",
+      "published_date": "2026-02-14T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 231,
+      "reading_time": 1,
+      "created_at": "2026-02-14T10:56:31.599444+00:00",
+      "updated_at": "2026-02-14T10:56:31.599446+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "05d42dcb691f339e2b028a3d46da8a09",
+      "url": "https://www.reddit.com/r/Python/comments/1r4jkf8/design_feedback_on_an_opensource_finance_library/",
+      "title": "Design feedback on an open-source finance library (API structure + scope)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey folks,</p> <p>I\u2019m building an open-source Python library called InvestorMate focused on stock analysis (fundamentals, indicators, screening, portfolio analytics, optional AI layer).</p> <p>I\u2019m at a point where I\u2019d really value architectural feedback rather than feature ideas.</p> <p>Specifically:</p> <pre><code>\u2022 For a library like this, would you keep it opinionated and batteries-included, or split it into smaller modular subpackages? \u2022 How do you decide when scope becomes too broad for a single PyPI package? \u2022 What signals make a data/finance library feel production-ready to you (tests, API stability, versioning discipline, type hints, performance benchmarks, etc.)? \u2022 For projects that sit \u201cabove\u201d data providers (like yfinance), what builds trust in abstraction layers? </code></pre> <p>Roadmap here for context:</p> <p><a href=\"https://github.com/siddartha19/investormate/blob/main/ROADMAP.md\">https://github.com/siddartha19/investormate/blob/main/ROADMAP.md</a></p> <p>Not looking for promotion. Genuinely trying to design this in a way that fits Python ecosystem norms and doesn\u2019t become an unmaintainable monolith.</p> <p>Would appreciate perspective from folks who\u2019ve maintained or contributed to medium/large OSS libraries.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/polarkyle19\"> /u/polarkyle19 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4jkf8/design_feedback_on_an_opensource_finance_library/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4jkf8/design_feedback_on_an_opensource_finance_library/\">[comments]</a></span>",
+      "author": "/u/polarkyle19",
+      "published_date": "2026-02-14T12:35:50+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 173,
+      "reading_time": 1,
+      "created_at": "2026-02-14T13:45:46.808254+00:00",
+      "updated_at": "2026-02-14T14:21:54.409129+00:00",
+      "metadata": {
+        "processed_at": "2026-02-14T14:21:54.409138+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2b64e11e5f35b62ed9bc308cdac6ce0a",
+      "url": "https://www.slinging.org/",
+      "title": "The Sling: Humanity's Forgotten Power",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=46951430\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-09T21:13:54+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-14T13:45:45.652779+00:00",
+      "updated_at": "2026-02-14T14:21:54.409142+00:00",
+      "metadata": {
+        "processed_at": "2026-02-14T14:21:54.409144+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "e102c8d6c8bc0d381371e72056c23471",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226000965?dgcid=rss_sd_all",
+      "title": "Unravelling the therapeutic potential of chrysin against ischemic stroke and post-stroke cognitive impairment: a network pharmacology and <em>in-silico</em> perspective",
+      "content": "<p>Publication date: 6 April 2026</p><p><b>Source:</b> Neuroscience, Volume 599</p><p>Author(s): Pooja Gandharvachari Achar, Kamsagara Linganna Krishna, Kavana C P, Mayuri Patil, Prabitha Prabhakaran, Chandan Shivamallu, Chandan Dharmashekar, Ganavi Bethanagere Ramesha</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroscience Journal",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 28,
+      "reading_time": 1,
+      "created_at": "2026-02-14T12:52:30.084152+00:00",
+      "updated_at": "2026-02-14T14:21:54.409147+00:00",
+      "metadata": {
+        "processed_at": "2026-02-14T14:21:54.409148+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c565855d4042abd38bdeee47583660c8",
+      "url": "https://www.reddit.com/r/Python/comments/1r45f4b/saturday_daily_thread_resource_request_and/",
+      "title": "Saturday Daily Thread: Resource Request and Sharing! Daily Thread",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: Resource Request and Sharing \ud83d\udcda</h1> <p>Stumbled upon a useful Python resource? Or are you looking for a guide on a specific topic? Welcome to the Resource Request and Sharing thread!</p> <h2>How it Works:</h2> <ol> <li><strong>Request</strong>: Can't find a resource on a particular topic? Ask here!</li> <li><strong>Share</strong>: Found something useful? Share it with the community.</li> <li><strong>Review</strong>: Give or get opinions on Python resources you've used.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Please include the type of resource (e.g., book, video, article) and the topic.</li> <li>Always be respectful when reviewing someone else's shared resource.</li> </ul> <h2>Example Shares:</h2> <ol> <li><strong>Book</strong>: <a href=\"https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008\">&quot;Fluent Python&quot;</a> - Great for understanding Pythonic idioms.</li> <li><strong>Video</strong>: <a href=\"https://www.youtube.com/watch?v=pkYVOmU3MgA\">Python Data Structures</a> - Excellent overview of Python's built-in data structures.</li> <li><strong>Article</strong>: <a href=\"https://realpython.com/primer-on-python-decorators/\">Understanding Python Decorators</a> - A deep dive into decorators.</li> </ol> <h2>Example Requests:</h2> <ol> <li><strong>Looking for</strong>: Video tutorials on web scraping with Python.</li> <li><strong>Need</strong>: Book recommendations for Python machine learning.</li> </ol> <p>Share the knowledge, enrich the community. Happy learning! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r45f4b/saturday_daily_thread_resource_request_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r45f4b/saturday_daily_thread_resource_request_and/\">[comments]</a></span>",
+      "author": "/u/AutoModerator",
+      "published_date": "2026-02-14T00:02:12+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 180,
+      "reading_time": 1,
+      "created_at": "2026-02-14T12:51:49.287260+00:00",
+      "updated_at": "2026-02-14T14:21:54.409151+00:00",
+      "metadata": {
+        "processed_at": "2026-02-14T14:21:54.409152+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "4d42cd9fb19d40de30b2e2b5cd49d1ff",
       "url": "https://www.4claw.org",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "651339fad524cd22d1a35e8b1b8b51e5",
-      "url": "https://www.nature.com/articles/s41598-026-38902-z",
-      "title": "Evaluating celebrity influence on brand attention, emotion, and memory",
-      "content": "",
-      "author": "",
-      "published_date": "2026-02-14T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
+      "id": "451c9966e0389ab5a4afee51546ddc94",
+      "url": "https://prompttoplanet.n4ze3m.com/",
+      "title": "Show HN: Prompt to Planet, generate procedural 3D planets from text",
+      "content": "<p>Article URL: <a href=\"https://prompttoplanet.n4ze3m.com/\">https://prompttoplanet.n4ze3m.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47012637\">https://news.ycombinator.com/item?id=47012637</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "author": "error404x",
+      "published_date": "2026-02-14T08:05:47+00:00",
+      "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 0,
+      "word_count": 13,
       "reading_time": 1,
-      "created_at": "2026-02-14T09:33:01.133024+00:00",
-      "updated_at": "2026-02-14T10:21:39.085393+00:00",
+      "created_at": "2026-02-14T11:23:58.381767+00:00",
+      "updated_at": "2026-02-14T14:21:54.409154+00:00",
       "metadata": {
-        "processed_at": "2026-02-14T10:21:39.085403+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a9f94897cc5b5eef8216e03a6bd7f32f",
-      "url": "https://www.nature.com/articles/s41598-026-39349-y",
-      "title": "Anxiety severity moderates the relation between pineal parenchymal volume and objective sleep problems in peri-adolescent youth",
-      "content": "",
-      "author": "",
-      "published_date": "2026-02-14T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-02-14T09:33:01.132933+00:00",
-      "updated_at": "2026-02-14T10:21:39.085407+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T10:21:39.085409+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "777857a4c0d7dcb3cbbb83df26fde04a",
-      "url": "https://www.nature.com/articles/s41598-026-39542-z",
-      "title": "Structural brain analysis in focal upper limb dystonia",
-      "content": "",
-      "author": "",
-      "published_date": "2026-02-14T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-02-14T09:33:01.132886+00:00",
-      "updated_at": "2026-02-14T10:21:39.085412+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T10:21:39.085413+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "77a4db593d4b6c51e2302cee9d4b6283",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1623174",
-      "title": "Computational reconstruction of evolutionary selection in human brain networks",
-      "content": "IntroductionThe accumulation of genomic and brain data opens new opportunities for resource friendly, data driven brain exploration. A key challenge is to develop versatile and accessible strategies that integrate and mine multimodal datasets for novel neuroscientific insights. Here, we optimized an integrated workflow for mapping multigenic evolutionary traits in the human brain across cognitive, cellular, and molecular levels.MethodsAt the input stage, the workflow fuses an evolutionary genetic dataset with searchable synthetic functional magnetic resonance imaging (fMRI) databases that are pre clustered into concise psychological domains for improved interpretability. At its core, a Genetic Algorithm for Generalized Biclustering (GABi) mines gene sets under evolutionary selection that also show high expression correlation with fMRI networks.ResultsApplying this workflow, we identified evolutionary patterns spanning cognitive traits, brain cell types, and molecular mechanisms. Focusing on socio affective traits, the algorithm highlighted peaks in adaptive selection in networks for social interaction (language) and social concepts (theory of mind) across hominid, early hominin, and anatomically modern human (AMH) ancestry. These traits emerge from a broad spectrum of excitatory (glutamatergic) and inhibitory (GABAergic) neuronal, as well as non neuronal, cell types. The associated Gene Ontology (GO) terms were enriched for cell signaling, synaptic organization, and neuronal morphology.DiscussionTogether, these findings demonstrate an integrated workflow for molecular to systems level exploration of the brain and provide new perspectives on the evolutionary history of human socio affective functions. This approach can be adapted to screen for functional traits in the context of mental disorders or applied to the brains of other phylogenies in a similar manner.",
-      "author": "Wulf Haubensak",
-      "published_date": "2026-01-26T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 255,
-      "reading_time": 1,
-      "created_at": "2026-02-14T09:32:54.582591+00:00",
-      "updated_at": "2026-02-14T10:21:39.085415+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T10:21:39.085417+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "38b5a45ab19d6add03564603f92c31df",
-      "url": "https://www.reddit.com/r/Python/comments/1r4fhk0/a_python_tool_for_reviewdriven_regression_testing/",
-      "title": "A Python tool for review-driven regression testing of ML/LLM outputs",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What My Project Does</strong></p> <p>Booktest is a Python tool for review-driven regression testing of ML/NLP/LLM systems. Instead of relying only on assertion-based pass/fail tests, it captures outputs as readable artifacts and focuses on reviewable diffs between runs.</p> <p>It also supports incremental pipelines and caching, so expensive steps don\u2019t need to rerun unnecessarily, which makes it practical for CI workflows involving model inference.</p> <p><strong>Target Audience</strong></p> <p>This is intended for developers and ML engineers working with systems where outputs don\u2019t have a single \u201ccorrect\u201d value (e.g., NLP pipelines, LLM-based systems, ranking/search models).</p> <p>It\u2019s designed for production workflows, but can also be useful in experimental or research settings.</p> <p><strong>Comparison</strong></p> <p>Traditional testing tools like pytest or snapshot-based tests work well when outputs are deterministic and correctness is objective.</p> <p>Booktest complements those tools in cases where correctness is fuzzy and regressions need to be reviewed rather than strictly asserted.</p> <p>It\u2019s not meant to replace pytest, but to handle cases where binary assertions are insufficient.</p> <p>Repo: <a href=\"https://github.com/lumoa-oss/booktest?utm_source=chatgpt.com\">https://github.com/lumoa-oss/booktest</a></p> <p>I\u2019m the author and I'd love to hear your thoughts and perspectives, especially around pytest/CI integration patterns. :-) </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/arauhala\"> /u/arauhala </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4fhk0/a_python_tool_for_reviewdriven_regression_testing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4fhk0/a_python_tool_for_reviewdriven_regression_testing/\">[comments]</a></span>",
-      "author": "/u/arauhala",
-      "published_date": "2026-02-14T08:32:10+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 202,
-      "reading_time": 1,
-      "created_at": "2026-02-14T09:32:26.485310+00:00",
-      "updated_at": "2026-02-14T10:21:39.085419+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T10:21:39.085421+00:00",
+        "processed_at": "2026-02-14T14:21:54.409156+00:00",
         "processing_method": "github_actions"
       }
     }
