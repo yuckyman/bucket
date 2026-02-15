@@ -1,5 +1,37 @@
 [
   {
+    "id": "caf1f7902e0c58a49448bda306ba9c66",
+    "url": "https://www.reddit.com/r/Python/comments/1r5lqgl/diwire_dependency_injection_that_autowires_from/",
+    "title": "diwire: dependency injection that auto-wires from type hints (zero runtime deps)",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What My Project Does</strong></p> <p>Full disclosure: I'm the author/maintainer of <a href=\"https://github.com/MaksimZayats/diwire\">diwire</a></p> <p>It\u2019s a Python 3.10+ dependency injection container that builds your object graph from type hints, so you can often skip registration boilerplate entirely.</p> <p>Repo: <a href=\"https://github.com/maksimzayats/diwire\">https://github.com/maksimzayats/diwire</a><br /> Docs: <a href=\"https://docs.diwire.dev\">https://docs.diwire.dev</a></p> <p>Here's the &quot;auto-wire a graph&quot; baseline:</p> <pre><code>from dataclasses import dataclass, field from diwire import Container @dataclass class Database: host: str = field(default=&quot;localhost&quot;, init=False) @dataclass class UserRepository: db: Database @dataclass class UserService: repo: UserRepository container = Container() service = container.resolve(UserService) print(service.repo.db.host) # localhost </code></pre> <p><strong>Comparison</strong></p> <ul> <li>Many DI libraries/framework patterns start by making you register everything up front; diwire flips the default: auto-wire concretes from annotations, <em>then</em> opt into explicit registrations where you care about boundaries.</li> <li>If you prefer &quot;no implicit wiring&quot;, diwire also supports a strict mode so missing deps fail fast and you stay fully explicit.</li> <li>Performance-wise: in my benchmark suite (strict mode, CPython 3.14.2 on an M1 Pro), speedups ranged up to 2.5x vs rodi, 7.6x vs dishka, 3.3x vs wireup (resolve-only runs also include punq). Repro: make benchmark-report and make benchmark-report-resolve.</li> </ul> <p>If this matches your use case, a <a href=\"https://github.com/MaksimZayats/diwire\">GitHub star</a> really helps visibility and motivates continued work!</p> <p><strong>Questions I'd love feedback on</strong></p> <ol> <li>Do you like auto-wiring-by-default, or do you strongly prefer explicit registration? Why?</li> <li>What's the first thing that would block adoption for you?</li> <li>In your codebase, where has DI been most helpful or most painful? </li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/zayatsdev\"> /u/zayatsdev </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r5lqgl/diwire_dependency_injection_that_autowires_from/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r5lqgl/diwire_dependency_injection_that_autowires_from/\">[comments]</a></span>",
+    "author": "/u/zayatsdev",
+    "published_date": "2026-02-15T18:18:08+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 257,
+    "reading_time": 1,
+    "created_at": "2026-02-15T20:54:22.488648+00:00",
+    "updated_at": "2026-02-15T20:54:22.488650+00:00"
+  },
+  {
+    "id": "5c58e7f381f0f360c6312e19746dc09c",
+    "url": "https://microgpt.boratto.ca",
+    "title": "Show HN: Microgpt is a GPT you can visualize in the browser",
+    "content": "<p>very much inspired by karpathy's microgpt of the same name. it's (by default) a 4000 param GPT/LLM/NN that learns to generate names. this is sorta an educational tool in that you can visualize the activations as they pass through the network, and click on things to get an explanation of them.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47026186\">https://news.ycombinator.com/item?id=47026186</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+    "author": "b44",
+    "published_date": "2026-02-15T18:40:35+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 62,
+    "reading_time": 1,
+    "created_at": "2026-02-15T20:54:19.777247+00:00",
+    "updated_at": "2026-02-15T20:54:19.777248+00:00"
+  },
+  {
     "id": "28302b17cca06c3194194d6e1865fda8",
     "url": "https://reclaimthenet.org/40-attorneys-general-back-ids-online-safety-act",
     "title": "State Attorneys General Want to Tie Online Access to ID",
@@ -17064,46 +17096,6 @@
     "updated_at": "2026-02-11T04:26:59.737635+00:00",
     "metadata": {
       "processed_at": "2026-02-11T04:26:59.737637+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "dcfeac1064c6bb1f26c24754213192c4",
-    "url": "https://www.reddit.com/r/Python/comments/1r1j7qc/i_scanned_17316_malicious_packages_and_heres_what/",
-    "title": "I scanned 17,316 malicious packages and here's what actually works",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What It Does:</strong> Static analysis tool that scans npm and PyPI packages for supply chain attacks before they hit your CI/CD pipeline. Detects shell injection, credential theft, obfuscation, and malicious install hooks using pattern matching + AST analysis.</p> <p><strong>Target Audience:</strong> Production use for teams running CI/CD pipelines. Research prototype but functional - I've been using it for a few weeks to catch suspicious packages before merge.</p> <p><strong>Comparison:</strong> - <strong>vs Snyk/Socket:</strong> Those are commercial SaaS ($$$). This is free, MIT licensed, runs locally in your CI. - <strong>vs pip-audit/Safety:</strong> They only catch known CVEs. This catches zero-day typosquatting and novel malware patterns. - <strong>vs Bandit:</strong> Bandit scans your own code. This scans third-party packages you're about to install.</p> <hr /> <p>Downloaded every package from the QUT-DV25 malware dataset (14,272 PyPI + 15,059 npm samples) and ran them through the analyzer I built.</p> <p>Results: - 89.6% of npm malware: detectable with regex - 82.2% of PyPI malware: detectable with regex</p> <p>The most common patterns: 1. Shell injection in postinstall hooks (npm) - 34% of samples 2. <code>setup.py</code> with <code>exec()</code> calls (PyPI) - 28% of samples<br /> 3. Obfuscated code (Buffer.from base64) - 19% of samples 4. Environment variable exfiltration - 15% of samples</p> <p>What actually evades detection: - Multi-stage deobfuscation - Time-delayed payloads - Geofencing (only runs in certain countries) - VM detection (only runs if not in sandbox)</p> <p>The surprising part? Most attackers don't bother with evasion. They're banking on people not checking.</p> <p>Built a scanner for CI/CD that blocks the obvious stuff: <a href=\"https://github.com/Otsmane-Ahmed/ci-supplychain-guard\">https://github.com/Otsmane-Ahmed/ci-supplychain-guard</a></p> <p>If you're running PyPI packages in production, might want to scan them first.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BearBrief6312\"> /u/BearBrief6312 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r1j7qc/i_scanned_17316_malicious_packages_and_heres_what/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r1j7qc/i_scanned_17316_malicious_packages_and_heres_what/\">[comments]</a></span>",
-    "author": "/u/BearBrief6312",
-    "published_date": "2026-02-11T01:06:46+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 288,
-    "reading_time": 1,
-    "created_at": "2026-02-11T02:28:58.313019+00:00",
-    "updated_at": "2026-02-11T04:26:59.737639+00:00",
-    "metadata": {
-      "processed_at": "2026-02-11T04:26:59.737641+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "fbcfaffb12a587a0888f2d122310f661",
-    "url": "https://fosdem.org/2026/schedule/event/CVGZAV-willow/",
-    "title": "Willow \u2013 Protocols for an uncertain future [video]",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46932581\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-08T08:52:50+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-11T02:28:56.873641+00:00",
-    "updated_at": "2026-02-11T04:26:59.737646+00:00",
-    "metadata": {
-      "processed_at": "2026-02-11T04:26:59.737647+00:00",
       "processing_method": "github_actions"
     }
   }
