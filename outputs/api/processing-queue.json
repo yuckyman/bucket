@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-02-15T01:50:18.077984+00:00",
-  "pending_count": 745,
-  "processed_count": 255,
+  "last_updated": "2026-02-15T04:18:01.338352+00:00",
+  "pending_count": 739,
+  "processed_count": 261,
   "pending_articles": [
     {
       "id": "fd0e1ac2be5aed63d2d0d1d726bec513",
@@ -166,6 +166,126 @@
   ],
   "recently_processed": [
     {
+      "id": "e44ac3235252d86cd2e42211ce11d517",
+      "url": "https://www.reddit.com/r/Python/comments/1r4zm2l/skylos_dead_code_and_vulnerabilities_detection/",
+      "title": "Skylos: Dead code and vulnerabilities detection (Update with updated benchmarks)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey! I was here a week back, we have released new updates for v3.3.0. We recently released a MCP server, and a CICD agent (A video tutorial for this will be coming soon). For the ones who missed the previous post, I just wanted to update that we have created an updated benchmark against vulture(includes both static as well as hybrid benchmarks). For the uninitiated, is a local first SAST tool for Python codebases. <strong>If you've already read this skip to the bottom where the benchmark link is.</strong></p> <h1>What my project does</h1> <p>Skylos does the following stuff below. We offer static and dynamic analysis:</p> <ul> <li>dead code (unused functions/classes/imports. The cli will display confidence scoring)</li> <li>security patterns (taint-flow style checks, secrets, hallucination etc. We have also expanded the list to include MCP security vulnerabilities)</li> <li>quality checks (complexity, nesting, function size, etc.)</li> <li>pytest hygiene (unused pytest.fixtures etc.)</li> <li>agentic framework (uses a hybrid of static + agent analysis to reduce false positives)</li> <li><code>--trace</code> to catch dynamic code</li> </ul> <p><strong>Skylos v3.3.0</strong> also has MCP server. Skylos exposes its analysis capabilities as an MCP (Model Context Protocol) server, allowing AI assistants like Claude Desktop to scan your codebase directly. Instructions on how to set it up can be found in the repo's README</p> <h1>The Benchmark:</h1> <p>Skylos vs. Vulture We created a realistic FastAPI-style repo with intentional dead code and tricky dynamic patterns (like `getattr()`, `globals()`, and `__init_subclass__`). </p> <p>Here is the summary of our results (Confidence=10): </p> <table><thead> <tr> <th align=\"left\">Configuration</th> <th align=\"left\">Precision</th> <th align=\"left\">Recall</th> <th align=\"left\">False Positives</th> <th align=\"left\">Speed</th> </tr> </thead><tbody> <tr> <td align=\"left\">Vulture</td> <td align=\"left\">38.5%</td> <td align=\"left\">75.8%</td> <td align=\"left\">14</td> <td align=\"left\"><strong>0.1s</strong></td> </tr> <tr> <td align=\"left\">Skylos (Static)</td> <td align=\"left\">52.5%</td> <td align=\"left\"><strong>93.9%</strong></td> <td align=\"left\">13</td> <td align=\"left\">1.8s</td> </tr> <tr> <td align=\"left\">Skylos (Hybrid)</td> <td align=\"left\"><strong>67.4</strong>%</td> <td align=\"left\"><strong>93.9</strong>%</td> <td align=\"left\"><strong>2</strong></td> <td align=\"left\">~400s</td> </tr> </tbody></table> <ul> <li><strong>Hybrid Mode eliminates noise:</strong> We saw an <strong>84.6% reduction in False Positives</strong> (dropping from 13 to 2).</li> <li> <strong>The Trade-off:</strong> Accuracy costs time. Hybrid mode is significantly slower because it verifies &quot;zero-reference&quot; findings with an LLM layer. It's not for your pre-commit hook, but it's better for a deep-clean report.</li> </ul> <h1>Quick start (how to use)</h1> <p>This is a demo video here: <a href=\"https://www.youtube.com/watch?v=BjMdSP2zZl8\">https://www.youtube.com/watch?v=BjMdSP2zZl8</a></p> <p>Install:</p> <p><code>pip install skylos</code></p> <p>Run a basic scan (which is essentially just dead code):</p> <p><code>skylos .</code></p> <p>Run sec + secrets + quality:</p> <p><code>skylos . --secrets --danger --quality --secrets</code></p> <p>Uses runtime tracing to reduce dynamic FPs:</p> <p><code>skylos . --trace</code></p> <p>Gate your repo in CI:</p> <p><code>skylos . --danger --gate --strict</code></p> <p>To use <a href=\"http://skylos.dev/\">skylos.dev</a> and upload a report. You will be prompted for an api key etc.</p> <p><code>skylos . --danger --upload</code></p> <p>To use agents:</p> <p><code>skylos agent analyze .</code> </p> <h1>Target Audience</h1> <p>Everyone working on python</p> <h1>Comparison (UPDATED)</h1> <p>Our closest comparison will be vulture. We have a benchmark which we created. We tried to make it as realistic as possible, trying to mimic what a repo might look like. The logic and explanation behind the benchmark can be found here <a href=\"https://github.com/duriantaco/skylos-demo/blob/main/README.md\">https://github.com/duriantaco/skylos-demo/blob/main/README.md</a> </p> <h1>Links / where to follow up</h1> <ul> <li>Website: <a href=\"https://skylos.dev/\">https://skylos.dev</a></li> <li>Discord (support/bugs/features request): <a href=\"https://discord.gg/Ftn9t9tErf\">https://discord.gg/Ftn9t9tErf</a></li> <li>Repo: <a href=\"https://github.com/duriantaco/skylos\">https://github.com/duriantaco/skylos</a></li> <li>Demo Repo: <a href=\"https://github.com/duriantaco/skylos-demo\">https://github.com/duriantaco/skylos-demo</a></li> <li>Docs: <a href=\"https://docs.skylos.dev/\">https://docs.skylos.dev/</a> (We're currently updating this so there might be some downtime)</li> </ul> <p>Happy to take any constructive criticism/feedback. We do take all your feedback seriously and will continue to improve our engine. The reason why we have not expanded into other languages is because we're trying to make sure we reduce false positives as much as possible and we can only do it with your help.</p> <p>We'd love for you to try out the stuff above. If you try it and it breaks or is annoying, let us know via discord. We recently created the discord channel for more real time feedback. <strong>And give it a star if you found it useful.</strong></p> <p><strong>Last but not least, if you'll like your repo cleaned, do drop us a discord or email us at</strong> [<strong><a href=\"mailto:founder@skylos.dev\">founder@skylos.dev</a></strong>](mailto:<a href=\"mailto:founder@skylos.dev\">founder@skylos.dev</a>) <strong>. We'll be happy to work together with you.</strong></p> <p>Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/papersashimi\"> /u/papersashimi </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4zm2l/skylos_dead_code_and_vulnerabilities_detection/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4zm2l/skylos_dead_code_and_vulnerabilities_detection/\">[comments]</a></span>",
+      "author": "/u/papersashimi",
+      "published_date": "2026-02-14T23:45:19+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 682,
+      "reading_time": 3,
+      "created_at": "2026-02-15T02:25:19.264154+00:00",
+      "updated_at": "2026-02-15T04:18:01.214521+00:00",
+      "metadata": {
+        "processed_at": "2026-02-15T04:18:01.214533+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "1bfcfe7f3eb516cf61b261b96586b11c",
+      "url": "https://www.reddit.com/r/Python/comments/1r4zxx8/sunday_daily_thread_whats_everyone_working_on/",
+      "title": "Sunday Daily Thread: What's everyone working on this week?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: What's Everyone Working On This Week? \ud83d\udee0\ufe0f</h1> <p>Hello <a href=\"/r/Python\">/r/Python</a>! It's time to share what you've been working on! Whether it's a work-in-progress, a completed masterpiece, or just a rough idea, let us know what you're up to!</p> <h2>How it Works:</h2> <ol> <li><strong>Show &amp; Tell</strong>: Share your current projects, completed works, or future ideas.</li> <li><strong>Discuss</strong>: Get feedback, find collaborators, or just chat about your project.</li> <li><strong>Inspire</strong>: Your project might inspire someone else, just as you might get inspired here.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Feel free to include as many details as you'd like. Code snippets, screenshots, and links are all welcome.</li> <li>Whether it's your job, your hobby, or your passion project, all Python-related work is welcome here.</li> </ul> <h2>Example Shares:</h2> <ol> <li><strong>Machine Learning Model</strong>: Working on a ML model to predict stock prices. Just cracked a 90% accuracy rate!</li> <li><strong>Web Scraping</strong>: Built a script to scrape and analyze news articles. It's helped me understand media bias better.</li> <li><strong>Automation</strong>: Automated my home lighting with Python and Raspberry Pi. My life has never been easier!</li> </ol> <p>Let's build and grow together! Share your journey and learn from others. Happy coding! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4zxx8/sunday_daily_thread_whats_everyone_working_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4zxx8/sunday_daily_thread_whats_everyone_working_on/\">[comments]</a></span>",
+      "author": "/u/AutoModerator",
+      "published_date": "2026-02-15T00:00:31+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 211,
+      "reading_time": 1,
+      "created_at": "2026-02-15T02:25:19.264086+00:00",
+      "updated_at": "2026-02-15T04:18:01.214538+00:00",
+      "metadata": {
+        "processed_at": "2026-02-15T04:18:01.214540+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ba9e9505ac7bea48c9cd4863f1854176",
+      "url": "https://github.com/alichherawalla/off-grid-mobile",
+      "title": "Show HN: Off Grid \u2013 Run AI text, image gen, vision offline on your phone",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47019133\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-14T22:39:24+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-15T02:25:17.992530+00:00",
+      "updated_at": "2026-02-15T04:18:01.214545+00:00",
+      "metadata": {
+        "processed_at": "2026-02-15T04:18:01.214547+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ea5087e7f2d99563db7012427fe56e55",
+      "url": "https://newpipe.net/",
+      "title": "NewPipe: YouTube client without vertical videos and algorithmic feed",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47020218\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-15T01:24:16+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-15T02:25:17.992395+00:00",
+      "updated_at": "2026-02-15T04:18:01.214550+00:00",
+      "metadata": {
+        "processed_at": "2026-02-15T04:18:01.214551+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ba9e9505ac7bea48c9cd4863f1854176",
+      "url": "https://github.com/alichherawalla/off-grid-mobile",
+      "title": "Show HN: Off Grid \u2013 Run AI text, image gen, vision offline on your phone",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47019133\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-14T22:39:24+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-15T02:25:17.992530+00:00",
+      "updated_at": "2026-02-15T04:18:01.214545+00:00",
+      "metadata": {
+        "processed_at": "2026-02-15T04:18:01.214547+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ea5087e7f2d99563db7012427fe56e55",
+      "url": "https://newpipe.net/",
+      "title": "NewPipe: YouTube client without vertical videos and algorithmic feed",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47020218\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-15T01:24:16+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-15T02:25:17.992395+00:00",
+      "updated_at": "2026-02-15T04:18:01.214550+00:00",
+      "metadata": {
+        "processed_at": "2026-02-15T04:18:01.214551+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "14c9927f44a135eb9f471e87d6d42f1f",
       "url": "https://www.ncl.ac.uk/press/articles/latest/2026/02/ancientegyptiandrillbit/",
       "title": "5,300-year-old 'bow drill' rewrites story of ancient Egyptian tools",
@@ -242,126 +362,6 @@
       "updated_at": "2026-02-15T01:50:17.954320+00:00",
       "metadata": {
         "processed_at": "2026-02-15T01:50:17.954322+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f4cf3b03356fa2d21147d1b96e85d3b7",
-      "url": "https://www.reddit.com/r/Python/comments/1r4xoul/project_built_auth_for_dagster_using/",
-      "title": "[Project] Built auth for Dagster using monkey-patching, GraphQL AST parsing, and resilient UI inject",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>TL;DR:</strong> Made a Python package that adds authentication to Dagster (data orchestration tool) without touching its source code. Uses Starlette middleware monkey-patching, official GraphQL parser for RBAC, Peewee ORM, and defensive UI injection with fallbacks. ~3k lines, Apache 2.0, beta but production-tested.</p> <h1>The Problem</h1> <p>Dagster is a data orchestration framework (think Airflow alternative) that ships with <strong>zero authentication</strong>. Anyone who can reach your webserver is admin.</p> <p>I needed auth for a self-hosted deployment but didn't want to:</p> <ul> <li>Fork Dagster</li> <li>Wait for official OSS auth</li> <li>Rebuild everything when Dagster updates</li> </ul> <p><strong>Solution:</strong> Wrapper that monkey-patches Dagster's internals and injects auth without modifying their code.</p> <h1>Architecture Overview</h1> <pre><code># dagster_authkit/core/patch.py (simplified) def apply_patches(): &quot;&quot;&quot;Monkey-patch Dagster webserver to inject auth&quot;&quot;&quot; import dagster_webserver.webserver as webserver_module from starlette.middleware import Middleware # PATCH 1: Inject middleware original_build_middleware = webserver_module.DagsterWebserver.build_middleware def patched_build_middleware(self): middlewares = original_build_middleware(self) middlewares.insert(0, Middleware(DagsterAuthMiddleware)) return middlewares webserver_module.DagsterWebserver.build_middleware = patched_build_middleware # PATCH 2: Add auth routes original_build_routes = webserver_module.DagsterWebserver.build_routes def patched_build_routes(self): routes_list = original_build_routes(self) auth_routes = create_auth_routes() # /auth/login, /auth/logout routes_list.insert(0, Mount(&quot;/auth&quot;, routes=auth_routes.routes)) return routes_list webserver_module.DagsterWebserver.build_routes = patched_build_routes </code></pre> <p><strong>Why this works:</strong> Dagster uses Starlette internally. I'm just inserting my middleware before theirs runs.</p> <h1>GraphQL RBAC - The Hard Part</h1> <p>Dagster's entire API is GraphQL. I need to:</p> <ol> <li>Detect mutations (vs queries)</li> <li>Extract mutation names</li> <li>Block based on user role</li> </ol> <h1>First Attempt: Regex (Failed)</h1> <pre><code># \u274c BROKEN - False positives from comments def has_mutation_regex(query: str) -&gt; bool: return bool(re.search(r'\\bmutation\\b', query, re.IGNORECASE)) # This triggers: query = &quot;&quot;&quot; # This is a mutation example query { assets { name } } &quot;&quot;&quot; # Returns True even though it's a query, not mutation </code></pre> <h1>Real Solution: Official GraphQL Parser</h1> <pre><code># dagster_authkit/core/graphql_analyzer.py (ACTUAL CODE) from graphql import parse, OperationDefinitionNode, FieldNode from typing import Set class GraphQLMutationAnalyzer: def extract_mutation_names(query: str) -&gt; Set[str]: &quot;&quot;&quot;Extract ALL mutation field names using AST parsing&quot;&quot;&quot; try: ast = parse(query) # Official graphql-core parser mutations = set() for definition in ast.definitions: if not isinstance(definition, OperationDefinitionNode): continue if definition.operation.value != &quot;mutation&quot;: continue # Extract top-level mutation fields for selection in definition.selection_set.selections: if isinstance(selection, FieldNode): mutations.add(selection.name.value) return mutations except Exception as e: logger.warning(f&quot;Failed to parse GraphQL: {e}&quot;) return {&quot;__UNPARSEABLE_QUERY__&quot;} # Deny unparseable queries </code></pre> <h1>RBAC Permission Mapping</h1> <pre><code># dagster_authkit/auth/backends/base.py (ACTUAL CODE) class RolePermissions: &quot;&quot;&quot;Maps GraphQL mutations to required roles&quot;&quot;&quot; LAUNCHER_MUTATIONS = frozenset({ &quot;launchRun&quot;, &quot;terminateRun&quot;, &quot;deleteRun&quot;, }) EDITOR_MUTATIONS = frozenset({ &quot;startSchedule&quot;, &quot;stopSensor&quot;, &quot;wipeAssets&quot;, &quot;launchPartitionBackfill&quot;, }) ADMIN_MUTATIONS = frozenset({ &quot;reloadWorkspace&quot;, &quot;shutdownRepositoryLocation&quot;, }) u/classmethod def get_required_role(cls, mutation_name: str) -&gt; Optional[Role]: &quot;&quot;&quot;Get minimum role needed for a mutation&quot;&quot;&quot; if mutation_name in cls.LAUNCHER_MUTATIONS: return Role.LAUNCHER elif mutation_name in cls.EDITOR_MUTATIONS: return Role.EDITOR elif mutation_name in cls.ADMIN_MUTATIONS: return Role.ADMIN return None # Public mutations </code></pre> <h1>Middleware Integration</h1> <pre><code># dagster_authkit/core/middleware.py (REAL CODE, SIMPLIFIED) class DagsterAuthMiddleware(BaseHTTPMiddleware): async def dispatch(self, request: Request, call_next): # Get authenticated user (session or proxy headers) user = self._get_authenticated_user(request) if not user: return RedirectResponse(&quot;/auth/login&quot;) # GraphQL RBAC check if request.url.path == &quot;/graphql&quot; and request.method == &quot;POST&quot;: body = await request.body() graphql_data = json.loads(body.decode(&quot;utf-8&quot;)) query_str = graphql_data.get(&quot;query&quot;, &quot;&quot;) mutation_names = GraphQLMutationAnalyzer.extract_mutation_names(query_str) for mutation_name in mutation_names: required_role = RolePermissions.get_required_role(mutation_name) if required_role and not user.can(required_role): # Return Dagster-style error return Response( content=json.dumps({ &quot;data&quot;: {mutation_name: { &quot;__typename&quot;: &quot;PythonError&quot;, &quot;message&quot;: f&quot;Access Denied: {required_role.name} required&quot; }} }), status_code=200, # GraphQL always 200 media_type=&quot;application/json&quot; ) # Attach user to request request.state.user = user return await call_next(request) </code></pre> <h1>Multi-Backend System (Entry Points)</h1> <p>Instead of hardcoding backends, I use setuptools entry points:</p> <pre><code># pyproject.toml (ACTUAL CONFIG) [project.entry-points.&quot;dagster_auth.backends&quot;] dummy = &quot;dagster_authkit.auth.backends.dummy:DummyAuthBackend&quot; sql = &quot;dagster_authkit.auth.backends.sql:PeeweeAuthBackend&quot; ldap = &quot;dagster_authkit.auth.backends.ldap:LDAPAuthBackend&quot; proxy = &quot;dagster_authkit.auth.backends.proxy:ProxyAuthBackend&quot; # dagster_authkit/core/registry.py (ACTUAL CODE) from importlib.metadata import entry_points class BackendRegistry: u/classmethod def discover_backends(cls): &quot;&quot;&quot;Auto-discover backends via entry points&quot;&quot;&quot; discovered = entry_points(group=&quot;dagster_auth.backends&quot;) for entry_point in discovered: backend_class = entry_point.load() cls._backends[entry_point.name] = backend_class logger.info(f&quot;\u2705 Registered backend: {entry_point.name}&quot;) </code></pre> <p><strong>Benefit:</strong> Users can create custom backends without modifying dagster-authkit.</p> <h1>Proxy Auth Backend (Authelia Integration)</h1> <p>The newest backend (v0.3.0) reads user info from HTTP headers set by upstream proxies:</p> <pre><code># dagster_authkit/auth/backends/proxy.py (REAL CODE) class ProxyAuthBackend(AuthBackend): &quot;&quot;&quot;Reads auth from Authelia/OAuth2 Proxy headers&quot;&quot;&quot; def get_user_from_headers(self, headers: Dict[str, str]) -&gt; Optional[AuthUser]: &quot;&quot;&quot;Extract user from HTTP headers&quot;&quot;&quot; username = headers.get(self.user_header) # Remote-User if not username: return None # Parse groups (handles multiple formats) groups_raw = headers.get(self.groups_header, &quot;&quot;) # Remote-Groups groups = self._parse_groups_header(groups_raw) # Map groups to role role = self._determine_role_from_groups(groups) return AuthUser( username=username, role=role, email=headers.get(self.email_header, &quot;&quot;), full_name=headers.get(self.name_header, &quot;&quot;) or username ) def _parse_groups_header(self, groups_raw: str) -&gt; List[str]: &quot;&quot;&quot;Robust group parsing with multiple fallback strategies&quot;&quot;&quot; if not groups_raw: return [] # Strategy 1: JSON array if groups_raw.startswith(&quot;[&quot;): try: return json.loads(groups_raw) except: pass # Strategy 2: LDAP DNs (preserve internal commas) if &quot;ou=&quot; in groups_raw.lower() or &quot;dc=&quot; in groups_raw.lower(): # Split by semicolon or pipe, NOT comma for delimiter in [&quot;;&quot;, &quot;|&quot;]: if delimiter in groups_raw: return [g.strip() for g in groups_raw.split(delimiter)] return [groups_raw] # Single LDAP DN # Strategy 3: CSV return [g.strip() for g in groups_raw.split(&quot;,&quot;)] </code></pre> <p><strong>Why proxy mode?</strong> Authelia already handles SSO, LDAP, OAuth, 2FA. I just do RBAC.</p> <h1>UI Injection - Resilient Strategy</h1> <p>Injecting into Dagster's React app is fragile (CSS selectors change). Solution: <strong>multiple fallback selectors + safe mode</strong>.</p> <pre><code>// dagster_authkit/utils/templates.py -&gt; JavaScript (REAL CODE) function injectUserMenu() { // Try multiple selectors (version compatibility) const selectors = [ 'div[class*=&quot;MainNavigation_group&quot;]', // Dagster 1.12+ 'div[class*=&quot;NavigationGroup&quot;]', // Dagster 1.10-1.11 'nav[class*=&quot;Navigation&quot;]', // Generic fallback 'div[role=&quot;navigation&quot;]', // Accessibility fallback ]; let sidebarGroup = null; for (const selector of selectors) { const elements = document.querySelectorAll(selector); if (elements.length &gt; 0) { sidebarGroup = elements[elements.length - 1]; break; } } if (!sidebarGroup) { if (retryCount &lt; MAX_RETRIES) { retryCount++; setTimeout(injectUserMenu, 500); // Retry return; } // SAFE MODE: Top-right corner fallback activateSafeMode(); return; } // Clone native Dagster button classes for styling const itemButton = sidebarGroup.querySelector('button[class*=&quot;itemButton&quot;]'); createUserMenu(sidebarGroup, itemButton.className); } function activateSafeMode() { // Fallback: Top-right corner menu const fallbackMenu = document.createElement('div'); fallbackMenu.id = 'authkit-safe-mode-menu'; fallbackMenu.innerHTML = ` &lt;div class=&quot;authkit-safe-avatar&quot;&gt;${user.initial}&lt;/div&gt; &lt;div class=&quot;authkit-safe-info&quot;&gt;${user.username} (${user.role})&lt;/div&gt; &lt;a href=&quot;/auth/logout&quot;&gt;Sign Out&lt;/a&gt; `; document.body.appendChild(fallbackMenu); } </code></pre> <p><strong>Safe mode saved production deployments</strong> when Dagster 1.11 \u2192 1.12 changed CSS classes.</p> <h1>Session Management (Redis vs Stateless)</h1> <pre><code># dagster_authkit/auth/session.py (ACTUAL CODE) class SessionManager: def __init__(self): redis_url = os.getenv(&quot;DAGSTER_AUTH_REDIS_URL&quot;) if redis_url: self.backend = RedisBackend(redis_url, max_age=86400) else: self.backend = CookieBackend(secret_key, max_age=86400) def revoke_all(self, username: str) -&gt; int: &quot;&quot;&quot;Revoke all sessions for user (password change, etc)&quot;&quot;&quot; return self.backend.revoke_all(username) # Redis Backend (distributed) class RedisBackend: def create(self, user_data: Dict) -&gt; str: token = secrets.token_urlsafe(32) self.client.setex(f&quot;sess:{token}&quot;, self.max_age, json.dumps(user_data)) self.client.sadd(f&quot;user_sess:{user_data['username']}&quot;, token) return token def revoke_all(self, username: str) -&gt; int: &quot;&quot;&quot;Atomic multi-session revocation&quot;&quot;&quot; tokens = self.client.smembers(f&quot;user_sess:{username}&quot;) for t in tokens: self.client.delete(f&quot;sess:{t}&quot;) return self.client.delete(f&quot;user_sess:{username}&quot;) </code></pre> <p><strong>Critical for password changes:</strong> Must invalidate ALL sessions across all pods.</p> <h1>Compatibility Detection</h1> <pre><code># dagster_authkit/core/detection_layer.py (ACTUAL CODE) def verify_dagster_api_compatibility(): &quot;&quot;&quot;Check if Dagster's internal API changed&quot;&quot;&quot; try: import dagster_webserver.webserver as webserver_module except ImportError: return False, &quot;dagster_webserver not installed&quot; # Check critical exports if not hasattr(webserver_module, &quot;DagsterWebserver&quot;): return False, &quot;DagsterWebserver class not found - API changed!&quot; # Check critical methods webserver_class = webserver_module.DagsterWebserver required_methods = [&quot;build_middleware&quot;, &quot;build_routes&quot;] missing = [m for m in required_methods if not hasattr(webserver_class, m)] if missing: return False, f&quot;Missing methods: {missing} - Dagster API changed!&quot; return True, None </code></pre> <p><strong>Runs on startup.</strong> Prevents silent failures when Dagster updates.</p> <h1>Lessons Learned</h1> <p><strong>1. Monkey-patching requires extensive fallbacks</strong></p> <ul> <li>CSS selectors break silently</li> <li>Safe mode = production saver</li> <li>Version detection is critical</li> </ul> <p><strong>2. GraphQL AST &gt; Regex</strong></p> <ul> <li>Comments don't break parsing</li> <li>Get mutation names for granular permissions</li> <li>Better error messages</li> </ul> <p><strong>3. Entry points &gt; hardcoded backends</strong></p> <ul> <li>Users can add custom auth</li> <li>No fork needed</li> <li>Clean plugin architecture</li> </ul> <p><strong>4. Redis essential for multi-pod</strong></p> <ul> <li>In-memory sessions don't work in K8s</li> <li>Atomic operations prevent race conditions</li> <li>Pub/sub for global session revocation</li> </ul> <p><strong>5. Production users find edge cases</strong></p> <ul> <li>LDAP DN parsing needed 3 fallback strategies</li> <li>Safe mode UI saved multiple deployments</li> <li>Proxy mode exists because users already had Authelia</li> </ul> <h1>Project Info</h1> <p><strong>Python:</strong> 3.10+ (tested on 3.10, 3.11, 3.12)<br /> <strong>License:</strong> Apache 2.0<br /> <strong>Status:</strong> Beta (production-tested)</p> <p><strong>Core Dependencies:</strong></p> <ul> <li><code>dagster &gt;= 1.10.0</code></li> <li><code>starlette &gt;= 0.52.1</code></li> <li><code>peewee &gt;= 3.19.0</code> (ORM)</li> <li><code>graphql-core &gt;= 3.2.7</code> (AST parsing)</li> <li><code>itsdangerous &gt;= 2.2.0</code> (session signing)</li> </ul> <p><strong>Optional:</strong></p> <ul> <li><code>bcrypt &gt;= 5.0.0</code> (password hashing)</li> <li><code>redis &gt;= 7.1.0</code> (distributed sessions)</li> <li><code>ldap3 &gt;= 2.9.0</code> (LDAP backend)</li> <li><code>psycopg2-binary</code> / <code>mysql-connector-python</code> (database drivers)</li> </ul> <h1>Questions for <a href=\"/r/Python\">r/Python</a></h1> <p><strong>Architecture:</strong></p> <ul> <li>Is monkey-patching Starlette middleware a reasonable approach?</li> <li>Better alternatives to <code>entry_points()</code> for plugin discovery?</li> </ul> <p><strong>GraphQL:</strong></p> <ul> <li>Are there edge cases in mutation detection I'm missing?</li> <li>Better permission patterns than mutation name mapping?</li> </ul> <p><strong>Testing:</strong></p> <ul> <li>How do you test monkey-patched code across versions?</li> <li>Strategies for CSS selector compatibility testing?</li> </ul> <p><strong>Multi-tenancy:</strong></p> <ul> <li>Peewee vs SQLAlchemy for multi-backend abstraction?</li> <li>Better session backend architecture?</li> </ul> <h1>Links</h1> <ul> <li><strong>GitHub:</strong> <a href=\"https://github.com/maltzsama/dagster-authkit\">https://github.com/maltzsama/dagster-authkit</a></li> <li><strong>PyPI:</strong> <a href=\"https://pypi.org/project/dagster-authkit/\">https://pypi.org/project/dagster-authkit/</a></li> <li><strong>Examples:</strong> Full Docker Compose + Kubernetes setups</li> </ul> <p>This started as &quot;I need auth for Dagster this weekend&quot; and turned into it. Open to feedback, criticism, and PRs.</p> <p><strong>Philosophy:</strong> <em>Funciona &gt; Perfeito</em> (Works &gt; Perfect)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/maltzsama\"> /u/maltzsama </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4xoul/project_built_auth_for_dagster_using/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4xoul/project_built_auth_for_dagster_using/\">[comments]</a></span>",
-      "author": "/u/maltzsama",
-      "published_date": "2026-02-14T22:20:35+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1465,
-      "reading_time": 7,
-      "created_at": "2026-02-14T22:51:33.201748+00:00",
-      "updated_at": "2026-02-15T01:50:17.954324+00:00",
-      "metadata": {
-        "processed_at": "2026-02-15T01:50:17.954326+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fe08e1e06e320ef73f28d737f005dc92",
-      "url": "https://www.reddit.com/r/Python/comments/1r4viqt/pulled_a_pypi_package_that_was_exfiltrating_our/",
-      "title": "Pulled a PyPI package that was exfiltrating our environment variable",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Our new dev added what looked like a legit package from PyPI and it turned out to be stealing our .env files. Only caught it during code review when someone noticed weird network requests going out to some random IP.</p> <p>The package had over 50k downloads and a normal looking name so it seemed totally safe. This has me rethinking our entire approach to dependency management. We've always just pip installed whatever we needed without much verification. Now I'm realizing that's probably naive but also don't know what the alternative is.</p> <p>Scanning every package manually before install would kill our velocity. How do larger teams handle this without slowing down development?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ForexedOut\"> /u/ForexedOut </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4viqt/pulled_a_pypi_package_that_was_exfiltrating_our/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4viqt/pulled_a_pypi_package_that_was_exfiltrating_our/\">[comments]</a></span>",
-      "author": "/u/ForexedOut",
-      "published_date": "2026-02-14T20:49:20+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 132,
-      "reading_time": 1,
-      "created_at": "2026-02-14T21:48:22.035865+00:00",
-      "updated_at": "2026-02-14T22:18:24.289096+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T22:18:24.289106+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "eae2560d114159ee3ec32ed117c00cbf",
-      "url": "https://hacks.mozilla.org/2026/02/launching-interop-2026/",
-      "title": "Launching Interop 2026",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47008821\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-13T22:40:28+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-14T21:48:20.759418+00:00",
-      "updated_at": "2026-02-14T22:18:24.289109+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T22:18:24.289111+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "238db68e1560524f32309a576a62fe40",
-      "url": "https://www.fast.ai/posts/2026-01-28-dark-flow/",
-      "title": "Breaking the spell of vibe coding",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47006615\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-13T19:22:18+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-14T21:48:20.759362+00:00",
-      "updated_at": "2026-02-14T22:18:24.289113+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T22:18:24.289115+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4ac6951e0a2f27624478e1f038fc36ad",
-      "url": "https://www.nature.com/articles/s41598-026-37635-3",
-      "title": "Longitudinal modeling of Post-COVID-19 condition over three years: A machine learning approach using clinical, neuropsychological, and fluid markers",
-      "content": "",
-      "author": "",
-      "published_date": "2026-02-14T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-02-14T21:26:44.340317+00:00",
-      "updated_at": "2026-02-14T22:18:24.289117+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T22:18:24.289119+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1ded90df766fc6025f79c105530c83d8",
-      "url": "https://www.reddit.com/r/Python/comments/1r4tjl8/what_would_you_want_in_a_modern_python_testing/",
-      "title": "What would you want in a modern Python testing framework?",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Tools like uv and ruff have shown us what is possible when we take the time to rethink Python tooling, as well as implement parts in Rust for speed improvements. What would you, the community, want to see in a modern Python testing framework that could be a successor to the tried and true pytest?</p> <p>Some off the cuff ideas I think of: * Fast test discovery via Rust * Explicit fixture import (no auto discoverable conftest.py magic) * Monorepo / workspace support * Built-in parallel test execution * Built-in asyncio support</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SideQuest2026\"> /u/SideQuest2026 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4tjl8/what_would_you_want_in_a_modern_python_testing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4tjl8/what_would_you_want_in_a_modern_python_testing/\">[comments]</a></span>",
-      "author": "/u/SideQuest2026",
-      "published_date": "2026-02-14T19:29:10+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 113,
-      "reading_time": 1,
-      "created_at": "2026-02-14T21:26:06.105006+00:00",
-      "updated_at": "2026-02-14T22:18:24.289121+00:00",
-      "metadata": {
-        "processed_at": "2026-02-14T22:18:24.289122+00:00",
         "processing_method": "github_actions"
       }
     }

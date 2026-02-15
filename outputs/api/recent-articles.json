@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-15T02:26:26.694569+00:00",
+  "last_updated": "2026-02-15T04:18:01.338983+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "/u/papersashimi",
       "published_date": "2026-02-14T23:45:19+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 682,
       "reading_time": 3,
       "created_at": "2026-02-15T02:25:19.264154+00:00",
-      "updated_at": "2026-02-15T02:25:19.264156+00:00"
+      "updated_at": "2026-02-15T04:18:01.214521+00:00",
+      "metadata": {
+        "processed_at": "2026-02-15T04:18:01.214533+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "1bfcfe7f3eb516cf61b261b96586b11c",
@@ -26,13 +30,17 @@
       "author": "/u/AutoModerator",
       "published_date": "2026-02-15T00:00:31+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 211,
       "reading_time": 1,
       "created_at": "2026-02-15T02:25:19.264086+00:00",
-      "updated_at": "2026-02-15T02:25:19.264087+00:00"
+      "updated_at": "2026-02-15T04:18:01.214538+00:00",
+      "metadata": {
+        "processed_at": "2026-02-15T04:18:01.214540+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "ba9e9505ac7bea48c9cd4863f1854176",
@@ -42,13 +50,17 @@
       "author": "",
       "published_date": "2026-02-14T22:39:24+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-02-15T02:25:17.992530+00:00",
-      "updated_at": "2026-02-15T02:25:17.992531+00:00"
+      "updated_at": "2026-02-15T04:18:01.214545+00:00",
+      "metadata": {
+        "processed_at": "2026-02-15T04:18:01.214547+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "ea5087e7f2d99563db7012427fe56e55",
@@ -58,45 +70,57 @@
       "author": "",
       "published_date": "2026-02-15T01:24:16+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-02-15T02:25:17.992395+00:00",
-      "updated_at": "2026-02-15T02:25:17.992397+00:00"
+      "updated_at": "2026-02-15T04:18:01.214550+00:00",
+      "metadata": {
+        "processed_at": "2026-02-15T04:18:01.214551+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "ba9e9505ac7bea48c9cd4863f1854176",
       "url": "https://github.com/alichherawalla/off-grid-mobile",
       "title": "Show HN: Off Grid \u2013 Run AI text, image gen, vision offline on your phone",
-      "content": "<p>Your phone has a GPU more powerful than most 2018 laptops. Right now it sits idle while you pay monthly subscriptions to run AI on someone else's server, sending your conversations, your photos, your voice to companies whose privacy policy you've never read. Off Grid is an open-source app that puts that hardware to work. Text generation, image generation, vision AI, voice transcription \u2014 all running on your phone, all offline, nothing ever uploaded.<p>That means you can use AI on a flight with no wifi. In a country with internet censorship. In a hospital where cloud services are a compliance nightmare. Or just because you'd rather not have your journal entries sitting in someone's training data.<p>The tech: llama.cpp for text (15-30 tok/s, any GGUF model), Stable Diffusion for images (5-10s on Snapdragon NPU), Whisper for voice, SmolVLM/Qwen3-VL for vision. Hardware-accelerated on both Android (QNN, OpenCL) and iOS (Core ML, ANE, Metal).<p>MIT licensed. Android APK on GitHub Releases. Build from source for iOS.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47019133\">https://news.ycombinator.com/item?id=47019133</a></p>\n<p>Points: 32</p>\n<p># Comments: 7</p>",
-      "author": "ali_chherawalla",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47019133\">Comments</a>",
+      "author": "",
       "published_date": "2026-02-14T22:39:24+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 173,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-02-15T02:25:16.595460+00:00",
-      "updated_at": "2026-02-15T02:25:16.595462+00:00"
+      "created_at": "2026-02-15T02:25:17.992530+00:00",
+      "updated_at": "2026-02-15T04:18:01.214545+00:00",
+      "metadata": {
+        "processed_at": "2026-02-15T04:18:01.214547+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "ea5087e7f2d99563db7012427fe56e55",
       "url": "https://newpipe.net/",
       "title": "NewPipe: YouTube client without vertical videos and algorithmic feed",
-      "content": "<p>Article URL: <a href=\"https://newpipe.net/\">https://newpipe.net/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47020218\">https://news.ycombinator.com/item?id=47020218</a></p>\n<p>Points: 23</p>\n<p># Comments: 5</p>",
-      "author": "nvader",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47020218\">Comments</a>",
+      "author": "",
       "published_date": "2026-02-15T01:24:16+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-02-15T02:25:16.595409+00:00",
-      "updated_at": "2026-02-15T02:25:16.595417+00:00"
+      "created_at": "2026-02-15T02:25:17.992395+00:00",
+      "updated_at": "2026-02-15T04:18:01.214550+00:00",
+      "metadata": {
+        "processed_at": "2026-02-15T04:18:01.214551+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "14c9927f44a135eb9f471e87d6d42f1f",
