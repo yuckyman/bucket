@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T02:12:11.430707+00:00",
+  "last_updated": "2026-02-17T04:14:30.188137+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "",
       "published_date": "2026-02-17T00:00:00+00:00",
       "source": "Nature Neuroscience Subjects",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 0,
       "reading_time": 1,
       "created_at": "2026-02-17T02:11:37.932898+00:00",
-      "updated_at": "2026-02-17T02:11:37.932900+00:00"
+      "updated_at": "2026-02-17T04:14:30.062870+00:00",
+      "metadata": {
+        "processed_at": "2026-02-17T04:14:30.062881+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "fd5d84fe846546125bf2d75d62125e9a",
@@ -26,13 +30,17 @@
       "author": "",
       "published_date": "2026-02-17T00:00:00+00:00",
       "source": "Nature Neuroscience Subjects",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 0,
       "reading_time": 1,
       "created_at": "2026-02-17T02:11:37.932873+00:00",
-      "updated_at": "2026-02-17T02:11:37.932877+00:00"
+      "updated_at": "2026-02-17T04:14:30.062885+00:00",
+      "metadata": {
+        "processed_at": "2026-02-17T04:14:30.062887+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "15a5359f1c10d938bbd3017ba62c20dd",
@@ -42,13 +50,17 @@
       "author": "/u/Ok-Potential2552",
       "published_date": "2026-02-16T20:25:40+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 190,
       "reading_time": 1,
       "created_at": "2026-02-17T02:10:58.303148+00:00",
-      "updated_at": "2026-02-17T02:10:58.303150+00:00"
+      "updated_at": "2026-02-17T04:14:30.062889+00:00",
+      "metadata": {
+        "processed_at": "2026-02-17T04:14:30.062891+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "2102e3b0cb06409f044d84322f2c34f3",
@@ -58,13 +70,17 @@
       "author": "/u/AutoModerator",
       "published_date": "2026-02-17T00:00:31+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 288,
       "reading_time": 1,
       "created_at": "2026-02-17T02:10:58.303085+00:00",
-      "updated_at": "2026-02-17T02:10:58.303087+00:00"
+      "updated_at": "2026-02-17T04:14:30.062893+00:00",
+      "metadata": {
+        "processed_at": "2026-02-17T04:14:30.062895+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "33a80698f55e29b66589c293edcf8858",
@@ -74,13 +90,17 @@
       "author": "",
       "published_date": "2026-02-17T00:06:20+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-02-17T02:10:57.070203+00:00",
-      "updated_at": "2026-02-17T02:10:57.070205+00:00"
+      "updated_at": "2026-02-17T04:14:30.062899+00:00",
+      "metadata": {
+        "processed_at": "2026-02-17T04:14:30.062901+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "d9669953bf63928d8ea5a33147a9bbe9",
@@ -198,17 +218,21 @@
       "id": "33a80698f55e29b66589c293edcf8858",
       "url": "https://github.com/enjector/microgpt-c",
       "title": "Show HN: Andrej Karpathy's microgpt.py to C99 microgpt.c \u2013 4,600x faster",
-      "content": "<p>Andrej Karpathy showed us the GPT algorithm. I wanted to see the hardware limit.<p>The Punchline: I made it go 4,600x faster in pure C code, no dependencies and using a compiler with SIMD auto-vectorisation!!!<p>Andrej recently released microgpt.py - a brilliant, atomic look at the core of a GPT. As a low-latency developer, I couldn't resist seeing how fast it could go when you get closer to the metal.<p>So just for funzies, I spent a few hours building microgpt-c, a zero-dependency and pure C99 implementation featuring:<p>- 4,600x Faster training vs the Python reference (Tested on MacBook Pro M2 Max). On Windows, it is 2,300x faster.\n- SIMD Auto-vectorisation for high-speed matrix operations.\n- INT8 Quantisation (reducing weight storage by ~8x). Training is slightly slower, but the storage reduction is significant.<p>- Zero Dependencies - just pure logic.<p>The amalgamation image below is just for fun (and to show off the density!), but the GitHub repo contains the fully commented, structured code for anyone who wants to play with on-device AI.<p>I have started to build something useful, like a simple C code static analyser - I will do a follow-up post.<p>Everything else is just efficiency... but efficiency is where the magic happens</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47042014\">https://news.ycombinator.com/item?id=47042014</a></p>\n<p>Points: 41</p>\n<p># Comments: 4</p>",
-      "author": "Ajay__soni",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47042014\">Comments</a>",
+      "author": "",
       "published_date": "2026-02-17T00:06:20+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 209,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-02-17T02:10:55.954612+00:00",
-      "updated_at": "2026-02-17T02:10:55.954614+00:00"
+      "created_at": "2026-02-17T02:10:57.070203+00:00",
+      "updated_at": "2026-02-17T04:14:30.062899+00:00",
+      "metadata": {
+        "processed_at": "2026-02-17T04:14:30.062901+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "90aa7e5c90c04dfacd6eb4fd71db65fc",
