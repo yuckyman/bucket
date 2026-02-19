@@ -1,8 +1,72 @@
 {
-  "last_updated": "2026-02-19T16:44:52.325827+00:00",
-  "pending_count": 737,
-  "processed_count": 263,
+  "last_updated": "2026-02-19T18:47:10.416363+00:00",
+  "pending_count": 738,
+  "processed_count": 262,
   "pending_articles": [
+    {
+      "id": "92507dcbf9cfe9d132272e35c0ee2d68",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+      "title": "Gemini 3.1",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47075318\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-19T16:14:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-19T16:55:00.836439+00:00",
+      "updated_at": "2026-02-19T16:55:00.836441+00:00"
+    },
+    {
+      "id": "08c90071292fda0c4f9b34e968da473b",
+      "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+      "title": "Measuring AI agent autonomy in practice",
+      "content": "<p>Article URL: <a href=\"https://www.anthropic.com/research/measuring-agent-autonomy\">https://www.anthropic.com/research/measuring-agent-autonomy</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47073947\">https://news.ycombinator.com/item?id=47073947</a></p>\n<p>Points: 15</p>\n<p># Comments: 5</p>",
+      "author": "jbredeche",
+      "published_date": "2026-02-19T14:14:14+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-19T16:54:59.441191+00:00",
+      "updated_at": "2026-02-19T16:54:59.441193+00:00"
+    },
+    {
+      "id": "599134a3e9871157871e937e1a0d5941",
+      "url": "https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/gemini-3.1-pro-preview?pli=1",
+      "title": "Gemini 3.1 Pro Preview",
+      "content": "<p>Article URL: <a href=\"https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/gemini-3.1-pro-preview?pli=1\">https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/gemini-3.1-pro-preview?pli=1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47074735\">https://news.ycombinator.com/item?id=47074735</a></p>\n<p>Points: 73</p>\n<p># Comments: 39</p>",
+      "author": "MallocVoidstar",
+      "published_date": "2026-02-19T15:19:57+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-19T16:54:59.441128+00:00",
+      "updated_at": "2026-02-19T16:54:59.441129+00:00"
+    },
+    {
+      "id": "92507dcbf9cfe9d132272e35c0ee2d68",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+      "title": "Gemini 3.1",
+      "content": "<p>Article URL: <a href=\"https://deepmind.google/models/model-cards/gemini-3-1-pro/\">https://deepmind.google/models/model-cards/gemini-3-1-pro/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47075318\">https://news.ycombinator.com/item?id=47075318</a></p>\n<p>Points: 116</p>\n<p># Comments: 36</p>",
+      "author": "PunchTornado",
+      "published_date": "2026-02-19T16:14:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-19T16:54:59.441037+00:00",
+      "updated_at": "2026-02-19T16:54:59.441040+00:00"
+    },
     {
       "id": "fa1d0f010faffd57c3e24bd028de2a67",
       "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae3e17",
@@ -98,73 +162,169 @@
       "reading_time": 1,
       "created_at": "2026-02-19T14:49:50.118177+00:00",
       "updated_at": "2026-02-19T14:49:50.118179+00:00"
+    }
+  ],
+  "recently_processed": [
+    {
+      "id": "b4e3d1e16c033c290a5d88f748c803f5",
+      "url": "https://www.forth.org/svfig/Len/arrays.htm",
+      "title": "Arrays in Forth",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47022527\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-15T10:08:27+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-19T17:51:32.453155+00:00",
+      "updated_at": "2026-02-19T18:47:10.300116+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T18:47:10.300125+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "9cca9b063325adfae2bca010bfcc049d",
-      "url": "https://signatory.app/#famous-signatures",
-      "title": "Famous Signatures Through History",
-      "content": "<p>Article URL: <a href=\"https://signatory.app/#famous-signatures\">https://signatory.app/#famous-signatures</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47073684\">https://news.ycombinator.com/item?id=47073684</a></p>\n<p>Points: 9</p>\n<p># Comments: 5</p>",
-      "author": "elliotbnvl",
-      "published_date": "2026-02-19T13:49:49+00:00",
+      "id": "564c04229e2802ab27bba853a49ea3ac",
+      "url": "https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0",
+      "title": "Mark Zuckerberg Grilled on Usage Goals and Underage Users at California Trial",
+      "content": "<p>Article URL: <a href=\"https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0\">https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47075245\">https://news.ycombinator.com/item?id=47075245</a></p>\n<p>Points: 26</p>\n<p># Comments: 1</p>",
+      "author": "1vuio0pswjnm7",
+      "published_date": "2026-02-19T16:07:14+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 13,
       "reading_time": 1,
-      "created_at": "2026-02-19T14:49:50.118155+00:00",
-      "updated_at": "2026-02-19T14:49:50.118157+00:00"
+      "created_at": "2026-02-19T17:51:31.076830+00:00",
+      "updated_at": "2026-02-19T18:47:10.300130+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T18:47:10.300131+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "cd63ca3508c88589caeda9fd07ff9b26",
-      "url": "https://news.ycombinator.com/item?id=47073838",
-      "title": "Ask HN: How do you employ LLMs for UI development?",
-      "content": "<p>I have found a workflow that makes Claude a fantastic companion for most of the work involved in fullstack web development. The exception I find to be the most significant limitatipn to productive potential however, is interface development and UX. Curious to hear if anyone has relevant experience, or found any good approaches to this?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47073838\">https://news.ycombinator.com/item?id=47073838</a></p>\n<p>Points: 12</p>\n<p># Comments: 2</p>",
-      "author": "jensmtg",
-      "published_date": "2026-02-19T14:04:44+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 66,
-      "reading_time": 1,
-      "created_at": "2026-02-19T14:49:50.118124+00:00",
-      "updated_at": "2026-02-19T14:49:50.118132+00:00"
-    },
-    {
-      "id": "9b1f7ce7ba57e2ab5ace836d401490bc",
-      "url": "https://kodiak64.co.uk/blog/seawolves-technical-tricks",
-      "title": "Coding Tricks Used in the C64 Game Seawolves",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47073044\">Comments</a>",
+      "id": "0f89c79813a0e0e7f18c7da417b86a09",
+      "url": "https://micasa.dev",
+      "title": "Show HN: Micasa \u2013 track your house from the terminal",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47075124\">Comments</a>",
       "author": "",
-      "published_date": "2026-02-19T12:24:33+00:00",
+      "published_date": "2026-02-19T15:54:14+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-02-19T13:38:56.849026+00:00",
-      "updated_at": "2026-02-19T13:38:56.849028+00:00"
+      "created_at": "2026-02-19T16:55:00.836538+00:00",
+      "updated_at": "2026-02-19T18:47:10.300136+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T18:47:10.300138+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "008475ec62236c4682b32c13877ace90",
-      "url": "https://oban.pro/articles/bridging-with-oban",
-      "title": "Bridging Elixir and Python with Oban",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47072539\">Comments</a>",
+      "id": "aada1ab3350472287c128f3f11eb6e7d",
+      "url": "https://borischerny.com/food/2022/01/17/Dinosaur-food.html",
+      "title": "Dinosaur Food: 100M year old foods we still eat today",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47074869\">Comments</a>",
       "author": "",
-      "published_date": "2026-02-19T11:07:15+00:00",
+      "published_date": "2026-02-19T15:30:42+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-02-19T13:38:56.849007+00:00",
-      "updated_at": "2026-02-19T13:38:56.849008+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-02-19T16:55:00.836500+00:00",
+      "updated_at": "2026-02-19T18:47:10.300140+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T18:47:10.300142+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6cbf3307175df9664f2973a643daceab",
+      "url": "https://weberdominik.com/blog/ai-coding-enjoyable/",
+      "title": "AI made coding more enjoyable",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47075400\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-19T16:20:26+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-19T16:55:00.836460+00:00",
+      "updated_at": "2026-02-19T18:47:10.300144+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T18:47:10.300145+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "aada1ab3350472287c128f3f11eb6e7d",
+      "url": "https://borischerny.com/food/2022/01/17/Dinosaur-food.html",
+      "title": "Dinosaur Food: 100M year old foods we still eat today",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47074869\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-19T15:30:42+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-19T16:55:00.836500+00:00",
+      "updated_at": "2026-02-19T18:47:10.300140+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T18:47:10.300142+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "0f89c79813a0e0e7f18c7da417b86a09",
+      "url": "https://micasa.dev",
+      "title": "Show HN: Micasa \u2013 track your house from the terminal",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47075124\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-19T15:54:14+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-19T16:55:00.836538+00:00",
+      "updated_at": "2026-02-19T18:47:10.300136+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T18:47:10.300138+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6cbf3307175df9664f2973a643daceab",
+      "url": "https://weberdominik.com/blog/ai-coding-enjoyable/",
+      "title": "AI made coding more enjoyable",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47075400\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-19T16:20:26+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-19T16:55:00.836460+00:00",
+      "updated_at": "2026-02-19T18:47:10.300144+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T18:47:10.300145+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "3acf4d0fb71d138094d372549a98f13c",
       "url": "https://www.biorxiv.org/content/10.64898/2026.02.17.706430v1?rss=1",
@@ -202,166 +362,6 @@
       "updated_at": "2026-02-19T16:44:52.205794+00:00",
       "metadata": {
         "processed_at": "2026-02-19T16:44:52.205796+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "cabcba1644b3785500d325513965c77b",
-      "url": "https://clang.llvm.org/docs/BoundsSafety.html",
-      "title": "-fbounds-safety: Enforcing bounds safety for C",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47035088\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-16T14:05:21+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-19T15:50:49.657107+00:00",
-      "updated_at": "2026-02-19T16:44:52.205799+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T16:44:52.205800+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "efe4cfabbadcb9affd23cc39c509b413",
-      "url": "https://www.governance.fyi/p/america-vs-singapore-you-cant-save",
-      "title": "America vs. Singapore: You Can't Save Your Way Out of Economic Shocks",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47074389\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-19T14:52:18+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-19T15:50:49.657019+00:00",
-      "updated_at": "2026-02-19T16:44:52.205803+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T16:44:52.205804+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c13a701a2d310ab313740509d9758ebf",
-      "url": "https://journals.sagepub.com/doi/10.1177/26339137261421577",
-      "title": "Against Theory-Motivated Experimentation",
-      "content": "<p>Article URL: <a href=\"https://journals.sagepub.com/doi/10.1177/26339137261421577\">https://journals.sagepub.com/doi/10.1177/26339137261421577</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47074083\">https://news.ycombinator.com/item?id=47074083</a></p>\n<p>Points: 7</p>\n<p># Comments: 2</p>",
-      "author": "paraschopra",
-      "published_date": "2026-02-19T14:26:20+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-19T15:50:48.341814+00:00",
-      "updated_at": "2026-02-19T16:44:52.205807+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T16:44:52.205808+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "efe4cfabbadcb9affd23cc39c509b413",
-      "url": "https://www.governance.fyi/p/america-vs-singapore-you-cant-save",
-      "title": "America vs. Singapore: You Can't Save Your Way Out of Economic Shocks",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47074389\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-19T14:52:18+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-19T15:50:49.657019+00:00",
-      "updated_at": "2026-02-19T16:44:52.205803+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T16:44:52.205804+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "aca9543e213c08180d430f83aa885bac",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001041?dgcid=rss_sd_all",
-      "title": "Diosgenin prevents alcohol-induced intensification of seizures, psychiatric comorbidities, and their neuropathological consequences in kindled epileptic mice",
-      "content": "<p>Publication date: 6 April 2026</p><p><b>Source:</b> Neuroscience, Volume 599</p><p>Author(s): Benneth Ben-Azu, Emmanuel O. Chidebe, Bienose S. Chijioke, Daniel T. Esuku, Benjamin Oritsemuelebi, Jackson E. Onuelu, Prosper Iwhiwhu, Obukohwo M. Oyovwi, Joseph O.T. Emudainohwo, Christian I. Uruaka, Abayomi M. Ajayi</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 38,
-      "reading_time": 1,
-      "created_at": "2026-02-19T13:39:43.994069+00:00",
-      "updated_at": "2026-02-19T14:43:12.334790+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T14:43:12.334799+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "78d2f724c52ff966920db2180be446d1",
-      "url": "https://www.sciencedirect.com/science/article/pii/S030645222600103X?dgcid=rss_sd_all",
-      "title": "Effects of single/dual-target transcranial alternating current stimulation on working memory in healthy individuals",
-      "content": "<p>Publication date: 6 April 2026</p><p><b>Source:</b> Neuroscience, Volume 599</p><p>Author(s): Shuyan Zhou, Boyu Zhang, Yulan Gao, Bin Yu, Kangling Wang</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 18,
-      "reading_time": 1,
-      "created_at": "2026-02-19T13:39:43.994048+00:00",
-      "updated_at": "2026-02-19T14:43:12.334803+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T14:43:12.334805+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5ca3ada5dd74c6e5a4deb1cd885ec318",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226000977?dgcid=rss_sd_all",
-      "title": "The moderating role of psychological resilience on brain aging and PTSD in a community sample of South African women",
-      "content": "<p>Publication date: 6 April 2026</p><p><b>Source:</b> Neuroscience, Volume 599</p><p>Author(s): E.Kate Webb, Sheri-Michelle Koopowitz, Jonathan Ipser, Nastassja Koen, Marilyn T. Lake, Nadia Hoffman, Heather J. Zar, Kerry J. Ressler, Nathaniel G. Harnett, Dan J. Stein</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 33,
-      "reading_time": 1,
-      "created_at": "2026-02-19T13:39:43.994027+00:00",
-      "updated_at": "2026-02-19T14:43:12.334808+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T14:43:12.334809+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7b3325077920a44e4c3d59c268ed3bd9",
-      "url": "https://pagedout.institute/download/PagedOut_008.pdf",
-      "title": "Paged Out Issue #8 [pdf]",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47072968\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-19T12:13:44+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-19T13:38:56.849066+00:00",
-      "updated_at": "2026-02-19T14:43:12.334812+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T14:43:12.334813+00:00",
         "processing_method": "github_actions"
       }
     }
