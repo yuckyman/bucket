@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-02-19T16:56:07.862669+00:00",
+  "last_updated": "2026-02-19T17:52:37.796958+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "b4e3d1e16c033c290a5d88f748c803f5",
+      "url": "https://www.forth.org/svfig/Len/arrays.htm",
+      "title": "Arrays in Forth",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47022527\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-15T10:08:27+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-19T17:51:32.453155+00:00",
+      "updated_at": "2026-02-19T17:51:32.453157+00:00"
+    },
+    {
+      "id": "564c04229e2802ab27bba853a49ea3ac",
+      "url": "https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0",
+      "title": "Mark Zuckerberg Grilled on Usage Goals and Underage Users at California Trial",
+      "content": "<p>Article URL: <a href=\"https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0\">https://www.wsj.com/us-news/law/meta-mark-zuckerberg-social-media-trial-0e9a7fa0</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47075245\">https://news.ycombinator.com/item?id=47075245</a></p>\n<p>Points: 26</p>\n<p># Comments: 1</p>",
+      "author": "1vuio0pswjnm7",
+      "published_date": "2026-02-19T16:07:14+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-19T17:51:31.076830+00:00",
+      "updated_at": "2026-02-19T17:51:31.076832+00:00"
+    },
     {
       "id": "0f89c79813a0e0e7f18c7da417b86a09",
       "url": "https://micasa.dev",
@@ -313,38 +345,6 @@
       "reading_time": 1,
       "created_at": "2026-02-19T14:50:15.148311+00:00",
       "updated_at": "2026-02-19T14:50:15.148313+00:00"
-    },
-    {
-      "id": "5be19171adb76d4c4ea5bdc5a3a8b69a",
-      "url": "https://www.reddit.com/r/Python/comments/1r8yq01/update_on_pynote_progress/",
-      "title": "Update on PyNote progress",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys,</p> <p>About 2 weeks ago I showcased, for the first time, the interactive python notebook environment I am building called <a href=\"https://pynote-notebook.vercel.app/\">PyNote</a>.</p> <p>I have been sinking more time into PyNote and there has been a lot of progress. In the lead up to the first release (open-source), for those who may be interested or are following, here's an update:</p> <h1>Editors</h1> <p>Both the code cells and the WYSIWYG markdown cells have been packed with nice features.</p> <p><strong>Code editor:</strong></p> <ul> <li>Autocomplete suggestions with type info</li> <li>Function signature help while typing</li> <li>Multi-cursor support and multi-selection editing <ul> <li>Bracket matching and auto-closing</li> <li>Match selection highlighting</li> <li>Multi-match selection</li> </ul></li> <li>Find and replace</li> <li>Duplicate line/selection</li> <li>Line/selection operations (move up/down, delete line)</li> <li>Tooltips for hover info about modules, functions, classes, and variables</li> <li>Fixes and optimizations</li> </ul> <p><strong>Markdown editor:</strong></p> <ul> <li>Show/hide format toolbar for power users</li> <li>Adjustments to handling of standard markdown so documents created with other tools still look good when loaded in PyNote</li> <li>Now supports video so you can put videos in the markdown cells</li> <li>NEW caption element that allows adding captions to tables, images, etc</li> </ul> <h1>App</h1> <p>Tons of fixes and improvements made. I have been using PyNote for my own notes and work as much as possible to really get this thing to be intuitive, easy, and nice to use.</p> <p><strong>pynote_ui (for building widgets and more):</strong></p> <ul> <li>Added 8 more UI elements (mostly input components): Select, Checkbox, Toggle, Input, TextArea, Form, Button, Upload</li> <li>Full integration with PyNote's theming system</li> <li><strong>Full reactivity</strong> for all component properties this means that the components will immediately render any change in the value of any argument.</li> <li>Extra features: size presets, theme-based color options, border styles, background color, show/hide functionality</li> <li>Form submission handling support</li> <li><strong>New</strong> <code>.options()</code> <strong>method</strong> for all 11 components - cleaner post-initialization property updates with method chaining support (im glad this idea occurred to me)</li> <li>Upload component allows uploading local file content directly into python</li> </ul> <p><strong>app ui:</strong></p> <ul> <li><a href=\"https://pynote-notebook.vercel.app/?open=tutorial\">Updated tutorials</a></li> <li>Code visibility options can now be applied to individual code cells. This means you can hide the code or output for an individual cell rather than just for all cells.</li> <li>Built-in themes. PyNote gives you the ability to customize the look of the app and/or notebooks. I created a few template notebooks that have themes inspired by different sites. I then decided to create a way to inject/add these themes to any open notebook. I plan to add a selector to the theme configuration dialog that will allow you to apply one of these themes (even just as a customization starting point if you want to tweak them to your liking). The two new themes are: <a href=\"https://pynote-notebook.vercel.app/?theme=lucide_dark\">lucide_dark</a>, <a href=\"https://pynote-notebook.vercel.app/?theme=magic_dark\">magic_dark</a></li> <li>Built-in quiet mode where visual UI highlighting/accenting is eliminated giving an editing experience that looks like a document editor.</li> <li>Added two more content width options: wide and full-width. This changes the width of all the cells and content inside.</li> </ul> <p>I am also working on an educational series of notebooks that I will make a post about soon!</p> <p>Thank you to those who have taken interest in this project and are keeping tabs and communicating with me!</p> <p>Oh, and here is the <a href=\"https://github.com/bouzidanas/pynote-notebook-editor\">github</a> for those hearing about PyNote for the first time.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bezdazen\"> /u/bezdazen </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r8yq01/update_on_pynote_progress/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r8yq01/update_on_pynote_progress/\">[comments]</a></span>",
-      "author": "/u/bezdazen",
-      "published_date": "2026-02-19T13:06:41+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 559,
-      "reading_time": 2,
-      "created_at": "2026-02-19T14:49:52.632556+00:00",
-      "updated_at": "2026-02-19T14:49:52.632558+00:00"
-    },
-    {
-      "id": "9cca9b063325adfae2bca010bfcc049d",
-      "url": "https://signatory.app/#famous-signatures",
-      "title": "Famous Signatures Through History",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47073684\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-19T13:49:49+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-19T14:49:51.407441+00:00",
-      "updated_at": "2026-02-19T14:49:51.407443+00:00"
     }
   ]
 }
