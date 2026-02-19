@@ -1,5 +1,133 @@
 [
   {
+    "id": "fa1d0f010faffd57c3e24bd028de2a67",
+    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae3e17",
+    "title": "A study of cortical activation and corticomuscular coupling enhancement following pre-task electrical stimulation in motor imagery",
+    "content": "Objective. Motor imagery (MI)-based brain-computer interfaces have been extensively studied. However, their widespread application is limited by the difficulty in extracting motor intentions from electroencephalography (EEG) signals, leading to low recognition rates. Additionally, the phenomenon of MI blindness in some individuals further limits its applicability. Previous studies have attempted to improve MI ability through electrical stimulation (ES). However, applying ES during MI may introduce EEG artifacts and interfere with participants\u2019 concentration. The goal of this study is to investigate a new experimental paradigm. The new experimental paradigm improves MI ability through pre-task ES while preventing participant distraction or EEG artifacts. Approach. This study implemented two paradigms: MI with pre-task ES and MI-only. Electrical stimulation was applied over hand muscle groups. Electromyography (EMG) and 64-channel EEG signals were simultaneously recorded under two experimental conditions. Main results. We analyzed cortical activities and correlations between different brain regions under the two experimental conditions. Participants in the MI-ES condition exhibited a higher level of brain activation compared to the MI-Only condition. Additionally, in the MI-ES condition, the correlation between participants\u2019 EEG and EMG signals increased after ES, indicating that the activation level of the motor-related cortex increased. A novel convolutional spiking neural network was applied to classify motor intentions, with participants achieving higher accuracy under the MI-ES condition, demonstrating enhanced MI ability through pre-task ES. Significance. This research demonstrates that pre-task ES significantly enhances MI ability, while also increasing cortical activation and corticomuscular coupling without introducing EEG artifacts or attentional interference.",
+    "author": "Xiaoyang Suo, Weida Li, Xiaojian Liao, Yuli Wu and Hongmiao Zhang",
+    "published_date": "2026-02-10T00:00:00+00:00",
+    "source": "Journal Neural Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 247,
+    "reading_time": 1,
+    "created_at": "2026-02-19T14:50:15.148353+00:00",
+    "updated_at": "2026-02-19T14:50:15.148354+00:00"
+  },
+  {
+    "id": "257d3b4ab2878616f433a4605df67904",
+    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae3d66",
+    "title": "A physics-based rigid-body model of motion-induced electromagnetic harmonic artifacts in surface biosignals",
+    "content": "Motion-induced electromagnetic interference remains a major obstacle to the accurate interpretation of surface-recorded biosignals collected during movement. This study presented a physics-based rigid-body model that integrated electromagnetic theory with a kinematic framework to describe the generation of motion-induced artifacts in surface biosignals through electromagnetic induction. The model was derived from Faraday\u2019s law and a 6D rigid-body kinematic formulation, which coupled rotational and translational motion to spatial magnetic-field gradients and curvature. This formulation predicted that any conductive loop moving within a nonuniform magnetic field produced a time-varying electromotive force (EMF) determined by the interaction between motion, field geometry, and sensor orientation. To illustrate and validate the theoretical model, computational simulations reproduced treadmill locomotion under two conditions: (1) an idealized fixed-cadence case with time-invariant field gradients, and (2) a realistic varying-cadence case incorporating stride-to-stride jitter and event-related spectral perturbation baseline correction. The simulated EMF spectra exhibited motion-locked harmonic patterns extending up to 15 Hz with electrode-dependent variations in magnitude and broadened harmonic envelopes, closely matching empirical treadmill electroencephalography spectra. Accelerometer spectra displayed broader harmonic content up to 50 Hz, consistent with their direct measurement of kinematic oscillations. Quantitative decomposition further revealed that rotational motion dominated the induced EMF, with smaller, electrode-dependent contributions from translation. Robustness analyses indicated that dominant harmonic structure is preserved under multi-axis kinematics and increased magnetic-field complexity, with greater sensitivity confined to weaker higher-order components. These results demonstrated that harmonic contamination could emerge naturally from rigid-body motion in a spatially varying magnetic field, providing a physics-based foundation for interpreting motion artifacts in surface electrical potentials and motivating practical mitigation strategies that incorporate motion and magnetic-field measurements. Through principled understanding and physics-based modeling of motion-induced electromagnetic artifacts, this framework supports interpretation of surface biosignals during movement and motivates the development of mitigation algorithms.",
+    "author": "Hyuk Oh",
+    "published_date": "2026-02-10T00:00:00+00:00",
+    "source": "Journal Neural Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 293,
+    "reading_time": 1,
+    "created_at": "2026-02-19T14:50:15.148311+00:00",
+    "updated_at": "2026-02-19T14:50:15.148313+00:00"
+  },
+  {
+    "id": "5be19171adb76d4c4ea5bdc5a3a8b69a",
+    "url": "https://www.reddit.com/r/Python/comments/1r8yq01/update_on_pynote_progress/",
+    "title": "Update on PyNote progress",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys,</p> <p>About 2 weeks ago I showcased, for the first time, the interactive python notebook environment I am building called <a href=\"https://pynote-notebook.vercel.app/\">PyNote</a>.</p> <p>I have been sinking more time into PyNote and there has been a lot of progress. In the lead up to the first release (open-source), for those who may be interested or are following, here's an update:</p> <h1>Editors</h1> <p>Both the code cells and the WYSIWYG markdown cells have been packed with nice features.</p> <p><strong>Code editor:</strong></p> <ul> <li>Autocomplete suggestions with type info</li> <li>Function signature help while typing</li> <li>Multi-cursor support and multi-selection editing <ul> <li>Bracket matching and auto-closing</li> <li>Match selection highlighting</li> <li>Multi-match selection</li> </ul></li> <li>Find and replace</li> <li>Duplicate line/selection</li> <li>Line/selection operations (move up/down, delete line)</li> <li>Tooltips for hover info about modules, functions, classes, and variables</li> <li>Fixes and optimizations</li> </ul> <p><strong>Markdown editor:</strong></p> <ul> <li>Show/hide format toolbar for power users</li> <li>Adjustments to handling of standard markdown so documents created with other tools still look good when loaded in PyNote</li> <li>Now supports video so you can put videos in the markdown cells</li> <li>NEW caption element that allows adding captions to tables, images, etc</li> </ul> <h1>App</h1> <p>Tons of fixes and improvements made. I have been using PyNote for my own notes and work as much as possible to really get this thing to be intuitive, easy, and nice to use.</p> <p><strong>pynote_ui (for building widgets and more):</strong></p> <ul> <li>Added 8 more UI elements (mostly input components): Select, Checkbox, Toggle, Input, TextArea, Form, Button, Upload</li> <li>Full integration with PyNote's theming system</li> <li><strong>Full reactivity</strong> for all component properties this means that the components will immediately render any change in the value of any argument.</li> <li>Extra features: size presets, theme-based color options, border styles, background color, show/hide functionality</li> <li>Form submission handling support</li> <li><strong>New</strong> <code>.options()</code> <strong>method</strong> for all 11 components - cleaner post-initialization property updates with method chaining support (im glad this idea occurred to me)</li> <li>Upload component allows uploading local file content directly into python</li> </ul> <p><strong>app ui:</strong></p> <ul> <li><a href=\"https://pynote-notebook.vercel.app/?open=tutorial\">Updated tutorials</a></li> <li>Code visibility options can now be applied to individual code cells. This means you can hide the code or output for an individual cell rather than just for all cells.</li> <li>Built-in themes. PyNote gives you the ability to customize the look of the app and/or notebooks. I created a few template notebooks that have themes inspired by different sites. I then decided to create a way to inject/add these themes to any open notebook. I plan to add a selector to the theme configuration dialog that will allow you to apply one of these themes (even just as a customization starting point if you want to tweak them to your liking). The two new themes are: <a href=\"https://pynote-notebook.vercel.app/?theme=lucide_dark\">lucide_dark</a>, <a href=\"https://pynote-notebook.vercel.app/?theme=magic_dark\">magic_dark</a></li> <li>Built-in quiet mode where visual UI highlighting/accenting is eliminated giving an editing experience that looks like a document editor.</li> <li>Added two more content width options: wide and full-width. This changes the width of all the cells and content inside.</li> </ul> <p>I am also working on an educational series of notebooks that I will make a post about soon!</p> <p>Thank you to those who have taken interest in this project and are keeping tabs and communicating with me!</p> <p>Oh, and here is the <a href=\"https://github.com/bouzidanas/pynote-notebook-editor\">github</a> for those hearing about PyNote for the first time.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/bezdazen\"> /u/bezdazen </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r8yq01/update_on_pynote_progress/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r8yq01/update_on_pynote_progress/\">[comments]</a></span>",
+    "author": "/u/bezdazen",
+    "published_date": "2026-02-19T13:06:41+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 559,
+    "reading_time": 2,
+    "created_at": "2026-02-19T14:49:52.632556+00:00",
+    "updated_at": "2026-02-19T14:49:52.632558+00:00"
+  },
+  {
+    "id": "9cca9b063325adfae2bca010bfcc049d",
+    "url": "https://signatory.app/#famous-signatures",
+    "title": "Famous Signatures Through History",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47073684\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-19T13:49:49+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-19T14:49:51.407441+00:00",
+    "updated_at": "2026-02-19T14:49:51.407443+00:00"
+  },
+  {
+    "id": "d6112b4d7a8cf4f7aba60b11c8d7f50d",
+    "url": "https://www.sandordargo.com/blog/2026/02/18/cpp26-std_is_within_lifetime",
+    "title": "C++26: Std:Is_within_lifetime",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47073663\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-19T13:47:30+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-19T14:49:51.407305+00:00",
+    "updated_at": "2026-02-19T14:49:51.407307+00:00"
+  },
+  {
+    "id": "d6112b4d7a8cf4f7aba60b11c8d7f50d",
+    "url": "https://www.sandordargo.com/blog/2026/02/18/cpp26-std_is_within_lifetime",
+    "title": "C++26: Std:Is_within_lifetime",
+    "content": "<p>Article URL: <a href=\"https://www.sandordargo.com/blog/2026/02/18/cpp26-std_is_within_lifetime\">https://www.sandordargo.com/blog/2026/02/18/cpp26-std_is_within_lifetime</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47073663\">https://news.ycombinator.com/item?id=47073663</a></p>\n<p>Points: 22</p>\n<p># Comments: 4</p>",
+    "author": "ibobev",
+    "published_date": "2026-02-19T13:47:30+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-02-19T14:49:50.118177+00:00",
+    "updated_at": "2026-02-19T14:49:50.118179+00:00"
+  },
+  {
+    "id": "9cca9b063325adfae2bca010bfcc049d",
+    "url": "https://signatory.app/#famous-signatures",
+    "title": "Famous Signatures Through History",
+    "content": "<p>Article URL: <a href=\"https://signatory.app/#famous-signatures\">https://signatory.app/#famous-signatures</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47073684\">https://news.ycombinator.com/item?id=47073684</a></p>\n<p>Points: 9</p>\n<p># Comments: 5</p>",
+    "author": "elliotbnvl",
+    "published_date": "2026-02-19T13:49:49+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-02-19T14:49:50.118155+00:00",
+    "updated_at": "2026-02-19T14:49:50.118157+00:00"
+  },
+  {
+    "id": "cd63ca3508c88589caeda9fd07ff9b26",
+    "url": "https://news.ycombinator.com/item?id=47073838",
+    "title": "Ask HN: How do you employ LLMs for UI development?",
+    "content": "<p>I have found a workflow that makes Claude a fantastic companion for most of the work involved in fullstack web development. The exception I find to be the most significant limitatipn to productive potential however, is interface development and UX. Curious to hear if anyone has relevant experience, or found any good approaches to this?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47073838\">https://news.ycombinator.com/item?id=47073838</a></p>\n<p>Points: 12</p>\n<p># Comments: 2</p>",
+    "author": "jensmtg",
+    "published_date": "2026-02-19T14:04:44+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 66,
+    "reading_time": 1,
+    "created_at": "2026-02-19T14:49:50.118124+00:00",
+    "updated_at": "2026-02-19T14:49:50.118132+00:00"
+  },
+  {
     "id": "aca9543e213c08180d430f83aa885bac",
     "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001041?dgcid=rss_sd_all",
     "title": "Diosgenin prevents alcohol-induced intensification of seizures, psychiatric comorbidities, and their neuropathological consequences in kindled epileptic mice",
@@ -76,6 +204,46 @@
     "updated_at": "2026-02-19T14:43:12.334812+00:00",
     "metadata": {
       "processed_at": "2026-02-19T14:43:12.334813+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "7b3325077920a44e4c3d59c268ed3bd9",
+    "url": "https://pagedout.institute/download/PagedOut_008.pdf",
+    "title": "Paged Out Issue #8 [pdf]",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47072968\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-19T12:13:44+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-19T13:38:56.849066+00:00",
+    "updated_at": "2026-02-19T14:43:12.334812+00:00",
+    "metadata": {
+      "processed_at": "2026-02-19T14:43:12.334813+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "36d93785b0cd08b1cfaf466c9f67f4b7",
+    "url": "https://makie.org/website/blogposts/raytracing/",
+    "title": "Show HN: A physically-based GPU ray tracer written in Julia",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47072444\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-19T10:55:13+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-19T13:38:56.849046+00:00",
+    "updated_at": "2026-02-19T14:43:12.334816+00:00",
+    "metadata": {
+      "processed_at": "2026-02-19T14:43:12.334817+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -162,26 +330,6 @@
     "reading_time": 1,
     "created_at": "2026-02-19T13:38:56.848964+00:00",
     "updated_at": "2026-02-19T13:38:56.848966+00:00"
-  },
-  {
-    "id": "36d93785b0cd08b1cfaf466c9f67f4b7",
-    "url": "https://makie.org/website/blogposts/raytracing/",
-    "title": "Show HN: A physically-based GPU ray tracer written in Julia",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47072444\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-19T10:55:13+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-19T13:38:56.849046+00:00",
-    "updated_at": "2026-02-19T14:43:12.334816+00:00",
-    "metadata": {
-      "processed_at": "2026-02-19T14:43:12.334817+00:00",
-      "processing_method": "github_actions"
-    }
   },
   {
     "id": "008475ec62236c4682b32c13877ace90",
@@ -278,26 +426,6 @@
     "reading_time": 1,
     "created_at": "2026-02-19T13:38:55.711464+00:00",
     "updated_at": "2026-02-19T13:38:55.711466+00:00"
-  },
-  {
-    "id": "7b3325077920a44e4c3d59c268ed3bd9",
-    "url": "https://pagedout.institute/download/PagedOut_008.pdf",
-    "title": "Paged Out Issue #8 [pdf]",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47072968\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-19T12:13:44+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-19T13:38:56.849066+00:00",
-    "updated_at": "2026-02-19T14:43:12.334812+00:00",
-    "metadata": {
-      "processed_at": "2026-02-19T14:43:12.334813+00:00",
-      "processing_method": "github_actions"
-    }
   },
   {
     "id": "9b1f7ce7ba57e2ab5ace836d401490bc",
@@ -16920,166 +17048,6 @@
     "updated_at": "2026-02-15T04:18:01.214521+00:00",
     "metadata": {
       "processed_at": "2026-02-15T04:18:01.214533+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "1bfcfe7f3eb516cf61b261b96586b11c",
-    "url": "https://www.reddit.com/r/Python/comments/1r4zxx8/sunday_daily_thread_whats_everyone_working_on/",
-    "title": "Sunday Daily Thread: What's everyone working on this week?",
-    "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: What's Everyone Working On This Week? \ud83d\udee0\ufe0f</h1> <p>Hello <a href=\"/r/Python\">/r/Python</a>! It's time to share what you've been working on! Whether it's a work-in-progress, a completed masterpiece, or just a rough idea, let us know what you're up to!</p> <h2>How it Works:</h2> <ol> <li><strong>Show &amp; Tell</strong>: Share your current projects, completed works, or future ideas.</li> <li><strong>Discuss</strong>: Get feedback, find collaborators, or just chat about your project.</li> <li><strong>Inspire</strong>: Your project might inspire someone else, just as you might get inspired here.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Feel free to include as many details as you'd like. Code snippets, screenshots, and links are all welcome.</li> <li>Whether it's your job, your hobby, or your passion project, all Python-related work is welcome here.</li> </ul> <h2>Example Shares:</h2> <ol> <li><strong>Machine Learning Model</strong>: Working on a ML model to predict stock prices. Just cracked a 90% accuracy rate!</li> <li><strong>Web Scraping</strong>: Built a script to scrape and analyze news articles. It's helped me understand media bias better.</li> <li><strong>Automation</strong>: Automated my home lighting with Python and Raspberry Pi. My life has never been easier!</li> </ol> <p>Let's build and grow together! Share your journey and learn from others. Happy coding! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r4zxx8/sunday_daily_thread_whats_everyone_working_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r4zxx8/sunday_daily_thread_whats_everyone_working_on/\">[comments]</a></span>",
-    "author": "/u/AutoModerator",
-    "published_date": "2026-02-15T00:00:31+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 211,
-    "reading_time": 1,
-    "created_at": "2026-02-15T02:25:19.264086+00:00",
-    "updated_at": "2026-02-15T04:18:01.214538+00:00",
-    "metadata": {
-      "processed_at": "2026-02-15T04:18:01.214540+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "ba9e9505ac7bea48c9cd4863f1854176",
-    "url": "https://github.com/alichherawalla/off-grid-mobile",
-    "title": "Show HN: Off Grid \u2013 Run AI text, image gen, vision offline on your phone",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47019133\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-14T22:39:24+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-15T02:25:17.992530+00:00",
-    "updated_at": "2026-02-15T04:18:01.214545+00:00",
-    "metadata": {
-      "processed_at": "2026-02-15T04:18:01.214547+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "ba9e9505ac7bea48c9cd4863f1854176",
-    "url": "https://github.com/alichherawalla/off-grid-mobile",
-    "title": "Show HN: Off Grid \u2013 Run AI text, image gen, vision offline on your phone",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47019133\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-14T22:39:24+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-15T02:25:17.992530+00:00",
-    "updated_at": "2026-02-15T04:18:01.214545+00:00",
-    "metadata": {
-      "processed_at": "2026-02-15T04:18:01.214547+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "ea5087e7f2d99563db7012427fe56e55",
-    "url": "https://newpipe.net/",
-    "title": "NewPipe: YouTube client without vertical videos and algorithmic feed",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47020218\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-15T01:24:16+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-15T02:25:17.992395+00:00",
-    "updated_at": "2026-02-15T04:18:01.214550+00:00",
-    "metadata": {
-      "processed_at": "2026-02-15T04:18:01.214551+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "ea5087e7f2d99563db7012427fe56e55",
-    "url": "https://newpipe.net/",
-    "title": "NewPipe: YouTube client without vertical videos and algorithmic feed",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47020218\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-15T01:24:16+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-15T02:25:17.992395+00:00",
-    "updated_at": "2026-02-15T04:18:01.214550+00:00",
-    "metadata": {
-      "processed_at": "2026-02-15T04:18:01.214551+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "14c9927f44a135eb9f471e87d6d42f1f",
-    "url": "https://www.ncl.ac.uk/press/articles/latest/2026/02/ancientegyptiandrillbit/",
-    "title": "5,300-year-old 'bow drill' rewrites story of ancient Egyptian tools",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=46970733\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-11T04:12:00+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-14T23:48:47.891879+00:00",
-    "updated_at": "2026-02-15T01:50:17.954275+00:00",
-    "metadata": {
-      "processed_at": "2026-02-15T01:50:17.954284+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "da1fc93cd406721d6e25a4ff4a027b89",
-    "url": "https://www.sciencedirect.com/science/article/pii/S0306452226000631?dgcid=rss_sd_all",
-    "title": "TLR2 regulation of NF-\u03baB and NLRP3-driven pyroptosis in Alzheimer\u2019s disease",
-    "content": "<p>Publication date: 27 March 2026</p><p><b>Source:</b> Neuroscience, Volume 598</p><p>Author(s): Lijun Zhang, Shuo Wang, Yongkun Gui, Dongli Li, Kunyan Li, Yayu Wang, Yuming Xu</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Neuroscience Journal",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 22,
-    "reading_time": 1,
-    "created_at": "2026-02-14T23:26:59.739879+00:00",
-    "updated_at": "2026-02-15T01:50:17.954311+00:00",
-    "metadata": {
-      "processed_at": "2026-02-15T01:50:17.954313+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "21c24c9899c975cf41dfc60e144f0b51",
-    "url": "https://www.sciencedirect.com/science/article/pii/S0306452226000849?dgcid=rss_sd_all",
-    "title": "Optimizing deep CNN architecture via hybrid Harris Hawks arithmetic algorithm for EEG meditation classification",
-    "content": "<p>Publication date: 27 March 2026</p><p><b>Source:</b> Neuroscience, Volume 598</p><p>Author(s): Soniya Shakil Usgaonkar, Damodar Reddy Edla, Ramesh Dharavath</p>",
-    "author": "",
-    "published_date": null,
-    "source": "Neuroscience Journal",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 16,
-    "reading_time": 1,
-    "created_at": "2026-02-14T23:26:59.739861+00:00",
-    "updated_at": "2026-02-15T01:50:17.954316+00:00",
-    "metadata": {
-      "processed_at": "2026-02-15T01:50:17.954318+00:00",
       "processing_method": "github_actions"
     }
   }
