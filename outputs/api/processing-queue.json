@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-02-19T01:47:28.642968+00:00",
-  "pending_count": 729,
-  "processed_count": 271,
+  "last_updated": "2026-02-19T04:15:40.435380+00:00",
+  "pending_count": 724,
+  "processed_count": 276,
   "pending_articles": [
+    {
+      "id": "2b072dd084db62eeecb05422c57dad04",
+      "url": "https://devblogs.microsoft.com/azure-sql/langchain-with-sqlvectorstore-example/",
+      "title": "Microsoft offers guide to pirating Harry Potter series for LLM training",
+      "content": "<p>Article URL: <a href=\"https://devblogs.microsoft.com/azure-sql/langchain-with-sqlvectorstore-example/\">https://devblogs.microsoft.com/azure-sql/langchain-with-sqlvectorstore-example/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47067759\">https://news.ycombinator.com/item?id=47067759</a></p>\n<p>Points: 171</p>\n<p># Comments: 94</p>",
+      "author": "anonymous908213",
+      "published_date": "2026-02-18T23:19:29+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-19T02:13:14.644071+00:00",
+      "updated_at": "2026-02-19T02:13:14.644080+00:00"
+    },
     {
       "id": "8d486873b6728e5969fb54b3a44976e8",
       "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1679196",
@@ -146,25 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-02-18T22:35:23.574345+00:00",
       "updated_at": "2026-02-18T22:35:23.574347+00:00"
-    },
-    {
-      "id": "499c601dc1b715dc3c2905a1e91653cd",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.17.706423v1?rss=1",
-      "title": "Giant spider neurons uncover a myelin-derived waste-internalizing canal system that fails in neurodegeneration",
-      "content": "The underlying causes for Alzheimer disease are presumed to lie in failed waste removal from the brain. However, the mechanisms by which waste is cleared from neurons, and how this system fails in neurodegeneration are poorly understood. A novel 'glial-canal-hypothesis' postulates that myelin-forming macroglia give rise to waste internalizing canals that project into neuronal somata and remove cellular debris in an aquaporin4-dependent manner. We postulate that abnormal swelling of the aquaporin4-expressing glial cells leads to spongiform abnormalities, gradual depletion, and death of associated neurons. Due to the novelty of this postulation little is known about the cellular architecture of this canal system that was first discovered in giant neurons of the wandering spider Cupiennius salei. Here we have utilized histological, ultrastructural and immunohistochemical methods to describe the structural foundation of this glial canal system in giant spider neurons in which waste-internalizing canals and associated structures are clearly visible. Sequencing the spider genome, we show compelling homologies of key proteins that are implicated in neurodegeneration between phylogenetically distant species. Based on this work, we provide a testable functional hypothesis regarding waste removal from neuronal somata and how this system fails in neurodegeneration. We highlight structural similarities of this system in rodent and human brain. Supported by the findings presented here we postulate that (i) neurodegeneration in C. salei may be caused by hypertrophic swelling of myelin-forming waste-internalizing macroglia, and (ii) that a similar canal system, although structurally modified, is likely highly conserved in the mammalian brain.",
-      "author": "Fabian-Fine, R., Brannare-Gran, S. M., Clough, M. N., DeBoer, T. A., DelVecchio, I. R., Devers, M. D., Dragon, J. A., Driscoll, H. E., Fuller, Z. F., Hendricks, K. M., Huesgen, A. M., Joly, I. C., Kinal, L. G., Kipingi, L. K., Lathram, K. J., Kragh, L. A., Lubkowitz, J. A., Majeske, J. S., McDonough, S. C., McKinley, B. A., Miatke, O. A., Munro, J. A., Paul, C. M., Preisler, O. V., Reding, C. J., Scott, K. C., St. Pierre, E. S., Steen, H. A., Syverson, J. E., Waldt, M. E., Whitley, A. E., Winchell, A. L., Weaver, A. L., Curd, E. E.",
-      "published_date": "2026-02-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 245,
-      "reading_time": 1,
-      "created_at": "2026-02-18T22:35:23.574313+00:00",
-      "updated_at": "2026-02-18T22:35:23.574314+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "6b5a8b5000bea1160ebdf3bd9b8a593e",
+      "url": "https://www.nature.com/articles/s41598-026-40615-2",
+      "title": "Cardiac output-guided vs. mean arterial pressure-guided hemodynamic management in craniotomy patients with cardiovascular disease: a randomized trial",
+      "content": "",
+      "author": "",
+      "published_date": "2026-02-19T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-02-19T02:13:55.474950+00:00",
+      "updated_at": "2026-02-19T04:15:40.311290+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T04:15:40.311299+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "77a4db593d4b6c51e2302cee9d4b6283",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1623174",
+      "title": "Computational reconstruction of evolutionary selection in human brain networks",
+      "content": "IntroductionThe accumulation of genomic and brain data opens new opportunities for resource friendly, data driven brain exploration. A key challenge is to develop versatile and accessible strategies that integrate and mine multimodal datasets for novel neuroscientific insights. Here, we optimized an integrated workflow for mapping multigenic evolutionary traits in the human brain across cognitive, cellular, and molecular levels.MethodsAt the input stage, the workflow fuses an evolutionary genetic dataset with searchable synthetic functional magnetic resonance imaging (fMRI) databases that are pre clustered into concise psychological domains for improved interpretability. At its core, a Genetic Algorithm for Generalized Biclustering (GABi) mines gene sets under evolutionary selection that also show high expression correlation with fMRI networks.ResultsApplying this workflow, we identified evolutionary patterns spanning cognitive traits, brain cell types, and molecular mechanisms. Focusing on socio affective traits, the algorithm highlighted peaks in adaptive selection in networks for social interaction (language) and social concepts (theory of mind) across hominid, early hominin, and anatomically modern human (AMH) ancestry. These traits emerge from a broad spectrum of excitatory (glutamatergic) and inhibitory (GABAergic) neuronal, as well as non neuronal, cell types. The associated Gene Ontology (GO) terms were enriched for cell signaling, synaptic organization, and neuronal morphology.DiscussionTogether, these findings demonstrate an integrated workflow for molecular to systems level exploration of the brain and provide new perspectives on the evolutionary history of human socio affective functions. This approach can be adapted to screen for functional traits in the context of mental disorders or applied to the brains of other phylogenies in a similar manner.",
+      "author": "Wulf Haubensak",
+      "published_date": "2026-01-26T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 255,
+      "reading_time": 1,
+      "created_at": "2026-02-19T02:13:48.808107+00:00",
+      "updated_at": "2026-02-19T04:15:40.311303+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T04:15:40.311305+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2d62771034a3da0957ff37bbc36f3672",
+      "url": "https://www.reddit.com/r/Python/comments/1r8ahvd/multi_layered_project_schematics_and_design/",
+      "title": "Multi layered project schematics and design",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I work in insurance and have started to take on bigger projects that are complex in nature. I am trying to really build a robust and maintainable script but I struggle when I have to split up the script into many different smaller scripts, isolating and modularising different processes of the pipeline. </p> <p>I learnt python by building in a singular script using the Jupyter interactive window to debug and test code in segments, but now splitting the script into multiple smaller scripts is challenging for me to debug and test what is happening at every step of the way.</p> <p>Does anyone have any advice on how they go about the whole process? From deciding what parts of the script to isolate all the way to testing and debugging and even remember what is in each script?</p> <p>Maybe this is something you get used to overtime?</p> <p>I\u2019d really appreciate your advice!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/thorithic\"> /u/thorithic </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r8ahvd/multi_layered_project_schematics_and_design/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r8ahvd/multi_layered_project_schematics_and_design/\">[comments]</a></span>",
+      "author": "/u/thorithic",
+      "published_date": "2026-02-18T18:09:02+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 173,
+      "reading_time": 1,
+      "created_at": "2026-02-19T02:13:17.029715+00:00",
+      "updated_at": "2026-02-19T04:15:40.311308+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T04:15:40.311310+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6a39410e85d479df957349647130ee5e",
+      "url": "https://www.reddit.com/r/Python/comments/1r8jraw/thursday_daily_thread_python_careers_courses_and/",
+      "title": "Thursday Daily Thread: Python Careers, Courses, and Furthering Education!",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: Professional Use, Jobs, and Education \ud83c\udfe2</h1> <p>Welcome to this week's discussion on Python in the professional world! This is your spot to talk about job hunting, career growth, and educational resources in Python. Please note, this thread is <strong>not for recruitment</strong>.</p> <hr /> <h2>How it Works:</h2> <ol> <li><strong>Career Talk</strong>: Discuss using Python in your job, or the job market for Python roles.</li> <li><strong>Education Q&amp;A</strong>: Ask or answer questions about Python courses, certifications, and educational resources.</li> <li><strong>Workplace Chat</strong>: Share your experiences, challenges, or success stories about using Python professionally.</li> </ol> <hr /> <h2>Guidelines:</h2> <ul> <li>This thread is <strong>not for recruitment</strong>. For job postings, please see <a href=\"/r/PythonJobs\">r/PythonJobs</a> or the recruitment thread in the sidebar.</li> <li>Keep discussions relevant to Python in the professional and educational context.</li> </ul> <hr /> <h2>Example Topics:</h2> <ol> <li><strong>Career Paths</strong>: What kinds of roles are out there for Python developers?</li> <li><strong>Certifications</strong>: Are Python certifications worth it?</li> <li><strong>Course Recommendations</strong>: Any good advanced Python courses to recommend?</li> <li><strong>Workplace Tools</strong>: What Python libraries are indispensable in your professional work?</li> <li><strong>Interview Tips</strong>: What types of Python questions are commonly asked in interviews?</li> </ol> <hr /> <p>Let's help each other grow in our careers and education. Happy discussing! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r8jraw/thursday_daily_thread_python_careers_courses_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r8jraw/thursday_daily_thread_python_careers_courses_and/\">[comments]</a></span>",
+      "author": "/u/AutoModerator",
+      "published_date": "2026-02-19T00:00:31+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 219,
+      "reading_time": 1,
+      "created_at": "2026-02-19T02:13:17.029650+00:00",
+      "updated_at": "2026-02-19T04:15:40.311312+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T04:15:40.311314+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "448522089a5cb2ff63059bef24a0c16d",
+      "url": "https://thunderseethe.dev/posts/how-to-choose-between-hm-and-bidir/",
+      "title": "How to Choose Between Hindley-Milner and Bidirectional Typing",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47025885\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-15T18:07:44+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-19T02:13:15.740798+00:00",
+      "updated_at": "2026-02-19T04:15:40.311316+00:00",
+      "metadata": {
+        "processed_at": "2026-02-19T04:15:40.311318+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "c1120f33aee4d0df3d62235d0755ef9f",
       "url": "https://www.biorxiv.org/content/10.64898/2026.02.17.706437v1?rss=1",
@@ -262,106 +362,6 @@
       "updated_at": "2026-02-19T01:47:28.518165+00:00",
       "metadata": {
         "processed_at": "2026-02-19T01:47:28.518167+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "138dbc20af95ce55414e7d62214f9607",
-      "url": "https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab",
-      "title": "Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings",
-      "content": "<p>&#160;</p>\n<p>The post <a href=\"https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab\">Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "Nancy Zimmerman",
-      "published_date": "2025-09-08T16:27:03+00:00",
-      "source": "Embs",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 17,
-      "reading_time": 1,
-      "created_at": "2026-02-18T21:37:14.182821+00:00",
-      "updated_at": "2026-02-18T22:27:52.622631+00:00",
-      "metadata": {
-        "processed_at": "2026-02-18T22:27:52.622640+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9139477394032299e7eff591ce210785",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.17.706274v1?rss=1",
-      "title": "Regulation of spontaneous neurotransmission and homeostatic synaptic plasticity by synaptotagmin-1 disease variants at the SNARE primary interface.",
-      "content": "De novo mutations in synaptotagmin-1 (syt1) cause a rare neurodevelopmental disorder, manifesting in global developmental delay, ophthalmic abnormalities, infantile hypotonia, facial dysmorphisms, absent speech, EEG abnormalities, and hyperkinetic movements, ranging from moderate to severe. Here, we evaluate eleven patient-relevant mutations spanning the Ca2+ binding domains of syt1--C2A and -C2B impact neurotransmission. We found that the mutation causing the most severe impact on neurotransmission, p.N341S, triggers aberrant spontaneous neurotransmission and occludes homeostatic synaptic plasticity signaling pathways. Our results suggest that potential phosphorylation of this newly introduced Ser residue underlies the functional change. A serine missense mutation creates a novel phosphorylation site as a broad spectrum protein kinase inhibitor rescues spontaneous neurotransmission. We identify key residues, localized to the primary interface between syt1 and SNAP-25, responsible for this shift in syt1 function in synaptic vesicle release. Substituting neutral amino acids at residue 341 alters the interaction of the Ser mutation, with double mutations in the surrounding amino acids in the primary interface rescuing synaptic function. These results provide a framework for how a syt1 point mutation introduces a substrate for phosphorylation and disrupts intermolecular interactions at the primary interface with SNAP-25 altering spontaneous neurotransmission and homeostatic plasticity.",
-      "author": "Bagatelas, E. D., Shin, O.-h. T., Armstrong, R. T., Zhou, Q. T., Kavalali, E. T.",
-      "published_date": "2026-02-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 195,
-      "reading_time": 1,
-      "created_at": "2026-02-18T21:37:02.821014+00:00",
-      "updated_at": "2026-02-18T22:27:52.622644+00:00",
-      "metadata": {
-        "processed_at": "2026-02-18T22:27:52.622646+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "dd726f78e6262b8449c81210e148c1df",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.17.706347v1?rss=1",
-      "title": "Behavioral dynamics of different stages of sexual motivation in male and female rats",
-      "content": "Sexual motivation is a complex concept involving both the initial drive to begin mating and the motivation to sustain copulation. Disruptions in sexual motivation are often observed in psychiatric disorders. This study proposes that sexual motivation can be divided into two distinct components: sexual incentive motivation and the drive to sustain copulation. To investigate this, we utilized the Motivation to Continue Copulation (MCC) test, which measures effort (nose pokes) to gain access to a sexual reward, and compared it with the Sexual Incentive Motivation (SIM) test and standard copulation tests. Male and female rats were trained on a fixed ratio (FR) 1 schedule using cheese rewards before transitioning to sexual rewards. After six FR1 sessions, the effort required increased to FR5 and progressive ratio (PR) schedules. Results revealed that sexual incentive motivation, measured by the SIM test, was higher in males after sexual experience, while females maintained consistent levels. In the MCC test, both males and females exhibited increased motivation to continue copulation with experience, but the motivation declined in the 2nd ejaculatory series. These findings demonstrate that sexual motivation comprises distinct components. The MCC test effectively measures the drive to sustain copulation, while the SIM test assesses incentive motivation. This distinction is crucial for advancing behavioral neuroscience and understanding sexual dysfunction in psychiatric conditions.",
-      "author": "Oyem, J. C., Huijgens, P. T., Mendoza, J., Heijkoop, R., Snoeren, E. M. S.",
-      "published_date": "2026-02-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 215,
-      "reading_time": 1,
-      "created_at": "2026-02-18T21:37:02.820980+00:00",
-      "updated_at": "2026-02-18T22:27:52.622649+00:00",
-      "metadata": {
-        "processed_at": "2026-02-18T22:27:52.622651+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4be111e5518fe5dcdb8483e44e523ae2",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.17.706466v1?rss=1",
-      "title": "L-DOPA treatment promotes sustained neurovascular and synaptichomeostasis in the diabetic retina",
-      "content": "While previous work has shown a sustained protective effect of levodopa (L-DOPA) on retinal function in early-stage diabetic retinopathy (DR) in humans, its underlying biology is unknown. Using noninvasive measures in diabetic mice, we found L-DOPA protects retinal neurovascular function as measured by oscillatory potential timing and flicker evoked retinal vasodilation, as well as visual behavior, for at least two weeks past treatment end. Assessing changes in retinal gene expression, differentially expressed genes were broadly comparable between diabetic mice experiencing washout of L-DOPA versus continued L-DOPA treatment, with gene co-expression network analysis identifying distinct modules across L-DOPA treated diabetic mice associated with synaptic function and cytoskeletal organization that correlated with functional protection. Together, these findings demonstrate that L-DOPA restores and sustains retinal neurovascular function in early DR and links this protection to transcriptional programs supporting synapse activity and structural integrity.",
-      "author": "Chlan, E., Li, C., Bales, K., Wood, L. B., Pardue, M.",
-      "published_date": "2026-02-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 140,
-      "reading_time": 1,
-      "created_at": "2026-02-18T21:37:02.820944+00:00",
-      "updated_at": "2026-02-18T22:27:52.622653+00:00",
-      "metadata": {
-        "processed_at": "2026-02-18T22:27:52.622655+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fca78f7842e725b855fa02a8dc685036",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.18.705990v1?rss=1",
-      "title": "Independent Component Analysis Outperforms Seed-Based Approach in Detecting fNIRS-based Resting-State Functional Connectivity",
-      "content": "Significance: Resting-state functional connectivity (RSFC) is an important measure in advancing our understanding of brain function and development as well as various neurological and mental disorders. Studying RSFC with functional near-infrared spectroscopy (fNIRS) offers several advantages over functional magnetic resonance imaging (fMRI), especially for clinical and pediatric populations. However, the optimal strategy to estimate RSFC based on fNIRS, particularly in identifying reliable connectivity patterns across chromophores, remains unclear. Establishing robust analysis approaches is essential for reliable and clinically meaningful applications. Aim: This study systematically evaluated commonly used analysis methods regarding their effectiveness to detect RSFC patterns within the motor network using both oxygenated (HbO) and deoxygenated (HbR) hemoglobin signals. Approach: Near whole-head resting-state fNIRS data were analyzed from 38 participants. RSFC was estimated with five analytical approaches: three seed-based methods (SBA-GLM, SBA-GLM with respiratory regression, and SBA-correlation) and two independent component analyses (ICA) approaches using two different contrast functions. Performance was assessed via receiver operating characteristic analyses based on both anatomical and functional definitions of motor-related connectivity. Areas under the curves (AUC) were statistically compared with DeLong's test, and the spatial similarity between HbO and HbR RSFC was quantified by correlating RSFC patterns from the two chromophores. Results: Across reference definitions and chromophores, ICA consistently achieved higher performance (AUC = 0.82-0.96) in detecting motor-related RSFC than SBA (AUC = 0.63-0.86). Significant differences emerged when functionally defined connectivity references were used, with ICA outperforming SBA across chromophores. Under certain condition, correlational-SBA (AUC = 0.66-0.86) significantly outperformed GLM-based methods (AUC = 0.63-0.85). Finally, ICA results demonstrated greater spatial similarity between obtained HbO and HbR RSFC patterns (r = 0.90-0.92) than SBA (r = 0.84-0.86), indicating higher cross-chromophore consistency. Conclusions: ICA provides a robust and consistent framework for estimating fNIRS-based RSFC across both HbO and HbR, outperforming SBA in accuracy and cross-chromophore consistency. While correlational-SBA offers a computationally efficient alternative and outperforms GLM-based methods, ICA should be preferred when reliable and chromophore-consistent RSFC estimates are required. Importantly, these findings demonstrate that HbR contains RSFC information comparable to HbO and highlights the critical role of analytical strategy and reference definition in RSFC evaluation. Collectively, these results contribute to the methodological standardization of fNIRS-based RSFC and support its use in future neuroscientific and clinical applications.",
-      "author": "Kotsogiannis, F., Raible, S., Pereira, J., Heinecke, A., Klinkhammer, S., Sorger, B., Lu\u0308hrs, M.",
-      "published_date": "2026-02-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 370,
-      "reading_time": 1,
-      "created_at": "2026-02-18T21:37:02.820913+00:00",
-      "updated_at": "2026-02-18T22:27:52.622657+00:00",
-      "metadata": {
-        "processed_at": "2026-02-18T22:27:52.622658+00:00",
         "processing_method": "github_actions"
       }
     }
