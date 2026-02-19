@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-02-19T10:38:07.026397+00:00",
+  "last_updated": "2026-02-19T11:14:15.687916+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "5c2f77023edfc73cd699f0a46fbc1332",
+      "url": "https://www.nature.com/articles/s41467-026-69370-8",
+      "title": "The effects of a second pregnancy on women\u2019s brain structure and function",
+      "content": "",
+      "author": "",
+      "published_date": "2026-02-19T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-02-19T11:13:44.998068+00:00",
+      "updated_at": "2026-02-19T11:13:44.998069+00:00"
+    },
+    {
+      "id": "7012d2fec853187f72a6de0c0dcf3db0",
+      "url": "https://www.nature.com/articles/s43588-026-00956-4",
+      "title": "A neural network for modeling human concept formation, understanding and communication",
+      "content": "",
+      "author": "",
+      "published_date": "2026-02-19T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-02-19T11:13:44.998048+00:00",
+      "updated_at": "2026-02-19T11:13:44.998050+00:00"
+    },
+    {
+      "id": "624be1db9bc292208888e2545541c848",
+      "url": "https://www.reddit.com/r/Python/comments/1r8uocz/ran_trivy_on_my_hardened_fastapi_template_17/",
+      "title": "Ran Trivy on my hardened FastAPI template: 17 vulns found. Here's one that's actually exploitable",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Most of the FastAPI + Docker tutorials I've seen run the app as the root user. No <code>USER</code> instruction, no capability dropping, writable filesystem everywhere. It's fine for learning, but that's a habit that sneaks into production.</p> <p><strong>What My Project Does</strong></p> <p>It's a pre-built Docker Compose setup for FastAPI, Nginx, and PostgreSQL with all the security essentials included: non-root containers, read-only root filesystem, <code>cap_drop: ALL</code> (drops all Linux capabilities), hardened Nginx headers to protect against attacks, and health checks for each service. You know, all the stuff that you would have to remember to configure yourself otherwise.</p> <p><strong>Target Audience</strong></p> <p>Developers deploying Python web apps in production (or similar environments that are like production). This isn't a beginner's project - it's for those who already know the basics of Docker and want a safe starting point instead of having to check their own setup from the beginning.</p> <p><strong>Comparison</strong></p> <p>Most FastAPI boilerplates are all about the app structure \u2013 how the folders are laid out, how the database is set up, and the authentication patterns. But this one doesn't worry about any of that. It's all about container security, which is a totally different approach. Also, I ran Trivy (a security scanner) on this project and documented every single finding with its exploitability context. That's way more than just saying it's secure. I'll talk more about that later.</p> <p>Then I used Trivy to check it out.</p> <p><strong>nginx image: 17 vulnerabilities. Three of them CRITICAL.</strong></p> <p>That's not good. But here's the deal - all 17 of them were in OS level libraries (libcrypto3, libssl3, libxml2, libpng) that nginx doesn't actually use in a reverse proxy setup. The ones with OpenSSL need CMS/PKCS #7 parsing to trigger, but nginx isn't doing that. And the libxml2 and libpng ones need attacker controlled XML and image input, respectively. So out of those 17, there are zero that can be reached through normal HTTP traffic.</p> <p>Anyway, I documented the exploitability context for each of them in the repository, because 0 CVEs and 17 that can't be exploited are two very different things, and I wanted to be honest about that.</p> <p>The only one that was actually a problem: CVE-2025-62727 in Starlette. It's a crafted Range header that triggers quadratic time processing in FileResponse - no authentication needed, one request and the CPU is gone. I fixed it two ways: bumped FastAPI (which pulls in the patched Starlette) and added <code>proxy_set_header Range &quot;&quot;</code> to nginx as an extra precaution so it can't even get to the app in the first place.</p> <p><strong>postgres:16-alpine</strong> was totally clean at the OS level. There were six CVEs in the <code>gosu</code> binary, but they were all dead code because it just does <code>setuid + exec</code> at startup and never touches TLS or archives.</p> <p>The whole audit is documented if you want more details.</p> <p>Repo: <a href=\"https://github.com/k-adm/secure-docker-boilerplate\">github.com/k-adm/secure-docker-boilerplate</a></p> <p>I'm curious about two things:</p> <ol> <li><strong>Should we strip</strong> <code>Range</code> <strong>at nginx level or in the app?</strong> It feels like a network problem, but I can see why some people might prefer to handle it closer to the code.</li> <li><strong>How do you handle secrets in Docker?</strong> I use <code>.env</code> files with example files, but I'm wondering if we should add a section on Vault or SOPS for those deploying this in production.</li> </ol> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/k-adm-org\"> /u/k-adm-org </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r8uocz/ran_trivy_on_my_hardened_fastapi_template_17/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r8uocz/ran_trivy_on_my_hardened_fastapi_template_17/\">[comments]</a></span>",
+      "author": "/u/k-adm-org",
+      "published_date": "2026-02-19T09:22:31+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 567,
+      "reading_time": 2,
+      "created_at": "2026-02-19T11:13:10.645655+00:00",
+      "updated_at": "2026-02-19T11:13:10.645658+00:00"
+    },
+    {
+      "id": "6bdd4cac6371e3f6a9175f55a58f319f",
+      "url": "https://tahigichigi.substack.com/p/12-red-flags-of-ai-writing-and-how",
+      "title": "/Deslop",
+      "content": "<p>Article URL: <a href=\"https://tahigichigi.substack.com/p/12-red-flags-of-ai-writing-and-how\">https://tahigichigi.substack.com/p/12-red-flags-of-ai-writing-and-how</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47071937\">https://news.ycombinator.com/item?id=47071937</a></p>\n<p>Points: 10</p>\n<p># Comments: 10</p>",
+      "author": "yayitswei",
+      "published_date": "2026-02-19T09:45:47+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-19T11:13:08.056453+00:00",
+      "updated_at": "2026-02-19T11:13:08.056455+00:00"
+    },
+    {
+      "id": "3ecb19e071da99ca3fa61f5ce28f2d54",
+      "url": "https://bsky.app/profile/thomasgermain.bsky.social/post/3mf5jbn5lqk2k",
+      "title": "I made ChatGPT and Google tell I'm a competitive hot-dog-eating world champion",
+      "content": "<p>Article URL: <a href=\"https://bsky.app/profile/thomasgermain.bsky.social/post/3mf5jbn5lqk2k\">https://bsky.app/profile/thomasgermain.bsky.social/post/3mf5jbn5lqk2k</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47072450\">https://news.ycombinator.com/item?id=47072450</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "doener",
+      "published_date": "2026-02-19T10:56:25+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-19T11:13:08.056421+00:00",
+      "updated_at": "2026-02-19T11:13:08.056430+00:00"
+    },
     {
       "id": "3352595883ccb35de24e20a19b774dd2",
       "url": "https://brain.ieee.org/braininsight-articles/ieee-journal-on-flexible-electronics/",
@@ -261,106 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-02-19T09:11:07.531154+00:00",
       "updated_at": "2026-02-19T09:11:07.531161+00:00"
-    },
-    {
-      "id": "14cbfe6e5d02d459ec0529bd601e8ca7",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.17.706438v1?rss=1",
-      "title": "CROCOpy - A Python toolbox for the analysis of CRitical Oscillations and COnnectivity",
-      "content": "`CROCOpy` is a light-weighted toolbox for the assessment of neuronal oscillations, and multiple observables of functional connectivity (phase synchronization, amplitude coupling, and cross-frequency coupling) and critical dynamics (avalanches, long-range temporal correlations, bistability, and functional excitation-inhibition ratio). It was developed to simplify the analysis of continuous electrophysiological recordings and, in addition to metric computation, also includes methods for narrow-band filtering and statistical analysis. It is device-agnostic and supports both GPU and CPU computations. The toolbox also provides detailed tutorials.",
-      "author": "Myrov, V., Siebenhuhner, F., Wang, S. H., Arnulfo, G., Juvonen, J. J., Roascio, M., Burlando, G., Suleimanova, A., Repo, J., Liu, W., Palva, S., Palva, J. M.",
-      "published_date": "2026-02-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 78,
-      "reading_time": 1,
-      "created_at": "2026-02-19T08:04:41.307768+00:00",
-      "updated_at": "2026-02-19T08:37:41.251468+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T08:37:41.251477+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3f920b55fd4cb49436c76d0db2909b3e",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706645v1?rss=1",
-      "title": "Deciphering epileptogenic and activity-dependent gene programs in the human brain",
-      "content": "Neuronal activity is fundamental to brain function, yet chronically elevated activity underlies neurological disorders such as drug-resistant epilepsy (DRE). In animal models, activity induces defined transcriptional programs within activated neurons; however, the nature, cellular specificity, and pathological relevance of such programs in the human brain remain poorly understood. Here, we apply single-nucleus and spatial transcriptomics to epileptogenic, non-epileptogenic, and intraoperatively stimulated non-epileptogenic cortical tissue obtained from individuals with DRE. Across 26 cell types profiled, glutamatergic neurons projecting from cortical layers 2/3, 5, and 6 to intratelencephalic targets exhibit pronounced sensitivity to the epileptogenic microenvironment, inducing shared immediate-early genes alongside cell-type-specific programs linked to synaptic remodeling and cellular stress. Approximately one-third of transcripts enriched in the epileptogenic microenvironment were also induced by acute stimulation, suggesting that a fraction of epilepsy-associated gene expression reflects conserved responses to heightened activity rather than disease-specific programs. While transcripts induced by both epileptogenic and acute activity converged upon immediate-early genes and heat-shock proteins, only acute stimulation triggered a rapid, multicellular induction of transcripts involved in mitochondrial ATP synthesis. This divergence suggests that neurons within epileptogenic cortex may be unable to mount appropriate metabolic adaptations to sustained energetic demands. In parallel, both microglia and circulating CD14+ monocytes exhibit signs of immune activation in epilepsy, suggesting myeloid-driven inflammatory rewiring that extends beyond the brain. Together, these findings illuminate human activity-dependent gene programs and reveal signatures of neuronal vulnerability and inflammation in DRE.",
-      "author": "Lin, Q., Kang, C., Xavier, A. M., Sanchez-Martin, I., Mehta, A. D., Cheadle, L. M.",
-      "published_date": "2026-02-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 234,
-      "reading_time": 1,
-      "created_at": "2026-02-19T08:04:41.307739+00:00",
-      "updated_at": "2026-02-19T08:37:41.251481+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T08:37:41.251483+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4ebdb0b0359cbaf010565f195a973ce7",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.18.706677v1?rss=1",
-      "title": "The dentate gyrus grows throughout life despite turnover of developmentally-born neurons",
-      "content": "Adult-born hippocampal neurons are highly plastic but there remains uncertainty about the magnitude of neurogenesis and its long-term functional consequences. Theoretical predictions indicate that adult neurogenesis should lead to substantial growth of the dentate gyrus (DG) granule cell population. However, in practice, most studies find no changes in total cell number across adulthood. This discrepancy may partly be a sensitivity issue, where small sample sizes and the examination of older age windows (when neurogenesis is reduced) have prevented detection. However, neurogenic growth could also be masked by the turnover of developmentally-born DG neurons, which are known to die off in normal aging. To address the question of how neuronal birth and loss impacts DG population dynamics, here we quantified numbers of developmentally-born neurons, proliferating Ki67+ cells (as a proxy for adult-born neurons), and total DG neurons from 2-18 months of age in the rat. We estimate that over this timeframe 670,000 adult-born neurons are added (30% of the total population). Consistent with neurogenic growth, the total number of DG neurons increased across adulthood. However, net growth was only 385,000 cells, which is less than predicted by adult neurogenesis alone. Indeed, 20% of developmentally-born neurons were lost over the same interval, and so we propose that the difference is explained by neuronal turnover. Neuronal persistence and turnover may be relevant for theories of hippocampal long-term memory, as well as for understanding psychiatric conditions that are characterized by hippocampal plasticity and atrophy.",
-      "author": "Ciric, T., Cahill, S. P., Lin, T., Choi, S.-a., Snyder, J. S.",
-      "published_date": "2026-02-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 240,
-      "reading_time": 1,
-      "created_at": "2026-02-19T08:04:41.307694+00:00",
-      "updated_at": "2026-02-19T08:37:41.251486+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T08:37:41.251488+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0f9f9fe63fc2eb24123e7bfe591f0f44",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1731868",
-      "title": "Shifts in brain dynamics and drivers of consciousness state transitions",
-      "content": "Understanding the neural mechanisms underlying the transitions between different states of consciousness is a fundamental challenge in neuroscience. Thus, we investigate the underlying drivers of changes during the resting-state dynamics of the human brain, as captured by functional magnetic resonance imaging (fMRI) across varying levels of consciousness (awake, light sedation, deep sedation, and recovery). We deploy a model-based approach relying on linear time-invariant (LTI) dynamical systems under unknown inputs (UI). Our findings reveal distinct changes in the spectral profile of brain dynamics\u2014particularly regarding the stability and frequency of the system's oscillatory modes during transitions between consciousness states. These models further enable us to identify external drivers influencing large-scale brain activity during naturalistic auditory stimulation. Our findings suggest that these identified inputs delineate how stimulus-induced co-activity propagation differs across consciousness states. Notably, our approach showcases the effectiveness of LTI models under UI in capturing large-scale brain dynamic changes and drivers in complex paradigms, such as naturalistic stimulation, which are not conducive to conventional general linear model analysis. Importantly, our findings shed light on how brain-wide dynamics and drivers evolve as the brain transitions toward conscious states, holding promise for developing more accurate biomarkers of consciousness recovery in disorders of consciousness.",
-      "author": "Arian Ashourvan",
-      "published_date": "2026-02-10T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 199,
-      "reading_time": 1,
-      "created_at": "2026-02-19T08:04:32.726021+00:00",
-      "updated_at": "2026-02-19T08:37:41.251490+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T08:37:41.251492+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9c6e9aaa47c82c165711da05ef6a9c4c",
-      "url": "https://stoolap.io/blog/2026/02/19/introducing-stoolap-node/",
-      "title": "Stoolap/Node: A Native Node.js Driver That's Surprisingly Fast",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47070446\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-19T06:09:58+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-19T08:04:04.725868+00:00",
-      "updated_at": "2026-02-19T08:37:41.251494+00:00",
-      "metadata": {
-        "processed_at": "2026-02-19T08:37:41.251496+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
