@@ -1,5 +1,37 @@
 [
   {
+    "id": "ebf0d110a8cce1f4d7e80f2bc097866a",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1665528",
+    "title": "Subdomain adaptation method based on transferable semantic alignment and class correlation",
+    "content": "To address these challenges, we propose a subdomain adaptation framework driven by transferable semantic alignment and class correlation. First, source and target domains are divided into subdomains according to class labels, and a joint subdomain distribution alignment mechanism is introduced to reduce intra-class distribution divergence while enlarging inter-class disparities. Second, a domain-adaptive semantic consistency loss is employed to cluster semantically similar samples and separate dissimilar ones in a unified representation space, enabling precise cross-domain semantic alignment. Third, pseudo-label quality in the target domain is improved via temperature-based label smoothing, complemented by a class correlation matrix and a loss function capturing inter-class relationships to exploit intrinsic intra-class coherence and inter-class distinction. Extensive experiments on multiple public datasets demonstrate that the proposed method achieves superior average classification accuracy compared to existing approaches, validating the effectiveness of semantic alignment and class correlation modeling. By explicitly modeling intra-class coherence and inter-class distinction without additional architectural complexity, the framework effectively mitigates domain shift, enhances semantic alignment, and improves recognition performance on the target domain, offering a robust solution for deep unsupervised domain adaptation.",
+    "author": "Jinyong Zhang",
+    "published_date": "2026-01-05T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 178,
+    "reading_time": 1,
+    "created_at": "2026-02-20T22:57:43.640472+00:00",
+    "updated_at": "2026-02-20T22:57:43.640474+00:00"
+  },
+  {
+    "id": "15fa87d8cc2352be38776555e821d719",
+    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae3d68",
+    "title": "Theoretical and applied research on spatio-temporal graph attention networks for single-trial P300 detection",
+    "content": "Objective. Accurate detection of single-trial P300 ERPs (event-related potentials) is crucial for developing high-performance non-invasive BCIs (brain\u2013computer interfaces). However, this task remains challenging because of the low (signal-to-noise ratio) of EEG (electroencephalography) and the limited ability of existing models to concurrently capture the complex non-Euclidean spatiotemporal dynamics of brain signals. Approach. We propose a novel ST-GraphTRNet (spatiotemporal graph transformer network). This architecture synergistically integrates temporal convolutions for local feature extraction, graph convolutions to explicitly model the neurophysiological spatial relationships between EEG electrodes, and a temporal transformer with a self-attention mechanism to capture global, long-range temporal dependencies across the entire signal. Main results. Extensive evaluation of four public P300 datasets demonstrates that ST-GraphTRNet significantly outperforms (state-of-the-art) benchmarks under both within-subject and cross-subject paradigms. Crucially, interpretability analyzes via (T-distributed Stochastic neighbor embedding) and (Gradient-weighted Class Activation Mapping) revealed that the model\u2019s decisions aligned with established neurophysiological priors, focusing on parietal electrodes approximately 300 ms post-stimulus. Significance. This study provides a powerful and interpretable framework for single-trial ERPs decoding. By effectively integrating the strengths of (convolutional neural networks), (graph neural networks), and Transformers, a new benchmark for building high-accuracy, generalizable, and clinically viable BCIs is established, moving closer to the goal of plug-and-play systems that require minimal user-specific calibration.",
+    "author": "Junhao Jia, Rong Zhang, Ding Yuan, Dongfang Yu and Penghai Li",
+    "published_date": "2026-02-06T00:00:00+00:00",
+    "source": "Journal Neural Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 206,
+    "reading_time": 1,
+    "created_at": "2026-02-20T22:57:40.773518+00:00",
+    "updated_at": "2026-02-20T22:57:40.773519+00:00"
+  },
+  {
     "id": "0412ec89dfe20dc871e5fa5e5f4cf78e",
     "url": "https://www.biorxiv.org/content/10.64898/2026.02.19.706912v1?rss=1",
     "title": "The parafascicular nucleus of the thalamus orchestrates coordinated skeletomotor, autonomic, and aversive state transitions",
@@ -16966,37 +16998,5 @@
     "reading_time": 1,
     "created_at": "2026-02-16T19:53:13.684906+00:00",
     "updated_at": "2026-02-16T19:53:13.684913+00:00"
-  },
-  {
-    "id": "f121f6351ea82215cb10862322d1c82a",
-    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1724386",
-    "title": "Editorial: Women pioneering neuroinformatics and neuroscience-related machine learning, 2024",
-    "content": "",
-    "author": "Alice Geminiani",
-    "published_date": "2025-11-12T00:00:00+00:00",
-    "source": "Frontiers Neuroinformatics",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-02-16T19:11:17.301994+00:00",
-    "updated_at": "2026-02-16T19:11:17.301996+00:00"
-  },
-  {
-    "id": "dc42d7d5d4bd1d9ac1aaa2d9c4fcb82b",
-    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1679664",
-    "title": "Enhancing dementia and cognitive decline detection with large language models and speech representation learning",
-    "content": "Dementia poses a major challenge to individuals and public health systems. Detecting cognitive decline through spontaneous speech offers a promising, non-invasive avenue for diagnosis of mild cognitive impairment (MCI) and dementia, enabling timely intervention and improved outcomes. This study describes our submission to the PROCESS Signal Processing Grand Challenge (ICASSP 2025), which tasked participants with predicting cognitive decline from speech samples. Our method combines eGeMAPS features from openSMILE, HuBERT (a self-supervised speech representation model), and GPT-4o, OpenAI's state-of-the-art large language model. These are integrated with the custom LSTM and ResMLP neural networks, and supported by Scikit-learn regressors/classifiers for both cognitive score regression and dementia classification. Our regression model based on LightGBM achieved an RMSE of 2.7775, placing us 10th out of 80 teams globally and surpassing the RoBERTa baseline by 7.5%. For the three-class classification task (Dementia/MCI/Control), our LSTM model obtained an F1-score of 0.5521, ranking 20th of 106 and marginally outperforming the best baseline. We trained models on speech data from 157 study participants, with independent evaluation performed on a separate test set of 40 individuals. We discoved that integrating large language models with self-supervised speech representations enhances the detection of cognitive decline. The proposed approach offers a scalable, data-driven method for early cognitive screening and may support emerging applications in neuropsychological informatics.",
-    "author": "Grzegorz M. W\u00f3jcik",
-    "published_date": "2025-12-05T00:00:00+00:00",
-    "source": "Frontiers Neuroinformatics",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 214,
-    "reading_time": 1,
-    "created_at": "2026-02-16T19:11:17.301907+00:00",
-    "updated_at": "2026-02-16T19:11:17.301908+00:00"
   }
 ]
