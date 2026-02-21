@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-02-21T05:28:25.259301+00:00",
+  "last_updated": "2026-02-21T06:04:29.833658+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "027f9a4a3e7451cdf9f57d9b89a9bfa2",
+      "url": "http://doi.org/10.1037/pmu0000300",
+      "title": "Preferred music listening does not affect cognitive inhibition in young and older adults.",
+      "content": "Previous literature has found links between music listening and cognitive performance. Specifically, background music may play a role in modulating cognitive inhibition. However, determining what type of background music affects cognitive inhibition throughout the lifespan has not been studied. The purpose of this study was to analyze the effect that listening to preferred music has on cognitive inhibition in healthy young and healthy older adults. We hypothesized that there will be no differences in accuracy or reaction time when listening to preferred music, neutral music, or no music during Stroop task performance in both young and older adults, but young adults will demonstrate better performance on the Stroop task compared to older adults regardless of the music condition. Thirty young adults and thirteen older adults completed the Stroop task. Three conditions of words were presented randomly: neutral (infrequent words sol, helot, eft, and abjure presented in different colors), congruent (color of word matches the word), and incongruent (color of the word does not match the word itself). The music listening order was also randomized to minimize order effects. Results revealed that older adults were slower and more accurate that young adults across all music and Stroop conditions. Conclusions indicate that listening to music neither improved or hindered cognitive inhibition in the Stroop task in young and older adults. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2023-10-12T00:00:00+00:00",
+      "source": "Psychomusicology",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 227,
+      "reading_time": 1,
+      "created_at": "2026-02-21T06:03:27.077392+00:00",
+      "updated_at": "2026-02-21T06:03:27.077394+00:00"
+    },
+    {
+      "id": "0b33b95ff0289bead876f5749489374e",
+      "url": "https://www.reddit.com/r/Python/comments/1ragli8/i_built_a_small_cli_tool_to_convert_relative/",
+      "title": "I built a small CLI tool to convert relative imports to absolute imports during a large refactoring",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>While refactoring a large Python project, I ran into an issue \u2014 the project had a lot of deeply nested relative imports (from ..module import x). The team decided to standardize everything to absolute imports, and here was the issue: manually updating them was very tedious, especially across many levels of relative imports. So I wrote a small CLI tool that: - Traverses the project directory - Detects relative imports - Converts them to absolute imports based on a given root package</p> <p>It\u2019s lightweight and dependency-free. Nothing fancy \u2014 just a utility that solved a real problem for me and I thought it might be useful for some people. If anyone is going through a similar refactor, feel free to check it out on github: <a href=\"https://github.com/SamiJneidy/relative2absolute\">github</a> and you can install it using pip also. I know it's very minimal, but I would appreciate feedback or suggestions.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Educational-Bed-6008\"> /u/Educational-Bed-6008 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ragli8/i_built_a_small_cli_tool_to_convert_relative/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ragli8/i_built_a_small_cli_tool_to_convert_relative/\">[comments]</a></span>",
+      "author": "/u/Educational-Bed-6008",
+      "published_date": "2026-02-21T03:35:38+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 168,
+      "reading_time": 1,
+      "created_at": "2026-02-21T06:03:18.131343+00:00",
+      "updated_at": "2026-02-21T06:03:18.131344+00:00"
+    },
     {
       "id": "52ab1c13bd516e2e94592b49e231120c",
       "url": "https://www.nature.com/articles/s41598-026-40271-6",
@@ -299,46 +331,6 @@
       "updated_at": "2026-02-21T04:02:40.809168+00:00",
       "metadata": {
         "processed_at": "2026-02-21T04:02:40.809170+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1ad049279564a4c4c8249df9abebb9ae",
-      "url": "https://worldwideweb.cern.ch",
-      "title": "CERN rebuilt the original browser from 1989",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47095429\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-20T23:19:12+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-21T02:05:22.504131+00:00",
-      "updated_at": "2026-02-21T04:02:40.809172+00:00",
-      "metadata": {
-        "processed_at": "2026-02-21T04:02:40.809174+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1ad049279564a4c4c8249df9abebb9ae",
-      "url": "https://worldwideweb.cern.ch",
-      "title": "CERN rebuilt the original browser from 1989",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47095429\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-20T23:19:12+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-21T02:05:22.504131+00:00",
-      "updated_at": "2026-02-21T04:02:40.809172+00:00",
-      "metadata": {
-        "processed_at": "2026-02-21T04:02:40.809174+00:00",
         "processing_method": "github_actions"
       }
     }
