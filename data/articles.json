@@ -1,5 +1,53 @@
 [
   {
+    "id": "462d809fc097cbd2a6515bc023757c9f",
+    "url": "https://app.smartsheet.com/b/form/0199e95f16727ef99ec5b9ea73e78ab6#new_tab",
+    "title": "Apply for the 2026 One Mind Accelerator Emerging Innovator Observership",
+    "content": "<p>The post <a href=\"https://app.smartsheet.com/b/form/0199e95f16727ef99ec5b9ea73e78ab6#new_tab\">Apply for the 2026 One Mind Accelerator Emerging Innovator Observership</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
+    "author": "dziura",
+    "published_date": "2025-12-10T16:49:24+00:00",
+    "source": "Embs",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 19,
+    "reading_time": 1,
+    "created_at": "2026-02-21T08:33:55.527783+00:00",
+    "updated_at": "2026-02-21T08:33:55.527785+00:00"
+  },
+  {
+    "id": "2fbe62ef6afd55a86448519a0ae58432",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1726374",
+    "title": "Macular: a multi-scale simulation platform for the retina and the primary visual system",
+    "content": "We developed Macular, a simulation platform with a graphical interface, designed to produce in silico experiment scenarios for the retina and the primary visual system. A scenario involves generating a three-dimensional structure with interconnected layers, each layer corresponding to a type of \u201ccell\u201d in the retina or visual cortex. The cells can correspond to neurons or more complex structures (such as cortical columns). Inputs are arbitrary videos. The user can use the cells and synapses provided with the software or create their own using a graphical interface where they enter the constituent equations in text format (e.g., LaTeX). They also create the three-dimensional structure via the graphical interface. Macular then automatically generates and compiles the C++ code and generates the simulation interface. This allows the user to view the input video and the three-dimensional structure in layers. It also allows the user to select cells and synapses in each layer and view the activity of their state variables. Finally, the user can adjust the phenomenological parameters of the cells or synapses via the interface. We provide several example scenarios, corresponding to published articles, including an example of a retino-cortical model. Macular was designed for neurobiologists and modelers, specialists in the primary visual system, who want to test hypotheses in silico without the need for programming. By design, this tool allows simulation of natural or altered conditions (e.g., pharmacology, pathology, and development).",
+    "author": "Julien Wintz",
+    "published_date": "2026-02-02T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 231,
+    "reading_time": 1,
+    "created_at": "2026-02-21T08:33:35.837541+00:00",
+    "updated_at": "2026-02-21T08:33:35.837543+00:00"
+  },
+  {
+    "id": "cb64be5b82f46892cb04f93d3fe1f394",
+    "url": "https://venturebeat.com/ai/lean4-how-the-theorem-prover-works-and-why-its-the-new-competitive-edge-in",
+    "title": "Lean 4: How the theorem prover works and why it's the new competitive edge in AI",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47047027\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-17T12:58:37+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-21T08:33:03.108177+00:00",
+    "updated_at": "2026-02-21T08:33:03.108179+00:00"
+  },
+  {
     "id": "7f309026e5ea19ffca8cc78ec1606707",
     "url": "https://www.biorxiv.org/content/10.64898/2026.02.20.707029v1?rss=1",
     "title": "A multimodal single-cell atlas of the adolescent brain reveals gene regulatory networks linking development to disease risk",
@@ -16986,61 +17034,5 @@
     "reading_time": 1,
     "created_at": "2026-02-16T22:30:19.711069+00:00",
     "updated_at": "2026-02-16T22:30:19.711074+00:00"
-  },
-  {
-    "id": "2cc5f4dd0d2ba1b642f5bfe5adc67e59",
-    "url": "https://twitter.com/KimDotcom/status/2023165849721536672",
-    "title": "Kim Dotcom says Palantir allegedly hacked",
-    "content": "<p>Article URL: <a href=\"https://twitter.com/KimDotcom/status/2023165849721536672\">https://twitter.com/KimDotcom/status/2023165849721536672</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47040754\">https://news.ycombinator.com/item?id=47040754</a></p>\n<p>Points: 24</p>\n<p># Comments: 11</p>",
-    "author": "hooch",
-    "published_date": "2026-02-16T21:45:49+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-02-16T22:30:09.772159+00:00",
-    "updated_at": "2026-02-16T22:30:09.772167+00:00"
-  },
-  {
-    "id": "dfefe79b1f3514902d0681ca79e78183",
-    "url": "https://erpinfo.org/blog/2025/12/19/sme-now-available-in-bva-and-mne-python",
-    "title": "Standardized Measurement Error now available in BrainVision Analyzer and MNE-Python",
-    "content": "<p class=\"\">A few years ago, we developed a universal metric of data quality for averaged ERPs called the standardized measurement error (<a href=\"https://erpinfo.org/blog/2020/4/28/data-quality\">click here</a> for more information). It has been available in ERPLAB for several years, and I\u2019m happy to announce that it is now available in BrainVision Analyzer 2.3.1 and in MNE-Python.</p><p class=\"\">For BrainVision Analyzer, it is available as a Solution. At this point, you need to request it from Brain Products.<a href=\"https://pressrelease.brainproducts.com/analyzer231/#04\"> Click here</a> and scroll down to the last part of the page for more information.</p><p class=\"\">For MNE-Python, it is accessed with the mne.stats.erp.compute_sme() function. <a href=\"https://mne.tools/1.8/generated/mne.stats.erp.compute_sme.html\">Click here</a> for details.</p><p class=\"\">If you want to see some examples of how this metric can be used, check out these recent papers:</p><ul><li><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (2024a). Optimal filters for ERP research I: A general approach for selecting filter settings. <em>Psychophysiology, 61, </em>e14531. <a href=\"http://doi.org/10.1111/psyp.14531\">http://doi.org/10.1111/psyp.14531</a> [<a href=\"https://www.researchgate.net/publication/377773270_Optimal_filters_for_ERP_research_I_A_general_approach_for_selecting_filter_settings\" target=\"_blank\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (2024b). Optimal filters for ERP research II: Recommended settings for seven common ERP components. <em>Psychophysiology, 61, </em>e14530. <a href=\"https://doi.org/10.1111/psyp.14530\">https://doi.org/10.1111/psyp.14530</a> [<a href=\"https://www.researchgate.net/publication/377766656_Optimal_filters_for_ERP_research_II_Recommended_settings_for_seven_common_ERP_components\" target=\"_blank\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., Garrett, D. R., Simmons, A. M., Kiat, J. E., &amp; Luck, S. J. (2024). Evaluating the effectiveness of artifact correction and rejection in event-related potential research. Psychophysiology, 61, e14511. <a href=\"https://doi.org/10.1111/psyp.14511\">https://doi.org/10.1111/psyp.14511</a> [<a href=\"https://doi.org/10.1101/2023.09.16.558075\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., &amp; Luck, S. J. (2023). Variations in ERP data quality across paradigms, participants, and scoring procedures. <em>Psychophysiology, 60,</em> e14264. <a href=\"http://doi.org/10.1111/psyp.14264\">http://doi.org/10.1111/psyp.14264</a> [<a href=\"https://www.biorxiv.org/content/10.1101/2022.08.22.504647v2.full.pdf\">preprint</a>]</p></li></ul>",
-    "author": "Steve Luck",
-    "published_date": "2025-12-19T18:20:27+00:00",
-    "source": "Erp Boot Camp",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 244,
-    "reading_time": 1,
-    "created_at": "2026-02-16T21:55:58.985984+00:00",
-    "updated_at": "2026-02-16T22:22:37.175844+00:00",
-    "metadata": {
-      "processed_at": "2026-02-16T22:22:37.175853+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "30c62259d3f0fa60ef1bd8a2c9fc9762",
-    "url": "https://embc.embs.org/2026/#new_tab",
-    "title": "Join the Mailing List",
-    "content": "<p>The post <a href=\"https://embc.embs.org/2026/#new_tab\">Join the Mailing List</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-    "author": "dziura",
-    "published_date": "2025-12-10T16:41:05+00:00",
-    "source": "Embs",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-02-16T21:55:49.344892+00:00",
-    "updated_at": "2026-02-16T22:22:37.175858+00:00",
-    "metadata": {
-      "processed_at": "2026-02-16T22:22:37.175859+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]
