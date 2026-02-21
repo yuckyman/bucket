@@ -1,5 +1,37 @@
 [
   {
+    "id": "021c398abc45bf0b2fd770c3f4342d99",
+    "url": "https://www.reddit.com/r/Python/comments/1rali0u/sharepointtotext_purepython_text_structure/",
+    "title": "sharepoint-to-text: pure-Python text + structure extraction for \u201creal\u201d SharePoint document estates",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey folks \u2014 I built <strong>sharepoint-to-text</strong>, a <em>pure Python</em> library that extracts <strong>text, metadata, and structured elements</strong> (tables/images where supported) from the kinds of files you actually find in enterprise SharePoint drives:</p> <ul> <li>Modern Office: <code>.docx .xlsx .pptx</code> (+ templates/macros like <code>.dotx .xlsm .pptm</code>)</li> <li>Legacy Office: <code>.doc .xls .ppt</code> (OLE2)</li> <li>Plus: <strong>PDF</strong>, email formats (<code>.eml .msg .mbox</code>), and a bunch of plain-text-ish formats (<code>.md .csv .json .yaml .xml ...</code>)</li> <li>Archives: zip/tar/7z etc. are handled recursively with basic zip-bomb protections</li> </ul> <p>The main goal: <strong>one interface</strong> so your ingestion / RAG / indexing pipeline doesn\u2019t devolve into a forest of <code>if ext == ...</code> blocks.</p> <p><strong>What my project does</strong></p> <h1>TL;DR API</h1> <p><code>read_file()</code> yields typed results, but everything implements the same high-level interface:</p> <pre><code>import sharepoint2text result = next(sharepoint2text.read_file(&quot;deck.pptx&quot;)) text = result.get_full_text() for unit in result.iterate_units(): # page / slide / sheet depending on format chunk = unit.get_text() meta = unit.get_metadata() </code></pre> <ul> <li><code>get_full_text()</code>: best default for \u201cgive me the document text\u201d</li> <li><code>iterate_units()</code>: stable chunk boundaries (PDF pages, PPT slides, XLS sheets) \u2014 useful for citations + per-unit metadata</li> <li><code>iterate_tables()</code> <strong>/</strong> <code>iterate_images()</code>: structured extraction when supported</li> <li><code>to_json()</code> <strong>/</strong> <code>from_json()</code>: serialize results for transport/debugging</li> </ul> <h1>CLI</h1> <pre><code>uv add sharepoint-to-text sharepoint2text --file /path/to/file.docx &gt; extraction.txt sharepoint2text --file /path/to/file.docx --json &gt; extraction.json # images are ignored by default; opt-in: sharepoint2text --file /path/to/file.docx --json --include-images &gt; extraction.with-images.json </code></pre> <p><strong>Target Audience</strong></p> <p>Coders who work in text extraction tasks</p> <p><strong>Comparison</strong></p> <h1>Why bother vs LibreOffice/Tika?</h1> <p>If you\u2019ve run doc extraction in containers/serverless/locked-down envs, you know the pain:</p> <ul> <li>no shelling out</li> <li>no Java runtime / Tika server</li> <li>no \u201cinstall LibreOffice + headless plumbing + huge image\u201d</li> </ul> <p>This stays <strong>native Python</strong> and is intended to be <strong>container-friendly</strong> and <strong>security-friendly</strong> (no subprocess dependency).</p> <h1>SharePoint bit (optional)</h1> <p>There\u2019s an <strong>optional Graph API client</strong> for reading bytes directly from SharePoint, but it\u2019s intentionally not \u201cmagic\u201d: you still orchestrate listing/downloading, then pass bytes into extractors. If you already have your own Graph client, you can ignore this entirely.</p> <h1>Notes / limitations (so you don\u2019t get surprised)</h1> <ul> <li>No OCR: scanned PDFs will produce empty text (images are still extractable)</li> <li>PDF table extraction isn\u2019t implemented (tables may appear in the page text, but not as structured rows)</li> </ul> <p>Repo name is <strong>sharepoint-to-text</strong>; import is <code>sharepoint2text</code>.</p> <p>If you\u2019re dealing with mixed-format SharePoint \u201cdocument archaeology\u201d (especially legacy <code>.doc/.xls/.ppt</code>) and want a single pipeline-friendly interface, I\u2019d love feedback \u2014 especially on edge-case files you\u2019ve seen blow up other extractors.</p> <p>Repo: <a href=\"https://github.com/Horsmann/sharepoint-to-text\">https://github.com/Horsmann/sharepoint-to-text</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AsparagusKlutzy1817\"> /u/AsparagusKlutzy1817 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rali0u/sharepointtotext_purepython_text_structure/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rali0u/sharepointtotext_purepython_text_structure/\">[comments]</a></span>",
+    "author": "/u/AsparagusKlutzy1817",
+    "published_date": "2026-02-21T08:01:58+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 425,
+    "reading_time": 2,
+    "created_at": "2026-02-21T16:30:55.992781+00:00",
+    "updated_at": "2026-02-21T16:30:55.992783+00:00"
+  },
+  {
+    "id": "9752d8ff943eecf17ac65d34f6d07b3f",
+    "url": "https://cryptography.watch/articles/djb-cryptographic-odyssey/",
+    "title": "DJB's Cryptographic Odyssey: From Code Hero to Standards Gadfly",
+    "content": "<p>Article URL: <a href=\"https://cryptography.watch/articles/djb-cryptographic-odyssey/\">https://cryptography.watch/articles/djb-cryptographic-odyssey/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47100641\">https://news.ycombinator.com/item?id=47100641</a></p>\n<p>Points: 9</p>\n<p># Comments: 4</p>",
+    "author": "crypto_watchdog",
+    "published_date": "2026-02-21T13:28:39+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-02-21T16:30:53.549557+00:00",
+    "updated_at": "2026-02-21T16:30:53.549559+00:00"
+  },
+  {
     "id": "81633a013bb7c854db9ec51cbad57ab6",
     "url": "https://www.reddit.com/r/Python/comments/1ranoij/python_modbus_tcp_mapping_guide_for_hnc_plcs_in/",
     "title": "Python + Modbus TCP: Mapping guide for HNC PLCs in the works. Anything specific you'd like to see?",
@@ -17042,37 +17074,5 @@
     "reading_time": 1,
     "created_at": "2026-02-17T05:45:38.479531+00:00",
     "updated_at": "2026-02-17T05:45:38.479533+00:00"
-  },
-  {
-    "id": "5acef4e1ebafe67f9f67892cdeeef922",
-    "url": "https://www.nature.com/articles/s41598-026-39722-x",
-    "title": "Autism spectrum disorder-associated Sema5A p.Arg676Cys drives Arf6/FE65 signaling and aberrant cell morphogenesis",
-    "content": "",
-    "author": "",
-    "published_date": "2026-02-17T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-02-17T05:45:38.479512+00:00",
-    "updated_at": "2026-02-17T05:45:38.479514+00:00"
-  },
-  {
-    "id": "642f5d4a2567b7e924fa3267a462d7f9",
-    "url": "https://www.nature.com/articles/s41598-026-39668-0",
-    "title": "Behavioral and neural aftermath of right inferior frontal cortex disruption on ambiguous vocal emotion decisional processes",
-    "content": "",
-    "author": "",
-    "published_date": "2026-02-17T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-02-17T05:45:38.479465+00:00",
-    "updated_at": "2026-02-17T05:45:38.479470+00:00"
   }
 ]

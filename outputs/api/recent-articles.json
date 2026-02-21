@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-02-21T16:22:46.761472+00:00",
+  "last_updated": "2026-02-21T16:32:05.805231+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "021c398abc45bf0b2fd770c3f4342d99",
+      "url": "https://www.reddit.com/r/Python/comments/1rali0u/sharepointtotext_purepython_text_structure/",
+      "title": "sharepoint-to-text: pure-Python text + structure extraction for \u201creal\u201d SharePoint document estates",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey folks \u2014 I built <strong>sharepoint-to-text</strong>, a <em>pure Python</em> library that extracts <strong>text, metadata, and structured elements</strong> (tables/images where supported) from the kinds of files you actually find in enterprise SharePoint drives:</p> <ul> <li>Modern Office: <code>.docx .xlsx .pptx</code> (+ templates/macros like <code>.dotx .xlsm .pptm</code>)</li> <li>Legacy Office: <code>.doc .xls .ppt</code> (OLE2)</li> <li>Plus: <strong>PDF</strong>, email formats (<code>.eml .msg .mbox</code>), and a bunch of plain-text-ish formats (<code>.md .csv .json .yaml .xml ...</code>)</li> <li>Archives: zip/tar/7z etc. are handled recursively with basic zip-bomb protections</li> </ul> <p>The main goal: <strong>one interface</strong> so your ingestion / RAG / indexing pipeline doesn\u2019t devolve into a forest of <code>if ext == ...</code> blocks.</p> <p><strong>What my project does</strong></p> <h1>TL;DR API</h1> <p><code>read_file()</code> yields typed results, but everything implements the same high-level interface:</p> <pre><code>import sharepoint2text result = next(sharepoint2text.read_file(&quot;deck.pptx&quot;)) text = result.get_full_text() for unit in result.iterate_units(): # page / slide / sheet depending on format chunk = unit.get_text() meta = unit.get_metadata() </code></pre> <ul> <li><code>get_full_text()</code>: best default for \u201cgive me the document text\u201d</li> <li><code>iterate_units()</code>: stable chunk boundaries (PDF pages, PPT slides, XLS sheets) \u2014 useful for citations + per-unit metadata</li> <li><code>iterate_tables()</code> <strong>/</strong> <code>iterate_images()</code>: structured extraction when supported</li> <li><code>to_json()</code> <strong>/</strong> <code>from_json()</code>: serialize results for transport/debugging</li> </ul> <h1>CLI</h1> <pre><code>uv add sharepoint-to-text sharepoint2text --file /path/to/file.docx &gt; extraction.txt sharepoint2text --file /path/to/file.docx --json &gt; extraction.json # images are ignored by default; opt-in: sharepoint2text --file /path/to/file.docx --json --include-images &gt; extraction.with-images.json </code></pre> <p><strong>Target Audience</strong></p> <p>Coders who work in text extraction tasks</p> <p><strong>Comparison</strong></p> <h1>Why bother vs LibreOffice/Tika?</h1> <p>If you\u2019ve run doc extraction in containers/serverless/locked-down envs, you know the pain:</p> <ul> <li>no shelling out</li> <li>no Java runtime / Tika server</li> <li>no \u201cinstall LibreOffice + headless plumbing + huge image\u201d</li> </ul> <p>This stays <strong>native Python</strong> and is intended to be <strong>container-friendly</strong> and <strong>security-friendly</strong> (no subprocess dependency).</p> <h1>SharePoint bit (optional)</h1> <p>There\u2019s an <strong>optional Graph API client</strong> for reading bytes directly from SharePoint, but it\u2019s intentionally not \u201cmagic\u201d: you still orchestrate listing/downloading, then pass bytes into extractors. If you already have your own Graph client, you can ignore this entirely.</p> <h1>Notes / limitations (so you don\u2019t get surprised)</h1> <ul> <li>No OCR: scanned PDFs will produce empty text (images are still extractable)</li> <li>PDF table extraction isn\u2019t implemented (tables may appear in the page text, but not as structured rows)</li> </ul> <p>Repo name is <strong>sharepoint-to-text</strong>; import is <code>sharepoint2text</code>.</p> <p>If you\u2019re dealing with mixed-format SharePoint \u201cdocument archaeology\u201d (especially legacy <code>.doc/.xls/.ppt</code>) and want a single pipeline-friendly interface, I\u2019d love feedback \u2014 especially on edge-case files you\u2019ve seen blow up other extractors.</p> <p>Repo: <a href=\"https://github.com/Horsmann/sharepoint-to-text\">https://github.com/Horsmann/sharepoint-to-text</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AsparagusKlutzy1817\"> /u/AsparagusKlutzy1817 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rali0u/sharepointtotext_purepython_text_structure/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rali0u/sharepointtotext_purepython_text_structure/\">[comments]</a></span>",
+      "author": "/u/AsparagusKlutzy1817",
+      "published_date": "2026-02-21T08:01:58+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 425,
+      "reading_time": 2,
+      "created_at": "2026-02-21T16:30:55.992781+00:00",
+      "updated_at": "2026-02-21T16:30:55.992783+00:00"
+    },
+    {
+      "id": "9752d8ff943eecf17ac65d34f6d07b3f",
+      "url": "https://cryptography.watch/articles/djb-cryptographic-odyssey/",
+      "title": "DJB's Cryptographic Odyssey: From Code Hero to Standards Gadfly",
+      "content": "<p>Article URL: <a href=\"https://cryptography.watch/articles/djb-cryptographic-odyssey/\">https://cryptography.watch/articles/djb-cryptographic-odyssey/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47100641\">https://news.ycombinator.com/item?id=47100641</a></p>\n<p>Points: 9</p>\n<p># Comments: 4</p>",
+      "author": "crypto_watchdog",
+      "published_date": "2026-02-21T13:28:39+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-21T16:30:53.549557+00:00",
+      "updated_at": "2026-02-21T16:30:53.549559+00:00"
+    },
     {
       "id": "81633a013bb7c854db9ec51cbad57ab6",
       "url": "https://www.reddit.com/r/Python/comments/1ranoij/python_modbus_tcp_mapping_guide_for_hnc_plcs_in/",
@@ -335,46 +367,6 @@
       "updated_at": "2026-02-21T12:36:17.450847+00:00",
       "metadata": {
         "processed_at": "2026-02-21T12:36:17.450848+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c2319578819743fdf0159bf723bcb1b5",
-      "url": "https://erpinfo.org/blog/2024/3/5/changes-to-the-2024-erp-boot-camp",
-      "title": "Important Changes to the 2024 ERP Boot Camp",
-      "content": "<p class=\"\">We are disappointed to announce that we will not be holding a regular 10-day ERP Boot Camp this summer.</p><p class=\"\">We have held Boot Camps nearly every summer since 2007, supported by a series of generous grants from NIMH that allowed us to provide scholarships for all attendees. Unfortunately, although our recent renewal proposal received extremely positive reviews and scores, we were recently given the surprising and disappointing news that the renewal will not be funded this year. We believe that the ERP Boot Camp provides essential training to the field, and we will continue to pursue financial support to continue holding 10-day ERP Boot Camps in the future. </p><p class=\"\">In the meantime, we have partial funding that will allow us to hold a 5-day ERP Boot Camp this summer from July 8-12, 2024 in Davis, California. The workshop will include 5-days of lectures and activities on EEG and ERP measures, including practical and theoretical issues.</p><p class=\"\">Unfortunately, we will not be able to provide scholarships to pay for travel and lodging costs, and we must charge a registration fee. We are very sorry if this causes a hardship. </p><p class=\"\">We are no longer taking applications through our application portal. Instead of a competitive application process, we will simply accept the first 30 people who complete the registration process and pay the registration fee. This provides an opportunity to attend for individuals who might otherwise not make it through our ordinary application process, which is highly competitive. </p><p class=\"\">The registration fee will be $1000 (or $900 for people who register by April 15). The registration fee will cover 6 nights in a single occupancy hotel room (arriving July 7 and departing July 13), daily breakfast at the hotel, a catered lunch for each day of the workshop, and a group dinner. <strong>You must pay the registration fee with a credit card when you register.</strong> There are no exceptions to the registration fee policy.</p><p class=\"\"><strong>Registration is now open</strong> at <a href=\"https://na.eventscloud.com/793175\">https://na.eventscloud.com/793175</a>.</p><p class=\"\">Given that we will accept the first 30 registrants, we encourage you to register as soon as possible. <strong>Registration will close on May 20</strong>, but we anticipate that the workshop will be filled up long before then. </p><p class=\"\">You must pay for your own transportation to Davis. Davis is approximately 20 minutes away from the Sacramento Airport (SMF). You can take the <a href=\"https://www.davisairporter.com/\" target=\"_blank\">Davis Airporter</a> shuttle service or a rideshare service from SMF to Davis. If you are coming from outside North America, you may want to fly into the San Francisco airport (SFO), which is 135 km (84 miles) from Davis. We recommend taking the <a href=\"https://www.davisairporter.com/\" target=\"_blank\">Davis Airporter</a> from SFO to Davis.</p>",
-      "author": "Steve Luck",
-      "published_date": "2024-03-05T19:34:57+00:00",
-      "source": "Erp Boot Camp",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 444,
-      "reading_time": 2,
-      "created_at": "2026-02-21T10:28:51.440063+00:00",
-      "updated_at": "2026-02-21T12:36:17.450850+00:00",
-      "metadata": {
-        "processed_at": "2026-02-21T12:36:17.450852+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "184c73c18b89dd31edb3caf8e863b3f9",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899326000831?dgcid=rss_sd_all",
-      "title": "Cutamesine attenuates hippocampal damage via sigma-1 receptor activation following oxygen-glucose deprivation <em>in vitro</em>",
-      "content": "<p>Publication date: 15 May 2026</p><p><b>Source:</b> Brain Research, Volume 1879</p><p>Author(s): Alba Puente-Sanz, Costanza Mazzantini, Martina Venturini, Francesca Mainolfi, Amanda Herrero-Gonz\u00e1lez, Anna Maria Pugliese, Arsenio Fern\u00e1ndez-L\u00f3pez, Domenico E. Pellegrini-Giampietro, Elisa Landucci</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 29,
-      "reading_time": 1,
-      "created_at": "2026-02-21T10:28:31.961950+00:00",
-      "updated_at": "2026-02-21T12:36:17.450854+00:00",
-      "metadata": {
-        "processed_at": "2026-02-21T12:36:17.450859+00:00",
         "processing_method": "github_actions"
       }
     }
