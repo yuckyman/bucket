@@ -1,5 +1,69 @@
 [
   {
+    "id": "7f309026e5ea19ffca8cc78ec1606707",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.02.20.707029v1?rss=1",
+    "title": "A multimodal single-cell atlas of the adolescent brain reveals gene regulatory networks linking development to disease risk",
+    "content": "Adolescence represents a critical window of brain maturation when many neuropsychiatric disorders first emerge, yet the molecular mechanisms driving this developmental period remain incompletely understood. To address this gap, we generated a high-resolution multimodal cell atlas of the developing adolescent brain using paired single-nucleus RNA and ATAC sequencing (snRNA-seq + snATAC-seq) from cortex, hippocampus, and amygdala tissue of six donors aged 6-15 years, profiling 88,658 high-quality nuclei. Integrative analyses identified 36 enhancer-driven gene regulatory networks (eGRNs) with significant age-dependent dynamics in the transition from childhood to adolescence. The majority of adolescence-associated eGRNs were active in oligodendrocytes and their precursors, reflecting active oligodendrogenesis and myelin remodeling during this developmental period. Notably, age-associated cis-regulatory elements were enriched for expression quantitative trait loci (eQTLs) and colocalized with genetic variants linked to both neurodevelopmental and neurodegenerative disorders, suggesting that regulatory networks may be shared across normal adolescent brain development and disease vulnerability. This multimodal cell atlas provides a valuable resource for understanding the human adolescent brain and offers new insights into the molecular origins of neuropsychiatric disorders.",
+    "author": "Galvao, I. C., Lemoine, M., Waichman, T. V., Chandarana, B., Hebert, S., de Oliveira, T. C., dos Santos, L. H. B., Rogerio, F., Yasuda, C. L., Ghizoni, E., Cendes, F., Lopes-Cendes, I., Kleinman, C. L., Troggian Veiga, D.",
+    "published_date": "2026-02-20T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 173,
+    "reading_time": 1,
+    "created_at": "2026-02-21T07:53:00.776337+00:00",
+    "updated_at": "2026-02-21T07:53:00.776339+00:00"
+  },
+  {
+    "id": "55c1f8beb9994089ddabd496984619b6",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.02.20.707083v1?rss=1",
+    "title": "Temporal Coding rather than Circuit Wiring allows Hippocampal CA3 Neurons to Dynamically Distinguish Different Cortical Inputs",
+    "content": "Memory relies on associating and indexing multimodal information. How does this occur within single neurons? The hippocampus integrates multisensory information from medial (MEC) and lateral (LEC) entorhinal cortices to form environmental representations1-6, yet their synaptic dynamics, circuit organization, and integrative functions remain elusive. Contrary to canonical models emphasizing anatomical and functional segregation, our dual-color optogenetic7 circuit mapping revealed that both MEC and LEC inputs converge on virtually every CA3 pyramidal neuron and exhibit similar input-output functions and modulation via GABAergic microcircuitry. Divergence occurs in their frequency-dependent short-term plasticity. With increasing frequencies, facilitating LEC-evoked responses undergo synaptic depression, whereas MEC-evoked responses continue facilitating. In vivo, MEC-originating dentate spikes fire CA3 more than LEC, likely due to their distinct temporal relationship with oscillatory activity. Our findings support that hippocampal area CA3 processes region-specific information from MEC and LEC via temporal coding, rather than hard-wired circuit organization, at both single-neuron and network levels.",
+    "author": "O'Neil, K., Robert, V., Arend, L. A., Kim, B., Fenton, A. A., Basu, J.",
+    "published_date": "2026-02-20T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 150,
+    "reading_time": 1,
+    "created_at": "2026-02-21T07:53:00.776296+00:00",
+    "updated_at": "2026-02-21T07:53:00.776300+00:00"
+  },
+  {
+    "id": "9c4e738899c40f51ac7bc6719938aee3",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1697518",
+    "title": "Transformer-based human-motion forecasting coupled with safe reinforcement learning for telepresence robot co-navigation",
+    "content": "IntroductionTelepresence robots (TPRs) must co-navigate with humans in constrained hospital environments, where safety depends on anticipating rather than merely reacting to human motion. Existing approaches rarely integrate short-horizon human-motion forecasting with safety-constrained control, which reduces robustness in dense corridors and ward bays. This study addresses this gap by evaluating an anticipatory, safety-aware co-navigation framework for TPRs.MethodsWe developed a modular framework that couples a lightweight transformer-based forecaster that predicts multi-agent trajectories under occlusion with a safe reinforcement learning (RL) controller. The forecaster produces short-term distributions over pedestrian states that are embedded into the RL policy state and cost as risk-aware occupancy features. Safety is enforced via constrained policy optimization augmented by a run-time control barrier function (CBF) shield that filters unsafe actions. We benchmarked the approach against a social-force or dynamic window approach (DWA), an attention-based crowd-RL policy, and model predictive control (MPC) with CBF. Experiments were conducted across two hospital-like benchmarks (a crowded corridor and a four-bed ward), totaling 2,400 episodes. Outcomes included task success, collision count, minimum human\u2013robot clearance, near-miss events ( \u2264 0.3 m), time-to-goal, CBF violations, and ablations removing forecasting and the CBF shield.ResultsRelative to the best-performing baseline, the proposed method improved task success by 21.6% and reduced collisions by 47.3%. Median minimum human\u2013robot clearance increased by 0.19 m, and near-miss events decreased by 38.5%. Time-to-goal was maintained within +2.7% of MPC+CBF while incurring zero CBF violations under the shield. Ablation studies showed that removing forecasting degraded success by 14.2%, whereas removing the CBF shield increased constraint breaches from 0% to 6.1% of steps.DiscussionAnticipatory perception combined with Safe-RL yields substantially safer and more reliable telepresence co-navigation in human-dense clinical layouts without sacrificing efficiency. The framework is modular, enabling alternative forecasters and safety shields. Limitations include sensitivity to forecast drift during abrupt changes in crowd flow. Future work will explore on-device adaptation, shared-autonomy overlays to incorporate operator intent, and prospective evaluations in live hospital workflows.",
+    "author": "Mohsin Jamil",
+    "published_date": "2026-02-02T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 317,
+    "reading_time": 1,
+    "created_at": "2026-02-21T07:52:48.388010+00:00",
+    "updated_at": "2026-02-21T07:52:48.388012+00:00"
+  },
+  {
+    "id": "00baa6568796f8beda6a955c26380e6d",
+    "url": "https://www.nature.com/articles/d41586-026-00502-2",
+    "title": "Microsoft team creates 'revolutionary' data storage system that lasts millennia",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47065729\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-18T20:12:13+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-21T07:52:23.296121+00:00",
+    "updated_at": "2026-02-21T07:52:23.296122+00:00"
+  },
+  {
     "id": "6ef0379a9edb4e2cc36abc094b6048ec",
     "url": "http://doi.org/10.1037/pmu0000304",
     "title": "The sound of manufactured music: Reviewing the role of artificial stimuli in music cognition research.",
@@ -16958,81 +17022,5 @@
       "processed_at": "2026-02-16T22:22:37.175859+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "462d809fc097cbd2a6515bc023757c9f",
-    "url": "https://app.smartsheet.com/b/form/0199e95f16727ef99ec5b9ea73e78ab6#new_tab",
-    "title": "Apply for the 2026 One Mind Accelerator Emerging Innovator Observership",
-    "content": "<p>The post <a href=\"https://app.smartsheet.com/b/form/0199e95f16727ef99ec5b9ea73e78ab6#new_tab\">Apply for the 2026 One Mind Accelerator Emerging Innovator Observership</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-    "author": "dziura",
-    "published_date": "2025-12-10T16:49:24+00:00",
-    "source": "Embs",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 19,
-    "reading_time": 1,
-    "created_at": "2026-02-16T21:55:49.344873+00:00",
-    "updated_at": "2026-02-16T22:22:37.175862+00:00",
-    "metadata": {
-      "processed_at": "2026-02-16T22:22:37.175864+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "0a4c71cff7600655bc8cda1fa4289750",
-    "url": "https://www.nature.com/articles/s41593-026-02210-6",
-    "title": "Calcium spikes can flip signals",
-    "content": "<p>Nature Neuroscience, Published online: 06 February 2026; <a href=\"https://www.nature.com/articles/s41593-026-02210-6\">doi:10.1038/s41593-026-02210-6</a></p>Calcium spikes can flip signals",
-    "author": "William P. Olson",
-    "published_date": "2026-02-06T00:00:00+00:00",
-    "source": "Nature Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-02-16T21:55:35.673756+00:00",
-    "updated_at": "2026-02-16T22:22:37.175866+00:00",
-    "metadata": {
-      "processed_at": "2026-02-16T22:22:37.175867+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "b74ec51bf6658c4039a1b3cf272bc957",
-    "url": "https://www.nature.com/articles/s41593-026-02212-4",
-    "title": "Drifting off to repair DNA",
-    "content": "<p>Nature Neuroscience, Published online: 06 February 2026; <a href=\"https://www.nature.com/articles/s41593-026-02212-4\">doi:10.1038/s41593-026-02212-4</a></p>Drifting off to repair DNA",
-    "author": "Leonie Welberg",
-    "published_date": "2026-02-06T00:00:00+00:00",
-    "source": "Nature Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-02-16T21:55:35.673735+00:00",
-    "updated_at": "2026-02-16T22:22:37.175870+00:00",
-    "metadata": {
-      "processed_at": "2026-02-16T22:22:37.175871+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "2fbe62ef6afd55a86448519a0ae58432",
-    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1726374",
-    "title": "Macular: a multi-scale simulation platform for the retina and the primary visual system",
-    "content": "We developed Macular, a simulation platform with a graphical interface, designed to produce in silico experiment scenarios for the retina and the primary visual system. A scenario involves generating a three-dimensional structure with interconnected layers, each layer corresponding to a type of \u201ccell\u201d in the retina or visual cortex. The cells can correspond to neurons or more complex structures (such as cortical columns). Inputs are arbitrary videos. The user can use the cells and synapses provided with the software or create their own using a graphical interface where they enter the constituent equations in text format (e.g., LaTeX). They also create the three-dimensional structure via the graphical interface. Macular then automatically generates and compiles the C++ code and generates the simulation interface. This allows the user to view the input video and the three-dimensional structure in layers. It also allows the user to select cells and synapses in each layer and view the activity of their state variables. Finally, the user can adjust the phenomenological parameters of the cells or synapses via the interface. We provide several example scenarios, corresponding to published articles, including an example of a retino-cortical model. Macular was designed for neurobiologists and modelers, specialists in the primary visual system, who want to test hypotheses in silico without the need for programming. By design, this tool allows simulation of natural or altered conditions (e.g., pharmacology, pathology, and development).",
-    "author": "Julien Wintz",
-    "published_date": "2026-02-02T00:00:00+00:00",
-    "source": "Frontiers Neuroinformatics",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 231,
-    "reading_time": 1,
-    "created_at": "2026-02-16T21:55:30.544116+00:00",
-    "updated_at": "2026-02-16T21:55:30.544119+00:00"
   }
 ]
