@@ -1,5 +1,37 @@
 [
   {
+    "id": "81633a013bb7c854db9ec51cbad57ab6",
+    "url": "https://www.reddit.com/r/Python/comments/1ranoij/python_modbus_tcp_mapping_guide_for_hnc_plcs_in/",
+    "title": "Python + Modbus TCP: Mapping guide for HNC PLCs in the works. Anything specific you'd like to see?",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone,</p> <p>I'm finishing a guide on how to map registers (<strong>holding registers</strong> and <strong>coils</strong>) for <strong>HNC HCS Series PLCs</strong> using Python and the <strong>Pymodbus</strong> library.</p> <p>I\u2019ve noticed that official documentation for these PLCs is often sparse, so I\u2019m putting together a step-by-step guide with ready-to-use scripts. <strong>The guide will be available in both English and Spanish.</strong></p> <p><strong>Is there anything specific you\u2019d like me to include?</strong></p> <p>I'll be posting the full guide in a few days on my blog:<a href=\"https://miltonmce.github.io/blog\">miltonmce.github.io/blog</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Academic-Ad-1590\"> /u/Academic-Ad-1590 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ranoij/python_modbus_tcp_mapping_guide_for_hnc_plcs_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ranoij/python_modbus_tcp_mapping_guide_for_hnc_plcs_in/\">[comments]</a></span>",
+    "author": "/u/Academic-Ad-1590",
+    "published_date": "2026-02-21T10:15:21+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 101,
+    "reading_time": 1,
+    "created_at": "2026-02-21T15:49:39.879509+00:00",
+    "updated_at": "2026-02-21T15:49:39.879510+00:00"
+  },
+  {
+    "id": "34f40b2aa09926fd1a8ce49119ce090f",
+    "url": "https://www.koreaherald.com/article/10679206",
+    "title": "CXMT has been offering DDR4 chips at about half the prevailing market rate",
+    "content": "<p>Article URL: <a href=\"https://www.koreaherald.com/article/10679206\">https://www.koreaherald.com/article/10679206</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47101171\">https://news.ycombinator.com/item?id=47101171</a></p>\n<p>Points: 9</p>\n<p># Comments: 2</p>",
+    "author": "phront",
+    "published_date": "2026-02-21T14:32:16+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-02-21T15:49:37.313496+00:00",
+    "updated_at": "2026-02-21T15:49:37.313498+00:00"
+  },
+  {
     "id": "4a1593b5ac0f6b0be09a52306d2da3d7",
     "url": "https://www.sciencedirect.com/science/article/pii/S1053811926001023?dgcid=rss_sd_all",
     "title": "The neurophenomenology of a self-induced transcendental visionary state: A case study",
@@ -17022,37 +17054,5 @@
     "reading_time": 1,
     "created_at": "2026-02-17T05:45:38.479465+00:00",
     "updated_at": "2026-02-17T05:45:38.479470+00:00"
-  },
-  {
-    "id": "8f73e87e055d2fc014f20c2acd2ff9dd",
-    "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2515782123?af=R",
-    "title": "Whole-body central processing of lateral line inputs encodes flow direction relative to the center-of-mass",
-    "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 7, February 2026. <br />SignificanceSpatial and directional cues are essential to select appropriate actions in response to changes in the environment. How information from broadly distributed sensors across the entire body is organized and contributes to motor selection remains ...",
-    "author": "Elias T. LunsfordMartin Carbo-TanoClaire WyartaSorbonne Universit\u00e9, Institut du Cerveau, Institut National de la Sant\u00e9 et de la Recherche M\u00e9dicale U1127, Centre National de la Recherche Scientifique Unit\u00e9 Mixte de Recherche 7225, Paris 75013, France",
-    "published_date": "2026-02-10T08:00:00+00:00",
-    "source": "Pnas Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 50,
-    "reading_time": 1,
-    "created_at": "2026-02-17T05:45:32.422414+00:00",
-    "updated_at": "2026-02-17T05:45:32.422415+00:00"
-  },
-  {
-    "id": "90479a6d9c50b712d7ce2d45185dcfaa",
-    "url": "https://www.reddit.com/r/Python/comments/1r6w9fd/i_built_a_small_compiler_that_converts_a/",
-    "title": "I built a small compiler that converts a GDScript-like language into Python (GDLite)",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi <a href=\"/r/Python\">r/Python</a>,</p> <p>I\u2019ve been learning about language design and CLI tools, and I built a small project called GDLite.</p> <h2>What my project does</h2> <p>GDLite is a lightweight scripting language that compiles into Python. You write code in a simpler GDScript-like syntax and it generates a Python file that you can run normally.</p> <p>It also supports importing Python modules and even importing external modules directly from GitHub.</p> <p>Example:</p> <p>hello.gdl func main(): print(&quot;Hello from GDL!&quot;) main()</p> <p>Compile: gdlc hello.gdl</p> <p>Run: python hello.py</p> <h2>Target audience</h2> <p>This project is mainly for: \u2022 People learning compilers or language design<br /> \u2022 Python users who want a simpler scripting syntax<br /> \u2022 Termux/Linux users who like CLI tools and experimentation </p> <p>This is NOT meant for production yet \u2014 it\u2019s an experimental learning project.</p> <h2>Why I made this / comparison</h2> <p>I was inspired by GDScript from Godot. I like its simple syntax, but I wanted something that compiles into Python and can use Python libraries.</p> <p>So GDLite acts as a lightweight scripting layer on top of Python.</p> <h2>Source code</h2> <p><a href=\"https://github.com/Lintang143/GDLC-GDLite-Compiler-\">https://github.com/Lintang143/GDLC-GDLite-Compiler-</a></p> <p>I would really appreciate feedback, ideas, or criticism \ud83d\ude42</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ornery_Wealth_6327\"> /u/Ornery_Wealth_6327 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1r6w9fd/i_built_a_small_compiler_that_converts_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1r6w9fd/i_built_a_small_compiler_that_converts_a/\">[comments]</a></span>",
-    "author": "/u/Ornery_Wealth_6327",
-    "published_date": "2026-02-17T04:24:06+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 206,
-    "reading_time": 1,
-    "created_at": "2026-02-17T05:45:00.012853+00:00",
-    "updated_at": "2026-02-17T05:45:00.012855+00:00"
   }
 ]
