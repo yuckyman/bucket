@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-02-22T18:28:44.367685+00:00",
+  "last_updated": "2026-02-22T18:38:23.733527+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "de4d79a83cc1a3d124d1f7e802aa74a6",
+      "url": "https://www.reddit.com/r/Python/comments/1rbsh86/project_strictyamlx_dynamic_recursive_schemas_for/",
+      "title": "[Project] strictyamlx \u2014 dynamic + recursive schemas for StrictYAML",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p><strong>strictyamlx</strong> is a small extension library for <strong>StrictYAML</strong> that adds a couple schema features I kept needing for config-driven Python projects:</p> <ul> <li><strong>DMap (Dynamic Map):</strong> choose a validation schema based on one or more \u201ccontrol\u201d fields (e.g., <code>action</code>, <code>type</code>, <code>kind</code>) so different config variants can be validated cleanly.</li> <li><strong>ForwardRef:</strong> define <strong>recursive/self-referential schemas</strong> for nested structures.</li> </ul> <p>Repo: <a href=\"https://github.com/notesbymuneeb/strictyamlx?utm_source=chatgpt.com\">https://github.com/notesbymuneeb/strictyamlx</a></p> <h1>Target Audience</h1> <p>Python developers using <strong>YAML configuration</strong> who want <strong>strict validation</strong> but also need:</p> <ul> <li>multiple config \u201ctypes\u201d in one file (selected by a field like <code>action</code>)</li> <li>recursive/nested config structures</li> </ul> <p>This is aimed at backend/services/tooling projects that are config-heavy (workflows, pipelines, plugins, etc.).</p> <h1>Comparison</h1> <ul> <li><strong>StrictYAML:</strong> great for strict validation, but dynamic \u201cschema-by-type\u201d configs and recursive schemas are awkward without extra plumbing.</li> <li><strong>strictyamlx:</strong> keeps StrictYAML\u2019s approach, while adding: <ul> <li><code>DMap</code> for schema selection by control fields</li> <li><code>ForwardRef</code> for recursion</li> </ul></li> </ul> <p>I\u2019d love feedback on API ergonomics, edge cases to test, and error message clarity.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/muneebdev\"> /u/muneebdev </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rbsh86/project_strictyamlx_dynamic_recursive_schemas_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rbsh86/project_strictyamlx_dynamic_recursive_schemas_for/\">[comments]</a></span>",
+      "author": "/u/muneebdev",
+      "published_date": "2026-02-22T17:54:10+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 180,
+      "reading_time": 1,
+      "created_at": "2026-02-22T18:37:20.907942+00:00",
+      "updated_at": "2026-02-22T18:37:20.907945+00:00"
+    },
+    {
+      "id": "7924f799c40f7934ec77a17a65f37b42",
+      "url": "https://nesbitt.io/2026/02/05/git-magic-files.html",
+      "title": "Git's Magic Files",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47111218\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-22T14:21:35+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-22T18:37:19.711163+00:00",
+      "updated_at": "2026-02-22T18:37:19.711165+00:00"
+    },
+    {
+      "id": "274fa5be4e10f7efd84b28a2e474b835",
+      "url": "https://github.com/FreHu/vscode-fresh-file-explorer",
+      "title": "Fresh File Explorer \u2013 VS Code extension for navigating recent work",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47113325\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-22T18:20:31+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-22T18:37:19.711067+00:00",
+      "updated_at": "2026-02-22T18:37:19.711068+00:00"
+    },
     {
       "id": "30594a15817238e6a0e47401e0a7c111",
       "url": "https://www.nature.com/articles/s41598-026-41335-3",
@@ -325,58 +373,6 @@
       "reading_time": 1,
       "created_at": "2026-02-22T14:27:35.831588+00:00",
       "updated_at": "2026-02-22T14:27:35.831589+00:00"
-    },
-    {
-      "id": "df7b25522b73d7f45c511571bbdecbcd",
-      "url": "https://www.bloomberg.com/news/features/2026-02-20/a-boom-in-electronic-dance-music-is-changing-club-culture",
-      "title": "The Dance Floor Is Disappearing in a Sea of Phones",
-      "content": "<p>Article URL: <a href=\"https://www.bloomberg.com/news/features/2026-02-20/a-boom-in-electronic-dance-music-is-changing-club-culture\">https://www.bloomberg.com/news/features/2026-02-20/a-boom-in-electronic-dance-music-is-changing-club-culture</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47110549\">https://news.ycombinator.com/item?id=47110549</a></p>\n<p>Points: 25</p>\n<p># Comments: 16</p>",
-      "author": "blondie9x",
-      "published_date": "2026-02-22T12:41:37+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-22T14:27:35.831566+00:00",
-      "updated_at": "2026-02-22T14:27:35.831568+00:00"
-    },
-    {
-      "id": "36e9af2268ecedd132c0eef0ac2fbd8a",
-      "url": "https://github.com/volatilityfoundation/volatility3",
-      "title": "Volatility: The volatile memory forensic extraction framework",
-      "content": "<p>Article URL: <a href=\"https://github.com/volatilityfoundation/volatility3\">https://github.com/volatilityfoundation/volatility3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47110781\">https://news.ycombinator.com/item?id=47110781</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
-      "author": "transpute",
-      "published_date": "2026-02-22T13:20:07+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-22T14:27:35.831536+00:00",
-      "updated_at": "2026-02-22T14:27:35.831544+00:00"
-    },
-    {
-      "id": "b84f4acfaa385c55c9bcc74850be8c16",
-      "url": "http://doi.org/10.1037/cns0000380",
-      "title": "Sensory-processing sensitivity as a confounder in the positive relationship between mindful awareness and psychological distress: A theoretical review.",
-      "content": "Mindfulness meditation is credited as a positive driver of promoting psychological well-being and reducing stress, anxiety, and depression symptoms. However, dispositional mindfulness has been somewhat correlated with psychological distress, as awareness has been positively correlated with psychological symptoms and negative affective states in many studies. This counterintuitive phenomenon has been tentatively explained in a variety of ways, including a wrong interpretation of the items of the mindfulness assessment scales in nonmeditators. The most credited explanation is that increasing attention to present-moment experiences would boost affective reaction to negative experiences and therefore exacerbate related psychological symptoms. This hypothesis is unsatisfactory, as there is much contrasting evidence in this regard. Therefore, we propose a new hypothesis: in dispositional studies, the assessment of the awareness skill of mindfulness would be affected by sensory-processing sensitivity, which could be a confounder in its relationship with psychological distress. Sensory-processing sensitivity refers to a temperamental trait characterized by both awareness of sensorial stimulation and reactivity to experience. Thus, highly sensitive persons usually report increased awareness of subtleties in the environment, ease of overstimulation, and increased affective reaction to stimulation. In support of our hypothesis, we showed in particular how the most widely used scale for assessing mindful awareness could be paired with and interpreted as a measure of sensory-processing sensitivity. We then propose a set of testable hypotheses to drive future research on this topic. If supported by future experimental results, our hypothesis would shed new light on the overall field of dispositional mindfulness studies. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2023-11-02T00:00:00+00:00",
-      "source": "Clinical Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 257,
-      "reading_time": 1,
-      "created_at": "2026-02-22T13:44:21.947134+00:00",
-      "updated_at": "2026-02-22T14:22:18.042481+00:00",
-      "metadata": {
-        "processed_at": "2026-02-22T14:22:18.042490+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
