@@ -1,5 +1,37 @@
 [
   {
+    "id": "710368f01c68abff17f76e1cd290b19e",
+    "url": "https://www.ams.org/journals/notices/202603/noti3305/noti3305.html",
+    "title": "The Four-Color Theorem 1852\u20131976",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47100190\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-21T12:32:06+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-22T15:49:51.686574+00:00",
+    "updated_at": "2026-02-22T15:49:51.686575+00:00"
+  },
+  {
+    "id": "fc4b9262745f81e8b889d5be9c01bfd0",
+    "url": "https://live.xweather.com/",
+    "title": "Xweather Live \u2013 Interactive global vector weather map",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47111626\">Comments</a>",
+    "author": "",
+    "published_date": "2026-02-22T15:12:15+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-22T15:49:51.686498+00:00",
+    "updated_at": "2026-02-22T15:49:51.686499+00:00"
+  },
+  {
     "id": "a1573cc5342157b47ea8ddb36abae8cf",
     "url": "https://quesma.com/blog/introducing-binaryaudit/",
     "title": "We hid backdoors in ~40MB binaries and asked AI + Ghidra to find them",
@@ -17110,37 +17142,5 @@
     "reading_time": 1,
     "created_at": "2026-02-17T18:59:17.646032+00:00",
     "updated_at": "2026-02-17T18:59:17.646037+00:00"
-  },
-  {
-    "id": "ddcc095edd89ee5e984592246d035a7a",
-    "url": "https://docs.continue.dev",
-    "title": "Show HN: Continue \u2013 Source-controlled AI checks, enforceable in CI",
-    "content": "<p>We now write most of our code with agents. For a while, PRs piled up, causing review fatigue, and we had this sinking feeling that standards were slipping. Consistency is tough at this volume. I\u2019m sharing the solution we found, which has become our main product.<p>Continue (<a href=\"https://docs.continue.dev\">https://docs.continue.dev</a>) runs AI checks on every PR. Each check is a source-controlled markdown file in `.continue/checks/` that shows up as a GitHub status check. They run as full agents, not just reading the diff, but able to read/write files, run bash commands, and use a browser. If it finds something, the check fails with one click to accept a diff. Otherwise, it passes silently.<p>Here\u2019s one of ours:<p><pre><code>  .continue/checks/metrics-integrity.md\n\n  ---\n  name: Metrics Integrity\n  description: Detects changes that could inflate, deflate, or corrupt metrics (session counts, event accuracy, etc.)\n  ---\n\n  Review this PR for changes that could unintentionally distort metrics.\n  These bugs are insidious because they corrupt dashboards without triggering errors or test failures.\n\n  Check for:\n  - \"Find or create\" patterns where the \"find\" is too narrow, causing entity duplication (e.g. querying only active sessions, missing completed ones, so every new commit creates a duplicate)\n  - Event tracking calls inside loops or retry paths that fire multiple times per logical action\n  - Refactors that accidentally remove or move tracking calls to a path that executes with different frequency\n\n  Key files: anything containing `posthog.capture` or `trackEvent`\n\n</code></pre>\nThis check passed without noise for weeks, but then caught a PR that would have silently deflated our session counts. We added it in the first place because we\u2019d been burned in the past by bad data, only noticing when a dashboard looked off.<p>---<p>To get started, paste this into Claude Code or your coding agent of choice:<p><pre><code>  Help me write checks for this codebase: https://continue.dev/walkthrough\n</code></pre>\nIt will:<p>- Explore the codebase and use the `gh` CLI to read past review comments<p>- Write checks to `.continue/checks/`<p>- Optionally, show you how to run them locally or in CI<p>Would love your feedback!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47049848\">https://news.ycombinator.com/item?id=47049848</a></p>\n<p>Points: 20</p>\n<p># Comments: 5</p>",
-    "author": "sestinj",
-    "published_date": "2026-02-17T17:08:14+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 341,
-    "reading_time": 1,
-    "created_at": "2026-02-17T18:59:16.429223+00:00",
-    "updated_at": "2026-02-17T18:59:16.429225+00:00"
-  },
-  {
-    "id": "28c73c531f975b7f8496302732ff940f",
-    "url": "https://www.gentoo.org/news/2026/02/16/codeberg.html",
-    "title": "Gentoo on Codeberg",
-    "content": "<p>Article URL: <a href=\"https://www.gentoo.org/news/2026/02/16/codeberg.html\">https://www.gentoo.org/news/2026/02/16/codeberg.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47050067\">https://news.ycombinator.com/item?id=47050067</a></p>\n<p>Points: 51</p>\n<p># Comments: 6</p>",
-    "author": "todsacerdoti",
-    "published_date": "2026-02-17T17:21:04+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-02-17T18:59:16.429162+00:00",
-    "updated_at": "2026-02-17T18:59:16.429163+00:00"
   }
 ]
