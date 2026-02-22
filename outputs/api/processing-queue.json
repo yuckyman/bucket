@@ -1,8 +1,56 @@
 {
-  "last_updated": "2026-02-22T18:28:44.367180+00:00",
-  "pending_count": 701,
-  "processed_count": 299,
+  "last_updated": "2026-02-22T20:20:45.850928+00:00",
+  "pending_count": 696,
+  "processed_count": 304,
   "pending_articles": [
+    {
+      "id": "de4d79a83cc1a3d124d1f7e802aa74a6",
+      "url": "https://www.reddit.com/r/Python/comments/1rbsh86/project_strictyamlx_dynamic_recursive_schemas_for/",
+      "title": "[Project] strictyamlx \u2014 dynamic + recursive schemas for StrictYAML",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p><strong>strictyamlx</strong> is a small extension library for <strong>StrictYAML</strong> that adds a couple schema features I kept needing for config-driven Python projects:</p> <ul> <li><strong>DMap (Dynamic Map):</strong> choose a validation schema based on one or more \u201ccontrol\u201d fields (e.g., <code>action</code>, <code>type</code>, <code>kind</code>) so different config variants can be validated cleanly.</li> <li><strong>ForwardRef:</strong> define <strong>recursive/self-referential schemas</strong> for nested structures.</li> </ul> <p>Repo: <a href=\"https://github.com/notesbymuneeb/strictyamlx?utm_source=chatgpt.com\">https://github.com/notesbymuneeb/strictyamlx</a></p> <h1>Target Audience</h1> <p>Python developers using <strong>YAML configuration</strong> who want <strong>strict validation</strong> but also need:</p> <ul> <li>multiple config \u201ctypes\u201d in one file (selected by a field like <code>action</code>)</li> <li>recursive/nested config structures</li> </ul> <p>This is aimed at backend/services/tooling projects that are config-heavy (workflows, pipelines, plugins, etc.).</p> <h1>Comparison</h1> <ul> <li><strong>StrictYAML:</strong> great for strict validation, but dynamic \u201cschema-by-type\u201d configs and recursive schemas are awkward without extra plumbing.</li> <li><strong>strictyamlx:</strong> keeps StrictYAML\u2019s approach, while adding: <ul> <li><code>DMap</code> for schema selection by control fields</li> <li><code>ForwardRef</code> for recursion</li> </ul></li> </ul> <p>I\u2019d love feedback on API ergonomics, edge cases to test, and error message clarity.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/muneebdev\"> /u/muneebdev </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rbsh86/project_strictyamlx_dynamic_recursive_schemas_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rbsh86/project_strictyamlx_dynamic_recursive_schemas_for/\">[comments]</a></span>",
+      "author": "/u/muneebdev",
+      "published_date": "2026-02-22T17:54:10+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 180,
+      "reading_time": 1,
+      "created_at": "2026-02-22T18:37:20.907942+00:00",
+      "updated_at": "2026-02-22T18:37:20.907945+00:00"
+    },
+    {
+      "id": "7924f799c40f7934ec77a17a65f37b42",
+      "url": "https://nesbitt.io/2026/02/05/git-magic-files.html",
+      "title": "Git's Magic Files",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47111218\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-22T14:21:35+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-22T18:37:19.711163+00:00",
+      "updated_at": "2026-02-22T18:37:19.711165+00:00"
+    },
+    {
+      "id": "274fa5be4e10f7efd84b28a2e474b835",
+      "url": "https://github.com/FreHu/vscode-fresh-file-explorer",
+      "title": "Fresh File Explorer \u2013 VS Code extension for navigating recent work",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47113325\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-22T18:20:31+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-22T18:37:19.711067+00:00",
+      "updated_at": "2026-02-22T18:37:19.711068+00:00"
+    },
     {
       "id": "d661f5958e921a422a31d329baba4e50",
       "url": "https://www.phyware.io/blog/ny-robotaxi-trust-gap",
@@ -114,57 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-02-22T13:44:11.703557+00:00",
       "updated_at": "2026-02-22T13:44:11.703565+00:00"
-    },
+    }
+  ],
+  "recently_processed": [
     {
-      "id": "81531ece756f76545b689b670d7dc989",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.20.706764v1?rss=1",
-      "title": "Compromised striatal structure and function in mouse models of RARB-related disorder",
-      "content": "Dominant variants in the retinoic acid receptor beta (RARB) gene cause a complex disorder known as RARB-related disorder (RARB-RD), characterized by multiple congenital anomalies, global developmental delay, and dystonia. RARB-RD variants have been classified as either gain-of-function (GOF) or dominant-negative (DN) based on their cell-based transcriptional responses to retinoids. To investigate the mechanisms underlying this disorder, we generated mouse models carrying either the p.R387C or p.L402P RARB-RD variant, previously categorized as GOF and DN, respectively. Homozygous mice for either RARB-RD variant died perinatally with colonic aganglionosis, while heterozygous mice survived and recapitulated several features of RARB-RD. In addition to microphthalmia, both RarbR387C/+ and RarbL402P/+ mice exhibited progressive coordination deficits, increased active-phase locomotor activity, and cognitive impairment in the novel object recognition test. In contrast, mice heterozygous for a null allele of Rarb (Rarb+/-) did not display these abnormalities. In the brain, Rarb is predominantly expressed in the two major populations of projection neurons of the striatum recognizable by the expression of dopamine receptors D1R/Drd1 and D2R/Drd2. Marker analysis revealed a reduction in Drd2-expressing neurons without changes in Drd1-expressing neurons in both RARB-RD models. Furthermore, RARB-RD mice showed partial resistance to the cataleptic effects of haloperidol, a D2R-specific antagonist. These behavioral, cellular, and dopaminergic deficits - though not the cognitive impairments - have previously been observed in Rarb-/- mice. To determine whether the in vitro effects of RARB-RD variants correlate with distinct transcriptional signatures in vivo, we compared the striatal transcriptome of RarbR387C/+, RarbL402P/+, Rarb-/- and Rarb+/- mice with their littermate controls. We found that the heterozygous RARB-RD variants and the homozygous null allele affected a large subset of common genes, with putative direct RARB targets predominantly downregulated. Notably, the transcriptional impact of the RARB-RD variants was more profound than that of the null allele, regardless of zygosity. Additionally, transcriptional changes in RARB-RD mice extensively overlapped with those observed in mouse models of Huntington's disease, suggesting shared mechanisms affecting neuronal survival in the striatum. We conclude that the p.R387C and p.L402P variants similarly compromise striatal integrity and function, likely through a DN mechanism. Progressive emergence of most neurologic deficits highlights a potential therapeutic window. Our results support the development of strategies aimed at silencing RARB-RD alleles.",
-      "author": "Zinter, N., Shah, D., Artot, V., Lammetti, N., Semaan, H., Soret, R., Pilon, N., Nassif, C., Birling, M.-C., Raja-Ravi-Shankar, A., Fraulob, V., Caron, V., Tremblay, A., Zapata, G., Danik, M., Michaud, J. L., Krezel, W.",
-      "published_date": "2026-02-22T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 365,
-      "reading_time": 1,
-      "created_at": "2026-02-22T12:53:16.396321+00:00",
-      "updated_at": "2026-02-22T12:53:16.396325+00:00"
-    },
-    {
-      "id": "f230e13976555ba443389826bbafd544",
-      "url": "https://www.reddit.com/r/Python/comments/1rbis64/local_wifi_checkin_system/",
-      "title": "Local WiFi Check-In System",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What My Project Does:</strong><br /> This is a Python-based local WiFi check-in system. People scan a QR code or open a URL, enter their name, and get checked in. It supports a guest list, admin approval for unknown guests, and shows a special message if you\u2019re the first person to arrive.</p> <p><strong>Target Audience:</strong><br /> This is meant for small events, parties, or LAN-based meetups. It\u2019s a toy/side project, not for enterprise use, and it runs entirely on a local network.</p> <p><strong>Comparison:</strong><br /> Unlike traditional check-in apps, this is fully self-hosted, works on local WiFi. It\u2019s simple to set up with Python and can be used for small events without paying for a cloud service.</p> <p><a href=\"https://gitlab.com/abcdefghijklmateonopqrstuvwxyz-group/abcdefghijklmateonopqrstuvwxyz-project\">https://gitlab.com/abcdefghijklmateonopqrstuvwxyz-group/abcdefghijklmateonopqrstuvwxyz-project</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Sufficient_Coach_334\"> /u/Sufficient_Coach_334 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rbis64/local_wifi_checkin_system/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rbis64/local_wifi_checkin_system/\">[comments]</a></span>",
-      "author": "/u/Sufficient_Coach_334",
-      "published_date": "2026-02-22T10:44:35+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 137,
-      "reading_time": 1,
-      "created_at": "2026-02-22T12:52:37.396921+00:00",
-      "updated_at": "2026-02-22T12:52:37.396923+00:00"
-    },
-    {
-      "id": "b01c545d80b1fd3624acaf33c087b307",
-      "url": "https://github.com/kurouna/elecxzy",
-      "title": "Show HN: Elecxzy \u2013 A lightweight, Lisp-free Emacs-like editor in Electron",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47100328\">Comments</a>",
+      "id": "bad51ea58a874501dd6cd99f07ec972b",
+      "url": "https://css-tricks.com/international-box-sizing-awareness-day/",
+      "title": "International box-sizing Awareness Day",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47074287\">Comments</a>",
       "author": "",
-      "published_date": "2026-02-21T12:49:24+00:00",
+      "published_date": "2026-02-19T14:43:25+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-02-22T10:27:45.350061+00:00",
-      "updated_at": "2026-02-22T10:27:45.350063+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-02-22T19:47:03.567023+00:00",
+      "updated_at": "2026-02-22T20:20:45.745043+00:00",
+      "metadata": {
+        "processed_at": "2026-02-22T20:20:45.745053+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "77a56b5ae220aa8eb7115b528d6f6fcf",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.19.705149v1?rss=1",
+      "title": "Nanoscale organization of betaII-spectrin within segments of the membrane-associated periodic skeleton in mouse sciatic nerve axons",
+      "content": "The actin/spectrin membrane-associated periodic skeleton (MPS) is a ubiquitous cytoskeletal structure essential for axonal integrity and function. Primarily studied in cultured neurons, the MPS has been extensively modeled as actin rings spaced by spectrin tetramers, the latter assumed to be regularly and densely distributed across the axonal perimeter. However, its nanoscale organization within native tissue environments remains poorly understood. In this study, we investigated the three-dimensional organization of {beta}II-spectrin in the mouse sciatic nerve using 3D-dSTORM and STED super-resolution microscopy on thin transversal cryosections. By implementing a custom quantitative analysis pipeline, we resolved the sub-diffraction architecture of the MPS across myelinated axons of diverse diameters. We confirm that {beta}II-spectrin is localized to the inner face of the axonal plasma membrane and maintains a longitudinal periodicity of approximately 170 nm, consistent with previous observations. Crucially, 3D-dSTORM revealed that {beta}II-spectrin along the axonal perimeter is organized in discrete nanoscale clusters with a median effective radius of 25 nm, compatible with the size of an individual spectrin tetramer visualized by indirect immunolabeling. The number of these clusters scales linearly with the axonal perimeter, maintaining a constant membrane occupancy of ~20% across varying axon diameters. Moreover, these clusters exhibit a non-random spatial distribution with a characteristic center-to-center nearest-neighbor distance of ~200 nm. These findings challenge simplified models of the MPS based on cultured systems and demonstrate that the MPS in peripheral nerves is composed of discrete structural units. This modular, dispersed organization may provide the structural flexibility required to withstand the mechanical demands of the peripheral nervous system while maintaining a stable periodic scaffold.",
+      "author": "Gazal, N. G., Escalante, G., Lopez, L. F., Goutebroze, L., Bisbal, M., Gorostiza, E. A., Szalai, A. M., Stefani, F. D., Unsain, N.",
+      "published_date": "2026-02-22T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 260,
+      "reading_time": 1,
+      "created_at": "2026-02-22T19:27:02.192565+00:00",
+      "updated_at": "2026-02-22T20:20:45.745057+00:00",
+      "metadata": {
+        "processed_at": "2026-02-22T20:20:45.745059+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "266960de0e306b4354835c38ffb8c909",
+      "url": "https://www.reddit.com/r/Python/comments/1rbt9ok/i_built_an_interactive_python_book_that_lets_you/",
+      "title": "I built an interactive Python book that lets you code while you learn (Basics to Advanced)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I\u2019ve been working on a project called <strong>ThePythonBook</strong> to help students get past the &quot;tutorial hell&quot; phase. I wanted to create something where the explanation and the execution happen in the same place.</p> <p>It covers everything from your first <code>print(&quot;Hello World&quot;)</code> to more advanced concepts, all within an interactive environment. No setup required\u2014you just run the code in the browser.</p> <p>Check it out here: <a href=\"https://www.pythoncompiler.io/python/getting-started/\">https://www.pythoncompiler.io/python/getting-started/</a></p> <p>It's completely free, and I\u2019d love to get some feedback from this community on how to make it a better resource for beginners!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Regular-Entrance-205\"> /u/Regular-Entrance-205 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rbt9ok/i_built_an_interactive_python_book_that_lets_you/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rbt9ok/i_built_an_interactive_python_book_that_lets_you/\">[comments]</a></span>",
+      "author": "/u/Regular-Entrance-205",
+      "published_date": "2026-02-22T18:23:08+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 112,
+      "reading_time": 1,
+      "created_at": "2026-02-22T19:26:24.840163+00:00",
+      "updated_at": "2026-02-22T20:20:45.745062+00:00",
+      "metadata": {
+        "processed_at": "2026-02-22T20:20:45.745063+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "674c891279f9b5cf427865ed036b278a",
+      "url": "https://twitter.com/Gavriel_Cohen/status/2025603982769410356",
+      "title": "NanoClaw Moved from Apple Containers to Docker",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47113731\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-22T19:12:50+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-22T19:26:23.638641+00:00",
+      "updated_at": "2026-02-22T20:20:45.745066+00:00",
+      "metadata": {
+        "processed_at": "2026-02-22T20:20:45.745067+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "cde7070e991255f8fad406a9d700757b",
+      "url": "https://hayzam.com/blog/02-linuxulator-is-awesome/",
+      "title": "Linuxulator on FreeBSD Feels Like Magic",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47113527\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-22T18:45:56+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-22T19:26:23.638561+00:00",
+      "updated_at": "2026-02-22T20:20:45.745069+00:00",
+      "metadata": {
+        "processed_at": "2026-02-22T20:20:45.745071+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "30594a15817238e6a0e47401e0a7c111",
       "url": "https://www.nature.com/articles/s41598-026-41335-3",
@@ -262,106 +362,6 @@
       "updated_at": "2026-02-22T16:23:27.360188+00:00",
       "metadata": {
         "processed_at": "2026-02-22T16:23:27.360190+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a1573cc5342157b47ea8ddb36abae8cf",
-      "url": "https://quesma.com/blog/introducing-binaryaudit/",
-      "title": "We hid backdoors in ~40MB binaries and asked AI + Ghidra to find them",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47111440\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-22T14:50:44+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-22T15:26:52.624449+00:00",
-      "updated_at": "2026-02-22T16:23:27.360192+00:00",
-      "metadata": {
-        "processed_at": "2026-02-22T16:23:27.360194+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a1573cc5342157b47ea8ddb36abae8cf",
-      "url": "https://quesma.com/blog/introducing-binaryaudit/",
-      "title": "We hid backdoors in ~40MB binaries and asked AI + Ghidra to find them",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47111440\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-22T14:50:44+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-22T15:26:52.624449+00:00",
-      "updated_at": "2026-02-22T16:23:27.360192+00:00",
-      "metadata": {
-        "processed_at": "2026-02-22T16:23:27.360194+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "67b7dc19a1a6cc820d8192a71540db69",
-      "url": "https://www.popsci.com/technology/robot-vacuum-army/",
-      "title": "Man accidentally gains control of 7k robot vacuums",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47111400\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-22T14:44:42+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-22T15:26:52.624429+00:00",
-      "updated_at": "2026-02-22T16:23:27.360196+00:00",
-      "metadata": {
-        "processed_at": "2026-02-22T16:23:27.360198+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "67b7dc19a1a6cc820d8192a71540db69",
-      "url": "https://www.popsci.com/technology/robot-vacuum-army/",
-      "title": "Man accidentally gains control of 7k robot vacuums",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47111400\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-22T14:44:42+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-22T15:26:52.624429+00:00",
-      "updated_at": "2026-02-22T16:23:27.360196+00:00",
-      "metadata": {
-        "processed_at": "2026-02-22T16:23:27.360198+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9a037e5e180aec1f6019ef1eec59bac9",
-      "url": "https://rename.world/",
-      "title": "I put New Zealand behind a $1 paywall",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47111042\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-22T13:57:18+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-22T15:26:52.624352+00:00",
-      "updated_at": "2026-02-22T16:23:27.360200+00:00",
-      "metadata": {
-        "processed_at": "2026-02-22T16:23:27.360202+00:00",
         "processing_method": "github_actions"
       }
     }
