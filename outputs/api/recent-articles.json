@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-02-22T14:28:43.093806+00:00",
+  "last_updated": "2026-02-22T14:55:12.516541+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d661f5958e921a422a31d329baba4e50",
+      "url": "https://www.phyware.io/blog/ny-robotaxi-trust-gap",
+      "title": "New York Just Killed Its Robotaxi Plan. The Real Problem Isn't the Technology",
+      "content": "<p>Article URL: <a href=\"https://www.phyware.io/blog/ny-robotaxi-trust-gap\">https://www.phyware.io/blog/ny-robotaxi-trust-gap</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47110927\">https://news.ycombinator.com/item?id=47110927</a></p>\n<p>Points: 8</p>\n<p># Comments: 4</p>",
+      "author": "chris_money202",
+      "published_date": "2026-02-22T13:41:45+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-22T14:54:05.434387+00:00",
+      "updated_at": "2026-02-22T14:54:05.434395+00:00"
+    },
     {
       "id": "437dd11491bad5ef899b86bf9271e125",
       "url": "http://doi.org/10.1037/cns0000370",
@@ -347,26 +363,6 @@
       "updated_at": "2026-02-22T12:38:07.348301+00:00",
       "metadata": {
         "processed_at": "2026-02-22T12:38:07.348303+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ddebd9794143dde0b855519b9505cdae",
-      "url": "https://www.reddit.com/r/Python/comments/1rbhhkk/stop_leaking_secrets_in_crash_logs_i_built_a/",
-      "title": "Stop leaking secrets in crash logs. I built a decorator that redacts them using bytecode analysis",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p>devlog is a Python decorator library that automatically logs crashes with full stack traces including local variables \u2014 and redacts secrets from those traces using bytecode taint analysis. You decorate a function, and when it crashes, you get the full stack trace with locals at every frame, with any sensitive values automatically redacted. No manual try/except or logger.error() scattered throughout your code.</p> <pre><code>from devlog import log_on_error @log_on_error(trace_stack=True) def get_user(api_url, token): headers = {&quot;Authorization&quot;: f&quot;Bearer {token}&quot;} response = requests.get(api_url, headers=headers) response.raise_for_status() return response.json() </code></pre> <p>In v2, I added async support, and more importantly, taint analysis for secret redaction. The problem was that capture_locals=True also captures your secrets. If you pass an API token into a function and it crashes, that token ends up in the stack trace \u2014 which then gets shipped to Sentry, Datadog, or wherever your logs go.</p> <p>Now you wrap the value with <code>Sensitive()</code>, and devlog figures out which local variables in the stack trace contain that secret and redacts them:</p> <pre><code>get_user(&quot;https://api.example.com&quot;, Sensitive(&quot;sk-1234-secret-token&quot;)) token = '***' headers = '***' response = &lt;Response [401]&gt; api_url = 'https://api.example.com' </code></pre> <p><code>headers</code> got redacted because it was derived from <code>token</code> and still contains the secret. But <code>response</code> and <code>api_url</code> are untouched \u2014 you keep the debugging context you need.</p> <p>This also works through multiple layers of function calls. If your decorated function passes the token to another function, which builds an f-string from it, which passes that to yet another function \u2014 devlog tracks the secret through every frame in the stack:</p> <pre><code>File &quot;app.py&quot;, line 8, in get_user token = '***' File &quot;app.py&quot;, line 15, in build_request key = '***' auth_header = '***' &lt;-- f&quot;Bearer {key}&quot;, still contains secret File &quot;app.py&quot;, line 22, in send_request full_header = '***' &lt;-- f&quot;X-Custom: {auth_header}&quot;, still contains secret metadata = '***' &lt;-- {'auth': auth_header}, container holds secret timeout = 30 &lt;-- unrelated, preserved </code></pre> <p>Every variable that holds or contains the secret across the entire call chain gets redacted \u2014 regardless of how many times it was mutated, concatenated, or stuffed into a container. But <code>timeout</code> stays visible because it's not derived from the secret. And <code>token_len = len(token)</code> would also stay visible as <code>14</code> \u2014 because that's not your secret anymore.</p> <p>If some other variable happens to hold the same string by coincidence, it won't be falsely redacted either, because it's not in the dataflow.</p> <p>Under the hood, it uses four layers of analysis per stack frame:</p> <ol> <li>Name-based: the decorated function's parameter is always redacted</li> <li>Value propagation: when a derived value crosses a function call boundary, devlog detects it in the callee's parameters</li> <li>Bytecode dataflow: analyzes <code>dis</code> bytecode to find which locals were derived from tainted variables</li> <li>Value check: only redacts if the runtime value actually contains the secret data</li> </ol> <p>It also supports async/await out of the box, and if you'd rather not wrap values, there's <code>sanitize_params</code> for name-based redaction \u2014 just pass the parameter names you want redacted.</p> <p>I originally built this for my own projects, but I've since been expanding it to be production-ready for others \u2014 proper CI, pyproject.toml, versioning, and now the taint analysis for compliance-sensitive environments where leaking secrets to log aggregators is a real concern.</p> <p>It's not a replacement for logging/loguru/structlog \u2014 it uses your existing logger under the hood. The difference from manually writing try/except everywhere is that it's one decorator, and the difference from Sentry's local variable capture is that the redaction is dataflow-aware rather than pattern-matching on strings.</p> <h1>Target Audience</h1> <p>Developers working on production services where crashes need to be logged with context but secrets must not leak into log aggregators (Sentry, Datadog, ELK, etc.). Also useful for anyone who wants crash logging without boilerplate try/except blocks.</p> <h1>Comparison</h1> <ul> <li><strong>Manual try/except + logging</strong>: devlog replaces the boilerplate \u2014 one decorator instead of wrapping every function.</li> <li><strong>Sentry's local variable capture</strong>: Sentry captures locals but relies on pattern-matching (e.g., <code>before_send</code> hooks) for redaction. devlog uses bytecode dataflow analysis \u2014 it tracks how secrets propagate through variables, so derived values like <code>f&quot;Bearer {token}&quot;</code> get redacted automatically without writing custom scrubbing rules.</li> <li><strong>loguru / structlog</strong>: devlog is not a logging replacement \u2014 it uses your existing logger under the hood. It focuses specifically on crash-time stack trace capture with secret-aware redaction.</li> </ul> <p>GitHub: <a href=\"https://github.com/MeGaNeKoS/devlog\">https://github.com/MeGaNeKoS/devlog</a><br /> PyPI: <a href=\"https://pypi.org/project/python-devlog/\">https://pypi.org/project/python-devlog/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MeGaNeKoS\"> /u/MeGaNeKoS </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rbhhkk/stop_leaking_secrets_in_crash_logs_i_built_a/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rbhhkk/stop_leaking_secrets_in_crash_logs_i_built_a/\">[comments]</a></span>",
-      "author": "/u/MeGaNeKoS",
-      "published_date": "2026-02-22T09:25:42+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 736,
-      "reading_time": 3,
-      "created_at": "2026-02-22T10:27:46.691145+00:00",
-      "updated_at": "2026-02-22T12:38:07.348305+00:00",
-      "metadata": {
-        "processed_at": "2026-02-22T12:38:07.348307+00:00",
         "processing_method": "github_actions"
       }
     }
