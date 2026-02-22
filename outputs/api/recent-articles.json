@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-02-22T11:24:01.925837+00:00",
+  "last_updated": "2026-02-22T11:46:47.911055+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "7a68cc947ae9d1ef651bde89c8e16e1c",
+      "url": "https://lcamtuf.substack.com/p/unreal-numbers",
+      "title": "Unreal Numbers",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47046853\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-17T12:40:10+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-22T11:45:37.498519+00:00",
+      "updated_at": "2026-02-22T11:45:37.498520+00:00"
+    },
     {
       "id": "8693f065abb4a2558410b09b03d897c5",
       "url": "https://www.bbc.com/future/article/20260220-whats-the-best-way-to-learn-a-new-language",
@@ -345,22 +361,6 @@
       "reading_time": 1,
       "created_at": "2026-02-22T07:37:23.827859+00:00",
       "updated_at": "2026-02-22T07:37:23.827861+00:00"
-    },
-    {
-      "id": "69b438ba04a6f610b8ca18fa7058a766",
-      "url": "https://www.reddit.com/r/Python/comments/1rbesbe/pytestgremlins_v130_a_fast_mutation_testing/",
-      "title": "pytest-gremlins v1.3.0: A fast mutation testing plugin for pytest",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What My Project Does</strong></p> <p>pytest-gremlins is a mutation testing plugin for pytest. It modifies your source code in small, targeted ways (flipping <code>&gt;</code> to <code>&gt;=</code>, replacing <code>and</code> with <code>or</code>, negating return values) and reruns your tests against each modification. If your tests pass on a mutated version, that mutation &quot;survived&quot; \u2014 your test suite has a gap that line coverage metrics will not reveal.</p> <p>The core differentiator is speed. Most mutation tools rewrite source files and reload modules between runs, which makes them too slow for routine use. pytest-gremlins instruments your code once with all mutations embedded and toggles them via environment variable, eliminating file I/O between mutation runs. It also uses coverage data to identify which tests actually exercise each mutated line, then runs only those tests rather than the full suite. That selection alone reduces per-mutation test executions by 10\u2013100x on most projects. Results are cached by content hash so unchanged code is skipped on subsequent runs, and <code>--gremlin-parallel</code> distributes work across all available CPU cores.</p> <p>Benchmarks against mutmut on a synthetic Python 3.12 project: sequential runs are 16% slower (due to a larger operator set finding more mutations), parallel runs are 3.73x faster, and parallel runs with a warm cache are 13.82x faster. pytest-gremlins finds 117 mutations where mutmut finds 86, with a 98% kill rate vs. mutmut's 86%.</p> <p><strong>v1.3.0 changes:</strong></p> <ul> <li><code>--gremlin-workers=N</code> now implies <code>--gremlin-parallel</code></li> <li><code>--gremlins --cov</code> now works correctly (pre-scan was corrupting <code>.coverage</code> in earlier releases)</li> <li><code>--gremlins -n</code> now raises an explicit error instead of silently producing no output</li> <li>Windows path separator fix in the worker pool</li> <li>Host <code>addopts</code> no longer leaks into mutation subprocess runs</li> </ul> <p>Install: <code>pip install pytest-gremlins</code>, then <code>pytest --gremlins</code>.</p> <hr /> <p><strong>Target Audience</strong></p> <p>Python developers who use pytest and want to evaluate test quality beyond coverage percentages. Useful during TDD cycles to confirm that new tests actually constrain behavior, and during refactoring to catch gaps before code reaches review. The parallel and cached modes make it practical to run on medium-to-large codebases without waiting hours for results.</p> <hr /> <p><strong>Comparison</strong></p> <table><thead> <tr> <th>Tool</th> <th>Status</th> <th>Speed</th> <th>Notes</th> </tr> </thead><tbody> <tr> <td>mutmut</td> <td>Active</td> <td>Single-threaded, no cache</td> <td>Fewer operators; 86% kill rate in benchmark</td> </tr> <tr> <td>Cosmic Ray</td> <td>Active</td> <td>Distributed (Celery/Redis)</td> <td>High setup cost; targets large-scale CI</td> </tr> <tr> <td>MutPy</td> <td>Unmaintained (2019)</td> <td>N/A</td> <td>Capped at Python 3.7</td> </tr> <tr> <td>mutatest</td> <td>Unmaintained (2022)</td> <td>N/A</td> <td>No recent Python support</td> </tr> </tbody></table> <p>mutmut is the closest active alternative for everyday use. The main gaps are no incremental caching, no built-in parallelism, and a smaller operator set. Cosmic Ray suits large-scale distributed CI but requires session management infrastructure that adds significant setup cost for individual projects.</p> <hr /> <p>GitHub: <a href=\"https://github.com/mikelane/pytest-gremlins\">https://github.com/mikelane/pytest-gremlins</a></p> <p>PyPI: <a href=\"https://pypi.org/project/pytest-gremlins/\">https://pypi.org/project/pytest-gremlins/</a></p> <p>Docs: <a href=\"https://pytest-gremlins.readthedocs.io\">https://pytest-gremlins.readthedocs.io</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Aromatic_Pumpkin8856\"> /u/Aromatic_Pumpkin8856 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rbesbe/pytestgremlins_v130_a_fast_mutation_testing/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rbesbe/pytestgremlins_v130_a_fast_mutation_testing/\">[comments]</a></span>",
-      "author": "/u/Aromatic_Pumpkin8856",
-      "published_date": "2026-02-22T06:43:32+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 471,
-      "reading_time": 2,
-      "created_at": "2026-02-22T07:36:50.641898+00:00",
-      "updated_at": "2026-02-22T07:36:50.641900+00:00"
     }
   ]
 }
