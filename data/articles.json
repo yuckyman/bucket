@@ -7,13 +7,17 @@
     "author": "Hisato Sugata",
     "published_date": "2026-02-18T00:00:00+00:00",
     "source": "Frontiers Human Neuroscience",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 206,
     "reading_time": 1,
     "created_at": "2026-02-23T17:45:25.661713+00:00",
-    "updated_at": "2026-02-23T17:45:25.661715+00:00"
+    "updated_at": "2026-02-23T18:56:38.502075+00:00",
+    "metadata": {
+      "processed_at": "2026-02-23T18:56:38.502085+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "02851276b443ce833f3b9982e1899a62",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": "2026-02-21T13:24:04+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-02-23T17:44:52.512900+00:00",
-    "updated_at": "2026-02-23T17:44:52.512901+00:00"
+    "updated_at": "2026-02-23T18:56:38.502088+00:00",
+    "metadata": {
+      "processed_at": "2026-02-23T18:56:38.502090+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "c014d83c88a19e7322b626b1ef3c7f66",
@@ -39,13 +47,17 @@
     "author": "",
     "published_date": "2026-02-23T15:33:24+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-02-23T17:44:52.512881+00:00",
-    "updated_at": "2026-02-23T17:44:52.512882+00:00"
+    "updated_at": "2026-02-23T18:56:38.502094+00:00",
+    "metadata": {
+      "processed_at": "2026-02-23T18:56:38.502096+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "7624e730994e691501fcf0673531421d",
@@ -55,13 +67,17 @@
     "author": "",
     "published_date": "2026-02-23T17:00:43+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-02-23T17:44:52.512844+00:00",
-    "updated_at": "2026-02-23T17:44:52.512845+00:00"
+    "updated_at": "2026-02-23T18:56:38.502098+00:00",
+    "metadata": {
+      "processed_at": "2026-02-23T18:56:38.502099+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "542423d9c0b857b7115fd7e93fd4b8da",
@@ -71,13 +87,17 @@
     "author": "",
     "published_date": "2026-02-23T17:15:22+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-02-23T17:44:52.512805+00:00",
-    "updated_at": "2026-02-23T17:44:52.512807+00:00"
+    "updated_at": "2026-02-23T18:56:38.502102+00:00",
+    "metadata": {
+      "processed_at": "2026-02-23T18:56:38.502103+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "9f89b8fbe50f1d6e16c3db7d7f2aa7e6",
@@ -99,17 +119,21 @@
     "id": "c014d83c88a19e7322b626b1ef3c7f66",
     "url": "https://github.com/pgdogdev/pgdog",
     "title": "Show HN: PgDog \u2013 Scale Postgres without changing the app",
-    "content": "<p>Hey HN! Lev and Justin here, authors of PgDog (<a href=\"https://pgdog.dev/\">https://pgdog.dev/</a>), a connection pooler, load balancer and database sharder for PostgreSQL. If you build apps with a lot of traffic, you know the first thing to break is the database. We are solving this with a network proxy that works without requiring application code changes or database migrations.<p>Our post from last year: <a href=\"https://news.ycombinator.com/item?id=44099187\">https://news.ycombinator.com/item?id=44099187</a><p>The most important update: we are in production. Sharding is used a lot, with direct-to-shard  queries (one shard per query) working pretty much all the time. Cross-shard (or multi-database) queries are still a work in progress, but we are making headway.<p>Aggregate functions like count(), min(), max(), avg(), stddev() and variance() are working, without refactoring the app. PgDog calculates the aggregate in-transit, while transparently rewriting queries to fetch any missing info. For example, multi-database average calculation requires a total count of rows to calculate the original sum. PgDog will add count() to the query, if it\u2019s not there already, and remove it from the rows sent to the app.<p>Sorting and grouping works, including DISTINCT, if the columns(s) are referenced in the result. Over 10 data types are supported, like, timestamp(tz), all integers, varchar, etc.<p>Cross-shard writes, including schema changes (CREATE/DROP/ALTER), are now atomic and synchronized between all shards with two-phase commit. PgDog keeps track of the transaction state internally and will rollback the transaction if the first phase fails. You don\u2019t need to monkeypatch your ORM to use this: PgDog will intercept the COMMIT statement and execute PREPARE TRANSACTION and COMMIT PREPARED instead.<p>Omnisharded tables, a.k.a replicated or mirrored (identical on all shards), support atomic reads and writes. That\u2019s important because most databases can\u2019t be completely sharded and will have some common data on all databases that has to be kept in-sync.<p>Multi-tuple inserts, e.g., INSERT INTO table_x VALUES ($1, $2), ($3, $4), are split by our query rewriter and distributed to their respective shards automatically. They are used by ORMs like Prisma, Sequelize, and others, so those now work without code changes too.<p>Sharding keys can be mutated. PgDog will intercept and rewrite the update statement into 3 queries, SELECT, INSERT, and DELETE, moving the row between shards. If you\u2019re using Citus (for everyone else, Citus is a Postgres extension for sharding databases), this might be worth a look.<p>If you\u2019re like us and prefer integers to UUIDs for your primary keys, we built a cross-shard unique sequence, directly inside PgDog. It uses the system clock (and a couple other inputs), can be called like a Postgres function, and will automatically inject values into queries, so ORMs like ActiveRecord will continue to work out of the box. It\u2019s monotonically increasing, just like a real Postgres sequence, and can generate up to 4 million numbers per second with a range of 69.73 years, so no need to migrate to UUIDv7 just yet.<p><pre><code>    INSERT INTO my_table (id, created_at) VALUES (pgdog.unique_id(), now());\n</code></pre>\nResharding is now built-in. We can move gigabytes of tables per second, by parallelizing logical replication streams across replicas. This is really cool! Last time we tried this at Instacart, it took over two weeks to move 10 TB between two machines. Now, we can do this in just a few hours, in big part thanks to the work of the core team that added support for logical replication slots to streaming replicas in Postgres 16.<p>Sharding hardly works without a good load balancer. PgDog can monitor replicas and move write traffic to a promoted primary during a failover. This works with managed Postgres, like RDS (incl. Aurora), Azure Pg, GCP Cloud SQL, etc., because it just polls each instance with \u201cSELECT pg_is_in_recovery()\u201d. Primary election is not supported yet, so if you\u2019re self-hosting with Patroni, you should keep it around for now, but you don\u2019t need to run HAProxy in front of the DBs anymore.<p>The load balancer is getting pretty smart and can handle edge cases like SELECT FOR UPDATE and CTEs with INSERT/UPDATE statements, but if you still prefer to handle your read/write separation in code, you can do that too with manual routing. This works by giving PgDog a hint at runtime: a connection parameter (-c pgdog.role=primary), SET statement, or a query comment. If you have multiple connection pools in your app, you can replace them with just one connection to PgDog instead. For multi-threaded Python/Ruby/Go apps, this helps by reducing memory usage, I/O and context switching overhead.<p>Speaking of connection pooling, PgDog can automatically rollback unfinished transactions and drain and re-sync partially sent queries, all in an effort to preserve connections to the database. If you\u2019ve seen Postgres go to 100% CPU because of a connection storm caused by an application crash, this might be for you. Draining connections works by receiving and discarding rows from abandoned queries and sending the Sync message via the Postgres wire protocol, which clears the query context and returns the connection to a normal state.<p>PgDog is open source and welcomes contributions and feedback in any form. As always, all features are configurable and can be turned off/on, so should you choose to give it a try, you can do so at your own pace. Our docs (<a href=\"https://docs.pgdog.dev\">https://docs.pgdog.dev</a>) should help too.<p>Thanks for reading and happy hacking!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47123631\">https://news.ycombinator.com/item?id=47123631</a></p>\n<p>Points: 12</p>\n<p># Comments: 1</p>",
-    "author": "levkk",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47123631\">Comments</a>",
+    "author": "",
     "published_date": "2026-02-23T15:33:24+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 872,
-    "reading_time": 4,
-    "created_at": "2026-02-23T17:44:51.278508+00:00",
-    "updated_at": "2026-02-23T17:44:51.278510+00:00"
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-02-23T17:44:52.512881+00:00",
+    "updated_at": "2026-02-23T18:56:38.502094+00:00",
+    "metadata": {
+      "processed_at": "2026-02-23T18:56:38.502096+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "601fa31f0885357c46ce63ff5f882313",
@@ -195,33 +219,41 @@
     "id": "7624e730994e691501fcf0673531421d",
     "url": "https://www.ycombinator.com/companies/hadrius/jobs/ObynDF9-senior-product-designer",
     "title": "Hadrius (YC W23) Is Hiring Designers Who Code",
-    "content": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/hadrius/jobs/ObynDF9-senior-product-designer\">https://www.ycombinator.com/companies/hadrius/jobs/ObynDF9-senior-product-designer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47125026\">https://news.ycombinator.com/item?id=47125026</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
-    "author": "calderwoodra",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47125026\">Comments</a>",
+    "author": "",
     "published_date": "2026-02-23T17:00:43+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-02-23T17:44:51.278234+00:00",
-    "updated_at": "2026-02-23T17:44:51.278236+00:00"
+    "created_at": "2026-02-23T17:44:52.512844+00:00",
+    "updated_at": "2026-02-23T18:56:38.502098+00:00",
+    "metadata": {
+      "processed_at": "2026-02-23T18:56:38.502099+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "542423d9c0b857b7115fd7e93fd4b8da",
     "url": "https://www.linguabase.org/words-with-spaces.html",
     "title": "Half million 'Words with Spaces' missing from dictionaries",
-    "content": "<p>Article URL: <a href=\"https://www.linguabase.org/words-with-spaces.html\">https://www.linguabase.org/words-with-spaces.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47125287\">https://news.ycombinator.com/item?id=47125287</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
-    "author": "gligierko",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47125287\">Comments</a>",
+    "author": "",
     "published_date": "2026-02-23T17:15:22+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-02-23T17:44:51.278213+00:00",
-    "updated_at": "2026-02-23T17:44:51.278215+00:00"
+    "created_at": "2026-02-23T17:44:52.512805+00:00",
+    "updated_at": "2026-02-23T18:56:38.502102+00:00",
+    "metadata": {
+      "processed_at": "2026-02-23T18:56:38.502103+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "9f89b8fbe50f1d6e16c3db7d7f2aa7e6",
