@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-02-24T01:44:03.382197+00:00",
-  "pending_count": 675,
-  "processed_count": 325,
+  "last_updated": "2026-02-24T04:14:01.608623+00:00",
+  "pending_count": 673,
+  "processed_count": 327,
   "pending_articles": [
+    {
+      "id": "bc8352bcf5b215e19a11bd8d61590878",
+      "url": "https://economictimes.indiatimes.com/news/international/us/still-making-a-shopping-list-psychology-suggests-its-a-sign-of-sharper-thinking/articleshow/127796018.cms?from=mdr",
+      "title": "Psychology suggests making a shopping list is a sign of sharper thinking",
+      "content": "<p>Article URL: <a href=\"https://economictimes.indiatimes.com/news/international/us/still-making-a-shopping-list-psychology-suggests-its-a-sign-of-sharper-thinking/articleshow/127796018.cms?from=mdr\">https://economictimes.indiatimes.com/news/international/us/still-making-a-shopping-list-psychology-suggests-its-a-sign-of-sharper-thinking/articleshow/127796018.cms?from=mdr</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47131219\">https://news.ycombinator.com/item?id=47131219</a></p>\n<p>Points: 12</p>\n<p># Comments: 17</p>",
+      "author": "ColinWright",
+      "published_date": "2026-02-24T00:37:26+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-24T02:11:28.730068+00:00",
+      "updated_at": "2026-02-24T02:11:28.730070+00:00"
+    },
+    {
+      "id": "18dbd5675bbde40895ccd88d4b3c63a0",
+      "url": "https://www.federalregister.gov/documents/2026/01/08/2026-00206/request-for-information-regarding-security-considerations-for-artificial-intelligence-agents",
+      "title": "NIST Seeking Public Comment on AI Agent Security (Deadline: March 9, 2026)",
+      "content": "<p>Article URL: <a href=\"https://www.federalregister.gov/documents/2026/01/08/2026-00206/request-for-information-regarding-security-considerations-for-artificial-intelligence-agents\">https://www.federalregister.gov/documents/2026/01/08/2026-00206/request-for-information-regarding-security-considerations-for-artificial-intelligence-agents</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47131689\">https://news.ycombinator.com/item?id=47131689</a></p>\n<p>Points: 7</p>\n<p># Comments: 2</p>",
+      "author": "ascarola",
+      "published_date": "2026-02-24T01:31:09+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-24T02:11:28.730038+00:00",
+      "updated_at": "2026-02-24T02:11:28.730046+00:00"
+    },
     {
       "id": "5f1e33bd645835af65c1d72d345a1921",
       "url": "https://www.sciencedirect.com/science/article/pii/S0006899326000764?dgcid=rss_sd_all",
@@ -130,41 +162,149 @@
       "reading_time": 1,
       "created_at": "2026-02-23T23:53:56.701735+00:00",
       "updated_at": "2026-02-23T23:53:56.701737+00:00"
+    }
+  ],
+  "recently_processed": [
+    {
+      "id": "566944c33a830e7e9ad70febe67205e6",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.21.707012v1?rss=1",
+      "title": "Systematic evaluation of an exhaustive set of connectivity estimators in bivariate and multivariate modes for an improved virtual source connectivity analysis",
+      "content": "Objective: Brain activity is measured using noninvasive electrophysiological techniques, such as electroencephalography (EEG) and magnetoencephalography (MEG). Data recorded from sensors outside the skull are regularly transformed into a virtual source space. Brain activity is typically parcellated into anatomical brain areas using an atlas. Then, functional connectivity (FC) is estimated between pairs of regions, with their brain activity characterized by a representative time series extracted from multiple voxel time series (multidimensional), using various techniques. Several FC estimators have been used to quantify FC between pairs of brain areas. In contrast, multivariate extensions of these estimators have been proposed, thereby eliminating the need for representative time series for each brain area. Approach: An appropriate framework for systematically evaluating FC estimators in the virtual MEG space and across multiple processing steps for brain network construction is missing. Here, we compared an exhaustive set of bivariate FC estimators with techniques for extracting representative time series, their multivariate extensions, and multivariate estimators for detecting MCI subjects versus healthy controls, using a k-NN classifier and an appropriate graph distance metric. Main Results: Our results demonstrate that the multivariate extension of bivariate FC estimators (representative-free approach), which summarizes pairwise FC strength across all voxels of two brain areas, and accurate multivariate estimators that consider pairs of region-wise voxel time series at once, clearly outperform bivariate FC estimators based on representative time series. Significance: Multivariate extension of bivariate FC estimators and multivariate FC estimators are the natural alternatives to the combination of representative time series per brain area and bivariate FC estimators.",
+      "author": "Dimitriadis, S. I.",
+      "published_date": "2026-02-23T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 254,
+      "reading_time": 1,
+      "created_at": "2026-02-24T02:12:11.736613+00:00",
+      "updated_at": "2026-02-24T04:14:01.500587+00:00",
+      "metadata": {
+        "processed_at": "2026-02-24T04:14:01.500597+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "d56be03c695ac5f2c2b9727b73411450",
-      "url": "https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380",
-      "title": "AI Added 'Basically Zero' to US Economic Growth Last Year, Goldman Sachs Says",
-      "content": "<p>Article URL: <a href=\"https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380\">https://gizmodo.com/ai-added-basically-zero-to-us-economic-growth-last-year-goldman-sachs-says-2000725380</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47130208\">https://news.ycombinator.com/item?id=47130208</a></p>\n<p>Points: 23</p>\n<p># Comments: 1</p>",
-      "author": "cdrnsf",
-      "published_date": "2026-02-23T22:55:08+00:00",
+      "id": "9d414f3b56ac788715b1f6d8b57a6e78",
+      "url": "https://fmhy.net/posts/Nov-2025",
+      "title": "Monthly Updates [November]",
+      "content": "<div class=\"info custom-block\"><p class=\"custom-block-title\">INFO</p>\n<p>These update threads only contain major updates. If you're interested\nin seeing all minor changes you can follow our\n<a href=\"https://github.com/fmhy/FMHYedit/commits/main\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub or\n<a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Updates Channel</a> in Discord.</p>\n</div>\n<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Added the <strong><a href=\"https://i.ibb.co/hx97zL3W/978676.jpg\" rel=\"noreferrer\" target=\"_blank\">AMOLED Theme</a></strong> / <a href=\"https://i.imgur.com/fMrnGmF.png\" rel=\"noreferrer\" target=\"_blank\">2</a> to our site as a <a href=\"https://i.ibb.co/pvkfg3hC/image.png\" rel=\"noreferrer\" target=\"_blank\">Toggle</a> / <a href=\"https://i.imgur.com/qF7exKw.png\" rel=\"noreferrer\" target=\"_blank\">2</a> that can be turned on or off. Thank you to @Land for doing this.</p>\n</li>\n<li>\n<p>Built an <strong><a href=\"https://fmhy-search.dev.zenir.tech/\" rel=\"noreferrer\" target=\"_blank\">External Search Engine</a></strong> that should work better in most cases than the built-in VitePress search on our website.</p>\n</li>\n<li>\n<p>Added a <strong><a href=\"https://fmhyclone.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">New Backup</a></strong> of FMHY with daily sync, hosted on GitLab. It also includes a backup of the <a href=\"https://fmhyapi.wispy.qzz.io/single-page\" rel=\"noreferrer\" target=\"_blank\">raw markdown</a> page. We also added another <a href=\"https://a-fmhy.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">backup</a> of our website that has the aforementioned theme enabled by default.</p>\n</li>\n<li>\n<p>The Space section has become a bit hard to navigate (60+ lines), so we've split it into its <a href=\"https://fmhy.net/educational#space\" rel=\"noreferrer\" target=\"_blank\">own head section</a>, with two new subsections: <a href=\"https://fmhy.net/educational#astronomy\" rel=\"noreferrer\" target=\"_blank\">Astronomy</a> and <a href=\"https://fmhy.net/educational#spacecraft\" rel=\"noreferrer\" target=\"_blank\">Spacecraft</a>. Astronomy covers celestial objects or phenomena in the cosmos. Spacecraft covers rockets, launches, and the ISS. The head section remains for general space-related things like NASA's website, news, etc.</p>\n</li>\n<li>\n<p>Remakes / Ports in Gaming had over 80 lines and was disorganized, so we've split it into three new sections to make it more comprehensible: <a href=\"https://fmhy.net/gaming#decomps-ports\" rel=\"noreferrer\" target=\"_blank\">Decomps / Ports</a>, <a href=\"https://fmhy.net/gaming#remakes-recreations\" rel=\"noreferrer\" target=\"_blank\">Remakes / Recreations</a>, and <a href=\"https://fmhy.net/gaming#revival-projects\" rel=\"noreferrer\" target=\"_blank\">Revival Projects</a>. We also turned &quot;Special Interest&quot; into its own head category to organize the TOC better.</p>\n</li>\n<li>\n<p>Re-ordered <a href=\"https://fmhy.net/reading#manga\" rel=\"noreferrer\" target=\"_blank\">Manga Sites</a> based on poll results from our Discord. Weeb Central has moved to the #1 spot, and MangaFire + MangaNato have both been starred. Thank you to everyone who voted. <a href=\"https://i.ibb.co/j9Sn4hRR/image.png\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a> / <a href=\"https://i.imgur.com/u8zFZTX.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Cleaned up multiple Audio Streaming sections and added new ones to improve organization, including: <a href=\"https://fmhy.net/audio#specialty-streaming\" rel=\"noreferrer\" target=\"_blank\">Specialty</a>, <a href=\"https://fmhy.net/audio#genre-specific-streaming\" rel=\"noreferrer\" target=\"_blank\">Genre-Specific</a>, <a href=\"https://fmhy.net/audio#radio-directories\" rel=\"noreferrer\" target=\"_blank\">Radio Directories</a>, and <a href=\"https://fmhy.net/audio#lofi-radio\" rel=\"noreferrer\" target=\"_blank\">Lofi Radio</a>. <a href=\"https://github.com/fmhy/edit/pull/4128#issuecomment-3476036920\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a>. Thank you to @AnarchyDR for this work.</p>\n</li>\n<li>\n<p>Updated the <a href=\"https://fmhy.net/audio\" rel=\"noreferrer\" target=\"_blank\">Audio Streaming</a> Table of Contents to make it less cluttered and easier to navigate. <a href=\"https://i.ibb.co/0yJbh03H/234243.jpg\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a> / <a href=\"https://i.imgur.com/fhgqKzb.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>Cleaned up <a href=\"https://fmhy.net/gaming#browser-emulators\" rel=\"noreferrer\" target=\"_blank\">Browser Emulators</a>, fixed labels, removed dead sites, and moved any sites only serving as EmulatorJS / NeptunJS frontends to storage. <a href=\"https://i.ibb.co/LXdhcDFD/Untitled.png\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a> / <a href=\"https://i.imgur.com/W9x8jY4.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n<li>\n<p>We removed the &quot;No Torrenting&quot; label from Proton VPN as you can now set it up with an OpenVPN config that allows you to torrent for free. Note that these expire and must be regenerated periodically. The guide is listed next to <a href=\"https://fmhy.net/privacy#vpn\" rel=\"noreferrer\" target=\"_blank\">Proton</a>. TY to Wispy and others for figuring this out.</p>\n</li>\n<li>\n<p>Added a <a href=\"https://fmhy.net/gaming#tetris\" rel=\"noreferrer\" target=\"_blank\">Tetris</a> section to Gaming.</p>\n</li>\n<li>\n<p>Fixed messy formatting in Game Optimization. <a href=\"https://i.ibb.co/Vc99kJhh/image.png\" rel=\"noreferrer\" target=\"_blank\">Before vs. After</a> / <a href=\"https://i.imgur.com/HRPUwL3.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#download-managers\" rel=\"noreferrer\" target=\"_blank\">AB Download Manager</a> in Download Managers. Open-source, fast, cross-platform, supports resumable downloads, and has an active dev team.</p>\n</li>\n<li>\n<p>Bumped <a href=\"https://fmhy.net/gaming#rom-sites\" rel=\"noreferrer\" target=\"_blank\">CrocDB</a> to the new #1 spot over Myrient in ROM sites. Croc covers multiple sites, has a better UI, and a new &quot;rompack&quot; feature.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#torrent-apps\" rel=\"noreferrer\" target=\"_blank\">PlayTorrio</a> in Torrent Streaming Apps. A feature-rich new client with addons similar to Stremio (like Torrentio), Jackett integration, and Debrid support.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#specialized-chatbots\" rel=\"noreferrer\" target=\"_blank\">NotebookLM</a> in Specialized Chatbots. Excellent for document-based chatting and note-taking. It handles audio/video overviews well and can generate quizzes and flashcards.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#anime-streaming\" rel=\"noreferrer\" target=\"_blank\">Anidap</a> in Anime Streaming. Features a nice UI and utilizes unique, fast hosts.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#live-tv\" rel=\"noreferrer\" target=\"_blank\">PlayTorrio IPTV</a> in Live TV / Sports. Fast streams, huge library, and solid quality. Note that Darkness TV is the original; PlayTorrio has improved the UI.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/linux-macos#linux-gaming\" rel=\"noreferrer\" target=\"_blank\">Heroic Games Launcher</a> in Linux Gaming. An excellent launcher for Epic, GOG, and Prime games; currently better maintained than Lutris.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#curated-recommendations\" rel=\"noreferrer\" target=\"_blank\">ComicBookRoundup</a> in Reading Recommendations. A comic-focused review and rating aggregator, similar to Metacritic.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#rom-sites\" rel=\"noreferrer\" target=\"_blank\">Ziperto</a> in ROM Sites. A long-standing site with a massive library and fast hosts.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#live-sports\" rel=\"noreferrer\" target=\"_blank\">Sportsbite</a> in Live Sports. An aggregator with numerous hosts, a clean UI, and coverage for most major events.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>\n<p>Removed DramaGo as they seem to have shut down.</p>\n</li>\n<li>\n<p>Unstarred Character.AI due to the ongoing removal of popular characters and user dissatisfaction with increasing restrictions/filters.</p>\n</li>\n</ul>",
+      "author": "",
+      "published_date": "2025-11-01T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 845,
+      "reading_time": 4,
+      "created_at": "2026-02-24T02:11:32.724133+00:00",
+      "updated_at": "2026-02-24T04:14:01.500601+00:00",
+      "metadata": {
+        "processed_at": "2026-02-24T04:14:01.500603+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "8f959377f5aae16238f09e59d419911d",
+      "url": "https://dork.dev/posts/2026-02-20-ported-coreboot/",
+      "title": "I Ported Coreboot to the ThinkPad X270",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47130860\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-23T23:58:45+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-24T02:11:29.996194+00:00",
+      "updated_at": "2026-02-24T04:14:01.500606+00:00",
+      "metadata": {
+        "processed_at": "2026-02-24T04:14:01.500608+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c5ad2742c7eff8e29586378fbfeeacca",
+      "url": "https://www.guitarworld.com/artists/guitarists/william-shatner-announces-all-star-metal-album",
+      "title": "Shatner is making an album with 35 metal icons",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47131173\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-24T00:33:06+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-24T02:11:29.996168+00:00",
+      "updated_at": "2026-02-24T04:14:01.500610+00:00",
+      "metadata": {
+        "processed_at": "2026-02-24T04:14:01.500612+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4fd9cedc5e403f5185a7c297ab67e545",
+      "url": "https://singh-sanjay.com/2026/01/12/health-checks-client-vs-server-side-lb.html",
+      "title": "Why Your Load Balancer Still Sends Traffic to Dead Backends",
+      "content": "<p>Article URL: <a href=\"https://singh-sanjay.com/2026/01/12/health-checks-client-vs-server-side-lb.html\">https://singh-sanjay.com/2026/01/12/health-checks-client-vs-server-side-lb.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47130431\">https://news.ycombinator.com/item?id=47130431</a></p>\n<p>Points: 10</p>\n<p># Comments: 4</p>",
+      "author": "singhsanjay12",
+      "published_date": "2026-02-23T23:16:03+00:00",
+      "source": "Hacker News",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 13,
       "reading_time": 1,
-      "created_at": "2026-02-23T23:53:56.701704+00:00",
-      "updated_at": "2026-02-23T23:53:56.701714+00:00"
+      "created_at": "2026-02-24T02:11:28.730126+00:00",
+      "updated_at": "2026-02-24T04:14:01.500614+00:00",
+      "metadata": {
+        "processed_at": "2026-02-24T04:14:01.500615+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "647d0efbf0540710a43d2b428cca0727",
-      "url": "http://ieeexplore.ieee.org/document/11367450",
-      "title": "Ignoring Salient Distractors Inside and Outside the Attentional Window",
-      "content": "There has been much debate about whether salient stimuli have an automatic power to distract us, with many conflicting results. The attentional window account proposes a potential resolution by suggesting that capture depends on the breadth of attentional focus. According to this account, when attention is broadly focused, salient stimuli will fall inside the attentional window and generate a salience signal that captures attention. When attention is narrowly focused, salient stimuli presented outside the window of attention cannot generate a salience signal that attracts attention. If true, this could explain many otherwise-contradictory findings, but this account has not been widely tested. The present study used a shape discrimination task to manipulate the spread of spatial attention and tested whether salient distractors inside versus outside the attended region capture attention. Attentional capture was assessed by the N2pc component and behavioral measures. Contrary to the predictions of the attentional window account, we found no evidence that capture by salient distractors depended on whether the salient distractor was inside or outside the attended window. Instead, our findings support models of attention that allow feature-based control mechanisms to prevent capture by salient distractors.",
+      "id": "8f959377f5aae16238f09e59d419911d",
+      "url": "https://dork.dev/posts/2026-02-20-ported-coreboot/",
+      "title": "I Ported Coreboot to the ThinkPad X270",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47130860\">Comments</a>",
       "author": "",
-      "published_date": "2026-01-28T13:24:00+00:00",
-      "source": "Cognitive Neuroscience",
-      "status": "pending",
+      "published_date": "2026-02-23T23:58:45+00:00",
+      "source": "Hacker News",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 189,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-02-23T23:09:26.769314+00:00",
-      "updated_at": "2026-02-23T23:09:26.769316+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-02-24T02:11:29.996194+00:00",
+      "updated_at": "2026-02-24T04:14:01.500606+00:00",
+      "metadata": {
+        "processed_at": "2026-02-24T04:14:01.500608+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c5ad2742c7eff8e29586378fbfeeacca",
+      "url": "https://www.guitarworld.com/artists/guitarists/william-shatner-announces-all-star-metal-album",
+      "title": "Shatner is making an album with 35 metal icons",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47131173\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-24T00:33:06+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-24T02:11:29.996168+00:00",
+      "updated_at": "2026-02-24T04:14:01.500610+00:00",
+      "metadata": {
+        "processed_at": "2026-02-24T04:14:01.500612+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "71d3a9040025bdf237818ea083febe78",
       "url": "http://ieeexplore.ieee.org/document/11367434",
@@ -222,146 +362,6 @@
       "updated_at": "2026-02-24T01:44:03.274381+00:00",
       "metadata": {
         "processed_at": "2026-02-24T01:44:03.274382+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "101337f7554f42b58048ea96ce4ebe76",
-      "url": "http://ieeexplore.ieee.org/document/11367402",
-      "title": "The Association between Oscillatory Burst Features and Human Working Memory Accuracy",
-      "content": "Oscillatory power across multiple frequency bands has been associated with distinct working memory (WM) processes. Recent research has shown that previous observations based on averaged power are driven by the presence of transient, oscillatory burst-like events, particularly within the alpha, beta, and gamma bands. However, the interplay between different burst events in human WM is not well understood. The current EEG study aimed to investigate the dynamics between alpha (8\u201312 Hz)/beta (15\u201329 Hz) and high-frequency activity (HFA; 55\u201380 Hz) bursts in human WM, particularly burst features and error-related deviations during the encoding and maintenance of WM in healthy adults. Oscillatory burst features within the alpha, beta, and HFA bands were examined at frontal and parietal electrodes in healthy young adults during a Sternberg WM task. Averaged power dynamics were driven by oscillatory burst features, most consistently the burst rate and burst power. Alpha/beta and HFA bursts displayed complementary roles in WM processes, in that alpha and beta bursting decreased during encoding and increased during delay, while HFA bursting had the opposite pattern, that is, increased during encoding and decreased during the delay. Critically, weaker variation in burst dynamics across stages was associated with incorrect responses and impaired overall task performance. Together, these results indicate that successful human WM is dependent on the rise-and-fall interplay between alpha/beta and HFA bursts, with such burst dynamics reflecting a novel target for the development of treatment in clinical populations with WM deficits.",
-      "author": "",
-      "published_date": "2026-01-28T13:24:00+00:00",
-      "source": "Cognitive Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 238,
-      "reading_time": 1,
-      "created_at": "2026-02-23T23:54:50.525763+00:00",
-      "updated_at": "2026-02-24T01:44:03.274384+00:00",
-      "metadata": {
-        "processed_at": "2026-02-24T01:44:03.274386+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "16f60e476314d7bc371df5b28c71cf43",
-      "url": "http://ieeexplore.ieee.org/document/11367405",
-      "title": "Item-based Parsing of Dynamic Scenes in a Combined Attentional Tracking and Working Memory Task",
-      "content": "Human visual processing is limited\u2014we can only track a few moving objects at a time and store a few items in visual working memory (WM). A shared mechanism that may underlie these performance limits is how the visual system parses a scene into representational units. In the present study, we explored whether multiple-object tracking (MOT) and WM rely on a common item-based indexing mechanism. We measured the contralateral delay activity (CDA), an event-related slow wave that tracks load in an item-based manner, as participants completed a combined WM and MOT task, concurrently tracking items and remembering visual information. In Experiment 1, participants tracked one or two moving discs without needing to remember the discs' colors (track and ignore condition) or while also remembering the discs' colors (two or four colors in total; track and remember condition). In Experiment 2, participants attended either two static discs or two moving discs, while remembering the discs' colors (two or four colors). In both experiments, the CDA was largely determined by the tracking task\u2014CDA amplitudes reflected the number of tracked discs and not the number of to-be-remembered colors. However, when the discs were static, the CDA amplitudes did reflect color load. We discuss this set of findings in relation to longstanding theories of visual cognition (fingers of instantiation and object files) and the implications for cognitive models of representation of visual information\u2014that how a scene is parsed into item-based representations is a key mechanism in the operation of WM.",
-      "author": "",
-      "published_date": "2026-01-28T13:24:00+00:00",
-      "source": "Cognitive Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 245,
-      "reading_time": 1,
-      "created_at": "2026-02-23T23:54:50.525722+00:00",
-      "updated_at": "2026-02-24T01:44:03.274388+00:00",
-      "metadata": {
-        "processed_at": "2026-02-24T01:44:03.274390+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "b6c18312979821e284de0712c239ae06",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226000850?dgcid=rss_sd_all",
-      "title": "Comparative analysis of key phagocytic genes in humans and mice using machine learning integrated with single-cell RNA sequencing",
-      "content": "<p>Publication date: 6 April 2026</p><p><b>Source:</b> Neuroscience, Volume 599</p><p>Author(s): Li Chengcheng, Liu Hang</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 12,
-      "reading_time": 1,
-      "created_at": "2026-02-23T22:09:13.352357+00:00",
-      "updated_at": "2026-02-23T22:36:14.149342+00:00",
-      "metadata": {
-        "processed_at": "2026-02-23T22:36:14.149351+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e631ea4544d5baa41c5ad224567c880a",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001119?dgcid=rss_sd_all",
-      "title": "Neuroprotective effects of idebenone in a zebrafish model of Parkinson\u2019s disease via regulating autophagy, mitigating apoptosis and oxidative stress",
-      "content": "<p>Publication date: 6 April 2026</p><p><b>Source:</b> Neuroscience, Volume 599</p><p>Author(s): Yanqing Zhang, Tianhao Liu, Xinjia Li, Siyu Liu, Xiaoran Zhu, Yanhong Ren, Rundong Han, Chen Sun, Kechun Liu, Meng Jin, Xiuna Ji, Xiuhua Li</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 32,
-      "reading_time": 1,
-      "created_at": "2026-02-23T22:09:13.352337+00:00",
-      "updated_at": "2026-02-23T22:36:14.149357+00:00",
-      "metadata": {
-        "processed_at": "2026-02-23T22:36:14.149359+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "71dd275063d8c3f9b32b2887345c9d7e",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226000990?dgcid=rss_sd_all",
-      "title": "Correlates of head-fixed directional forelimb movements in mouse superior colliculus and substantia nigra <em>pars reticulata</em>",
-      "content": "<p>Publication date: 6 April 2026</p><p><b>Source:</b> Neuroscience, Volume 599</p><p>Author(s): Ted K. Doykos, Taylor Yamauchi, Anna Buteau, Spencer Hanson, Joshua T. Dudman, Gidon Felsen, Elizabeth A. Stubblefield</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 25,
-      "reading_time": 1,
-      "created_at": "2026-02-23T22:09:13.352318+00:00",
-      "updated_at": "2026-02-23T22:36:14.149362+00:00",
-      "metadata": {
-        "processed_at": "2026-02-23T22:36:14.149363+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3e5f26af8c2d9b40a4775162a649752b",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001028?dgcid=rss_sd_all",
-      "title": "The retinal nerve fiber layer mean thickness in patients with early Parkinson\u2019s disease reflects striatal dopamine function",
-      "content": "<p>Publication date: 6 April 2026</p><p><b>Source:</b> Neuroscience, Volume 599</p><p>Author(s): Xiaoxue Shi, Keke Liang, Jianjun Ma, Chang Fu, Qingge Guo, Qi Gu, Li Wang, Dongsheng Li, Jinhua Zheng, Siyuan Chen, Zonghan She, Xuelin Qi, Xue Li, Shaopu Wu</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 36,
-      "reading_time": 1,
-      "created_at": "2026-02-23T22:09:13.352299+00:00",
-      "updated_at": "2026-02-23T22:36:14.149366+00:00",
-      "metadata": {
-        "processed_at": "2026-02-23T22:36:14.149368+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ec3e5ef48500168bfd92c05b1a227b64",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.21.707228v1?rss=1",
-      "title": "Representational invariance of numerosity via divisive normalization in coarse and fine visual channels",
-      "content": "Robust evidence now suggests that numerosity perception emerges from the early visual cortex. However, such empirical findings pose a theoretical challenge for explaining how a low-level perceptual system represents discrete values from continuous input independently of other magnitude dimensions. Among proposals for this representational invariance, two computational accounts with ties to neural data have garnered attention: divisive normalization and Fourier decomposition. Here, we test these hypotheses using an integrated neural, behavioral, and computational approach and show that: (1) The visual cortex remains sensitive to numerosity even when the input images are equalized for their Fourier power, inconsistent with the Fourier decomposition account. (2) The divisive normalization model explains this neural phenomenon through the selective disruption of fine but not coarse visual channels when encoding normalized local contrast. (3) Backward masking that disrupts fine processing in a psychophysical experiment degrades the acuity of intact dot arrays to the level of Fourier-power equalized dot arrays, which validates the unique prediction of the divisive normalization model. These findings provide converging evidence for the proposal that normalized local contrast enables representational invariance of numerosity in the visual cortex.",
-      "author": "Park, J., Hu, S.",
-      "published_date": "2026-02-23T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 184,
-      "reading_time": 1,
-      "created_at": "2026-02-23T22:09:09.807228+00:00",
-      "updated_at": "2026-02-23T22:36:14.149370+00:00",
-      "metadata": {
-        "processed_at": "2026-02-23T22:36:14.149372+00:00",
         "processing_method": "github_actions"
       }
     }
