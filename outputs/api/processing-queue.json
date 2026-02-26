@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-02-26T20:31:32.618913+00:00",
-  "pending_count": 690,
-  "processed_count": 310,
+  "last_updated": "2026-02-26T22:28:19.541697+00:00",
+  "pending_count": 689,
+  "processed_count": 311,
   "pending_articles": [
+    {
+      "id": "e732d7c270dfb78a764232898b07acf5",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.24.707860v1?rss=1",
+      "title": "Permutation-calibrated stability discovery under ???? >> ????: A leak-controlled Machine Learning framework identifies candidate proteomics panels in antiseizure medication-related side effects",
+      "content": "We investigated whether the plasma proteome distinguishes people with epilepsy who report central nervous system (CNS) side effects from antiseizure medications (ASMs) from those who do not. In 161 patients profiled using proximity extension assay-based proteomics Neurology and Inflammation panels (~1,447 proteins), we applied an ensemble leak-controlled machine-learning (ML) workflow based on LASSO (linear) and random forest (RF) (non-linear) with repeated nested cross-validation and stability selection. We engineered nested machine-learning workflows that embed permutation-based Monte Carlo p-value estimation directly within model training, enabling statistically calibrated feature discovery under high-dimensional, noisy proteomic data. Discovery phases were explicitly optimized for association and feature robustness, not prediction. The RF yielded a 61-protein candidate panel, for which an \"exploratory nested RF\" model achieved strong internal discrimination of CNS side effects (AUROC ~ 0.92, 95% CI ~ 0.86-0.96). The LASSO yielded a three-protein candidate panel all of which overlapped with those of the RF (SMOC2, TANK and IMPG1). Because per-protein testing across all 1447 proteins produced false discovery rates (FDRs) close to 1, we performed post-hoc, data-driven routed per-protein inference restricted to the 61-protein panel, identifying 13 proteins with FDR <0.1. Network and pathway analyses on the 61-protein panel highlighted immune, autoimmune and vascular-inflammation pathways (e.g. cytokine networks, JAK-STAT, T-cell-mediated responses), suggesting that pre-existing immune and inflammatory may modulate vulnerability to ASM-related CNS side effects. Technically, our contribution presents a resampling-based stability statistics and FDR control despite [[EQUATION]] and weak global discrimination. This framework is model-agnostic and directly portable to other low-sample, high-dimensional, noisy omics settings by replacing the base learner (e.g., LASSO/RF/boosting) while keeping the same leakage-safe resampling and permutation-calibrated stability machinery to prioritize robust biomarkers over optimistic predictive accuracy. By explicitly separating robust discovery from post-selection exploratory modeling, the workflow provides a reproducible template for generating candidate panels when standard whole-proteome multiple testing is underpowered.",
+      "author": "Hosseini Ashtiani, S., Akel, S., Zelano, J., Karlander, M.",
+      "published_date": "2026-02-26T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 302,
+      "reading_time": 1,
+      "created_at": "2026-02-26T20:51:18.455626+00:00",
+      "updated_at": "2026-02-26T20:51:18.455627+00:00"
+    },
+    {
+      "id": "924a1aefa903126783f846a919b5e947",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.24.707529v1?rss=1",
+      "title": "The methodological foundations of lesion network mapping remain sound",
+      "content": "Lesion network mapping (LNM) and related techniques have been used in over 200 studies, primarily to test whether anatomically distributed lesions that cause the same symptom fall within a common brain network. A recent article challenges the specificity and validity of this technique, suggesting that lesion network maps primarily reflect intrinsic properties of the normative connectome rather than lesion-symptom relationships. However, the data and procedures in van den Heuvel et al. do not reflect those used in most LNM studies. Further, the main conclusions were based on similarity between maps, but similarity does not imply the absence of meaningful differences. In contrast, LNM provides evidence for meaningful differences using specificity testing. Exemplary analyses of 1090 lesion locations from 34 prior LNM studies do not support van den Heuvel's concerns and confirm the lesion-deficit specificity of LNM. While we encourage further methodological investigation, the analyses of van den Heuvel et al. do not invalidate prior LNM findings or future applications.",
+      "author": "Siddiqi, S. H., Horn, A., Schaper, F. L., Khosravani, S., Cohen, A. L., Joutsa, J., Rolston, J. D., Ferguson, M. A., Snider, S. B., Winkler, A. M., Akram, H., Smith, S., Nichols, T. E., Friston, K., Boes, A. D., Fox, M. D.",
+      "published_date": "2026-02-26T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 159,
+      "reading_time": 1,
+      "created_at": "2026-02-26T20:51:18.455569+00:00",
+      "updated_at": "2026-02-26T20:51:18.455574+00:00"
+    },
     {
       "id": "8f2c67db75c0dd533f868c508e29a63e",
       "url": "https://osmand.net/blog/fast-routing/",
@@ -130,41 +162,109 @@
       "reading_time": 2,
       "created_at": "2026-02-26T19:05:41.739847+00:00",
       "updated_at": "2026-02-26T19:05:41.739851+00:00"
-    },
-    {
-      "id": "af814458a6f8f35588455d489769c6a6",
-      "url": "https://www.nature.com/articles/s41420-026-02974-7",
-      "title": "Junction-mediating and regulatory protein (JMY) is a promoting protein for radial migration of cortical neurons",
-      "content": "",
-      "author": "",
-      "published_date": "2026-02-26T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-02-26T19:05:40.586638+00:00",
-      "updated_at": "2026-02-26T19:05:40.586640+00:00"
-    },
-    {
-      "id": "8d5f6ef8ad12dc2f6d8d5482bfaaae12",
-      "url": "http://doi.org/10.1037/cns0000437",
-      "title": "Looking back, looking forward.",
-      "content": "Looking back at the editor's two 3-year terms as editor of <em>Psychology of Consciousness</em>, they feel that they and the journal\u2019s associate editors have satisfied their two editorial aspirations: (a) providing authors with fair and constructive reviews and (b) providing readers with high-quality articles spanning a broad range of consciousness-related topics. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2025-10-30T00:00:00+00:00",
-      "source": "Clinical Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 60,
-      "reading_time": 1,
-      "created_at": "2026-02-26T19:05:14.595702+00:00",
-      "updated_at": "2026-02-26T19:05:14.595707+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "1d1d4e9b395cb038632dffe663667368",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.25.707008v1?rss=1",
+      "title": "Baseline cognitive abilities shape the effects of tDCS, tACS, and otDCS on object-location memory",
+      "content": "Transcranial electrical stimulation (tES) can modulate neural dynamics, yet its effects on memory are heterogeneous. Individual differences in cognitive profiles, may well be one of the potential causes by setting boundary conditions on the extent and mode of the tES-induced modulation of network dynamics. In a sham-controlled, within-subject study (N = 42), we compared the effects of tDCS (1.5 mA), tACS (+-1.0 mA at individual theta frequency, ITF), and otDCS (1.5 mA +-0.5 mA at ITF) over the left posterior parietal cortex on object-location (OL) associative memory, and examined whether six cognitive abilities (figural reasoning, semantic, visuospatial, processing speed, working memory, mnemonic binding) moderate stimulation outcomes. Associative memory recognition improved selectively under theta-otDCS, whereas tDCS and tACS showed no significant group-level effects. Yet all tES protocols exhibited considerable interindividual variability. Relative to cognitive abilities, processing speed moderated tES effects in line with neural efficiency predictions, yielding greater gains in cognitively faster individuals. In contrast, mnemonic binding and figural reasoning moderated benefits in a compensatory manner, with larger improvements in lower-ability individuals. Overall, the effects of tES on associative memory were specific to the tES protocol and outcome measure while being strongly shaped by cognitive profile via complementing magnification and compensation mechanisms.",
+      "author": "Bjekic, J., Zivanovic, M., Miniussi, C., Filipovic, S.",
+      "published_date": "2026-02-26T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 201,
+      "reading_time": 1,
+      "created_at": "2026-02-26T21:34:31.241231+00:00",
+      "updated_at": "2026-02-26T22:28:19.425438+00:00",
+      "metadata": {
+        "processed_at": "2026-02-26T22:28:19.425447+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "0b03de16becb0ccf6f831f2e3f668752",
+      "url": "https://www.reddit.com/r/Python/comments/1rfefy7/porn_in_conda_directory/",
+      "title": "Porn in Conda directory",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Okay, I am flustered here. Today, at work, I attempted to open up YouTube from within the Microsoft search menu. To my shock and horror, the first suggested app was \u201cYouporn.\u201d I don\u2019t watch porn on my work pc.</p> <p>I looked at the file location and lo and behold, it\u2019s a MS-DOS application file found within Anaconda3\\pkgs\\protego\\info\\test\\tests\\test_data</p> <p>WTF?!</p> <p>Anyone familiar with the Protego library? What is going on here? I can only imagine if my IT administrator or boss saw this pop up on my windows search.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/suitupyo\"> /u/suitupyo </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rfefy7/porn_in_conda_directory/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rfefy7/porn_in_conda_directory/\">[comments]</a></span>",
+      "author": "/u/suitupyo",
+      "published_date": "2026-02-26T16:16:38+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 108,
+      "reading_time": 1,
+      "created_at": "2026-02-26T21:33:55.592270+00:00",
+      "updated_at": "2026-02-26T22:28:19.425451+00:00",
+      "metadata": {
+        "processed_at": "2026-02-26T22:28:19.425453+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "734bd67b5af1b0eb6dda30e04913ab37",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Scheuble_Lidar_Waveforms_are_Worth_40x128x33_Words_ICCV_2025_paper.html",
+      "title": "Lidar waveforms are worth 40x128x33 words",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47121352\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-23T12:19:43+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-26T21:33:54.321008+00:00",
+      "updated_at": "2026-02-26T22:28:19.425456+00:00",
+      "metadata": {
+        "processed_at": "2026-02-26T22:28:19.425457+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "96336e6e8af8b7af7a2eabd80bc9d0a4",
+      "url": "https://plugsocketmuseum.nl/index.html",
+      "title": "Museum of Plugs and Sockets",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47124999\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-23T16:58:58+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-26T21:33:54.320989+00:00",
+      "updated_at": "2026-02-26T22:28:19.425460+00:00",
+      "metadata": {
+        "processed_at": "2026-02-26T22:28:19.425461+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "54a7c20633cc1239048ddc7dc577717e",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.24.707859v1?rss=1",
+      "title": "High-Precision Pneumatic Induction of Traumatic Brain Injury in Larval Zebrafish",
+      "content": "Zebrafish have recently emerged as a cost-effective vertebrate model for Traumatic brain injury (TBI) research. However, current injury paradigms, particularly the weight-drop method, suffer from poor reproducibility due to sensitivity to small variations in materials and setup. Here, we introduce a high-precision pneumatic piston system, the Zebrafish Pneumatic Injury Device (ZePID), which delivers controlled, repeatable pressure pulses to induce TBI in larval zebrafish. ZePID achieves 97% accuracy in applied force and substantially reduces variability compared with weight-drop approaches. Using 6-days-post-fertilization (dpf) larvae, we quantified injury severity by tracking seizure-like locomotor behaviors. Larvae exposed to 150 psi exhibited a significant increase in maximum swimming speed relative to uninjured controls, as well as increased total distance traveled, consistent with TBI-associated hyperactivity. Overall, ZePID provides a standardized, compact, and high-efficiency method for inducing TBI in larval zebrafish.",
+      "author": "Wang, K., Zhang, P., Geng, Y.",
+      "published_date": "2026-02-26T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 134,
+      "reading_time": 1,
+      "created_at": "2026-02-26T20:51:18.455657+00:00",
+      "updated_at": "2026-02-26T22:28:19.425464+00:00",
+      "metadata": {
+        "processed_at": "2026-02-26T22:28:19.425465+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "37f4ea4540b45960b1977a2270ced5ab",
       "url": "https://www.sciencedirect.com/science/article/pii/S1053811926001400?dgcid=rss_sd_all",
@@ -262,106 +362,6 @@
       "updated_at": "2026-02-26T20:31:32.499787+00:00",
       "metadata": {
         "processed_at": "2026-02-26T20:31:32.499788+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "dfefe79b1f3514902d0681ca79e78183",
-      "url": "https://erpinfo.org/blog/2025/12/19/sme-now-available-in-bva-and-mne-python",
-      "title": "Standardized Measurement Error now available in BrainVision Analyzer and MNE-Python",
-      "content": "<p class=\"\">A few years ago, we developed a universal metric of data quality for averaged ERPs called the standardized measurement error (<a href=\"https://erpinfo.org/blog/2020/4/28/data-quality\">click here</a> for more information). It has been available in ERPLAB for several years, and I\u2019m happy to announce that it is now available in BrainVision Analyzer 2.3.1 and in MNE-Python.</p><p class=\"\">For BrainVision Analyzer, it is available as a Solution. At this point, you need to request it from Brain Products.<a href=\"https://pressrelease.brainproducts.com/analyzer231/#04\"> Click here</a> and scroll down to the last part of the page for more information.</p><p class=\"\">For MNE-Python, it is accessed with the mne.stats.erp.compute_sme() function. <a href=\"https://mne.tools/1.8/generated/mne.stats.erp.compute_sme.html\">Click here</a> for details.</p><p class=\"\">If you want to see some examples of how this metric can be used, check out these recent papers:</p><ul><li><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (2024a). Optimal filters for ERP research I: A general approach for selecting filter settings. <em>Psychophysiology, 61, </em>e14531. <a href=\"http://doi.org/10.1111/psyp.14531\">http://doi.org/10.1111/psyp.14531</a> [<a href=\"https://www.researchgate.net/publication/377773270_Optimal_filters_for_ERP_research_I_A_general_approach_for_selecting_filter_settings\" target=\"_blank\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (2024b). Optimal filters for ERP research II: Recommended settings for seven common ERP components. <em>Psychophysiology, 61, </em>e14530. <a href=\"https://doi.org/10.1111/psyp.14530\">https://doi.org/10.1111/psyp.14530</a> [<a href=\"https://www.researchgate.net/publication/377766656_Optimal_filters_for_ERP_research_II_Recommended_settings_for_seven_common_ERP_components\" target=\"_blank\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., Garrett, D. R., Simmons, A. M., Kiat, J. E., &amp; Luck, S. J. (2024). Evaluating the effectiveness of artifact correction and rejection in event-related potential research. Psychophysiology, 61, e14511. <a href=\"https://doi.org/10.1111/psyp.14511\">https://doi.org/10.1111/psyp.14511</a> [<a href=\"https://doi.org/10.1101/2023.09.16.558075\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., &amp; Luck, S. J. (2023). Variations in ERP data quality across paradigms, participants, and scoring procedures. <em>Psychophysiology, 60,</em> e14264. <a href=\"http://doi.org/10.1111/psyp.14264\">http://doi.org/10.1111/psyp.14264</a> [<a href=\"https://www.biorxiv.org/content/10.1101/2022.08.22.504647v2.full.pdf\">preprint</a>]</p></li></ul>",
-      "author": "Steve Luck",
-      "published_date": "2025-12-19T18:20:27+00:00",
-      "source": "Erp Boot Camp",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 244,
-      "reading_time": 1,
-      "created_at": "2026-02-26T18:01:13.231970+00:00",
-      "updated_at": "2026-02-26T18:44:34.807698+00:00",
-      "metadata": {
-        "processed_at": "2026-02-26T18:44:34.807707+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "30c62259d3f0fa60ef1bd8a2c9fc9762",
-      "url": "https://embc.embs.org/2026/#new_tab",
-      "title": "Join the Mailing List",
-      "content": "<p>The post <a href=\"https://embc.embs.org/2026/#new_tab\">Join the Mailing List</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "dziura",
-      "published_date": "2025-12-10T16:41:05+00:00",
-      "source": "Embs",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-26T18:01:03.939048+00:00",
-      "updated_at": "2026-02-26T18:44:34.807712+00:00",
-      "metadata": {
-        "processed_at": "2026-02-26T18:44:34.807714+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "462d809fc097cbd2a6515bc023757c9f",
-      "url": "https://app.smartsheet.com/b/form/0199e95f16727ef99ec5b9ea73e78ab6#new_tab",
-      "title": "Apply for the 2026 One Mind Accelerator Emerging Innovator Observership",
-      "content": "<p>The post <a href=\"https://app.smartsheet.com/b/form/0199e95f16727ef99ec5b9ea73e78ab6#new_tab\">Apply for the 2026 One Mind Accelerator Emerging Innovator Observership</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "dziura",
-      "published_date": "2025-12-10T16:49:24+00:00",
-      "source": "Embs",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 19,
-      "reading_time": 1,
-      "created_at": "2026-02-26T18:01:03.939031+00:00",
-      "updated_at": "2026-02-26T18:44:34.807716+00:00",
-      "metadata": {
-        "processed_at": "2026-02-26T18:44:34.807718+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8f568bc3033d1ebdfa4cb1f10a3bd376",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707545v1?rss=1",
-      "title": "Neural Control of Autonomic Arousal During Threat Anticipation Revealed by High-Resolution Cardiac Contractility",
-      "content": "The sympathetic nervous system prepares the organism for adaptive action by shaping physiological, affective, and behavioral responses to environmental demands. Yet, how sympathetic signals dynamically couple with neural systems supporting emotional experience and behavior remains poorly understood, in part because common indices such as skin conductance responses lack sufficient temporal resolution to track these dynamics. Here, we evaluated trans-radial electrical bioimpedance velocimetry (TREV), a non-invasive measure of beat-to-beat cardiac contractility, and compared it with skin conductance responses during threat anticipation and simultaneous fMRI. Participants (n=60) completed a threat-of-shock paradigm requiring goal-directed action. Cardiac contractility increased during threat anticipation, covaried with skin conductance responses, and independently predicted self-reported emotional intensity. Critically, threat-related increases in contractility, but not skin conductance, tracked threat-related modulation of activation in dorsomedial prefrontal cortex, posterior parietal cortex, and cerebellum, with contractility-modulated cerebellar activation predicting faster motor responses under threat. These findings establish TREV-derived cardiac contractility as a physiological signal linking sympathetic drive with neural responding, emotional experience, and adaptive behavioral mobilization during emotion-guided action.",
-      "author": "Stasiak, J. E., Wang, J., Dundon, N. M., Rizor, E. J., Barandon, P. L., Villanueva, C. M., Babenko, V., Li, T. L., Sabugo, K. M., Grafton, S. T., Lapate, R. C.",
-      "published_date": "2026-02-26T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 167,
-      "reading_time": 1,
-      "created_at": "2026-02-26T18:00:52.322624+00:00",
-      "updated_at": "2026-02-26T18:44:34.807720+00:00",
-      "metadata": {
-        "processed_at": "2026-02-26T18:44:34.807721+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2fbe62ef6afd55a86448519a0ae58432",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1726374",
-      "title": "Macular: a multi-scale simulation platform for the retina and the primary visual system",
-      "content": "We developed Macular, a simulation platform with a graphical interface, designed to produce in silico experiment scenarios for the retina and the primary visual system. A scenario involves generating a three-dimensional structure with interconnected layers, each layer corresponding to a type of \u201ccell\u201d in the retina or visual cortex. The cells can correspond to neurons or more complex structures (such as cortical columns). Inputs are arbitrary videos. The user can use the cells and synapses provided with the software or create their own using a graphical interface where they enter the constituent equations in text format (e.g., LaTeX). They also create the three-dimensional structure via the graphical interface. Macular then automatically generates and compiles the C++ code and generates the simulation interface. This allows the user to view the input video and the three-dimensional structure in layers. It also allows the user to select cells and synapses in each layer and view the activity of their state variables. Finally, the user can adjust the phenomenological parameters of the cells or synapses via the interface. We provide several example scenarios, corresponding to published articles, including an example of a retino-cortical model. Macular was designed for neurobiologists and modelers, specialists in the primary visual system, who want to test hypotheses in silico without the need for programming. By design, this tool allows simulation of natural or altered conditions (e.g., pharmacology, pathology, and development).",
-      "author": "Julien Wintz",
-      "published_date": "2026-02-02T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 231,
-      "reading_time": 1,
-      "created_at": "2026-02-26T18:00:44.931326+00:00",
-      "updated_at": "2026-02-26T18:44:34.807723+00:00",
-      "metadata": {
-        "processed_at": "2026-02-26T18:44:34.807725+00:00",
         "processing_method": "github_actions"
       }
     }
