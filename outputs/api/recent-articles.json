@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-02-28T10:18:54.032777+00:00",
+  "last_updated": "2026-02-28T10:26:37.572585+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "6610ab88409d909e5905bdc9cc4377f6",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.25.708065v1?rss=1",
+      "title": "A multi-resolution imaging and analysis pipeline for comparative circuit reconstruction in insects",
+      "content": "Connectomics has become essential for the study of brain function, yet for most research groups it remains prohibitively costly in imaging time, data storage, and analysis. Here, we present an imaging, processing, and analysis pipeline for multi-resolution image acquisition and circuit reconstruction. Applied to the central complex of six insect species, we were able to obtain global projectomes at cellular resolution (40-50 nm) with embedded local connectomes describing key computational compartments at synaptic resolution (8-12 nm). We provide standardized protocols for volume EM sample preparation, image acquisition and image alignment, combined with existing methods for {micro}CT block trimming, automatic segmentation, synapse detection, collaborative skeleton tracing with CATMAID, and segmentation proofreading via CAVE. We validated our workflow by reconstructing head direction cells across all six insect species, which revealed deep conservation at the level of cell types, cell numbers and projection patterns, while also revealing circuit level specializations. Overall, our pipeline democratizes comparative connectomics by making this method accessible for small research groups with modest resources.",
+      "author": "Gillet, V., Sayre, M. E., Badalamente, G., Schieber, N. L., Tedore, K., Funke, J., Heinze, S.",
+      "published_date": "2026-02-28T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 165,
+      "reading_time": 1,
+      "created_at": "2026-02-28T10:26:09.923628+00:00",
+      "updated_at": "2026-02-28T10:26:09.923633+00:00"
+    },
+    {
+      "id": "3b5ca2f4a308522ec04c3c039c49af96",
+      "url": "https://www.reddit.com/r/Python/comments/1rgnnhz/a_simple_gradient_calculation_library_in_raw/",
+      "title": "A simple gradient calculation library in raw python",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I've been working in a library that automatically calculates gradients (automatic differentiation engine), as I find it useful for learning purposes and wanted to share it across.</p> <h2>What it does</h2> <p>The library is called <code>tinygrad</code> (<a href=\"https://github.com/RaulBarbaRojas/TinyGrad\">available in github</a>). It is a basic automatic differentiation engine that I built with educational purposes. Thus, it can be used to understand the process that powers neural networks behind the scenes (and other applications!). For this reason, <code>tinygrad</code> also has the ability to create very small neural networks for the sake of demonstrating its capabilities, mainly focused on linear layers.</p> <h2>Target Audience</h2> <p>The target audience of the module are students, engineers and, in general, any person that wants to learn the basic mechanism behind neural networks. It is not designed to be efficient, so it should only be used for educational purposes (should not be used in production environments).</p> <h2>Comparison</h2> <p>To build it, I took heavy inspiration from <code>micrograd</code> (thanks Andrej Karpathy for being such an inspiration!) and also from PyTorch. In fact, the way certain things are implemented in <code>tinygrad</code> tries to mimic PyTorch abstraction's when it comes to training. When compared to micrograd, tinygrad offers an interface that is closer to pytorch, and it also offers a <code>Module</code> class (similar to PyTorch) that automatically detects the attributes being added to the module, so as to automatically take into account all the model parameters and keep track of them. It also offers a clear structure that is very scalable when compared to micrograd (again similar to PyTorch), including optimizers, loss functions, models, as well as the differentiation engine (which can be used for other purposes, not necessarily AI/model training purposes). Sample code is given in the repo in case you want to check it out!</p> <h2>Asking for feedback</h2> <p>So, given this library, what do you think about it, do you find it useful for educational purposes? What else would you add to the project? I'm considering creating a different one more focused on the efficiency side and supporting multiple compute back-ends, but that's something for the future.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PolarNebula48\"> /u/PolarNebula48 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rgnnhz/a_simple_gradient_calculation_library_in_raw/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rgnnhz/a_simple_gradient_calculation_library_in_raw/\">[comments]</a></span>",
+      "author": "/u/PolarNebula48",
+      "published_date": "2026-02-28T00:14:47+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 367,
+      "reading_time": 1,
+      "created_at": "2026-02-28T10:25:34.368978+00:00",
+      "updated_at": "2026-02-28T10:25:34.368980+00:00"
+    },
     {
       "id": "c9cf01d7f871291fbf20c239fcedc15c",
       "url": "https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs",
@@ -329,38 +361,6 @@
       "reading_time": 1,
       "created_at": "2026-02-28T07:28:28.458777+00:00",
       "updated_at": "2026-02-28T07:28:28.458779+00:00"
-    },
-    {
-      "id": "aae2d51b7999e9a8f072ec2f6a66577c",
-      "url": "https://www.cnn.com/world/live-news/israel-iran-attack-02-28-26-hnk-intl",
-      "title": "US and Israel carrying out strikes against Iran",
-      "content": "<p>Article URL: <a href=\"https://www.cnn.com/world/live-news/israel-iran-attack-02-28-26-hnk-intl\">https://www.cnn.com/world/live-news/israel-iran-attack-02-28-26-hnk-intl</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47191437\">https://news.ycombinator.com/item?id=47191437</a></p>\n<p>Points: 34</p>\n<p># Comments: 5</p>",
-      "author": "simonebrunozzi",
-      "published_date": "2026-02-28T07:00:18+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-28T07:28:28.458748+00:00",
-      "updated_at": "2026-02-28T07:28:28.458755+00:00"
-    },
-    {
-      "id": "63a34a237fcef48d775e86c1aecd8fb9",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1748481",
-      "title": "A Physics Informed Neural Network (PINN) framework for fractional order modeling of Alzheimer's disease",
-      "content": "This study presents a novel fractional order model of Alzheimer's disease (mental disorder) using the Caputo derivative to accurately capture long term memory and hereditary effects in neurodegeneration. The mathematical model incorporates key pathological constituents including neurons, amyloid beta (A\u03b2), tau proteins and microglial responses, allowing detailed simulation of their dynamic interactions. Fundamental properties of the model, including positivity, boundedness, invariant regions and equilibrium points, are rigorously analyzed to ensure biological feasibility. Sensitivity analysis identifies amyloid toxicity as the most influential driver of neuronal loss underscoring its central role in AD progression. Furthermore, a Physics Informed Neural Network (PINN) is developed to approximate system dynamics from noisy observations while ensuring compliance with biological and physical constraints. Compared to standard neural networks the PINN exhibits superior accuracy and robustness especially under data scarcity. By integrating fractional calculus, optimal control and machine learning, this work advances computational modeling of Alzheimer's disease and offers insights into therapeutic optimization.",
-      "author": "Mohamed Hafez",
-      "published_date": "2026-02-18T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 155,
-      "reading_time": 1,
-      "created_at": "2026-02-28T06:40:55.880137+00:00",
-      "updated_at": "2026-02-28T06:40:55.880142+00:00"
     }
   ]
 }
