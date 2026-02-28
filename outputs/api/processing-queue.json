@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-02-28T10:18:54.032241+00:00",
-  "pending_count": 724,
-  "processed_count": 276,
+  "last_updated": "2026-02-28T12:34:59.762804+00:00",
+  "pending_count": 719,
+  "processed_count": 281,
   "pending_articles": [
+    {
+      "id": "3b5ca2f4a308522ec04c3c039c49af96",
+      "url": "https://www.reddit.com/r/Python/comments/1rgnnhz/a_simple_gradient_calculation_library_in_raw/",
+      "title": "A simple gradient calculation library in raw python",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I've been working in a library that automatically calculates gradients (automatic differentiation engine), as I find it useful for learning purposes and wanted to share it across.</p> <h2>What it does</h2> <p>The library is called <code>tinygrad</code> (<a href=\"https://github.com/RaulBarbaRojas/TinyGrad\">available in github</a>). It is a basic automatic differentiation engine that I built with educational purposes. Thus, it can be used to understand the process that powers neural networks behind the scenes (and other applications!). For this reason, <code>tinygrad</code> also has the ability to create very small neural networks for the sake of demonstrating its capabilities, mainly focused on linear layers.</p> <h2>Target Audience</h2> <p>The target audience of the module are students, engineers and, in general, any person that wants to learn the basic mechanism behind neural networks. It is not designed to be efficient, so it should only be used for educational purposes (should not be used in production environments).</p> <h2>Comparison</h2> <p>To build it, I took heavy inspiration from <code>micrograd</code> (thanks Andrej Karpathy for being such an inspiration!) and also from PyTorch. In fact, the way certain things are implemented in <code>tinygrad</code> tries to mimic PyTorch abstraction's when it comes to training. When compared to micrograd, tinygrad offers an interface that is closer to pytorch, and it also offers a <code>Module</code> class (similar to PyTorch) that automatically detects the attributes being added to the module, so as to automatically take into account all the model parameters and keep track of them. It also offers a clear structure that is very scalable when compared to micrograd (again similar to PyTorch), including optimizers, loss functions, models, as well as the differentiation engine (which can be used for other purposes, not necessarily AI/model training purposes). Sample code is given in the repo in case you want to check it out!</p> <h2>Asking for feedback</h2> <p>So, given this library, what do you think about it, do you find it useful for educational purposes? What else would you add to the project? I'm considering creating a different one more focused on the efficiency side and supporting multiple compute back-ends, but that's something for the future.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PolarNebula48\"> /u/PolarNebula48 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rgnnhz/a_simple_gradient_calculation_library_in_raw/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rgnnhz/a_simple_gradient_calculation_library_in_raw/\">[comments]</a></span>",
+      "author": "/u/PolarNebula48",
+      "published_date": "2026-02-28T00:14:47+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 367,
+      "reading_time": 1,
+      "created_at": "2026-02-28T10:25:34.368978+00:00",
+      "updated_at": "2026-02-28T10:25:34.368980+00:00"
+    },
     {
       "id": "d0d1870fed68e87e7e2ae72baae02d20",
       "url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708508v1?rss=1",
@@ -146,25 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-02-28T07:28:28.458748+00:00",
       "updated_at": "2026-02-28T07:28:28.458755+00:00"
-    },
-    {
-      "id": "63a34a237fcef48d775e86c1aecd8fb9",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1748481",
-      "title": "A Physics Informed Neural Network (PINN) framework for fractional order modeling of Alzheimer's disease",
-      "content": "This study presents a novel fractional order model of Alzheimer's disease (mental disorder) using the Caputo derivative to accurately capture long term memory and hereditary effects in neurodegeneration. The mathematical model incorporates key pathological constituents including neurons, amyloid beta (A\u03b2), tau proteins and microglial responses, allowing detailed simulation of their dynamic interactions. Fundamental properties of the model, including positivity, boundedness, invariant regions and equilibrium points, are rigorously analyzed to ensure biological feasibility. Sensitivity analysis identifies amyloid toxicity as the most influential driver of neuronal loss underscoring its central role in AD progression. Furthermore, a Physics Informed Neural Network (PINN) is developed to approximate system dynamics from noisy observations while ensuring compliance with biological and physical constraints. Compared to standard neural networks the PINN exhibits superior accuracy and robustness especially under data scarcity. By integrating fractional calculus, optimal control and machine learning, this work advances computational modeling of Alzheimer's disease and offers insights into therapeutic optimization.",
-      "author": "Mohamed Hafez",
-      "published_date": "2026-02-18T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 155,
-      "reading_time": 1,
-      "created_at": "2026-02-28T06:40:55.880137+00:00",
-      "updated_at": "2026-02-28T06:40:55.880142+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "6f4dba180e6ebc9652a2cdfb9fff60c4",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2521769123?af=R",
+      "title": "Integration of learned artificial sensation with vision during freely moving navigation",
+      "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 9, March 2026. <br />SignificanceMultisensory integration of visual and proprioceptive information facilitates accurate and precise movements. Intracortical microstimulation (ICMS) elicits perceptions that could supplement visual information for patients controlling a ...",
+      "author": "Samuel J. SennekaMaria C. DadarlataWeldon School of Biomedical Engineering, Purdue University, West Lafayette, IN 47907",
+      "published_date": "2026-02-27T08:00:00+00:00",
+      "source": "Pnas Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 41,
+      "reading_time": 1,
+      "created_at": "2026-02-28T11:21:14.310609+00:00",
+      "updated_at": "2026-02-28T12:34:59.642177+00:00",
+      "metadata": {
+        "processed_at": "2026-02-28T12:34:59.642187+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "14a2c7fef2f02dada5352dbcc9dd90ca",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2513547123?af=R",
+      "title": "Human hippocampal theta\u2013gamma coupling coordinates sequential planning during navigation",
+      "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 9, March 2026. <br />SignificanceHuman behavior often relies on executing specific sequences of actions to achieve desired outcomes\u2014like planning the series of locations one needs to pass through to reach a given destination. However, the neural mechanisms underlying ...",
+      "author": "Zimo HuangJames A. BisbyNeil BurgessDaniel BushaDepartment of Neuroscience, Physiology and Pharmacology, University College London, London WC1E 6BT, United KingdombDivision of Psychiatry, University College London, London W1T 7BN, United KingdomcUCL Queen Square Institute of Neurology, University College London, London WC1N 3BG, United KingdomdUCL Institute of Cognitive Neuroscience, University College London, London WC1N 3AZ, United KingdomeWellcome Centre for Human Neuroimaging, University College London, London WC1N 3AR, United Kingdom",
+      "published_date": "2026-02-27T08:00:00+00:00",
+      "source": "Pnas Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 49,
+      "reading_time": 1,
+      "created_at": "2026-02-28T11:21:14.310566+00:00",
+      "updated_at": "2026-02-28T12:34:59.642194+00:00",
+      "metadata": {
+        "processed_at": "2026-02-28T12:34:59.642196+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c3c43e9be0058b17683bc90ded43f87e",
+      "url": "https://www.ivanturkovic.com/2026/01/22/history-software-simplification-cobol-ai-hype/",
+      "title": "The Eternal Promise: A History of Attempts to Eliminate Programmers",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47147597\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-25T05:14:09+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-28T11:20:44.054734+00:00",
+      "updated_at": "2026-02-28T12:34:59.642199+00:00",
+      "metadata": {
+        "processed_at": "2026-02-28T12:34:59.642200+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f6086cdb52eb32556fa7d259514bc2fd",
+      "url": "https://help.openai.com/en/articles/6378407-how-to-delete-your-account",
+      "title": "OpenAI \u2013 How to delete your account",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47193478\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-28T10:41:55+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-28T11:20:44.054587+00:00",
+      "updated_at": "2026-02-28T12:34:59.642203+00:00",
+      "metadata": {
+        "processed_at": "2026-02-28T12:34:59.642205+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6610ab88409d909e5905bdc9cc4377f6",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.25.708065v1?rss=1",
+      "title": "A multi-resolution imaging and analysis pipeline for comparative circuit reconstruction in insects",
+      "content": "Connectomics has become essential for the study of brain function, yet for most research groups it remains prohibitively costly in imaging time, data storage, and analysis. Here, we present an imaging, processing, and analysis pipeline for multi-resolution image acquisition and circuit reconstruction. Applied to the central complex of six insect species, we were able to obtain global projectomes at cellular resolution (40-50 nm) with embedded local connectomes describing key computational compartments at synaptic resolution (8-12 nm). We provide standardized protocols for volume EM sample preparation, image acquisition and image alignment, combined with existing methods for {micro}CT block trimming, automatic segmentation, synapse detection, collaborative skeleton tracing with CATMAID, and segmentation proofreading via CAVE. We validated our workflow by reconstructing head direction cells across all six insect species, which revealed deep conservation at the level of cell types, cell numbers and projection patterns, while also revealing circuit level specializations. Overall, our pipeline democratizes comparative connectomics by making this method accessible for small research groups with modest resources.",
+      "author": "Gillet, V., Sayre, M. E., Badalamente, G., Schieber, N. L., Tedore, K., Funke, J., Heinze, S.",
+      "published_date": "2026-02-28T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 165,
+      "reading_time": 1,
+      "created_at": "2026-02-28T10:26:09.923628+00:00",
+      "updated_at": "2026-02-28T12:34:59.642207+00:00",
+      "metadata": {
+        "processed_at": "2026-02-28T12:34:59.642209+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "c9cf01d7f871291fbf20c239fcedc15c",
       "url": "https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs",
@@ -262,106 +362,6 @@
       "updated_at": "2026-02-28T08:22:52.177386+00:00",
       "metadata": {
         "processed_at": "2026-02-28T08:22:52.177388+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1348eff8059203eea8f1cf0c47dfeafd",
-      "url": "https://brain.ieee.org/podcasts/qa-with-dr-richard-carson-professor-of-biomedical-engineering-and-radiology-biomedical-imaging-yale-university-and-yale-school-of-medicine/",
-      "title": "Q&A with Dr. Richard Carson, Professor of Biomedical Engineering and Radiology & Biomedical Imaging, Yale University and Yale School of Medicine",
-      "content": "",
-      "author": "Adriel Carridice",
-      "published_date": "2025-11-04T18:24:59+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-02-28T07:29:24.543559+00:00",
-      "updated_at": "2026-02-28T08:22:52.177391+00:00",
-      "metadata": {
-        "processed_at": "2026-02-28T08:22:52.177393+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "75a88f137877902f0fe9447679429755",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.26.708356v1?rss=1",
-      "title": "Transcriptomic Landscape of Microglia in Mouse Models of Social Dysfunction and Oxytocin-Mediated Recovery",
-      "content": "Atypical sociability is a hallmark of neurodevelopmental disorders arising from genetic susceptibility and prenatal environmental perturbations affecting diverse brain cell types. Using single-cell transcriptomics, we previously identified selective vulnerability of parvocellular oxytocin (OT) neurons in the paraventricular hypothalamus (PVH) following embryonic exposure to valproic acid (VPA), a teratogen that induces social deficits. Neonatal chemogenetic activation of OT neurons rescued these behavioral abnormalities and partially restored dysregulated gene expression. However, the effects of VPA exposure and OT neuron stimulation on non-neuronal PVH cells remained unclear. Here, we show that VPA induces transcriptional abnormalities in PVH microglia. Spatial transcriptomics revealed altered distributions of PVH microglial subtypes. Notably, neonatal OT neuron stimulation reversed a subset of VPA-induced microglial gene downregulation, while pharmacological manipulation of microglia normalized aberrant OT gene expression in putative parvocellular OT neurons. These findings support bidirectional OT neuron-microglia interactions that may underlie social dysfunction following embryonic VPA exposure.",
-      "author": "Tsurutani, M., Sato, H., Hagihara, M., Cho, D., Kadota, M., Kondo, T., Miyamichi, K.",
-      "published_date": "2026-02-27T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 148,
-      "reading_time": 1,
-      "created_at": "2026-02-28T07:29:05.637658+00:00",
-      "updated_at": "2026-02-28T08:22:52.177395+00:00",
-      "metadata": {
-        "processed_at": "2026-02-28T08:22:52.177397+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "04fdf2d6bf6e28bcc8af0d61cbf55d93",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708510v1?rss=1",
-      "title": "Post-transcriptional control by RNA-binding proteins links local synaptic translation to schizophrenia genetic risk",
-      "content": "Background Synaptic function is increasingly recognized as a core property of genes implicated in psychiatric disorders. Defining the specific synaptic molecular systems underlying genetic risk is critical step toward therapeutic advances. Synaptic processes rely on rapid protein production driven by local translation of mRNA in context-specific synapses. Synaptic mRNA metabolism, transport and local translation is regulated by RNA-binding proteins (RBPs). Here, we hypothesized that genetic risk converges on localised transcripts with synaptic function and aimed to identify RBP regulatory systems that capture this shared schizophrenia genetic risk. Methods We use recent human and mouse bulk and single-synapse transcriptomic and proteomic datasets to test for enrichment of schizophrenia genetic risk among mRNAs stratified by localization and synaptic function employing gene set association (MAGMA) and heritability enrichment (S-LDSC) analyses. Prioritized transcripts were further analyzed for RBP control through motif enrichment analysis (Transite) of the 3'UTRs of these transcripts. Candidate RBPs were then evaluated based on the strength of genetic association among their predicted binding targets. Results We demonstrate that genes encoding localised mRNAs with synaptic function show significantly greater genetic association than other synaptic genes. We identified a subset of RBPs, RBFOX1/2/3, CELF4, HNRNPR, and nELAVL, whose motifs are enriched in localised synaptic mRNAs and whose targets are enriched for schizophrenia risk variants. These RBPs are prioritized as candidate regulatory systems through which genetic risk may converge on the transport, splicing and translation of localised transcripts with synaptic function. Conclusions Our results highlight potential regulatory systems through which genetic variation influences synaptic mechanisms and provide a scalable framework for refining the link between genetic association and post-transcriptional regulation in neuropsychiatric disorders.",
-      "author": "Tamusauskaite, K., Wells, P. M., Bhinge, A., Mill, J., Clifton, N. E.",
-      "published_date": "2026-02-27T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 269,
-      "reading_time": 1,
-      "created_at": "2026-02-28T07:29:05.637627+00:00",
-      "updated_at": "2026-02-28T08:22:52.177399+00:00",
-      "metadata": {
-        "processed_at": "2026-02-28T08:22:52.177401+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2b225036984d262b80ed9218105ca9ce",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708484v1?rss=1",
-      "title": "Preserved Intrinsic Neural Timescale Organization with Hierarchical Variation in Autism Spectrum Disorder",
-      "content": "Intrinsic neural timescales (INTs) index the temporal decay of neural activity and form a cortical hierarchy from fast sensorimotor to slow transmodal regions. Altered INTs have been reported in autism spectrum disorder (ASD), but it remains unclear whether the hierarchical organization is preserved and how individual variability along this hierarchy relates to sensory traits. Using resting-state fMRI from 182 participants (67 ASD, 115 typically developed controls (TDC)), we estimated INT at each cortical vertex from the autocorrelation half-life and averaged these values across four five-minute runs per participant. Vertex-wise INTs were then averaged within predefined cortical parcels and large-scale functional networks for subsequent analyses. The cortical INT hierarchy was preserved in ASD, showing comparable sensorimotor-to-transmodal hierarchy in both groups. However, regions operating at longer timescales showed prolonged INTs in ASD, and such tendency increased systematically along the hierarchy. No vertex, parcel, or network survived correction of multiple comparisons, indicating that observed alterations followed a distributed hierarchical trend rather than a focal pattern. To disentangle group-level differences from inter-individual variability, we next modeled each participant's parcel-wise INT profile relative to a TDC-derived group-averaged template. At the individual level, decomposition of INT profiles revealed that global shifts and hierarchical scaling primarily reflected demographic variation (plimarily sex) rather than diagnostic group membership. After accounting for these components, residual deviations from theTDC-derived cortical INT hierarchy showed a modest association with sensory traits characterized by reduced sensory registration. Together, these findings indicate that while the large-scale hierarchical organization of cortical temporal dynamics is largely preserved in ASD, individual-specific deviations from this hierarchy may contribute to variability in sensory experience beyond group-level differences.",
-      "author": "Shikauchi, Y., Aoki, R., Itahashi, T., Shimizu, M., Naoe, T., Okimura, T., Ota, H., Hashimoto, R.-i., Nakamura, M.",
-      "published_date": "2026-02-27T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 267,
-      "reading_time": 1,
-      "created_at": "2026-02-28T07:29:05.637588+00:00",
-      "updated_at": "2026-02-28T10:18:53.937389+00:00",
-      "metadata": {
-        "processed_at": "2026-02-28T10:18:53.937391+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8af8e2fb2197ca58b4c8ed65e04e25ed",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708450v1?rss=1",
-      "title": "Quantification of the effects of single nucleotide variants in NKX2.1 transcription factor binding sites",
-      "content": "Transcription factors recognise and bind specific DNA sequence patterns in promoters and enhancers thereby regulating gene expression. Variations in the DNA sequence of transcription factor binding sites (TFBSs) can alter gene regulation and may disrupt development. The transcription factor NKX2.1 is a crucial regulator of thyroid, lung, and neural development. Mutations in its coding gene NKX2-1 may cause choreoathetosis and congenital hypothyroidism with or without pulmonary dysfunction (CAHTP, OMIM #610978). Most genetically solved patients carry mutations in the coding regions of NKX2-1 that affect DNA binding, while the majority of patients with CAHTP-like symptoms do not carry mutations in the NKX2-1 coding sequence. We hypothesise that variations in the DNA-sequence at promoter or enhancer sites to which the transcription factor NKX2.1 binds could cause disease as well. We employed EMSA-seq to quantify the effects of genetic variation on NKX2.1 binding strength and used this data to train neural network models to forecast the influence of DNA variation on NKX2.1 binding. We validated our models using microscale thermophoresis, X-ray crystallography, and publicly available ChIP-seq data sets. The neural networks were able to detect TFBSs in ChIP-seq data and can thus be used to evaluate whole genome sequencing data of CAHTP-patients in order to prioritise potential disease-causing variants in regulatory elements.",
-      "author": "Lenihan-Geels, F., Proft, S. A., Bommer, M., Heinemann, U., Seelow, D., Opitz, R., Krude, H., Schuelke, M., Malecka, M.",
-      "published_date": "2026-02-27T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 209,
-      "reading_time": 1,
-      "created_at": "2026-02-28T07:29:05.637547+00:00",
-      "updated_at": "2026-02-28T10:18:53.937393+00:00",
-      "metadata": {
-        "processed_at": "2026-02-28T10:18:53.937394+00:00",
         "processing_method": "github_actions"
       }
     }
