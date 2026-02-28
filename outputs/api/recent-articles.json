@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-02-28T08:32:42.360176+00:00",
+  "last_updated": "2026-02-28T09:29:07.107715+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "c9cf01d7f871291fbf20c239fcedc15c",
+      "url": "https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs",
+      "title": "Unsloth Dynamic 2.0 GGUFs",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47192505\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-28T08:56:33+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-28T09:27:56.984418+00:00",
+      "updated_at": "2026-02-28T09:27:56.984420+00:00"
+    },
+    {
+      "id": "c9cf01d7f871291fbf20c239fcedc15c",
+      "url": "https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs",
+      "title": "Unsloth Dynamic 2.0 GGUFs",
+      "content": "<p>Article URL: <a href=\"https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs\">https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47192505\">https://news.ycombinator.com/item?id=47192505</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "tosh",
+      "published_date": "2026-02-28T08:56:33+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-28T09:27:55.876460+00:00",
+      "updated_at": "2026-02-28T09:27:55.876468+00:00"
+    },
     {
       "id": "43949eb2f4561a960a33315cb1c5f434",
       "url": "https://dspace.networks.imdea.org/handle/20.500.12761/2011",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-02-28T06:40:55.880137+00:00",
       "updated_at": "2026-02-28T06:40:55.880142+00:00"
-    },
-    {
-      "id": "5263fc376e29ab4738bb830b7ff77797",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1710914",
-      "title": "Cross-subject mapping of neural activity with restricted Boltzmann machines",
-      "content": "Subject-to-subject variability is a common challenge in generalizing neural data models across subjects, discriminating subject-specific and inter-subject features in large neural datasets, and engineering neural interfaces with subject-specific tuning. While many methods exist that map one subject to another, it remains challenging to combine many subjects in a computationally efficient manner, especially with highly non-linear features such as populations of spiking neurons or motor units. Consider subjects with trained neural decoders as sources and those without as targets. Our objective is to transfer data from one or more target subjects to the domain of the source subjects to directly apply the source neural decoder such that no target decoder needs to be trained. We propose to use the Restricted Boltzmann Machine (RBM) with Gaussian inputs and Bernoulli hidden units; once trained over the entire feature set of subjects, the RBM allows the mapping of target features on source feature spaces using Gibbs sampling. We also consider a novel computationally efficient training technique for RBMs based on the Fisher divergence, which allows closed-form gradients of the RBM to be computed. We apply our methods to decode turning behaviors from neuromuscular recordings of spike trains from the ten muscles that primarily control wing motion in an agile flying hawk moth, Manduca sexta. The dataset consists of this comprehensive motor program recorded from nine subjects, each driven by six discrete visual stimuli. The evaluations show that the target features can be decoded using the source classifier to classify the visual stimuli with an accuracy of up to 95% when mapped using an RBM trained by Fisher divergence, suggesting that RBMs for multi-cross-subject mapping applications are effective and efficient.",
-      "author": "Vahid Tarokh",
-      "published_date": "2026-02-13T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 275,
-      "reading_time": 1,
-      "created_at": "2026-02-28T06:40:54.178161+00:00",
-      "updated_at": "2026-02-28T06:40:54.178162+00:00"
-    },
-    {
-      "id": "f5c926035383d81867ee2b517870ea71",
-      "url": "https://computer.rip/2026-02-27-ibm-atm.html",
-      "title": "Cash issuing terminals",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47190806\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-28T05:21:21+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-28T06:40:22.363466+00:00",
-      "updated_at": "2026-02-28T06:40:22.363468+00:00"
     }
   ]
 }
