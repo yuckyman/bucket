@@ -1,5 +1,21 @@
 [
   {
+    "id": "630d02ef3d581b5ef1ac8085854f44ff",
+    "url": "http://ieeexplore.ieee.org/document/11361153",
+    "title": "Decoding Spikes From Multiunit Data",
+    "content": "Communication and control in biological systems is mediated by the timing of discharges \u2013spikes\u2013 from excitable cells such as neurons and muscle fibers. Each spike is associated to a characteristic waveform that can be captured by sensors. The waveform's characteristics depend on the cell's biophysical properties and the recording modality. Depending on the technique, e.g., electrical recordings with electrodes, optical imaging, ultrasound, the observed signals are mixtures of waveforms emitted from active cells/sources (multiunit data/signals). Recovering the timing and identity of these sources (multiunit or spike decoding) is central to neuroscience, clinical diagnostics, and neural interfacing, yet it remains challenging due to waveform superposition, non-stationarity, limited training labels, and the computational demands of high-density recordings. This review provides a unified methodological perspective on spike decoding by formalizing the problem as a sparse source separation task under a convolutive mixing model. Rather than organizing the literature by application domain, we group and critically compare methods by their underlying principles: classical spike sorting, Bayesian and probabilistic inference, blind source separation, and data-driven approaches, including deep learning and hybrid schemes. For each class of methods, we present the core mathematical formulation and algorithmic strategies and discuss assumptions and limitations. Our synthesis highlights parallels in signal processing across physical recording modalities and clarifies when and why particular approaches succeed or fail. By bridging previously compartmentalized literature, this survey aims to accelerate crosspollination of ideas between application areas and to provide a roadmap for selecting, adapting, and advancing decoding methods across diverse multiunit recording modalities.",
+    "author": "",
+    "published_date": "2026-01-22T13:16:59+00:00",
+    "source": "Reviews Biomedical Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 250,
+    "reading_time": 1,
+    "created_at": "2026-02-28T20:50:28.368837+00:00",
+    "updated_at": "2026-02-28T20:50:28.368839+00:00"
+  },
+  {
     "id": "afbf793efbd948cd5b7808d0e8eb8898",
     "url": "http://ieeexplore.ieee.org/document/11368645",
     "title": "Table of Contents",
@@ -17118,21 +17134,5 @@
     "reading_time": 1,
     "created_at": "2026-02-24T05:45:06.821710+00:00",
     "updated_at": "2026-02-24T05:45:06.821714+00:00"
-  },
-  {
-    "id": "38254576a99ab20bf29d51f66fd1e77e",
-    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1649440",
-    "title": "SynSpine: an automated workflow for the generation of longitudinal spinal cord synthetic MRI data",
-    "content": "BackgroundSpinal cord atrophy is a key biomarker for tracking disease progression in neurological disorders, including multiple sclerosis, amyotrophic lateral sclerosis, and spinal cord injury. Recent MRI advancements have improved atrophy detection, particularly in the cervical region, facilitating longitudinal studies. However, validating atrophy quantification algorithms remains challenging due to limited ground truth data.ObjectiveThis study introduces SynSpine, a workflow for generating synthetic spinal cord MRI data (i.e., digital phantoms) with controlled levels of artificial atrophy. These phantoms support the development and preliminary validation of spinal cord imaging pipelines designed to measure degeneration over time.MethodsThe workflow consists of two phases: (1) generating synthetic MR images by isolating, extracting and scaling the spinal cord, simulating atrophy on the PAM50 template; (2) performing non-rigid registration to align the synthetic images with the subject\u2019s native space, ensuring accurate anatomical correspondence. A proof-of-concept application utilizing the Active Surface and Reg methods implemented in Jim demonstrated its effectiveness in detecting atrophy across various levels of simulated atrophy and noise.ResultsSynSpine successfully generates synthetic spinal cord images with varying atrophy levels. Non-rigid registration did not significantly affect atrophy measurements. Atrophy estimation errors, estimated using Active Surface and Reg methods, varied with both simulated atrophy magnitude and noise level, exhibiting region-dependent differences. Increased noise led to higher measurement errors.ConclusionThis work presents a novel and modular framework for simulating spinal cord atrophy data using digital phantoms, offering a controlled setting for testing spinal cord analysis pipelines. As the simulated atrophy may over-simplify in vivo conditions, future research will focus on enhancing the realism of the synthetic dataset by simulating additional pathologies, thus improving its application for evaluating spinal cord atrophy in clinical and research contexts.",
-    "author": "Licinio Craveiro",
-    "published_date": "2025-12-17T00:00:00+00:00",
-    "source": "Frontiers Neuroinformatics",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 273,
-    "reading_time": 1,
-    "created_at": "2026-02-24T05:44:59.057606+00:00",
-    "updated_at": "2026-02-24T05:44:59.057608+00:00"
   }
 ]
