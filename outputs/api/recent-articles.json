@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-02-28T04:51:36.759052+00:00",
+  "last_updated": "2026-02-28T05:01:42.255427+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "1ce9a6cca89c359a689c92caea970f4c",
+      "url": "https://www.reddit.com/r/Python/comments/1rgt58i/i_built_a_python_sdk_that_unifies_openfda_pubmed/",
+      "title": "I built a Python SDK that unifies OpenFDA, PubMed, and ClinicalTrials.gov",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p>MedKit is a Python SDK that unifies multiple medical research APIs into a single developer-friendly interface.</p> <p>Instead of writing separate integrations for:</p> <ul> <li>PubMed</li> <li>OpenFDA</li> <li><a href=\"http://ClinicalTrials.gov\">ClinicalTrials.gov</a></li> </ul> <p>MedKit provides <strong>one consistent interface</strong> with features like:</p> <p>\u2022 Natural language medical queries<br /> \u2022 Drug interaction detection<br /> \u2022 Research paper search<br /> \u2022 Clinical trial discovery<br /> \u2022 Medical relationship graphs</p> <p>Example:</p> <pre><code>from medkit import MedKit with MedKit() as med: results = med.ask(&quot;clinical trials for melanoma&quot;) print(results.trials[0].title) </code></pre> <p>The goal is to make it easier for developers, researchers, and health-tech builders to work with medical datasets without dealing with multiple APIs and inconsistent schemas.</p> <p>It also includes:</p> <ul> <li>sync + async support</li> <li>disk/memory caching</li> <li>CLI tools</li> <li>provider plugin system</li> </ul> <p>Example CLI usage:</p> <pre><code>medkit papers &quot;CRISPR gene editing&quot; --limit 5 --links </code></pre> <h1>Target Audience</h1> <p>This project is primarily intended for:</p> <p>\u2022 <strong>health-tech developers</strong> building medical apps<br /> \u2022 <strong>researchers</strong> exploring biomedical literature<br /> \u2022 <strong>data scientists</strong> working with medical datasets<br /> \u2022 <strong>hackathon / prototype builders</strong> in healthcare</p> <p>Right now it's <strong>early stage but production-oriented</strong> and designed to be extended with additional providers.</p> <h1>Comparison</h1> <p>There are Python libraries for <strong>individual medical APIs</strong>, but most developers still need to integrate them manually.</p> <p>Examples:</p> <table><thead> <tr> <th align=\"left\">Tool</th> <th align=\"left\">Limitation</th> </tr> </thead><tbody> <tr> <td align=\"left\">PubMed API wrappers</td> <td align=\"left\">Only covers research papers</td> </tr> <tr> <td align=\"left\">OpenFDA wrappers</td> <td align=\"left\">Only covers FDA drug data</td> </tr> <tr> <td align=\"left\">ClinicalTrials API</td> <td align=\"left\">Only covers trials</td> </tr> </tbody></table> <p>MedKit focuses on <strong>unifying these sources under a single interface</strong> while adding higher-level features like:</p> <p>\u2022 unified schema<br /> \u2022 natural language queries<br /> \u2022 knowledge graph relationships<br /> \u2022 interaction detection</p> <h1>Example Output</h1> <p>Searching for insulin currently returns:</p> <pre><code>=== Found Drugs === Drug: ADMELOG (INSULIN LISPRO) === Research Papers === 1. Practical Approaches to Insulin Pump Troubleshooting for Inpatient Nurses 2. Antibiotic consumption and medication cost in diabetic patients 3. Once-weekly Lonapegsomatropin Phase 3 Trial </code></pre> <h1>Source Code</h1> <p>GitHub:<br /> <a href=\"https://github.com/interestng/medkit\">https://github.com/interestng/medkit</a></p> <p>PyPI:<br /> <a href=\"https://pypi.org/project/medkit-sdk/\">https://pypi.org/project/medkit-sdk/</a></p> <p>Install:</p> <pre><code>pip install medkit-sdk </code></pre> <h1>Feedback</h1> <p>I'd love feedback from Python developers, health-tech engineers, or researchers on:</p> <p>\u2022 API design<br /> \u2022 additional providers to support<br /> \u2022 features that would make this useful in real workflows</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Interesl\"> /u/Interesl </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rgt58i/i_built_a_python_sdk_that_unifies_openfda_pubmed/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rgt58i/i_built_a_python_sdk_that_unifies_openfda_pubmed/\">[comments]</a></span>",
+      "author": "/u/Interesl",
+      "published_date": "2026-02-28T04:31:31+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 391,
+      "reading_time": 1,
+      "created_at": "2026-02-28T04:59:56.131462+00:00",
+      "updated_at": "2026-02-28T04:59:56.131465+00:00"
+    },
+    {
+      "id": "aa55800460c8b15593b39511680576e8",
+      "url": "https://github.com/maloyan/manim-web",
+      "title": "Show HN: I ported Manim to TypeScript (run 3b1B math animations in the browser)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47155375\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-25T18:15:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-28T04:59:54.811253+00:00",
+      "updated_at": "2026-02-28T04:59:54.811255+00:00"
+    },
+    {
+      "id": "998928a1556e8624073ffb2d4e20455d",
+      "url": "https://www.promptarmor.com/resources/github-copilot-cli-downloads-and-executes-malware",
+      "title": "GitHub Copilot CLI downloads and executes malware",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47183940\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-27T18:40:31+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-28T04:59:54.811178+00:00",
+      "updated_at": "2026-02-28T04:59:54.811180+00:00"
+    },
+    {
+      "id": "23aeb2d033413749fc4477597b2bd45e",
+      "url": "https://glashrvatske.hrt.hr/en/domestic/croatia-declared-free-of-landmines-after-31-years-12593533",
+      "title": "Croatia declared free of landmines after 31 years",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47189535\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-28T02:48:16+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-28T04:59:54.811160+00:00",
+      "updated_at": "2026-02-28T04:59:54.811161+00:00"
+    },
+    {
+      "id": "23aeb2d033413749fc4477597b2bd45e",
+      "url": "https://glashrvatske.hrt.hr/en/domestic/croatia-declared-free-of-landmines-after-31-years-12593533",
+      "title": "Croatia declared free of landmines after 31 years",
+      "content": "<p>Article URL: <a href=\"https://glashrvatske.hrt.hr/en/domestic/croatia-declared-free-of-landmines-after-31-years-12593533\">https://glashrvatske.hrt.hr/en/domestic/croatia-declared-free-of-landmines-after-31-years-12593533</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47189535\">https://news.ycombinator.com/item?id=47189535</a></p>\n<p>Points: 27</p>\n<p># Comments: 1</p>",
+      "author": "toomuchtodo",
+      "published_date": "2026-02-28T02:48:16+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-28T04:59:53.681283+00:00",
+      "updated_at": "2026-02-28T04:59:53.681285+00:00"
+    },
     {
       "id": "482a989d0189b0e92db90fe151b24167",
       "url": "https://www.reddit.com/r/Python/comments/1rgnb9q/saturday_daily_thread_resource_request_and/",
@@ -43,46 +123,6 @@
       }
     },
     {
-      "id": "effc15c6cfcfc3b45ca10d1048dace74",
-      "url": "https://blog.timcappalli.me/p/passkeys-prf-warning/",
-      "title": "Don't use passkeys for encrypting user data",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47189749\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-28T03:11:40+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-28T03:59:14.331088+00:00",
-      "updated_at": "2026-02-28T04:51:36.639119+00:00",
-      "metadata": {
-        "processed_at": "2026-02-28T04:51:36.639120+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ceff4e474706988accc3d141f3ac8e0c",
-      "url": "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban",
-      "title": "President Trump bans Anthropic from use in government systems",
-      "content": "<p>Article URL: <a href=\"https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban\">https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47186031\">https://news.ycombinator.com/item?id=47186031</a></p>\n<p>Points: 114</p>\n<p># Comments: 145</p>",
-      "author": "pkress2",
-      "published_date": "2026-02-27T21:40:40+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-28T03:59:13.084097+00:00",
-      "updated_at": "2026-02-28T04:51:36.639123+00:00",
-      "metadata": {
-        "processed_at": "2026-02-28T04:51:36.639124+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "2f68c71f7a7d82473848590a7f4afda1",
       "url": "https://twitter.com/sama/status/2027578652477821175",
       "title": "OpenAI agrees with Dept. of War to deploy models in their classified network",
@@ -119,6 +159,46 @@
       "updated_at": "2026-02-28T04:51:36.639119+00:00",
       "metadata": {
         "processed_at": "2026-02-28T04:51:36.639120+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "effc15c6cfcfc3b45ca10d1048dace74",
+      "url": "https://blog.timcappalli.me/p/passkeys-prf-warning/",
+      "title": "Don't use passkeys for encrypting user data",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47189749\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-28T03:11:40+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-02-28T03:59:14.331088+00:00",
+      "updated_at": "2026-02-28T04:51:36.639119+00:00",
+      "metadata": {
+        "processed_at": "2026-02-28T04:51:36.639120+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ceff4e474706988accc3d141f3ac8e0c",
+      "url": "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban",
+      "title": "President Trump bans Anthropic from use in government systems",
+      "content": "<p>Article URL: <a href=\"https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban\">https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47186031\">https://news.ycombinator.com/item?id=47186031</a></p>\n<p>Points: 114</p>\n<p># Comments: 145</p>",
+      "author": "pkress2",
+      "published_date": "2026-02-27T21:40:40+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-02-28T03:59:13.084097+00:00",
+      "updated_at": "2026-02-28T04:51:36.639123+00:00",
+      "metadata": {
+        "processed_at": "2026-02-28T04:51:36.639124+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -289,94 +369,6 @@
       "reading_time": 1,
       "created_at": "2026-02-28T01:57:51.537514+00:00",
       "updated_at": "2026-02-28T01:57:51.537516+00:00"
-    },
-    {
-      "id": "ea4687677e8df060f72e4d89dea6afd5",
-      "url": "https://notdivided.org",
-      "title": "We Will Not Be Divided",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47188473\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-28T00:54:53+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-28T01:57:51.537488+00:00",
-      "updated_at": "2026-02-28T01:57:51.537492+00:00"
-    },
-    {
-      "id": "ea4687677e8df060f72e4d89dea6afd5",
-      "url": "https://notdivided.org",
-      "title": "We Will Not Be Divided",
-      "content": "<p>Article URL: <a href=\"https://notdivided.org\">https://notdivided.org</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47188473\">https://news.ycombinator.com/item?id=47188473</a></p>\n<p>Points: 284</p>\n<p># Comments: 68</p>",
-      "author": "BloondAndDoom",
-      "published_date": "2026-02-28T00:54:53+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-28T01:57:50.150767+00:00",
-      "updated_at": "2026-02-28T01:57:50.150769+00:00"
-    },
-    {
-      "id": "f35cde03ce14f24816fdacfbff20de77",
-      "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
-      "title": "Statement on the comments from Secretary of War Pete Hegseth",
-      "content": "<p>Article URL: <a href=\"https://www.anthropic.com/news/statement-comments-secretary-war\">https://www.anthropic.com/news/statement-comments-secretary-war</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47188697\">https://news.ycombinator.com/item?id=47188697</a></p>\n<p>Points: 88</p>\n<p># Comments: 11</p>",
-      "author": "surprisetalk",
-      "published_date": "2026-02-28T01:20:10+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-02-28T01:57:50.150737+00:00",
-      "updated_at": "2026-02-28T01:57:50.150744+00:00"
-    },
-    {
-      "id": "31e3aa24963341ef1cbd4b5caed69916",
-      "url": "https://github.com/wkoszek/emuko",
-      "title": "Emuko: Fast RISC-V emulator written in Rust, boots Linux",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47187121\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-27T23:01:49+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-27T23:48:28.154706+00:00",
-      "updated_at": "2026-02-28T01:23:28.744478+00:00",
-      "metadata": {
-        "processed_at": "2026-02-28T01:23:28.744487+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "31e3aa24963341ef1cbd4b5caed69916",
-      "url": "https://github.com/wkoszek/emuko",
-      "title": "Emuko: Fast RISC-V emulator written in Rust, boots Linux",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47187121\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-27T23:01:49+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-02-27T23:48:28.154706+00:00",
-      "updated_at": "2026-02-28T01:23:28.744478+00:00",
-      "metadata": {
-        "processed_at": "2026-02-28T01:23:28.744487+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
