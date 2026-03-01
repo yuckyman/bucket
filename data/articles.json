@@ -1,5 +1,37 @@
 [
   {
+    "id": "77a4db593d4b6c51e2302cee9d4b6283",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1623174",
+    "title": "Computational reconstruction of evolutionary selection in human brain networks",
+    "content": "IntroductionThe accumulation of genomic and brain data opens new opportunities for resource friendly, data driven brain exploration. A key challenge is to develop versatile and accessible strategies that integrate and mine multimodal datasets for novel neuroscientific insights. Here, we optimized an integrated workflow for mapping multigenic evolutionary traits in the human brain across cognitive, cellular, and molecular levels.MethodsAt the input stage, the workflow fuses an evolutionary genetic dataset with searchable synthetic functional magnetic resonance imaging (fMRI) databases that are pre clustered into concise psychological domains for improved interpretability. At its core, a Genetic Algorithm for Generalized Biclustering (GABi) mines gene sets under evolutionary selection that also show high expression correlation with fMRI networks.ResultsApplying this workflow, we identified evolutionary patterns spanning cognitive traits, brain cell types, and molecular mechanisms. Focusing on socio affective traits, the algorithm highlighted peaks in adaptive selection in networks for social interaction (language) and social concepts (theory of mind) across hominid, early hominin, and anatomically modern human (AMH) ancestry. These traits emerge from a broad spectrum of excitatory (glutamatergic) and inhibitory (GABAergic) neuronal, as well as non neuronal, cell types. The associated Gene Ontology (GO) terms were enriched for cell signaling, synaptic organization, and neuronal morphology.DiscussionTogether, these findings demonstrate an integrated workflow for molecular to systems level exploration of the brain and provide new perspectives on the evolutionary history of human socio affective functions. This approach can be adapted to screen for functional traits in the context of mental disorders or applied to the brains of other phylogenies in a similar manner.",
+    "author": "Wulf Haubensak",
+    "published_date": "2026-01-26T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 255,
+    "reading_time": 1,
+    "created_at": "2026-03-01T11:22:14.931294+00:00",
+    "updated_at": "2026-03-01T11:22:14.931296+00:00"
+  },
+  {
+    "id": "149017cc97a377972debc31295809c93",
+    "url": "https://www.reddit.com/r/Python/comments/1rhtmee/i_built_an_opensource_csv_and_excel_repair_tool/",
+    "title": "I built an open-source CSV and Excel repair tool in Python - Feedbacks Welcome",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>I built an open-source CSV and Excel repair tool in Python. Here\u2019s how it works.</p> <p>Sheet Doctor is a deterministic Python utility that programmatically repairs malformed CSV and Excel files using structured heuristics. All transformation logic is implemented in Python. There are no runtime LLM calls. Developed using AI-assisted tooling.</p> <p>It focuses on repairing messy real-world exports before they hit a database or analytics pipeline.</p> <p>What it handles:</p> <ul> <li>Mixed date formats in the same column</li> <li>Encoding corruption (UTF-8 vs Latin-1 issues)</li> <li>Misaligned or \u201cghost\u201d columns</li> <li>Duplicate and near-duplicate rows</li> <li>Inconsistent currency formats</li> <li>Inconsistent category/name values</li> <li>Multi-row merged headers from Excel exports</li> </ul> <p>The tool applies deterministic normalization rules for encoding repair, schema alignment, and duplicate detection. Every change is logged and reproducible.</p> <p>Output is a 3-sheet Excel workbook:</p> <ul> <li>Clean Data \u2014 ready to import</li> <li>Quarantine \u2014 rows that could not be safely repaired, with reasons</li> <li>Change Log \u2014 a full record of all modifications</li> </ul> <p>Nothing is deleted silently.</p> <p>Target audience:</p> <ul> <li>Data analysts receiving vendor exports</li> <li>Engineers ingesting third-party CSV feeds</li> <li>Anyone cleaning Excel exports before database import</li> </ul> <p>Not intended for:</p> <ul> <li>Large distributed ETL systems</li> <li>Spark-scale pipelines</li> <li>High-volume streaming workloads</li> </ul> <p>Comparison:</p> <ul> <li>Unlike pandas, this focuses on automated repair rather than manual cleaning workflows</li> <li>Unlike OpenRefine, it runs headless and can be used in CI</li> <li>Unlike Excel, it produces deterministic change logs for auditability</li> </ul> <p>The project includes tests and GitHub Actions CI. Developed using AI-assisted tooling, but the repair logic itself is implemented directly in Python.</p> <p>Repository: <a href=\"http://github.com/razzo007/sheet-doctor\">github.com/razzo007/sheet-doctor</a></p> <p>If you have a spreadsheet that regularly breaks your workflow, feel free to share the structure or edge case. I\u2019m actively improving the heuristics and would value direct feedback.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/razzo007123\"> /u/razzo007123 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rhtmee/i_built_an_opensource_csv_and_excel_repair_tool/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rhtmee/i_built_an_opensource_csv_and_excel_repair_tool/\">[comments]</a></span>",
+    "author": "/u/razzo007123",
+    "published_date": "2026-03-01T10:04:53+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 306,
+    "reading_time": 1,
+    "created_at": "2026-03-01T11:21:44.010024+00:00",
+    "updated_at": "2026-03-01T11:21:44.010026+00:00"
+  },
+  {
     "id": "5ebf6958dd17b9800450285f9b599469",
     "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001442?dgcid=rss_sd_all",
     "title": "Gut microbiota transmission induces cognitive impairment through amyloid pathology in wild-type mice",
@@ -17134,37 +17166,5 @@
     "reading_time": 1,
     "created_at": "2026-02-24T14:51:32.772820+00:00",
     "updated_at": "2026-02-24T14:51:32.772822+00:00"
-  },
-  {
-    "id": "c60813c6909811686b8df1869e62200c",
-    "url": "https://wordglyph.xyz/one-piece-at-a-time",
-    "title": "I Pitched a Roller Coaster to Disneyland at Age 10 in 1978",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47136604\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-24T13:03:51+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-24T14:51:31.414884+00:00",
-    "updated_at": "2026-02-24T14:51:31.414885+00:00"
-  },
-  {
-    "id": "2cc7e344c03caf09ebf782f02d55d49c",
-    "url": "https://www.nytimes.com/2026/02/24/business/irs-meta-corporate-taxes.html",
-    "title": "IRS Tactics Against Meta Open a New Front in the Corporate Tax Fight",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47136537\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-24T12:58:14+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-02-24T14:51:31.414865+00:00",
-    "updated_at": "2026-02-24T14:51:31.414867+00:00"
   }
 ]
