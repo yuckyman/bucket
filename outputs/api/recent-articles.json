@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-03-01T21:25:40.643894+00:00",
+  "last_updated": "2026-03-01T21:47:05.551965+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d55ba19f2293e3ed3a821d293d1bf0ec",
+      "url": "https://www.embs.org/featured-news/newly-appointed-editors-in-chief/",
+      "title": "Newly Appointed Editors-in-Chief",
+      "content": "<p>&#160;</p>\n<p>The post <a href=\"https://www.embs.org/featured-news/newly-appointed-editors-in-chief/\">Newly Appointed Editors-in-Chief</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
+      "author": "dziura",
+      "published_date": "2025-12-08T20:29:15+00:00",
+      "source": "Embs",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-01T21:46:46.996538+00:00",
+      "updated_at": "2026-03-01T21:46:46.996539+00:00"
+    },
+    {
+      "id": "40de28dbeaf1acd8c8292ca24411c4fb",
+      "url": "https://www.reddit.com/r/Python/comments/1ri90db/i_built_a_cobol_verification_engine_it_proves/",
+      "title": "I built a COBOL verification engine \u2014 it proves migrations are mathematically correct",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm building Aletheia \u2014 a tool that verifies COBOL-to-Python migrations are correct. Not with AI translation, but with deterministic verification.</p> <p>What it does:</p> <ul> <li>ANTLR4 parser extracts every paragraph, variable, and data type from COBOL source</li> <li>Rule-based Python generator using Decimal precision with IBM TRUNC(STD/BIN/OPT) emulation</li> <li>Shadow Diff: ingest real mainframe I/O, replay through generated Python, compare field-by-field. Exact match or it flags the exact record and field that diverged</li> <li>EBCDIC-aware string comparison (CP037/CP500)</li> <li>COPYBOOK resolution with REPLACING and REDEFINES byte mapping</li> <li>CALL dependency crawler across multi-program systems with LINKAGE SECTION parameter mapping</li> <li>EXEC SQL/CICS taint tracking \u2014 doesn't mock the database, maps which variables are externally populated and how SQLCODE branches affect control flow</li> <li>ALTER statement detection \u2014 hard stop, flags as unverifiable</li> <li>Cryptographically signed reports for audit trails</li> <li>Air-gapped Docker deployment \u2014 nothing leaves the bank's network</li> </ul> <p>Binary output: VERIFIED or REQUIRES MANUAL REVIEW. No confidence scores. No AI in the verification pipeline.</p> <p>190 tests across 9 suites, zero regressions.</p> <p>I'm looking for mainframe professionals willing to stress-test this against real COBOL. Not selling anything \u2014 just want brutal feedback on what breaks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Tight_Scene8900\"> /u/Tight_Scene8900 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ri90db/i_built_a_cobol_verification_engine_it_proves/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ri90db/i_built_a_cobol_verification_engine_it_proves/\">[comments]</a></span>",
+      "author": "/u/Tight_Scene8900",
+      "published_date": "2026-03-01T21:02:51+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 207,
+      "reading_time": 1,
+      "created_at": "2026-03-01T21:45:56.536802+00:00",
+      "updated_at": "2026-03-01T21:45:56.536804+00:00"
+    },
     {
       "id": "586dbadae68f1ab4b0e29d22a4cbe389",
       "url": "https://maurycyz.com/misc/c_files/",
@@ -309,42 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-03-01T18:35:51.668933+00:00",
       "updated_at": "2026-03-01T18:35:51.668935+00:00"
-    },
-    {
-      "id": "049670b0a5488a68aed5fc9a41ade978",
-      "url": "https://servo.org/blog/2026/02/28/january-in-servo/",
-      "title": "January in Servo: preloads, better forms, details styling, and more",
-      "content": "<p>Article URL: <a href=\"https://servo.org/blog/2026/02/28/january-in-servo/\">https://servo.org/blog/2026/02/28/january-in-servo/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47208744\">https://news.ycombinator.com/item?id=47208744</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
-      "author": "birdculture",
-      "published_date": "2026-03-01T17:31:29+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-01T18:35:51.668882+00:00",
-      "updated_at": "2026-03-01T18:35:51.668890+00:00"
-    },
-    {
-      "id": "397b8edbddcc2ab7bd5f7f07bb3f06ce",
-      "url": "https://jacquesmattheij.com/long-range-ebike/",
-      "title": "Long Range E-Bike",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47165965\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-26T13:41:32+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-01T17:47:46.118720+00:00",
-      "updated_at": "2026-03-01T18:26:47.219832+00:00",
-      "metadata": {
-        "processed_at": "2026-03-01T18:26:47.219841+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
