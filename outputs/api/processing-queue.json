@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-01T06:39:23.214353+00:00",
-  "pending_count": 705,
-  "processed_count": 295,
+  "last_updated": "2026-03-01T08:25:01.347793+00:00",
+  "pending_count": 700,
+  "processed_count": 300,
   "pending_articles": [
     {
       "id": "fd073262f1092dff771f1d9128170155",
@@ -166,6 +166,106 @@
   ],
   "recently_processed": [
     {
+      "id": "858050e6f948cb7d2355692dde867563",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708674v1?rss=1",
+      "title": "Hopx expression marks A\u03b2 clearance astrocytes in Alzheimers disease",
+      "content": "Astrocytic dysfunction is closely associated with nearly all types of neurological diseases. Targeting astrocyte regulation has thus emerged as an important potential therapeutic strategy for neurological disorders. However, mechanisms that induce astrocyte dysfunction under pathological conditions have not been fully elucidated. In this study, we identified that Homeodomain-only protein X (Hopx) is downregulated in astrocytes across inflammatory models, Alzheimer's disease (AD) mouse models, and brain tissues from AD patients. In the brains of AD mice, Hopx-positive astrocytes exhibit efficient {beta}-amyloid (A{beta}) plaque clearance, while knockout of Hopx leads to astrocytic dysfunction. Conversely, astrocyte-specific overexpression of Hopx not only significantly enhances their A{beta}; phagocytic function but also effectively reduces the generation of neurotoxic astrocytes while increasing protective astrocytes. In summary, this study demonstrates the core regulatory mechanism underlying astrocytic dysfunction under AD pathological conditions and provides important potential targets for developing therapeutic strategies for AD by targeting astrocyte regulatory pathways.",
+      "author": "Cao, D.-D., Dong, J., Liao, X.-Y., Teng, Y.-Y., Gu, Y., Luo, Z.-G.",
+      "published_date": "2026-02-28T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 149,
+      "reading_time": 1,
+      "created_at": "2026-03-01T07:34:26.637063+00:00",
+      "updated_at": "2026-03-01T08:25:01.231771+00:00",
+      "metadata": {
+        "processed_at": "2026-03-01T08:25:01.231780+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "3f8fe4d31014fc1d3b70ce48c4b21fe3",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708640v1?rss=1",
+      "title": "Nav1.8 mediates peripheral-to-central nociceptive transmission independently of central presynaptic mechanisms in human DRG-spinal cord circuits",
+      "content": "Suzetrigine, a peripherally restricted selective Nav1.8 blocker, despite its significant role as a non-opioid analgesic, exhibits modest efficacy. The potential enhancement of Nav1.8 blocker efficacy through engagement of Nav1.8 at central terminals remains uncertain. We established a donor-derived human organotypic nociceptive circuit to determine where and how clinically relevant analgesics suppress pain signaling. Using ELISA and immunohistochemistry, we quantified calcitonin gene-related peptide (CGRP) release from acute explants of adult human spinal cord, dorsal root ganglia (DRG), and an intact DRG-spinal cord preparation preserving primary afferent anatomy and directional signaling. In isolated spinal cords, capsaicin evoked concentration-dependent spinal CGRP release without compromising viability, and clinically used analgesics inhibited it, validating the assay. In the intact circuit, the application of capsaicin to the DRG cell bodies triggered CGRP release exclusively in the spinal cord, consistent with compartmentalized neuropeptide release at central terminals. Selective Nav1.8 inhibition with suzetrigine reduced spinal CGRP release only when applied to the DRG or nerve root, not the spinal cord, indicating that Nav1.8 regulates peripheral action potential propagation rather than presynaptic transmitter release. These findings establish the first intact human pain circuit-based assay to study analgesics and demonstrate that the analgesic efficacy of Nav1.8 inhibitors is unlikely to increase with improved CNS penetration.",
+      "author": "Palomino, S. M., Gabriel, K. A., Koduri, A., Khan, I., Rahman, S. A., Horton, P., Khan, T., Cervantes, A., Funk, G., Shiers, S., Price, T. J., Pattwardhan, A.",
+      "published_date": "2026-02-28T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 205,
+      "reading_time": 1,
+      "created_at": "2026-03-01T07:34:26.637024+00:00",
+      "updated_at": "2026-03-01T08:25:01.231784+00:00",
+      "metadata": {
+        "processed_at": "2026-03-01T08:25:01.231786+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6bf13a7170a7c1b758339ec187a3c9ef",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708561v1?rss=1",
+      "title": "Improved spatial memory in a modular network mimicking the prefrontal-thalamo-hippocampal triangular circuit",
+      "content": "The hippocampus (HPC), prefrontal cortex (PFC), and thalamic nuclei, such as reuniens (Re), form a reciprocally connected circuit that plays a critical role in processing hippocampus-dependent memory. Accumulating evidence suggests that this triangular modular circuit is crucial for performing cognitive tasks that require context-dependent memory, which belong to a class of behavioral tasks difficult for animals to learn. Experiments are gradually revealing what behavioral information these brain regions represent, but how the triangular circuit gives rise to the observed divisions of labor remains unknown. It is also unclear whether the triangular modular circuit brings any advantage in solving such tasks. Here, we addressed these questions by constructing a prefrontal-thalamo-hippocampal circuit model comprising interconnected long-short-term memory (LSTM) units and training it on contextual memory-dependent spatial navigation tasks. Our model revealed the critical roles of the distinct brain modules. The HPC module encoded spatial information, whereas the PFC module represented the spatiotemporal task structure in a context-dependent manner. The Re module integrated task-relevant information to facilitate learning in the PFC and HPC modules, dynamically harmonizing these modules. The thalamic coordination of the other modules enhanced the system's robustness in learning to navigate complex environments. This division of labor between the HPC, PFC, and Re modules was not specified a priori but emerged through learning, showing an interesting coincidence with the task-related activities of the prefrontal-thalamo-hippocampal circuit. Our results demonstrate that the multi-modular network structure is crucial for robust processing of context-dependent memory. This manuscript has been submitted to iScience.",
+      "author": "Takaku, M., Fukai, T.",
+      "published_date": "2026-02-28T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 247,
+      "reading_time": 1,
+      "created_at": "2026-03-01T07:34:26.636981+00:00",
+      "updated_at": "2026-03-01T08:25:01.231789+00:00",
+      "metadata": {
+        "processed_at": "2026-03-01T08:25:01.231790+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a8b701a430b1b97a1894edf3df74b14d",
+      "url": "https://www.morling.dev/blog/hardwood-new-parser-for-apache-parquet/",
+      "title": "Hardwood: A New Parser for Apache Parquet",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47167432\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-26T15:31:39+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-01T07:33:47.881649+00:00",
+      "updated_at": "2026-03-01T08:25:01.231792+00:00",
+      "metadata": {
+        "processed_at": "2026-03-01T08:25:01.231794+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f8af7ffbf916e99949f33551e64686da",
+      "url": "https://www.thetrueengineer.com/p/sql-vs-nosql-how-to-answer-this-interview",
+      "title": "SQL vs. NoSQL: How to Answer This Interview Question in 2026",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47157500\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-25T20:37:06+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-01T06:49:54.727536+00:00",
+      "updated_at": "2026-03-01T08:25:01.231796+00:00",
+      "metadata": {
+        "processed_at": "2026-03-01T08:25:01.231798+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "138dbc20af95ce55414e7d62214f9607",
       "url": "https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab",
       "title": "Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings",
@@ -262,106 +362,6 @@
       "updated_at": "2026-03-01T06:39:23.092959+00:00",
       "metadata": {
         "processed_at": "2026-03-01T06:39:23.092961+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d0d1ffe5178f74a2556c1c9e88390057",
-      "url": "https://www.reddit.com/r/Python/comments/1rhjxtp/carpet_python_enclosure_setup/",
-      "title": "Carpet Python Enclosure Setup",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi there, new here and just wondering what you guys think of my python enclosure setup? It is a 4x2x2 with a heat lamp, uvb, 3 hiding areas, a water bowl and plenty of fake plants. If there is anything wrong with it please let me know</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nug_JDolla\"> /u/nug_JDolla </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rhjxtp/carpet_python_enclosure_setup/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rhjxtp/carpet_python_enclosure_setup/\">[comments]</a></span>",
-      "author": "/u/nug_JDolla",
-      "published_date": "2026-03-01T01:20:01+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 68,
-      "reading_time": 1,
-      "created_at": "2026-03-01T02:27:35.157483+00:00",
-      "updated_at": "2026-03-01T04:19:04.527545+00:00",
-      "metadata": {
-        "processed_at": "2026-03-01T04:19:04.527556+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4ddea8c2aefb9590780c96c4b3a005b7",
-      "url": "https://www.inconspicuous.info/p/h-bomb-a-frank-lloyd-wright-typographic",
-      "title": "H-Bomb: A Frank Lloyd Wright Typographic Mystery",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47163779\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-26T09:18:57+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-01T02:27:33.938352+00:00",
-      "updated_at": "2026-03-01T04:19:04.527560+00:00",
-      "metadata": {
-        "processed_at": "2026-03-01T04:19:04.527561+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "97d1954eefc906ccf16c5187096de2eb",
-      "url": "https://github.com/jonwiggins/xmloxide",
-      "title": "Show HN: Xmloxide \u2013 an agent made rust replacement for libxml2",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47201816\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-28T23:44:41+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-01T02:27:33.938215+00:00",
-      "updated_at": "2026-03-01T04:19:04.527566+00:00",
-      "metadata": {
-        "processed_at": "2026-03-01T04:19:04.527568+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "97d1954eefc906ccf16c5187096de2eb",
-      "url": "https://github.com/jonwiggins/xmloxide",
-      "title": "Show HN: Xmloxide \u2013 an agent made rust replacement for libxml2",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47201816\">Comments</a>",
-      "author": "",
-      "published_date": "2026-02-28T23:44:41+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-01T02:27:33.938215+00:00",
-      "updated_at": "2026-03-01T04:19:04.527566+00:00",
-      "metadata": {
-        "processed_at": "2026-03-01T04:19:04.527568+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6d759dd0e9e4a64e711ba2afcf3ed71e",
-      "url": "http://karpathy.github.io/2026/02/12/microgpt/",
-      "title": "Microgpt",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47202708\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-01T01:39:26+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-01T02:27:33.938125+00:00",
-      "updated_at": "2026-03-01T04:19:04.527571+00:00",
-      "metadata": {
-        "processed_at": "2026-03-01T04:19:04.527572+00:00",
         "processing_method": "github_actions"
       }
     }
