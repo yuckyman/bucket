@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T15:48:01.696967+00:00",
+  "last_updated": "2026-03-01T16:21:43.097425+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "",
       "published_date": "2026-03-01T00:00:00+00:00",
       "source": "Fmhy",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 585,
       "reading_time": 2,
       "created_at": "2026-03-01T15:25:43.672925+00:00",
-      "updated_at": "2026-03-01T15:25:43.672929+00:00"
+      "updated_at": "2026-03-01T16:21:42.978985+00:00",
+      "metadata": {
+        "processed_at": "2026-03-01T16:21:42.978994+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "5bed47dcd5ee219a8e23d6c1b65e0142",
@@ -26,13 +30,17 @@
       "author": "",
       "published_date": "2026-03-01T14:52:22+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-03-01T15:25:40.966409+00:00",
-      "updated_at": "2026-03-01T15:25:40.966411+00:00"
+      "updated_at": "2026-03-01T16:21:42.978998+00:00",
+      "metadata": {
+        "processed_at": "2026-03-01T16:21:42.979000+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "2d5ee571b2c71a1bb48a33de1aea7ecd",
@@ -42,13 +50,17 @@
       "author": "",
       "published_date": "2026-02-27T10:10:22+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-03-01T15:25:40.966372+00:00",
-      "updated_at": "2026-03-01T15:25:40.966373+00:00"
+      "updated_at": "2026-03-01T16:21:42.979003+00:00",
+      "metadata": {
+        "processed_at": "2026-03-01T16:21:42.979004+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "062b3387fbdf9059b92cb0718f5ab27f",
@@ -58,29 +70,37 @@
       "author": "",
       "published_date": "2026-03-01T13:49:21+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-03-01T15:25:40.966314+00:00",
-      "updated_at": "2026-03-01T15:25:40.966316+00:00"
+      "updated_at": "2026-03-01T16:21:42.979006+00:00",
+      "metadata": {
+        "processed_at": "2026-03-01T16:21:42.979011+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "062b3387fbdf9059b92cb0718f5ab27f",
       "url": "https://beabetterdev.com/2026/03/01/ai-is-making-junior-devs-useless/",
       "title": "AI is making junior devs useless",
-      "content": "<p>Article URL: <a href=\"https://beabetterdev.com/2026/03/01/ai-is-making-junior-devs-useless/\">https://beabetterdev.com/2026/03/01/ai-is-making-junior-devs-useless/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47206663\">https://news.ycombinator.com/item?id=47206663</a></p>\n<p>Points: 19</p>\n<p># Comments: 6</p>",
-      "author": "beabetterdev",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47206663\">Comments</a>",
+      "author": "",
       "published_date": "2026-03-01T13:49:21+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-01T15:25:39.590807+00:00",
-      "updated_at": "2026-03-01T15:25:39.590809+00:00"
+      "created_at": "2026-03-01T15:25:40.966314+00:00",
+      "updated_at": "2026-03-01T16:21:42.979006+00:00",
+      "metadata": {
+        "processed_at": "2026-03-01T16:21:42.979011+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "50afc4d7f9ea33080f05288b3a387d8f",
@@ -102,17 +122,21 @@
       "id": "5bed47dcd5ee219a8e23d6c1b65e0142",
       "url": "https://glthr.com/XML-fundamental-to-Claude",
       "title": "Why XML Tags Are So Fundamental to Claude",
-      "content": "<p>Article URL: <a href=\"https://glthr.com/XML-fundamental-to-Claude\">https://glthr.com/XML-fundamental-to-Claude</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47207236\">https://news.ycombinator.com/item?id=47207236</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-      "author": "glth",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47207236\">Comments</a>",
+      "author": "",
       "published_date": "2026-03-01T14:52:22+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-01T15:25:39.590747+00:00",
-      "updated_at": "2026-03-01T15:25:39.590749+00:00"
+      "created_at": "2026-03-01T15:25:40.966409+00:00",
+      "updated_at": "2026-03-01T16:21:42.978998+00:00",
+      "metadata": {
+        "processed_at": "2026-03-01T16:21:42.979000+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "2e18741e7051e36a52ebfa6d5345e1ae",
