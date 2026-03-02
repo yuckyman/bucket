@@ -1,7 +1,75 @@
 {
-  "last_updated": "2026-03-02T08:38:26.085877+00:00",
+  "last_updated": "2026-03-02T08:49:18.714470+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "6703e52c70542e38f7fdbc8505ac7470",
+      "url": "https://www.nature.com/articles/s41398-026-03902-0",
+      "title": "Mapping heterogeneous brain structural subtypes in alzheimer\u2019s disease and mild cognitive impairment using normative models",
+      "content": "",
+      "author": "",
+      "published_date": "2026-03-02T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-03-02T08:48:47.707458+00:00",
+      "updated_at": "2026-03-02T08:48:47.707463+00:00"
+    },
+    {
+      "id": "0acd028580454e6ec688a55a469dfff0",
+      "url": "https://www.reddit.com/r/Python/comments/1rimuu7/pep_827_type_manipulation_has_just_been_published/",
+      "title": "PEP 827 - Type Manipulation has just been published",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://peps.python.org/pep-0827\">https://peps.python.org/pep-0827</a></p> <p>This is a static typing PEP which introduces a huge number of typing <a href=\"https://typing.python.org/en/latest/spec/glossary.html#term-special-form\">special forms</a> and significantly expands the <a href=\"https://typing.python.org/en/latest/spec/annotations.html#type-and-annotation-expressions\">type expression grammar</a>. The following two examples, taken from the PEP, demonstrate (1) a <a href=\"https://peps.python.org/pep-0827/#unpacked-comprehension\">unpacking comprehension expression</a> and (2) a <a href=\"https://peps.python.org/pep-0827/#conditional-types\">conditional type expression</a>.</p> <pre><code>def select[ModelT, K: typing.BaseTypedDict]( typ: type[ModelT], /, **kwargs: Unpack[K] ) -&gt; list[typing.NewProtocol[*[typing.Member[c.name, ConvertField[typing.GetMemberType[ModelT, c.name]]] for c in typing.Iter[typing.Attrs[K]]]]]: raise NotImplementedError type ConvertField[T] = ( AdjustLink[PropsOnly[PointerArg[T]], T] if typing.IsAssignable[T, Link] else PointerArg[T] ) </code></pre> <p>There's no canonical discussion place for this yet, but there is a <a href=\"https://github.com/msullivan/mypy/tree/typemap\">mypy branch</a> with experimental support. See e.g. <a href=\"https://github.com/msullivan/mypy/blob/3bf95c6953f37ead829f61ab289328ecebd83a0a/test-data/unit/check-typelevel-comprehension.test\">a mypy unit test</a> demonstrating the behaviour.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/droooze\"> /u/droooze </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rimuu7/pep_827_type_manipulation_has_just_been_published/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rimuu7/pep_827_type_manipulation_has_just_been_published/\">[comments]</a></span>",
+      "author": "/u/droooze",
+      "published_date": "2026-03-02T07:55:06+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 130,
+      "reading_time": 1,
+      "created_at": "2026-03-02T08:48:12.312968+00:00",
+      "updated_at": "2026-03-02T08:48:12.312970+00:00"
+    },
+    {
+      "id": "5aa4a3a3201ec75c4cf4798c6018be82",
+      "url": "https://www.noelberry.ca/posts/making_games_in_2025/",
+      "title": "Making Video Games in 2025 (without an engine)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47176576\">Comments</a>",
+      "author": "",
+      "published_date": "2026-02-27T04:38:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-02T08:48:11.031968+00:00",
+      "updated_at": "2026-03-02T08:48:11.031970+00:00"
+    },
+    {
+      "id": "8a69eec786712dfe857000af7d0bb168",
+      "url": "https://variantsystems.io/blog/beam-otp-process-concurrency",
+      "title": "Process-Based Concurrency: Why Beam and OTP Keep Being Right",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47214063\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-02T05:01:08+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-02T07:53:07.871861+00:00",
+      "updated_at": "2026-03-02T08:38:25.970869+00:00",
+      "metadata": {
+        "processed_at": "2026-03-02T08:38:25.970878+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "8a69eec786712dfe857000af7d0bb168",
       "url": "https://variantsystems.io/blog/beam-otp-process-concurrency",
@@ -43,22 +111,22 @@
       }
     },
     {
-      "id": "8a69eec786712dfe857000af7d0bb168",
-      "url": "https://variantsystems.io/blog/beam-otp-process-concurrency",
-      "title": "Process-Based Concurrency: Why Beam and OTP Keep Being Right",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47214063\">Comments</a>",
+      "id": "2434f155f5215c1e3b073cfb3154400d",
+      "url": "https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/",
+      "title": "Motorola announces a partnership with GrapheneOS Foundation",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47214645\">Comments</a>",
       "author": "",
-      "published_date": "2026-03-02T05:01:08+00:00",
+      "published_date": "2026-03-02T06:48:07+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-02T07:53:07.871861+00:00",
-      "updated_at": "2026-03-02T08:38:25.970869+00:00",
+      "created_at": "2026-03-02T07:53:07.871679+00:00",
+      "updated_at": "2026-03-02T08:38:25.970883+00:00",
       "metadata": {
-        "processed_at": "2026-03-02T08:38:25.970878+00:00",
+        "processed_at": "2026-03-02T08:38:25.970885+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -79,26 +147,6 @@
       "updated_at": "2026-03-02T08:38:25.970891+00:00",
       "metadata": {
         "processed_at": "2026-03-02T08:38:25.970892+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2434f155f5215c1e3b073cfb3154400d",
-      "url": "https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/",
-      "title": "Motorola announces a partnership with GrapheneOS Foundation",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47214645\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-02T06:48:07+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-02T07:53:07.871679+00:00",
-      "updated_at": "2026-03-02T08:38:25.970883+00:00",
-      "metadata": {
-        "processed_at": "2026-03-02T08:38:25.970885+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -299,66 +347,6 @@
       "updated_at": "2026-03-02T06:51:16.809518+00:00",
       "metadata": {
         "processed_at": "2026-03-02T06:51:16.809520+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "70d5df72897bbe2f3e507d5a519f22f8",
-      "url": "https://arxiv.org/abs/2602.23490",
-      "title": "Tidynote: Always-Clear Notebook Authoring",
-      "content": "arXiv:2602.23490v1 Announce Type: new \nAbstract: Recent work identified clarity as one of the top quality attributes that notebook users value, but notebooks lack support for maintaining clarity throughout the exploratory phases of the notebook authoring workflow. We propose always-clear notebook authoring that supports both clarity and exploration, and present a Jupyter implementation called Tidynote. The key to Tidynote is three-fold: (1) a scratchpad sidebar to facilitate exploration, (2) cells movable between the notebook and the scratchpad to maintain organization, and (3) linear execution with state forks to clarify program state. An exploratory study (N=13) of open-ended data analysis tasks shows that Tidynote features holistically promote clarity throughout a notebook's lifecycle, support realistic notebook tasks, and enable novel strategies for notebook clarity. These results suggest that Tidynote supports maintaining clarity throughout the entirety of notebook authoring.",
-      "author": "Ruanqianqian Huang, Brian Hempel, Yining Cao, James D. Hollan, Haijun Xia, Sorin Lerner",
-      "published_date": "2026-03-02T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 135,
-      "reading_time": 1,
-      "created_at": "2026-03-02T05:37:39.583637+00:00",
-      "updated_at": "2026-03-02T06:51:16.809523+00:00",
-      "metadata": {
-        "processed_at": "2026-03-02T06:51:16.809524+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "84f03173f99b05f47c6076cd752075d2",
-      "url": "https://arxiv.org/abs/2602.23475",
-      "title": "Walking with Robots: Video Analysis of Human-Robot Interactions in Transit Spaces",
-      "content": "arXiv:2602.23475v1 Announce Type: new \nAbstract: The proliferation of robots in public spaces necessitates a deeper understanding of how these robots can interact with those they share the space with. In this paper, we present findings from video analysis of publicly deployed cleaning robots in a transit space, a major commercial airport, using their navigational 'troubles' as a tool to document what robots currently lack in interactional competence. We demonstrate that these robots, while technically proficient, can disrupt the social order of a space due to their inability to understand core aspects of human movement: mutual adjustment to others, the significance of understanding social groups, and the purpose of different locations. In discussion we argue for exploring a new design space of movement: socially-aware movement. By developing \"strong concepts\" that treat movement as an interactional and collaborative accomplishment, we can create systems that better integrate into the everyday rhythms of public life.",
-      "author": "Barry Brown, Hannah Pelikan, Mathaius Broth",
-      "published_date": "2026-03-02T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 151,
-      "reading_time": 1,
-      "created_at": "2026-03-02T05:37:39.583609+00:00",
-      "updated_at": "2026-03-02T06:51:16.809527+00:00",
-      "metadata": {
-        "processed_at": "2026-03-02T06:51:16.809532+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7884b2af663769a09e150531f6c41e76",
-      "url": "https://arxiv.org/abs/2602.23436",
-      "title": "Challenges in Automatic Speech Recognition for Adults with Cognitive Impairment",
-      "content": "arXiv:2602.23436v1 Announce Type: new \nAbstract: Millions of people live with cognitive impairment from Alzheimer's disease and related dementias (ADRD). Voice-enabled smart home systems offer promise for supporting daily living but rely on automatic speech recognition (ASR) to transcribe their speech to text. Prior work has shown reduced ASR performance for adults with cognitive impairment; however, the acoustic factors underlying these disparities remain poorly understood. This paper evaluates ASR performance for 83 older adults across cognitive groups (cognitively normal, mild cognitive impairment, dementia) reading commands to a voice assistant (Amazon Alexa). Results show that ASR errors are significantly higher for individuals with dementia, revealing a critical usability gap. To better understand these disparities, we conducted an acoustic analysis of speech features and found that a speaker's intensity, voice quality, and pause ratio predicted ASR accuracy. Based on these findings, we outline HCI design implications for AgeTech and voice interfaces, including speaker-personalized ASR, human-in-the-loop correction of ASR transcripts, and interaction-level personalization to support ability-based adaptation.",
-      "author": "Michelle Cohn, Alyssa Lanzi, Yui Ishihara, Chen-Nee Chuah, Georgia Zellou, Alyssa Weakley",
-      "published_date": "2026-03-02T05:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 163,
-      "reading_time": 1,
-      "created_at": "2026-03-02T05:37:39.583580+00:00",
-      "updated_at": "2026-03-02T06:51:16.809534+00:00",
-      "metadata": {
-        "processed_at": "2026-03-02T06:51:16.809536+00:00",
         "processing_method": "github_actions"
       }
     }
