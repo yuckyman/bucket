@@ -7,13 +7,17 @@
     "author": "",
     "published_date": "2026-03-02T00:00:00+00:00",
     "source": "Nature Neuroscience Subjects",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 0,
     "reading_time": 1,
     "created_at": "2026-03-02T09:53:08.676490+00:00",
-    "updated_at": "2026-03-02T09:53:08.676492+00:00"
+    "updated_at": "2026-03-02T10:39:13.335811+00:00",
+    "metadata": {
+      "processed_at": "2026-03-02T10:39:13.335822+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "938c89d545973d902629c6566809e1cf",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": "2026-03-02T00:00:00+00:00",
     "source": "Nature Neuroscience Subjects",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 0,
     "reading_time": 1,
     "created_at": "2026-03-02T09:53:08.676424+00:00",
-    "updated_at": "2026-03-02T09:53:08.676429+00:00"
+    "updated_at": "2026-03-02T10:39:13.335826+00:00",
+    "metadata": {
+      "processed_at": "2026-03-02T10:39:13.335828+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "16bb9491c90e9abc34eb0efdbd6e358d",
@@ -39,13 +47,17 @@
     "author": "Luis J Gomez, David L K Murphy, Lari M Koponen, Rena Hamdan, Yiru Li, Eleanor Wood, Jacob Golden, Noreen Bukhari-Parlakturk, Stefan M Goetz and Angel V Peterchev",
     "published_date": "2026-03-02T00:00:00+00:00",
     "source": "Journal Neural Engineering",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 261,
     "reading_time": 1,
     "created_at": "2026-03-02T09:52:54.439481+00:00",
-    "updated_at": "2026-03-02T09:52:54.439486+00:00"
+    "updated_at": "2026-03-02T10:39:13.335830+00:00",
+    "metadata": {
+      "processed_at": "2026-03-02T10:39:13.335832+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "ecf6ca70576c543265ae238223596e96",
@@ -55,13 +67,17 @@
     "author": "",
     "published_date": "2026-03-02T08:58:14+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-03-02T09:52:32.344762+00:00",
-    "updated_at": "2026-03-02T09:52:32.344763+00:00"
+    "updated_at": "2026-03-02T10:39:13.335837+00:00",
+    "metadata": {
+      "processed_at": "2026-03-02T10:39:13.335839+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "4a430a8315656a579d542479c7990e99",
@@ -71,45 +87,57 @@
     "author": "",
     "published_date": "2026-03-02T09:09:44+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-03-02T09:52:32.344742+00:00",
-    "updated_at": "2026-03-02T09:52:32.344744+00:00"
+    "updated_at": "2026-03-02T10:39:13.335842+00:00",
+    "metadata": {
+      "processed_at": "2026-03-02T10:39:13.335844+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "ecf6ca70576c543265ae238223596e96",
     "url": "https://github.com/getomnico/omni",
     "title": "Show HN: Omni \u2013 Open-source workplace search and chat, built on Postgres",
-    "content": "<p>Hey HN!<p>Over the past few months, I've been working on building Omni - a workplace search and chat platform that connects to apps like Google Drive/Gmail, Slack, Confluence, etc. Essentially an open-source alternative to Glean, fully self-hosted.<p>I noticed that some orgs find Glean to be expensive and not very extensible. I wanted to build something that small to mid-size teams could run themselves, so I decided to build it all on Postgres (ParadeDB to be precise) and pgvector. No Elasticsearch, or dedicated vector databases. I figured Postgres is more than capable of handling the level of scale required.<p>To bring up Omni on your own infra, all it takes is a single `docker compose up`, and some basic configuration to connect your apps and LLMs.<p>What it does:<p>- Syncs data from all connected apps and builds a BM25 index (ParadeDB) and HNSW vector index (pgvector)\n- Hybrid search combines results from both\n- Chat UI where the LLM has tools to search the index - not just basic RAG\n- Traditional search UI\n- Users bring their own LLM provider (OpenAI/Anthropic/Gemini)\n- Connectors for Google Workspace, Slack, Confluence, Jira, HubSpot, and more\n- Connector SDK to build your own custom connectors<p>Omni is in beta right now, and I'd love your feedback, especially on the following:<p>- Has anyone tried self-hosting workplace search and/or AI tools, and what was your experience like?\n- Any concerns with the Postgres-only approach at larger scales?<p>Happy to answer any questions!<p>The code: <a href=\"https://github.com/getomnico/omni\" rel=\"nofollow\">https://github.com/getomnico/omni</a> (Apache 2.0 licensed)</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47215427\">https://news.ycombinator.com/item?id=47215427</a></p>\n<p>Points: 12</p>\n<p># Comments: 1</p>",
-    "author": "prvnsmpth",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47215427\">Comments</a>",
+    "author": "",
     "published_date": "2026-03-02T08:58:14+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 260,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-03-02T09:52:31.104497+00:00",
-    "updated_at": "2026-03-02T09:52:31.104499+00:00"
+    "created_at": "2026-03-02T09:52:32.344762+00:00",
+    "updated_at": "2026-03-02T10:39:13.335837+00:00",
+    "metadata": {
+      "processed_at": "2026-03-02T10:39:13.335839+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "4a430a8315656a579d542479c7990e99",
     "url": "https://e.foundation/e-os/",
     "title": "/e/OS is a complete \"deGoogled\", mobile ecosystem",
-    "content": "<p>Article URL: <a href=\"https://e.foundation/e-os/\">https://e.foundation/e-os/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47215489\">https://news.ycombinator.com/item?id=47215489</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-    "author": "doener",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47215489\">Comments</a>",
+    "author": "",
     "published_date": "2026-03-02T09:09:44+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-03-02T09:52:31.104443+00:00",
-    "updated_at": "2026-03-02T09:52:31.104451+00:00"
+    "created_at": "2026-03-02T09:52:32.344742+00:00",
+    "updated_at": "2026-03-02T10:39:13.335842+00:00",
+    "metadata": {
+      "processed_at": "2026-03-02T10:39:13.335844+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "6703e52c70542e38f7fdbc8505ac7470",
