@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-03-03T19:24:50.197569+00:00",
+  "last_updated": "2026-03-03T19:58:43.093460+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "c2319578819743fdf0159bf723bcb1b5",
+      "url": "https://erpinfo.org/blog/2024/3/5/changes-to-the-2024-erp-boot-camp",
+      "title": "Important Changes to the 2024 ERP Boot Camp",
+      "content": "<p class=\"\">We are disappointed to announce that we will not be holding a regular 10-day ERP Boot Camp this summer.</p><p class=\"\">We have held Boot Camps nearly every summer since 2007, supported by a series of generous grants from NIMH that allowed us to provide scholarships for all attendees. Unfortunately, although our recent renewal proposal received extremely positive reviews and scores, we were recently given the surprising and disappointing news that the renewal will not be funded this year. We believe that the ERP Boot Camp provides essential training to the field, and we will continue to pursue financial support to continue holding 10-day ERP Boot Camps in the future. </p><p class=\"\">In the meantime, we have partial funding that will allow us to hold a 5-day ERP Boot Camp this summer from July 8-12, 2024 in Davis, California. The workshop will include 5-days of lectures and activities on EEG and ERP measures, including practical and theoretical issues.</p><p class=\"\">Unfortunately, we will not be able to provide scholarships to pay for travel and lodging costs, and we must charge a registration fee. We are very sorry if this causes a hardship. </p><p class=\"\">We are no longer taking applications through our application portal. Instead of a competitive application process, we will simply accept the first 30 people who complete the registration process and pay the registration fee. This provides an opportunity to attend for individuals who might otherwise not make it through our ordinary application process, which is highly competitive. </p><p class=\"\">The registration fee will be $1000 (or $900 for people who register by April 15). The registration fee will cover 6 nights in a single occupancy hotel room (arriving July 7 and departing July 13), daily breakfast at the hotel, a catered lunch for each day of the workshop, and a group dinner. <strong>You must pay the registration fee with a credit card when you register.</strong> There are no exceptions to the registration fee policy.</p><p class=\"\"><strong>Registration is now open</strong> at <a href=\"https://na.eventscloud.com/793175\">https://na.eventscloud.com/793175</a>.</p><p class=\"\">Given that we will accept the first 30 registrants, we encourage you to register as soon as possible. <strong>Registration will close on May 20</strong>, but we anticipate that the workshop will be filled up long before then. </p><p class=\"\">You must pay for your own transportation to Davis. Davis is approximately 20 minutes away from the Sacramento Airport (SMF). You can take the <a href=\"https://www.davisairporter.com/\" target=\"_blank\">Davis Airporter</a> shuttle service or a rideshare service from SMF to Davis. If you are coming from outside North America, you may want to fly into the San Francisco airport (SFO), which is 135 km (84 miles) from Davis. We recommend taking the <a href=\"https://www.davisairporter.com/\" target=\"_blank\">Davis Airporter</a> from SFO to Davis.</p>",
+      "author": "Steve Luck",
+      "published_date": "2024-03-05T19:34:57+00:00",
+      "source": "Erp Boot Camp",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 444,
+      "reading_time": 2,
+      "created_at": "2026-03-03T19:58:35.213615+00:00",
+      "updated_at": "2026-03-03T19:58:35.213617+00:00"
+    },
+    {
+      "id": "bb7aeb6fdf5b768d867a40ff8f4ad0f7",
+      "url": "https://www.reddit.com/r/Python/comments/1rjwuwc/formualizer_an_arrowbacked_spreadsheet_engine_320/",
+      "title": "formualizer: an Arrow-backed spreadsheet engine - 320+ functions, incremental recalc, PyO3 + Rust",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><code>pip install formualizer</code></p> <pre><code>import formualizer as fz # Recalculate every formula in an xlsx and write it back - one call fz.recalculate_file(&quot;model.xlsx&quot;, output=&quot;recalculated.xlsx&quot;) # Or drive it programmatically wb = fz.load_workbook(&quot;model.xlsx&quot;) wb.set_value(&quot;Assumptions&quot;, 3, 2, 0.08) # swap in a new interest rate wb.evaluate_all() print(wb.evaluate_cell(&quot;Summary&quot;, 5, 3)) # =IRR(...) print(wb.evaluate_cell(&quot;Summary&quot;, 6, 3)) # =NPV(...) print(wb.evaluate_cell(&quot;Summary&quot;, 7, 3)) # =PMT(...) </code></pre> <p><strong>GitHub:</strong> <a href=\"https://github.com/psu3d0/formualizer\">https://github.com/psu3d0/formualizer</a> <strong>Docs:</strong> <a href=\"https://www.formualizer.dev\">https://www.formualizer.dev</a></p> <hr /> <p><strong>Why this exists</strong></p> <p>Python's Excel formula situation sucks:</p> <ul> <li><strong>openpyxl</strong> reads and writes <code>.xlsx</code> perfectly, evaluates zero formulas. Cells with <code>=SUM(A1:A10)</code> return <code>None</code> unless Excel already cached the values when someone last saved the file.</li> <li><strong>xlcalc</strong> actually evaluates, but covers around 50 functions. <code>XLOOKUP</code>, <code>SUMIFS</code> with multiple criteria, <code>IRR</code>, <code>XIRR</code>, dynamic arrays (<code>FILTER</code>, <code>UNIQUE</code>, <code>SORT</code>), etc don't exist.</li> <li><strong>xlwings</strong> works if Excel is installed on the machine. Useless in Docker or on Linux.</li> </ul> <p>The standard workaround - pre-calculate in Excel, save cached values, read with openpyxl - falls apart when someone changes the model, or you need to evaluate the same workbook across thousands of different inputs. Or even just need to evaluate real workbooks of non-trivial size.</p> <p><code>formualizer</code> is a Rust formula engine with PyO3 bindings. No Excel. No COM. Runs anywhere Python runs.</p> <hr /> <p><strong>Bonus: register Python functions as Excel formulas</strong></p> <pre><code>def risk_score(grid): flat = [v for row in grid for v in row] return sum(v ** 2 for v in flat) / len(flat) wb.register_function(&quot;RISK_SCORE&quot;, risk_score, min_args=1, max_args=1) wb.set_formula(&quot;Sheet1&quot;, 5, 1, &quot;=RISK_SCORE(A1:D100)&quot;) result = wb.evaluate_cell(&quot;Sheet1&quot;, 5, 1) </code></pre> <p>Your callback participates in the dependency graph like any built-in - change a cell in <code>A1:D100</code> and it recalculates on the next <code>evaluate_all()</code>.</p> <hr /> <p><strong>Comparison</strong></p> <table><thead> <tr> <th>Library</th> <th>Evaluates</th> <th>Functions</th> <th>Dep. graph</th> <th>Write xlsx</th> <th>No Excel</th> <th>License</th> </tr> </thead><tbody> <tr> <td><strong>formualizer</strong></td> <td>\u2705</td> <td>320+</td> <td>\u2705 incremental</td> <td>\u2705</td> <td>\u2705</td> <td>MIT / Apache-2.0</td> </tr> <tr> <td>xlcalc</td> <td>\u2705</td> <td>~50</td> <td>partial</td> <td>\u274c</td> <td>\u2705</td> <td>MIT</td> </tr> <tr> <td>openpyxl</td> <td>\u274c</td> <td>\u2014</td> <td>\u274c</td> <td>\u2705</td> <td>\u2705</td> <td>MIT</td> </tr> <tr> <td>xlwings</td> <td>\u2705</td> <td>~400*</td> <td>\u274c</td> <td>\u2705</td> <td>\u274c</td> <td>BSD</td> </tr> </tbody></table> <p>Formal benchmarks are in progress. Rust core, incremental dependency graph (only affected cells recalculate on edits), MIT/Apache-2.0.</p> <p>This library is <strong>fast.</strong></p> <hr /> <p><strong>What My Project Does</strong></p> <p>Python library for evaluating Excel formulas without Excel installed. Rust core via PyO3. 320+ Excel-compatible functions, <code>.xlsx</code> read/write, incremental dependency graph, custom Python formula callbacks, deterministic mode for reproducible evaluation. MIT/Apache-2.0.</p> <p><strong>Target Audience</strong></p> <p>Data engineers pulling business logic out of Excel workbooks, fintech/insurance teams running server-side formula evaluation (pricing, amortization, risk), SaaS builders who need spreadsheet logic without a server-side Excel dependency.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Manfr3dMacx\"> /u/Manfr3dMacx </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rjwuwc/formualizer_an_arrowbacked_spreadsheet_engine_320/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rjwuwc/formualizer_an_arrowbacked_spreadsheet_engine_320/\">[comments]</a></span>",
+      "author": "/u/Manfr3dMacx",
+      "published_date": "2026-03-03T18:16:18+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 439,
+      "reading_time": 2,
+      "created_at": "2026-03-03T19:57:39.418599+00:00",
+      "updated_at": "2026-03-03T19:57:39.418601+00:00"
+    },
     {
       "id": "21d727ef185c0bf48f9b20e4ba24b065",
       "url": "https://www.biorxiv.org/content/10.64898/2026.03.01.708786v1?rss=1",
@@ -291,46 +323,6 @@
       "updated_at": "2026-03-03T18:40:42.644469+00:00",
       "metadata": {
         "processed_at": "2026-03-03T18:40:42.644480+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "30c62259d3f0fa60ef1bd8a2c9fc9762",
-      "url": "https://embc.embs.org/2026/#new_tab",
-      "title": "Join the Mailing List",
-      "content": "<p>The post <a href=\"https://embc.embs.org/2026/#new_tab\">Join the Mailing List</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "dziura",
-      "published_date": "2025-12-10T16:41:05+00:00",
-      "source": "Embs",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-03T18:06:54.354082+00:00",
-      "updated_at": "2026-03-03T18:40:42.644484+00:00",
-      "metadata": {
-        "processed_at": "2026-03-03T18:40:42.644486+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "462d809fc097cbd2a6515bc023757c9f",
-      "url": "https://app.smartsheet.com/b/form/0199e95f16727ef99ec5b9ea73e78ab6#new_tab",
-      "title": "Apply for the 2026 One Mind Accelerator Emerging Innovator Observership",
-      "content": "<p>The post <a href=\"https://app.smartsheet.com/b/form/0199e95f16727ef99ec5b9ea73e78ab6#new_tab\">Apply for the 2026 One Mind Accelerator Emerging Innovator Observership</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "dziura",
-      "published_date": "2025-12-10T16:49:24+00:00",
-      "source": "Embs",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 19,
-      "reading_time": 1,
-      "created_at": "2026-03-03T18:06:54.354063+00:00",
-      "updated_at": "2026-03-03T18:40:42.644488+00:00",
-      "metadata": {
-        "processed_at": "2026-03-03T18:40:42.644490+00:00",
         "processing_method": "github_actions"
       }
     }
