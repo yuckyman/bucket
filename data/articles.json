@@ -1,5 +1,21 @@
 [
   {
+    "id": "4549e551ec66824d4985b138f4d28f88",
+    "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1755548",
+    "title": "Extracellular stimulation and ephaptic coupling of neurons in a fully coupled finite element-based Extracellular\u2014Membrane\u2014Intracellular (EMI) model",
+    "content": "IntroductionThe extracellular potential surrounding neurons is of great importance: it is measured to interpret neural activity, it underpins ephaptic coupling between neighboring cells, and it forms the basis for external stimulation of neural tissue. These phenomena have been studied for decades, both experimentally and computationally. In computational models, variants of the classical cable equation for membrane dynamics and an electrostatic equation for the extracellular field are the most common approaches. Such formulations however, typically decouple the governing equations and therefore neglect the bidirectional coupling between the extracellular (E) space, the cell membrane (M), and the intracellular (I) space.MethodsWe use a finite element-based Extracellular-Membrane-Intracellular (EMI) approach that solves a fully coupled system to study extracellular stimulation and ephaptic coupling in detailed models of cerebellar Purkinje neurons and neocortical layer 5 pyramidal neurons. We vary the distance to the stimulation source, the amplitude, and the frequency of an external current, and we simulate two-cell configurations to assess ephaptic spike-timing effects, synchronization, and the possibility of direct ephaptic action potential triggering.ResultsWe find that weak sinusoidal stimulation induces subthreshold membrane oscillations that follow the stimulus frequency, and that constant or sinusoidal extracellular stimulation modulate spike rates and spike timing in a manner that depends on stimulation strength and distance. In two-cell simulations, we find that Purkinje neurons synchronize ephaptically in a distance-and extracellular-conductivity-dependent manner, and that pyramidal neuron spike timing is altered by a neighboring firing cell. Direct ephaptic triggering requires markedly reduced extracellular conductivity relative to bulk values.DiscussionThe results provide quantitative insight into extracellular field-mediated neural coupling and how externally applied fields, such as those used in deep brain stimulation, interact with single-neuron biophysics. The results support the view that ephaptic interactions between neurons are more plausibly expressed as spike-timing modulation and synchronization than as direct excitatory triggering under physiological conditions.",
+    "author": "Aslak Tveito",
+    "published_date": "2026-02-12T00:00:00+00:00",
+    "source": "Frontiers Computational Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 298,
+    "reading_time": 1,
+    "created_at": "2026-03-03T23:56:36.306020+00:00",
+    "updated_at": "2026-03-03T23:56:36.306021+00:00"
+  },
+  {
     "id": "683e3c77f8d5e6504c9f22435d65ae82",
     "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.708940v1?rss=1",
     "title": "Connectome lateralization in autism across the first 14 years: heterogeneity related to developmental stage, hemisphere, and pathophysiology",
@@ -17134,21 +17150,5 @@
     "reading_time": 1,
     "created_at": "2026-02-27T05:36:45.850458+00:00",
     "updated_at": "2026-02-27T05:36:45.850463+00:00"
-  },
-  {
-    "id": "7c4480ab85db1a081b9fd1faa336d6f7",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.02.25.708006v1?rss=1",
-    "title": "Multimodal Dynamics of Mental Fatigue and Their Selective Modulation by Acute Exercise: Effects on Memory and Creativity",
-    "content": "Mental fatigue (MF) arises from sustained cognitive load and produces a multisystem signature spanning subjective experience, task performance, cortical oscillations, and oculomotor dynamics. It may alter higher-order cognitive functions essential to everyday life, underscoring the need for preventive strategies. Although moderate aerobic exercise (EXO) facilitates recovery from MF, its influence on the onset and expression of MF when performed beforehand remains unexplored. This study provided a multimodal characterization of MF, assessed its impact on associative memory and divergent creativity, and examined whether prior EXO modulated these outcomes. Twenty-nine participants completed either 15 min of EXO or rest before a 35-min MF-inducing Time Load Dual Back task. Subjective fatigue and effort, performance, EEG activity, and eye-blink rate were continuously recorded; associative memory and divergent creativity were assessed pre-intervention and post-MF. Both groups showed progressive increases in MF and effort from 7 min onward, stable performance, and a rise in parieto-central alpha power at 18 min. The EXO group exhibited higher frontal-medial theta power and stable blink rates, whereas blink rate in REST increased at 21 min. EXO did not prevent subjective MF nor influence behavioral stability but modulated neurophysiological markers potentially related to compensatory control and dopaminergic regulation. Associative memory remained preserved in both groups, whereas creative flexibility increased in REST but not EXO, suggesting MF-related disinhibition in the former and preserved inhibitory control in the latter. These findings refine temporal and multimodal profile of MF and highlight the need to optimize exercise parameters and task demands to enhance preventive efficacy and guide interventions.",
-    "author": "Gelebart, J., Digonet, G., Jacquet, T., Ruffino, C., Debarnot, U.",
-    "published_date": "2026-02-26T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 253,
-    "reading_time": 1,
-    "created_at": "2026-02-27T05:36:37.231646+00:00",
-    "updated_at": "2026-02-27T05:36:37.231648+00:00"
   }
 ]
