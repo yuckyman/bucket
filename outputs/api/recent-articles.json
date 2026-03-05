@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-03-05T13:04:55.219084+00:00",
+  "last_updated": "2026-03-05T14:14:08.637731+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "e6d804e4318b8d02665d2257de103540",
+      "url": "https://www.reddit.com/r/Python/comments/1rlho78/i_built_a_precommit_linter_that_catches/",
+      "title": "I built a pre-commit linter that catches AI-generated code patterns",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p><strong>grain</strong> is a pre-commit linter that catches code patterns commonly produced by AI code generators. It runs before your commit and flags things like:</p> <ul> <li><strong>NAKED_EXCEPT</strong> -- bare <code>except: pass</code> that silently swallows errors (156 instances in my own codebase)</li> <li><strong>HEDGE_WORD</strong> -- docstrings full of &quot;robust&quot;, &quot;comprehensive&quot;, &quot;seamlessly&quot;</li> <li><strong>ECHO_COMMENT</strong> -- comments that restate what the code already says</li> <li><strong>DOCSTRING_ECHO</strong> -- docstrings that expand the function name into a sentence and add nothing</li> </ul> <p>I ran it on my own AI-assisted codebase and found 184 violations across 72 files. The dominant pattern was exception handlers that caught hardware failures, logged them, and moved on -- meaning the runtime had no idea sensors stopped working.</p> <h1>Target Audience</h1> <p>Anyone using AI code generation (Copilot, Claude, ChatGPT, etc.) in Python projects and wants to catch the quality patterns that slip through existing linters. This is not a toy -- I built it because I needed it for a production hardware abstraction layer where autonomous agents are regular contributors.</p> <h1>Comparison</h1> <p>Existing linters (pylint, ruff, flake8) catch syntax, style, and type issues. They don't catch AI-specific patterns like docstring padding, hedge words, or the tendency of AI generators to wrap everything in try/except and swallow the error. grain fills that gap. It's complementary to your existing linter, not a replacement.</p> <h1>Install</h1> <pre><code>pip install grain-lint </code></pre> <p>Pre-commit compatible. Configurable via <code>.grain.toml</code>. Python only (for now).</p> <p><strong>Source:</strong> <a href=\"https://github.com/mmartoccia/grain\">github.com/mmartoccia/grain</a></p> <p>Happy to answer questions about the rules, false positive rates, or how it compares to semgrep custom rules.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mmartoccia\"> /u/mmartoccia </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rlho78/i_built_a_precommit_linter_that_catches/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rlho78/i_built_a_precommit_linter_that_catches/\">[comments]</a></span>",
+      "author": "/u/mmartoccia",
+      "published_date": "2026-03-05T13:30:24+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 274,
+      "reading_time": 1,
+      "created_at": "2026-03-05T14:12:31.912594+00:00",
+      "updated_at": "2026-03-05T14:12:31.912596+00:00"
+    },
+    {
+      "id": "f69e8d9ca9bcaad63eea34fa7eee29c5",
+      "url": "https://www.esa.int/Applications/Connectivity_and_Secure_Communications/World-first_gigabit-per-second_laser_link_between_aircraft_and_geostationary_satellite",
+      "title": "World-first gigabit laser link between aircraft and geostationary satellite",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47208341\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-01T16:49:46+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-05T14:12:30.557717+00:00",
+      "updated_at": "2026-03-05T14:12:30.557719+00:00"
+    },
     {
       "id": "33d3d8b2b399085bd2366fd605eeb339",
       "url": "http://ieeexplore.ieee.org/document/11162721",
@@ -291,46 +323,6 @@
       "updated_at": "2026-03-05T12:46:50.200589+00:00",
       "metadata": {
         "processed_at": "2026-03-05T12:46:50.200601+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9eb7d43b00408e3d603489fd44574958",
-      "url": "http://ieeexplore.ieee.org/document/11319164",
-      "title": "Assistive Trajectory Planning for Lower Limb Exoskeletons: Strategies From Laboratory-Optimized Gait to Environmentally-Adaptive Locomotion Through Multimodal Parameter Awareness",
-      "content": "Lower limb assistive exoskeletons (LLEs) show great potential to reduce metabolic cost, improve walking performance, and correct abnormal gait patterns. Among their core control architectures, assistive trajectory planning is key to determining system responsiveness and effectiveness under varying locomotion conditions. Many trajectory planning methods were proposed in either laboratory or unstructured real-world environments. To clarify the scope and challenges of existing research, this review categorizes trajectory planning strategies into two major types based on application scenarios: (1) strategies for laboratory settings with controllable disturbances, which usually involve optimal control for gait under stable or controllable conditions; and (2) strategies for real-world environments characterized by varying terrain, individual differences, and gait fluctuations, which usually involve adaptive control for gait under diverse or unstructured conditions. Given the foundational role of gait phase detection in trajectory planning, this review also systematically examines mainstream algorithms for gait phase recognition and estimation. Finally, the paper analyzes the limitations of existing methods and discusses the potential of advanced algorithms, intelligent multimodal sensing systems, novel sensing technologies, and embedded deployment to enhance the performance of exoskeleton assistive trajectory planning.",
-      "author": "",
-      "published_date": "2025-12-30T13:16:56+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 182,
-      "reading_time": 1,
-      "created_at": "2026-03-05T11:35:45.017864+00:00",
-      "updated_at": "2026-03-05T12:46:50.200605+00:00",
-      "metadata": {
-        "processed_at": "2026-03-05T12:46:50.200607+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d5dd4ffde98f7d890195f4f63011854b",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709182v1?rss=1",
-      "title": "Study the dynamics of behavioral and biochemical parameters in the PARK2-knock-out mice model of Parkinson's disease",
-      "content": "Background Parkinson's disease (PD) is a progressive chronic neurodegenerative disease. The PARK2 gene encoding the Parkin protein accounts for approximately half of early-onset autosomal recessive PD cases in humans. Objective The aim of this work was to study the effect of the PARK2 gene knockout in mice on the dynamics of behavioral and biochemical parameters of PD. Methods The study was performed on C57BL/6-line mice aged from 4 months to 1.5 years: wild type (park2 +/+), heterozygotes (park2 +/-) and homozygotes (park2 -/-) knocked out by the PARK2 using CRISPR-Cas9. The open field test, the Porsolt forced swimming test, the grid-walk test, the beam-walking test, the elevated plus maze test, the accelerating rotarod test were used to assess the behavioral phenotype. Measurement of the concentration of bioamines and their metabolites by HPLC and evaluation of the amount of tyrosine hydroxylase, BDNF and GDNF by Western Blot were used to study the biochemical signs of PD. Results Park2 -/- mice begin to show signs of decreased motor activity no earlier than at 4 months of life. At 12 months of life, it was shown only a decrease in the level of the mature isoform of GDNF and an increase in the number of immature isoforms in the frontal cortex and striatum were revealed. Conclusion The data obtained indicates a different age dynamic of the condition of mice associated with the PARK2 knockout. However, no pronounced specific manifestations of PD in human were found in park2 -/- mice.",
-      "author": "Emelianova, E., Averina, O., Permyakov, O. A., Priymak, A. V., Emelianova, M. A., O. Grigoryeva, O. O., Garmash, S. A., Sergiev, P. V., Frolova, O. U., Kianitsa, K. E., Savitskiy, V. S., Lovat, M. L.",
-      "published_date": "2026-03-05T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 246,
-      "reading_time": 1,
-      "created_at": "2026-03-05T11:35:31.488291+00:00",
-      "updated_at": "2026-03-05T12:46:50.200610+00:00",
-      "metadata": {
-        "processed_at": "2026-03-05T12:46:50.200611+00:00",
         "processing_method": "github_actions"
       }
     }
