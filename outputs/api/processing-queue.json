@@ -1,8 +1,72 @@
 {
-  "last_updated": "2026-03-06T18:37:04.054768+00:00",
-  "pending_count": 763,
-  "processed_count": 237,
+  "last_updated": "2026-03-06T20:26:58.318608+00:00",
+  "pending_count": 756,
+  "processed_count": 244,
   "pending_articles": [
+    {
+      "id": "effb9e93f42426c5f32fec352ee4ec74",
+      "url": "https://github.com/es617/claude-replay",
+      "title": "Show HN: Claude-replay \u2013 A video-like player for Claude Code sessions",
+      "content": "<p>I got tired of sharing AI demos with terminal screenshots or screen recordings.<p>Claude Code already stores full session transcripts locally as JSONL files. Those logs contain everything: prompts, tool calls, thinking blocks, and timestamps.<p>I built a small CLI tool that converts those logs into an interactive HTML replay.<p>You can step through the session, jump through the timeline, expand tool calls, and inspect the full conversation.<p>The output is a single self-contained HTML file \u2014 no dependencies. You can email it, host it anywhere, embed it in a blog post, and it works on mobile.<p>Repo: <a href=\"https://github.com/es617/claude-replay\" rel=\"nofollow\">https://github.com/es617/claude-replay</a><p>Example replay: <a href=\"https://es617.github.io/assets/demos/peripheral-uart-demo.html\" rel=\"nofollow\">https://es617.github.io/assets/demos/peripheral-uart-demo.ht...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47276604\">https://news.ycombinator.com/item?id=47276604</a></p>\n<p>Points: 16</p>\n<p># Comments: 10</p>",
+      "author": "es617",
+      "published_date": "2026-03-06T15:57:27+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 111,
+      "reading_time": 1,
+      "created_at": "2026-03-06T18:49:13.431615+00:00",
+      "updated_at": "2026-03-06T18:49:13.431617+00:00"
+    },
+    {
+      "id": "d32b81375b5ec7c43f1321e122b67e6f",
+      "url": "https://twitter.com/JosephPolitano/status/2029916364664611242",
+      "title": "Tech employment now significantly worse than the 2008 or 2020 recessions",
+      "content": "<p>Article URL: <a href=\"https://twitter.com/JosephPolitano/status/2029916364664611242\">https://twitter.com/JosephPolitano/status/2029916364664611242</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47278426\">https://news.ycombinator.com/item?id=47278426</a></p>\n<p>Points: 52</p>\n<p># Comments: 26</p>",
+      "author": "enraged_camel",
+      "published_date": "2026-03-06T17:46:45+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-06T18:49:13.431521+00:00",
+      "updated_at": "2026-03-06T18:49:13.431523+00:00"
+    },
+    {
+      "id": "c6210043bbcec17c40c6db1292816674",
+      "url": "https://twitter.com/Al_Grigor/status/2029889772181934425",
+      "title": "Claude Code wiped our production database with a Terraform command",
+      "content": "<p>Article URL: <a href=\"https://twitter.com/Al_Grigor/status/2029889772181934425\">https://twitter.com/Al_Grigor/status/2029889772181934425</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47278720\">https://news.ycombinator.com/item?id=47278720</a></p>\n<p>Points: 26</p>\n<p># Comments: 10</p>",
+      "author": "jv22222",
+      "published_date": "2026-03-06T18:07:52+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-06T18:49:13.431501+00:00",
+      "updated_at": "2026-03-06T18:49:13.431503+00:00"
+    },
+    {
+      "id": "48b1525e3012c01deeeba3d1917a5aab",
+      "url": "https://www.osnews.com/story/144527/never-bet-against-x86/",
+      "title": "Never Bet Against x86",
+      "content": "<p>Article URL: <a href=\"https://www.osnews.com/story/144527/never-bet-against-x86/\">https://www.osnews.com/story/144527/never-bet-against-x86/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47278836\">https://news.ycombinator.com/item?id=47278836</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
+      "author": "raphinou",
+      "published_date": "2026-03-06T18:17:14+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-06T18:49:13.431462+00:00",
+      "updated_at": "2026-03-06T18:49:13.431464+00:00"
+    },
     {
       "id": "ed098d477392e4bbd8f6aa0841d96c3c",
       "url": "https://github.com/ppp-one/astra",
@@ -98,73 +162,149 @@
       "reading_time": 1,
       "created_at": "2026-03-06T16:43:07.980089+00:00",
       "updated_at": "2026-03-06T16:43:07.980091+00:00"
-    },
+    }
+  ],
+  "recently_processed": [
     {
-      "id": "1df44c30fd8a4bd65a5ef7bf2e7d398a",
-      "url": "https://www.reddit.com/r/Python/comments/1rmhvvr/what_is_the_real_use_case_for_jupyter/",
-      "title": "What is the real use case for Jupyter?",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently started taking python for data science course on coursera. </p> <p>first lesson is on Jupyter. </p> <p>As I understand, it is some kind of IDE which can execute python code. I know there is more to it, thats why it exists. </p> <p>What is the actual use case for Jupyter. If there was no Jupyter, which task would have been either not possible or hard to do?</p> <p>Does it have its own interpreter or does it use the one I have on my laptop when I installed python?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Technical-Fly-6835\"> /u/Technical-Fly-6835 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rmhvvr/what_is_the_real_use_case_for_jupyter/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rmhvvr/what_is_the_real_use_case_for_jupyter/\">[comments]</a></span>",
-      "author": "/u/Technical-Fly-6835",
-      "published_date": "2026-03-06T16:01:01+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
+      "id": "d26ad2aa86dcc2d70a1fe979a274d721",
+      "url": "https://www.nature.com/articles/s41598-026-43377-z",
+      "title": "Single-cell and multi-omics analysis identifies mitophagy-related biomarkers and therapeutic targets in ischemic stroke",
+      "content": "",
+      "author": "",
+      "published_date": "2026-03-06T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 111,
+      "word_count": 0,
       "reading_time": 1,
-      "created_at": "2026-03-06T16:42:44.906801+00:00",
-      "updated_at": "2026-03-06T16:42:44.906806+00:00"
+      "created_at": "2026-03-06T19:35:38.736911+00:00",
+      "updated_at": "2026-03-06T20:26:58.199143+00:00",
+      "metadata": {
+        "processed_at": "2026-03-06T20:26:58.199154+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "899f888ab397b2680a8fb445c7a8d036",
-      "url": "https://www.permissionprotocol.com/blog/cursor-is-dead.html",
-      "title": "Cursor Is Dead \u2013 How a $29B company became obsolete in under three years",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47277134\">Comments</a>",
+      "id": "d2cbf14d3d2b16b30d8d13d509e3e3dd",
+      "url": "https://www.reddit.com/r/Python/comments/1rmloxc/can_the_mods_do_something_about_all_these/",
+      "title": "Can the mods do something about all these vibecoded slop projects?",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Seriously it seems every post I see is this new project that is nothing but buzzwords and can't justify its existence. There was one person showing a project where they apparently solved a previously unresolved cypher by the Zodiac killer. \ud83d\ude2d</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Soy_Colosio\"> /u/No_Soy_Colosio </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rmloxc/can_the_mods_do_something_about_all_these/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rmloxc/can_the_mods_do_something_about_all_these/\">[comments]</a></span>",
+      "author": "/u/No_Soy_Colosio",
+      "published_date": "2026-03-06T18:19:02+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 62,
+      "reading_time": 1,
+      "created_at": "2026-03-06T19:35:03.323235+00:00",
+      "updated_at": "2026-03-06T20:26:58.199158+00:00",
+      "metadata": {
+        "processed_at": "2026-03-06T20:26:58.199160+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a8016b42d24206b581ae40d63e7efa72",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001272?dgcid=rss_sd_all",
+      "title": "Are we truly accounting for sex differences in experimental neuroscience?",
+      "content": "<p>Publication date: 16 April 2026</p><p><b>Source:</b> Neuroscience, Volume 600</p><p>Author(s): Rita Sangtani</p>",
       "author": "",
-      "published_date": "2026-03-06T16:30:53+00:00",
+      "published_date": null,
+      "source": "Neuroscience Journal",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 10,
+      "reading_time": 1,
+      "created_at": "2026-03-06T18:49:54.728244+00:00",
+      "updated_at": "2026-03-06T20:26:58.199162+00:00",
+      "metadata": {
+        "processed_at": "2026-03-06T20:26:58.199163+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "36b51b3156d9835cabb8249722b96d58",
+      "url": "https://blog.adafruit.com/2026/03/04/pagemaker-and-aldus-founder-pioneer-paul-brainerd-1947-2026/",
+      "title": "Paul Brainerd, Founder of Aldus PageMaker, has died",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47276220\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-06T15:33:17+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-06T16:42:43.660295+00:00",
-      "updated_at": "2026-03-06T16:42:43.660297+00:00"
+      "created_at": "2026-03-06T18:49:14.861302+00:00",
+      "updated_at": "2026-03-06T20:26:58.199166+00:00",
+      "metadata": {
+        "processed_at": "2026-03-06T20:26:58.199167+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "9bd9d361a29f9aed5beec37accf6757b",
-      "url": "https://community.torproject.org/relay/community-resources/good-bad-isps/",
-      "title": "Good Bad ISPs",
-      "content": "<p>Article URL: <a href=\"https://community.torproject.org/relay/community-resources/good-bad-isps/\">https://community.torproject.org/relay/community-resources/good-bad-isps/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47275230\">https://news.ycombinator.com/item?id=47275230</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
-      "author": "rzk",
-      "published_date": "2026-03-06T14:22:25+00:00",
+      "id": "c117e784c04fc8b58b728e6051672413",
+      "url": "https://news.ycombinator.com/item?id=47278980",
+      "title": "Launch HN: Palus Finance (YC W26): Better yields on idle cash for startups, SMBs",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47278980\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-06T18:26:21+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-06T16:42:42.410670+00:00",
-      "updated_at": "2026-03-06T16:42:42.410672+00:00"
+      "created_at": "2026-03-06T18:49:14.861260+00:00",
+      "updated_at": "2026-03-06T20:26:58.199169+00:00",
+      "metadata": {
+        "processed_at": "2026-03-06T20:26:58.199171+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "de7665266f0b7095553cff1a3c6e3496",
-      "url": "https://www.reddit.com/r/Python/comments/1rmef76/dapper_a_pythonnative_debug_adapter_protocol/",
-      "title": "Dapper: a Python-native Debug Adapter Protocol implementation",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p>I\u2019ve been building Dapper, a Python implementation of the Debug Adapter Protocol.</p> <p>At the basic level, it does the things you\u2019d expect from a debugger backend: breakpoints, stepping, stack inspection, variable inspection, expression evaluation, and editor integration.</p> <p>Where it gets more interesting is that I\u2019ve been using it as a place to explore some more ambitious debugger features in Python, including:</p> <ul> <li>hot reload while paused</li> <li>asyncio task inspection and async-aware stepping</li> <li>watchpoints and richer variable presentation</li> <li>multiple runtime / transport modes</li> <li>agent-facing debugger tooling in VS Code, so an assistant can launch code, inspect paused state, evaluate expressions, manage breakpoints, and step execution through structured tools instead of just pretending to be a user in a terminal</li> </ul> <p>Repo:<br /> [<a href=\"https://github.com/jnsquire/dapper%5D(vscode-file://vscode-app/c:/Users/joel/AppData/Local/Programs/Microsoft%20VS%20Code/0870c2a0c7/resources/app/out/vs/code/electron-browser/workbench/workbench.html)\">https://github.com/jnsquire/dapper](vscode-file://vscode-app/c:/Users/joel/AppData/Local/Programs/Microsoft%20VS%20Code/0870c2a0c7/resources/app/out/vs/code/electron-browser/workbench/workbench.html)</a></p> <p>Docs:<br /> [<a href=\"https://jnsquire.github.io/dapper/%5D(vscode-file://vscode-app/c:/Users/joel/AppData/Local/Programs/Microsoft%20VS%20Code/0870c2a0c7/resources/app/out/vs/code/electron-browser/workbench/workbench.html)\">https://jnsquire.github.io/dapper/](vscode-file://vscode-app/c:/Users/joel/AppData/Local/Programs/Microsoft%20VS%20Code/0870c2a0c7/resources/app/out/vs/code/electron-browser/workbench/workbench.html)</a></p> <h1>Target Audience</h1> <p>This is probably most interesting to:</p> <ul> <li>people who work on Python tooling or debuggers</li> <li>people interested in DAP adapters or VS Code integration</li> <li>people who care about async debugging, hot reload, or runtime introspection</li> <li>people experimenting with agent-assisted development and want a debugger that can be driven through actual tool calls</li> </ul> <p>I wouldn\u2019t describe it as a toy project. It already implements a fairly large chunk of debugger functionality. But I also wouldn\u2019t pitch it as \u201ceveryone should switch to this tomorrow.\u201d It\u2019s a serious project, but still an evolving one.</p> <h1>Comparison</h1> <p>The most obvious comparison is debugpy.</p> <p>The difference is mostly in what I\u2019m trying to optimize for.</p> <p>Dapper is not just meant to be a standard Python debugger. It\u2019s also a place to explore debugger design ideas that are a bit more experimental or Python-specific, like:</p> <ul> <li>hot reload during a paused session</li> <li>asyncio-aware inspection and stepping</li> <li>structured agent-facing debugger operations</li> <li>alternative runtime strategies around frame-eval and newer CPython hooks</li> </ul> <p>So the pitch is less \u201cthis replaces debugpy right now\u201d and more \u201cthis is an alternative Python debugger architecture with some interesting features and directions.\u201d</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jnsquire\"> /u/jnsquire </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rmef76/dapper_a_pythonnative_debug_adapter_protocol/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rmef76/dapper_a_pythonnative_debug_adapter_protocol/\">[comments]</a></span>",
-      "author": "/u/jnsquire",
-      "published_date": "2026-03-06T13:47:20+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
+      "id": "36b51b3156d9835cabb8249722b96d58",
+      "url": "https://blog.adafruit.com/2026/03/04/pagemaker-and-aldus-founder-pioneer-paul-brainerd-1947-2026/",
+      "title": "Paul Brainerd, Founder of Aldus PageMaker, has died",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47276220\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-06T15:33:17+00:00",
+      "source": "Hacker News",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 344,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-06T15:38:38.627667+00:00",
-      "updated_at": "2026-03-06T15:38:38.627669+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-03-06T18:49:14.861302+00:00",
+      "updated_at": "2026-03-06T20:26:58.199166+00:00",
+      "metadata": {
+        "processed_at": "2026-03-06T20:26:58.199167+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c117e784c04fc8b58b728e6051672413",
+      "url": "https://news.ycombinator.com/item?id=47278980",
+      "title": "Launch HN: Palus Finance (YC W26): Better yields on idle cash for startups, SMBs",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47278980\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-06T18:26:21+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-06T18:49:14.861260+00:00",
+      "updated_at": "2026-03-06T20:26:58.199169+00:00",
+      "metadata": {
+        "processed_at": "2026-03-06T20:26:58.199171+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "11e223ab0dff7ca4c6da133692b51010",
       "url": "https://www.nature.com/articles/s41593-026-02249-5",
@@ -222,146 +362,6 @@
       "updated_at": "2026-03-06T18:37:03.941021+00:00",
       "metadata": {
         "processed_at": "2026-03-06T18:37:03.941022+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fa6fadb4a5df13cd578689b3441938a0",
-      "url": "https://opencamera.org.uk/",
-      "title": "Open Camera is a FOSS Camera App for Android",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47219462\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-02T15:46:51+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-06T17:36:20.219794+00:00",
-      "updated_at": "2026-03-06T18:37:03.941024+00:00",
-      "metadata": {
-        "processed_at": "2026-03-06T18:37:03.941026+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3fed519cd42323c0f74eb9f4778e79ab",
-      "url": "https://spectrum.ieee.org/3d-scanning-particle-accelerator-antscan",
-      "title": "Entomologists Use a Particle Accelerator to Image Ants at Scale",
-      "content": "<p>Article URL: <a href=\"https://spectrum.ieee.org/3d-scanning-particle-accelerator-antscan\">https://spectrum.ieee.org/3d-scanning-particle-accelerator-antscan</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47276539\">https://news.ycombinator.com/item?id=47276539</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
-      "author": "gmays",
-      "published_date": "2026-03-06T15:53:32+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-06T17:36:18.934267+00:00",
-      "updated_at": "2026-03-06T18:37:03.941028+00:00",
-      "metadata": {
-        "processed_at": "2026-03-06T18:37:03.941030+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6985719c8b3f15b7d9d26f42e001821f",
-      "url": "https://www.ycombinator.com/companies/multifactor/jobs/lcpd60A-engineering-lead",
-      "title": "Multifactor (YC F25) Is Hiring an Engineering Lead",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47277679\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-06T17:00:38+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-06T17:36:20.219873+00:00",
-      "updated_at": "2026-03-06T18:37:03.941021+00:00",
-      "metadata": {
-        "processed_at": "2026-03-06T18:37:03.941022+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2eb57dbdbc858b57282cfad12fa8d826",
-      "url": "https://brain.ieee.org/braininsight-articles/ieee-brain-workshop-on-ai-for-neurotechnology/",
-      "title": "IEEE Brain Workshop on AI for Neurotechnology",
-      "content": "The IEEE Brain Workshop on AI for Neurotechnology was held on June 30, 2024, at the Pacifico Yokohama Conference Center in Japan. This event was part of the World Congress on Computational Intelligence (WCCI 2024) and was conducted in association with the International Joint Conference on Neural Networks (IJCNN). The workshop focused on the application of artificial intelligence to neurotechnology, ...",
-      "author": "ieeebrain",
-      "published_date": "2025-03-03T17:05:59+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 61,
-      "reading_time": 1,
-      "created_at": "2026-03-06T15:39:35.160738+00:00",
-      "updated_at": "2026-03-06T16:38:48.937011+00:00",
-      "metadata": {
-        "processed_at": "2026-03-06T16:38:48.937023+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0e563a5a8438558ea0b5f35a62075c34",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.05.709962v1?rss=1",
-      "title": "Orbitofrontal circuits for context-gated reward predictions",
-      "content": "The orbitofrontal cortex (OFC) is essential for the contextual regulation of reward predictions, yet the circuit mechanisms underlying this function remain unclear. Here, we dissected the roles of two major OFC efferent pathways --projections to the central dorsal striatum (CDS) and the mediodorsal thalamus (MDT)-- in contextual regulation. Male and female rats performed a context-dependent discrimination task in which the reward-predictive status of two auditory target cues (X and Y) was determined by a visual contextual cue (A). Using temporally precise optogenetic inhibition of OFC terminals, we found that silencing OFC[-&gt;]CDS profoundly disrupted contextual gating, virtually abolishing the negatively gated component (A:Y- / Y+) while producing modest effects on the positively gated component (A:X+ / X+). In contrast, OFC[-&gt;]MDT inhibition produced modest and qualitatively distinct effects, characterized by a generalized increase in responding in context A and a decrease in context noA. These effects were reproduced in a connectionist model in which context influenced predictions either additively (via elemental representations) or by acting as a gatekeeper (via configural cue/context representations). Disrupting the configural pathway mimicked OFC[-&gt;]CDS silencing, whereas amplifying additive contextual inputs replicated OFC[-&gt;]MDT inhibition. Together, these findings reveal complementary circuit mechanisms through which the OFC shapes context-appropriate reward seeking.",
-      "author": "Peterson, S., Le, M., Dundon, N., Keiflin, R.",
-      "published_date": "2026-03-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 200,
-      "reading_time": 1,
-      "created_at": "2026-03-06T15:39:13.512284+00:00",
-      "updated_at": "2026-03-06T16:38:48.937028+00:00",
-      "metadata": {
-        "processed_at": "2026-03-06T16:38:48.937030+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e4fab3e2bf72c7afb6929c1637885dc5",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.05.709685v1?rss=1",
-      "title": "Subthreshold membrane depolarization powerfully engages intracellular calcium dynamics in the brain",
-      "content": "Membrane voltage (Vm) regulates spike timing and intracellular signaling. While Vm is extensively modulated by behavior, it is unclear how subthreshold Vm dynamics engage intracellular signaling in the awake mammalian brain. We developed a bicistronic viral vector to express genetically encoded and color compatible voltage and calcium (Ca2+) indicators in the same neuron, and simultaneously recorded cellular Vm and Ca2+ dynamics in awake mice. We report that prolonged subthreshold Vm depolarization is closely accompanied by prominent large amplitude Ca2+ elevation, whereas isolated spikes are coupled with weak Ca2+ rise. Additionally, individual spikes differentially engage intracellular Ca2+ dynamics depending on post-spiking Vm depolarization, consistent with a prominent role of slow Vm depolarization in regulating cellular signaling. While brief intracranial electrical stimulation consistently leads to Vm depolarization and Ca2+ increase, longer stimulation disrupts Vm and Ca2+ coupling, highlighting a tightly regulated cellular mechanism that relays slow Vm depolarization to intracellular signaling.",
-      "author": "Wang, Y., Tseng, H.-a., Xiao, S., Bortz, E., Zhou, Y., Martin, A., Man, H., Schwamborn, J. C., Mertz, J., Han, X.",
-      "published_date": "2026-03-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 149,
-      "reading_time": 1,
-      "created_at": "2026-03-06T15:39:13.512236+00:00",
-      "updated_at": "2026-03-06T16:38:48.937032+00:00",
-      "metadata": {
-        "processed_at": "2026-03-06T16:38:48.937034+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d5c8a253483a2cbff0d5cbb5f53dd188",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2026.1727506",
-      "title": "Relearning the epistemology, history, and future of neuropsychiatry",
-      "content": "Neuropsychiatry is a transdisciplinary field at the intersection of neuroscience, psychiatry, neurology, and humanities. Despite this strategic position, a comprehensive framework is still needed to bridge these domains. This review examines the historical evolution of how neurological, mental, and neuropsychiatric symptoms have been conceptualized, from antiquity to contemporary models, using the brain\u2013body dilemma as a guiding thread. This historical analysis provides the epistemological and ontological foundations of neuropsychiatry, which are then connected with current definitions to critically assess the field's persistent tensions. Building on this foundation, a renewed paradigm is proposed where a crosstalk between them is enabled, grounded in deep phenotyping, dimensional research frameworks [e.g., Research Domain Criteria (RDoC), Hierarchical Taxonomy of Psychopathology (HiTOP)], and integrative models linking biological, psychometric, social data, and subjective experience. Special attention is given to a \u201csubjectomic\u201d layer that aims to systematically incorporate lived experience. Finally, reforms in education, clinical practice, and research are advocated to foster this conceptual reorientation, aiming at interdisciplinary collaboration and advancing patient care.",
-      "author": "Hernando Santamar\u00eda-Garc\u00eda",
-      "published_date": "2026-03-02T00:00:00+00:00",
-      "source": "Frontiers Human Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 164,
-      "reading_time": 1,
-      "created_at": "2026-03-06T15:39:03.868930+00:00",
-      "updated_at": "2026-03-06T16:38:48.937036+00:00",
-      "metadata": {
-        "processed_at": "2026-03-06T16:38:48.937038+00:00",
         "processing_method": "github_actions"
       }
     }
