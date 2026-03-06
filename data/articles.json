@@ -1,5 +1,37 @@
 [
   {
+    "id": "d26ad2aa86dcc2d70a1fe979a274d721",
+    "url": "https://www.nature.com/articles/s41598-026-43377-z",
+    "title": "Single-cell and multi-omics analysis identifies mitophagy-related biomarkers and therapeutic targets in ischemic stroke",
+    "content": "",
+    "author": "",
+    "published_date": "2026-03-06T00:00:00+00:00",
+    "source": "Nature Neuroscience Subjects",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2026-03-06T19:35:38.736911+00:00",
+    "updated_at": "2026-03-06T19:35:38.736912+00:00"
+  },
+  {
+    "id": "d2cbf14d3d2b16b30d8d13d509e3e3dd",
+    "url": "https://www.reddit.com/r/Python/comments/1rmloxc/can_the_mods_do_something_about_all_these/",
+    "title": "Can the mods do something about all these vibecoded slop projects?",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Seriously it seems every post I see is this new project that is nothing but buzzwords and can't justify its existence. There was one person showing a project where they apparently solved a previously unresolved cypher by the Zodiac killer. \ud83d\ude2d</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/No_Soy_Colosio\"> /u/No_Soy_Colosio </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rmloxc/can_the_mods_do_something_about_all_these/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rmloxc/can_the_mods_do_something_about_all_these/\">[comments]</a></span>",
+    "author": "/u/No_Soy_Colosio",
+    "published_date": "2026-03-06T18:19:02+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 62,
+    "reading_time": 1,
+    "created_at": "2026-03-06T19:35:03.323235+00:00",
+    "updated_at": "2026-03-06T19:35:03.323239+00:00"
+  },
+  {
     "id": "a8016b42d24206b581ae40d63e7efa72",
     "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001272?dgcid=rss_sd_all",
     "title": "Are we truly accounting for sex differences in experimental neuroscience?",
@@ -16914,37 +16946,5 @@
     "reading_time": 1,
     "created_at": "2026-03-02T17:12:49.355340+00:00",
     "updated_at": "2026-03-02T17:12:49.355345+00:00"
-  },
-  {
-    "id": "23b2d3ffe0964216a50c5b8ce91a5bfa",
-    "url": "https://www.reddit.com/r/Python/comments/1riwlrn/a_compression_library_that_beats_zstdlzma_on/",
-    "title": "A compression library that beats zstd/lzma on structured data and searches compressed archives",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"/r/Python\">r/Python</a>,</p> <p>I've been working on UMC (Universal Manifold Codec) \u2014 a compression library specifically designed for numeric arrays (time series, sensor data, ML embeddings, scientific data).</p> <p>**Why not just use zstd/lzma?**</p> <p>Standard compressors treat float32 data as opaque bytes. UMC uses float-aware preprocessing (byte transposition, delta coding, exponent/mantissa splitting) before compression, which exploits the structure in numeric data.</p> <p>**Results on 7 real-world datasets:**</p> <p>| Dataset | UMC optimal | Best standard | Improvement |</p> <p>|---------|------------|---------------|-------------|</p> <p>| Monotonic counters | 5.48x | lzma 2.95x | 46% better |</p> <p>| Scientific sim | 1.35x | lzma 1.21x | 10% better |</p> <p>| Financial OHLCV | 2.45x | lzma 2.28x | 7% better |</p> <p>| Random noise | 1.20x | brotli 1.09x | 9% better |</p> <p>**Quick start:**</p> <p>pip install umc</p> <p>import numpy as np, umc</p> <p>data = np.random.randn(1000, 32, 5).astype(np.float32)</p> <p>compressed = umc.compress(data)</p> <p>recovered = umc.decompress(compressed)</p> <p>assert np.array_equal(data, recovered) # bit-exact</p> <p>**Features:**</p> <p>- 11 compression modes (lossless to 9x lossy)</p> <p>- `mode=&quot;optimal&quot;` tries 128 strategies, picks the best, proves how close to Shannon entropy</p> <p>- Float16/bfloat16 native support</p> <p>- VectorForge: Pinecone-compatible vector DB with 53-57% storage savings</p> <p>- CLI: `umc compress`, `umc tryit`, `umc dashboard`</p> <p>- Only dependency: numpy</p> <p>- 405 tests, MIT license</p> <p>GitHub: <a href=\"https://github.com/gunnerhowe/Koba-UMC\">https://github.com/gunnerhowe/Koba-UMC</a></p> <p>Happy to answer any questions about the approach or benchmarks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Next-Is-Gunner\"> /u/Next-Is-Gunner </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1riwlrn/a_compression_library_that_beats_zstdlzma_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1riwlrn/a_compression_library_that_beats_zstdlzma_on/\">[comments]</a></span>",
-    "author": "/u/Next-Is-Gunner",
-    "published_date": "2026-03-02T15:57:27+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 238,
-    "reading_time": 1,
-    "created_at": "2026-03-02T17:12:39.694035+00:00",
-    "updated_at": "2026-03-02T17:12:39.694037+00:00"
-  },
-  {
-    "id": "0c0f92e4b567c8841c9e5f71629ee068",
-    "url": "https://understandlegacycode.com/blog/a-process-to-do-safe-changes-in-a-complex-codebase/",
-    "title": "Use the Mikado Method to do safe changes in a complex codebase",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47167058\">Comments</a>",
-    "author": "",
-    "published_date": "2026-02-26T15:03:34+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-03-02T17:12:38.375760+00:00",
-    "updated_at": "2026-03-02T17:12:38.375762+00:00"
   }
 ]
