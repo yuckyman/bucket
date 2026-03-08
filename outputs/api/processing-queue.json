@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-03-08T01:44:23.273085+00:00",
-  "pending_count": 725,
-  "processed_count": 275,
+  "last_updated": "2026-03-08T04:07:09.825506+00:00",
+  "pending_count": 722,
+  "processed_count": 278,
   "pending_articles": [
+    {
+      "id": "0460a96ea137059ff58ac39332b10ddc",
+      "url": "https://github.com/mistivia/lmp",
+      "title": "Lisp-style C++ template meta programming",
+      "content": "<p>Article URL: <a href=\"https://github.com/mistivia/lmp\">https://github.com/mistivia/lmp</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47292029\">https://news.ycombinator.com/item?id=47292029</a></p>\n<p>Points: 18</p>\n<p># Comments: 0</p>",
+      "author": "mistivia",
+      "published_date": "2026-03-07T22:21:57+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-08T02:11:24.769684+00:00",
+      "updated_at": "2026-03-08T02:11:24.769685+00:00"
+    },
+    {
+      "id": "c7d72b1574ff53af5bce2291a9cae310",
+      "url": "https://mimoo.github.io/ghostmd/",
+      "title": "Ghostmd: Ghostty but for Markdown Notes",
+      "content": "<p>Article URL: <a href=\"https://mimoo.github.io/ghostmd/\">https://mimoo.github.io/ghostmd/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47292841\">https://news.ycombinator.com/item?id=47292841</a></p>\n<p>Points: 21</p>\n<p># Comments: 28</p>",
+      "author": "baby",
+      "published_date": "2026-03-08T00:07:49+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-08T02:11:24.769600+00:00",
+      "updated_at": "2026-03-08T02:11:24.769602+00:00"
+    },
     {
       "id": "9c89dbe8cf6a581e7ed3c601da28dce7",
       "url": "https://www.biorxiv.org/content/10.64898/2026.03.05.709791v1?rss=1",
@@ -130,41 +162,149 @@
       "reading_time": 3,
       "created_at": "2026-03-07T22:49:28.140069+00:00",
       "updated_at": "2026-03-07T22:49:28.140071+00:00"
-    },
+    }
+  ],
+  "recently_processed": [
     {
-      "id": "12e46afd8f911eb8f75a4664a04e6284",
-      "url": "https://tropes.fyi/tropes-md",
-      "title": "LLM Writing Tropes.md",
-      "content": "<p>Article URL: <a href=\"https://tropes.fyi/tropes-md\">https://tropes.fyi/tropes-md</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47291513\">https://news.ycombinator.com/item?id=47291513</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-      "author": "walterbell",
-      "published_date": "2026-03-07T21:08:40+00:00",
-      "source": "Hacker News",
-      "status": "pending",
+      "id": "f5d005603ed6cdf090e3c2dcaf954818",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.04.709667v1?rss=1",
+      "title": "Can grid cells produce hexadirectional signals?",
+      "content": "Hexadirectional analysis is widely used to infer population-level grid cell activity in humans, yet this signature has not been reproduced in rodent electrophysiology, where grid cells are best characterized. Moreover, it remains unclear how grid cell populations could generate such a signal. We address this issue theoretically and empirically by evaluating three prevailing hypotheses and the null model, while critically examining the analysis framework itself. We show that the standard approach is insensitive to grid firing per se. Instead, hexadirectional modulation emerges in firing variance, which we find in ratemaps of single-cell, MEC recordings of freely moving rats. Empirically, conjunctive grid-by-head-direction tuning does not produce hexadirectional signals, whereas specific nonlinear transformations can. We argue that false positive inferences can occur and suggest approaches for improved robustness and confidence. This work has critical implications for studies on hexadirectional signals and sheds light on the neural basis of fMRI.",
+      "author": "Almog, N. Z., Navarro Schroeder, T., Doan, T.",
+      "published_date": "2026-03-07T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 147,
       "reading_time": 1,
-      "created_at": "2026-03-07T22:49:24.304193+00:00",
-      "updated_at": "2026-03-07T22:49:24.304195+00:00"
+      "created_at": "2026-03-08T02:12:02.706155+00:00",
+      "updated_at": "2026-03-08T04:07:09.704822+00:00",
+      "metadata": {
+        "processed_at": "2026-03-08T04:07:09.704832+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "3b56eb404b1e0c70be0a90c06083de27",
-      "url": "https://slashdot.org/submission/17345398/does-apples-m5-max-really-destroy-a-96-core-threadripper",
-      "title": "Does Apple\u2018s M5 Max Really \u201cDestroy\u201d a 96-Core Threadripper?",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47291906\">Comments</a>",
+      "id": "9483df0c5242236d51071c8ec3359eea",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.04.709708v1?rss=1",
+      "title": "Enteric sensory neurons for nutrient detection and gut motility",
+      "content": "The enteric nervous system (ENS) orchestrates gastrointestinal reflexes and brain-gut communication via molecularly diverse neurons. Among these, intrinsic primary afferent neurons (IPANs) are essential for detecting luminal nutrients and irritants, yet their molecular identities, sensory properties, and functions remain poorly resolved. Here, we establish a segment-resolved single-cell atlas of the murine ENS, including a comprehensive characterization of the gastric ENS. This resource defines a refined taxonomy of enteric neurons and glia and enabled the development of a genetic toolkit for molecularly defined IPANs. Using chemogenetics and calcium imaging, we discovered that myenteric neurons detect a wide range of nutrients, irritants, and cytokines. Nutrient detection depends on a functional connection between chemosensory epithelial cells and enteric neurons mediated by 5-HT-HTR3 axis. Through optogenetic analysis, we demonstrated segment-specific regulation of gut motility by different IPANs. Our work establishes a genetic and physiological framework for enteric-specific sensory mechanisms.",
+      "author": "Li, K., Mou, J., Sun, X., Chen, Y., Fu, L., Wang, Z., Wei, Y., Wang, M., Guo, P., Lin, X., Wang, L., Duan, S., Liberles, S., Ni, J.",
+      "published_date": "2026-03-07T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 145,
+      "reading_time": 1,
+      "created_at": "2026-03-08T02:12:02.706113+00:00",
+      "updated_at": "2026-03-08T04:07:09.704836+00:00",
+      "metadata": {
+        "processed_at": "2026-03-08T04:07:09.704837+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "0a9e72fcd51642c90c8a162e08c0d51f",
+      "url": "https://pulsefeedback.io/",
+      "title": "Show HN: A weird thing that detects your pulse from the browser video",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47247762\">Comments</a>",
       "author": "",
-      "published_date": "2026-03-07T22:08:27+00:00",
+      "published_date": "2026-03-04T14:24:24+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-07T22:24:49.927696+00:00",
-      "updated_at": "2026-03-07T22:24:49.927697+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-03-08T02:11:26.143524+00:00",
+      "updated_at": "2026-03-08T04:07:09.704840+00:00",
+      "metadata": {
+        "processed_at": "2026-03-08T04:07:09.704841+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "807a95cadffe05f8ab5d9a6af668ec81",
+      "url": "https://www.typebarmagazine.com/science-fiction-is-dying-long-live-post-sci-fi/",
+      "title": "Science Fiction Is Dying. Long Live Post Sci-Fi?",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47293191\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-08T00:57:43+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-08T02:11:26.143384+00:00",
+      "updated_at": "2026-03-08T04:07:09.704844+00:00",
+      "metadata": {
+        "processed_at": "2026-03-08T04:07:09.704845+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "1a6cb78c6504d9ba2c3efa941f43a5a9",
+      "url": "https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html",
+      "title": "Cloud VM benchmarks 2026: performance/price for 44 VM types over 7 providers",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47293119\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-08T00:44:32+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-08T02:11:26.143357+00:00",
+      "updated_at": "2026-03-08T04:07:09.704847+00:00",
+      "metadata": {
+        "processed_at": "2026-03-08T04:07:09.704849+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "1a6cb78c6504d9ba2c3efa941f43a5a9",
+      "url": "https://devblog.ecuadors.net/cloud-vm-benchmarks-2026-performance-price-1i1m.html",
+      "title": "Cloud VM benchmarks 2026: performance/price for 44 VM types over 7 providers",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47293119\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-08T00:44:32+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-08T02:11:26.143357+00:00",
+      "updated_at": "2026-03-08T04:07:09.704847+00:00",
+      "metadata": {
+        "processed_at": "2026-03-08T04:07:09.704849+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "807a95cadffe05f8ab5d9a6af668ec81",
+      "url": "https://www.typebarmagazine.com/science-fiction-is-dying-long-live-post-sci-fi/",
+      "title": "Science Fiction Is Dying. Long Live Post Sci-Fi?",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47293191\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-08T00:57:43+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-08T02:11:26.143384+00:00",
+      "updated_at": "2026-03-08T04:07:09.704844+00:00",
+      "metadata": {
+        "processed_at": "2026-03-08T04:07:09.704845+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "273f5b74995aee1a22f54d9a1ad2625a",
       "url": "http://ieeexplore.ieee.org/document/11145272",
@@ -222,146 +362,6 @@
       "updated_at": "2026-03-08T01:44:23.156956+00:00",
       "metadata": {
         "processed_at": "2026-03-08T01:44:23.156957+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "920b1cc33ff8bcced1e597ce2f9cdb5e",
-      "url": "https://zipcodefirst.com",
-      "title": "Put the Zipcode First",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47292485\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-07T23:26:26+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-07T23:46:26.890831+00:00",
-      "updated_at": "2026-03-08T01:44:23.156959+00:00",
-      "metadata": {
-        "processed_at": "2026-03-08T01:44:23.156961+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "920b1cc33ff8bcced1e597ce2f9cdb5e",
-      "url": "https://zipcodefirst.com",
-      "title": "Put the Zipcode First",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47292485\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-07T23:26:26+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-07T23:46:26.890831+00:00",
-      "updated_at": "2026-03-08T01:44:23.156959+00:00",
-      "metadata": {
-        "processed_at": "2026-03-08T01:44:23.156961+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e69c9caed90630830070913210eb165e",
-      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2503721123?af=R",
-      "title": "Bilingual language processing relies on shared semantic representations that are modulated by each language",
-      "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 9, March 2026. <br />SignificanceBilinguals understand the meaning of words in multiple languages. Whether this capacity reflects a shared brain system for processing both native and non-native languages or whether processing is language specific is still unclear. Here, we ...",
-      "author": "Catherine ChenXue L. GongChristine TsengDaniel L. KleinJack L. GallantFatma DenizaElectrical Engineering and Computer Science, University of California, Berkeley, CA 94720bHelen Wills Neuroscience Institute, University of California, Berkeley, CA 94720cFaculty of Electrical Engineering and Computer Science, Technische Universit\u00e4t Berlin, 10623 Berlin, GermanydBernstein Center for Computational Neuroscience, 10115 Berlin, Germany",
-      "published_date": "2026-02-24T08:00:00+00:00",
-      "source": "Pnas Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 50,
-      "reading_time": 1,
-      "created_at": "2026-03-07T21:45:01.432400+00:00",
-      "updated_at": "2026-03-07T22:18:27.620342+00:00",
-      "metadata": {
-        "processed_at": "2026-03-07T22:18:27.620351+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bcb6b72cd62b8e161b8fb3f40caa20b0",
-      "url": "http://ieeexplore.ieee.org/document/11125831",
-      "title": "HapticGiant: A Novel Very Large Kinesthetic Haptic Interface With Hierarchical Force Control",
-      "content": "Research in virtual reality and haptic technologies has consistently aimed to enhance immersion. While advanced head-mounted displays are now commercially available, kinesthetic haptic interfaces still face challenges such as limited workspaces, insufficient degrees of freedom, and kinematics not matching the human arm. In this paper, we present HapticGiant, a novel large-scale kinesthetic haptic interface designed to match the properties of the human arm as closely as possible and to facilitate natural user locomotion while providing full haptic feedback. The interface incorporates a novel admittance-type force control scheme, leveraging hierarchical optimization to render both arbitrary serial kinematic chains and Cartesian admittances. Notably, the proposed control scheme natively accounts for system limitations, including joint and Cartesian constraints, as well as singularities. Experimental results demonstrate the effectiveness of HapticGiant and its control scheme, paving the way for highly immersive virtual reality applications.",
-      "author": "",
-      "published_date": "2025-08-14T13:17:43+00:00",
-      "source": "Transactions Haptics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 139,
-      "reading_time": 1,
-      "created_at": "2026-03-07T21:23:53.788058+00:00",
-      "updated_at": "2026-03-07T22:18:27.620355+00:00",
-      "metadata": {
-        "processed_at": "2026-03-07T22:18:27.620357+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "76c23c5300399082bb749ca190929d23",
-      "url": "http://ieeexplore.ieee.org/document/11130394",
-      "title": "\u201cPersuasive Vibrations\u201d: Studying the Influence of Vibration Parameters on Speech Persuasion",
-      "content": "This paper investigates the notion of \u201cPersuasive Vibrations\u201d, which showed that augmenting a person's speech with vibrotactile feedback could artificially increase persuasion. However, while the initial paper has shown the effect, the underlying reasons why vibrations enhance persuasion remain unknown. Through two different user studies, this paper aims to study how the underlying parameters of the vibratory feedback (e.g., frequency, amplitude, or audio-vibration synchronization) influence persuasion. The first study aimed to identify the parameters of vibrotactile feedback that can positively influence persuasion. The second study evaluated vibrotactile feedback that might impair the persuasive effect. In a nutshell, the first experiment suggests that the isolation of different properties of the vibratory signal could tend to provide higher persuasion compared to no vibratory feedback. A lower frequency at 100 Hz seems the most efficient way to generate a persuasive effect. In contrast, the second experiment suggests that some alteration of the vibratory signal (e.g., latency) does not decrease the levels of persuasion compared to the no-vibration condition. All in all, the results suggest that using lower frequencies could have a better effect on persuasion. These results could serve as a basis for haptic design in applications like videoconferencing, virtual meetings, and training systems where supporting user speech is essential.",
-      "author": "",
-      "published_date": "2025-08-19T13:17:09+00:00",
-      "source": "Transactions Haptics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 207,
-      "reading_time": 1,
-      "created_at": "2026-03-07T21:23:53.788029+00:00",
-      "updated_at": "2026-03-07T22:18:27.620362+00:00",
-      "metadata": {
-        "processed_at": "2026-03-07T22:18:27.620363+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0ebb52ffb647a0600e7392e8326b8454",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2025.1678984",
-      "title": "Emotion estimation from video footage with LSTM",
-      "content": "Emotion estimation is a field that has been studied for a long time, and several approaches using machine learning models exist. This article presents BlendFER-Lite, an LSTM model that uses Blendshapes from the MediaPipe library to analyze facial expressions detected from a live-streamed camera feed. This model is trained on the FER2013 dataset and achieves 71% accuracy and an F1-score of 62%, meeting the accuracy benchmark for the FER2013 dataset while significantly reducing computational costs compared to current methods. For the sake of reproducibility, the code repository, datasets, and models proposed in this paper, in addition to the preprint, can be found on Hugging Face at: https://huggingface.co/papers/2501.13432.JEL ClassificationD8, H51MSC Classification35A01, 65L10, 65L12, 65L20, 65L70",
-      "author": "Samer Attrah",
-      "published_date": "2026-02-06T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 114,
-      "reading_time": 1,
-      "created_at": "2026-03-07T21:23:22.550154+00:00",
-      "updated_at": "2026-03-07T22:18:27.620366+00:00",
-      "metadata": {
-        "processed_at": "2026-03-07T22:18:27.620367+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "573e9cc7da7b246f4b130df0eca9405b",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1760494",
-      "title": "Multimodal sequence dynamics and convergence optimization in dual-stream LSTM networks for complex physiological state estimation",
-      "content": "IntroductionThe integration of virtual simulation with intelligent modeling is crucial for advancing the scientization and personalization of volleyball physical training. This study aims to overcome the convergence instability and feature misalignment in modeling multimodal kinematic and physiological sequences.MethodsA dynamical framework based on a Dual-Stream Long Short-Term Memory network integrated with a temporal attention mechanism is proposed. The framework decouples heterogeneous feature learning and optimizes temporal weight distribution.ResultsExperimental validation on complex motion state estimation demonstrates that the proposed model reduces load modeling error to 3.8% and achieves a motion classification accuracy of 93.1%. The velocity trajectory fitting coefficient of determination is 0.91 with a peak deviation of 0.05 m/s.DiscussionThese results confirm the effectiveness of the attention-based DS-LSTM in optimizing multimodal sequence modeling for training state estimation and feedback.",
-      "author": "Xiaoxiao Cao",
-      "published_date": "2026-02-06T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 127,
-      "reading_time": 1,
-      "created_at": "2026-03-07T21:23:22.550127+00:00",
-      "updated_at": "2026-03-07T22:18:27.620370+00:00",
-      "metadata": {
-        "processed_at": "2026-03-07T22:18:27.620371+00:00",
         "processing_method": "github_actions"
       }
     }
