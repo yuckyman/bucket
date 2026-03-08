@@ -1,5 +1,69 @@
 [
   {
+    "id": "3b672c61a9d3ac0c49431038e2ea0623",
+    "url": "https://www.reddit.com/r/Python/comments/1roglzf/i_built_a_local_rest_api_for_apple_photos_search/",
+    "title": "I built a local REST API for Apple Photos \u2014 search, serve images, and batch-delete from localhost",
+    "content": "<!-- SC_OFF --><div class=\"md\"><pre><code>Hey \u2014 I built photokit-api, a FastAPI server that turns your Apple Photos library into a REST API. **What it does:** - Search 10k+ photos by date, album, person, keyword, favorites, screenshots - Serve originals, thumbnails (256px), and medium (1024px) previews - Batch delete photos (one API call, one macOS dialog) - Bearer token auth, localhost-only **How:** - Reads via osxphotos (fast SQLite access to Photos.sqlite) - Image serving via FileResponse/sendfile - Writes via pyobjc + PhotoKit (the only safe way to mutate Photos) ``` pip install photokit-api photokit-api serve # http://127.0.0.1:8787/docs ``` I built it because I wanted to write a photo tagger app without dealing with AppleScript or Swift. The whole thing is ~500 lines of Python. GitHub: https://github.com/bjwalsh93/photokit-api Feedback welcome \u2014 especially on what endpoints would be useful to add. </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OkClient9970\"> /u/OkClient9970 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1roglzf/i_built_a_local_rest_api_for_apple_photos_search/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1roglzf/i_built_a_local_rest_api_for_apple_photos_search/\">[comments]</a></span>",
+    "author": "/u/OkClient9970",
+    "published_date": "2026-03-08T21:11:04+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 155,
+    "reading_time": 1,
+    "created_at": "2026-03-08T22:25:39.253104+00:00",
+    "updated_at": "2026-03-08T22:25:39.253106+00:00"
+  },
+  {
+    "id": "844de8810597be1e285325b6c73c6932",
+    "url": "https://github.com/blacksky-algorithms/atproto",
+    "title": "Blacksky AppView",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47301808\">Comments</a>",
+    "author": "",
+    "published_date": "2026-03-08T21:40:35+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-03-08T22:25:37.886123+00:00",
+    "updated_at": "2026-03-08T22:25:37.886125+00:00"
+  },
+  {
+    "id": "844de8810597be1e285325b6c73c6932",
+    "url": "https://github.com/blacksky-algorithms/atproto",
+    "title": "Blacksky AppView",
+    "content": "<p>Article URL: <a href=\"https://github.com/blacksky-algorithms/atproto\">https://github.com/blacksky-algorithms/atproto</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47301808\">https://news.ycombinator.com/item?id=47301808</a></p>\n<p>Points: 19</p>\n<p># Comments: 0</p>",
+    "author": "Kye",
+    "published_date": "2026-03-08T21:40:35+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-03-08T22:25:36.777988+00:00",
+    "updated_at": "2026-03-08T22:25:36.777990+00:00"
+  },
+  {
+    "id": "ad92ada1b585d7fb8d3cdaf7053ae0c3",
+    "url": "https://blog.ebbypeter.com/2026/03/detection-is-not-protection-what-azure-waf-detection-mode-actually-does-and-doesnt/",
+    "title": "Detection Is Not Protection: What WAF Detection Mode Does (and Doesn't)",
+    "content": "<p>Article URL: <a href=\"https://blog.ebbypeter.com/2026/03/detection-is-not-protection-what-azure-waf-detection-mode-actually-does-and-doesnt/\">https://blog.ebbypeter.com/2026/03/detection-is-not-protection-what-azure-waf-detection-mode-actually-does-and-doesnt/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47301967\">https://news.ycombinator.com/item?id=47301967</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+    "author": "shadowAuror",
+    "published_date": "2026-03-08T21:56:06+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-03-08T22:25:36.777958+00:00",
+    "updated_at": "2026-03-08T22:25:36.777966+00:00"
+  },
+  {
     "id": "4549e551ec66824d4985b138f4d28f88",
     "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1755548",
     "title": "Extracellular stimulation and ephaptic coupling of neurons in a fully coupled finite element-based Extracellular\u2014Membrane\u2014Intracellular (EMI) model",
@@ -16,6 +80,26 @@
     "updated_at": "2026-03-08T22:18:46.670950+00:00",
     "metadata": {
       "processed_at": "2026-03-08T22:18:46.670962+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "a6d3a89ebf156d94c07967b7d0f4998f",
+    "url": "https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/",
+    "title": "We should revisit literate programming in the agent era",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47300747\">Comments</a>",
+    "author": "",
+    "published_date": "2026-03-08T19:58:15+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-03-08T21:25:16.075493+00:00",
+    "updated_at": "2026-03-08T22:18:46.670966+00:00",
+    "metadata": {
+      "processed_at": "2026-03-08T22:18:46.670968+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -76,26 +160,6 @@
     "updated_at": "2026-03-08T22:18:46.670974+00:00",
     "metadata": {
       "processed_at": "2026-03-08T22:18:46.670976+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "a6d3a89ebf156d94c07967b7d0f4998f",
-    "url": "https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/",
-    "title": "We should revisit literate programming in the agent era",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47300747\">Comments</a>",
-    "author": "",
-    "published_date": "2026-03-08T19:58:15+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-03-08T21:25:16.075493+00:00",
-    "updated_at": "2026-03-08T22:18:46.670966+00:00",
-    "metadata": {
-      "processed_at": "2026-03-08T22:18:46.670968+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -17098,73 +17162,5 @@
     "reading_time": 1,
     "created_at": "2026-03-04T04:19:46.754331+00:00",
     "updated_at": "2026-03-04T04:19:46.754332+00:00"
-  },
-  {
-    "id": "5692903fdd218cbbb0d1ca28bf041631",
-    "url": "https://bjango.com/articles/macexternaldisplays2/",
-    "title": "Mac external displays for designers and developers, part 2",
-    "content": "<p>Article URL: <a href=\"https://bjango.com/articles/macexternaldisplays2/\">https://bjango.com/articles/macexternaldisplays2/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47242342\">https://news.ycombinator.com/item?id=47242342</a></p>\n<p>Points: 16</p>\n<p># Comments: 6</p>",
-    "author": "fragmede",
-    "published_date": "2026-03-04T02:43:05+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-03-04T04:19:46.754311+00:00",
-    "updated_at": "2026-03-04T04:19:46.754313+00:00"
-  },
-  {
-    "id": "5621a63a2164067965ee08412676b081",
-    "url": "https://arxiv.org/abs/2603.03251",
-    "title": "Speculative Speculative Decoding (SSD)",
-    "content": "<p>Article URL: <a href=\"https://arxiv.org/abs/2603.03251\">https://arxiv.org/abs/2603.03251</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47242637\">https://news.ycombinator.com/item?id=47242637</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-    "author": "E-Reverance",
-    "published_date": "2026-03-04T03:24:20+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-03-04T04:19:46.754290+00:00",
-    "updated_at": "2026-03-04T04:19:46.754292+00:00"
-  },
-  {
-    "id": "79ee4e77bbded8fe37ae63df1d301272",
-    "url": "https://runxiyu.org/comp/ab1043/",
-    "title": "California's Digital Age Assurance Act, and FOSS",
-    "content": "<p>Article URL: <a href=\"https://runxiyu.org/comp/ab1043/\">https://runxiyu.org/comp/ab1043/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47242725\">https://news.ycombinator.com/item?id=47242725</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
-    "author": "todsacerdoti",
-    "published_date": "2026-03-04T03:36:18+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-03-04T04:19:46.754259+00:00",
-    "updated_at": "2026-03-04T04:19:46.754267+00:00"
-  },
-  {
-    "id": "ad9914d00fd52f58025560956806f336",
-    "url": "https://www.nature.com/articles/s41467-026-70288-4",
-    "title": "Machine learning discovers numerous new computational principles supporting elementary motion detection",
-    "content": "",
-    "author": "",
-    "published_date": "2026-03-03T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-03-04T02:07:06.844123+00:00",
-    "updated_at": "2026-03-04T04:05:06.777322+00:00",
-    "metadata": {
-      "processed_at": "2026-03-04T04:05:06.777331+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]
