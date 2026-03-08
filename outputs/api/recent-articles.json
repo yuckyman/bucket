@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-03-08T14:52:32.778337+00:00",
+  "last_updated": "2026-03-08T15:26:49.918689+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "8d5f6ef8ad12dc2f6d8d5482bfaaae12",
+      "url": "http://doi.org/10.1037/cns0000437",
+      "title": "Looking back, looking forward.",
+      "content": "Looking back at the editor's two 3-year terms as editor of <em>Psychology of Consciousness</em>, they feel that they and the journal\u2019s associate editors have satisfied their two editorial aspirations: (a) providing authors with fair and constructive reviews and (b) providing readers with high-quality articles spanning a broad range of consciousness-related topics. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2025-10-30T00:00:00+00:00",
+      "source": "Clinical Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 60,
+      "reading_time": 1,
+      "created_at": "2026-03-08T15:25:54.010035+00:00",
+      "updated_at": "2026-03-08T15:25:54.010041+00:00"
+    },
+    {
+      "id": "740cb6f3a9a437188a9683210dfbebfd",
+      "url": "https://www.reddit.com/r/Python/comments/1ro6m1h/building_a_deterministic_photo_renaming_workflow/",
+      "title": "Building a deterministic photo renaming workflow around ExifTool (ChronoName)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>After building a tool to safely remove duplicate photos, another messy problem in large photo libraries became obvious: filenames.</p> <p> If you combine photos from different cameras, phones, and years into one archive, you end up with things like: IMG_4321.JPG, PXL_20240118_103806764.MP4 or DSC00987.ARW.</p> <p> Those names don\u2019t really tell you when the image was taken, and once files from different devices get mixed together they stop being useful.</p> <p> Usually the real capture time <em>does</em> exist in the metadata, so the obvious idea is: rename files using that timestamp.</p> <p> But it turns out to be trickier than expected.</p> <p> Different devices store timestamps differently. Typical examples include: still images using <em>EXIF DateTimeOriginal,</em> videos using <em>QuickTime CreateDate</em><strong>,</strong> timestamps stored <em>without timezone information,</em> videos stored <em>in UTC</em><strong>,</strong> exported or edited files with altered metadata and files with broken or placeholder timestamps.</p> <p> If you interpret those fields incorrectly, chronological ordering breaks. A photo and a video captured at the same moment can suddenly appear hours apart.</p> <p> So I ended up writing a small Python utility called <em>ChronoName</em> that wraps ExifTool and applies a deterministic timestamp policy before renaming.</p> <p> The filename format looks like this: <em>YYYYMMDD_HHMMSS[_milliseconds][__DEVICE][_counter].ext</em>.</p> <table><thead> <tr> <th align=\"left\">Naming Examples</th> <th align=\"left\"> </th> </tr> </thead><tbody> <tr> <td align=\"left\">20240118_173839.jpg</td> <td align=\"left\">this is the default</td> </tr> <tr> <td align=\"left\">20240118_173839_234.jpg</td> <td align=\"left\">a trailing counter is added when several files share the same creation time</td> </tr> <tr> <td align=\"left\">20240118_173839__SONY-A7M3.arw</td> <td align=\"left\">maker-model information can be added if requested</td> </tr> </tbody></table> <p>The main focus wasn\u2019t actually parsing metadata (ExifTool already does that very well) but making the workflow safe. A <em>dry-run mode</em> before any changes, <em>undo logs</em> for every run, deterministic timestamp normalization and optional <em>collection manifests</em> describing the resulting archive state</p> <p> One interesting edge case was dealing with video timestamps that are technically UTC but sometimes stored without explicit timezone info.</p> <p> The whole pipeline roughly looks like this:</p> <p> media folder</p> <p>\u2193</p> <p>exiftool scan</p> <p>\u2193</p> <p>timestamp normalization</p> <p>\u2193</p> <p>rename planning</p> <p>\u2193</p> <p>execution + undo log + manifest</p> <p> I wrote a more detailed breakdown of the design and implementation here: <a href=\"https://code2trade.dev/chrononame-a-deterministic-workflow-for-renaming-photos-by-capture-time/\">https://code2trade.dev/chrononame-a-deterministic-workflow-for-renaming-photos-by-capture-time/</a></p> <p> Curious how others here handle timestamp normalization for mixed media libraries. Do you rely on photo software, or do you maintain filesystem-based archives?</p> <p> </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hdw_coder\"> /u/hdw_coder </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ro6m1h/building_a_deterministic_photo_renaming_workflow/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ro6m1h/building_a_deterministic_photo_renaming_workflow/\">[comments]</a></span>",
+      "author": "/u/hdw_coder",
+      "published_date": "2026-03-08T14:44:27+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 397,
+      "reading_time": 1,
+      "created_at": "2026-03-08T15:25:46.378635+00:00",
+      "updated_at": "2026-03-08T15:25:46.378637+00:00"
+    },
+    {
+      "id": "9c1308c1b0e5d823b1db87c8cf98e722",
+      "url": "https://blog.documentfoundation.org/blog/2026/03/05/cra-guidances/",
+      "title": "LibreOffice: Request to the European Commission to adhere to its own guidances",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47297453\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-08T14:09:09+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-08T15:25:45.141955+00:00",
+      "updated_at": "2026-03-08T15:25:45.141957+00:00"
+    },
+    {
+      "id": "9c1308c1b0e5d823b1db87c8cf98e722",
+      "url": "https://blog.documentfoundation.org/blog/2026/03/05/cra-guidances/",
+      "title": "LibreOffice: Request to the European Commission to adhere to its own guidances",
+      "content": "<p>Article URL: <a href=\"https://blog.documentfoundation.org/blog/2026/03/05/cra-guidances/\">https://blog.documentfoundation.org/blog/2026/03/05/cra-guidances/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47297453\">https://news.ycombinator.com/item?id=47297453</a></p>\n<p>Points: 21</p>\n<p># Comments: 2</p>",
+      "author": "maxloh",
+      "published_date": "2026-03-08T14:09:09+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-08T15:25:43.784604+00:00",
+      "updated_at": "2026-03-08T15:25:43.784613+00:00"
+    },
     {
       "id": "dfefe79b1f3514902d0681ca79e78183",
       "url": "https://erpinfo.org/blog/2025/12/19/sme-now-available-in-bva-and-mne-python",
@@ -257,86 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-03-08T14:26:32.667920+00:00",
       "updated_at": "2026-03-08T14:26:32.667929+00:00"
-    },
-    {
-      "id": "811399a1b98e8c50ddc146e5f16bdd70",
-      "url": "https://www.reddit.com/r/Python/comments/1ro1byq/libraries_for_handling_subinterpreters/",
-      "title": "Libraries for handling subinterpreters?",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi there, </p> <p>Are there any high-level libraries for handling persisted subinterpreters in-process yet? </p> <p>Specifically, I will load a complex set of classes running within a single persisted subinterpreter, then sending commands to it (via Queue?) from the main interpreter. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/expectationManager3\"> /u/expectationManager3 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ro1byq/libraries_for_handling_subinterpreters/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ro1byq/libraries_for_handling_subinterpreters/\">[comments]</a></span>",
-      "author": "/u/expectationManager3",
-      "published_date": "2026-03-08T10:17:12+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 63,
-      "reading_time": 1,
-      "created_at": "2026-03-08T13:40:54.240618+00:00",
-      "updated_at": "2026-03-08T14:20:53.482524+00:00",
-      "metadata": {
-        "processed_at": "2026-03-08T14:20:53.482533+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "67a578cc8f9ba765bb8d814661f6f2fe",
-      "url": "https://strlen.com/lobster/",
-      "title": "The Lobster Programming Language",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47239955\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-03T22:24:54+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-08T13:40:53.005982+00:00",
-      "updated_at": "2026-03-08T14:20:53.482537+00:00",
-      "metadata": {
-        "processed_at": "2026-03-08T14:20:53.482539+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "00ea5edb1cf835083a3adc9cc565113c",
-      "url": "https://vecstore.app/blog/you-dont-need-a-vector-database",
-      "title": "You Don't Need a Vector Database",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47296787\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-08T12:30:31+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-08T13:40:53.005924+00:00",
-      "updated_at": "2026-03-08T14:20:53.482575+00:00",
-      "metadata": {
-        "processed_at": "2026-03-08T14:20:53.482580+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "00ea5edb1cf835083a3adc9cc565113c",
-      "url": "https://vecstore.app/blog/you-dont-need-a-vector-database",
-      "title": "You Don't Need a Vector Database",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47296787\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-08T12:30:31+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-08T13:40:53.005924+00:00",
-      "updated_at": "2026-03-08T14:20:53.482575+00:00",
-      "metadata": {
-        "processed_at": "2026-03-08T14:20:53.482580+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }

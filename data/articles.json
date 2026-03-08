@@ -1,5 +1,69 @@
 [
   {
+    "id": "8d5f6ef8ad12dc2f6d8d5482bfaaae12",
+    "url": "http://doi.org/10.1037/cns0000437",
+    "title": "Looking back, looking forward.",
+    "content": "Looking back at the editor's two 3-year terms as editor of <em>Psychology of Consciousness</em>, they feel that they and the journal\u2019s associate editors have satisfied their two editorial aspirations: (a) providing authors with fair and constructive reviews and (b) providing readers with high-quality articles spanning a broad range of consciousness-related topics. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
+    "author": "",
+    "published_date": "2025-10-30T00:00:00+00:00",
+    "source": "Clinical Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 60,
+    "reading_time": 1,
+    "created_at": "2026-03-08T15:25:54.010035+00:00",
+    "updated_at": "2026-03-08T15:25:54.010041+00:00"
+  },
+  {
+    "id": "740cb6f3a9a437188a9683210dfbebfd",
+    "url": "https://www.reddit.com/r/Python/comments/1ro6m1h/building_a_deterministic_photo_renaming_workflow/",
+    "title": "Building a deterministic photo renaming workflow around ExifTool (ChronoName)",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>After building a tool to safely remove duplicate photos, another messy problem in large photo libraries became obvious: filenames.</p> <p> If you combine photos from different cameras, phones, and years into one archive, you end up with things like: IMG_4321.JPG, PXL_20240118_103806764.MP4 or DSC00987.ARW.</p> <p> Those names don\u2019t really tell you when the image was taken, and once files from different devices get mixed together they stop being useful.</p> <p> Usually the real capture time <em>does</em> exist in the metadata, so the obvious idea is: rename files using that timestamp.</p> <p> But it turns out to be trickier than expected.</p> <p> Different devices store timestamps differently. Typical examples include: still images using <em>EXIF DateTimeOriginal,</em> videos using <em>QuickTime CreateDate</em><strong>,</strong> timestamps stored <em>without timezone information,</em> videos stored <em>in UTC</em><strong>,</strong> exported or edited files with altered metadata and files with broken or placeholder timestamps.</p> <p> If you interpret those fields incorrectly, chronological ordering breaks. A photo and a video captured at the same moment can suddenly appear hours apart.</p> <p> So I ended up writing a small Python utility called <em>ChronoName</em> that wraps ExifTool and applies a deterministic timestamp policy before renaming.</p> <p> The filename format looks like this: <em>YYYYMMDD_HHMMSS[_milliseconds][__DEVICE][_counter].ext</em>.</p> <table><thead> <tr> <th align=\"left\">Naming Examples</th> <th align=\"left\"> </th> </tr> </thead><tbody> <tr> <td align=\"left\">20240118_173839.jpg</td> <td align=\"left\">this is the default</td> </tr> <tr> <td align=\"left\">20240118_173839_234.jpg</td> <td align=\"left\">a trailing counter is added when several files share the same creation time</td> </tr> <tr> <td align=\"left\">20240118_173839__SONY-A7M3.arw</td> <td align=\"left\">maker-model information can be added if requested</td> </tr> </tbody></table> <p>The main focus wasn\u2019t actually parsing metadata (ExifTool already does that very well) but making the workflow safe. A <em>dry-run mode</em> before any changes, <em>undo logs</em> for every run, deterministic timestamp normalization and optional <em>collection manifests</em> describing the resulting archive state</p> <p> One interesting edge case was dealing with video timestamps that are technically UTC but sometimes stored without explicit timezone info.</p> <p> The whole pipeline roughly looks like this:</p> <p> media folder</p> <p>\u2193</p> <p>exiftool scan</p> <p>\u2193</p> <p>timestamp normalization</p> <p>\u2193</p> <p>rename planning</p> <p>\u2193</p> <p>execution + undo log + manifest</p> <p> I wrote a more detailed breakdown of the design and implementation here: <a href=\"https://code2trade.dev/chrononame-a-deterministic-workflow-for-renaming-photos-by-capture-time/\">https://code2trade.dev/chrononame-a-deterministic-workflow-for-renaming-photos-by-capture-time/</a></p> <p> Curious how others here handle timestamp normalization for mixed media libraries. Do you rely on photo software, or do you maintain filesystem-based archives?</p> <p> </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hdw_coder\"> /u/hdw_coder </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ro6m1h/building_a_deterministic_photo_renaming_workflow/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ro6m1h/building_a_deterministic_photo_renaming_workflow/\">[comments]</a></span>",
+    "author": "/u/hdw_coder",
+    "published_date": "2026-03-08T14:44:27+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 397,
+    "reading_time": 1,
+    "created_at": "2026-03-08T15:25:46.378635+00:00",
+    "updated_at": "2026-03-08T15:25:46.378637+00:00"
+  },
+  {
+    "id": "9c1308c1b0e5d823b1db87c8cf98e722",
+    "url": "https://blog.documentfoundation.org/blog/2026/03/05/cra-guidances/",
+    "title": "LibreOffice: Request to the European Commission to adhere to its own guidances",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47297453\">Comments</a>",
+    "author": "",
+    "published_date": "2026-03-08T14:09:09+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-03-08T15:25:45.141955+00:00",
+    "updated_at": "2026-03-08T15:25:45.141957+00:00"
+  },
+  {
+    "id": "9c1308c1b0e5d823b1db87c8cf98e722",
+    "url": "https://blog.documentfoundation.org/blog/2026/03/05/cra-guidances/",
+    "title": "LibreOffice: Request to the European Commission to adhere to its own guidances",
+    "content": "<p>Article URL: <a href=\"https://blog.documentfoundation.org/blog/2026/03/05/cra-guidances/\">https://blog.documentfoundation.org/blog/2026/03/05/cra-guidances/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47297453\">https://news.ycombinator.com/item?id=47297453</a></p>\n<p>Points: 21</p>\n<p># Comments: 2</p>",
+    "author": "maxloh",
+    "published_date": "2026-03-08T14:09:09+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-03-08T15:25:43.784604+00:00",
+    "updated_at": "2026-03-08T15:25:43.784613+00:00"
+  },
+  {
     "id": "dfefe79b1f3514902d0681ca79e78183",
     "url": "https://erpinfo.org/blog/2025/12/19/sme-now-available-in-bva-and-mne-python",
     "title": "Standardized Measurement Error now available in BrainVision Analyzer and MNE-Python",
@@ -17078,81 +17142,5 @@
       "processed_at": "2026-03-03T20:27:50.847401+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "21d727ef185c0bf48f9b20e4ba24b065",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.03.01.708786v1?rss=1",
-    "title": "Glial ceramide orchestrates Lipid Droplet homeostasis and age-dependent motor function in Drosophila",
-    "content": "Glia cells have emerged as equal partners to neurons in the development and maintenance of the nervous system. In this study, we examine the roles of ceramide metabolism and intracellular transfer in glia, contrasting these with those of neurons. We find that glia are more sensitive to the cessation of ceramide synthesis than neurons. Knockdown of ER-localised ceramide synthesis enzymes in glia, but not in neurons, leads to age-dependent motor defects. Intriguingly, Lipid Droplet (LD) size and density are lowered when either glial ceramide is reduced or its transfer to the Golgi, by Ceramide Transfer protein (CERT), is disturbed. Glial CERT knockdown or disruption of its interaction with the ER tethering protein VAPB also affects both motor function and LD dynamics, highlighting the importance of targeted, efficient non-vesicular ceramide transfer at membrane contact sites. Our research implicates reduced flux through the sphingolipid pathway in glial cells as a critical determinant of adult motor function, with LDs serving as a sensitive diagnostic readout. As such, our study has implications for a host of human motor neuron diseases that show late-onset motor deficits.",
-    "author": "Garg, L., H, K., DEIVASIGAMANI, S., Ratnaparkhi, A., RATNAPARKHI, G. S.",
-    "published_date": "2026-03-03T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 181,
-    "reading_time": 1,
-    "created_at": "2026-03-03T19:24:21.476976+00:00",
-    "updated_at": "2026-03-03T20:27:50.847404+00:00",
-    "metadata": {
-      "processed_at": "2026-03-03T20:27:50.847405+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "391218d6224671622467a6c68b234c1e",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.02.28.708752v1?rss=1",
-    "title": "Brain Transcriptomics Across Diverse Sleep-Wake Manipulations Reveals Multiple Homeostatic Pathways in Drosophila",
-    "content": "Sleep is governed by two processes: a circadian process that times sleep and wake and a homeostatic process that drives sleep as a function of prior wake history. Discovered in the fruit fly Drosophila, the period (per) gene is a universal cornerstone of the circadian clock, robustly oscillating at the transcript level, in all organs and tissues and in essentially all animals. We hypothesized that there may be a comparable factor (we term slee-per) for sleep homeostasis. To identify sleeper genes, we performed a wide-ranging transcriptomic analysis to identify genes whose expression tracks sleep-wake history in the Drosophila brain. We analyzed a variety of methods to manipulate sleep-wake and subsequent rebound including mechanical, thermogenetic, optogenetic, pharmacological and baseline sleep across 7 datasets. Using a log2 fold change threshold of 1, we did not identify any gene that was sleep-wake dependent across all datasets, raising the possibility that genes identified with a single method of sleep manipulation are related to the nature of the manipulation and not necessarily to sleep. Nonetheless, we did identify genes whose expression changed with sleep-wake in a consistent direction across at least 2 datasets. These analyses highlight previous processes implicated in sleep homeostasis such as mitochondrial oxidative phosphorylation as well as provide potentially novel pathways such as ribosome biogenesis. In addition, we also examined genes whose expression correlates with prior sleep-wake history and/or predicted subsequent sleep rebound across these datasets. Among significantly correlated genes we observed some that were correlated with recent (<3h) sleep history while others were correlated with much longer (>6h) time frames suggesting temporally distinct pathways for integrating waking experience. This analysis also highlights specific GO pathways for sleep/wake/rebound. Applying a novel GPT based paper search algorithm, we call fl.ai, we identified several sleep-wake regulated genes with demonstrated function in sleep regulation consistent with an in vivo homeostatic function. These include those involved in immunity, neuropeptide signaling, glucose transport, and neuronal excitability. Collectively, these studies suggest that sleep homeostasis is a much more molecularly distributed process than the core circadian clock.",
-    "author": "Rosensweig, C., Shah, A., Sisobhan, S., Andreani, T., Allada, R.",
-    "published_date": "2026-03-03T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 338,
-    "reading_time": 1,
-    "created_at": "2026-03-03T19:24:21.476941+00:00",
-    "updated_at": "2026-03-03T20:27:50.847407+00:00",
-    "metadata": {
-      "processed_at": "2026-03-03T20:27:50.847409+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "26eb7ab56ed53d7fcedfc578b12a7675",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.02.28.708768v1?rss=1",
-    "title": "Post-traumatic stress symptoms are associated with altered cognitive circuits and threat pathways in chronic pain",
-    "content": "Chronic pain and post-traumatic stress symptoms (PTSS) frequently co occur. However, how they interact in the brain to influence cognition and emotion is not well understood. Here, we examined how PTSS affects working memory related networks during an Nback task. In addition, we examined how these networks interact with subcortical threat regions and influence working memory and pain symptoms. Fifty-three chronic low back pain participants completed the Nback task during fMRI. Brain activation was analyzed in relation to PTSS as both a continuous measure and as high versus low groups, using whole-brain parcellation across task loads (FDR corrected). We also examined whether abnormally activated regions were functionally connected to periaqueductal gray subregions, the amygdala, or hippocampus, and how these connections related to PTSS. Although higher PTSS did not affect task performance, it was associated with reduced activation in dorsal and inferior lateral frontal regions during the 3-back condition. PTSS was also associated with increased functional connectivity between the dorsolateral prefrontal cortex and periaqueductal gray, but not with the amygdala or hippocampus. Reduced prefrontal activations and high connectivity with periaqueductal gray predicted higher depression and catastrophizing symptoms. Thus, in chronic pain, PTSS selectively disrupts prefrontal circuits, suggesting that greater trauma symptoms interact with prefrontal circuits when cognitive demand is high. PTSS strengthens coupling between prefrontal regions and brainstem threat/pain circuits, suggesting cognitive-affective coupling. These neural alterations occur even when working memory performance is intact and are linked to higher depression and pain catastrophizing. Larger studies are needed to confirm and clarify these mechanisms.",
-    "author": "Veinot, J., Hashmi, J. A.",
-    "published_date": "2026-03-03T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 252,
-    "reading_time": 1,
-    "created_at": "2026-03-03T19:24:21.476893+00:00",
-    "updated_at": "2026-03-03T20:27:50.847412+00:00",
-    "metadata": {
-      "processed_at": "2026-03-03T20:27:50.847413+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "5601e7293912a256835e086b597e0501",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.02.28.708766v1?rss=1",
-    "title": "Closing the loop between brain and electrical stimulation: A proof-of-concept randomized trial of real-time fMRI-guided tACS optimization",
-    "content": "Closed-loop transcranial alternating current stimulation (tACS) combined with real-time functional MRI (tACS-fMRI) enables adaptive optimization of noninvasive brain stimulation based on ongoing neural dynamics. We implemented one of the first randomized, double-arm, closed-loop tACS-fMRI protocols to iteratively adjust stimulation frequency and phase alignment between the right dorsolateral prefrontal cortex (F4) and right inferior parietal cortex (P4) to modulate frontoparietal functional connectivity (FFC) during a 2-back working memory task. Twenty healthy adults were randomized to an up-regulation group (n = 10), receiving parameters optimized to maintain or enhance FFC, or a down-regulation group (n = 10), receiving parameters optimized to reduce FFC using a simplex-based adaptive algorithm across two training runs. Individualized optimized parameters were applied during a subsequent test run, with resting-state fMRI acquired before and after stimulation. During the test phase, connectivity trajectories diverged across groups: FFC was preserved in the up-regulation group but declined in the down-regulation group (signed-rank p = 0.019), with a significant between-group difference confirmed by permutation testing (20,000 iterations; p = 0.043). Behavioral effects were primarily observed in the accuracy learning dynamics. Although overall mean performance was comparable, the up-regulation group demonstrated a more positive accuracy trajectory, greater within-test accuracy gain (p = 0.036), and steeper trial-wise improvement (p = 0.035). Reaction time decreased across runs in both groups, consistent with practice effects, with no significant group differences in gain; however, the test-run RT slope showed a trend toward a steeper reduction in reaction time in the up-regulation group relative to the down-regulation group (p = 0.065). Resting-state analyses revealed significant time-by-group interaction clusters in seed-based connectivity (voxel-wise p < 0.001; cluster-level FDR p < 0.05), with connectivity increases observed in the up-regulation group relative to the down-regulation group, indicating persistent network modulation following stimulation. These findings demonstrate the feasibility of closed-loop tACS-fMRI for individualized network-targeted neuromodulation and suggest that real-time connectivity optimization selectively stabilizes task-relevant connectivity and enhances accuracy learning while producing sustained effects on intrinsic brain networks.",
-    "author": "Soleimani, G., Kuplicki, R., Mulyana, B., Tsuchiyagaito, A., Misaki, M., Paulus, M. P., Ekhtiari, H.",
-    "published_date": "2026-03-03T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 325,
-    "reading_time": 1,
-    "created_at": "2026-03-03T19:24:21.476852+00:00",
-    "updated_at": "2026-03-03T19:24:21.476854+00:00"
   }
 ]
