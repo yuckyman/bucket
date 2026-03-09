@@ -7,13 +7,17 @@
     "author": "dziura",
     "published_date": "2025-12-10T21:01:57+00:00",
     "source": "Embs",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 18,
     "reading_time": 1,
     "created_at": "2026-03-09T08:04:13.986226+00:00",
-    "updated_at": "2026-03-09T08:04:13.986228+00:00"
+    "updated_at": "2026-03-09T08:38:22.299255+00:00",
+    "metadata": {
+      "processed_at": "2026-03-09T08:38:22.299264+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "bd1ff789412e5f4f32e51a417cce7fe6",
@@ -23,29 +27,37 @@
     "author": "",
     "published_date": "2026-03-09T05:18:46+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-03-09T08:03:24.920608+00:00",
-    "updated_at": "2026-03-09T08:03:24.920609+00:00"
+    "updated_at": "2026-03-09T08:38:22.299269+00:00",
+    "metadata": {
+      "processed_at": "2026-03-09T08:38:22.299271+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "bd1ff789412e5f4f32e51a417cce7fe6",
     "url": "https://github.com/knowsuchagency/mcp2cli",
     "title": "Show HN: Mcp2cli \u2013 One CLI for every API, 96-99% fewer tokens than native MCP",
-    "content": "<p>Every MCP server injects its full tool schemas into context on every turn \u2014 30 tools costs ~3,600 tokens/turn whether the model uses them or not. Over 25 turns with 120 tools, that's 362,000 tokens just for schemas.<p>mcp2cli turns any MCP server or OpenAPI spec into a CLI at runtime. The LLM discovers tools on demand:<p><pre><code>    mcp2cli --mcp https://mcp.example.com/sse --list             # ~16 tokens/tool\n    mcp2cli --mcp https://mcp.example.com/sse create-task --help  # ~120 tokens, once\n    mcp2cli --mcp https://mcp.example.com/sse create-task --title \"Fix bug\"\n</code></pre>\nNo codegen, no rebuild when the server changes. Works with any LLM \u2014 it's just a CLI the model shells out to. Also handles OpenAPI specs (JSON/YAML, local or remote) with the same interface.<p>Token savings are real, measured with cl100k_base: 96% for 30 tools over 15 turns, 99% for 120 tools over 25 turns.<p>It also ships as an installable skill for AI coding agents (Claude Code, Cursor, Codex): `npx skills add knowsuchagency/mcp2cli --skill mcp2cli`<p>Inspired by Kagan Yilmaz's CLI vs MCP analysis and CLIHub.<p><a href=\"https://github.com/knowsuchagency/mcp2cli\" rel=\"nofollow\">https://github.com/knowsuchagency/mcp2cli</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47305149\">https://news.ycombinator.com/item?id=47305149</a></p>\n<p>Points: 24</p>\n<p># Comments: 10</p>",
-    "author": "knowsuchagency",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47305149\">Comments</a>",
+    "author": "",
     "published_date": "2026-03-09T05:18:46+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 176,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-03-09T08:03:23.482175+00:00",
-    "updated_at": "2026-03-09T08:03:23.482177+00:00"
+    "created_at": "2026-03-09T08:03:24.920608+00:00",
+    "updated_at": "2026-03-09T08:38:22.299269+00:00",
+    "metadata": {
+      "processed_at": "2026-03-09T08:38:22.299271+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "0ddebd9c7e87b2c78f908fdfa7f5107f",
@@ -55,13 +67,17 @@
     "author": "",
     "published_date": "2026-03-09T00:00:00+00:00",
     "source": "Nature Neuroscience Subjects",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 0,
     "reading_time": 1,
     "created_at": "2026-03-09T07:04:32.029339+00:00",
-    "updated_at": "2026-03-09T07:04:32.029341+00:00"
+    "updated_at": "2026-03-09T08:38:22.299278+00:00",
+    "metadata": {
+      "processed_at": "2026-03-09T08:38:22.299279+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "bc8827e1e8bcdfe2749bf4c7ae16b516",
@@ -71,13 +87,17 @@
     "author": "",
     "published_date": "2026-03-09T00:00:00+00:00",
     "source": "Nature Neuroscience Subjects",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 0,
     "reading_time": 1,
     "created_at": "2026-03-09T07:04:32.029322+00:00",
-    "updated_at": "2026-03-09T07:04:32.029323+00:00"
+    "updated_at": "2026-03-09T08:38:22.299282+00:00",
+    "metadata": {
+      "processed_at": "2026-03-09T08:38:22.299283+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "da3364553929c3b4cf5ec07f665e44df",
