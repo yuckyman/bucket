@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-09T01:45:25.590022+00:00",
-  "pending_count": 704,
-  "processed_count": 296,
+  "last_updated": "2026-03-09T04:12:37.698051+00:00",
+  "pending_count": 698,
+  "processed_count": 302,
   "pending_articles": [
     {
       "id": "844de8810597be1e285325b6c73c6932",
@@ -166,6 +166,126 @@
   ],
   "recently_processed": [
     {
+      "id": "86ab1a5d6e8e25257b41824943fdf0cb",
+      "url": "https://www.reddit.com/r/Python/comments/1rojr4t/i_used_pythons_standard_library_to_find_cases/",
+      "title": "I used Pythons standard library to find cases where people paid lawyers for something impossible.",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I built a screening tool that processes PACER bankruptcy data to find cases where attorneys filed Chapter 13 bankruptcies for clients who could never receive a discharge. Federal law (Section 1328(f)) makes it arithmetically impossible based on three dates.</p> <p>The math: If you got a Ch.7 discharge less than 4 years ago, or a Ch.13 discharge less than 2 years ago, a new Ch.13</p> <p>cannot end in discharge. Three data points, one subtraction, one comparison. Attorneys still file these cases and clients still pay.</p> <p>Tech stack: stdlib only. csv, datetime, argparse, re, json, collections. No pip install, no dependencies, Python 3.8+.</p> <p>Problems I had to solve:</p> <p>- Fuzzy name matching across PACER records. Debtor names have suffixes (Jr., III), &quot;NMN&quot; (no middle name)</p> <p>placeholders, and inconsistent casing. Had to normalize, strip, then match on first + last tokens to catch middle name</p> <p>variations.</p> <p>- Joint case splitting. &quot;John Smith and Jane Smith&quot; needs to be split and each spouse matched independently against heir own filing history.</p> <p>- BAPCPA filtering. The statute didn't exist before October 17, 2005, so pre-BAPCPA cases have to be excluded or you get false positives.</p> <p>- Deduplication. PACER exports can have the same case across multiple CSV files. Deduplicate by case ID while keeping attorney attribution intact.</p> <p>Usage:</p> <p>$ python screen_1328f.py --data-dir ./csvs --target Smith_John --control Jones_Bob</p> <p>The --control flag lets you screen a comparison attorney side by side to see if the violation rate is unusual or normal for the district.</p> <p>Processes 100K+ cases in under a minute. Outputs to terminal with structured sections, or --output-json for programmatic use.</p> <p>GitHub: <a href=\"https://github.com/ilikemath9999/bankruptcy-discharge-screener\">https://github.com/ilikemath9999/bankruptcy-discharge-screener</a></p> <p>MIT licensed. Standard library only. Includes a PACER CSV download guide and sample output.</p> <p>Let me know what you think friends. Im a first timer here. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ilikemath9999\"> /u/ilikemath9999 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rojr4t/i_used_pythons_standard_library_to_find_cases/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rojr4t/i_used_pythons_standard_library_to_find_cases/\">[comments]</a></span>",
+      "author": "/u/ilikemath9999",
+      "published_date": "2026-03-08T23:18:05+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 315,
+      "reading_time": 1,
+      "created_at": "2026-03-09T02:12:41.582636+00:00",
+      "updated_at": "2026-03-09T04:12:37.584765+00:00",
+      "metadata": {
+        "processed_at": "2026-03-09T04:12:37.584774+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c9ee3ba2f595a75be1fde7320e203b0c",
+      "url": "https://offlinemark.com/an-obscure-quirk-of-proc/",
+      "title": "Linux Internals: How /proc/self/mem writes to unwritable memory (2021)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47302463\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-08T22:50:55+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-09T02:12:40.318272+00:00",
+      "updated_at": "2026-03-09T04:12:37.584778+00:00",
+      "metadata": {
+        "processed_at": "2026-03-09T04:12:37.584780+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f757ab45bd7a111e3222388028fb85fb",
+      "url": "https://news.ycombinator.com/item?id=47303111",
+      "title": "Ask HN: What Are You Working On? (March 2026)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47303111\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-09T00:07:18+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-09T02:12:40.318194+00:00",
+      "updated_at": "2026-03-09T04:12:37.584783+00:00",
+      "metadata": {
+        "processed_at": "2026-03-09T04:12:37.584784+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "d578c1f8d0ad1376790886cfb0578c89",
+      "url": "https://github.com/Dieu-de-l-elec/AngstromIO-devboard",
+      "title": "PCB devboard the size of a USB-C plug",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47294582\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-08T05:04:14+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-09T02:12:40.318153+00:00",
+      "updated_at": "2026-03-09T04:12:37.584786+00:00",
+      "metadata": {
+        "processed_at": "2026-03-09T04:12:37.584788+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c9ee3ba2f595a75be1fde7320e203b0c",
+      "url": "https://offlinemark.com/an-obscure-quirk-of-proc/",
+      "title": "Linux Internals: How /proc/self/mem writes to unwritable memory (2021)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47302463\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-08T22:50:55+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-09T02:12:40.318272+00:00",
+      "updated_at": "2026-03-09T04:12:37.584778+00:00",
+      "metadata": {
+        "processed_at": "2026-03-09T04:12:37.584780+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f757ab45bd7a111e3222388028fb85fb",
+      "url": "https://news.ycombinator.com/item?id=47303111",
+      "title": "Ask HN: What Are You Working On? (March 2026)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47303111\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-09T00:07:18+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-09T02:12:40.318194+00:00",
+      "updated_at": "2026-03-09T04:12:37.584783+00:00",
+      "metadata": {
+        "processed_at": "2026-03-09T04:12:37.584784+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "f60a43d43a0acccac687e039486f52f1",
       "url": "https://www.reddit.com/r/Python/comments/1rojz8u/polars_vs_pandas/",
       "title": "Polars vs pandas",
@@ -242,126 +362,6 @@
       "updated_at": "2026-03-09T01:45:25.472523+00:00",
       "metadata": {
         "processed_at": "2026-03-09T01:45:25.472524+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3b672c61a9d3ac0c49431038e2ea0623",
-      "url": "https://www.reddit.com/r/Python/comments/1roglzf/i_built_a_local_rest_api_for_apple_photos_search/",
-      "title": "I built a local REST API for Apple Photos \u2014 search, serve images, and batch-delete from localhost",
-      "content": "<!-- SC_OFF --><div class=\"md\"><pre><code>Hey \u2014 I built photokit-api, a FastAPI server that turns your Apple Photos library into a REST API. **What it does:** - Search 10k+ photos by date, album, person, keyword, favorites, screenshots - Serve originals, thumbnails (256px), and medium (1024px) previews - Batch delete photos (one API call, one macOS dialog) - Bearer token auth, localhost-only **How:** - Reads via osxphotos (fast SQLite access to Photos.sqlite) - Image serving via FileResponse/sendfile - Writes via pyobjc + PhotoKit (the only safe way to mutate Photos) ``` pip install photokit-api photokit-api serve # http://127.0.0.1:8787/docs ``` I built it because I wanted to write a photo tagger app without dealing with AppleScript or Swift. The whole thing is ~500 lines of Python. GitHub: https://github.com/bjwalsh93/photokit-api Feedback welcome \u2014 especially on what endpoints would be useful to add. </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/OkClient9970\"> /u/OkClient9970 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1roglzf/i_built_a_local_rest_api_for_apple_photos_search/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1roglzf/i_built_a_local_rest_api_for_apple_photos_search/\">[comments]</a></span>",
-      "author": "/u/OkClient9970",
-      "published_date": "2026-03-08T21:11:04+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 155,
-      "reading_time": 1,
-      "created_at": "2026-03-08T22:25:39.253104+00:00",
-      "updated_at": "2026-03-09T01:45:25.472527+00:00",
-      "metadata": {
-        "processed_at": "2026-03-09T01:45:25.472529+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4549e551ec66824d4985b138f4d28f88",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1755548",
-      "title": "Extracellular stimulation and ephaptic coupling of neurons in a fully coupled finite element-based Extracellular\u2014Membrane\u2014Intracellular (EMI) model",
-      "content": "IntroductionThe extracellular potential surrounding neurons is of great importance: it is measured to interpret neural activity, it underpins ephaptic coupling between neighboring cells, and it forms the basis for external stimulation of neural tissue. These phenomena have been studied for decades, both experimentally and computationally. In computational models, variants of the classical cable equation for membrane dynamics and an electrostatic equation for the extracellular field are the most common approaches. Such formulations however, typically decouple the governing equations and therefore neglect the bidirectional coupling between the extracellular (E) space, the cell membrane (M), and the intracellular (I) space.MethodsWe use a finite element-based Extracellular-Membrane-Intracellular (EMI) approach that solves a fully coupled system to study extracellular stimulation and ephaptic coupling in detailed models of cerebellar Purkinje neurons and neocortical layer 5 pyramidal neurons. We vary the distance to the stimulation source, the amplitude, and the frequency of an external current, and we simulate two-cell configurations to assess ephaptic spike-timing effects, synchronization, and the possibility of direct ephaptic action potential triggering.ResultsWe find that weak sinusoidal stimulation induces subthreshold membrane oscillations that follow the stimulus frequency, and that constant or sinusoidal extracellular stimulation modulate spike rates and spike timing in a manner that depends on stimulation strength and distance. In two-cell simulations, we find that Purkinje neurons synchronize ephaptically in a distance-and extracellular-conductivity-dependent manner, and that pyramidal neuron spike timing is altered by a neighboring firing cell. Direct ephaptic triggering requires markedly reduced extracellular conductivity relative to bulk values.DiscussionThe results provide quantitative insight into extracellular field-mediated neural coupling and how externally applied fields, such as those used in deep brain stimulation, interact with single-neuron biophysics. The results support the view that ephaptic interactions between neurons are more plausibly expressed as spike-timing modulation and synchronization than as direct excitatory triggering under physiological conditions.",
-      "author": "Aslak Tveito",
-      "published_date": "2026-02-12T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 298,
-      "reading_time": 1,
-      "created_at": "2026-03-08T21:25:48.171010+00:00",
-      "updated_at": "2026-03-08T22:18:46.670950+00:00",
-      "metadata": {
-        "processed_at": "2026-03-08T22:18:46.670962+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a6d3a89ebf156d94c07967b7d0f4998f",
-      "url": "https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/",
-      "title": "We should revisit literate programming in the agent era",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47300747\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-08T19:58:15+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-08T21:25:16.075493+00:00",
-      "updated_at": "2026-03-08T22:18:46.670966+00:00",
-      "metadata": {
-        "processed_at": "2026-03-08T22:18:46.670968+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a6d3a89ebf156d94c07967b7d0f4998f",
-      "url": "https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/",
-      "title": "We should revisit literate programming in the agent era",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47300747\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-08T19:58:15+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-08T21:25:16.075493+00:00",
-      "updated_at": "2026-03-08T22:18:46.670966+00:00",
-      "metadata": {
-        "processed_at": "2026-03-08T22:18:46.670968+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "403a77efd9b5833bd85df952ef738fda",
-      "url": "https://www.youtube.com/watch?v=qZuR-772cks",
-      "title": "Microscopes Can See Video on a LaserDisc",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47291876\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-07T22:03:37+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-08T21:25:16.075419+00:00",
-      "updated_at": "2026-03-08T22:18:46.670971+00:00",
-      "metadata": {
-        "processed_at": "2026-03-08T22:18:46.670972+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fc1cb98779a73979d2c61645ec11fb41",
-      "url": "https://bret.dk/every-single-board-computer-i-tested-in-2025/",
-      "title": "Every Single Board Computer I Tested in 2025",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47260812\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-05T12:24:10+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-08T21:25:16.075380+00:00",
-      "updated_at": "2026-03-08T22:18:46.670974+00:00",
-      "metadata": {
-        "processed_at": "2026-03-08T22:18:46.670976+00:00",
         "processing_method": "github_actions"
       }
     }
