@@ -1,5 +1,37 @@
 [
   {
+    "id": "3c7fae2baf6b38c94203ee460e2abdd6",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.03.07.709953v1?rss=1",
+    "title": "Dual reinforcement-learning network modules for modeling decision-making with multiple strategies",
+    "content": "Animals and humans use multiple behavioral strategies to perform tasks. However, neural implementations of multiple strategies remain elusive, as some studies propose distinct pathways, while others observe overlapping brain regions associated with strategies. We propose a hybrid deep reinforcement learning (H-DRL) method, in which one network model implements model-free and inference-based behaviors through synaptic plasticity and recurrent activity. H-DRL uses a single updating rule and switches the strategy according to task demands without an explicit arbitrator. H-DRL reproduced mixed strategies of humans in a two-step task. In the mouse perceptual decision-making task, H-DRL adapted the recurrent dynamics with rich learning when the task condition required inference-based behavior, while adopting model-free behavior with lazy learning for a simple condition. The activity of H-DRL units showed condition-dependent maintenance of previous events, consistent with orbitofrontal cortical activity in mice. Our model provides a unified view that one cortical network automatically determines strategies in use depending on task conditions.",
+    "author": "Maeda, H., Wang, S., Funamizu, A.",
+    "published_date": "2026-03-10T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 155,
+    "reading_time": 1,
+    "created_at": "2026-03-10T22:31:07.826333+00:00",
+    "updated_at": "2026-03-10T22:31:07.826338+00:00"
+  },
+  {
+    "id": "d3136163b0f29d828f6b1921f05d384e",
+    "url": "https://www.nature.com/articles/s41419-026-08536-0",
+    "title": "GABAergic ventrolateral preoptic projection to dorsomedial hypothalamus recapitulates post-ischemic neuroprotection by hypothermia",
+    "content": "",
+    "author": "",
+    "published_date": "2026-03-10T00:00:00+00:00",
+    "source": "Nature Neuroscience Subjects",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2026-03-10T22:31:06.179205+00:00",
+    "updated_at": "2026-03-10T22:31:06.179207+00:00"
+  },
+  {
     "id": "fbdd2d19f583ba39a58e158de8a2f2a2",
     "url": "https://www.nature.com/articles/s41598-026-43341-x",
     "title": "Trust in medical art is the most effective coping mechanism for predicting treatment satisfaction in elective neurosurgery",
@@ -17130,37 +17162,5 @@
     "reading_time": 1,
     "created_at": "2026-03-06T05:32:53.378123+00:00",
     "updated_at": "2026-03-06T05:32:53.378128+00:00"
-  },
-  {
-    "id": "6294aa5e797f585045e1998718fd0629",
-    "url": "https://www.nature.com/articles/s41531-026-01311-0",
-    "title": "Pedunculopontine-thalamic cholinergic projections in rapid eye movement sleep behaviour disorder",
-    "content": "",
-    "author": "",
-    "published_date": "2026-03-06T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-03-06T05:32:51.714483+00:00",
-    "updated_at": "2026-03-06T05:32:51.714484+00:00"
-  },
-  {
-    "id": "9befd0f79233f2eb63eda69060f0b490",
-    "url": "https://www.nature.com/articles/s41537-026-00728-z",
-    "title": "An ENIGMA Consortium study of the relationship between white matter microstructure and positive and negative symptom severity in patients with schizophrenia",
-    "content": "",
-    "author": "",
-    "published_date": "2026-03-06T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-03-06T05:32:51.714463+00:00",
-    "updated_at": "2026-03-06T05:32:51.714465+00:00"
   }
 ]
