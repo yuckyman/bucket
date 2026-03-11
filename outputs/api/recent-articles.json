@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-03-11T08:44:44.757851+00:00",
+  "last_updated": "2026-03-11T09:44:36.259642+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "a754f14e17a950de8a4832178ca7e0ed",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1705259",
+      "title": "Optimized facial landmark modeling with medical aesthetic constraints by a multi-objective genetic algorithm",
+      "content": "\u201cFacial Beauty\u201d is not an absolute physical attribute but a subjective social and cultural construct. Facial beauty assessment is an interdisciplinary field that integrates computer vision and medical aesthetics (MAs) to quantify personal judgment regarding facial attractiveness. In this study, the beauty assessment we adopted was based on the scores given by plastic surgeons; this method is more professional and is supported by a theoretical basis. We derived a set of MA features that encompass global traits, local details, and curvature aspects from established aesthetic principles. Incorporating these features enhances predictive accuracy in facial beauty. Furthermore, we propose a feature selection algorithm with aesthetic-driven initialization embedded in a multi-objective evolutionary framework. Additionally, we introduce an MA facial landmark model that provides explicit annotation of bilateral zygomatic, orbital, and nasal points for precise attractiveness scoring. Experimental results on the South China University of Technology-Facial Beauty Perception (SCUT-FBP) and SCUT-FBP5500 datasets and the Chicago Face Dataset demonstrate superior performance (Pearson\u2019s correlation coefficient\u202f=\u202f0.8216, mean absolute error\u202f=\u202f0.2638, and root mean square error\u202f=\u202f0.3743) over state-of-the-art methods, validating its clinical relevance. This study provides a practical tool for beauty evaluation, where the selected features align with professional judgments, enabling transparent and explainable outcomes in both clinical and cosmetic applications.",
+      "author": "Meijun Tan",
+      "published_date": "2026-02-25T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 209,
+      "reading_time": 1,
+      "created_at": "2026-03-11T09:43:57.673998+00:00",
+      "updated_at": "2026-03-11T09:43:57.674000+00:00"
+    },
+    {
+      "id": "8a03d7bd7a7102aade8c2bc2d1f5a64d",
+      "url": "https://www.reddit.com/r/Python/comments/1rqofo5/matrixa_a_purepython_matrix_library_that_explains/",
+      "title": "matrixa \u2013 a pure-Python matrix library that explains its own algorithms step by step",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What My Project Does</strong></p> <p>matrixa is a pure-Python linear algebra library (zero dependencies) built around a custom Matrix type. Its defining feature is verbose=True mode \u2014 every major operation can print a step-by-step explanation of what it's doing as it runs:</p> <pre><code>from matrixa import Matrix A = Matrix([[6, 1, 1], [4, -2, 5], [2, 8, 7]]) A.determinant(verbose=True) # \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 # determinant() \u2014 3\u00d73 matrix # \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 # Using LU decomposition with partial pivoting (Doolittle): # Permutation vector P = [0, 2, 1] # Row-swap parity (sign) = -1 # U[0,0] = 6 U[1,1] = 8.5 U[2,2] = 6.0 # det = sign \u00d7 \u220f U[i,i] = -1 \u00d7 -306.0 = -306.0 # \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 </code></pre> <p>Same for the linear solver \u2014 A.solve(b, verbose=True) prints every row-swap and elimination step. It also supports:</p> <ul> <li>dtype='fraction' for exact rational arithmetic (no float rounding)</li> <li>lu_decomposition() returning proper (P, L, U) where P @ A == L @ U</li> <li>NumPy-style slicing: A[0:2, 1:3], A[:, 0], A[1, :]</li> <li>All 4 matrix norms: frobenius, 1, inf, 2 (spectral)</li> <li>LaTeX export: A.to_latex()</li> <li>2D/3D graphics transform matrices</li> </ul> <p>pip install matrixa <a href=\"https://github.com/raghavendra-24/matrixa\">https://github.com/raghavendra-24/matrixa</a></p> <p><strong>Target Audience</strong></p> <p>Students taking linear algebra courses, educators who teach numerical methods, and self-learners working through algorithm textbooks. This is NOT a production tool \u2014 it's a learning tool. If you're processing real data, use NumPy.</p> <p><strong>Comparison</strong></p> <table><thead> <tr> <th align=\"left\">Factor</th> <th align=\"left\">matrixa</th> <th align=\"left\">NumPy</th> <th align=\"left\">sympy</th> </tr> </thead><tbody> <tr> <td align=\"left\">Dependencies</td> <td align=\"left\">Zero</td> <td align=\"left\">C + BLAS</td> <td align=\"left\">many</td> </tr> <tr> <td align=\"left\">verbose step-by-step output</td> <td align=\"left\">\u2705</td> <td align=\"left\">\u274c</td> <td align=\"left\">\u274c</td> </tr> <tr> <td align=\"left\">Exact rational arithmetic</td> <td align=\"left\">\u2705 (Fraction)</td> <td align=\"left\">\u274c</td> <td align=\"left\">\u2705</td> </tr> <tr> <td align=\"left\">LaTeX export</td> <td align=\"left\">\u2705</td> <td align=\"left\">\u274c</td> <td align=\"left\">\u2705</td> </tr> <tr> <td align=\"left\">GPU / large arrays</td> <td align=\"left\">\u274c</td> <td align=\"left\">\u2705</td> <td align=\"left\">\u274c</td> </tr> <tr> <td align=\"left\">Readable pure-Python source</td> <td align=\"left\">\u2705</td> <td align=\"left\">\u274c</td> <td align=\"left\">partial</td> </tr> </tbody></table> <p>NumPy is faster by orders of magnitude and should be your choice for any real workload. sympy does symbolic math (not numeric). matrixa sits in a gap neither fills: numeric computation in pure Python where you can read the source, run it with verbose=True, and understand what's actually happening. Think of it as a textbook that runs.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Willing-Effect-2510\"> /u/Willing-Effect-2510 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rqofo5/matrixa_a_purepython_matrix_library_that_explains/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rqofo5/matrixa_a_purepython_matrix_library_that_explains/\">[comments]</a></span>",
+      "author": "/u/Willing-Effect-2510",
+      "published_date": "2026-03-11T08:49:58+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 385,
+      "reading_time": 1,
+      "created_at": "2026-03-11T09:43:29.079758+00:00",
+      "updated_at": "2026-03-11T09:43:29.079760+00:00"
+    },
     {
       "id": "6b693b7f6fb3fd5b438e0b124c8038a0",
       "url": "https://www.reddit.com/r/Python/comments/1rq8gy5/tips_for_a_debugging_competition/",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-03-11T06:57:33.027645+00:00",
       "updated_at": "2026-03-11T06:57:33.027646+00:00"
-    },
-    {
-      "id": "5c76ce4cda31d44484a698ee4631ec7d",
-      "url": "https://www.nature.com/articles/s41598-026-43240-1",
-      "title": "The efficacy of disease-modifying therapies in patients with clinically isolated syndrome: a systematic review and network meta-analysis",
-      "content": "",
-      "author": "",
-      "published_date": "2026-03-11T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-11T06:56:44.385131+00:00",
-      "updated_at": "2026-03-11T06:56:44.385133+00:00"
-    },
-    {
-      "id": "19b0041621900161512e58f21b98f010",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1812259",
-      "title": "Editorial: Unraveling information encoding and representation in memory formation and learning",
-      "content": "",
-      "author": "Fernando Montani",
-      "published_date": "2026-03-11T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-11T06:56:35.712591+00:00",
-      "updated_at": "2026-03-11T06:56:35.712597+00:00"
     }
   ]
 }
