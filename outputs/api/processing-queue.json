@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-03-11T08:35:04.988326+00:00",
-  "pending_count": 713,
-  "processed_count": 287,
+  "last_updated": "2026-03-11T10:34:11.958791+00:00",
+  "pending_count": 706,
+  "processed_count": 294,
   "pending_articles": [
+    {
+      "id": "2fc0cdcfa330f292edde15839848ff71",
+      "url": "https://github.com/rcarmo/piclaw",
+      "title": "I'm going to build my own OpenClaw, with blackjack and bun",
+      "content": "<p>Article URL: <a href=\"https://github.com/rcarmo/piclaw\">https://github.com/rcarmo/piclaw</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47332649\">https://news.ycombinator.com/item?id=47332649</a></p>\n<p>Points: 23</p>\n<p># Comments: 12</p>",
+      "author": "rcarmo",
+      "published_date": "2026-03-11T07:36:18+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-11T08:43:33.879814+00:00",
+      "updated_at": "2026-03-11T08:43:33.879816+00:00"
+    },
     {
       "id": "12192e88096599a4d9bd4641c2c6489b",
       "url": "https://www.sciencedirect.com/science/article/pii/S1053811926001552?dgcid=rss_sd_all",
@@ -146,25 +162,149 @@
       "reading_time": 1,
       "created_at": "2026-03-11T06:56:35.712591+00:00",
       "updated_at": "2026-03-11T06:56:35.712597+00:00"
-    },
-    {
-      "id": "ddb7206bd90bd5143c535334b66d664a",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2026.1776794",
-      "title": "Functional properties of dorsolateral prefrontal cortex to primary motor cortex connectivity: a dual-site TMS study",
-      "content": "BackgroundThe dorsolateral prefrontal cortex (DLPFC) plays a crucial role in cognitive-motor integration through its top-down regulation of the primary motor cortex (M1). However, the functional lateralization of the left and right DLPFC and the differences between intra-hemispheric and inter-hemispheric regulation of M1, particularly in populations with brain injury, remain controversial and insufficiently studied.ObjectiveThis study aimed to systematically achieve the following four objectives using a dual-site paired-pulse transcranial magnetic stimulation (TMS) technique: (1) to evaluate the integrated regulatory effects of bilateral DLPFC on M1; (2) to compare the differences in regulatory effects between ipsilateral and contralateral DLPFC; (3) to analyze the impact of functional lateralization of the left and right DLPFC on their regulation of M1; (4) to investigate the effects of brain injury on the DLPFC-M1 regulatory pathway by comparing healthy participants and stroke patients.MethodsA total of 30 right-handed participants were enrolled, including 20 stroke patients in the recovery phase (divided into left and right lesion groups) and 10 healthy volunteers. These three participant groups were tested under conditions that varied the targeted motor cortex (M1) side, yielding four key experimental conditions for analysis. Accordingly, a paired-pulse TMS paradigm was employed. Following a conditioning stimulus (CS) applied to the left or right DLPFC, a test stimulus (TS) was delivered to the ipsilateral or contralateral M1 after an inter-stimulus interval of 20\u202fms. The amplitude of the motor evoked potential (MEP) was recorded.ResultsIn experiments targeting the left M1, both the healthy group (Experiment 1) and the patient group (Experiment 3) exhibited significant regulatory effects (\u03c72\u202f=\u202f12.2, p\u202f=\u202f0.002; \u03c72\u202f=\u202f9.6, p\u202f=\u202f0.008). Post-hoc analysis revealed that, compared to baseline, both ipsilateral DLPFC (p\u202f=\u202f0.011; p\u202f=\u202f0.022) and contralateral DLPFC (p\u202f=\u202f0.005; p\u202f=\u202f0.022) significantly enhanced M1 excitability, with no significant difference between the two (p\u202f=\u202f1.000). However, in experiments targeting the right M1 across all groups (Experiments 2 and 4), no significant regulatory effect of DLPFC was observed (\u03c72\u202f=\u202f0.2, p\u202f=\u202f0.905).ConclusionThis study confirms that, at rest, the bilateral DLPFC exerts a stable and non-specific facilitatory regulation on the left M1. This effect persists in the affected M1 of stroke patients, suggesting plasticity in the relevant pathways after injury. The negative findings for the right M1 reveal a lateralization characteristic in DLPFC-M1 regulation. These results provide an important basis for elucidating the physiological mechanisms of cognitive-motor circuits and for developing targeted neurorehabilitation strategies.",
-      "author": "Ben-Guo Wang",
-      "published_date": "2026-03-11T00:00:00+00:00",
-      "source": "Frontiers Human Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 403,
-      "reading_time": 2,
-      "created_at": "2026-03-11T06:56:34.230777+00:00",
-      "updated_at": "2026-03-11T06:56:34.230778+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "a754f14e17a950de8a4832178ca7e0ed",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1705259",
+      "title": "Optimized facial landmark modeling with medical aesthetic constraints by a multi-objective genetic algorithm",
+      "content": "\u201cFacial Beauty\u201d is not an absolute physical attribute but a subjective social and cultural construct. Facial beauty assessment is an interdisciplinary field that integrates computer vision and medical aesthetics (MAs) to quantify personal judgment regarding facial attractiveness. In this study, the beauty assessment we adopted was based on the scores given by plastic surgeons; this method is more professional and is supported by a theoretical basis. We derived a set of MA features that encompass global traits, local details, and curvature aspects from established aesthetic principles. Incorporating these features enhances predictive accuracy in facial beauty. Furthermore, we propose a feature selection algorithm with aesthetic-driven initialization embedded in a multi-objective evolutionary framework. Additionally, we introduce an MA facial landmark model that provides explicit annotation of bilateral zygomatic, orbital, and nasal points for precise attractiveness scoring. Experimental results on the South China University of Technology-Facial Beauty Perception (SCUT-FBP) and SCUT-FBP5500 datasets and the Chicago Face Dataset demonstrate superior performance (Pearson\u2019s correlation coefficient\u202f=\u202f0.8216, mean absolute error\u202f=\u202f0.2638, and root mean square error\u202f=\u202f0.3743) over state-of-the-art methods, validating its clinical relevance. This study provides a practical tool for beauty evaluation, where the selected features align with professional judgments, enabling transparent and explainable outcomes in both clinical and cosmetic applications.",
+      "author": "Meijun Tan",
+      "published_date": "2026-02-25T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 209,
+      "reading_time": 1,
+      "created_at": "2026-03-11T09:43:57.673998+00:00",
+      "updated_at": "2026-03-11T10:34:11.835349+00:00",
+      "metadata": {
+        "processed_at": "2026-03-11T10:34:11.835360+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "8a03d7bd7a7102aade8c2bc2d1f5a64d",
+      "url": "https://www.reddit.com/r/Python/comments/1rqofo5/matrixa_a_purepython_matrix_library_that_explains/",
+      "title": "matrixa \u2013 a pure-Python matrix library that explains its own algorithms step by step",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>What My Project Does</strong></p> <p>matrixa is a pure-Python linear algebra library (zero dependencies) built around a custom Matrix type. Its defining feature is verbose=True mode \u2014 every major operation can print a step-by-step explanation of what it's doing as it runs:</p> <pre><code>from matrixa import Matrix A = Matrix([[6, 1, 1], [4, -2, 5], [2, 8, 7]]) A.determinant(verbose=True) # \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 # determinant() \u2014 3\u00d73 matrix # \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 # Using LU decomposition with partial pivoting (Doolittle): # Permutation vector P = [0, 2, 1] # Row-swap parity (sign) = -1 # U[0,0] = 6 U[1,1] = 8.5 U[2,2] = 6.0 # det = sign \u00d7 \u220f U[i,i] = -1 \u00d7 -306.0 = -306.0 # \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 </code></pre> <p>Same for the linear solver \u2014 A.solve(b, verbose=True) prints every row-swap and elimination step. It also supports:</p> <ul> <li>dtype='fraction' for exact rational arithmetic (no float rounding)</li> <li>lu_decomposition() returning proper (P, L, U) where P @ A == L @ U</li> <li>NumPy-style slicing: A[0:2, 1:3], A[:, 0], A[1, :]</li> <li>All 4 matrix norms: frobenius, 1, inf, 2 (spectral)</li> <li>LaTeX export: A.to_latex()</li> <li>2D/3D graphics transform matrices</li> </ul> <p>pip install matrixa <a href=\"https://github.com/raghavendra-24/matrixa\">https://github.com/raghavendra-24/matrixa</a></p> <p><strong>Target Audience</strong></p> <p>Students taking linear algebra courses, educators who teach numerical methods, and self-learners working through algorithm textbooks. This is NOT a production tool \u2014 it's a learning tool. If you're processing real data, use NumPy.</p> <p><strong>Comparison</strong></p> <table><thead> <tr> <th align=\"left\">Factor</th> <th align=\"left\">matrixa</th> <th align=\"left\">NumPy</th> <th align=\"left\">sympy</th> </tr> </thead><tbody> <tr> <td align=\"left\">Dependencies</td> <td align=\"left\">Zero</td> <td align=\"left\">C + BLAS</td> <td align=\"left\">many</td> </tr> <tr> <td align=\"left\">verbose step-by-step output</td> <td align=\"left\">\u2705</td> <td align=\"left\">\u274c</td> <td align=\"left\">\u274c</td> </tr> <tr> <td align=\"left\">Exact rational arithmetic</td> <td align=\"left\">\u2705 (Fraction)</td> <td align=\"left\">\u274c</td> <td align=\"left\">\u2705</td> </tr> <tr> <td align=\"left\">LaTeX export</td> <td align=\"left\">\u2705</td> <td align=\"left\">\u274c</td> <td align=\"left\">\u2705</td> </tr> <tr> <td align=\"left\">GPU / large arrays</td> <td align=\"left\">\u274c</td> <td align=\"left\">\u2705</td> <td align=\"left\">\u274c</td> </tr> <tr> <td align=\"left\">Readable pure-Python source</td> <td align=\"left\">\u2705</td> <td align=\"left\">\u274c</td> <td align=\"left\">partial</td> </tr> </tbody></table> <p>NumPy is faster by orders of magnitude and should be your choice for any real workload. sympy does symbolic math (not numeric). matrixa sits in a gap neither fills: numeric computation in pure Python where you can read the source, run it with verbose=True, and understand what's actually happening. Think of it as a textbook that runs.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Willing-Effect-2510\"> /u/Willing-Effect-2510 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rqofo5/matrixa_a_purepython_matrix_library_that_explains/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rqofo5/matrixa_a_purepython_matrix_library_that_explains/\">[comments]</a></span>",
+      "author": "/u/Willing-Effect-2510",
+      "published_date": "2026-03-11T08:49:58+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 385,
+      "reading_time": 1,
+      "created_at": "2026-03-11T09:43:29.079758+00:00",
+      "updated_at": "2026-03-11T10:34:11.835366+00:00",
+      "metadata": {
+        "processed_at": "2026-03-11T10:34:11.835368+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6b693b7f6fb3fd5b438e0b124c8038a0",
+      "url": "https://www.reddit.com/r/Python/comments/1rq8gy5/tips_for_a_debugging_competition/",
+      "title": "Tips for a debugging competition",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I have a python debugging competition in my college tomorrow, I don't have much experience in python yet I'm still taking part in it. Can anyone please give me some tips for it \ud83d\ude4f\ud83c\udffb</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/an_account_1177\"> /u/an_account_1177 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rq8gy5/tips_for_a_debugging_competition/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rq8gy5/tips_for_a_debugging_competition/\">[comments]</a></span>",
+      "author": "/u/an_account_1177",
+      "published_date": "2026-03-10T20:29:58+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 55,
+      "reading_time": 1,
+      "created_at": "2026-03-11T08:43:36.398058+00:00",
+      "updated_at": "2026-03-11T10:34:11.835371+00:00",
+      "metadata": {
+        "processed_at": "2026-03-11T10:34:11.835373+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "5cacc5b0011acbf95a7aeee01f935e67",
+      "url": "https://github.com/RightNow-AI/autokernel",
+      "title": "AutoKernel: Autoresearch for GPU Kernels",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47332688\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-11T07:42:10+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-11T08:43:35.147510+00:00",
+      "updated_at": "2026-03-11T10:34:11.835375+00:00",
+      "metadata": {
+        "processed_at": "2026-03-11T10:34:11.835376+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "df8dacb545c772ea1f7008a9ad1feec5",
+      "url": "https://eclecticlight.co/2026/03/11/why-does-ai-tell-you-to-use-terminal-so-much/",
+      "title": "Why does AI tell you to use Terminal so much?",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47332939\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-11T08:22:28+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-11T08:43:35.147319+00:00",
+      "updated_at": "2026-03-11T10:34:11.835379+00:00",
+      "metadata": {
+        "processed_at": "2026-03-11T10:34:11.835383+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "5cacc5b0011acbf95a7aeee01f935e67",
+      "url": "https://github.com/RightNow-AI/autokernel",
+      "title": "AutoKernel: Autoresearch for GPU Kernels",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47332688\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-11T07:42:10+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-11T08:43:35.147510+00:00",
+      "updated_at": "2026-03-11T10:34:11.835375+00:00",
+      "metadata": {
+        "processed_at": "2026-03-11T10:34:11.835376+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "df8dacb545c772ea1f7008a9ad1feec5",
+      "url": "https://eclecticlight.co/2026/03/11/why-does-ai-tell-you-to-use-terminal-so-much/",
+      "title": "Why does AI tell you to use Terminal so much?",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47332939\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-11T08:22:28+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-11T08:43:35.147319+00:00",
+      "updated_at": "2026-03-11T10:34:11.835379+00:00",
+      "metadata": {
+        "processed_at": "2026-03-11T10:34:11.835383+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "2b7394aa91c4d033600e798d2bd66e33",
       "url": "https://www.sciencedirect.com/science/article/pii/S0006899326001046?dgcid=rss_sd_all",
@@ -222,146 +362,6 @@
       "updated_at": "2026-03-11T08:35:04.870497+00:00",
       "metadata": {
         "processed_at": "2026-03-11T08:35:04.870499+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "46009a6d319537deff9204fcd0877feb",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001120?dgcid=rss_sd_all",
-      "title": "Glutamate chemical exchange saturation transfer imaging reveals cerebellar glutamatergic alterations in Parkinson\u2019s disease subtypes",
-      "content": "<p>Publication date: 7 May 2026</p><p><b>Source:</b> Neuroscience, Volume 601</p><p>Author(s): Minglong Li, Rong Guo, Miaomiao Liu, LuMeng Xu, Hongyu Ning, Jing Wang, Quanyuan Liu, Xianglin Li, Hongcai Wang</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 26,
-      "reading_time": 1,
-      "created_at": "2026-03-11T07:45:28.880416+00:00",
-      "updated_at": "2026-03-11T08:35:04.870501+00:00",
-      "metadata": {
-        "processed_at": "2026-03-11T08:35:04.870503+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "223b850f82c91883615f7b67b899ed50",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001569?dgcid=rss_sd_all",
-      "title": "Trained immunity in neuroinflammation: emerging evidence, clinical perspectives, and future directions",
-      "content": "<p>Publication date: 7 May 2026</p><p><b>Source:</b> Neuroscience, Volume 601</p><p>Author(s): Enis Guso, Alessia Lupoli, Emanuele Olivieri, Alessia Bottoni, Maira Gironi, Davide M. Missarelli, Ahmed T. Toosy, Elena Rossi, Roberto Furlan</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 28,
-      "reading_time": 1,
-      "created_at": "2026-03-11T07:45:28.880347+00:00",
-      "updated_at": "2026-03-11T08:35:04.870505+00:00",
-      "metadata": {
-        "processed_at": "2026-03-11T08:35:04.870507+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ac6f3ab92725084e2b49600ca6243d2a",
-      "url": "https://brain.ieee.org/braininsight-articles/call-for-papers-ieee-transactions-on-human-machine-systems/",
-      "title": "Call for Papers: IEEE Transactions on Human-Machine Systems",
-      "content": "",
-      "author": "Adriel Carridice",
-      "published_date": "2025-06-18T14:50:14+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-11T05:34:35.558114+00:00",
-      "updated_at": "2026-03-11T06:44:26.329377+00:00",
-      "metadata": {
-        "processed_at": "2026-03-11T06:44:26.329387+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d55ba19f2293e3ed3a821d293d1bf0ec",
-      "url": "https://www.embs.org/featured-news/newly-appointed-editors-in-chief/",
-      "title": "Newly Appointed Editors-in-Chief",
-      "content": "<p>&#160;</p>\n<p>The post <a href=\"https://www.embs.org/featured-news/newly-appointed-editors-in-chief/\">Newly Appointed Editors-in-Chief</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "dziura",
-      "published_date": "2025-12-08T20:29:15+00:00",
-      "source": "Embs",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-11T05:34:28.431112+00:00",
-      "updated_at": "2026-03-11T06:44:26.329391+00:00",
-      "metadata": {
-        "processed_at": "2026-03-11T06:44:26.329393+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "34ca04f8db4a1d7e1dd57eea210bf4b7",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.08.710410v1?rss=1",
-      "title": "SPICE: Fast parametric inference of significance for spatial associations between brain maps",
-      "content": "Testing for spatial correlations between pairs of brain maps has emerged as a central task in neuroimaging studies. Determining the statistical significance of such correlations is challenging due to the presence of spatial autocorrelation in brain maps. Here we establish a novel parametric method, Spatial Parametric Inference for Correspondence Estimation (SPICE), to infer the significance of spatial associations between brain maps via covariance-variance modelling and effective degrees of freedom estimation. Our method is fast, reliable, and sensitive, enabling flexible significance testing of brain map correlations over arbitrary cortical surface and brain volumetric domains. We examine the sensitivity and specificity of SPICE using simulated datasets with known ground truth and demonstrate its utility when applied to empirical brain maps. We extend SPICE to approximately model modest nonstationarity in spatial autocorrelation and show that, our method yields improved false positive control and statistical power relative to existing approaches when brain maps are spatially heterogeneous.",
-      "author": "Liu, Y., Zalesky, A.",
-      "published_date": "2026-03-10T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 152,
-      "reading_time": 1,
-      "created_at": "2026-03-11T05:34:16.457311+00:00",
-      "updated_at": "2026-03-11T06:44:26.329395+00:00",
-      "metadata": {
-        "processed_at": "2026-03-11T06:44:26.329397+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f5ef88a690681cf53deaa3f237abadaa",
-      "url": "https://www.nature.com/articles/s41598-026-42998-8",
-      "title": "A dual-branch deep learning framework for emotion recognition from EEG signals",
-      "content": "",
-      "author": "",
-      "published_date": "2026-03-11T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-11T05:33:52.878730+00:00",
-      "updated_at": "2026-03-11T06:44:26.329399+00:00",
-      "metadata": {
-        "processed_at": "2026-03-11T06:44:26.329401+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ca7f589cc1c856a6b520cf5847eb250a",
-      "url": "https://www.nature.com/articles/s41598-026-43430-x",
-      "title": "Cost-effective, open-source, automated apparatus for testing transitive inference in mice",
-      "content": "",
-      "author": "",
-      "published_date": "2026-03-11T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-11T05:33:52.878647+00:00",
-      "updated_at": "2026-03-11T06:44:26.329403+00:00",
-      "metadata": {
-        "processed_at": "2026-03-11T06:44:26.329405+00:00",
         "processing_method": "github_actions"
       }
     }
