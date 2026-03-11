@@ -1,8 +1,56 @@
 {
-  "last_updated": "2026-03-10T22:23:29.001016+00:00",
-  "pending_count": 709,
-  "processed_count": 291,
+  "last_updated": "2026-03-11T01:27:38.935997+00:00",
+  "pending_count": 704,
+  "processed_count": 296,
   "pending_articles": [
+    {
+      "id": "be8694cd4574f3d43658f8453852566e",
+      "url": "https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html",
+      "title": "Universal vaccine against respiratory infections and allergens",
+      "content": "<p>Article URL: <a href=\"https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html\">https://med.stanford.edu/news/all-news/2026/02/universal-vaccine.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47329608\">https://news.ycombinator.com/item?id=47329608</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
+      "author": "phony-account",
+      "published_date": "2026-03-10T22:33:48+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-10T22:57:14.847930+00:00",
+      "updated_at": "2026-03-10T22:57:14.847941+00:00"
+    },
+    {
+      "id": "3c7fae2baf6b38c94203ee460e2abdd6",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.07.709953v1?rss=1",
+      "title": "Dual reinforcement-learning network modules for modeling decision-making with multiple strategies",
+      "content": "Animals and humans use multiple behavioral strategies to perform tasks. However, neural implementations of multiple strategies remain elusive, as some studies propose distinct pathways, while others observe overlapping brain regions associated with strategies. We propose a hybrid deep reinforcement learning (H-DRL) method, in which one network model implements model-free and inference-based behaviors through synaptic plasticity and recurrent activity. H-DRL uses a single updating rule and switches the strategy according to task demands without an explicit arbitrator. H-DRL reproduced mixed strategies of humans in a two-step task. In the mouse perceptual decision-making task, H-DRL adapted the recurrent dynamics with rich learning when the task condition required inference-based behavior, while adopting model-free behavior with lazy learning for a simple condition. The activity of H-DRL units showed condition-dependent maintenance of previous events, consistent with orbitofrontal cortical activity in mice. Our model provides a unified view that one cortical network automatically determines strategies in use depending on task conditions.",
+      "author": "Maeda, H., Wang, S., Funamizu, A.",
+      "published_date": "2026-03-10T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 155,
+      "reading_time": 1,
+      "created_at": "2026-03-10T22:31:07.826333+00:00",
+      "updated_at": "2026-03-10T22:31:07.826338+00:00"
+    },
+    {
+      "id": "d3136163b0f29d828f6b1921f05d384e",
+      "url": "https://www.nature.com/articles/s41419-026-08536-0",
+      "title": "GABAergic ventrolateral preoptic projection to dorsomedial hypothalamus recapitulates post-ischemic neuroprotection by hypothermia",
+      "content": "",
+      "author": "",
+      "published_date": "2026-03-10T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-03-10T22:31:06.179205+00:00",
+      "updated_at": "2026-03-10T22:31:06.179207+00:00"
+    },
     {
       "id": "ecda6f654681d90582139df3f901940d",
       "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.708552v1?rss=1",
@@ -114,57 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-03-10T20:35:59.466604+00:00",
       "updated_at": "2026-03-10T20:35:59.466614+00:00"
-    },
+    }
+  ],
+  "recently_processed": [
     {
-      "id": "71661d77fb4757d7beda4b573294e05c",
-      "url": "https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep",
-      "title": "You Hired the AI to Write the Tests. Of Course They Pass",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47327559\">Comments</a>",
+      "id": "7d8931441bd63abb57218ccc9a726ab9",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/",
+      "title": "Cloudflare Crawl Endpoint",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47329557\">Comments</a>",
       "author": "",
-      "published_date": "2026-03-10T19:09:46+00:00",
+      "published_date": "2026-03-10T22:27:15+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-10T19:39:01.531749+00:00",
-      "updated_at": "2026-03-10T19:39:01.531751+00:00"
+      "created_at": "2026-03-10T23:32:45.111512+00:00",
+      "updated_at": "2026-03-11T01:27:38.813737+00:00",
+      "metadata": {
+        "processed_at": "2026-03-11T01:27:38.813747+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "470bf61b6db772557541d6cb71971fc2",
-      "url": "https://arxiv.org/abs/2603.06911",
-      "title": "Isotopic Evidence for a Cold and Distant Origin of Interstellar Object 3I/Atlas",
-      "content": "<p>Article URL: <a href=\"https://arxiv.org/abs/2603.06911\">https://arxiv.org/abs/2603.06911</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47326034\">https://news.ycombinator.com/item?id=47326034</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
-      "author": "bikenaga",
-      "published_date": "2026-03-10T17:07:59+00:00",
+      "id": "cda484b3cb0adaec5500dbd779e3dc7b",
+      "url": "https://news.ycombinator.com/item?id=47328034",
+      "title": "Tell HN: Apple development certificate server seems down?",
+      "content": "<p>I don't see anything on <a href=\"https://developer.apple.com/system-status/\" rel=\"nofollow\">https://developer.apple.com/system-status/</a>, but I haven't been able to install apps for development on my own devices starting at 11AM PDT.<p>Other people on Reddit seem to be hitting this too [0]. Anyone knows anything about it?<p>[0]: <a href=\"https://www.reddit.com/r/iOSProgramming/comments/1rq4uxl\" rel=\"nofollow\">https://www.reddit.com/r/iOSProgramming/comments/1rq4uxl</a><p>Edit: Now getting intermittent 502s from <a href=\"https://ppq.apple.com/\" rel=\"nofollow\">https://ppq.apple.com/</a>. Something is definitely going on.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47328034\">https://news.ycombinator.com/item?id=47328034</a></p>\n<p>Points: 38</p>\n<p># Comments: 17</p>",
+      "author": "strongpigeon",
+      "published_date": "2026-03-10T19:56:52+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 68,
       "reading_time": 1,
-      "created_at": "2026-03-10T19:39:00.069272+00:00",
-      "updated_at": "2026-03-10T19:39:00.069273+00:00"
+      "created_at": "2026-03-10T23:32:43.847985+00:00",
+      "updated_at": "2026-03-11T01:27:38.813751+00:00",
+      "metadata": {
+        "processed_at": "2026-03-11T01:27:38.813753+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "b62f020b89e93e8aac29dd6c59161621",
-      "url": "https://github.com/MidnightBSD/src/commit/529b708846e30e8eb4fcec8dfc23176ec6a74bcf",
-      "title": "Revise age verification terms for MidnightBSD",
-      "content": "<p>Article URL: <a href=\"https://github.com/MidnightBSD/src/commit/529b708846e30e8eb4fcec8dfc23176ec6a74bcf\">https://github.com/MidnightBSD/src/commit/529b708846e30e8eb4fcec8dfc23176ec6a74bcf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47326944\">https://news.ycombinator.com/item?id=47326944</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "author": "hpb42",
-      "published_date": "2026-03-10T18:22:00+00:00",
+      "id": "7d8931441bd63abb57218ccc9a726ab9",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/",
+      "title": "Cloudflare Crawl Endpoint",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47329557\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-10T22:27:15+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-10T19:39:00.069139+00:00",
-      "updated_at": "2026-03-10T19:39:00.069141+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-03-10T23:32:45.111512+00:00",
+      "updated_at": "2026-03-11T01:27:38.813737+00:00",
+      "metadata": {
+        "processed_at": "2026-03-11T01:27:38.813747+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "7468a71d063473ef9666468f6f9ccbe0",
+      "url": "https://ionathan.ch/2026/02/16/angzarr.html",
+      "title": "U+237C \u237c Is Azimuth",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47329605\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-10T22:33:45+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-10T22:57:16.080954+00:00",
+      "updated_at": "2026-03-11T01:27:38.813762+00:00",
+      "metadata": {
+        "processed_at": "2026-03-11T01:27:38.813764+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "7468a71d063473ef9666468f6f9ccbe0",
+      "url": "https://ionathan.ch/2026/02/16/angzarr.html",
+      "title": "U+237C \u237c Is Azimuth",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47329605\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-10T22:33:45+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-10T22:57:16.080954+00:00",
+      "updated_at": "2026-03-11T01:27:38.813762+00:00",
+      "metadata": {
+        "processed_at": "2026-03-11T01:27:38.813764+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "fbdd2d19f583ba39a58e158de8a2f2a2",
       "url": "https://www.nature.com/articles/s41598-026-43341-x",
@@ -262,106 +362,6 @@
       "updated_at": "2026-03-10T22:23:28.901448+00:00",
       "metadata": {
         "processed_at": "2026-03-10T22:23:28.901450+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7ae9efe53e1be4c6db783479318bbe92",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710589v1?rss=1",
-      "title": "Mind the translational gap: human microglia differ from mouse microglia in their regulation of Kv and Kir2.1 channels",
-      "content": "K+ channels are important for controlling membrane potential and regulating functional properties of microglia. Whereas the inward-rectifying K+ (Kir) channel 2.1 modulates proliferation, voltage-gated K+ channels (Kv) are linked to inflammatory response in mouse microglia (mMG). These channels serve as possible drug targets but little is known regarding their activity in human microglia. We used patch-clamp recording to study membrane currents of primary human microglia (hMG) and human induced pluripotent stem cell-derived microglia-like cells (hiPSC-MGL) and compared them with mMG. Unlike mMG, hMG and hiPSC-MGL exhibited Kir2.1 currents only after LPS+IFN-{gamma} stimulation. Interestingly, Kv currents were not observed in hMG or hiPSC-MGL under any condition. While mMG had a progressively ameboid morphology after stimulation, hMG showed few morphological changes and hiPSC-MGL increased ramification. Overall, the activity of Kir2.1 and Kv channels in hMG and hiPSC-MGL differs fundamentally from mMG. Our findings highlight differences between species and underscore the need for translational approaches.",
-      "author": "Schilling, S., Felk, J., Kikhia, M., Podesta, A., Hintze, J., Fidzinski, P., Holtkamp, M., Onken, J., Sauvigny, T., Kalbhenn, T., Simon, M., Kettenmann, H., Endres, M., Goettert, R., Gertz, K.",
-      "published_date": "2026-03-10T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 152,
-      "reading_time": 1,
-      "created_at": "2026-03-10T19:39:38.192671+00:00",
-      "updated_at": "2026-03-10T20:28:19.530443+00:00",
-      "metadata": {
-        "processed_at": "2026-03-10T20:28:19.530452+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "51d95f276ff6ebab3e3b68981f08265a",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.709794v1?rss=1",
-      "title": "Zhi-Shi-Wu-Huang attenuates amyloid beta toxicity in Caenorhabditis elegans Alzheimer's disease models via modulating insulin DAF-16 signaling pathway",
-      "content": "Alzheimer's disease (AD) is a common neurodegenerative disorder primarily caused by Amyloid-{beta} toxicity. Therefore, there is an urgent need to develop novel, effective, and safe drugs to treat AD. Traditional Chinese Medicine (TCM) has a long history of use in protecting against memory impairments. Recently, TCM has attracted growing attention from researchers as a source of potent neuroprotective compounds. In this study, we focus on four TCM herbs with multiple therapeutic properties: Valeriana jatamansi (V: 20 mg/mL), Acori tatarinowii (A: 10 mg/mL), Fructus Schisandrae (F: 5 mg/mL), and Scutellaria baicalensis (S: 2.5 mg/mL). The aim is to develop a neuroprotective anti-AD formulation, named Zhi-Shi-Wu-Huang derived from V, A, F, and S evaluate its efficacy in transgenic Caenorhabditis elegans models of AD. These four TCM herbs are among the most potent activators of the HSP-70 promoter, which helps prevent protein misfolding and aggregation. Additionally, V, A, F, S, and the Zhi-Shi-Wu-Huang were found to reduce reactive oxygen species (ROS) production and enhance the expression of superoxide dismutase-3 (sod-3) and chymotrypsin-like proteasomes. Our findings demonstrate that both the individual extracts (V, A, F, S) and the Zhi-Shi-Wu-Huang formulation significantly reduce A{beta}-induced toxicity in transgenic worms by activating the insulin/DAF-16 signaling pathway.",
-      "author": "Fahim, M., Liu, Y., Hui, R., Hongyu, L.",
-      "published_date": "2026-03-10T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 199,
-      "reading_time": 1,
-      "created_at": "2026-03-10T19:39:38.192631+00:00",
-      "updated_at": "2026-03-10T20:28:19.530456+00:00",
-      "metadata": {
-        "processed_at": "2026-03-10T20:28:19.530458+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e920d2eca05f141a74be450b60a3f73c",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1772244",
-      "title": "Towards precision medicine in Tourette syndrome: a perspective on AI-driven predictive modelling and personalised care",
-      "content": "Tourette Syndrome (TS) is a complex neurodevelopmental disorder characterised by motor and vocal tics that significantly impair quality of life. Conventional diagnostic and therapeutic methods face challenges due to subjectivity, lack of personalisation, and difficulties in prognostic prediction. Artificial Intelligence (AI) offers novel solutions, advancing TS management towards precision medicine. This article presents a conceptual framework for AI-driven technologies in TS, advocating for a paradigm shift from empirical treatment to precision medicine. We discuss key components including predictive model construction, personalised diagnosis, treatment strategies, and intelligent monitoring. Research indicates that the core value of AI in TS precision medicine lies in its predictiveness, individualisation, and intelligence. Predictive models using multimodal data enable early identification and prognostic assessment. Furthermore, personalised approaches tailor diagnosis and treatment to individual patient characteristics, thereby improving outcomes. Intelligent systems enable automated monitoring and real-time adjustments, optimising clinical workflows. Substantial clinical evidence demonstrates that AI-driven precision medicine improves diagnostic accuracy, optimises treatments, and enhances patient prognosis. Despite this potential, challenges remain in data quality, algorithm interpretability, and clinical translation. Future efforts should focus on enhancing interdisciplinary collaboration, promoting standardisation, and facilitating clinical adoption to deliver more precise, effective, and accessible care for TS patients.",
-      "author": "Bocai Wang",
-      "published_date": "2026-02-19T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 197,
-      "reading_time": 1,
-      "created_at": "2026-03-10T19:39:29.632703+00:00",
-      "updated_at": "2026-03-10T20:28:19.530461+00:00",
-      "metadata": {
-        "processed_at": "2026-03-10T20:28:19.530462+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2f44ecc8fbdb4bc12c82ecc26c300a71",
-      "url": "https://fmhy.net/posts/mar-2026",
-      "title": "Monthly Updates [March]",
-      "content": "<div class=\"info custom-block\"><p class=\"custom-block-title\">INFO</p>\n<p>These update threads only contain major updates. If you're interested\nin seeing all minor changes you can follow our\n<a href=\"https://github.com/fmhy/FMHYedit/commits/main\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub or\n<a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Updates Channel</a> in Discord.</p>\n</div>\n<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Updated some of the <strong><a href=\"https://i.ibb.co/7JKx0WJ5/image.png\" rel=\"noreferrer\" target=\"_blank\">Homepage Icons</a></strong> / <a href=\"https://i.imgur.com/8n5Wgw9.png\" rel=\"noreferrer\" target=\"_blank\">2</a> to try to make them more clear. Thank you to suprememuhit for doing this.</p>\n</li>\n<li>\n<p>Moved Coding AIs from AI section to Developer Tools with <a href=\"https://i.ibb.co/mC6MyNQN/image.png\" rel=\"noreferrer\" target=\"_blank\">4 new subsections</a> / <a href=\"https://i.imgur.com/rFZJqJo.png\" rel=\"noreferrer\" target=\"_blank\">2</a>. Thank you to anarchydr for doing this.</p>\n</li>\n<li>\n<p>Added new <a href=\"https://mpv.rocks/\" rel=\"noreferrer\" target=\"_blank\">MPV client list</a> site + bumped it to #1 video player as many people feel its the best of the big three (MPV, MPC, VLC.)</p>\n</li>\n<li>\n<p>Added section for <a href=\"https://fmhy.net/educational#cantonese\" rel=\"noreferrer\" target=\"_blank\">Cantonese Learning</a>. Thank you to YEET for doing this.</p>\n</li>\n<li>\n<p>Moved OuterTune from YouTube Music Players to Android Audio Players as they're <a href=\"https://github.com/OuterTune/OuterTune/discussions/1116\" rel=\"noreferrer\" target=\"_blank\">dropping YTM support</a>.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred both <a href=\"https://fmhy.net/reading#declassified-leaked-documents\" rel=\"noreferrer\" target=\"_blank\">Epstein Exposed + JMail</a> in documents section, we've been sent a lot of these, but these 2 seem to have some of the better UIs.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#file-converters\" rel=\"noreferrer\" target=\"_blank\">Convert to it!</a> in File Converters, nearly all formats imaginable, file uploads are in browser only, not uploaded to them which is good for privacy.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#file-hosts\" rel=\"noreferrer\" target=\"_blank\">ZeroFS</a> in File Hosting, unlimited file size, keeps files for 30 days after its last download.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#unblocked-games\" rel=\"noreferrer\" target=\"_blank\">GN-Math</a> in Unblocked Browser Games, has a bunch of good ports, seems to be well liked.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/text-tools#font-tools\" rel=\"noreferrer\" target=\"_blank\">Font Analyzer</a> in Font Tools, analyses fonts from any page and gives you similar alternatives.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/text-tools#pastebins\" rel=\"noreferrer\" target=\"_blank\">Markbox</a> (aka fluffle) in Pastebins, alt to rentry with similar UI, has markdown support, editing, etc.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/image-tools#image-effects\" rel=\"noreferrer\" target=\"_blank\">Efecto</a> in Image Editing, web-based visual effects editor, supports images, videos and 3D models.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#video-generation\" rel=\"noreferrer\" target=\"_blank\">KLIPY</a> in Video Gen, allows you to generate unlimited GIFs using Veo 3.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/image-tools#upscale-restore\" rel=\"noreferrer\" target=\"_blank\">Image-Upscaling</a>, online image upscaling tool, works quickly, gives good results.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#image-generation\" rel=\"noreferrer\" target=\"_blank\">Google Flow</a> in Image Gen, gives unlimited Nano Banana Pro / Nano Banana 2.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#image-generation\" rel=\"noreferrer\" target=\"_blank\">Khoj</a> in Image Gen, gives unlimited Nano Banana / Imagen 4.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/educational#skills-hobbies-diy\" rel=\"noreferrer\" target=\"_blank\">Knots 3D</a> in Educational Skills, 3D interactive guides to learn how to tie any knot.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#specialized-chatbots\" rel=\"noreferrer\" target=\"_blank\">Google AI Mode</a> in Specialized Chatbots, AI Search Engine, that gives unlimited Gemini 3.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/privacy#anti-censorship\" rel=\"noreferrer\" target=\"_blank\">Net4People</a> in Censorship Bypass section, worldwide censorship circumvention discussion, chats take place within the GitHub issue section.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/privacy#vpn-server\" rel=\"noreferrer\" target=\"_blank\">NetBird</a> in VPN Servers, WireGuard Mesh similar to Tailscale, except its open-source, self-hostable, and has a web UI.</p>\n</li>\n<li>\n<p>Starred two <a href=\"https://fmhy.net/internet-tools#rss-readers\" rel=\"noreferrer\" target=\"_blank\">FreshRSS</a> instances in RSS Readers (rss.fmhy + Prodottoinrete), its customizable, web-based, and allows unlimited feeds.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>\n<p>Removed Duolingo as it has bad privacy, and has gained a rep for being a poor way to learn a language.</p>\n</li>\n<li>\n<p>Removed Pollinations from AI sections as they're restricting their best models to paid users only now.</p>\n</li>\n</ul>",
-      "author": "",
-      "published_date": "2026-03-01T00:00:00+00:00",
-      "source": "Fmhy",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 593,
-      "reading_time": 2,
-      "created_at": "2026-03-10T19:39:04.130408+00:00",
-      "updated_at": "2026-03-10T20:28:19.530464+00:00",
-      "metadata": {
-        "processed_at": "2026-03-10T20:28:19.530466+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d6317e5e98e637283e86afa0fe10dd98",
-      "url": "https://castlabs.com/blog/widevine-retiring-cloud-license-service/",
-      "title": "Google to Discontinue Widevine Cloud License Service in April 2027",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47327589\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-10T19:12:22+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-10T19:39:01.531787+00:00",
-      "updated_at": "2026-03-10T20:28:19.530468+00:00",
-      "metadata": {
-        "processed_at": "2026-03-10T20:28:19.530469+00:00",
         "processing_method": "github_actions"
       }
     }
