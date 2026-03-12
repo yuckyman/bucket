@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-03-12T23:30:20.931030+00:00",
+  "last_updated": "2026-03-12T23:54:16.839345+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "f55d8b7f399ba7629efd429a996333a0",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1668395",
+      "title": "Assessing the eligibility of Brainomix e-ASPECTS for acute stroke imaging",
+      "content": "BackgroundTimely and accurate assessment of acute ischemic stroke is crucial for determining eligibility for mechanical thrombectomy. The Alberta Stroke Program Early CT Score (ASPECTS) is a widely used tool for evaluating early ischemic changes on non-contrast CT (NCCT), but its interpretation is subject to interobserver variability. Brainomix e-ASPECTS is an automated software designed to standardize and expedite this assessment. We aimed to evaluate the clinical utility and diagnostic performance of the Brainomix e-ASPECTS software in an unselected, real-world cohort of patients undergoing NCCT for suspected acute ischemic stroke.MethodsWe retrospectively analyzed 1,029 NCCT studies from 954 patients between March 2020 and December 2024. e-ASPECTS scores were compared to radiologist-assigned ASPECTS, which served as the reference standard. Diagnostic accuracy, sensitivity, specificity, and correlation between scoring methods were assessed.ResultsThere was a strong correlation between e-ASPECTS and radiologist ASPECTS (\u03c1\u202f=\u202f0.953, p\u202f<\u202f0.001). For detecting acute ischemia, sensitivity was 95.8% (95% CI, 93.6\u201397.3%), specificity 96.9% (95% CI, 94.7\u201398.2%), and overall accuracy 96.3% (95% CI, 95.1\u201397.5%). The positive predictive value was 97.2% (95% CI, 95.3\u201398.4%), and the negative predictive value was 95.3% (95% CI, 92.8\u201396.9%). Score concordance was high, with exact matches in 92.3% of cases and a\u202f\u2264\u202f1-point difference in 97.7%. Misclassification for thrombectomy eligibility (ASPECTS < 6) occurred in four cases (0.4%). The software achieved a processing success rate of 91.9%.ConclusionE-ASPECTS demonstrates high diagnostic accuracy and strong agreement with expert radiological assessment, supporting its role as a valuable decision support tool in acute stroke imaging. However, its use should complement, not replace, expert interpretation, particularly in patients with low ASPECTS scores, where treatment decisions are most sensitive.",
+      "author": "Maciej Guzi\u0144ski",
+      "published_date": "2025-12-11T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 267,
+      "reading_time": 1,
+      "created_at": "2026-03-12T23:53:40.777988+00:00",
+      "updated_at": "2026-03-12T23:53:40.777989+00:00"
+    },
+    {
+      "id": "716d1df059074f746d0cd34b6b147311",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1698100",
+      "title": "AMSA-Net: attention-based multi-scale feature aggregation network for single image dehazing",
+      "content": "ProblemDeep learning technology promotes the development of single-image dehazing. However, many existing methods fail to fully consider the haze density and its spatial distribution, which limits the improvement of dehazing performance.Proposed solutionTo address this issue, we propose an attention-based multi-scale feature aggregation network (AMSA-Net) for single-image dehazing.MethodAMSA-Net is an encoding and decoding structure. Its encoder and decoder are composed of multi-scale hybrid attention feature aggregation module (MSHA-FAM). The module can perceive the haze density and spatial information in the haze image, which helps to improve the dehazing effect. MSHA-FAM is composed of two key components: the scale-aware coordinate residual module (SCRM) and multi-scale feature refinement residual module (MSFRRM). SCRM uses improved coordinate attention to effectively capture haze density and spatial characteristics, thus significantly improving dehazing effect. MSFRRM extracts semantic features through up-sampling and down-sampling, and uses improved pixel attention mechanism to enhance key features. In the overall MSHA-FAM pipeline, SCRM first learns the density and spatial distribution characteristics of haze, then refines it through MSFRRM, so as to remove haze more effectively.Key resultsThe experimental results demonstrate that our proposed AMSA-Net is superior to the comparison methods in terms of dehazing quality. Ablation studies further verify the effectiveness of the proposed modules.ImpactIn this work, we present AMSA-Net, which has achieved good dehazing performance and can provide high-quality input for subsequent computer vision tasks.",
+      "author": "Miao Zhang",
+      "published_date": "2026-02-17T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 222,
+      "reading_time": 1,
+      "created_at": "2026-03-12T23:53:36.975070+00:00",
+      "updated_at": "2026-03-12T23:53:36.975072+00:00"
+    },
     {
       "id": "dab38dbaea431d7a8f5a8e847880717b",
       "url": "http://ieeexplore.ieee.org/document/11433570",
@@ -289,46 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-03-12T22:28:34.605777+00:00",
       "updated_at": "2026-03-12T22:28:34.605779+00:00"
-    },
-    {
-      "id": "472a68a570231eea9af8bbe7b0b19b0b",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710773v1?rss=1",
-      "title": "Modulation of mitochondria-ER contacts decrease inflammasome formation and restores amyloid \u03b2-peptide phagocytosis in adult mouse microglia",
-      "content": "Background Alzheimer's disease (AD) is the most prevalent neurodegenerative disease, currently devoid of a cure. AD's clinical manifestations stem from a multitude of dysfunctional cellular processes, regulated by mitochondria-endoplasmic contact sites (MERCS), which undergo physical alterations and malfunction in AD brain. Despite ongoing research, the understanding of MERCS in AD remains in its nascent stages. We postulate that these subcellular interfaces are responsible for AD progression. Neuroinflammation contributes significantly to neurodegeneration and is primarily driven by microglia, the innate immune cells in the brain. In AD, activated microglia secrete pro-inflammatory cytokines that compromise neuronal vitality. The production of these cytokines is promoted by NLRP3 inflammasome. Although inflammasome activation has been observed at MERCS, the underlying MERCS-mediated mechanisms governing regulation of inflammasome activation remain to be elucidated. Methods Primary microglia were isolated from 3-4 months old wild-type (WT) and AppNL-G-F mice (AD). MERCS ultrastructure was analyzed by transmission electron microscopy. Mitochondrial Ca2+ level and metabolic function were assessed using Rhod-2 AM fluorescence and Seahorse extracellular flux analysis respectively. Inflammasome activation was induced by lipopolysaccharide and nigericin and evaluated by IL-1{beta} ELISA, caspase-1 activity assay, and ASC immunocytochemistry. MERCS were genetically modulated via siRNA-mediated knockdown of MERCS-associated proteins, and ER-to-mitochondria Ca2+; transfer was pharmacologically inhibited using Xestospongin C and MCU-i11. Microglial A{beta} phagocytosis was quantified using fluorescence-conjugated A{beta}1-42. Results AD microglia exhibited increased MERCS number and contact length, accompanied by a reduction in mitochondria-ER proximity. These structural changes were associated with elevated mitochondrial Ca2+ levels and enhanced respiratory activity, indicating metabolic reprogramming and functional change. Structural and functional decrease of microglial MERCS attenuated NLRP3 inflammasome activation and restored inflammasome-associated impairments in A{beta} phagocytosis. Pharmacological inhibition of Ca2+ channels at MERCS identified ER-to-mitochondria Ca2+ transfer as a key regulatory mechanism for inflammasome activation. Conclusions Our findings identify microglial MERCS remodeling as an early event in AD and establish ER-mitochondria coupling as an upstream regulator of energy metabolism, inflammation, and A{beta} clearance. Targeting MERCS may therefore represent a promising strategy to modulate neuroinflammation while preserving essential microglial functions in AD.",
-      "author": "Choi, M. H., Naia, L., Ankarcrona, M.",
-      "published_date": "2026-03-12T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 336,
-      "reading_time": 1,
-      "created_at": "2026-03-12T21:35:28.458117+00:00",
-      "updated_at": "2026-03-12T22:20:39.609344+00:00",
-      "metadata": {
-        "processed_at": "2026-03-12T22:20:39.609356+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f3e7d90b6dab805e6960a974ea427cf8",
-      "url": "https://www.nature.com/articles/s41467-026-70354-x",
-      "title": "Global error signal guides local optimization in mismatch calculation",
-      "content": "",
-      "author": "",
-      "published_date": "2026-03-12T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-12T21:35:27.151477+00:00",
-      "updated_at": "2026-03-12T22:20:39.609360+00:00",
-      "metadata": {
-        "processed_at": "2026-03-12T22:20:39.609362+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
