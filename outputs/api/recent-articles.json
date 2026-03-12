@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T19:50:35.300702+00:00",
+  "last_updated": "2026-03-12T20:29:36.871803+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "Steve Luck",
       "published_date": "2024-03-05T19:34:57+00:00",
       "source": "Erp Boot Camp",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 444,
       "reading_time": 2,
       "created_at": "2026-03-12T19:50:27.052418+00:00",
-      "updated_at": "2026-03-12T19:50:27.052420+00:00"
+      "updated_at": "2026-03-12T20:29:36.750782+00:00",
+      "metadata": {
+        "processed_at": "2026-03-12T20:29:36.750792+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "8d5f6ef8ad12dc2f6d8d5482bfaaae12",
@@ -26,13 +30,17 @@
       "author": "",
       "published_date": "2025-10-30T00:00:00+00:00",
       "source": "Clinical Neuroscience",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 60,
       "reading_time": 1,
       "created_at": "2026-03-12T19:49:33.409056+00:00",
-      "updated_at": "2026-03-12T19:49:33.409062+00:00"
+      "updated_at": "2026-03-12T20:29:36.750797+00:00",
+      "metadata": {
+        "processed_at": "2026-03-12T20:29:36.750798+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "f2ea01a1ef71d5ae85319ce8ed6439f0",
@@ -42,13 +50,17 @@
       "author": "/u/zenos1337",
       "published_date": "2026-03-12T18:37:05+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 69,
       "reading_time": 1,
       "created_at": "2026-03-12T19:49:26.105361+00:00",
-      "updated_at": "2026-03-12T19:49:26.105362+00:00"
+      "updated_at": "2026-03-12T20:29:36.750801+00:00",
+      "metadata": {
+        "processed_at": "2026-03-12T20:29:36.750803+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "56406ea25605f0a0bb6a49fce4103b7e",
@@ -58,29 +70,37 @@
       "author": "",
       "published_date": "2026-03-12T18:52:36+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-03-12T19:49:24.772698+00:00",
-      "updated_at": "2026-03-12T19:49:24.772699+00:00"
+      "updated_at": "2026-03-12T20:29:36.750808+00:00",
+      "metadata": {
+        "processed_at": "2026-03-12T20:29:36.750809+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "56406ea25605f0a0bb6a49fce4103b7e",
       "url": "https://ionrouter.io",
       "title": "Launch HN: IonRouter (YC W26) \u2013 High-throughput, low-cost inference",
-      "content": "<p>Hey HN \u2014 I\u2019m Veer and my cofounder is Suryaa. We're building Cumulus Labs (YC W26), and we're releasing our latest product IonRouter (<a href=\"https://ionrouter.io/\" rel=\"nofollow\">https://ionrouter.io/</a>), an inference API for open-source and fine tuned models. You swap in our base URL, keep your existing OpenAI client code, and get access to any model (open source or finetuned to you) running on our own inference engine.<p>The problem we kept running into: every inference provider is either fast-but-expensive (Together, Fireworks \u2014 you pay for always-on GPUs) or cheap-but-DIY (Modal, RunPod \u2014 you configure vLLM yourself and deal with slow cold starts). Neither felt right for teams that just want to ship.<p>Suryaa spent years building GPU orchestration infrastructure at TensorDock and production systems at Palantir. I led ML infrastructure and Linux kernel development for Space Force and NASA contracts where the stack had to actually work under pressure. When we started building AI products ourselves, we kept hitting the same wall: GPU infrastructure was either too expensive or too much work.<p>So we built IonAttention \u2014 a C++ inference runtime designed specifically around the GH200's memory architecture. Most inference stacks treat GH200 as a compatibility target (make sure vLLM runs, use CPU memory as overflow). We took a different approach and built around what makes the hardware actually interesting: a 900 GB/s coherent CPU-GPU link, 452GB of LPDDR5X sitting right next to the accelerator, and 72 ARM cores you can actually use.<p>Three things came out of that that we think are novel: (1) using hardware cache coherence to make CUDA graphs behave as if they have dynamic parameters at zero per-step cost \u2014 something that only works on GH200-class hardware; (2) eager KV block writeback driven by immutability rather than memory pressure, which drops eviction stalls from 10ms+ to under 0.25ms; (3) phantom-tile attention scheduling at small batch sizes that cuts attention time by over 60% in the worst-affected regimes. We wrote up the details at cumulus.blog/ionattention.<p>On multimodal pipelines we get better performance than big players (588 tok/s vs. Together AI's 298 on the same VLM workload). We're honest that p50 latency is currently worse (~1.46s vs. 0.74s) \u2014 that's the tradeoff we're actively working on.<p>Pricing is per token, no idle costs: GPT-OSS-120B is $0.02 in / $0.095 out, Qwen3.5-122B is $0.20 in / $1.60 out. Full model list and pricing at <a href=\"https://ionrouter.io\" rel=\"nofollow\">https://ionrouter.io</a>.<p>You can try the playground at <a href=\"https://ionrouter.io/playground\" rel=\"nofollow\">https://ionrouter.io/playground</a> right now, no signup required, or drop your API key in and swap the base URL \u2014 it's one line. We built this so teams can see the power of our engine and eventually come to us for their finetuned model needs using the same solution.<p>We're curious what you think, especially if you're running finetuned or custom models \u2014 that's the use case we've invested the most in. What's broken, what would make this actually useful for you?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47355410\">https://news.ycombinator.com/item?id=47355410</a></p>\n<p>Points: 15</p>\n<p># Comments: 3</p>",
-      "author": "vshah1016",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47355410\">Comments</a>",
+      "author": "",
       "published_date": "2026-03-12T18:52:36+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 488,
-      "reading_time": 2,
-      "created_at": "2026-03-12T19:49:23.576585+00:00",
-      "updated_at": "2026-03-12T19:49:23.576588+00:00"
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-12T19:49:24.772698+00:00",
+      "updated_at": "2026-03-12T20:29:36.750808+00:00",
+      "metadata": {
+        "processed_at": "2026-03-12T20:29:36.750809+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "696c4d1162e41ad5d062da417236e38f",
