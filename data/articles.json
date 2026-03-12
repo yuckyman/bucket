@@ -7,13 +7,17 @@
     "author": "",
     "published_date": null,
     "source": "Neuroimage",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 22,
     "reading_time": 1,
     "created_at": "2026-03-11T23:52:12.584128+00:00",
-    "updated_at": "2026-03-11T23:52:12.584129+00:00"
+    "updated_at": "2026-03-12T01:27:29.201341+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T01:27:29.201352+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "90678ede1e53b0ac5ba716ca10f9663d",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": "2026-03-11T23:27:18+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-03-11T23:51:34.548815+00:00",
-    "updated_at": "2026-03-11T23:51:34.548817+00:00"
+    "updated_at": "2026-03-12T01:27:29.201360+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T01:27:29.201362+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "a33cc8d9f48444e188d0a079c2e69735",
@@ -39,29 +47,37 @@
     "author": "dlrush",
     "published_date": "2026-03-11T22:47:03+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 13,
     "reading_time": 1,
     "created_at": "2026-03-11T23:51:33.183988+00:00",
-    "updated_at": "2026-03-11T23:51:33.183990+00:00"
+    "updated_at": "2026-03-12T01:27:29.201365+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T01:27:29.201366+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "90678ede1e53b0ac5ba716ca10f9663d",
     "url": "https://www.ensue-network.ai/autoresearch",
     "title": "Show HN: Autoresearch_at_home \u2013 SETI_at_home but for LLM training",
-    "content": "<p>autoresearch@home is a collaborative research collective where AI agents share GPU resources to collectively improve a language model. Think SETI@home, but for model training.<p>How it works: Agents read the current best result, propose a hypothesis, modify train.py, run the experiment on your GPU, and publish results back. When an agent beats the current best validation loss, that becomes the new baseline for every other agent. Agents learn from great runs and failures, since we're using Ensue as the collective memory layer.<p>This project extends Karpathy's autoresearch by adding the missing coordination layer so agents can actually build on each other's work.<p>To participate, you need an agent and a GPU. The agent handles everything: cloning the repo, connecting to the collective, picking experiments, running them, publishing results, and asking you to verify you're a real person via email.<p>Send this prompt to your agent to get started: Read <a href=\"https://github.com/mutable-state-inc/autoresearch-at-home\" rel=\"nofollow\">https://github.com/mutable-state-inc/autoresearch-at-home</a> follow the instructions join autoresearch and start contributing.<p>This whole experiment is to prove that agents work better when they can build off other agents. The timeline is live, so you can watch experiments land in real time.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47343935\">https://news.ycombinator.com/item?id=47343935</a></p>\n<p>Points: 8</p>\n<p># Comments: 3</p>",
-    "author": "austinbaggio",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47343935\">Comments</a>",
+    "author": "",
     "published_date": "2026-03-11T23:27:18+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 196,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-03-11T23:51:33.183955+00:00",
-    "updated_at": "2026-03-11T23:51:33.183964+00:00"
+    "created_at": "2026-03-11T23:51:34.548815+00:00",
+    "updated_at": "2026-03-12T01:27:29.201360+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T01:27:29.201362+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "3c2b4da5b5934ef0e31d96ab522c309c",
@@ -71,29 +87,37 @@
     "author": "",
     "published_date": "2026-03-11T22:26:52+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-03-11T23:27:56.892541+00:00",
-    "updated_at": "2026-03-11T23:27:56.892543+00:00"
+    "updated_at": "2026-03-12T01:27:29.201374+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T01:27:29.201375+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "3c2b4da5b5934ef0e31d96ab522c309c",
     "url": "https://nemoclaw.bot",
     "title": "NemoClaw \u2013 Nvidia's upcoming open-source AI agent platform",
-    "content": "<p>Article URL: <a href=\"https://nemoclaw.bot\">https://nemoclaw.bot</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47343112\">https://news.ycombinator.com/item?id=47343112</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
-    "author": "umangsehgal93",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47343112\">Comments</a>",
+    "author": "",
     "published_date": "2026-03-11T22:26:52+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-03-11T23:27:55.744413+00:00",
-    "updated_at": "2026-03-11T23:27:55.744428+00:00"
+    "created_at": "2026-03-11T23:27:56.892541+00:00",
+    "updated_at": "2026-03-12T01:27:29.201374+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T01:27:29.201375+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "de139f334f70f162b3d12ebd7f189e47",
