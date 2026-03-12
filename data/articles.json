@@ -7,13 +7,17 @@
     "author": "",
     "published_date": null,
     "source": "Neuroimage",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 18,
     "reading_time": 1,
     "created_at": "2026-03-12T02:11:45.317500+00:00",
-    "updated_at": "2026-03-12T02:11:45.317502+00:00"
+    "updated_at": "2026-03-12T04:09:55.149244+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T04:09:55.149254+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "4a77ae8cd8b723ceadf52a8dcc24ff38",
@@ -23,13 +27,17 @@
     "author": "Laing-Young, J. M., Savage, C. R., Tomaso, C., Neta, M., Nelson, T. D., Schultz, D. H.",
     "published_date": "2026-03-11T00:00:00+00:00",
     "source": "Biorxiv Neuroscience",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 248,
     "reading_time": 1,
     "created_at": "2026-03-12T02:11:44.198021+00:00",
-    "updated_at": "2026-03-12T02:11:44.198023+00:00"
+    "updated_at": "2026-03-12T04:09:55.149258+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T04:09:55.149260+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "ed837cc918ec9da44f0e371d48cc1d5e",
@@ -39,13 +47,17 @@
     "author": "Shahdoust, N., Cowan, R. L., Price, T. A., Davis, T. S., Liu, A., Rabinovich, R., Zarr, V., Libowitz, M. R., Shofty, B., Rahimpour, S., Borisyuk, A., Smith, E. H.",
     "published_date": "2026-03-11T00:00:00+00:00",
     "source": "Biorxiv Neuroscience",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 142,
     "reading_time": 1,
     "created_at": "2026-03-12T02:11:44.197950+00:00",
-    "updated_at": "2026-03-12T02:11:44.197954+00:00"
+    "updated_at": "2026-03-12T04:09:55.149263+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T04:09:55.149265+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "db9c6dfde03c522994e6dd151aea7ef3",
@@ -55,13 +67,17 @@
     "author": "",
     "published_date": "2026-03-11T23:26:25+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-03-12T02:11:02.847456+00:00",
-    "updated_at": "2026-03-12T02:11:02.847457+00:00"
+    "updated_at": "2026-03-12T04:09:55.149267+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T04:09:55.149269+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "51838e7458b3a9f4ce06f9dcc022a9eb",
@@ -71,13 +87,17 @@
     "author": "",
     "published_date": "2026-03-12T00:22:19+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-03-12T02:11:02.847400+00:00",
-    "updated_at": "2026-03-12T02:11:02.847402+00:00"
+    "updated_at": "2026-03-12T04:09:55.149271+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T04:09:55.149273+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "e17156df6c16a8722ad7fc20d494a5c7",
@@ -99,33 +119,41 @@
     "id": "db9c6dfde03c522994e6dd151aea7ef3",
     "url": "https://github.com/manuelschipper/nah/",
     "title": "Show HN: A context-aware permission guard for Claude Code",
-    "content": "<p>We needed something like --dangerously-skip-permissions that doesn\u2019t nuke your untracked files, exfiltrate your keys, or install malware.<p>Claude Code's permission system is allow-or-deny per tool, but that doesn\u2019t really scale. Deleting some files is fine sometimes. And git checkout is sometimes not fine. Even when you curate permissions, 200 IQ Opus can find a way around it. Maintaining a deny list is a fool's errand.<p>nah is a PreToolUse hook that classifies every tool call by what it actually does, using a deterministic classifier that runs in milliseconds. It maps commands to action types like filesystem_read, package_run, db_write, git_history_rewrite, and applies policies: allow, context (depends on the target), ask, or block.<p>Not everything can be classified, so you can optionally escalate ambiguous stuff to an LLM, but that\u2019s not required. Anything unresolved you can approve, and configure the taxonomy so you don\u2019t get asked again.<p>It works out of the box with sane defaults, no config needed. But you can customize it fully if you want to.<p>No dependencies, stdlib Python, MIT.<p>pip install nah && nah install<p><a href=\"https://github.com/manuelschipper/nah\" rel=\"nofollow\">https://github.com/manuelschipper/nah</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47343927\">https://news.ycombinator.com/item?id=47343927</a></p>\n<p>Points: 32</p>\n<p># Comments: 24</p>",
-    "author": "schipperai",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47343927\">Comments</a>",
+    "author": "",
     "published_date": "2026-03-11T23:26:25+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 185,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-03-12T02:11:01.471954+00:00",
-    "updated_at": "2026-03-12T02:11:01.471956+00:00"
+    "created_at": "2026-03-12T02:11:02.847456+00:00",
+    "updated_at": "2026-03-12T04:09:55.149267+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T04:09:55.149269+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "51838e7458b3a9f4ce06f9dcc022a9eb",
     "url": "http://satproto.org/",
     "title": "Show HN: s@: decentralized social networking over static sites",
-    "content": "<p>Article URL: <a href=\"http://satproto.org/\">http://satproto.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47344548\">https://news.ycombinator.com/item?id=47344548</a></p>\n<p>Points: 19</p>\n<p># Comments: 2</p>",
-    "author": "remywang",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47344548\">Comments</a>",
+    "author": "",
     "published_date": "2026-03-12T00:22:19+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-03-12T02:11:01.471869+00:00",
-    "updated_at": "2026-03-12T02:11:01.471870+00:00"
+    "created_at": "2026-03-12T02:11:02.847400+00:00",
+    "updated_at": "2026-03-12T04:09:55.149271+00:00",
+    "metadata": {
+      "processed_at": "2026-03-12T04:09:55.149273+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "09963a39421c0cb8dd75c4c8501cb608",
