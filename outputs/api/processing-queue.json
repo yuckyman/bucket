@@ -1,24 +1,8 @@
 {
-  "last_updated": "2026-03-13T01:42:50.930508+00:00",
-  "pending_count": 754,
-  "processed_count": 246,
+  "last_updated": "2026-03-13T04:08:11.722452+00:00",
+  "pending_count": 752,
+  "processed_count": 248,
   "pending_articles": [
-    {
-      "id": "cf715dbdb098c4efc34f1388ecde74fc",
-      "url": "http://ieeexplore.ieee.org/document/11433573",
-      "title": "The Experience of Deciding: An Electroencephalography Study",
-      "content": "How free our actions are and how responsible we are for them partly depends on how well we are aware of what influences those actions. One way to investigate this is to compare what we are aware of and what happens in our brain before we act. Previous studies compared the onset of awareness of a decision to move with the onset of preceding brain activity. Their results have often been taken to suggest that we are unaware of some influences. We investigated the contents of awareness at the reported time of decision in more detail. Our results suggest that neural signals associated with spontaneous actions reflect something the agent is at least partly aware of. The EEG signal before actual movements was related to the reported clarity and vividness of the experience of deciding. The EEG signal before imagined movements was related to how active the imagining reportedly felt.",
-      "author": "",
-      "published_date": "2026-03-12T13:16:37+00:00",
-      "source": "Cognitive Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 150,
-      "reading_time": 1,
-      "created_at": "2026-03-12T23:30:04.371725+00:00",
-      "updated_at": "2026-03-12T23:30:04.371726+00:00"
-    },
     {
       "id": "c3582c54a43d9b4828adf803c3a0f7fb",
       "url": "http://ieeexplore.ieee.org/document/11433580",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2026-03-12T23:29:12.028570+00:00",
       "updated_at": "2026-03-12T23:29:12.028579+00:00"
+    },
+    {
+      "id": "da9431947eb5909e96606855d9c9c300",
+      "url": "https://pycoclaw.com/",
+      "title": "Show HN: OpenClaw-class agents on ESP32 (and the IDE that makes it possible)",
+      "content": "<p>Article URL: <a href=\"https://pycoclaw.com/\">https://pycoclaw.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47357515\">https://news.ycombinator.com/item?id=47357515</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
+      "author": "pycoclaw",
+      "published_date": "2026-03-12T21:38:06+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-12T22:55:25.513159+00:00",
+      "updated_at": "2026-03-12T22:55:25.513169+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "05df28e2f6ec618daa04b410c84e4e50",
+      "url": "https://www.nature.com/articles/s41598-026-41741-7",
+      "title": "Contribution of tissue clearing and 3D image analysis to in vitro modeling of human cortical development",
+      "content": "",
+      "author": "",
+      "published_date": "2026-03-13T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-03-13T02:09:33.970797+00:00",
+      "updated_at": "2026-03-13T04:08:11.605394+00:00",
+      "metadata": {
+        "processed_at": "2026-03-13T04:08:11.605403+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "0d10d9a857207bf5c51c4024759fa744",
+      "url": "https://www.nature.com/articles/s41467-026-70575-0",
+      "title": "Structure of a pH-sensitive pentameric ligand-gated ion channel from the Sarcoptes scabies mite",
+      "content": "",
+      "author": "",
+      "published_date": "2026-03-13T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-03-13T02:09:33.970770+00:00",
+      "updated_at": "2026-03-13T04:08:11.605407+00:00",
+      "metadata": {
+        "processed_at": "2026-03-13T04:08:11.605409+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "26d726b95a448715cb165ef83ca753e4",
+      "url": "https://nikogura.com/DatabaseDesign.html",
+      "title": "\u201cDesign me a highly resilient database\u201d",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47295067\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-08T06:26:14+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-13T02:08:56.807466+00:00",
+      "updated_at": "2026-03-13T04:08:11.605414+00:00",
+      "metadata": {
+        "processed_at": "2026-03-13T04:08:11.605416+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "0b97270b6f7c3c1f42b7ca460ae5403c",
+      "url": "https://internals-for-interns.com/posts/go-runtime-scheduler/",
+      "title": "Understanding the Go Runtime: The Scheduler",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47309940\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-09T14:54:31+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-13T02:08:56.807447+00:00",
+      "updated_at": "2026-03-13T04:08:11.605418+00:00",
+      "metadata": {
+        "processed_at": "2026-03-13T04:08:11.605420+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "f55d8b7f399ba7629efd429a996333a0",
       "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1668395",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "472a68a570231eea9af8bbe7b0b19b0b",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.10.710773v1?rss=1",
-      "title": "Modulation of mitochondria-ER contacts decrease inflammasome formation and restores amyloid \u03b2-peptide phagocytosis in adult mouse microglia",
-      "content": "Background Alzheimer's disease (AD) is the most prevalent neurodegenerative disease, currently devoid of a cure. AD's clinical manifestations stem from a multitude of dysfunctional cellular processes, regulated by mitochondria-endoplasmic contact sites (MERCS), which undergo physical alterations and malfunction in AD brain. Despite ongoing research, the understanding of MERCS in AD remains in its nascent stages. We postulate that these subcellular interfaces are responsible for AD progression. Neuroinflammation contributes significantly to neurodegeneration and is primarily driven by microglia, the innate immune cells in the brain. In AD, activated microglia secrete pro-inflammatory cytokines that compromise neuronal vitality. The production of these cytokines is promoted by NLRP3 inflammasome. Although inflammasome activation has been observed at MERCS, the underlying MERCS-mediated mechanisms governing regulation of inflammasome activation remain to be elucidated. Methods Primary microglia were isolated from 3-4 months old wild-type (WT) and AppNL-G-F mice (AD). MERCS ultrastructure was analyzed by transmission electron microscopy. Mitochondrial Ca2+ level and metabolic function were assessed using Rhod-2 AM fluorescence and Seahorse extracellular flux analysis respectively. Inflammasome activation was induced by lipopolysaccharide and nigericin and evaluated by IL-1{beta} ELISA, caspase-1 activity assay, and ASC immunocytochemistry. MERCS were genetically modulated via siRNA-mediated knockdown of MERCS-associated proteins, and ER-to-mitochondria Ca2+; transfer was pharmacologically inhibited using Xestospongin C and MCU-i11. Microglial A{beta} phagocytosis was quantified using fluorescence-conjugated A{beta}1-42. Results AD microglia exhibited increased MERCS number and contact length, accompanied by a reduction in mitochondria-ER proximity. These structural changes were associated with elevated mitochondrial Ca2+ levels and enhanced respiratory activity, indicating metabolic reprogramming and functional change. Structural and functional decrease of microglial MERCS attenuated NLRP3 inflammasome activation and restored inflammasome-associated impairments in A{beta} phagocytosis. Pharmacological inhibition of Ca2+ channels at MERCS identified ER-to-mitochondria Ca2+ transfer as a key regulatory mechanism for inflammasome activation. Conclusions Our findings identify microglial MERCS remodeling as an early event in AD and establish ER-mitochondria coupling as an upstream regulator of energy metabolism, inflammation, and A{beta} clearance. Targeting MERCS may therefore represent a promising strategy to modulate neuroinflammation while preserving essential microglial functions in AD.",
-      "author": "Choi, M. H., Naia, L., Ankarcrona, M.",
-      "published_date": "2026-03-12T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 336,
-      "reading_time": 1,
-      "created_at": "2026-03-12T21:35:28.458117+00:00",
-      "updated_at": "2026-03-12T22:20:39.609344+00:00",
-      "metadata": {
-        "processed_at": "2026-03-12T22:20:39.609356+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f3e7d90b6dab805e6960a974ea427cf8",
-      "url": "https://www.nature.com/articles/s41467-026-70354-x",
-      "title": "Global error signal guides local optimization in mismatch calculation",
-      "content": "",
+      "id": "cf715dbdb098c4efc34f1388ecde74fc",
+      "url": "http://ieeexplore.ieee.org/document/11433573",
+      "title": "The Experience of Deciding: An Electroencephalography Study",
+      "content": "How free our actions are and how responsible we are for them partly depends on how well we are aware of what influences those actions. One way to investigate this is to compare what we are aware of and what happens in our brain before we act. Previous studies compared the onset of awareness of a decision to move with the onset of preceding brain activity. Their results have often been taken to suggest that we are unaware of some influences. We investigated the contents of awareness at the reported time of decision in more detail. Our results suggest that neural signals associated with spontaneous actions reflect something the agent is at least partly aware of. The EEG signal before actual movements was related to the reported clarity and vividness of the experience of deciding. The EEG signal before imagined movements was related to how active the imagining reportedly felt.",
       "author": "",
-      "published_date": "2026-03-12T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
+      "published_date": "2026-03-12T13:16:37+00:00",
+      "source": "Cognitive Neuroscience",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 0,
+      "word_count": 150,
       "reading_time": 1,
-      "created_at": "2026-03-12T21:35:27.151477+00:00",
-      "updated_at": "2026-03-12T22:20:39.609360+00:00",
+      "created_at": "2026-03-12T23:30:04.371725+00:00",
+      "updated_at": "2026-03-13T04:08:11.605422+00:00",
       "metadata": {
-        "processed_at": "2026-03-12T22:20:39.609362+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "246ad178c079371dc799837403b1ba37",
-      "url": "https://gist.github.com/bretonium/291f4388e2de89a43b25c135b44e41f0",
-      "title": "Shall I implement it? No",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47357042\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-12T21:01:10+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-12T21:34:50.614527+00:00",
-      "updated_at": "2026-03-12T22:20:39.609365+00:00",
-      "metadata": {
-        "processed_at": "2026-03-12T22:20:39.609366+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "246ad178c079371dc799837403b1ba37",
-      "url": "https://gist.github.com/bretonium/291f4388e2de89a43b25c135b44e41f0",
-      "title": "Shall I implement it? No",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47357042\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-12T21:01:10+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-12T21:34:50.614527+00:00",
-      "updated_at": "2026-03-12T22:20:39.609365+00:00",
-      "metadata": {
-        "processed_at": "2026-03-12T22:20:39.609366+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fdbfe3bcab6958c579866c4210a6da98",
-      "url": "https://legiscan.com/IL/bill/SB3977/2025",
-      "title": "Illinois introduces OS-level age verification law",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47357294\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-12T21:21:08+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-12T21:34:50.614508+00:00",
-      "updated_at": "2026-03-12T22:20:39.609368+00:00",
-      "metadata": {
-        "processed_at": "2026-03-12T22:20:39.609370+00:00",
+        "processed_at": "2026-03-13T04:08:11.605424+00:00",
         "processing_method": "github_actions"
       }
     }
