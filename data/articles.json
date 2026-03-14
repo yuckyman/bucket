@@ -1,5 +1,37 @@
 [
   {
+    "id": "9ef8cccfb80baa3fb8c5add72f79ade2",
+    "url": "https://arnika.org/en/news/the-sound-of-contamination-all-analysed-headphones-on-the-central-european-market-found-to-contain-hormone-disrupting-chemicals",
+    "title": "The Sound of Contamination: Headphones Contain Ing Hormone-Disrupting Chemicals",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47382196\">Comments</a>",
+    "author": "",
+    "published_date": "2026-03-14T23:00:05+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-03-14T23:53:11.210398+00:00",
+    "updated_at": "2026-03-14T23:53:11.210400+00:00"
+  },
+  {
+    "id": "9ef8cccfb80baa3fb8c5add72f79ade2",
+    "url": "https://arnika.org/en/news/the-sound-of-contamination-all-analysed-headphones-on-the-central-european-market-found-to-contain-hormone-disrupting-chemicals",
+    "title": "The Sound of Contamination: Headphones Contain Ing Hormone-Disrupting Chemicals",
+    "content": "<p>Article URL: <a href=\"https://arnika.org/en/news/the-sound-of-contamination-all-analysed-headphones-on-the-central-european-market-found-to-contain-hormone-disrupting-chemicals\">https://arnika.org/en/news/the-sound-of-contamination-all-analysed-headphones-on-the-central-european-market-found-to-contain-hormone-disrupting-chemicals</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47382196\">https://news.ycombinator.com/item?id=47382196</a></p>\n<p>Points: 14</p>\n<p># Comments: 5</p>",
+    "author": "microflash",
+    "published_date": "2026-03-14T23:00:05+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-03-14T23:53:10.114895+00:00",
+    "updated_at": "2026-03-14T23:53:10.114903+00:00"
+  },
+  {
     "id": "2e4ff592c3137d9415c50d9732b95577",
     "url": "https://agelesslinux.org/",
     "title": "Ageless Linux. We are legally required to ask how old you are. We won't",
@@ -17018,37 +17050,5 @@
     "reading_time": 1,
     "created_at": "2026-03-10T14:13:21.938696+00:00",
     "updated_at": "2026-03-10T14:13:21.938701+00:00"
-  },
-  {
-    "id": "38254576a99ab20bf29d51f66fd1e77e",
-    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1649440",
-    "title": "SynSpine: an automated workflow for the generation of longitudinal spinal cord synthetic MRI data",
-    "content": "BackgroundSpinal cord atrophy is a key biomarker for tracking disease progression in neurological disorders, including multiple sclerosis, amyotrophic lateral sclerosis, and spinal cord injury. Recent MRI advancements have improved atrophy detection, particularly in the cervical region, facilitating longitudinal studies. However, validating atrophy quantification algorithms remains challenging due to limited ground truth data.ObjectiveThis study introduces SynSpine, a workflow for generating synthetic spinal cord MRI data (i.e., digital phantoms) with controlled levels of artificial atrophy. These phantoms support the development and preliminary validation of spinal cord imaging pipelines designed to measure degeneration over time.MethodsThe workflow consists of two phases: (1) generating synthetic MR images by isolating, extracting and scaling the spinal cord, simulating atrophy on the PAM50 template; (2) performing non-rigid registration to align the synthetic images with the subject\u2019s native space, ensuring accurate anatomical correspondence. A proof-of-concept application utilizing the Active Surface and Reg methods implemented in Jim demonstrated its effectiveness in detecting atrophy across various levels of simulated atrophy and noise.ResultsSynSpine successfully generates synthetic spinal cord images with varying atrophy levels. Non-rigid registration did not significantly affect atrophy measurements. Atrophy estimation errors, estimated using Active Surface and Reg methods, varied with both simulated atrophy magnitude and noise level, exhibiting region-dependent differences. Increased noise led to higher measurement errors.ConclusionThis work presents a novel and modular framework for simulating spinal cord atrophy data using digital phantoms, offering a controlled setting for testing spinal cord analysis pipelines. As the simulated atrophy may over-simplify in vivo conditions, future research will focus on enhancing the realism of the synthetic dataset by simulating additional pathologies, thus improving its application for evaluating spinal cord atrophy in clinical and research contexts.",
-    "author": "Licinio Craveiro",
-    "published_date": "2025-12-17T00:00:00+00:00",
-    "source": "Frontiers Neuroinformatics",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 273,
-    "reading_time": 1,
-    "created_at": "2026-03-10T14:13:14.640836+00:00",
-    "updated_at": "2026-03-10T14:13:14.640837+00:00"
-  },
-  {
-    "id": "ae7432c92216e34b3b67b92b14c7109f",
-    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae4927",
-    "title": "Fuzzing the brain: automated stress testing for the safety of ML-driven neurostimulation",
-    "content": "Objective. Machine learning (ML) models are increasingly used to generate electrical stimulation patterns in neuroprosthetic devices such as visual prostheses. While these models promise precise and personalized control, they also introduce new safety risks when model outputs are delivered directly to neural tissue. We propose a systematic, quantitative approach to detect and characterize unsafe stimulation patterns in ML-driven neurostimulation systems. Approach. We adapt an automated software testing technique known as coverage-guided fuzzing to the domain of neural stimulation. Here, fuzzing performs stress testing by perturbing model inputs and tracking whether resulting stimulation violates biophysical limits on charge density, instantaneous current, or electrode co-activation. The framework treats encoders as black boxes and steers exploration with coverage metrics that quantify how broadly test cases span the space of possible outputs and violation types. Main results. Applied to deep stimulus encoders for the retina and cortex, the method systematically reveals diverse stimulation regimes that exceed established safety limits. Two violation-output coverage metrics identify the highest number and diversity of unsafe outputs, enabling interpretable comparisons across architectures and training strategies. Significance. Violation-focused fuzzing reframes safety assessment as an empirical, reproducible process. By transforming safety from a training heuristic into a measurable property of the deployed model, it establishes a foundation for evidence-based benchmarking, regulatory readiness, and ethical assurance in next-generation neural interfaces.",
-    "author": "Mara Downing, Matthew Peng, Jacob Granley, Michael Beyeler and Tevfik Bultan",
-    "published_date": "2026-03-05T00:00:00+00:00",
-    "source": "Journal Neural Engineering",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 218,
-    "reading_time": 1,
-    "created_at": "2026-03-10T14:13:07.302084+00:00",
-    "updated_at": "2026-03-10T14:13:07.302085+00:00"
   }
 ]
