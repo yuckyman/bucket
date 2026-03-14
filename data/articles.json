@@ -1,5 +1,37 @@
 [
   {
+    "id": "2e4ff592c3137d9415c50d9732b95577",
+    "url": "https://agelesslinux.org/",
+    "title": "Ageless Linux. We are legally required to ask how old you are. We won't",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47381791\">Comments</a>",
+    "author": "",
+    "published_date": "2026-03-14T22:10:26+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-03-14T23:29:03.936197+00:00",
+    "updated_at": "2026-03-14T23:29:03.936199+00:00"
+  },
+  {
+    "id": "2e4ff592c3137d9415c50d9732b95577",
+    "url": "https://agelesslinux.org/",
+    "title": "Ageless Linux. We are legally required to ask how old you are. We won't",
+    "content": "<p>Article URL: <a href=\"https://agelesslinux.org/\">https://agelesslinux.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47381791\">https://news.ycombinator.com/item?id=47381791</a></p>\n<p>Points: 26</p>\n<p># Comments: 9</p>",
+    "author": "nateb2022",
+    "published_date": "2026-03-14T22:10:26+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-03-14T23:29:02.555381+00:00",
+    "updated_at": "2026-03-14T23:29:02.555391+00:00"
+  },
+  {
     "id": "356ba63b1fe5a7f50624149f6b0983a7",
     "url": "https://stigmollerhansen.dk/resume/learning-creative-coding/",
     "title": "Learning Creative Coding",
@@ -17018,37 +17050,5 @@
     "reading_time": 1,
     "created_at": "2026-03-10T14:13:07.302084+00:00",
     "updated_at": "2026-03-10T14:13:07.302085+00:00"
-  },
-  {
-    "id": "d853f75b1a380323c3f0017447ba95a4",
-    "url": "https://www.reddit.com/r/Python/comments/1rpu8ev/i_built_a_strict_doubleentry_ledger_kernel_no/",
-    "title": "I built a strict double-entry ledger kernel (no floats, idempotent posting, posting templates)",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Most accounting libraries in Python give you the data model but leave the hard invariants to you. After seeing too many bugs from `balance += 0.1`, I wanted something where correctness is enforced, not assumed.</p> <p><strong>What</strong> <strong>the project does</strong></p> <p>NeoCore-Ledger is a ledger kernel that enforces accounting correctness at the code level, not as a convention:</p> <p>- `Money` rejects floats at construction time \u2014 Decimal only</p> <p>- `Transaction` validates debit == credit per currency before persisting</p> <p>- Posting is idempotent by default (pass an idempotency key, get back the same transaction on retry)</p> <p>- Store is append-only \u2014 no UPDATE, no DELETE on journal entries</p> <p>- Posting templates generate ledger entries from named operations (`PAYMENT.AUTHORIZE`, `PAYMENT.SETTLE`, `PAYMENT.REVERSE`, etc.)</p> <p>Includes a full payment rail scenario (authorize \u2192 capture \u2192 settle \u2192 reverse) runnable in 20 seconds.</p> <p><strong>Target audience</strong></p> <p>Fintech developers building payment systems, wallets, or financial backends from scratch \u2014 and teams modernizing legacy financial systems who need a Python ledger that enforces the same invariants COBOL systems had by design. Production-ready, not a toy project.</p> <p><strong>Comparison with alternatives</strong></p> <p>- `beancount`, `django-ledger`: strong accounting tools focused on reporting; NeoCore focuses on the transaction kernel with enforced invariants and posting templates.</p> <p>- `Apache Fineract`: full banking platform; NeoCore is intentionally small and embeddable.</p> <p>- Rolling your own: you end up reimplementing idempotency, append-only storage, and balance checks in every project. NeoCore gives you those once, tested and documented.</p> <p>Zero mandatory dependencies. MemoryStore for tests, SQLiteStore for persistence, Postgres on the roadmap.</p> <p><strong><a href=\"https://github.com/markinkus/neocore-ledger\">https://github.com/markinkus/neocore-ledger</a></strong></p> <p>The repo has a decision log explaining every non-obvious choice (why Decimal, why append-only, why templates). Feedback welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/SugoChop\"> /u/SugoChop </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rpu8ev/i_built_a_strict_doubleentry_ledger_kernel_no/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rpu8ev/i_built_a_strict_doubleentry_ledger_kernel_no/\">[comments]</a></span>",
-    "author": "/u/SugoChop",
-    "published_date": "2026-03-10T11:20:58+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 290,
-    "reading_time": 1,
-    "created_at": "2026-03-10T14:12:45.665767+00:00",
-    "updated_at": "2026-03-10T14:12:45.665768+00:00"
-  },
-  {
-    "id": "0529b1cb223c528f883967c5beda10ec",
-    "url": "https://msspproviders.io/",
-    "title": "How Do You Choose a Managed Security Service Provider (MSSP)?",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47323300\">Comments</a>",
-    "author": "",
-    "published_date": "2026-03-10T13:55:37+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-03-10T14:12:44.289640+00:00",
-    "updated_at": "2026-03-10T14:12:44.289642+00:00"
   }
 ]
