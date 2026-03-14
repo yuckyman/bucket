@@ -1,5 +1,37 @@
 [
   {
+    "id": "ffc124dae590734975324ec93c1cfb24",
+    "url": "https://www.reddit.com/r/Python/comments/1rtg65w/italiantaxvalidators_italian_codice_fiscale/",
+    "title": "italian-tax-validators: Italian Codice Fiscale & Partita IVA validation for Python \u2014 zero deps",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>If you've ever had to deal with Italian fiscal documents in a Python project, you know the pain. The Codice Fiscale (CF) alone is a rabbit hole \u2014 omocodia handling, check digit verification, extracting birthdate/gender/birth place from a 16-character string... it's a lot.</p> <p>So I built italian-tax-validators to handle all of it cleanly.</p> <p><strong>What My Project Does</strong></p> <p>A Python library for validating and generating Italian fiscal identification documents \u2014 Codice Fiscale (CF) and Partita IVA (P.IVA).</p> <ul> <li>Validate and generate Codice Fiscale (CF)</li> <li>Validate Partita IVA (P.IVA) with Luhn algorithm</li> <li>Extract birthdate, age, gender, and birth place from CF</li> <li>Omocodia handling (when two people share the same CF, digits get substituted with letters \u2014 fun stuff)</li> <li>Municipality database with cadastral codes</li> <li>CLI tool for quick validations from the terminal</li> <li>Zero external dependencies</li> <li>Full type hints, Python 3.9+</li> </ul> <p>Quick example:</p> <pre><code>from italian_tax_validators import validate_codice_fiscale result = validate_codice_fiscale(&quot;RSSMRA85M01H501Q&quot;) print(result.is_valid) # True print(result.birthdate) # 1985-08-01 print(result.gender) # &quot;M&quot; print(result.birth_place_name) # &quot;ROMA&quot; </code></pre> <p>Works out of the box with Django, FastAPI, and Pydantic \u2014 integration examples are in the README.</p> <p><strong>Target Audience</strong></p> <p>Developers working on Italian fintech, HR, e-commerce, healthcare, or public administration projects who need reliable, well-tested fiscal validation. It's production-ready \u2014 MIT licensed, fully tested, available on PyPI.</p> <p><strong>Comparison</strong></p> <p>There are a handful of older libraries floating around (python-codicefiscale, stdnum), but most are either unmaintained, cover only validation without generation, or don't handle omocodia and P.IVA in the same package. italian-tax-validators covers the full workflow \u2014 validate, generate, extract metadata, look up municipalities \u2014 with a clean API and zero dependencies.</p> <p><strong>Install:</strong></p> <pre><code>pip install italian-tax-validators </code></pre> <p>GitHub: <a href=\"https://github.com/thesmokinator/italian-tax-validators\">https://github.com/thesmokinator/italian-tax-validators</a></p> <p>Feedback and contributions are very welcome!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Complete_Tough4505\"> /u/Complete_Tough4505 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rtg65w/italiantaxvalidators_italian_codice_fiscale/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rtg65w/italiantaxvalidators_italian_codice_fiscale/\">[comments]</a></span>",
+    "author": "/u/Complete_Tough4505",
+    "published_date": "2026-03-14T10:39:44+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 295,
+    "reading_time": 1,
+    "created_at": "2026-03-14T11:49:57.575427+00:00",
+    "updated_at": "2026-03-14T11:49:57.575428+00:00"
+  },
+  {
+    "id": "46bcaa18bbd5738459e218942ec90ba2",
+    "url": "https://www.theverge.com/c/23991049/lego-ideas-polaroid-onestep-behind-the-scenes-price",
+    "title": "How Lego builds a new Lego set",
+    "content": "<p>Article URL: <a href=\"https://www.theverge.com/c/23991049/lego-ideas-polaroid-onestep-behind-the-scenes-price\">https://www.theverge.com/c/23991049/lego-ideas-polaroid-onestep-behind-the-scenes-price</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47375610\">https://news.ycombinator.com/item?id=47375610</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+    "author": "Michelangelo11",
+    "published_date": "2026-03-14T11:35:49+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-03-14T11:49:54.961716+00:00",
+    "updated_at": "2026-03-14T11:49:54.961724+00:00"
+  },
+  {
     "id": "b315f86d0091af92a26125a2332dabce",
     "url": "https://www.bbc.com/future/article/20260310-wired-headphones-are-better-than-bluetooth",
     "title": "Wired headphone sales are exploding",
@@ -16958,37 +16990,5 @@
     "reading_time": 1,
     "created_at": "2026-03-10T04:22:37.706845+00:00",
     "updated_at": "2026-03-10T04:22:37.706848+00:00"
-  },
-  {
-    "id": "5b2aef2a0b144c82fa4abd6c5af67394",
-    "url": "https://arxiv.org/abs/2603.06855",
-    "title": "What Does AI Do for Cultural Interpretation? A Randomized Experiment on Close Reading Poems with Exposure to AI Interpretation",
-    "content": "arXiv:2603.06855v1 Announce Type: new \nAbstract: AI demonstrates unprecedented reasoning capabilities, but its increasing integration into human reasoning via automated reading and summarization has provoked debate about its use for cultural interpretation. Close reading -- the practice of understanding, analyzing, and critiquing cultural texts for pleasure -- is a skill at the core of such interpretation, traditionally being seen as exclusive to humans. To test AI's impact on close reading, both in terms of interpretative performance and pleasure, we conducted a preregistered randomized experiment (n=400) investigating the impact of AI assistance by presenting single or multiple AI interpretations, on close reading poems, compared to no AI assistance. We found that single AI interpretation boosted both performance and pleasure, while multiple AI interpretations only improved performance. Further exploration revealed a trade-off: participants who heavily relied on AI showed better performance on the task but lower pleasure. Our results contribute to discussion on whether and how to calibrate AI assistance for cultural interpretation: \"less is more.\"",
-    "author": "Jiayin Zhi, Hoyt Long, Richard Jean So, Mina Lee",
-    "published_date": "2026-03-10T04:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 163,
-    "reading_time": 1,
-    "created_at": "2026-03-10T04:22:37.706815+00:00",
-    "updated_at": "2026-03-10T04:22:37.706817+00:00"
-  },
-  {
-    "id": "fa3bb40e23f771705d5fea596fafc424",
-    "url": "https://arxiv.org/abs/2603.06585",
-    "title": "Right Move, Right Time: Multi-Sport Space Evaluation Platform for Ultimate Frisbee, Basketball, and Soccer",
-    "content": "arXiv:2603.06585v1 Announce Type: new \nAbstract: We present an open, sport-agnostic platform that turns tracking into comparable spatial measures across professional Ultimate, basketball, and soccer. Coaches in all three sports ask the same question: where is the usable space, and when should an off-ball run start? Our workflow standardizes inputs, provides timing-aware spatial evaluations, and makes it possible to reuse the same analysis across sports. We illustrate the approach with Ultimate as a focused testbed and then examine transfer between basketball and soccer. Together, these results show a practical path toward consistent, comparable evaluation across various invasion sports.",
-    "author": "Shunsuke Iwashita, Titouan Jeannot, Braden Eberhard, Jacob Miller, Rikako Kono, Calvin Yeung, Keisuke Fujii",
-    "published_date": "2026-03-10T04:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 97,
-    "reading_time": 1,
-    "created_at": "2026-03-10T04:22:37.706784+00:00",
-    "updated_at": "2026-03-10T04:22:37.706786+00:00"
   }
 ]

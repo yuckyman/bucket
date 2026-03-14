@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-03-14T11:31:02.612396+00:00",
+  "last_updated": "2026-03-14T11:51:03.211130+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "ffc124dae590734975324ec93c1cfb24",
+      "url": "https://www.reddit.com/r/Python/comments/1rtg65w/italiantaxvalidators_italian_codice_fiscale/",
+      "title": "italian-tax-validators: Italian Codice Fiscale & Partita IVA validation for Python \u2014 zero deps",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>If you've ever had to deal with Italian fiscal documents in a Python project, you know the pain. The Codice Fiscale (CF) alone is a rabbit hole \u2014 omocodia handling, check digit verification, extracting birthdate/gender/birth place from a 16-character string... it's a lot.</p> <p>So I built italian-tax-validators to handle all of it cleanly.</p> <p><strong>What My Project Does</strong></p> <p>A Python library for validating and generating Italian fiscal identification documents \u2014 Codice Fiscale (CF) and Partita IVA (P.IVA).</p> <ul> <li>Validate and generate Codice Fiscale (CF)</li> <li>Validate Partita IVA (P.IVA) with Luhn algorithm</li> <li>Extract birthdate, age, gender, and birth place from CF</li> <li>Omocodia handling (when two people share the same CF, digits get substituted with letters \u2014 fun stuff)</li> <li>Municipality database with cadastral codes</li> <li>CLI tool for quick validations from the terminal</li> <li>Zero external dependencies</li> <li>Full type hints, Python 3.9+</li> </ul> <p>Quick example:</p> <pre><code>from italian_tax_validators import validate_codice_fiscale result = validate_codice_fiscale(&quot;RSSMRA85M01H501Q&quot;) print(result.is_valid) # True print(result.birthdate) # 1985-08-01 print(result.gender) # &quot;M&quot; print(result.birth_place_name) # &quot;ROMA&quot; </code></pre> <p>Works out of the box with Django, FastAPI, and Pydantic \u2014 integration examples are in the README.</p> <p><strong>Target Audience</strong></p> <p>Developers working on Italian fintech, HR, e-commerce, healthcare, or public administration projects who need reliable, well-tested fiscal validation. It's production-ready \u2014 MIT licensed, fully tested, available on PyPI.</p> <p><strong>Comparison</strong></p> <p>There are a handful of older libraries floating around (python-codicefiscale, stdnum), but most are either unmaintained, cover only validation without generation, or don't handle omocodia and P.IVA in the same package. italian-tax-validators covers the full workflow \u2014 validate, generate, extract metadata, look up municipalities \u2014 with a clean API and zero dependencies.</p> <p><strong>Install:</strong></p> <pre><code>pip install italian-tax-validators </code></pre> <p>GitHub: <a href=\"https://github.com/thesmokinator/italian-tax-validators\">https://github.com/thesmokinator/italian-tax-validators</a></p> <p>Feedback and contributions are very welcome!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Complete_Tough4505\"> /u/Complete_Tough4505 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rtg65w/italiantaxvalidators_italian_codice_fiscale/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rtg65w/italiantaxvalidators_italian_codice_fiscale/\">[comments]</a></span>",
+      "author": "/u/Complete_Tough4505",
+      "published_date": "2026-03-14T10:39:44+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 295,
+      "reading_time": 1,
+      "created_at": "2026-03-14T11:49:57.575427+00:00",
+      "updated_at": "2026-03-14T11:49:57.575428+00:00"
+    },
+    {
+      "id": "46bcaa18bbd5738459e218942ec90ba2",
+      "url": "https://www.theverge.com/c/23991049/lego-ideas-polaroid-onestep-behind-the-scenes-price",
+      "title": "How Lego builds a new Lego set",
+      "content": "<p>Article URL: <a href=\"https://www.theverge.com/c/23991049/lego-ideas-polaroid-onestep-behind-the-scenes-price\">https://www.theverge.com/c/23991049/lego-ideas-polaroid-onestep-behind-the-scenes-price</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47375610\">https://news.ycombinator.com/item?id=47375610</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "Michelangelo11",
+      "published_date": "2026-03-14T11:35:49+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-14T11:49:54.961716+00:00",
+      "updated_at": "2026-03-14T11:49:54.961724+00:00"
+    },
     {
       "id": "b315f86d0091af92a26125a2332dabce",
       "url": "https://www.bbc.com/future/article/20260310-wired-headphones-are-better-than-bluetooth",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-03-14T09:35:19.720116+00:00",
       "updated_at": "2026-03-14T09:35:19.720121+00:00"
-    },
-    {
-      "id": "3b13fbe0688037ee87907f89e17712ea",
-      "url": "https://www.reddit.com/r/Python/comments/1rtcnw2/i_built_crawldiff_git_log_for_any_website_track/",
-      "title": "I built crawldiff \u2013 \"git log\" for any website. Track changes with diffs and AI summaries.",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p>crawldiff is a CLI that snapshots websites and shows you what changed, like git diff but for any URL. It uses Cloudflare's new /crawl endpoint to crawl pages, stores snapshots locally in SQLite, and produces unified diffs with optional AI-powered summaries.</p> <pre><code>pip install crawldiff # Snapshot a site crawldiff crawl https://stripe.com/pricing # Come back later \u2014 see what changed crawldiff diff https://stripe.com/pricing --since 7d # Watch continuously crawldiff watch https://competitor.com --every 1h </code></pre> <p>Features:</p> <ul> <li>Git-style colored diffs in the terminal</li> <li>AI summaries via Cloudflare Workers AI, Claude, or GPT (optional)</li> <li>JSON and Markdown output for piping/scripting</li> <li>Incremental crawling, only fetches changed pages</li> <li>Everything stored locally in SQLite</li> </ul> <p>Built with Python 3.12, typer, rich, httpx, difflib.</p> <p>GitHub: <a href=\"https://github.com/GeoRouv/crawldiff\">https://github.com/GeoRouv/crawldiff</a></p> <h1>Target Audience</h1> <p>Developers who need to monitor websites for changes, competitor pricing pages, documentation sites, API changelogs, terms of service, etc.</p> <h1>Comparison</h1> <table><thead> <tr> <th align=\"left\">crawldiff</th> <th align=\"left\">Visualping</th> <th align=\"left\">changedetection.io</th> <th align=\"left\">Firecrawl</th> </tr> </thead><tbody> <tr> <td align=\"left\">Open source</td> <td align=\"left\">Yes</td> <td align=\"left\">No</td> <td align=\"left\">Yes</td> </tr> <tr> <td align=\"left\">CLI-native</td> <td align=\"left\">Yes</td> <td align=\"left\">No</td> <td align=\"left\">No</td> </tr> <tr> <td align=\"left\">AI summaries</td> <td align=\"left\">Yes</td> <td align=\"left\">No</td> <td align=\"left\">No</td> </tr> <tr> <td align=\"left\">Incremental crawling</td> <td align=\"left\">Yes</td> <td align=\"left\">No</td> <td align=\"left\">No</td> </tr> <tr> <td align=\"left\">Local storage</td> <td align=\"left\">Yes</td> <td align=\"left\">No</td> <td align=\"left\">No</td> </tr> <tr> <td align=\"left\">Free</td> <td align=\"left\">Yes (free CF tier)</td> <td align=\"left\">Limited</td> <td align=\"left\">Yes (self-host)</td> </tr> </tbody></table> <p>The main difference: crawldiff is a developer-first CLI tool, not a SaaS dashboard. It stores everything locally, outputs git-style diffs you can pipe/script, and leverages Cloudflare's built-in <code>modifiedSince</code> for efficient incremental crawls.</p> <p>Only requirement is a free Cloudflare account. Happy to answer any questions!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/annoyed_archipelago\"> /u/annoyed_archipelago </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rtcnw2/i_built_crawldiff_git_log_for_any_website_track/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rtcnw2/i_built_crawldiff_git_log_for_any_website_track/\">[comments]</a></span>",
-      "author": "/u/annoyed_archipelago",
-      "published_date": "2026-03-14T07:02:14+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 292,
-      "reading_time": 1,
-      "created_at": "2026-03-14T09:34:43.415344+00:00",
-      "updated_at": "2026-03-14T09:34:43.415345+00:00"
-    },
-    {
-      "id": "f39dfb27ec04120e32e1a29c3716d6a3",
-      "url": "https://tboteproject.com",
-      "title": "Age Verification Lobbying: Dark Money, Model Legislation, Institutional Capture",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47374676\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-14T08:52:14+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-14T09:34:42.176542+00:00",
-      "updated_at": "2026-03-14T09:34:42.176547+00:00"
     }
   ]
 }
