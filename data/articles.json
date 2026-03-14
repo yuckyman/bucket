@@ -7,13 +7,17 @@
     "author": "",
     "published_date": null,
     "source": "Brain Research",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 21,
     "reading_time": 1,
     "created_at": "2026-03-14T21:52:16.775054+00:00",
-    "updated_at": "2026-03-14T21:52:16.775056+00:00"
+    "updated_at": "2026-03-14T22:21:25.365564+00:00",
+    "metadata": {
+      "processed_at": "2026-03-14T22:21:25.365573+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "ca3e8f739c78a34aa0b40e1dd87e116a",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": "2026-03-14T19:56:38+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-03-14T21:51:29.730846+00:00",
-    "updated_at": "2026-03-14T21:51:29.730848+00:00"
+    "updated_at": "2026-03-14T22:21:25.365577+00:00",
+    "metadata": {
+      "processed_at": "2026-03-14T22:21:25.365579+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "10f77bae69ea87453fee307100340a18",
@@ -39,29 +47,37 @@
     "author": "",
     "published_date": "2026-03-14T21:27:33+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-03-14T21:51:29.730805+00:00",
-    "updated_at": "2026-03-14T21:51:29.730808+00:00"
+    "updated_at": "2026-03-14T22:21:25.365582+00:00",
+    "metadata": {
+      "processed_at": "2026-03-14T22:21:25.365584+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "ca3e8f739c78a34aa0b40e1dd87e116a",
     "url": "https://nullr0ute.com/2026/03/fedora-44-on-the-raspberry-pi-5/",
     "title": "Fedora 44 on the Raspberry Pi 5",
-    "content": "<p>Article URL: <a href=\"https://nullr0ute.com/2026/03/fedora-44-on-the-raspberry-pi-5/\">https://nullr0ute.com/2026/03/fedora-44-on-the-raspberry-pi-5/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47380512\">https://news.ycombinator.com/item?id=47380512</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
-    "author": "jandeboevrie",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47380512\">Comments</a>",
+    "author": "",
     "published_date": "2026-03-14T19:56:38+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-03-14T21:51:28.565402+00:00",
-    "updated_at": "2026-03-14T21:51:28.565403+00:00"
+    "created_at": "2026-03-14T21:51:29.730846+00:00",
+    "updated_at": "2026-03-14T22:21:25.365577+00:00",
+    "metadata": {
+      "processed_at": "2026-03-14T22:21:25.365579+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "d7d6492801bd02563ed22d6bc1b79053",
@@ -71,29 +87,37 @@
     "author": "debo_",
     "published_date": "2026-03-14T20:16:19+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 13,
     "reading_time": 1,
     "created_at": "2026-03-14T21:51:28.565342+00:00",
-    "updated_at": "2026-03-14T21:51:28.565344+00:00"
+    "updated_at": "2026-03-14T22:21:25.365590+00:00",
+    "metadata": {
+      "processed_at": "2026-03-14T22:21:25.365591+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "10f77bae69ea87453fee307100340a18",
     "url": "https://github.com/xodn348/han",
     "title": "Show HN: Han \u2013 A Korean programming language written in Rust",
-    "content": "<p>A few weeks ago I saw a post about someone converting an entire C++ codebase to Rust using AI in under two weeks.<p>That inspired me \u2014 if AI can rewrite a whole language stack that fast, I wanted to try building a programming language from scratch with AI assistance.<p>I've also been noticing growing global interest in Korean language and culture, and I wondered: what would a programming language look like if every keyword was in Hangul (the Korean writing system)?<p>Han is the result. It's a statically-typed language written in Rust with a full compiler pipeline (lexer \u2192 parser \u2192 AST \u2192 interpreter + LLVM IR codegen).<p>It supports arrays, structs with impl blocks, closures, pattern matching, try/catch, file I/O, module imports, a REPL, and a basic LSP server.<p>This is a side project, not a \"you should use this instead of Python\" pitch. \nFeedback on language design, compiler architecture, or the Korean keyword choices is very welcome.<p><a href=\"https://github.com/xodn348/han\" rel=\"nofollow\">https://github.com/xodn348/han</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47381382\">https://news.ycombinator.com/item?id=47381382</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
-    "author": "xodn348",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47381382\">Comments</a>",
+    "author": "",
     "published_date": "2026-03-14T21:27:33+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 168,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-03-14T21:51:28.565311+00:00",
-    "updated_at": "2026-03-14T21:51:28.565319+00:00"
+    "created_at": "2026-03-14T21:51:29.730805+00:00",
+    "updated_at": "2026-03-14T22:21:25.365582+00:00",
+    "metadata": {
+      "processed_at": "2026-03-14T22:21:25.365584+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "eac8252384a8aaaccd27dcc6cba1f632",
