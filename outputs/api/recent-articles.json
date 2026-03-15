@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-03-15T11:28:42.733960+00:00",
+  "last_updated": "2026-03-15T11:51:15.986832+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "77a4db593d4b6c51e2302cee9d4b6283",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1623174",
+      "title": "Computational reconstruction of evolutionary selection in human brain networks",
+      "content": "IntroductionThe accumulation of genomic and brain data opens new opportunities for resource friendly, data driven brain exploration. A key challenge is to develop versatile and accessible strategies that integrate and mine multimodal datasets for novel neuroscientific insights. Here, we optimized an integrated workflow for mapping multigenic evolutionary traits in the human brain across cognitive, cellular, and molecular levels.MethodsAt the input stage, the workflow fuses an evolutionary genetic dataset with searchable synthetic functional magnetic resonance imaging (fMRI) databases that are pre clustered into concise psychological domains for improved interpretability. At its core, a Genetic Algorithm for Generalized Biclustering (GABi) mines gene sets under evolutionary selection that also show high expression correlation with fMRI networks.ResultsApplying this workflow, we identified evolutionary patterns spanning cognitive traits, brain cell types, and molecular mechanisms. Focusing on socio affective traits, the algorithm highlighted peaks in adaptive selection in networks for social interaction (language) and social concepts (theory of mind) across hominid, early hominin, and anatomically modern human (AMH) ancestry. These traits emerge from a broad spectrum of excitatory (glutamatergic) and inhibitory (GABAergic) neuronal, as well as non neuronal, cell types. The associated Gene Ontology (GO) terms were enriched for cell signaling, synaptic organization, and neuronal morphology.DiscussionTogether, these findings demonstrate an integrated workflow for molecular to systems level exploration of the brain and provide new perspectives on the evolutionary history of human socio affective functions. This approach can be adapted to screen for functional traits in the context of mental disorders or applied to the brains of other phylogenies in a similar manner.",
+      "author": "Wulf Haubensak",
+      "published_date": "2026-01-26T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 255,
+      "reading_time": 1,
+      "created_at": "2026-03-15T11:50:37.173995+00:00",
+      "updated_at": "2026-03-15T11:50:37.173996+00:00"
+    },
+    {
+      "id": "16f1c646fa9c8251f51e4080f097fc92",
+      "url": "https://jvns.ca/blog/2026/03/10/examples-for-the-tcpdump-and-dig-man-pages/",
+      "title": "Examples for the tcpdump and dig man pages",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47334668\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-11T12:24:09+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-15T11:49:56.264686+00:00",
+      "updated_at": "2026-03-15T11:49:56.264688+00:00"
+    },
     {
       "id": "840ba45778e5a687a1495c1e05e3e7ad",
       "url": "https://www.nature.com/articles/s41598-026-42814-3",
@@ -311,46 +343,6 @@
       "updated_at": "2026-03-15T08:31:27.331964+00:00",
       "metadata": {
         "processed_at": "2026-03-15T08:31:27.331975+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "38eee7c1969a76f603af095582508097",
-      "url": "https://www.nature.com/articles/s41598-026-43451-6",
-      "title": "Modulation of feedback-related negativity by objective and subjective response correctness",
-      "content": "",
-      "author": "",
-      "published_date": "2026-03-15T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-15T07:46:54.181904+00:00",
-      "updated_at": "2026-03-15T08:31:27.331979+00:00",
-      "metadata": {
-        "processed_at": "2026-03-15T08:31:27.331981+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "051b00eb368bb3d8d8ce021fb514a810",
-      "url": "https://fmhy.net/posts/changelog-sites",
-      "title": "Changelog Sites",
-      "content": "<p><strong><a href=\"https://changes.fmhy.bid/\" rel=\"noreferrer\" target=\"_blank\">https://changes.fmhy.bid/</a></strong></p>\n<p>This covers changes that occur in both the #Recently-Added and #Monthly-Update channels in our Discord.</p>\n<hr />\n<p><strong><a href=\"https://fmhy-tracker.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">https://fmhy-tracker.pages.dev/</a></strong></p>\n<p>This covers links that have been added, updated, or removed by watching GitHub for changes.</p>\n<hr />\n<p>Note that we also make monthly posts on both reddit + our site with the bigger changes, and you can also follow them yourself by joining our <a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Discord</a>, or watching the <a href=\"https://github.com/fmhy/edit/commits/main/\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub.</p>",
-      "author": "",
-      "published_date": "2025-12-12T00:00:00+00:00",
-      "source": "Fmhy",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 83,
-      "reading_time": 1,
-      "created_at": "2026-03-15T07:46:02.373061+00:00",
-      "updated_at": "2026-03-15T08:31:27.331983+00:00",
-      "metadata": {
-        "processed_at": "2026-03-15T08:31:27.331985+00:00",
         "processing_method": "github_actions"
       }
     }
