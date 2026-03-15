@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-03-15T17:30:08.548565+00:00",
+  "last_updated": "2026-03-15T17:56:44.287780+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "527f46f39aea4073a2bcf06e3e861783",
+      "url": "https://www.reddit.com/r/Python/comments/1ruc3q9/mesa_40_alpha_released/",
+      "title": "Mesa 4.0 alpha released",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone!</p> <p>We've started development towards Mesa 4.0 and just released the first alpha. This is a big architectural step forward: Mesa is moving from step-based to event-driven simulation at its core, while cleaning up years of accumulated API cruft.</p> <ul> <li><a href=\"https://github.com/projectmesa/mesa/releases/tag/v4.0.0a0\">https://github.com/projectmesa/mesa/releases/tag/v4.0.0a0</a></li> </ul> <h1>What's Agent-Based Modeling?</h1> <p>Ever wondered how bird flocks organize themselves? Or how traffic jams form? Agent-based modeling (ABM) lets you simulate these complex systems by defining simple rules for individual &quot;agents&quot; (birds, cars, people, etc.) and watching how patterns emerge from their interactions. Instead of writing equations for the whole system, you model each agent's behavior and let the collective dynamics arise naturally.</p> <h1>What's Mesa?</h1> <p>Mesa is Python's leading framework for agent-based modeling. It builds on Python's scientific stack (NumPy, pandas, Matplotlib) and provides specialized tools for spatial relationships, agent scheduling, data collection, and browser-based visualization. Whether you're studying epidemic spread, market dynamics, or ecological systems, Mesa gives you the building blocks for sophisticated simulations.</p> <h1>What's new in Mesa 4.0 alpha?</h1> <p><strong>Event-driven at the core.</strong> Mesa 3.5 introduced public event scheduling on <code>Model</code>, with methods like <code>model.run_for()</code>, <code>model.run_until()</code>, <code>model.schedule_event()</code>, and <code>model.schedule_recurring()</code>. Mesa 4.0 continues development on this front: <code>model.steps</code> is gone, replaced by <code>model.time</code> as the universal clock. The mental model moves from &quot;execute step N&quot; to &quot;advance time, and whatever is scheduled will run.&quot; The event system now supports pausing/resuming recurring events, exposes next scheduled times, and enforces that time actually moves forward.</p> <p><strong>Experimental timed actions.</strong> A new <code>Action</code> system gives agents a built-in concept of doing something over time. Actions integrate with the event scheduler, support interruption with progress tracking, and can be resumed:</p> <pre><code>from mesa.experimental.actions import Action class Forage(Action): def __init__(self, sheep): super().__init__(sheep, duration=5.0) def on_complete(self): self.agent.energy += 30 def on_interrupt(self, progress): self.agent.energy += 30 * progress # Partial credit sheep.start_action(Forage(sheep)) </code></pre> <p><strong>Deprecated APIs removed.</strong> This is a major version, so we followed through on removals: the <code>seed</code> parameter (use <code>rng</code>), <code>batch_run</code> (use <code>Scenario</code>), the legacy <a href=\"http://mesa.space\"><code>mesa.space</code></a> module (use <code>mesa.discrete_space</code>), <code>PropertyLayer</code> (replaced by raw NumPy arrays on the grid), and the <code>Simulator</code> classes (replaced by the model-level scheduling methods). If you've been following deprecation warnings in 3.x, most of this should be straightforward.</p> <p><strong>Cleaner internals.</strong> A new <code>mesa.errors</code> exception hierarchy replaces generic <code>Exception</code> usage. <code>DiscreteSpace</code> is now an abstract base class enforcing a consistent spatial API. Property access on cells uses native property closures on a dynamic <code>GridCell</code> class. Several targeted performance optimizations reduce allocations in the event system and continuous space.</p> <h1>This is an alpha</h1> <p>Expect rough edges. We're releasing early to get feedback from the community before the stable release. Further breaking changes are possible. If you're running Mesa in production, stay on 3.5 for now. We'd love for adventurous users to try the alpha and tell us what breaks.</p> <h1>What's ahead for 4.0 stable</h1> <p>We're still working on the space architecture (multi-space support, observable positions), replacing <code>DataCollector</code> with the new reactive <code>DataRecorder</code>, and designing a cleaner experimentation API around <code>Scenario</code>. Check out our <a href=\"https://github.com/mesa/mesa/issues/3132\">tracking issue</a> for the full roadmap.</p> <h1>Talk with us!</h1> <p>We'd love to hear what you think:</p> <ul> <li>Join our Matrix chat: <a href=\"https://matrix.to/#/#project-mesa:matrix.org\">https://matrix.to/#/#project-mesa:matrix.org</a></li> <li>Check out our Discussions: <a href=\"https://github.com/projectmesa/mesa/discussions\">https://github.com/projectmesa/mesa/discussions</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Balance-\"> /u/Balance- </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ruc3q9/mesa_40_alpha_released/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ruc3q9/mesa_40_alpha_released/\">[comments]</a></span>",
+      "author": "/u/Balance-",
+      "published_date": "2026-03-15T11:52:00+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 546,
+      "reading_time": 2,
+      "created_at": "2026-03-15T17:55:31.324147+00:00",
+      "updated_at": "2026-03-15T17:55:31.324149+00:00"
+    },
+    {
+      "id": "a5fc44a19ff540db1df6ee3be30615ca",
+      "url": "https://www.bbc.com/reel/video/p0n61dg3/grandparents-are-glued-to-their-phones-families-are-worried",
+      "title": "Grandparents are glued to their phones, families are worried [video]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47389784\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-15T17:43:19+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-15T17:55:30.008858+00:00",
+      "updated_at": "2026-03-15T17:55:30.008860+00:00"
+    },
     {
       "id": "182c49142261a3f79a08bb809461d9eb",
       "url": "https://isaacfreund.com/blog/river-window-management/",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-03-15T15:30:35.403046+00:00",
       "updated_at": "2026-03-15T15:30:35.403048+00:00"
-    },
-    {
-      "id": "96d189640bd1f8a865dcb705cca0e51e",
-      "url": "https://octetta.github.io/k-synth/",
-      "title": "Show HN: What if your synthesizer was powered by APL (or a dumb K clone)?",
-      "content": "<p>I built k-synth as an experiment to see if a minimalist, K-inspired array language could make sketching waveforms faster and more intuitive than traditional code. I\u2019ve put together a web-based toolkit so you can try the syntax directly in the browser without having to touch a compiler:<p>Live Toolkit: <a href=\"https://octetta.github.io/k-synth/\" rel=\"nofollow\">https://octetta.github.io/k-synth/</a><p>If you visit the page, here is a quick path to an audio payoff:<p>- Click \"patches\" and choose dm-bell.ks.<p>- Click \"run\"\u2014the notebook area will update. Click the waveform to hear the result.<p>- Click the \"->0\" button below the waveform to copy it into slot 0 at the top (slots are also clickable).<p>- Click \"pads\" in the entry area to show a performance grid.<p>- Click \"melodic\" to play slot 0's sample at different intervals across the grid.<p>The 'Weird' Stack:<p>- The Language: A simplified, right-associative array language (e.g., s for sine, p for pi).<p>- The Web Toolkit: Built using WASM and Web Audio for live-coding samples.<p>- AI Pair-Programming: I used AI agents to bootstrap the parser and web boilerplate, which let me vet the language design in weeks rather than months.<p>The Goal: This isn't meant to replace a DAW. It\u2019s a compact way to generate samples for larger projects. It\u2019s currently in a \"will-it-blend\" state. I\u2019m looking for feedback from the array language and DSP communities\u2014specifically on the operator choices and the right-to-left evaluation logic.<p>Source (MIT): <a href=\"https://github.com/octetta/k-synth\" rel=\"nofollow\">https://github.com/octetta/k-synth</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47386983\">https://news.ycombinator.com/item?id=47386983</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
-      "author": "octetta",
-      "published_date": "2026-03-15T12:58:13+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 238,
-      "reading_time": 1,
-      "created_at": "2026-03-15T15:30:34.102319+00:00",
-      "updated_at": "2026-03-15T15:30:34.102321+00:00"
-    },
-    {
-      "id": "9790119d76362ad467957611afbfa52c",
-      "url": "https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode",
-      "title": "Glassworm Is Back: A New Wave of Invisible Unicode Attacks Hits Repositories",
-      "content": "<p>Article URL: <a href=\"https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode\">https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47387047\">https://news.ycombinator.com/item?id=47387047</a></p>\n<p>Points: 14</p>\n<p># Comments: 2</p>",
-      "author": "robinhouston",
-      "published_date": "2026-03-15T13:08:02+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-15T15:30:34.102242+00:00",
-      "updated_at": "2026-03-15T15:30:34.102244+00:00"
     }
   ]
 }

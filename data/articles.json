@@ -1,5 +1,37 @@
 [
   {
+    "id": "527f46f39aea4073a2bcf06e3e861783",
+    "url": "https://www.reddit.com/r/Python/comments/1ruc3q9/mesa_40_alpha_released/",
+    "title": "Mesa 4.0 alpha released",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone!</p> <p>We've started development towards Mesa 4.0 and just released the first alpha. This is a big architectural step forward: Mesa is moving from step-based to event-driven simulation at its core, while cleaning up years of accumulated API cruft.</p> <ul> <li><a href=\"https://github.com/projectmesa/mesa/releases/tag/v4.0.0a0\">https://github.com/projectmesa/mesa/releases/tag/v4.0.0a0</a></li> </ul> <h1>What's Agent-Based Modeling?</h1> <p>Ever wondered how bird flocks organize themselves? Or how traffic jams form? Agent-based modeling (ABM) lets you simulate these complex systems by defining simple rules for individual &quot;agents&quot; (birds, cars, people, etc.) and watching how patterns emerge from their interactions. Instead of writing equations for the whole system, you model each agent's behavior and let the collective dynamics arise naturally.</p> <h1>What's Mesa?</h1> <p>Mesa is Python's leading framework for agent-based modeling. It builds on Python's scientific stack (NumPy, pandas, Matplotlib) and provides specialized tools for spatial relationships, agent scheduling, data collection, and browser-based visualization. Whether you're studying epidemic spread, market dynamics, or ecological systems, Mesa gives you the building blocks for sophisticated simulations.</p> <h1>What's new in Mesa 4.0 alpha?</h1> <p><strong>Event-driven at the core.</strong> Mesa 3.5 introduced public event scheduling on <code>Model</code>, with methods like <code>model.run_for()</code>, <code>model.run_until()</code>, <code>model.schedule_event()</code>, and <code>model.schedule_recurring()</code>. Mesa 4.0 continues development on this front: <code>model.steps</code> is gone, replaced by <code>model.time</code> as the universal clock. The mental model moves from &quot;execute step N&quot; to &quot;advance time, and whatever is scheduled will run.&quot; The event system now supports pausing/resuming recurring events, exposes next scheduled times, and enforces that time actually moves forward.</p> <p><strong>Experimental timed actions.</strong> A new <code>Action</code> system gives agents a built-in concept of doing something over time. Actions integrate with the event scheduler, support interruption with progress tracking, and can be resumed:</p> <pre><code>from mesa.experimental.actions import Action class Forage(Action): def __init__(self, sheep): super().__init__(sheep, duration=5.0) def on_complete(self): self.agent.energy += 30 def on_interrupt(self, progress): self.agent.energy += 30 * progress # Partial credit sheep.start_action(Forage(sheep)) </code></pre> <p><strong>Deprecated APIs removed.</strong> This is a major version, so we followed through on removals: the <code>seed</code> parameter (use <code>rng</code>), <code>batch_run</code> (use <code>Scenario</code>), the legacy <a href=\"http://mesa.space\"><code>mesa.space</code></a> module (use <code>mesa.discrete_space</code>), <code>PropertyLayer</code> (replaced by raw NumPy arrays on the grid), and the <code>Simulator</code> classes (replaced by the model-level scheduling methods). If you've been following deprecation warnings in 3.x, most of this should be straightforward.</p> <p><strong>Cleaner internals.</strong> A new <code>mesa.errors</code> exception hierarchy replaces generic <code>Exception</code> usage. <code>DiscreteSpace</code> is now an abstract base class enforcing a consistent spatial API. Property access on cells uses native property closures on a dynamic <code>GridCell</code> class. Several targeted performance optimizations reduce allocations in the event system and continuous space.</p> <h1>This is an alpha</h1> <p>Expect rough edges. We're releasing early to get feedback from the community before the stable release. Further breaking changes are possible. If you're running Mesa in production, stay on 3.5 for now. We'd love for adventurous users to try the alpha and tell us what breaks.</p> <h1>What's ahead for 4.0 stable</h1> <p>We're still working on the space architecture (multi-space support, observable positions), replacing <code>DataCollector</code> with the new reactive <code>DataRecorder</code>, and designing a cleaner experimentation API around <code>Scenario</code>. Check out our <a href=\"https://github.com/mesa/mesa/issues/3132\">tracking issue</a> for the full roadmap.</p> <h1>Talk with us!</h1> <p>We'd love to hear what you think:</p> <ul> <li>Join our Matrix chat: <a href=\"https://matrix.to/#/#project-mesa:matrix.org\">https://matrix.to/#/#project-mesa:matrix.org</a></li> <li>Check out our Discussions: <a href=\"https://github.com/projectmesa/mesa/discussions\">https://github.com/projectmesa/mesa/discussions</a></li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Balance-\"> /u/Balance- </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ruc3q9/mesa_40_alpha_released/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ruc3q9/mesa_40_alpha_released/\">[comments]</a></span>",
+    "author": "/u/Balance-",
+    "published_date": "2026-03-15T11:52:00+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 546,
+    "reading_time": 2,
+    "created_at": "2026-03-15T17:55:31.324147+00:00",
+    "updated_at": "2026-03-15T17:55:31.324149+00:00"
+  },
+  {
+    "id": "a5fc44a19ff540db1df6ee3be30615ca",
+    "url": "https://www.bbc.com/reel/video/p0n61dg3/grandparents-are-glued-to-their-phones-families-are-worried",
+    "title": "Grandparents are glued to their phones, families are worried [video]",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47389784\">Comments</a>",
+    "author": "",
+    "published_date": "2026-03-15T17:43:19+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-03-15T17:55:30.008858+00:00",
+    "updated_at": "2026-03-15T17:55:30.008860+00:00"
+  },
+  {
     "id": "182c49142261a3f79a08bb809461d9eb",
     "url": "https://isaacfreund.com/blog/river-window-management/",
     "title": "Separating the Wayland Compositor and Window Manager",
@@ -17050,37 +17082,5 @@
     "reading_time": 1,
     "created_at": "2026-03-11T04:22:21.979879+00:00",
     "updated_at": "2026-03-11T04:22:21.979880+00:00"
-  },
-  {
-    "id": "556bc8f36e0bbe974c5fb4f6a7d86923",
-    "url": "https://www.nature.com/articles/s41598-026-43248-7",
-    "title": "Neuroinflammatory crosstalk between microglia and astrocytes increases viral replication in an iPSC-derived model of CNS HIV infection",
-    "content": "",
-    "author": "",
-    "published_date": "2026-03-11T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-03-11T04:22:21.979859+00:00",
-    "updated_at": "2026-03-11T04:22:21.979861+00:00"
-  },
-  {
-    "id": "25c645795b75fbc9b73cc4c18b507cc9",
-    "url": "https://www.nature.com/articles/s41598-026-43466-z",
-    "title": "Cardiorespiratory fitness is differentially associated with motor cortex laterality in middle-aged and older adults",
-    "content": "",
-    "author": "",
-    "published_date": "2026-03-11T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-03-11T04:22:21.979816+00:00",
-    "updated_at": "2026-03-11T04:22:21.979820+00:00"
   }
 ]
