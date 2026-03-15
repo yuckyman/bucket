@@ -1,24 +1,8 @@
 {
-  "last_updated": "2026-03-15T06:50:55.388331+00:00",
-  "pending_count": 731,
-  "processed_count": 269,
+  "last_updated": "2026-03-15T08:31:27.433947+00:00",
+  "pending_count": 726,
+  "processed_count": 274,
   "pending_articles": [
-    {
-      "id": "c8edf0ad2899f1dc35f2f203e5840c9e",
-      "url": "https://www.sciencedirect.com/science/article/pii/S000689932600079X?dgcid=rss_sd_all",
-      "title": "The glymphatic system as a brain scavenger in Alzheimer\u2019s disease: mechanisms and therapeutic implications",
-      "content": "<p>Publication date: 1 June 2026</p><p><b>Source:</b> Brain Research, Volume 1880</p><p>Author(s): Manyv Zheng, Wenya Su, Luyao Tian, Wenyuan Gao</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 17,
-      "reading_time": 1,
-      "created_at": "2026-03-15T06:34:23.156533+00:00",
-      "updated_at": "2026-03-15T06:34:23.156534+00:00"
-    },
     {
       "id": "5c7be69e157906e8952f97d12ffe2ddc",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001314?dgcid=rss_sd_all",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2026-03-15T05:07:45.806739+00:00",
       "updated_at": "2026-03-15T05:07:45.806741+00:00"
+    },
+    {
+      "id": "9eb7d43b00408e3d603489fd44574958",
+      "url": "http://ieeexplore.ieee.org/document/11319164",
+      "title": "Assistive Trajectory Planning for Lower Limb Exoskeletons: Strategies From Laboratory-Optimized Gait to Environmentally-Adaptive Locomotion Through Multimodal Parameter Awareness",
+      "content": "Lower limb assistive exoskeletons (LLEs) show great potential to reduce metabolic cost, improve walking performance, and correct abnormal gait patterns. Among their core control architectures, assistive trajectory planning is key to determining system responsiveness and effectiveness under varying locomotion conditions. Many trajectory planning methods were proposed in either laboratory or unstructured real-world environments. To clarify the scope and challenges of existing research, this review categorizes trajectory planning strategies into two major types based on application scenarios: (1) strategies for laboratory settings with controllable disturbances, which usually involve optimal control for gait under stable or controllable conditions; and (2) strategies for real-world environments characterized by varying terrain, individual differences, and gait fluctuations, which usually involve adaptive control for gait under diverse or unstructured conditions. Given the foundational role of gait phase detection in trajectory planning, this review also systematically examines mainstream algorithms for gait phase recognition and estimation. Finally, the paper analyzes the limitations of existing methods and discusses the potential of advanced algorithms, intelligent multimodal sensing systems, novel sensing technologies, and embedded deployment to enhance the performance of exoskeleton assistive trajectory planning.",
+      "author": "",
+      "published_date": "2025-12-30T13:16:56+00:00",
+      "source": "Reviews Biomedical Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 182,
+      "reading_time": 1,
+      "created_at": "2026-03-15T05:07:45.806703+00:00",
+      "updated_at": "2026-03-15T05:07:45.806704+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "18f2c00c30001fe0a8f71fd48c60c6c2",
+      "url": "https://www.nature.com/articles/s41380-026-03500-y",
+      "title": "Altered frontal and occipital cortical microstructure in obsessive-compulsive disorder - a multisite mega-analysis",
+      "content": "",
+      "author": "",
+      "published_date": "2026-03-15T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-03-15T07:46:54.181921+00:00",
+      "updated_at": "2026-03-15T08:31:27.331964+00:00",
+      "metadata": {
+        "processed_at": "2026-03-15T08:31:27.331975+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "38eee7c1969a76f603af095582508097",
+      "url": "https://www.nature.com/articles/s41598-026-43451-6",
+      "title": "Modulation of feedback-related negativity by objective and subjective response correctness",
+      "content": "",
+      "author": "",
+      "published_date": "2026-03-15T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-03-15T07:46:54.181904+00:00",
+      "updated_at": "2026-03-15T08:31:27.331979+00:00",
+      "metadata": {
+        "processed_at": "2026-03-15T08:31:27.331981+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "051b00eb368bb3d8d8ce021fb514a810",
+      "url": "https://fmhy.net/posts/changelog-sites",
+      "title": "Changelog Sites",
+      "content": "<p><strong><a href=\"https://changes.fmhy.bid/\" rel=\"noreferrer\" target=\"_blank\">https://changes.fmhy.bid/</a></strong></p>\n<p>This covers changes that occur in both the #Recently-Added and #Monthly-Update channels in our Discord.</p>\n<hr />\n<p><strong><a href=\"https://fmhy-tracker.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">https://fmhy-tracker.pages.dev/</a></strong></p>\n<p>This covers links that have been added, updated, or removed by watching GitHub for changes.</p>\n<hr />\n<p>Note that we also make monthly posts on both reddit + our site with the bigger changes, and you can also follow them yourself by joining our <a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Discord</a>, or watching the <a href=\"https://github.com/fmhy/edit/commits/main/\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub.</p>",
+      "author": "",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 83,
+      "reading_time": 1,
+      "created_at": "2026-03-15T07:46:02.373061+00:00",
+      "updated_at": "2026-03-15T08:31:27.331983+00:00",
+      "metadata": {
+        "processed_at": "2026-03-15T08:31:27.331985+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "dc247ed1e1fd7bf60de3f90eb4e6eb96",
+      "url": "https://www.johndcook.com/blog/2026/03/10/sinh-arccosh/",
+      "title": "Why Mathematica does not simplify sinh(arccosh(x))",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47335325\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-11T13:30:31+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-15T07:45:59.813443+00:00",
+      "updated_at": "2026-03-15T08:31:27.331987+00:00",
+      "metadata": {
+        "processed_at": "2026-03-15T08:31:27.331988+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "33d3d8b2b399085bd2366fd605eeb339",
       "url": "http://ieeexplore.ieee.org/document/11162721",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "2a58bd401c967fd50331febd13cec482",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.11.711180v1?rss=1",
-      "title": "Precise kinematic and muscle recording in freely behaving flies enabled by closed-loop tracking and annotation-free pose estimation",
-      "content": "Understanding the neuromuscular basis for behavior requires measuring both kinematic and physiological data at high resolution in unconstrained conditions: a technically challenging goal. Here we present an integrated experimental-computational pipeline for measuring and quantifying body part kinematics and muscle activity in freely behaving Drosophila melanogaster. We first present Spotlight, a closed-loop videography system that performs real-time tracking to record untethered flies at high resolution (6 m/pixel) and high frame rate (330 Hz) while also enabling optical recordings of limb muscle activity via a fluorescent calcium reporter. To analyze these massive datasets without manual image annotation, we introduce PoseForge, a synthetic-data-driven framework that exploits morphologically accurate biomechanical simulations to generate synthetic data, and contrastive self-supervised learning to infer 3D keypoints and dense body-part segmentation from a single camera view. Using resulting 3D kinematic data, we can replay recorded behaviors in a biomechanical digital twin, NeuroMechFly, to infer forces generated and experienced by the fly's limbs. Finally, we illustrate the capability of our system to optically record muscle activity. We show how the legs' long-tendon muscles activate upon mechanical vibration, possibly to activate gripping and to maintain a stable posture. Taken together, this workflow enables scalable, high-resolution measurement and modeling of unconstrained, natural behavior.",
-      "author": "Wang-Chen, S., Stimpfling, V. A., Azcorra, M., Ramdya, P.",
-      "published_date": "2026-03-14T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 202,
-      "reading_time": 1,
-      "created_at": "2026-03-15T02:32:46.735151+00:00",
-      "updated_at": "2026-03-15T04:29:38.842347+00:00",
-      "metadata": {
-        "processed_at": "2026-03-15T04:29:38.842358+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "38254576a99ab20bf29d51f66fd1e77e",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1649440",
-      "title": "SynSpine: an automated workflow for the generation of longitudinal spinal cord synthetic MRI data",
-      "content": "BackgroundSpinal cord atrophy is a key biomarker for tracking disease progression in neurological disorders, including multiple sclerosis, amyotrophic lateral sclerosis, and spinal cord injury. Recent MRI advancements have improved atrophy detection, particularly in the cervical region, facilitating longitudinal studies. However, validating atrophy quantification algorithms remains challenging due to limited ground truth data.ObjectiveThis study introduces SynSpine, a workflow for generating synthetic spinal cord MRI data (i.e., digital phantoms) with controlled levels of artificial atrophy. These phantoms support the development and preliminary validation of spinal cord imaging pipelines designed to measure degeneration over time.MethodsThe workflow consists of two phases: (1) generating synthetic MR images by isolating, extracting and scaling the spinal cord, simulating atrophy on the PAM50 template; (2) performing non-rigid registration to align the synthetic images with the subject\u2019s native space, ensuring accurate anatomical correspondence. A proof-of-concept application utilizing the Active Surface and Reg methods implemented in Jim demonstrated its effectiveness in detecting atrophy across various levels of simulated atrophy and noise.ResultsSynSpine successfully generates synthetic spinal cord images with varying atrophy levels. Non-rigid registration did not significantly affect atrophy measurements. Atrophy estimation errors, estimated using Active Surface and Reg methods, varied with both simulated atrophy magnitude and noise level, exhibiting region-dependent differences. Increased noise led to higher measurement errors.ConclusionThis work presents a novel and modular framework for simulating spinal cord atrophy data using digital phantoms, offering a controlled setting for testing spinal cord analysis pipelines. As the simulated atrophy may over-simplify in vivo conditions, future research will focus on enhancing the realism of the synthetic dataset by simulating additional pathologies, thus improving its application for evaluating spinal cord atrophy in clinical and research contexts.",
-      "author": "Licinio Craveiro",
-      "published_date": "2025-12-17T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 273,
-      "reading_time": 1,
-      "created_at": "2026-03-15T02:32:38.843919+00:00",
-      "updated_at": "2026-03-15T04:29:38.842362+00:00",
-      "metadata": {
-        "processed_at": "2026-03-15T04:29:38.842364+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ae7432c92216e34b3b67b92b14c7109f",
-      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae4927",
-      "title": "Fuzzing the brain: automated stress testing for the safety of ML-driven neurostimulation",
-      "content": "Objective. Machine learning (ML) models are increasingly used to generate electrical stimulation patterns in neuroprosthetic devices such as visual prostheses. While these models promise precise and personalized control, they also introduce new safety risks when model outputs are delivered directly to neural tissue. We propose a systematic, quantitative approach to detect and characterize unsafe stimulation patterns in ML-driven neurostimulation systems. Approach. We adapt an automated software testing technique known as coverage-guided fuzzing to the domain of neural stimulation. Here, fuzzing performs stress testing by perturbing model inputs and tracking whether resulting stimulation violates biophysical limits on charge density, instantaneous current, or electrode co-activation. The framework treats encoders as black boxes and steers exploration with coverage metrics that quantify how broadly test cases span the space of possible outputs and violation types. Main results. Applied to deep stimulus encoders for the retina and cortex, the method systematically reveals diverse stimulation regimes that exceed established safety limits. Two violation-output coverage metrics identify the highest number and diversity of unsafe outputs, enabling interpretable comparisons across architectures and training strategies. Significance. Violation-focused fuzzing reframes safety assessment as an empirical, reproducible process. By transforming safety from a training heuristic into a measurable property of the deployed model, it establishes a foundation for evidence-based benchmarking, regulatory readiness, and ethical assurance in next-generation neural interfaces.",
-      "author": "Mara Downing, Matthew Peng, Jacob Granley, Michael Beyeler and Tevfik Bultan",
-      "published_date": "2026-03-05T00:00:00+00:00",
-      "source": "Journal Neural Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 218,
-      "reading_time": 1,
-      "created_at": "2026-03-15T02:32:30.594052+00:00",
-      "updated_at": "2026-03-15T04:29:38.842367+00:00",
-      "metadata": {
-        "processed_at": "2026-03-15T04:29:38.842368+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ba2a2755692aa9905035d6147bb0e157",
-      "url": "https://www.reddit.com/r/Python/comments/1rtz4pi/sunday_daily_thread_whats_everyone_working_on/",
-      "title": "Sunday Daily Thread: What's everyone working on this week?",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: What's Everyone Working On This Week? \ud83d\udee0\ufe0f</h1> <p>Hello <a href=\"/r/Python\">/r/Python</a>! It's time to share what you've been working on! Whether it's a work-in-progress, a completed masterpiece, or just a rough idea, let us know what you're up to!</p> <h2>How it Works:</h2> <ol> <li><strong>Show &amp; Tell</strong>: Share your current projects, completed works, or future ideas.</li> <li><strong>Discuss</strong>: Get feedback, find collaborators, or just chat about your project.</li> <li><strong>Inspire</strong>: Your project might inspire someone else, just as you might get inspired here.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Feel free to include as many details as you'd like. Code snippets, screenshots, and links are all welcome.</li> <li>Whether it's your job, your hobby, or your passion project, all Python-related work is welcome here.</li> </ul> <h2>Example Shares:</h2> <ol> <li><strong>Machine Learning Model</strong>: Working on a ML model to predict stock prices. Just cracked a 90% accuracy rate!</li> <li><strong>Web Scraping</strong>: Built a script to scrape and analyze news articles. It's helped me understand media bias better.</li> <li><strong>Automation</strong>: Automated my home lighting with Python and Raspberry Pi. My life has never been easier!</li> </ol> <p>Let's build and grow together! Share your journey and learn from others. Happy coding! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rtz4pi/sunday_daily_thread_whats_everyone_working_on/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rtz4pi/sunday_daily_thread_whats_everyone_working_on/\">[comments]</a></span>",
-      "author": "/u/AutoModerator",
-      "published_date": "2026-03-15T00:00:16+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 211,
-      "reading_time": 1,
-      "created_at": "2026-03-15T02:32:04.596543+00:00",
-      "updated_at": "2026-03-15T04:29:38.842370+00:00",
-      "metadata": {
-        "processed_at": "2026-03-15T04:29:38.842372+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "43c0349c6f7f712df5b3b2484568ddb0",
-      "url": "https://drams.framer.website/journal/from-braun-t3-to-apples-ipod",
-      "title": "From Braun T3 to Apple's iPod",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47325606\">Comments</a>",
+      "id": "c8edf0ad2899f1dc35f2f203e5840c9e",
+      "url": "https://www.sciencedirect.com/science/article/pii/S000689932600079X?dgcid=rss_sd_all",
+      "title": "The glymphatic system as a brain scavenger in Alzheimer\u2019s disease: mechanisms and therapeutic implications",
+      "content": "<p>Publication date: 1 June 2026</p><p><b>Source:</b> Brain Research, Volume 1880</p><p>Author(s): Manyv Zheng, Wenya Su, Luyao Tian, Wenyuan Gao</p>",
       "author": "",
-      "published_date": "2026-03-10T16:38:12+00:00",
-      "source": "Hacker News",
+      "published_date": null,
+      "source": "Brain Research",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 2,
+      "word_count": 17,
       "reading_time": 1,
-      "created_at": "2026-03-15T02:32:03.312970+00:00",
-      "updated_at": "2026-03-15T04:29:38.842375+00:00",
+      "created_at": "2026-03-15T06:34:23.156533+00:00",
+      "updated_at": "2026-03-15T08:31:27.331993+00:00",
       "metadata": {
-        "processed_at": "2026-03-15T04:29:38.842376+00:00",
+        "processed_at": "2026-03-15T08:31:27.331995+00:00",
         "processing_method": "github_actions"
       }
     }
