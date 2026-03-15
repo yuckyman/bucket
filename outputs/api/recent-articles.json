@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-03-15T10:24:12.657398+00:00",
+  "last_updated": "2026-03-15T10:32:31.691936+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "e27c18ff65889f1ef5bf25a58566d0a0",
+      "url": "https://www.reddit.com/r/Python/comments/1ru9qz9/i_used_c_and_nanobind_to_build_a_zerocopy_graph/",
+      "title": "I used C++ and nanobind to build a zero-copy graph engine that lets Python train on 50GB datasets",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>If you\u2019ve ever worked with massive datasets in Python (like a 50GB edge list for Graph Neural Networks), you know the &quot;Memory Wall.&quot; Loading it via Pandas or standard Python structures usually results in an instant 24GB+ OOM allocation crash before you can even do any math.</p> <p>so I built <strong>GraphZero (v0.2)</strong> to bypass Python's memory overhead entirely.</p> <h1>What My Project Does</h1> <p>GraphZero is a C++ data engine that streams datasets natively from the SSD into PyTorch without loading them into RAM.</p> <p>Instead of parsing massive CSVs into Python memory, the engine compiles the raw data into highly optimized binary formats (<code>.gl</code> and <code>.gd</code>). It then uses POSIX <code>mmap</code> to memory-map the files directly from the SSD.</p> <p>The magic happens with <code>nanobind</code>. I take the raw C++ pointers and expose them directly to Python as zero-copy NumPy arrays.</p> <pre><code>import graphzero as gz import torch # 1. Mount the zero-copy engine fs = gz.FeatureStore(&quot;papers100M_features.gd&quot;) # 2. Instantly map SSD data to PyTorch (RAM allocated: 0 Bytes) X = torch.from_numpy(fs.get_tensor()) </code></pre> <p>During a training loop, Python thinks it has a 50GB tensor sitting in RAM. When you index it, it triggers an OS Page Fault, and the operating system automatically fetches <em>only</em> the required 4KB blocks from the NVMe drive. The C++ side uses OpenMP to multi-thread the data sampling, explicitly releasing the Python GIL so disk I/O and GPU math run perfectly in parallel.</p> <h1>Target Audience</h1> <ul> <li><strong>Who it's for:</strong> ML Researchers, Data Engineers, and Python developers training Graph Neural Networks (GNNs) on massive datasets that exceed their local system RAM.</li> <li><strong>Project Status:</strong> It is currently in v0.2. It is highly functional for local research and testing (includes a full PyTorch GraphSAGE example), but I am looking for community code review and stress-testing before calling it production-ready.</li> </ul> <h1>Comparison</h1> <ul> <li><strong>vs. PyTorch Geometric (PyG) / DGL:</strong> Standard GNN libraries typically attempt to load the entire edge list and feature matrix into system memory before pushing batches to the GPU. On a dataset like Papers100M, this causes an instant out-of-memory crash on consumer hardware. GraphZero keeps RAM allocation at 0 bytes by streaming the data natively.</li> <li><strong>vs. Pandas / Standard Python:</strong> Loading massive CSVs via Pandas creates massive memory overhead due to Python objects. GraphZero uses strict C++ template dispatching to enforce exact <code>FLOAT32</code> or <code>INT64</code> memory layouts natively, and <code>nanobind</code> ensures no data is copied when passing the pointer to Python.</li> </ul> <p>I built this mostly to dive deep into C-bindings, memory management, and cross-platform CI/CD (getting Apple Clang and MSVC to agree on C++20 was a nightmare).</p> <p>The repo has a self-contained synthetic example and a training script so you can test the zero-copy mounting locally. I'd love for this community to tear my code apart\u2014especially if you have experience with <code>nanobind</code> or high-performance Python extensions!</p> <p><strong>GitHub Repo:</strong> <a href=\"https://github.com/KrishSingaria/graphzero\">repo</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Important-Trash-4868\"> /u/Important-Trash-4868 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ru9qz9/i_used_c_and_nanobind_to_build_a_zerocopy_graph/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ru9qz9/i_used_c_and_nanobind_to_build_a_zerocopy_graph/\">[comments]</a></span>",
+      "author": "/u/Important-Trash-4868",
+      "published_date": "2026-03-15T09:31:58+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 491,
+      "reading_time": 2,
+      "created_at": "2026-03-15T10:31:20.235405+00:00",
+      "updated_at": "2026-03-15T10:31:20.235407+00:00"
+    },
+    {
+      "id": "322095b93598e4ba9d15ea0cde52650f",
+      "url": "https://fatih-erikli-potato.github.io/blog/slicing-bezier-surfaces.html",
+      "title": "Slicing Bezier Surfaces",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47349871\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-12T12:51:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-15T10:31:18.989403+00:00",
+      "updated_at": "2026-03-15T10:31:18.989405+00:00"
+    },
+    {
+      "id": "98d5ba110756f0be4af97bfe8b4cdcc2",
+      "url": "https://www.alexerhardt.com/en/enshittification-amazon-paperback-books/",
+      "title": "The enshittification of Amazon paperback books",
+      "content": "<p>Article URL: <a href=\"https://www.alexerhardt.com/en/enshittification-amazon-paperback-books/\">https://www.alexerhardt.com/en/enshittification-amazon-paperback-books/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47385576\">https://news.ycombinator.com/item?id=47385576</a></p>\n<p>Points: 21</p>\n<p># Comments: 6</p>",
+      "author": "aerhardt",
+      "published_date": "2026-03-15T09:06:35+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-15T10:31:17.615627+00:00",
+      "updated_at": "2026-03-15T10:31:17.615634+00:00"
+    },
     {
       "id": "4405e3704ac4e62e01fee900d6dbf183",
       "url": "https://www.reddit.com/r/Python/comments/1ru90kz/what_projects_to_do_alone/",
@@ -329,58 +377,6 @@
         "processed_at": "2026-03-15T06:50:55.271258+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "c8edf0ad2899f1dc35f2f203e5840c9e",
-      "url": "https://www.sciencedirect.com/science/article/pii/S000689932600079X?dgcid=rss_sd_all",
-      "title": "The glymphatic system as a brain scavenger in Alzheimer\u2019s disease: mechanisms and therapeutic implications",
-      "content": "<p>Publication date: 1 June 2026</p><p><b>Source:</b> Brain Research, Volume 1880</p><p>Author(s): Manyv Zheng, Wenya Su, Luyao Tian, Wenyuan Gao</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 17,
-      "reading_time": 1,
-      "created_at": "2026-03-15T06:34:23.156533+00:00",
-      "updated_at": "2026-03-15T08:31:27.331993+00:00",
-      "metadata": {
-        "processed_at": "2026-03-15T08:31:27.331995+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5c7be69e157906e8952f97d12ffe2ddc",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001314?dgcid=rss_sd_all",
-      "title": "Maternal immune activation impairs neurodevelopment in offspring via ASK1/MAPK-mediated apoptotic disruption during early development",
-      "content": "<p>Publication date: 7 May 2026</p><p><b>Source:</b> Neuroscience, Volume 601</p><p>Author(s): Shiyu Wang, Kangqi Zhao, Zhen Li, Peiling Shi, Yi Deng, Qing Liu, Yongfeng Yang, Chuansheng Wang, Jie Li, Yuanbo Li, Luxain Lv, Wenqiang Li</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 32,
-      "reading_time": 1,
-      "created_at": "2026-03-15T06:34:21.854635+00:00",
-      "updated_at": "2026-03-15T06:34:21.854636+00:00"
-    },
-    {
-      "id": "c4051837dada2efce3a0e404ca26c587",
-      "url": "https://www.sciencedirect.com/science/article/pii/S030645222600117X?dgcid=rss_sd_all",
-      "title": "Parietal repetitive transcranial magnetic stimulation enhances functional connectivity in patients with minimally conscious state",
-      "content": "<p>Publication date: 7 May 2026</p><p><b>Source:</b> Neuroscience, Volume 601</p><p>Author(s): Xiao Yan, Zilong Zhu, Jubao Du, Lei Cao, Xiaoping Wan, Yanhua Li, Jiawen Jiang, Weiqun Song, Ye Zhang</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 26,
-      "reading_time": 1,
-      "created_at": "2026-03-15T06:34:21.854616+00:00",
-      "updated_at": "2026-03-15T06:34:21.854617+00:00"
     }
   ]
 }
