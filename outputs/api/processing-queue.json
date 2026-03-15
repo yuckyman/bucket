@@ -1,8 +1,56 @@
 {
-  "last_updated": "2026-03-15T08:31:27.433947+00:00",
+  "last_updated": "2026-03-15T10:24:12.656883+00:00",
   "pending_count": 726,
   "processed_count": 274,
   "pending_articles": [
+    {
+      "id": "bfa6d4bbac155a36f2d35a2b28a52acb",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.13.711289v1?rss=1",
+      "title": "Neural Correlates of Listening States, Cognitive Load, and Selective Attention in an Ecological Multi-Talker Scenario",
+      "content": "This study assessed neural responses to continuous speech to classify listening state, cognitive load, and selective auditory attention in complex acoustic environments. EEG was recorded while participants listened to concurrent male and female talkers under two conditions: active listening, where attention was directed to one of two competing speakers (target vs. masker), or passive listening, where attention was diverted to a visual task. Cognitive load was varied by manipulating target-to-masker (TMR) ratio (TMR: +7 dB, -7 dB), with lower TMR representing more demanding listening conditions. Spectral EEG features across frequency bands were ranked with univariate statistics and used to classify listening state (active vs passive) and cognitive load (low vs. high TMR). Auditory attention decoding (AAD) was performed using linear stimulus reconstruction to identify the target talker during active listening. Classification of listening state achieved $90.3%$ accuracy, and AAD reached 84.4% accuracy, demonstrating robust tracking of attentional engagement. In contrast, classification of cognitive load was near chance, suggesting that more extreme acoustic manipulations may be required to elicit distinct neural signatures. Comparable performance using a reduced set of electrodes near the ear indicates the potential for integration with wearable hearing devices. Overall, these results demonstrate that EEG can distinguish attentional states and selectively track target speech in realistic auditory scenarios. The findings provide a foundation for future applications in monitoring listening behavior, supporting auditory processing, and improving brain-controlled hearing aids in complex acoustic environments. keyword EEG, auditory attention decoding, active and passive listening, envelope reconstruction, cognitive load, realistic multi-talker scenario, signal-to-noise ratio",
+      "author": "Shahsavari Baboukani, P., Ordonez, R., Gravesen, C., Ostergaard, J., Rank, M. L., Alickovic, E., Cabrera, A. F.",
+      "published_date": "2026-03-15T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 252,
+      "reading_time": 1,
+      "created_at": "2026-03-15T08:39:14.369028+00:00",
+      "updated_at": "2026-03-15T08:39:14.369029+00:00"
+    },
+    {
+      "id": "e8f022d72e181bae2024b75dd733b965",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.14.711805v1?rss=1",
+      "title": "Semantic Information Orthogonal to Visual Features Peaks in LateralOccipitotemporal Cortex",
+      "content": "Language model embeddings of scene descriptions predict responses in the human higher visual cortex. However, a fundamental question remains: does this alignment reflect truly visually-independent semantic content, or does it occur because language models better mimic the complex visual features that drive these areas? We used 7T fMRI data from the Natural Scenes Dataset to directly address this by removing the influence of visual feature embeddings from language model embeddings, isolating semantic content that is separate from the visual signal. We then used these visually-independent embeddings to predict brain responses in individual voxels through cross-validated ridge regression. After adjusting for visual signals, we found a clear difference in brain regions: the lateral occipitotemporal cortex, especially in areas selective for body perception, showed significantly more visually-independent semantic variance compared to ventral stream regions. In contrast, the early visual cortex displayed notably negative predictions after adjustment, confirming that our method effectively removed visually-driven signals. This pattern was consistent across all eight subjects, both hemispheres, and six combinations of language models and visual feature architectures. These findings suggest that the lateral stream retains substantially more variance from language models unrelated to various visual feature models than the ventral stream does. This suggests that visually independent semantic coding is organized heterogenously along the occipital cortex.",
+      "author": "Ponnambalam, A. R., Pottore Venkiteswaran, K.",
+      "published_date": "2026-03-15T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 211,
+      "reading_time": 1,
+      "created_at": "2026-03-15T08:39:14.368982+00:00",
+      "updated_at": "2026-03-15T08:39:14.368984+00:00"
+    },
+    {
+      "id": "fbde50ca242a4a0f81a73efba7375055",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.12.711172v1?rss=1",
+      "title": "The temporal organization of memory and emotion is reciprocally coupled",
+      "content": "Emotional experiences unfold over time and can bias the appraisal and memory of subsequent events. Yet, it remains unclear whether and how the temporal organization of memory regulates the persistence of affect over time, or affective spillover--and conversely, how emotional-valence dynamics sculpts temporal memory. We developed a novel paradigm employing positive and negative emotional sequences and combined EEG and behavioral measures of temporal memory and affective spillover. Longer remembered temporal distance for emotional-sequence items predicted reduced affective spillover onto later-shown neutral stimuli, whereas better order memory predicted greater spillover. Alpha burst time during emotional-sequence encoding predicted longer remembered temporal distance and modulated spillover in a valence-dependent manner. Conversely, emotional-valence shifts expanded remembered temporal distance and enhanced order memory across sequences. These findings demonstrate reciprocal coupling between temporal memory organization and affect dynamics, revealing how memory structure shapes--and is shaped by--the persistence of emotion.",
+      "author": "Li, M., Schwartzman, B. E., LeVier, T. N., Giesbrecht, B., Lapate, R.",
+      "published_date": "2026-03-15T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 143,
+      "reading_time": 1,
+      "created_at": "2026-03-15T08:39:14.368936+00:00",
+      "updated_at": "2026-03-15T08:39:14.368940+00:00"
+    },
     {
       "id": "5c7be69e157906e8952f97d12ffe2ddc",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001314?dgcid=rss_sd_all",
@@ -114,57 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-03-15T06:33:32.977986+00:00",
       "updated_at": "2026-03-15T06:33:32.977988+00:00"
-    },
-    {
-      "id": "1f00d79a9d74e48bad48d8e1f0b2b113",
-      "url": "https://www.nytimes.com/2026/03/14/business/media/washington-post-jeff-bezos-layoffs.html",
-      "title": "Jeff Bezos Upended the Washington Post",
-      "content": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/03/14/business/media/washington-post-jeff-bezos-layoffs.html\">https://www.nytimes.com/2026/03/14/business/media/washington-post-jeff-bezos-layoffs.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47384619\">https://news.ycombinator.com/item?id=47384619</a></p>\n<p>Points: 9</p>\n<p># Comments: 5</p>",
-      "author": "y1n0",
-      "published_date": "2026-03-15T05:36:00+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-15T06:33:32.977938+00:00",
-      "updated_at": "2026-03-15T06:33:32.977946+00:00"
-    },
-    {
-      "id": "66dee36d064f333d8f19bef774a7039b",
-      "url": "http://ieeexplore.ieee.org/document/11301615",
-      "title": "Emerging Noninvasive Approaches for the Suppression of Pathological Tremor",
-      "content": "Pathological tremor affects over 40 million people worldwide, significantly impairing daily activities and quality of life. Pharmacological treatments show limited efficacy, with up to 30% discontinuation rates, while surgical interventions like deep brain stimulation achieve significant tremor reduction but are often unsuitable due to age, comorbidities, or personal preference. Recently, the need for safe and effective alternatives has led to the development of innovative, noninvasive, and patient-friendly technologies for tremor management. This clinical application review analyzed 134 studies (1969-2025), categorizing them into three major modalities, focusing on their underlying neurophysiological mechanisms, with a special emphasis on the clinical perspective. The three considered modalities were force-controlling (orthoses and functional electrical stimulation), central neuromodulation (transcranial magnetic stimulation, transcranial electrical stimulation, low-intensity focused ultrasound, and transcutaneous spinal cord stimulation), and peripheral neuromodulation (afferent stimulation and vibration). Force-controlling strategies showed promising acute effects, though clinical translation remains limited by poor wearability and the development of muscle fatigue. Central neuromodulation produced moderate effects, while peripheral neuromodulation has gained clinical traction, with several devices now being commercially available. However, heterogeneity in study design, patient populations, and technology maturity remain the main obstacles for the direct comparison of techniques. Future research should prioritize larger multicenter trials, standardized outcome measures, and accessibility considerations to enable personalized, evidence-based treatment selection for diverse tremor populations.",
-      "author": "",
-      "published_date": "2025-12-16T15:42:54+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 215,
-      "reading_time": 1,
-      "created_at": "2026-03-15T05:07:45.806739+00:00",
-      "updated_at": "2026-03-15T05:07:45.806741+00:00"
-    },
-    {
-      "id": "9eb7d43b00408e3d603489fd44574958",
-      "url": "http://ieeexplore.ieee.org/document/11319164",
-      "title": "Assistive Trajectory Planning for Lower Limb Exoskeletons: Strategies From Laboratory-Optimized Gait to Environmentally-Adaptive Locomotion Through Multimodal Parameter Awareness",
-      "content": "Lower limb assistive exoskeletons (LLEs) show great potential to reduce metabolic cost, improve walking performance, and correct abnormal gait patterns. Among their core control architectures, assistive trajectory planning is key to determining system responsiveness and effectiveness under varying locomotion conditions. Many trajectory planning methods were proposed in either laboratory or unstructured real-world environments. To clarify the scope and challenges of existing research, this review categorizes trajectory planning strategies into two major types based on application scenarios: (1) strategies for laboratory settings with controllable disturbances, which usually involve optimal control for gait under stable or controllable conditions; and (2) strategies for real-world environments characterized by varying terrain, individual differences, and gait fluctuations, which usually involve adaptive control for gait under diverse or unstructured conditions. Given the foundational role of gait phase detection in trajectory planning, this review also systematically examines mainstream algorithms for gait phase recognition and estimation. Finally, the paper analyzes the limitations of existing methods and discusses the potential of advanced algorithms, intelligent multimodal sensing systems, novel sensing technologies, and embedded deployment to enhance the performance of exoskeleton assistive trajectory planning.",
-      "author": "",
-      "published_date": "2025-12-30T13:16:56+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 182,
-      "reading_time": 1,
-      "created_at": "2026-03-15T05:07:45.806703+00:00",
-      "updated_at": "2026-03-15T05:07:45.806704+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "4405e3704ac4e62e01fee900d6dbf183",
+      "url": "https://www.reddit.com/r/Python/comments/1ru90kz/what_projects_to_do_alone/",
+      "title": "What projects to do alone.",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Coders of reddit, I had pyhton course where the teacher would give us a project idea to do, ever since i finished the course i havent been coding because i dont have any ideas. Should I ask AI to give me a project idea or should I try to fix a problem I have. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Flying_Puck29\"> /u/Flying_Puck29 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ru90kz/what_projects_to_do_alone/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ru90kz/what_projects_to_do_alone/\">[comments]</a></span>",
+      "author": "/u/Flying_Puck29",
+      "published_date": "2026-03-15T08:46:19+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 76,
+      "reading_time": 1,
+      "created_at": "2026-03-15T09:36:23.422448+00:00",
+      "updated_at": "2026-03-15T10:24:12.542473+00:00",
+      "metadata": {
+        "processed_at": "2026-03-15T10:24:12.542482+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2c7804e15fc3d4035a039b2aa82399e2",
+      "url": "https://www.charlespetzold.com/blog/2026/02/The-Appalling-Stupidity-of-Spotifys-AI-DJ.html",
+      "title": "The Appalling Stupidity of Spotify's AI DJ",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47385272\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-15T08:04:55+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-15T09:36:22.110083+00:00",
+      "updated_at": "2026-03-15T10:24:12.542487+00:00",
+      "metadata": {
+        "processed_at": "2026-03-15T10:24:12.542489+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2c7804e15fc3d4035a039b2aa82399e2",
+      "url": "https://www.charlespetzold.com/blog/2026/02/The-Appalling-Stupidity-of-Spotifys-AI-DJ.html",
+      "title": "The Appalling Stupidity of Spotify's AI DJ",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47385272\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-15T08:04:55+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-15T09:36:22.110083+00:00",
+      "updated_at": "2026-03-15T10:24:12.542487+00:00",
+      "metadata": {
+        "processed_at": "2026-03-15T10:24:12.542489+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2a4728bc82824e33f09cece3440695c2",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.13.711590v1?rss=1",
+      "title": "Human claustrum neurons encode uncertainty and prediction errors during aversive learning",
+      "content": "Flexible behavior depends on continuous updating of internal models, yet the neural circuits coordinating this process remain poorly understood. The claustrum reciprocally connected to nearly the entire neocortex is uniquely positioned to influence cortical processing. Here we report single-neuron recordings from the human claustrum during aversive learning, with anterior cingulate cortex and amygdala recordings for comparison. Claustrum and anterior cingulate neurons displayed structured, task-related responses. Distinct subpopulations encoded stimulus onset and action-contingent outcomes, with outcome representations diverging between regions. Critically, both regions encoded model-derived latent variables uncertainty and prediction error but with different temporal profiles: only the anterior cingulate carried uncertainty signals during the intertrial period, while both regions encoded uncertainty and prediction error during the active-avoidance period. The amygdala, by contrast, showed minimal latent-variable modulation. These findings provide evidence that human claustrum neurons track higher-order cognitive variables not directly observable from sensory input, and reveal dissociable roles for the claustrum and anterior cingulate cortex in tracking latent task states.",
+      "author": "damisah, e. c., Hu, M., Dalvit, R., Medina, M., dougherty, m., Zhou, Y., barretonieves, j., obaid, s., Afrasiyabi, A., Krishnaswamy, S., Kaye, A. P., Gunel, M., krystal, j., Sheth, K. N., Gu, X., Pittenger, C., wise, t.",
+      "published_date": "2026-03-15T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 160,
+      "reading_time": 1,
+      "created_at": "2026-03-15T08:39:14.369098+00:00",
+      "updated_at": "2026-03-15T10:24:12.542495+00:00",
+      "metadata": {
+        "processed_at": "2026-03-15T10:24:12.542497+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f41d38f0e39c14ecaa2d5dd3b77b7aef",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.12.711366v1?rss=1",
+      "title": "Developmental mechanisms contributing to non-linear firing dynamics in spinal motoneurons of the postnatal mouse",
+      "content": "The intrinsic properties of spinal motoneurons support flexible movement, including the maintenance of postural tone. Motoneurons can produce sustained action potential output that outlasts synaptic input, a phenomenon traditionally attributed to persistent inward currents (PICs) mediated by sodium and calcium channels. Using whole-cell patch clamp electrophysiology, we examined how specific ion channels contribute to PIC maturation and non-linear firing dynamics that allow motoneurons to sustain their output in fast and slow lumbar motoneurons across postnatal development in mice. PIC amplitude and non-linear firing dynamics increased after weight bearing in fast but not slow motoneurons. Blocking Nav1.6 channels reduced PIC amplitude at both pre- and post-weight-bearing stages, whereas L-type calcium channel blockade only reduced PICs after weight bearing emerged. However, reducing PIC amplitude - either individually or in combination - did not abolish sustained firing hysteresis. Unexpectedly, activation of muscarinic receptors increased PIC amplitude while promoting adaptive firing dynamics, suggesting that PICs alone do not drive this behavior. Instead, pharmacological manipulation of potassium currents mediated by KCNQ and Kv1.2 channels, which oppose PICs, produced substantial changes in firing dynamics. Strikingly, blocking HCN channels promoted sustained firing dynamics and led to the emergence of self-sustained firing in fast motoneurons. These results indicate that while PICs and non-linear firing dynamics mature together, sustained firing relies on mechanisms beyond PICs, with potassium and HCN channels playing key modulatory roles.",
+      "author": "Sharples, S. A., Miles, G. B.",
+      "published_date": "2026-03-15T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 225,
+      "reading_time": 1,
+      "created_at": "2026-03-15T08:39:14.369065+00:00",
+      "updated_at": "2026-03-15T10:24:12.542499+00:00",
+      "metadata": {
+        "processed_at": "2026-03-15T10:24:12.542501+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "18f2c00c30001fe0a8f71fd48c60c6c2",
       "url": "https://www.nature.com/articles/s41380-026-03500-y",
@@ -262,106 +362,6 @@
       "updated_at": "2026-03-15T06:50:55.271231+00:00",
       "metadata": {
         "processed_at": "2026-03-15T06:50:55.271240+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ed0272a758c9c7c3ffd4453606511270",
-      "url": "http://ieeexplore.ieee.org/document/11357276",
-      "title": "Network Models of Neurodegeneration: Bridging Neuronal Dynamics and Disease Progression",
-      "content": "Neurodegenerative diseases are characterized by the accumulation of misfolded proteins and widespread disruptions in brain function. Computational modeling has advanced our understanding of these processes, but efforts have traditionally focused on either neuronal dynamics or the biological processes underlying disease. One class of models uses neural mass and whole-brain frameworks to simulate changes in oscillations, connectivity, and network stability. A second class focuses on biological processes underlying disease progression, particularly prion-like propagation through the connectome, glial responses and vascular mechanisms. Each modeling tradition has provided important insights, but experimental evidence shows these processes are interconnected: neuronal activity modulates protein release and clearance, while pathological burden disrupts neuronal function. Modeling these domains in isolation limits our understanding, although recent studies have begun to bridge the two by coupling neuronal and pathological processes. To determine where and why disease emerges, how it spreads, and how it might be altered, mathematical models that capture feedback between neuronal dynamics and disease biology are needed. This review surveys the two modeling approaches and highlights efforts to unify them, emphasizing that linking neuronal activity and disease progression is key to identifying strategies that slow, halt, or reverse degeneration and restore neural function.",
-      "author": "",
-      "published_date": "2026-01-16T13:18:09+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 196,
-      "reading_time": 1,
-      "created_at": "2026-03-15T06:34:32.424451+00:00",
-      "updated_at": "2026-03-15T06:50:55.271244+00:00",
-      "metadata": {
-        "processed_at": "2026-03-15T06:50:55.271246+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "dac7420ff7d2fa4cf08f9f5b6327973b",
-      "url": "http://ieeexplore.ieee.org/document/10972118",
-      "title": "Principles and Operation of Virtual Brain Twins",
-      "content": "Current clinical methods often overlook individual variability by relying on population-wide trials, while mechanism-based trials remain underutilized in neuroscience due to the brain\u2019s complexity. This situation may change through the use of a Virtual Brain Twin (VBT), which is a personalized digital replica of an individual\u2019s brain, integrating structural and functional brain data into advanced computational models and inference algorithms. By bridging the gap between molecular mechanisms, whole-brain dynamics, and imaging data, VBTs enhance the understanding of (patho)physiological mechanisms, advancing insights into both healthy and disordered brain function. Central to VBT is the network modeling that couples mesoscopic representation of neuronal activity through white matter connectivity, enabling the simulation of brain dynamics at a network level. This transformative approach provides interpretable predictive capabilities, supporting clinicians in personalizing treatments and optimizing interventions. This Review outlines the key components of VBT development, covering the conceptual, mathematical, technical, and clinical aspects. We describe the stages of VBT construction\u2013from anatomical coupling and modeling to simulation and Bayesian inference\u2013and demonstrate their applications in resting-state, healthy aging, multiple sclerosis, and epilepsy. Finally, we discuss potential extensions to other neurological disorders, such as Parkinson\u2019s disease, and explore future applications in consciousness research and brain-computer interfaces, paving the way for advancements in personalized medicine and brain-machine integration.",
-      "author": "",
-      "published_date": "2025-04-21T13:17:22+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 209,
-      "reading_time": 1,
-      "created_at": "2026-03-15T06:34:32.424419+00:00",
-      "updated_at": "2026-03-15T06:50:55.271249+00:00",
-      "metadata": {
-        "processed_at": "2026-03-15T06:50:55.271250+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c94087ee840c19317f074aa21241e7f2",
-      "url": "http://ieeexplore.ieee.org/document/11230544",
-      "title": "Optogenetics: Pinpoint Light on Precise Neuromodulation",
-      "content": "Optogenetics has emerged as a pivotal tool in neuroscience, enabling intricate modulation of targeted neurons within the nervous system. Despite its transformative potential, achieving high spatiotemporal resolution in neuromodulation remains a significant challenge, particularly in free-behaving animals. This review aims to highlight recent advances in optogenetic systems for neuromodulation, focusing on the efforts to achieve superior precision in spatiotemporal control. We provide a comprehensive overview of the breakthroughs in optogenetic tools that offer ultrafast responsiveness, strategies for targeted tissue- and cell-specific optogene delivery, and methods for precise optical stimulation with minimal impact on the behavior of subjects. Additionally, we review the applications of optogenetics in neurological diseases, emphasizing its potential to advance therapeutic interventions. These innovations are poised to propel optogenetics into a new era, accelerating its clinical translation for precision neuromodulation and treatment of neurological disorders.",
-      "author": "",
-      "published_date": "2025-11-06T13:16:42+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 137,
-      "reading_time": 1,
-      "created_at": "2026-03-15T06:34:32.424383+00:00",
-      "updated_at": "2026-03-15T06:50:55.271253+00:00",
-      "metadata": {
-        "processed_at": "2026-03-15T06:50:55.271254+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "138dbc20af95ce55414e7d62214f9607",
-      "url": "https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab",
-      "title": "Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings",
-      "content": "<p>&#160;</p>\n<p>The post <a href=\"https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab\">Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "Nancy Zimmerman",
-      "published_date": "2025-09-08T16:27:03+00:00",
-      "source": "Embs",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 17,
-      "reading_time": 1,
-      "created_at": "2026-03-15T06:34:30.144424+00:00",
-      "updated_at": "2026-03-15T06:50:55.271256+00:00",
-      "metadata": {
-        "processed_at": "2026-03-15T06:50:55.271258+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c8edf0ad2899f1dc35f2f203e5840c9e",
-      "url": "https://www.sciencedirect.com/science/article/pii/S000689932600079X?dgcid=rss_sd_all",
-      "title": "The glymphatic system as a brain scavenger in Alzheimer\u2019s disease: mechanisms and therapeutic implications",
-      "content": "<p>Publication date: 1 June 2026</p><p><b>Source:</b> Brain Research, Volume 1880</p><p>Author(s): Manyv Zheng, Wenya Su, Luyao Tian, Wenyuan Gao</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 17,
-      "reading_time": 1,
-      "created_at": "2026-03-15T06:34:23.156533+00:00",
-      "updated_at": "2026-03-15T08:31:27.331993+00:00",
-      "metadata": {
-        "processed_at": "2026-03-15T08:31:27.331995+00:00",
         "processing_method": "github_actions"
       }
     }
