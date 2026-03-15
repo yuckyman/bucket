@@ -1,5 +1,37 @@
 [
   {
+    "id": "b4027256263eda73d91724e511aa93ec",
+    "url": "https://kenschutte.com/lima-to-rio-by-bus/",
+    "title": "Bus travel from Lima to Rio de Janeiro",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47339818\">Comments</a>",
+    "author": "",
+    "published_date": "2026-03-11T19:07:12+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-03-15T19:28:56.090435+00:00",
+    "updated_at": "2026-03-15T19:28:56.090437+00:00"
+  },
+  {
+    "id": "779e9403607a32c3564c35b0125fd7c9",
+    "url": "https://sebastianraschka.com/llm-architecture-gallery/",
+    "title": "LLM Architecture Gallery",
+    "content": "<p>Article URL: <a href=\"https://sebastianraschka.com/llm-architecture-gallery/\">https://sebastianraschka.com/llm-architecture-gallery/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47388676\">https://news.ycombinator.com/item?id=47388676</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
+    "author": "tzury",
+    "published_date": "2026-03-15T16:01:09+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-03-15T19:28:54.988433+00:00",
+    "updated_at": "2026-03-15T19:28:54.988434+00:00"
+  },
+  {
     "id": "c5acab1e7812418032c2dd7261507fcd",
     "url": "https://billwadge.com/2026/03/15/in-memoriam-john-w-addison-jr-my-phd-advisor/",
     "title": "In Memoriam: John W. Addison, my PhD advisor",
@@ -17074,37 +17106,5 @@
     "reading_time": 1,
     "created_at": "2026-03-11T04:22:32.937833+00:00",
     "updated_at": "2026-03-11T04:22:32.937834+00:00"
-  },
-  {
-    "id": "35d770aa47c8bc07cc5ea7f1e1c91033",
-    "url": "https://arxiv.org/abs/2603.09402",
-    "title": "Compact Dynamical Mean-Field Theory of Oscillator Networks",
-    "content": "arXiv:2603.09402v1 Announce Type: new \nAbstract: We present a compact dynamical mean-field theory (DMFT) for large networks of coupled phase oscillators whose phases live on the circle $S^1$ and interact with both coherent mean-field coupling and quenched randomness. Starting from wrapped Langevin dynamics, we build a path-integral representation that keeps the $2\\pi$-periodicity of the phases explicit. After averaging over the disorder in the thermodynamic limit, this construction reduces to a single-oscillator stochastic equation driven by a deterministic mean field and a self-consistent colored Gaussian noise, whose covariance is fixed by a circular two-time correlator. In the limit of vanishing disorder, the formalism reproduces the Ott--Antonsen reduction and recovers standard Kuramoto and theta-neuron neural-mass equations. The same framework accommodates arbitrary $2\\pi$-periodic coupling functions, including those obtained from infinitesimal phase response curves (iPRCs) of biophysical neuron models. As an example, we show that for adaptive exponential integrate-and-fire neurons, inserting an iPRC-fitted coupling into the compact DMFT yields quantitative predictions for synchronization thresholds, providing a direct route from single-neuron phase response data to network-level mean-field predictions for arbitrary phase-reducible oscillators.",
-    "author": "Kanishka Reddy",
-    "published_date": "2026-03-11T04:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 176,
-    "reading_time": 1,
-    "created_at": "2026-03-11T04:22:32.937800+00:00",
-    "updated_at": "2026-03-11T04:22:32.937801+00:00"
-  },
-  {
-    "id": "ba00457a2030fcd03c087aebac29fff4",
-    "url": "https://arxiv.org/abs/2603.08949",
-    "title": "Diffusion of Neuromodulators for Temporal Credit Assignment",
-    "content": "arXiv:2603.08949v1 Announce Type: new \nAbstract: Biological learning achieves temporal credit assignment despite sparse and imprecise feedback, often relying on neuromodulatory signals acting over space and time. Here, we introduce a learning mechanism in which error information diffuses locally through the network, similar to volume transmission of neuromodulators. This distributed modulation allows neurons to learn even in the absence of direct feedback, using the local concentration of the diffusing credit signal. Applied to recurrent spiking neural networks with sparse feedback connectivity, diffusive credit signaling improves learning across three benchmark tasks. Using eligibility propagation as a baseline learning mechanism, we show how diffusion-based modulation can provide a plausible mechanism for credit assignment in sparsely connected neural circuits.",
-    "author": "Jo\\~ao Barretto-Bittar, Anna Levina, Emmanouil Giannakakis, Roxana Zeraati",
-    "published_date": "2026-03-11T04:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 115,
-    "reading_time": 1,
-    "created_at": "2026-03-11T04:22:32.937768+00:00",
-    "updated_at": "2026-03-11T04:22:32.937770+00:00"
   }
 ]
