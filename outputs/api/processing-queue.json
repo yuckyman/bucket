@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-03-16T14:55:35.008687+00:00",
-  "pending_count": 702,
-  "processed_count": 298,
+  "last_updated": "2026-03-16T16:57:36.774411+00:00",
+  "pending_count": 700,
+  "processed_count": 300,
   "pending_articles": [
+    {
+      "id": "8eab00b37985aa5e668360cef2277dcc",
+      "url": "https://karpathy.ai/jobs/",
+      "title": "US Job Market Visualizer \u2013 Andrej Karpathy",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47400060\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-16T15:10:30+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-16T16:06:02.140206+00:00",
+      "updated_at": "2026-03-16T16:06:02.140208+00:00"
+    },
+    {
+      "id": "4052b7d980e0c761f20d51ac7b6ce1cb",
+      "url": "https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative",
+      "title": "MCP Server Is Eating Your Context Window. There's a Simpler Way",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47400261\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-16T15:25:36+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-16T16:06:02.140186+00:00",
+      "updated_at": "2026-03-16T16:06:02.140188+00:00"
+    },
     {
       "id": "f9a8bfb0bb584bdba4b427cd4c713a01",
       "url": "https://16bpp.net/blog/post/even-faster-asin-was-staring-right-at-me/",
@@ -130,41 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-03-16T13:16:05.462845+00:00",
       "updated_at": "2026-03-16T13:16:05.462847+00:00"
-    },
-    {
-      "id": "1fd9e246e25e790395732043b64fb263",
-      "url": "https://jobs.ashbyhq.com/Nango",
-      "title": "Nango (YC W23, API Access for Agents and Apps) Is Hiring",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47397842\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-16T12:03:13+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-16T13:15:26.936318+00:00",
-      "updated_at": "2026-03-16T13:15:26.936320+00:00"
-    },
-    {
-      "id": "8e53ba9e692a7ea44901c7ada49514cf",
-      "url": "https://www.randalolson.com/2026/02/07/the-are-you-sure-problem-why-your-ai-keeps-changing-its-mind/",
-      "title": "The \"are you sure?\" Problem: Why AI keeps changing its mind",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47390609\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-15T18:56:58+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-16T13:15:26.936222+00:00",
-      "updated_at": "2026-03-16T13:15:26.936223+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "862f6e7adf225bd459715c04727bf56f",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.12.711252v1?rss=1",
+      "title": "Opening the Black Box of Neural Computation from Neural Recordings with Gain-Modulated Linear Dynamical System",
+      "content": "Inferring computational mechanisms from neural recordings is a central goal in systems neuroscience. Recent developments have identified low-rank recurrent neural networks (RNNs) as an effective tool for fitting observed neural activity and extracting neural dynamics. However, we show that accurate activity fitting alone does not guarantee mechanistic validity: even well-fitted low-rank RNNs can yield misleading circuit interpretations in the absence of ground-truth model settings on synthetic datasets. To address this limitation, we introduce a gain-modulated linear dynamical systems (gmLDS) method, which decomposes latent-variable interactions into a time-varying gain and static low-rank connectivity components. This decomposition captures linearized dynamics near neural trajectories and enables flexible adaptation to each neuron's nonlinear responses without requiring a predefined activation function. Extensive validation across multiple synthetic datasets shows that gmLDS accurately reproduces neural activity, gain and connectivity, thereby capturing the fine structure of linearized dynamics and the underlying circuit mechanisms. When applying to neural recordings from a context-dependent decision-making task, gmLDS uncovers evidence for the coexistence of two prevalent selection mechanisms, offering new insights into a long-standing unresolved issue in the field. Together, our results establish gmLDS as a principled approach for opening the black box of neural computation from neural recordings.",
+      "author": "Zhang, Y., Wang, Z., Li, X., Min, B.",
+      "published_date": "2026-03-16T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 197,
+      "reading_time": 1,
+      "created_at": "2026-03-16T16:06:43.818934+00:00",
+      "updated_at": "2026-03-16T16:57:36.657951+00:00",
+      "metadata": {
+        "processed_at": "2026-03-16T16:57:36.657960+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "8f064b82c7d0d64e3d047c227b29191e",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.12.711224v1?rss=1",
+      "title": "Rewiring of the three-dimensional genome encodes regenerative potential in the adult central nervous system",
+      "content": "The failure of adult central nervous system neurons to regenerate after injury has been attributed to transcriptional and epigenetic barriers, but whether three-dimensional genome organization constitutes an independent regulatory layer encoding regenerative potential remains unknown. Here we present the first genome-wide map of chromatin compartments, topologically associating domains, and loops across postnatal development, adult homeostasis, and spinal cord injury in the mouse motor cortex. Postnatal maturation progressively consolidates a growth-restrictive three-dimensional architecture, and spinal cord injury alone partially reverses this consolidation, re-engaging neonatal gene programs through reorganized but functionally recapitulative architecture despite minimal transcriptional activation. This reversion is directed rather than stochastic, preferentially targeting pro-growth gene networks, and reveals a latent three-dimensional memory of developmental growth states in the adult cortical genome. Strikingly, NR2F6, a transcription factor that promotes corticospinal axon regeneration, extends this reversion beyond the neonatal state toward an earlier embryonic chromatin configuration, a depth of developmental plasticity that injury alone cannot reach. These findings establish three-dimensional genome topology as a regulatory layer encoding regenerative potential in adult cortical neurons, demonstrating that successful CNS regeneration requires accessing embryonic rather than merely neonatal chromatin states, and reframing regenerative failure as a topological problem with new therapeutic targets.",
+      "author": "Menon, A. S., Kumaran, M., Farooq, F., Beji, D. S., Kesireddy, D., Sahu, Y., Venkatesh, I.",
+      "published_date": "2026-03-16T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 198,
+      "reading_time": 1,
+      "created_at": "2026-03-16T16:06:43.818891+00:00",
+      "updated_at": "2026-03-16T16:57:36.657964+00:00",
+      "metadata": {
+        "processed_at": "2026-03-16T16:57:36.657966+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "27b42cb1d01c6070b893d235e4b483b0",
+      "url": "http://doi.org/10.1037/pmu0000305",
+      "title": "<em>Psychomusicology</em>: A resounding closing cadence.",
+      "content": "From 2012 to 2023, the American Psychological Association served as publisher of <em>Psychomusicology: Music, Mind, and Brain</em>. Annabel Cohen and Mark Schmuckler were the successive editors-in-chiefs during this time. As the journal is ceasing publication, the two editors reflect on the development and progress of the journal in the context of the history of psychology and publication trends. They present their review in 10 short movements each with a unique musical emotional expressivity: <em>overture, amabile, vivace, elegy doloroso, sforzando, capriccio, con brio, pendolo, agilmente,</em> and <em>finale risonante</em>, ending on a very upbeat note! Early on, <em>Psychomusicology</em> offered a much-needed research forum for the psychology of music. More recently, the recognized importance of music psychology to almost all areas of psychology has led to increasing numbers of outlets for publication. During the 12 recent years under APA\u2019s stewardship, the journal more than doubled the number of articles published since the journal\u2019s inception in 1981. The entire corpus of almost 600 articles represents foundational and well-cited contributions to such current research areas as musical expectancy, performance excellence, musical development, neuroscience, emotion, preference, and film music, among others. Cohen and Schmuckler express deep gratitude to the authors, past editorial board members, and reviewers for their contributions to this corpus, and to the American Psychological Association Publications office and staff both for support and, importantly, for holding and making accessible in perpetuity the outstanding scholarship within the archives of <em>Psychomusicology: Music Mind & Brain and Psychomusicology: A Journal of Music Cognition</em>. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2024-01-22T00:00:00+00:00",
+      "source": "Psychomusicology",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 256,
+      "reading_time": 1,
+      "created_at": "2026-03-16T16:06:16.287478+00:00",
+      "updated_at": "2026-03-16T16:57:36.657969+00:00",
+      "metadata": {
+        "processed_at": "2026-03-16T16:57:36.657970+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "bdc73fb86ca5488f75ab98e86e5bd3f9",
+      "url": "https://www.reddit.com/r/Python/comments/1ruxquu/used_fastf1_fastapi_and_lightgbm_to_build_an_f1/",
+      "title": "Used FastF1, FastAPI, and LightGBM to build an F1 race strategy simulator",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>CSE student here. Built F1Predict, an F1 race simulation and strategy platform as a personal project.</p> <p>**What My Project Does**</p> <p>F1Predict simulates Formula 1 race strategy using a deterministic physics-based lap time engine as the baseline, with a LightGBM residual correction model layered on top. A 10,000-iteration Monte Carlo engine produces P10/P50/P90 confidence intervals per driver. You can adjust tyre degradation, fuel burn rate, safety car probability, and weather variance, then run side-by-side strategy comparisons (pit lap A vs B under the same seed so the delta is meaningful). There's also a telemetry-based replay system ingested from FastF1, a safety car hazard classifier per lap window, and a full React/TypeScript frontend.</p> <p>The Python side specifically:</p> <p>- FastAPI backend with Redis-backed simulation caching keyed on sha256 of normalized request payload</p> <p>- FastF1 for telemetry ingestion via nightly GitHub Actions workflow uploading to Supabase storage</p> <p>- LightGBM residual model with versioned features: tyre age x compound, sector variance, DRS activation rate, track evolution coefficient, qualifying pace delta, weather delta</p> <p>- Separate 400-iteration strategy optimizer to keep API response times reasonable</p> <p>- Graceful fallback throughout Redis unavailable means uncached execution, missing ML artifact means clean fallback to deterministic baseline</p> <p>**Target Audience**</p> <p>This is a toy/learning project not production and not affiliated with Formula 1 in any way. It's aimed at F1 fans who want to explore strategy scenarios, and at other students who are curious about combining physics-based simulation with ML residual correction. The repo is fully open source if anyone wants to run it locally or extend it.</p> <p>**Comparison**</p> <p>Most F1 strategy tools I found are either closed commercial systems (what actual teams use), simple spreadsheet models, or pure ML approaches trained end-to-end. F1Predict sits in a different spot: the deterministic physics engine handles the known variables (tyre deg curves, fuel load delta, pit stop loss) and the LightGBM layer corrects only the residual pace error that the physics model can't capture. This keeps the simulation interpretable you can see exactly why lap times change while still benefiting from data-driven correction. FastF1 makes the telemetry ingestion tractable for a solo student project in a way that wasn't really possible a few years ago.</p> <p>Repo: <a href=\"https://github.com/XVX-016/F1-PREDICT\">https://github.com/XVX-016/F1-PREDICT</a></p> <p>Live: <a href=\"https://f1.tanmmay.me\">https://f1.tanmmay.me</a></p> <p>Happy to discuss the FastF1 pipeline, caching approach, or ML architecture. Feedback welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CharacterAd4557\"> /u/CharacterAd4557 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ruxquu/used_fastf1_fastapi_and_lightgbm_to_build_an_f1/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ruxquu/used_fastf1_fastapi_and_lightgbm_to_build_an_f1/\">[comments]</a></span>",
+      "author": "/u/CharacterAd4557",
+      "published_date": "2026-03-16T02:45:33+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 401,
+      "reading_time": 2,
+      "created_at": "2026-03-16T16:06:03.381810+00:00",
+      "updated_at": "2026-03-16T16:57:36.657972+00:00",
+      "metadata": {
+        "processed_at": "2026-03-16T16:57:36.657974+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c44b8ab40be41a488e56f1500d3b74aa",
+      "url": "https://pyrefly.org/blog/typing-conformance-comparison/",
+      "title": "Comparing Python Type Checkers: Typing Spec Conformance",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47398023\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-16T12:25:18+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-16T16:06:02.140343+00:00",
+      "updated_at": "2026-03-16T16:57:36.657976+00:00",
+      "metadata": {
+        "processed_at": "2026-03-16T16:57:36.657977+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "eddcbadea083b0a5930cbd4a70baf32e",
       "url": "https://brain.ieee.org/publications/neuroethics-framework/education/references/education-references/",
@@ -262,106 +362,6 @@
       "updated_at": "2026-03-16T14:55:34.893017+00:00",
       "metadata": {
         "processed_at": "2026-03-16T14:55:34.893019+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4f91e7936604520bc65bccda9040ea6d",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926001631?dgcid=rss_sd_all",
-      "title": "Advancing intraoperative brain mapping: First-in-human evaluation of flexible high-density electrocorticography grids for epilepsy surgery",
-      "content": "<p>Publication date: 15 April 2026</p><p><b>Source:</b> NeuroImage, Volume 330</p><p>Author(s): Sem Hoogteijling, Carmen Gelpke, Eline V. Schaft, Ziyi Wang, Tessa Souhoka, Pieter van Eijsden, Anna Diop, Karolina Janikowska, Willem M. Otte, Nicole E.C. van Klink, Maryse A. van \u2019t Klooster, Maeike Zijlmans</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 40,
-      "reading_time": 1,
-      "created_at": "2026-03-16T11:49:56.400418+00:00",
-      "updated_at": "2026-03-16T12:59:34.399909+00:00",
-      "metadata": {
-        "processed_at": "2026-03-16T12:59:34.399919+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "eb5ff1c306854a680ce4ce0d643dca16",
-      "url": "https://www.nature.com/articles/s44294-026-00132-z",
-      "title": "Cognition and the menopause transition: cross-sectional evidence from a large community cohort",
-      "content": "",
-      "author": "",
-      "published_date": "2026-03-16T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-16T11:49:53.925935+00:00",
-      "updated_at": "2026-03-16T12:59:34.399923+00:00",
-      "metadata": {
-        "processed_at": "2026-03-16T12:59:34.399925+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bb19b85e2aba92d4b2a38ce69edd803c",
-      "url": "https://www.nature.com/articles/s44220-026-00590-z",
-      "title": "Transcranial electrical stimulation for the treatment of obsessive\u2013compulsive disorder: a triple meta-analysis",
-      "content": "",
-      "author": "",
-      "published_date": "2026-03-16T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-16T11:49:53.925917+00:00",
-      "updated_at": "2026-03-16T12:59:34.399930+00:00",
-      "metadata": {
-        "processed_at": "2026-03-16T12:59:34.399932+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e07b684a3bb79e48de86b3145757fd20",
-      "url": "https://www.nature.com/articles/s41467-026-70240-6",
-      "title": "Bridging the latency gap with a continuous stream evaluation framework in event-driven perception",
-      "content": "",
-      "author": "",
-      "published_date": "2026-03-16T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-16T11:49:53.925899+00:00",
-      "updated_at": "2026-03-16T12:59:34.399935+00:00",
-      "metadata": {
-        "processed_at": "2026-03-16T12:59:34.399936+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4fac9145ede7764f3dd601890f9317b0",
-      "url": "https://www.nature.com/articles/s41467-026-70608-8",
-      "title": "Semantic similarity across languages reflects neurocognitive dimensions shaped by climate",
-      "content": "",
-      "author": "",
-      "published_date": "2026-03-16T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-16T11:49:53.925880+00:00",
-      "updated_at": "2026-03-16T12:59:34.399939+00:00",
-      "metadata": {
-        "processed_at": "2026-03-16T12:59:34.399940+00:00",
         "processing_method": "github_actions"
       }
     }
