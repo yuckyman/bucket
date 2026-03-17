@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-03-17T06:58:13.854905+00:00",
+  "last_updated": "2026-03-17T07:07:31.576314+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "8c14ebc295f3a8db92871f9a28fe9cf1",
+      "url": "https://www.boatnews.com/story/50717/gitana-18-radical-technical-choices-for-the-new-flying-ultim-trimaran",
+      "title": "Gitana 18: the new flying Ultim trimaran",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47360293\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-13T03:16:08+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-17T07:06:00.472773+00:00",
+      "updated_at": "2026-03-17T07:06:00.472775+00:00"
+    },
     {
       "id": "417dfa6920ec8dc5558987c917d7ed23",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001466?dgcid=rss_sd_all",
@@ -63,26 +79,6 @@
       }
     },
     {
-      "id": "13ea1d5ac6ddde35d5f46cace10c8b10",
-      "url": "https://translate.kagi.com/?from=en&to=LinkedIn+speak",
-      "title": "Kagi Translate now supports LinkedIn Speak as an output language",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47408703\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-17T04:39:42+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-17T05:44:26.008526+00:00",
-      "updated_at": "2026-03-17T06:58:13.741315+00:00",
-      "metadata": {
-        "processed_at": "2026-03-17T06:58:13.741317+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "885f6300b98320f4c8385789e48d3428",
       "url": "https://pixeldust.se/monkey-island-project",
       "title": "Monkey Island for Commodore 64 Ground Up",
@@ -99,6 +95,26 @@
       "updated_at": "2026-03-17T06:58:13.741312+00:00",
       "metadata": {
         "processed_at": "2026-03-17T06:58:13.741313+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "13ea1d5ac6ddde35d5f46cace10c8b10",
+      "url": "https://translate.kagi.com/?from=en&to=LinkedIn+speak",
+      "title": "Kagi Translate now supports LinkedIn Speak as an output language",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47408703\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-17T04:39:42+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-17T05:44:26.008526+00:00",
+      "updated_at": "2026-03-17T06:58:13.741315+00:00",
+      "metadata": {
+        "processed_at": "2026-03-17T06:58:13.741317+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -329,22 +345,6 @@
       "reading_time": 1,
       "created_at": "2026-03-17T04:30:51.891331+00:00",
       "updated_at": "2026-03-17T04:30:51.891333+00:00"
-    },
-    {
-      "id": "88ce4a5973d520ba5269994027208720",
-      "url": "https://arxiv.org/abs/2506.17083",
-      "title": "Brain-inspired, interpretable, resonant recurrent neural networks",
-      "content": "arXiv:2506.17083v2 Announce Type: replace \nAbstract: Traditional artificial neural networks consist of nodes with non-oscillatory dynamics. Biological neural networks, on the other hand, consist of oscillatory components embedded in an oscillatory environment. Motivated by this feature of biological neurons, we describe a neural network framework with explicit damped, oscillatory node dynamics. We express the oscillatory dynamics using two history dependent terms to connect these dynamics with standard recurrent neural network formulations, apply physical constraints from observed brain dynamics to choose the oscillatory frequencies, and stationary constraints to reduce the number of free parameters. We then optimize and illustrate network performance by classifying hand-written digits and simulated neuronal spike train activity and show that these oscillatory network elements support accurate classification with few trainable parameters. Choosing oscillator frequencies according to a proposed theory for brain rhythms improves classification accuracy compared to alternative frequency configurations and compared to standard recurrent neural network frameworks with comparable numbers of parameters. Compared to existing approaches, the proposed resonant recurrent network (RRN) utilizes oscillatory dynamics expressed as a straightforward extension of standard recurrent neural networks, produces interpretable features for classification, and performs well with few parameters when oscillator frequencies follow a configuration observed in vivo. We propose that RRNs may serve as efficient, biologically inspired building blocks to achieve complex goals in biological and artificial neural networks.",
-      "author": "Mark A. Kramer",
-      "published_date": "2026-03-17T04:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 220,
-      "reading_time": 1,
-      "created_at": "2026-03-17T04:30:51.891293+00:00",
-      "updated_at": "2026-03-17T04:30:51.891295+00:00"
     }
   ]
 }
