@@ -1,24 +1,8 @@
 {
-  "last_updated": "2026-03-17T06:58:13.854333+00:00",
-  "pending_count": 703,
-  "processed_count": 297,
+  "last_updated": "2026-03-17T08:45:24.927315+00:00",
+  "pending_count": 699,
+  "processed_count": 301,
   "pending_articles": [
-    {
-      "id": "b00af0eb8416595c3c3533d58e61e341",
-      "url": "https://arxiv.org/abs/2603.13717",
-      "title": "\"It Became My Buddy, But I'm Not Afraid to Disagree\": A Multi-Session Study of UX Evaluators Collaborating with Conversational AI Assistants",
-      "content": "arXiv:2603.13717v1 Announce Type: new \nAbstract: AI-assisted usability analysis can potentially reduce the time and effort of finding usability problems, yet little is known about how AI's perceived expertise influences evaluators' analytic strategies and perceptions over time. We ran a within-subjects, five-session study (six hours per participant) with 12 professional UX evaluators who worked with two conversational assistants designed to appear novice- or expert-like (differing in suggestion quantity and response accuracy). We logged behavioral measures (number of passes, suggestion acceptance rate), collected subjective ratings (trust, perceived efficiency), and conducted semi-structured interviews. Participants experienced an initial novelty effect and a subsequent dip in trust that recovered over time. Their efficiency improved as they shifted from a two-pass to a one-pass video inspection approach. Evaluators ultimately rated the experienced CA as significantly more efficient, trustworthy, and comprehensive, despite not perceiving expertise differences early on. We conclude with design implications for adapting AI expertise to enable calibrated human-AI collaboration.",
-      "author": "Emily Kuang, Ehsan Jahangirzadeh Soure, Luyao Shen, Nitesh Goyal, Mingming Fan, Kristen Shinohara",
-      "published_date": "2026-03-17T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 155,
-      "reading_time": 1,
-      "created_at": "2026-03-17T04:30:53.079696+00:00",
-      "updated_at": "2026-03-17T04:30:53.079698+00:00"
-    },
     {
       "id": "3846cbd8e1972cd5e0820fc3a5e0b464",
       "url": "https://arxiv.org/abs/2603.13695",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2026-03-17T04:30:53.079394+00:00",
       "updated_at": "2026-03-17T04:30:53.079399+00:00"
+    },
+    {
+      "id": "2ca9b3d3f2a21d8e296733a4e26691d7",
+      "url": "https://arxiv.org/abs/2601.18946",
+      "title": "Schema-based active inference supports rapid generalization of experience and frontal cortical coding of abstract structure",
+      "content": "arXiv:2601.18946v2 Announce Type: replace \nAbstract: Schemas -- abstract relational structures that capture the commonalities across experiences -- are thought to underlie humans' and animals' ability to rapidly generalize knowledge, rebind new experiences to existing structures, and flexibly adapt behavior across contexts. Despite their central role in cognition, the computational principles and neural mechanisms supporting schema formation and use remain elusive. Here, we introduce schema-based hierarchical active inference (S-HAI), a novel computational framework that combines predictive processing and active inference with schema-based mechanisms. In S-HAI, a higher-level generative model encodes abstract task structure, while a lower-level model encodes spatial navigation, with the two levels linked by a grounding likelihood that maps abstract goals to physical locations. Through a series of simulations, we show that S-HAI reproduces key behavioral signatures of rapid schema-based generalization in spatial navigation tasks, including the ability to flexibly remap abstract schemas onto novel contexts, resolve goal ambiguity, and balance reuse versus accommodation of novel mappings. Crucially, S-HAI also reproduces prominent neural codes reported in rodent medial prefrontal cortex during a schema-dependent navigation and decision task, including task-invariant goal-progress cells, goal-and-spatially conjunctive cells, and place-like codes at the lower level. Taken together, these results provide a mechanistic account of schema-based learning and inference that bridges behavior, neural data, and theory. More broadly, our findings suggest that schema formation and generalization may arise from predictive processing principles implemented hierarchically across cortical and hippocampal circuits, enabling the generalization of experience.",
+      "author": "Toon Van de Maele, Tim Verbelen, Dileep George, Giovanni Pezzulo",
+      "published_date": "2026-03-17T04:00:00+00:00",
+      "source": "Arxiv Qbio Nc",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 240,
+      "reading_time": 1,
+      "created_at": "2026-03-17T04:30:51.891440+00:00",
+      "updated_at": "2026-03-17T04:30:51.891441+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "5cd7ba02eab379e69fdd9ba6795568a6",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae4e5b",
+      "title": "CLAS-hdEEG: high-density EEG software platform for real-time delta wave detection and closed-loop auditory stimulation",
+      "content": "Objective. Closed-loop auditory stimulation (CLAS) can enhance slow oscillations during non-rapid eye movement sleep; however, its broader use has been limited by technical and temporal constraints. We introduce and validate CLAS-hdEEG, a high-density electroencephalographic (hd-EEG) software platform integrated within the Magstim EGI environment, capable of real-time delta wave detection and phase-targeted auditory stimulation with low detection-to-stimulation latency, achieved through event-based detection of delta wave extrema. Approach. The CLAS-hdEEG software continuously streams 128-channel EEG data, applies an online moving average filter to Fz for real-time delta wave detection, and triggers brief pink noise bursts at the detected peak or trough of ongoing oscillations. Detection thresholds were based on established amplitude crossings, a minimum peak-to-peak difference of , and duration limits of 160\u20131700\u2009ms. Synchronization between neural detection and stimulus onset was verified using digital input hardware (DIN) markers recorded by the EGI acquisition system. The system was validated in 14 healthy participants during N3 sleep under peak, trough, and sham stimulation conditions. Phase-targeting success was defined as auditory bursts occurring within predefined 90\u2218 phase windows of the oscillation (0\u2218\u201390\u2218 for in-phase blocks and 180\u2218\u2013270\u2218 for anti-phase blocks). Main results. Across all sessions, auditory stimuli were delivered with a mean detection-to-stimulation latency of and an overall phase-targeting success rate of 0.913, indicating that 91.3% of stimuli occurred within the predefined 90\u2218 target phase windows. Online and offline detections showed strong agreement ( ), confirming that real-time processing preserved the fidelity of offline algorithms. Significance. This study establishes the technical and temporal validity of CLAS-hdEEG, the first hd-EEG software platform for CLAS within the EGI environment. By combining low detection-to-stimulation latency with high-density spatial sampling, this framework provides a robust and extensible platform for investigating how auditory stimulation interacts with large-scale neural dynamics across diverse states of consciousness.",
+      "author": "Hanieh Bazregarzadeh, Clara Pic Roca, Antonio Martin, Karine Lacourse, Jean-Marc Lina, Julie Carrier and Catherine Duclos",
+      "published_date": "2026-03-17T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 295,
+      "reading_time": 1,
+      "created_at": "2026-03-17T08:08:24.265584+00:00",
+      "updated_at": "2026-03-17T08:45:24.811246+00:00",
+      "metadata": {
+        "processed_at": "2026-03-17T08:45:24.811256+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "08eb18a2af53f00a12edd80347a04b66",
+      "url": "https://www.youtube.com/watch?v=3v8AsTHfAG0",
+      "title": "Sci-Fi Short Film \u201cThere Is No Antimemetics Division\u201d [video]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47363133\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-13T11:44:27+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-17T08:08:01.025226+00:00",
+      "updated_at": "2026-03-17T08:45:24.811262+00:00",
+      "metadata": {
+        "processed_at": "2026-03-17T08:45:24.811264+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "e8a4580decfe40f055e89ea0d6b208f9",
+      "url": "https://blog.voxagon.se/2026/03/13/teardown-multiplayer.html",
+      "title": "The unlikely story of Teardown Multiplayer",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47366435\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-13T16:20:00+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-17T08:08:01.025104+00:00",
+      "updated_at": "2026-03-17T08:45:24.811267+00:00",
+      "metadata": {
+        "processed_at": "2026-03-17T08:45:24.811269+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "8c14ebc295f3a8db92871f9a28fe9cf1",
+      "url": "https://www.boatnews.com/story/50717/gitana-18-radical-technical-choices-for-the-new-flying-ultim-trimaran",
+      "title": "Gitana 18: the new flying Ultim trimaran",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47360293\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-13T03:16:08+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-17T07:06:00.472773+00:00",
+      "updated_at": "2026-03-17T08:45:24.811271+00:00",
+      "metadata": {
+        "processed_at": "2026-03-17T08:45:24.811272+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "417dfa6920ec8dc5558987c917d7ed23",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001466?dgcid=rss_sd_all",
@@ -226,26 +306,6 @@
       }
     },
     {
-      "id": "13ea1d5ac6ddde35d5f46cace10c8b10",
-      "url": "https://translate.kagi.com/?from=en&to=LinkedIn+speak",
-      "title": "Kagi Translate now supports LinkedIn Speak as an output language",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47408703\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-17T04:39:42+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-17T05:44:26.008526+00:00",
-      "updated_at": "2026-03-17T06:58:13.741315+00:00",
-      "metadata": {
-        "processed_at": "2026-03-17T06:58:13.741317+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "885f6300b98320f4c8385789e48d3428",
       "url": "https://pixeldust.se/monkey-island-project",
       "title": "Monkey Island for Commodore 64 Ground Up",
@@ -286,82 +346,22 @@
       }
     },
     {
-      "id": "d53c691ae626cd6ec608828d82dec43f",
-      "url": "https://www.reddit.com/r/Python/comments/1rv7agv/a_quick_review_of_tyro_a_cli_library/",
-      "title": "A quick review of `tyro`, a CLI library.",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently discovered <a href=\"https://brentyi.github.io/tyro/\">https://brentyi.github.io/tyro/</a></p> <p>I've used <code>typer</code> for many years, so much that I wrote a band-aid project to fix up some of its feature deficiencies: <a href=\"https://pypi.org/project/dtyper/\">https://pypi.org/project/dtyper/</a></p> <p>I never used <code>click</code> but it apparently provides a full-featured CLI platform. <code>typer</code> was written on top of <code>click</code> to use Python type annotations on functions to automatically create the CLI. And it was a revolution when it came out - it made so much sense to use the same mechanism for both purposes.</p> <p>However, the fact that a <code>typer</code> CLI is built around a function call means that the state that it delivers to you is a lot of parameters in a flat scope.</p> <p>Many real-world CLIs have dozens or even hundreds of parameters that can be set from the command line, so this rapidly becomes unwieldy.</p> <p>My <code>dtyper</code> helped a bit by allowing you to use a <code>dataclass</code>, and fixed a couple of other issues, but it was artificial, worked only on <code>dataclass</code> and none of the other data class types, and had only one level, and was incorrectly typed. (It spun off work I was doing elsewhere, it was very useful to me at the time.)</p> <p><code>tyro</code> seems to fix all of the issues. It lets you use functions, almost any sort of data class, nested data classes, even constructors to automatically build a CLI.</p> <p>So far my one complaint is that the simplest possible CLI, <a href=\"https://github.com/brentyi/tyro/issues/439\">a command that takes zero or more filenames, is obscure</a>.</p> <p>But I found the way to do it neatly, it's more a documentation issue.</p> <p>Looking at some of my old projects, there would have been whole chunks of code which would never have been written, passing command line flags down to sub-objects. (No, I won't rewrite them, they work fine.)</p> <p>Verdict: so far so good. If it continues to work as advertised I'll probably use it in new development.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/HommeMusical\"> /u/HommeMusical </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rv7agv/a_quick_review_of_tyro_a_cli_library/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rv7agv/a_quick_review_of_tyro_a_cli_library/\">[comments]</a></span>",
-      "author": "/u/HommeMusical",
-      "published_date": "2026-03-16T11:51:26+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 339,
-      "reading_time": 1,
-      "created_at": "2026-03-17T02:11:24.388775+00:00",
-      "updated_at": "2026-03-17T04:13:42.215063+00:00",
-      "metadata": {
-        "processed_at": "2026-03-17T04:13:42.215073+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "aa7efa6d50b2d7baa161a2318d0cb27c",
-      "url": "https://www.reddit.com/r/Python/comments/1rvoxl3/i_built_a_python_library_that_tells_you_who_said/",
-      "title": "i built a Python library that tells you who said what in any audio file",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h1>What My Project Does</h1> <p><strong>voicetag</strong> is a Python library that identifies speakers in audio files and transcribes what each person said. You enroll speakers with a few seconds of their voice, then point it at any recording \u2014 it figures out who's talking, when, and what they said.</p> <pre><code>from voicetag import VoiceTag vt = VoiceTag() vt.enroll(&quot;Christie&quot;, [&quot;christie1.flac&quot;, &quot;christie2.flac&quot;]) vt.enroll(&quot;Mark&quot;, [&quot;mark1.flac&quot;, &quot;mark2.flac&quot;]) transcript = vt.transcribe(&quot;audiobook.flac&quot;, provider=&quot;whisper&quot;) for seg in transcript.segments: print(f&quot;[{seg.speaker}] {seg.text}&quot;) </code></pre> <p>Output:</p> <pre><code>[Christie] Gentlemen, he sat in a hoarse voice. Give me your [Christie] word of honor that this horrible secret shall remain buried amongst ourselves. [Christie] The two men drew back. </code></pre> <p>Under the hood it combines pyannote.audio for diarization with resemblyzer for speaker embeddings. Transcription supports 5 backends: local Whisper, OpenAI, Groq, Deepgram, and Fireworks \u2014 you just pick one.</p> <p>It also ships with a CLI:</p> <pre><code>voicetag enroll &quot;Christie&quot; sample1.flac sample2.flac voicetag transcribe recording.flac --provider whisper --language en </code></pre> <p>Everything is typed with Pydantic v2 models, results are serializable, and it works with any spoken language since matching is based on voice embeddings not speech content.</p> <p>Source code: <a href=\"https://github.com/Gr122lyBr/voicetag\">https://github.com/Gr122lyBr/voicetag</a> Install: <code>pip install voicetag</code></p> <h1>Target Audience</h1> <p>Anyone working with audio recordings who needs to know who said what \u2014 podcasters, journalists, researchers, developers building meeting tools, legal/court transcription, call center analytics. It's production-ready with 97 tests, CI/CD, type hints everywhere, and proper error handling.</p> <p>I built it because I kept dealing with recorded meetings and interviews where existing tools would give me either &quot;SPEAKER_00 / SPEAKER_01&quot; labels with no names, or transcription with no speaker attribution. I wanted both in one call.</p> <h1>Comparison</h1> <ul> <li><strong>pyannote.audio alone</strong>: Great diarization but only gives anonymous speaker labels (SPEAKER_00, SPEAKER_01). No name matching, no transcription. You have to build the rest yourself. voicetag wraps pyannote and adds named identification + transcription on top.</li> <li><strong>WhisperX</strong>: Does diarization + transcription but no named speaker identification. You still get anonymous labels. Also no enrollment/profile system.</li> <li><strong>Manual pipeline</strong> (wiring pyannote + resemblyzer + whisper yourself): Works but it's ~100 lines of boilerplate every time. voicetag is 3 lines. It also handles parallel processing, overlap detection, and profile persistence.</li> <li><strong>Cloud services</strong> (Deepgram, AssemblyAI): They do speaker diarization but with anonymous labels. voicetag lets you enroll known speakers so you get actual names. Plus it runs locally if you want \u2014 no audio leaves your machine.</li> </ul> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Gr1zzly8ear\"> /u/Gr1zzly8ear </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rvoxl3/i_built_a_python_library_that_tells_you_who_said/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rvoxl3/i_built_a_python_library_that_tells_you_who_said/\">[comments]</a></span>",
-      "author": "/u/Gr1zzly8ear",
-      "published_date": "2026-03-16T22:45:07+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 411,
-      "reading_time": 2,
-      "created_at": "2026-03-17T02:11:24.388729+00:00",
-      "updated_at": "2026-03-17T04:13:42.215077+00:00",
-      "metadata": {
-        "processed_at": "2026-03-17T04:13:42.215079+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "be44582965b8129c77b85e9d18eb52b5",
-      "url": "https://github.com/sadreck/ThermalMarky",
-      "title": "Show HN: Thermal Receipt Printers \u2013 Markdown and Web UI",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47366766\">Comments</a>",
+      "id": "13ea1d5ac6ddde35d5f46cace10c8b10",
+      "url": "https://translate.kagi.com/?from=en&to=LinkedIn+speak",
+      "title": "Kagi Translate now supports LinkedIn Speak as an output language",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47408703\">Comments</a>",
       "author": "",
-      "published_date": "2026-03-13T16:49:01+00:00",
+      "published_date": "2026-03-17T04:39:42+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-17T02:11:23.207680+00:00",
-      "updated_at": "2026-03-17T04:13:42.215084+00:00",
+      "created_at": "2026-03-17T05:44:26.008526+00:00",
+      "updated_at": "2026-03-17T06:58:13.741315+00:00",
       "metadata": {
-        "processed_at": "2026-03-17T04:13:42.215086+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1dfb200ec585165101bb47f2d784bd6c",
-      "url": "https://ai.meta.com/blog/world-resources-institute-dino-canopy-height-maps-v2/?_fb_noscript=1",
-      "title": "Canopy Height Maps v2",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47355100\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-12T18:24:10+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-17T02:11:23.207661+00:00",
-      "updated_at": "2026-03-17T04:13:42.215089+00:00",
-      "metadata": {
-        "processed_at": "2026-03-17T04:13:42.215090+00:00",
+        "processed_at": "2026-03-17T06:58:13.741317+00:00",
         "processing_method": "github_actions"
       }
     }
