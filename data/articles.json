@@ -1,5 +1,21 @@
 [
   {
+    "id": "e37226462b8b2518ce1575676777fe49",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.03.19.712916v1?rss=1",
+    "title": "A calcium imaging pipeline to detect and quantify compound-specific effects in human and mouse astrocytes and astrocyte-neuron cocultures",
+    "content": "Astrocytes are crucial mediators of diverse aspects of brain function, including energy metabolism and synapse formation and maturation. Calcium is the primary information carrier in astrocytes, reporting cellular health and activity, and can be measured using fluorescent indicators. However, this readout is not yet widely used to screen and evaluate disease models and drug candidates. Here, we adapted a simple automated calcium imaging pipeline with key output parameters that characterize changes in astrocytic calcium signaling. We compared calcium responses in mouse astrocyte monocultures and astrocyte-neuron cocultures using GFAP-driven membrane-targeted GCaMP6f, with human astrocytes differentiated from two different induced pluripotent stem-cell lines using the calcium dye Cal520-AM. Event-based analysis reported similarities and differences in mean fluorescence, amplitude, frequency, duration, and area of calcium responses. We benchmarked the pipeline using the purinergic receptor agonist ATP to increase astrocyte activity, and the ER calcium pump blocker CPA to decrease activity across all culture models. Glutamatergic and serotonergic receptor function was tested with glutamate and lysergic acid diethylamide (LSD). LSD decreased activity in mouse cocultured astrocytes, but increased activity in human astrocytes. Furthermore, the addition of human recombinant Tau oligomers, an in vitro model of Alzheimer's disease pathology, decreased activity in both mouse and human astrocytes. This pipeline can be used to quickly and easily characterize effects of astrocyte-targeting compounds, effects of non-astrocyte-targeting compounds on astrocyte activity, and rescue of disease models that affect astrocyte function, in mouse and human astrocytes and astrocyte-neuron cocultures.",
+    "author": "Krohn, J., Breuer, L., Wegmann, S., Dean, C.",
+    "published_date": "2026-03-20T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 240,
+    "reading_time": 1,
+    "created_at": "2026-03-20T08:42:51.611928+00:00",
+    "updated_at": "2026-03-20T08:42:51.611933+00:00"
+  },
+  {
     "id": "ff825387c3209a5d6cee7ce45c642c03",
     "url": "https://www.nature.com/articles/s41598-026-41671-4",
     "title": "Backpropagation-free spiking neural networks with the forward\u2013forward algorithm",
@@ -17002,25 +17018,5 @@
     "reading_time": 1,
     "created_at": "2026-03-15T22:30:11.180944+00:00",
     "updated_at": "2026-03-15T22:30:11.180946+00:00"
-  },
-  {
-    "id": "55c7e66cb2394c1ba22f65db65351935",
-    "url": "https://go.dev/blog/inliner",
-    "title": "//go:fix inline and the source-level inliner",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47339463\">Comments</a>",
-    "author": "",
-    "published_date": "2026-03-11T18:39:25+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-03-15T20:31:37.771806+00:00",
-    "updated_at": "2026-03-15T22:21:59.074385+00:00",
-    "metadata": {
-      "processed_at": "2026-03-15T22:21:59.074395+00:00",
-      "processing_method": "github_actions"
-    }
   }
 ]
