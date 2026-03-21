@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-03-21T01:27:55.716874+00:00",
-  "pending_count": 731,
-  "processed_count": 269,
+  "last_updated": "2026-03-21T04:01:26.545327+00:00",
+  "pending_count": 728,
+  "processed_count": 272,
   "pending_articles": [
+    {
+      "id": "20dad717a4aa371ecdc639445a5f5981",
+      "url": "https://github.com/arnoldrobbins/LinuxByExample-2e",
+      "title": "Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47462483\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-20T23:57:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-21T02:04:24.263645+00:00",
+      "updated_at": "2026-03-21T02:04:24.263647+00:00"
+    },
+    {
+      "id": "20dad717a4aa371ecdc639445a5f5981",
+      "url": "https://github.com/arnoldrobbins/LinuxByExample-2e",
+      "title": "Linux Applications Programming by Example: The Fundamental APIs (2nd Edition)",
+      "content": "<p>Article URL: <a href=\"https://github.com/arnoldrobbins/LinuxByExample-2e\">https://github.com/arnoldrobbins/LinuxByExample-2e</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47462483\">https://news.ycombinator.com/item?id=47462483</a></p>\n<p>Points: 26</p>\n<p># Comments: 5</p>",
+      "author": "teleforce",
+      "published_date": "2026-03-20T23:57:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-21T02:04:23.017725+00:00",
+      "updated_at": "2026-03-21T02:04:23.017735+00:00"
+    },
     {
       "id": "4f91e7936604520bc65bccda9040ea6d",
       "url": "https://www.sciencedirect.com/science/article/pii/S1053811926001631?dgcid=rss_sd_all",
@@ -130,41 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-03-20T22:30:29.375249+00:00",
       "updated_at": "2026-03-20T22:30:29.375251+00:00"
-    },
-    {
-      "id": "ccb4cf5db5c44a3580731c4d6b69c748",
-      "url": "https://www.openui.com/blog/rust-wasm-parser",
-      "title": "We rewrote our Rust WASM Parser in TypeScript \u2013 and it got 3x Faster",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47461094\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-20T21:48:06+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-20T22:30:29.375155+00:00",
-      "updated_at": "2026-03-20T22:30:29.375156+00:00"
-    },
-    {
-      "id": "793015ac5f8c9312b19d632e16c1d458",
-      "url": "https://github.com/FormerLab/fortransky",
-      "title": "Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47461321\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-20T22:06:51+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-20T22:30:29.375136+00:00",
-      "updated_at": "2026-03-20T22:30:29.375137+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "c9d040ec5d04d629df0985461e5bd071",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006899326001265?dgcid=rss_sd_all",
+      "title": "Mechanisms of glymphatic system dysfunction in central nervous system diseases",
+      "content": "<p>Publication date: 15 June 2026</p><p><b>Source:</b> Brain Research, Volume 1881</p><p>Author(s): Qian Ouyang, Liu Luo, Jiangbo Li, Zebo Chen, Yuzhu Xu</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 19,
+      "reading_time": 1,
+      "created_at": "2026-03-21T02:05:06.564935+00:00",
+      "updated_at": "2026-03-21T04:01:26.431479+00:00",
+      "metadata": {
+        "processed_at": "2026-03-21T04:01:26.431489+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ec7a5f91f4ade1264dd29ad4ba8ddd51",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926001795?dgcid=rss_sd_all",
+      "title": "Biological validity, test\u2013retest reliability, and behavioral relevance of the single-subject brain volumetric similarity network",
+      "content": "<p>Publication date: 15 April 2026</p><p><b>Source:</b> NeuroImage, Volume 330</p><p>Author(s): Minchul Kim, Yae Ji Kim, Marvin M. Chun, Kwangsun Yoo</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroimage",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 18,
+      "reading_time": 1,
+      "created_at": "2026-03-21T02:05:03.137832+00:00",
+      "updated_at": "2026-03-21T04:01:26.431495+00:00",
+      "metadata": {
+        "processed_at": "2026-03-21T04:01:26.431498+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f4bfc30beb05f9f091c948bbdc6f35e5",
+      "url": "https://www.reddit.com/r/Python/comments/1rz7zun/enigmak_a_python_cli_for_a_custom_68symbol_rotor/",
+      "title": "ENIGMAK, a Python CLI for a custom 68-symbol rotor cipher",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>What my project does: ENIGMAK is a command-line cipher tool implementing a custom multi-round rotor cipher over a 68-symbol alphabet (A-Z, digits, and all standard special characters). It encrypts and decrypts text using a layered architecture inspired by the historical Enigma machine but significantly different in design.</p> <p><code>python</code> <a href=\"http://enigmak.py\"><code>enigmak.py</code></a> <code>encrypt &quot;your message&quot; &quot;KEY STRING&quot;</code></p> <p><code>python</code> <a href=\"http://enigmak.py\"><code>enigmak.py</code></a> <code>decrypt &quot;CIPHERTEXT&quot; &quot;KEY STRING&quot;</code></p> <p><code>python</code> <a href=\"http://enigmak.py\"><code>enigmak.py</code></a> <code>keygen</code></p> <p><code>python</code> <a href=\"http://enigmak.py\"><code>enigmak.py</code></a> <code>ioc &quot;CIPHERTEXT&quot;</code></p> <p>The cipher uses 10 keyboard layouts as substitution tables, 1-13 rotors with key-derived irregular stepping, a Steckerbrett with up to 34 character-pair swaps, a diffusion transposition layer, and key-derived rounds (1-999). No external dependencies, just Python 3.</p> <p>Target Audience: Cryptography enthusiasts, researchers, and developers interested in classical cipher design. This is not a replacement for AES-256 and has not been formally audited. For educational and general personal use.</p> <p>Comparison: Unlike standard AES or ChaCha20 implementations, ENIGMAK is a rotor-based cipher with a visible, inspectable pipeline rather than a black-box standard. Unlike historical Enigma implementations, it has no reflector, uses a 68-symbol alphabet, supports up to 999 rounds per character, and produces ciphertext with IoC near 0.0147 (the 1/68 random floor) - statistically indistinguishable from uniform random noise.</p> <p>Github: <a href=\"https://github.com/Awesomem8112/Enigmak\">https://github.com/Awesomem8112/Enigmak</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/awesomem8112\"> /u/awesomem8112 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rz7zun/enigmak_a_python_cli_for_a_custom_68symbol_rotor/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rz7zun/enigmak_a_python_cli_for_a_custom_68symbol_rotor/\">[comments]</a></span>",
+      "author": "/u/awesomem8112",
+      "published_date": "2026-03-20T20:54:04+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 222,
+      "reading_time": 1,
+      "created_at": "2026-03-21T02:04:25.483208+00:00",
+      "updated_at": "2026-03-21T04:01:26.431500+00:00",
+      "metadata": {
+        "processed_at": "2026-03-21T04:01:26.431502+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f58b67f8df06817786b7a4a4337faebf",
+      "url": "https://www.reddit.com/r/Python/comments/1rzclve/saturday_daily_thread_resource_request_and/",
+      "title": "Saturday Daily Thread: Resource Request and Sharing! Daily Thread",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: Resource Request and Sharing \ud83d\udcda</h1> <p>Stumbled upon a useful Python resource? Or are you looking for a guide on a specific topic? Welcome to the Resource Request and Sharing thread!</p> <h2>How it Works:</h2> <ol> <li><strong>Request</strong>: Can't find a resource on a particular topic? Ask here!</li> <li><strong>Share</strong>: Found something useful? Share it with the community.</li> <li><strong>Review</strong>: Give or get opinions on Python resources you've used.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Please include the type of resource (e.g., book, video, article) and the topic.</li> <li>Always be respectful when reviewing someone else's shared resource.</li> </ul> <h2>Example Shares:</h2> <ol> <li><strong>Book</strong>: <a href=\"https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008\">&quot;Fluent Python&quot;</a> - Great for understanding Pythonic idioms.</li> <li><strong>Video</strong>: <a href=\"https://www.youtube.com/watch?v=pkYVOmU3MgA\">Python Data Structures</a> - Excellent overview of Python's built-in data structures.</li> <li><strong>Article</strong>: <a href=\"https://realpython.com/primer-on-python-decorators/\">Understanding Python Decorators</a> - A deep dive into decorators.</li> </ol> <h2>Example Requests:</h2> <ol> <li><strong>Looking for</strong>: Video tutorials on web scraping with Python.</li> <li><strong>Need</strong>: Book recommendations for Python machine learning.</li> </ol> <p>Share the knowledge, enrich the community. Happy learning! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rzclve/saturday_daily_thread_resource_request_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rzclve/saturday_daily_thread_resource_request_and/\">[comments]</a></span>",
+      "author": "/u/AutoModerator",
+      "published_date": "2026-03-21T00:00:27+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 180,
+      "reading_time": 1,
+      "created_at": "2026-03-21T02:04:25.483170+00:00",
+      "updated_at": "2026-03-21T04:01:26.431504+00:00",
+      "metadata": {
+        "processed_at": "2026-03-21T04:01:26.431506+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2ef531b32107fff78b3c7f25760a14d9",
+      "url": "https://leancrew.com/all-this/2026/02/lent-and-lisp/",
+      "title": "Lent and Lisp",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47425257\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-18T13:00:39+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-21T02:04:24.263721+00:00",
+      "updated_at": "2026-03-21T04:01:26.431508+00:00",
+      "metadata": {
+        "processed_at": "2026-03-21T04:01:26.431510+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "77b86edc6aa8007011dd83a65a8db3b9",
       "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2525051123?af=R",
@@ -226,46 +326,6 @@
       }
     },
     {
-      "id": "1c47ac7bdfbfd0509ff0fc6f02f8a3f6",
-      "url": "https://github.com/ghostty-org/ghostling",
-      "title": "Ghostling",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47461378\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-20T22:11:37+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-20T23:37:52.887408+00:00",
-      "updated_at": "2026-03-21T01:27:55.612454+00:00",
-      "metadata": {
-        "processed_at": "2026-03-21T01:27:55.612456+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1c47ac7bdfbfd0509ff0fc6f02f8a3f6",
-      "url": "https://github.com/ghostty-org/ghostling",
-      "title": "Ghostling",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47461378\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-20T22:11:37+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-20T23:37:52.887408+00:00",
-      "updated_at": "2026-03-21T01:27:55.612454+00:00",
-      "metadata": {
-        "processed_at": "2026-03-21T01:27:55.612456+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "ad0be7551f8dd9d64951035dd717a97d",
       "url": "https://github.com/RedGridTactical/RedGridLink",
       "title": "Show HN: Red Grid Link \u2013 peer-to-peer team tracking over Bluetooth, no servers",
@@ -286,82 +346,22 @@
       }
     },
     {
-      "id": "b31188c548135d7f9334b87837888d98",
-      "url": "https://www.nature.com/articles/s41398-026-03969-9",
-      "title": "Does hypothalamic CCN3 hypersecretion confer postpartum mood disorder risk?",
-      "content": "",
+      "id": "1c47ac7bdfbfd0509ff0fc6f02f8a3f6",
+      "url": "https://github.com/ghostty-org/ghostling",
+      "title": "Ghostling",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47461378\">Comments</a>",
       "author": "",
-      "published_date": "2026-03-20T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-20T21:32:46.070204+00:00",
-      "updated_at": "2026-03-20T22:23:26.362050+00:00",
-      "metadata": {
-        "processed_at": "2026-03-20T22:23:26.362060+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "542e9c5f573535bdd0b7e177ec7ffd9d",
-      "url": "https://www.reddit.com/r/Python/comments/1rz7620/showcase_i_overengineered_a_python_sdk_for/",
-      "title": "[Showcase] I over-engineered a Python SDK for Lovense devices (Async, Pydantic)",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"/r/Python\">r/Python</a>! \ud83d\udc4b</p> <p><strong>What My Project Does</strong></p> <p>I recently built <strong>lovensepy</strong>, a fully typed Python wrapper for controlling Lovense devices (yes, <em>those</em> smart toys). </p> <p>I originally posted this to a general self-hosting subreddit and got downvoted to oblivion because they didn't really need a Python SDK. So I\u2019m bringing it to people who might actually appreciate the architecture, the tech stack, and the code behind it. \ud83d\ude02</p> <p>There are a few existing scripts out there, but most of them use synchronous <code>requests</code>, or lack type hinting. I wanted to build something production-ready, strictly typed, local-first (for obvious privacy reasons), and easy to use.</p> <p><strong>Target Audience</strong></p> <p>This project is meant for developers, home automation enthusiasts (IoT), and hobbyists who want to integrate these specific devices into their local setups (like Home Assistant) without relying on cloud APIs. If you just want to look at a cleanly structured modern Python library, this is for you too.</p> <p><strong>Technical Highlights:</strong> * \ud83d\udee1\ufe0f <strong>Strict Type Validation:</strong> Uses <code>pydantic</code> under the hood. Every response from the toy/gateway is validated. No unexpected KeyErrors, and you get perfect IDE autocomplete. * \ud83d\ude80 <strong>Modern Stack:</strong> Built on <code>httpx</code> (with both sync and async clients available) and <code>websockets</code> for Toy Events API. * \ud83d\udd0c <strong>Local-First:</strong> Communicates directly with the local LAN App/Gateway. No internet routing required. * \ud83c\udfd7\ufe0f <strong>Solid Architecture:</strong> Includes <code>HAMqttBridge</code> for Home Assistant integration, Pytest coverage, and Semgrep CI.</p> <p><strong>Here is a real REPL session showing how simple the developer experience is:</strong> ```python</p> <blockquote> <blockquote> <blockquote> <p>from lovensepy import LANClient, Presets</p> <h1>1. Connect directly to the local App/Gateway via Wi-Fi (No cloud!)</h1> <p>client = LANClient(&quot;MyPythonApp&quot;, &quot;192.168.178.20&quot;, port=34567)</p> <h1>2. Fetch connected devices (Returns strictly typed Pydantic models)</h1> <p>toys = client.get_toys() for toy in toys.data.toys: ... print(f&quot;Found {toy.name} (Battery: {toy.battery}%)&quot;) ... Found gush (Battery: 49%) Found edge (Battery: 75%)</p> <h1>3. Send a command (e.g., Pulse preset for 5 seconds)</h1> <p>response = client.preset_request(Presets.PULSE, time=5) print(response) code=200 type='OK' result=None message=None data=None ```</p> </blockquote> </blockquote> </blockquote> <p>Code reviews, feedback on the architecture, or even PRs are highly appreciated!</p> <p><strong>Links:</strong> * <strong>GitHub:</strong> <a href=\"https://github.com/koval01/lovensepy/\">https://github.com/koval01/lovensepy/</a> * <strong>PyPI:</strong> <a href=\"https://pypi.org/project/pylovense/\">https://pypi.org/project/pylovense/</a></p> <p>Let me know what you think (or roast my code)! </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ksvarog2004\"> /u/ksvarog2004 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rz7620/showcase_i_overengineered_a_python_sdk_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rz7620/showcase_i_overengineered_a_python_sdk_for/\">[comments]</a></span>",
-      "author": "/u/ksvarog2004",
-      "published_date": "2026-03-20T20:22:07+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 378,
-      "reading_time": 1,
-      "created_at": "2026-03-20T21:32:10.518029+00:00",
-      "updated_at": "2026-03-20T22:23:26.362064+00:00",
-      "metadata": {
-        "processed_at": "2026-03-20T22:23:26.362066+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e99e0a2839f37d06d12a0038ea701259",
-      "url": "https://ashvardanian.com/posts/numkong/",
-      "title": "NumKong: 2'000 Mixed Precision Kernels for All",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47459447\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-20T19:29:39+00:00",
+      "published_date": "2026-03-20T22:11:37+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-20T21:32:09.315983+00:00",
-      "updated_at": "2026-03-20T22:23:26.362068+00:00",
+      "created_at": "2026-03-20T23:37:52.887408+00:00",
+      "updated_at": "2026-03-21T01:27:55.612454+00:00",
       "metadata": {
-        "processed_at": "2026-03-20T22:23:26.362070+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e99e0a2839f37d06d12a0038ea701259",
-      "url": "https://ashvardanian.com/posts/numkong/",
-      "title": "NumKong: 2'000 Mixed Precision Kernels for All",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47459447\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-20T19:29:39+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-20T21:32:09.315983+00:00",
-      "updated_at": "2026-03-20T22:23:26.362068+00:00",
-      "metadata": {
-        "processed_at": "2026-03-20T22:23:26.362070+00:00",
+        "processed_at": "2026-03-21T01:27:55.612456+00:00",
         "processing_method": "github_actions"
       }
     }
