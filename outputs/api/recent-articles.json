@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-21T17:53:10.423714+00:00",
+  "last_updated": "2026-03-21T18:29:21.140738+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "",
       "published_date": "2026-03-19T00:58:25+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-03-21T17:52:00.174901+00:00",
-      "updated_at": "2026-03-21T17:52:00.174903+00:00"
+      "updated_at": "2026-03-21T18:29:21.015224+00:00",
+      "metadata": {
+        "processed_at": "2026-03-21T18:29:21.015233+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "4be88f3a6584cc89cf9c91dbe192b102",
@@ -26,13 +30,17 @@
       "author": "/u/Mech_Bees",
       "published_date": "2026-03-21T16:26:05+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 199,
       "reading_time": 1,
       "created_at": "2026-03-21T17:27:16.426599+00:00",
-      "updated_at": "2026-03-21T17:27:16.426601+00:00"
+      "updated_at": "2026-03-21T18:29:21.015237+00:00",
+      "metadata": {
+        "processed_at": "2026-03-21T18:29:21.015239+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "4db2dc96310ca84c8f0e7893022cd4a9",
@@ -42,13 +50,17 @@
       "author": "",
       "published_date": "2026-03-21T12:43:09+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-03-21T17:27:15.226877+00:00",
-      "updated_at": "2026-03-21T17:27:15.226879+00:00"
+      "updated_at": "2026-03-21T18:29:21.015242+00:00",
+      "metadata": {
+        "processed_at": "2026-03-21T18:29:21.015243+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "1c5ff7022be7e5b4d48acdb032cb078b",
@@ -58,13 +70,17 @@
       "author": "",
       "published_date": "2026-03-18T21:26:23+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-03-21T17:27:15.226857+00:00",
-      "updated_at": "2026-03-21T17:27:15.226859+00:00"
+      "updated_at": "2026-03-21T18:29:21.015245+00:00",
+      "metadata": {
+        "processed_at": "2026-03-21T18:29:21.015247+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "dc8100a9a363805aee91be89065cfe80",
@@ -74,29 +90,37 @@
       "author": "",
       "published_date": "2026-03-21T14:54:38+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-03-21T17:27:15.226799+00:00",
-      "updated_at": "2026-03-21T17:27:15.226801+00:00"
+      "updated_at": "2026-03-21T18:29:21.015249+00:00",
+      "metadata": {
+        "processed_at": "2026-03-21T18:29:21.015251+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "4db2dc96310ca84c8f0e7893022cd4a9",
       "url": "https://github.com/pangon/ai-sdlc-scaffold/",
       "title": "Show HN: AI SDLC Scaffold, repo template for AI-assisted software development",
-      "content": "<p>I built an open-source repo template that brings structure to AI-assisted software development, starting from the pre-coding phases: objectives, user stories, requirements, architecture decisions.<p>It's designed around Claude Code but the ideas are tool-agnostic. I've been a computer science researcher and full-stack software engineer for 25 years, working mainly in startups. I've been using this approach on my personal projects for a while, then, when I decided to package it up as scaffold for more easy reuse, I figured it might be useful to others too. I published it under Apache 2.0, fork it and make it yours.<p>You can easily try it out: follow the instructions in the README to start using it.<p>The problem it solves:<p>AI coding agents are great at writing code, but they work much better when they have clear context about what to build and why. Most projects jump straight to implementation. This scaffold provides a structured workflow for the pre-coding phases, and organizes the output so that agents can navigate it efficiently across sessions.<p>How it works:<p>Everything lives in the repo alongside source code. The AI guidance is split into three layers, each optimized for context-window usage:<p>1. Instruction files (CLAUDE.md, CLAUDE..md): always loaded, kept small. They are organized hierarchically, describe repo structure, maintain artifact indexes, and define cross-phase rules like traceability invariants.<p>2. Skills (.claude/skills/SDLC-*): loaded on demand. Step-by-step procedures for each SDLC activity: eliciting requirements, gap analysis, drafting architecture, decomposing into components, planning tasks, implementation.<p>3. Project artifacts: structured markdown files that accumulate as work progresses: stakeholders, goals, user stories, requirements, assumptions, constraints, decisions, architecture, data model, API design, task tracking. Accessed selectively through indexes.<p>This separation matters because instruction files stay in the context window permanently and must be lean, skills can be detailed since they're loaded only when invoked, and artifacts scale with the project but are navigated via indexed tables rather than read in full.<p>Key design choices:<p>Context-window efficiency: artifact collections use markdown index tables (one-line description and trigger conditions) so the agent can locate what it needs without reading everything.<p>Decision capture: decisions made during AI reasoning and human feedback are persisted as a structured artifact, to make them reviewable, traceable, and consistently applied across sessions.<p>Waterfall-ish flow: sequential phases with defined outputs. Tedious for human teams, but AI agents don't mind the overhead, and the explicit structure prevents the unconstrained \"just start vibecoding\" failure mode.<p>How I use it:<p>Short, focused sessions. Each session invokes one skill, produces its output, and ends. The knowledge organization means the next session picks up without losing context. I've found that free-form prompting between skills is usually a sign the workflow is missing a piece.<p>Current limitations:<p>I haven't found a good way to integrate Figma MCP for importing existing UI/UX designs into the workflow. Suggestions welcome.<p>Feedback, criticism, and contributions are very welcome!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47466513\">https://news.ycombinator.com/item?id=47466513</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
-      "author": "pangon",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47466513\">Comments</a>",
+      "author": "",
       "published_date": "2026-03-21T12:43:09+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 468,
-      "reading_time": 2,
-      "created_at": "2026-03-21T17:27:13.896317+00:00",
-      "updated_at": "2026-03-21T17:27:13.896319+00:00"
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-21T17:27:15.226877+00:00",
+      "updated_at": "2026-03-21T18:29:21.015242+00:00",
+      "metadata": {
+        "processed_at": "2026-03-21T18:29:21.015243+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "0307e0535a803d62b01be1c5f2d70639",
@@ -118,17 +142,21 @@
       "id": "dc8100a9a363805aee91be89065cfe80",
       "url": "https://www.bbc.com/news/articles/c5yljdgwppzo",
       "title": "Iran launched unsuccessful attack on UK's Diego Garcia",
-      "content": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/c5yljdgwppzo\">https://www.bbc.com/news/articles/c5yljdgwppzo</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47467609\">https://news.ycombinator.com/item?id=47467609</a></p>\n<p>Points: 47</p>\n<p># Comments: 19</p>",
-      "author": "alephnerd",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47467609\">Comments</a>",
+      "author": "",
       "published_date": "2026-03-21T14:54:38+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-21T17:27:13.896169+00:00",
-      "updated_at": "2026-03-21T17:27:13.896170+00:00"
+      "created_at": "2026-03-21T17:27:15.226799+00:00",
+      "updated_at": "2026-03-21T18:29:21.015249+00:00",
+      "metadata": {
+        "processed_at": "2026-03-21T18:29:21.015251+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "3dd2a1766651f68c9af47548e8ca4306",
