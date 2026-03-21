@@ -1,5 +1,21 @@
 [
   {
+    "id": "dad764f5ca2be64d1fdf818337af92f8",
+    "url": "https://standardebooks.org/collections/le-mondes-100-books-of-the-century",
+    "title": "Books of the Century by Le Monde",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47433429\">Comments</a>",
+    "author": "",
+    "published_date": "2026-03-19T00:58:25+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-03-21T17:52:00.174901+00:00",
+    "updated_at": "2026-03-21T17:52:00.174903+00:00"
+  },
+  {
     "id": "4be88f3a6584cc89cf9c91dbe192b102",
     "url": "https://www.reddit.com/r/Python/comments/1rzvrbo/learning_in_public_cs_of_whole_4_years_want/",
     "title": "Learning in Public CS of whole 4 years want feedback",
@@ -17054,21 +17070,5 @@
     "reading_time": 1,
     "created_at": "2026-03-17T04:30:51.891223+00:00",
     "updated_at": "2026-03-17T04:30:51.891225+00:00"
-  },
-  {
-    "id": "c9c3f92f45a6dc355920381ce9e78560",
-    "url": "https://arxiv.org/abs/2603.13478",
-    "title": "Equivalence of approximation by networks of single- and multi-spike neurons",
-    "content": "arXiv:2603.13478v1 Announce Type: cross \nAbstract: In a spiking neural network, is it enough for each neuron to spike at most once? In recent work, approximation bounds for spiking neural networks have been derived, quantifying how well they can fit target functions. However, these results are only valid for neurons that spike at most once, which is commonly thought to be a strong limitation. Here, we show that the opposite is true for a large class of spiking neuron models, including the commonly used leaky integrate-and-fire model with subtractive reset: for every approximation bound that is valid for a set of multi-spike neural networks, there is an equivalent set of single-spike neural networks with only linearly more neurons (in the maximum number of spikes) for which the bound holds. The same is true for the reverse direction too, showing that regarding their approximation capabilities in general machine learning tasks, single-spike and multi-spike neural networks are equivalent. Consequently, many approximation results in the literature for single-spike neural networks also hold for the multi-spike case.",
-    "author": "Dominik Dold, Philipp Christian Petersen",
-    "published_date": "2026-03-17T04:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 172,
-    "reading_time": 1,
-    "created_at": "2026-03-17T04:30:51.891190+00:00",
-    "updated_at": "2026-03-17T04:30:51.891191+00:00"
   }
 ]
