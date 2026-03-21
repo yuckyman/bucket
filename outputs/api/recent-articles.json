@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-03-21T19:26:52.025539+00:00",
+  "last_updated": "2026-03-21T19:47:54.874405+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "de446fdff442eff3c0dc035c1fd50872",
+      "url": "https://www.reddit.com/r/Python/comments/1rzzxad/custom_orchestrator_for_locust_based_loadplan/",
+      "title": "Custom Orchestrator For Locust Based Load-Plan Execution",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi Everyone... I am a DevOps &amp; QA Engineer and I have been working on performance testing, as of late.</p> <p>While using <a href=\"https://github.com/locustio/locust\">Locust</a>, I kept on thinking how nice it would have been if I could just perhaps input a CSV file with all things such as concurrent users, ramp-up and duration because in comparison and to this point, I had to key in all these individual items after each completion of the Load-Test.</p> <p>To combat this, I created a custom <a href=\"https://github.com/dev-vaayen/locust-orchestrator/\">Locust Orchestrator</a> to execute all of my test-plans in the background and let the reports get saved, for later reviews.</p> <h2>Locust Orchestrator</h2> <p>GitHub: <a href=\"https://github.com/dev-vaayen/locust-orchestrator\">https://github.com/dev-vaayen/locust-orchestrator</a></p> <p>It's a plain Python CLI, which allows us to specify a complete load test plan and run one after another with reports saved locally without any manual intervention in-between.</p> <p>What My Project Does: - Performs several load tests based on a CSV file - Prepares an HTML report on each test - Logs when each test starts</p> <p>The plan.csv that is fed into the orchestrator works like this: <code> users, spawn_rate, duration 100, 10, 2m 500, 50, 5m 200, 20, 3m </code></p> <p>This tool pretty much builds on-top of Locust and runs Locust under the hood, meaning that the usual locust related flags can also be used.</p> <p>I have been using this custom-orchestrator to execute my own test plans in the background and for viewing the results at a later stage rather than monitoring each run live and manually inputting Test-Configs.</p> <hr /> <p>The Target Audience includes QA engineers and Locust users in terms of comparison, I was not able to find a similar orchestrator.</p> <p>Future plans currently include: - Combined reports in html - History tracking using sqlite db - Maybe a small dashboard using streamlit</p> <p>I would also like to understand whether this tool can be beneficial to other people as well and what other ideas that you might like seeing implemented in here. In my head maybe it goes without saying but still, please do consider contributing your own ideas as well by visiting the GitHub repository for this at <a href=\"https://github.com/dev-vaayen/locust-orchestrator\">https://github.com/dev-vaayen/locust-orchestrator</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dev-vaayen\"> /u/dev-vaayen </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rzzxad/custom_orchestrator_for_locust_based_loadplan/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rzzxad/custom_orchestrator_for_locust_based_loadplan/\">[comments]</a></span>",
+      "author": "/u/dev-vaayen",
+      "published_date": "2026-03-21T19:10:12+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 374,
+      "reading_time": 1,
+      "created_at": "2026-03-21T19:46:45.261568+00:00",
+      "updated_at": "2026-03-21T19:46:45.261570+00:00"
+    },
+    {
+      "id": "b2fc80c458d2041ce383641e2b046948",
+      "url": "https://phys.org/news/2026-03-hour-explosion.html",
+      "title": "The seven hour explosion nobody could explain",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47411110\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-17T11:14:23+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-21T19:46:44.032665+00:00",
+      "updated_at": "2026-03-21T19:46:44.032667+00:00"
+    },
     {
       "id": "745415f50bc03acd637bf264e405da87",
       "url": "https://huguesjohnson.com/programming/y2k/",
@@ -317,38 +349,6 @@
         "processed_at": "2026-03-21T18:29:21.015251+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "0307e0535a803d62b01be1c5f2d70639",
-      "url": "https://www.theguardian.com/technology/2026/mar/20/mediahuis-suspends-senior-journalist-over-ai-generated-quotes",
-      "title": "Senior European journalist suspended over AI-generated quotes",
-      "content": "<p>Article URL: <a href=\"https://www.theguardian.com/technology/2026/mar/20/mediahuis-suspends-senior-journalist-over-ai-generated-quotes\">https://www.theguardian.com/technology/2026/mar/20/mediahuis-suspends-senior-journalist-over-ai-generated-quotes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47467566\">https://news.ycombinator.com/item?id=47467566</a></p>\n<p>Points: 34</p>\n<p># Comments: 7</p>",
-      "author": "Brajeshwar",
-      "published_date": "2026-03-21T14:50:13+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-21T17:27:13.896207+00:00",
-      "updated_at": "2026-03-21T17:27:13.896209+00:00"
-    },
-    {
-      "id": "3dd2a1766651f68c9af47548e8ca4306",
-      "url": "https://www.science.org/content/article/first-science-private-moon-lander-challenges-lunar-divide",
-      "title": "First science from private Moon lander challenges lunar divide",
-      "content": "<p>Article URL: <a href=\"https://www.science.org/content/article/first-science-private-moon-lander-challenges-lunar-divide\">https://www.science.org/content/article/first-science-private-moon-lander-challenges-lunar-divide</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47467924\">https://news.ycombinator.com/item?id=47467924</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-      "author": "Brajeshwar",
-      "published_date": "2026-03-21T15:31:22+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-21T17:27:13.896118+00:00",
-      "updated_at": "2026-03-21T17:27:13.896125+00:00"
     }
   ]
 }

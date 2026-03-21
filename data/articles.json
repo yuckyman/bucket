@@ -1,5 +1,37 @@
 [
   {
+    "id": "de446fdff442eff3c0dc035c1fd50872",
+    "url": "https://www.reddit.com/r/Python/comments/1rzzxad/custom_orchestrator_for_locust_based_loadplan/",
+    "title": "Custom Orchestrator For Locust Based Load-Plan Execution",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi Everyone... I am a DevOps &amp; QA Engineer and I have been working on performance testing, as of late.</p> <p>While using <a href=\"https://github.com/locustio/locust\">Locust</a>, I kept on thinking how nice it would have been if I could just perhaps input a CSV file with all things such as concurrent users, ramp-up and duration because in comparison and to this point, I had to key in all these individual items after each completion of the Load-Test.</p> <p>To combat this, I created a custom <a href=\"https://github.com/dev-vaayen/locust-orchestrator/\">Locust Orchestrator</a> to execute all of my test-plans in the background and let the reports get saved, for later reviews.</p> <h2>Locust Orchestrator</h2> <p>GitHub: <a href=\"https://github.com/dev-vaayen/locust-orchestrator\">https://github.com/dev-vaayen/locust-orchestrator</a></p> <p>It's a plain Python CLI, which allows us to specify a complete load test plan and run one after another with reports saved locally without any manual intervention in-between.</p> <p>What My Project Does: - Performs several load tests based on a CSV file - Prepares an HTML report on each test - Logs when each test starts</p> <p>The plan.csv that is fed into the orchestrator works like this: <code> users, spawn_rate, duration 100, 10, 2m 500, 50, 5m 200, 20, 3m </code></p> <p>This tool pretty much builds on-top of Locust and runs Locust under the hood, meaning that the usual locust related flags can also be used.</p> <p>I have been using this custom-orchestrator to execute my own test plans in the background and for viewing the results at a later stage rather than monitoring each run live and manually inputting Test-Configs.</p> <hr /> <p>The Target Audience includes QA engineers and Locust users in terms of comparison, I was not able to find a similar orchestrator.</p> <p>Future plans currently include: - Combined reports in html - History tracking using sqlite db - Maybe a small dashboard using streamlit</p> <p>I would also like to understand whether this tool can be beneficial to other people as well and what other ideas that you might like seeing implemented in here. In my head maybe it goes without saying but still, please do consider contributing your own ideas as well by visiting the GitHub repository for this at <a href=\"https://github.com/dev-vaayen/locust-orchestrator\">https://github.com/dev-vaayen/locust-orchestrator</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/dev-vaayen\"> /u/dev-vaayen </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1rzzxad/custom_orchestrator_for_locust_based_loadplan/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1rzzxad/custom_orchestrator_for_locust_based_loadplan/\">[comments]</a></span>",
+    "author": "/u/dev-vaayen",
+    "published_date": "2026-03-21T19:10:12+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 374,
+    "reading_time": 1,
+    "created_at": "2026-03-21T19:46:45.261568+00:00",
+    "updated_at": "2026-03-21T19:46:45.261570+00:00"
+  },
+  {
+    "id": "b2fc80c458d2041ce383641e2b046948",
+    "url": "https://phys.org/news/2026-03-hour-explosion.html",
+    "title": "The seven hour explosion nobody could explain",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47411110\">Comments</a>",
+    "author": "",
+    "published_date": "2026-03-17T11:14:23+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-03-21T19:46:44.032665+00:00",
+    "updated_at": "2026-03-21T19:46:44.032667+00:00"
+  },
+  {
     "id": "745415f50bc03acd637bf264e405da87",
     "url": "https://huguesjohnson.com/programming/y2k/",
     "title": "Microsoft's Year 2000 Resource Center CD",
@@ -17066,37 +17098,5 @@
     "reading_time": 1,
     "created_at": "2026-03-17T04:30:53.079636+00:00",
     "updated_at": "2026-03-17T04:30:53.079637+00:00"
-  },
-  {
-    "id": "cc0e29f8995d41d0fce9c349ec110c80",
-    "url": "https://arxiv.org/abs/2603.13664",
-    "title": "Running into Traffic: Investigating External Human-Machine Interfaces for Automated Vehicle-Runner Interaction",
-    "content": "arXiv:2603.13664v1 Announce Type: new \nAbstract: Automated vehicles (AVs) must communicate their yielding intentions to pedestrians at crossings. External Human-Machine Interfaces (eHMIs, on-vehicle displays) are promising solutions, but were primarily tested with walking pedestrians. Runners are a significant pedestrian group who move faster and face distinct bodily and perceptual demands, raising questions about how pedestrian activity influences eHMI use. We conducted an outdoor study using an augmented reality simulator. Participants navigated a virtual crossing while walking and running; an approaching AV displayed one of three eHMIs: red/green colour-changing lights, animated cyan lights, or no-eHMI. No-eHMI consistently underperformed. Walkers mostly stopped and validated eHMI signals with vehicle behaviour; they processed both eHMI animations and colour changes effectively. Runners experienced greater time pressure to cross, increasing reliance on the eHMI over vehicle behaviour. They preferred colour changes over animation for rapid decisions. These findings are crucial for promoting eHMI inclusivity and physical wellbeing as AVs join our roads.",
-    "author": "Ammar Al-Taie, Thomas Goodge, Shaun Macdonald, Ian Oakley, Stephen Brewster",
-    "published_date": "2026-03-17T04:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 155,
-    "reading_time": 1,
-    "created_at": "2026-03-17T04:30:53.079604+00:00",
-    "updated_at": "2026-03-17T04:30:53.079606+00:00"
-  },
-  {
-    "id": "25b2dd8f3844ec1e891d76ce4d04980f",
-    "url": "https://arxiv.org/abs/2603.13639",
-    "title": "Adaptive Virtual Reality Museum: A Closed-Loop Framewor for Engagement-Aware Cultural Heritage",
-    "content": "arXiv:2603.13639v1 Announce Type: new \nAbstract: Static information presentation in VR cultural heritage often causes cognitive overload or under-stimulation. We introduce a closed-loop adaptive interface that tailors content depth to real-time visitor behavior through implicit multimodal sensing. Our approach continuously monitors gaze dwell, head kinematics, and locomotion to infer engagement via a transparent rule-based classifier, which drives a Large Language Model to dynamically modulate explanation complexity without interrupting exploration. We implemented a proof-of-concept in the Berat Ethnographic Museum and conducted a preliminary evaluation (N=16) comparing adaptive versus static content. Results indicate that adaptive participants demonstrated 2-3x increases in reading engagement and exploration time while maintaining high usability (SUS = 84.3). Technical validation confirmed sub-millisecond engagement inference latency on consumer VR hardware. These preliminary findings warrant larger-scale investigation and raise questions about engagement validation, AI transparency, and generative models in heritage contexts. We present this work-in-progress to spark discussion about implicit AI-driven adaptation in immersive cultural experiences.",
-    "author": "Joseph Damouni, Wadia Tanus, Naomi Unkelos-Shpigel",
-    "published_date": "2026-03-17T04:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 155,
-    "reading_time": 1,
-    "created_at": "2026-03-17T04:30:53.079575+00:00",
-    "updated_at": "2026-03-17T04:30:53.079576+00:00"
   }
 ]
