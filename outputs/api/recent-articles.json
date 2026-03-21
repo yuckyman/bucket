@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-03-21T21:28:22.787953+00:00",
+  "last_updated": "2026-03-21T21:50:25.448219+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "5cd7ba02eab379e69fdd9ba6795568a6",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae4e5b",
+      "title": "CLAS-hdEEG: high-density EEG software platform for real-time delta wave detection and closed-loop auditory stimulation",
+      "content": "Objective. Closed-loop auditory stimulation (CLAS) can enhance slow oscillations during non-rapid eye movement sleep; however, its broader use has been limited by technical and temporal constraints. We introduce and validate CLAS-hdEEG, a high-density electroencephalographic (hd-EEG) software platform integrated within the Magstim EGI environment, capable of real-time delta wave detection and phase-targeted auditory stimulation with low detection-to-stimulation latency, achieved through event-based detection of delta wave extrema. Approach. The CLAS-hdEEG software continuously streams 128-channel EEG data, applies an online moving average filter to Fz for real-time delta wave detection, and triggers brief pink noise bursts at the detected peak or trough of ongoing oscillations. Detection thresholds were based on established amplitude crossings, a minimum peak-to-peak difference of , and duration limits of 160\u20131700\u2009ms. Synchronization between neural detection and stimulus onset was verified using digital input hardware (DIN) markers recorded by the EGI acquisition system. The system was validated in 14 healthy participants during N3 sleep under peak, trough, and sham stimulation conditions. Phase-targeting success was defined as auditory bursts occurring within predefined 90\u2218 phase windows of the oscillation (0\u2218\u201390\u2218 for in-phase blocks and 180\u2218\u2013270\u2218 for anti-phase blocks). Main results. Across all sessions, auditory stimuli were delivered with a mean detection-to-stimulation latency of and an overall phase-targeting success rate of 0.913, indicating that 91.3% of stimuli occurred within the predefined 90\u2218 target phase windows. Online and offline detections showed strong agreement ( ), confirming that real-time processing preserved the fidelity of offline algorithms. Significance. This study establishes the technical and temporal validity of CLAS-hdEEG, the first hd-EEG software platform for CLAS within the EGI environment. By combining low detection-to-stimulation latency with high-density spatial sampling, this framework provides a robust and extensible platform for investigating how auditory stimulation interacts with large-scale neural dynamics across diverse states of consciousness.",
+      "author": "Hanieh Bazregarzadeh, Clara Pic Roca, Antonio Martin, Karine Lacourse, Jean-Marc Lina, Julie Carrier and Catherine Duclos",
+      "published_date": "2026-03-17T00:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 295,
+      "reading_time": 1,
+      "created_at": "2026-03-21T21:49:42.532181+00:00",
+      "updated_at": "2026-03-21T21:49:42.532183+00:00"
+    },
+    {
+      "id": "d1cc44d6f8b995e7822839046c26d098",
+      "url": "https://github.com/systemd/systemd/pull/41179",
+      "title": "Revert \"userdb: add birthDate field to JSON user records",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47471213\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-21T20:53:43+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-21T21:49:20.331962+00:00",
+      "updated_at": "2026-03-21T21:49:20.331964+00:00"
+    },
+    {
+      "id": "d1cc44d6f8b995e7822839046c26d098",
+      "url": "https://github.com/systemd/systemd/pull/41179",
+      "title": "Revert \"userdb: add birthDate field to JSON user records",
+      "content": "<p>Article URL: <a href=\"https://github.com/systemd/systemd/pull/41179\">https://github.com/systemd/systemd/pull/41179</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47471213\">https://news.ycombinator.com/item?id=47471213</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
+      "author": "smartmic",
+      "published_date": "2026-03-21T20:53:43+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-21T21:49:19.037919+00:00",
+      "updated_at": "2026-03-21T21:49:19.037928+00:00"
+    },
     {
       "id": "d3cad00f3d9fa1a0e94d8865bccc1cfa",
       "url": "https://www.reddit.com/r/Python/comments/1s02in4/psa_onnxhubloadsilenttrue_suppresses_all_security/",
@@ -283,66 +331,6 @@
       "updated_at": "2026-03-21T20:20:45.771146+00:00",
       "metadata": {
         "processed_at": "2026-03-21T20:20:45.771148+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "745415f50bc03acd637bf264e405da87",
-      "url": "https://huguesjohnson.com/programming/y2k/",
-      "title": "Microsoft's Year 2000 Resource Center CD",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47470120\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-21T18:59:34+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-21T19:25:46.726718+00:00",
-      "updated_at": "2026-03-21T20:20:45.771146+00:00",
-      "metadata": {
-        "processed_at": "2026-03-21T20:20:45.771148+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ad007f598e657c8c6e94218376dcf101",
-      "url": "https://www.theatlantic.com/newsletters/2026/03/an-unlikely-model-for-male-friendship/686496/",
-      "title": "Why Some Men Struggle to Keep Up with Friendships",
-      "content": "<p>Article URL: <a href=\"https://www.theatlantic.com/newsletters/2026/03/an-unlikely-model-for-male-friendship/686496/\">https://www.theatlantic.com/newsletters/2026/03/an-unlikely-model-for-male-friendship/686496/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47469373\">https://news.ycombinator.com/item?id=47469373</a></p>\n<p>Points: 18</p>\n<p># Comments: 8</p>",
-      "author": "paulpauper",
-      "published_date": "2026-03-21T17:48:53+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-21T19:25:45.438763+00:00",
-      "updated_at": "2026-03-21T20:20:45.771150+00:00",
-      "metadata": {
-        "processed_at": "2026-03-21T20:20:45.771151+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "50737c160972e4c96fd9d1ea454580ae",
-      "url": "https://apnews.com/article/robert-mueller-fbi-director-trump-russia-investigation-7aca939dc25d4652815376f73e0f9aaf",
-      "title": "Former FBI Director Robert Mueller Has Died",
-      "content": "<p>Article URL: <a href=\"https://apnews.com/article/robert-mueller-fbi-director-trump-russia-investigation-7aca939dc25d4652815376f73e0f9aaf\">https://apnews.com/article/robert-mueller-fbi-director-trump-russia-investigation-7aca939dc25d4652815376f73e0f9aaf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47469757\">https://news.ycombinator.com/item?id=47469757</a></p>\n<p>Points: 22</p>\n<p># Comments: 1</p>",
-      "author": "WarOnPrivacy",
-      "published_date": "2026-03-21T18:21:50+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-21T19:25:45.438705+00:00",
-      "updated_at": "2026-03-21T20:20:45.771153+00:00",
-      "metadata": {
-        "processed_at": "2026-03-21T20:20:45.771155+00:00",
         "processing_method": "github_actions"
       }
     }
