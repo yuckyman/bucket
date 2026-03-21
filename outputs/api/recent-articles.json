@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-03-21T12:37:17.858030+00:00",
+  "last_updated": "2026-03-21T12:53:30.519302+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "675ff65bf04cee5688b1c7ffa997f5e6",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2511528123?af=R",
+      "title": "Identification of somatostatin+ inhibitory engrams for extinction in the basolateral amygdala",
+      "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 12, March 2026. <br />SignificanceWhile inhibitory engrams have been previously hypothesized, the current study provides causal evidence that inhibition of extinction-tagged GABAergic cells in the basolateral amygdala (BLA) impairs recall of the extinction memory, resulting in ...",
+      "author": "Xu ZhangZhaohui LanYu HuangYuting LiZhenbo WangJingyu SunYing ZhouHechen BaoXuelian FanJiarun YangXiujuan YangCaiqin LiXiangyu YangYifang KuangMiou ZhouGuang HeEiki TakahashiPaul W. FranklandWeidong LiaBio-X Institutes, Key Laboratory for the Genetics of Development and Neuropsychiatric Disorders (Ministry of Education), Center for Brain Health and Brain Technology, Global Institute of Future Technology, Institute of Psychology and Behavioral Science, Shanghai Jiao Tong University, Shanghai 200240, ChinabInstitute of Vibration Shock and Noise, State Key Laboratory of Mechanical System and Vibration, School of Mechanical Engineering, Shanghai Jiao Tong University, Shanghai 200240, ChinacDepartment of Psychiatry and Behavioral Sciences, Emory University School of Medicine, Atlanta, GA 30329dDepartment of Pharmacology, University of North Carolina, Chapel Hill, NC 27599eCollege of Dental Medicine, Western University of Health Sciences, Pomona, CA 91766fDepartment of Biomedicine, Graduate School of Medical Sciences, Kyushu University, Fukuoka 812-8582, JapangProgram in Neurosciences and Mental Health, Hospital for Sick Children, Toronto, ON M5G 1X8, CanadahWorld Laureates Association Laboratories, Shanghai 201203, China",
+      "published_date": "2026-03-20T07:00:00+00:00",
+      "source": "Pnas Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 47,
+      "reading_time": 1,
+      "created_at": "2026-03-21T12:52:56.004488+00:00",
+      "updated_at": "2026-03-21T12:52:56.004489+00:00"
+    },
+    {
+      "id": "b9c66a64ad324223547bd2e9f3849ded",
+      "url": "https://trigger.dev/blog/how-trql-works",
+      "title": "We give every user SQL access to a shared ClickHouse cluster",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47414356\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-17T15:50:03+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-21T12:52:26.227993+00:00",
+      "updated_at": "2026-03-21T12:52:26.227995+00:00"
+    },
+    {
+      "id": "65cef9e0e15b101948a7fe81393f61e5",
+      "url": "https://www.wired.com/story/how-byds-ev-charger-got-even-faster-and-it-might-not-matter-as-much-as-you-think/",
+      "title": "How BYD Got EV Chargers to Work Almost as Fast as Gas Pumps",
+      "content": "<p>Article URL: <a href=\"https://www.wired.com/story/how-byds-ev-charger-got-even-faster-and-it-might-not-matter-as-much-as-you-think/\">https://www.wired.com/story/how-byds-ev-charger-got-even-faster-and-it-might-not-matter-as-much-as-you-think/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47466294\">https://news.ycombinator.com/item?id=47466294</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "Brajeshwar",
+      "published_date": "2026-03-21T12:06:03+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-21T12:52:24.879741+00:00",
+      "updated_at": "2026-03-21T12:52:24.879749+00:00"
+    },
     {
       "id": "50537c860ad84e97e2dc365b7ad83b93",
       "url": "https://www.padelchess.me/",
@@ -329,58 +377,6 @@
         "processed_at": "2026-03-21T08:26:49.145717+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "cb8e9873c8d9fd63b475fb79f6247d50",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.20.713227v1?rss=1",
-      "title": "Multi-Task Batteries for Precision Functional Mapping",
-      "content": "Functional brain mapping is an important tool to understand the organization of the human brain, both at the group level, but also to an increasing degree at the level of the individual. There are currently two main approaches to do so. Resting-state fMRI relies on inter-regional correlations of random fluctuations of the signal. In contrast, task-based localizers typically use a single-contrast between a task of interest and a matched control task to identify the location of a functional region in an individual brain. In this paper, we propose and evaluate a third approach: the use of multi-task batteries for both localization of a single functional region and parcellation of multiple functional regions. We show that multi-task localizers produce more consistent estimation of a single functional region across subjects than the single-contrast approach using the same amount of fMRI data. Furthermore, we demonstrate that the multi-task approach is sensitive to true inter-individual differences in region size, and does not suffer the same influence of signal-to-noise ratio that biases the single-contrast localizer. We then address the question of how to select tasks for the battery, and present a data-driven strategy that optimizes the characterization of a brain structure of interest. We show that such batteries outperform randomly selected batteries both for building individual parcellations as well as individual connectivity models. Finally, we demonstrate that an interspersed design - where all tasks are presented in each imaging run - yields more reliable results than splitting the tasks across different runs. We present an open source toolbox for the implementation of multi-task batteries, along with a library containing group-averaged activity patterns that can be used to optimize battery selection for different brain structures of interest.",
-      "author": "Arafat, B., Nettekoven, C., Xiang, J. D., Diedrichsen, J.",
-      "published_date": "2026-03-20T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 281,
-      "reading_time": 1,
-      "created_at": "2026-03-21T07:53:39.521091+00:00",
-      "updated_at": "2026-03-21T08:26:49.145719+00:00",
-      "metadata": {
-        "processed_at": "2026-03-21T08:26:49.145721+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0c9ad5def5230d7271db751efd58b278",
-      "url": "https://www.nature.com/articles/s41380-026-03529-z",
-      "title": "Comprehensive single-cell transcriptomic atlas of microglia in Alzheimer\u2019s disease mouse models",
-      "content": "",
-      "author": "",
-      "published_date": "2026-03-21T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-21T07:53:38.280996+00:00",
-      "updated_at": "2026-03-21T07:53:38.280998+00:00"
-    },
-    {
-      "id": "6a9218965f838630347a4cd2a48c85c6",
-      "url": "https://www.nature.com/articles/s41598-026-45065-4",
-      "title": "Combined PLGA scaffolds and therapeutic stem cells for locomotion recovery in spinal cord-injured rats: a systematic review and meta-analysis",
-      "content": "",
-      "author": "",
-      "published_date": "2026-03-21T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-21T07:53:38.280957+00:00",
-      "updated_at": "2026-03-21T07:53:38.280959+00:00"
     }
   ]
 }
