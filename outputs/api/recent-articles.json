@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-03-21T10:55:53.085803+00:00",
+  "last_updated": "2026-03-21T11:25:45.119749+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "50537c860ad84e97e2dc365b7ad83b93",
+      "url": "https://www.padelchess.me/",
+      "title": "Padel Chess \u2013 tactical simulator for padel",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47416607\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-17T18:49:39+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-21T11:24:36.585682+00:00",
+      "updated_at": "2026-03-21T11:24:36.585683+00:00"
+    },
+    {
+      "id": "aef3ea690fb6de9e5d089e99d3e51c36",
+      "url": "https://blog.atuin.sh/atuin-v18-13/",
+      "title": "Atuin v18.13 \u2013 better search, a PTY proxy, and AI for your shell",
+      "content": "<p>Article URL: <a href=\"https://blog.atuin.sh/atuin-v18-13/\">https://blog.atuin.sh/atuin-v18-13/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47465824\">https://news.ycombinator.com/item?id=47465824</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "cenanozen",
+      "published_date": "2026-03-21T10:35:20+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-21T11:24:35.490454+00:00",
+      "updated_at": "2026-03-21T11:24:35.490461+00:00"
+    },
     {
       "id": "38b0ab2ffe93e8742c9cd4048b451fe3",
       "url": "https://www.eff.org/deeplinks/2026/03/blocking-internet-archive-wont-stop-ai-it-will-erase-webs-historical-record",
@@ -329,38 +361,6 @@
       "reading_time": 1,
       "created_at": "2026-03-21T07:53:38.280957+00:00",
       "updated_at": "2026-03-21T07:53:38.280959+00:00"
-    },
-    {
-      "id": "cb0c4f4d2c456d316b63c34ce176610a",
-      "url": "https://www.nature.com/articles/s41598-026-44390-y",
-      "title": "VR-guided deep breathing during needle procedures in children",
-      "content": "",
-      "author": "",
-      "published_date": "2026-03-21T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-03-21T07:53:38.280932+00:00",
-      "updated_at": "2026-03-21T07:53:38.280937+00:00"
-    },
-    {
-      "id": "4292c0c64664c4b7d8ef05ffaa1a0009",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.18.712805v1?rss=1",
-      "title": "A Neural Mass Modelling Framework for Evaluating EEG Source Localisation of Seizure Activity",
-      "content": "Electroencephalography and magnetoencephalography (EEG/MEG) provide non-invasive measurements of large-scale neural activity but do not directly reveal the underlying cortical sources, motivating the use of source localisation algorithms. However, objective evaluation of these methods remains challenging due to the absence of an experimentally verifiable ground truth. This study presents a simulation framework for generating biologically plausible ictal dynamics and their corresponding EEG signals to enable systematic benchmarking of source imaging approaches. Cortical seizure initiation and propagation were simulated using network-coupled neural mass (Epileptor) models, and combined with realistic forward models of the human head to produce macroscopic, electrophysiological data with known ground truth under varying conditions. Using this dataset, we evaluated established source localisation methods across idealised and realistic scenarios. Existing approaches achieved reasonable spatial accuracy under high-density, noise-free conditions; however, performance degraded substantially with reduced sensor coverage and added noise. This degradation was driven primarily by failures to recover source polarity, even when spatial localisation remained relatively accurate. These results suggest that current methods may be sufficient for identifying epileptogenic regions or tracking regional recruitment, but highlight polarity reconstruction as a key limitation for studies of seizure dynamics and network organisation. The proposed framework provides a reproducible and biologically grounded testbed for the development and evaluation of electrophysiological source localisation techniques.",
-      "author": "Siu, P. H., Karoly, P. J., Mansour L, S., Soto-Breceda, A., Kuhlmann, L., Cook, M. J., Grayden, D. B.",
-      "published_date": "2026-03-20T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 211,
-      "reading_time": 1,
-      "created_at": "2026-03-21T07:09:53.659181+00:00",
-      "updated_at": "2026-03-21T07:09:53.659187+00:00"
     }
   ]
 }
