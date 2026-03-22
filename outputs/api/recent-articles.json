@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-03-22T23:31:11.202443+00:00",
+  "last_updated": "2026-03-22T23:56:19.578533+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "2fbe62ef6afd55a86448519a0ae58432",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1726374",
+      "title": "Macular: a multi-scale simulation platform for the retina and the primary visual system",
+      "content": "We developed Macular, a simulation platform with a graphical interface, designed to produce in silico experiment scenarios for the retina and the primary visual system. A scenario involves generating a three-dimensional structure with interconnected layers, each layer corresponding to a type of \u201ccell\u201d in the retina or visual cortex. The cells can correspond to neurons or more complex structures (such as cortical columns). Inputs are arbitrary videos. The user can use the cells and synapses provided with the software or create their own using a graphical interface where they enter the constituent equations in text format (e.g., LaTeX). They also create the three-dimensional structure via the graphical interface. Macular then automatically generates and compiles the C++ code and generates the simulation interface. This allows the user to view the input video and the three-dimensional structure in layers. It also allows the user to select cells and synapses in each layer and view the activity of their state variables. Finally, the user can adjust the phenomenological parameters of the cells or synapses via the interface. We provide several example scenarios, corresponding to published articles, including an example of a retino-cortical model. Macular was designed for neurobiologists and modelers, specialists in the primary visual system, who want to test hypotheses in silico without the need for programming. By design, this tool allows simulation of natural or altered conditions (e.g., pharmacology, pathology, and development).",
+      "author": "Julien Wintz",
+      "published_date": "2026-02-02T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 231,
+      "reading_time": 1,
+      "created_at": "2026-03-22T23:55:43.203928+00:00",
+      "updated_at": "2026-03-22T23:55:43.203930+00:00"
+    },
     {
       "id": "f38eead17e395116d916ba0b26eecea5",
       "url": "https://www.biorxiv.org/content/10.64898/2026.03.19.712907v1?rss=1",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-03-22T20:55:22.295537+00:00",
       "updated_at": "2026-03-22T20:55:22.295541+00:00"
-    },
-    {
-      "id": "add8b53be95b2e64da55643b3d721e14",
-      "url": "https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284",
-      "title": "What Young Workers Are Doing to AI-Proof Themselves",
-      "content": "<p>Article URL: <a href=\"https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284\">https://www.wsj.com/economy/jobs/ai-jobs-young-people-careers-14282284</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47480447\">https://news.ycombinator.com/item?id=47480447</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
-      "author": "wallflower",
-      "published_date": "2026-03-22T18:18:01+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-22T20:55:20.979787+00:00",
-      "updated_at": "2026-03-22T20:55:20.979789+00:00"
     }
   ]
 }
