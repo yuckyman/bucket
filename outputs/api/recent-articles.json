@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-03-28T22:23:33.541962+00:00",
+  "last_updated": "2026-03-28T22:31:50.241112+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "79532aeb4ddabd5b9acf034969a99982",
+      "url": "https://www.reddit.com/r/Python/comments/1s6cw5w/nicegooey_generate_no_ai_web_uis_from_your/",
+      "title": "NiceGooey: Generate (no AI :)) web UIs from your command line tool",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Some while back, I created command line tools for a gaming community, with a wide audience of users. I found that, while the tools were found to be useful, the fact that they were purely CLI made them &quot;too technical&quot; for many people to use.</p> <p>That's why I wrote <strong>NiceGooey</strong>, a library to easily generate a GUI from a command line tool implemented with the standard library's argparse module. </p> <p>The idea is that, for the simplest use case, you only need to add a single line of code to an existing project. When running your program after that, a local web server is started and opens a browser page accessing your UI.</p> <p>Screenshots are available in the README file in the links below:</p> <p><a href=\"https://codeberg.org/atollk/NiceGooey/\">https://codeberg.org/atollk/NiceGooey/</a></p> <p><a href=\"https://github.com/atollk/NiceGooey\">https://github.com/atollk/NiceGooey</a></p> <p><a href=\"https://pypi.org/project/nicegooey/\">https://pypi.org/project/nicegooey/</a></p> <p>Since I know that AI-generated code and &quot;slop&quot; are a hot topic in online software communities, I added a section specific to AI usage in the project to the README. In short, there is no AI involved in the runtime, and none of the actual implementation was touched by coding agents, except for some easy-to-automate changes I required for refactorings along the way. I spent a few months to write this project by hand.</p> <p>I would be happy if this project can be of use to some of you. Do let me know if you build something with it :)</p> <p><strong>What My Project Does:</strong> Creates a website to control your command line tool via UI instead of command line flags.</p> <p><strong>Target Audience:</strong> Developers of tools who want to broaden their audience to less tech-savy users</p> <p><strong>Comparison:</strong> The idea is based on <a href=\"http://github.com/chriskiehl/Gooey\">github.com/chriskiehl/Gooey</a> . While Gooey is a more mature solution, it sees no more active development and in my experience brings the issues and possibly aged feel that many people associate with native GUI programs.</p> <p>Shoutout to the nicegui library (and team) which is the main dependency to render the Vue-based frontend from Python, and who quickly fixed a few bugs I encountered while developing NiceGooey.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Wurstinator\"> /u/Wurstinator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1s6cw5w/nicegooey_generate_no_ai_web_uis_from_your/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1s6cw5w/nicegooey_generate_no_ai_web_uis_from_your/\">[comments]</a></span>",
+      "author": "/u/Wurstinator",
+      "published_date": "2026-03-28T21:41:57+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 358,
+      "reading_time": 1,
+      "created_at": "2026-03-28T22:30:44.994099+00:00",
+      "updated_at": "2026-03-28T22:30:44.994101+00:00"
+    },
+    {
+      "id": "e1b916d8d40afc00600a96dc84b8cbdf",
+      "url": "https://inpharmd.com/jobs/senior-ruby-on-rails-engineer",
+      "title": "InpharmD (YC W21) Is Hiring \u2013 Senior Ruby on Rails Developer",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47558305\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-28T21:35:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-28T22:30:43.814239+00:00",
+      "updated_at": "2026-03-28T22:30:43.814240+00:00"
+    },
+    {
+      "id": "ac3faee5fd5e63e1a34eedb50064a886",
+      "url": "https://blog.familytreedna.com/otzi-the-iceman-dna/",
+      "title": "\u00d6tzi the Iceman's DNA Reveals a Living Relative 5k Years Later",
+      "content": "<p>Article URL: <a href=\"https://blog.familytreedna.com/otzi-the-iceman-dna/\">https://blog.familytreedna.com/otzi-the-iceman-dna/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47558195\">https://news.ycombinator.com/item?id=47558195</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "ilamont",
+      "published_date": "2026-03-28T21:18:06+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-28T22:30:42.415990+00:00",
+      "updated_at": "2026-03-28T22:30:42.415991+00:00"
+    },
+    {
+      "id": "e1b916d8d40afc00600a96dc84b8cbdf",
+      "url": "https://inpharmd.com/jobs/senior-ruby-on-rails-engineer",
+      "title": "InpharmD (YC W21) Is Hiring \u2013 Senior Ruby on Rails Developer",
+      "content": "<p>Article URL: <a href=\"https://inpharmd.com/jobs/senior-ruby-on-rails-engineer\">https://inpharmd.com/jobs/senior-ruby-on-rails-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47558305\">https://news.ycombinator.com/item?id=47558305</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "author": "tulasichintha",
+      "published_date": "2026-03-28T21:35:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-28T22:30:42.415970+00:00",
+      "updated_at": "2026-03-28T22:30:42.415971+00:00"
+    },
+    {
+      "id": "61a1b9dbf7d2f61d59cc0693f04c3016",
+      "url": "https://www.theguardian.com/society/2026/mar/28/the-great-care-home-cash-grab-how-private-equity-turned-vulnerable-elderly-people-into-human-atms",
+      "title": "Private equity turned vulnerable elderly people into human ATMs",
+      "content": "<p>Article URL: <a href=\"https://www.theguardian.com/society/2026/mar/28/the-great-care-home-cash-grab-how-private-equity-turned-vulnerable-elderly-people-into-human-atms\">https://www.theguardian.com/society/2026/mar/28/the-great-care-home-cash-grab-how-private-equity-turned-vulnerable-elderly-people-into-human-atms</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47558372\">https://news.ycombinator.com/item?id=47558372</a></p>\n<p>Points: 22</p>\n<p># Comments: 5</p>",
+      "author": "mordechai9000",
+      "published_date": "2026-03-28T21:43:00+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-28T22:30:42.415941+00:00",
+      "updated_at": "2026-03-28T22:30:42.415948+00:00"
+    },
     {
       "id": "d1c666732f10e57a64a2465740ac2cda",
       "url": "https://www.reddit.com/r/Python/comments/1s6b80i/data_cleaning_across_pyspark_duckdb_and_postgres/",
@@ -19,6 +99,26 @@
       "updated_at": "2026-03-28T22:23:33.438923+00:00",
       "metadata": {
         "processed_at": "2026-03-28T22:23:33.438933+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "9125101bd9963401a9eeb690f1f1daf7",
+      "url": "https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/",
+      "title": "CSS is DOOMed",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47557960\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-28T20:39:01+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-03-28T21:31:51.805352+00:00",
+      "updated_at": "2026-03-28T22:23:33.438937+00:00",
+      "metadata": {
+        "processed_at": "2026-03-28T22:23:33.438939+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -79,26 +179,6 @@
       "updated_at": "2026-03-28T22:23:33.438948+00:00",
       "metadata": {
         "processed_at": "2026-03-28T22:23:33.438949+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9125101bd9963401a9eeb690f1f1daf7",
-      "url": "https://nielsleenheer.com/articles/2026/css-is-doomed-rendering-doom-in-3d-with-css/",
-      "title": "CSS is DOOMed",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47557960\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-28T20:39:01+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-28T21:31:51.805352+00:00",
-      "updated_at": "2026-03-28T22:23:33.438937+00:00",
-      "metadata": {
-        "processed_at": "2026-03-28T22:23:33.438939+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -281,98 +361,6 @@
       "reading_time": 1,
       "created_at": "2026-03-28T18:52:21.652031+00:00",
       "updated_at": "2026-03-28T18:52:21.652033+00:00"
-    },
-    {
-      "id": "bd49d2b4dba82baca81c55e13a2ceafb",
-      "url": "https://github.com/fainir/most-capable-agent-system-prompt",
-      "title": "Show HN: A prompt that builds the most capable AI agent system",
-      "content": "<p>Article URL: <a href=\"https://github.com/fainir/most-capable-agent-system-prompt\">https://github.com/fainir/most-capable-agent-system-prompt</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47556347\">https://news.ycombinator.com/item?id=47556347</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-      "author": "fainir",
-      "published_date": "2026-03-28T16:58:49+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-28T18:52:21.652012+00:00",
-      "updated_at": "2026-03-28T18:52:21.652013+00:00"
-    },
-    {
-      "id": "dddbf470399d25651aa026e81821dca0",
-      "url": "https://blog.ppb1701.com/bitwarden-doubled-their-price-id-already-left-heres-what-you-missed",
-      "title": "Bitwarden Doubled Their Price. I'd Left. Here's What You Missed",
-      "content": "<p>Article URL: <a href=\"https://blog.ppb1701.com/bitwarden-doubled-their-price-id-already-left-heres-what-you-missed\">https://blog.ppb1701.com/bitwarden-doubled-their-price-id-already-left-heres-what-you-missed</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47556979\">https://news.ycombinator.com/item?id=47556979</a></p>\n<p>Points: 12</p>\n<p># Comments: 1</p>",
-      "author": "gpi",
-      "published_date": "2026-03-28T18:11:13+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-28T18:52:21.651943+00:00",
-      "updated_at": "2026-03-28T18:52:21.651950+00:00"
-    },
-    {
-      "id": "9eada22cf394957c8058f29c0541fedd",
-      "url": "https://sytse.com/cancer/",
-      "title": "Founder of GitLab battles cancer by founding companies",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47556729\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-28T17:39:49+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-28T17:58:02.166638+00:00",
-      "updated_at": "2026-03-28T18:33:24.054596+00:00",
-      "metadata": {
-        "processed_at": "2026-03-28T18:33:24.054606+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9eada22cf394957c8058f29c0541fedd",
-      "url": "https://sytse.com/cancer/",
-      "title": "Founder of GitLab battles cancer by founding companies",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47556729\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-28T17:39:49+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-28T17:58:02.166638+00:00",
-      "updated_at": "2026-03-28T18:33:24.054596+00:00",
-      "metadata": {
-        "processed_at": "2026-03-28T18:33:24.054606+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "30b6da2308d3931e4d14f6d8aa4b19ab",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714695v1?rss=1",
-      "title": "Identification and functional investigation of Octopus vulgaris TRPV channels as potential nociceptors in cephalopods",
-      "content": "Nociception is an essential response for organisms to avoid potential harm and promote survival. Its molecular determinants are largely conserved across Eumetazoa. TRPV receptors are polymodal ion channels exhibiting selective peripheral expression and functional coupling that underpins nociception and pain modulation in complex organisms. However, the execution of protective behaviours triggered by TRPVs is also found in species with a simpler nervous organisation, thus encouraging their investigation in invertebrate model organisms to increase understanding of animal nociception. Cephalopods represent an interesting invertebrate phylum with respect to the evolution of the nervous system, whose complexity suggests it might support pain-like states that exist in vertebrates. This possibility is reflected by the inclusion of cephalopods in the UK and EU animal welfare legislations. Despite this, there is poor characterisation of cephalopod molecular nociceptors. For this reason, we used in silico analysis to identify two TRPV channels in Octopus vulgaris genome (Ovtrpv1 and Ovtrpv2). We validated the putative transcript sequences and highlighted prevalent expression in sensory tissues. We investigated the functional competence of these TRPVs by heterologously expressing Ovtrpv1 and Ovtrpv2 cDNA into Caenorhabditis elegans null mutants of the orthologous genes, ocr-2 and osm-9 respectively. Ovtrpvs successfully rescued the aversive response to chemical and mechanical noxious stimuli in the C. elegans mutants, suggesting these receptors are polymodal nociceptors. Additionally, complementary investigation using Xenopus laevis oocytes showed Ovtrpv1 and Ovtrpv2 form an active heteromeric channel gated by nicotinamide. This study highlights Ovtrpvs as an important route to better understand nociceptive detection in cephalopods.",
-      "author": "Pieroni, E. M., Baylis, H. A., O'Connor, V., Holden-Dye, L. M., Yanez-Guerra, L. A., Imperadore, P., Fiorito, G., Dillon, J.",
-      "published_date": "2026-03-28T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 249,
-      "reading_time": 1,
-      "created_at": "2026-03-28T17:31:27.448246+00:00",
-      "updated_at": "2026-03-28T18:33:24.054614+00:00",
-      "metadata": {
-        "processed_at": "2026-03-28T18:33:24.054615+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
