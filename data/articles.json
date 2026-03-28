@@ -1,5 +1,37 @@
 [
   {
+    "id": "63a34a237fcef48d775e86c1aecd8fb9",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1748481",
+    "title": "A Physics Informed Neural Network (PINN) framework for fractional order modeling of Alzheimer's disease",
+    "content": "This study presents a novel fractional order model of Alzheimer's disease (mental disorder) using the Caputo derivative to accurately capture long term memory and hereditary effects in neurodegeneration. The mathematical model incorporates key pathological constituents including neurons, amyloid beta (A\u03b2), tau proteins and microglial responses, allowing detailed simulation of their dynamic interactions. Fundamental properties of the model, including positivity, boundedness, invariant regions and equilibrium points, are rigorously analyzed to ensure biological feasibility. Sensitivity analysis identifies amyloid toxicity as the most influential driver of neuronal loss underscoring its central role in AD progression. Furthermore, a Physics Informed Neural Network (PINN) is developed to approximate system dynamics from noisy observations while ensuring compliance with biological and physical constraints. Compared to standard neural networks the PINN exhibits superior accuracy and robustness especially under data scarcity. By integrating fractional calculus, optimal control and machine learning, this work advances computational modeling of Alzheimer's disease and offers insights into therapeutic optimization.",
+    "author": "Mohamed Hafez",
+    "published_date": "2026-02-18T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 155,
+    "reading_time": 1,
+    "created_at": "2026-03-28T23:00:28.454047+00:00",
+    "updated_at": "2026-03-28T23:00:28.454048+00:00"
+  },
+  {
+    "id": "68acfa4b27b80c083458e3d19ca03089",
+    "url": "https://www.scientificamerican.com/article/why-mathematicians-are-boycotting-their-biggest-conference/",
+    "title": "Why mathematicians are boycotting their biggest conference",
+    "content": "<p>Article URL: <a href=\"https://www.scientificamerican.com/article/why-mathematicians-are-boycotting-their-biggest-conference/\">https://www.scientificamerican.com/article/why-mathematicians-are-boycotting-their-biggest-conference/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47558657\">https://news.ycombinator.com/item?id=47558657</a></p>\n<p>Points: 7</p>\n<p># Comments: 1</p>",
+    "author": "nickcotter",
+    "published_date": "2026-03-28T22:29:10+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-03-28T22:59:52.018974+00:00",
+    "updated_at": "2026-03-28T22:59:52.018982+00:00"
+  },
+  {
     "id": "79532aeb4ddabd5b9acf034969a99982",
     "url": "https://www.reddit.com/r/Python/comments/1s6cw5w/nicegooey_generate_no_ai_web_uis_from_your/",
     "title": "NiceGooey: Generate (no AI :)) web UIs from your command line tool",
@@ -17046,37 +17078,5 @@
     "reading_time": 1,
     "created_at": "2026-03-24T08:55:37.717492+00:00",
     "updated_at": "2026-03-24T08:55:37.717493+00:00"
-  },
-  {
-    "id": "cfad7d3cfe5c42173d77a0c5b9727614",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.03.21.713392v1?rss=1",
-    "title": "SNAP MRI Reveals Association Between Distal Cerebral Arterial Flow and Cognitive Function in an Aging Population",
-    "content": "Objective: Impaired blood flow has recently been recognized as a critical contributor to cognitive impairment and dementia. It was reported that cerebral distal arterial flow measured from Simultaneous Non-contrast Angiography and Intraplaque Hemorrhage (SNAP) MRI is associated with post-treatment cognitive function improvement in carotid atherosclerosis patients. In this study, we aim to evaluate the value of SNAP-based measurements in assessing cerebrovascular function in an aging population. Materials and Methods: Neurovascular MRI data were collected on 36 aging participants (22 cognitively unimpaired and 14 impaired; 9 mild cognitive impairment (MCI) and 5 Alzheimer's Disease (AD)). Neurovascular MRI measurements, including white matter hyperintensities (WMH) volumes, cerebral blood flow (CBF), and SNAP-based distal cerebral arterial flow (dCAF) index, were quantified. Cognitive function was assessed using the Repeatable Battery for the Assessment of Neuropsychological Status (RBANS). Results: Significant differences in the dCAF index were observed between cognitively unimpaired and impaired groups, and the dCAF index was significantly correlated with the RBANS total score. While CBF was significantly associated with dCAF index, there is no significant correlation of CBF or WMH with the RBANS score in this population. Conclusion: Our findings suggest that the dCAF measured with SNAP MRI is valuable for evaluating the cognition-related cerebrovascular condition in an aging population.",
-    "author": "Ma, X., Koppelmans, V., Akcicek, H., Akcicek, E. Y., Shen, J., Chen, L., Balu, N., Yuan, C., King, J. B.",
-    "published_date": "2026-03-24T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 206,
-    "reading_time": 1,
-    "created_at": "2026-03-24T08:55:37.717456+00:00",
-    "updated_at": "2026-03-24T08:55:37.717457+00:00"
-  },
-  {
-    "id": "0755728e2864df92a8e3ef2b1efa515f",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.03.23.713145v1?rss=1",
-    "title": "The importance of M1 muscarinic receptor phosphorylation in learning and memory",
-    "content": "The muscarinic acetylcholine receptor 1 (mAChR1, M1) has been identified as a primary target for Alzheimers disease (AD) and better understanding of the receptor biology, especially in regard to biased signalling of the receptor, will allow for the development of improved drugs targeting cholinergic dysfunction in AD. The aim of this study was to determine the contribution of phosphorylation of M1 to the learning and memory (LM) effects of M1 agonism. The contribution of M1 phosphorylation dependent signalling in LM was assessed using the mAChR1 positive allosteric modulator, VU0486846, in a scopolamine (1.5 mg/kg) induced LM deficit model in mice expressing HA-tagged M1 (M1-WT), phosphorylation deficient HA-tagged M1 (M1-PD), or mice deficient in M1 (M1-KO). LM was assessed using a fear conditioning (FC) testing paradigm where context and cued memory retrieval was measured 24 hrs after training and a higher level of freezing indicated intact memory. Results demonstrated that scopolamine induced a significant LM deficit in both context and cued retrieval in M1-WT mice which was partially rescued by VU0486846 confirming a contribution of M1 signalling in LM. The scopolamine induced deficit in contextual retrieval in M1-KO mice was not rescued by VU0486846, which is an M1 selective ligand, while scopolamine did not induce a deficit in cued retrieval in M1-KO mice. In M1-PD mice, scopolamine induced a LM deficit in contextual retrieval, however this was also not rescued by VU0486846 treatment. Similarly to M1-KO animals, M1-PD mice did not display a scopolamine induced deficit in cued retrieval. When freezing responses were compared across strains, M1-PD mice displayed a deficit compared to M1-WT and M1-KO mice in contextual retrieval, while both M1-PD and M1-KO mice displayed a deficit compared to M1-WT mice in cued retrieval. These results demonstrate that although M1 agonism can restore a LM deficit in both contextual and cued testing paradigms, only the cued retrieval response is dependent on the M1. Additionally, biased Gq M1 signalling is not sufficient to restore contextual memory and requires phosphorylation of the receptor. Furthermore, biased M1 signalling results in LM deficits not seen with KO of the receptor. Overall, these results reiterate the importance of considering the bias of ligands when developing M1 agonists for dementia in the future.",
-    "author": "McFall, A., Gibson, K., Molloy, C., Lindsley, C. W., Tobin, A. B.",
-    "published_date": "2026-03-24T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 368,
-    "reading_time": 1,
-    "created_at": "2026-03-24T08:55:37.717418+00:00",
-    "updated_at": "2026-03-24T08:55:37.717420+00:00"
   }
 ]
