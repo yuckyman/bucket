@@ -1,24 +1,8 @@
 {
-  "last_updated": "2026-03-30T09:06:14.920840+00:00",
-  "pending_count": 690,
-  "processed_count": 310,
+  "last_updated": "2026-03-30T10:57:37.403930+00:00",
+  "pending_count": 684,
+  "processed_count": 316,
   "pending_articles": [
-    {
-      "id": "9dcc37d9faa13ceee3180aac189a3cc4",
-      "url": "https://dani2442.github.io/posts/continuous-rl/",
-      "title": "Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47571495\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-30T07:34:04+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-30T08:55:26.944206+00:00",
-      "updated_at": "2026-03-30T08:55:26.944208+00:00"
-    },
     {
       "id": "321fb410efee61b25e18ec8b04a84edb",
       "url": "https://blog.lysk.tech/excalidraw-frame-export/",
@@ -66,22 +50,6 @@
       "reading_time": 1,
       "created_at": "2026-03-30T08:55:25.845540+00:00",
       "updated_at": "2026-03-30T08:55:25.845542+00:00"
-    },
-    {
-      "id": "9dcc37d9faa13ceee3180aac189a3cc4",
-      "url": "https://dani2442.github.io/posts/continuous-rl/",
-      "title": "Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models",
-      "content": "<p>Article URL: <a href=\"https://dani2442.github.io/posts/continuous-rl/\">https://dani2442.github.io/posts/continuous-rl/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47571495\">https://news.ycombinator.com/item?id=47571495</a></p>\n<p>Points: 18</p>\n<p># Comments: 5</p>",
-      "author": "sebzuddas",
-      "published_date": "2026-03-30T07:34:04+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-03-30T08:55:25.845506+00:00",
-      "updated_at": "2026-03-30T08:55:25.845514+00:00"
     },
     {
       "id": "8b178fb30abf2ab597f770120991460c",
@@ -162,9 +130,121 @@
       "reading_time": 1,
       "created_at": "2026-03-30T05:27:13.045292+00:00",
       "updated_at": "2026-03-30T05:27:13.045293+00:00"
+    },
+    {
+      "id": "af73e595539ed78777830d4ed74bab89",
+      "url": "https://arxiv.org/abs/2603.26099",
+      "title": "\"Oops! ChatGPT is Temporarily Unavailable!\": A Diary Study on Knowledge Workers' Experiences of LLM Withdrawal",
+      "content": "arXiv:2603.26099v1 Announce Type: new \nAbstract: LLMs have become deeply embedded in knowledge work, raising concerns about growing dependency and the potential undermining of human skills. To investigate the pervasiveness of LLMs in work practices, we conducted a four-day diary study with frequent LLM users (N=10), observing how knowledge workers responded to a temporary withdrawal of LLMs. Our findings show how LLM withdrawal disrupted participants' workflows by identifying gaps in task execution, how self-directed work led participants to reclaim professional values, and how everyday practices revealed the extent to which LLM use had become inescapably normative. Conceptualizing LLMs as infrastructural to contemporary knowledge work, this research contributes empirical insights into the often invisible role of LLMs and proposes value-driven appropriation as an approach to supporting professional values in the current LLM-pervasive work environment.",
+      "author": "Eunseo Oh, Suyoun Lee, Jae Young Choi, Soobin Park, Youn-kyung Lim",
+      "published_date": "2026-03-30T04:00:00+00:00",
+      "source": "Arxiv Cs Hc",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 132,
+      "reading_time": 1,
+      "created_at": "2026-03-30T05:27:13.045265+00:00",
+      "updated_at": "2026-03-30T05:27:13.045267+00:00"
+    },
+    {
+      "id": "2ea0f89c362f650afd6126e2a04c7a2d",
+      "url": "https://arxiv.org/abs/2603.26031",
+      "title": "Designing Fatigue-Aware VR Interfaces via Biomechanical Models",
+      "content": "arXiv:2603.26031v1 Announce Type: new \nAbstract: Prolonged mid-air interaction in virtual reality (VR) causes arm fatigue and discomfort, negatively affecting user experience. Incorporating ergonomic considerations into VR user interface (UI) design typically requires extensive human-in-the-loop evaluation. Although biomechanical models have been used to simulate human behavior in HCI tasks, their application as surrogate users for ergonomic VR UI design remains underexplored. We propose a hierarchical reinforcement learning framework that leverages biomechanical user models to evaluate and optimize VR interfaces for mid-air interaction. A motion agent is trained to perform button-press tasks in VR under sequential conditions, using realistic movement strategies and estimating muscle-level effort via a validated three-compartment control with recovery (3CC-r) fatigue model. The simulated fatigue output serves as feedback for a UI agent that optimizes UI element layout via reinforcement learning (RL) to minimize fatigue. We compare the RL-optimized layout against a manually-designed centered baseline and a Bayesian optimized baseline. Results show that fatigue trends from the biomechanical model align with human user data. Moreover, the RL-optimized layout using simulated fatigue feedback produced significantly lower perceived fatigue in a follow-up human study. We further demonstrate the framework's extensibility via a simulated case study on longer sequential tasks with non-uniform interaction frequencies. To our knowledge, this is the first work using simulated biomechanical muscle fatigue as a direct optimization signal for VR UI layout design. Our findings highlight the potential of biomechanical user models as effective surrogate tools for ergonomic VR interface design, enabling efficient early-stage iteration with less reliance on extensive human participation.",
+      "author": "Harshitha Voleti, Charalambos Poullis",
+      "published_date": "2026-03-30T04:00:00+00:00",
+      "source": "Arxiv Cs Hc",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 254,
+      "reading_time": 1,
+      "created_at": "2026-03-30T05:27:13.045235+00:00",
+      "updated_at": "2026-03-30T05:27:13.045236+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "afbf793efbd948cd5b7808d0e8eb8898",
+      "url": "http://ieeexplore.ieee.org/document/11368645",
+      "title": "Table of Contents",
+      "content": "null",
+      "author": "",
+      "published_date": "2026-01-29T13:23:34+00:00",
+      "source": "Reviews Biomedical Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 1,
+      "reading_time": 1,
+      "created_at": "2026-03-30T10:19:03.591962+00:00",
+      "updated_at": "2026-03-30T10:57:37.295868+00:00",
+      "metadata": {
+        "processed_at": "2026-03-30T10:57:37.295880+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "138dbc20af95ce55414e7d62214f9607",
+      "url": "https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab",
+      "title": "Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings",
+      "content": "<p>&#160;</p>\n<p>The post <a href=\"https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab\">Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
+      "author": "Nancy Zimmerman",
+      "published_date": "2025-09-08T16:27:03+00:00",
+      "source": "Embs",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 17,
+      "reading_time": 1,
+      "created_at": "2026-03-30T10:19:01.229841+00:00",
+      "updated_at": "2026-03-30T10:57:37.295884+00:00",
+      "metadata": {
+        "processed_at": "2026-03-30T10:57:37.295886+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f7811e5063d97f1f819a73cab1dac3fc",
+      "url": "https://www.reddit.com/r/Python/comments/1s7kjt8/started_automating_internal_transaction_workflows/",
+      "title": "Started automating internal transaction workflows with Python after 5 years of doing them manually",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>For the past ~5 years I\u2019ve been doing a lot of repetitive operational tasks manually at work. Recently I started automating parts of the workflow using Python and the time savings honestly surprised me.</p> <p>So far I\u2019ve automated:<br /> \u2013 sending transactions through a mobile app workflow<br /> \u2013 opening an admin web panel<br /> \u2013 navigating the admin web panel<br /> \u2013 filling forms automatically<br /> \u2013 submitting entries</p> <p>Right now I\u2019m working on automating the approval side of those entries as well.</p> <p>I also regularly use Postman for API testing, recently started using Newman for running collections from the CLI, and have some experience using JMeter for performance testing. </p> <p>This made me realize how much more operational work could probably be automated that I never explored before. I\u2019d like to go deeper into Python-based automation and eventually move toward remote automation work.</p> <p>What Python tools/libraries or types of automation projects would you recommend learning next to level up from here? What should I learn next ?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Soft_Playful\"> /u/Soft_Playful </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1s7kjt8/started_automating_internal_transaction_workflows/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1s7kjt8/started_automating_internal_transaction_workflows/\">[comments]</a></span>",
+      "author": "/u/Soft_Playful",
+      "published_date": "2026-03-30T08:13:51+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 190,
+      "reading_time": 1,
+      "created_at": "2026-03-30T10:18:09.382161+00:00",
+      "updated_at": "2026-03-30T10:57:37.295889+00:00",
+      "metadata": {
+        "processed_at": "2026-03-30T10:57:37.295890+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "8eb7a2c5f2ae121499cd0b5fa49e708f",
+      "url": "https://status.stripe.com/",
+      "title": "Stripe is down",
+      "content": "<p>Article URL: <a href=\"https://status.stripe.com/\">https://status.stripe.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47572000\">https://news.ycombinator.com/item?id=47572000</a></p>\n<p>Points: 27</p>\n<p># Comments: 9</p>",
+      "author": "tompccs",
+      "published_date": "2026-03-30T08:51:18+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-03-30T10:18:06.872043+00:00",
+      "updated_at": "2026-03-30T10:57:37.295892+00:00",
+      "metadata": {
+        "processed_at": "2026-03-30T10:57:37.295894+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "77231a0b07a5128091f5cf14c86116f2",
       "url": "https://www.nature.com/articles/s41398-026-03945-3",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "d26bd29a99c29604b784513f5b716129",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2026.1733229",
-      "title": "Cognitive decision-making strategies in a haptic angle sorting task: a behavioral experimental study",
-      "content": "Haptic angle discrimination is an important paradigm for studying human perceptual decision-making. Traditional research has mostly focused on the measurement of perceptual sensitivity (such as thresholds), while neglecting the crucial role of cognitive strategies during task execution. This study aims to explore how different cognitive decision-making strategies affect behavioral performance (discrimination accuracy and decision-making efficiency) in the task of sorting from the tactile perspective. We recruited 18 healthy subjects and asked them to complete the same Angle ranking task using two strategies respectively: (1) the \u201csuccessive minimum Angle\u201d strategy stipulated in the experiment; (2) the optimal strategy chosen by the subjects themselves. We fitted the perceived uncertainty parameter (\u03c3) from the ranking results through the maximum likelihood estimation method and used it as an indicator of discrimination accuracy. At the same time, we recorded the number of adjustments during the decision-making process as an efficiency indicator. The results show that, compared with the fixed \u201csuccessive minimum\u201d strategy, when the self-selected strategy is adopted, the decision-making efficiency (number of adjustments) of the subjects is significantly improved (p\u202f<\u202f0.001), while there is no significant loss in the discrimination accuracy (Sigma value) (p\u202f>\u202f0.05). Further qualitative analysis revealed that the vast majority of the subjects (16/18) spontaneously adopted the advanced cognitive strategy of \u201cdouble-boundary\u2014limit transition,\u201d which maximizes efficiency by dynamically managing the working memory load and the number of comparisons. This study quantified for the first time the optimization effect of strategy flexibility on the decision-making process in the tactile sequencing task, revealing that the human cognitive system can adaptively select strategies according to task requirements to achieve the best trade-off between efficiency and accuracy. This discovery holds significant theoretical importance for constructing more comprehensive perceptual decision-making computing models and understanding human adaptive behaviors in complex environments.",
-      "author": "Jinglong Wu",
-      "published_date": "2026-03-30T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 296,
-      "reading_time": 1,
-      "created_at": "2026-03-30T07:07:59.937750+00:00",
-      "updated_at": "2026-03-30T07:20:33.393921+00:00",
-      "metadata": {
-        "processed_at": "2026-03-30T07:20:33.393931+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "051b00eb368bb3d8d8ce021fb514a810",
-      "url": "https://fmhy.net/posts/changelog-sites",
-      "title": "Changelog Sites",
-      "content": "<p><strong><a href=\"https://changes.fmhy.bid/\" rel=\"noreferrer\" target=\"_blank\">https://changes.fmhy.bid/</a></strong></p>\n<p>This covers changes that occur in both the #Recently-Added and #Monthly-Update channels in our Discord.</p>\n<hr />\n<p><strong><a href=\"https://fmhy-tracker.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">https://fmhy-tracker.pages.dev/</a></strong></p>\n<p>This covers links that have been added, updated, or removed by watching GitHub for changes.</p>\n<hr />\n<p>Note that we also make monthly posts on both reddit + our site with the bigger changes, and you can also follow them yourself by joining our <a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Discord</a>, or watching the <a href=\"https://github.com/fmhy/edit/commits/main/\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub.</p>",
+      "id": "9dcc37d9faa13ceee3180aac189a3cc4",
+      "url": "https://dani2442.github.io/posts/continuous-rl/",
+      "title": "Hamilton-Jacobi-Bellman Equation: Reinforcement Learning and Diffusion Models",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47571495\">Comments</a>",
       "author": "",
-      "published_date": "2025-12-12T00:00:00+00:00",
-      "source": "Fmhy",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 83,
-      "reading_time": 1,
-      "created_at": "2026-03-30T07:07:35.797515+00:00",
-      "updated_at": "2026-03-30T07:20:33.393935+00:00",
-      "metadata": {
-        "processed_at": "2026-03-30T07:20:33.393937+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "37a96962a38e67814fb34e4d86278a11",
-      "url": "https://community.webminal.org/t/15-years-one-server-8gb-ram-and-500k-users-how-webminal-refuses-to-die/8803",
-      "title": "15 years, one server, 8GB RAM and 500k users \u2013 how Webminal refuses to die",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47570940\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-30T06:08:53+00:00",
+      "published_date": "2026-03-30T07:34:04+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-03-30T07:07:33.068631+00:00",
-      "updated_at": "2026-03-30T07:20:33.393941+00:00",
+      "created_at": "2026-03-30T08:55:26.944206+00:00",
+      "updated_at": "2026-03-30T10:57:37.295896+00:00",
       "metadata": {
-        "processed_at": "2026-03-30T07:20:33.393943+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "37a96962a38e67814fb34e4d86278a11",
-      "url": "https://community.webminal.org/t/15-years-one-server-8gb-ram-and-500k-users-how-webminal-refuses-to-die/8803",
-      "title": "15 years, one server, 8GB RAM and 500k users \u2013 how Webminal refuses to die",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47570940\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-30T06:08:53+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-30T07:07:33.068631+00:00",
-      "updated_at": "2026-03-30T07:20:33.393941+00:00",
-      "metadata": {
-        "processed_at": "2026-03-30T07:20:33.393943+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f40ce49f11e0cb80e04afc8a7969f580",
-      "url": "https://www.sigasi.com/opinion/jan/vhdls-crown-jewel/",
-      "title": "VHDL's Crown Jewel",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47570435\">Comments</a>",
-      "author": "",
-      "published_date": "2026-03-30T04:39:15+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-03-30T07:07:33.068509+00:00",
-      "updated_at": "2026-03-30T07:20:33.393945+00:00",
-      "metadata": {
-        "processed_at": "2026-03-30T07:20:33.393947+00:00",
+        "processed_at": "2026-03-30T10:57:37.295898+00:00",
         "processing_method": "github_actions"
       }
     }
