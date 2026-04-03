@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-04-03T07:02:28.822764+00:00",
+  "last_updated": "2026-04-03T07:46:13.386247+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "4409271b41932b71022dcc6fd691b604",
+      "url": "https://johncarlosbaez.wordpress.com/2026/03/29/vector-meson-dominance/",
+      "title": "Vector Meson Dominance",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47561913\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-29T10:28:04+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-03T07:44:38.669452+00:00",
+      "updated_at": "2026-04-03T07:44:38.669454+00:00"
+    },
+    {
+      "id": "75ed7de7cc632cfbcc210abd47d687c1",
+      "url": "https://www.weareinquisitive.com/news/hidden-in-the-shadow",
+      "title": "The True Shape of Io's Steeple Mountain",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47562455\">Comments</a>",
+      "author": "",
+      "published_date": "2026-03-29T12:07:24+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-03T07:44:38.669336+00:00",
+      "updated_at": "2026-04-03T07:44:38.669337+00:00"
+    },
     {
       "id": "72d4e4bcc7a6ea71e58585a1392e7483",
       "url": "https://www.sciencedirect.com/science/article/pii/S0006899326001435?dgcid=rss_sd_all",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-04-03T04:44:21.314161+00:00",
       "updated_at": "2026-04-03T04:44:21.314163+00:00"
-    },
-    {
-      "id": "a2d6ca4e8ff118b02a96d506462db580",
-      "url": "https://arxiv.org/abs/2604.01741",
-      "title": "Eyes Can't Always Tell: Fusing Eye Tracking and User Priors for User Modeling under AI Advice Conditions",
-      "content": "arXiv:2604.01741v1 Announce Type: new \nAbstract: Modeling users' cognitive states (e.g., cognitive load and decision confidence) is essential for building adaptive AI in high-stakes decision-making. While eye tracking provides non-invasive behavioral signals correlated with cognitive effort, prior work has not systematically examined how AI assistance contexts, specifically varying advice reliability and user heterogeneity, can alter the mapping between gaze signals and cognitive states. We conducted a within-subject lab eye-tracking study (N=54) on factual verification tasks under three conditions: No-AI, Correct-AI advice, and Incorrect-AI advice. We analyze condition-dependent changes in self-reports and eye-tracking patterns and evaluate the robustness of eye-tracking-based user modeling. Results show that AI advice increases decision confidence compared to No-AI, while Correct-AI is associated with lower perceived cognitive load and more efficient gaze behavior. Crucially, predictive modeling is context-sensitive: the relationship between eye-tracking signals and cognitive states shifts across AI conditions. Finally, fusing eye-tracking features with user priors (demographics, AI literacy/experience, and propensity to trust technology) improves cross-participant generalization. These findings support condition-aware and personalized user modeling for cognitively aligned adaptive AI systems.",
-      "author": "Xin Sun, Shu Wei, Ting Pan, Yajing Wang, Jos A. Bosch, Isao Echizen, Abdallah El Ali, Saku Sugawara",
-      "published_date": "2026-04-03T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 174,
-      "reading_time": 1,
-      "created_at": "2026-04-03T04:44:21.314132+00:00",
-      "updated_at": "2026-04-03T04:44:21.314134+00:00"
-    },
-    {
-      "id": "f9edb5d4654b9180a24ddda47c0731f3",
-      "url": "https://arxiv.org/abs/2604.01650",
-      "title": "AromaGen: Interactive Generation of Rich Olfactory Experiences with Multimodal Language Models",
-      "content": "arXiv:2604.01650v1 Announce Type: new \nAbstract: Smell's deep connection with food, memory, and social experience has long motivated researchers to bring olfaction into interactive systems. Yet most olfactory interfaces remain limited to fixed scent cartridges and pre-defined generation patterns, and the scarcity of large-scale olfactory datasets has further constrained AI-based approaches. We present AromaGen, an AI-powered wearable interface capable of real-time, general-purpose aroma generation from free-form text or visual inputs. AromaGen is powered by a multimodal LLM that leverages latent olfactory knowledge to map semantic inputs to structured mixtures of 12 carefully selected base odorants, released through a neck-worn dispenser. Users can iteratively refine generated aromas through natural language feedback via in-context learning. Through a controlled user study ($N = 26$), AromaGen matches human-composed mixtures in zero-shot generation and significantly surpasses them after iterative refinement, achieving a median similarity of 8/10 to real food aromas and reducing perceived artificiality to levels comparable to real food. AromaGen is a step towards real-world interactive aroma generation, opening new possibilities for communication, wellbeing, and immersive technologies.",
-      "author": "Yunge Wen, Awu Chen, Jianing Yu, Jas Brooks, Hiroshi Ishii, Paul Pu Liang",
-      "published_date": "2026-04-03T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 172,
-      "reading_time": 1,
-      "created_at": "2026-04-03T04:44:21.314102+00:00",
-      "updated_at": "2026-04-03T04:44:21.314103+00:00"
     }
   ]
 }
