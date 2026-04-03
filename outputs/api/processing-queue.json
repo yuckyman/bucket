@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-04-02T22:26:54.876965+00:00",
-  "pending_count": 740,
-  "processed_count": 260,
+  "last_updated": "2026-04-03T01:53:57.635699+00:00",
+  "pending_count": 735,
+  "processed_count": 265,
   "pending_articles": [
     {
       "id": "9fd5469da4e799804a7ca9a8eab8213f",
@@ -166,6 +166,106 @@
   ],
   "recently_processed": [
     {
+      "id": "a3985797c934e84f811dcc40a559e8c0",
+      "url": "https://www.reddit.com/r/Python/comments/1sauyiy/built_my_first_opensource_tool_autoeda_automated/",
+      "title": "Built my first open-source tool \u2014 AutoEDA, automated dataset analysis in one command",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>What My Project Does: AutoEDA is a Python CLI tool that analyzes any CSV dataset and generates an HTML report with a dataset health score, cleaning recommendations, correlation table, distribution charts, and feature importance via RandomForest.</p> <p>Target Audience: Data science students and analysts who want quick dataset quality assessment before building models. It's a portfolio/learning tool, not production-grade.</p> <p>Comparison: ydata-profiling does similar things but is heavy and outputs everything without prioritization. AutoEDA focuses specifically on actionable recommendations and a single health score \u2014 telling you what to fix first, not just what exists.</p> <p>Run it:</p> <pre><code>python loader.py your_data.csv --target ColumnName </code></pre> <p>Titanic example output:</p> <ul> <li>Health Score: 64.18/100 (Moderate)</li> <li>Cabin: 77% missing \u2192 DROP recommended</li> <li>Top features for Survived: Fare, Pclass, Age</li> </ul> <p>GitHub: <a href=\"https://github.com/ChiragSharma2026/autoeda-pro\">https://github.com/ChiragSharma2026/autoeda-pro</a></p> <p>Feedback welcome, especially on the health scoring logic.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Limp_Telephone_778\"> /u/Limp_Telephone_778 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1sauyiy/built_my_first_opensource_tool_autoeda_automated/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1sauyiy/built_my_first_opensource_tool_autoeda_automated/\">[comments]</a></span>",
+      "author": "/u/Limp_Telephone_778",
+      "published_date": "2026-04-02T21:52:58+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 155,
+      "reading_time": 1,
+      "created_at": "2026-04-02T23:36:23.901742+00:00",
+      "updated_at": "2026-04-03T01:53:57.529228+00:00",
+      "metadata": {
+        "processed_at": "2026-04-03T01:53:57.529239+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "b7fa6d00e7b3fb373c6abb8a8702d60a",
+      "url": "https://danieltemkin.com/Esolangs/Memo/",
+      "title": "Memo: A language that remembers only the last 12 lines of code",
+      "content": "<p>Article URL: <a href=\"https://danieltemkin.com/Esolangs/Memo/\">https://danieltemkin.com/Esolangs/Memo/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47620933\">https://news.ycombinator.com/item?id=47620933</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "author": "notem",
+      "published_date": "2026-04-02T22:21:24+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-02T23:36:21.535484+00:00",
+      "updated_at": "2026-04-03T01:53:57.529243+00:00",
+      "metadata": {
+        "processed_at": "2026-04-03T01:53:57.529245+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f6b055104d5cc36e2df908986adcc3cb",
+      "url": "https://www.theatlantic.com/science/2026/04/artemis-moon-launch-trump/686661/",
+      "title": "Why Doesn't Anybody Realize We're Going Back to the Moon?",
+      "content": "<p>Article URL: <a href=\"https://www.theatlantic.com/science/2026/04/artemis-moon-launch-trump/686661/\">https://www.theatlantic.com/science/2026/04/artemis-moon-launch-trump/686661/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47621048\">https://news.ycombinator.com/item?id=47621048</a></p>\n<p>Points: 21</p>\n<p># Comments: 13</p>",
+      "author": "paulpauper",
+      "published_date": "2026-04-02T22:32:29+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-02T23:36:21.535455+00:00",
+      "updated_at": "2026-04-03T01:53:57.529247+00:00",
+      "metadata": {
+        "processed_at": "2026-04-03T01:53:57.529249+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "fb0bc2cc7d62b3ae71ff2a8ec07f7775",
+      "url": "https://paradedb.notion.site/",
+      "title": "ParadeDB (YC S23) Is Hiring Database Internal Engineers (Rust)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47620857\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-02T22:13:03+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-02T22:32:35.356287+00:00",
+      "updated_at": "2026-04-03T01:53:57.529251+00:00",
+      "metadata": {
+        "processed_at": "2026-04-03T01:53:57.529253+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "fb0bc2cc7d62b3ae71ff2a8ec07f7775",
+      "url": "https://paradedb.notion.site/",
+      "title": "ParadeDB (YC S23) Is Hiring Database Internal Engineers (Rust)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47620857\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-02T22:13:03+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-02T22:32:35.356287+00:00",
+      "updated_at": "2026-04-03T01:53:57.529251+00:00",
+      "metadata": {
+        "processed_at": "2026-04-03T01:53:57.529253+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "80d1f642eb4da0958753076107ac0cbe",
       "url": "http://daniellakens.blogspot.com/2025/07/easily-download-files-from-open-science.html",
       "title": "Easily download files from the Open Science Framework with Papercheck",
@@ -262,106 +362,6 @@
       "updated_at": "2026-04-02T22:26:54.769876+00:00",
       "metadata": {
         "processed_at": "2026-04-02T22:26:54.769878+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1139c57081d5762b9770104dc3681d86",
-      "url": "https://www.nature.com/articles/s42003-026-09955-7",
-      "title": "Gestational choline supplementation regulates hippocampal granule neuron development and emotion-like behavior",
-      "content": "",
-      "author": "",
-      "published_date": "2026-04-02T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-02T19:53:43.291812+00:00",
-      "updated_at": "2026-04-02T20:30:28.200687+00:00",
-      "metadata": {
-        "processed_at": "2026-04-02T20:30:28.200698+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "06bd353997f4901003ddeaf4e1bf3fc6",
-      "url": "https://www.nature.com/articles/s43856-026-01528-3",
-      "title": "The 5-HT1A receptor antagonist WAY-100635 maleate promotes retinal ganglion cell differentiation and protects the retino-visual circuits",
-      "content": "",
-      "author": "",
-      "published_date": "2026-04-02T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-02T19:53:43.291758+00:00",
-      "updated_at": "2026-04-02T20:30:28.200702+00:00",
-      "metadata": {
-        "processed_at": "2026-04-02T20:30:28.200704+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "b8627fdfe31757a1dc77b17e72078e23",
-      "url": "https://www.nature.com/articles/s41467-026-71289-z",
-      "title": "Descending inhibitory rostral ventromedial medulla neurons cause widespread antinociception and contribute to the pain-inhibits-pain phenomenon",
-      "content": "",
-      "author": "",
-      "published_date": "2026-04-02T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-02T19:53:43.291702+00:00",
-      "updated_at": "2026-04-02T20:30:28.200707+00:00",
-      "metadata": {
-        "processed_at": "2026-04-02T20:30:28.200708+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fa70e1685d256626287d4c3999b40913",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1821637",
-      "title": "Correction: A Physics Informed Neural Network (PINN) framework for fractional order modeling of Alzheimer's disease",
-      "content": "",
-      "author": "Mohamed Hafez",
-      "published_date": "2026-03-19T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-02T19:53:35.589043+00:00",
-      "updated_at": "2026-04-02T20:30:28.200710+00:00",
-      "metadata": {
-        "processed_at": "2026-04-02T20:30:28.200712+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "451c1ca780af1a64c65571234577d7ea",
-      "url": "https://www.reddit.com/r/Python/comments/1saovqh/made_a_radio_app_using_python/",
-      "title": "Made a Radio App using Python",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Here's my <a href=\"https://github.com/EymenMart/PyRadio\">Github page</a> if you are interested! </p> <ul> <li><strong>What it does:</strong> It uses radio station's online live broadcast without actually opening their website, and plays them (Basically uses the Online websites of the stations without spiking RAM usage).</li> <li><strong>Target audience:</strong> Everyone who dreamed of listening to Radio on your PC without opening a browser.</li> <li><strong>Comparison:</strong> I haven't found any other projects, but i guess i'll compare it to the official Radio Station's websites: </li> </ul> <ol> <li><p>No Ads: the title speaks for itself, except for the Radio ads they include in the broadcast, there is no ads like pop ups or cookies accept... </p></li> <li><p>Less RAM usage: Unlike in your standart browsers, it doesn't eat your RAM whatsoever, like max ram usage is 34MB!!! Back in 1995 maybe it was huge, but now, with people having 16, 32, 64 GB of RAM, it's literally nothing!</p></li> <li><p>Free: Yep, as the rules and I want, it's completely free!</p></li> </ol> <p>Only cons: Not EVERY Radio Station is available, cuz some stations block the access to their broadcast if some random ass app tries reading the audio, so don't be mad if sometime soon when you use my app, and connect to some station, you will hear static or nothing at all (also I will try my best to avoid and fix that!)!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PaleFee2476\"> /u/PaleFee2476 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1saovqh/made_a_radio_app_using_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1saovqh/made_a_radio_app_using_python/\">[comments]</a></span>",
-      "author": "/u/PaleFee2476",
-      "published_date": "2026-04-02T18:04:35+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 243,
-      "reading_time": 1,
-      "created_at": "2026-04-02T19:53:04.989563+00:00",
-      "updated_at": "2026-04-02T20:30:28.200714+00:00",
-      "metadata": {
-        "processed_at": "2026-04-02T20:30:28.200716+00:00",
         "processing_method": "github_actions"
       }
     }
