@@ -1,5 +1,53 @@
 [
   {
+    "id": "80d1f642eb4da0958753076107ac0cbe",
+    "url": "http://daniellakens.blogspot.com/2025/07/easily-download-files-from-open-science.html",
+    "title": "Easily download files from the Open Science Framework with Papercheck",
+    "content": "<p>Researchers\nincreasingly use the <a href=\"https://osf.io/\">Open Science Framework</a> (OSF) to share files, such as data\nand code underlying scientific publications, or presentations and materials for\nscientific workshops. The OSF is an amazing service that has contributed\nimmensely to a changed research culture where psychologists share data, code, and\nmaterials. We are very grateful it exists.</p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">But it is\nnot always the most user-friendly. Specifically, downloading files from the OSF\nis a bigger hassle than we (<a href=\"https://debruine.github.io/\">Lisa DeBruine</a>\nand <a href=\"https://www.tue.nl/en/research/researchers/daniel-lakens/\">Daniel\nLakens</a>, the developers of Papercheck) would like it to be. Downloading individual\nfiles is so complex, <a href=\"https://bsky.app/profile/malte.the100.ci/post/3lpf4s6spns2i\">Malte Elson</a>\nrecently posted this meme on Bluesky. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"NL\"><!--[if gte vml 1]><v:shapetype\n id=\"_x0000_t75\" coordsize=\"21600,21600\" o:spt=\"75\" o:preferrelative=\"t\"\n path=\"m@4@5l@4@11@9@11@9@5xe\" filled=\"f\" stroked=\"f\">\n <v:stroke joinstyle=\"miter\"/>\n <v:formulas>\n  <v:f eqn=\"if lineDrawn pixelLineWidth 0\"/>\n  <v:f eqn=\"sum @0 1 0\"/>\n  <v:f eqn=\"sum 0 0 @1\"/>\n  <v:f eqn=\"prod @2 1 2\"/>\n  <v:f eqn=\"prod @3 21600 pixelWidth\"/>\n  <v:f eqn=\"prod @3 21600 pixelHeight\"/>\n  <v:f eqn=\"sum @0 0 1\"/>\n  <v:f eqn=\"prod @6 1 2\"/>\n  <v:f eqn=\"prod @7 21600 pixelWidth\"/>\n  <v:f eqn=\"sum @8 21600 0\"/>\n  <v:f eqn=\"prod @7 21600 pixelHeight\"/>\n  <v:f eqn=\"sum @10 21600 0\"/>\n </v:formulas>\n <v:path o:extrusionok=\"f\" gradientshapeok=\"t\" o:connecttype=\"rect\"/>\n <o:lock v:ext=\"edit\" aspectratio=\"t\"/>\n</v:shapetype><v:shape id=\"_x0000_i1026\" type=\"#_x0000_t75\" style='width:453.75pt;\n height:276pt;visibility:visible;mso-wrap-style:square'>\n <v:imagedata src=\"file:///C:/Users/DLakens/AppData/Local/Temp/msohtmlclip1/01/clip_image001.jpg\"\n  o:title=\"\"/>\n</v:shape><![endif]--><!--[if !vml]--><img border=\"0\" height=\"368\" src=\"https://blogger.googleusercontent.com/img/a/AVvXsEinS5tFoL5qX14Z2OcgT1APMZLGlghAD3BfBhSnJ9pleVbJyRFUFLShqReS2j7SXGozmLMcVQkoM62UhneJDtH4yx3NRnXOkVZZi-Dm-OPwbGaidxr2raF9wzjx5fU92nfPpE3jmGfwZEwHS1WGSB4gUfRfV3XWjOC2-lCjOYR108h3fwORIHOnqxIX9m8\" width=\"605\" /><!--[endif]--></span><span lang=\"EN-US\"></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span>&nbsp;</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Not only is\nthe download button for files difficult to find, but downloading all files\nrelated to a project can be surprisingly effortful. It is possible to download\nall files in a zip folder that will be called \u2018osfstorage-archive.zip\u2019 when\ndownloaded. But as the OSF supports a nested folder structure, you might miss a\nfolder, and you will quickly end up with \u2018osfstorage-archive (1).zip\u2019, \u2018osfstorage-archive\n(2).zip\u2019, etc. Unzipping these archives creates a lot of files without the\norganized folder structure, in folders with meaningless names, making it\ndifficult to understand where files are. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<h2 style=\"text-align: left;\"><b><span lang=\"EN-US\">The\nosf_file_download function in Papercheck </span></b></h2>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">We have added\na new function to our R package \u2018<a href=\"https://scienceverse.github.io/papercheck/\">Papercheck</a>\u2019 that will download all files and\nfolders in an OSF repository. It saves all files by recreating the folder\nstructure from the OSF in your download folder. Just install Papercheck, load\nthe library, and use the osf_file_download function to grab all files on the OSF:</span></p><p class=\"MsoNormal\"><span lang=\"EN-US\"><br /></span></p>\n\n<div style=\"text-align: left;\"><span style=\"font-family: courier;\"><b><span lang=\"EN-US\">devtools::install_github(\"scienceverse/papercheck\")<br /></span></b><b><span lang=\"EN-US\">library(papercheck)<br /></span></b><b><span lang=\"EN-US\">osf_file_download(\"6nt4v\")</span></b></span></div>\n\n\n\n\n\n<p class=\"MsoNormal\"><b><span lang=\"EN-US\">&nbsp;</span></b></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">All files\nwill be downloaded to your working directory. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Are you feeling\nFOMO for missing out on the <a href=\"https://www.kcl.ac.uk/events/open-research-summer-school-2025\">King Open\nResearch Summer School</a> that is going on these days, where <a href=\"https://research.tue.nl/en/persons/sajedeh-rasti\">Sajedeh Rasti</a> talked\nabout Preregistration, and <a href=\"https://research.tue.nl/en/persons/cristian-mesquida-caldentey\">Cristian\nMesquida</a> will give a workshop on using Papercheck? Well, at least it is\nvery easy to download all the files they have shared on the OSF and look at the\npresentations: </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: courier;\">osf_file_download(\"b7es8\")</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">In the\noutput, we see that by default large files (more than 10mb) are omitted. <span><!--[if gte vml 1]><v:shape id=\"Picture_x0020_1\"\n o:spid=\"_x0000_i1025\" type=\"#_x0000_t75\" alt=\"A screenshot of a computer&#10;&#10;AI-generated content may be incorrect.\"\n style='width:453.75pt;height:292.5pt;visibility:visible;mso-wrap-style:square'>\n <v:imagedata src=\"file:///C:/Users/DLakens/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png\"\n  o:title=\"A screenshot of a computer&#10;&#10;AI-generated content may be incorrect\"/>\n</v:shape><![endif]--><!--[if !vml]--><img alt=\"A screenshot of a computer\n\nAI-generated content may be incorrect.\" border=\"0\" height=\"390\" src=\"https://blogger.googleusercontent.com/img/a/AVvXsEj2jH76ywmEeLzL43u6gJl7GKR2lEGlhYS0LOXRPMMovOsJEVdXyamYCvmq96ez3p_GXHLoFz4JDyAKHlARK9pSy8QfzVa7yt1_uEg_H9IJfKgunnYWUwlROXABNcU6TvrA0_hx0KPZfj00b3Cb-Wn_7Bf3sFu9JApZoClcWoh_Vfl5bk1GQVZUH1tuGao\" width=\"605\" /><!--[endif]--></span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">If you want\nto download all files, regardless of the size, then set the parameter to ignore\nthe maximum file size: </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: courier;\">osf_file_download(\"b7es8\",\nmax_file_size = NULL)</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Sometimes\nyou might want to download all files but ignore the file structure on the OSF,\nto just have all the files in one folder. Setting the parameter ignore_folder_structure\n= TRUE will give you all the files on the OSF in a single folder. By default, files will be downloaded into your working directory, but you can also specify\nwhere you want the files to be saved. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: courier;\">osf_file_download(\"6nt4v\",\nignore_folder_structure = TRUE, download_to = \"C:\\\\test_download\")</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">We hope\nthis function will make it easier for reviewers to access all supplementary\nfiles stored on the OSF during peer review, and for researchers who want to re-use\ndata, code, or materials shared on the OSF by downloading all the files they\nneed easily. Make sure to install the latest version of Papercheck (0.0.0.9050)\nto get access to this new function. Papercheck is still in active development,\nso report any bugs on <a href=\"https://github.com/scienceverse/papercheck\">GitHub</a>.</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>",
+    "author": "noreply@blogger.com (Daniel Lakens)",
+    "published_date": "2025-07-22T09:53:00+00:00",
+    "source": "Twenty Percent Statistician",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 765,
+    "reading_time": 3,
+    "created_at": "2026-04-08T00:04:44.919926+00:00",
+    "updated_at": "2026-04-08T00:04:44.919927+00:00"
+  },
+  {
+    "id": "d1bd16feceb121f9b65f45a47697c6c3",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.04.716499v1?rss=1",
+    "title": "PINN-ing the Balloon: A Physically Informed Neural Network Modelling the Nonlinear Haemodynamic Response Function in MRI",
+    "content": "Accurate characterisation of the haemodynamic response function (HRF) is central to interpreting blood-oxygen-level-dependent (BOLD) signals in functional magnetic resonance imaging, yet standard estimation approaches remain centred around phenomenological formulations lacking biophysical grounding. We present a physics-informed neural network (PINN) framework that bridges these paradigms by embedding the Balloon-Windkessel model directly into the training objective of a multi-headed Neural Network. Our aproach simultaneously estimates probable latent neurovascular state variables such as cerebral blood inflow, metabolic rate of oxygen consumption, blood volume, and deoxyhaemoglobin content, through an indirect optimisation scheme in which the predicted BOLD signal is obtained via convolution of the estimated HRF with experimental stimuli. Training is governed by a composite loss, balancing differential-equation residuals, physiological initial conditions and data fidelity. In simulations with temporal signal-to-noise ratios representative of clinical acquisitions, the framework recovered ground-truth state variables with coefficients of determination exceeding 0.99 and mean squared errors below 10-3, at a physics-to-data weighting of 0.40:0.60. Application to 1.5 T block-design fMRI data from an ischaemic stroke patient yielded physiologically plausible, subject-specific HRF estimates, establishing feasibility of single-subject, physics-constrained HRF inference without reliance on fixed gamma basis assumptions.To our knowledge, this constitutes the first deployment of a single PINN incorporating the full Balloon-Windkessel model within an indirect training objective, reconstructing full BOLD observations, positioning PINN-based haemodynamic modelling as a principled and personalised route towards more interpretable and patient-specific fMRI biomarkers",
+    "author": "Avaria-Saldias, R. H., Ortiz, D., Palma-Espinosa, J., Cancino, A., Cox, P., Salas, R., Chabert, S.",
+    "published_date": "2026-04-07T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 229,
+    "reading_time": 1,
+    "created_at": "2026-04-08T00:04:19.308120+00:00",
+    "updated_at": "2026-04-08T00:04:19.308125+00:00"
+  },
+  {
+    "id": "b774e9b1d931a1dd8cd5f01c52dc2ffb",
+    "url": "https://www.bbc.com/news/articles/cvg049xz1ygo",
+    "title": "Ex-Meta worker investigated for downloading 30k private Facebook photos",
+    "content": "<p>Article URL: <a href=\"https://www.bbc.com/news/articles/cvg049xz1ygo\">https://www.bbc.com/news/articles/cvg049xz1ygo</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47682098\">https://news.ycombinator.com/item?id=47682098</a></p>\n<p>Points: 18</p>\n<p># Comments: 7</p>",
+    "author": "1659447091",
+    "published_date": "2026-04-07T22:20:22+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-04-08T00:03:35.954617+00:00",
+    "updated_at": "2026-04-08T00:03:35.954628+00:00"
+  },
+  {
     "id": "3d370217cb4a351bb54e7854066e15c3",
     "url": "https://erpinfo.org/blog/2024/2/4/optimal-filters",
     "title": "New Papers: Optimal Filter Settings for ERP Research",
@@ -17128,62 +17176,6 @@
     "updated_at": "2026-04-03T04:27:05.575139+00:00",
     "metadata": {
       "processed_at": "2026-04-03T04:27:05.575141+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "303426870f54539bfda31e8e4042119b",
-    "url": "https://cacm.acm.org/blogcacm/tor-alva-the-tallest-3d-printed-building-in-the-world/",
-    "title": "Tor Alva: The Tallest 3D-Printed Building in the World",
-    "content": "<p>Article URL: <a href=\"https://cacm.acm.org/blogcacm/tor-alva-the-tallest-3d-printed-building-in-the-world/\">https://cacm.acm.org/blogcacm/tor-alva-the-tallest-3d-printed-building-in-the-world/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47621518\">https://news.ycombinator.com/item?id=47621518</a></p>\n<p>Points: 7</p>\n<p># Comments: 2</p>",
-    "author": "sohkamyung",
-    "published_date": "2026-04-02T23:26:01+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-04-03T02:28:24.712040+00:00",
-    "updated_at": "2026-04-03T02:28:24.712042+00:00"
-  },
-  {
-    "id": "a3985797c934e84f811dcc40a559e8c0",
-    "url": "https://www.reddit.com/r/Python/comments/1sauyiy/built_my_first_opensource_tool_autoeda_automated/",
-    "title": "Built my first open-source tool \u2014 AutoEDA, automated dataset analysis in one command",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>What My Project Does: AutoEDA is a Python CLI tool that analyzes any CSV dataset and generates an HTML report with a dataset health score, cleaning recommendations, correlation table, distribution charts, and feature importance via RandomForest.</p> <p>Target Audience: Data science students and analysts who want quick dataset quality assessment before building models. It's a portfolio/learning tool, not production-grade.</p> <p>Comparison: ydata-profiling does similar things but is heavy and outputs everything without prioritization. AutoEDA focuses specifically on actionable recommendations and a single health score \u2014 telling you what to fix first, not just what exists.</p> <p>Run it:</p> <pre><code>python loader.py your_data.csv --target ColumnName </code></pre> <p>Titanic example output:</p> <ul> <li>Health Score: 64.18/100 (Moderate)</li> <li>Cabin: 77% missing \u2192 DROP recommended</li> <li>Top features for Survived: Fare, Pclass, Age</li> </ul> <p>GitHub: <a href=\"https://github.com/ChiragSharma2026/autoeda-pro\">https://github.com/ChiragSharma2026/autoeda-pro</a></p> <p>Feedback welcome, especially on the health scoring logic.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Limp_Telephone_778\"> /u/Limp_Telephone_778 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1sauyiy/built_my_first_opensource_tool_autoeda_automated/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1sauyiy/built_my_first_opensource_tool_autoeda_automated/\">[comments]</a></span>",
-    "author": "/u/Limp_Telephone_778",
-    "published_date": "2026-04-02T21:52:58+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 155,
-    "reading_time": 1,
-    "created_at": "2026-04-02T23:36:23.901742+00:00",
-    "updated_at": "2026-04-03T01:53:57.529228+00:00",
-    "metadata": {
-      "processed_at": "2026-04-03T01:53:57.529239+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "b7fa6d00e7b3fb373c6abb8a8702d60a",
-    "url": "https://danieltemkin.com/Esolangs/Memo/",
-    "title": "Memo: A language that remembers only the last 12 lines of code",
-    "content": "<p>Article URL: <a href=\"https://danieltemkin.com/Esolangs/Memo/\">https://danieltemkin.com/Esolangs/Memo/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47620933\">https://news.ycombinator.com/item?id=47620933</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
-    "author": "notem",
-    "published_date": "2026-04-02T22:21:24+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-04-02T23:36:21.535484+00:00",
-    "updated_at": "2026-04-03T01:53:57.529243+00:00",
-    "metadata": {
-      "processed_at": "2026-04-03T01:53:57.529245+00:00",
       "processing_method": "github_actions"
     }
   }
