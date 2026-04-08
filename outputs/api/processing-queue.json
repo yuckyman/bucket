@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-04-08T15:05:04.791284+00:00",
-  "pending_count": 702,
-  "processed_count": 298,
+  "last_updated": "2026-04-08T16:56:25.764195+00:00",
+  "pending_count": 696,
+  "processed_count": 304,
   "pending_articles": [
+    {
+      "id": "4a36c88e4f5e93274d83ea245c5bb221",
+      "url": "https://github.com/matt-virgo/baremail",
+      "title": "Show HN: BAREmail \u0295\u00b7\u1d25\u00b7\u0294 \u2013 minimalist Gmail client for bad WiFi",
+      "content": "<p>I've been frustrated one too many times by terrible airplane wifi and not being able to load Gmail or Superhuman when all I want to do is get a few simple text-only emails out the door.<p>These clients have become pretty bloated with the assumption you've always got great bandwidth.<p>So I vibe coded BAREMAIL. It's open source, has no backend, and you can just set it up for yourself. Takes ~3 mins to setup API access via Google Cloud Platform (thanks for making this not super easy Google!)<p>I tried to maintain nice design and some important keyboard shortcuts without getting to overBEARing.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47690950\">https://news.ycombinator.com/item?id=47690950</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
+      "author": "Virgo_matt",
+      "published_date": "2026-04-08T14:44:23+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 112,
+      "reading_time": 1,
+      "created_at": "2026-04-08T16:15:45.014876+00:00",
+      "updated_at": "2026-04-08T16:15:45.014878+00:00"
+    },
+    {
+      "id": "00a49d007d75d2be103f4021911bce67",
+      "url": "https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates/",
+      "title": "Microsoft Abruptly Terminates VeraCrypt Account, Halting Windows Updates",
+      "content": "<p>Article URL: <a href=\"https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates/\">https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47690977\">https://news.ycombinator.com/item?id=47690977</a></p>\n<p>Points: 64</p>\n<p># Comments: 11</p>",
+      "author": "donohoe",
+      "published_date": "2026-04-08T14:46:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-08T16:15:45.014841+00:00",
+      "updated_at": "2026-04-08T16:15:45.014842+00:00"
+    },
     {
       "id": "37c52a83550973d62dff233d19fc9bfa",
       "url": "https://www.nature.com/articles/s41598-026-45639-2",
@@ -130,41 +162,169 @@
       "reading_time": 1,
       "created_at": "2026-04-08T13:22:49.656852+00:00",
       "updated_at": "2026-04-08T13:22:49.656853+00:00"
-    },
-    {
-      "id": "af813a0ac712898caaf413d1724d29dc",
-      "url": "https://www.nature.com/articles/s41531-026-01303-0",
-      "title": "Braking Parkinson\u2019s progression: the hypothetical druggable role of striatal parvalbumin interneurons",
-      "content": "",
-      "author": "",
-      "published_date": "2026-04-08T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-08T13:22:49.656834+00:00",
-      "updated_at": "2026-04-08T13:22:49.656835+00:00"
-    },
-    {
-      "id": "38254576a99ab20bf29d51f66fd1e77e",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2025.1649440",
-      "title": "SynSpine: an automated workflow for the generation of longitudinal spinal cord synthetic MRI data",
-      "content": "BackgroundSpinal cord atrophy is a key biomarker for tracking disease progression in neurological disorders, including multiple sclerosis, amyotrophic lateral sclerosis, and spinal cord injury. Recent MRI advancements have improved atrophy detection, particularly in the cervical region, facilitating longitudinal studies. However, validating atrophy quantification algorithms remains challenging due to limited ground truth data.ObjectiveThis study introduces SynSpine, a workflow for generating synthetic spinal cord MRI data (i.e., digital phantoms) with controlled levels of artificial atrophy. These phantoms support the development and preliminary validation of spinal cord imaging pipelines designed to measure degeneration over time.MethodsThe workflow consists of two phases: (1) generating synthetic MR images by isolating, extracting and scaling the spinal cord, simulating atrophy on the PAM50 template; (2) performing non-rigid registration to align the synthetic images with the subject\u2019s native space, ensuring accurate anatomical correspondence. A proof-of-concept application utilizing the Active Surface and Reg methods implemented in Jim demonstrated its effectiveness in detecting atrophy across various levels of simulated atrophy and noise.ResultsSynSpine successfully generates synthetic spinal cord images with varying atrophy levels. Non-rigid registration did not significantly affect atrophy measurements. Atrophy estimation errors, estimated using Active Surface and Reg methods, varied with both simulated atrophy magnitude and noise level, exhibiting region-dependent differences. Increased noise led to higher measurement errors.ConclusionThis work presents a novel and modular framework for simulating spinal cord atrophy data using digital phantoms, offering a controlled setting for testing spinal cord analysis pipelines. As the simulated atrophy may over-simplify in vivo conditions, future research will focus on enhancing the realism of the synthetic dataset by simulating additional pathologies, thus improving its application for evaluating spinal cord atrophy in clinical and research contexts.",
-      "author": "Licinio Craveiro",
-      "published_date": "2025-12-17T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 273,
-      "reading_time": 1,
-      "created_at": "2026-04-08T13:22:42.764375+00:00",
-      "updated_at": "2026-04-08T13:22:42.764376+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "cab7eece9defb010feaeb70c65bcc978",
+      "url": "https://github.com/rvitorper/go-bt",
+      "title": "Show HN: Go-Bt: Minimalist Behavior Trees for Go",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47690797\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-08T14:33:30+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-08T16:15:46.290824+00:00",
+      "updated_at": "2026-04-08T16:56:25.657938+00:00",
+      "metadata": {
+        "processed_at": "2026-04-08T16:56:25.657970+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "eca06d21cca981b0fd5b63030049ecfe",
+      "url": "https://www.intofarlands.com/silk-roads-map",
+      "title": "Show HN: Explore the Silk Roads through an interactive map",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47691174\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-08T15:00:12+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-08T16:15:46.290787+00:00",
+      "updated_at": "2026-04-08T16:56:25.657975+00:00",
+      "metadata": {
+        "processed_at": "2026-04-08T16:56:25.657977+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c19ca13d9ab6e11c8b70abd136199e40",
+      "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
+      "title": "The Future of Everything Is Lies, I Guess",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47689648\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-08T13:06:33+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-08T16:15:46.290752+00:00",
+      "updated_at": "2026-04-08T16:56:25.657980+00:00",
+      "metadata": {
+        "processed_at": "2026-04-08T16:56:25.657981+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "724b531c2f075b3d4b1e4058590e49cb",
+      "url": "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html",
+      "title": "I Ported Mac OS X to the Nintendo Wii",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47691730\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-08T15:40:00+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-08T16:15:46.290691+00:00",
+      "updated_at": "2026-04-08T16:56:25.657983+00:00",
+      "metadata": {
+        "processed_at": "2026-04-08T16:56:25.657985+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c19ca13d9ab6e11c8b70abd136199e40",
+      "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
+      "title": "The Future of Everything Is Lies, I Guess",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47689648\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-08T13:06:33+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-08T16:15:46.290752+00:00",
+      "updated_at": "2026-04-08T16:56:25.657980+00:00",
+      "metadata": {
+        "processed_at": "2026-04-08T16:56:25.657981+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "cab7eece9defb010feaeb70c65bcc978",
+      "url": "https://github.com/rvitorper/go-bt",
+      "title": "Show HN: Go-Bt: Minimalist Behavior Trees for Go",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47690797\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-08T14:33:30+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-08T16:15:46.290824+00:00",
+      "updated_at": "2026-04-08T16:56:25.657938+00:00",
+      "metadata": {
+        "processed_at": "2026-04-08T16:56:25.657970+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "eca06d21cca981b0fd5b63030049ecfe",
+      "url": "https://www.intofarlands.com/silk-roads-map",
+      "title": "Show HN: Explore the Silk Roads through an interactive map",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47691174\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-08T15:00:12+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-08T16:15:46.290787+00:00",
+      "updated_at": "2026-04-08T16:56:25.657975+00:00",
+      "metadata": {
+        "processed_at": "2026-04-08T16:56:25.657977+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "724b531c2f075b3d4b1e4058590e49cb",
+      "url": "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html",
+      "title": "I Ported Mac OS X to the Nintendo Wii",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47691730\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-08T15:40:00+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-08T16:15:46.290691+00:00",
+      "updated_at": "2026-04-08T16:56:25.657983+00:00",
+      "metadata": {
+        "processed_at": "2026-04-08T16:56:25.657985+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "67aa7028146467ce6966ff8a84262e96",
       "url": "http://ieeexplore.ieee.org/document/11368668",
@@ -202,166 +362,6 @@
       "updated_at": "2026-04-08T15:05:04.682796+00:00",
       "metadata": {
         "processed_at": "2026-04-08T15:05:04.682798+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1ae9b4bd1789d8695870b421da6b5d29",
-      "url": "https://www.sciencedirect.com/science/article/pii/S030645222600223X?dgcid=rss_sd_all",
-      "title": "Hippocampus undergoes transcriptomic changes and synaptic alterations in a <em>Slc17a5</em> heterozygous mouse model with working memory deficit",
-      "content": "<p>Publication date: 25 May 2026</p><p><b>Source:</b> Neuroscience, Volume 603</p><p>Author(s): Jiannan Chen, Jingkun Zhang, Kunhe Ma, Huimin Guo, Xinyi Shi, Yi Wu, Baian Chen</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 22,
-      "reading_time": 1,
-      "created_at": "2026-04-08T14:53:48.647216+00:00",
-      "updated_at": "2026-04-08T15:05:04.682801+00:00",
-      "metadata": {
-        "processed_at": "2026-04-08T15:05:04.682803+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "11169018477b36ba1b7ecd0e06258358",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926002168?dgcid=rss_sd_all",
-      "title": "Dissociated glymphatic pathways mediates the neuronal hypometabolism on consciousness",
-      "content": "<p>Publication date: 15 May 2026</p><p><b>Source:</b> NeuroImage, Volume 332</p><p>Author(s): Kun Guo, Yirong Wang, Zhiyong Quan, Guiyu Li, Yifei Zhang, Steven Laureys, Fei Kang, Jing Wang</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 24,
-      "reading_time": 1,
-      "created_at": "2026-04-08T14:53:46.238132+00:00",
-      "updated_at": "2026-04-08T15:05:04.682805+00:00",
-      "metadata": {
-        "processed_at": "2026-04-08T15:05:04.682807+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9941a8f78ec84d235f1b2ad0c75159e9",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926002223?dgcid=rss_sd_all",
-      "title": "Integrating along-tract profiling with fixel-based analysis for tract-specific characterization of white matter",
-      "content": "<p>Publication date: 15 May 2026</p><p><b>Source:</b> NeuroImage, Volume 332</p><p>Author(s): Lloyd Plumart, Hinke N. Halbertsma, Mayra Bittencourt, Remco J. Renken, Frans W. Cornelissen</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 21,
-      "reading_time": 1,
-      "created_at": "2026-04-08T14:53:46.238101+00:00",
-      "updated_at": "2026-04-08T15:05:04.682809+00:00",
-      "metadata": {
-        "processed_at": "2026-04-08T15:05:04.682811+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ededbaeb71334f0c6066f0b9e3fd4246",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226002198?dgcid=rss_sd_all",
-      "title": "Temporal dynamics of olfactory training\u2013induced neuroplasticity: an fMRI study using variable-onset hemodynamic response modelling",
-      "content": "<p>Publication date: 25 May 2026</p><p><b>Source:</b> Neuroscience, Volume 603</p><p>Author(s): Hanani Abdul Manan, Mei Ren, Zetian Li, Divesh Thaploo, Thomas Hummel</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 19,
-      "reading_time": 1,
-      "created_at": "2026-04-08T11:31:52.291202+00:00",
-      "updated_at": "2026-04-08T13:10:31.475918+00:00",
-      "metadata": {
-        "processed_at": "2026-04-08T13:10:31.475928+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6632e9692971353520e8a9b63f500650",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.06.716770v1?rss=1",
-      "title": "High-Low training is safe and effective in improving outcomes in a rodent model of chronic cervical spinal cord injury.",
-      "content": "Repeated exposure to hypoxia (oxygen levels below sea-level atmospheric conditions, ~21%) alternated with regular voluntary exercise, known colloquially as 'Living High, Training Low', or simply 'High-Low', is used by elite athletes to boost exercise benefits and athletic performance. While paradigms of High-Low training have been utilized by Olympic athletes for decades, the therapeutic potential of a High-Low regimen in the context of neurotrauma has yet to be investigated. This long-term experiment evaluated the independent and combined effects of repeated hypoxic exposure and voluntary exercise on functional outcomes within the context of preclinical spinal cord injury (SCI). We hypothesized that combinatorial High-Low training enhances functional recovery, beyond either exercise or repeated exposures to hypoxia alone, to improve outcomes after SCI. Adult female rats (n=62) underwent a high-cervical hemisection (LC2H) to model spinal cord injury. At 6 weeks post-SCI, treatment (access to exercise wheel, repeated exposure to normobaric hypoxia at rest, or alternation of both) began in the surviving subjects (n=49). Despite initiation of treatment beyond the acute post-injury phase, High-Low therapy significantly improved respiratory function and prevented the development of SCI-associated anxiety-like behaviors. Notably, repeated in vivo exposure to normobaric hypoxia induced a shift in peripheral T cell profiles, characterized by increased CD4+ and reduced CD8+ expression. These findings indicate that combining repeated exposure to hypoxia with voluntary exercise as a therapy could promote recovery in the existing spinal cord-injured population. Collectively, this work provides a foundational first step for further investigation of High-Low training as a rehabilitation therapy for individuals living with SCI.",
-      "author": "Britsch, D. R. S., Cotter, K. M., Stuart, C. M. J., Turchan-Cholewo, J., Colson, M. K., Winford, E. D., Ujas, T. A., Lutshumba, J., Calulot, C., Gensel, J. C., Alilain, W., Stowe, A. M.",
-      "published_date": "2026-04-08T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 253,
-      "reading_time": 1,
-      "created_at": "2026-04-08T11:31:48.888955+00:00",
-      "updated_at": "2026-04-08T13:10:31.475932+00:00",
-      "metadata": {
-        "processed_at": "2026-04-08T13:10:31.475934+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4db9ded3829fc0fef682baa53d43b655",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.06.716640v1?rss=1",
-      "title": "Sulcal anatomy of ventral temporal cortex and reading development",
-      "content": "stable neuroanatomical scaffold largely established in utero. In the domain of reading, recent findings in small groups of typical readers suggest that a sulcal interruption (superficial annectant gyrus, gyral gap) in the left posterior occipital temporal sulcus (lhpOTS) predicts better reading skills, posing the lhpOTS as a potential early biomarker of reading difficulties. However, it remains unknown whether this relationship found in typical readers generalizes to the dyslexic population and whether the lhpOTS can serve as a biomarker for dyslexia or predict response to targeted instruction.To fill these gaps, we examine the patterns of the lhpOTS in 209 children, including children with dyslexia, from four independently-collected samples. In typical readers, we find that the relationship between the lhpOTS and reading skills is robust, replicating across binary and continuous quantifications of the sulcal interruption. However, lhpOTS patterns neither distinguish dyslexic children from typical readers nor do they predict response to intervention. Instead, targeted reading intervention drives long-term gains in reading skills that are equivalent irrespective of VOTC anatomy. Together, these findings distinguish neuroanatomical correlates of skilled reading from determinants of reading impairment and learning capacity and emphasize the importance of the educational environment in supporting reading acquisition for children with dyslexia.",
-      "author": "Yao, J. K., Mitchell, J., Davison, A., Yeatman, J. D.",
-      "published_date": "2026-04-08T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 200,
-      "reading_time": 1,
-      "created_at": "2026-04-08T11:31:48.888908+00:00",
-      "updated_at": "2026-04-08T13:10:31.475936+00:00",
-      "metadata": {
-        "processed_at": "2026-04-08T13:10:31.475938+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8dc0e9d5945c0ce1e60a9fd3f4050cad",
-      "url": "https://www.nature.com/articles/d41586-026-01025-6",
-      "title": "Mini models of the human brain are revealing how this complex organ takes shape",
-      "content": "",
-      "author": "",
-      "published_date": "2026-04-08T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-08T11:31:47.553102+00:00",
-      "updated_at": "2026-04-08T13:10:31.475940+00:00",
-      "metadata": {
-        "processed_at": "2026-04-08T13:10:31.475942+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "aea3765ff90a9b9a95856b90aa9bdd9b",
-      "url": "https://www.nature.com/articles/d41586-026-01021-w",
-      "title": "Brain organoids are a transformative technology \u2014 but they need regulation",
-      "content": "",
-      "author": "",
-      "published_date": "2026-04-08T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-08T11:31:47.553066+00:00",
-      "updated_at": "2026-04-08T13:10:31.475944+00:00",
-      "metadata": {
-        "processed_at": "2026-04-08T13:10:31.475946+00:00",
         "processing_method": "github_actions"
       }
     }
