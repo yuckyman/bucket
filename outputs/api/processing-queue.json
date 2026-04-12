@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-04-12T14:37:10.177967+00:00",
-  "pending_count": 679,
-  "processed_count": 321,
+  "last_updated": "2026-04-12T16:32:19.459683+00:00",
+  "pending_count": 678,
+  "processed_count": 322,
   "pending_articles": [
+    {
+      "id": "8b25cc822b1a840d651e31396fdc24c5",
+      "url": "https://perthirtysix.com/how-does-gps-work",
+      "title": "The Physics of GPS",
+      "content": "<p>Article URL: <a href=\"https://perthirtysix.com/how-does-gps-work\">https://perthirtysix.com/how-does-gps-work</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47738343\">https://news.ycombinator.com/item?id=47738343</a></p>\n<p>Points: 13</p>\n<p># Comments: 1</p>",
+      "author": "maouida",
+      "published_date": "2026-04-12T11:10:18+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-12T15:05:36.539386+00:00",
+      "updated_at": "2026-04-12T15:05:36.539387+00:00"
+    },
     {
       "id": "29ae514ec91149976afac6aabbb31fb3",
       "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
@@ -146,25 +162,109 @@
       "reading_time": 4,
       "created_at": "2026-04-12T13:14:14.846147+00:00",
       "updated_at": "2026-04-12T13:14:14.846150+00:00"
-    },
-    {
-      "id": "0538cf39a75749ed45e73a2f60084b3a",
-      "url": "https://www.embs.org/ojemb/search-for-editor-in-chief/#new_tab",
-      "title": "Call for Applications Editor-in-Chief: IEEE Open Journal of Engineering in Medicine and Biology",
-      "content": "<p>The post <a href=\"https://www.embs.org/ojemb/search-for-editor-in-chief/#new_tab\">Call for Applications Editor-in-Chief: IEEE Open Journal of Engineering in Medicine and Biology</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "Deidre Artis",
-      "published_date": "2025-04-04T13:34:20+00:00",
-      "source": "Embs",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 22,
-      "reading_time": 1,
-      "created_at": "2026-04-12T13:14:02.892843+00:00",
-      "updated_at": "2026-04-12T13:14:02.892845+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "bed4eebc1b04277faeafd46dee8604d1",
+      "url": "https://www.reddit.com/r/Python/comments/1sjgznf/i_built_a_python_optimization_library_that/",
+      "title": "I built a Python optimization library that handles L0 sparsity and rank constraints",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"/r/Python\">r/Python</a>,</p> <p>I kept running into the same wall with CVXPY: I'd formulate a perfectly valid optimization problem, and it would reject it with <code>DCPError</code> \u2014 not because the problem was wrong, but because CVXPY couldn't <em>verify</em> convexity through its composition rules.</p> <p>So I built <code>admm</code> \u2014 an optimization library that solves the same structured problems (LP, QP, SOCP, SDP) but without the DCP verification barrier, plus an extension mechanism for nonconvex penalties like L0 and rank constraints.</p> <p><strong>Quick example \u2014 Markowitz portfolio in 8 lines:</strong></p> <p>```python import admm import numpy as np</p> <p>np.random.seed(42) n = 20 mu = np.random.randn(n) # expected returns F = np.random.randn(n + 3, n) Sigma = F.T @ F + 0.1 * np.eye(n) # covariance matrix</p> <p>model = admm.Model() w = admm.Var(&quot;w&quot;, n) model.setObjective(-mu @ w + 0.5 * w.T @ Sigma @ w) model.addConstr(admm.sum(w) == 1) model.addConstr(w &gt;= 0) model.optimize() print(f&quot;Status: {model.StatusString}&quot;) # SOLVE_OPT_SUCCESS ```</p> <p>In CVXPY you'd need <code>cp.quad_form(w, Sigma)</code> and Sigma must be certified PSD at parse time. Here <code>w.T @ Sigma @ w</code> just works.</p> <p><strong>Where it gets interesting \u2014 exact feature selection with L0:</strong></p> <p>```python import admm import numpy as np from udf import L0Norm</p> <p>np.random.seed(0) p, m = 20, 50 X = np.random.randn(m, p) beta_true = np.zeros(p); beta_true[:3] = [2.0, -1.5, 1.0] # only 3 nonzeros y = X @ beta_true + 0.1 * np.random.randn(m)</p> <p>model = admm.Model() beta = admm.Var(&quot;beta&quot;, p) model.setObjective(0.5 * admm.sum(admm.square(X @ beta - y)) + 0.5 * L0Norm(beta)) model.optimize() print(f&quot;Nonzeros: {np.sum(np.abs(np.array(beta.X)) &gt; 0.01)}&quot;) # \u2248 3 ```</p> <p>L0 is nonconvex \u2014 CVXPY can't express it at all. ADMM handles it via hard thresholding as the proximal operator. <strong>Caveat:</strong> this is a heuristic, not a globally optimal MIP solver. But it's fast and finds good sparse solutions in practice.</p> <p><strong>What else is in the box:</strong></p> <ul> <li>Built-in atoms: L1/L2/nuclear norms, Huber/logistic/hinge, log-det, entropy, trace</li> <li>Nonconvex UDFs: L0, L\u00bd, SCAD, MCP, rank constraints, binary indicator, Stiefel manifold</li> <li>Smooth UDFs: Cauchy, Welsch, Tukey biweight, KL divergence, smooth TV, log barrier</li> <li>PSD matrix variables (<code>admm.Var(&quot;X&quot;, n, n, PSD=True)</code>)</li> <li>C++ backend, numpy arrays in/out</li> <li>MIT license</li> </ul> <p><strong>Links:</strong></p> <ul> <li>GitHub: <a href=\"https://github.com/alibaba-damo-academy/admm\">https://github.com/alibaba-damo-academy/admm</a></li> <li>Docs: <a href=\"https://alibaba-damo-academy.github.io/admm/\">https://alibaba-damo-academy.github.io/admm/</a></li> <li>Install: <code>pip install admm</code></li> </ul> <p>I'm a developer of this library \u2014 happy to answer questions about the design, performance tradeoffs, or use cases.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/lqw0809\"> /u/lqw0809 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1sjgznf/i_built_a_python_optimization_library_that/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1sjgznf/i_built_a_python_optimization_library_that/\">[comments]</a></span>",
+      "author": "/u/lqw0809",
+      "published_date": "2026-04-12T15:06:41+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 402,
+      "reading_time": 2,
+      "created_at": "2026-04-12T16:00:45.348731+00:00",
+      "updated_at": "2026-04-12T16:32:19.351056+00:00",
+      "metadata": {
+        "processed_at": "2026-04-12T16:32:19.351065+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c3f53cfcbf1d8b53228613083b2940aa",
+      "url": "https://www.researchgate.net/publication/256935390_Eternity_in_six_hours_Intergalactic_spreading_of_intelligent_life_and_sharpening_the_Fermi_paradox",
+      "title": "Eternity in six hours: Intergalactic spreading of intelligent life (2013)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47740315\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-12T14:43:23+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-12T16:00:44.144376+00:00",
+      "updated_at": "2026-04-12T16:32:19.351069+00:00",
+      "metadata": {
+        "processed_at": "2026-04-12T16:32:19.351070+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c3f53cfcbf1d8b53228613083b2940aa",
+      "url": "https://www.researchgate.net/publication/256935390_Eternity_in_six_hours_Intergalactic_spreading_of_intelligent_life_and_sharpening_the_Fermi_paradox",
+      "title": "Eternity in six hours: Intergalactic spreading of intelligent life (2013)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47740315\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-12T14:43:23+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-12T16:00:44.144376+00:00",
+      "updated_at": "2026-04-12T16:32:19.351069+00:00",
+      "metadata": {
+        "processed_at": "2026-04-12T16:32:19.351070+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "b34a2b94913e6ba7a7f0d5749d7523e1",
+      "url": "https://www.nature.com/articles/s41598-026-48579-z",
+      "title": "The impact of e-cigarette use on cognitive function, emotional intelligence, and dementia risk in adolescents and young adults",
+      "content": "",
+      "author": "",
+      "published_date": "2026-04-12T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-04-12T15:06:20.452886+00:00",
+      "updated_at": "2026-04-12T16:32:19.351076+00:00",
+      "metadata": {
+        "processed_at": "2026-04-12T16:32:19.351078+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "9f6cb6ef95de30f1c31df70c7da0c1ae",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1838975",
+      "title": "Correction: Enhancing 3D semantic scene completion with refinement module",
+      "content": "",
+      "author": "Frontiers Production Office",
+      "published_date": "2026-04-07T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-04-12T15:06:04.782055+00:00",
+      "updated_at": "2026-04-12T16:32:19.351080+00:00",
+      "metadata": {
+        "processed_at": "2026-04-12T16:32:19.351082+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "9c66f56ff0a3f06da7339277259b20a4",
       "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae5689",
@@ -206,86 +306,6 @@
       }
     },
     {
-      "id": "0f4e6e73c144b0def55a028e96be0098",
-      "url": "https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html",
-      "title": "Seven countries now generate 100% of their electricity from renewable energy",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47739313\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-12T13:21:39+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-12T14:09:28.036658+00:00",
-      "updated_at": "2026-04-12T14:37:10.071846+00:00",
-      "metadata": {
-        "processed_at": "2026-04-12T14:37:10.071847+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7cf09d4e6c71e7d440cedad63f776c2a",
-      "url": "https://news.ycombinator.com/item?id=47738883",
-      "title": "Tell HN: docker pull fails in spain due to football cloudflare block",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47738883\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-12T12:28:57+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-12T14:09:28.036640+00:00",
-      "updated_at": "2026-04-12T14:37:10.071850+00:00",
-      "metadata": {
-        "processed_at": "2026-04-12T14:37:10.071851+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1aaa0a557b03b0d01d08c7f1051c51ee",
-      "url": "https://news.ycombinator.com/item?id=47739305",
-      "title": "Tell HN: OpenAI silently removed Study Mode from ChatGPT",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47739305\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-12T13:20:58+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-12T14:09:28.036622+00:00",
-      "updated_at": "2026-04-12T14:37:10.071854+00:00",
-      "metadata": {
-        "processed_at": "2026-04-12T14:37:10.071855+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7cf09d4e6c71e7d440cedad63f776c2a",
-      "url": "https://news.ycombinator.com/item?id=47738883",
-      "title": "Tell HN: docker pull fails in spain due to football cloudflare block",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47738883\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-12T12:28:57+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-12T14:09:28.036640+00:00",
-      "updated_at": "2026-04-12T14:37:10.071850+00:00",
-      "metadata": {
-        "processed_at": "2026-04-12T14:37:10.071851+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "db576c7c0b5c1ee5f2459c33a1b1eda3",
       "url": "https://github.com/rochus-keller/OberonSystem3Native/releases",
       "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
@@ -306,26 +326,6 @@
       }
     },
     {
-      "id": "1aaa0a557b03b0d01d08c7f1051c51ee",
-      "url": "https://news.ycombinator.com/item?id=47739305",
-      "title": "Tell HN: OpenAI silently removed Study Mode from ChatGPT",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47739305\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-12T13:20:58+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-12T14:09:28.036622+00:00",
-      "updated_at": "2026-04-12T14:37:10.071854+00:00",
-      "metadata": {
-        "processed_at": "2026-04-12T14:37:10.071855+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "0f4e6e73c144b0def55a028e96be0098",
       "url": "https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html",
       "title": "Seven countries now generate 100% of their electricity from renewable energy",
@@ -346,22 +346,22 @@
       }
     },
     {
-      "id": "cb7aecac66ecc60bada0074885e48c78",
-      "url": "https://www.reddit.com/r/Python/comments/1sjbnnu/pydepspy_inspect_python_dependencies_supply_chain/",
-      "title": "PyDepSpy \u2014 inspect Python dependencies & supply chain locally",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I built PyDepSpy \u2014 a small tool to analyze Python dependencies.</p> <p>It helps:</p> <p>\u2022 inspect dependency tree</p> <p>\u2022 detect transitive dependencies</p> <p>\u2022 analyze supply-chain risks</p> <p>\u2022 run locally</p> <p>\u2022 CLI based</p> <p>pip install pydepspy</p> <p>pydepspy scan .</p> <p>GitHub:</p> <p><a href=\"https://github.com/tanuj437/PyDepSpy\">https://github.com/tanuj437/PyDepSpy</a></p> <p>Looking for feedback.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Tanuj437\"> /u/Tanuj437 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1sjbnnu/pydepspy_inspect_python_dependencies_supply_chain/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1sjbnnu/pydepspy_inspect_python_dependencies_supply_chain/\">[comments]</a></span>",
-      "author": "/u/Tanuj437",
-      "published_date": "2026-04-12T11:09:52+00:00",
-      "source": "Reddit Python",
+      "id": "0f4e6e73c144b0def55a028e96be0098",
+      "url": "https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html",
+      "title": "Seven countries now generate 100% of their electricity from renewable energy",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47739313\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-12T13:21:39+00:00",
+      "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 66,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-04-12T11:57:44.737367+00:00",
-      "updated_at": "2026-04-12T12:51:50.885940+00:00",
+      "created_at": "2026-04-12T14:09:28.036658+00:00",
+      "updated_at": "2026-04-12T14:37:10.071846+00:00",
       "metadata": {
-        "processed_at": "2026-04-12T12:51:50.885949+00:00",
+        "processed_at": "2026-04-12T14:37:10.071847+00:00",
         "processing_method": "github_actions"
       }
     }
