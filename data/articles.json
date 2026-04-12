@@ -1,5 +1,53 @@
 [
   {
+    "id": "bed4eebc1b04277faeafd46dee8604d1",
+    "url": "https://www.reddit.com/r/Python/comments/1sjgznf/i_built_a_python_optimization_library_that/",
+    "title": "I built a Python optimization library that handles L0 sparsity and rank constraints",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey <a href=\"/r/Python\">r/Python</a>,</p> <p>I kept running into the same wall with CVXPY: I'd formulate a perfectly valid optimization problem, and it would reject it with <code>DCPError</code> \u2014 not because the problem was wrong, but because CVXPY couldn't <em>verify</em> convexity through its composition rules.</p> <p>So I built <code>admm</code> \u2014 an optimization library that solves the same structured problems (LP, QP, SOCP, SDP) but without the DCP verification barrier, plus an extension mechanism for nonconvex penalties like L0 and rank constraints.</p> <p><strong>Quick example \u2014 Markowitz portfolio in 8 lines:</strong></p> <p>```python import admm import numpy as np</p> <p>np.random.seed(42) n = 20 mu = np.random.randn(n) # expected returns F = np.random.randn(n + 3, n) Sigma = F.T @ F + 0.1 * np.eye(n) # covariance matrix</p> <p>model = admm.Model() w = admm.Var(&quot;w&quot;, n) model.setObjective(-mu @ w + 0.5 * w.T @ Sigma @ w) model.addConstr(admm.sum(w) == 1) model.addConstr(w &gt;= 0) model.optimize() print(f&quot;Status: {model.StatusString}&quot;) # SOLVE_OPT_SUCCESS ```</p> <p>In CVXPY you'd need <code>cp.quad_form(w, Sigma)</code> and Sigma must be certified PSD at parse time. Here <code>w.T @ Sigma @ w</code> just works.</p> <p><strong>Where it gets interesting \u2014 exact feature selection with L0:</strong></p> <p>```python import admm import numpy as np from udf import L0Norm</p> <p>np.random.seed(0) p, m = 20, 50 X = np.random.randn(m, p) beta_true = np.zeros(p); beta_true[:3] = [2.0, -1.5, 1.0] # only 3 nonzeros y = X @ beta_true + 0.1 * np.random.randn(m)</p> <p>model = admm.Model() beta = admm.Var(&quot;beta&quot;, p) model.setObjective(0.5 * admm.sum(admm.square(X @ beta - y)) + 0.5 * L0Norm(beta)) model.optimize() print(f&quot;Nonzeros: {np.sum(np.abs(np.array(beta.X)) &gt; 0.01)}&quot;) # \u2248 3 ```</p> <p>L0 is nonconvex \u2014 CVXPY can't express it at all. ADMM handles it via hard thresholding as the proximal operator. <strong>Caveat:</strong> this is a heuristic, not a globally optimal MIP solver. But it's fast and finds good sparse solutions in practice.</p> <p><strong>What else is in the box:</strong></p> <ul> <li>Built-in atoms: L1/L2/nuclear norms, Huber/logistic/hinge, log-det, entropy, trace</li> <li>Nonconvex UDFs: L0, L\u00bd, SCAD, MCP, rank constraints, binary indicator, Stiefel manifold</li> <li>Smooth UDFs: Cauchy, Welsch, Tukey biweight, KL divergence, smooth TV, log barrier</li> <li>PSD matrix variables (<code>admm.Var(&quot;X&quot;, n, n, PSD=True)</code>)</li> <li>C++ backend, numpy arrays in/out</li> <li>MIT license</li> </ul> <p><strong>Links:</strong></p> <ul> <li>GitHub: <a href=\"https://github.com/alibaba-damo-academy/admm\">https://github.com/alibaba-damo-academy/admm</a></li> <li>Docs: <a href=\"https://alibaba-damo-academy.github.io/admm/\">https://alibaba-damo-academy.github.io/admm/</a></li> <li>Install: <code>pip install admm</code></li> </ul> <p>I'm a developer of this library \u2014 happy to answer questions about the design, performance tradeoffs, or use cases.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/lqw0809\"> /u/lqw0809 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1sjgznf/i_built_a_python_optimization_library_that/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1sjgznf/i_built_a_python_optimization_library_that/\">[comments]</a></span>",
+    "author": "/u/lqw0809",
+    "published_date": "2026-04-12T15:06:41+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 402,
+    "reading_time": 2,
+    "created_at": "2026-04-12T16:00:45.348731+00:00",
+    "updated_at": "2026-04-12T16:00:45.348733+00:00"
+  },
+  {
+    "id": "c3f53cfcbf1d8b53228613083b2940aa",
+    "url": "https://www.researchgate.net/publication/256935390_Eternity_in_six_hours_Intergalactic_spreading_of_intelligent_life_and_sharpening_the_Fermi_paradox",
+    "title": "Eternity in six hours: Intergalactic spreading of intelligent life (2013)",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47740315\">Comments</a>",
+    "author": "",
+    "published_date": "2026-04-12T14:43:23+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-04-12T16:00:44.144376+00:00",
+    "updated_at": "2026-04-12T16:00:44.144378+00:00"
+  },
+  {
+    "id": "c3f53cfcbf1d8b53228613083b2940aa",
+    "url": "https://www.researchgate.net/publication/256935390_Eternity_in_six_hours_Intergalactic_spreading_of_intelligent_life_and_sharpening_the_Fermi_paradox",
+    "title": "Eternity in six hours: Intergalactic spreading of intelligent life (2013)",
+    "content": "<p>Article URL: <a href=\"https://www.researchgate.net/publication/256935390_Eternity_in_six_hours_Intergalactic_spreading_of_intelligent_life_and_sharpening_the_Fermi_paradox\">https://www.researchgate.net/publication/256935390_Eternity_in_six_hours_Intergalactic_spreading_of_intelligent_life_and_sharpening_the_Fermi_paradox</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47740315\">https://news.ycombinator.com/item?id=47740315</a></p>\n<p>Points: 9</p>\n<p># Comments: 2</p>",
+    "author": "wallflower",
+    "published_date": "2026-04-12T14:43:23+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-04-12T16:00:42.830226+00:00",
+    "updated_at": "2026-04-12T16:00:42.830234+00:00"
+  },
+  {
     "id": "b34a2b94913e6ba7a7f0d5749d7523e1",
     "url": "https://www.nature.com/articles/s41598-026-48579-z",
     "title": "The impact of e-cigarette use on cognitive function, emotional intelligence, and dementia risk in adolescents and young adults",
@@ -17216,66 +17264,6 @@
     "updated_at": "2026-04-07T13:08:57.216152+00:00",
     "metadata": {
       "processed_at": "2026-04-07T13:08:57.216163+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "b1e04a0a4bf36d4892461115e6dc42cd",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.04.05.716603v1?rss=1",
-    "title": "Structure-function coupling in the human brainstem",
-    "content": "The nuclei of the brainstem fundamentally modulate neuronal activity throughout the central nervous system. Yet connectome reconstructions typically do not include the brainstem because it is notoriously difficult to image. As a result, the influence of the brainstem on structure-function coupling in the brain is unknown. Here we use high-resolution 7 Tesla magnetic resonance imaging (MRI) to reconstruct structural and functional brain connectomes encompassing cortex and 58 brainstem nuclei spanning the midbrain, pons, and medulla. We identify structural connectional profiles of individual brainstem nuclei to the cortex and find that they align with a spectrum of functions, spanning sensory and motor processing to higher-order cognition. Structural and functional connectivity in brainstem-augmented connectomes are positively correlated, and pairs of regions with direct anatomical projections display greater functional connectivity than pairs without. Structure-function coupling is heterogeneous across brainstem nuclei, with greatest coupling in both modulatory and relay nuclei. Collectively, this work presents an initial step towards understanding how the brainstem shapes structure-function relationships in the brain.",
-    "author": "Farahani, A., Koley, S., Hansen, J. Y., Garcia Gomar, M. G., Singh, K., Cauzzo, S., Hannanu, F. F., Milisav, F., Liu, Z.-Q., Bazinet, V., Bianciardi, M., Misic, B.",
-    "published_date": "2026-04-07T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 164,
-    "reading_time": 1,
-    "created_at": "2026-04-07T11:56:51.080758+00:00",
-    "updated_at": "2026-04-07T13:08:57.216167+00:00",
-    "metadata": {
-      "processed_at": "2026-04-07T13:08:57.216168+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "3920b6e0d33ae4887ed44b5662fc3cc7",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.03.31.715493v1?rss=1",
-    "title": "COLOR VISION UNDER BLUR: IMPLICATIONS FOR PERCEPTION AND EVOLUTION",
-    "content": "Color is a prominent feature of visual experience, yet humans can recognize objects easily and accurately from grayscale images. We examined whether color becomes more useful when spatial information is degraded due to blurring. Participants viewed naturalistic scenes in color or grayscale, and reported whether a named target object was present across a range of blur levels that simulated optical defocus from 0 to 8 diopters. With unblurred images, performance did not differ between color and grayscale conditions, but as blur increased, recognition accuracy declined. Color provided a modest but reliable advantage at higher levels of blur, suggesting that color becomes increasingly useful when optical quality is degraded. We hypothesize that the evolutionary shift towards trichromacy may have been partially driven by the need to compensate for optical degradation due to aging and/or accumulated light exposure.",
-    "author": "Altinordu, N., Boynton, G. M., Fine, I.",
-    "published_date": "2026-04-07T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 136,
-    "reading_time": 1,
-    "created_at": "2026-04-07T11:56:51.080707+00:00",
-    "updated_at": "2026-04-07T13:08:57.216171+00:00",
-    "metadata": {
-      "processed_at": "2026-04-07T13:08:57.216172+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "93c9ae403bc8f7fe874e5b26c179db14",
-    "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2026.1759177",
-    "title": "Semantics and syntax effects on event-related fields during speech comprehension: a MEG study",
-    "content": "IntroductionUnderstanding how the brain processes language during natural speech comprehension remains a key challenge. This study tested the feasibility of using an event-related field (ERF) approach to examine the spatiotemporal distribution of brain activity evoked during continuous speech comprehension.MethodsWe used MEG and cluster-based permutation analysis of ERFs to examine how semantic dissimilarity and word class modulate neural responses during continuous speech comprehension.ResultsWords with high semantic dissimilarity elicited a late ERF effect at left temporal sensors (616-666 ms). This effect remained robust after controlling for word duration and subsequent words. Function words elicited an early ERF (166\u2013312 ms) at left parieto-temporal sensors and a later effect (470\u2013654 ms) at temporal sensors.DiscussionThe late effect for words with high semantic dissimilarity may be linked to P600-like activity or other late semantic integration processes. The early and late effects for function words may reflect syntactic processing and the prediction of upcoming words. Together, these findings suggest that semantic dissimilarity and word class differentially shape the temporal dynamics of ERFs during natural speech comprehension.",
-    "author": "Olga V. Martynova",
-    "published_date": "2026-04-02T00:00:00+00:00",
-    "source": "Frontiers Human Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 169,
-    "reading_time": 1,
-    "created_at": "2026-04-07T11:56:40.424621+00:00",
-    "updated_at": "2026-04-07T13:08:57.216174+00:00",
-    "metadata": {
-      "processed_at": "2026-04-07T13:08:57.216176+00:00",
       "processing_method": "github_actions"
     }
   }
