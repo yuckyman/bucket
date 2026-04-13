@@ -1,5 +1,69 @@
 [
   {
+    "id": "2badcf6e73e760a0fae62f0b73e0b1a9",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.09.717543v1?rss=1",
+    "title": "Simulated spaceflight disrupts the immune-gut-brain axis and drives sex-dependent neuroinflammation, axonal injury, and behavioral deficits.",
+    "content": "Simulated spaceflight perturbs multiple organ systems, yet the integrated impact of spaceflight-relevant stressors on the immune-gut-brain axis remains poorly defined. We used a ground-based model combining hindlimb unloading (HU) with low-dose ionizing radiation (IR; 50 or 100cGy) to quantify neuropathology, peripheral immune phenotypes, intestinal barrier integrity, and behavioral performance in male and female C57BL/6 mice. HU and/or IR induced region-selective neurodegenerative changes consistent with axonal injury across the cortex and major white-matter tracts. In the somatosensory cortex, MAP-2+ neurons were reduced and SMI-312-labeled axonal injury increased, lowering the intact-to-dystrophic axonal area ratio. Long-range fiber pathways (corpus callosum, cingulate gyrus, external capsule) showed robust axonal damage accompanied by gliosis, with elevated Iba-1+ microglia and GFAP+ astrocytes most prominent after HU+IR (100cGy). Peripheral immunophenotyping revealed a sustained, sex-dependent innate inflammatory bias, with expanded CD11b+ myeloid cells and increased TNF-+ myeloid activation after IR and IR+HU, alongside maladaptive T-cell polarization despite largely unchanged total CD8+ and CD4+ frequencies. In parallel, the gut exhibited architectural remodeling and barrier failure, including altered mucin profiles, reduced ZO-1 tight-junction labeling, and increased CD45+ leukocyte infiltration across the jejunum, ileum, and colon. Behavioral assays demonstrated sex-dependent deficits spanning affective, motor, and cognitive domains, including increased anxiety- and depressive-like behaviors, impaired rotarod performance, reduced recognition memory, and less efficient spatial strategies. Overall, these findings identify a sex-dependent immune-gut-brain vulnerability in which combined HU and low-dose IR drive gut barrier breakdown and immune imbalance that coincide with neuroinflammatory axonopathy and measurable neurobehavioral dysfunction.",
+    "author": "Burke, M., Kara, G., Holcomb, M., Mason, C., Villapol, S.",
+    "published_date": "2026-04-13T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 243,
+    "reading_time": 1,
+    "created_at": "2026-04-13T22:45:07.314582+00:00",
+    "updated_at": "2026-04-13T22:45:07.314583+00:00"
+  },
+  {
+    "id": "b88c60165beabcaefe344550cd9d822a",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.09.717525v1?rss=1",
+    "title": "Encoding models uncover fine-grained feature selectivity for bodies, hands and tools",
+    "content": "Category-selective areas in the occipitotemporal cortex (OTC) are typically characterized by broad tuning, yet neuroimaging suggests a finer-grained organization reflecting distinct computational roles. We combined image-level fMRI with artificial neural network (ANN)-based encoding models to investigate the selectivity and feature sensitivity of category-selective areas in ventral and lateral OTC. Using densely sampled fMRI data in three participants across six sessions, we identified functional dissociations between body, hand, and tool responses at the individual image level. Area-specific encoding models accurately predicted responses to millions of novel images, maintaining clear category preferences. Importantly, comparisons between models trained on areas selective for the same category revealed distinct feature sensitivities consistent with the areas' anatomical location and hemispheric lateralization. These findings provide evidence for fine-grained specialization within OTC and demonstrate how ANN-based encoding models can uncover the computational, feature-level basis of category selectivity.",
+    "author": "Cortinovis, D., Hebart, M., Bracci, S.",
+    "published_date": "2026-04-13T00:00:00+00:00",
+    "source": "Biorxiv Neuroscience",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 139,
+    "reading_time": 1,
+    "created_at": "2026-04-13T22:45:07.314530+00:00",
+    "updated_at": "2026-04-13T22:45:07.314535+00:00"
+  },
+  {
+    "id": "3d3ad27ebcc1ca32f02bb2ed88162178",
+    "url": "https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet",
+    "title": "The tech jobs bust is real. Don't blame AI (yet)",
+    "content": "<p>Article URL: <a href=\"https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet\">https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47757775\">https://news.ycombinator.com/item?id=47757775</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+    "author": "andsoitis",
+    "published_date": "2026-04-13T21:02:21+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-04-13T22:44:30.498652+00:00",
+    "updated_at": "2026-04-13T22:44:30.498653+00:00"
+  },
+  {
+    "id": "dbb83453b3054ff8cbe1e69a4bedbf4f",
+    "url": "https://ndaybench.winfunc.com",
+    "title": "N-Day-Bench \u2013 Can LLMs find real vulnerabilities in real codebases?",
+    "content": "<p>N-Day-Bench tests whether frontier LLMs can find known security vulnerabilities in real repository code. Each month it pulls fresh cases from GitHub security advisories, checks out the repo at the last commit before the patch, and gives models a sandboxed bash shell to explore the codebase.<p>Static vulnerability discovery benchmarks become outdated quickly. Cases leak into training data, and scores start measuring memorization. The monthly refresh keeps the test set ahead of contamination \u2014 or at least makes the contamination window honest.<p>Each case runs three agents: a Curator reads the advisory and builds an answer key, a Finder (the model under test) gets 24 shell steps to explore the code and write a structured report, and a Judge scores the blinded submission. The Finder never sees the patch. It starts from sink hints and must trace the bug through actual code.<p>Only repos with 10k+ stars qualify. A diversity pass prevents any single repo from dominating the set. Ambiguous advisories (merge commits, multi-repo references, unresolvable refs) are dropped.<p>Currently evaluating GPT-5.4, Claude Opus 4.6, Gemini 3.1 Pro, GLM-5.1, and Kimi K2.5. All traces are public.<p>Methodology: <a href=\"https://ndaybench.winfunc.com/methodology\">https://ndaybench.winfunc.com/methodology</a><p>Live Leaderboard: <a href=\"https://ndaybench.winfunc.com/leaderboard\">https://ndaybench.winfunc.com/leaderboard</a><p>Live Traces: <a href=\"https://ndaybench.winfunc.com/traces\">https://ndaybench.winfunc.com/traces</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47758347\">https://news.ycombinator.com/item?id=47758347</a></p>\n<p>Points: 9</p>\n<p># Comments: 2</p>",
+    "author": "mufeedvh",
+    "published_date": "2026-04-13T21:54:03+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 201,
+    "reading_time": 1,
+    "created_at": "2026-04-13T22:44:30.498600+00:00",
+    "updated_at": "2026-04-13T22:44:30.498607+00:00"
+  },
+  {
     "id": "dd79bf38692a1b966021a970e0119ba8",
     "url": "https://www.reddit.com/r/Python/comments/1skg66s/why_djangoadmin_startproject_is_a_trap/",
     "title": "Why django-admin startproject Is a Trap",
@@ -36,6 +100,46 @@
     "updated_at": "2026-04-13T22:39:00.582487+00:00",
     "metadata": {
       "processed_at": "2026-04-13T22:39:00.582489+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "8d59befe4ebf4b4eaf0fdb1b5756ce7e",
+    "url": "https://amd-gaia.ai/docs",
+    "title": "(AMD) Build AI Agents That Run Locally",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47756772\">Comments</a>",
+    "author": "",
+    "published_date": "2026-04-13T19:28:41+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-04-13T21:54:44.339416+00:00",
+    "updated_at": "2026-04-13T22:39:00.582487+00:00",
+    "metadata": {
+      "processed_at": "2026-04-13T22:39:00.582489+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "5ddf6c5a06b174d7df312d3393112d9f",
+    "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+    "title": "Stanford report highlights growing disconnect between AI insiders and everyone",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47758028\">Comments</a>",
+    "author": "",
+    "published_date": "2026-04-13T21:25:38+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-04-13T21:54:44.339306+00:00",
+    "updated_at": "2026-04-13T22:39:00.582491+00:00",
+    "metadata": {
+      "processed_at": "2026-04-13T22:39:00.582493+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -80,26 +184,6 @@
     }
   },
   {
-    "id": "8d59befe4ebf4b4eaf0fdb1b5756ce7e",
-    "url": "https://amd-gaia.ai/docs",
-    "title": "(AMD) Build AI Agents That Run Locally",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47756772\">Comments</a>",
-    "author": "",
-    "published_date": "2026-04-13T19:28:41+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-04-13T21:54:44.339416+00:00",
-    "updated_at": "2026-04-13T22:39:00.582487+00:00",
-    "metadata": {
-      "processed_at": "2026-04-13T22:39:00.582489+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
     "id": "81d2615831887a1155185c71b53b5c5a",
     "url": "https://github.com/SunAndClouds/ReadMe",
     "title": "Show HN: Continual Learning with .md",
@@ -114,26 +198,6 @@
     "reading_time": 1,
     "created_at": "2026-04-13T21:54:43.128332+00:00",
     "updated_at": "2026-04-13T21:54:43.128333+00:00"
-  },
-  {
-    "id": "5ddf6c5a06b174d7df312d3393112d9f",
-    "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
-    "title": "Stanford report highlights growing disconnect between AI insiders and everyone",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=47758028\">Comments</a>",
-    "author": "",
-    "published_date": "2026-04-13T21:25:38+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-04-13T21:54:44.339306+00:00",
-    "updated_at": "2026-04-13T22:39:00.582491+00:00",
-    "metadata": {
-      "processed_at": "2026-04-13T22:39:00.582493+00:00",
-      "processing_method": "github_actions"
-    }
   },
   {
     "id": "67aa7028146467ce6966ff8a84262e96",
@@ -17174,69 +17238,5 @@
     "reading_time": 1,
     "created_at": "2026-04-08T20:07:57.513950+00:00",
     "updated_at": "2026-04-08T20:07:57.513951+00:00"
-  },
-  {
-    "id": "4f5d03f1e0e4ec8a83dbc1ad38ad763e",
-    "url": "https://swift.org/blog/expanding-swift-ide-support/",
-    "title": "Expanding Swift's IDE Support",
-    "content": "<p>Article URL: <a href=\"https://swift.org/blog/expanding-swift-ide-support/\">https://swift.org/blog/expanding-swift-ide-support/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47694983\">https://news.ycombinator.com/item?id=47694983</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
-    "author": "frizlab",
-    "published_date": "2026-04-08T19:21:41+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-04-08T20:07:56.155845+00:00",
-    "updated_at": "2026-04-08T20:07:56.155847+00:00"
-  },
-  {
-    "id": "8360ea2da1c164a1ebf91ad3a9882d50",
-    "url": "https://werwolv.net/posts/usb_for_sw_devs/",
-    "title": "USB for Software Developers: An introduction to writing userspace USB drivers",
-    "content": "<p>Article URL: <a href=\"https://werwolv.net/posts/usb_for_sw_devs/\">https://werwolv.net/posts/usb_for_sw_devs/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47695012\">https://news.ycombinator.com/item?id=47695012</a></p>\n<p>Points: 16</p>\n<p># Comments: 0</p>",
-    "author": "WerWolv",
-    "published_date": "2026-04-08T19:23:34+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-04-08T20:07:56.155812+00:00",
-    "updated_at": "2026-04-08T20:07:56.155824+00:00"
-  },
-  {
-    "id": "887f45ac29f46dc1abb2eb03d50547f3",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.04.05.716550v1?rss=1",
-    "title": "Network-Level Associations in Nonlinear Brain Dynamics Predict Transcendent Thinking in a Diverse Adolescent Sample",
-    "content": "Transcendent thinking (TT) is an enduring affective and cognitive process characterized by abstract meaning-making, moral reflection, self-referential integration, and strong emotional engagement. Despite growing interest in its developmental and affective significance, the intrinsic neural dynamics that predict individual differences in disposition to TT remain poorly understood. Most prior work has relied on linear functional connectivity measures, which may be insufficient to capture the nonlinear and multiscale nature of brain dynamics underlying higher-order affective dispositions like TT. Here, we introduce a nonlinear functional brain network (FBN) framework based on multiscale entropy (MSE) to investigate whether intrinsic resting-state nonlinear brain dynamics predict disposition to TT in adolescents. Functional connectivity was defined as inter-regional similarity in MSE profiles derived from resting-state fMRI, yielding weighted networks that capture scale-dependent dynamical correspondence rather than linear synchrony. Graph-theoretical, spectral, and information-theoretic measures were computed and evaluated against signal-level and network-level null models. Predictive performance was assessed using machine-learning models and compared with conventional time series-based FBNs. Global intelligence (IQ) was examined as a control cognitive variable. MSE-based network features, particularly spectral energy and Shannon entropy, showed significant associations with TT and enabled reliable prediction of individual differences, whereas time series-based network measures failed to predict TT. No network measures reliably predicted IQ. Overall, these results indicate that intrinsic nonlinear brain dynamics carry predictive information about affective dispositions, rather than domain-specific or network-localized cognitive abilities such as IQ. This work demonstrates that nonlinear, multiscale network representations of resting-state brain activity provide a principled and predictive framework for modeling individual differences in enduring affective dispositions.",
-    "author": "Ghaderi, A. H., Yang, X., Immordino-Yang, M. H.",
-    "published_date": "2026-04-08T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 257,
-    "reading_time": 1,
-    "created_at": "2026-04-08T19:19:09.258561+00:00",
-    "updated_at": "2026-04-08T19:19:09.258563+00:00"
-  },
-  {
-    "id": "9b0935213ecee774eb427e470fa8a972",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.04.05.716480v1?rss=1",
-    "title": "Population geometry reveals directed coupling and transient bistability in spontaneous pituitary secretion",
-    "content": "The pituitary gland operates as an organized signaling network in which endocrine cell populations coordinate hormone secretion, through homotypic and heterotypic interactions, yet the contribution of spontaneous intrinsic activity in shaping population-level dynamics remains poorly understood. Using geometric analysis of population trajectories, including subspace alignment, manifold separation, and directed coupling metrics , we identifed two classes of spontaneous oscillatory signals associ-ated with distinct cell populations exhibiting asymmetric geometric dominance and a reproducible temporal lag. Our results support that spontaneous activity generates a self-sustained oscillator exhibiting transient bistability, linked to increased physiological demand, with slow oscillations reflecting the properties of an excitatory resonator capable of self-oscillating dynamics without external drive. A low-rank recurrent neural network model recapitulated the empirical geometric landscape under three coupling conditions, confirming that directed population coupling underlies the observed coordination. These findings suggest that intrinsic population dynamics play a central role in coordinating pituitary secretion, with implications for understanding hormonal dysregulation in secretory adenomas and other pituitary disorders.",
-    "author": "Aquiles, A., Aparicio Arias, J., Lafont, C., Hodson, D., Santiago-Andres, Y., Mollard, P., Fiordelisio, T.",
-    "published_date": "2026-04-08T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 161,
-    "reading_time": 1,
-    "created_at": "2026-04-08T19:19:09.258511+00:00",
-    "updated_at": "2026-04-08T19:19:09.258515+00:00"
   }
 ]
