@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-04-13T22:39:00.692071+00:00",
-  "pending_count": 690,
-  "processed_count": 310,
+  "last_updated": "2026-04-14T02:03:26.029368+00:00",
+  "pending_count": 687,
+  "processed_count": 313,
   "pending_articles": [
+    {
+      "id": "3d3ad27ebcc1ca32f02bb2ed88162178",
+      "url": "https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet",
+      "title": "The tech jobs bust is real. Don't blame AI (yet)",
+      "content": "<p>Article URL: <a href=\"https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet\">https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47757775\">https://news.ycombinator.com/item?id=47757775</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "author": "andsoitis",
+      "published_date": "2026-04-13T21:02:21+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-13T22:44:30.498652+00:00",
+      "updated_at": "2026-04-13T22:44:30.498653+00:00"
+    },
+    {
+      "id": "dbb83453b3054ff8cbe1e69a4bedbf4f",
+      "url": "https://ndaybench.winfunc.com",
+      "title": "N-Day-Bench \u2013 Can LLMs find real vulnerabilities in real codebases?",
+      "content": "<p>N-Day-Bench tests whether frontier LLMs can find known security vulnerabilities in real repository code. Each month it pulls fresh cases from GitHub security advisories, checks out the repo at the last commit before the patch, and gives models a sandboxed bash shell to explore the codebase.<p>Static vulnerability discovery benchmarks become outdated quickly. Cases leak into training data, and scores start measuring memorization. The monthly refresh keeps the test set ahead of contamination \u2014 or at least makes the contamination window honest.<p>Each case runs three agents: a Curator reads the advisory and builds an answer key, a Finder (the model under test) gets 24 shell steps to explore the code and write a structured report, and a Judge scores the blinded submission. The Finder never sees the patch. It starts from sink hints and must trace the bug through actual code.<p>Only repos with 10k+ stars qualify. A diversity pass prevents any single repo from dominating the set. Ambiguous advisories (merge commits, multi-repo references, unresolvable refs) are dropped.<p>Currently evaluating GPT-5.4, Claude Opus 4.6, Gemini 3.1 Pro, GLM-5.1, and Kimi K2.5. All traces are public.<p>Methodology: <a href=\"https://ndaybench.winfunc.com/methodology\">https://ndaybench.winfunc.com/methodology</a><p>Live Leaderboard: <a href=\"https://ndaybench.winfunc.com/leaderboard\">https://ndaybench.winfunc.com/leaderboard</a><p>Live Traces: <a href=\"https://ndaybench.winfunc.com/traces\">https://ndaybench.winfunc.com/traces</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47758347\">https://news.ycombinator.com/item?id=47758347</a></p>\n<p>Points: 9</p>\n<p># Comments: 2</p>",
+      "author": "mufeedvh",
+      "published_date": "2026-04-13T21:54:03+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 201,
+      "reading_time": 1,
+      "created_at": "2026-04-13T22:44:30.498600+00:00",
+      "updated_at": "2026-04-13T22:44:30.498607+00:00"
+    },
     {
       "id": "81d2615831887a1155185c71b53b5c5a",
       "url": "https://github.com/SunAndClouds/ReadMe",
@@ -130,41 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-04-13T20:57:27.064362+00:00",
       "updated_at": "2026-04-13T20:57:27.064365+00:00"
-    },
-    {
-      "id": "5b7c5929fa218e2d3355fd770c95416a",
-      "url": "https://taxwrapped.com",
-      "title": "Tax Wrapped 2025",
-      "content": "<p>Article URL: <a href=\"https://taxwrapped.com\">https://taxwrapped.com</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47755604\">https://news.ycombinator.com/item?id=47755604</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-      "author": "entrapi",
-      "published_date": "2026-04-13T17:52:39+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-04-13T20:57:27.064342+00:00",
-      "updated_at": "2026-04-13T20:57:27.064344+00:00"
-    },
-    {
-      "id": "d64ac91f914bee44c7d49065fec68113",
-      "url": "https://www.dwarmstrong.org/chimera-install-zfs/",
-      "title": "Just Enough Chimera Linux",
-      "content": "<p>Article URL: <a href=\"https://www.dwarmstrong.org/chimera-install-zfs/\">https://www.dwarmstrong.org/chimera-install-zfs/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47756876\">https://news.ycombinator.com/item?id=47756876</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-      "author": "speckx",
-      "published_date": "2026-04-13T19:37:54+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-04-13T20:57:27.064194+00:00",
-      "updated_at": "2026-04-13T20:57:27.064196+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "6064e63f5221e685af417aee3c03f052",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.09.712632v1?rss=1",
+      "title": "Brain PDGFR\u03b2+ cells exhibit diverse reactive phenotypes after stroke without requiring KLF4",
+      "content": "Ischemic stroke triggers a cascade of molecular and cellular processes leading to fibrotic scar formation, entailing activation of brain platelet-derived growth factor receptor (PDGFR){beta}+ cells. Kruppel-like factor (KLF)4 plays an important role in regulating the activation of peripheral PDGFR{beta}+ perivascular cells in response to hypoxia/ischemia. Herein, we aimed to characterize the spatiotemporal responses of brain PDGFR{beta}+ cells while assessing the contribution of KLF4. This was achieved using transgenic mice that enable tracking or conditionally depleting KLF4 in PDGFR{beta}+ cells, which were subjected to experimental ischemic stroke. Next, we employed point pattern analysis (PPA) and topological data analysis (TDA) to quantitatively characterize cell phenotypic changes and spatial distribution over injury progression after ischemic stroke. We show that brain PDGFR{beta}+ cells rapidly become reactive and early localize to regions prone to irreversible damage. We report the emergence of parenchymal PDGFR{beta}+ cells, which cannot be causally linked to proliferation or vascular detachment. Moreover, our analysis reveals that KLF4 is barely expressed in brain PDGFR{beta}+ cells under normal conditions, and that its expression is slightly induced in reactive cells in the injured brain. Notably, specific attenuation of KLF4 induced expression in PDGFR{beta}+ cells does not affect cell reactivity and spatiotemporal distribution, nor scar formation and injury severity. These observations suggest that in contrast with the periphery, KLF4 is not implicated in regulating the responses of brain PDGFR{beta}+ cells. Our results indicate that the reactivity of brain PDGFR{beta}+ cells after stroke is spatiotemporally diverse, evolve over injury progression, and is distinct from peripheral perivascular cells.",
+      "author": "Manrique-Castano, D., ElAli, A.",
+      "published_date": "2026-04-13T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 250,
+      "reading_time": 1,
+      "created_at": "2026-04-13T23:43:42.899068+00:00",
+      "updated_at": "2026-04-14T02:03:25.923785+00:00",
+      "metadata": {
+        "processed_at": "2026-04-14T02:03:25.923795+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "e1b22d84cbc7da3df05760fdfc6a6139",
+      "url": "https://encore.dev/blog/rust-runtime",
+      "title": "What We Learned Building a Rust Runtime for TypeScript",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47728823\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-11T08:53:16+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-13T23:43:05.797056+00:00",
+      "updated_at": "2026-04-14T02:03:25.923800+00:00",
+      "metadata": {
+        "processed_at": "2026-04-14T02:03:25.923801+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "eaef31b87fb1e8d429267b77cdef8f47",
+      "url": "https://www.johndcook.com/blog/2026/04/13/the-smallest-math-library/",
+      "title": "Mathematical Minimalism",
+      "content": "<p>Article URL: <a href=\"https://www.johndcook.com/blog/2026/04/13/the-smallest-math-library/\">https://www.johndcook.com/blog/2026/04/13/the-smallest-math-library/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47757595\">https://news.ycombinator.com/item?id=47757595</a></p>\n<p>Points: 10</p>\n<p># Comments: 1</p>",
+      "author": "chmaynard",
+      "published_date": "2026-04-13T20:45:39+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-13T23:43:04.466560+00:00",
+      "updated_at": "2026-04-14T02:03:25.923804+00:00",
+      "metadata": {
+        "processed_at": "2026-04-14T02:03:25.923805+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2badcf6e73e760a0fae62f0b73e0b1a9",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.09.717543v1?rss=1",
+      "title": "Simulated spaceflight disrupts the immune-gut-brain axis and drives sex-dependent neuroinflammation, axonal injury, and behavioral deficits.",
+      "content": "Simulated spaceflight perturbs multiple organ systems, yet the integrated impact of spaceflight-relevant stressors on the immune-gut-brain axis remains poorly defined. We used a ground-based model combining hindlimb unloading (HU) with low-dose ionizing radiation (IR; 50 or 100cGy) to quantify neuropathology, peripheral immune phenotypes, intestinal barrier integrity, and behavioral performance in male and female C57BL/6 mice. HU and/or IR induced region-selective neurodegenerative changes consistent with axonal injury across the cortex and major white-matter tracts. In the somatosensory cortex, MAP-2+ neurons were reduced and SMI-312-labeled axonal injury increased, lowering the intact-to-dystrophic axonal area ratio. Long-range fiber pathways (corpus callosum, cingulate gyrus, external capsule) showed robust axonal damage accompanied by gliosis, with elevated Iba-1+ microglia and GFAP+ astrocytes most prominent after HU+IR (100cGy). Peripheral immunophenotyping revealed a sustained, sex-dependent innate inflammatory bias, with expanded CD11b+ myeloid cells and increased TNF-+ myeloid activation after IR and IR+HU, alongside maladaptive T-cell polarization despite largely unchanged total CD8+ and CD4+ frequencies. In parallel, the gut exhibited architectural remodeling and barrier failure, including altered mucin profiles, reduced ZO-1 tight-junction labeling, and increased CD45+ leukocyte infiltration across the jejunum, ileum, and colon. Behavioral assays demonstrated sex-dependent deficits spanning affective, motor, and cognitive domains, including increased anxiety- and depressive-like behaviors, impaired rotarod performance, reduced recognition memory, and less efficient spatial strategies. Overall, these findings identify a sex-dependent immune-gut-brain vulnerability in which combined HU and low-dose IR drive gut barrier breakdown and immune imbalance that coincide with neuroinflammatory axonopathy and measurable neurobehavioral dysfunction.",
+      "author": "Burke, M., Kara, G., Holcomb, M., Mason, C., Villapol, S.",
+      "published_date": "2026-04-13T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 243,
+      "reading_time": 1,
+      "created_at": "2026-04-13T22:45:07.314582+00:00",
+      "updated_at": "2026-04-14T02:03:25.923808+00:00",
+      "metadata": {
+        "processed_at": "2026-04-14T02:03:25.923810+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "b88c60165beabcaefe344550cd9d822a",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.09.717525v1?rss=1",
+      "title": "Encoding models uncover fine-grained feature selectivity for bodies, hands and tools",
+      "content": "Category-selective areas in the occipitotemporal cortex (OTC) are typically characterized by broad tuning, yet neuroimaging suggests a finer-grained organization reflecting distinct computational roles. We combined image-level fMRI with artificial neural network (ANN)-based encoding models to investigate the selectivity and feature sensitivity of category-selective areas in ventral and lateral OTC. Using densely sampled fMRI data in three participants across six sessions, we identified functional dissociations between body, hand, and tool responses at the individual image level. Area-specific encoding models accurately predicted responses to millions of novel images, maintaining clear category preferences. Importantly, comparisons between models trained on areas selective for the same category revealed distinct feature sensitivities consistent with the areas' anatomical location and hemispheric lateralization. These findings provide evidence for fine-grained specialization within OTC and demonstrate how ANN-based encoding models can uncover the computational, feature-level basis of category selectivity.",
+      "author": "Cortinovis, D., Hebart, M., Bracci, S.",
+      "published_date": "2026-04-13T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 139,
+      "reading_time": 1,
+      "created_at": "2026-04-13T22:45:07.314530+00:00",
+      "updated_at": "2026-04-14T02:03:25.923812+00:00",
+      "metadata": {
+        "processed_at": "2026-04-14T02:03:25.923813+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "dd79bf38692a1b966021a970e0119ba8",
       "url": "https://www.reddit.com/r/Python/comments/1skg66s/why_djangoadmin_startproject_is_a_trap/",
@@ -206,46 +306,6 @@
       }
     },
     {
-      "id": "5ddf6c5a06b174d7df312d3393112d9f",
-      "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
-      "title": "Stanford report highlights growing disconnect between AI insiders and everyone",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47758028\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-13T21:25:38+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-13T21:54:44.339306+00:00",
-      "updated_at": "2026-04-13T22:39:00.582491+00:00",
-      "metadata": {
-        "processed_at": "2026-04-13T22:39:00.582493+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f9d0daa8dd42889f9396b5c4bb2e228c",
-      "url": "https://www.theguardian.com/world/2026/mar/20/solar-power-renewable-energy-denmark-backlash-national-elections",
-      "title": "In Denmark, the spread of solar panels has become a divisive issue",
-      "content": "<p>Article URL: <a href=\"https://www.theguardian.com/world/2026/mar/20/solar-power-renewable-energy-denmark-backlash-national-elections\">https://www.theguardian.com/world/2026/mar/20/solar-power-renewable-energy-denmark-backlash-national-elections</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47755734\">https://news.ycombinator.com/item?id=47755734</a></p>\n<p>Points: 45</p>\n<p># Comments: 70</p>",
-      "author": "PaulHoule",
-      "published_date": "2026-04-13T18:02:36+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-04-13T21:54:43.128516+00:00",
-      "updated_at": "2026-04-13T22:39:00.582495+00:00",
-      "metadata": {
-        "processed_at": "2026-04-13T22:39:00.582496+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "8d59befe4ebf4b4eaf0fdb1b5756ce7e",
       "url": "https://amd-gaia.ai/docs",
       "title": "(AMD) Build AI Agents That Run Locally",
@@ -286,82 +346,22 @@
       }
     },
     {
-      "id": "29121a86c620a60727d5ea8b8ba17153",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.09.717508v1?rss=1",
-      "title": "Modulation of Automatic Alcohol Approach Tendencies using Single-Session 10 Hz rTMS over the Right dLPFC",
-      "content": "Background: Maladaptive drinking is often sustained by automatic approach tendencies toward alcohol cues that override conscious self-control. While cognitive and behavioral modification techniques show some promise, their effects remain limited, highlighting the need for alternative neuromodulatory strategies. The current study examined the feasibility of a single session of 10 Hz repetitive transcranial magnetic stimulation (rTMS) to the right dorsolateral prefrontal cortex (dLPFC) as a targeted approach to reduce automatic alcohol approach tendencies. Method: Forty-five healthy alcohol-using participants completed an alcohol approach-avoidance task (A-AAT) with concurrent electroencephalographic recording before and after active or sham stimulation. Primary analyses focused on participants with baseline alcohol approach tendencies (n = 35). Results: At baseline, individuals with approach tendencies exhibited attenuated N2 and P3b amplitudes to alcohol relative to non-alcohol cues, indicating reduced cognitive control and attentional mechanisms irrespective of group. Following stimulation, active rTMS selectively facilitated alcohol avoidance responses and enhanced prefrontal N2 amplitudes, suggesting strengthened top-down control and protection against repetition-induced automaticity, which was evident in the sham group. Conclusion: These findings suggest that high-frequency rTMS over the right dLPFC can modulate automatic alcohol-related action tendencies by strengthening neural control mechanisms, supporting its further evaluation as a neuromodulatory adjunct for maladaptive drinking. Baseline motivational profiles may additionally influence rTMS response and warrant consideration when tailoring such approaches.",
-      "author": "Verma, A. K., Kumar, A. D., Chivukula, U., Kumar, N.",
-      "published_date": "2026-04-13T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
+      "id": "5ddf6c5a06b174d7df312d3393112d9f",
+      "url": "https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/",
+      "title": "Stanford report highlights growing disconnect between AI insiders and everyone",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47758028\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-13T21:25:38+00:00",
+      "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 214,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-04-13T19:48:39.347793+00:00",
-      "updated_at": "2026-04-13T20:48:29.499266+00:00",
+      "created_at": "2026-04-13T21:54:44.339306+00:00",
+      "updated_at": "2026-04-13T22:39:00.582491+00:00",
       "metadata": {
-        "processed_at": "2026-04-13T20:48:29.499275+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d1d2a1b2f0779b92ba1b698de08963f0",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.09.717268v1?rss=1",
-      "title": "Interactions between age and sex in multiscale entropy and spectral power changes across the lifespan",
-      "content": "Multiscale entropy (MSE) changes in relation to age, whereby aging is associated with an increasing bias towards fine scale entropy. This change is thought to represent a shift toward localized information processing in the brain as we age. However, this relationship has not been tested in large sample sizes alongside other demographic factors and cognitive behaviours. This study aimed to validate previously reported effects of aging on MSE in a large open access database (Cambridge Centre for Ageing and Neuroscience, N=587) and expand the findings to include an investigation of the effects of sex and a variety of cognitive behaviours. MSE curves and power spectrum densities (PSD) were calculated for each region of interest from the magnetoencephalography data. Multivariate partial least squares analyses were used to assess the relationship between MSE or PSD and 5 behavioural / demographic factors including: age, sex, fluid intelligence, visual short-term memory and a generalized measure of cognitive function. Age was associated with increased fine scale and decreased coarse scale entropy, as well as complementary spectral changes, including slowing of peak alpha rhythms, increased beta-band activity, and reduced gamma-band activity, which replicates prior MSE and PSD findings. In both domains, these age-related patterns differentiated based on sex with advancing age. Importantly, the unique effects of sex diverged between MSE and PSD. This result indicates that entropy-based measures can isolate aspects of temporal organization that are not clearly summarized by spectral structure alone.",
-      "author": "Solomon, J. P., Dobri, S. G. J., Shen, K., Vakorin, V. A., Moreno, S., McIntosh, R.",
-      "published_date": "2026-04-13T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 237,
-      "reading_time": 1,
-      "created_at": "2026-04-13T19:48:39.347756+00:00",
-      "updated_at": "2026-04-13T20:48:29.499279+00:00",
-      "metadata": {
-        "processed_at": "2026-04-13T20:48:29.499281+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "039c74d639e5062719b8890201884c91",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.11.717895v1?rss=1",
-      "title": "Uncovering putative neural mechanisms of neurotherapeutic impacts on EEG using the Human Neocortical Neurosolver",
-      "content": "Electroencephalography (EEG) and electrophysiology methods provide millisecond resolution biomarkers for central nervous system disorders and are used to assess treatment-related effects. However, lack of understanding about the neural mechanisms generating such biomarkers impedes the development of diagnostics and therapeutics based on these signals. The Human Neocortical Neurosolver (HNN) is an open-source biophysical modeling software that connects localized EEG biomarkers to their multi-scale neural generators. This protocol demonstrates a hypothesis-driven workflow using HNN to test possible neural mechanisms of neurotherapy-induced EEG biomarkers by optimizing parameters to achieve a fit between simulated and empirical current source waveforms. Corresponding multi-scale cell- and circuit-level activity can then be visualized and quantified, providing validation targets for model predictions in follow up empirical studies. An example is provided which shows how to examine the generating mechanisms of the early event-related potential (ERP) components of an auditory evoked response (P1, N1 and P2) and to assess changes following neural circuit modification due to neurotherapeutic administration. This protocol demonstration enables scientists to design simulation experiments to develop testable predictions on how EEG biomarkers reflect neural circuit mechanisms of example therapeutics. A similar protocol can be applied to study disease mechanisms or other therapies.",
-      "author": "Tolley, N., Zhou, D. W., Soplata, A. E., Daniels, D. S., Duecker, K., Pujol, C. F., Gao, J., Jones, S. R.",
-      "published_date": "2026-04-13T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 195,
-      "reading_time": 1,
-      "created_at": "2026-04-13T19:48:39.347717+00:00",
-      "updated_at": "2026-04-13T20:48:29.499284+00:00",
-      "metadata": {
-        "processed_at": "2026-04-13T20:48:29.499285+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "77c5aebbc94de1ead4c6d57713a12ab0",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.12.717232v1?rss=1",
-      "title": "Multidomain Analysis of Clinical Cognitive Assessments and Imaging Data in Alzheimer's Disease Accurately Predicts Disease Stage and Grade Independent of Amyloid and Tau",
-      "content": "Background Individual clinical cognitive assessments (CCA) for Alzheimer's disease (AD) provide broad disease stratification but are limited in sensitivity and specificity, requiring integration of multiple CCA for optimal disease staging. Recent work from our lab suggests that neuro-metabolic and vascular dysregulation (MVD) occurs early in AD, prior to clinical symptoms, and may provide higher sensitivity and specificity than CCA alone. In this study, we combined three widely accepted CCA with MVD readouts and developed a multimodal ensemble machine learning approach across the AD spectrum to predict disease stage and grade. Methods AD subjects (N=372) across the disease spectrum with imaging (PET:18F-FDG, MRI:T1w, T2 FLAIR, ASL) and CCAs (ADAS-Cog, CDR, MoCA) data were analyzed from ADNI. Imaging data were registered to MNI152+, z-scored relative to cognitively normal controls, and processed for MVD. A clinical-set-enrichment analysis (CSEA) was developed to link regional brain changes with CCA scores, map changes to functional categories, project them into a 3D Cartesian space, and model trajectories, thus revealing at-risk and resilient regions. In addition, an ensemble machine-learning approach was utilized for disease stage classification, and a disease grading scheme across the AD spectrum was developed to further stratify within disease stages. Findings Regional data followed an MVD pattern across AD stages stratified by CSEA scores. Females showed greater stage separation along the CCA axis within each region, indicating faster disease progression. Moreover, progression in at-risk brain regions (e.g., mid- and inf-temporal gyri, amygdala) was associated with longer disease path lengths, whereas progression in resilient brain regions (supramarginal gyrus) was not. Moreover, our classification and grading approach can predict AD stage and grade independent of amyloid-beta and tau with high precision and accuracy. Interpretation A framework was developed to evaluate MVD and CCA variations across the AD spectrum, thereby distinguishing at-risk and resilient brain regions. Distinct disease trajectories were identified, and a new data-driven grading scheme was proposed to highlight the potential for precision medicine and therapeutic evaluation. Funding NIH T32AG071444",
-      "author": "Chong Chie, J. A. K. H., Persohn, S. A., Simcox, O. R., Salama, P., Territo, P. R., for the Alzheimer's Disease Neuroimaging Initiative",
-      "published_date": "2026-04-13T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 324,
-      "reading_time": 1,
-      "created_at": "2026-04-13T19:48:39.347679+00:00",
-      "updated_at": "2026-04-13T20:48:29.499287+00:00",
-      "metadata": {
-        "processed_at": "2026-04-13T20:48:29.499289+00:00",
+        "processed_at": "2026-04-13T22:39:00.582493+00:00",
         "processing_method": "github_actions"
       }
     }
