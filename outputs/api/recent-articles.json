@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-04-18T13:17:29.012392+00:00",
+  "last_updated": "2026-04-18T14:11:40.599363+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "9ef1d0c8f6f8a36c31e38927dae5c847",
+      "url": "https://www.reddit.com/r/Python/comments/1sowf8k/designing_an_inapp_waf_for_python/",
+      "title": "Designing an in-app WAF for Python (Django/Flask/FastAPI) \u2014 feedback on approach",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I\u2019ve been experimenting with building a Python-side request filtering layer that works somewhat like an application-level WAF, but runs inside the app instead of at the infrastructure layer.</p> <p>The idea is not to replace something like Cloudflare or Nginx, but to explore what additional control you get when the logic has access to application context like user roles, session state, and API-specific behavior.</p> <h1>Current approach</h1> <p>Right now I\u2019m using a multi-signal scoring system:</p> <ul> <li>payload inspection (SQLi, XSS patterns, etc.)</li> <li>behavioral signals (rate patterns, repeated requests)</li> <li>identity signals (IP or user-level risk over time)</li> <li>contextual anomalies (request size, structure)</li> </ul> <p>Each signal contributes to a final score, which maps to:<br /> allow / flag / throttle / block</p> <p>There\u2019s also a policy layer that can escalate decisions.</p> <h1>Issue I\u2019ve run into</h1> <p>One problem is that strong deterministic signals (like high-confidence SQLi detection) can get diluted by the scoring system.</p> <p>So something that should clearly be blocked might still fall into a lower band if other signals are weak.</p> <p>I\u2019m currently thinking about separating:</p> <ul> <li>deterministic checks (hard overrides)</li> <li>probabilistic scoring (for gray-area behavior)</li> </ul> <h1>What I\u2019m trying to figure out</h1> <ul> <li>Does this split between deterministic and scoring-based signals make sense in practice?</li> <li>For those who\u2019ve worked with WAFs or request filtering systems, where do you usually draw the line between infrastructure-level protection and application-level logic?</li> <li>In real-world setups, would something like this be useful as an additional layer for handling app-specific behavior, or does that usually get solved differently?</li> </ul> <h1>Design goals</h1> <ul> <li>framework-friendly (Django, Flask, FastAPI)</li> <li>transparent decision-making (debuggable in logs)</li> <li>low overhead per request</li> <li>flexible and extensible rule system (so developers can plug in their own logic)</li> </ul> <h1>Constraints</h1> <ul> <li>no network-level protection</li> <li>no external threat intelligence</li> <li>rules will need tuning over time</li> </ul> <p>Not trying to compete with existing WAFs, just trying to understand if this kind of application-aware layer is useful in practice and how to design it properly.</p> <p>Would really appreciate thoughts from people who\u2019ve built or used similar systems.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Emergency-Rough-6372\"> /u/Emergency-Rough-6372 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1sowf8k/designing_an_inapp_waf_for_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1sowf8k/designing_an_inapp_waf_for_python/\">[comments]</a></span>",
+      "author": "/u/Emergency-Rough-6372",
+      "published_date": "2026-04-18T12:32:47+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 359,
+      "reading_time": 1,
+      "created_at": "2026-04-18T14:10:30.240310+00:00",
+      "updated_at": "2026-04-18T14:10:30.240313+00:00"
+    },
+    {
+      "id": "8558c9a45522f1820d35301802f59de5",
+      "url": "https://isayeter.com/posts/digitalocean-to-hetzner-migration/",
+      "title": "Migrating from DigitalOcean to Hetzner: From $1,432 to $233 With Zero Downtime",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47815774\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-18T13:29:04+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-18T14:10:29.004220+00:00",
+      "updated_at": "2026-04-18T14:10:29.004222+00:00"
+    },
+    {
+      "id": "8558c9a45522f1820d35301802f59de5",
+      "url": "https://isayeter.com/posts/digitalocean-to-hetzner-migration/",
+      "title": "Migrating from DigitalOcean to Hetzner: From $1,432 to $233 With Zero Downtime",
+      "content": "<p>Article URL: <a href=\"https://isayeter.com/posts/digitalocean-to-hetzner-migration/\">https://isayeter.com/posts/digitalocean-to-hetzner-migration/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47815774\">https://news.ycombinator.com/item?id=47815774</a></p>\n<p>Points: 21</p>\n<p># Comments: 7</p>",
+      "author": "yusufusta",
+      "published_date": "2026-04-18T13:29:04+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-18T14:10:27.856831+00:00",
+      "updated_at": "2026-04-18T14:10:27.856839+00:00"
+    },
     {
       "id": "30a1ae5aad51bda6e301a2e7c8ad3c15",
       "url": "https://worksinprogress.co/issue/why-japan-has-such-good-railways/",
@@ -313,58 +361,6 @@
       "reading_time": 1,
       "created_at": "2026-04-18T09:02:40.092148+00:00",
       "updated_at": "2026-04-18T09:02:40.092153+00:00"
-    },
-    {
-      "id": "ca5cd89be301c1fd4c82f350182a1633",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1781080",
-      "title": "NeuralVisionNet: a probabilistic neural process model for continuous visual anticipation",
-      "content": "The ability to anticipate future events continuously is a hallmark of biological vision, yet standard deep learning models often struggle with long-term coherence due to the rigid discretization of time. In this paper, we propose NeuralVisionNet, a probabilistic framework that models visual anticipation as a continuous generative process, drawing inspiration from the predictive coding mechanisms of the hippocampal-entorhinal circuit. Our architecture synergizes hierarchical Video Swin Transformers with Attentive Neural Processes, employing a novel grid-like coding scheme to represent spatiotemporal dynamics as a continuous function rather than a fixed sequence of frames. Furthermore, we introduce a variational global latent variable to encode the \u201cevent gist,\u201d ensuring semantic consistency over extended horizons. Extensive evaluations on KTH, Human 3.6M, and UCF 101 benchmarks demonstrate that NeuralVisionNet significantly outperforms state-of-the-art stochastic baselines in perceptual quality (FVD) and structural fidelity (SSIM), offering a robust computational proof-of-concept for continuous, bio-inspired visual forecasting.",
-      "author": "Xia Chen",
-      "published_date": "2026-03-24T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 146,
-      "reading_time": 1,
-      "created_at": "2026-04-18T09:02:32.228440+00:00",
-      "updated_at": "2026-04-18T09:02:32.228442+00:00"
-    },
-    {
-      "id": "8b5a336cff6886fa409aa6671362d317",
-      "url": "https://sandboxspirit.com/blog/simple-geometry-of-roads/",
-      "title": "The simple geometry behind any road",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47788207\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-16T03:09:50+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-18T09:02:02.151062+00:00",
-      "updated_at": "2026-04-18T09:02:02.151064+00:00"
-    },
-    {
-      "id": "38f1313911579ead0bd1679ed17cf949",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.17.719155v1?rss=1",
-      "title": "Hippocampus consolidates memory in the upstate of cortical sleep slow oscillations",
-      "content": "Cortical slow oscillations (SOs), a hallmark of non-rapid eye movement (NonREM) sleep, have been proposed to support systems memory consolidation by organizing hippocampal-cortical communication. However, whether consolidation requires hippocampal memory processing during SO-defined windows is unclear. Here, we used closed-loop optogenetics to transiently inhibit dorsal hippocampal activity in adult rats (N = 12) during NonREM sleep following object-place association learning, either during cortical SO upstates or outside SOs, compared with a no-stimulation control. Inhibition during SO upstates completely abolished expression of memory at retrieval, despite preserved sleep architecture and intact cortical SO and spindle dynamics. By contrast, inhibition outside SOs preserved memory and only slightly reduced performance compared to the no-stimulation control. Memory impairment from hippocampal inhibition was largely mediated by SO upstates nesting spindles. Our findings provide novel evidence that sleep-dependent systems consolidation requires precisely timed hippocampal-neocortical dialogue.",
-      "author": "Harkotte, M., Inostroza, M., Born, J., Niethard, N.",
-      "published_date": "2026-04-17T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 139,
-      "reading_time": 1,
-      "created_at": "2026-04-18T08:00:41.175248+00:00",
-      "updated_at": "2026-04-18T08:42:21.759846+00:00",
-      "metadata": {
-        "processed_at": "2026-04-18T08:42:21.759856+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
