@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-04-18T14:37:05.000994+00:00",
+  "last_updated": "2026-04-18T15:08:33.238363+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "f6613781563a324912af3cbe2d99a563",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001958?dgcid=rss_sd_all",
+      "title": "Oscillatory network synergy across brain regions and states orchestrating memory consolidation",
+      "content": "<p>Publication date: 22 June 2026</p><p><b>Source:</b> Neuroscience, Volume 605</p><p>Author(s): Jiangnan Wu, Zunsai Feng, Ziqing Xu, Gongming Wang, Mengyuan Zhang</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroscience Journal",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 18,
+      "reading_time": 1,
+      "created_at": "2026-04-18T15:08:01.902699+00:00",
+      "updated_at": "2026-04-18T15:08:01.902700+00:00"
+    },
+    {
+      "id": "171f1d9b62f98759a9e7350527321dac",
+      "url": "https://www.nature.com/articles/s41539-026-00426-6",
+      "title": "Effects of Tai Chi on attentional bias in men with methamphetamine use disorder",
+      "content": "",
+      "author": "",
+      "published_date": "2026-04-18T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-04-18T15:07:56.988183+00:00",
+      "updated_at": "2026-04-18T15:07:56.988185+00:00"
+    },
+    {
+      "id": "765fe0f12e9f0a9b41ac30c8f1cbc716",
+      "url": "https://www.nature.com/articles/s41598-026-48890-9",
+      "title": "Improved visualization of perivascular spaces on T2-weighted imaging with deep learning-based denoising and super-resolution reconstruction",
+      "content": "",
+      "author": "",
+      "published_date": "2026-04-18T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-04-18T15:07:56.988127+00:00",
+      "updated_at": "2026-04-18T15:07:56.988129+00:00"
+    },
     {
       "id": "9ef1d0c8f6f8a36c31e38927dae5c847",
       "url": "https://www.reddit.com/r/Python/comments/1sowf8k/designing_an_inapp_waf_for_python/",
@@ -333,58 +381,6 @@
         "processed_at": "2026-04-18T10:35:53.484463+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "f83d6a0f0fa6b351ac01ecdd2bac8d84",
-      "url": "https://github.com/yapstudios/sfsym",
-      "title": "Show HN: Sfsym \u2013 Export Apple SF Symbols as Vector SVG/PDF/PNG",
-      "content": "<p>I found myself reaching for SF Symbols' 'Copy Image As\u2026' quite often during agentic design sessions, so I made a command-line tool that the agent can use by itself. It exports Apple SF Symbols as SVG, PDF, or PNG.<p>The vector paths come directly from macOS's symbol renderer. Internally it reaches a private ivar on NSSymbolImageRep to get the CUINamedVectorGlyph, draws into a CGPDFContext, then walks the PDF content stream back out as SVG `d` commands. The output matches what the system draws, rather than an approximation traced from rasters.<p>A few things about it:<p>- Every subcommand accepts `--json`, and `sfsym schema` returns a machine-readable description of the whole CLI.\n- Symbol enumeration reads the OS's Assets.car BOM tree, so the list of 8,300+ names stays current with macOS updates without a version table in the binary.\n- Each SVG `` carries a `data-layer` attribute, so you can retheme in CSS without touching geometry.<p>It's been saving me a bunch of clicking. Please let me know if you have any other ideas for it.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47812964\">https://news.ycombinator.com/item?id=47812964</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-      "author": "olliewagner",
-      "published_date": "2026-04-18T03:44:54+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 182,
-      "reading_time": 1,
-      "created_at": "2026-04-18T10:08:08.709281+00:00",
-      "updated_at": "2026-04-18T10:35:53.484467+00:00",
-      "metadata": {
-        "processed_at": "2026-04-18T10:35:53.484468+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a828ad46bc5c7bf5fccd00a285c1a63b",
-      "url": "https://www.nature.com/articles/s41398-026-04037-y",
-      "title": "Divergence of C4A and C4B in first-episode psychosis: Insights from CSF and plasma immune profiling",
-      "content": "",
-      "author": "",
-      "published_date": "2026-04-18T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-18T09:02:40.092266+00:00",
-      "updated_at": "2026-04-18T09:02:40.092268+00:00"
-    },
-    {
-      "id": "18b70286c4e75d437f4dcb8f5c157974",
-      "url": "https://www.nature.com/articles/s41467-026-72107-2",
-      "title": "A midbrain circuit for high-fat-food induced conditioned taste aversion",
-      "content": "",
-      "author": "",
-      "published_date": "2026-04-18T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-18T09:02:40.092148+00:00",
-      "updated_at": "2026-04-18T09:02:40.092153+00:00"
     }
   ]
 }
