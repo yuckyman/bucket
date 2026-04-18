@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-04-18T22:37:32.633892+00:00",
+  "last_updated": "2026-04-18T23:37:47.749511+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "cd74371bd50462836d0bf184794f9346",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1806605",
+      "title": "ActionX: pre-training action experts with reinforcement learning for vision-language action models",
+      "content": "Vision-Language Action (VLA) models have enabled language-driven robotic manipulation by integrating language instructions, visual perception, and action generation. However, existing VLA approaches heavily rely on large-scale human demonstration datasets, which leads to substantial data collection and training costs. To address this, we propose ActionX, a pretraining framework that learns Action eXperts using reinforcement learning while leveraging a frozen, pretrained Vision-Language Model (VLM) backbone. The pretrained action expert is then integrated with the vision-language backbone and fine-tuned end-to-end using a small amount of expert data to align perception, language, and action for downstream manipulation tasks. We evaluate ActionX on the LIBERO and Meta-World benchmarks as well as real-world robotic manipulation scenarios. Experimental results show that ActionX achieves +16% success rate compare to state-of-the-art VLA models trained with large-scale demonstrations, while requiring only less than 100 expert demonstrations for real robot tasks for whole training phase. This performance is achieved by establishing an optimized action expert model through reinforcement learning, which significantly enhances VLA training efficiency.",
+      "author": "Enhong Chen",
+      "published_date": "2026-04-14T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 164,
+      "reading_time": 1,
+      "created_at": "2026-04-18T23:37:06.592388+00:00",
+      "updated_at": "2026-04-18T23:37:06.592390+00:00"
+    },
+    {
+      "id": "051b00eb368bb3d8d8ce021fb514a810",
+      "url": "https://fmhy.net/posts/changelog-sites",
+      "title": "Changelog Sites",
+      "content": "<p><strong><a href=\"https://fmhy-tracker.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">https://fmhy-tracker.pages.dev/</a></strong></p>\n<p>This covers links that have been added, updated, or removed by watching GitHub for changes.</p>\n<hr />\n<p>Note that we also make monthly posts on both reddit + our site with the bigger changes, and you can also follow them yourself by joining our <a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Discord</a>, or watching the <a href=\"https://github.com/fmhy/edit/commits/main/\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub.</p>",
+      "author": "",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 62,
+      "reading_time": 1,
+      "created_at": "2026-04-18T23:36:41.358554+00:00",
+      "updated_at": "2026-04-18T23:36:41.358556+00:00"
+    },
     {
       "id": "d868a9e9e04badbdafb2be9edad6bb18",
       "url": "https://fset.common-lisp.dev/Modern-CL/Top_html/index.html",
@@ -333,42 +365,6 @@
         "processed_at": "2026-04-18T20:30:34.251644+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "d83c827600536489f945a623df3f62c4",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718652v1?rss=1",
-      "title": "Whole-fingertip 3D Skin Surface Deformation under Tangential Loading",
-      "content": "During tactile interaction, skin deformation drives the widespread activation of tactile afferents distributed across the fingertip. Yet the full spatial extent and evolution of these deformations remain largely unquantified. Using high-resolution 3D imaging, we reconstructed the complete volar surface of the fingertip under progressive tangential loadings typical of object manipulation. We show that much of the deformation occurs in the out-of-contact regions, accounting for approximately 70% of the total deformation energy. This deformation consistently initiates in the peripheral zones and smoothly propagates inward as partial slip develops. Tangential loading also induces pronounced directional asymmetries and local curvature changes, reflecting both surface and bulk tissue deformation. Furthermore, we observe localized strain patterns consistent with skin wrinkling across all participants, with individual variations in intensity and location driven by distinct frictional and biomechanical properties. This dataset provides a strong foundation for developing highly accurate biomechanical models and for linking fingertip mechanics to tactile neural encoding.",
-      "author": "Doumont, D., Lefevre, P., Delhaye, B. P.",
-      "published_date": "2026-04-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 153,
-      "reading_time": 1,
-      "created_at": "2026-04-18T19:23:41.541685+00:00",
-      "updated_at": "2026-04-18T20:30:34.251647+00:00",
-      "metadata": {
-        "processed_at": "2026-04-18T20:30:34.251648+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5e82be054d81d70eb8305086c10b5255",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718626v1?rss=1",
-      "title": "Broadband gamma-band EEG changes during magnetophosphene perception induced by 20 Hz magnetic field stimulation",
-      "content": "Objective. Magnetophosphenes are visual percepts induced by extremely low-frequency magnetic fields (ELF-MF; <300 Hz), yet their EEG correlates remain poorly characterized and are not reliably captured by classical low-frequency markers. We tested whether magnetophosphene perception is associated with broadband high-frequency EEG changes rather than focal oscillatory effects. Approach. EEG was recorded in N=13 healthy volunteers during 20 Hz sinusoidal magnetic-field exposure delivered using transcranial alternating magnetic stimulation (tAMS) in a global-head configuration. Three conditions were analyzed: no exposure (0 mT), subthreshold (5 mT), and suprathreshold (50 mT). Gamma-band activity (30-80 Hz) was quantified using complementary spectral approaches, including aperiodic-adjusted measures. Main results. Perception reports sharply dissociated the three conditions, with frequent perception at 50 mT only. Suprathreshold stimulation was associated with spatially distributed increases in gamma-band activity over frontal and occipital electrodes. These effects persisted after aperiodic correction using two independent parameterization methods and did not exhibit a consistent narrowband peak, indicating broadband high-frequency changes. Significance. Magnetophosphene perception is not reliably captured by focal low-frequency EEG markers but is instead associated with distributed broadband high-frequency activity. These findings challenge standard assumptions derived from classical visual paradigms and suggest that perception under magnetic stimulation reflects large-scale, state-dependent neural dynamics.",
-      "author": "Moulin, M., Fresnel, E., Modolo, J., Bouisset, N., Ramdani, S.",
-      "published_date": "2026-04-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 198,
-      "reading_time": 1,
-      "created_at": "2026-04-18T19:23:41.541645+00:00",
-      "updated_at": "2026-04-18T19:23:41.541650+00:00"
     }
   ]
 }

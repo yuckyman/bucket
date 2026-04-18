@@ -1,5 +1,37 @@
 [
   {
+    "id": "cd74371bd50462836d0bf184794f9346",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1806605",
+    "title": "ActionX: pre-training action experts with reinforcement learning for vision-language action models",
+    "content": "Vision-Language Action (VLA) models have enabled language-driven robotic manipulation by integrating language instructions, visual perception, and action generation. However, existing VLA approaches heavily rely on large-scale human demonstration datasets, which leads to substantial data collection and training costs. To address this, we propose ActionX, a pretraining framework that learns Action eXperts using reinforcement learning while leveraging a frozen, pretrained Vision-Language Model (VLM) backbone. The pretrained action expert is then integrated with the vision-language backbone and fine-tuned end-to-end using a small amount of expert data to align perception, language, and action for downstream manipulation tasks. We evaluate ActionX on the LIBERO and Meta-World benchmarks as well as real-world robotic manipulation scenarios. Experimental results show that ActionX achieves +16% success rate compare to state-of-the-art VLA models trained with large-scale demonstrations, while requiring only less than 100 expert demonstrations for real robot tasks for whole training phase. This performance is achieved by establishing an optimized action expert model through reinforcement learning, which significantly enhances VLA training efficiency.",
+    "author": "Enhong Chen",
+    "published_date": "2026-04-14T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 164,
+    "reading_time": 1,
+    "created_at": "2026-04-18T23:37:06.592388+00:00",
+    "updated_at": "2026-04-18T23:37:06.592390+00:00"
+  },
+  {
+    "id": "051b00eb368bb3d8d8ce021fb514a810",
+    "url": "https://fmhy.net/posts/changelog-sites",
+    "title": "Changelog Sites",
+    "content": "<p><strong><a href=\"https://fmhy-tracker.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">https://fmhy-tracker.pages.dev/</a></strong></p>\n<p>This covers links that have been added, updated, or removed by watching GitHub for changes.</p>\n<hr />\n<p>Note that we also make monthly posts on both reddit + our site with the bigger changes, and you can also follow them yourself by joining our <a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Discord</a>, or watching the <a href=\"https://github.com/fmhy/edit/commits/main/\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub.</p>",
+    "author": "",
+    "published_date": "2025-12-12T00:00:00+00:00",
+    "source": "Fmhy",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 62,
+    "reading_time": 1,
+    "created_at": "2026-04-18T23:36:41.358554+00:00",
+    "updated_at": "2026-04-18T23:36:41.358556+00:00"
+  },
+  {
     "id": "d868a9e9e04badbdafb2be9edad6bb18",
     "url": "https://fset.common-lisp.dev/Modern-CL/Top_html/index.html",
     "title": "Modern Common Lisp with FSET",
@@ -17094,37 +17126,5 @@
     "reading_time": 1,
     "created_at": "2026-04-14T05:26:00.065551+00:00",
     "updated_at": "2026-04-14T05:26:00.065557+00:00"
-  },
-  {
-    "id": "d2bbd1c80446935741c49945bd422efe",
-    "url": "https://www.nature.com/articles/s41467-026-71600-y",
-    "title": "Temporal predictions shape somatosensory perception",
-    "content": "",
-    "author": "",
-    "published_date": "2026-04-14T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-04-14T05:25:58.770626+00:00",
-    "updated_at": "2026-04-14T05:25:58.770628+00:00"
-  },
-  {
-    "id": "2ee6b6d8de9ea512eeadc3bebc4129a6",
-    "url": "https://www.nature.com/articles/s42003-026-09994-0",
-    "title": "The functional neuroanatomy of event-based and time-based prospective memory, and its improvement",
-    "content": "",
-    "author": "",
-    "published_date": "2026-04-14T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-04-14T05:25:58.770602+00:00",
-    "updated_at": "2026-04-14T05:25:58.770608+00:00"
   }
 ]
