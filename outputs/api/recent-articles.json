@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-04-18T04:29:20.960026+00:00",
+  "last_updated": "2026-04-18T05:09:29.385504+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "51e32f5ee3e0fa9607d3e5dd6700c643",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.15.718683v1?rss=1",
+      "title": "Infra-slow brain-heart-gut electrophysiological interactions reveal a coordinated multisystem physiological network in humans",
+      "content": "Growing evidence indicates that brain continuously interacts with other physiological systems through neural and non-neural pathways. The brain-heart and brain-gut axes play a central role in homeostasis, allostasis and behaviour, but also in cognitive aspects including emotion and decision-making. Disruptions in these axes have been linked to a wide range of cardiovascular, neurological, and psychiatric disorders. Despite this evidence, triadic crosstalk between the brain, heart, and gut remains largely unexplored. Brain activity, cardiac autonomic fluctuations, and gastric rhythms all exhibit slow temporal components in resting state, suggesting that brain-heart-gut electrophysiological interactions may occur over timescales from the infra-slow (0.01-0.1 Hz) physiological range. Using non-invasive electrophysiological recordings from 28 healthy participants at rest, we extracted time-varying power dynamics describing the activity of the three organs: brain alpha power, cardiac sympathetic and parasympathetic indices, and the power of the gastric rhythm. Statistical associations among these organs were quantified using the maximal information coefficient across the extended temporal delay range. Physiological interactions were confirmed using surrogate-based testing, which allowed us to construct the network topology of interactions between the three organs. Our findings show that triadic brain-heart-gut interactions form a multi-directional network at infra-slow timescales, shaping resting state activity. This study offers one of the first insights into the physiology of brain-heart-gut interplay, providing a methodological baseline for the development of more comprehensive biomarkers based on network dynamics capable of linking pathological conditions to dysregulation across multiple organ systems.",
+      "author": "Sitti, G., Pitti, L., Candia-Rivera, D.",
+      "published_date": "2026-04-17T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 236,
+      "reading_time": 1,
+      "created_at": "2026-04-18T05:08:58.812038+00:00",
+      "updated_at": "2026-04-18T05:08:58.812045+00:00"
+    },
+    {
+      "id": "b3e6192a8b646f0b1986fe02a62d84e2",
+      "url": "https://www.nature.com/articles/s41598-026-46996-8",
+      "title": "Temporal point process modeling of aggressive behavior onset in psychiatric inpatient youths with autism",
+      "content": "",
+      "author": "",
+      "published_date": "2026-04-18T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-04-18T05:08:57.405517+00:00",
+      "updated_at": "2026-04-18T05:08:57.405523+00:00"
+    },
+    {
+      "id": "7e7ca8e834954cb1f392ab3c612093c1",
+      "url": "https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html",
+      "title": "Towards trust in Emacs",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47778938\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-15T13:49:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-18T05:08:18.330947+00:00",
+      "updated_at": "2026-04-18T05:08:18.330948+00:00"
+    },
+    {
+      "id": "d9814c2a4c14722afa565e28a09d5bdd",
+      "url": "https://victorpoughon.github.io/interval-calculator/",
+      "title": "Show HN: I made a calculator that works over disjoint sets of intervals",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47812341\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-18T01:15:43+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-18T05:08:18.330926+00:00",
+      "updated_at": "2026-04-18T05:08:18.330928+00:00"
+    },
+    {
+      "id": "d9814c2a4c14722afa565e28a09d5bdd",
+      "url": "https://victorpoughon.github.io/interval-calculator/",
+      "title": "Show HN: I made a calculator that works over disjoint sets of intervals",
+      "content": "<p>I've been studying interval arithmetic for the past few weeks and it's a really interesting field because while there is a ton of super interesting research published over the past decades, it has never really gotten the recognition that it deserves, IMO.<p>One reason for this is that standard interval arithmetic has really poor handling of division by intervals containing zero. If you compute 1 / [-1, 2] in regular interval arithmetic, you get either [-\u221e, +\u221e], or you have to say that the operation is undefined. Both solutions are virtually useless. The real answer of course is [-\u221e, -1] U [0.5, +\u221e]: i.e. a union of two disjoint intervals.<p>This is useful because you can confidently exclude a non empty set of the real numbers ([-1, 0.5]) from the set of possible values that you can get by dividing 1 by a number between -1 and 2.<p>But this definition of interval division yields a value that is not an interval. This is a problem if you want to define a closed arithmetic system, where you can build and evaluate arbitrary expression over interval values.<p>(This behavior extends to any non continuous function like tan() for example, which is implemented in my project - not without difficulties!)<p>Well the obvious solution is to define your arithmetic over disjoint unions of intervals. This is the subject of a 2017 paper called \"Interval Unions\" by by Schichl, H., Domes, F., Montanher, T. and Kofler, K..<p>This open-source project I made implements interval union arithmetic in TypeScript in the form of a simple interactive calculator, so you can try it out for yourself! The underlying TypeScript library is dependency free and implements interval union arithmetic over IEEE 754 double precision floats (JS native number type) with outward rounding. This guarantees accuracy of interval results in the presence of rounding issue inherent to floating point.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47812341\">https://news.ycombinator.com/item?id=47812341</a></p>\n<p>Points: 16</p>\n<p># Comments: 1</p>",
+      "author": "fouronnes3",
+      "published_date": "2026-04-18T01:15:43+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 317,
+      "reading_time": 1,
+      "created_at": "2026-04-18T05:08:17.091596+00:00",
+      "updated_at": "2026-04-18T05:08:17.091608+00:00"
+    },
     {
       "id": "a160c25798588133f8dc84d1f0965a90",
       "url": "https://www.reddit.com/r/Python/comments/1sogvkj/live_code_reloading/",
@@ -285,106 +365,6 @@
       "reading_time": 1,
       "created_at": "2026-04-17T22:40:36.130742+00:00",
       "updated_at": "2026-04-17T22:40:36.130751+00:00"
-    },
-    {
-      "id": "6e9c871217ea87f3f47283d36fc8f901",
-      "url": "https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead",
-      "title": "Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47810507\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-17T21:00:08+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-17T21:42:55.057528+00:00",
-      "updated_at": "2026-04-17T22:33:51.752864+00:00",
-      "metadata": {
-        "processed_at": "2026-04-17T22:33:51.752876+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6e9c871217ea87f3f47283d36fc8f901",
-      "url": "https://www.ycombinator.com/companies/arc-prize-foundation/jobs/AKZRZDN-platform-engineer-benchmark-lead",
-      "title": "Arc Prize Foundation (YC W26) Is Hiring a Platform Engineer for ARC-AGI-4",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47810507\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-17T21:00:08+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-17T21:42:55.057528+00:00",
-      "updated_at": "2026-04-17T22:33:51.752864+00:00",
-      "metadata": {
-        "processed_at": "2026-04-17T22:33:51.752876+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c838535f416b10de11de93984acfa715",
-      "url": "https://miguelconner.substack.com/p/im-coding-by-hand",
-      "title": "I'm spending 3 months coding the old way",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47807583\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-17T16:19:53+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-17T21:42:55.057471+00:00",
-      "updated_at": "2026-04-17T22:33:51.752879+00:00",
-      "metadata": {
-        "processed_at": "2026-04-17T22:33:51.752881+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c838535f416b10de11de93984acfa715",
-      "url": "https://miguelconner.substack.com/p/im-coding-by-hand",
-      "title": "I'm spending 3 months coding the old way",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47807583\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-17T16:19:53+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-17T21:42:55.057471+00:00",
-      "updated_at": "2026-04-17T22:33:51.752879+00:00",
-      "metadata": {
-        "processed_at": "2026-04-17T22:33:51.752881+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "237ee8b983842dea22697da2b344581b",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718477v1?rss=1",
-      "title": "Translational insights into canine dorsal root ganglia cell types using cross-species comparisons",
-      "content": "Chronic pain accounts for nearly half of owner-reported canine euthanasia decisions, yet dogs remain underutilized as a large-animal model for studying pain and developing translational therapeutics. Here, we present a canine dorsal root ganglion (DRG) cell atlas generated from six donors, representing five breeds, both sexes, and three spinal segments. Our dataset comprises 3,026 neurons and 11,734 non-neuronal cells and resolves 15 neuronal subtypes that map cleanly onto A- and C-fiber classes. We further identify eight major non-neuronal subtypes, including glial, vascular, and immune populations and characterize neuronal and non-neuronal expression of physiologically relevant neuropeptides, receptors, and ion channels. We identify region-specific differences in subtype composition between lumbar and sacral DRGs, with transcriptional programs suggestive of enhanced tactile-associated signaling in lumbar DRGs and heightened nociception-associated signaling in sacral DRGs. Cross-species comparisons reveal that canine DRG subtypes are broadly conserved with human and mouse, while also exhibiting canine-specific and canine-human shared molecular features relevant for translation. Together, this atlas serves as a valuable resource for understanding canine sensory neurobiology, comparing DRG organization across mammals, and leveraging dogs as a translational model for pain research and therapeutic development.",
-      "author": "Jankelunas, L., Bhuiyan, S. A., MacMillan, H. J., Cecere, T., Bertke, A. S., Rossmeisl, J. H., Renthal, W., Parker, R. L.",
-      "published_date": "2026-04-17T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 186,
-      "reading_time": 1,
-      "created_at": "2026-04-17T20:46:45.275958+00:00",
-      "updated_at": "2026-04-17T22:33:51.752890+00:00",
-      "metadata": {
-        "processed_at": "2026-04-17T22:33:51.752892+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
