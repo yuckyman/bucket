@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-04-23T09:22:05.515276+00:00",
-  "pending_count": 682,
-  "processed_count": 318,
+  "last_updated": "2026-04-23T11:03:51.372228+00:00",
+  "pending_count": 680,
+  "processed_count": 320,
   "pending_articles": [
+    {
+      "id": "dff06ba751db1d479471fd4c3e14f1d8",
+      "url": "https://simonomi.dev/blog/color-code-your-bytes/",
+      "title": "Your hex editor should color-code bytes",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47846688\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-21T09:52:09+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-23T10:06:01.670362+00:00",
+      "updated_at": "2026-04-23T10:06:01.670363+00:00"
+    },
+    {
+      "id": "39255be91c9c67edb83f944287ca6f33",
+      "url": "https://www.youtube.com/watch?v=o1Zsb1IijYY",
+      "title": "FIU Student Arrested After Joking About Netanyahu on WhatsApp",
+      "content": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=o1Zsb1IijYY\">https://www.youtube.com/watch?v=o1Zsb1IijYY</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47873646\">https://news.ycombinator.com/item?id=47873646</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
+      "author": "enaaem",
+      "published_date": "2026-04-23T09:12:00+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-23T10:06:00.510396+00:00",
+      "updated_at": "2026-04-23T10:06:00.510405+00:00"
+    },
     {
       "id": "aa8f0ab48273d4ff188bec9f94bbc335",
       "url": "https://antiz.fr/blog/archlinux-now-has-a-reproducible-docker-image/",
@@ -130,41 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-04-23T06:07:38.782393+00:00",
       "updated_at": "2026-04-23T06:07:38.782395+00:00"
-    },
-    {
-      "id": "c882fc8832d85379b71ba7fe1338779b",
-      "url": "https://arxiv.org/abs/2604.19953",
-      "title": "LatentGandr: Visual Exploration of Generative AI Latent Space via Local Embeddings",
-      "content": "arXiv:2604.19953v1 Announce Type: new \nAbstract: Generative AI has demonstrated significant potential in creative design, enabling the rapid generation of visual content and imaginative concepts. Although deep AI models achieve effective featurization in the latent space, navigating the space remains a challenge. Current techniques, such as GANSlider and SliderSpace, use multiple sliders to generate high-dimensional vectors in generative AI's latent space. Despite applying (global) PCA to reduce the number of sliders, these approaches struggle with scalability and usability as the number of control dimensions increases. In this paper, we introduce LatentGandr, a visual analytics technique that facilitates latent space exploration by extracting locally linear dimensions from embeddings in high-dimensional latent spaces. By analyzing the topology and local curvature of the embeddings, LatentGandr automatically identifies local neighborhoods and computes their principal components using localized PCA. These local principal components are visualized as interactive image grids, allowing users to efficiently explore and control the generative process, providing an intuitive means to refine the generation of novel content and concepts. To evaluate the effectiveness of LatentGandr, we conducted a study comparing it to GANSlider, the current state-of-the-art visualization interface for generative AI models. The results offer insights into how localized exploration techniques can enhance user interaction with these models.",
-      "author": "Mingwei Li, Suyang Li, Daisuke Sakurai, Bei Wang, Remco Chang",
-      "published_date": "2026-04-23T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 205,
-      "reading_time": 1,
-      "created_at": "2026-04-23T06:07:38.782363+00:00",
-      "updated_at": "2026-04-23T06:07:38.782365+00:00"
-    },
-    {
-      "id": "1a43014b13dcb0efc2022a79c81a4fc9",
-      "url": "https://arxiv.org/abs/2604.19931",
-      "title": "Hint-Writing with Deferred AI Assistance: Fostering Critical Engagement in Data Science Education",
-      "content": "arXiv:2604.19931v1 Announce Type: new \nAbstract: Generating hints for incorrect code is a cognitively demanding task that fosters learning and metacognitive development. This study investigates three designs for personalized, scalable, and reflective hint-writing activities within a data science course: (i) writing a hint independently, (ii) writing a hint with on-demand AI assistance, and (iii) deferred AI assistance, in which students first write a hint independently and then revise it with the help of an AI-generated one. We examine how AI support can scaffold the learning process without diminishing students' productive cognitive effort. Through a randomized controlled experiment with graduate-level students (N=97), we found that deferring AI assistance leads to the highest-quality hints. Further, this design helps students identify a wide range of mistakes they otherwise struggle to identify without any AI assistance. Students valued these activities as opportunities to practice debugging and critically engage with AI outputs--skills that are now critical for learners to acquire as programming becomes increasingly automated and the use of AI for learning grows. Our findings also highlight key considerations for designing student-AI collaborative learning experiences to sustain student engagement, maintain appropriate cognitive load, and mitigate negative effects of AI, such as introducing redundancies and extraneous information into student work.",
-      "author": "Anjali Singh, Christopher Brooks, Warren Li, Juho Kim, Xu Wang",
-      "published_date": "2026-04-23T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 203,
-      "reading_time": 1,
-      "created_at": "2026-04-23T06:07:38.782327+00:00",
-      "updated_at": "2026-04-23T06:07:38.782329+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "63a34a237fcef48d775e86c1aecd8fb9",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1748481",
+      "title": "A Physics Informed Neural Network (PINN) framework for fractional order modeling of Alzheimer's disease",
+      "content": "This study presents a novel fractional order model of Alzheimer's disease (mental disorder) using the Caputo derivative to accurately capture long term memory and hereditary effects in neurodegeneration. The mathematical model incorporates key pathological constituents including neurons, amyloid beta (A\u03b2), tau proteins and microglial responses, allowing detailed simulation of their dynamic interactions. Fundamental properties of the model, including positivity, boundedness, invariant regions and equilibrium points, are rigorously analyzed to ensure biological feasibility. Sensitivity analysis identifies amyloid toxicity as the most influential driver of neuronal loss underscoring its central role in AD progression. Furthermore, a Physics Informed Neural Network (PINN) is developed to approximate system dynamics from noisy observations while ensuring compliance with biological and physical constraints. Compared to standard neural networks the PINN exhibits superior accuracy and robustness especially under data scarcity. By integrating fractional calculus, optimal control and machine learning, this work advances computational modeling of Alzheimer's disease and offers insights into therapeutic optimization.",
+      "author": "Mohamed Hafez",
+      "published_date": "2026-02-18T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 155,
+      "reading_time": 1,
+      "created_at": "2026-04-23T10:06:33.719774+00:00",
+      "updated_at": "2026-04-23T11:03:51.264273+00:00",
+      "metadata": {
+        "processed_at": "2026-04-23T11:03:51.264284+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "fa70e1685d256626287d4c3999b40913",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1821637",
+      "title": "Correction: A Physics Informed Neural Network (PINN) framework for fractional order modeling of Alzheimer's disease",
+      "content": "",
+      "author": "Mohamed Hafez",
+      "published_date": "2026-03-19T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-04-23T10:06:33.719690+00:00",
+      "updated_at": "2026-04-23T11:03:51.264288+00:00",
+      "metadata": {
+        "processed_at": "2026-04-23T11:03:51.264290+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "faecf4bbe91af3e4bfd7a71700ece774",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae54cf",
+      "title": "Solving the problem of inception: a cross-species perspective on strategies for a mechanistic refinement of intracortical microstimulation",
+      "content": "Objective. Microstimulation delivers electrical pulses directly into the brain, with one of its promises being to restore lost senses to millions of people. Yet a fundamental challenge remains: how do intracortical microstimulation (ICMS) patterns engage neural circuits to achieve the inception of specific experiences, such as vivid sensory percepts of touch and vision? Here, we define \u2018inception\u2019 as the initiation of percepts evoked by microstimulation through the mapping of stimulation to circuit-level activity that results in sensory experiences. Approach. This perspective proposes an integrated research framework that combines Reverse Translation, Forward Translation, and computational neuroscience to bridge insights between clinical observations and high-resolution animal studies. Framework. Our framework envisions the development and evaluation of ICMS strategies within a cross-species system that narrows the range of plausible underlying neural mechanisms and the set of evoked perceptual outcomes. Reverse Translation uses human perceptual reports about phosphenes, tones, and touch to guide investigations in rodents and non-human primates, mapping the cell types and circuits underlying each percept. Forward Translation leverages these biological insights to design refined ICMS protocols for selective circuit engagement. Bidirectional Translation weaves these approaches together through computational neuroscience, ensuring that experimental observations iteratively and continuously refine one another across species and experimental modalities. Significance. This integrated strategy aims to transform microstimulation research into a dynamic dialogue between fundamental science and human experience. Harnessing the Bidirectional Translation Framework can accelerate therapies that enhance quality of life for people with sensory or motor impairments, and contribute more broadly to systems neuroscience by uncovering the mechanisms by which causal manipulation changes activity in neurons and networks.",
+      "author": "Takashi D Y Kozai, Bryan M Hooks, Alberto L Vazquez, Omar A Gharbawie, Chengcheng Huang, Emily Graczyk, Matthew A Smith, Dawn M Taylor, Ana G Hernandez-Reynoso, Alex John London, Paul J Ford, Eileen P Anderson, Xing Chen, Amy I Flick, Lisa S Parker and Robert A Gaunt",
+      "published_date": "2026-04-22T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 263,
+      "reading_time": 1,
+      "created_at": "2026-04-23T10:06:26.206819+00:00",
+      "updated_at": "2026-04-23T11:03:51.264293+00:00",
+      "metadata": {
+        "processed_at": "2026-04-23T11:03:51.264295+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "848685182d540b2915960ffe345c54e3",
+      "url": "https://www.reddit.com/r/Python/comments/1stctm7/python_beginners_before_college_starts/",
+      "title": "Python beginners, before college starts",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello guys, so if you are like really a beginner. Like starting Python as your first programming language and want to connect with like wise people.</p> <p>I'm the one you can connect with...</p> <p>I'm using the CS50P lectures on YouTube.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RollExpert8192\"> /u/RollExpert8192 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1stctm7/python_beginners_before_college_starts/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1stctm7/python_beginners_before_college_starts/\">[comments]</a></span>",
+      "author": "/u/RollExpert8192",
+      "published_date": "2026-04-23T08:30:08+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 61,
+      "reading_time": 1,
+      "created_at": "2026-04-23T10:06:02.871134+00:00",
+      "updated_at": "2026-04-23T11:03:51.264297+00:00",
+      "metadata": {
+        "processed_at": "2026-04-23T11:03:51.264299+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "d92d93c82d4ad7fc5ccd57b157bad52c",
+      "url": "https://david.alvarezrosa.com/posts/fundamental-theorem-of-calculus/",
+      "title": "Fundamental Theorem of Calculus",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47871246\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-23T01:09:56+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-23T10:06:01.670422+00:00",
+      "updated_at": "2026-04-23T11:03:51.264301+00:00",
+      "metadata": {
+        "processed_at": "2026-04-23T11:03:51.264303+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "eb334619c36fc3b0fbc99da772690143",
       "url": "https://www.biorxiv.org/content/10.64898/2026.04.20.719573v1?rss=1",
@@ -262,106 +362,6 @@
       "updated_at": "2026-04-23T09:22:05.392969+00:00",
       "metadata": {
         "processed_at": "2026-04-23T09:22:05.392971+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "488a1c0ec2e32c6d68fe5fd266adfd65",
-      "url": "https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/",
-      "title": "Ars Technica: Our newsroom AI policy",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47872452\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-23T05:14:05+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-23T08:19:56.661864+00:00",
-      "updated_at": "2026-04-23T09:22:05.392969+00:00",
-      "metadata": {
-        "processed_at": "2026-04-23T09:22:05.392971+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "07fb1a513d5b3166cccac61c9526cbc8",
-      "url": "https://www.nature.com/articles/s41467-026-71919-6",
-      "title": "Suppression of astrocyte BMP signaling improves molecular signatures and functional deficits in a fragile X syndrome mouse model",
-      "content": "",
-      "author": "",
-      "published_date": "2026-04-23T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-23T03:55:17.831985+00:00",
-      "updated_at": "2026-04-23T06:02:43.771445+00:00",
-      "metadata": {
-        "processed_at": "2026-04-23T06:02:43.771455+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d2ff7a7d802b3337d9f6591e7db5ee07",
-      "url": "https://www.nature.com/articles/s41467-026-72262-6",
-      "title": "Type I interferon drives T cell responses to amyloid beta in the central nervous system",
-      "content": "",
-      "author": "",
-      "published_date": "2026-04-23T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-23T03:55:17.831960+00:00",
-      "updated_at": "2026-04-23T06:02:43.771459+00:00",
-      "metadata": {
-        "processed_at": "2026-04-23T06:02:43.771461+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6f0cd08b1439be62b694af2ebf9d9965",
-      "url": "https://www.reddit.com/r/Python/comments/1st2m5s/thursday_daily_thread_python_careers_courses_and/",
-      "title": "Thursday Daily Thread: Python Careers, Courses, and Furthering Education!",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: Professional Use, Jobs, and Education \ud83c\udfe2</h1> <p>Welcome to this week's discussion on Python in the professional world! This is your spot to talk about job hunting, career growth, and educational resources in Python. Please note, this thread is <strong>not for recruitment</strong>.</p> <hr /> <h2>How it Works:</h2> <ol> <li><strong>Career Talk</strong>: Discuss using Python in your job, or the job market for Python roles.</li> <li><strong>Education Q&amp;A</strong>: Ask or answer questions about Python courses, certifications, and educational resources.</li> <li><strong>Workplace Chat</strong>: Share your experiences, challenges, or success stories about using Python professionally.</li> </ol> <hr /> <h2>Guidelines:</h2> <ul> <li>This thread is <strong>not for recruitment</strong>. For job postings, please see <a href=\"/r/PythonJobs\">r/PythonJobs</a> or the recruitment thread in the sidebar.</li> <li>Keep discussions relevant to Python in the professional and educational context.</li> </ul> <hr /> <h2>Example Topics:</h2> <ol> <li><strong>Career Paths</strong>: What kinds of roles are out there for Python developers?</li> <li><strong>Certifications</strong>: Are Python certifications worth it?</li> <li><strong>Course Recommendations</strong>: Any good advanced Python courses to recommend?</li> <li><strong>Workplace Tools</strong>: What Python libraries are indispensable in your professional work?</li> <li><strong>Interview Tips</strong>: What types of Python questions are commonly asked in interviews?</li> </ol> <hr /> <p>Let's help each other grow in our careers and education. Happy discussing! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1st2m5s/thursday_daily_thread_python_careers_courses_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1st2m5s/thursday_daily_thread_python_careers_courses_and/\">[comments]</a></span>",
-      "author": "/u/AutoModerator",
-      "published_date": "2026-04-23T00:00:08+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 219,
-      "reading_time": 1,
-      "created_at": "2026-04-23T03:54:41.365915+00:00",
-      "updated_at": "2026-04-23T06:02:43.771464+00:00",
-      "metadata": {
-        "processed_at": "2026-04-23T06:02:43.771465+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7833b1b9acf9232ce87fdc77e302db8c",
-      "url": "https://openai.com/index/axios-developer-tool-compromise/",
-      "title": "OpenAI's response to the Axios developer tool compromise",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47871077\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-23T00:45:01+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-23T03:54:40.129148+00:00",
-      "updated_at": "2026-04-23T06:02:43.771468+00:00",
-      "metadata": {
-        "processed_at": "2026-04-23T06:02:43.771469+00:00",
         "processing_method": "github_actions"
       }
     }
