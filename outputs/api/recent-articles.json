@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-04-26T16:37:11.834314+00:00",
+  "last_updated": "2026-04-26T16:45:16.856280+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "af31157d89d63e3c59ca6bf4c3232308",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1762794",
+      "title": "CycleGAN models show consistent brain MRI synthesis across datasets supporting downstream tissue characterization in multiple sclerosis",
+      "content": "BackgroundSecondary quantitative analysis of brain magnetic resonance imaging (MRI) can provide valuable information for many neurological diseases, including multiple sclerosis (MS), but it demands complete datasets that are often unavailable clinically. We investigated how image synthesis via deep learning using cycle-consistent generative adversarial networks (CycleGANs) compared with Pix2Pix as a related method, based on T1-weighted and T2-weighted brain MRI in MS, following verification on two streamlined datasets. The synthesized images were also evaluated against the source data.MethodsThe streamlined datasets involved 1,113 healthy participants from the Human Connectome Project (HCP) and 318 participants from the Parkinson\u2019s Progression Markers Initiative (PPMI). The MS cohort in this study included 105 participants scanned with different protocols. Image synthesis was bidirectional between T1- and T2-weighted MRI using CycleGAN with and without spectral normalization, as well as Pix2Pix. Utility testing focused on T1-weighted MRI that was most often unavailable in MS, and that involved lesion detection, brain volumetry, and lesion texture analysis.ResultsAll CycleGAN models performed competitively, while Pix2Pix performed better, mostly with streamlined datasets (p\u202f<\u202f0.001). The average peak signal-to-noise ratio ranged from 24.860\u201328.570 versus 28.520\u201331.100, and the structural similarity index ranged from 0.838\u20130.901 versus 0.924\u20130.943. With spectral normalization, CycleGAN improved in PPMI but not in HCP and generally not in MS (p\u202f<\u202f0.001). Furthermore, the synthesized images showed high similarity to the source data in utility tests, although Pix2Pix T1 images appeared more heterogeneous in lesion texture than source T1 images.ConclusionCycleGAN without spectral normalization appeared feasible for synthesizing common clinical brain MRI, including T1-weighted images usable for subsequent quantitative analysis in MS.",
+      "author": "Yunyan Zhang",
+      "published_date": "2026-03-12T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 259,
+      "reading_time": 1,
+      "created_at": "2026-04-26T16:44:39.379015+00:00",
+      "updated_at": "2026-04-26T16:44:39.379016+00:00"
+    },
+    {
+      "id": "81f31c4edbbd96d7caeeb26e54830d26",
+      "url": "https://arpitbhayani.me/blogs/defensive-databases/",
+      "title": "Databases Were Not Designed for This",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47897140\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-24T23:41:38+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-26T16:44:07.881349+00:00",
+      "updated_at": "2026-04-26T16:44:07.881351+00:00"
+    },
+    {
+      "id": "25080ae4af318bd8d135136147ac1c53",
+      "url": "https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial",
+      "title": "Clay PCB Tutorial",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47911350\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-26T16:02:14+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-26T16:44:07.881255+00:00",
+      "updated_at": "2026-04-26T16:44:07.881259+00:00"
+    },
+    {
+      "id": "25080ae4af318bd8d135136147ac1c53",
+      "url": "https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial",
+      "title": "Clay PCB Tutorial",
+      "content": "<p>Article URL: <a href=\"https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial\">https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47911350\">https://news.ycombinator.com/item?id=47911350</a></p>\n<p>Points: 35</p>\n<p># Comments: 9</p>",
+      "author": "j0r0b0",
+      "published_date": "2026-04-26T16:02:14+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-26T16:44:06.667660+00:00",
+      "updated_at": "2026-04-26T16:44:06.667668+00:00"
+    },
     {
       "id": "7cd13fca787fb38a0cda9a15d278f374",
       "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2525724123?af=R",
@@ -103,22 +167,6 @@
       }
     },
     {
-      "id": "688515942f80b5783bb62e8f27a055fb",
-      "url": "https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5479-raiders-of-the-lost-hard-drive/",
-      "title": "QNX on the Commodore 900 \u2013 Raiders of the lost hard drive [video]",
-      "content": "<p>Article URL: <a href=\"https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5479-raiders-of-the-lost-hard-drive/\">https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5479-raiders-of-the-lost-hard-drive/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47909945\">https://news.ycombinator.com/item?id=47909945</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
-      "author": "rbanffy",
-      "published_date": "2026-04-26T12:55:53+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-04-26T15:43:00.006459+00:00",
-      "updated_at": "2026-04-26T15:43:00.006461+00:00"
-    },
-    {
       "id": "18d64ced60e50aea9a2be94f4de40c7b",
       "url": "https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/",
       "title": "Why SWE-bench Verified no longer measures frontier coding capabilities",
@@ -137,6 +185,22 @@
         "processed_at": "2026-04-26T16:37:11.722152+00:00",
         "processing_method": "github_actions"
       }
+    },
+    {
+      "id": "688515942f80b5783bb62e8f27a055fb",
+      "url": "https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5479-raiders-of-the-lost-hard-drive/",
+      "title": "QNX on the Commodore 900 \u2013 Raiders of the lost hard drive [video]",
+      "content": "<p>Article URL: <a href=\"https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5479-raiders-of-the-lost-hard-drive/\">https://archive.fosdem.org/2025/schedule/event/fosdem-2025-5479-raiders-of-the-lost-hard-drive/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47909945\">https://news.ycombinator.com/item?id=47909945</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "author": "rbanffy",
+      "published_date": "2026-04-26T12:55:53+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-26T15:43:00.006459+00:00",
+      "updated_at": "2026-04-26T15:43:00.006461+00:00"
     },
     {
       "id": "978eea7b81fa0f86f42bdd1294bf33d1",
@@ -303,86 +367,6 @@
       "updated_at": "2026-04-26T12:55:51.255023+00:00",
       "metadata": {
         "processed_at": "2026-04-26T12:55:51.255033+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "b9b2eec3c51271491b55dad0984488d6",
-      "url": "https://brain.ieee.org/podcasts/qa-with-dr-alain-dagher-neurologist-and-professor-at-mcgill-university-and-the-montreal-neurological-institute/",
-      "title": "Q&A with Dr. Alain Dagher, Neurologist and Professor at McGill University and the Montreal Neurological Institute",
-      "content": "",
-      "author": "ieeebrain",
-      "published_date": "2026-02-25T16:01:04+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-26T12:05:15.212256+00:00",
-      "updated_at": "2026-04-26T12:55:51.255038+00:00",
-      "metadata": {
-        "processed_at": "2026-04-26T12:55:51.255040+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "85a75342d1a55d8e27ad220ec6f6ef28",
-      "url": "https://blog.playcanvas.com/turning-a-gaussian-splat-into-a-videogame/",
-      "title": "Show HN: Turning a Gaussian Splat into a videogame",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47876071\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-23T14:18:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-26T12:04:22.105501+00:00",
-      "updated_at": "2026-04-26T12:55:51.255043+00:00",
-      "metadata": {
-        "processed_at": "2026-04-26T12:55:51.255044+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3df59bdcc0ac74d4200a0e9a4474be5d",
-      "url": "https://jumpstartsignal.com/",
-      "title": "Show HN: A free ESG stock screener that publishes its losses and methodology",
-      "content": "<p>Hey HN, JSS(JumpstartSignal) is a free, ESG-filtered daily stock screener. I built it after some really badly-timed quantum computing stock buys, so I felt I needed to learn more about systematic, longer-horizon approaches and the underlying technicals instead of chasing themes. Three things about it that might be of interest:<p>1. Methodology is fully documented at <a href=\"https://jumpstartsignal.com/how-it-works/\" rel=\"nofollow\">https://jumpstartsignal.com/how-it-works/</a> 5-stage pipeline, 54 signals tested individually plus 1,836 combinations evaluated, walk-forward validation across 25 hold periods. Nothing hand-tuned to a single backtest window.<p>2. Many wins, misses, and losses are published as case studies e.g. <a href=\"https://jumpstartsignal.com/case-studies/nvda/\" rel=\"nofollow\">https://jumpstartsignal.com/case-studies/nvda/</a> walks through the 32 times the system flagged NVDA starting at $5.44 in 2018. <a href=\"https://jumpstartsignal.com/case-studies/sedg/\" rel=\"nofollow\">https://jumpstartsignal.com/case-studies/sedg/</a> shows a -49% loss, and <a href=\"https://jumpstartsignal.com/case-studies/tsla/\" rel=\"nofollow\">https://jumpstartsignal.com/case-studies/tsla/</a> explains why the system <i>never</i> flagged Tesla (it passed Stages 1 and 2 on 207 days but only peaked at 20/100 in scoring vs the 70 needed for OPPORTUNITY tier). <a href=\"https://jumpstartsignal.com/results/\" rel=\"nofollow\">https://jumpstartsignal.com/results/</a> also shows the 10 best entries alongside the 10 worst.<p>3. A genetic algorithm picked the signal weights, but constrained to maintain alpha across multiple market regimes (otherwise it overfits to a single bull market). The constraint dropped some \"best in backtest\" configurations that only worked 2018-2021.<p>Topline: 2012-2025 backtest at SPOTLIGHT + OPPORTUNITY tier produced +163% alpha vs SPY (results page has the per-trade breakdown).<p>Daily watchlist emailed free; reports + results + case studies are publicly browsable without signup.<p>Happy to take questions about methodology, what the system gets wrong, or why specific tickers landed where they did.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47908912\">https://news.ycombinator.com/item?id=47908912</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "author": "irldexter",
-      "published_date": "2026-04-26T09:50:21+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 260,
-      "reading_time": 1,
-      "created_at": "2026-04-26T12:04:20.649777+00:00",
-      "updated_at": "2026-04-26T12:55:51.255047+00:00",
-      "metadata": {
-        "processed_at": "2026-04-26T12:55:51.255048+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bc2fea22d0e541020a6d0cfdb46e2ec6",
-      "url": "https://brain.ieee.org/news-and-insights/ieee-brain-news/ieee-advances-responsible-neurotechnology-standard/",
-      "title": "IEEE Advances Responsible Neurotechnology Standard",
-      "content": "",
-      "author": "ieeebrain",
-      "published_date": "2026-02-25T16:16:01+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-04-26T11:13:12.044961+00:00",
-      "updated_at": "2026-04-26T12:55:51.255050+00:00",
-      "metadata": {
-        "processed_at": "2026-04-26T12:55:51.255052+00:00",
         "processing_method": "github_actions"
       }
     }
