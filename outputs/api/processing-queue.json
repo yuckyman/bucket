@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-04-29T22:53:12.937551+00:00",
-  "pending_count": 732,
-  "processed_count": 268,
+  "last_updated": "2026-04-30T02:30:51.696569+00:00",
+  "pending_count": 728,
+  "processed_count": 272,
   "pending_articles": [
+    {
+      "id": "b13272dae478ea16c969236be3dcf8d8",
+      "url": "https://github.com/aallan/vera",
+      "title": "Vera: a programming language designed for machines to write",
+      "content": "<p>Article URL: <a href=\"https://github.com/aallan/vera\">https://github.com/aallan/vera</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47955118\">https://news.ycombinator.com/item?id=47955118</a></p>\n<p>Points: 17</p>\n<p># Comments: 6</p>",
+      "author": "unignorant",
+      "published_date": "2026-04-29T21:41:32+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-29T23:55:49.958453+00:00",
+      "updated_at": "2026-04-29T23:55:49.958455+00:00"
+    },
+    {
+      "id": "2f428fe5ff48d851c797256a4a64571c",
+      "url": "https://nitter.space/MushtaqBilalPhD/status/2049057344013881523#m",
+      "title": "> Be Alexandra Elbakyan",
+      "content": "<p>Article URL: <a href=\"https://nitter.space/MushtaqBilalPhD/status/2049057344013881523#m\">https://nitter.space/MushtaqBilalPhD/status/2049057344013881523#m</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47955655\">https://news.ycombinator.com/item?id=47955655</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
+      "author": "DanielleMolloy",
+      "published_date": "2026-04-29T22:39:34+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-29T23:55:49.958385+00:00",
+      "updated_at": "2026-04-29T23:55:49.958396+00:00"
+    },
     {
       "id": "0004c585ac4837fdf0f95e49fa745641",
       "url": "https://tradingeconomics.com/commodity/brent-crude-oil",
@@ -130,41 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-04-29T21:07:22.616644+00:00",
       "updated_at": "2026-04-29T21:07:22.616646+00:00"
-    },
-    {
-      "id": "1131bc48dae1ed0fba0cfc4aa03170dc",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.27.721108v1?rss=1",
-      "title": "Hippocampal Place Cells with NMDARs Do Not Require Excitation and Inhibition to Be Reciprocally Tuned",
-      "content": "In mouse hippocampal area CA1, excitatory pyramidal neurons referred to as \"place cells\" fire at specific locations in spatial environments during navigation. Many of the excitatory inputs to place cells are themselves spatially tuned, and prior work has shown that synaptic plasticity at those inputs strongly contributes to a selective increase in excitatory synaptic conductance when an animal is inside a cell's \"place field.\" It is less clear whether inhibitory inputs to place cells vary with spatial position. Recent studies have investigated whether place cells receive spatially tuned inhibitory conductances by recording place cell activity in vivo and using computational models to help interpret experimental perturbations. One prior study used inhibitory optogenetics to suppress inhibitory neuron firing rates and observed a uniform depolarization of place cells across spatial locations, supporting a model with spatially uniform synaptic inhibition. In apparent conflict, other studies used excitatory optogenetics to depolarize place cells and observed a selective increase in excitability within place fields, supporting a model with a spatially localized decrease in inhibition. However, the latter studies overlooked the contribution of voltage-gated NMDA-type glutamate receptors (NMDARs) to synaptic integration, which are expected to contribute to the balance of excitatory and inhibitory synaptic currents. Here we show that when NMDARs are included at excitatory synapses in simple CA1 place cell models, all experimentally-observed properties of place cells can be recapitulated regardless of whether inhibition increases, decreases, or remains constant inside a place field.",
-      "author": "Gritz, S., Milstein, A. D.",
-      "published_date": "2026-04-29T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 238,
-      "reading_time": 1,
-      "created_at": "2026-04-29T21:07:22.616607+00:00",
-      "updated_at": "2026-04-29T21:07:22.616609+00:00"
-    },
-    {
-      "id": "274a9b09c3a605d695b1706a955859f1",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.26.720932v1?rss=1",
-      "title": "Spatial Single-Cell Proteomics Reveals Molecular Trajectories Of Tangle-Bearing Neurons In Alzheimer's Disease",
-      "content": "Neurofibrillary tangles composed of hyperphosphorylated tau are a defining pathological hallmark of Alzheimer's disease (AD); however, the pathways and mechanisms associated with the transition from physiological tau to tangle pathology remain unclear. Here, we integrate laser microdissection of post-mortem, fixed human AD brain tissue labelled with an antibody recognizing tangle-associated phospho-tau (AT8) with mass spectrometry-based proteomics, applied to individual neurons and to small neuronal pools. This approach identified ~2,000 and ~5,000 proteins, respectively, and enabled direct detection of disease-associated tau phosphorylation sites without prior enrichment. A layered analysis of the proteome of tangle-positive and tangle-negative neurons revealed heterogeneous disease-associated states. Pseudotime analysis, combined with an AI-driven analytical framework, indicates that neurons do not segregate into discrete classes but instead organize along a continuum of proteomic changes that correlate with tau abundance. This organization enabled the construction of a trajectory of pathological neuronal responses that can be resolved within an individual brain. Early stages of this trajectory are characterized by coordinated remodeling of proteostasis networks, including reduced proteasome component abundance and increased lysosomal acidification machinery, followed by disruption of synaptic pathways. Notably, despite extensive proteomic remodeling, neurons bearing tangles show little evidence of activated cell-death programs, suggesting prolonged molecular adaptation rather than acute degeneration. Together, these findings establish a framework for single-cell-resolved proteome analysis of human brain disease in situ and define a continuum of neuronal states underlying tau pathogenesis, revealing early vulnerabilities and adaptive responses during AD progression.",
-      "author": "Foiani, M. S., Bourdenx, M., Lukas, K., Raja, N. S., Angela, Y., Hannah, D., Saisha, P., Luiza, D. S., Ludovico, M., Zane, J., Fabian, C., Karen, D. E.",
-      "published_date": "2026-04-29T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 238,
-      "reading_time": 1,
-      "created_at": "2026-04-29T21:07:22.616561+00:00",
-      "updated_at": "2026-04-29T21:07:22.616566+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "c8bfdf90f8a7d1010793f018b1431b76",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926002521?dgcid=rss_sd_all",
+      "title": "Neuroimaging studies of extra-sensory perception: A systematic and critical review",
+      "content": "<p>Publication date: June 2026</p><p><b>Source:</b> NeuroImage, Volume 333</p><p>Author(s): David J. Acunzo, Andrea H. Denton, Marina Weiler, Edward F. Kelly</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroimage",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 18,
+      "reading_time": 1,
+      "created_at": "2026-04-29T23:56:34.270454+00:00",
+      "updated_at": "2026-04-30T02:30:51.595382+00:00",
+      "metadata": {
+        "processed_at": "2026-04-30T02:30:51.595391+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c3b5ecceb473a0f7263231097d910722",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.04.28.721177v1?rss=1",
+      "title": "Evolution of songbird vocal imitation involved multiple cellular innovations",
+      "content": "A central goal of evolutionary neuroscience is to link behavioral adaptations to changes across the central nervous system. The dorsal telencephalon (i.e., pallium) varies widely in macrostructure across vertebrate clades and is thought to underlie the diversity of complex vertebrate behaviors. Yet, pallial cell types appear comparatively constrained in their evolutionary specializations relative to other parts of the nervous system, even across species with notable behavioral adaptations. Instead, differences among pallial neurons largely reflect their topographic organization. Here, we show that although transcriptomic identities of cell types in the songbird pallium largely follow this pattern, multiple cellular innovations exist within the vocal imitation brain regions distributed across the pallium. These include behavior-linked specializations to glutamatergic cell types in each region and the presence of PV- and SST-like GABAergic neurons unique to vocal imitation circuits. Additionally, we identify a concerted increase in glial composition that is accounted for by elevated proportions of astrocytes across vocal imitation circuits. These findings demonstrate that complex learned behaviors, such as vocal imitation, can be associated with the emergence of novel, behavior-associated cell types in the pallium; suggesting that selective pressures can, in some uncommon cases, favor functional specialization over conserved developmental constraints.",
+      "author": "Orozco, C., Zhao, Z., Kulkarni, A. F., James, J., Merullo, D., Konopka, G., Roberts, T. F.",
+      "published_date": "2026-04-29T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 197,
+      "reading_time": 1,
+      "created_at": "2026-04-29T23:56:33.126632+00:00",
+      "updated_at": "2026-04-30T02:30:51.595395+00:00",
+      "metadata": {
+        "processed_at": "2026-04-30T02:30:51.595397+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "790a962531cc2d3ec57b3c16774bfa04",
+      "url": "https://www.eetimes.com/what-the-dram-crunch-teaches-us-about-system-design/",
+      "title": "DRAM Crunch: Lessons for System Design",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47933359\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-28T12:07:55+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-04-29T23:55:51.120288+00:00",
+      "updated_at": "2026-04-30T02:30:51.595399+00:00",
+      "metadata": {
+        "processed_at": "2026-04-30T02:30:51.595401+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2a5bcfa86008b9f9e161781135d02061",
+      "url": "https://lina.sh/blog/ddos-honeypot",
+      "title": "I accidentally made law enforcement shut down their fake honeypot",
+      "content": "<p>Article URL: <a href=\"https://lina.sh/blog/ddos-honeypot\">https://lina.sh/blog/ddos-honeypot</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47954638\">https://news.ycombinator.com/item?id=47954638</a></p>\n<p>Points: 32</p>\n<p># Comments: 8</p>",
+      "author": "fishgoesblub",
+      "published_date": "2026-04-29T21:04:38+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-29T23:55:49.958491+00:00",
+      "updated_at": "2026-04-30T02:30:51.595403+00:00",
+      "metadata": {
+        "processed_at": "2026-04-30T02:30:51.595405+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "d1cce6e0432af8af580258735d27dd77",
+      "url": "https://www.maxtaylor.me/articles/i-benchmarked-caveman-against-two-words",
+      "title": "I benchmarked Claude Code's caveman plugin against \"be brief.\"",
+      "content": "<p>Article URL: <a href=\"https://www.maxtaylor.me/articles/i-benchmarked-caveman-against-two-words\">https://www.maxtaylor.me/articles/i-benchmarked-caveman-against-two-words</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47954745\">https://news.ycombinator.com/item?id=47954745</a></p>\n<p>Points: 13</p>\n<p># Comments: 1</p>",
+      "author": "max-t-dev",
+      "published_date": "2026-04-29T21:11:57+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-04-29T23:55:49.958474+00:00",
+      "updated_at": "2026-04-30T02:30:51.595407+00:00",
+      "metadata": {
+        "processed_at": "2026-04-30T02:30:51.595408+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "7fa8dc6400d2715702c6a98b9aeceaab",
       "url": "https://www.biorxiv.org/content/10.64898/2026.04.27.721138v1?rss=1",
@@ -262,106 +362,6 @@
       "updated_at": "2026-04-29T22:53:12.839302+00:00",
       "metadata": {
         "processed_at": "2026-04-29T22:53:12.839304+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6faab9f76e19dfb9bb2a76b4e6b8dd75",
-      "url": "https://www.ycombinator.com/companies/gooseworks/jobs/ztgY6bD-founding-growth-engineer",
-      "title": "Gooseworks (YC W23) Is Hiring a Founding Growth Engineer",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47955226\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-29T21:50:57+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-29T22:31:45.689076+00:00",
-      "updated_at": "2026-04-29T22:53:12.839302+00:00",
-      "metadata": {
-        "processed_at": "2026-04-29T22:53:12.839304+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "420109f3db020bef381dd8fc89337338",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.26.720835v1?rss=1",
-      "title": "Cerebellar Microcircuits and Cortico-Cerebellar Cooperation Enable Robust Decisions",
-      "content": "The cerebellum is increasingly implicated in perceptual decision-making, yet how cerebellar circuits-without prominent recurrent excitation and slow reverberant loops-could support sparse evidence accumulation over behavioral timescales remains unclear. We present a biologically constrained modeling framework showing that cerebellar microcircuits can implement graded accumulation and competition without cortical-like excitatory recurrence. Type-II Purkinje-neuron excitability generates firing-rate hysteresis that prolongs the impact of brief inputs far beyond intrinsic membrane and synaptic time constants, enabling accumulation across long inter-event intervals. Purkinje neuron collateral inhibition produces competitive divergence and tunes temporal evidence weighting, revealing a trade-off between commitment and primacy bias. In a bidirectionally coupled cortico- cerebello-cortical model, cerebellar processing reduces primacy while cortical processing reduces indecision, improving robustness. Together, these results propose a mechanistic division of labor that positions the cerebellum as an active computational partner in perceptual decisions.",
-      "author": "Bao, Y., Yu, L., Lv, L., Yang, Z., Zang, Y.",
-      "published_date": "2026-04-29T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 135,
-      "reading_time": 1,
-      "created_at": "2026-04-29T19:48:46.751714+00:00",
-      "updated_at": "2026-04-29T20:58:30.543574+00:00",
-      "metadata": {
-        "processed_at": "2026-04-29T20:58:30.543583+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "642940ca1e887a890cce960d550fc08e",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.26.720870v1?rss=1",
-      "title": "Proteomic identification and validation of novel neuronal EV-based markers for Alzheimers disease biomarker discovery",
-      "content": "Extracellular vesicles (EVs) circulate in biofluids and carry tissue-specific molecular cargo, offering significant potential for the discovery of minimally invasive biomarkers. However, translation in neurodegenerative diseases has been hindered by the lack of validated neuronal EV surface markers that enable selective isolation from plasma. We hypothesized that proteomic profiling of EVs released from human induced pluripotent stem cell (hiPSC)-derived neurons would identify 1. robust Alzheimers disease (AD)-associated signatures that reflect disease pathogenesis, and 2. surface-accessible neuronal markers capable of enriching disease-relevant cargo. Neurons differentiated from AD patients and age-matched cognitively normal (CN) individuals were used to isolate EVs, which were characterized and analyzed by LC-MS proteomics in both total and membrane-enriched fractions. Proteomic profiling identified numerous dysregulated proteins, with a subset validated across independent AD datasets. We identified CNTNAP2 and STX1B as neuronal, brain-enriched EV surface proteins accessible for selective capture and confirmed their presence in EVs from post-mortem human brain, supporting them as bona fide brain-derived EV markers. Immuno-isolation of plasma EVs showed that CNTNAP2-positive EVs had a robust AD-associated increase in phosphorylated tau, identifying CNTNAP2 as a highly discriminative brain-derived EV marker and supporting its potential for blood-based AD diagnostics.",
-      "author": "Ahmed, W., Nogueras-Ortiz, C., Sagar, R., Dong, D., Boyd, R. J., Yao, P. J., Iliuk, A., Lyketsos, C. G., Witwer, K. W., Kapogiannis, D., Mahairaki, V.",
-      "published_date": "2026-04-29T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 192,
-      "reading_time": 1,
-      "created_at": "2026-04-29T19:48:46.751683+00:00",
-      "updated_at": "2026-04-29T20:58:30.543587+00:00",
-      "metadata": {
-        "processed_at": "2026-04-29T20:58:30.543589+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5d7cd432e0466cb67d08f75c9f138a16",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.26.720902v1?rss=1",
-      "title": "Pharmacodynamic profiles inform systematization, efficacy and whole-brain drug distribution profiles in 18 antidepressants",
-      "content": "Although empirical evidence shows that antidepressants are effective and superior to placebo in treating depressive disorders, their mechanisms of action are still unclear. In this study, we examine the multidimensional molecular affinities of 18 commonly used antidepressants. Clustering analyses consistently generate three distinct clusters, providing a broader taxonomy that groups SSRIs and SNRIs together. Correlational analyses cautiously indicate a relationship between the affinity to metabotropic serotonin receptors and antidepressant efficacy. Next, we generate anatomical distribution profiles of drug action strengths by combining positron emission tomography-derived maps of cerebral neurotransmitter receptor and transporter densities from an open-access repository of healthy participants with the drugs' affinity profiles. We then relate these profiles to functional and structural neuroanatomical measures in health and disease. Our results reveal distinct, mechanistically interpretable differences between antidepressants with high 5-HTT affinity and atypical antidepressants. These differences could inform personalized drug selection and development.",
-      "author": "Ha\u0308nisch, B., Valk, S. L.",
-      "published_date": "2026-04-29T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 145,
-      "reading_time": 1,
-      "created_at": "2026-04-29T19:48:46.751649+00:00",
-      "updated_at": "2026-04-29T20:58:30.543592+00:00",
-      "metadata": {
-        "processed_at": "2026-04-29T20:58:30.543593+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e1a7e8fa841c117071069a1ca9ed8a30",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.25.720849v1?rss=1",
-      "title": "Adenoviral-mediated gene transfer into the scala media of the mouse cochlea in vivo",
-      "content": "Gene therapy may provide a way to restore inner ear function to deaf and dizzy patients. The mouse is a crucial model system for functional genomics because of the numerous genetic models for hearing loss and inner ear dysfunction. Using an advance generation, E1-/E3-/E2b- (preterminal protein-/polymerase-) Type 5 Adenovirus, we investigated several routes of virus microinjection to determine which were most reproducible in targeting the endolymphatic fluid compartment of the cochlea. We found that when adenovirus is injected via the round window, transduced cells are found only adjacent to the scala tympani and not in the organ of Corti, suggesting that Adenovirus is unable to penetrate the basilar membrane or bony wall of the modiolus. Delivery to the cochlea via the semicircular canals is also inefficient. In contrast, our new method, via a stylomastoid foramen cochleostomy, increases the likelihood of adenovirus gene transfer to the scala media including cells in the organ of Corti and stria vascularis while preserving some hearing. The ability to target delivery of virus and other therapeutic reagents to specific inner ear fluid compartments will facilitate in vivo testing of candidate molecules implicated in multiple aspects of inner ear physiology and regeneration.",
-      "author": "Iguchi, F., Bratt, D., Xiao, M., Erdman, A. D., Sekijima, A. E., Hume, C. R.",
-      "published_date": "2026-04-29T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 196,
-      "reading_time": 1,
-      "created_at": "2026-04-29T19:48:46.751614+00:00",
-      "updated_at": "2026-04-29T20:58:30.543595+00:00",
-      "metadata": {
-        "processed_at": "2026-04-29T20:58:30.543597+00:00",
         "processing_method": "github_actions"
       }
     }
