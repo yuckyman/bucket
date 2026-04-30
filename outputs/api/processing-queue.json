@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-04-30T06:24:22.270278+00:00",
-  "pending_count": 743,
-  "processed_count": 257,
+  "last_updated": "2026-04-30T10:02:08.305936+00:00",
+  "pending_count": 739,
+  "processed_count": 261,
   "pending_articles": [
+    {
+      "id": "5e53511b04b1c1219c30557b501c1730",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae60d1",
+      "title": "Kalman phase transfer entropy (KTE-TP): a novel measure for information transfer measurement to enhance brain-computer decoding",
+      "content": "Objective. To address the limitation that existing brain network analysis methods relying on relatively simplistic data processing models fail to capture the multimodal information embedded in neural signals, this study introduces a multidimensional information transfer measurement method\u2014Kalman time phase transfer entropy (nKTE-TP), and applies it to enhanced brain computer interface (BCI) decoding. Approach. Built upon the transfer entropy algorithm, this method leverages the Kalman filter to dynamically weight signal amplitude and phase information, while taking both the temporal and spectral characteristics of signals into account, thus effectively integrating amplitude energy-driven features with phase temporal properties. The effectiveness of the nKTE-TP method was validated through multivariable autoregressive model (MVAR) simulation experiments and three different types of publicly available BCI datasets, and compared with existing algorithms. Main results. MVAR simulation results demonstrate that this method robustly assesses causal information and exhibits superior stability and accuracy in evaluating complex systems compared to existing algorithms. In addition, the validation results of three publicly available BCI datasets show that compared with other causal algorithms, the nKTE-TP network features exhibit higher discriminative ability and generate more robust recognition models. Significance. This method offers a more comprehensive metric for investigating information dependence and integration across different brain regions, while simultaneously providing an effective decoding strategy for BCI neural signal analysis.",
+      "author": "Jiaqi Zhang, Zhangsong Shi, Huihui Xu, Zhe Rao, Songxue Bai and Junfeng Gao",
+      "published_date": "2026-04-29T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 213,
+      "reading_time": 1,
+      "created_at": "2026-04-30T08:39:51.062237+00:00",
+      "updated_at": "2026-04-30T08:39:51.062241+00:00"
+    },
     {
       "id": "83d7a057e390fa2da654cef78e374d84",
       "url": "https://arxiv.org/abs/2604.26494",
@@ -146,25 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-04-30T06:11:07.023392+00:00",
       "updated_at": "2026-04-30T06:11:07.023397+00:00"
-    },
-    {
-      "id": "44ee7e846979a2965afc9f92a84201e5",
-      "url": "https://arxiv.org/abs/2604.16875",
-      "title": "Untrained CNNs Match Backpropagation at V1: A Systematic RSA Comparison of Four Learning Rules Against Human fMRI",
-      "content": "arXiv:2604.16875v2 Announce Type: replace-cross \nAbstract: A central question in computational neuroscience is whether the learning rule used to train a neural network determines how well its internal representations align with those of the human visual cortex. We present a systematic comparison of four learning rules (backpropagation (BP), feedback alignment (FA), predictive coding (PC), and spike-timing-dependent plasticity (STDP)) applied to identical convolutional architectures and evaluated against human fMRI data from the THINGS-fMRI dataset (720 stimuli, 3 subjects) using Representational Similarity Analysis (RSA). All models process stimuli at 224 x 224 resolution; results are averaged across 5 random seeds. Crucially, we include an untrained random-weights baseline that reveals the dominant role of architecture. At V1/V2, the untrained baseline exceeds backpropagation (rho = 0.076 vs. rho = 0.034; Delta-rho = +0.044, p < 0.001), and STDP achieves the highest V1 alignment among trained rules (rho = 0.064). At LOC, only BP reliably exceeds the random baseline (rho = 0.012 vs. -0.005, p < 0.001). At IT, all five conditions converge (rho = 0.008-0.014) with no significant pairwise differences among trained rules (p > 0.05, FDR-corrected). FA consistently produces the lowest alignment at V1, V2, and LOC (rho = 0.012 at V1, below all other conditions). Partial RSA confirms all effects survive pixel-similarity control. Seed variability is small relative to between-rule differences at V1/V2. These results demonstrate that early visual alignment is architecture-driven, learning rules differentiate only at intermediate areas, and all rules converge at the highest levels of the hierarchy.",
-      "author": "Nils Leutenegger",
-      "published_date": "2026-04-30T04:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 247,
-      "reading_time": 1,
-      "created_at": "2026-04-30T06:11:05.942005+00:00",
-      "updated_at": "2026-04-30T06:11:05.942009+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "7929868921bcd63da4fe5301598f1cfe",
+      "url": "https://www.nature.com/articles/s41598-026-50827-1",
+      "title": "Heart rate variability dynamics during virtual reality roller coaster experience: correlations with vestibular function and motion sickness susceptibility",
+      "content": "",
+      "author": "",
+      "published_date": "2026-04-30T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-04-30T08:40:05.670761+00:00",
+      "updated_at": "2026-04-30T10:02:08.207953+00:00",
+      "metadata": {
+        "processed_at": "2026-04-30T10:02:08.207962+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "cc9bd76b9753ffc0ad04590bf840dda8",
+      "url": "https://www.nature.com/articles/s42003-026-10108-z",
+      "title": "Time-resolved EEG decoding reveals altered neural dynamics of affective semantic evaluation in depression and suicidality",
+      "content": "",
+      "author": "",
+      "published_date": "2026-04-30T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-04-30T08:40:05.670736+00:00",
+      "updated_at": "2026-04-30T10:02:08.207966+00:00",
+      "metadata": {
+        "processed_at": "2026-04-30T10:02:08.207968+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "fa9781deb9def0acb59ffe5a5ef43379",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1762692",
+      "title": "Deterministic, stochastic, and mean-field PDE models in neuroscience",
+      "content": "Large neuronal networks demonstrate complex dynamics across multiple scales, ranging from single-neuron excitability and spike-train variability to mesoscopic rhythms and whole-brain activity. Different types of differential equation models have been developed to comprehend these phenomena, connecting deterministic, stochastic, and mean-field descriptions. At the deterministic level, ordinary differential equation (ODE) models, including conductance-based neuron models, neural-mass systems, and whole-brain networks, summarize neural behavior through a reduced set of macroscopic variables. At the population level, mean-field partial differential equation (PDE) models such as Fokker-Planck, age-structured, kinetic, and neural field equations describe the evolution of probability or population densities over membrane-potentials, synaptic states, and other kinetic variables. These PDEs link single-neuron mechanisms to population-level activity and allow one to analyze bifurcations, oscillations and other collective patterns. Stochastic differential equation (SDE) models and their extensions that include jump-diffusion processes and stochastic PDEs (SPDEs) are widely used to describe random membrane fluctuations, irregular spike trains, synaptic plasticity and large-scale variability in neural activity. These stochastic models are also applied to neural data analysis, for example to quantify noise in electro-physiological recordings and to infer latent neural dynamics. Because variability and noise are central in neural systems, we devote more space to stochastic models but always relate them back to the surrounding ODE and PDE frameworks. This hierarchy of ODE, PDE, and SDE-SPDE models shows that the versatility of differential-equation-based approaches in neuroscience offers unified tools for multiscale modeling, neural signal processing, cognitive modeling, and the analysis of noisy neural systems. We also discuss some known numerical and computational approaches, especially for stochastic models and conclude by outlining open challenges, such as multiscale inference, control-oriented formulations and the integration of differential-equation models with modern machine-learning methods.",
+      "author": "Murat \u00d6zkaya",
+      "published_date": "2026-04-20T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 280,
+      "reading_time": 1,
+      "created_at": "2026-04-30T08:39:56.878525+00:00",
+      "updated_at": "2026-04-30T10:02:08.207970+00:00",
+      "metadata": {
+        "processed_at": "2026-04-30T10:02:08.207972+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ccb1e8c9f9f878555c1af20364c2a797",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2026.1858645",
+      "title": "Correction: The vermian-crest angle: a prediction model for foetal cystic posterior fossa anomalies",
+      "content": "",
+      "author": "Frontiers Production Office",
+      "published_date": "2026-04-29T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-04-30T08:39:52.495504+00:00",
+      "updated_at": "2026-04-30T10:02:08.207974+00:00",
+      "metadata": {
+        "processed_at": "2026-04-30T10:02:08.207975+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6e4f95640f1961c49f1808f154c9c4b5",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae60d2",
+      "title": "Measures of fatigue and performance are related to user interface and task in a communication BCI",
+      "content": "Objective. This exploratory study compared two non-implantable communication brain\u2013computer interfaces (cBCIs) to determine whether physiologic and self-report measures of mental fatigue, effort, and boredom were greater during calibration than during copy-spelling and whether there were differences between two common cBCI interfaces, rapid serial visual presentation (RSVP) and single-character presentation matrix (SCP-matrix). Approach. Twenty-three healthy adults successfully utilized both RSVP and SCP-matrix speller cBCIs in a single experimental session. Participants completed a calibration task and three online (closed-loop) copy-spelling tasks for each interface and provided self-report data on state mental fatigue, effort, and boredom. Physiological measures included EEG recordings alongside autonomic markers, including blood pressure, heart rate, respiration rate, and pulse rate variability. Main results. Participants reported significant increases in perceived mental fatigue, effort, boredom, and sleepiness during the session, with significant increases during calibration compared to copy-spelling. On average, users typed 1.5 more correct characters per copy-spelling phase using the SCP-matrix interface than when using RSVP. Results for autonomic and self-report metrics were consistent with fatigue being increased during calibration tasks relative to copy-spelling. EEG measures showed increased absolute and relative alpha activity and decreased relative theta activity during calibrations compared to copy-spelling, and increased absolute and relative alpha activity and decreased relative theta activity during RSVP, compared to matrix. P300 amplitude on average was greater during copy spelling tasks than during calibrations. Significance. Participants demonstrated increased fatigue while using non-implantable cBCIs. Evidence suggested that calibration tasks for both interfaces were more fatiguing, required more mental effort, and were less engaging than copy-spelling tasks. Increased user fatigue and perceived mental effort remain significant barriers to sustained use of non-implantable cBCI systems. Though limited, the current study enhances our understanding of user experience with cBCIs and emphasizes the need to design more engaging and concise calibration procedures.",
+      "author": "Daniel Klee, Tab Memmott, Barry S Oken and on behalf of the Consortium for Accessible Brain-Body Interfaces (CAMBI)",
+      "published_date": "2026-04-29T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 296,
+      "reading_time": 1,
+      "created_at": "2026-04-30T08:39:51.062297+00:00",
+      "updated_at": "2026-04-30T10:02:08.207977+00:00",
+      "metadata": {
+        "processed_at": "2026-04-30T10:02:08.207979+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "33d3d8b2b399085bd2366fd605eeb339",
       "url": "http://ieeexplore.ieee.org/document/11162721",
@@ -262,106 +362,6 @@
       "updated_at": "2026-04-30T06:24:22.162456+00:00",
       "metadata": {
         "processed_at": "2026-04-30T06:24:22.162457+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c8bfdf90f8a7d1010793f018b1431b76",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926002521?dgcid=rss_sd_all",
-      "title": "Neuroimaging studies of extra-sensory perception: A systematic and critical review",
-      "content": "<p>Publication date: June 2026</p><p><b>Source:</b> NeuroImage, Volume 333</p><p>Author(s): David J. Acunzo, Andrea H. Denton, Marina Weiler, Edward F. Kelly</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 18,
-      "reading_time": 1,
-      "created_at": "2026-04-29T23:56:34.270454+00:00",
-      "updated_at": "2026-04-30T02:30:51.595382+00:00",
-      "metadata": {
-        "processed_at": "2026-04-30T02:30:51.595391+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c3b5ecceb473a0f7263231097d910722",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.28.721177v1?rss=1",
-      "title": "Evolution of songbird vocal imitation involved multiple cellular innovations",
-      "content": "A central goal of evolutionary neuroscience is to link behavioral adaptations to changes across the central nervous system. The dorsal telencephalon (i.e., pallium) varies widely in macrostructure across vertebrate clades and is thought to underlie the diversity of complex vertebrate behaviors. Yet, pallial cell types appear comparatively constrained in their evolutionary specializations relative to other parts of the nervous system, even across species with notable behavioral adaptations. Instead, differences among pallial neurons largely reflect their topographic organization. Here, we show that although transcriptomic identities of cell types in the songbird pallium largely follow this pattern, multiple cellular innovations exist within the vocal imitation brain regions distributed across the pallium. These include behavior-linked specializations to glutamatergic cell types in each region and the presence of PV- and SST-like GABAergic neurons unique to vocal imitation circuits. Additionally, we identify a concerted increase in glial composition that is accounted for by elevated proportions of astrocytes across vocal imitation circuits. These findings demonstrate that complex learned behaviors, such as vocal imitation, can be associated with the emergence of novel, behavior-associated cell types in the pallium; suggesting that selective pressures can, in some uncommon cases, favor functional specialization over conserved developmental constraints.",
-      "author": "Orozco, C., Zhao, Z., Kulkarni, A. F., James, J., Merullo, D., Konopka, G., Roberts, T. F.",
-      "published_date": "2026-04-29T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 197,
-      "reading_time": 1,
-      "created_at": "2026-04-29T23:56:33.126632+00:00",
-      "updated_at": "2026-04-30T02:30:51.595395+00:00",
-      "metadata": {
-        "processed_at": "2026-04-30T02:30:51.595397+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "790a962531cc2d3ec57b3c16774bfa04",
-      "url": "https://www.eetimes.com/what-the-dram-crunch-teaches-us-about-system-design/",
-      "title": "DRAM Crunch: Lessons for System Design",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47933359\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-28T12:07:55+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-04-29T23:55:51.120288+00:00",
-      "updated_at": "2026-04-30T02:30:51.595399+00:00",
-      "metadata": {
-        "processed_at": "2026-04-30T02:30:51.595401+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2a5bcfa86008b9f9e161781135d02061",
-      "url": "https://lina.sh/blog/ddos-honeypot",
-      "title": "I accidentally made law enforcement shut down their fake honeypot",
-      "content": "<p>Article URL: <a href=\"https://lina.sh/blog/ddos-honeypot\">https://lina.sh/blog/ddos-honeypot</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47954638\">https://news.ycombinator.com/item?id=47954638</a></p>\n<p>Points: 32</p>\n<p># Comments: 8</p>",
-      "author": "fishgoesblub",
-      "published_date": "2026-04-29T21:04:38+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-04-29T23:55:49.958491+00:00",
-      "updated_at": "2026-04-30T02:30:51.595403+00:00",
-      "metadata": {
-        "processed_at": "2026-04-30T02:30:51.595405+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d1cce6e0432af8af580258735d27dd77",
-      "url": "https://www.maxtaylor.me/articles/i-benchmarked-caveman-against-two-words",
-      "title": "I benchmarked Claude Code's caveman plugin against \"be brief.\"",
-      "content": "<p>Article URL: <a href=\"https://www.maxtaylor.me/articles/i-benchmarked-caveman-against-two-words\">https://www.maxtaylor.me/articles/i-benchmarked-caveman-against-two-words</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47954745\">https://news.ycombinator.com/item?id=47954745</a></p>\n<p>Points: 13</p>\n<p># Comments: 1</p>",
-      "author": "max-t-dev",
-      "published_date": "2026-04-29T21:11:57+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-04-29T23:55:49.958474+00:00",
-      "updated_at": "2026-04-30T02:30:51.595407+00:00",
-      "metadata": {
-        "processed_at": "2026-04-30T02:30:51.595408+00:00",
         "processing_method": "github_actions"
       }
     }
