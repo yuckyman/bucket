@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T10:10:14.206073+00:00",
+  "last_updated": "2026-05-01T11:03:59.776290+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "Randolph F. Helfrich",
       "published_date": "2026-05-01T00:00:00+00:00",
       "source": "Nature Neuroscience",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 38,
       "reading_time": 1,
       "created_at": "2026-05-01T10:09:32.154344+00:00",
-      "updated_at": "2026-05-01T10:09:32.154348+00:00"
+      "updated_at": "2026-05-01T11:03:59.684038+00:00",
+      "metadata": {
+        "processed_at": "2026-05-01T11:03:59.684049+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "af31157d89d63e3c59ca6bf4c3232308",
@@ -26,13 +30,17 @@
       "author": "Yunyan Zhang",
       "published_date": "2026-03-12T00:00:00+00:00",
       "source": "Frontiers Neuroinformatics",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 259,
       "reading_time": 1,
       "created_at": "2026-05-01T10:09:27.555130+00:00",
-      "updated_at": "2026-05-01T10:09:27.555131+00:00"
+      "updated_at": "2026-05-01T11:03:59.684053+00:00",
+      "metadata": {
+        "processed_at": "2026-05-01T11:03:59.684055+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "1a251664f0a7d913f4187ebb691b03a8",
@@ -42,13 +50,17 @@
       "author": "",
       "published_date": "2026-05-01T09:39:07+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-05-01T10:08:57.558219+00:00",
-      "updated_at": "2026-05-01T10:08:57.558221+00:00"
+      "updated_at": "2026-05-01T11:03:59.684057+00:00",
+      "metadata": {
+        "processed_at": "2026-05-01T11:03:59.684058+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "aa70b88ab6f872f6e909c1408306203d",
@@ -58,13 +70,17 @@
       "author": "",
       "published_date": "2026-05-01T09:52:15+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-05-01T10:08:57.558165+00:00",
-      "updated_at": "2026-05-01T10:08:57.558166+00:00"
+      "updated_at": "2026-05-01T11:03:59.684061+00:00",
+      "metadata": {
+        "processed_at": "2026-05-01T11:03:59.684062+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "47c5311ff2d089e5f80323ca45774ad6",
@@ -74,13 +90,17 @@
       "author": "",
       "published_date": "2026-04-28T15:51:37+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-05-01T10:08:57.558111+00:00",
-      "updated_at": "2026-05-01T10:08:57.558112+00:00"
+      "updated_at": "2026-05-01T11:03:59.684064+00:00",
+      "metadata": {
+        "processed_at": "2026-05-01T11:03:59.684066+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "6d72172c13c7c24fa50c1ec96595cb8f",
@@ -150,17 +170,21 @@
       "id": "aa70b88ab6f872f6e909c1408306203d",
       "url": "https://news.ycombinator.com/item?id=47972888",
       "title": "Show HN: Perfect Bluetooth MIDI for Windows",
-      "content": "<p>Hi HN, I'm Erwin. I built a small free open-source utility that bridges Bluetooth LE MIDI keyboards into the new Windows MIDI Services stack so any DAW or Web MIDI app can use them as if they were wired.<p>I bought a Roland FP-90X piano partly because it had Bluetooth MIDI. On my Windows 11 PC, pairing succeeded, but my DAW couldn't see the keyboard, and notes I sent from the PC never made the piano sing. After a regrettable number of evenings, I'd separated this into three independent bugs stacked on top of each other.<p>The first one is the famous one: Windows only natively exposes BLE-MIDI through the WinRT API, which almost no DAW polls. So even when pairing succeeds, MIDI apps still don't see the device. The usual workaround is MIDIberry + loopMIDI, but I couldn't get that combination to work reliably in my case, and I wanted a single-app solution. The new Windows MIDI Services stack ships with a feature called loopback endpoints: anything written to one comes out the other, and any winmm/WinRT/WMS app sees them as normal MIDI ports. So the app does WinRT BLE-MIDI in, WMS loopback out. That solved direction one, piano to PC.<p>Direction two, PC to piano, still didn't work. NoteOn writes were getting ATT-acked, but the piano stayed silent. I tried both write modes (some BLE-MIDI firmware silently drops one or the other), poked the proprietary ISSC characteristic. Every variant ATT-acked, every variant produced silence. So the bytes were reaching the piano. Something above the GATT layer was discarding them.<p>After ruling out pairing, encryption, write-mode, and proprietary characteristics, the only obvious lever left was the MIDI channel itself. The FP-90X has a panel setting called Transmit Channel, default 1. Yet it turns out the FP-90X actually receives on channel 4 (and it can't be changed). Notes I sent on channel 1 were being GATT-acked and silently dropped at the synth engine because they weren't on the channel the engine was listening to. Zero feedback at any layer. The fix had to live up at the application layer, so I added a Detect button that plays N test notes ascending on each channel from 1 to 16: you count the notes you actually hear, and that number is the receive channel. Saved per BLE MAC, about 75 seconds, done forever per piano.<p>Tech stack: .NET 10, Avalonia for the UI (the BLE/MIDI side is Windows-only but the UI layer is portable), Microsoft.Windows.Devices.Midi2 packages for WMS, Windows.Devices.Midi (WinRT) directly for BLE rather than relying on Korg's older WinMM driver. MIT, single self-contained ~21 MB exe, no installer, no telemetry, no account.<p>I built it for myself and use it with my FP-90X to play through a few apps and Web MIDI sites. Pete from the Microsoft Windows MIDI Services team commented positively on the BLE integration when I shared it on r/synthesizers (<a href=\"https://www.reddit.com/r/synthesizers/comments/1szvuiq/comment/oj5ew9b/\" rel=\"nofollow\">https://www.reddit.com/r/synthesizers/comments/1szvuiq/comme...</a>).<p>Site (with screenshots): <a href=\"https://mayerwin.github.io/Perfect-Bluetooth-MIDI-For-Windows/\" rel=\"nofollow\">https://mayerwin.github.io/Perfect-Bluetooth-MIDI-For-Window...</a>\nSource: <a href=\"https://github.com/mayerwin/Perfect-Bluetooth-MIDI-For-Windows\" rel=\"nofollow\">https://github.com/mayerwin/Perfect-Bluetooth-MIDI-For-Windo...</a>\nLong-form technical writeup with the full debugging story: <a href=\"https://dev.to/mayerwin/why-your-bluetooth-midi-keyboard-silently-drops-notes-on-windows-2i84\" rel=\"nofollow\">https://dev.to/mayerwin/why-your-bluetooth-midi-keyboard-sil...</a><p>Personally tested with my FP-90X only. The BLE side is generic, so other keyboards (WIDI Master, CME, Yamaha MD-BT01, Korg microKey Air, ROLI Seaboard, etc.) should work, but I haven't confirmed individually. Device test reports, issues, and PRs very welcome.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47972888\">https://news.ycombinator.com/item?id=47972888</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "author": "mayerwin",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47972888\">Comments</a>",
+      "author": "",
       "published_date": "2026-05-01T09:52:15+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 549,
-      "reading_time": 2,
-      "created_at": "2026-05-01T10:08:56.231336+00:00",
-      "updated_at": "2026-05-01T10:08:56.231346+00:00"
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-01T10:08:57.558165+00:00",
+      "updated_at": "2026-05-01T11:03:59.684061+00:00",
+      "metadata": {
+        "processed_at": "2026-05-01T11:03:59.684062+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "11da1006ee59369caf1a8b22a800f02c",
