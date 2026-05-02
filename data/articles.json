@@ -7,13 +7,17 @@
     "author": "",
     "published_date": null,
     "source": "Brain Research",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 15,
     "reading_time": 1,
     "created_at": "2026-05-02T09:59:46.633778+00:00",
-    "updated_at": "2026-05-02T09:59:46.633779+00:00"
+    "updated_at": "2026-05-02T10:44:54.086923+00:00",
+    "metadata": {
+      "processed_at": "2026-05-02T10:44:54.086932+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "f43b65acfe64c500cfd4d7da8cf0ab7b",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": null,
     "source": "Brain Research",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 27,
     "reading_time": 1,
     "created_at": "2026-05-02T09:59:46.633758+00:00",
-    "updated_at": "2026-05-02T09:59:46.633760+00:00"
+    "updated_at": "2026-05-02T10:44:54.086937+00:00",
+    "metadata": {
+      "processed_at": "2026-05-02T10:44:54.086939+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "e8dc6f66beb6012bf1224cbc1e361af9",
@@ -39,13 +47,17 @@
     "author": "",
     "published_date": null,
     "source": "Neuroimage",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 31,
     "reading_time": 1,
     "created_at": "2026-05-02T09:59:43.071690+00:00",
-    "updated_at": "2026-05-02T09:59:43.071691+00:00"
+    "updated_at": "2026-05-02T10:44:54.086941+00:00",
+    "metadata": {
+      "processed_at": "2026-05-02T10:44:54.086943+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "a61af6a1a79808e3ff5a36079d855e8a",
@@ -55,13 +67,17 @@
     "author": "",
     "published_date": "2026-04-29T14:37:20+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-05-02T09:59:02.258880+00:00",
-    "updated_at": "2026-05-02T09:59:02.258881+00:00"
+    "updated_at": "2026-05-02T10:44:54.086947+00:00",
+    "metadata": {
+      "processed_at": "2026-05-02T10:44:54.086949+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "530037456ebf02f86b424561cd25a9cc",
@@ -71,13 +87,17 @@
     "author": "",
     "published_date": "2026-05-02T08:54:27+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-05-02T09:59:02.258861+00:00",
-    "updated_at": "2026-05-02T09:59:02.258863+00:00"
+    "updated_at": "2026-05-02T10:44:54.086951+00:00",
+    "metadata": {
+      "processed_at": "2026-05-02T10:44:54.086953+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "f3c1972f7161142decd4e7f9f2d462fc",
@@ -147,17 +167,21 @@
     "id": "530037456ebf02f86b424561cd25a9cc",
     "url": "https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&form=w9&lang=en",
     "title": "Show HN: Filling PDF forms with AI using client-side tool calling",
-    "content": "<p>Hey HN!<p>I built SimplePDF Copilot: an AI assistant that can interact with the PDF editor. It fills fields, answers questions, focuses on a specific field, adds fields, deletes pages, and so on.<p>It's built on top of SimplePDF that I started 7 years ago, pioneering privacy-respecting client-side pdf editing, now used monthly by 200k+ people.<p>As for the privacy model: the PDF itself never leaves the browser. Parsing, rendering, and field detection all run client-side.<p>The text the model needs (and your messages) goes to whatever LLM you point at. By default that's our demo proxy (DeepSeek V4 Flash, rate-capped), but you can BYOK and point it at any cloud provider, or go fully local (I've been testing with LM Studio).<p>Unlike the existing \"Chat with PDF\" tools that only retrieve the text/OCR layer, Copilot can act on the PDF: filling fields, adding fields (detected client-side using CommonForms by Joe Barrow [1], jbarrow on HN with some post-processing heuristics I added on top), focusing on fields, deleting pages, and so on.<p>I built this because SimplePDF is mostly used by healthcare customers where document privacy is paramount, and I wanted an AI experience that didn't require shipping PII to a third party.\nStack is pretty standard:<p>- Tanstack Start<p>- AI SDK from Vercel<p>- Tailwind (I personally prefer CSS modules, I'm old-school but the goal since I open source it, I figured that Tailwind would be a better fit)<p>The more interesting part is the client-side tool calling: events are passed back and forth via iframe postMessage.<p>If you're not familiar with \"tool calling\" and \"client-side tool calling\", a quick primer:<p>Tool calling is what LLMs use to take actions. When Claude runs grep or ls, or hits an MCP server, those are tool calls.<p>Client-side tool calling means the intent to call a tool comes from the LLM, but the execution happens in the browser.<p>That matters for: speed, you can't go faster than client-to-client operations and also gives you the ability to limit the data you expose to the LLM. For the demo I do feed the content of the document to the LLM, but that connection could be severed as simply as removing the tool that exposes the content data.<p>The demo is fully open source, available on Github [2] and the demo is the same as the link of this post [3]<p>What's not open source is SimplePDF itself (loaded as the iframe).<p>I could talk on and on about this, let me know if you have any questions, anything goes!<p>[1] <a href=\"https://github.com/jbarrow/commonforms\" rel=\"nofollow\">https://github.com/jbarrow/commonforms</a><p>[2] <a href=\"https://github.com/SimplePDF/simplepdf-embed/tree/main/copilot\" rel=\"nofollow\">https://github.com/SimplePDF/simplepdf-embed/tree/main/copil...</a><p>[3] <a href=\"https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&amp;form=w9&amp;lang=en\" rel=\"nofollow\">https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228...</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47984675\">https://news.ycombinator.com/item?id=47984675</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
-    "author": "nip",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=47984675\">Comments</a>",
+    "author": "",
     "published_date": "2026-05-02T08:54:27+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 430,
-    "reading_time": 2,
-    "created_at": "2026-05-02T09:59:01.003839+00:00",
-    "updated_at": "2026-05-02T09:59:01.003841+00:00"
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-05-02T09:59:02.258861+00:00",
+    "updated_at": "2026-05-02T10:44:54.086951+00:00",
+    "metadata": {
+      "processed_at": "2026-05-02T10:44:54.086953+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "c1a4e93b5986535e1499419732fc962b",
