@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-05-03T12:58:29.488341+00:00",
-  "pending_count": 748,
-  "processed_count": 252,
+  "last_updated": "2026-05-03T14:44:02.080748+00:00",
+  "pending_count": 743,
+  "processed_count": 257,
   "pending_articles": [
+    {
+      "id": "14c708627c1f856f8b64bd3c2d723a90",
+      "url": "https://github.com/systalyze/utilyze",
+      "title": "Utilyze measures how efficiently your GPU is doing useful work",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47966668\">Comments</a>",
+      "author": "",
+      "published_date": "2026-04-30T18:49:20+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-03T13:13:11.571618+00:00",
+      "updated_at": "2026-05-03T13:13:11.571619+00:00"
+    },
     {
       "id": "d70dc40a9711f09b31f582294e375c61",
       "url": "https://www.nature.com/articles/s41593-026-02253-9",
@@ -146,25 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-05-03T08:21:10.012046+00:00",
       "updated_at": "2026-05-03T08:21:10.012048+00:00"
-    },
-    {
-      "id": "29ad6f1d34284b3b86cb97638b696204",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.04.30.721827v1?rss=1",
-      "title": "Cortical localization and dynamics of elementary mathematical concepts",
-      "content": "How the brain encodes abstract concepts remains poorly understood. Current theories propose that, in brains and computers alike, word meanings are represented by vectors of neural activation whose similarities reflect semantic relationships. Here, we tested whether this hypothesis also applies to abstract concepts of elementary mathematics. We collected behavioral, 7 Tesla functional MRI and magneto-encephalography (MEG) data and used representational similarity analysis to ask where, when and how fifteen concepts of integers, fractions, and geometric shapes are encoded in the adult brain. Behavioral similarity ratings revealed a rich conceptual structure characterized by both categorical distinctions (numbers vs shapes, integers vs fractions), a numerical distance effect for integers, and systematic correspondences between items involving the same number (e.g. three, third, triangle). Functional MRI identified a bilateral cortical network whose neural encodings of concepts correlated with their semantic similarity, overlapping with classic math-responsive regions and encompassing IPS and ITG as well as dorsolateral prefrontal cortex (dlPFC). A double dissociation was observed, with a preference for arithmetic in the right anterior intraparietal sulcus (IPS), and for geometry in left inferior temporal gyrus (ITG) and bilateral posterior IPS. MEG revealed that a semantic neural code common to written words and symbols is activated by about 230 ms, again primarily distinguishing integers, fractions and geometry concepts. Together, these findings suggest that mathematical concepts are organized in the brain along both categorical and numerical dimensions, with overlapping but partially distinct sites supporting arithmetic and geometry domains.",
-      "author": "Debray, S., Karami, A., Valerio, D., Caute, M., Pallier, C., Dehaene, S.",
-      "published_date": "2026-05-02T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 240,
-      "reading_time": 1,
-      "created_at": "2026-05-03T08:21:10.012012+00:00",
-      "updated_at": "2026-05-03T08:21:10.012014+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "4793efe9a59ac1c841ea7b4a65976631",
+      "url": "https://www.reddit.com/r/Python/comments/1t2lgwt/silkworm_now_can_scrape_websites_in_the_tor/",
+      "title": "Silkworm now can scrape websites in the TOR network",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Repository: <a href=\"https://github.com/BitingSnakes/silkworm\">https://github.com/BitingSnakes/silkworm</a></p> <p>What is it:</p> <p>Async-first web scraping framework built on wreq (HTTP with browser impersonation) and <a href=\"https://github.com/RustedBytes/scraper-rs\">scraper-rs</a> (fast HTML parsing). Silkworm gives you a minimal Spider/Request/Response model, middlewares, and pipelines so you can script quick scrapes or build larger crawlers without boilerplate.</p> <p>Latest release has integration with onionlink which provides the TOR client </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/yehors\"> /u/yehors </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1t2lgwt/silkworm_now_can_scrape_websites_in_the_tor/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1t2lgwt/silkworm_now_can_scrape_websites_in_the_tor/\">[comments]</a></span>",
+      "author": "/u/yehors",
+      "published_date": "2026-05-03T13:27:25+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 78,
+      "reading_time": 1,
+      "created_at": "2026-05-03T14:29:12.670093+00:00",
+      "updated_at": "2026-05-03T14:44:01.972919+00:00",
+      "metadata": {
+        "processed_at": "2026-05-03T14:44:01.972930+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a75e9050dfc0005edf3dbf8430c741ac",
+      "url": "https://arxiv.org/abs/2604.25679",
+      "title": "Embedded Rust or C Firmware? Lessons from an Industrial Microcontroller Use Case",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=47974307\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-01T13:02:30+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-03T14:29:11.459163+00:00",
+      "updated_at": "2026-05-03T14:44:01.972934+00:00",
+      "metadata": {
+        "processed_at": "2026-05-03T14:44:01.972936+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f5ffc08f4b269d7e1afeae50ba02e2ca",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926002673?dgcid=rss_sd_all",
+      "title": "Network topography and tissue-depth-like dependence of cerebrovascular reactivity covariance in the human brain",
+      "content": "<p>Publication date: 1 July 2026</p><p><b>Source:</b> NeuroImage, Volume 334</p><p>Author(s): Nuwan D. Nanayakkara, Liesel-Ann Meusel, Nicole D. Anderson, J. Jean Chen</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroimage",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 19,
+      "reading_time": 1,
+      "created_at": "2026-05-03T13:13:52.585179+00:00",
+      "updated_at": "2026-05-03T14:44:01.972939+00:00",
+      "metadata": {
+        "processed_at": "2026-05-03T14:44:01.972941+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "0f564dd86f1a441ac478ad5094807010",
+      "url": "https://www.sciencedirect.com/science/article/pii/S105381192600282X?dgcid=rss_sd_all",
+      "title": "Age dependence of brain oxygen metabolism in adults assessed by 3D constrained quantitative BOLD MRI",
+      "content": "<p>Publication date: 1 July 2026</p><p><b>Source:</b> NeuroImage, Volume 334</p><p>Author(s): Kathryn M. Jaroszynski, Sina Dindarian, Hyunyeol Lee, John A. Detre, Felix W. Wehrli</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroimage",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 21,
+      "reading_time": 1,
+      "created_at": "2026-05-03T13:13:52.585147+00:00",
+      "updated_at": "2026-05-03T14:44:01.972943+00:00",
+      "metadata": {
+        "processed_at": "2026-05-03T14:44:01.972944+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "eaad4706e06c57e2d3e9eccd7c0f8360",
+      "url": "https://www.reddit.com/r/Python/comments/1t2k3es/automate_anything_with_python_ai/",
+      "title": "Automate anything with Python + AI",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Codeonix is a free, open-source desktop automation app for Windows. You write Python scripts and attach them to <strong>triggers</strong> \u2014 a schedule, a file change, a webhook call, a keyboard shortcut, a USB device, a clipboard copy \u2014 and Codeonix runs them automatically, in the background, without any extra tooling or config files.</p> <p>Every script runs in a shared Python virtual environment. Dependencies declared in the task are installed automatically. An AI assistant (your choice of Claude, ChatGPT, Gemini, or OpenRouter) can write and fix your scripts from a single prompt.</p> <p>GitHub: <a href=\"https://github.com/codeonixapp\">https://github.com/codeonixapp</a> Site: <a href=\"https://codeonix.app/\">https://codeonix.app/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Certain-Astronaut277\"> /u/Certain-Astronaut277 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1t2k3es/automate_anything_with_python_ai/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1t2k3es/automate_anything_with_python_ai/\">[comments]</a></span>",
+      "author": "/u/Certain-Astronaut277",
+      "published_date": "2026-05-03T12:27:38+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 118,
+      "reading_time": 1,
+      "created_at": "2026-05-03T13:13:12.802877+00:00",
+      "updated_at": "2026-05-03T14:44:01.972946+00:00",
+      "metadata": {
+        "processed_at": "2026-05-03T14:44:01.972948+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "261b70661817ac2b0fe0fd327b4eecd5",
       "url": "https://github.com/siddsachar/Thoth",
@@ -262,106 +362,6 @@
       "updated_at": "2026-05-03T12:58:29.379921+00:00",
       "metadata": {
         "processed_at": "2026-05-03T12:58:29.379923+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a0e1014b4f36e4b983b4890c5026b0ef",
-      "url": "http://daniellakens.blogspot.com/2025/12/dogmatic-bayesianism-disorder.html",
-      "title": "Dogmatic Bayesianism Disorder",
-      "content": "<p><span style=\"font-family: arial;\">Note: This humorously\nintended sarcastic blog post directly mimics classifications of psychological\ndisorders in the Diagnostic and Statistical Manual of the American\nPsychological Association, but Dogmatic Bayesianism is not in the DSM-5 as an\nactual psychological disorder - for now.</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: arial;\">&nbsp;</span></span></p>\n\n<p align=\"right\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: right;\"><b><span style=\"color: #595959; font-size: 21pt;\"><span style=\"font-family: arial;\">Dogmatic\nBayesianism Disorder</span></span></b></p>\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"MsoTable15List7ColorfulAccent2\" style=\"border-collapse: collapse;\">\n <tbody><tr>\n  <td style=\"background: rgb(244, 176, 131); border: none; padding: 0cm 5.4pt; width: 453.1pt;\" valign=\"top\" width=\"604\">\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"font-family: arial;\"><b><i><span style=\"color: black; font-size: 17pt;\">Diagnostic Criteria <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span>&nbsp;</span></span></i></b><b><span style=\"color: black; font-size: 17pt;\">F61.1<i> </i></span></b></span></p>\n  </td>\n </tr>\n <tr>\n  <td style=\"background: rgb(247, 202, 172); border: none; padding: 0cm 5.4pt; width: 453.1pt;\" valign=\"top\" width=\"604\">\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">A. Individuals are convinced that they know what other people want to know.</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></p>\n  </td>\n </tr>\n <tr>\n  <td style=\"background: rgb(247, 202, 172); border: none; padding: 0cm 5.4pt; width: 453.1pt;\" valign=\"top\" width=\"604\">\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">B. Individuals believe that everyone who is not a Bayesian is wrong. They almost continuously try to\n  convince others, and there is often a strong feeling others need to be\n  \u2018saved\u2019.</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></p>\n  </td>\n </tr>\n <tr>\n  <td style=\"background: rgb(247, 202, 172); border: none; padding: 0cm 5.4pt; width: 453.1pt;\" valign=\"top\" width=\"604\">\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">C. Strong\n  tendency to ridicule non-Bayesians, including historical figures. Karl Popper (who opposed\n  Bayesianism, as it opens the door to dogmatism in science) is an especially common target.</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></p>\n  </td>\n </tr>\n <tr>\n  <td style=\"background: rgb(247, 202, 172); border: none; padding: 0cm 5.4pt; width: 453.1pt;\" valign=\"top\" width=\"604\">\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">D. A\n  pervasive obsession with Bayesian statistics, and the use of p-values or hypothesis\n  testing by others, at the expense of flexibility, openness, and acknowledging that other coherent statistical approaches exist to deal with uncertainty. </span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">E. Symptoms\n  cause clinically significant impairment in social, occupational, or other\n  important areas of current functioning. The forceful insertion of Bayesian\n  statistics into conversations can drive away conversation partners, to the\n  point where almost all social contact is restricted to other dogmatic\n  Bayesians.</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></p>\n  </td>\n </tr>\n <tr>\n  <td style=\"background: rgb(247, 202, 172); border: none; padding: 0cm 5.4pt; width: 453.1pt;\" valign=\"top\" width=\"604\">\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">F. Individuals believe everyone else will become a Bayesian. Older dogmatic Bayesian often\n  lose bets that everyone will have become a Bayesian by a specific year. If\n  this bet is lost, they continue to claim everyone will become a Bayesian in\n  the future and consider this a rationally updated belief.</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><i><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></i></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">Specify\n  if:</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"font-family: arial;\"><b><span style=\"color: black; font-size: 15pt;\">Persistent:\n  </span></b><span style=\"color: black; font-size: 15pt;\">The disorder has been present for more than 12\n  months. </span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">Specify\n  current severity:</span></span></p>\n  <p align=\"left\" class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm; text-align: left;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">Dogmatic\n  Bayesianism Disorder is specified as <b>severe </b>when an&nbsp;</span></span><span style=\"font-family: arial; font-size: 15pt;\">academic\n  exhibits all symptoms of the disorder, at which point individuals are classified as having Bayesian Evangelical Syndrome (BES)</span><span style=\"font-family: arial; font-size: 15pt;\">.</span></p>\n  </td>\n </tr>\n</tbody></table>\n\n<p class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm;\"><b><span style=\"color: #963718; font-size: 17pt;\"><span style=\"font-family: arial;\">&nbsp;</span></span></b></p>\n\n<p class=\"MsoNormal\"><b><span style=\"color: #963718; font-size: 17pt; line-height: 107%;\"><span style=\"font-family: arial;\">Prevalence</span></span></b></p>\n\n<p class=\"MsoNormal\"><span style=\"font-family: arial;\"><span style=\"color: black; font-size: 15pt; line-height: 107%;\">Less than 0.01% of the general population is\naffected, but prevalence is estimated to be at 1% to 2% in statistically inclined\nacademics. Due to diagnostic criterion E prevalence can be up to 80% on certain\ninternet forums. Men are more frequently affected than women, at a ratio estimated\nat 100:1 or greater. <span>&nbsp;</span></span><span lang=\"EN-US\"></span></span></p>\n\n<p class=\"MsoNormal\"><b><span style=\"color: #963718; font-size: 17pt; line-height: 107%;\"><span style=\"font-family: arial;\">Development and\ncourse</span></span></b></p>\n\n<p class=\"MsoNormal\"><span style=\"font-family: arial;\"><span style=\"color: black; font-size: 15pt; line-height: 107%;\">Development of the condition often starts in the\nearly thirties, but onset can occur at an older age, in which case the\nsymptoms are often much more severe. There is currently no treatment, and\ndogmatic Bayesianism typically increases with age. In rare cases (less than 1%)\nspontaneous recovery seems to occur, after which individuals often experience prolonged\nfeelings of shame and embarrassment. </span><span lang=\"EN-US\"></span></span></p>\n\n<p class=\"MsoNormal\"><b><span style=\"color: #963718; font-size: 17pt; line-height: 107%;\"><span style=\"font-family: arial;\">Risk and Prognostic\nFactors</span></span></b></p>\n\n<p class=\"MsoNormal\" style=\"line-height: normal; margin-bottom: 0cm;\"><span style=\"color: black; font-size: 15pt;\"><span style=\"font-family: arial;\">The disorder is more common in individuals with obsessive-compulsive\ndisorder (OCD).</span></span></p>",
-      "author": "noreply@blogger.com (Daniel Lakens)",
-      "published_date": "2025-12-06T07:18:00+00:00",
-      "source": "Twenty Percent Statistician",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 910,
-      "reading_time": 4,
-      "created_at": "2026-05-03T09:50:05.713420+00:00",
-      "updated_at": "2026-05-03T10:50:35.881420+00:00",
-      "metadata": {
-        "processed_at": "2026-05-03T10:50:35.881429+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0538cf39a75749ed45e73a2f60084b3a",
-      "url": "https://www.embs.org/ojemb/search-for-editor-in-chief/#new_tab",
-      "title": "Call for Applications Editor-in-Chief: IEEE Open Journal of Engineering in Medicine and Biology",
-      "content": "<p>The post <a href=\"https://www.embs.org/ojemb/search-for-editor-in-chief/#new_tab\">Call for Applications Editor-in-Chief: IEEE Open Journal of Engineering in Medicine and Biology</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "Deidre Artis",
-      "published_date": "2025-04-04T13:34:20+00:00",
-      "source": "Embs",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 22,
-      "reading_time": 1,
-      "created_at": "2026-05-03T09:49:53.228198+00:00",
-      "updated_at": "2026-05-03T10:50:35.881433+00:00",
-      "metadata": {
-        "processed_at": "2026-05-03T10:50:35.881435+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2c33a9ae4b42549b739794a8c6e8c382",
-      "url": "https://www.nature.com/articles/s41593-026-02231-1",
-      "title": "The prefrontal cortex controls memory organization in the hippocampus",
-      "content": "<p>Nature Neuroscience, Published online: 28 April 2026; <a href=\"https://www.nature.com/articles/s41593-026-02231-1\">doi:10.1038/s41593-026-02231-1</a></p>Related memories are sometimes encoded in overlapping neurons. The authors show that the prefrontal cortex controls this type of memory organization in the hippocampus through direct projections to the medial entorhinal cortex.",
-      "author": "Alcino J. Silva",
-      "published_date": "2026-04-28T00:00:00+00:00",
-      "source": "Nature Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 40,
-      "reading_time": 1,
-      "created_at": "2026-05-03T09:49:38.433476+00:00",
-      "updated_at": "2026-05-03T10:50:35.881438+00:00",
-      "metadata": {
-        "processed_at": "2026-05-03T10:50:35.881439+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9f6cb6ef95de30f1c31df70c7da0c1ae",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1838975",
-      "title": "Correction: Enhancing 3D semantic scene completion with refinement module",
-      "content": "",
-      "author": "Frontiers Production Office",
-      "published_date": "2026-04-07T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-03T09:49:28.692028+00:00",
-      "updated_at": "2026-05-03T10:50:35.881441+00:00",
-      "metadata": {
-        "processed_at": "2026-05-03T10:50:35.881443+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "30693362e81fd014be53b70d7808d0f1",
-      "url": "https://osec.io/blog/2026-04-30-unverified-evaluations-dusk-plonk/",
-      "title": "Forging ZK proofs to mint arbitrary DUSK tokens",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=47966975\">Comments</a>",
-      "author": "",
-      "published_date": "2026-04-30T19:14:41+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-03T09:49:01.889187+00:00",
-      "updated_at": "2026-05-03T10:50:35.881445+00:00",
-      "metadata": {
-        "processed_at": "2026-05-03T10:50:35.881446+00:00",
         "processing_method": "github_actions"
       }
     }
