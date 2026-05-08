@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-05-08T17:09:07.224276+00:00",
-  "pending_count": 784,
-  "processed_count": 216,
+  "last_updated": "2026-05-08T19:09:41.093056+00:00",
+  "pending_count": 779,
+  "processed_count": 221,
   "pending_articles": [
+    {
+      "id": "5e023b7ec7e6b23b5c8e26248b234f02",
+      "url": "https://www.stroustrup.com/bs_faq2.html#memory-leaks",
+      "title": "Bjarne Stroustrup: How do I deal with memory leaks?",
+      "content": "<p>Article URL: <a href=\"https://www.stroustrup.com/bs_faq2.html#memory-leaks\">https://www.stroustrup.com/bs_faq2.html#memory-leaks</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48065916\">https://news.ycombinator.com/item?id=48065916</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "author": "theanonymousone",
+      "published_date": "2026-05-08T17:06:59+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-08T18:11:10.248705+00:00",
+      "updated_at": "2026-05-08T18:11:10.248707+00:00"
+    },
     {
       "id": "fa70e1685d256626287d4c3999b40913",
       "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1821637",
@@ -146,25 +162,129 @@
       "reading_time": 14,
       "created_at": "2026-05-08T15:24:47.370977+00:00",
       "updated_at": "2026-05-08T15:24:47.370980+00:00"
-    },
-    {
-      "id": "2edc58ecd4adf0360b9cc9bd761412f5",
-      "url": "http://ieeexplore.ieee.org/document/11355688",
-      "title": "Haptic Acuity During Shared Grasp Experiences in Virtual Reality",
-      "content": "Wearable haptic gloves have the potential to greatly enhance active touch experiences in virtual reality (VR). However, it remains unclear how well people can interpret glove-enabled virtual touch experiences when experienced passively (for example, when they passively view a virtual hand perform autonomous actions while also feeling what the virtual hand feels via a haptic glove). Such a \u201chaptic replay\u201d scenario could enable people to share, revisit, or demonstrate touch-critical experiences, including medical palpation or fine manipulation of tools. This study explores a virtual user\u2019s ability to interpret one tactile feature, object size, when receiving touch feedback from a commercial haptic glove during either an active or passive grasp interaction. Although passive conditions resulted in poorer size acuity than during active touch, passive performance improved when participants mimicked the motion of the virtual hand, underscoring the role of proprioceptive feedback in grasp interpretation. Additionally, gender differences in performance suggest potential influences of glove ergonomics and size congruency between the real and virtual hand. Future research should investigate these variables and strive for balanced gender representation to assess generalization across VR applications.",
-      "author": "",
-      "published_date": "2026-01-15T13:16:28+00:00",
-      "source": "Transactions Haptics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 181,
-      "reading_time": 1,
-      "created_at": "2026-05-08T15:24:41.090817+00:00",
-      "updated_at": "2026-05-08T15:24:41.090818+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "858ed42d62e9de826c6860f1a72c9d83",
+      "url": "https://www.nature.com/articles/s41467-026-72931-6",
+      "title": "Three parsimonious spatiotemporal patterns in cerebellum reveal individual traits in function and behavior",
+      "content": "",
+      "author": "",
+      "published_date": "2026-05-08T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-05-08T18:11:47.250337+00:00",
+      "updated_at": "2026-05-08T19:09:40.983344+00:00",
+      "metadata": {
+        "processed_at": "2026-05-08T19:09:40.983355+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "0aece06f8f48ad7bf5761509d168ff3b",
+      "url": "https://www.nature.com/articles/s41467-026-72620-4",
+      "title": "Grid maps are disrupted after large-scale arena expansion and recover with experience",
+      "content": "",
+      "author": "",
+      "published_date": "2026-05-08T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-05-08T18:11:47.250265+00:00",
+      "updated_at": "2026-05-08T19:09:40.983360+00:00",
+      "metadata": {
+        "processed_at": "2026-05-08T19:09:40.983362+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "3e865013f79c9aeb30a4dbe969aac8a3",
+      "url": "https://www.reddit.com/r/Python/comments/1t7ev1y/project_recognition_in_the_era_of_ai_slop/",
+      "title": "Project recognition in the era of AI slop",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>First off, I just want to say that this is not AI generated and I am genuinely asking a question on how to properly share a project that you're actually excited on and that actually has real world usage without being tossed into a void or told this is just AI slop.</p> <p>How do you gain project recognition or share anymore? I wanted to share one of my projects that I've been working on for months as an example.</p> <p>I came to the subreddit thinking I would be able to just simply share my project and I got a warning saying that showcasing is no longer allowed because of the problem with tooling being just generated en masse at an infathomable speed. People were complaining so much, rightly so, that the subreddit laid down new rules and so did other subreddits. </p> <p>I followed the rules on each subreddit and posted into basically a void for projects thinking that people would want detailed and professional sounding wording and instead I was met with &quot;another AI slop tool&quot; from multiple people. People left comments saying I was using buzzwords, except those words are used to describe the actual technical definition, such as &quot;bounded concurrency&quot;. </p> <p>I thought that I should pay attention to my grammar and make sure it sounds decent, instead I was DM'd that I should just quit making AI generated content.</p> <p>My project is literally used in two companies right now to help speed up AWS governance and security. I use my own project for my own AWS organization and accounts that I own. I figured people would like to have an easier &quot;control plane&quot; via python for AWS but that wasn't well received.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/JSChronicles\"> /u/JSChronicles </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1t7ev1y/project_recognition_in_the_era_of_ai_slop/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1t7ev1y/project_recognition_in_the_era_of_ai_slop/\">[comments]</a></span>",
+      "author": "/u/JSChronicles",
+      "published_date": "2026-05-08T17:35:10+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 307,
+      "reading_time": 1,
+      "created_at": "2026-05-08T18:11:12.794225+00:00",
+      "updated_at": "2026-05-08T19:09:40.983365+00:00",
+      "metadata": {
+        "processed_at": "2026-05-08T19:09:40.983366+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "35dc7a524462b432f11ecedf516f1a5c",
+      "url": "https://www.reuters.com/business/apple-intel-have-reached-preliminary-chip-making-deal-wsj-reports-2026-05-08/",
+      "title": "Apple, Intel have reached preliminary chip-making deal",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48066169\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-08T17:25:21+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-08T18:11:11.643059+00:00",
+      "updated_at": "2026-05-08T19:09:40.983368+00:00",
+      "metadata": {
+        "processed_at": "2026-05-08T19:09:40.983370+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "732dd8bec53af0a3fa8c5c64336b39c0",
+      "url": "https://arxiv.org/abs/2605.01428",
+      "title": "Hallucinations Undermine Trust; Metacognition Is a Way Forward",
+      "content": "<p>Article URL: <a href=\"https://arxiv.org/abs/2605.01428\">https://arxiv.org/abs/2605.01428</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48064373\">https://news.ycombinator.com/item?id=48064373</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "gmays",
+      "published_date": "2026-05-08T15:16:11+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-08T18:11:10.248746+00:00",
+      "updated_at": "2026-05-08T19:09:40.983372+00:00",
+      "metadata": {
+        "processed_at": "2026-05-08T19:09:40.983374+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "35dc7a524462b432f11ecedf516f1a5c",
+      "url": "https://www.reuters.com/business/apple-intel-have-reached-preliminary-chip-making-deal-wsj-reports-2026-05-08/",
+      "title": "Apple, Intel have reached preliminary chip-making deal",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48066169\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-08T17:25:21+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-08T18:11:11.643059+00:00",
+      "updated_at": "2026-05-08T19:09:40.983368+00:00",
+      "metadata": {
+        "processed_at": "2026-05-08T19:09:40.983370+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "09ce98c65a9bf6783d419adb83ab8d77",
       "url": "https://www.nature.com/articles/s41593-026-02304-1",
@@ -242,126 +362,6 @@
       "updated_at": "2026-05-08T17:09:07.122431+00:00",
       "metadata": {
         "processed_at": "2026-05-08T17:09:07.122432+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "63a34a237fcef48d775e86c1aecd8fb9",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1748481",
-      "title": "A Physics Informed Neural Network (PINN) framework for fractional order modeling of Alzheimer's disease",
-      "content": "This study presents a novel fractional order model of Alzheimer's disease (mental disorder) using the Caputo derivative to accurately capture long term memory and hereditary effects in neurodegeneration. The mathematical model incorporates key pathological constituents including neurons, amyloid beta (A\u03b2), tau proteins and microglial responses, allowing detailed simulation of their dynamic interactions. Fundamental properties of the model, including positivity, boundedness, invariant regions and equilibrium points, are rigorously analyzed to ensure biological feasibility. Sensitivity analysis identifies amyloid toxicity as the most influential driver of neuronal loss underscoring its central role in AD progression. Furthermore, a Physics Informed Neural Network (PINN) is developed to approximate system dynamics from noisy observations while ensuring compliance with biological and physical constraints. Compared to standard neural networks the PINN exhibits superior accuracy and robustness especially under data scarcity. By integrating fractional calculus, optimal control and machine learning, this work advances computational modeling of Alzheimer's disease and offers insights into therapeutic optimization.",
-      "author": "Mohamed Hafez",
-      "published_date": "2026-02-18T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 155,
-      "reading_time": 1,
-      "created_at": "2026-05-08T16:52:15.529256+00:00",
-      "updated_at": "2026-05-08T17:09:07.122435+00:00",
-      "metadata": {
-        "processed_at": "2026-05-08T17:09:07.122436+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5d11f624eecb754cdaa93b0e7aec79bf",
-      "url": "http://daniellakens.blogspot.com/2026/05/there-are-13-ways-to-analyse.html",
-      "title": "There are 13 ways to analyse a replication study, but only one of them is coherent.",
-      "content": "<p>Paul Simon\u2019s says\nthere are 50 ways to leave your lover, and a similar abundance characterizes\nthe contemporary literature on how to analyse a replication study. The recent SCORE\nreplication project in Nature makes this explicit by reporting \u201c13 replication\nsuccess metrics along with the number of papers to which each metric could be\napplied\u201d (Tyner et al., 2026). The reason for this, as the authors note, is\nthat \u201cNo singular success metric has been accepted as optimal and universally\napplicable in the literature.\u201d With so many approaches to choose from, it\nshould not be a surprise that the inferences based on the studies vary\nsubstantially. As the authors report: \u201cThirteen methods for evaluating\nreplication success provided estimates ranging from 28.6% to 74.8% (median of\n49.3%).\u201d</p><p></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/a/AVvXsEinyqOmbe-2Lzl3GrUa3DcVypRzs7tCoCkEjNkaW-mcgVqDqDcfHPURO2rpq9d-idP8SjXyJ5OV3Zs8kl91EW0f7OUic8G9umaNA_DIuiP7qXRTLvTwTSRlDxls9fC6RHfS2URmDDUzr8dXhW0GgeoI4XiIJL4PxtpTdCu8oj9XkTX7XJR3z34I-rdhDzs\" style=\"margin-left: 1em; margin-right: 1em;\"><img alt=\"\" height=\"176\" src=\"https://blogger.googleusercontent.com/img/a/AVvXsEinyqOmbe-2Lzl3GrUa3DcVypRzs7tCoCkEjNkaW-mcgVqDqDcfHPURO2rpq9d-idP8SjXyJ5OV3Zs8kl91EW0f7OUic8G9umaNA_DIuiP7qXRTLvTwTSRlDxls9fC6RHfS2URmDDUzr8dXhW0GgeoI4XiIJL4PxtpTdCu8oj9XkTX7XJR3z34I-rdhDzs=w640-h176\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\">Fig. 1 from the SCORE project, with 13 ways to analyze a replication study.</div><br /><p></p>\n\n<p class=\"MsoNormal\">Although it is\nunderstandable for such a massive project to refrain from strongly opinionated\nchoices, I think we can all agree that we do not want to compute a median for\ndifferent approaches to analyse replication success, and just like we don\u2019t\nwant 13 ways to analyse an original study, we don\u2019t want 13 ways to analyse a\nreplication study. The current state of how to analyse replication studies is not\nas much an embarrassment of riches, but an embarrassment of a lack of a\ncoherent epistemology. In science, we don\u2019t compute statistics just because we\ncan. We compute statistics because they help us to generate knowledge. In my\nexperience, in science no \u201csingular\u201d <i>anything </i>is ever \u201caccepted\u201d \u2013 and especially\nnot an approach to statistical inferences (as the ever-ongoing disagreement\nbetween Bayesians and Frequentists illustrates). Instead of waiting for\nagreement, we should think about which approach to the analysis of a\nreplication study coherently follows from our epistemology. </p>\n\n<p class=\"MsoNormal\">Two metrics do the\nbulk of the epistemic work in the replication project. The authors are explicit\nthat \u201cPrimary reporting emphasizes the two most reported replication metrics:\nstatistical significance and effect size comparisons.\u201d The authors are right to\nfocus on these two measures, as these two inferences \u2013 whether the p-value is significant,\nand whether the effect sizes are similar \u2013 reflect what researchers treat as\nsubstantive claims in studies. In our recent paper \u2018How to analyse a\nreplication study\u2019 we point out that these two inferences are directly related\nto basic statements that scientists make: whether the same ordinal decision can\nbe made in the replication, and whether the magnitude of the effect\nmeaningfully corresponds to the original estimate <!--[if supportFields]><span\nstyle='mso-ansi-language:#0C00'><span style='mso-element:field-begin'></span><span\nstyle='mso-spacerun:yes'>\u00a0</span>ADDIN ZOTERO_ITEM CSL_CITATION\n{&quot;citationID&quot;:&quot;w2b4NOSS&quot;,&quot;properties&quot;:{&quot;unsorted&quot;:false,&quot;formattedCitation&quot;:&quot;(Lakens\net al., 2026)&quot;,&quot;plainCitation&quot;:&quot;(Lakens et al.,\n2026)&quot;,&quot;noteIndex&quot;:0},&quot;citationItems&quot;:[{&quot;id&quot;:18325,&quot;uris&quot;:[&quot;http://zotero.org/users/371621/items/KSYTSEEZ&quot;],&quot;itemData&quot;:{&quot;id&quot;:18325,&quot;type&quot;:&quot;article&quot;,&quot;abstract&quot;:&quot;Replication\nstudies play an important role in scientific knowledge generation, but\nresearchers lack a coherent account of how to conclude whether a finding has\nbeen replicated. This paper provides such an account by connecting\nmethodological falsificationism and the Neyman-Pearson approach to statistical\ninferences in the context of the analysis of replication studies. From this\nperspective, the goal of a replication study is to examine whether the same\nbasic statement that was made in an original study can also be made when new\ndata are collected in a faithful empirical realization of the original test. If\nthe original study made an ordinal claim based on a statistical decision rule,\nthe replication study should evaluate whether the same claim can be made using\nthe same inferential criterion. We argue that the original effect size estimate\nshould also be treated as part of the original claim, and therefore that\nreplication studies should additionally examine whether the effect size differs\nmeaningfully from the original estimate. We illustrate how such comparisons can\nbe performed for correlations by using equivalence tests and point out the\nimportance of reflecting on which difference between replication studies is\nlarge enough to matter. More broadly, we argue that researchers should choose\nan analysis strategy for replication studies where their philosophy of science\nand statistical framework are coherently aligned.&quot;,&quot;citation-key&quot;:&quot;lakens_how_2026&quot;,&quot;number&quot;:&quot;7ydgu_v1&quot;,&quot;publisher&quot;:&quot;PsyArXiv&quot;,&quot;source&quot;:&quot;OSF\nPreprints&quot;,&quot;title&quot;:&quot;How to analyze a replication\nstudy&quot;,&quot;URL&quot;:&quot;https://osf.io/preprints/psyarxiv/7ydgu_v1/&quot;,&quot;author&quot;:[{&quot;family&quot;:&quot;Lakens&quot;,&quot;given&quot;:&quot;Daniel&quot;},{&quot;family&quot;:&quot;Leach&quot;,&quot;given&quot;:&quot;Nina\nM&quot;},{&quot;family&quot;:&quot;Haans&quot;,&quot;given&quot;:&quot;Antal&quot;},{&quot;family&quot;:&quot;Uygun\nTun\u00e7&quot;,&quot;given&quot;:&quot;Duygu&quot;},{&quot;family&quot;:&quot;Tun\u00e7&quot;,&quot;given&quot;:&quot;Mehmet\nN&quot;}],&quot;accessed&quot;:{&quot;date-parts&quot;:[[&quot;2026&quot;,5,3]]},&quot;issued&quot;:{&quot;date-parts&quot;:[[&quot;2026&quot;,4,30]]}}}],&quot;schema&quot;:&quot;https://github.com/citation-style-language/schema/raw/master/csl-citation.json&quot;}\n<span style='mso-element:field-separator'></span></span><![endif]-->(Lakens et al.,\n2026)<!--[if supportFields]><span style='mso-ansi-language:#0C00'><span\nstyle='mso-element:field-end'></span></span><![endif]-->. </p>\n\n<p class=\"MsoNormal\">While the authors understandably\ndo not make too strong a point about their focus on 2 of the 13 metrics, their\ndecision is not just based on which measures are commonly reported but also\nbased on an epistemically coherent approach to the analysis of a replication\nstudy. Replication projects like SCORE are unmistakably designed within a\nmethodological falsificationist framework, even when this philosophical\nbackground is not mentioned explicitly. In a falsificationist framework, which\nis implemented thought the Neyman-Pearson approach to statistical inferences, error\nrates are tightly controlled, and claims are made based on the results of a hypothesis\ntest. It is clear the score authors followed a methodological falsificationist\nframework and the Neyman-Pearson approach to statistics as they preregistered\n(allowing others to evaluate how severely they controlled their error rates), designed\nstudies with high statistical power, and set a prespecified alpha level. </p>\n\n<p class=\"MsoNormal\">From our perspective,\nthe central goal of a replication study is not to ask a new statistical\nquestion, but to revisit the same question as in the original study, after\ncollecting new data. As we argue, \u201cthe goal of a replication study is to\nexamine whether the same basic statement that was made in an original study can\nalso be made when new data are collected in a faithful empirical realization of\nthe original test.\u201d Within a methodological falsificationist framework,\noriginal findings enter the literature as tentative basic statements, justified\nby a statistical decision rule with known error rates. Replication studies\nfunction as a critical check on whether such statements were merely the result\nof a Type I error. As we note, \u201cone of the main functions of a replication\nstudy is to determine the stability of a finding, which should not be present\nif the original finding was a Type I error.\u201d Even though replications\ninevitably change many auxiliary conditions\u2014because, as Popper already\nobserved, experiments can never be repeated exactly\u2014this does not undermine\ntheir epistemic role. Instead, replications test whether the original claim\nsurvives variation in factors that were implicitly relegated to the ceteris\nparibus clause, thereby probing whether the original inference was robust or not.</p>\n\n<p class=\"MsoNormal\">This view has direct\nimplications for how replication studies should be analysed. If original claims\nwere made by rejecting a null hypothesis at a prespecified alpha level, then \u201cthe\nreplication study should evaluate whether the same claim can be made using the\nsame inferential criterion.\u201d And if researchers also treated the original\neffect size estimate as part of the claim (which they seem to do in practice) then\nreplication studies must additionally examine whether effect sizes differ\nmeaningfully. While the other eleven approaches to assessing replication\nsuccess are statistically legitimate and can certainly be reported, they answer\ndifferent questions and rest on different epistemic commitments. The coherent\napproach is the one that aligns epistemological aims, philosophy of science,\nand statistical procedure. Statistics follow from the questions we ask, the\nquestions we ask follow from our philosophy of science, and without such\ncoherence we cannot have a principled approach to the analysis of replication\nstudies. Maybe it is time to admit that there are 13 statistical quantities\nthat can be computed for a replication study, but there is really only one way to\ndo so coherently from a specific philosophy of scientific knowledge generation.\n</p>\n\n<p class=\"MsoNormal\">&nbsp;</p>\n\n<p class=\"MsoNormal\"><b>References</b></p>\n\n<p class=\"MsoBibliography\" style=\"line-height: normal;\"><!--[if supportFields]><span\nstyle='mso-ansi-language:#0C00'><span style='mso-element:field-begin'></span><span\nstyle='mso-spacerun:yes'>\u00a0</span>ADDIN ZOTERO_BIBL\n{&quot;uncited&quot;:[],&quot;omitted&quot;:[],&quot;custom&quot;:[]}\nCSL_BIBLIOGRAPHY <span style='mso-element:field-separator'></span></span><![endif]--><span lang=\"EN-US\">Lakens, D., Leach, N. M., Haans, A.,\nUygun Tun\u00e7, D., &amp; Tun\u00e7, M. N. (2026). <i>How to analyze a replication study</i>. PsyArXiv. <a href=\"https://osf.io/preprints/psyarxiv/7ydgu_v1\">https://osf.io/preprints/psyarxiv/7ydgu_v1</a>/&nbsp;</span></p>\n\n<p class=\"MsoBibliography\" style=\"line-height: normal;\"><span lang=\"EN-US\">Tyner, A. H., Abatayo, A. L., Daley, M., Field,\nS., Fox, N., Haber, N. A., Hahn, K. M., Struhl, M. K., Mawhinney, B., Miske,\nO., Silverstein, P., Soderberg, C. K., Stankov, T., Abbasi, A., Aberson, C. L.,\nAczel, B., Adamkovi\u010d, M., Albayrak, N., Allen, P. J., \u2026 Errington, T. M.\n(2026). Investigating the replicability of the social and behavioural sciences.\n</span><i><span lang=\"NL\">Nature</span></i><span lang=\"NL\">, <i>652</i>(8108),\n143\u2013150. <a href=\"https://doi.org/10.1038/s41586-025-10078-y\">https://doi.org/10.1038/s41586-025-10078-y</a></span></p>\n\n<!--[if supportFields]><span style='font-size:11.0pt;line-height:107%;\nfont-family:\"Arial\",sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font:minor-bidi;\nmso-ansi-language:#0C00;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span\nstyle='mso-element:field-end'></span></span><![endif]-->",
-      "author": "noreply@blogger.com (Daniel Lakens)",
-      "published_date": "2026-05-03T18:37:00+00:00",
-      "source": "Twenty Percent Statistician",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1361,
-      "reading_time": 6,
-      "created_at": "2026-05-08T13:51:29.438623+00:00",
-      "updated_at": "2026-05-08T15:17:41.456801+00:00",
-      "metadata": {
-        "processed_at": "2026-05-08T15:17:41.456810+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9c1aae9b53964efb8db2e6a4c4db45ce",
-      "url": "http://ieeexplore.ieee.org/document/11311560",
-      "title": "Evaluating the Physics and Repeatability of Human Brushers in Delivering Affective Touch",
-      "content": "Research in affective touch often utilizes a pleasant stroking paradigm, with touch typically delivered at velocities between 0.3\u201330 cm/s and forces about 0.4 N. These values are derived from perceptual and physiological responses of touch receivers rather than natural behaviors of touchers. Herein, we observe untrained touchers in delivering pleasant touch as gentle strokes to a receiver\u2019s forearm through high-resolution force and position measurement using an instrumented brush. Twenty participants delivered about eleven strokes in each of five trials, yielding data on stroke velocity, force, duration, and length. The cohort deployed forces (0.37 N \u00b1 0.24, 2 SD) near 0.4 N, but stroking velocities (13.7 cm/s \u00b1 8.8, 2 SD) slightly higher than typically considered \u201coptimal\" (1\u201310 cm/s). We observed no correlation between stroke force and velocity, which led us to consider these factors jointly in characterizing an individual\u2019s brushing strategy. Moreover, while the cohort of participants exhibited a compact range of forces and velocities, individuals tended to occupy only subsets of this range with high repeatability across trials. Altogether, the findings suggest a need to further evaluate the velocity range between 10\u201330 cm/s and to jointly consider force, velocity, and consistency in characterizing an individual\u2019s brushing strategy.",
-      "author": "",
-      "published_date": "2025-12-22T13:17:38+00:00",
-      "source": "Transactions Haptics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 198,
-      "reading_time": 1,
-      "created_at": "2026-05-08T13:51:22.669494+00:00",
-      "updated_at": "2026-05-08T15:17:41.456814+00:00",
-      "metadata": {
-        "processed_at": "2026-05-08T15:17:41.456816+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "218aa72f1d154477d1d4bab9e7f046bb",
-      "url": "http://ieeexplore.ieee.org/document/11313607",
-      "title": "Affective Touch With Mid-Air Ultrasound: A Psychophysical Comparison With Real Materials",
-      "content": "Affective touch has attracted significant interest due to its positive effects on child development and adult well-being. Studies showed that light and slow stroke of soft brush on hairy skin elicits affective sensation by activating C-Tactile fibers. Mid-air haptics, which uses focused ultrasound to create tactile sensations in free space, offers a promising method for eliciting affective changes. However, it remains poorly understood to what extent mid-air haptics can produce the perception similar to a brush stroke on hairy skin. Here, we conducted a psychophysical study comparing the tactile perception of mid-air ultrasound stimulation with that of real materials (sandpaper, aluminum resin, urethane rubber, cloth, and soft brush). Participants rated each stimulation on the dorsum of hand along three affective touch dimensions (pleasantness, surprise, ticklishness) and three discriminative touch dimensions (smoothness, softness, warmness). Univariate analyses revealed that ultrasound stimuli differed from aluminum resin, sandpaper, and urethane rubber in one or more dimensions of discriminative touch. Ultrasound stimulation with 10 Hz amplitude modulation significantly felt more pleasant than sandpaper, while no consistent differences between ultrasound and real textures ratings was observed in surprise and ticklishness. Multivariate analyses showed that ultrasound stimuli with amplitude modulation at 10 Hz and 100 Hz were significantly closer to real textures than unmodulated ultrasound. Questionnaires showed that over half of the participants identified ultrasound stimulation as a brush or cotton. These findings suggest that mid-air haptics can evoke perceptual attributes overlapping with those of real textures, including soft brushes, on hairy skin. Moreover, amplitude modulation may enhance the perceptual resemblance to realistic textures.",
-      "author": "",
-      "published_date": "2025-12-23T13:16:52+00:00",
-      "source": "Transactions Haptics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 257,
-      "reading_time": 1,
-      "created_at": "2026-05-08T13:51:22.669455+00:00",
-      "updated_at": "2026-05-08T15:17:41.456819+00:00",
-      "metadata": {
-        "processed_at": "2026-05-08T15:17:41.456820+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9600aa9f32b4d825d4d912a9bba195c1",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.05.722825v1?rss=1",
-      "title": "Cholesteryl Ester as a Prognostic Biomarker In IDH-wildtype Glioblastoma",
-      "content": "Current treatment of IDH-wildtype glioblastoma (GBM) relies on the first-line chemotherapy-temozolomide. Although MGMT methylation is routinely conducted to predict chemosensitivity, its efficacy is often compromised. Thus, there is an urgent need to discover more accurate prognostic biomarkers. Cholesteryl ester (CE) has been recently recognized as a key feature of GBM, however, its role in GBM prognosis remains poorly understood. We first employed label-free stimulated Raman scattering (SRS) imaging to quantitatively analyze CE level in intact tumor tissues obtained from IDH-wildtype GBM patients. Our result revealed significantly prolonged 2-year overall survival (OS) in patients with CE level [&ge;] 40% compared to those with CE level < 40%. CE outperformed MGMT methylation for 2-year OS prognosis (AUC: 0.836 vs. 0.763). Importantly, CE also achieved superior prognostic performance over MGMT methylation on an independent cohort, with higher sensitivity (0.856 vs. 0.667), specificity (0.833 vs. 0.583), NPV (1.00 vs. 0.667), PPV (0.833 vs. 0.583). Given synergistic effects between CE and MGMT methylation, we developed a prognostic model combining these two biomarkers. Specially, machine learning (XGBoost) model exhibited optimal performance in the training cohort (AUC: 0.920), and maintained its superior performance on the independent cohort (sensitivity: 0.946, specificity: 0.873, NPV: 1.00; PPV: 0.917). Mechanistically, integrative analysis of TCGA database linked poor prognosis to the coordinated upregulation of genes involved in cholesterol efflux, hydrolysis, transport, and inhibition of de novo synthesis, unraveling a possible underlying mechanism between poor prognosis and cholesterol metabolism. This work identified CE as a prognostic biomarker for IDH-wildtype GBM.",
-      "author": "wang, n., wang, J., Liu, J., Zou, J., Yang, B., wang, P., Ji, N., Yue, S.",
-      "published_date": "2026-05-08T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 247,
-      "reading_time": 1,
-      "created_at": "2026-05-08T13:51:05.587134+00:00",
-      "updated_at": "2026-05-08T15:17:41.456823+00:00",
-      "metadata": {
-        "processed_at": "2026-05-08T15:17:41.456824+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "edcab9e7c8e7a145ea5bdb8f5a975d4c",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.06.723377v1?rss=1",
-      "title": "Cerebellar induced VTA plasticity underlies chronic stress-induced depression-like behaviors",
-      "content": "Synaptic regulation is a key mechanism underlying neural circuit homeostasis and plasticity. We previously showed that projections from the deep cerebellar nuclei (DCN) to the ventral tegmental area (VTAp-DCN neurons) contribute to depression-like behaviors following chronic restraint stress (RS), but the mechanisms by which these outputs induce downstream long-term functional changes remain unknown. Here, we show that chronic RS induces an activity-dependent reduction in vesicular glutamate transporter 2 (VGLUT2) expression in VTAp-DCN axons, resulting in decreased miniature excitatory postsynaptic current frequency in dorsolateral VTA dopaminergic neurons and reduced phasic dopamine release in the nucleus accumbens. Notably, VGLUT2 reduction temporally coincides with the emergence of depression-like behaviors. Consistent with this, targeted VGLUT2 overexpression in VTAp-DCN neurons rescues synaptic transmission and dopamine signaling and prevents depression-like behaviors following chronic RS. These findings reveal a stress-induced plasticity mechanism in the cerebellar-VTA circuit linking chronic stress to depression-like behaviors.",
-      "author": "Kang, S., Kim, T., Kim, D., Baek, S.-J., McHugh, T., Yamamoto, Y., Tanaka-Yamamoto, K.",
-      "published_date": "2026-05-08T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 145,
-      "reading_time": 1,
-      "created_at": "2026-05-08T13:51:05.587089+00:00",
-      "updated_at": "2026-05-08T15:17:41.456826+00:00",
-      "metadata": {
-        "processed_at": "2026-05-08T15:17:41.456828+00:00",
         "processing_method": "github_actions"
       }
     }
