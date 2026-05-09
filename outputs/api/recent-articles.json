@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-05-09T16:46:34.929221+00:00",
+  "last_updated": "2026-05-09T16:57:49.887105+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "cd74371bd50462836d0bf184794f9346",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1806605",
+      "title": "ActionX: pre-training action experts with reinforcement learning for vision-language action models",
+      "content": "Vision-Language Action (VLA) models have enabled language-driven robotic manipulation by integrating language instructions, visual perception, and action generation. However, existing VLA approaches heavily rely on large-scale human demonstration datasets, which leads to substantial data collection and training costs. To address this, we propose ActionX, a pretraining framework that learns Action eXperts using reinforcement learning while leveraging a frozen, pretrained Vision-Language Model (VLM) backbone. The pretrained action expert is then integrated with the vision-language backbone and fine-tuned end-to-end using a small amount of expert data to align perception, language, and action for downstream manipulation tasks. We evaluate ActionX on the LIBERO and Meta-World benchmarks as well as real-world robotic manipulation scenarios. Experimental results show that ActionX achieves +16% success rate compare to state-of-the-art VLA models trained with large-scale demonstrations, while requiring only less than 100 expert demonstrations for real robot tasks for whole training phase. This performance is achieved by establishing an optimized action expert model through reinforcement learning, which significantly enhances VLA training efficiency.",
+      "author": "Enhong Chen",
+      "published_date": "2026-04-14T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 164,
+      "reading_time": 1,
+      "created_at": "2026-05-09T16:57:07.739252+00:00",
+      "updated_at": "2026-05-09T16:57:07.739253+00:00"
+    },
+    {
+      "id": "558e0f7136452876d770c686cba4a3d0",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1769924",
+      "title": "HarmoAtt-IK: an adaptive multimodal feature fusion network for real-time neural inverse kinematics",
+      "content": "IntroductionRecent advances in neural networks have introduced a new paradigm for robotic inverse kinematics. However, existing methods remain limited by insufficient feature extraction and suboptimal integration of multi-source information, preventing them from achieving high accuracy, broad generalization, and real-time performance on robots with diverse and complex kinematic structures.MethodsIn this work, we propose HarmoAtt-IK, an adaptive multimodal neural inverse kinematics approach designed for real-time inference and zero-collection training. Built upon the CycleIK framework, the proposed method introduces a novel adaptive multimodal attention fusion mechanism (HarmoAtt) that dynamically integrates the complementary strengths of spatial, channel, and cross-dimensional attention. It employs a temperature-adaptive Softmax function coupled with a compact weight-generation network to perform multidimensional extraction and adaptive enhancement of input features. We further introduce a composite loss function integrating an improved Smooth-L1 loss, a sign-invariant quaternion loss, and a Shannon entropy regularizer to enhance training stability and overall accuracy. Leveraging forward differential kinematics, our method enables rapid, cross-platform deployment by generating training data solely from URDF models, eliminating the need for costly physical data collection and manual annotation.ResultsExperimental evaluations on five humanoid platforms exhibiting substantial kinematic diversity demonstrate that HarmoAtt-IK attains maximum reductions of 76.4% in terminal positional error and 55.1% in rotational error relative to the baseline, while consistently improving the model\u2019s inference success rate across all tested platforms by up to 5.76 percentage points.DiscussionThese results indicate that the proposed HarmoAtt-IK significantly outperforms baseline methods in both accuracy and reliability across diverse kinematic structures, highlighting the effectiveness of the adaptive multimodal attention mechanism and composite loss design. This further supports its potential for scalable, real-time deployment on a wide range of robotic platforms.",
+      "author": "Jiaqiu Song",
+      "published_date": "2026-04-24T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 271,
+      "reading_time": 1,
+      "created_at": "2026-05-09T16:57:07.739151+00:00",
+      "updated_at": "2026-05-09T16:57:07.739153+00:00"
+    },
+    {
+      "id": "051b00eb368bb3d8d8ce021fb514a810",
+      "url": "https://fmhy.net/posts/changelog-sites",
+      "title": "Changelog Sites",
+      "content": "<p><strong><a href=\"https://fmhy-tracker.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">https://fmhy-tracker.pages.dev/</a></strong></p>\n<p>This covers links that have been added, updated, or removed by watching GitHub for changes.</p>\n<hr />\n<p>Note that we also make monthly posts on both reddit + our site with the bigger changes, and you can also follow them yourself by joining our <a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Discord</a>, or watching the <a href=\"https://github.com/fmhy/edit/commits/main/\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub.</p>",
+      "author": "",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 62,
+      "reading_time": 1,
+      "created_at": "2026-05-09T16:56:45.228615+00:00",
+      "updated_at": "2026-05-09T16:56:45.228616+00:00"
+    },
+    {
+      "id": "40afdc590c8a853678c69f5ced8d09b8",
+      "url": "https://thenewstack.io/subquadratic-12-million-context-window/",
+      "title": "The context window has been shattered: Subquadratic debuts a 12M token window",
+      "content": "<p>Article URL: <a href=\"https://thenewstack.io/subquadratic-12-million-context-window/\">https://thenewstack.io/subquadratic-12-million-context-window/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48075645\">https://news.ycombinator.com/item?id=48075645</a></p>\n<p>Points: 19</p>\n<p># Comments: 4</p>",
+      "author": "gmays",
+      "published_date": "2026-05-09T15:15:39+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-09T16:56:41.410186+00:00",
+      "updated_at": "2026-05-09T16:56:41.410195+00:00"
+    },
     {
       "id": "c8c9e42a5a901b2458a3cc94fcf636ea",
       "url": "https://www.nature.com/articles/s41599-026-07455-x",
@@ -39,6 +103,26 @@
       "updated_at": "2026-05-09T16:46:34.838762+00:00",
       "metadata": {
         "processed_at": "2026-05-09T16:46:34.838763+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "bf67900db154f37a410e3679fb345ffc",
+      "url": "https://stonetools.ghost.io/pipedream-archimedes/",
+      "title": "PipeDream on the Acorn Archimedes",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48075528\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-09T15:01:16+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-09T15:54:11.537809+00:00",
+      "updated_at": "2026-05-09T16:46:34.838765+00:00",
+      "metadata": {
+        "processed_at": "2026-05-09T16:46:34.838767+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -117,26 +201,6 @@
       "reading_time": 1,
       "created_at": "2026-05-09T15:54:10.158289+00:00",
       "updated_at": "2026-05-09T15:54:10.158291+00:00"
-    },
-    {
-      "id": "bf67900db154f37a410e3679fb345ffc",
-      "url": "https://stonetools.ghost.io/pipedream-archimedes/",
-      "title": "PipeDream on the Acorn Archimedes",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48075528\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-09T15:01:16+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-09T15:54:11.537809+00:00",
-      "updated_at": "2026-05-09T16:46:34.838765+00:00",
-      "metadata": {
-        "processed_at": "2026-05-09T16:46:34.838767+00:00",
-        "processing_method": "github_actions"
-      }
     },
     {
       "id": "e09de961921989959b89cc30727d75e8",
@@ -301,70 +365,6 @@
       "reading_time": 1,
       "created_at": "2026-05-09T13:20:51.042309+00:00",
       "updated_at": "2026-05-09T13:20:51.042311+00:00"
-    },
-    {
-      "id": "4e20d2f8df362e63107c6c4d397fda88",
-      "url": "https://www.nature.com/articles/s41537-026-00762-x",
-      "title": "Generalizability of findings from neurobiological studies of individuals with first-episode psychosis: a cohort study",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-09T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-09T13:20:51.042273+00:00",
-      "updated_at": "2026-05-09T13:20:51.042275+00:00"
-    },
-    {
-      "id": "edc49136774f7937b26d85ccb775c068",
-      "url": "https://www.nature.com/articles/s41398-026-04088-1",
-      "title": "ARHGAP39 plays an essential role in anxiety-like behavior and stress response",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-09T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-09T13:20:51.042235+00:00",
-      "updated_at": "2026-05-09T13:20:51.042237+00:00"
-    },
-    {
-      "id": "743ccd9a50429f161c805e15ada4d896",
-      "url": "https://www.nature.com/articles/s41467-026-72934-3",
-      "title": "Multi-focal ultrasound neuromodulation to the dorsal anterior cingulate cortex disrupts behavioural and neural pain processing",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-09T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-09T13:20:51.042217+00:00",
-      "updated_at": "2026-05-09T13:20:51.042218+00:00"
-    },
-    {
-      "id": "cd9caa102eec1e7bb01865d0654c81ad",
-      "url": "https://www.nature.com/articles/s41598-026-50671-3",
-      "title": "One-year longitudinal cohort study of chemosensory recovery and plasma biomarker dynamics in SARS-CoV-2 survivors",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-09T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-09T13:20:51.042199+00:00",
-      "updated_at": "2026-05-09T13:20:51.042200+00:00"
     }
   ]
 }
