@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-05-09T21:11:30.522879+00:00",
+  "last_updated": "2026-05-09T22:08:59.523481+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "2aef9bf8ac0386e539a321260d46d2e8",
+      "url": "https://github.com/nooga/let-go",
+      "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48076815\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-09T17:52:13+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-09T22:07:51.555117+00:00",
+      "updated_at": "2026-05-09T22:07:51.555119+00:00"
+    },
+    {
+      "id": "2aef9bf8ac0386e539a321260d46d2e8",
+      "url": "https://github.com/nooga/let-go",
+      "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
+      "content": "<p>Let-go is a Clojure-like language (~90% compatible with JVM Clojure) written in pure Go. It ships as a ~10MB static binary and cold boots in ~7ms - that's about 50x faster than JVM and 3x faster than Babashka. It has decent throughput on algorithmic workloads - within ballpark of the GraalVM-backed sci.<p>I started this project in 2021 as an elaborate practical joke: I wanted to have an excuse for writing Clojure while pretending to write Go.<p>Jokes aside, it turned out to be pretty decent: it feels like real Clojure, it has an nREPL server (supported in Calva, CIDER, etc.), it's easily embeddable in your Go programs (funcs, structs and channels cross the boundary without fuss). It's good for writing CLIs, web servers, data processing scripts and even doing some systems programming - I used it to write a deamonless container runtime. Oh, and it runs on Plan9.<p>Under the hood there is a fairly simple compiler and a stack VM, both handcrafted specifically for running Clojure-like code. The compiler can work in AOT mode producing portable bytecode blobs and standalone binaries (runtime+bytecode).<p>This is not a drop-in replacement for Clojure in general - it does not load JARs, it does not have all Java APIs and it most probably won't run your exiting Clojure projects without modifications. At least not at the moment.<p>Take it for a spin, tell me what you think. Issues and PRs are welcome!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48076815\">https://news.ycombinator.com/item?id=48076815</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
+      "author": "marcingas",
+      "published_date": "2026-05-09T17:52:13+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 246,
+      "reading_time": 1,
+      "created_at": "2026-05-09T22:07:50.215541+00:00",
+      "updated_at": "2026-05-09T22:07:50.215543+00:00"
+    },
     {
       "id": "1f3d3147ee2432b2c483d4d07fd070df",
       "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2515277123?af=R",
@@ -313,38 +345,6 @@
       "reading_time": 1,
       "created_at": "2026-05-09T19:03:37.296546+00:00",
       "updated_at": "2026-05-09T19:03:37.296548+00:00"
-    },
-    {
-      "id": "c115c6790a623c62a4f3275ac891cf6c",
-      "url": "https://xunroll.com/thread/2053047748191232310",
-      "title": "Bun ported to Rust in 6 days",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48077231\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-09T18:47:58+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-09T19:03:37.296508+00:00",
-      "updated_at": "2026-05-09T19:03:37.296510+00:00"
-    },
-    {
-      "id": "a0325af83b11c952cacf5e04132fa72d",
-      "url": "https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels",
-      "title": "Apple is increasing my cortisol levels",
-      "content": "<p>Article URL: <a href=\"https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels\">https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48075366\">https://news.ycombinator.com/item?id=48075366</a></p>\n<p>Points: 29</p>\n<p># Comments: 5</p>",
-      "author": "LorenDB",
-      "published_date": "2026-05-09T14:40:58+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-05-09T19:03:36.137972+00:00",
-      "updated_at": "2026-05-09T19:03:36.137974+00:00"
     }
   ]
 }
