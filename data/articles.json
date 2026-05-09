@@ -7,29 +7,37 @@
     "author": "",
     "published_date": "2026-05-09T17:52:13+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-05-09T22:07:51.555117+00:00",
-    "updated_at": "2026-05-09T22:07:51.555119+00:00"
+    "updated_at": "2026-05-09T22:37:31.532871+00:00",
+    "metadata": {
+      "processed_at": "2026-05-09T22:37:31.532883+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "2aef9bf8ac0386e539a321260d46d2e8",
     "url": "https://github.com/nooga/let-go",
     "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
-    "content": "<p>Let-go is a Clojure-like language (~90% compatible with JVM Clojure) written in pure Go. It ships as a ~10MB static binary and cold boots in ~7ms - that's about 50x faster than JVM and 3x faster than Babashka. It has decent throughput on algorithmic workloads - within ballpark of the GraalVM-backed sci.<p>I started this project in 2021 as an elaborate practical joke: I wanted to have an excuse for writing Clojure while pretending to write Go.<p>Jokes aside, it turned out to be pretty decent: it feels like real Clojure, it has an nREPL server (supported in Calva, CIDER, etc.), it's easily embeddable in your Go programs (funcs, structs and channels cross the boundary without fuss). It's good for writing CLIs, web servers, data processing scripts and even doing some systems programming - I used it to write a deamonless container runtime. Oh, and it runs on Plan9.<p>Under the hood there is a fairly simple compiler and a stack VM, both handcrafted specifically for running Clojure-like code. The compiler can work in AOT mode producing portable bytecode blobs and standalone binaries (runtime+bytecode).<p>This is not a drop-in replacement for Clojure in general - it does not load JARs, it does not have all Java APIs and it most probably won't run your exiting Clojure projects without modifications. At least not at the moment.<p>Take it for a spin, tell me what you think. Issues and PRs are welcome!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48076815\">https://news.ycombinator.com/item?id=48076815</a></p>\n<p>Points: 13</p>\n<p># Comments: 0</p>",
-    "author": "marcingas",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=48076815\">Comments</a>",
+    "author": "",
     "published_date": "2026-05-09T17:52:13+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 246,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-05-09T22:07:50.215541+00:00",
-    "updated_at": "2026-05-09T22:07:50.215543+00:00"
+    "created_at": "2026-05-09T22:07:51.555117+00:00",
+    "updated_at": "2026-05-09T22:37:31.532871+00:00",
+    "metadata": {
+      "processed_at": "2026-05-09T22:37:31.532883+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "1f3d3147ee2432b2c483d4d07fd070df",
@@ -39,13 +47,17 @@
     "author": "Steven L. BernsteinZara MehrabianYan GuoJean JouffroyBen MeadStanislav TomarevEsmahan DurmazJonathan A. EpsteinAdam KronkSeth BlackshawThanh HoangaDepartment of Ophthalmology and Visual Sciences, Lab of Molecular Research, University of Maryland at Baltimore School of Medicine, Baltimore, MD 21201bDepartment of Neurobiology and Anatomy, Lab of Molecular Research, University of Maryland at Baltimore School of Medicine, Baltimore, MD 21201cExosome and Retinal Research Group, School of Optometry and Vision Sciences, University of Wales, Cardiff, Wales CF24 4HQ, United KingdomdRetinal Ganglion Cell Biology Lab, National Eye Institute, National Institutes of Health, Bethesda, MD 20892-0606eDepartment of Medicine, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104fOffice of Research and Development, University of Maryland Ventures, Baltimore, MD 21201gDepartment of Neuroscience, Johns Hopkins University School of Medicine, Baltimore, MD 21287hDepartment of Ophthalmology, Michigan Neuroscience Institute, University of Michigan, Ann Arbor, MI 48109iDepartment of Cell and Developmental Biology, Michigan Neuroscience Institute, University of Michigan, Ann Arbor, MI 48109",
     "published_date": "2026-04-27T07:00:00+00:00",
     "source": "Pnas Neuroscience",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 57,
     "reading_time": 1,
     "created_at": "2026-05-09T21:10:51.836501+00:00",
-    "updated_at": "2026-05-09T21:10:51.836503+00:00"
+    "updated_at": "2026-05-09T22:37:31.532893+00:00",
+    "metadata": {
+      "processed_at": "2026-05-09T22:37:31.532894+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "b9a7a848c59909b0d1328b39a8ecc8eb",
@@ -55,13 +67,17 @@
     "author": "/u/miabajic",
     "published_date": "2026-05-09T19:38:49+00:00",
     "source": "Reddit Python",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 130,
     "reading_time": 1,
     "created_at": "2026-05-09T21:10:19.561229+00:00",
-    "updated_at": "2026-05-09T21:10:19.561231+00:00"
+    "updated_at": "2026-05-09T22:37:31.532896+00:00",
+    "metadata": {
+      "processed_at": "2026-05-09T22:37:31.532898+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "8beff07fb7c8c7ead3c148fff98fb4e5",
@@ -71,13 +87,17 @@
     "author": "",
     "published_date": "2026-05-09T18:59:49+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-05-09T21:10:18.311122+00:00",
-    "updated_at": "2026-05-09T21:10:18.311124+00:00"
+    "updated_at": "2026-05-09T22:37:31.532900+00:00",
+    "metadata": {
+      "processed_at": "2026-05-09T22:37:31.532902+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "b54d50c429abf232750f5c5f994ec336",
@@ -115,17 +135,21 @@
     "id": "8beff07fb7c8c7ead3c148fff98fb4e5",
     "url": "https://www.copahost.com/blog/dirty-frag-cve-2026-43284/",
     "title": "\"Dirty Frag\" (CVE-2026-43284): The Second Linux Root Exploit in Eight Days",
-    "content": "<p>Article URL: <a href=\"https://www.copahost.com/blog/dirty-frag-cve-2026-43284/\">https://www.copahost.com/blog/dirty-frag-cve-2026-43284/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48077314\">https://news.ycombinator.com/item?id=48077314</a></p>\n<p>Points: 22</p>\n<p># Comments: 9</p>",
-    "author": "ggallas",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=48077314\">Comments</a>",
+    "author": "",
     "published_date": "2026-05-09T18:59:49+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-05-09T21:10:17.183390+00:00",
-    "updated_at": "2026-05-09T21:10:17.183391+00:00"
+    "created_at": "2026-05-09T21:10:18.311122+00:00",
+    "updated_at": "2026-05-09T22:37:31.532900+00:00",
+    "metadata": {
+      "processed_at": "2026-05-09T22:37:31.532902+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "cbf8f1252181744379750192ba2991e5",
