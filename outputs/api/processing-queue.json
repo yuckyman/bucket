@@ -1,8 +1,72 @@
 {
-  "last_updated": "2026-05-09T16:46:34.928784+00:00",
-  "pending_count": 770,
-  "processed_count": 230,
+  "last_updated": "2026-05-09T18:53:14.063686+00:00",
+  "pending_count": 769,
+  "processed_count": 231,
   "pending_articles": [
+    {
+      "id": "cd74371bd50462836d0bf184794f9346",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1806605",
+      "title": "ActionX: pre-training action experts with reinforcement learning for vision-language action models",
+      "content": "Vision-Language Action (VLA) models have enabled language-driven robotic manipulation by integrating language instructions, visual perception, and action generation. However, existing VLA approaches heavily rely on large-scale human demonstration datasets, which leads to substantial data collection and training costs. To address this, we propose ActionX, a pretraining framework that learns Action eXperts using reinforcement learning while leveraging a frozen, pretrained Vision-Language Model (VLM) backbone. The pretrained action expert is then integrated with the vision-language backbone and fine-tuned end-to-end using a small amount of expert data to align perception, language, and action for downstream manipulation tasks. We evaluate ActionX on the LIBERO and Meta-World benchmarks as well as real-world robotic manipulation scenarios. Experimental results show that ActionX achieves +16% success rate compare to state-of-the-art VLA models trained with large-scale demonstrations, while requiring only less than 100 expert demonstrations for real robot tasks for whole training phase. This performance is achieved by establishing an optimized action expert model through reinforcement learning, which significantly enhances VLA training efficiency.",
+      "author": "Enhong Chen",
+      "published_date": "2026-04-14T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 164,
+      "reading_time": 1,
+      "created_at": "2026-05-09T16:57:07.739252+00:00",
+      "updated_at": "2026-05-09T16:57:07.739253+00:00"
+    },
+    {
+      "id": "558e0f7136452876d770c686cba4a3d0",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1769924",
+      "title": "HarmoAtt-IK: an adaptive multimodal feature fusion network for real-time neural inverse kinematics",
+      "content": "IntroductionRecent advances in neural networks have introduced a new paradigm for robotic inverse kinematics. However, existing methods remain limited by insufficient feature extraction and suboptimal integration of multi-source information, preventing them from achieving high accuracy, broad generalization, and real-time performance on robots with diverse and complex kinematic structures.MethodsIn this work, we propose HarmoAtt-IK, an adaptive multimodal neural inverse kinematics approach designed for real-time inference and zero-collection training. Built upon the CycleIK framework, the proposed method introduces a novel adaptive multimodal attention fusion mechanism (HarmoAtt) that dynamically integrates the complementary strengths of spatial, channel, and cross-dimensional attention. It employs a temperature-adaptive Softmax function coupled with a compact weight-generation network to perform multidimensional extraction and adaptive enhancement of input features. We further introduce a composite loss function integrating an improved Smooth-L1 loss, a sign-invariant quaternion loss, and a Shannon entropy regularizer to enhance training stability and overall accuracy. Leveraging forward differential kinematics, our method enables rapid, cross-platform deployment by generating training data solely from URDF models, eliminating the need for costly physical data collection and manual annotation.ResultsExperimental evaluations on five humanoid platforms exhibiting substantial kinematic diversity demonstrate that HarmoAtt-IK attains maximum reductions of 76.4% in terminal positional error and 55.1% in rotational error relative to the baseline, while consistently improving the model\u2019s inference success rate across all tested platforms by up to 5.76 percentage points.DiscussionThese results indicate that the proposed HarmoAtt-IK significantly outperforms baseline methods in both accuracy and reliability across diverse kinematic structures, highlighting the effectiveness of the adaptive multimodal attention mechanism and composite loss design. This further supports its potential for scalable, real-time deployment on a wide range of robotic platforms.",
+      "author": "Jiaqiu Song",
+      "published_date": "2026-04-24T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 271,
+      "reading_time": 1,
+      "created_at": "2026-05-09T16:57:07.739151+00:00",
+      "updated_at": "2026-05-09T16:57:07.739153+00:00"
+    },
+    {
+      "id": "051b00eb368bb3d8d8ce021fb514a810",
+      "url": "https://fmhy.net/posts/changelog-sites",
+      "title": "Changelog Sites",
+      "content": "<p><strong><a href=\"https://fmhy-tracker.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">https://fmhy-tracker.pages.dev/</a></strong></p>\n<p>This covers links that have been added, updated, or removed by watching GitHub for changes.</p>\n<hr />\n<p>Note that we also make monthly posts on both reddit + our site with the bigger changes, and you can also follow them yourself by joining our <a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Discord</a>, or watching the <a href=\"https://github.com/fmhy/edit/commits/main/\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub.</p>",
+      "author": "",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 62,
+      "reading_time": 1,
+      "created_at": "2026-05-09T16:56:45.228615+00:00",
+      "updated_at": "2026-05-09T16:56:45.228616+00:00"
+    },
+    {
+      "id": "40afdc590c8a853678c69f5ced8d09b8",
+      "url": "https://thenewstack.io/subquadratic-12-million-context-window/",
+      "title": "The context window has been shattered: Subquadratic debuts a 12M token window",
+      "content": "<p>Article URL: <a href=\"https://thenewstack.io/subquadratic-12-million-context-window/\">https://thenewstack.io/subquadratic-12-million-context-window/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48075645\">https://news.ycombinator.com/item?id=48075645</a></p>\n<p>Points: 19</p>\n<p># Comments: 4</p>",
+      "author": "gmays",
+      "published_date": "2026-05-09T15:15:39+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-09T16:56:41.410186+00:00",
+      "updated_at": "2026-05-09T16:56:41.410195+00:00"
+    },
     {
       "id": "bb6c8dcacf1fb69b89ed06842d0f88be",
       "url": "https://reclaimthenet.org/the-fcc-wants-your-id-before-you-get-a-phone-number",
@@ -98,73 +162,129 @@
       "reading_time": 1,
       "created_at": "2026-05-09T13:20:51.042273+00:00",
       "updated_at": "2026-05-09T13:20:51.042275+00:00"
-    },
-    {
-      "id": "edc49136774f7937b26d85ccb775c068",
-      "url": "https://www.nature.com/articles/s41398-026-04088-1",
-      "title": "ARHGAP39 plays an essential role in anxiety-like behavior and stress response",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-09T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-09T13:20:51.042235+00:00",
-      "updated_at": "2026-05-09T13:20:51.042237+00:00"
-    },
-    {
-      "id": "743ccd9a50429f161c805e15ada4d896",
-      "url": "https://www.nature.com/articles/s41467-026-72934-3",
-      "title": "Multi-focal ultrasound neuromodulation to the dorsal anterior cingulate cortex disrupts behavioural and neural pain processing",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-09T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-09T13:20:51.042217+00:00",
-      "updated_at": "2026-05-09T13:20:51.042218+00:00"
-    },
-    {
-      "id": "cd9caa102eec1e7bb01865d0654c81ad",
-      "url": "https://www.nature.com/articles/s41598-026-50671-3",
-      "title": "One-year longitudinal cohort study of chemosensory recovery and plasma biomarker dynamics in SARS-CoV-2 survivors",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-09T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-09T13:20:51.042199+00:00",
-      "updated_at": "2026-05-09T13:20:51.042200+00:00"
-    },
-    {
-      "id": "96fc0b8d917857457eef3671560a1899",
-      "url": "https://www.nature.com/articles/s41398-026-04099-y",
-      "title": "Comprehensive behavioral profiling in male spontaneously hypertensive rats: latent trait mapping supports a valid multidomain ADHD model",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-09T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-09T13:20:51.042136+00:00",
-      "updated_at": "2026-05-09T13:20:51.042140+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "bdf46d7eb202c8e4dafbac398677d6b2",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2508352123?af=R",
+      "title": "Pseudorabies virus triggers ferritinophagy-mediated ferroptosis and neuroinflammation in viral encephalitis",
+      "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 18, May 2026. <br />SignificancePseudorabies virus (PRV) is an emerging zoonotic pathogen capable of invading the central nervous system and causing severe viral encephalitis. However, the mechanisms underlying PRV-induced neurological damage remain largely unknown. Here, we ...",
+      "author": "Jiali SunCaiyun HuoYuli LiXinsen LiJiawei XuJijing TianJin XiaoRui ZhangJun HanLei ZhouYanxin HuHanchun YangaState Key Laboratory of Veterinary Public Health and Safety, Key Laboratory of Animal Epidemiology of Ministry of Agriculture and Rural Affairs, College of Veterinary Medicine, China Agricultural University, Beijing 100193, ChinabKey Laboratory of Veterinary Bioproduction and Chemical Medicine of the Ministry of Agriculture, Zhongmu Institutes of China Animal Husbandry Industry Co., Ltd, Beijing 100095, China",
+      "published_date": "2026-04-28T07:00:00+00:00",
+      "source": "Pnas Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 47,
+      "reading_time": 1,
+      "created_at": "2026-05-09T17:53:41.265493+00:00",
+      "updated_at": "2026-05-09T18:53:13.961529+00:00",
+      "metadata": {
+        "processed_at": "2026-05-09T18:53:13.961538+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ffe96966ac7a2c46a07e7a254ebae9be",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1798561",
+      "title": "Bridging modalities: a deep learning framework for brain tumor classification via CT-MRI integration and model fusion",
+      "content": "Artificial intelligence (AI) and machine learning (ML) have shown remarkable promise in advancing medical image analysis, yet their potential in neurology and psychiatry remains underexplored. This work explores the use of deep learning approaches for automated brain tumor classification, leveraging multimodal neuroimaging data comprising computed tomography (CT) and magnetic resonance imaging (MRI) scans. Two model families were evaluated: a custom CNN trained from scratch and a transfer-learning approach based on ResNet-18. Models were trained and validated separately on CT and MRI datasets, and further extended to a combined dataset through multimodal fusion. Experimental results demonstrate that the CNN achieved accuracies of 97 and 99% on CT and MRI datasets, respectively, outperforming ResNet18, which yielded 95 and 97% under the same settings. On the combined dataset, CNN maintained superior performance (98%) compared to ResNet18 (94%), highlighting the adaptability of CNNs to domain-specific features in medical imaging. These findings suggest that lightweight CNNs can be highly effective for neuroimaging-based tumor detection, particularly when multimodal data are leveraged. Beyond clinical utility in early diagnosis, the authors underscore the importance of exploring modality-specific characteristics and model adaptability in designing AI-driven diagnostic systems for neurological disorders.",
+      "author": "Fares Hamad Aljahani",
+      "published_date": "2026-04-24T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 191,
+      "reading_time": 1,
+      "created_at": "2026-05-09T17:53:38.370916+00:00",
+      "updated_at": "2026-05-09T18:53:13.961542+00:00",
+      "metadata": {
+        "processed_at": "2026-05-09T18:53:13.961544+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "86b87cdcd02ac045f9beebb4a18e5613",
+      "url": "https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/",
+      "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48076465\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-09T17:06:46+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-09T17:53:07.315841+00:00",
+      "updated_at": "2026-05-09T18:53:13.961546+00:00",
+      "metadata": {
+        "processed_at": "2026-05-09T18:53:13.961548+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "42f3c6231d29aca5b25810a2e4ea95cb",
+      "url": "https://mochijs.com/",
+      "title": "Show HN: Mochi.js: bun-native high-fidelity browser automation library",
+      "content": "<p>Hi HN,<p>I\u2019m sharing mochi.js (<a href=\"https://github.com/0xchasercat/mochi\" rel=\"nofollow\">https://github.com/0xchasercat/mochi</a>), a Bun-native, raw-CDP browser automation framework. It's designed to make programmatic browser use more effective by focusing on consistency and measured parity with regular traffic, purely from the JS layer, against stock Chromium.<p>The most common forms of browser automation focus heavily on client-side line by line probes, which are mostly cosmetic. This makes people feel better but it doesn't have much relevance to actual WAF or anti-automation defences.<p>Mochi.js focuses on what actually matters, allowing you to get past captchas, WAF's and most defence mechanisms. In fact, in some cases it actually outperforms chromium forks simply by virtue of not having to lie.<p>The foundation is built on a probe manifest based on analyzing several WAF's and trying to cover most of the ground that matters, and from there building upwards while ensuring every decision is backed by data. Solves turnstile/interstitial automatically, single digit fpjs suspect score, very good client-side results, though browserscan and a few others are known limitations that are fundamentally conflicting with what WAF's probe for.<p>I'll be here if anyone wants to discuss the details, check out the docs and github. It's completely free and open source, MIT, strictly no relationship to any proprietary products whatsoever. No affiliation to patched chromium forks, or SaaS.<p>But I also want to talk about why I built this, because the current paradigm of \"bot detection\" is fundamentally broken.<p>Traditionally they would probably try to label my repository a malicious tool, or at best, a grey hat one.<p>Let's take Turnstile for example,  If you attach a debugger to see what data they are extracting from your hardware, their script intentionally self-destructs.\nWhen they try to extract your data\u2014acting as a guest on your silicon, using your electricity, without asking, the industry calls it \"Security.\"<p>But if you write a script to control exactly what data your own hardware emits, refusing to provide the data they have no right to ask for, you are suddenly labeled a \"Malicious Actor\" engaged in \"Bot Evasion.\"<p>I find it absurd we let ourselves put up with this, and the stance of the bot-evasion community only makes them feel more able to take a higher moral ground.<p>I have built a library that respects my hardware's reality. If that breaks your security model, that's because your security model relies on trespassing and secrecy. I stopped apologizing. Who's next?<p>Mochi is the exact opposite of WAF opacity. It is a glass box. It is MIT-licensed. The entire DAG, fingerprint manifest schema, harvesting process, is documented. We even commit our live benchmarks to the public record (mochi on a Linux datacenter IP scored a suspect_score: 8 and bot: not_detected against FingerprintJS Pro v4).<p>We don't even lie unnecessarily. We default to host-OS matching. If you run mochi on a Linux server, it uses privacy-sensible fingerprints for Linux, not Windows, because Linux is a real-user signal. It proves that WAFs aren't actually blocking what most people think they are, which begs the question of what they are really doing in that obfuscated payload.<p>The legitimacy argument is exactly how they captured the narrative. And nobody challenged it because the people on the other side were too busy acting like they were doing something wrong.<p>Is this a conspiracy theory? For sure, but only because they allow it to be. Try make a conspiracy theory about the sticky riceball.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48075059\">https://news.ycombinator.com/item?id=48075059</a></p>\n<p>Points: 10</p>\n<p># Comments: 4</p>",
+      "author": "ccheshirecat",
+      "published_date": "2026-05-09T14:01:40+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 566,
+      "reading_time": 2,
+      "created_at": "2026-05-09T17:53:06.191883+00:00",
+      "updated_at": "2026-05-09T18:53:13.961550+00:00",
+      "metadata": {
+        "processed_at": "2026-05-09T18:53:13.961552+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "3a5f82c33791b6f03f74907be1c0a552",
+      "url": "https://stoffelmpc.com/stoffel-blog/beaver-triples-tuples",
+      "title": "Introduction to Beaver Triples",
+      "content": "<p>Article URL: <a href=\"https://stoffelmpc.com/stoffel-blog/beaver-triples-tuples\">https://stoffelmpc.com/stoffel-blog/beaver-triples-tuples</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48076009\">https://news.ycombinator.com/item?id=48076009</a></p>\n<p>Points: 6</p>\n<p># Comments: 2</p>",
+      "author": "badcryptobitch",
+      "published_date": "2026-05-09T16:02:38+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-09T17:53:06.191749+00:00",
+      "updated_at": "2026-05-09T18:53:13.961554+00:00",
+      "metadata": {
+        "processed_at": "2026-05-09T18:53:13.961556+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "86b87cdcd02ac045f9beebb4a18e5613",
+      "url": "https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/",
+      "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48076465\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-09T17:06:46+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-09T17:53:07.315841+00:00",
+      "updated_at": "2026-05-09T18:53:13.961546+00:00",
+      "metadata": {
+        "processed_at": "2026-05-09T18:53:13.961548+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "c8c9e42a5a901b2458a3cc94fcf636ea",
       "url": "https://www.nature.com/articles/s41599-026-07455-x",
@@ -226,46 +346,6 @@
       }
     },
     {
-      "id": "a57674e0e61f879a65f0af8da1868711",
-      "url": "https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism/",
-      "title": "The Intolerable Hypocrisy of Cyberlibertarianism",
-      "content": "<p>Article URL: <a href=\"https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism/\">https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48074952\">https://news.ycombinator.com/item?id=48074952</a></p>\n<p>Points: 5</p>\n<p># Comments: 1</p>",
-      "author": "ColinWright",
-      "published_date": "2026-05-09T13:48:32+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-05-09T15:54:10.158333+00:00",
-      "updated_at": "2026-05-09T16:46:34.838768+00:00",
-      "metadata": {
-        "processed_at": "2026-05-09T16:46:34.838770+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "42b5f3fabc217eea627196044fda3271",
-      "url": "https://cyberinsider.com/grapheneos-fixes-android-vpn-leak-google-refused-to-patch/",
-      "title": "GrapheneOS fixes Android VPN leak Google refused to patch",
-      "content": "<p>Article URL: <a href=\"https://cyberinsider.com/grapheneos-fixes-android-vpn-leak-google-refused-to-patch/\">https://cyberinsider.com/grapheneos-fixes-android-vpn-leak-google-refused-to-patch/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48075144\">https://news.ycombinator.com/item?id=48075144</a></p>\n<p>Points: 19</p>\n<p># Comments: 0</p>",
-      "author": "Georgelemental",
-      "published_date": "2026-05-09T14:11:10+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-05-09T15:54:10.158309+00:00",
-      "updated_at": "2026-05-09T16:46:34.838771+00:00",
-      "metadata": {
-        "processed_at": "2026-05-09T16:46:34.838772+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "bf67900db154f37a410e3679fb345ffc",
       "url": "https://stonetools.ghost.io/pipedream-archimedes/",
       "title": "PipeDream on the Acorn Archimedes",
@@ -282,86 +362,6 @@
       "updated_at": "2026-05-09T16:46:34.838765+00:00",
       "metadata": {
         "processed_at": "2026-05-09T16:46:34.838767+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e09de961921989959b89cc30727d75e8",
-      "url": "http://ieeexplore.ieee.org/document/11068945",
-      "title": "Advancing Precision Oncology Through Modeling of Longitudinal and Multimodal Data",
-      "content": "Cancer evolves continuously over time through a complex interplay of genetic, epigenetic, microenvironmental, and phenotypic changes. This dynamic behavior drives uncontrolled cell growth, metastasis, immune evasion, and therapy resistance, posing challenges for effective monitoring and treatment. However, today\u2019s data-driven research in oncology has primarily focused on cross-sectional analysis using data from a single modality, limiting the ability to fully characterize and interpret the disease\u2019s dynamic heterogeneity. Advances in multiscale data collection and computational methods now enable the discovery of longitudinal multimodal biomarkers for precision oncology. Longitudinal data reveal patterns of disease progression and treatment response that are not evident from single-timepoint data, enabling timely abnormality detection and dynamic treatment adaptation. Multimodal data integration offers complementary information from diverse sources for more precise risk assessment and targeting of cancer therapy. In this review, we survey methods of longitudinal and multimodal modeling, highlighting their synergy in providing multifaceted insights for personalized care tailored to the unique characteristics of a patient\u2019s cancer. We summarize the current challenges and future directions of longitudinal multimodal analysis in advancing precision oncology.",
-      "author": "",
-      "published_date": "2025-07-03T13:17:40+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 175,
-      "reading_time": 1,
-      "created_at": "2026-05-09T14:35:40.332952+00:00",
-      "updated_at": "2026-05-09T14:45:02.931710+00:00",
-      "metadata": {
-        "processed_at": "2026-05-09T14:45:02.931720+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "67aa7028146467ce6966ff8a84262e96",
-      "url": "http://ieeexplore.ieee.org/document/11368668",
-      "title": "IEEE Engineering in Medicine and Biology Society",
-      "content": "null",
-      "author": "",
-      "published_date": "2026-01-29T13:23:34+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1,
-      "reading_time": 1,
-      "created_at": "2026-05-09T14:35:40.332673+00:00",
-      "updated_at": "2026-05-09T14:45:02.931724+00:00",
-      "metadata": {
-        "processed_at": "2026-05-09T14:45:02.931726+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "734e70556a92535d284258f21c7566d9",
-      "url": "http://ieeexplore.ieee.org/document/11368638",
-      "title": "Front Cover",
-      "content": "null",
-      "author": "",
-      "published_date": "2026-01-29T13:23:34+00:00",
-      "source": "Reviews Biomedical Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1,
-      "reading_time": 1,
-      "created_at": "2026-05-09T14:35:40.332647+00:00",
-      "updated_at": "2026-05-09T14:45:02.931728+00:00",
-      "metadata": {
-        "processed_at": "2026-05-09T14:45:02.931730+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8327734e5964469418c1d1a307404733",
-      "url": "https://www.nature.com/articles/s41598-026-52291-3",
-      "title": "Bacterial polar metabolites modulate \u03b2-amyloid toxicity and cholinergic dysfunction in models of Alzheimer\u2019s disease",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-09T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-09T14:35:25.669159+00:00",
-      "updated_at": "2026-05-09T14:45:02.931735+00:00",
-      "metadata": {
-        "processed_at": "2026-05-09T14:45:02.931736+00:00",
         "processing_method": "github_actions"
       }
     }
