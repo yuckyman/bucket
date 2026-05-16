@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-15T22:51:29.604492+00:00",
-  "pending_count": 820,
-  "processed_count": 180,
+  "last_updated": "2026-05-16T02:30:06.296133+00:00",
+  "pending_count": 815,
+  "processed_count": 185,
   "pending_articles": [
     {
       "id": "f767fe0f3ad192b0767add9e04661279",
@@ -166,6 +166,106 @@
   ],
   "recently_processed": [
     {
+      "id": "cc9af787f3e8e2d3eb133bad9ea55370",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.13.724786v1?rss=1",
+      "title": "Accelerated neural aging as a systems-level vulnerability for tinnitus",
+      "content": "Tinnitus, the perception of sound without an external source, affects 10-15% of individuals, yet its neural mechanisms remain poorly understood. Building on evidence that chronological age predicts tinnitus risk beyond hearing loss, we tested the hypothesis that accelerated neural aging increases susceptibility to tinnitus by integrating cross-sectional resting-state MEG with longitudinal structural imaging data. In a large MEG dataset, spectral parametrization revealed that age-neural relationships were amplified in the tinnitus group compared to age-, sex- & hearing-matched controls. Complementing these findings, prospective analyses using data from the UK Biobank showed that among participants without tinnitus at baseline, stronger age-related declines in white-matter density predicted later tinnitus onset. Collectively, these converging functional and structural findings support accelerated brain aging as a key risk factor for tinnitus.",
+      "author": "Schmidt, F., Demarchi, G., Mueller-Voggel, N., Kia, S. M., Trinka, E., Weisz, N.",
+      "published_date": "2026-05-15T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 125,
+      "reading_time": 1,
+      "created_at": "2026-05-15T23:32:28.846567+00:00",
+      "updated_at": "2026-05-16T02:30:06.186004+00:00",
+      "metadata": {
+        "processed_at": "2026-05-16T02:30:06.186015+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "262c708d83abcbe96429300df5b3fb87",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.13.724753v1?rss=1",
+      "title": "Digital Atlases to Unlock the Potential of Brain Biorepository Tissues for Interdisciplinary Research",
+      "content": "Human brain tissue preserved in biorepositories is foundational for the structural, cellular, and biomolecular research necessary for a mechanistic understanding of neurological diseases. Realizing the research potential of these valuable resources requires well-characterized research-relevant tissue that can be efficiently identified by investigators and incorporated into the conceptual and computational frameworks of interdisciplinary research. Several large-scale efforts to improve research reliability and reproducibility have sought to characterize and annotate the processes by which these samples are collected, yet limited progress has been made on standardizing spatial information for these samples. Biorepositories systematically collect brain tissue according to a brain sampling protocol (BSP) that differs between institutions, yet explicit spatial information regarding the samples may not be documented in standard operating procedures (SOPs). The amount of anatomical location details available to investigators are inconsistent across biorepositories and typically lack sufficient anatomical precision to ensure correspondence with samples from other biorepositories or research relevant brain regions specified by neuroimaging, functional, or disease-susceptibility criteria. Here, we introduce a pipeline for developing a Spatial Atlas for Mapping Protocol Locations of Ex vivo Samples (SAMPLES), which uses a neuroimaging framework to create a 3D representation of a BSP through a metrically precise digital instantiation of the procedures for brain extraction, segmentation, slicing, and sampling on a modern digital brain template. SAMPLES incorporates modern neuroinformatics conventions to create explicit 3D labels of BSP-defined samples that can be interactively visualized with freely available neuroimaging software. We illustrate the pipeline by developing an atlas for the protocol from the University of Washington BioRepository and Integrated Neuropathology laboratory (UW BRaIN SAMPLES). By providing an explicit, computable reference, SAMPLES atlases can support the efficient identification, referencing, and utilization of postmortem samples for interdisciplinary research. These capabilities enable biorepository workflows, data harmonization across biorepositories, and integration with antemortem neuroimaging.",
+      "author": "Webster, J. M., Shojaie, A., Shen, Y. A., Le, T., Ragaglia, E., Bogdani, M., Kirkland, A., Mac Donald, C., Latimer, C. S., Keene, C. D., Grabowski, T. J.",
+      "published_date": "2026-05-15T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 297,
+      "reading_time": 1,
+      "created_at": "2026-05-15T23:32:28.846528+00:00",
+      "updated_at": "2026-05-16T02:30:06.186020+00:00",
+      "metadata": {
+        "processed_at": "2026-05-16T02:30:06.186022+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2acaf6636442f38215430f33671f7a9e",
+      "url": "https://johncarlosbaez.wordpress.com/2026/05/14/naturally-occurring-quasicrystals/",
+      "title": "Naturally Occurring Quasicrystals",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48136000\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-14T14:32:46+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-15T23:31:49.483138+00:00",
+      "updated_at": "2026-05-16T02:30:06.186024+00:00",
+      "metadata": {
+        "processed_at": "2026-05-16T02:30:06.186026+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c2d906312bafaedfaa0f85281e2e46d3",
+      "url": "https://www.vldb.org/pvldb/vol19/p1469-lee.pdf",
+      "title": "How to Write to SSDs [pdf]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48154711\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-15T22:23:38+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-15T23:31:49.483118+00:00",
+      "updated_at": "2026-05-16T02:30:06.186028+00:00",
+      "metadata": {
+        "processed_at": "2026-05-16T02:30:06.186030+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c2d906312bafaedfaa0f85281e2e46d3",
+      "url": "https://www.vldb.org/pvldb/vol19/p1469-lee.pdf",
+      "title": "How to Write to SSDs [pdf]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48154711\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-15T22:23:38+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-15T23:31:49.483118+00:00",
+      "updated_at": "2026-05-16T02:30:06.186028+00:00",
+      "metadata": {
+        "processed_at": "2026-05-16T02:30:06.186030+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "fcde913af69da257210d921a50e63175",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452226002939?dgcid=rss_sd_all",
       "title": "Microplastics as an emerging environmental pollutant potentially leading to neurodegenerative diseases",
@@ -262,106 +362,6 @@
       "updated_at": "2026-05-15T22:51:29.489870+00:00",
       "metadata": {
         "processed_at": "2026-05-15T22:51:29.489872+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3352595883ccb35de24e20a19b774dd2",
-      "url": "https://brain.ieee.org/braininsight-articles/ieee-journal-on-flexible-electronics/",
-      "title": "Call for Papers: IEEE Brain Special Issue",
-      "content": "In a unique interdisciplinary collaboration with the IEEE\u2019s Society on Social Implications of Technology (SSIT) and IEEE Brain, J-FLEX is joining forces to explore both the technology of the Internet-of-Medical-Things (IoMT) solutions and medical wearables/implantables. &#160;",
-      "author": "ieeebrain",
-      "published_date": "2025-03-03T17:16:40+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 36,
-      "reading_time": 1,
-      "created_at": "2026-05-15T20:02:22.274093+00:00",
-      "updated_at": "2026-05-15T20:56:22.409748+00:00",
-      "metadata": {
-        "processed_at": "2026-05-15T20:56:22.409759+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "626415b9abcab4a79433d23aa150042f",
-      "url": "https://brain.ieee.org/braininsight-articles/ieee-brain-joins-the-american-brain-coalition-as-a-nonprofit-member/",
-      "title": "IEEE Brain Joins the American Brain Coalition",
-      "content": "IEEE Brain is pleased to announce its acceptance as a nonprofit member of the American Brain Coalition (ABC), a prestigious alliance of over 150 organizations dedicated to advancing brain research, advocacy, and improving treatments for individuals affected by brain conditions. The ABC Board has enthusiastically welcomed IEEE Brain into its network, reinforcing a shared commitment to fostering innovation and collaboration ...",
-      "author": "ieeebrain",
-      "published_date": "2025-03-03T17:22:08+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 61,
-      "reading_time": 1,
-      "created_at": "2026-05-15T20:02:22.274070+00:00",
-      "updated_at": "2026-05-15T20:56:22.409764+00:00",
-      "metadata": {
-        "processed_at": "2026-05-15T20:56:22.409766+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ac6f3ab92725084e2b49600ca6243d2a",
-      "url": "https://brain.ieee.org/braininsight-articles/call-for-papers-ieee-transactions-on-human-machine-systems/",
-      "title": "Call for Papers: IEEE Transactions on Human-Machine Systems",
-      "content": "",
-      "author": "Adriel Carridice",
-      "published_date": "2025-06-18T14:50:14+00:00",
-      "source": "Brain",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-15T20:02:22.274045+00:00",
-      "updated_at": "2026-05-15T20:56:22.409768+00:00",
-      "metadata": {
-        "processed_at": "2026-05-15T20:56:22.409770+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "85a68d41a1ff44d18913137239fe045e",
-      "url": "https://www.nature.com/articles/s44271-026-00468-x",
-      "title": "Inter-brain processes during Live and Represented social moments are inter-related and shaped by behavioral synchrony",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-15T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-15T20:02:02.480576+00:00",
-      "updated_at": "2026-05-15T20:56:22.409772+00:00",
-      "metadata": {
-        "processed_at": "2026-05-15T20:56:22.409774+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e6a50a5e979eb001306d23b6a6bb4ace",
-      "url": "https://www.reddit.com/r/Python/comments/1te6ay5/reel_vcr_for_llm_apis_record_real/",
-      "title": "Reel \u2014 VCR for LLM APIs: record real OpenAI/Anthropic/Gemini calls once, replay them in tests.",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p><strong>TL;DR</strong>: <code>pip install reel-vcr</code>, point your LLM SDK at a local proxy, and your test suite captures every call into JSONL on the first run and replays it for free forever. No mocks, no monkey-patches, no API key in CI.</p> <p>I wrote this after a colleague complained that our CI was billing actual OpenAI dollars on every PR and a prompt regression took a week to bisect because we couldn't reproduce the failing call locally. The lesson: mocks don't help when the bug is in the bytes on the wire.</p> <p><strong>Why a proxy, not a Python mock library:</strong> It works with any SDK in any language. LangChain, LlamaIndex, dspy, instructor, the official Anthropic/OpenAI SDKs, aider, opencode, Claude Code, raw <code>httpx</code> \u2014 they all just need <code>OPENAI_BASE_URL=http://127.0.0.1:7878/v1</code> (or the equivalent ANTHROPIC_BASE_URL / GEMINI_BASE_URL) and they're routed through Reel. No imports change, no monkey-patching of <code>openai.Client.__init__</code>, no risk of the next SDK release breaking your mock.</p> <p><strong>The pytest plugin</strong> (auto-registered via the <code>pytest11</code> entry point):</p> <pre><code>def test_summarize(reel_cassette): from openai import OpenAI resp = OpenAI().chat.completions.create( model=&quot;gpt-5&quot;, messages=[{&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;Summarize: ...&quot;}], ) assert &quot;TL;DR&quot; in resp.choices[0].message.content </code></pre> <p>That's the entire integration. First run records to <code>tests/cassettes/test_summarize.jsonl</code>. Every run after replays in ~3ms. For CI:</p> <pre><code>pytest --reel-mode replay </code></pre> <p>Any uncaptured request 404s, so CI cannot accidentally hit a real API and cannot leak a key.</p> <p><strong>Cassettes are plain JSONL.</strong> One JSON object per line. You diff them in PRs to see exactly what your prompts produced. Pre-commit hook refuses to commit any cassette that still has a detectable secret in it. Keys + PII are scrubbed at capture time by default.</p> <p><strong>Smart matcher</strong> for prompts that drift slightly between runs: <code>exact / normalized / ignore-fields / fuzzy</code>. The <code>ignore-fields</code> mode is particularly useful for per-call <code>request_id</code> / <code>trace_id</code> that shouldn't affect cache hits.</p> <p><strong>Analytics CLI:</strong></p> <pre><code>reel inspect -c tape.jsonl # table view, with filters reel cost -c tape.jsonl # tokens \u00d7 current pricing \u2192 $$ reel diff -l a.jsonl -r b.jsonl # what regressed between runs reel stats -c tape.jsonl # TTFT distribution, errors, tokens reel ui -c tape.jsonl # local web browser (HTMX + Pico) </code></pre> <p><strong>Project layout:</strong></p> <pre><code>src/reel/ \u251c\u2500\u2500 proxy/ # HTTP + SSE core (forwarder, modes, stream, logs) \u251c\u2500\u2500 adapters/ # openai \u00b7 anthropic \u00b7 gemini (ProviderAdapter interface) \u251c\u2500\u2500 cassette/ # schema \u00b7 writer \u00b7 reader \u00b7 matcher \u00b7 body codec \u00b7 store \u251c\u2500\u2500 redact/ # secret + PII scrubbing \u251c\u2500\u2500 analytics/ # filters \u00b7 cost \u00b7 diff \u00b7 stats (pure over CassetteEntry) \u251c\u2500\u2500 inspector/ # `reel ui` \u2014 Starlette + HTMX + Pico.css \u251c\u2500\u2500 cli/ # typer commands \u2514\u2500\u2500 sdk/ # @cassette decorator + pytest plugin </code></pre> <p><strong>Stack:</strong> starlette + httpx + uvicorn + pydantic v2 + typer + rich. Strict ruff + pyright. 344 tests across analytics, multi-provider E2E, redaction, and a pytester-driven plugin suite. CI green on 3.11 / 3.12 / 3.13 / 3.14.</p> <p><strong>Distribution name note:</strong> the bare <code>reel</code> name on PyPI was taken by an unrelated async-subprocess library, so the distribution name is <code>reel-vcr</code>. The CLI binary, GitHub repo, and Python import path (<code>import reel</code>) all stay as <code>reel</code>.</p> <p><strong>Links:</strong></p> <ul> <li>PyPI: <a href=\"https://pypi.org/project/reel-vcr/\">https://pypi.org/project/reel-vcr/</a></li> <li>Repo: <a href=\"https://github.com/tathagat22/reel\">https://github.com/tathagat22/reel</a></li> <li>Docs: <a href=\"https://tathagat22.github.io/reel/\">https://tathagat22.github.io/reel/</a></li> </ul> <p>Apache 2.0. Issues + PRs welcome. Particularly interested in feedback on the matcher modes \u2014 <code>fuzzy</code> (sentence-transformers cosine similarity over prompt text) is the most ambitious one and probably needs real-world tuning.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Breakfast4351\"> /u/Ok-Breakfast4351 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1te6ay5/reel_vcr_for_llm_apis_record_real/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1te6ay5/reel_vcr_for_llm_apis_record_real/\">[comments]</a></span>",
-      "author": "/u/Ok-Breakfast4351",
-      "published_date": "2026-05-15T19:20:15+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 579,
-      "reading_time": 2,
-      "created_at": "2026-05-15T20:01:26.821711+00:00",
-      "updated_at": "2026-05-15T20:56:22.409778+00:00",
-      "metadata": {
-        "processed_at": "2026-05-15T20:56:22.409780+00:00",
         "processing_method": "github_actions"
       }
     }
