@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-05-23T19:02:19.605918+00:00",
-  "pending_count": 792,
-  "processed_count": 208,
+  "last_updated": "2026-05-23T20:42:42.693179+00:00",
+  "pending_count": 791,
+  "processed_count": 209,
   "pending_articles": [
+    {
+      "id": "105d558cd8618e9ac4b943fd2c609379",
+      "url": "https://github.com/tejpalv/cc-wiki",
+      "title": "CC-Wiki: Turn Claude Code sessions into a shareable knowledge base wiki",
+      "content": "<p>Article URL: <a href=\"https://github.com/tejpalv/cc-wiki\">https://github.com/tejpalv/cc-wiki</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48250126\">https://news.ycombinator.com/item?id=48250126</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "author": "tejpalv",
+      "published_date": "2026-05-23T18:43:25+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-23T19:44:56.285046+00:00",
+      "updated_at": "2026-05-23T19:44:56.285047+00:00"
+    },
     {
       "id": "d066d74d7b06a2f609795796a22ea844",
       "url": "https://news.ycombinator.com/item?id=48248801",
@@ -146,25 +162,129 @@
       "reading_time": 1,
       "created_at": "2026-05-23T16:31:39.599530+00:00",
       "updated_at": "2026-05-23T16:31:39.599537+00:00"
-    },
-    {
-      "id": "3392b1dc9eb3f4498c7bf2c0b4b175b2",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003003?dgcid=rss_sd_all",
-      "title": "Microglia-driven neuroinflammation in ischemic stroke: insights from high altitude hypoxia",
-      "content": "<p>Publication date: 4 August 2026</p><p><b>Source:</b> Neuroscience, Volume 608</p><p>Author(s): Shafa Khan, Armiya Sultan, Mohd. Sadik, Mohammad Zahid Ashraf</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 17,
-      "reading_time": 1,
-      "created_at": "2026-05-23T15:09:20.845930+00:00",
-      "updated_at": "2026-05-23T15:09:20.845932+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "60f452ab22c4bccf46af6e254f426a5c",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.20.726332v1?rss=1",
+      "title": "Predicting Autopsy-Confirmed Neuropathology across Clinical, Neuroimaging, and CSF Biomarkers using Machine Learning",
+      "content": "Accurate in vivo prediction of neuropathology is critical for advancing diagnosis and treatment of Alzheimer's disease and related dementias (ADRDs). As many individuals with ADRDs have mixed pathologies ({beta}-amyloid, pathologic tau, cerebrovascular disease, vascular brain injury, pathologic TDP-43, hippocampal sclerosis, Lewy bodies), there is interest in determining how accurately we can infer these pathologic changes from clinical data, biofluid assays (e.g., CSF), and neuroimaging. Here we evaluated automated machine learning models trained on data curated by the AD Sequencing Project Phenotype Harmonization Consortium (N=7,894 individuals), to predict 26 autopsy-confirmed neuropathological outcomes. Predictors included in vivo clinical and cognitive composite scores, brain measures from 3D structural MRI and diffusion tensor imaging, image-derived measures of white matter hyperintensities (WMH), and CSF biomarkers. Predictive models were trained using ensemble learning with stratified cross-validation. We assessed performance using Spearman's rank correlation and Matthews correlation coefficient, to accommodate co-occurring pathologic changes. The added value of neuroimaging and CSF versus clinical features alone was quantified. Braak stage was among the most consistently predicted outcomes. CSF biomarkers best predicted {beta}-amyloid and tau pathology, but diffusion MRI metrics best captured vascular brain injury and white matter injury, and outperformed clinical and cognitive measures and anatomical MRI in predicting Lewy body disease. Anatomical measures from structural MRI outperformed standard clinical assessments in assessing neurodegeneration and hippocampal sclerosis, and WMH complemented cognitive measures in predicting TDP-43 pathology. These results establish a baseline for comparing modalities for inferring neuropathology.",
+      "author": "Patterson, C., Chattopadhyay, T., Thomopoulos, S. I., Saykin, A., Davatzikos, C., Mormino, E., Tosun, D., Beecham, G. W., Biber, S. A., Kukull, W. A., Risacher, S. L., Montine, T. J., Johnson, S. C., Shen, L., Huang, H., Erus, G., Jun, G., Mukherjee, S., Crane, P., Cuccaro, M. L., Archer, D. B., Landman, B. A., Toga, A. W., Hohman, T. J., Thompson, P.",
+      "published_date": "2026-05-23T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 238,
+      "reading_time": 1,
+      "created_at": "2026-05-23T19:45:37.104060+00:00",
+      "updated_at": "2026-05-23T20:42:42.579298+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T20:42:42.579308+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "35c2148d40f56eda639103a0bc40087b",
+      "url": "https://www.nytimes.com/2026/05/22/us/politics/green-card-changes-trump.html",
+      "title": "Green card seekers must leave U.S. to apply, Trump administration says",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48241890\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-22T21:27:12+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T19:44:57.483026+00:00",
+      "updated_at": "2026-05-23T20:42:42.579313+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T20:42:42.579315+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "11caa7ea58dbeae22548f9447304996f",
+      "url": "https://reclaimthenet.org/texas-woman-arrested-for-facebook-post-about-town-water-quality",
+      "title": "Texas woman arrested for Facebook post about town water quality",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48249747\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-23T18:02:42+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T19:44:57.482967+00:00",
+      "updated_at": "2026-05-23T20:42:42.579318+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T20:42:42.579319+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "68a8e104ebe8a04fc657faa24f28a959",
+      "url": "https://veronicaexplains.net/my-first-writerdeck/",
+      "title": "It's time to talk about my writerdeck",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48250144\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-23T18:45:37+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T19:44:57.482930+00:00",
+      "updated_at": "2026-05-23T20:42:42.579321+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T20:42:42.579323+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "11caa7ea58dbeae22548f9447304996f",
+      "url": "https://reclaimthenet.org/texas-woman-arrested-for-facebook-post-about-town-water-quality",
+      "title": "Texas woman arrested for Facebook post about town water quality",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48249747\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-23T18:02:42+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T19:44:57.482967+00:00",
+      "updated_at": "2026-05-23T20:42:42.579318+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T20:42:42.579319+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "68a8e104ebe8a04fc657faa24f28a959",
+      "url": "https://veronicaexplains.net/my-first-writerdeck/",
+      "title": "It's time to talk about my writerdeck",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48250144\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-23T18:45:37+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T19:44:57.482930+00:00",
+      "updated_at": "2026-05-23T20:42:42.579321+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T20:42:42.579323+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "a82fff79a9b67a4c40d91ed84da41e7c",
       "url": "https://victoriaritvo.com/blog/hengefinder/",
@@ -206,66 +326,6 @@
       }
     },
     {
-      "id": "6dcc1b2375dd798801aa79577df0d645",
-      "url": "https://arslan.io/2025/11/18/my-two-part-desk-setup/",
-      "title": "My two-part desk setup",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48214311\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-20T21:21:14+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-23T18:02:09.981803+00:00",
-      "updated_at": "2026-05-23T19:02:19.490168+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T19:02:19.490169+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f03bd4b74a5ad64ab7ec16b2d083d29a",
-      "url": "https://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html",
-      "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48248954\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-23T16:24:50+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-23T18:02:09.981730+00:00",
-      "updated_at": "2026-05-23T19:02:19.490172+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T19:02:19.490173+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6e4606abd7b06812311a0496b5dc2bdb",
-      "url": "https://arstechnica.com/health/2026/05/ebola-outbreak-now-third-largest-recorded-and-spreading-rapidly/",
-      "title": "Ebola Outbreak Now Third Largest Recorded and \"Spreading Rapidly\"",
-      "content": "<p>Article URL: <a href=\"https://arstechnica.com/health/2026/05/ebola-outbreak-now-third-largest-recorded-and-spreading-rapidly/\">https://arstechnica.com/health/2026/05/ebola-outbreak-now-third-largest-recorded-and-spreading-rapidly/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48248659\">https://news.ycombinator.com/item?id=48248659</a></p>\n<p>Points: 49</p>\n<p># Comments: 40</p>",
-      "author": "Brajeshwar",
-      "published_date": "2026-05-23T15:47:38+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-05-23T18:02:08.637263+00:00",
-      "updated_at": "2026-05-23T19:02:19.490175+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T19:02:19.490177+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "9594dfe69e786734c392df9dfb817673",
       "url": "https://www.euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift",
       "title": "Italy Cancels Boeing Pegasus Order, Shifting to Airbus A330 MRTT",
@@ -286,82 +346,22 @@
       }
     },
     {
-      "id": "f03bd4b74a5ad64ab7ec16b2d083d29a",
-      "url": "https://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html",
-      "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48248954\">Comments</a>",
+      "id": "6dcc1b2375dd798801aa79577df0d645",
+      "url": "https://arslan.io/2025/11/18/my-two-part-desk-setup/",
+      "title": "My two-part desk setup",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48214311\">Comments</a>",
       "author": "",
-      "published_date": "2026-05-23T16:24:50+00:00",
+      "published_date": "2026-05-20T21:21:14+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-05-23T18:02:09.981730+00:00",
-      "updated_at": "2026-05-23T19:02:19.490172+00:00",
+      "created_at": "2026-05-23T18:02:09.981803+00:00",
+      "updated_at": "2026-05-23T19:02:19.490168+00:00",
       "metadata": {
-        "processed_at": "2026-05-23T19:02:19.490173+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6903dfb4310a7a8613bcf1e11a688924",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226002800?dgcid=rss_sd_all",
-      "title": "IL-4R\u03b1 signalling and Iloprost treatment modulate neuroimmune and neurocognitive responses in Trypanosoma brucei-Infected mice",
-      "content": "<p>Publication date: 17 July 2026</p><p><b>Source:</b> Neuroscience, Volume 607</p><p>Author(s): OS. Olaolu, H. Davids, GB. Dealtry, OR. Morenikeji, ET. Obishakin, B. Iliyasu, DC. Ajonijebu</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 22,
-      "reading_time": 1,
-      "created_at": "2026-05-23T16:32:20.081017+00:00",
-      "updated_at": "2026-05-23T16:55:08.849762+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T16:55:08.849773+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "50ae84524f10356359d33c0bcc12adc1",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003283?dgcid=rss_sd_all",
-      "title": "A hybrid CNN-GCN framework for interpretable Alzheimer\u2019s disease diagnosis from MRI scans",
-      "content": "<p>Publication date: 4 August 2026</p><p><b>Source:</b> Neuroscience, Volume 608</p><p>Author(s): Junaidul Islam, Fu-Yu Lin, Chih-Yang Lin</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 14,
-      "reading_time": 1,
-      "created_at": "2026-05-23T16:32:20.080892+00:00",
-      "updated_at": "2026-05-23T16:55:08.849779+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T16:55:08.849781+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d56402e57c23385dd4830b33bb0707a5",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003313?dgcid=rss_sd_all",
-      "title": "Comprehensive MRI analysis of olfactory bulb morphology and olfactory sulcus depth in chronic rhinosinusitis, migraine, and post-COVID patients",
-      "content": "<p>Publication date: 4 August 2026</p><p><b>Source:</b> Neuroscience, Volume 608</p><p>Author(s): Shubin Li, Kwangsu Kim, Zetian Li, Akshita Joshi, Aya Ajaj, Gudrun Gossrau, Antje Haehner, Thomas Hummel</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 24,
-      "reading_time": 1,
-      "created_at": "2026-05-23T16:32:20.080873+00:00",
-      "updated_at": "2026-05-23T16:55:08.849783+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T16:55:08.849785+00:00",
+        "processed_at": "2026-05-23T19:02:19.490169+00:00",
         "processing_method": "github_actions"
       }
     }
