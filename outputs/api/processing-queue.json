@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-05-22T22:53:12.402806+00:00",
-  "pending_count": 808,
-  "processed_count": 192,
+  "last_updated": "2026-05-23T02:34:07.504329+00:00",
+  "pending_count": 802,
+  "processed_count": 198,
   "pending_articles": [
+    {
+      "id": "433f4a078e925a4d84785f78be75ddf1",
+      "url": "https://www.stopstratos.org",
+      "title": "Why We've Filed a Referendum",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48242668\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-22T23:01:23+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T00:08:13.260074+00:00",
+      "updated_at": "2026-05-23T00:08:13.260076+00:00"
+    },
+    {
+      "id": "433f4a078e925a4d84785f78be75ddf1",
+      "url": "https://www.stopstratos.org",
+      "title": "Why We've Filed a Referendum",
+      "content": "<p>Article URL: <a href=\"https://www.stopstratos.org\">https://www.stopstratos.org</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48242668\">https://news.ycombinator.com/item?id=48242668</a></p>\n<p>Points: 11</p>\n<p># Comments: 0</p>",
+      "author": "mrwaffle",
+      "published_date": "2026-05-22T23:01:23+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-23T00:08:11.949813+00:00",
+      "updated_at": "2026-05-23T00:08:11.949826+00:00"
+    },
     {
       "id": "a82c2512065249bd3197ea02e863d043",
       "url": "https://security.apple.com/blog/formal-verification-corecrypto/",
@@ -130,41 +162,129 @@
       "reading_time": 1,
       "created_at": "2026-05-22T21:12:09.996243+00:00",
       "updated_at": "2026-05-22T21:12:09.996248+00:00"
+    }
+  ],
+  "recently_processed": [
+    {
+      "id": "1362903efb1627bfc716c419bd0a7ca8",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.20.722678v1?rss=1",
+      "title": "How Awakenings Shape Dream Recall: A Multilevel Study",
+      "content": "Dream recall varies substantially both between individuals and from night to night within the same individual. Although nocturnal awakenings are thought to facilitate the encoding and later retrieval of dream experiences, it remains unclear whether dream recall is shaped primarily by awakening frequency or by more specific awakening characteristics, including duration, sleep stage, and timing within the night. Here, we analyzed two cohorts: cohort 1 consisted of 708 adults spanning the full range of dream recall frequency, assessed across three waves with home sleep recordings and questionnaire-based dream recall frequency measures; cohort 2 consisted of 124 adults with high dream recall frequency, assessed across multiple nights with home sleep recordings and daily dream reports. Using multilevel models with within-between decomposition, we examined trait-like and state-like associations between awakening measures and dream recall outcomes. At the trait level, both questionnaire-based dream recall frequency in cohort 1 and daily dream recall (i.e., a sense of having dreamed) in cohort 2 were associated with a specific nocturnal awakening profile: more habitual long REM awakenings and short NREM awakenings, with REM awakening effects remaining robust after adjustment for sleep duration. At the state level, in cohort 2, nights with more short and medium REM awakenings than usual increased the likelihood of morning dream recall, whereas nights with more long REM awakenings than usual increased the likelihood of morning dream content recall (i.e., remembering dream content). These findings support the arousal-retrieval and functional state-shift models, while highlighting important nuances in the associations between nocturnal awakenings and different dream recall outcomes.",
+      "author": "Ataei, S., Jafarzade Esfahani, M., Axmacher, N., Dresler, M., Schoch, S. F.",
+      "published_date": "2026-05-22T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 255,
+      "reading_time": 1,
+      "created_at": "2026-05-23T00:08:49.725261+00:00",
+      "updated_at": "2026-05-23T02:34:07.375645+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T02:34:07.375656+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "3ebe5ed1fa2b02b994bf2684264fe929",
-      "url": "https://www.cringely.com/",
-      "title": "Robert X Cringely is back to blogging",
+      "id": "a060463ec12cde2d5df43631ee3b8983",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.20.726574v1?rss=1",
+      "title": "A simple model of the co-emergence of grid and place fields",
+      "content": "Grid cells in the medial entorhinal cortex and place cells in the hippocampus together support spatial navigation. The two regions are reciprocally connected, and there is a chicken-and-egg problem for how both arise and reinforce each other during development. Current computational accounts either derive one type from the other or use network dynamics to model the emergence of one type in isolation. We introduce a unified recurrent network model that instantiates Dale's Law (every neuron is either excitatory or inhibitory), and is trained to predict the next sensory observation from masked previous sensory observations and egocentric motion. To our knowledge, this is the first single-objective model in which grid and place cells co-emerge without supervision of either type, or reliance on pre-existing spatial-cell representations. The two kinds of spatial codes coexist across 1,000 different training configurations, with their balance set by the amount of sensory noise and masking. Without retraining, the network qualitatively reproduces experimentally observed grid fragmentation in hairpin mazes, grid merging after wall removal, lattice alignment across connected rooms, locally ordered 3D fields observed in freely flying bats, as well as the developmental order in which place cells precede grid cells. We interpret these results in terms of two complementary encoding pressures within a single sensory-prediction objective: (1) correcting errors or reconstructing missing components of sensory observations, and (2) prediction of the next sensory state during navigation. Our results suggest a circuit-level account of the co-emergence of grid and place cells, and experimentally testable predictions for the two kinds of spatial codes.",
+      "author": "Wang, Z., Morris, G., Derdikman, D., Chaudhari, P., Balasubramanian, V.",
+      "published_date": "2026-05-22T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 254,
+      "reading_time": 1,
+      "created_at": "2026-05-23T00:08:49.725219+00:00",
+      "updated_at": "2026-05-23T02:34:07.375660+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T02:34:07.375662+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "dc38ee10b08c8da57200d49c09bd45be",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.22.726240v1?rss=1",
+      "title": "Preliterate symbolic language processing sets the neural stage for learning to read",
+      "content": "Formal writing is evolutionarily recent, yet the brains of literate adults contain regions - the OTS-words subregions - that respond more strongly to written text than other stimuli. We tested a novel solution to this multi-disciplinary paradox: Does symbolic language processing, which emerged early in human history, lay the neural foundation for reading? In a longitudinal fMRI study, we followed 17 children through their first year of literacy training and related neural responses to text, symbolic language processing, and emerging reading skills over time. We found that middle OTS-words is engaged in symbolic language processing before children learn to read, and that this early engagement predicts later text selectivity and reading ability. These findings suggest that literacy builds on a pre-existing neural scaffold linking vision and language.",
+      "author": "Dalski, A., Schulz, A., Klaes, M., Pirsch, M., Meinhardt, M., Ukaj, A., Fassbender, L., Aguilera Gonzalez, V. A., Cetin, G., de Haas, B., Schwarzer, G., Shing, Y. L., Grotheer, M.",
+      "published_date": "2026-05-22T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 127,
+      "reading_time": 1,
+      "created_at": "2026-05-23T00:08:49.725160+00:00",
+      "updated_at": "2026-05-23T02:34:07.375664+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T02:34:07.375666+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "97601576705bbc0e75275231479d9890",
+      "url": "https://www.cringely.com/2026/05/21/im-writing-again/",
+      "title": "I\u2019m Writing Again",
       "content": "<a href=\"https://news.ycombinator.com/item?id=48236501\">Comments</a>",
       "author": "",
       "published_date": "2026-05-22T14:36:27+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-05-22T21:11:30.298319+00:00",
-      "updated_at": "2026-05-22T21:11:30.298321+00:00"
+      "created_at": "2026-05-23T00:08:13.260150+00:00",
+      "updated_at": "2026-05-23T02:34:07.375671+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T02:34:07.375672+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "b32ded445064f0421fb97e4d7c5be806",
-      "url": "https://github.com/anomalyco/models.dev",
-      "title": "Models.dev: open-source database of AI model specs, pricing, and capabilities",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48241172\">Comments</a>",
+      "id": "400426666e830c43412cf64b6945931e",
+      "url": "https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug",
+      "title": "Sleep research led to a new sleep apnea drug",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48242278\">Comments</a>",
       "author": "",
-      "published_date": "2026-05-22T20:26:07+00:00",
+      "published_date": "2026-05-22T22:05:39+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-05-22T21:11:30.298228+00:00",
-      "updated_at": "2026-05-22T21:11:30.298229+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-05-23T00:08:13.260093+00:00",
+      "updated_at": "2026-05-23T02:34:07.375675+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T02:34:07.375676+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "400426666e830c43412cf64b6945931e",
+      "url": "https://temertymedicine.utoronto.ca/news/how-decades-sleep-research-led-new-sleep-apnea-drug",
+      "title": "Sleep research led to a new sleep apnea drug",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48242278\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-22T22:05:39+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T00:08:13.260093+00:00",
+      "updated_at": "2026-05-23T02:34:07.375675+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T02:34:07.375676+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "dbd0509fc1d14f0b59a1f1771c2035a5",
       "url": "https://www.biorxiv.org/content/10.64898/2026.05.20.726578v1?rss=1",
@@ -242,126 +362,6 @@
       "updated_at": "2026-05-22T22:53:12.296491+00:00",
       "metadata": {
         "processed_at": "2026-05-22T22:53:12.296492+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f195af4967f0b771f7496d4342ab7ce7",
-      "url": "https://modrinth.com/mod/waylandcraft",
-      "title": "A Wayland Compositor in Minecraft",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48213529\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-20T20:19:46+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-22T22:34:46.296599+00:00",
-      "updated_at": "2026-05-22T22:53:12.296494+00:00",
-      "metadata": {
-        "processed_at": "2026-05-22T22:53:12.296496+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "b7e8bedbaff3786e2cd5802c745a00e2",
-      "url": "https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda",
-      "title": "Shipping a Laptop to a Refugee Camp in Uganda",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48241997\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-22T21:36:55+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-22T22:34:46.296619+00:00",
-      "updated_at": "2026-05-22T22:53:12.296491+00:00",
-      "metadata": {
-        "processed_at": "2026-05-22T22:53:12.296492+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c2319578819743fdf0159bf723bcb1b5",
-      "url": "https://erpinfo.org/blog/2024/3/5/changes-to-the-2024-erp-boot-camp",
-      "title": "Important Changes to the 2024 ERP Boot Camp",
-      "content": "<p class=\"\">We are disappointed to announce that we will not be holding a regular 10-day ERP Boot Camp this summer.</p><p class=\"\">We have held Boot Camps nearly every summer since 2007, supported by a series of generous grants from NIMH that allowed us to provide scholarships for all attendees. Unfortunately, although our recent renewal proposal received extremely positive reviews and scores, we were recently given the surprising and disappointing news that the renewal will not be funded this year. We believe that the ERP Boot Camp provides essential training to the field, and we will continue to pursue financial support to continue holding 10-day ERP Boot Camps in the future. </p><p class=\"\">In the meantime, we have partial funding that will allow us to hold a 5-day ERP Boot Camp this summer from July 8-12, 2024 in Davis, California. The workshop will include 5-days of lectures and activities on EEG and ERP measures, including practical and theoretical issues.</p><p class=\"\">Unfortunately, we will not be able to provide scholarships to pay for travel and lodging costs, and we must charge a registration fee. We are very sorry if this causes a hardship. </p><p class=\"\">We are no longer taking applications through our application portal. Instead of a competitive application process, we will simply accept the first 30 people who complete the registration process and pay the registration fee. This provides an opportunity to attend for individuals who might otherwise not make it through our ordinary application process, which is highly competitive. </p><p class=\"\">The registration fee will be $1000 (or $900 for people who register by April 15). The registration fee will cover 6 nights in a single occupancy hotel room (arriving July 7 and departing July 13), daily breakfast at the hotel, a catered lunch for each day of the workshop, and a group dinner. <strong>You must pay the registration fee with a credit card when you register.</strong> There are no exceptions to the registration fee policy.</p><p class=\"\"><strong>Registration is now open</strong> at <a href=\"https://na.eventscloud.com/793175\">https://na.eventscloud.com/793175</a>.</p><p class=\"\">Given that we will accept the first 30 registrants, we encourage you to register as soon as possible. <strong>Registration will close on May 20</strong>, but we anticipate that the workshop will be filled up long before then. </p><p class=\"\">You must pay for your own transportation to Davis. Davis is approximately 20 minutes away from the Sacramento Airport (SMF). You can take the <a href=\"https://www.davisairporter.com/\" target=\"_blank\">Davis Airporter</a> shuttle service or a rideshare service from SMF to Davis. If you are coming from outside North America, you may want to fly into the San Francisco airport (SFO), which is 135 km (84 miles) from Davis. We recommend taking the <a href=\"https://www.davisairporter.com/\" target=\"_blank\">Davis Airporter</a> from SFO to Davis.</p>",
-      "author": "Steve Luck",
-      "published_date": "2024-03-05T19:34:57+00:00",
-      "source": "Erp Boot Camp",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 444,
-      "reading_time": 2,
-      "created_at": "2026-05-22T19:48:03.615962+00:00",
-      "updated_at": "2026-05-22T21:05:34.273941+00:00",
-      "metadata": {
-        "processed_at": "2026-05-22T21:05:34.273953+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "dfefe79b1f3514902d0681ca79e78183",
-      "url": "https://erpinfo.org/blog/2025/12/19/sme-now-available-in-bva-and-mne-python",
-      "title": "Standardized Measurement Error now available in BrainVision Analyzer and MNE-Python",
-      "content": "<p class=\"\">A few years ago, we developed a universal metric of data quality for averaged ERPs called the standardized measurement error (<a href=\"https://erpinfo.org/blog/2020/4/28/data-quality\">click here</a> for more information or watch our <a href=\"https://www.youtube.com/watch?v=tEKsx0p53rs\" target=\"_blank\">quick 3-minute video overview</a>). It has been available in ERPLAB for several years, and I\u2019m happy to announce that it is now available in BrainVision Analyzer 2.3.1 and in MNE-Python.</p><p class=\"\">For BrainVision Analyzer, it is available as a Solution. At this point, you need to request it from Brain Products.<a href=\"https://pressrelease.brainproducts.com/analyzer231/#04\"> Click here</a> and scroll down to the last part of the page for more information.</p><p class=\"\">For MNE-Python, it is accessed with the mne.stats.erp.compute_sme() function. <a href=\"https://mne.tools/1.8/generated/mne.stats.erp.compute_sme.html\">Click here</a> for details.</p><p class=\"\">If you want to see some examples of how this metric can be used, check out these recent papers:</p><ul><li><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (2024a). Optimal filters for ERP research I: A general approach for selecting filter settings. <em>Psychophysiology, 61, </em>e14531. <a href=\"http://doi.org/10.1111/psyp.14531\">http://doi.org/10.1111/psyp.14531</a> [<a href=\"https://www.researchgate.net/publication/377773270_Optimal_filters_for_ERP_research_I_A_general_approach_for_selecting_filter_settings\" target=\"_blank\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (2024b). Optimal filters for ERP research II: Recommended settings for seven common ERP components. <em>Psychophysiology, 61, </em>e14530. <a href=\"https://doi.org/10.1111/psyp.14530\">https://doi.org/10.1111/psyp.14530</a> [<a href=\"https://www.researchgate.net/publication/377766656_Optimal_filters_for_ERP_research_II_Recommended_settings_for_seven_common_ERP_components\" target=\"_blank\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., Garrett, D. R., Simmons, A. M., Kiat, J. E., &amp; Luck, S. J. (2024). Evaluating the effectiveness of artifact correction and rejection in event-related potential research. Psychophysiology, 61, e14511. <a href=\"https://doi.org/10.1111/psyp.14511\">https://doi.org/10.1111/psyp.14511</a> [<a href=\"https://doi.org/10.1101/2023.09.16.558075\">preprint</a>]</p></li><li><p class=\"\">Zhang, G., &amp; Luck, S. J. (2023). Variations in ERP data quality across paradigms, participants, and scoring procedures. <em>Psychophysiology, 60,</em> e14264. <a href=\"http://doi.org/10.1111/psyp.14264\">http://doi.org/10.1111/psyp.14264</a> [<a href=\"https://www.biorxiv.org/content/10.1101/2022.08.22.504647v2.full.pdf\">preprint</a>]</p></li></ul>",
-      "author": "Steve Luck",
-      "published_date": "2025-12-19T18:20:27+00:00",
-      "source": "Erp Boot Camp",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 253,
-      "reading_time": 1,
-      "created_at": "2026-05-22T19:48:03.615485+00:00",
-      "updated_at": "2026-05-22T21:05:34.273957+00:00",
-      "metadata": {
-        "processed_at": "2026-05-22T21:05:34.273959+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "30c62259d3f0fa60ef1bd8a2c9fc9762",
-      "url": "https://embc.embs.org/2026/#new_tab",
-      "title": "Join the Mailing List",
-      "content": "<p>The post <a href=\"https://embc.embs.org/2026/#new_tab\">Join the Mailing List</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "dziura",
-      "published_date": "2025-12-10T16:41:05+00:00",
-      "source": "Embs",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-05-22T19:47:53.660626+00:00",
-      "updated_at": "2026-05-22T21:05:34.273962+00:00",
-      "metadata": {
-        "processed_at": "2026-05-22T21:05:34.273963+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f05e4c4804a99552dd6343dfd6f17e86",
-      "url": "https://bun.com/bun-unsafe-audit",
-      "title": "Bun's unreleased Rust port has 13,365 unsafe blocks",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48239790\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-22T18:46:25+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-22T19:47:03.545211+00:00",
-      "updated_at": "2026-05-22T21:05:34.273966+00:00",
-      "metadata": {
-        "processed_at": "2026-05-22T21:05:34.273967+00:00",
         "processing_method": "github_actions"
       }
     }
