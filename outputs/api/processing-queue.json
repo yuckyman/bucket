@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-05-23T16:55:08.966071+00:00",
+  "last_updated": "2026-05-23T19:02:19.605918+00:00",
   "pending_count": 792,
   "processed_count": 208,
   "pending_articles": [
+    {
+      "id": "d066d74d7b06a2f609795796a22ea844",
+      "url": "https://news.ycombinator.com/item?id=48248801",
+      "title": "Show HN: I built a RAG and knowledge graph agent that runs locally",
+      "content": "<p>Claw-Coder is an AI agent that runs locally on your laptop and has access to powerful tools instead of configuring claude or codex to use a local model just use claw-coder.\nWhy was claw-coder created? Answer: To solve the problem of privacy and security. When you use an agent that is configured with a cloud model like codex, cursor, Claude etc. You are not just getting the agent but you are giving up your codebase to train an llm which is a bit concerning and this reduces trust in the technology called AI but now another problem comes in performance when you switch to a local model that is not made for that workflow you lose performance, speed, and it becomes really a tradeoff so that's where claw-coder comes in it not only runs on your machine but all the code, rag, knowledge graph etc info is kept local making the privacy problem solved but now what about performance.<p>Performance: Local llms are not built to do the cool things cloud models do because the model sizes are not even capable of building real apps like the 8b models, 13b, even 1b so the solution I came up with was to give these small models access to tools and features that make it actually work well in coding performance.<p>So what does claw-coder have access to: A knowledge graph: A knowledge graph is an interconnected network of real-world entities\u2014such as people, places, concepts, or events\u2014and the relationships between them. It organizes information into a readable web of meaning rather than static lists, allowing both humans and AI to understand context. So how does this help an AI, it gives the AI the ability to tell relationships between code in your codebase, a cloned unknown repo and so forth this increases performance of local llms by far in coding tasks and reasoning abilities. Rag: We have ever had of RAG at some point but there is a catch the context window of local llms can't bear large codebases and repos so RAG isn't optional by storing vectors in a vector store you enable the AI to actually know what the code means and what each piece does to the other letting you load millions of lines into the vector store without blowing up the context window.<p>Tools: So we have discussed the tiny but powerful ways to improve local llm performance but an agent to be an agent it needs to take action this is where exposing tools to the local llm helps so what tools have been implemented into claw-coder. 1. search_tool This enables the ai agent to actually search up to date info so that it doesnt hallucinate on info it doesn't know which is common in local llms. 2. Docker execution This agent has a special folder called workspace where it does its work without destroying your desktop but this is not enough to protect your desktop from being destroyed by cheap code so this is where docker comes in I have implemented docker containers of various languages where the agent can validate its own code this is powerful because all llms not only local ones generate code they can't even confirm works because they are just powerful predictors so enabling it to run its code can surprisingly increase the usefulness of the generated code because it now knows it works or not even for html and css the ai agent has been given a helpful vision llm to actually explain what rendered in the browser. This is the surprising power of giving an llm a docker execution tool.<p>We have looked at a lot of how claw-coder is different enabling local llms to actually do real work. But how do you actually try it out yourself: Claw-coder is closed source because it is going through heavy testing but that doesnt kill transparency and since we are testing it doesn't stop people from trying it on real codebase and giving feedback to get started use:<p>brew tap gabriel-c70/claw then brew install claw-coder</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48248801\">https://news.ycombinator.com/item?id=48248801</a></p>\n<p>Points: 6</p>\n<p># Comments: 4</p>",
+      "author": "gabriel_oauth",
+      "published_date": "2026-05-23T16:06:25+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 680,
+      "reading_time": 3,
+      "created_at": "2026-05-23T18:02:08.637223+00:00",
+      "updated_at": "2026-05-23T18:02:08.637225+00:00"
+    },
+    {
+      "id": "cb06b7f24fceb1575458b14738fd0648",
+      "url": "https://chipsandcheese.com/p/evaluating-spec-cpu2026",
+      "title": "Evaluating Spec CPU2026",
+      "content": "<p>Article URL: <a href=\"https://chipsandcheese.com/p/evaluating-spec-cpu2026\">https://chipsandcheese.com/p/evaluating-spec-cpu2026</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48248861\">https://news.ycombinator.com/item?id=48248861</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "zdw",
+      "published_date": "2026-05-23T16:13:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-23T18:02:08.637114+00:00",
+      "updated_at": "2026-05-23T18:02:08.637116+00:00"
+    },
     {
       "id": "46ba87bba17e0d53b8a9e9e3033efc56",
       "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1778260",
@@ -130,41 +162,149 @@
       "reading_time": 1,
       "created_at": "2026-05-23T15:09:20.845930+00:00",
       "updated_at": "2026-05-23T15:09:20.845932+00:00"
-    },
-    {
-      "id": "1afbc035c9d83b4db9a85379847f7aa4",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003076?dgcid=rss_sd_all",
-      "title": "A dynamic subject-invariant fragment mixing strategy to suppress subject variability in EEG imagined speech classification",
-      "content": "<p>Publication date: 4 August 2026</p><p><b>Source:</b> Neuroscience, Volume 608</p><p>Author(s): Safa D\u00f6rterler, Emrullah \u015eahin, Durmu\u015f \u00d6zdemir</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 14,
-      "reading_time": 1,
-      "created_at": "2026-05-23T15:09:20.845893+00:00",
-      "updated_at": "2026-05-23T15:09:20.845894+00:00"
-    },
-    {
-      "id": "7bdc34a850631aaec0c2badea2631686",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226001594?dgcid=rss_sd_all",
-      "title": "NINJ1 monoclonal antibody alleviates neuroinflammation and promotes functional recovery after spinal cord injury by suppressing pyroptosis-mediated DAMPs release",
-      "content": "<p>Publication date: 4 August 2026</p><p><b>Source:</b> Neuroscience, Volume 608</p><p>Author(s): Siyuan Yao, Wancheng Lin, Yao Zhang, Meng Yi, Shijie Liu, Jipeng Song, Yukun Yin, Lixiang Ding</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 24,
-      "reading_time": 1,
-      "created_at": "2026-05-23T15:09:20.845872+00:00",
-      "updated_at": "2026-05-23T15:09:20.845873+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "a82fff79a9b67a4c40d91ed84da41e7c",
+      "url": "https://victoriaritvo.com/blog/hengefinder/",
+      "title": "Hengefinder: Finding When the Sun Aligns with Your Street",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48241335\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-22T20:39:42+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T18:02:09.981857+00:00",
+      "updated_at": "2026-05-23T19:02:19.490148+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T19:02:19.490158+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "9594dfe69e786734c392df9dfb817673",
+      "url": "https://www.euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift",
+      "title": "Italy Cancels Boeing Pegasus Order, Shifting to Airbus A330 MRTT",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48248775\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-23T16:02:43+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T18:02:09.981839+00:00",
+      "updated_at": "2026-05-23T19:02:19.490163+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T19:02:19.490165+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6dcc1b2375dd798801aa79577df0d645",
+      "url": "https://arslan.io/2025/11/18/my-two-part-desk-setup/",
+      "title": "My two-part desk setup",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48214311\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-20T21:21:14+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T18:02:09.981803+00:00",
+      "updated_at": "2026-05-23T19:02:19.490168+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T19:02:19.490169+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f03bd4b74a5ad64ab7ec16b2d083d29a",
+      "url": "https://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html",
+      "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48248954\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-23T16:24:50+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T18:02:09.981730+00:00",
+      "updated_at": "2026-05-23T19:02:19.490172+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T19:02:19.490173+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6e4606abd7b06812311a0496b5dc2bdb",
+      "url": "https://arstechnica.com/health/2026/05/ebola-outbreak-now-third-largest-recorded-and-spreading-rapidly/",
+      "title": "Ebola Outbreak Now Third Largest Recorded and \"Spreading Rapidly\"",
+      "content": "<p>Article URL: <a href=\"https://arstechnica.com/health/2026/05/ebola-outbreak-now-third-largest-recorded-and-spreading-rapidly/\">https://arstechnica.com/health/2026/05/ebola-outbreak-now-third-largest-recorded-and-spreading-rapidly/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48248659\">https://news.ycombinator.com/item?id=48248659</a></p>\n<p>Points: 49</p>\n<p># Comments: 40</p>",
+      "author": "Brajeshwar",
+      "published_date": "2026-05-23T15:47:38+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-23T18:02:08.637263+00:00",
+      "updated_at": "2026-05-23T19:02:19.490175+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T19:02:19.490177+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "9594dfe69e786734c392df9dfb817673",
+      "url": "https://www.euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift",
+      "title": "Italy Cancels Boeing Pegasus Order, Shifting to Airbus A330 MRTT",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48248775\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-23T16:02:43+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T18:02:09.981839+00:00",
+      "updated_at": "2026-05-23T19:02:19.490163+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T19:02:19.490165+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f03bd4b74a5ad64ab7ec16b2d083d29a",
+      "url": "https://www.righto.com/2026/05/reverse-engineering-spacelab-computer.html",
+      "title": "Reverse engineering circuitry in a Spacelab computer from 1980",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48248954\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-23T16:24:50+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T18:02:09.981730+00:00",
+      "updated_at": "2026-05-23T19:02:19.490172+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T19:02:19.490173+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "6903dfb4310a7a8613bcf1e11a688924",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452226002800?dgcid=rss_sd_all",
@@ -222,146 +362,6 @@
       "updated_at": "2026-05-23T16:55:08.849783+00:00",
       "metadata": {
         "processed_at": "2026-05-23T16:55:08.849785+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2e8f00ed4875a1cc44ec7a4c77d8f1fa",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003155?dgcid=rss_sd_all",
-      "title": "Propagation effects of abnormal beta oscillations on sleep rhythms in Parkinson\u2019s disease: A computational study",
-      "content": "<p>Publication date: 4 August 2026</p><p><b>Source:</b> Neuroscience, Volume 608</p><p>Author(s): Hongbin Wang, Shunqiang An, Han Liu, Huicong Xu, Qing Zhao, Ai Zhang, Shuai Zhang, Guizhi Xu</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 24,
-      "reading_time": 1,
-      "created_at": "2026-05-23T16:32:20.080847+00:00",
-      "updated_at": "2026-05-23T16:55:08.849787+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T16:55:08.849789+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "afaa4ddae0e4741a0361a42059eefc5c",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1821249",
-      "title": "Reliability and diagnostic performance of an automated MRI-based classifier compared with radiologists in Alzheimer\u2019s disease",
-      "content": "Reliable imaging biomarkers are essential for improving early detection of Alzheimer\u2019s disease (AD). We evaluated whether an automated MRI-based classifier provides diagnostic performance comparable to expert radiologists in differentiating cognitively normal (CN) individuals from patients with AD using standardized ADNI data. Thirty-eight structural MRI datasets (20 CN, 18 AD) were analyzed. An automated multi-class volumetric classifier and two board-certified radiologists independently assigned probability scores across seven diagnostic categories. Performance was evaluated using a partial-credit scoring rule to account for probabilistic ties. Diagnostic performance for CN-AD discrimination was assessed using accuracy, sensitivity, specificity, receiver operating characteristic (ROC) analysis, inter-observer agreement metrics, Brier scores for calibration, and decision curve analysis (DCA) for clinical utility. The automated classifier achieved an accuracy of 0.66, sensitivity of 0.56, and specificity of 0.75. Radiologists demonstrated comparable performance with inherent inter-observer variability. Agreement between automated and human assessments was fair at the categorical level, with low concordance for continuous probability estimates. ROC analysis based on continuous AD probabilities demonstrated high discrimination performance for the automated model (AUC = 0.90), exceeding that of radiologists (AUC = 0.71 and 0.62). DCA indicated that the automated pipeline provides a positive net benefit as a second-opinion tool. This exploratory study emphasizes the impact of evaluation frameworks on performance metrics and supports further validation using multi-modal data in larger cohorts.",
-      "author": "Srinivasa Rao Bolla",
-      "published_date": "2026-05-13T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 218,
-      "reading_time": 1,
-      "created_at": "2026-05-23T16:32:10.025062+00:00",
-      "updated_at": "2026-05-23T16:55:08.849791+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T16:55:08.849793+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "15736b7b8e34e0da638a8ef9adc6a5bc",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926003289?dgcid=rss_sd_all",
-      "title": "Effects of different preprocessing factors on radiomics-based morphological brain networks",
-      "content": "<p>Publication date: 1 August 2026</p><p><b>Source:</b> NeuroImage, Volume 336</p><p>Author(s): Qipei Guo, Junle Li, Xin Wang, Ning Pan, Lizi Lin, Yirong He, Jinhui Wang</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 22,
-      "reading_time": 1,
-      "created_at": "2026-05-23T13:59:36.298363+00:00",
-      "updated_at": "2026-05-23T14:56:49.588472+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T14:56:49.588484+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "41ac914d7de87798881a4ef7c1f853bb",
-      "url": "https://www.nature.com/articles/s41419-026-08866-z",
-      "title": "Iron chelation targets lipid metabolism to reduce white matter injury in germinal matrix hemorrhage",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-23T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-23T13:59:33.480296+00:00",
-      "updated_at": "2026-05-23T14:56:49.588488+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T14:56:49.588489+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0da4b182ea67aac9a7dc06f5da256ae7",
-      "url": "https://www.nature.com/articles/s41598-026-52956-z",
-      "title": "Resting HRV predicts cardiac vagal control during stress, not psychological distress",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-23T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-23T13:59:33.480255+00:00",
-      "updated_at": "2026-05-23T14:56:49.588491+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T14:56:49.588493+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "b9800911bec3a5f92fc467b974a401d0",
-      "url": "https://www.nature.com/articles/s41598-026-49461-8",
-      "title": "Lenalidomide ameliorates cognitive impairment via putative AChE inhibition: an in silico and in vivo study in a scopolamine-induced cognitive impairment model",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-23T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-23T13:59:33.480241+00:00",
-      "updated_at": "2026-05-23T14:56:49.588495+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T14:56:49.588496+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4839724422717fa4e9f2b38073b10272",
-      "url": "https://www.nature.com/articles/s41598-026-52702-5",
-      "title": "Spaced practice and reactive inhibition have limited or no effects on motor sequence learning",
-      "content": "",
-      "author": "",
-      "published_date": "2026-05-23T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-05-23T13:59:33.480213+00:00",
-      "updated_at": "2026-05-23T14:56:49.588498+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T14:56:49.588500+00:00",
         "processing_method": "github_actions"
       }
     }
