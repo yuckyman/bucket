@@ -1,24 +1,8 @@
 {
-  "last_updated": "2026-05-23T20:42:42.693179+00:00",
-  "pending_count": 791,
-  "processed_count": 209,
+  "last_updated": "2026-05-23T22:47:25.308597+00:00",
+  "pending_count": 786,
+  "processed_count": 214,
   "pending_articles": [
-    {
-      "id": "105d558cd8618e9ac4b943fd2c609379",
-      "url": "https://github.com/tejpalv/cc-wiki",
-      "title": "CC-Wiki: Turn Claude Code sessions into a shareable knowledge base wiki",
-      "content": "<p>Article URL: <a href=\"https://github.com/tejpalv/cc-wiki\">https://github.com/tejpalv/cc-wiki</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48250126\">https://news.ycombinator.com/item?id=48250126</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
-      "author": "tejpalv",
-      "published_date": "2026-05-23T18:43:25+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-05-23T19:44:56.285046+00:00",
-      "updated_at": "2026-05-23T19:44:56.285047+00:00"
-    },
     {
       "id": "d066d74d7b06a2f609795796a22ea844",
       "url": "https://news.ycombinator.com/item?id=48248801",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2026-05-23T16:31:39.599530+00:00",
       "updated_at": "2026-05-23T16:31:39.599537+00:00"
+    },
+    {
+      "id": "3392b1dc9eb3f4498c7bf2c0b4b175b2",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003003?dgcid=rss_sd_all",
+      "title": "Microglia-driven neuroinflammation in ischemic stroke: insights from high altitude hypoxia",
+      "content": "<p>Publication date: 4 August 2026</p><p><b>Source:</b> Neuroscience, Volume 608</p><p>Author(s): Shafa Khan, Armiya Sultan, Mohd. Sadik, Mohammad Zahid Ashraf</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroscience Journal",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 17,
+      "reading_time": 1,
+      "created_at": "2026-05-23T15:09:20.845930+00:00",
+      "updated_at": "2026-05-23T15:09:20.845932+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "578e4b08de33e744cfe872d064b49f07",
+      "url": "https://andrewlock.net/exploring-the-dotnet-11-preview-2-dotnet-gets-union-types/",
+      "title": ".NET (OK, C#) gets union types",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48234954\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-22T12:28:50+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T21:56:50.286395+00:00",
+      "updated_at": "2026-05-23T22:47:25.188875+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T22:47:25.188887+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ae71cc7c6d21ed59276594880ec43bd4",
+      "url": "https://ironpeak.be/blog/bypassing-apple-mie/",
+      "title": "Pardon MIE?",
+      "content": "<p>Article URL: <a href=\"https://ironpeak.be/blog/bypassing-apple-mie/\">https://ironpeak.be/blog/bypassing-apple-mie/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48251229\">https://news.ycombinator.com/item?id=48251229</a></p>\n<p>Points: 11</p>\n<p># Comments: 3</p>",
+      "author": "jiveturkey",
+      "published_date": "2026-05-23T20:36:42+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-23T21:56:48.971083+00:00",
+      "updated_at": "2026-05-23T22:47:25.188892+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T22:47:25.188894+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "7677d6a8ba83ad09ccd4ccec44aa5c10",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1795490",
+      "title": "A lightweight Chinese\u2013English translation model integrating compressed BERT attention and phrase discard mechanism",
+      "content": "Chinese\u2013English machine translation based on neural network model strictly adopts the sequential modeling method of encoder\u2013decoder. However, this traditional method cannot make effective use of syntactic information and linguistic hierarchy information. Therefore, to integrate syntactic structure information into Chinese\u2013English machine translation to improve its translation performance, this paper proposes a new Chinese\u2013English machine translation method based on graph convolutional network and BERT (Bidirectional Encoder Representation from Transformers) knowledge enhancement. In this work, we present an enhanced approach to neural machine translation that integrates multiple techniques to improve translation quality. The multi-BERT context is first compressed and aligned into the semantic space of the translation model using learnable compression vectors. This alignment ensures that the rich contextual information from BERT is effectively utilized within our translation framework. At the end of source language, we employ a dual encoder to encode both the source sentence and its syntactic dependency tree, thereby capturing both lexical and structural information. To further enrich the source-side semantic representation, the compression vector is concatenated with the input vector of the encoder. Additionally, we introduce a phrase discard mechanism that randomly discards target phrases during training. This mechanism enhances the model\u2019s robustness against mistranslated phrases, thereby reducing their impact on subsequent phrase translations. Experiments on NIST dataset demonstrate the effectiveness of our proposed lightweight Chinese\u2013English translation method. Different from general-purpose large chatbot models (e.g., ChatGPT) with high computing costs, this model achieves 39.68 BLEU with low parameters, solving issues of low-resource scenarios and phrase mistranslation. It offers a novel lightweight paradigm for private-oriented translation chatbots, outperforming the baseline Transformer (35.75 BLEU) significantly.",
+      "author": "Hang Bao",
+      "published_date": "2026-05-08T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 264,
+      "reading_time": 1,
+      "created_at": "2026-05-23T20:54:36.097682+00:00",
+      "updated_at": "2026-05-23T22:47:25.188900+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T22:47:25.188902+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "1f3a7e3be4c6dae9b9f6a188bad2c6a4",
+      "url": "https://microsandbox.dev/blog/oci-filesystem-47x-faster",
+      "title": "We made our filesystem 47\u00d7 faster by deleting it",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48196831\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-19T18:01:23+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-23T20:54:08.141913+00:00",
+      "updated_at": "2026-05-23T22:47:25.188904+00:00",
+      "metadata": {
+        "processed_at": "2026-05-23T22:47:25.188906+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "60f452ab22c4bccf46af6e254f426a5c",
       "url": "https://www.biorxiv.org/content/10.64898/2026.05.20.726332v1?rss=1",
@@ -226,26 +306,6 @@
       }
     },
     {
-      "id": "68a8e104ebe8a04fc657faa24f28a959",
-      "url": "https://veronicaexplains.net/my-first-writerdeck/",
-      "title": "It's time to talk about my writerdeck",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48250144\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-23T18:45:37+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-23T19:44:57.482930+00:00",
-      "updated_at": "2026-05-23T20:42:42.579321+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T20:42:42.579323+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "11caa7ea58dbeae22548f9447304996f",
       "url": "https://reclaimthenet.org/texas-woman-arrested-for-facebook-post-about-town-water-quality",
       "title": "Texas woman arrested for Facebook post about town water quality",
@@ -286,82 +346,22 @@
       }
     },
     {
-      "id": "a82fff79a9b67a4c40d91ed84da41e7c",
-      "url": "https://victoriaritvo.com/blog/hengefinder/",
-      "title": "Hengefinder: Finding When the Sun Aligns with Your Street",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48241335\">Comments</a>",
+      "id": "68a8e104ebe8a04fc657faa24f28a959",
+      "url": "https://veronicaexplains.net/my-first-writerdeck/",
+      "title": "It's time to talk about my writerdeck",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48250144\">Comments</a>",
       "author": "",
-      "published_date": "2026-05-22T20:39:42+00:00",
+      "published_date": "2026-05-23T18:45:37+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-05-23T18:02:09.981857+00:00",
-      "updated_at": "2026-05-23T19:02:19.490148+00:00",
+      "created_at": "2026-05-23T19:44:57.482930+00:00",
+      "updated_at": "2026-05-23T20:42:42.579321+00:00",
       "metadata": {
-        "processed_at": "2026-05-23T19:02:19.490158+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9594dfe69e786734c392df9dfb817673",
-      "url": "https://www.euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift",
-      "title": "Italy Cancels Boeing Pegasus Order, Shifting to Airbus A330 MRTT",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48248775\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-23T16:02:43+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-23T18:02:09.981839+00:00",
-      "updated_at": "2026-05-23T19:02:19.490163+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T19:02:19.490165+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9594dfe69e786734c392df9dfb817673",
-      "url": "https://www.euronews.com/my-europe/2026/05/21/italy-moves-to-airbus-a330-tankers-in-major-nato-aligned-shift",
-      "title": "Italy Cancels Boeing Pegasus Order, Shifting to Airbus A330 MRTT",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48248775\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-23T16:02:43+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-23T18:02:09.981839+00:00",
-      "updated_at": "2026-05-23T19:02:19.490163+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T19:02:19.490165+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6dcc1b2375dd798801aa79577df0d645",
-      "url": "https://arslan.io/2025/11/18/my-two-part-desk-setup/",
-      "title": "My two-part desk setup",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48214311\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-20T21:21:14+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-23T18:02:09.981803+00:00",
-      "updated_at": "2026-05-23T19:02:19.490168+00:00",
-      "metadata": {
-        "processed_at": "2026-05-23T19:02:19.490169+00:00",
+        "processed_at": "2026-05-23T20:42:42.579323+00:00",
         "processing_method": "github_actions"
       }
     }
