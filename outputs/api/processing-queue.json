@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-05-24T19:09:52.989154+00:00",
-  "pending_count": 750,
-  "processed_count": 250,
+  "last_updated": "2026-05-24T20:48:59.690002+00:00",
+  "pending_count": 745,
+  "processed_count": 255,
   "pending_articles": [
+    {
+      "id": "46ea5147b5456250e007987e25952b75",
+      "url": "https://en.wikipedia.org/wiki/2009_Aftonbladet_Israel_controversy",
+      "title": "2009 Aftonbladet Israel Controversy",
+      "content": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/2009_Aftonbladet_Israel_controversy\">https://en.wikipedia.org/wiki/2009_Aftonbladet_Israel_controversy</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48259848\">https://news.ycombinator.com/item?id=48259848</a></p>\n<p>Points: 11</p>\n<p># Comments: 1</p>",
+      "author": "hggh",
+      "published_date": "2026-05-24T18:38:08+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-24T20:06:31.400330+00:00",
+      "updated_at": "2026-05-24T20:06:31.400340+00:00"
+    },
     {
       "id": "9c8e2a8fc51f6f7026369d6dada5c105",
       "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
@@ -146,25 +162,129 @@
       "reading_time": 1,
       "created_at": "2026-05-24T17:03:20.810053+00:00",
       "updated_at": "2026-05-24T17:03:20.810055+00:00"
-    },
+    }
+  ],
+  "recently_processed": [
     {
-      "id": "1a936a72e34579e2527e15f5904e7a76",
-      "url": "https://ti.to/codeforgood/rubyforgood",
-      "title": "Ruby for Good",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48258254\">Comments</a>",
+      "id": "3a89e7dcdf5748314e55cb0c866662d1",
+      "url": "https://tritium.legal/blog/noroboto",
+      "title": "Noroboto: Lying Fonts and Mitigation in Rust",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48236791\">Comments</a>",
       "author": "",
-      "published_date": "2026-05-24T15:49:19+00:00",
+      "published_date": "2026-05-22T14:55:37+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-05-24T17:03:20.809907+00:00",
-      "updated_at": "2026-05-24T17:03:20.809909+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-05-24T20:06:32.660749+00:00",
+      "updated_at": "2026-05-24T20:48:59.582567+00:00",
+      "metadata": {
+        "processed_at": "2026-05-24T20:48:59.582576+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "920cac1d7fc1bedb590ac76b081d405f",
+      "url": "https://christopherkrapu.com/blog/2026/dont-know-where-your-data-is-from/",
+      "title": "Don't know where your data is from? Bayesian modeling for unknown coordinates",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48259158\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-24T17:18:52+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-24T20:06:32.660712+00:00",
+      "updated_at": "2026-05-24T20:48:59.582580+00:00",
+      "metadata": {
+        "processed_at": "2026-05-24T20:48:59.582582+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6b2e4ddc2c5c759d0876c99e5406ce0f",
+      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "title": "Claude Is Not Your Architect. Stop Letting It Pretend",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48259784\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-24T18:28:11+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-24T20:06:32.660643+00:00",
+      "updated_at": "2026-05-24T20:48:59.582584+00:00",
+      "metadata": {
+        "processed_at": "2026-05-24T20:48:59.582586+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "920cac1d7fc1bedb590ac76b081d405f",
+      "url": "https://christopherkrapu.com/blog/2026/dont-know-where-your-data-is-from/",
+      "title": "Don't know where your data is from? Bayesian modeling for unknown coordinates",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48259158\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-24T17:18:52+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-24T20:06:32.660712+00:00",
+      "updated_at": "2026-05-24T20:48:59.582580+00:00",
+      "metadata": {
+        "processed_at": "2026-05-24T20:48:59.582582+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f3249eca0ed4e003aef5b7274e2bb179",
+      "url": "https://www.mayerbrown.com/en/insights/publications/2026/04/traveling-abroad-your-phone-may-be-the-first-checkpoint",
+      "title": "CBP updated its electronic device search directive in Jan 2026",
+      "content": "<p>Article URL: <a href=\"https://www.mayerbrown.com/en/insights/publications/2026/04/traveling-abroad-your-phone-may-be-the-first-checkpoint\">https://www.mayerbrown.com/en/insights/publications/2026/04/traveling-abroad-your-phone-may-be-the-first-checkpoint</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48259485\">https://news.ycombinator.com/item?id=48259485</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "author": "Ember_Wipe",
+      "published_date": "2026-05-24T17:53:16+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-24T20:06:31.400386+00:00",
+      "updated_at": "2026-05-24T20:48:59.582592+00:00",
+      "metadata": {
+        "processed_at": "2026-05-24T20:48:59.582593+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6b2e4ddc2c5c759d0876c99e5406ce0f",
+      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
+      "title": "Claude Is Not Your Architect. Stop Letting It Pretend",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48259784\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-24T18:28:11+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-24T20:06:32.660643+00:00",
+      "updated_at": "2026-05-24T20:48:59.582584+00:00",
+      "metadata": {
+        "processed_at": "2026-05-24T20:48:59.582586+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "b6c30e010312828ac02e321883a223e5",
       "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1771884",
@@ -242,126 +362,6 @@
       "updated_at": "2026-05-24T19:09:52.879624+00:00",
       "metadata": {
         "processed_at": "2026-05-24T19:09:52.879626+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7183d56fb090d47370c30885c101a6b4",
-      "url": "https://www.ycombinator.com/companies/flick/jobs/Tdu6FH6-senior-frontend-engineer",
-      "title": "Flick (YC F25) Is Hiring Front End Engineer to Build Figma for AI Filmmaking",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48258995\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-24T17:00:46+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-24T18:38:27.582241+00:00",
-      "updated_at": "2026-05-24T19:09:52.879628+00:00",
-      "metadata": {
-        "processed_at": "2026-05-24T19:09:52.879629+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7183d56fb090d47370c30885c101a6b4",
-      "url": "https://www.ycombinator.com/companies/flick/jobs/Tdu6FH6-senior-frontend-engineer",
-      "title": "Flick (YC F25) Is Hiring Front End Engineer to Build Figma for AI Filmmaking",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48258995\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-24T17:00:46+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-24T18:38:27.582241+00:00",
-      "updated_at": "2026-05-24T19:09:52.879628+00:00",
-      "metadata": {
-        "processed_at": "2026-05-24T19:09:52.879629+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1fd27ae0aa7906327cf86e9347f56c0b",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003416?dgcid=rss_sd_all",
-      "title": "TDP-43: a critical amplifier of Alzheimer\u2019s disease beyond amyloid and tau",
-      "content": "<p>Publication date: 4 August 2026</p><p><b>Source:</b> Neuroscience, Volume 608</p><p>Author(s): Abhideep Roy, Sushila Chhetry, Hiramoni Deka, Rubina Roy, Pallab Bhattacharya, Basant Kumar Patel, Anupom Borah</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 23,
-      "reading_time": 1,
-      "created_at": "2026-05-24T15:44:53.763387+00:00",
-      "updated_at": "2026-05-24T16:56:26.285913+00:00",
-      "metadata": {
-        "processed_at": "2026-05-24T16:56:26.285925+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7fa5594332bfabea8bd5edc55736e84b",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003258?dgcid=rss_sd_all",
-      "title": "Executive functioning-related behavior and neuronal activation in the thalamic nucleus reuniens in a combined intubation and alcohol third-trimester binge exposure in rats",
-      "content": "<p>Publication date: 4 August 2026</p><p><b>Source:</b> Neuroscience, Volume 608</p><p>Author(s): Eva A. Smith, Natalie L. Onesi, Anna Y. Klintsova</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 17,
-      "reading_time": 1,
-      "created_at": "2026-05-24T15:44:53.763228+00:00",
-      "updated_at": "2026-05-24T16:56:26.285929+00:00",
-      "metadata": {
-        "processed_at": "2026-05-24T16:56:26.285931+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "009d607343ca9b00e47deae0b3ac7bb1",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003404?dgcid=rss_sd_all",
-      "title": "Hypertension exacerbates neuroinflammation and neuronal injury following cerebral ischemia\u2013reperfusion in rats",
-      "content": "<p>Publication date: 4 August 2026</p><p><b>Source:</b> Neuroscience, Volume 608</p><p>Author(s): Xiangming Tang, Taro Osawa, Lu Chen, Yajie Chen, En Takashi, Jingyan Liang, Jianglin Fan</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 22,
-      "reading_time": 1,
-      "created_at": "2026-05-24T15:44:53.763198+00:00",
-      "updated_at": "2026-05-24T16:56:26.285934+00:00",
-      "metadata": {
-        "processed_at": "2026-05-24T16:56:26.285936+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "16485a889c4a54e3a410ec0869529e9f",
-      "url": "https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/",
-      "title": "The seed oil panic is hurting my cardiac patients",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48257532\">Comments</a>",
-      "author": "",
-      "published_date": "2026-05-24T14:27:26+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-05-24T15:44:08.679510+00:00",
-      "updated_at": "2026-05-24T16:56:26.285938+00:00",
-      "metadata": {
-        "processed_at": "2026-05-24T16:56:26.285940+00:00",
         "processing_method": "github_actions"
       }
     }
