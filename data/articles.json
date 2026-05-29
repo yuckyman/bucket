@@ -7,13 +7,17 @@
     "author": "Mahjabin Nahar, Nafis Irtiza Tripto, Aiping Xiong, Ting-Hao `Kenneth' Huang, Dongwon Lee",
     "published_date": "2026-05-29T04:00:00+00:00",
     "source": "Arxiv Cs Hc",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 211,
     "reading_time": 1,
     "created_at": "2026-05-29T06:15:55.547396+00:00",
-    "updated_at": "2026-05-29T06:15:55.547397+00:00"
+    "updated_at": "2026-05-29T07:51:02.430311+00:00",
+    "metadata": {
+      "processed_at": "2026-05-29T07:51:02.430326+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "ef5d1b67b139f22ea5217d459b63ff5e",
@@ -23,13 +27,17 @@
     "author": "Niall McShane, Attila Korik, Karl McCreadie, Naomi Du Bois, Darryl Charles, Damien Coyle",
     "published_date": "2026-05-29T04:00:00+00:00",
     "source": "Arxiv Cs Hc",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 224,
     "reading_time": 1,
     "created_at": "2026-05-29T06:15:55.547363+00:00",
-    "updated_at": "2026-05-29T06:15:55.547364+00:00"
+    "updated_at": "2026-05-29T07:51:02.430330+00:00",
+    "metadata": {
+      "processed_at": "2026-05-29T07:51:02.430333+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "c408805247d16d65e47023bd2b9373d0",
@@ -39,13 +47,17 @@
     "author": "Ngoc Luyen Le, Marie-H\\'el\\`ene Abel, Bertrand Laforge",
     "published_date": "2026-05-29T04:00:00+00:00",
     "source": "Arxiv Cs Hc",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 253,
     "reading_time": 1,
     "created_at": "2026-05-29T06:15:55.547329+00:00",
-    "updated_at": "2026-05-29T06:15:55.547330+00:00"
+    "updated_at": "2026-05-29T07:51:02.430335+00:00",
+    "metadata": {
+      "processed_at": "2026-05-29T07:51:02.430337+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "b6202eceef6c65ca60ab62b6ba061634",
@@ -55,13 +67,17 @@
     "author": "Lu Chen, Xiaoran Xue, Rongqi Ding, Fenghua Tang, Anji Zhou, Chenxi Wang, Mengyu Miranda Gao, Zhuo Rachel Han",
     "published_date": "2026-05-29T04:00:00+00:00",
     "source": "Arxiv Cs Hc",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 155,
     "reading_time": 1,
     "created_at": "2026-05-29T06:15:55.547292+00:00",
-    "updated_at": "2026-05-29T06:15:55.547293+00:00"
+    "updated_at": "2026-05-29T07:51:02.430339+00:00",
+    "metadata": {
+      "processed_at": "2026-05-29T07:51:02.430341+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "22e4e56781f0e188bcff25f1d5d6ec71",
@@ -71,13 +87,17 @@
     "author": "Drishti Goel, Agam Goyal, Veda Duddu, Olivia Pal, Jeongah Lee, Qiuyue Joy Zhong, Violeta J. Rodriguez, Daniel S. Brown, Dong Whi Yoo, Ravi Karkar, Koustuv Saha",
     "published_date": "2026-05-29T04:00:00+00:00",
     "source": "Arxiv Cs Hc",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 188,
     "reading_time": 1,
     "created_at": "2026-05-29T06:15:55.547262+00:00",
-    "updated_at": "2026-05-29T06:15:55.547264+00:00"
+    "updated_at": "2026-05-29T07:51:02.430344+00:00",
+    "metadata": {
+      "processed_at": "2026-05-29T07:51:02.430346+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "a41d836a4bcac3fcc532da86543f1164",
@@ -227,17 +247,21 @@
     "id": "ef5d1b67b139f22ea5217d459b63ff5e",
     "url": "https://arxiv.org/abs/2605.29677",
     "title": "Embodied Virtual Reality Feedback Reshapes Neural Representations to Support Continuous Three-Dimensional Motor Imagery Decoding",
-    "content": "arXiv:2605.29677v1 Announce Type: cross \nAbstract: Continuous brain-computer interfaces (BCIs) that decode motion trajectories from imagined movement offer intuitive motor control, yet how feedback modality and longitudinal training shape neural representations and decoding performance remains poorly understood. We present the first systematic investigation of embodied virtual reality (VR) feedback during real-time 3D virtual limb control driven by motor imagery, across ten longitudinal sessions in ten participants. Performance was evaluated using three strategies: actual online performance (Fixed Decoder Generalisation, FDG), periodic retraining (Sequential Adaptive Training, SAT), and within-session upper-bound estimation (Within-Session Reconstruction, WSR). A CNN-LSTM decoder achieved within-session imagined movement correlations of r = 0.762 under VR and r = 0.672 under screen feedback. VR significantly outperformed screen feedback across all strategies and movement dimensions (improvements of 8.9-13.0%, all p <= 0.002, d = 1.42-2.05). This advantage persisted under fixed decoders without retraining, demonstrating that embodied VR feedback elicits inherently more decodable and generalisable neural representations. Linear mixed-effects modelling confirmed robust main effects of feedback modality and movement axis with no interaction. Neurophysiologically, VR produced stronger sensorimotor-parietal desynchronisation and enhanced motor-frontal functional connectivity, with pervasive anterior insula engagement across all frequency bands and increased superior parietal lobule coupling, paralleling patterns associated with real movement execution. These findings establish embodied spatial feedback as a key design principle for next-generation continuous BCIs targeting intuitive motor control and neurorehabilitation.",
+    "content": "arXiv:2605.29677v1 Announce Type: new \nAbstract: Continuous brain-computer interfaces (BCIs) that decode motion trajectories from imagined movement offer intuitive motor control, yet how feedback modality and longitudinal training shape neural representations and decoding performance remains poorly understood. We present the first systematic investigation of embodied virtual reality (VR) feedback during real-time 3D virtual limb control driven by motor imagery, across ten longitudinal sessions in ten participants. Performance was evaluated using three strategies: actual online performance (Fixed Decoder Generalisation, FDG), periodic retraining (Sequential Adaptive Training, SAT), and within-session upper-bound estimation (Within-Session Reconstruction, WSR). A CNN-LSTM decoder achieved within-session imagined movement correlations of r = 0.762 under VR and r = 0.672 under screen feedback. VR significantly outperformed screen feedback across all strategies and movement dimensions (improvements of 8.9-13.0%, all p <= 0.002, d = 1.42-2.05). This advantage persisted under fixed decoders without retraining, demonstrating that embodied VR feedback elicits inherently more decodable and generalisable neural representations. Linear mixed-effects modelling confirmed robust main effects of feedback modality and movement axis with no interaction. Neurophysiologically, VR produced stronger sensorimotor-parietal desynchronisation and enhanced motor-frontal functional connectivity, with pervasive anterior insula engagement across all frequency bands and increased superior parietal lobule coupling, paralleling patterns associated with real movement execution. These findings establish embodied spatial feedback as a key design principle for next-generation continuous BCIs targeting intuitive motor control and neurorehabilitation.",
     "author": "Niall McShane, Attila Korik, Karl McCreadie, Naomi Du Bois, Darryl Charles, Damien Coyle",
     "published_date": "2026-05-29T04:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
+    "source": "Arxiv Cs Hc",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 224,
     "reading_time": 1,
-    "created_at": "2026-05-29T06:15:54.479061+00:00",
-    "updated_at": "2026-05-29T06:15:54.479063+00:00"
+    "created_at": "2026-05-29T06:15:55.547363+00:00",
+    "updated_at": "2026-05-29T07:51:02.430330+00:00",
+    "metadata": {
+      "processed_at": "2026-05-29T07:51:02.430333+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "7d4d383c09430fbfd0db86f8165e5098",
