@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-05-31T10:10:57.541786+00:00",
-  "pending_count": 794,
-  "processed_count": 206,
+  "last_updated": "2026-05-31T13:25:36.783220+00:00",
+  "pending_count": 787,
+  "processed_count": 213,
   "pending_articles": [
+    {
+      "id": "238f6b6cf649bdd1e513b0f339047309",
+      "url": "https://86box.net/2026/05/31/86box-v6-0.html",
+      "title": "86Box v6.0",
+      "content": "<p>Article URL: <a href=\"https://86box.net/2026/05/31/86box-v6-0.html\">https://86box.net/2026/05/31/86box-v6-0.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48342935\">https://news.ycombinator.com/item?id=48342935</a></p>\n<p>Points: 20</p>\n<p># Comments: 3</p>",
+      "author": "chungy",
+      "published_date": "2026-05-31T04:03:52+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-05-31T10:30:55.490368+00:00",
+      "updated_at": "2026-05-31T10:30:55.490370+00:00"
+    },
     {
       "id": "5f144ac7ded1de3dd79f828a70e0060e",
       "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728424v1?rss=1",
@@ -146,25 +162,149 @@
       "reading_time": 1,
       "created_at": "2026-05-31T08:26:23.599678+00:00",
       "updated_at": "2026-05-31T08:26:23.599680+00:00"
-    },
+    }
+  ],
+  "recently_processed": [
     {
-      "id": "a24a1af7ac3eb6fbe4fe4ae4084b16f0",
-      "url": "https://arxiv.org/abs/1709.08492",
-      "title": "A pictorial introduction to differential geometry (2017)",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48343287\">Comments</a>",
+      "id": "8f565e2d6d1831ef419ff8368c293435",
+      "url": "https://secret-archive.org/",
+      "title": "Security Envelope Pattern collection \u2013 S.E.C.R.E.T",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48321089\">Comments</a>",
       "author": "",
-      "published_date": "2026-05-31T05:30:18+00:00",
+      "published_date": "2026-05-29T09:49:13+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-05-31T08:26:23.599660+00:00",
-      "updated_at": "2026-05-31T08:26:23.599662+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-05-31T12:02:52.653516+00:00",
+      "updated_at": "2026-05-31T13:25:36.678431+00:00",
+      "metadata": {
+        "processed_at": "2026-05-31T13:25:36.678441+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "e9f5f5ec5c645a32846ea9b26621dc5b",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728856v1?rss=1",
+      "title": "Paraventricular thalamus gates hippocampal coding of salient experiences.",
+      "content": "Adaptive behavior requires neural circuits that encode salient stimuli to guide approach and avoidance. The hippocampal ventral subiculum (vSub) encodes information related to avoidance and reward seeking, yet how upstream inputs shape its representations of salient appetitive and aversive events remains unclear. Here, we show that a projection from the anterior paraventricular thalamus (PVT) to vSub carries an aversive state signal that biases vSub representations toward threat related information. In anxiety-provoking environments, anterior PVT to vSub activity is associated with avoidance behavior and enhanced vSub discrimination of threat and safety. During associative learning, this circuit preferentially promotes vSub responses to threat-predictive cues and aversive outcomes while constraining representations of rewarding stimuli. These findings refine canonical limbic circuit models by identifying a direct thalamic influence over hippocampal coding of rewarding versus aversive stimuli and the approach avoidance behaviors they guide.",
+      "author": "Gergues, M. M., Telian, G. I., Logas, K., Li, M., Kolanjian, A., Biane, J. S., Hassan, S., Tai, J., Turner, V. S., Kheirbek, M. A.",
+      "published_date": "2026-05-31T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 139,
+      "reading_time": 1,
+      "created_at": "2026-05-31T10:31:35.845797+00:00",
+      "updated_at": "2026-05-31T13:25:36.678445+00:00",
+      "metadata": {
+        "processed_at": "2026-05-31T13:25:36.678447+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "d602dc8cac9e5d338cd3495fb6d0eb18",
+      "url": "https://blog.nlnetlabs.nl/one-year-of-roto-the-compiled-scripting-language-for-rust/",
+      "title": "One year of Roto, a compiled scripting language for Rust",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48323303\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-29T14:07:59+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-31T10:30:56.601635+00:00",
+      "updated_at": "2026-05-31T13:25:36.678449+00:00",
+      "metadata": {
+        "processed_at": "2026-05-31T13:25:36.678451+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "dd29370f44d0d263ff34a8d0b9af0649",
+      "url": "https://economist.com/interactive/essay/2026/05/28/the-dangerous-delusion-of-modern-warfare",
+      "title": "The dangerous delusion of modern warfare",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48344016\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-31T08:35:19+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-31T10:30:56.601558+00:00",
+      "updated_at": "2026-05-31T13:25:36.678453+00:00",
+      "metadata": {
+        "processed_at": "2026-05-31T13:25:36.678455+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "50b7ca8a6d299a717e3954e5a0012aa3",
+      "url": "https://diamondgeezer.blogspot.com/2026/05/londons-free-roof-terraces.html",
+      "title": "London's Free Roof Terraces",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48343714\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-31T07:16:18+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-31T10:30:56.601517+00:00",
+      "updated_at": "2026-05-31T13:25:36.678457+00:00",
+      "metadata": {
+        "processed_at": "2026-05-31T13:25:36.678459+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "50b7ca8a6d299a717e3954e5a0012aa3",
+      "url": "https://diamondgeezer.blogspot.com/2026/05/londons-free-roof-terraces.html",
+      "title": "London's Free Roof Terraces",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48343714\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-31T07:16:18+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-31T10:30:56.601517+00:00",
+      "updated_at": "2026-05-31T13:25:36.678457+00:00",
+      "metadata": {
+        "processed_at": "2026-05-31T13:25:36.678459+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "dd29370f44d0d263ff34a8d0b9af0649",
+      "url": "https://economist.com/interactive/essay/2026/05/28/the-dangerous-delusion-of-modern-warfare",
+      "title": "The dangerous delusion of modern warfare",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48344016\">Comments</a>",
+      "author": "",
+      "published_date": "2026-05-31T08:35:19+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-05-31T10:30:56.601558+00:00",
+      "updated_at": "2026-05-31T13:25:36.678453+00:00",
+      "metadata": {
+        "processed_at": "2026-05-31T13:25:36.678455+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "efb7690f13ac738e2a2a0285c5aa9757",
       "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728781v1?rss=1",
@@ -222,146 +362,6 @@
       "updated_at": "2026-05-31T10:10:57.428729+00:00",
       "metadata": {
         "processed_at": "2026-05-31T10:10:57.428731+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f4cd15692128b37c273e3fa57b235836",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728728v1?rss=1",
-      "title": "Early reaction time variability predicts implicit statistical learning: a comparison of four variability indices",
-      "content": "High intra-individual reaction time variability (RTV) is traditionally viewed through a deficit perspective and interpreted as a maladaptive signature of attentional lapses, cognitive inefficiency, and systemic noise. However, theories from motor learning and the competitive neurocognitive networks framework suggest that behavioral variability and reduced top-down control might actually facilitate certain forms of implicit skill acquisition. The present study addresses the apparent conflict between these perspectives by investigating whether elevated RTV serves as an adaptive, functional precursor to implicit statistical learning. Across two independent studies, participants completed the Alternating Serial Reaction Time (ASRT) task. We quantified early RTV during the initial task phase using multiple metrics - coefficient of variation, inter-trial RTV, and ex-Gaussian parameters Sigma and Tau - to predict subsequent statistical learning. Analyses controlled for baseline response speed and early learning artifacts, and test-retest reliability measures were also evaluated. Our results show that early RTV predicted later statistical learning measured via reaction times. This predictive relationship was most consistent for metrics capturing dynamic, moment-to-moment fluctuations (inter-trial RTV and Sigma) rather than extreme attentional lapses (Tau). While the effect size was relatively small, the association remained significant after controlling for potential statistical confounds. Furthermore, early RTV demonstrated strong test-retest stability. These findings challenge the exclusively deficit-oriented perspective on behavioral noise. Instead, we propose that elevated RTV may reflect an adaptive, exploratory processing tendency, analogous to kinematic exploration in motor learning, that could support the brain's ability to implicitly extract and model probabilistic environmental regularities.",
-      "author": "Ciardo, E., Alexandersen, A., Galladini, E., Karacadag, D., Vekony, T., Nemeth, D.",
-      "published_date": "2026-05-31T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 244,
-      "reading_time": 1,
-      "created_at": "2026-05-31T08:27:00.751021+00:00",
-      "updated_at": "2026-05-31T10:10:57.428761+00:00",
-      "metadata": {
-        "processed_at": "2026-05-31T10:10:57.428764+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "bafc2896b1afd185edaf1d37a9f35deb",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.29.728795v1?rss=1",
-      "title": "Category-selective functional connectivity during episodic encoding and retrieval in younger and older adults",
-      "content": "Regions within ventral occipito-temporal cortex exhibit category-selective BOLD responses during episodic encoding and retrieval of visual information. How these regions interact with other brain areas during successful encoding and retrieval, and whether these interactions relate to memory performance, remains unclear. The present study examined category-selective functional connectivity using psychophysiological interaction (PPI) analyses in younger and older adults during the encoding and retrieval of word-image associations. Seed regions comprised three scene-selective regions -- the parahippocampal place area, medial place area, and occipital place area -- and one object-selective region, the lateral occipital complex (LOC). During encoding, scene-selective regions exhibited greater connectivity with posterior occipital and occipitotemporal regions during scene relative to object encoding, whereas the LOC exhibited less extensive connectivity with similar posterior regions during object encoding. During retrieval, both scene- and object-selective regions demonstrated increased connectivity with left lateral prefrontal and parietal cortices during the retrieval of their preferred category. Age differences in scene-selective connectivity were evident at both phases. Moreover, associations between source memory performance and scene-selective connectivity were significant only in younger adults. These findings suggest that scene- and object-selective regions exhibit convergent patterns of functional connectivity during encoding and retrieval which, for scenes, vary with age.",
-      "author": "Monier, S., Srokova, S., Shahanawaz, N. S., Rugg, M. D.",
-      "published_date": "2026-05-31T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 199,
-      "reading_time": 1,
-      "created_at": "2026-05-31T08:27:00.750982+00:00",
-      "updated_at": "2026-05-31T10:10:57.428768+00:00",
-      "metadata": {
-        "processed_at": "2026-05-31T10:10:57.428771+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7940f0623069d0bbf3a0d5b626cfa6ac",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.728082v1?rss=1",
-      "title": "The Neurodynamic Core of Meditation: Dissociating Meditation from Rest and Task in a Reliability-based EEG study",
-      "content": "Background: Electroencephalographic (EEG) studies attempting to characterise the neural signature of meditation typically rely on contrasts with passive rest or comparisons among practitioners based on experience. However, these approaches rarely include active control states and seldom establish the reliability and robustness of identified quantitative EEG features. Consequently, the validity of proposed neurophysiological markers of meditative state remains uncertain. The present study addressed these limitations by using a reliability-informed, multi-session within-subject design to characterise distinct state-dependent EEG dynamics in experienced meditators from the Brahmakumaris Rajayoga tradition. Methods: Thirty long-term meditators underwent repeated EEG recordings over two days, comprising two meditation sessions per day. Each meditation block was flanked by rest periods, with a cognitive task between sessions to reduce carryover effects. We quantified broadband spectral power, aperiodic slope and intercept, and nonlinear dynamical measures, including detrended fluctuation analysis (DFA), Higuchi fractal dimension, and permutation entropy (PE), across meditation, rest, and task conditions. Results: Compared with both rest and task states, meditation was associated with increased theta-alpha power, an elevated aperiodic intercept, and systematic modulation of nonlinear indices (DFA, Higuchi, PE). Further meditative core features demonstrated high inter-session test-retest reliability, strong inter-individual consistency, stability across guided and silent meditation states, and were not moderated by years of meditative experience. Conclusion: The present framework identifies a reproducible neurodynamic core of meditation, distinct from passive and active control states, spanning spectral, aperiodic, and nonlinear EEG domains in long-term meditators. These findings enhance the construct validity and measurement reliability of meditation-specific neural markers.",
-      "author": "Chowdhury, P., Govindaraj, R., Sasidharan, A., Saoji, A. A., N, R. P., Kutty, B. M.",
-      "published_date": "2026-05-30T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 248,
-      "reading_time": 1,
-      "created_at": "2026-05-31T05:03:09.277470+00:00",
-      "updated_at": "2026-05-31T07:41:19.236037+00:00",
-      "metadata": {
-        "processed_at": "2026-05-31T07:41:19.236045+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "28ed4577c2fc793d25ced4da6210ff1d",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.728083v1?rss=1",
-      "title": "Epidermal microstructure and tactile sensitivity in the glabrous skin of hands and feet",
-      "content": "Glabrous skin on the human palms and soles is specialised for mechanical interaction and is characterised by papillary ridges, an absence of hair follicles, and a thick stratum corneum. While gross morphological differences, such as the increased thickness of the plantar stratum corneum, are well-documented, the fine-scale structural features associated with individual ridges and whether they help explain differences in tactile perception remain poorly understood. Here, we employed optical coherence tomography, automated image segmentation, and 3D reconstruction to generate high-resolution models of the stratum corneum and viable epidermis across six sites on the hand and foot for 27 participants. Our morphological analysis revealed that while the stratum corneum was thicker on the foot sole than the hand, the thickness of the viable epidermis remained remarkably consistent across all sites. Furthermore, papillary ridge width increased in a distal-to-proximal fashion and was larger on the foot. We also found that internal ridge architecture was considerably more pronounced than the topography observable on the skin surface. Correlating these structural parameters with psychophysical measures, specifically absolute force and two-point discrimination thresholds, demonstrated distinct drivers for tactile sensitivity. Force thresholds were primarily governed by a combination of skin thickness and innervation density, and additionally on the foot by papillary ridge width and internal ridge depth. In contrast, spatial acuity was best predicted by innervation and papillary ridge width. These findings provide a precise quantification of glabrous skin morphology and offer new insights into the process of mechanotransduction by highlighting how tissue architecture might contribute to human tactile perception.",
-      "author": "Hall, J. R., Gonzalez Salas Duhne, G., Wallis, O. M., Howarth, C., Saal, H. P.",
-      "published_date": "2026-05-30T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 253,
-      "reading_time": 1,
-      "created_at": "2026-05-31T05:03:09.277431+00:00",
-      "updated_at": "2026-05-31T07:41:19.236048+00:00",
-      "metadata": {
-        "processed_at": "2026-05-31T07:41:19.236049+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "89e5af171aea34ce1ddaa0535889c453",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.728136v1?rss=1",
-      "title": "Task-Dependent Modulation of Feedback Control in Human Steering",
-      "content": "We examined whether human steering behavior conforms to optimal feedback control (OFC) principles when driving a vehicle through sequences of upcoming gates varying in width (narrow/wide) relative to the vehicle's size, while occasional lateral velocity perturbations elicited corrective steering responses. In 24 participants, three predictions of OFC were tested: (1) greater positional variability when passing wide gates; (2) reduced corrective steering (lower feedback gains) to perturbations for wide compared to narrow gates (minimum intervention); and (3) modulation of feedback gains according to the relative spatial configuration of upcoming gates. Steering data were analyzed in terms of vehicle position and control velocity, the latter representative of feedback gain modulations. Results supported all predictions. When no perturbations occurred, participants showed wider distributions of passing locations through wide gates, consistent with allowing more task-relevant variability. During perturbed trials, feedback gains were lower for wide gates, confirming context-dependent control. When both gate types were center aligned, feedback responses were symmetric, whereas alignment of inner posts produced asymmetric feedback gains, being stronger for outward perturbations in narrow gates. Overall, these findings indicate that participants adapt their feedback control strategies to task-specific spatial constraints, demonstrating flexible optimization of steering control behavior.",
-      "author": "Liu, J.-Y., Cooke, J. R. H., Selen, L., Medendorp, W. P.",
-      "published_date": "2026-05-30T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 195,
-      "reading_time": 1,
-      "created_at": "2026-05-31T05:03:09.277391+00:00",
-      "updated_at": "2026-05-31T07:41:19.236050+00:00",
-      "metadata": {
-        "processed_at": "2026-05-31T07:41:19.236051+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "65eab7a66113bc43ebca1b1134b920d7",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.726795v1?rss=1",
-      "title": "Comparison of Automated White Matter Lesion Segmentation Approaches for Use in Large, Multi-Site Data Analyses in Parkinson's Disease",
-      "content": "Background: Parkinson's disease (PD) is the second most common neurodegenerative disorder. PD currently lacks effective disease-modifying treatments, likely due to its diverse clinical features and underlying neuropathology. The vascular role in PD is emerging, with vascular mechanisms increasingly implicated, yet the literature remains conflicted, motivating large-data analyses with greater statistical power. White matter lesions (WML) are an accepted imaging marker of small vessel disease. Accurate automated WML segmentation techniques are crucial for large-scale studies in PD due to the impracticality of manual segmentation for extensive datasets and to ensure consistency. Evaluation of the optimum approach in PD for large-scale analysis is lacking. This study aimed to evaluate various automated WML segmentation algorithms to determine the most accurate and reliable method, among those selected, for assessing WML for multi-site large data analysis in PD. Methods: We assessed whole-brain volumetric T1-weighted and FLAIR images from 201 PD patients (mean age, 66.6 {+/-} 7.86 years) and 64 healthy controls (HC; mean age, 66.3 {+/-} 8.67) across three datasets: the Parkinson's Progression Markers Initiative (PPMI), the University of Pennsylvania (UPenn) and the Montreal Neurological Institute Biobank: Clinical Biological Imaging and Genetic Repository (C-BIG). The sample included different scanners, imaging parameters and lesion loads, as would be expected for multi-site data. WML were manually segmented to provide the gold standard, and four freely available automated algorithms were evaluated: FSL's BIANCA, FreeSurfer, SPM's LST-LPA and U-Net-pgs using the performance metrics: Dice score, Hausdorff distance, recall, precision, F1 score, log absolute volume difference (LOGAVD) and intraclass correlation coefficient (ICC). Subgroup analyses were performed based on lesion load and lobar regions. The associations of data from these automated approaches with age, and with Fazekas and Wahlund visual rating scales, were assessed through partial correlation analysis. Results: U-Net-pgs performed best overall, with the highest Dice score (PD: 0.46 {+/-} 0.21; HC: 0.39 {+/-} 0.21), recall (PD: 0.76 {+/-} 0.25; HC: 0.62 {+/-} 0.31), precision (PD: 0.49 {+/-} 0.25; HC: 0.63 {+/-} 0.27), F1 score (PD: 0.54 {+/-} 0.22; HC: 0.56 {+/-} 0.22) and ICC (PD: 0.965; HC: 0.967) and lowest Hausdorff distance (PD: 8.89 {+/-} 3.96; HC: 6.33 {+/-} 2.91). U-Net-pgs achieved the lowest LOGAVD in the PD group (0.31 {+/-} 0.31) whereas BIANCA-LOO with a threshold of 0.9 was lowest in HC (0.27 {+/-} 0.30). U-Net-pgs also showed superior performances in all lesion loads for PD and overall across various brain regions in both PD and HC. Conclusion: Overall, U-Net-pgs emerged as the best performing automated method, of those we evaluated, for WML segmentation in PD and HC within a dataset collected with various scanner and image acquisition parameters. U-Net-pgs consistently outperformed other automated approaches across lesion loads and brain regions, for most metrics. The accuracy and reliability of U-Net-pgs make it a promising tool for large-scale analyses, facilitating future research investigating WML in PD.",
-      "author": "Al-Bachari, S., Yoon, S. H., Emson, P., Angell, S., Cain, J., Abraham, A., Chugtai, A., Sizer, E., Barnes, E., Al-Wardy, M., Kannan, S., Paul-Thaper, R., Bright, J., Owens-Walton, C., McMillan, C. T., Klein, J. C., Griffanti, L., Thomopoulos, S. I., Jahanshad, N., Thompson, P. M., van der Werf, Y. D., Vriend, C., Parkes, L. M., Emsley, H. C. A., Schrag, A., Haroon, H. A.",
-      "published_date": "2026-05-30T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 467,
-      "reading_time": 2,
-      "created_at": "2026-05-31T05:03:09.277348+00:00",
-      "updated_at": "2026-05-31T07:41:19.236052+00:00",
-      "metadata": {
-        "processed_at": "2026-05-31T07:41:19.236053+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "da6f0f9bc523b61612c77292b24c77e3",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.05.27.728181v1?rss=1",
-      "title": "Dimensional Arousal and Categorical Gaze Instability: Uncoupling the Baseline Oculomotor Phenotypes of Autism and ADHD",
-      "content": "Background: Autism Spectrum Disorder (ASD) and Attention-Deficit/Hyperactivity Disorder (ADHD) share substantial clinical and physiological overlap. While naturalistic and sensory-driven paradigms increasingly capture evoked neurophysiological responses, the intrinsic baseline physiology of these conditions remains poorly defined. We aimed to characterize resting-state autonomic arousal and oculomotor stability across the ASD-ADHD spectrum using both continuous (RDoC) and categorical (DSM-5) analytical frameworks. Methods: We analyzed resting-state eye-tracking data from a large pediatric cohort (N = 2,640) from the Healthy Brain Network. During an unconstrained baseline, we extracted Pupil Relative Volatility (Coefficient of Variation [CV]) to index intrinsic autonomic arousal, and the Bivariate Contour Ellipse Area (BCEA) to index spatial gaze instability. Data were evaluated using continuous dimensional regressions against the Social Responsiveness Scale (SRS) and SWAN inventories, followed by 2x2 factorial ANCOVAs based on clinical diagnoses. Sensitivity analyses accounted for clinical collinearity, spatial outliers, and psychostimulant medication. Results: Dimensional models revealed that Pupil CV was significantly and uniquely associated with continuous autistic traits (q = 0.0043, joint model), exhibiting a strong statistical suppression effect when controlling for ADHD trait covariance. However, this pupillary biomarker lost significance in binary categorical models. Conversely, spatial gaze instability (BCEA) demonstrated robust categorical threshold effects; isolated ASD and ADHD diagnoses significantly impaired baseline gaze stability. Furthermore, comorbid ASD+ADHD produced a distinct, sub-additive interaction for BCEA (q = 0.005) that remained robust to extreme spatial outliers. Both physiological phenotypes were independent of active psychostimulant use. Conclusions: Pupillary dynamics and oculomotor stability associate with the ASD-ADHD spectrum through differing analytical patterns during resting states. Baseline autonomic volatility is more strongly captured by dimensional models of autistic trait severity, whereas baseline gaze instability is more clearly differentiated across categorical diagnostic groups, exhibiting a sub-additive interaction in comorbidity. Integrating both dimensional and categorical frameworks provides a more comprehensive understanding of these physiological variations, establishing a necessary foundation for future naturalistic and sensory-evoked research.",
-      "author": "Di, X., Biswal, B. B.",
-      "published_date": "2026-05-30T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 310,
-      "reading_time": 1,
-      "created_at": "2026-05-31T05:03:09.277280+00:00",
-      "updated_at": "2026-05-31T07:41:19.236054+00:00",
-      "metadata": {
-        "processed_at": "2026-05-31T07:41:19.236055+00:00",
         "processing_method": "github_actions"
       }
     }
