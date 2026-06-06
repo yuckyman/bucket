@@ -1,8 +1,56 @@
 {
-  "last_updated": "2026-06-05T23:02:45.336030+00:00",
-  "pending_count": 843,
-  "processed_count": 157,
+  "last_updated": "2026-06-06T02:39:46.424307+00:00",
+  "pending_count": 846,
+  "processed_count": 154,
   "pending_articles": [
+    {
+      "id": "c0d8176c9327dbe067ee2c52e5e7eff9",
+      "url": "https://disassociated.com/microsoft-users-addicted-ai-personal-assistant/",
+      "title": "Microsoft wants users to be addicted to Scout, their AI personal assistant",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48419023\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-05T22:12:58+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-06T00:07:20.303200+00:00",
+      "updated_at": "2026-06-06T00:07:20.303202+00:00"
+    },
+    {
+      "id": "27e5397298451538b9d944b7e3cc11cc",
+      "url": "https://github.com/a-yiorgos/wambook",
+      "title": "Warren's Abstract Machine: A Tutorial Reconstruction",
+      "content": "<p>Article URL: <a href=\"https://github.com/a-yiorgos/wambook\">https://github.com/a-yiorgos/wambook</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48418839\">https://news.ycombinator.com/item?id=48418839</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "author": "nextos",
+      "published_date": "2026-06-05T21:52:02+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-06-06T00:07:19.000432+00:00",
+      "updated_at": "2026-06-06T00:07:19.000434+00:00"
+    },
+    {
+      "id": "c0d8176c9327dbe067ee2c52e5e7eff9",
+      "url": "https://disassociated.com/microsoft-users-addicted-ai-personal-assistant/",
+      "title": "Microsoft wants users to be addicted to Scout, their AI personal assistant",
+      "content": "<p>Article URL: <a href=\"https://disassociated.com/microsoft-users-addicted-ai-personal-assistant/\">https://disassociated.com/microsoft-users-addicted-ai-personal-assistant/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48419023\">https://news.ycombinator.com/item?id=48419023</a></p>\n<p>Points: 53</p>\n<p># Comments: 48</p>",
+      "author": "berlianta",
+      "published_date": "2026-06-05T22:12:58+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-06-06T00:07:19.000398+00:00",
+      "updated_at": "2026-06-06T00:07:19.000405+00:00"
+    },
     {
       "id": "3251f04e3a43e069b3ffe35eafaf837d",
       "url": "https://www.nature.com/articles/s41598-026-54948-5",
@@ -114,57 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-06-05T21:09:13.764528+00:00",
       "updated_at": "2026-06-05T21:09:13.764534+00:00"
-    },
-    {
-      "id": "b60503fc78b0b105a3fba8f36d15d2a1",
-      "url": "https://www.nature.com/articles/s41398-026-04149-5",
-      "title": "Cumulative mild stress during early life alters prefrontal astrocytic proteins and elevates peripheral S100B in young adult mice",
-      "content": "",
-      "author": "",
-      "published_date": "2026-06-05T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-06-05T21:09:12.606881+00:00",
-      "updated_at": "2026-06-05T21:09:12.606883+00:00"
-    },
-    {
-      "id": "d7efa882db405534bb9bbddec930b306",
-      "url": "https://www.nature.com/articles/s41467-026-73347-y",
-      "title": "A week in the life of the human brain reveals stable states punctuated by chaotic-like transitions",
-      "content": "",
-      "author": "",
-      "published_date": "2026-06-05T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-06-05T21:09:12.606755+00:00",
-      "updated_at": "2026-06-05T21:09:12.606757+00:00"
-    },
-    {
-      "id": "e85d268fec909ac0e665118c72045531",
-      "url": "https://www.reddit.com/r/Python/comments/1txuzkb/i_just_learned_round_uses_bankers_rounding/",
-      "title": "I just learned round() uses bankers' rounding",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>In bankers' rounding, x.5 rounds to the nearest even number. So, if x is even, it rounds down... <code>round(2.5)</code> returns 2. If x is odd, it rounds up... <code>round(3.5)</code> returns 4.</p> <p>It was explained that it removes an upward rounding bias when <code>round(x.5)</code> always returns x+1...</p> <ul> <li><p>x.1, x.2, x.3, &amp; x.4 always round down.</p></li> <li><p>x.6, x.7, x.8, &amp; x.9 always round up.</p></li> <li><p>Four down, four up.</p></li> <li><p>x.5 is the right in the middle. If it always rounded up, there would be a slight creep upwards in large datasets.</p></li> </ul> <p>But, whither x.0? x.0 always rounds to x. So, there are five cases where x.y always rounds down, not four.</p> <p>And...</p> <ul> <li><p><code>round(2.500000000000001)</code> return 3</p></li> <li><p><code>round(2.5000000000000001)</code> returns 2</p></li> </ul> <p>... though that might be more to do with binary representation of floats than rounding rules since <code>2.5000000000000001 == 2.5</code> is True.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nemom\"> /u/nemom </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1txuzkb/i_just_learned_round_uses_bankers_rounding/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1txuzkb/i_just_learned_round_uses_bankers_rounding/\">[comments]</a></span>",
-      "author": "/u/nemom",
-      "published_date": "2026-06-05T19:32:12+00:00",
-      "source": "Reddit Python",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 162,
-      "reading_time": 1,
-      "created_at": "2026-06-05T21:08:38.270920+00:00",
-      "updated_at": "2026-06-05T21:08:38.270922+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "80d1f642eb4da0958753076107ac0cbe",
+      "url": "http://daniellakens.blogspot.com/2025/07/easily-download-files-from-open-science.html",
+      "title": "Easily download files from the Open Science Framework with Papercheck",
+      "content": "<p>Researchers\nincreasingly use the <a href=\"https://osf.io/\">Open Science Framework</a> (OSF) to share files, such as data\nand code underlying scientific publications, or presentations and materials for\nscientific workshops. The OSF is an amazing service that has contributed\nimmensely to a changed research culture where psychologists share data, code, and\nmaterials. We are very grateful it exists.</p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">But it is\nnot always the most user-friendly. Specifically, downloading files from the OSF\nis a bigger hassle than we (<a href=\"https://debruine.github.io/\">Lisa DeBruine</a>\nand <a href=\"https://www.tue.nl/en/research/researchers/daniel-lakens/\">Daniel\nLakens</a>, the developers of Papercheck) would like it to be. Downloading individual\nfiles is so complex, <a href=\"https://bsky.app/profile/malte.the100.ci/post/3lpf4s6spns2i\">Malte Elson</a>\nrecently posted this meme on Bluesky. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"NL\"><!--[if gte vml 1]><v:shapetype\n id=\"_x0000_t75\" coordsize=\"21600,21600\" o:spt=\"75\" o:preferrelative=\"t\"\n path=\"m@4@5l@4@11@9@11@9@5xe\" filled=\"f\" stroked=\"f\">\n <v:stroke joinstyle=\"miter\"/>\n <v:formulas>\n  <v:f eqn=\"if lineDrawn pixelLineWidth 0\"/>\n  <v:f eqn=\"sum @0 1 0\"/>\n  <v:f eqn=\"sum 0 0 @1\"/>\n  <v:f eqn=\"prod @2 1 2\"/>\n  <v:f eqn=\"prod @3 21600 pixelWidth\"/>\n  <v:f eqn=\"prod @3 21600 pixelHeight\"/>\n  <v:f eqn=\"sum @0 0 1\"/>\n  <v:f eqn=\"prod @6 1 2\"/>\n  <v:f eqn=\"prod @7 21600 pixelWidth\"/>\n  <v:f eqn=\"sum @8 21600 0\"/>\n  <v:f eqn=\"prod @7 21600 pixelHeight\"/>\n  <v:f eqn=\"sum @10 21600 0\"/>\n </v:formulas>\n <v:path o:extrusionok=\"f\" gradientshapeok=\"t\" o:connecttype=\"rect\"/>\n <o:lock v:ext=\"edit\" aspectratio=\"t\"/>\n</v:shapetype><v:shape id=\"_x0000_i1026\" type=\"#_x0000_t75\" style='width:453.75pt;\n height:276pt;visibility:visible;mso-wrap-style:square'>\n <v:imagedata src=\"file:///C:/Users/DLakens/AppData/Local/Temp/msohtmlclip1/01/clip_image001.jpg\"\n  o:title=\"\"/>\n</v:shape><![endif]--><!--[if !vml]--><img border=\"0\" height=\"368\" src=\"https://blogger.googleusercontent.com/img/a/AVvXsEinS5tFoL5qX14Z2OcgT1APMZLGlghAD3BfBhSnJ9pleVbJyRFUFLShqReS2j7SXGozmLMcVQkoM62UhneJDtH4yx3NRnXOkVZZi-Dm-OPwbGaidxr2raF9wzjx5fU92nfPpE3jmGfwZEwHS1WGSB4gUfRfV3XWjOC2-lCjOYR108h3fwORIHOnqxIX9m8\" width=\"605\" /><!--[endif]--></span><span lang=\"EN-US\"></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span>&nbsp;</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Not only is\nthe download button for files difficult to find, but downloading all files\nrelated to a project can be surprisingly effortful. It is possible to download\nall files in a zip folder that will be called \u2018osfstorage-archive.zip\u2019 when\ndownloaded. But as the OSF supports a nested folder structure, you might miss a\nfolder, and you will quickly end up with \u2018osfstorage-archive (1).zip\u2019, \u2018osfstorage-archive\n(2).zip\u2019, etc. Unzipping these archives creates a lot of files without the\norganized folder structure, in folders with meaningless names, making it\ndifficult to understand where files are. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<h2 style=\"text-align: left;\"><b><span lang=\"EN-US\">The\nosf_file_download function in Papercheck </span></b></h2>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">We have added\na new function to our R package \u2018<a href=\"https://scienceverse.github.io/papercheck/\">Papercheck</a>\u2019 that will download all files and\nfolders in an OSF repository. It saves all files by recreating the folder\nstructure from the OSF in your download folder. Just install Papercheck, load\nthe library, and use the osf_file_download function to grab all files on the OSF:</span></p><p class=\"MsoNormal\"><span lang=\"EN-US\"><br /></span></p>\n\n<div style=\"text-align: left;\"><span style=\"font-family: courier;\"><b><span lang=\"EN-US\">devtools::install_github(\"scienceverse/papercheck\")<br /></span></b><b><span lang=\"EN-US\">library(papercheck)<br /></span></b><b><span lang=\"EN-US\">osf_file_download(\"6nt4v\")</span></b></span></div>\n\n\n\n\n\n<p class=\"MsoNormal\"><b><span lang=\"EN-US\">&nbsp;</span></b></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">All files\nwill be downloaded to your working directory. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Are you feeling\nFOMO for missing out on the <a href=\"https://www.kcl.ac.uk/events/open-research-summer-school-2025\">King Open\nResearch Summer School</a> that is going on these days, where <a href=\"https://research.tue.nl/en/persons/sajedeh-rasti\">Sajedeh Rasti</a> talked\nabout Preregistration, and <a href=\"https://research.tue.nl/en/persons/cristian-mesquida-caldentey\">Cristian\nMesquida</a> will give a workshop on using Papercheck? Well, at least it is\nvery easy to download all the files they have shared on the OSF and look at the\npresentations: </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: courier;\">osf_file_download(\"b7es8\")</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">In the\noutput, we see that by default large files (more than 10mb) are omitted. <span><!--[if gte vml 1]><v:shape id=\"Picture_x0020_1\"\n o:spid=\"_x0000_i1025\" type=\"#_x0000_t75\" alt=\"A screenshot of a computer&#10;&#10;AI-generated content may be incorrect.\"\n style='width:453.75pt;height:292.5pt;visibility:visible;mso-wrap-style:square'>\n <v:imagedata src=\"file:///C:/Users/DLakens/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png\"\n  o:title=\"A screenshot of a computer&#10;&#10;AI-generated content may be incorrect\"/>\n</v:shape><![endif]--><!--[if !vml]--><img alt=\"A screenshot of a computer\n\nAI-generated content may be incorrect.\" border=\"0\" height=\"390\" src=\"https://blogger.googleusercontent.com/img/a/AVvXsEj2jH76ywmEeLzL43u6gJl7GKR2lEGlhYS0LOXRPMMovOsJEVdXyamYCvmq96ez3p_GXHLoFz4JDyAKHlARK9pSy8QfzVa7yt1_uEg_H9IJfKgunnYWUwlROXABNcU6TvrA0_hx0KPZfj00b3Cb-Wn_7Bf3sFu9JApZoClcWoh_Vfl5bk1GQVZUH1tuGao\" width=\"605\" /><!--[endif]--></span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">If you want\nto download all files, regardless of the size, then set the parameter to ignore\nthe maximum file size: </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: courier;\">osf_file_download(\"b7es8\",\nmax_file_size = NULL)</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">Sometimes\nyou might want to download all files but ignore the file structure on the OSF,\nto just have all the files in one folder. Setting the parameter ignore_folder_structure\n= TRUE will give you all the files on the OSF in a single folder. By default, files will be downloaded into your working directory, but you can also specify\nwhere you want the files to be saved. </span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\"><span style=\"font-family: courier;\">osf_file_download(\"6nt4v\",\nignore_folder_structure = TRUE, download_to = \"C:\\\\test_download\")</span></span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">We hope\nthis function will make it easier for reviewers to access all supplementary\nfiles stored on the OSF during peer review, and for researchers who want to re-use\ndata, code, or materials shared on the OSF by downloading all the files they\nneed easily. Make sure to install the latest version of Papercheck (0.0.0.9050)\nto get access to this new function. Papercheck is still in active development,\nso report any bugs on <a href=\"https://github.com/scienceverse/papercheck\">GitHub</a>.</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>\n\n<p class=\"MsoNormal\"><span lang=\"EN-US\">&nbsp;</span></p>",
+      "author": "noreply@blogger.com (Daniel Lakens)",
+      "published_date": "2025-07-22T09:53:00+00:00",
+      "source": "Twenty Percent Statistician",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 765,
+      "reading_time": 3,
+      "created_at": "2026-06-06T00:08:21.706458+00:00",
+      "updated_at": "2026-06-06T02:39:46.313615+00:00",
+      "metadata": {
+        "processed_at": "2026-06-06T02:39:46.313626+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "3d370217cb4a351bb54e7854066e15c3",
+      "url": "https://erpinfo.org/blog/2024/2/4/optimal-filters",
+      "title": "New Papers: Optimal Filter Settings for ERP Research",
+      "content": "<p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (in press). Optimal filters for ERP research I: A general approach for selecting filter settings. <em>Psychophysiology</em>. <a href=\"https://doi.org/10.1111/psyp.14531\"><span>https://doi.org/10.1111/psyp.14531</span></a> [<a href=\"https://www.researchgate.net/publication/377773270_Optimal_filters_for_ERP_research_I_A_general_approach_for_selecting_filter_settings\"><span>preprint</span></a>]</p><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (in press). Optimal filters for ERP research II: Recommended settings for seven common ERP components. <em>Psychophysiology</em>. <a href=\"https://doi.org/10.1111/psyp.14530\"><span>https://doi.org/10.1111/psyp.14530</span></a> [<a href=\"https://www.researchgate.net/publication/377766656_Optimal_filters_for_ERP_research_II_Recommended_settings_for_seven_common_ERP_components\"><span>preprint</span></a>]</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1490\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/d64086cc-e3b4-457d-89df-08d9b3f96439/Filter_Table.png?format=1000w\" width=\"2062\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">What filter settings should you apply to your ERP data? If your filters are too weak to attenuate the noise in your data, your effects may not be statistically significant. If your filters are too strong, they may create artifactual peaks that lead you to draw bogus conclusions.</p><p class=\"\">For years, I have been recommending a bandpass of 0.1\u201330 Hz for most cognitive and affective research in neurotypical young adults. In this kind of research, I have found that filtering from 0.1\u201330 Hz usually does a good job of minimizing noise while creating minimal waveform distortion. </p><p class=\"\">However, this recommendation was based on a combination of informal observations from many experimental paradigms and a careful examination of a couple paradigms, so it was a bit hand-wavy. In addition, the optimal filter settings will depend on the waveshape of the ERP effects and the nature of the noise in a given study, so I couldn\u2019t make any specific recommendations about other experimental paradigms and participant populations. Moreover, different filter settings may be optimal for different scoring methods (e.g., mean amplitude vs. peak amplitude vs. peak latency).</p><p class=\"\">Guanghui Zhang, David Garrett, and I spent the last year focusing on this issue. First we developed a general method that can be used to determine the optimal filter settings for a given dataset and scoring method (see <a href=\"https://doi.org/10.1111/psyp.14531\"><span>this paper</span></a>). Then we applied this method to the <a href=\"https://doi.org/10.1016/j.neuroimage.2020.117465\"><span>ERP CORE</span></a> data to determine the optimal filter settings for the N170, MMN, P3b, N400, N2pc, LRP, and ERN components in neurotypical young adults (see <a href=\"https://doi.org/10.1111/psyp.14530\"><span>this paper</span></a> and the table above).</p><p class=\"\">If you are doing research with these components (or similar components) in neurotypical young adults, you can simply use the filter settings that we identified. If you are using a very different paradigm or testing a very different subject population, you can apply our method to your own data to find the optimal settings. We added some new tools to <a href=\"https://github.com/ucdavis/erplab\"><span>ERPLAB Toolbox</span></a> to make this easier.</p><p class=\"\">One thing that we discovered was that our old recommendation of 0.1\u201330 Hz does a good job of avoiding filter artifacts but is overly conservative for some components. For example, we can raise the low end to 0.5 Hz when measuring N2pc and MMN amplitudes, which gets rid of more noise without producing problematic waveform distortions. And we can go all the way up to 0.9 Hz for the N170 component. However, later/slower components like P3b and N400 require lower cutoffs (no higher than 0.2 Hz).</p><p class=\"\">You might be wondering how we defined the \u201coptimal\u201d filter settings. At one level, the answer is simple: The optimal filter is the one that maximizes the signal-to-noise ratio without producing too much waveform distortion. The complexities arise in quantifying the signal-to-noise ratio, quantifying the waveform distortion, and deciding how much waveform distortion is \u201ctoo much\u201d. We believe we have found reasonably straightforward and practical solutions to these problems, which you can read about in the published papers.</p>",
+      "author": "Steve Luck",
+      "published_date": "2024-02-04T23:46:20+00:00",
+      "source": "Erp Boot Camp",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 568,
+      "reading_time": 2,
+      "created_at": "2026-06-06T00:08:19.069816+00:00",
+      "updated_at": "2026-06-06T02:39:46.313631+00:00",
+      "metadata": {
+        "processed_at": "2026-06-06T02:39:46.313633+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ec6a1745b3b3cf7feebfc6c24a675e80",
+      "url": "https://www.nature.com/articles/s41598-026-55411-1",
+      "title": "Gadd45\u03b1 silencing alleviates cerebral ischemia\u2013reperfusion injury by suppressing FOXO1 signaling",
+      "content": "",
+      "author": "",
+      "published_date": "2026-06-06T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-06-06T00:07:56.946364+00:00",
+      "updated_at": "2026-06-06T02:39:46.313638+00:00",
+      "metadata": {
+        "processed_at": "2026-06-06T02:39:46.313640+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c2de87268da16c668646b2824a408341",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae6142",
+      "title": "Adapting frozen foundation models for montage-agnostic high-resolution EEG event segmentation",
+      "content": "Objective. Deploying brain\u2013computer interfaces (BCIs) outside controlled laboratories requires detecting neural events in continuous electroencephalography (EEG) without relying on time-locked synchronization, while simultaneously generalizing across the diverse electrode montages encountered with different acquisition hardware. We investigate whether frozen EEG foundation models can be adapted to perform high temporal resolution event segmentation across unseen montages and datasets without subject-specific calibration. Approach. We introduce a lightweight, parameter-efficient preprocessing layer that interpolates learned channel embeddings based on electrode coordinates, enabling any frozen foundation model backbone to accept arbitrary montages. A shallow segmentation head is attached to produce a label every 4 ms of continuous EEG, and overlapping predictions are consolidated via sliding-window majority voting. Main results. Evaluated on eight public corpora spanning P300, steady-state visually evoked potential and motor imagery paradigms, our method consistently outperforms the original foundation models (BIOT, EEGPT) and classical baselines (EEGNet), achieving a mean macro F1 of 0.492 and intersection over union (IoU) of 0.361 in cross-subject evaluation, and F1\u2009=\u20090.462, IoU\u2009=\u20090.319 in calibration-free cross-dataset generalization. Significance. By decoupling the electrode montage from the pre-trained feature extractor through a plug-in adapter rather than massive retraining, our framework enables practical, resource-efficient BCI applications that operate without time-locked synchronization or montage-specific calibration, laying the groundwork for bridging the lab-to-field gap. The code and pre-processed datasets are available at: https://github.com/yefllower/montage-agnostic-eeg-segmentation.",
+      "author": "Jun Ma and Tuukka Ruotsalo",
+      "published_date": "2026-05-25T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 221,
+      "reading_time": 1,
+      "created_at": "2026-06-06T00:07:42.784696+00:00",
+      "updated_at": "2026-06-06T02:39:46.313643+00:00",
+      "metadata": {
+        "processed_at": "2026-06-06T02:39:46.313644+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "b3d1e9848b980160550208bc21cd24b3",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae4cca",
+      "title": "Across-speaker articulatory reconstruction from sensorimotor cortex for generalizable brain\u2013computer interfaces",
+      "content": "Objective. Accurate reconstruction of articulatory features from brain activity could facilitate the development of speech brain\u2013computer interfaces (BCIs) for communication in people with vocal tract paralysis. However, until now the common approach has relied on paired neural-articulatory or neural-audio data of participants, making training of reconstruction models in individuals who cannot articulate or vocalize challenging. Approach. Here, we propose a novel approach for extracting articulatory features that (1) generalize across able-bodied speakers and (2) can be successfully decoded from intracranial neural recordings of separate individuals. We achieved this by first applying a tensor component analysis (TCA) to articulatory data during speech production from a public electromagnetic articulography dataset. Next, we applied TCA to high-density electrocorticography (HD-ECoG) data collected from the sensorimotor cortex of three separate able-bodied participants who performed the same speech production task. Finally, we reconstructed the articulatory TCA features from HD-ECoG TCA features using a gradient boosting regression model. Main results: By calculating individual participant\u2019s contribution to each feature and inspecting its temporal, kinematic and word-specific profiles, we confirmed that articulatory TCA features captured interpretable patterns that generalized across speakers. Importantly, we were able to reconstruct articulatory TCA features from HD-ECoG TCA features from each of the three separate able-bodied participants (p < 0.05). Significance. The present work demonstrates the possibility to extract generalizable articulatory features from a group of able-bodied speakers and reliably reconstruct from intracortical signals of a separate group of individuals. Our framework has potential for developing speech BCIs for people with severe vocal tract paralysis without the need for their articulatory or audio data, enabling future generalizable speech BCIs for communication.",
+      "author": "Ruoling Wu, Julia Berezutskaya, Zachary V Freudenburg and Nick F Ramsey",
+      "published_date": "2026-05-25T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 267,
+      "reading_time": 1,
+      "created_at": "2026-06-06T00:07:42.784656+00:00",
+      "updated_at": "2026-06-06T02:39:46.313647+00:00",
+      "metadata": {
+        "processed_at": "2026-06-06T02:39:46.313649+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "726e3c2791905e97976518c0c16fbb44",
       "url": "https://www.biorxiv.org/content/10.64898/2026.06.02.729319v1?rss=1",
@@ -262,106 +362,6 @@
       "updated_at": "2026-06-05T23:02:45.218809+00:00",
       "metadata": {
         "processed_at": "2026-06-05T23:02:45.218811+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f411d2cfe022293b2ab6d4b5215d1022",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003489?dgcid=rss_sd_all",
-      "title": "Working memory load modulates sensorimotor cortical oscillations underlying anticipatory postural adjustments during step initiation",
-      "content": "<p>Publication date: 17 August 2026</p><p><b>Source:</b> Neuroscience, Volume 609</p><p>Author(s): Kodai Minami, Eiji Yamanaka, Kohei Okuyama, Michiyuki Kawakami, Ippei Nojima, Kunitsugu Kondo, Aoki Takahashi, Riku Ishizaka, Yuki Tanaka, Taisei Miyazaki, Kenta Oguma, Nodoka Shimizume, Tatsunori Watanabe</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 34,
-      "reading_time": 1,
-      "created_at": "2026-06-05T21:09:17.170833+00:00",
-      "updated_at": "2026-06-05T21:21:04.358369+00:00",
-      "metadata": {
-        "processed_at": "2026-06-05T21:21:04.358382+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "32d173003124003496f7366e77f2b844",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003507?dgcid=rss_sd_all",
-      "title": "White matter structural network alterations in spinocerebellar ataxia type 3: A graph theory analysis",
-      "content": "<p>Publication date: 17 August 2026</p><p><b>Source:</b> Neuroscience, Volume 609</p><p>Author(s): Qiannan Wang, Jingna Zhang, Liang Qiao, Li Wang, Linqiong Sang, Ye Zhang, Yalan Liao, Jingjing Liu, Mingguo Qiu, Bijia Wang, Chen Liu</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 30,
-      "reading_time": 1,
-      "created_at": "2026-06-05T21:09:17.170812+00:00",
-      "updated_at": "2026-06-05T21:21:04.358386+00:00",
-      "metadata": {
-        "processed_at": "2026-06-05T21:21:04.358389+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4f7fded972aadbe58f96293ce68a7ea9",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.02.729322v1?rss=1",
-      "title": "NeuroCaptain v2 - Interactive Three-Dimensional fNIRS Optode and Probe Montage Design Platform Based on Blender",
-      "content": "Significance: Accurate and reproducible optode placement is crucial for obtaining high-quality fNIRS data in both individual and group-level neuroimaging studies. Conventional optode/probe montage design tools usually transform a probe layout defined in 2D Cartesian space onto a 3D head surface using a mass-spring model. Such mechanical transformation, combined with the indirect mapping between the 2D probe definition and the 3D target space, can introduce placement variations across different head surfaces and subjects. Aim: We introduce NeuroCaptain v2, an open-source Blender-based add-on designed to enable interactive, anatomically guided optode design, registration, and cortical sensitivity visualization for fNIRS head-cap and probe creation. Approach: NeuroCaptain v2 enables researchers to add, move, and edit fNIRS sources and detectors directly over a 3D head surface mesh, defining anchored optode positions, as well as setting the stiffness of the springs between adjacent optodes. It then utilizes a built-in Blender physical simulation engine to relax the initial probe layout to satisfy the mechanical constraints. With the built-in mesh-based Monte Carlo (MMC) and diffusion-solver Redbird, NeuroCaptain v2 computes and renders 3D sensitivity maps to guide iterative optode adjustment. The resulting 3D optode layout is stored in the form of barycentric coordinates defined in a 10-20 landmark mesh, enabling consistent probe transfer across different head models. Results: We demonstrate interactive 3D montage design, cross-head-atlas probe registration, and cortical sensitivity visualization across multiple head geometries. Registering a probe across seven Neurodevelopmental head atlases, the proposed anatomical-coordinate approach yields a mean per-optode standard deviation of 2.29 mm, a roughly 74% reduction in cross-subject placement variability compared to 8.68 mm using a conventional 2D-to-3D registration. Conclusions: NeuroCaptain v2 provides a reproducible, fully open-source workflow for fNIRS probe montage design that facilitates anatomically guided probe development and cross-subject registration directly in a three-dimensional anatomical environment.",
-      "author": "McCann, A., Fang, Q.",
-      "published_date": "2026-06-05T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 292,
-      "reading_time": 1,
-      "created_at": "2026-06-05T21:09:13.764657+00:00",
-      "updated_at": "2026-06-05T21:21:04.358391+00:00",
-      "metadata": {
-        "processed_at": "2026-06-05T21:21:04.358393+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6b503c5c2959527d6637439afaa3d01e",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.02.729404v1?rss=1",
-      "title": "Brain dynamics supporting high cognitive performance reorganize after midlife",
-      "content": "Quantifying functional brain aging trajectories at scale remains a fundamental challenge due to the scanner-bound limitations of traditional neuroimaging. Here, we deploy whole-head Time-Domain functional Near-Infrared Spectroscopy (TD-fNIRS) to map task-evoked cortical dynamics during a 30-minute cognitive battery across the adult lifespan (N = 302, age 18 to 87, 45% racial or ethnic minority). We developed a robust General Cognitive Factor (GCF) tracking age-related performance decline (r = -0.57, p < 0.0001). Analysis of brain activity patterns revealed systemic, age-dependent neural dedifferentiation, highlighting a distinct neurocognitive inflection point around age 55. Prior to this threshold, high performers exhibit more variable neural activation across tasks; post-age 55, high performance is sustained through reduced spatial differentiation, signaling a compensatory strategy. Furthermore, subjective anxiety and depression disrupt these compensatory mechanisms, and subjective cognitive complaints register as distinct neural signatures before behavioral GCF decline manifests. Together, these findings establish a scalable framework for mapping functional brain health across the human lifespan, uncovering the neural mechanics of cognitive resilience and vulnerability before behavioral decline manifests.",
-      "author": "Chekin, Y., Decker, D., Dubois, J., Field, R. M., Gundran, A., Jewison, A., Koch, E. M., Lerner, G., M. Aghajan, Z., Miller, N., Perdue, K. L., Taylor, M.",
-      "published_date": "2026-06-05T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 170,
-      "reading_time": 1,
-      "created_at": "2026-06-05T21:09:13.764610+00:00",
-      "updated_at": "2026-06-05T21:21:04.358395+00:00",
-      "metadata": {
-        "processed_at": "2026-06-05T21:21:04.358396+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "003da03f4c62c8dcb2ccc51153646698",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.02.729595v1?rss=1",
-      "title": "Global nonequilibrium cortical dynamics tie mid-level pupil-linked arousal to optimal task performance in humans",
-      "content": "Ongoing fluctuations in brain state, largely driven by neuromodulators of arousal, shape how sensory inputs are processed and decisions are made. Here, we combined pharmacological manipulations and pupillary proxies of arousal to examine how global cortical state dynamics relate to perceptual sensitivity. We applied the thermodynamics-inspired INSIDEOUT framework to electroencephalography (EEG) recordings from two visual discrimination tasks performed under placebo, atomoxetine (noradrenergic enhancer), and donepezil (cholinergic enhancer) challenges. INSIDEOUT quantifies the strength of functional hierarchies within the brain via the computation of temporal irreversibility in neural activity. Trial-wise global irreversibility increased linearly with pupil-indexed arousal and exhibited a nonlinear inverted-U relationship with perceptual sensitivity, while showing no differences across drug conditions. A nonlinear mediation analysis revealed that temporal irreversibility can account for a significant portion of the association between pupil-linked arousal and perceptual sensitivity. At lower arousal, increases in prestimulus irreversibility improved perceptual accuracy, whereas at higher arousal, pre- and poststimulus irreversibility had different effects. These results bridge intrinsic whole-brain dynamics with perceptual decision-making, demonstrating that neuromodulator-linked arousal tunes cortical states and, in turn, perceptual performance. More broadly, the results shed new light on how arousal may reconfigure neural global dynamics.",
-      "author": "del Agua, E., Nuiten, S. A., Zantvoord, J. B., Deco, G., van Gaal, S.",
-      "published_date": "2026-06-05T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 191,
-      "reading_time": 1,
-      "created_at": "2026-06-05T21:09:13.764574+00:00",
-      "updated_at": "2026-06-05T21:21:04.358399+00:00",
-      "metadata": {
-        "processed_at": "2026-06-05T21:21:04.358400+00:00",
         "processing_method": "github_actions"
       }
     }
