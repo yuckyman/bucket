@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T15:12:16.304278+00:00",
+  "last_updated": "2026-06-07T15:21:16.894049+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "",
       "published_date": null,
       "source": "Neuroscience Journal",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 26,
       "reading_time": 1,
       "created_at": "2026-06-07T15:11:51.317866+00:00",
-      "updated_at": "2026-06-07T15:11:51.317868+00:00"
+      "updated_at": "2026-06-07T15:21:16.779373+00:00",
+      "metadata": {
+        "processed_at": "2026-06-07T15:21:16.779386+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "2d5f653c63e1f31e39755fcb8baa2853",
@@ -26,13 +30,17 @@
       "author": "",
       "published_date": null,
       "source": "Neuroscience Journal",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 25,
       "reading_time": 1,
       "created_at": "2026-06-07T15:11:51.317830+00:00",
-      "updated_at": "2026-06-07T15:11:51.317843+00:00"
+      "updated_at": "2026-06-07T15:21:16.779390+00:00",
+      "metadata": {
+        "processed_at": "2026-06-07T15:21:16.779392+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "b8754bcd3653ed42d6a2ce24daf34fe6",
@@ -42,13 +50,17 @@
       "author": "",
       "published_date": "2026-06-07T11:16:46+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-06-07T15:11:11.772107+00:00",
-      "updated_at": "2026-06-07T15:11:11.772108+00:00"
+      "updated_at": "2026-06-07T15:21:16.779395+00:00",
+      "metadata": {
+        "processed_at": "2026-06-07T15:21:16.779397+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "ffcb4fd4da8cc253611712ae6ac65a80",
@@ -58,13 +70,17 @@
       "author": "",
       "published_date": "2026-06-07T13:06:52+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-06-07T15:11:11.772015+00:00",
-      "updated_at": "2026-06-07T15:11:11.772017+00:00"
+      "updated_at": "2026-06-07T15:21:16.779399+00:00",
+      "metadata": {
+        "processed_at": "2026-06-07T15:21:16.779401+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "9d1a5d63c3f7285e107d7812aa601bb2",
@@ -74,29 +90,37 @@
       "author": "",
       "published_date": "2026-06-07T14:47:17+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-06-07T15:11:11.771968+00:00",
-      "updated_at": "2026-06-07T15:11:11.771973+00:00"
+      "updated_at": "2026-06-07T15:21:16.779403+00:00",
+      "metadata": {
+        "processed_at": "2026-06-07T15:21:16.779404+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "b8754bcd3653ed42d6a2ce24daf34fe6",
       "url": "https://github.com/devenjarvis/lathe",
       "title": "Show HN: Lathe \u2013 Use LLMs to learn a new domain, not skip past it",
-      "content": "<p>Hey HN!<p>Lathe is an experiment in using LLMs to teach me something new, instead of doing the work for me. It generates a hands-on, source-backed tutorial for any technical topic you want to learn. Then you work through it yourself by reading and typing the code by hand (<i>gasp</i>) in a local UI built for exactly that.<p>It's a Go CLI plus LLM agent skills (Claude Code / Cursor / Codex). You prompt something like \"/lathe build a 3D slicer in Erlang\", run `lathe serve` to spin up a local webapp, and read it in your browser. Every tutorial comes with the things that have made self-learning a pleasant experience for me in the past:<p>- table of contents that follows along as you scroll\n- side-notes that nudge you to think\n- exercises for the reader\n- sources backing up the content that you can use to take you deeper<p>To help make up for the lack of human brainpower behind the tutorial, you can also ask questions about the content, have another LLM verify the tutorial actually compiles and runs, or extend it with another part (no more \"Part 4 of 6\" that hasn't seen an update since 2021).<p>I didn't build lathe to replace human-written tutorials. I built lathe because I _love_ human-written tutorials, but wanted to learn technical domains where no good human-written tutorial exists yet (building a 3D slicer from scratch, making embedded Zig approachable, etc). There's a longer story in the README about how I got started with programming through PSP homebrew tutorials, and why losing that to LLMs bugged me enough to build this.<p>I'm not here to sell you anything (there's nothing close to a VC-backed startup here :D). It's an LLM, and its output is usually good but not perfect by any means. So far, my experience is that because you're the one typing and actually engaged, you catch the weird stuff (and I'm finding that pushing back on it is its own kind of learning). And yes, it's vibecoded, because it's low scope, low risk, and scratching a personal itch. I run it on Claude Code + macOS personally, other setups should work but I haven't been able to verify them yet.<p>If you can find resources to learn something that was written by a human, read that first. But Lathe is here to fill in the gaps when that isn't the case, and I hope it serves as an example where LLMs can help us think better, rather than less.<p>Repo: <a href=\"https://github.com/devenjarvis/lathe\" rel=\"nofollow\">https://github.com/devenjarvis/lathe</a><p>Would love your feedback if you decide to check it out!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48433756\">https://news.ycombinator.com/item?id=48433756</a></p>\n<p>Points: 26</p>\n<p># Comments: 2</p>",
-      "author": "devenjarvis",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48433756\">Comments</a>",
+      "author": "",
       "published_date": "2026-06-07T11:16:46+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 439,
-      "reading_time": 2,
-      "created_at": "2026-06-07T15:11:10.400728+00:00",
-      "updated_at": "2026-06-07T15:11:10.400730+00:00"
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-07T15:11:11.772107+00:00",
+      "updated_at": "2026-06-07T15:21:16.779395+00:00",
+      "metadata": {
+        "processed_at": "2026-06-07T15:21:16.779397+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "6be24dae99f3e7e6f8efd07ed26c1997",
@@ -134,17 +158,21 @@
       "id": "ffcb4fd4da8cc253611712ae6ac65a80",
       "url": "https://github.com/anthropics/claude-code/issues/65697",
       "title": "Anthropic, please ship an official Claude Desktop for Linux",
-      "content": "<p>Article URL: <a href=\"https://github.com/anthropics/claude-code/issues/65697\">https://github.com/anthropics/claude-code/issues/65697</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48434436\">https://news.ycombinator.com/item?id=48434436</a></p>\n<p>Points: 135</p>\n<p># Comments: 52</p>",
-      "author": "predkambrij",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48434436\">Comments</a>",
+      "author": "",
       "published_date": "2026-06-07T13:06:52+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-06-07T15:11:10.400526+00:00",
-      "updated_at": "2026-06-07T15:11:10.400528+00:00"
+      "created_at": "2026-06-07T15:11:11.772015+00:00",
+      "updated_at": "2026-06-07T15:21:16.779399+00:00",
+      "metadata": {
+        "processed_at": "2026-06-07T15:21:16.779401+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "1bfacf947c03e2ccd1fd4b40b6330ce9",
