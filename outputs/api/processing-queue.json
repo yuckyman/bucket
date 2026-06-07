@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-06T22:58:43.340817+00:00",
-  "pending_count": 816,
-  "processed_count": 184,
+  "last_updated": "2026-06-07T02:58:19.009935+00:00",
+  "pending_count": 811,
+  "processed_count": 189,
   "pending_articles": [
     {
       "id": "c985f4e841d8d21d489e4c3ab8dae70d",
@@ -166,6 +166,106 @@
   ],
   "recently_processed": [
     {
+      "id": "630d02ef3d581b5ef1ac8085854f44ff",
+      "url": "http://ieeexplore.ieee.org/document/11361153",
+      "title": "Decoding Spikes From Multiunit Data",
+      "content": "Communication and control in biological systems is mediated by the timing of discharges \u2013spikes\u2013 from excitable cells such as neurons and muscle fibers. Each spike is associated to a characteristic waveform that can be captured by sensors. The waveform's characteristics depend on the cell's biophysical properties and the recording modality. Depending on the technique, e.g., electrical recordings with electrodes, optical imaging, ultrasound, the observed signals are mixtures of waveforms emitted from active cells/sources (multiunit data/signals). Recovering the timing and identity of these sources (multiunit or spike decoding) is central to neuroscience, clinical diagnostics, and neural interfacing, yet it remains challenging due to waveform superposition, non-stationarity, limited training labels, and the computational demands of high-density recordings. This review provides a unified methodological perspective on spike decoding by formalizing the problem as a sparse source separation task under a convolutive mixing model. Rather than organizing the literature by application domain, we group and critically compare methods by their underlying principles: classical spike sorting, Bayesian and probabilistic inference, blind source separation, and data-driven approaches, including deep learning and hybrid schemes. For each class of methods, we present the core mathematical formulation and algorithmic strategies and discuss assumptions and limitations. Our synthesis highlights parallels in signal processing across physical recording modalities and clarifies when and why particular approaches succeed or fail. By bridging previously compartmentalized literature, this survey aims to accelerate crosspollination of ideas between application areas and to provide a roadmap for selecting, adapting, and advancing decoding methods across diverse multiunit recording modalities.",
+      "author": "",
+      "published_date": "2026-01-22T13:16:59+00:00",
+      "source": "Reviews Biomedical Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 250,
+      "reading_time": 1,
+      "created_at": "2026-06-07T00:06:07.400124+00:00",
+      "updated_at": "2026-06-07T02:58:18.900780+00:00",
+      "metadata": {
+        "processed_at": "2026-06-07T02:58:18.900791+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "afbf793efbd948cd5b7808d0e8eb8898",
+      "url": "http://ieeexplore.ieee.org/document/11368645",
+      "title": "Table of Contents",
+      "content": "null",
+      "author": "",
+      "published_date": "2026-01-29T13:23:34+00:00",
+      "source": "Reviews Biomedical Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 1,
+      "reading_time": 1,
+      "created_at": "2026-06-07T00:06:07.400054+00:00",
+      "updated_at": "2026-06-07T02:58:18.900795+00:00",
+      "metadata": {
+        "processed_at": "2026-06-07T02:58:18.900797+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "138dbc20af95ce55414e7d62214f9607",
+      "url": "https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab",
+      "title": "Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings",
+      "content": "<p>&#160;</p>\n<p>The post <a href=\"https://www.embs.org/press/embc-eic-sunghoon-ivan-lee/#new_tab\">Ivan Lee, Appointed Editor-in-Chief of EMBC Proceedings</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
+      "author": "Nancy Zimmerman",
+      "published_date": "2025-09-08T16:27:03+00:00",
+      "source": "Embs",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 17,
+      "reading_time": 1,
+      "created_at": "2026-06-07T00:06:04.938700+00:00",
+      "updated_at": "2026-06-07T02:58:18.900800+00:00",
+      "metadata": {
+        "processed_at": "2026-06-07T02:58:18.900802+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6d0f8f9b20a56230d43c400016db6997",
+      "url": "https://www.military.com/dod-officially-drops-180-faiths-from-militarys-recognized-religion-list",
+      "title": "DoD Officially Drops 180 Faiths from Military's Recognized Religion List",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48430212\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-06T23:37:20+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-07T00:05:15.515014+00:00",
+      "updated_at": "2026-06-07T02:58:18.900804+00:00",
+      "metadata": {
+        "processed_at": "2026-06-07T02:58:18.900805+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6d0f8f9b20a56230d43c400016db6997",
+      "url": "https://www.military.com/dod-officially-drops-180-faiths-from-militarys-recognized-religion-list",
+      "title": "DoD Officially Drops 180 Faiths from Military's Recognized Religion List",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48430212\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-06T23:37:20+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-07T00:05:15.515014+00:00",
+      "updated_at": "2026-06-07T02:58:18.900804+00:00",
+      "metadata": {
+        "processed_at": "2026-06-07T02:58:18.900805+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "df99fb33919e3e57eb2a468e5d7e6be8",
       "url": "https://www.nature.com/articles/s41593-026-02323-y",
       "title": "<span>T</span>owards a holistic understanding of pain in the biomarker age",
@@ -182,6 +282,26 @@
       "updated_at": "2026-06-06T22:58:43.254211+00:00",
       "metadata": {
         "processed_at": "2026-06-06T22:58:43.254220+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "8fa68ead1d14560b05662b193e10393a",
+      "url": "https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip/",
+      "title": "New U.S. college grads now have higher unemployment than the average worker",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48428763\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-06T20:35:40+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-06T22:36:55.232919+00:00",
+      "updated_at": "2026-06-06T22:58:43.254224+00:00",
+      "metadata": {
+        "processed_at": "2026-06-06T22:58:43.254225+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -242,126 +362,6 @@
       "updated_at": "2026-06-06T22:58:43.254230+00:00",
       "metadata": {
         "processed_at": "2026-06-06T22:58:43.254231+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "040be72b59702cc666c207d2cefb8c5d",
-      "url": "https://ataraxy-labs.github.io/sem/",
-      "title": "Sem: New primitive for code understanding \u2013 not LSPs, but entities on top of Git",
-      "content": "<p>Article URL: <a href=\"https://ataraxy-labs.github.io/sem/\">https://ataraxy-labs.github.io/sem/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48428475\">https://news.ycombinator.com/item?id=48428475</a></p>\n<p>Points: 11</p>\n<p># Comments: 3</p>",
-      "author": "rohanucla",
-      "published_date": "2026-06-06T20:03:55+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-06-06T22:36:53.944949+00:00",
-      "updated_at": "2026-06-06T22:58:43.254235+00:00",
-      "metadata": {
-        "processed_at": "2026-06-06T22:58:43.254236+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8fa68ead1d14560b05662b193e10393a",
-      "url": "https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip/",
-      "title": "New U.S. college grads now have higher unemployment than the average worker",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48428763\">Comments</a>",
-      "author": "",
-      "published_date": "2026-06-06T20:35:40+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-06-06T22:36:55.232919+00:00",
-      "updated_at": "2026-06-06T22:58:43.254224+00:00",
-      "metadata": {
-        "processed_at": "2026-06-06T22:58:43.254225+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4d5197bbbaf5fa13a49ca790bf1a29a6",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.02.729685v1?rss=1",
-      "title": "Broadband amplification of organ of Corti vibrations in the mouse cochlear apex",
-      "content": "Mammalian hearing depends on the active amplification of sound-evoked waves as they travel along the basilar membrane within the cochlea. This amplification is mediated by the outer hair cells (OHCs), which generate force to enhance the vibrations of the surrounding structures. While OHCs at a given location only amplify basilar membrane motion for a narrow frequency range, recent measurements show that the amplification of motions deeper within the organ of Corti is much more broadband. However, the extent to which this broadband amplification influences the motions that are most relevant to inner hair cell stimulation -- i.e., at the organ's apical surface -- remains uncertain. Here, optical coherence tomography was used to demonstrate that OHCs nonlinearly amplify the motions near the top of the organ of Corti, including at the reticular lamina and tectorial membrane, over a wide frequency range in the mouse cochlear apex. Responses at all frequencies were physiologically vulnerable and grew compressively with stimulus level. Low-frequency responses also exhibited non-monotonic features that were due to interference between amplified motion and the underlying traveling wave. The data suggest that broadband amplification of motions at the top of the organ of Corti likely explains certain phenomena observed in auditory nerve responses.",
-      "author": "Dewey, J. B.",
-      "published_date": "2026-06-06T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 202,
-      "reading_time": 1,
-      "created_at": "2026-06-06T19:55:33.364662+00:00",
-      "updated_at": "2026-06-06T20:59:08.464940+00:00",
-      "metadata": {
-        "processed_at": "2026-06-06T20:59:08.464950+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ca379f3877da146699640833dc179a8a",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1774633",
-      "title": "A context-aware transformer with weighted residual for efficient remote sensing target detection",
-      "content": "Remote sensing image target detection has important applications in disaster prevention and mitigation. However, current detection models still have shortcomings in multi-scale feature fusion and in representing contextual information, and are prone to class imbalance during training. To address these issues, this paper proposes a target detection model that combines a context transformer and a weighted residual pyramid. Specifically, a weighted residual pyramid module is designed to fuse deep and shallow target-instance features effectively, and a learnable balancing factor is introduced to alleviate the imbalance in contributions across network layers. Simultaneously, a context transformer module is introduced into the feature extraction and fusion networks to enhance the model\u2019s multi-scale feature representation capability. Furthermore, a rotated bounding box is introduced to locate target instances, reducing the influence of redundant background information, and a CIoU-based multi-task loss function is designed to reduce the contribution of different instance targets to the regression task. Experimental results show that, while ensuring real-time performance, the proposed model achieves mAP@0.5 scores of 0.754 and 0.714 on the DOTAv1.0 and DOTAv1.5 datasets, respectively, demonstrating consistent improvements across both datasets. Meanwhile, visualization of detection results across various disaster scenarios shows that the model proposed in this paper has strong practical value.",
-      "author": "Fei Du",
-      "published_date": "2026-05-15T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 202,
-      "reading_time": 1,
-      "created_at": "2026-06-06T19:55:20.347559+00:00",
-      "updated_at": "2026-06-06T20:59:08.464954+00:00",
-      "metadata": {
-        "processed_at": "2026-06-06T20:59:08.464956+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "73d875862bf444ebd2fc9a4697f00b7a",
-      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae6dfd",
-      "title": "But do we need high bandwidth? Applications and scaling challenges of invasive brain\u2013computer interfaces",
-      "content": "Invasive brain\u2013computer interfaces (iBCIs) have expanded from single to thousands of channels, primarily driven by the goal to restore autonomy and social participation for people with severe neurological impairment. This article evaluates whether this increase in bandwidth (here, the aggregate neural data stream) aligns with clinical benefit or yields diminishing returns against rising challenges. The application landscape reveals that performance typically improves with rising channel count. However, the performance curve also depends on other factors such as task complexity, the evaluation metric, spatial redundancy, and decoder capacity. For today\u2019s clinical goals (reliable communication and functional motor restoration), moderate bandwidth already suffices when coupled with model-based priors, structured output spaces, and shared-control architectures; next-horizon goals, e.g. unconstrained natural speech, embodied dexterity, and cognitive restoration, however, require abundant sampling but remain constrained by biological, technical, and ethical hurdles, with the engineering trilemma of bandwidth, power, and latency as the primary bottleneck for fully implantable systems. Solving this requires a shift towards low-power on-implant processing to handle increasing neural datastreams. Looking forward, the field is increasingly orienting toward solutions that balance risk and resolution. Large-scale micro-electrocorticography (\u00b5ECoG) arrays represent such an approach and complement intracortical strategies, aiming to resolve the long-standing trade-off between invasiveness and bandwidth in clinically viable iBCIs.",
-      "author": "Luca M Meyer and Majid Zamani",
-      "published_date": "2026-05-31T23:00:00+00:00",
-      "source": "Journal Neural Engineering",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 207,
-      "reading_time": 1,
-      "created_at": "2026-06-06T19:54:46.961483+00:00",
-      "updated_at": "2026-06-06T20:59:08.464960+00:00",
-      "metadata": {
-        "processed_at": "2026-06-06T20:59:08.464962+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8d0fa1c7f092253202532b31e45c6f21",
-      "url": "https://www.reddit.com/r/Python/comments/1typyax/this_ran_in_like_half_a_second/",
-      "title": "this ran in like half a second",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>i can't post images but i put</p> <p>for i in range (1, 2 ** 31):</p> <p>print(i) </p> <p>the output window only shows 2147483613 to 2147483647 bc i scrolled to the bottom</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/PleaseDoNotTheKevin\"> /u/PleaseDoNotTheKevin </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1typyax/this_ran_in_like_half_a_second/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1typyax/this_ran_in_like_half_a_second/\">[comments]</a></span>",
-      "author": "/u/PleaseDoNotTheKevin",
-      "published_date": "2026-06-06T19:08:52+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 52,
-      "reading_time": 1,
-      "created_at": "2026-06-06T19:54:23.904429+00:00",
-      "updated_at": "2026-06-06T20:59:08.464964+00:00",
-      "metadata": {
-        "processed_at": "2026-06-06T20:59:08.464966+00:00",
         "processing_method": "github_actions"
       }
     }
