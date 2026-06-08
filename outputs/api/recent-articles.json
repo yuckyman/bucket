@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-06-07T22:59:41.807171+00:00",
+  "last_updated": "2026-06-08T00:11:04.111613+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "1dd64331b0d36b30e649698b6aade721",
+      "url": "https://www.tohoku.ac.jp/japanese/2026/05/press20260512-02-DMR.html",
+      "title": "A Fundamental Principle of Aeronautical Engineering Has Been Overturned",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48369703\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-02T13:01:48+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-08T00:09:59.436544+00:00",
+      "updated_at": "2026-06-08T00:09:59.436546+00:00"
+    },
+    {
+      "id": "dc522a71202fc799ad9627e9c0957111",
+      "url": "https://github.com/ninoxAI/nightwatch",
+      "title": "Show HN: Nightwatch, The open-source, read-only AI SRE",
+      "content": "<p>nightwatch is a local-first, read-only layer on top of your monitoring. it groups alert storm into incidents, flags noisy checks and has an agent that can investigate for you live systems. You can e.g. jump from the incident into the agent directly.<p>the reason for this weekend project is that we had a kubernetes upgrade that went wrong, and at some point a rollback wasn't possible anymore, so it had to be fixed live during the night while several problems came together. We run a lot of different systems, on-prem and several Kubernetes clusters, and in a situation like that you spend most of the time just figuring out what is actually broken and where.<p>So i thought that it would be pretty cool to have eyes in the dark in each system that can talk to your \"brain\".<p>so the idea is to put a baby owl into each environment. Each owl runs where the systems live, keeps that environment's credentials local, and only dials outbound to a central brain, so there is no inbound hole into prod. It exposes a set of read-only skills, and the agent uses them to gather evidence and form a root-cause hypothesis, so the on-call engineer starts with a head start instead of from zero.<p>read-only for now, i don't trust it near prod yet and honestly neither should you.<p>llocal-first for easy self-hosting and to keep credentials on your side. the clustering and recommendations run fully offline with no llm at all. the agent needs a tool-calling llm, you can point it at a remote one, or self-host one (ollama etc.) if you want to stay fully offline.<p>for non selfhosters: before every remote llm call, nightwatch strips real secrets (unrestorable) and swaps identifiers like ips, hostnames and paths for reversible placeholders, so the model only sees masked data while real values are restored only in the proposed commands and tool calls<p>Would love if you try it in your Systems</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48438180\">https://news.ycombinator.com/item?id=48438180</a></p>\n<p>Points: 4</p>\n<p># Comments: 2</p>",
+      "author": "egorferber",
+      "published_date": "2026-06-07T20:24:36+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 333,
+      "reading_time": 1,
+      "created_at": "2026-06-08T00:09:57.962126+00:00",
+      "updated_at": "2026-06-08T00:09:57.962128+00:00"
+    },
+    {
+      "id": "ee8c23e3e94bd9fe5c448cfdf35ee6e7",
+      "url": "https://www.phoronix.com/news/Firefox-Vulkan-Video-Merged",
+      "title": "Firefox Merges Support for Vulkan Video Decoding",
+      "content": "<p>Article URL: <a href=\"https://www.phoronix.com/news/Firefox-Vulkan-Video-Merged\">https://www.phoronix.com/news/Firefox-Vulkan-Video-Merged</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48439348\">https://news.ycombinator.com/item?id=48439348</a></p>\n<p>Points: 20</p>\n<p># Comments: 1</p>",
+      "author": "Bender",
+      "published_date": "2026-06-07T22:41:36+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-06-08T00:09:57.962037+00:00",
+      "updated_at": "2026-06-08T00:09:57.962045+00:00"
+    },
     {
       "id": "845080cda2b1aa64ff34ecfb148d8b9d",
       "url": "https://blog.ydb.tech/do-we-fear-the-serializable-isolation-level-more-than-we-fear-subtle-bugs-5a025401b609",
@@ -313,58 +361,6 @@
         "processed_at": "2026-06-07T21:06:11.603891+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "547b2b25fb51053332ae02f5fd5fadee",
-      "url": "https://www.alexself.dev/blog/automated-doubt",
-      "title": "My automated doubt development process",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48437305\">Comments</a>",
-      "author": "",
-      "published_date": "2026-06-07T18:17:40+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-06-07T19:55:12.747942+00:00",
-      "updated_at": "2026-06-07T21:06:11.603889+00:00",
-      "metadata": {
-        "processed_at": "2026-06-07T21:06:11.603891+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "94c3c63741a51ec059b640ff3a8c4fe5",
-      "url": "https://gavinray97.github.io/blog/building-from-zero-after-addiction-prison-felony",
-      "title": "Building from Zero After Addiction, Prison, and a Felony",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48437406\">Comments</a>",
-      "author": "",
-      "published_date": "2026-06-07T18:33:07+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-06-07T19:55:12.747924+00:00",
-      "updated_at": "2026-06-07T19:55:12.747925+00:00"
-    },
-    {
-      "id": "6f5a2ab01f0b619bbf1479b18cb1aa20",
-      "url": "https://signoregalilei.com/2026/05/31/youll-never-guess-who-made-the-first-wireless-telephone/",
-      "title": "You'll never guess who made the first wireless telephone",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48399223\">Comments</a>",
-      "author": "",
-      "published_date": "2026-06-04T14:30:16+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-06-07T19:55:12.747904+00:00",
-      "updated_at": "2026-06-07T19:55:12.747906+00:00"
     }
   ]
 }
