@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-06-13T19:17:38.778957+00:00",
-  "pending_count": 848,
-  "processed_count": 152,
+  "last_updated": "2026-06-13T21:09:20.565343+00:00",
+  "pending_count": 841,
+  "processed_count": 159,
   "pending_articles": [
+    {
+      "id": "c3c559540660c4e9a68d0bd144d849a5",
+      "url": "https://fortune.com/2026/06/12/ai-making-medical-bills-higher/",
+      "title": "PwC Report: AI Making Medical Bills Higher",
+      "content": "<p>Article URL: <a href=\"https://fortune.com/2026/06/12/ai-making-medical-bills-higher/\">https://fortune.com/2026/06/12/ai-making-medical-bills-higher/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48519519\">https://news.ycombinator.com/item?id=48519519</a></p>\n<p>Points: 29</p>\n<p># Comments: 7</p>",
+      "author": "karakoram",
+      "published_date": "2026-06-13T17:39:14+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-06-13T20:02:27.126473+00:00",
+      "updated_at": "2026-06-13T20:02:27.126475+00:00"
+    },
     {
       "id": "c27be24b6106907c02c4dd2cad4460ac",
       "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1753444",
@@ -146,25 +162,169 @@
       "reading_time": 1,
       "created_at": "2026-06-13T16:56:34.253279+00:00",
       "updated_at": "2026-06-13T16:56:34.253280+00:00"
-    },
-    {
-      "id": "df53fa032eb2e775d175d2a8b42c9908",
-      "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
-      "title": "AI Coding at Home Without Going Broke",
-      "content": "<p>Article URL: <a href=\"https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/\">https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48518969\">https://news.ycombinator.com/item?id=48518969</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "author": "sbochins",
-      "published_date": "2026-06-13T16:45:03+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-06-13T16:56:34.253244+00:00",
-      "updated_at": "2026-06-13T16:56:34.253253+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "7f2e5cba9c16d4defa29fcf5282dfb1a",
+      "url": "https://www.nature.com/articles/s41467-026-74320-5",
+      "title": "Spatial architecture of autism pathogenesis reveals mosaic structural disarray during early development",
+      "content": "",
+      "author": "",
+      "published_date": "2026-06-13T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-06-13T20:03:09.686589+00:00",
+      "updated_at": "2026-06-13T21:09:20.458314+00:00",
+      "metadata": {
+        "processed_at": "2026-06-13T21:09:20.458324+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "65ff8c4549cc7c31608ba262d42e9179",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae6bf4",
+      "title": "Computational neuroelectrophysiology and artificial intelligence for drug-resistant epilepsy: recent advances, current challenges, and future directions",
+      "content": "Drug-resistant epilepsy (DRE) affects approximately 30% of epilepsy patients, with surgical cure rates below 70%. This challenge drives a fundamental paradigm shift from localizing a discrete epileptogenic zone toward characterizing and modulating the dysfunctional brain networks that initiate and propagate seizures. This review critically synthesizes how computational neuroelectrophysiology and artificial intelligence (AI) converge to propel this shift. We chart the trajectory from quantifying local biomarkers, including high-frequency oscillations and excitation\u2013inhibition balance metrics, to mapping the topological properties of epileptic networks through functional and effective connectivity. The integration of these network features with AI techniques, particularly spatiotemporal deep learning architectures, has demonstrated significant potential for enhancing both the localization of the epileptogenic network and the prediction of postoperative outcomes. However, the translation of this network-centric paradigm into clinical practice remains constrained by several challenges, including spatial sampling bias, the inherent label instability of surgical outcomes, and the \u2018black-box\u2019 interpretability crisis. Future directions must emphasize EEG foundation models, causal AI, and the development of interactive multimodal AI agents. The convergence of mechanism-driven network models and data-driven AI frameworks promises a new era of personalized, network-guided therapy for DRE.",
+      "author": "Yalin Wang, Zibo Yan, Yuanchu Gong, Wentao Lin, Tiancheng Wang, Yaqing Liu, Yanming Han, Minqiang Yang, Minghui Liu, Wei Chen and Bin Hu",
+      "published_date": "2026-06-08T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 186,
+      "reading_time": 1,
+      "created_at": "2026-06-13T20:02:52.368573+00:00",
+      "updated_at": "2026-06-13T21:09:20.458328+00:00",
+      "metadata": {
+        "processed_at": "2026-06-13T21:09:20.458330+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f582d40c501d6d84aa7ef725db594a1e",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48519092\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-13T16:57:49+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-13T20:02:28.250667+00:00",
+      "updated_at": "2026-06-13T21:09:20.458333+00:00",
+      "metadata": {
+        "processed_at": "2026-06-13T21:09:20.458334+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6bfb729a629768e7816f75e5cad9e8a8",
+      "url": "https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/",
+      "title": "Running DOS on Behringers DDX3216 with a DIY x86-Bios from Scratch",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48520080\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-13T18:32:22+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-13T20:02:28.250624+00:00",
+      "updated_at": "2026-06-13T21:09:20.458336+00:00",
+      "metadata": {
+        "processed_at": "2026-06-13T21:09:20.458338+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "03a60f383fcb1ad36cf580db03c13927",
+      "url": "https://tcrf.net/Workboy",
+      "title": "GameBoy Workboy",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48519552\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-13T17:43:02+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-13T20:02:28.250581+00:00",
+      "updated_at": "2026-06-13T21:09:20.458340+00:00",
+      "metadata": {
+        "processed_at": "2026-06-13T21:09:20.458342+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "03a60f383fcb1ad36cf580db03c13927",
+      "url": "https://tcrf.net/Workboy",
+      "title": "GameBoy Workboy",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48519552\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-13T17:43:02+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-13T20:02:28.250581+00:00",
+      "updated_at": "2026-06-13T21:09:20.458340+00:00",
+      "metadata": {
+        "processed_at": "2026-06-13T21:09:20.458342+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6bfb729a629768e7816f75e5cad9e8a8",
+      "url": "https://chrisdevblog.com/2026/06/08/running-dos-on-behringers-ddx3216-using-a-diy-x86-bios/",
+      "title": "Running DOS on Behringers DDX3216 with a DIY x86-Bios from Scratch",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48520080\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-13T18:32:22+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-13T20:02:28.250624+00:00",
+      "updated_at": "2026-06-13T21:09:20.458336+00:00",
+      "metadata": {
+        "processed_at": "2026-06-13T21:09:20.458338+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "14e3c420a11e6b60b250c6f86b5b082d",
+      "url": "https://www.righto.com/2026/06/intel-8087-adder-reverse-engineered.html",
+      "title": "The adder at the heart of Intel's 8087 floating-point chip",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48519011\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-13T16:49:42+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-13T18:09:11.304732+00:00",
+      "updated_at": "2026-06-13T19:17:38.669893+00:00",
+      "metadata": {
+        "processed_at": "2026-06-13T19:17:38.669903+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "14e3c420a11e6b60b250c6f86b5b082d",
       "url": "https://www.righto.com/2026/06/intel-8087-adder-reverse-engineered.html",
@@ -202,166 +362,6 @@
       "updated_at": "2026-06-13T19:17:38.669910+00:00",
       "metadata": {
         "processed_at": "2026-06-13T19:17:38.669912+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7cdc039e735a10b45c92b5b85c1b715f",
-      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
-      "title": "Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48519092\">Comments</a>",
-      "author": "",
-      "published_date": "2026-06-13T16:57:49+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-06-13T18:09:11.304670+00:00",
-      "updated_at": "2026-06-13T19:17:38.669914+00:00",
-      "metadata": {
-        "processed_at": "2026-06-13T19:17:38.669916+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "469e548246332c6523de2d982e8435d3",
-      "url": "https://digg.com/tech/ii9xibgn",
-      "title": "GLM 5.2 Is Out",
-      "content": "<p>Article URL: <a href=\"https://digg.com/tech/ii9xibgn\">https://digg.com/tech/ii9xibgn</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48518684\">https://news.ycombinator.com/item?id=48518684</a></p>\n<p>Points: 54</p>\n<p># Comments: 14</p>",
-      "author": "aloknnikhil",
-      "published_date": "2026-06-13T16:18:31+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-06-13T18:09:09.961641+00:00",
-      "updated_at": "2026-06-13T19:17:38.669918+00:00",
-      "metadata": {
-        "processed_at": "2026-06-13T19:17:38.669920+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "14e3c420a11e6b60b250c6f86b5b082d",
-      "url": "https://www.righto.com/2026/06/intel-8087-adder-reverse-engineered.html",
-      "title": "The adder at the heart of Intel's 8087 floating-point chip",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48519011\">Comments</a>",
-      "author": "",
-      "published_date": "2026-06-13T16:49:42+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-06-13T18:09:11.304732+00:00",
-      "updated_at": "2026-06-13T19:17:38.669893+00:00",
-      "metadata": {
-        "processed_at": "2026-06-13T19:17:38.669903+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7cdc039e735a10b45c92b5b85c1b715f",
-      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
-      "title": "Amazon CEO's Talks with U.S. Officials Triggered Crackdown on Anthropic Models",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48519092\">Comments</a>",
-      "author": "",
-      "published_date": "2026-06-13T16:57:49+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-06-13T18:09:11.304670+00:00",
-      "updated_at": "2026-06-13T19:17:38.669914+00:00",
-      "metadata": {
-        "processed_at": "2026-06-13T19:17:38.669916+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "71b8bd5e88bef8e153d87d6be71b9159",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003714?dgcid=rss_sd_all",
-      "title": "Sex differences in the effects of chronic stress and oxycodone associative learning on glial markers in rat hippocampus",
-      "content": "<p>Publication date: 28 August 2026</p><p><b>Source:</b> Neuroscience, Volume 610</p><p>Author(s): Ma\u2019ayan Hirschkorn, Annabelle Kim, Garrett Sommer, Sydney Warwick, Lennox Gregoire, Yan Zhou, Joshua Kogan, Jason D. Gray, Teresa A. Milner</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 28,
-      "reading_time": 1,
-      "created_at": "2026-06-13T16:57:20.008502+00:00",
-      "updated_at": "2026-06-13T17:17:51.483503+00:00",
-      "metadata": {
-        "processed_at": "2026-06-13T17:17:51.483514+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7465f00f1685c76b40caf1ea86aaee24",
-      "url": "https://www.nature.com/articles/s41467-026-74331-2",
-      "title": "Trial-by-trial fMRI-neurofeedback dissociates fusiform and occipital contributions to face detection and recognition",
-      "content": "",
-      "author": "",
-      "published_date": "2026-06-13T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-06-13T16:57:15.012250+00:00",
-      "updated_at": "2026-06-13T17:17:51.483518+00:00",
-      "metadata": {
-        "processed_at": "2026-06-13T17:17:51.483520+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "88cb50706befdc053bee22d84f16dac5",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1613151",
-      "title": "A 3D-printed phantom to validate subject orientation in 3D imaging and recordings",
-      "content": "A phantom defined by a 3D-printed system of markers representing an anatomical coordinate system is proposed. This phantom is designed for use in magnetic resonance and X-ray imaging devices to validate acquisition parameters and prevent laterality errors during image acquisition and processing. The phantom allows visualization of the coordinate system axes \u2013 left-right, posterior-anterior, and inferior-superior \u2013 in all orthogonal slices of a volume. A computational method, using the phantom as a reference, is also proposed to automatically detect and correct flips and permutations in RAS coordinate system representations. Testing the phantom across four modalities available in our platforms, followed by conversions of the recordings to the NIfTI format, enables the detection, correction, and adjustment of protocols in 4 out of 5 configurations. The 3D printing models and orientation detection/correction code are shared with the community as open-source and open-access resources to enable quick, cost-effective, and accessible production.",
-      "author": "Emmanuel L. Barbier",
-      "published_date": "2026-05-28T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 148,
-      "reading_time": 1,
-      "created_at": "2026-06-13T16:57:08.196083+00:00",
-      "updated_at": "2026-06-13T17:17:51.483523+00:00",
-      "metadata": {
-        "processed_at": "2026-06-13T17:17:51.483524+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "63efe0630b68f1908e98f172321c35b3",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1799307",
-      "title": "FUSION-AD: interpretable AI framework for risk assessment and subgroup discovery in Alzheimer's disease",
-      "content": "IntroductionAlzheimer's disease (AD) is difficult to treat because of its multifactorial causes and heterogeneous progression across individuals. This study introduces FUSION-AD, a user-friendly and interpretable artificial intelligence framework for AD risk assessment and subgroup discovery.MethodsFUSION-AD integrates tree-based models, transformer-based neural networks, rule mining, and subgroup discovery to provide accurate and interpretable predictions. The framework was developed using the synthetic El Kharoua Alzheimer's Disease Dataset, which contains 2,149 structured clinical records from patients aged 60\u201390 years, with a mean age of 74.6 years and an average mini-mental state examination (MMSE) score of 21.7. The pipeline included data preprocessing, model benchmarking, feature-importance analysis, SHAP-based explanation, transformer attention analysis, association rule mining, and subgroup discovery.ResultsWithin the evaluated dataset, TabNet achieved the strongest point-estimate performance among the standalone benchmark models on the primary evaluation split, with an area under the receiver operating characteristic curve (AUROC) of 0.95, followed by XGBoost at 0.93, Random Forest at 0.92, and Logistic Regression at 0.89. Feature importance, SHAP values, and transformer attention consistently identified MMSE, Functional Assessment, and Memory Complaints as the most influential predictors. Association rule mining further highlighted diabetes and high body mass index as important risk factors. Subgroup discovery identified four clinical clusters, with prevalence ranging from 21.3 to 28.4%. Cluster 0 showed notable declines in daily functioning, with Functional Assessment decreasing by 2.1 and activities of daily living decreasing by 1.5, whereas Cluster 1 maintained daily functioning but showed increased behavioral symptoms.DiscussionFUSION-AD demonstrates that AD can be modeled in a way that balances predictive performance with interpretability within the studied dataset. The identified subgroup patterns suggest that lifestyle-driven profiles may benefit from preventive strategies, while cognitively impaired groups may require closer monitoring. These findings provide a foundation for future clinically oriented decision-support systems and require further validation using real-world clinical datasets.",
-      "author": "Sarra Ayouni",
-      "published_date": "2026-05-28T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 297,
-      "reading_time": 1,
-      "created_at": "2026-06-13T16:57:08.196050+00:00",
-      "updated_at": "2026-06-13T17:17:51.483526+00:00",
-      "metadata": {
-        "processed_at": "2026-06-13T17:17:51.483528+00:00",
         "processing_method": "github_actions"
       }
     }
