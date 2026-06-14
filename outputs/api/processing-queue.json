@@ -1,8 +1,56 @@
 {
-  "last_updated": "2026-06-14T19:17:55.115582+00:00",
-  "pending_count": 815,
-  "processed_count": 185,
+  "last_updated": "2026-06-14T21:05:28.091269+00:00",
+  "pending_count": 810,
+  "processed_count": 190,
   "pending_articles": [
+    {
+      "id": "569aa46bfd6893670f12be007cda6103",
+      "url": "https://tumbleweed.nu/r/lm-3/uv/amber.html",
+      "title": "Chaosnet",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48531449\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-14T19:14:21+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-14T19:43:33.197283+00:00",
+      "updated_at": "2026-06-14T19:43:33.197284+00:00"
+    },
+    {
+      "id": "882bc6508d1ddc8e00d467aee7d75827",
+      "url": "https://friedkielbasa.substack.com/p/rome-fell-and-nobody-noticed",
+      "title": "Rome Fell and Nobody Noticed",
+      "content": "<p>Article URL: <a href=\"https://friedkielbasa.substack.com/p/rome-fell-and-nobody-noticed\">https://friedkielbasa.substack.com/p/rome-fell-and-nobody-noticed</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48530841\">https://news.ycombinator.com/item?id=48530841</a></p>\n<p>Points: 41</p>\n<p># Comments: 2</p>",
+      "author": "fkozlowski",
+      "published_date": "2026-06-14T18:29:13+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-06-14T19:43:31.790661+00:00",
+      "updated_at": "2026-06-14T19:43:31.790662+00:00"
+    },
+    {
+      "id": "569aa46bfd6893670f12be007cda6103",
+      "url": "https://tumbleweed.nu/r/lm-3/uv/amber.html",
+      "title": "Chaosnet",
+      "content": "<p>Article URL: <a href=\"https://tumbleweed.nu/r/lm-3/uv/amber.html\">https://tumbleweed.nu/r/lm-3/uv/amber.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48531449\">https://news.ycombinator.com/item?id=48531449</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "RGBCube",
+      "published_date": "2026-06-14T19:14:21+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-06-14T19:43:31.790630+00:00",
+      "updated_at": "2026-06-14T19:43:31.790640+00:00"
+    },
     {
       "id": "f9e7eb36ecdd07125abab729195d2dcd",
       "url": "https://www.sciencedirect.com/science/article/pii/S1053811926003691?dgcid=rss_sd_all",
@@ -114,57 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-06-14T17:57:46.790515+00:00",
       "updated_at": "2026-06-14T17:57:46.790517+00:00"
+    }
+  ],
+  "recently_processed": [
+    {
+      "id": "6bb8d9eb62c0e419def4daa6077d60d0",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003702?dgcid=rss_sd_all",
+      "title": "Multimodal neuroimaging-based deep learning framework for pattern analysis and early prediction of neurodegenerative diseases",
+      "content": "<p>Publication date: 28 August 2026</p><p><b>Source:</b> Neuroscience, Volume 610</p><p>Author(s): V. Asmabi, V. Anoop</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroscience Journal",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 12,
+      "reading_time": 1,
+      "created_at": "2026-06-14T19:44:13.968494+00:00",
+      "updated_at": "2026-06-14T21:05:27.976589+00:00",
+      "metadata": {
+        "processed_at": "2026-06-14T21:05:27.976600+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "77645118947eda65fc6f11a1ec185d39",
-      "url": "https://github.com/tamnd/kage",
-      "title": "Show HN: Kage \u2013 Shadow any website to a single binary for offline viewing",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48529990\">Comments</a>",
+      "id": "4ba4fdd3bcea4b465b4cf3b6eb4e3cc6",
+      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1808274",
+      "title": "Rehab-DRLX: explainable neurorehabilitation prognosis using deep reinforcement learning and transformer-based models",
+      "content": "Neurorehabilitation poses a crucial problem in clinical recovery tasks, particularly for individuals with poor motor functions and neurological impairments, and problems in activities of daily living (ADL). To resolve this, we design a novel model, Rehab-DRLX, with a hybrid deep learning (HDL) framework that combines deep reinforcement learning (DRL) with an explainable transformer model to provide interpretable, accurate prognostic results. The propounded model is designed to effectively process the multimodal data inputs, which include clinical records, sensor-entrenched motion data, and neuroimaging, along with time-dependent recovery patterns from its reinforced representation learning (RRL) module. The RRL module employs a convolutional neural network (CNN) within the DRL agent, which performs spatiotemporal feature encoding and dynamically recovers a policy from its reward-guided learning method. To ensure interpretability, the explainable prognosis transformer (XPT) is utilized, which contains clinical contextual positional encoding and a hierarchical attention mechanism to enable transparent and reliable decision-making. This duality in the Rehab-DRLX architecture enables effective forecasting of the recovery outcomes, including functional independence probability, with both interpretability and accuracy, addressing the drawbacks of conventional black box prognosis tools. The experimental results of Rehab-DRLX show the noteworthy improvements in metrics such as accuracy (94.6%), F1-score (0.93), root mean square (RMSE) (0.082), and mean absolute error (MAE) (0.061) compared to existing studies. The ablation studies reveal the significant contribution of every architectural component and its overall performance. The results show the practical viability of Rehab-DRLX, which not only improves decision-making but also builds clinical trust through explainable insights.",
+      "author": "Fatimah Alhayan",
+      "published_date": "2026-05-18T00:00:00+00:00",
+      "source": "Frontiers Computational Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 247,
+      "reading_time": 1,
+      "created_at": "2026-06-14T19:44:01.739705+00:00",
+      "updated_at": "2026-06-14T21:05:27.976605+00:00",
+      "metadata": {
+        "processed_at": "2026-06-14T21:05:27.976607+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4d682ae1840a9f58221cb8d64419c1a9",
+      "url": "https://www.reddit.com/r/Python/comments/1u5rbj5/i_got_tired_of_pythons_regex_memory_leaks_so_i/",
+      "title": "I got tired of Python's regex memory leaks, so I built a zero-copy C-exten (1GB/s, 0.0 MiB overhead)",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I\u2019ve been working on a data pipeline that processes massive server logs, and I hit a wall where Python\u2019s <code>re</code> module was causing massive memory spikes. Ingesting 1GB files was forcing memory usage to 6GB+ because of the way Python strings are duplicated during regex operations.</p> <p>I decided to bypass the GIL and write a custom C-extension that uses a compiled DFA matrix to mutate <code>bytearray</code> buffers in place.</p> <p><strong>The results were honestly surprising:</strong></p> <ul> <li><strong>Standard Python</strong> <code>re</code><strong>:</strong> 25.5s execution time | 947 MiB memory increment.</li> <li><strong>Guardog Engine:</strong> 1.1s execution time | 0.0 MiB memory increment (Zero-Copy).</li> </ul> <p>I\u2019ve open-sourced the engine and the full benchmark suite under GPLv3. If anyone is working on high-throughput data pipelines or ETL processes where memory overhead is the bottleneck, I\u2019d love to see how this performs in your environment.</p> <p><strong>Repo:</strong> <a href=\"https://github.com/thedevilhimselfcodes/guardog\">https://github.com/thedevilhimselfcodes/guardog</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/lucifahsl2\"> /u/lucifahsl2 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1u5rbj5/i_got_tired_of_pythons_regex_memory_leaks_so_i/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1u5rbj5/i_got_tired_of_pythons_regex_memory_leaks_so_i/\">[comments]</a></span>",
+      "author": "/u/lucifahsl2",
+      "published_date": "2026-06-14T17:33:58+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 160,
+      "reading_time": 1,
+      "created_at": "2026-06-14T19:43:34.364150+00:00",
+      "updated_at": "2026-06-14T21:05:27.976610+00:00",
+      "metadata": {
+        "processed_at": "2026-06-14T21:05:27.976611+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "d2654504e4902a76443d281fe32390f4",
+      "url": "https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1",
+      "title": "Formal Methods and the Future of Programming",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48526633\">Comments</a>",
       "author": "",
-      "published_date": "2026-06-14T17:25:38+00:00",
+      "published_date": "2026-06-14T12:35:27+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-06-14T17:57:46.790455+00:00",
-      "updated_at": "2026-06-14T17:57:46.790457+00:00"
+      "created_at": "2026-06-14T19:43:33.197414+00:00",
+      "updated_at": "2026-06-14T21:05:27.976613+00:00",
+      "metadata": {
+        "processed_at": "2026-06-14T21:05:27.976615+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "d76d77327ba6f6c56883e8618b650147",
-      "url": "https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u",
-      "title": "Linux 7.1",
-      "content": "<p>Article URL: <a href=\"https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u\">https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48528729\">https://news.ycombinator.com/item?id=48528729</a></p>\n<p>Points: 66</p>\n<p># Comments: 3</p>",
-      "author": "berlianta",
-      "published_date": "2026-06-14T16:01:30+00:00",
+      "id": "8451d6b1bc061889f56b79f3daf324e9",
+      "url": "https://aresluna.org/segmented-type/",
+      "title": "Not mine, but it's a website where you can use a segment display",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48489636\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-11T12:50:29+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-06-14T17:57:45.638006+00:00",
-      "updated_at": "2026-06-14T17:57:45.638008+00:00"
+      "created_at": "2026-06-14T19:43:33.197322+00:00",
+      "updated_at": "2026-06-14T21:05:27.976618+00:00",
+      "metadata": {
+        "processed_at": "2026-06-14T21:05:27.976619+00:00",
+        "processing_method": "github_actions"
+      }
     },
-    {
-      "id": "9c61ed972510254f06a411b1f924d68b",
-      "url": "https://news.ycombinator.com/item?id=48528779",
-      "title": "Ask HN: What are you working on? (June 2026)",
-      "content": "<p>What are you working on? Any new ideas that you're thinking about?</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48528779\">https://news.ycombinator.com/item?id=48528779</a></p>\n<p>Points: 37</p>\n<p># Comments: 68</p>",
-      "author": "david927",
-      "published_date": "2026-06-14T16:05:28+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 23,
-      "reading_time": 1,
-      "created_at": "2026-06-14T17:57:45.637986+00:00",
-      "updated_at": "2026-06-14T17:57:45.637988+00:00"
-    }
-  ],
-  "recently_processed": [
     {
       "id": "c2319578819743fdf0159bf723bcb1b5",
       "url": "https://erpinfo.org/blog/2024/3/5/changes-to-the-2024-erp-boot-camp",
@@ -262,106 +362,6 @@
       "updated_at": "2026-06-14T19:17:54.998333+00:00",
       "metadata": {
         "processed_at": "2026-06-14T19:17:54.998334+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "30c62259d3f0fa60ef1bd8a2c9fc9762",
-      "url": "https://embc.embs.org/2026/#new_tab",
-      "title": "Join the Mailing List",
-      "content": "<p>The post <a href=\"https://embc.embs.org/2026/#new_tab\">Join the Mailing List</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
-      "author": "dziura",
-      "published_date": "2025-12-10T16:41:05+00:00",
-      "source": "Embs",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-06-14T16:23:53.256351+00:00",
-      "updated_at": "2026-06-14T17:15:02.182713+00:00",
-      "metadata": {
-        "processed_at": "2026-06-14T17:15:02.182722+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d6bb5eb1c5a8f4f27227ee0ea0484e96",
-      "url": "https://www.sciencedirect.com/science/article/pii/S000689932600274X?dgcid=rss_sd_all",
-      "title": "Adipose tissue as a systemic modulator of brain aging: mechanistic links between metabolism, inflammation and neurodegeneration",
-      "content": "<p>Publication date: 15 September 2026</p><p><b>Source:</b> Brain Research, Volume 1887</p><p>Author(s): Treteanu Andreea-Ramona, Manea Maria Mirabela</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 14,
-      "reading_time": 1,
-      "created_at": "2026-06-14T16:23:42.038056+00:00",
-      "updated_at": "2026-06-14T17:15:02.182726+00:00",
-      "metadata": {
-        "processed_at": "2026-06-14T17:15:02.182727+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8025913c79983fbf25c077ca8a6a30f1",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899326002738?dgcid=rss_sd_all",
-      "title": "Task interruptions impair visuospatial working memory: Behavioral and EEG evidence for feature-specific cognitive interference",
-      "content": "<p>Publication date: 1 October 2026</p><p><b>Source:</b> Brain Research, Volume 1888</p><p>Author(s): Soner \u00dclk\u00fc, Ceren Arslan, Stephan Getzmann, Edmund Wascher, Daniel Schneider</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 19,
-      "reading_time": 1,
-      "created_at": "2026-06-14T16:23:42.037998+00:00",
-      "updated_at": "2026-06-14T17:15:02.182729+00:00",
-      "metadata": {
-        "processed_at": "2026-06-14T17:15:02.182730+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e17fb197a5a2d14479d378e363a5093e",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899326002763?dgcid=rss_sd_all",
-      "title": "Electroacupuncture attenuates PVN-SCG sympathetic hyperactivation to improve cardiac function in myocardial infarction mice",
-      "content": "<p>Publication date: 1 October 2026</p><p><b>Source:</b> Brain Research, Volume 1888</p><p>Author(s): Rou Peng, Xiaohan Lu, Minjiao Jiang, Yuyan Zhu, Xiaoer Liu, Jingwen Li, Junsheng Chen, Yifan Guo, Meiling Yu, Shuping Fu, Lingyue Zou, Shengfeng Lu</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 33,
-      "reading_time": 1,
-      "created_at": "2026-06-14T16:23:42.037978+00:00",
-      "updated_at": "2026-06-14T17:15:02.182732+00:00",
-      "metadata": {
-        "processed_at": "2026-06-14T17:15:02.182733+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1fad2285d5bce460e787934d2a4e68e6",
-      "url": "https://www.sciencedirect.com/science/article/pii/S000689932600257X?dgcid=rss_sd_all",
-      "title": "Inhibition of the IRE1\u03b1/ASK1/JNK signaling pathway ameliorates perioperative neurocognitive disorder in aged mice following abdominal surgery",
-      "content": "<p>Publication date: 1 October 2026</p><p><b>Source:</b> Brain Research, Volume 1888</p><p>Author(s): Wenwen Zhang, Cibao Liu, Rukun Xu, Zixuan Li, Yajie Xu, Jialin Yin, Feng Han, Qinghai Meng, Manlin Duan, Zhiyuan Zhang, Xiaoliang Wang</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 31,
-      "reading_time": 1,
-      "created_at": "2026-06-14T16:23:42.037958+00:00",
-      "updated_at": "2026-06-14T17:15:02.182737+00:00",
-      "metadata": {
-        "processed_at": "2026-06-14T17:15:02.182738+00:00",
         "processing_method": "github_actions"
       }
     }
