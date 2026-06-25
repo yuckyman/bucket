@@ -1,8 +1,40 @@
 {
-  "last_updated": "2026-06-25T21:27:12.200254+00:00",
-  "pending_count": 790,
-  "processed_count": 210,
+  "last_updated": "2026-06-25T23:13:14.608360+00:00",
+  "pending_count": 786,
+  "processed_count": 214,
   "pending_articles": [
+    {
+      "id": "134c05a88cdb895a79c266dcdecb3f25",
+      "url": "https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html",
+      "title": "OpenAI Leans Toward Waiting Until Next Year for IPO",
+      "content": "<p>Article URL: <a href=\"https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html\">https://www.nytimes.com/2026/06/25/technology/openai-ipo-artificial-intelligence.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48678873\">https://news.ycombinator.com/item?id=48678873</a></p>\n<p>Points: 34</p>\n<p># Comments: 18</p>",
+      "author": "mfiguiere",
+      "published_date": "2026-06-25T20:36:05+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-06-25T22:24:49.199633+00:00",
+      "updated_at": "2026-06-25T22:24:49.199635+00:00"
+    },
+    {
+      "id": "6abfe0819be6fd2a39fa554ab70282df",
+      "url": "https://www.nijho.lt/post/proxmox-to-nixos/",
+      "title": "Migrating from Proxmox to NixOS and Incus",
+      "content": "<p>Article URL: <a href=\"https://www.nijho.lt/post/proxmox-to-nixos/\">https://www.nijho.lt/post/proxmox-to-nixos/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48679385\">https://news.ycombinator.com/item?id=48679385</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
+      "author": "wasting_time",
+      "published_date": "2026-06-25T21:22:59+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-06-25T22:24:49.199577+00:00",
+      "updated_at": "2026-06-25T22:24:49.199585+00:00"
+    },
     {
       "id": "8f2232b9ea2b7d0a52a33e14452ecb7d",
       "url": "https://siliconopera.com/the-customer-who-almost-killed-slack-stripe-and-airbnb/",
@@ -130,41 +162,189 @@
       "reading_time": 1,
       "created_at": "2026-06-25T18:34:43.222962+00:00",
       "updated_at": "2026-06-25T18:34:43.222963+00:00"
-    },
-    {
-      "id": "74db92bd9e8598aa2aa854c0a635cdfb",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.19.733435v1?rss=1",
-      "title": "Mismatch repair dissection by in vivo RNAi reveals dose-dependent modulators of somatic instability and proteome remodeling in Huntingtons disease",
-      "content": "Human and mouse genetics have established mismatch repair (MMR) as a central mediator of somatic repeat expansion, a key pathogenic process in Huntington's disease (HD) and related disorders. How individual MMR components function within the intact mammalian brain and interact with broader cellular networks remains poorly understood. We screened more than 500 chemically stabilized siRNAs targeting 10 MMR genes and used interventional RNAi in the Q111 HD mouse model to systematically dissect MMR function in vivo. MSH3 and PMS1 emerged as the most dose-sensitive regulators of somatic expansion but displayed markedly different effects on proteome stability. Quantitative proteomics generated an in vivo atlas of MMR component abundance and cross-regulation in the mammalian CNS, uncovering extensive connectivity between DNA repair, transcriptional regulation, chromatin remodeling, and mitochondrial biology. Together, these findings establish a systems-level framework linking MMR biology to neuronal function and offer mechanistic insight into selective neuronal vulnerability in HD.",
-      "author": "Belgrad, J., Greco, T. M., Sapp, E., Summers, A., O'Reilly, D., Luu, E., Hutton, J. E., Yamada, N., Fakih, H. H., Furgal, R., Echeverria, D., McHugh, N., Bramato, B., Ferguson, C., Hildebrand, S., Allen, S., Gaston, N., Cooper, D., Maebius, A., Gross, K. Y., Vogt, T. F., Finley, M., Prasad, B., DiFiglia, M., Cristea, I. M., Aronin, N., Khvorova, A.",
-      "published_date": "2026-06-25T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 149,
-      "reading_time": 1,
-      "created_at": "2026-06-25T18:34:31.657292+00:00",
-      "updated_at": "2026-06-25T18:34:31.657294+00:00"
-    },
-    {
-      "id": "ca615a9889a6573029230e8d6e5e85cf",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.17.732817v1?rss=1",
-      "title": "Identifying Novel Estrogenic Mitochondrial Targets in Hypothalamic Proopiomelanocortin Neurons by Chemoproteomics",
-      "content": "Loss of estrogens at menopause is linked to impaired brain metabolism and increased risk of Alzheimers disease (AD). However, estrogen replacement therapies are limited due to the deleterious effects of estrogen on peripheral organs and increased risk of vascular dementia. We have developed a non-steroidal estrogenic compound, STX, which does not bind to the classical estrogen receptors  and {beta}, but mimics estrogenic signaling in the central nervous system (CNS) without the peripheral reproductive actions. STX is protective against neurodegeneration in stroke and AD models, but its molecular targets are unknown. Here, we identified and validated STX neural targets using chemoproteomic, molecular biological, electrophysiological and metabolic assays of hypothalamic proopiomelanocortin (POMC) neurons. Chemoproteomic profiling identified voltage dependent anion channels (VDAC1-3) as major intracellular binding partners in mHypo43 (POMC) cells. Based on quantitative single-cell PCR, Vdac2 was identified as the dominant isoform in female hypothalamic POMC neurons. Seahorse metabolic flux analyses showed that STX potently increased glycolysis, oxidative respiration and mitochondrial ATP production in mHypo43 cells. Nanomolar concentrations of STX enhanced VDAC2 voltage-dependent gating in reconstituted lipid membranes and shifted the low-conductance states toward anion selectivity, consistent with increased ATP flux. Together, these findings reveal a mechanism for the neuroprotective effects of STX through enhancing mitochondrial bioenergetics and modulating VDAC channel properties, potentially increasing cellular energy stores. Therefore, this work identifies previously unrecognized estrogenic mitochondrial targets and provides a mechanistic basis for the neuroprotective actions of STX relevant to menopause-associated brain vulnerability.",
-      "author": "Qiu, J., Bosch, M. A., Wolfe, M. S., Korac, K., Rizzo, S., Stincic, T. L., Farley, S. E., Fitzgerald, W., Rajendran, M., Laguerre, A., Stein, F., F. Copenhaver, P., Ronnekleiv, O. K., Ronnekleiv-Kelly, S. M., Rostovtseva, T., Bezrukov, S., Schultz, C., Kelly, M. J.",
-      "published_date": "2026-06-25T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 240,
-      "reading_time": 1,
-      "created_at": "2026-06-25T18:34:31.657253+00:00",
-      "updated_at": "2026-06-25T18:34:31.657258+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "bdc264244eab5b18d3f5d3d3a31aaae3",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2527342123?af=R",
+      "title": "Deviance detection via competitive inhibition between local neocortical ensembles",
+      "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 26, June 2026. <br />SignificancePrompt, adaptive behavior to unexpected events depends on fast and efficient neural processing of sensory information. Neurons and circuits within Neocortex are known to amplify sensory input in a history-dependent manner, enhancing the ...",
+      "author": "Ryan V. ThorpeChristopher I. MooreStephanie R. Jonesahttps://ror.org/05gq02987Department of Neuroscience, Brown University, Providence, RI 02912bhttps://ror.org/05gq02987Carney Institute for Brain Science, Brown University, Providence, RI 02912",
+      "published_date": "2026-06-24T07:00:00+00:00",
+      "source": "Pnas Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 48,
+      "reading_time": 1,
+      "created_at": "2026-06-25T22:25:20.542300+00:00",
+      "updated_at": "2026-06-25T23:13:14.495109+00:00",
+      "metadata": {
+        "processed_at": "2026-06-25T23:13:14.495120+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "48da92addde6b641255568a8221f5e23",
+      "url": "https://om.co/2026/06/24/1966-2026/",
+      "title": "Om Malik has died",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48678852\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-25T20:33:37+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-25T22:24:50.582757+00:00",
+      "updated_at": "2026-06-25T23:13:14.495124+00:00",
+      "metadata": {
+        "processed_at": "2026-06-25T23:13:14.495126+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "bb866b9198a54e3ed5ae172f696c9505",
+      "url": "https://williamdue.github.io/blog/parallel-parentheses-matching",
+      "title": "Parallel Parentheses Matching",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48678623\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-25T20:12:24+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-25T22:24:50.582719+00:00",
+      "updated_at": "2026-06-25T23:13:14.495129+00:00",
+      "metadata": {
+        "processed_at": "2026-06-25T23:13:14.495131+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "421a8873291fee7bb01cf6b6b202401c",
+      "url": "https://calpaterson.com/bank-python.html",
+      "title": "An oral history of Bank Python (2021)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48678645\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-25T20:14:35+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-25T22:24:50.582700+00:00",
+      "updated_at": "2026-06-25T23:13:14.495133+00:00",
+      "metadata": {
+        "processed_at": "2026-06-25T23:13:14.495135+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ebc5ea53f3fe04a6c0d01b609a0afcc2",
+      "url": "https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/",
+      "title": "Un-0: Generating Images with Coupled Oscillators",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48679007\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-25T20:50:02+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-25T22:24:50.582620+00:00",
+      "updated_at": "2026-06-25T23:13:14.495137+00:00",
+      "metadata": {
+        "processed_at": "2026-06-25T23:13:14.495138+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "bb866b9198a54e3ed5ae172f696c9505",
+      "url": "https://williamdue.github.io/blog/parallel-parentheses-matching",
+      "title": "Parallel Parentheses Matching",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48678623\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-25T20:12:24+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-25T22:24:50.582719+00:00",
+      "updated_at": "2026-06-25T23:13:14.495129+00:00",
+      "metadata": {
+        "processed_at": "2026-06-25T23:13:14.495131+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "421a8873291fee7bb01cf6b6b202401c",
+      "url": "https://calpaterson.com/bank-python.html",
+      "title": "An oral history of Bank Python (2021)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48678645\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-25T20:14:35+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-25T22:24:50.582700+00:00",
+      "updated_at": "2026-06-25T23:13:14.495133+00:00",
+      "metadata": {
+        "processed_at": "2026-06-25T23:13:14.495135+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "48da92addde6b641255568a8221f5e23",
+      "url": "https://om.co/2026/06/24/1966-2026/",
+      "title": "Om Malik has died",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48678852\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-25T20:33:37+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-25T22:24:50.582757+00:00",
+      "updated_at": "2026-06-25T23:13:14.495124+00:00",
+      "metadata": {
+        "processed_at": "2026-06-25T23:13:14.495126+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ebc5ea53f3fe04a6c0d01b609a0afcc2",
+      "url": "https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/",
+      "title": "Un-0: Generating Images with Coupled Oscillators",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48679007\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-25T20:50:02+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-25T22:24:50.582620+00:00",
+      "updated_at": "2026-06-25T23:13:14.495137+00:00",
+      "metadata": {
+        "processed_at": "2026-06-25T23:13:14.495138+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "2c5a772603f3a68d85ff402cac328046",
       "url": "https://www.sciencedirect.com/science/article/pii/S0006899326002799?dgcid=rss_sd_all",
@@ -182,186 +362,6 @@
       "updated_at": "2026-06-25T21:27:12.094384+00:00",
       "metadata": {
         "processed_at": "2026-06-25T21:27:12.094394+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9b3a88cbbf2bf8a19f139b79bbb148c8",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.24.734198v1?rss=1",
-      "title": "Tachykinin neuropeptides are involved in axonal and synaptic differentiation of the pioneer motor axon in zebrafish",
-      "content": "In contrast to many other developing systems, in which axon pathfinding and synaptogenesis are separated in time, the pioneering axon of the individually identifiable caudal primary motor neuron in embryonic zebrafish forms en passant synapses during its stereotypical ventral growth. How simultaneous synaptic differentiation and axon pathfinding are coordinated is not fully understood. Here we ask what the role of the tac1 gene, coding for the synaptic tachykinin neuropeptides, is in this unique axon differentiation process. The gene is expressed during axon outgrowth and its disruption results in increased branch length of CaP axons and subtle morphological defects of the pre-synapse. These abnormalities are accompanied by a robust ~1.5-fold increase in motor neuron activity and in spontaneous early contractions in tac1-deficient embryos. Furthermore, pharmacological inhibition of the tachykinin receptor (Tacr1) leads to altered CaP axonal morphology, mimicking the axonal phenotype observed in tac1-deficient zebrafish. These findings suggest that tachykinin neuropeptides modulate formation and activity of en passant synapses and prevent aberrant axon branching during growth of zebrafish motor axons.",
-      "author": "Ushakova, S., Zoeller, D., Bretschneider, A., Becker, T., Becker, C. G., Oprisoreanu, A.-M.",
-      "published_date": "2026-06-25T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 169,
-      "reading_time": 1,
-      "created_at": "2026-06-25T20:58:40.572974+00:00",
-      "updated_at": "2026-06-25T21:27:12.094398+00:00",
-      "metadata": {
-        "processed_at": "2026-06-25T21:27:12.094400+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "aef5fd2bdcebb39d945db051ac1d1e4a",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.06.22.733763v1?rss=1",
-      "title": "An extraglomerular relay circuit for multimodal integration within the Drosophila antennal lobe",
-      "content": "The central integration of sensory information within and between brain hemispheres is critical for efficient behavioral responses, but at which level of information processing multimodal integration occurs is poorly understood. In olfactory systems an array of receptor-specific synaptic glomeruli with corresponding projection neurons (PNs) form separate sensory channels within each hemisphere, which run in parallel with other sensory modalities to converge at higher brain regions. We recently identified a small cluster of commissural pioneer neurons (cPINs) in the Drosophila olfactory system, which controls the formation of bilateral sensory circuits to support interhemispheric integration at the first synaptic layer. Here we show that cPINs also mediate the integration of sensory channels by relaying class-specific input within the antennal lobe. Functional studies showed that medial cPINs converge olfactory amine/ammonia input with a class of non-olfactory PNs to trigger attraction. During olfactory circuit formation, growing cPINs specify separate dendritic input/output domains, which merge into distinct glomeruli of different sensory modalities. Mutant analysis of the Wnt5 pathway revealed that cPINs display an initial PN-related growth pattern, which becomes redirected to organize lateral relay between sensory channels. These results identified a small cluster of olfactory interneurons as a central coordinator for fast convergence of sensory information, providing a mechanistic model of neural circuit evolution.",
-      "author": "Bergkirchner, B., Kaur, R., Grimm, A., Ilgerl, S., Kallina, W., Kasture, A., Javorski, D., Hummel, T.",
-      "published_date": "2026-06-25T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 209,
-      "reading_time": 1,
-      "created_at": "2026-06-25T20:58:40.572931+00:00",
-      "updated_at": "2026-06-25T21:27:12.094402+00:00",
-      "metadata": {
-        "processed_at": "2026-06-25T21:27:12.094404+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "335194b6be643ab6d00cef4d191341a4",
-      "url": "https://iza.ac/posts/2026/06/intuitive-cooking/",
-      "title": "The anxiety of the perfect loaf: the illusion of culinary precision",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48636982\">Comments</a>",
-      "author": "",
-      "published_date": "2026-06-22T22:11:13+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-06-25T20:58:04.509897+00:00",
-      "updated_at": "2026-06-25T21:27:12.094406+00:00",
-      "metadata": {
-        "processed_at": "2026-06-25T21:27:12.094407+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9977474d112be6b15ee503e04600f95d",
-      "url": "https://princechazz.com",
-      "title": "Show HN: Chess-Inspired Roguelike",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48616304\">Comments</a>",
-      "author": "",
-      "published_date": "2026-06-21T06:50:31+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-06-25T20:58:04.509838+00:00",
-      "updated_at": "2026-06-25T21:27:12.094410+00:00",
-      "metadata": {
-        "processed_at": "2026-06-25T21:27:12.094411+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "b20e8820787cb21be5858bde28399c5a",
-      "url": "https://www.nature.com/articles/s41598-026-58793-4",
-      "title": "Efficient epileptic seizure prediction using single channel EEG signal and knowledge distillation on deep neural networks",
-      "content": "",
-      "author": "",
-      "published_date": "2026-06-25T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-06-25T16:27:06.432984+00:00",
-      "updated_at": "2026-06-25T18:06:27.711530+00:00",
-      "metadata": {
-        "processed_at": "2026-06-25T18:06:27.711539+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "97cb013c4f68845f4f8530dabc9ff6ab",
-      "url": "https://www.nature.com/articles/s42003-026-10364-z",
-      "title": "Replicability of multivariate brain-behaviour associations depends on clinical profile",
-      "content": "",
-      "author": "",
-      "published_date": "2026-06-25T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-06-25T16:27:06.432911+00:00",
-      "updated_at": "2026-06-25T18:06:27.711544+00:00",
-      "metadata": {
-        "processed_at": "2026-06-25T18:06:27.711546+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "882f7e00136d8c77c0d3127d15f0b060",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1764856",
-      "title": "NL-YOLOv5: a model with a larger receptive field and the ability to globally acquire features",
-      "content": "IntroductionLandslide disasters cause severe casualties and economic losses, demanding rapid and accurate detection from high-resolution remote sensing imagery. Traditional methods struggle with insufficient landslide samples and low detection accuracy.MethodsTo address this, we propose a dual solution: (1) DCGAN-based data augmentation generating 3,429 synthetic landslide samples from Google Earth imagery, significantly improving model generalization; (2) an NL-YOLOv5 model integrating non-local attention (NLA) and an improved LK-SPP module (based on large-kernel convolution concepts) to enhance global information capture.ResultsThe NL-YOLOv5 model achieves 80% detection accuracy (a 5% improvement over baseline), with 7% higher precision, 2% higher recall, and 5% higher F1-score, while maintaining real-time speed at 69 f/s.DiscussionThis work delivers a practical solution for high-precision landslide detection in remote sensing applications.",
-      "author": "Chunzhou Huang",
-      "published_date": "2026-05-29T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 118,
-      "reading_time": 1,
-      "created_at": "2026-06-25T16:25:55.563135+00:00",
-      "updated_at": "2026-06-25T18:06:27.711548+00:00",
-      "metadata": {
-        "processed_at": "2026-06-25T18:06:27.711550+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6ef0379a9edb4e2cc36abc094b6048ec",
-      "url": "http://doi.org/10.1037/pmu0000304",
-      "title": "The sound of manufactured music: Reviewing the role of artificial stimuli in music cognition research.",
-      "content": "Having participants listen and react to musical stimuli is one of music cognition\u2019s foundational methods. Whereas most researchers have used stimuli adapted from existing musical traditions in such work, others have incorporated artificial stimuli (i.e., stimuli generated specifically for research that are not borrowed from any existing musical system) into their research designs. No review of this growing literature on artificial stimuli exists, leaving open the question of how useful they are in helping formulate and test research questions in music cognition. To this end, a systematic narrative review of empirical studies utilizing artificial musical stimuli (N = 52) was conducted. Comparing these studies to analogous works involving conventional stimuli in the areas of music preference, music learning, and musical emotion revealed the power of artificial stimuli in reducing concerns regarding stimulus familiarity and musical enculturation confounds, as well as in refining theory by reiterating the need for the development of composite predictive models in music cognition. This review also suggests that using artificial stimuli has the potential to help clarify the neurological and sociocognitive factors surrounding music listening behavior. Furthermore, because artificial stimuli are not tied to any existing sociocultural musical system, they may also lead to more generalizable findings. This enhanced generalizability may also coincide with expanded inclusivity, toward which the field of music cognition (and psychology more generally) are increasingly striving. Other potential uses, benefits, and limitations of artificial musical stimuli are discussed, as well as recommendations for researchers seeking to utilize such stimuli in future studies. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2024-01-22T00:00:00+00:00",
-      "source": "Psychomusicology",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 259,
-      "reading_time": 1,
-      "created_at": "2026-06-25T16:25:40.615515+00:00",
-      "updated_at": "2026-06-25T18:06:27.711552+00:00",
-      "metadata": {
-        "processed_at": "2026-06-25T18:06:27.711553+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8ff443e0a7d1e1face77a29808139179",
-      "url": "https://pete.design/tw-fade",
-      "title": "Tw-fade: pure CSS scroll-driven edge masking",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48631302\">Comments</a>",
-      "author": "",
-      "published_date": "2026-06-22T15:12:36+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-06-25T16:25:30.608991+00:00",
-      "updated_at": "2026-06-25T18:06:27.711555+00:00",
-      "metadata": {
-        "processed_at": "2026-06-25T18:06:27.711557+00:00",
         "processing_method": "github_actions"
       }
     }
