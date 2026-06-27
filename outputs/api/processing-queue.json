@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-27T10:00:40.481553+00:00",
-  "pending_count": 805,
-  "processed_count": 195,
+  "last_updated": "2026-06-27T11:41:01.604844+00:00",
+  "pending_count": 799,
+  "processed_count": 201,
   "pending_articles": [
     {
       "id": "d5f138f8a33c051d97883ba9010bfd09",
@@ -166,6 +166,126 @@
   ],
   "recently_processed": [
     {
+      "id": "fbbcd5d37604b822fd3edf5ce2565960",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae7764",
+      "title": "Transcranial acoustoelectric imaging (tABI) of seizure activity in human head model with neuronavigation",
+      "content": "Objective. The human brain consists of multiple interacting neuronal networks that interleave at fine spatial and temporal scales. This complexity presents a challenge for scalp EEG and other noninvasive mapping techniques to accurately identify seizures and abnormal current patterns from background activity. To address this unmet need, this study investigates transcranial acoustoelectric brain imaging (tABI) with neuronavigation as a new method for mapping EEG-derived currents through the skull. Approach. In tABI, ultrasound (US) is focused and steered in the brain as surface electrodes record an acoustoelectric (AE) interaction signal. Space and time varying current maps are then generated at a resolution determined by the US focus. To test the efficacy of this method, a human skull was filled with conductive agarose gel, and a clinical depth electrode array was implanted 43 mm below the skull surface to generate artificial current waveform segments taken from normal and seizure activity. A 0.6 MHz 2D array was used to electronically focus and steer US through the skull while gold cup electrodes recorded high frequency AE signals and low frequency surface potentials. A 2D Wiener filter (WF) was introduced during preprocessing to enhance SNR followed by singular value decomposition (SVD) to selectively identify pixels correlated with different temporal patterns. Main results. Whereas the WF enhanced SNR up to 16.9 dB at 6.4 mA of current, SVD enabled color-coding of tABI to highlight activation patterns correlated with different current waveforms with a spatial resolution of 5 mm. Finally, the current detection limit depended on the duration and bandwidth of the selected currents with the ictal waveform yielding the lowest detection (28 \u00b5A and 78 \u00b5A cm\u22122*MPa, p < 0.05). Significance. These results support the development of tABI for noninvasive mapping of neuronal currents in epilepsy patients for surgical planning and other applications.",
+      "author": "Nadia Abu Farha, Parker Harris, Margaret Allard, Teodoro Trujillo, Stephen Cowen, Katalin Gothard, Martin Weinand, Paul Larson, Ying-Hui Chou, Nan-Kuei Chen, YeonJoon Cheong, Matthew O\u2019Donnell and Russell S Witte",
+      "published_date": "2026-06-21T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 297,
+      "reading_time": 1,
+      "created_at": "2026-06-27T10:10:16.625126+00:00",
+      "updated_at": "2026-06-27T11:41:01.497111+00:00",
+      "metadata": {
+        "processed_at": "2026-06-27T11:41:01.497121+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "eae5f3bef9def6175456e6dc0be1a57f",
+      "url": "https://medium.com/@s_nikolaev/faster-knn-search-in-manticore-2-pass-hnsw-batched-distances-and-avx-512-b85604647aab",
+      "title": "Faster KNN search in Manticore: 2-pass HNSW, batched distances, and AVX-512",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48682243\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-26T04:13:28+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-27T10:09:51.251761+00:00",
+      "updated_at": "2026-06-27T11:41:01.497125+00:00",
+      "metadata": {
+        "processed_at": "2026-06-27T11:41:01.497127+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "e58ed50a447f3626e954c58c8b6251b0",
+      "url": "https://www.economist.com/britain/2026/06/25/the-bbc-switches-off-its-oldest-service",
+      "title": "Long Wave radio era set to end with switch-off",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48677564\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-25T18:42:17+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-27T10:09:51.251694+00:00",
+      "updated_at": "2026-06-27T11:41:01.497129+00:00",
+      "metadata": {
+        "processed_at": "2026-06-27T11:41:01.497131+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "9408357823e93a98cd2acacbc63f4884",
+      "url": "https://www.fosslinux.com/158206/linux-on-older-hardware-revival-guide.htm",
+      "title": "Linux on Older Hardware: The Complete Revival Guide",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48668747\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-25T04:06:29+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-27T10:09:51.251676+00:00",
+      "updated_at": "2026-06-27T11:41:01.497133+00:00",
+      "metadata": {
+        "processed_at": "2026-06-27T11:41:01.497135+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "32c9cee39e6c6d76380b34b6cd47a769",
+      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "title": "DeepSeek open-sources inference optimizations with 60\u201385% faster generation [pdf]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48696585\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-27T09:18:52+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-27T10:09:51.251632+00:00",
+      "updated_at": "2026-06-27T11:41:01.497139+00:00",
+      "metadata": {
+        "processed_at": "2026-06-27T11:41:01.497141+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "32c9cee39e6c6d76380b34b6cd47a769",
+      "url": "https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf",
+      "title": "DeepSeek open-sources inference optimizations with 60\u201385% faster generation [pdf]",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48696585\">Comments</a>",
+      "author": "",
+      "published_date": "2026-06-27T09:18:52+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-06-27T10:09:51.251632+00:00",
+      "updated_at": "2026-06-27T11:41:01.497139+00:00",
+      "metadata": {
+        "processed_at": "2026-06-27T11:41:01.497141+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "1a7bf895c6d374ce10a57e6159725e34",
       "url": "https://www.nature.com/articles/s41598-026-58562-3",
       "title": "Development of high-precision automated dynamic plantar aesthesiometer (ADPA): a promising tool in pain research",
@@ -242,126 +362,6 @@
       "updated_at": "2026-06-27T10:00:40.375641+00:00",
       "metadata": {
         "processed_at": "2026-06-27T10:00:40.375642+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "57d74b12648b16ad095917f8437cc6d2",
-      "url": "https://fusion-lang.org/",
-      "title": "Fusion Programming Language",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48658148\">Comments</a>",
-      "author": "",
-      "published_date": "2026-06-24T11:27:07+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-06-27T07:50:31.047934+00:00",
-      "updated_at": "2026-06-27T10:00:40.375644+00:00",
-      "metadata": {
-        "processed_at": "2026-06-27T10:00:40.375646+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3a21b86d463eb73732b27b97bcca18b0",
-      "url": "https://www.nature.com/articles/s41386-026-02482-3",
-      "title": "In memoriam\u2014Shigeto Yamawaki, M.D., Ph.D. (1954\u20132026)",
-      "content": "",
-      "author": "",
-      "published_date": "2026-06-27T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-06-27T04:35:51.824142+00:00",
-      "updated_at": "2026-06-27T06:49:41.530907+00:00",
-      "metadata": {
-        "processed_at": "2026-06-27T06:49:41.530917+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "56ff0c8b2d0476a499da9923787f170d",
-      "url": "https://www.nature.com/articles/s44387-026-00121-2",
-      "title": "From LIF to QIF: Toward differentiable spiking neurons for scientific machine learning",
-      "content": "",
-      "author": "",
-      "published_date": "2026-06-27T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-06-27T04:35:51.824117+00:00",
-      "updated_at": "2026-06-27T06:49:41.530921+00:00",
-      "metadata": {
-        "processed_at": "2026-06-27T06:49:41.530923+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ec393e756809065430f94b1eb546562b",
-      "url": "https://www.reddit.com/r/Python/comments/1ugrstp/how_will_be_the_future_with_ai_with_no_coding/",
-      "title": "How will be the future with AI with no coding knowledge required",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Just curious: will IT jobs still be secure if everything is moving toward vibe coding and prompt engineering?</p> <p>Every day there\u2019s a new model, a new company, or new news, and the speed of change is honestly frightening.</p> <p>It\u2019s hard to stay motivated to learn new things when it feels like the landscape keeps shifting. I have Python and cloud certifications, but even freshers are doing similar things with AI prompts.</p> <p>What does the future look like?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/batman-iphone\"> /u/batman-iphone </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ugrstp/how_will_be_the_future_with_ai_with_no_coding/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ugrstp/how_will_be_the_future_with_ai_with_no_coding/\">[comments]</a></span>",
-      "author": "/u/batman-iphone",
-      "published_date": "2026-06-27T03:32:59+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 98,
-      "reading_time": 1,
-      "created_at": "2026-06-27T04:35:18.196468+00:00",
-      "updated_at": "2026-06-27T06:49:41.530926+00:00",
-      "metadata": {
-        "processed_at": "2026-06-27T06:49:41.530927+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "33ea0f1e1c2e9e52094dfa03ee3e9b55",
-      "url": "https://www.reddit.com/r/Python/comments/1ugnaii/saturday_daily_thread_resource_request_and/",
-      "title": "Saturday Daily Thread: Resource Request and Sharing! Daily Thread",
-      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: Resource Request and Sharing \ud83d\udcda</h1> <p>Stumbled upon a useful Python resource? Or are you looking for a guide on a specific topic? Welcome to the Resource Request and Sharing thread!</p> <h2>How it Works:</h2> <ol> <li><strong>Request</strong>: Can't find a resource on a particular topic? Ask here!</li> <li><strong>Share</strong>: Found something useful? Share it with the community.</li> <li><strong>Review</strong>: Give or get opinions on Python resources you've used.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Please include the type of resource (e.g., book, video, article) and the topic.</li> <li>Always be respectful when reviewing someone else's shared resource.</li> </ul> <h2>Example Shares:</h2> <ol> <li><strong>Book</strong>: <a href=\"https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008\">&quot;Fluent Python&quot;</a> - Great for understanding Pythonic idioms.</li> <li><strong>Video</strong>: <a href=\"https://www.youtube.com/watch?v=pkYVOmU3MgA\">Python Data Structures</a> - Excellent overview of Python's built-in data structures.</li> <li><strong>Article</strong>: <a href=\"https://realpython.com/primer-on-python-decorators/\">Understanding Python Decorators</a> - A deep dive into decorators.</li> </ol> <h2>Example Requests:</h2> <ol> <li><strong>Looking for</strong>: Video tutorials on web scraping with Python.</li> <li><strong>Need</strong>: Book recommendations for Python machine learning.</li> </ol> <p>Share the knowledge, enrich the community. Happy learning! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ugnaii/saturday_daily_thread_resource_request_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ugnaii/saturday_daily_thread_resource_request_and/\">[comments]</a></span>",
-      "author": "/u/AutoModerator",
-      "published_date": "2026-06-27T00:00:06+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 180,
-      "reading_time": 1,
-      "created_at": "2026-06-27T04:35:18.196387+00:00",
-      "updated_at": "2026-06-27T06:49:41.530929+00:00",
-      "metadata": {
-        "processed_at": "2026-06-27T06:49:41.530931+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3bd8cd416992096c25ad43c0f0258a7e",
-      "url": "https://www.reddit.com/r/Python/comments/1ugsdwl/handling_errors_as_values_in_python_with_katharos/",
-      "title": "Handling Errors as Values in Python with Katharos",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys this tutorial is about handling errors as value in Python or in nerd language monadic error handling pattern in Python using <a href=\"https://github.com/kamalfarahani/katharos\">katharos</a> library:</p> <p><a href=\"https://theblog.info/posts/handling-errors-as-values-in-python-with-katharos\">https://theblog.info/posts/handling-errors-as-values-in-python-with-katharos</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EntryNo8040\"> /u/EntryNo8040 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1ugsdwl/handling_errors_as_values_in_python_with_katharos/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1ugsdwl/handling_errors_as_values_in_python_with_katharos/\">[comments]</a></span>",
-      "author": "/u/EntryNo8040",
-      "published_date": "2026-06-27T04:02:32+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 49,
-      "reading_time": 1,
-      "created_at": "2026-06-27T04:35:18.196342+00:00",
-      "updated_at": "2026-06-27T06:49:41.530933+00:00",
-      "metadata": {
-        "processed_at": "2026-06-27T06:49:41.530935+00:00",
         "processing_method": "github_actions"
       }
     }
