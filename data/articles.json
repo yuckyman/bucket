@@ -1,5 +1,85 @@
 [
   {
+    "id": "11c736cf2209e45a084c89e7395eab36",
+    "url": "https://www.nature.com/articles/s41598-026-60386-0",
+    "title": "A data-driven framework for long-term risk stratification of advanced Parkinson\u2019s disease using PPMI",
+    "content": "",
+    "author": "",
+    "published_date": "2026-07-05T00:00:00+00:00",
+    "source": "Nature Neuroscience Subjects",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 0,
+    "reading_time": 1,
+    "created_at": "2026-07-05T21:02:16.658346+00:00",
+    "updated_at": "2026-07-05T21:02:16.658348+00:00"
+  },
+  {
+    "id": "2ff0ba00aa1e22a81082b80a3282951f",
+    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae782f",
+    "title": "fNIRS single-trial decoding improves systematically with higher optode density, model-based noise regression, and image reconstruction",
+    "content": "Objective. Advances in high-density (HD) diffuse optical tomography (HD-DOT) promise to overcome long-standing performance limitations in classification of sparse functional near-infrared spectroscopy (fNIRS) signals, but their combined impact on single-trial brain decoding and generalization remains largely unquantified. Here, we systematically evaluate how probe density, physiology removal via short-separation (SS) regression within a general linear model (GLM), and image-space feature representations aligned with brain parcellation schemes shape single-trial decoding accuracy. Approach. To enable a structured investigation and validation via realistic ground truth data, we introduce a flexible, easy-to-use framework that allows users to augment their own channel space resting-state fNIRS data with configurable synthetic hemodynamic response functions (HRFs) on target areas of the brain, using a state-of-the art diffuse optical forward model. Using three HD fNIRS datasets\u2014a whole-head resting-state recording augmented with synthetic HRFs and two motor ball-squeezing datasets\u2014we derive sparse-to-HD optode subsets, integrate GLM-based SS regression into cross-validation, and compare channel-space and parcel-space features derived from HD-DOT image reconstructions. Main results. HD configurations consistently and significantly improve classification accuracy and robustness to focal activations. SS correction yields systematic gains of approximately 4% in within-subject decoding and more than 10 percentage points in cross-dataset transfer. Parcel-space features outperform channel-space features at matched dimensionality, enabling robust leave-one-subject-out decoding (mean accuracy 79%) and cross-dataset generalization across different probe layouts (72% with SS correction). Significance. All methodology is implemented and available in the open-source Cedalion framework. Together, these results demonstrate that HD-DOT, GLM-based SS regression, and parcel-space representations jointly enable significantly more accurate, robust, and probe-independent fNIRS classification pipelines.",
+    "author": "Thomas Fischer, Eike Middell, Shakiba Moradi and Alexander von L\u00fchmann",
+    "published_date": "2026-06-24T23:00:00+00:00",
+    "source": "Journal Neural Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 255,
+    "reading_time": 1,
+    "created_at": "2026-07-05T21:02:02.753049+00:00",
+    "updated_at": "2026-07-05T21:02:02.753050+00:00"
+  },
+  {
+    "id": "51e2771a55b5f55cf08a4eb0bec85818",
+    "url": "https://thomasw.dev/post/aux11/",
+    "title": "Installing A/UX 1.1 like it's the 90s",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=48795323\">Comments</a>",
+    "author": "",
+    "published_date": "2026-07-05T16:07:10+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-07-05T21:01:38.924974+00:00",
+    "updated_at": "2026-07-05T21:01:38.924976+00:00"
+  },
+  {
+    "id": "bbf0d1aa4ee32552de3ccdf56df9ca72",
+    "url": "https://tekstien-marginaalien-keskus.aalto.fi/residenssi/heikki/blog/004-december-2/",
+    "title": "Mr. Baby Paint and accidentally discovering a new cellular automata",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=48770291\">Comments</a>",
+    "author": "",
+    "published_date": "2026-07-03T03:13:53+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-07-05T21:01:38.924881+00:00",
+    "updated_at": "2026-07-05T21:01:38.924883+00:00"
+  },
+  {
+    "id": "51e2771a55b5f55cf08a4eb0bec85818",
+    "url": "https://thomasw.dev/post/aux11/",
+    "title": "Installing A/UX 1.1 like it's the 90s",
+    "content": "<p>Article URL: <a href=\"https://thomasw.dev/post/aux11/\">https://thomasw.dev/post/aux11/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48795323\">https://news.ycombinator.com/item?id=48795323</a></p>\n<p>Points: 30</p>\n<p># Comments: 8</p>",
+    "author": "zdw",
+    "published_date": "2026-07-05T16:07:10+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-07-05T21:01:37.853353+00:00",
+    "updated_at": "2026-07-05T21:01:37.853355+00:00"
+  },
+  {
     "id": "71b8bd5e88bef8e153d87d6be71b9159",
     "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003714?dgcid=rss_sd_all",
     "title": "Sex differences in the effects of chronic stress and oxycodone associative learning on glial markers in rat hippocampus",
@@ -60,6 +140,26 @@
     }
   },
   {
+    "id": "b7b1ec7e5c967377cce60aa190cd01b6",
+    "url": "https://shub.club/writings/2026/july/you-need-a-webring/",
+    "title": "You need a webring",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=48796792\">Comments</a>",
+    "author": "",
+    "published_date": "2026-07-05T18:46:07+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-07-05T19:51:26.818415+00:00",
+    "updated_at": "2026-07-05T20:53:19.156717+00:00",
+    "metadata": {
+      "processed_at": "2026-07-05T20:53:19.156719+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
     "id": "47e8eb21fbd341679a24c0684e7aa628",
     "url": "https://sigfrid-lundberg.se/entries/2010/07/hate_xml/",
     "title": "Do you hate XML? (2010)",
@@ -76,6 +176,46 @@
     "updated_at": "2026-07-05T20:53:19.156721+00:00",
     "metadata": {
       "processed_at": "2026-07-05T20:53:19.156723+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "47e8eb21fbd341679a24c0684e7aa628",
+    "url": "https://sigfrid-lundberg.se/entries/2010/07/hate_xml/",
+    "title": "Do you hate XML? (2010)",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=48796438\">Comments</a>",
+    "author": "",
+    "published_date": "2026-07-05T18:10:50+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-07-05T19:51:26.818362+00:00",
+    "updated_at": "2026-07-05T20:53:19.156721+00:00",
+    "metadata": {
+      "processed_at": "2026-07-05T20:53:19.156723+00:00",
+      "processing_method": "github_actions"
+    }
+  },
+  {
+    "id": "0d2b41d4706801b95227583ae1a4c719",
+    "url": "https://blog.flipper.net/future-of-flipper-zero-development/",
+    "title": "The future of Flipper Zero development",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=48796552\">Comments</a>",
+    "author": "",
+    "published_date": "2026-07-05T18:22:00+00:00",
+    "source": "Hacker News",
+    "status": "processed",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-07-05T19:51:26.818345+00:00",
+    "updated_at": "2026-07-05T20:53:19.156725+00:00",
+    "metadata": {
+      "processed_at": "2026-07-05T20:53:19.156727+00:00",
       "processing_method": "github_actions"
     }
   },
@@ -132,26 +272,6 @@
     "updated_at": "2026-07-05T19:51:25.611124+00:00"
   },
   {
-    "id": "47e8eb21fbd341679a24c0684e7aa628",
-    "url": "https://sigfrid-lundberg.se/entries/2010/07/hate_xml/",
-    "title": "Do you hate XML? (2010)",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=48796438\">Comments</a>",
-    "author": "",
-    "published_date": "2026-07-05T18:10:50+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-07-05T19:51:26.818362+00:00",
-    "updated_at": "2026-07-05T20:53:19.156721+00:00",
-    "metadata": {
-      "processed_at": "2026-07-05T20:53:19.156723+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
     "id": "8342bee5554a78a30c7e88e444523f6a",
     "url": "https://observer.co.uk/style/features/article/every-postcard-tells-a-story",
     "title": "Every postcard tells a story",
@@ -168,26 +288,6 @@
     "updated_at": "2026-07-05T19:51:25.611051+00:00"
   },
   {
-    "id": "0d2b41d4706801b95227583ae1a4c719",
-    "url": "https://blog.flipper.net/future-of-flipper-zero-development/",
-    "title": "The future of Flipper Zero development",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=48796552\">Comments</a>",
-    "author": "",
-    "published_date": "2026-07-05T18:22:00+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-07-05T19:51:26.818345+00:00",
-    "updated_at": "2026-07-05T20:53:19.156725+00:00",
-    "metadata": {
-      "processed_at": "2026-07-05T20:53:19.156727+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
     "id": "7788f904e496b376871a4b97faecae01",
     "url": "https://www.tomshardware.com/tech-industry/atomic-semi-rebrands-as-fab2-and-shifts-operations-to-texas",
     "title": "Jim Keller's startup is building a factory to mass-produce small chip fabs",
@@ -202,26 +302,6 @@
     "reading_time": 1,
     "created_at": "2026-07-05T19:51:25.611013+00:00",
     "updated_at": "2026-07-05T19:51:25.611015+00:00"
-  },
-  {
-    "id": "b7b1ec7e5c967377cce60aa190cd01b6",
-    "url": "https://shub.club/writings/2026/july/you-need-a-webring/",
-    "title": "You need a webring",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=48796792\">Comments</a>",
-    "author": "",
-    "published_date": "2026-07-05T18:46:07+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-07-05T19:51:26.818415+00:00",
-    "updated_at": "2026-07-05T20:53:19.156717+00:00",
-    "metadata": {
-      "processed_at": "2026-07-05T20:53:19.156719+00:00",
-      "processing_method": "github_actions"
-    }
   },
   {
     "id": "091c39f17562e83c2216a2c89f3fdaa5",
@@ -16838,97 +16918,5 @@
       "processed_at": "2026-06-30T21:24:34.558258+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "e13065cb5da41a2b14069f420a3b9874",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.06.25.734451v1?rss=1",
-    "title": "APP-CTF\u03b2/C99 oligomers drive synaptic vesicle tethering through C-terminal interactions",
-    "content": "Proteolytic processing of the amyloid precursor protein (APP) generates a 99-amino acid precursor, {beta}-carboxyl-terminal fragments (APP-CTF{beta} or C99). Upon {gamma}-secretase inhibition, APP-CTF{beta} accumulates and induces synaptic defects, resulting in neuronal hyperactivity. However, mechanistic insights in the critical role of APP-CTF{beta} has not been completely elucidated. Here, we show that in primary neurons expressing human APP-CTF{beta} (C99) variants, acute {gamma}-secretase inhibition selectively increases evoked synaptic vesicle release in cells, whereas deletion of the C-terminus abolishes this effect. Using single-molecule approaches and reconstituted membrane systems, we demonstrate that accumulation of APP-CTF{beta} promotes its oligomerisation. In particular, APP-CTF{beta} oligomers augment synaptic vesicle tethering via their C-terminal domain. This effect is driven by the interaction with synaptic vesicle proteins, independent of the YENPTY binding motif. Additionally, APP-CTF{beta} oligomers were associated with alterations in membrane lipid organization. Together, our findings identify APP-CTF{beta} oligomerization as a constitutional gain-of-function mechanism that enhances presynaptic vesicle tethering and release, providing mechanistic insight into how altered APP processing regulates synaptic activity.",
-    "author": "Kapadia, A. B., Cijffers, E., Van, S., Hafner, A.-S.",
-    "published_date": "2026-06-30T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 161,
-    "reading_time": 1,
-    "created_at": "2026-06-30T20:58:34.144270+00:00",
-    "updated_at": "2026-06-30T21:24:34.558263+00:00",
-    "metadata": {
-      "processed_at": "2026-06-30T21:24:34.558265+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "fc67f9b70029997ac195992e203faf70",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.06.25.734556v1?rss=1",
-    "title": "Perceptual training selectively strengthens top-down signaling to sensory cortex",
-    "content": "Sensory cortical neurons adjust their responses to enhance the detection and discrimination of behaviorally relevant stimuli. Top-down signals from frontal cortical regions are thought to mediate these changes, and prior work has proposed that these signals may strengthen during perceptual learning. However, this hypothesis has not been tested directly. Here, we asked whether neurons in the orbitofrontal cortex (OFC), a higher-order brain region implicated in top-down control of sensory cortex, alter their activity during auditory perceptual learning and whether learning-related changes are transmitted to sensory cortex. We found that OFC neurons encode both trial outcome and stimulus-related information, and that the strength and sensitivity of these signals increase as animals learn to detect progressively weaker amplitude modulations. Notably, learning-related changes were conveyed to auditory cortex, but not visual cortex, indicating that perceptual learning selectively strengthens signaling within a task-relevant frontal-to-sensory cortical circuit. Together, these findings provide direct evidence that top-down cortical networks are modified during perceptual learning.",
-    "author": "Macedo-Lima, M., McCollum, M., Caras, M. L.",
-    "published_date": "2026-06-30T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 157,
-    "reading_time": 1,
-    "created_at": "2026-06-30T20:58:34.144238+00:00",
-    "updated_at": "2026-06-30T21:24:34.558268+00:00",
-    "metadata": {
-      "processed_at": "2026-06-30T21:24:34.558269+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "b8fdc27981d3d366507e0693113b07ca",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.06.25.734505v1?rss=1",
-    "title": "Spinal injury induces a stem cell-like progenitor state that promotes regenerative neurogenesis via clcf1 in zebrafish.",
-    "content": "After spinal injury, zebrafish, in contrast to mammals, show regenerative neurogenesis, characterized by enhanced injury-induced proliferation of ependymo-radial glial cells (ERGs) and an increase in injury-induced generation of neurons from these progenitors. It is unclear whether regenerative neurogenesis simply recapitulates development or uses regeneration-specific mechanisms. Using scRNA-seq and in vivo validation we find a spinal injury-induced state in ERGs (iiERGs) in larval zebrafish. This cell state emerges mostly without proliferation and has stem cell characteristics, including weak expression of neurogenic genes and strong expression of stemness factors, such as lin28a. Expression of lin28a is not detectable during ongoing developmental neurogenesis. Following spinal cord lesion, lin28a disruption increases the numbers of ERGs undergoing neuronal differentiation and of newly-generated neurons, at the expense of proliferating ERGs and iiERGs. This supports a stemness-preserving role of lin28a in iiERGs. Importantly, iiERGs secrete growth factors, including the regeneration-specific cytokine clcf1, which depends in part on lin28a expression. Disruption of clcf1 signalling impairs spinal progenitor proliferation and injury-induced generation of new neurons, but does not affect the emergence of iiERGs. Over-expression of clcf1 is sufficient to augment neurogenesis in unlesioned animals without inducing the iiERG state, indicating that clcf1 acts as a generic growth factor. Hence, we describe an injury-specific stem cell-like ERG population that regulates regenerative neurogenesis by attenuating neuronal differentiation via lin28a and promoting progenitor proliferation via clcf1.",
-    "author": "Westphal, M., Branch, R., Docampo-Seara, A., Cosacak, M. I., Logvinova, E., Bellia, M., Cheng, S., Tsarouchas, T. M., Bretschneider, A., Zoeller, D., Shen, R., Scucces, L., Baerhold, D., Becker, T., Becker, C. G.",
-    "published_date": "2026-06-30T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 224,
-    "reading_time": 1,
-    "created_at": "2026-06-30T20:58:34.144205+00:00",
-    "updated_at": "2026-06-30T21:24:34.558271+00:00",
-    "metadata": {
-      "processed_at": "2026-06-30T21:24:34.558273+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "a011093ad9824534a9d9027ff8bd2e0a",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.06.25.734467v1?rss=1",
-    "title": "Recent history attracts and repels perceptual decisions depending on surprise",
-    "content": "Past sensory experience shapes our perceptual decision-making in the now. Popular models frame perceptual decisions as either attracted towards or repelled away from recent sensory information, but it is unclear when and why these distinct effects emerge. We here ask whether effects turn from attractive to repulsive depending on the level of surprise elicited by the precision-weighted discrepancy between past and present sensory states. This model is based upon the idea that attraction is adaptive for optimizing efficiency and accuracy when discrepancies are small, because they likely reflect sensory noise rather than real change in the environment. In contrast, repulsion may reflect the upweighting of counterfactual evidence when discrepancies are large because they more likely signal the need for model updating. We test this model on a large amount of recently-collated trial-by-trial serial dependence data and consistently find support for it across the dataset, participant, and trial-by-trial level. Specifically, serial dependence effects are attractive at low discrepancies between past and current sensory states but turn repulsive when discrepancies are larger. Higher sensory precision is found to accelerate this flip by reducing the modal discrepancy threshold required to trigger repulsion effects. We discuss how these findings necessitate extending existing theories of serial dependence, and how they may resolve conflicts in the broader predictive processing, learning and perception literatures.",
-    "author": "Kaltenmaier, A., Press, C.",
-    "published_date": "2026-06-30T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 217,
-    "reading_time": 1,
-    "created_at": "2026-06-30T20:58:34.144169+00:00",
-    "updated_at": "2026-06-30T20:58:34.144170+00:00"
-  },
-  {
-    "id": "4255448677b0b00c665825d2553dbbff",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.06.25.734502v1?rss=1",
-    "title": "Diverse origins and transcriptional profiles of macrophages in a spinal lesion in zebrafish",
-    "content": "The injury responses of tissue-resident macrophages in the CNS (microglia) and blood-derived macrophages (BDMs) play key roles in successful regeneration of the zebrafish spinal cord, but the origins and dynamic behaviours of these immune cells are not well characterized. Here, we find that microglia, labelled by the p2ry12:GFP reporter gene, migrate long-distance through neural tissue from the brain to the spinal lesion site, while BDMs, labelled by the mpeg1:mCherry reporter gene, migrate mainly from the caudal hematopoietic tissue to the lesion and back. Half of p2ry12:GFP-positive microglia co-express mpeg1:mCherry, while mpeg1:mCherry-positive BDMs are mostly p2ry12:GFP-negative. However, a BDM sub-population starts to express p2ry12:GFP in the lesion. This indicates heterogeneous and dynamic gene expression in macrophage populations. Gene expression profiling reveals several microglia-like and BDM-like clusters in the lesion with gene expression profiles related to proliferation, phagocytosis, pro- and anti-inflammatory phenotypes and distinct expression of regeneration-relevant genes. The most abundant cell cluster are densely-packed microglia-like cells in the lesion core, which express the novel marker g0s2, as well as phagocytosis-related genes. Hence, regenerative success of the zebrafish spinal cord is linked to a heterogeneous and dynamic response of microglia and BDM subpopulations.",
-    "author": "Heilemann, K., Jidav, E. V., Cark, O., Enos, S. J., Wolf, B., Becker, C. G., Becker, T., Docampo Seara, A.",
-    "published_date": "2026-06-30T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 191,
-    "reading_time": 1,
-    "created_at": "2026-06-30T20:58:34.144131+00:00",
-    "updated_at": "2026-06-30T20:58:34.144133+00:00"
   }
 ]

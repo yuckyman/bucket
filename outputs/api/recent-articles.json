@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-07-05T20:53:19.268481+00:00",
+  "last_updated": "2026-07-05T21:02:47.100351+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "11c736cf2209e45a084c89e7395eab36",
+      "url": "https://www.nature.com/articles/s41598-026-60386-0",
+      "title": "A data-driven framework for long-term risk stratification of advanced Parkinson\u2019s disease using PPMI",
+      "content": "",
+      "author": "",
+      "published_date": "2026-07-05T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-07-05T21:02:16.658346+00:00",
+      "updated_at": "2026-07-05T21:02:16.658348+00:00"
+    },
+    {
+      "id": "2ff0ba00aa1e22a81082b80a3282951f",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae782f",
+      "title": "fNIRS single-trial decoding improves systematically with higher optode density, model-based noise regression, and image reconstruction",
+      "content": "Objective. Advances in high-density (HD) diffuse optical tomography (HD-DOT) promise to overcome long-standing performance limitations in classification of sparse functional near-infrared spectroscopy (fNIRS) signals, but their combined impact on single-trial brain decoding and generalization remains largely unquantified. Here, we systematically evaluate how probe density, physiology removal via short-separation (SS) regression within a general linear model (GLM), and image-space feature representations aligned with brain parcellation schemes shape single-trial decoding accuracy. Approach. To enable a structured investigation and validation via realistic ground truth data, we introduce a flexible, easy-to-use framework that allows users to augment their own channel space resting-state fNIRS data with configurable synthetic hemodynamic response functions (HRFs) on target areas of the brain, using a state-of-the art diffuse optical forward model. Using three HD fNIRS datasets\u2014a whole-head resting-state recording augmented with synthetic HRFs and two motor ball-squeezing datasets\u2014we derive sparse-to-HD optode subsets, integrate GLM-based SS regression into cross-validation, and compare channel-space and parcel-space features derived from HD-DOT image reconstructions. Main results. HD configurations consistently and significantly improve classification accuracy and robustness to focal activations. SS correction yields systematic gains of approximately 4% in within-subject decoding and more than 10 percentage points in cross-dataset transfer. Parcel-space features outperform channel-space features at matched dimensionality, enabling robust leave-one-subject-out decoding (mean accuracy 79%) and cross-dataset generalization across different probe layouts (72% with SS correction). Significance. All methodology is implemented and available in the open-source Cedalion framework. Together, these results demonstrate that HD-DOT, GLM-based SS regression, and parcel-space representations jointly enable significantly more accurate, robust, and probe-independent fNIRS classification pipelines.",
+      "author": "Thomas Fischer, Eike Middell, Shakiba Moradi and Alexander von L\u00fchmann",
+      "published_date": "2026-06-24T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 255,
+      "reading_time": 1,
+      "created_at": "2026-07-05T21:02:02.753049+00:00",
+      "updated_at": "2026-07-05T21:02:02.753050+00:00"
+    },
+    {
+      "id": "51e2771a55b5f55cf08a4eb0bec85818",
+      "url": "https://thomasw.dev/post/aux11/",
+      "title": "Installing A/UX 1.1 like it's the 90s",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48795323\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-05T16:07:10+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-05T21:01:38.924974+00:00",
+      "updated_at": "2026-07-05T21:01:38.924976+00:00"
+    },
+    {
+      "id": "bbf0d1aa4ee32552de3ccdf56df9ca72",
+      "url": "https://tekstien-marginaalien-keskus.aalto.fi/residenssi/heikki/blog/004-december-2/",
+      "title": "Mr. Baby Paint and accidentally discovering a new cellular automata",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48770291\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-03T03:13:53+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-05T21:01:38.924881+00:00",
+      "updated_at": "2026-07-05T21:01:38.924883+00:00"
+    },
+    {
+      "id": "51e2771a55b5f55cf08a4eb0bec85818",
+      "url": "https://thomasw.dev/post/aux11/",
+      "title": "Installing A/UX 1.1 like it's the 90s",
+      "content": "<p>Article URL: <a href=\"https://thomasw.dev/post/aux11/\">https://thomasw.dev/post/aux11/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48795323\">https://news.ycombinator.com/item?id=48795323</a></p>\n<p>Points: 30</p>\n<p># Comments: 8</p>",
+      "author": "zdw",
+      "published_date": "2026-07-05T16:07:10+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-07-05T21:01:37.853353+00:00",
+      "updated_at": "2026-07-05T21:01:37.853355+00:00"
+    },
     {
       "id": "71b8bd5e88bef8e153d87d6be71b9159",
       "url": "https://www.sciencedirect.com/science/article/pii/S0306452226003714?dgcid=rss_sd_all",
@@ -63,6 +143,26 @@
       }
     },
     {
+      "id": "b7b1ec7e5c967377cce60aa190cd01b6",
+      "url": "https://shub.club/writings/2026/july/you-need-a-webring/",
+      "title": "You need a webring",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48796792\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-05T18:46:07+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-05T19:51:26.818415+00:00",
+      "updated_at": "2026-07-05T20:53:19.156717+00:00",
+      "metadata": {
+        "processed_at": "2026-07-05T20:53:19.156719+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "47e8eb21fbd341679a24c0684e7aa628",
       "url": "https://sigfrid-lundberg.se/entries/2010/07/hate_xml/",
       "title": "Do you hate XML? (2010)",
@@ -79,6 +179,46 @@
       "updated_at": "2026-07-05T20:53:19.156721+00:00",
       "metadata": {
         "processed_at": "2026-07-05T20:53:19.156723+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "47e8eb21fbd341679a24c0684e7aa628",
+      "url": "https://sigfrid-lundberg.se/entries/2010/07/hate_xml/",
+      "title": "Do you hate XML? (2010)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48796438\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-05T18:10:50+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-05T19:51:26.818362+00:00",
+      "updated_at": "2026-07-05T20:53:19.156721+00:00",
+      "metadata": {
+        "processed_at": "2026-07-05T20:53:19.156723+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "0d2b41d4706801b95227583ae1a4c719",
+      "url": "https://blog.flipper.net/future-of-flipper-zero-development/",
+      "title": "The future of Flipper Zero development",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48796552\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-05T18:22:00+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-05T19:51:26.818345+00:00",
+      "updated_at": "2026-07-05T20:53:19.156725+00:00",
+      "metadata": {
+        "processed_at": "2026-07-05T20:53:19.156727+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -135,26 +275,6 @@
       "updated_at": "2026-07-05T19:51:25.611124+00:00"
     },
     {
-      "id": "47e8eb21fbd341679a24c0684e7aa628",
-      "url": "https://sigfrid-lundberg.se/entries/2010/07/hate_xml/",
-      "title": "Do you hate XML? (2010)",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48796438\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-05T18:10:50+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-05T19:51:26.818362+00:00",
-      "updated_at": "2026-07-05T20:53:19.156721+00:00",
-      "metadata": {
-        "processed_at": "2026-07-05T20:53:19.156723+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "8342bee5554a78a30c7e88e444523f6a",
       "url": "https://observer.co.uk/style/features/article/every-postcard-tells-a-story",
       "title": "Every postcard tells a story",
@@ -171,26 +291,6 @@
       "updated_at": "2026-07-05T19:51:25.611051+00:00"
     },
     {
-      "id": "0d2b41d4706801b95227583ae1a4c719",
-      "url": "https://blog.flipper.net/future-of-flipper-zero-development/",
-      "title": "The future of Flipper Zero development",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48796552\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-05T18:22:00+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-05T19:51:26.818345+00:00",
-      "updated_at": "2026-07-05T20:53:19.156725+00:00",
-      "metadata": {
-        "processed_at": "2026-07-05T20:53:19.156727+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "7788f904e496b376871a4b97faecae01",
       "url": "https://www.tomshardware.com/tech-industry/atomic-semi-rebrands-as-fab2-and-shifts-operations-to-texas",
       "title": "Jim Keller's startup is building a factory to mass-produce small chip fabs",
@@ -205,26 +305,6 @@
       "reading_time": 1,
       "created_at": "2026-07-05T19:51:25.611013+00:00",
       "updated_at": "2026-07-05T19:51:25.611015+00:00"
-    },
-    {
-      "id": "b7b1ec7e5c967377cce60aa190cd01b6",
-      "url": "https://shub.club/writings/2026/july/you-need-a-webring/",
-      "title": "You need a webring",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48796792\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-05T18:46:07+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-05T19:51:26.818415+00:00",
-      "updated_at": "2026-07-05T20:53:19.156717+00:00",
-      "metadata": {
-        "processed_at": "2026-07-05T20:53:19.156719+00:00",
-        "processing_method": "github_actions"
-      }
     },
     {
       "id": "091c39f17562e83c2216a2c89f3fdaa5",
@@ -277,102 +357,6 @@
         "processed_at": "2026-07-05T19:09:16.406715+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "88cb50706befdc053bee22d84f16dac5",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1613151",
-      "title": "A 3D-printed phantom to validate subject orientation in 3D imaging and recordings",
-      "content": "A phantom defined by a 3D-printed system of markers representing an anatomical coordinate system is proposed. This phantom is designed for use in magnetic resonance and X-ray imaging devices to validate acquisition parameters and prevent laterality errors during image acquisition and processing. The phantom allows visualization of the coordinate system axes \u2013 left-right, posterior-anterior, and inferior-superior \u2013 in all orthogonal slices of a volume. A computational method, using the phantom as a reference, is also proposed to automatically detect and correct flips and permutations in RAS coordinate system representations. Testing the phantom across four modalities available in our platforms, followed by conversions of the recordings to the NIfTI format, enables the detection, correction, and adjustment of protocols in 4 out of 5 configurations. The 3D printing models and orientation detection/correction code are shared with the community as open-source and open-access resources to enable quick, cost-effective, and accessible production.",
-      "author": "Emmanuel L. Barbier",
-      "published_date": "2026-05-28T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 148,
-      "reading_time": 1,
-      "created_at": "2026-07-05T18:04:35.500952+00:00",
-      "updated_at": "2026-07-05T19:09:16.406718+00:00",
-      "metadata": {
-        "processed_at": "2026-07-05T19:09:16.406720+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c76038eefc490d8cf41bb0752846dff8",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1807958",
-      "title": "Design of dynamic adaptive control framework for exoskeleton robot driven by neuromuscular signal based on deep reinforcement learning",
-      "content": "To enhance the dynamic adaptability and robustness of neuromuscular signal-driven exoskeleton robots in complex environments. This study develops a Deep Reinforcement Learning (DRL)-based exoskeleton control framework. A module for neuromuscular signal processing and motion intention modeling is designed, encompassing band-pass filtering, local normalization, time-frequency feature extraction, and Bidirectional Long Short-Term Memory (BiLSTM) time-series encoding. Additionally, a DRL-based dynamically adaptive control framework is established. Trajectory tracking error, torque smoothness, energy consumption agent, joint safety constraint and intention consistency are comprehensively introduced into the reward function to achieve the multi-objective balance of \u201caccuracy-comfort-energy consumption-safety.\u201d Comparative experiments demonstrate that the joint trajectory tracking errors of the proposed optimized system are 2.37\u00b0, 2.64\u00b0, and 2.92\u00b0, respectively. These values are significantly lower than those of comparative systems, including the Deep Reinforcement Learning-based Robust Controller for Lower-Limb Rehabilitation Exoskeletons (DRL-RC-LLRE) and the Learning-in-Simulation Exoskeleton Assistance Framework (LiS-EXO). The corresponding torque smoothness indicators are 0.62, 0.68, and 0.71. The mechanical energy consumption proxy indicators are 10.48, 11.39, and 11.67, indicating that while improving the tracking accuracy, the torque oscillation is effectively suppressed and the energy consumption is reduced. The ablation experiments further show that when any of the neuromuscular intention embedding, intention consistency reward or safety constraint modules are removed, the average trajectory error, torque smoothness and energy consumption indicators all deteriorate to varying degrees. The complete model achieves 2.63\u00b0, 0.66, and 11.17, respectively, in the three indicators, verifying the collaborative contribution of the three key modules to the overall performance. Overall, this study has constructed and verified a reproducible \u201cneuromuscular signal-motion intention-reinforcement learning control\u201d integrated framework, and thus having certain contributions to the field of intelligent exoskeleton control.",
-      "author": "Kaidi Ma",
-      "published_date": "2026-06-25T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 272,
-      "reading_time": 1,
-      "created_at": "2026-07-05T18:04:34.138068+00:00",
-      "updated_at": "2026-07-05T19:09:16.406722+00:00",
-      "metadata": {
-        "processed_at": "2026-07-05T19:09:16.406724+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9a1838d9e30aceb453d13fb18a5fb8fc",
-      "url": "https://fmhy.net/posts/july-2026",
-      "title": "Monthly Updates [July]",
-      "content": "<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Added <a href=\"https://www.flowlauncher.com/plugins/fmhy-search-3f7a2b1c-9e4d-4f8a-b3c2-1a5d8e7f0b9c\" rel=\"noreferrer\" target=\"_blank\">FMHY Plugin</a> to <a href=\"https://www.flowlauncher.com/\" rel=\"noreferrer\" target=\"_blank\">Flow Launcher</a>. Thank you to @finn for making this.</p>\n</li>\n<li>\n<p>Added section for <a href=\"https://fmhy.net/reading#kindle-tools\" rel=\"noreferrer\" target=\"_blank\">Kindle Tools</a> to Reading. Thank you to @Dan &amp; @Kiwi Kitten for making this.</p>\n</li>\n<li>\n<p>Added section for <a href=\"https://fmhy.net/video#p-stream-forks\" rel=\"noreferrer\" target=\"_blank\">P-Stream Forks</a> to Streaming.</p>\n</li>\n<li>\n<p>Added section for <a href=\"https://fmhy.net/internet-tools#chromium-tools\" rel=\"noreferrer\" target=\"_blank\">Chromium Tools</a> to Internet Tools.</p>\n</li>\n<li>\n<p>Added section for <a href=\"https://fmhy.net/educational#world-data\" rel=\"noreferrer\" target=\"_blank\">World Data</a> to Humanities. Thank you to @hiz for the idea.</p>\n</li>\n<li>\n<p>Added section for <a href=\"https://fmhy.net/educational#vexillology-flags\" rel=\"noreferrer\" target=\"_blank\">Vexillology / Flags</a> to Humanities. Thank you to @MTG for collecting resources.</p>\n</li>\n<li>\n<p>Separated <a href=\"https://fmhy.net/educational#aerospace-engineering\" rel=\"noreferrer\" target=\"_blank\">Aerospace Engineering</a> into subsections: <a href=\"https://fmhy.net/educational#rocketry\" rel=\"noreferrer\" target=\"_blank\">Rocketry</a> / <a href=\"https://fmhy.net/educational#drones\" rel=\"noreferrer\" target=\"_blank\">Drones</a> / <a href=\"https://fmhy.net/educational#simulators\" rel=\"noreferrer\" target=\"_blank\">Simulators</a>. Thank you to @yeet for collecting sites + @tomato for the idea.</p>\n</li>\n<li>\n<p>Re-organized <a href=\"https://fmhy.net/video-tools#video-players\" rel=\"noreferrer\" target=\"_blank\">Video Player</a> section + moved both MPV + MPC-HC above MPC-QT, as people don't feel its ease of use outweighs its potential issues or missing features (like config support). <a href=\"https://i.ibb.co/ksvk9R6C/1231234234.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/HBp3zGh.png\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Added Platform Icons to <a href=\"https://fmhy.net/system-tools#remote-desktop\" rel=\"noreferrer\" target=\"_blank\">Remote Desktop</a> + <a href=\"https://fmhy.net/system-tools#clipboard-managers\" rel=\"noreferrer\" target=\"_blank\">Clipboard Managers</a>, thank you to @zinklog for doing this. <a href=\"https://i.ibb.co/20Bb7MF3/3453456.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/m0R8QzX.png\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Added Platform Icons to <a href=\"https://fmhy.net/internet-tools#email-clients\" rel=\"noreferrer\" target=\"_blank\">Email Clients</a>, thank you to @draven for doing this. <a href=\"https://i.ibb.co/8gCfmYnF/354756uj.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/ATMzFBm.png\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Added Platform Icons to <a href=\"https://fmhy.net/internet-tools#chat-tools\" rel=\"noreferrer\" target=\"_blank\">Chat Tools</a>, thank you to @waflenoob for doing this.</p>\n</li>\n<li>\n<p>Improved the UI of the <a href=\"https://fmhy.net/posts\" rel=\"noreferrer\" target=\"_blank\">Posts Page</a>, thank you to @cufiy for doing this. <a href=\"https://i.ibb.co/dJQxgMk8/image.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/CzMIKFG.png\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Added 2 new FMHY dupe link checkers: <a href=\"https://link-checker-215e95.gitlab.io/\" rel=\"noreferrer\" target=\"_blank\">Link Checker</a> + <a href=\"https://fmhycheck.vercel.app/\" rel=\"noreferrer\" target=\"_blank\">FMHY Check</a>, thank you to @cufiy &amp; @casmay for making these.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred <a href=\"https://fmhy.net/mobile#youtube-music\" rel=\"noreferrer\" target=\"_blank\">ArchiveTune</a> in Android YouTube Music Apps, has a nice UI and seems to work well for people.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/misc#food\" rel=\"noreferrer\" target=\"_blank\">Too Good To Go</a> in Food section, good way to get cheap food, and prevent food waste, worked well for our members who tried it.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#tracking-database\" rel=\"noreferrer\" target=\"_blank\">Hardcover</a> in Reading Tracking / Databases, has a nice UI, lots of features, and ability to import from other platforms (like goodreads).</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/text-tools#pastebins\" rel=\"noreferrer\" target=\"_blank\">Yasosu</a> in Pastebins, has markdown support, allows editing posts, and has custom URLs.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#curated-recommendations\" rel=\"noreferrer\" target=\"_blank\">The Criterion Closet</a> in Curated Recommendations, 3D Criterion walk-in closet recreation with filters.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/linux-macos#linux-audio\" rel=\"noreferrer\" target=\"_blank\">LibrePods</a> in Linux Audio, allows you to use AirPod features on Linux (and android rooted).</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#anime-torrenting\" rel=\"noreferrer\" target=\"_blank\">SeaDex</a> in Anime Torrenting, anime video quality guide, can be used in combination with things like Stremio + AIOStream.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/linux-macos#linux-system\" rel=\"noreferrer\" target=\"_blank\">LACT</a> in Linux System, feature-rich GPU config + monitor, simplified overclocking.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#machine-learning\" rel=\"noreferrer\" target=\"_blank\">Unsloth</a> in Machine Learning, easy to use finetuning + AI suite, seems to be well liked.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/educational#periodic-tables\" rel=\"noreferrer\" target=\"_blank\">Zperiod</a> in Periodic Tables, clean interactive periodic table w/ 3D atom models.</p>\n</li>\n<li>\n<p><a href=\"https://fmhy.net/reading#ebooks\" rel=\"noreferrer\" target=\"_blank\">Bookracy</a> is back and has been re-added &amp; re-starred in Ebook section.</p>\n</li>\n<li>\n<p>Both <a href=\"https://fmhy.net/downloading#software-sites\" rel=\"noreferrer\" target=\"_blank\">Soft98 + DownloadHa</a> are working again, they've been re-added &amp; re-starred in the software section.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>Unstarred GOG-Games as they're <a href=\"https://i.ibb.co/6JyJQjZz/345.png\" rel=\"noreferrer\" target=\"_blank\">shutting down</a> / <a href=\"https://i.imgur.com/KXJMdAr.png\" rel=\"noreferrer\" target=\"_blank\">2</a> in 90 days.</li>\n</ul>",
-      "author": "",
-      "published_date": "2026-07-01T00:00:00+00:00",
-      "source": "Fmhy",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 640,
-      "reading_time": 3,
-      "created_at": "2026-07-05T18:04:09.016405+00:00",
-      "updated_at": "2026-07-05T19:09:16.406726+00:00",
-      "metadata": {
-        "processed_at": "2026-07-05T19:09:16.406728+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "6794c486cd9903825ffc77e6a3d1d62d",
-      "url": "https://danielstanica.com/posts/Great-Blogging-Collapse",
-      "title": "The Great Blogging Collapse: What Happened to 100 Successful Blogs?",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48758802\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-02T09:36:04+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-05T18:04:06.496404+00:00",
-      "updated_at": "2026-07-05T19:09:16.406730+00:00",
-      "metadata": {
-        "processed_at": "2026-07-05T19:09:16.406732+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e5e8f3e6e00899975f20ed2306dba36e",
-      "url": "https://popcar.bearblog.dev/its-about-ownership/",
-      "title": "It's not about physical vs. digital games, it's about ownership",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48794750\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-05T14:56:15+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-05T18:04:06.496327+00:00",
-      "updated_at": "2026-07-05T18:04:06.496329+00:00"
     }
   ]
 }
