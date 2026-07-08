@@ -1,24 +1,8 @@
 {
-  "last_updated": "2026-07-07T22:56:14.984111+00:00",
-  "pending_count": 756,
-  "processed_count": 244,
+  "last_updated": "2026-07-08T02:08:58.520899+00:00",
+  "pending_count": 755,
+  "processed_count": 245,
   "pending_articles": [
-    {
-      "id": "3924f6755b9e62ff5aa9cb6ad8f81cb9",
-      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2618568123?af=R",
-      "title": "Distinguishing direct androgenic signaling from local aromatization in the lateral septum",
-      "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 28, July 2026. <br />",
-      "author": "Dong\u2019e HuangJunqing DongaDepartment of Traditional Chinese Medicine, The 900th Hospital of the Joint Logistics Support Force, Fuzhou, Fujian 350004, ChinabDepartment of Physiotherapy, 900th Hospital of the Joint Logistics Support Force, Ningde, Fujian 352103, China",
-      "published_date": "2026-07-06T07:00:00+00:00",
-      "source": "Pnas Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 15,
-      "reading_time": 1,
-      "created_at": "2026-07-07T22:38:23.102750+00:00",
-      "updated_at": "2026-07-07T22:38:23.102752+00:00"
-    },
     {
       "id": "53d0355627c1d1e16ba3b84faaf2d820",
       "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2520095123?af=R",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2026-07-07T21:26:23.386893+00:00",
       "updated_at": "2026-07-07T21:26:23.386895+00:00"
+    },
+    {
+      "id": "a422977e20b65cbb7e6b0a97248c74ea",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.735693v1?rss=1",
+      "title": "Modeling human echolocation using a Kalman filter",
+      "content": "Some blind individuals use echolocation, a skill that allows them to better navigate their environment using echoes from self-generated mouth clicks reflected off surrounding surfaces. Echolocation involves a complex interplay of sensory accumulation, information processing, dynamic prediction, motor planning and execution in real-time. Computational modeling offers a valuable approach to understanding the cognitive and neural mechanisms underlying echolocation performance, in particular the temporal dynamics of the process. We present a computational model of human echolocation behavior based on a Kalman filter, where we treat the echolocator as an active sensor that maintains an internal belief about the target's location and continuously refines it via echo feedback. The model, based on observations of echolocation in blind human experts, simulates the use of mouth clicks and returning echoes to localize and orient toward a target under varying conditions. In the experiment, the target is placed at a random azimuth in the frontal plane. An echolocator aims a series of mouth clicks in various directions and infers the target azimuth using acoustic information received from the click echoes. The system integrates three major components: (1) a simulation of echoacoustic interaural time differences (ITD) to estimate the relative head-target angle; (2) a Kalman filter that processes these ITDs to iteratively update probabilistic beliefs about target location and associated uncertainty; and (3) a motor control system that modulates head movements with the current belief state. The Kalman filter serves as a representation of the internal state of the observer, where its beliefs drive the direction of head rotation, and its uncertainty estimates drive head velocity adjustments. Model performance demonstrates that simple predictive computational approaches can reproduce key aspects of echo-guided sensorimotor learning, providing a framework that may be leveraged to develop biologically plausible models, advance understanding of best practices, and potentially improve intervention strategies.",
+      "author": "Krasovskaya, S., Coughlan, J. M., Teng, S.",
+      "published_date": "2026-07-07T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 299,
+      "reading_time": 1,
+      "created_at": "2026-07-07T21:26:23.386844+00:00",
+      "updated_at": "2026-07-07T21:26:23.386850+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "4cc5b15e882fec5da8c04b184f6c4ab3",
+      "url": "https://www.reddit.com/r/Python/comments/1uqaxso/my_python_requests_were_vanishing_with_no_errors/",
+      "title": "my python requests were vanishing with no errors. the bug was !response_time in my node backend",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>built a python sdk for my api monitoring tool last week (was node only before). flask middleware, sends request logs to my backend.</p> <p>testing it: 3 requests sent, only 1 arrived. no errors anywhere. the failed ones just vanished.</p> <p>added debug prints to the sdk and got this:</p> <p>[PINGONI DEBUG] FAILED / -&gt; HTTPError: HTTP Error 400: Bad Request | body: {&quot;error&quot;:&quot;Missing required fields&quot;}</p> <p>missing fields? the payload had every field. stared at my backend validation for a while:</p> <p>if (!method || !endpoint || !status_code || !response_time) {</p> <p>return res.status(400).json({ error: &quot;Missing required fields&quot; });</p> <p>}</p> <p>my test endpoints were responding in 0ms. and !0 is true in javascript. so response_time: 0 was &quot;missing&quot; and the whole log got rejected.</p> <p>the fix:</p> <p>if (!method || !endpoint || status_code == null || response_time == null) {</p> <p>worst part: this was live in production the whole time. any sub-millisecond request was silently dropped for every user of the node sdk too. i only found it because python requests from localhost were fast enough to hit 0ms consistently.</p> <p>lesson: never use truthy checks on numbers that can legitimately be zero.</p> <p>the sdk that started all this is pip install pingoni if anyone wants drop in monitoring for flask/fastapi. free for 10k req/month.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/VariousHour7390\"> /u/VariousHour7390 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1uqaxso/my_python_requests_were_vanishing_with_no_errors/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1uqaxso/my_python_requests_were_vanishing_with_no_errors/\">[comments]</a></span>",
+      "author": "/u/VariousHour7390",
+      "published_date": "2026-07-07T22:56:13+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 230,
+      "reading_time": 1,
+      "created_at": "2026-07-07T23:58:23.939912+00:00",
+      "updated_at": "2026-07-08T02:08:58.414445+00:00",
+      "metadata": {
+        "processed_at": "2026-07-08T02:08:58.414455+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "9ce953dfc9fb6497630569a54461a694",
+      "url": "https://www.sfgate.com/sf-culture/article/vancouver-stand-in-movie-tv-sf-16613821.php",
+      "title": "Why Vancouver is always a stand-in for San Francisco in movies and TV shows (2021)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48780507\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-03T21:58:15+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-07T23:58:22.749517+00:00",
+      "updated_at": "2026-07-08T02:08:58.414459+00:00",
+      "metadata": {
+        "processed_at": "2026-07-08T02:08:58.414461+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "52e95fe4fd6f0264aeb950f385a71d5d",
+      "url": "https://www.gao.gov/products/gao-26-108193",
+      "title": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48824826\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-07T22:23:58+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-07T23:58:22.749411+00:00",
+      "updated_at": "2026-07-08T02:08:58.414464+00:00",
+      "metadata": {
+        "processed_at": "2026-07-08T02:08:58.414465+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "52e95fe4fd6f0264aeb950f385a71d5d",
+      "url": "https://www.gao.gov/products/gao-26-108193",
+      "title": "GAO: DOE Is Prematurely Excluding Less Expensive Options for Nuclear Cleanup",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48824826\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-07T22:23:58+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-07T23:58:22.749411+00:00",
+      "updated_at": "2026-07-08T02:08:58.414464+00:00",
+      "metadata": {
+        "processed_at": "2026-07-08T02:08:58.414465+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "5d11f624eecb754cdaa93b0e7aec79bf",
       "url": "http://daniellakens.blogspot.com/2026/05/there-are-13-ways-to-analyse.html",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "6512c0d24a7bff96100e929f90b91fea",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.730966v1?rss=1",
-      "title": "Stimulus dependent modulation of perceptual filling-in is predicted by the properties of early visual cortex",
-      "content": "Filling-in occurs during the perceptual disappearance of a blank figure presented on a textured background. Current models of perceptual filling-in are based on a two-stage model where the figure boundary weakens after a period of adaptation, followed by the spreading of the background representation into the region representing the figure. This suggests a competition between figure boundary and background representations whereby filling-in is facilitated by a weaker boundary representation and a stronger background representation. Here, we test this interpretation, by using the oblique effect and surround-modulation suppression, which are functional properties of early visual cortex that modulate the expected strengths of the responses to the background texture and to the figure boundary. In a sample of N=58 participants, we found more filling-in with background textures of cardinal compared to oblique orientations (earlier onset time, with more and longer episodes of filling-in per trial), in line with a known, stronger neuronal response for cardinal than for oblique orientation in early visual cortex. We found more filling-in when the main axis of the rectangular figure was iso-oriented rather than cross-oriented with the background texture (more and longer episodes of filling-in per trial, but no change in onset time), in line with a lower response to oriented stimuli when surrounded by iso-oriented flankers compared to cross-oriented flankers. Overall, our results support the two-stage model and suggest the involvement of early visual cortical areas characterized by the oblique effect and orientation- tuned surround-suppression.",
-      "author": "Razafindrahaba, A., Koiso, K., van de Ven, V., De Martino, F., De Weerd, P., Roberts, M. J.",
-      "published_date": "2026-07-07T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
+      "id": "3924f6755b9e62ff5aa9cb6ad8f81cb9",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2618568123?af=R",
+      "title": "Distinguishing direct androgenic signaling from local aromatization in the lateral septum",
+      "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 28, July 2026. <br />",
+      "author": "Dong\u2019e HuangJunqing DongaDepartment of Traditional Chinese Medicine, The 900th Hospital of the Joint Logistics Support Force, Fuzhou, Fujian 350004, ChinabDepartment of Physiotherapy, 900th Hospital of the Joint Logistics Support Force, Ningde, Fujian 352103, China",
+      "published_date": "2026-07-06T07:00:00+00:00",
+      "source": "Pnas Neuroscience",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 239,
+      "word_count": 15,
       "reading_time": 1,
-      "created_at": "2026-07-07T19:57:08.719400+00:00",
-      "updated_at": "2026-07-07T21:19:01.770591+00:00",
+      "created_at": "2026-07-07T22:38:23.102750+00:00",
+      "updated_at": "2026-07-08T02:08:58.414471+00:00",
       "metadata": {
-        "processed_at": "2026-07-07T21:19:01.770603+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a2bb2805e48ee097e634970a1500fea1",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.07.01.735818v1?rss=1",
-      "title": "Topological data analysis captures complex behavioral dynamics during naturalistic social interaction between domestic ferrets",
-      "content": "Capturing naturalistic behavioral dynamics is essential for understanding social interaction in ecologically valid settings. Existing investigations of naturalistic social interaction rely on time-aggregated analysis methods better suited for task-based experiments, which lose the complex, moment-to-moment dynamics exhibited in naturalistic settings. The emerging field of topological data analysis (TDA) provides new tools to characterize fine-grained dynamics in time-series data that cannot be captured by time-averaged methods. The present work utilizes Temporal Mapper, a recently developed TDA specifically tailored to analyzing dynamical systems. Temporal Mapper characterizes complex temporal dynamics as transition networks, where nodes are stable states and edges are transitions between states. Originally designed for human neural time series analysis, here we demonstrate the utility of Temporal Mapper to capture rich animal postural dynamics during naturalistic social interaction. We utilized an existing dataset with 12 video recording sessions of two domestic ferrets (Mustela putorius furo) during naturalistic interaction and tracked the postures of animals during social interaction. Ferrets were chosen due to their strong social-cognitive skills and rich postural dynamics for investigating social behavior via posture estimation. Temporal Mapper was then used to represent the postural dynamics as transition networks for each recording session. Here, we found that posture states are significantly smaller and more widespread during active social interaction compared to non-social activities. Additionally, the number of sequential postural states before transitioning to new behaviors is more consistent during active social interaction than non-social activities. Together, our findings suggest that social activity has a broad range of unstable postural states arranged in consistent sequences. Our method, Temporal Mapper, allows for network structure analysis of complex naturalistic data, applicable for characterizing rich dynamics in different species, scales, and paradigms.",
-      "author": "Reiling, J., Padilla-Coreano, N., Patel, D., Frohlich, F., Zhang, M.",
-      "published_date": "2026-07-07T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 278,
-      "reading_time": 1,
-      "created_at": "2026-07-07T19:57:08.719353+00:00",
-      "updated_at": "2026-07-07T21:19:01.770607+00:00",
-      "metadata": {
-        "processed_at": "2026-07-07T21:19:01.770609+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "409517b55362aece8bf3655486083c02",
-      "url": "https://www.nature.com/articles/s41538-026-00957-7",
-      "title": "Observability of gustatory information in scalp EEG",
-      "content": "",
-      "author": "",
-      "published_date": "2026-07-07T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-07-07T19:57:07.025662+00:00",
-      "updated_at": "2026-07-07T21:19:01.770611+00:00",
-      "metadata": {
-        "processed_at": "2026-07-07T21:19:01.770613+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "92dcae86294d75f9d967354d819c0bdc",
-      "url": "https://www.nature.com/articles/s42003-026-10605-1",
-      "title": "FISIA, an information-based imaging tool, uncovers new spatial distributional patterns in neural circuits beyond fluorescence intensity",
-      "content": "",
-      "author": "",
-      "published_date": "2026-07-07T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-07-07T19:57:07.025587+00:00",
-      "updated_at": "2026-07-07T21:19:01.770615+00:00",
-      "metadata": {
-        "processed_at": "2026-07-07T21:19:01.770617+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "42a1c97524426c37a598464b7adb26cc",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1865513",
-      "title": "Cross-subject generalization for EEG emotion recognition: a review of methods, challenges, and future trends",
-      "content": "Cross-subject emotion recognition based on electroencephalogram (EEG) signals faces significant challenges, mainly because EEG data are highly non-stationary and easily influenced by time, environment, and individual physiological states. Meanwhile, substantial inter-subject variability leads to obvious differences in signal patterns across different people, which makes it difficult for a single model to learn stable and transferable emotional features. As a result, these factors severely hinder model generalization and reduce recognition performance in real-world applications. Unlike previous reviews that categorize methods based on network architectures, this paper proposes a novel taxonomy grounded in the \u201cgeneralization hypothesis,\u201d synthesizing existing approaches into five major paradigms: statistical and adversarial distribution alignment, topological and structural modeling, advanced representation learning, generative modeling and style reconstruction, and multimodal complementary fusion. Our analysis reveals that the core conflict lies in the trade-off between alignment intensity and semantic integrity. Future research should integrate causal representation learning with source-free domain adaptation to realize truly plug-and-play affective brain\u2013computer interfaces (aBCIs).",
-      "author": "Hao Duo",
-      "published_date": "2026-07-02T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 158,
-      "reading_time": 1,
-      "created_at": "2026-07-07T19:56:57.586094+00:00",
-      "updated_at": "2026-07-07T21:19:01.770619+00:00",
-      "metadata": {
-        "processed_at": "2026-07-07T21:19:01.770621+00:00",
+        "processed_at": "2026-07-08T02:08:58.414473+00:00",
         "processing_method": "github_actions"
       }
     }
