@@ -1,8 +1,72 @@
 {
-  "last_updated": "2026-07-18T20:41:02.222973+00:00",
+  "last_updated": "2026-07-18T22:43:00.633575+00:00",
   "pending_count": 746,
   "processed_count": 254,
   "pending_articles": [
+    {
+      "id": "e8e8a56c575f383b6c5bcec1a004730d",
+      "url": "https://mssv.net/2026/04/29/im-making-strandfall-a-solarpunk-orienteering-larp/",
+      "title": "I'm Making Strandfall, a Solarpunk Orienteering Larp",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48892021\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-13T13:00:35+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-18T21:24:23.484459+00:00",
+      "updated_at": "2026-07-18T21:24:23.484461+00:00"
+    },
+    {
+      "id": "a87ec9b90cc33500304f955f700baa44",
+      "url": "https://haxxorwpm.0s.is/",
+      "title": "Typing Speed Test, but for Developers",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48961504\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-18T19:38:21+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-18T21:24:23.484418+00:00",
+      "updated_at": "2026-07-18T21:24:23.484419+00:00"
+    },
+    {
+      "id": "d8fb288a83174b41cb64b3383c900b32",
+      "url": "https://github.com/moonshine-ai/moonshine/tree/main/micro",
+      "title": "Speech Recognition and TTS in less than 500kb",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48911793\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-14T19:25:10+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-18T21:24:23.484383+00:00",
+      "updated_at": "2026-07-18T21:24:23.484386+00:00"
+    },
+    {
+      "id": "a87ec9b90cc33500304f955f700baa44",
+      "url": "https://haxxorwpm.0s.is/",
+      "title": "Typing Speed Test, but for Developers",
+      "content": "<p>Article URL: <a href=\"https://haxxorwpm.0s.is/\">https://haxxorwpm.0s.is/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48961504\">https://news.ycombinator.com/item?id=48961504</a></p>\n<p>Points: 35</p>\n<p># Comments: 17</p>",
+      "author": "hronecviktor",
+      "published_date": "2026-07-18T19:38:21+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-07-18T21:24:22.365735+00:00",
+      "updated_at": "2026-07-18T21:24:22.365743+00:00"
+    },
     {
       "id": "1f935c3129f3fa04f1e720bcfa5142ea",
       "url": "https://imaxxing.io/",
@@ -98,73 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-07-18T17:31:00.556947+00:00",
       "updated_at": "2026-07-18T17:31:00.556949+00:00"
-    },
+    }
+  ],
+  "recently_processed": [
     {
-      "id": "86dcef5416f95e095fc1e85939bae541",
-      "url": "https://ykdojo.github.io/claude-controls-mac/",
-      "title": "Setting up your spare Mac for Claude Code to control, a step-by-step guide",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48959392\">Comments</a>",
+      "id": "a7300868c8cd3e7bda9314da570f4dc0",
+      "url": "https://uncovered.ink",
+      "title": "Judge a book by its first pages",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48962893\">Comments</a>",
       "author": "",
-      "published_date": "2026-07-18T16:12:08+00:00",
+      "published_date": "2026-07-18T22:02:31+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-07-18T17:31:00.556837+00:00",
-      "updated_at": "2026-07-18T17:31:00.556839+00:00"
+      "created_at": "2026-07-18T22:23:53.817641+00:00",
+      "updated_at": "2026-07-18T22:43:00.535146+00:00",
+      "metadata": {
+        "processed_at": "2026-07-18T22:43:00.535155+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "2961c47242483818e0c6f30398c97d55",
-      "url": "https://q3edit.com",
-      "title": "Show HN: Q3Edit \u2013 Edit and play Quake 3 maps in the browser",
-      "content": "<p>I've been building a level editor for Quake 3 that runs entirely in the browser: Radiant-style layout, brush and patch editing, CSG, terrain sculpting, and entity editing. It opens and saves .map file and you can play the maps you build directly in the browser using a webassembly build of ioquake3.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48958854\">https://news.ycombinator.com/item?id=48958854</a></p>\n<p>Points: 20</p>\n<p># Comments: 3</p>",
-      "author": "drdator",
-      "published_date": "2026-07-18T15:12:40+00:00",
+      "id": "e415d08cf0e771768aebc4f749d309da",
+      "url": "https://www.ft.com/content/ce345155-d897-4f49-b7c8-13680e3b5434",
+      "title": "SpaceX and the myth of independent Wall St research",
+      "content": "<p>Article URL: <a href=\"https://www.ft.com/content/ce345155-d897-4f49-b7c8-13680e3b5434\">https://www.ft.com/content/ce345155-d897-4f49-b7c8-13680e3b5434</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48961864\">https://news.ycombinator.com/item?id=48961864</a></p>\n<p>Points: 28</p>\n<p># Comments: 8</p>",
+      "author": "JumpCrisscross",
+      "published_date": "2026-07-18T20:13:56+00:00",
       "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 62,
-      "reading_time": 1,
-      "created_at": "2026-07-18T17:30:59.198064+00:00",
-      "updated_at": "2026-07-18T17:30:59.198066+00:00"
-    },
-    {
-      "id": "e73d92dd02ac8a9ec26131b45c500409",
-      "url": "https://www.benlandautaylor.com/p/if-you-build-it-they-will-come",
-      "title": "If You Build It, They Will Come",
-      "content": "<p>Article URL: <a href=\"https://www.benlandautaylor.com/p/if-you-build-it-they-will-come\">https://www.benlandautaylor.com/p/if-you-build-it-they-will-come</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48959090\">https://news.ycombinator.com/item?id=48959090</a></p>\n<p>Points: 27</p>\n<p># Comments: 8</p>",
-      "author": "barry-cotter",
-      "published_date": "2026-07-18T15:37:01+00:00",
-      "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 13,
       "reading_time": 1,
-      "created_at": "2026-07-18T17:30:59.198014+00:00",
-      "updated_at": "2026-07-18T17:30:59.198015+00:00"
+      "created_at": "2026-07-18T22:23:52.724705+00:00",
+      "updated_at": "2026-07-18T22:43:00.535158+00:00",
+      "metadata": {
+        "processed_at": "2026-07-18T22:43:00.535160+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "2194ab3411edeef72c4e8c2c4407c426",
-      "url": "https://reactormag.com/the-fermi-paradox-percolation-and-inbreeding/",
-      "title": "The Fermi Paradox, Percolation, and Inbreeding",
-      "content": "<p>Article URL: <a href=\"https://reactormag.com/the-fermi-paradox-percolation-and-inbreeding/\">https://reactormag.com/the-fermi-paradox-percolation-and-inbreeding/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48959102\">https://news.ycombinator.com/item?id=48959102</a></p>\n<p>Points: 11</p>\n<p># Comments: 9</p>",
-      "author": "bryanrasmussen",
-      "published_date": "2026-07-18T15:38:36+00:00",
+      "id": "a7300868c8cd3e7bda9314da570f4dc0",
+      "url": "https://uncovered.ink",
+      "title": "Judge a book by its first pages",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48962893\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-18T22:02:31+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-07-18T17:30:59.197995+00:00",
-      "updated_at": "2026-07-18T17:30:59.197997+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-07-18T22:23:53.817641+00:00",
+      "updated_at": "2026-07-18T22:43:00.535146+00:00",
+      "metadata": {
+        "processed_at": "2026-07-18T22:43:00.535155+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a7c5aab9ece2dc16418e89e4c021b57f",
+      "url": "https://www.nature.com/articles/s41598-026-62457-8",
+      "title": "Choroidal thickness postural changes in healthy young adults",
+      "content": "",
+      "author": "",
+      "published_date": "2026-07-18T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-07-18T21:25:03.226822+00:00",
+      "updated_at": "2026-07-18T22:43:00.535165+00:00",
+      "metadata": {
+        "processed_at": "2026-07-18T22:43:00.535166+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "124ba97a288f0885ed3b254ccd61f562",
+      "url": "https://www.nature.com/articles/s41598-026-54604-y",
+      "title": "Trigger-based conditional selective unlearning with elastic weight consolidation",
+      "content": "",
+      "author": "",
+      "published_date": "2026-07-18T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-07-18T21:25:03.226795+00:00",
+      "updated_at": "2026-07-18T22:43:00.535168+00:00",
+      "metadata": {
+        "processed_at": "2026-07-18T22:43:00.535169+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "a7a58eeb6e522a0175d0a776288cd75c",
       "url": "https://stephen.bochinski.dev/blog/2026/07/18/the-kimi-k3-moment/",
@@ -262,106 +362,6 @@
       "updated_at": "2026-07-18T18:55:31.772517+00:00",
       "metadata": {
         "processed_at": "2026-07-18T18:55:31.772519+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3ac9f1815131ff8192c3fe1aa564ae14",
-      "url": "https://www.frontiersin.org/articles/10.3389/fncom.2026.1860978",
-      "title": "Interpretable and explainable artificial intelligence for wearable sensor-based fall risk assessment in older adults: a systematic review with considerations for prosthetics and orthotics",
-      "content": "BackgroundFalls among older adults are a leading cause of morbidity and loss of independence. Wearable sensors combined with machine learning (ML) offer opportunities for objective fall risk evaluation, but low model transparency limits clinical adoption. Interpretable and explainable artificial intelligence (XAI) methods can address this constraint, yet their application in wearable sensor\u2013based fall risk assessment has not been systematically examined.MethodsA PRISMA 2020\u2013compliant systematic review was conducted across PubMed, Scopus, Web of Science, and IEEE Xplore. Studies were eligible if they included older adults, employed wearable sensors, hybrid sensor systems, or structured clinical assessment instruments, applied AI/ML for fall risk assessment (not detection), and incorporated intrinsic interpretability or post-hoc XAI. Data were extracted on population characteristics, sensor modalities, outcome definitions, ML algorithms, explainability strategies, validation methods, and predictive performance.ResultsEleven studies (2019\u20132025, total n =\u202f5,484) met inclusion criteria. Inertial Measurement Units predominated. Fall risk definitions were heterogeneous, spanning retrospective fall history, clinical balance scales, and prospective diaries. Explainability was implemented almost exclusively at the global level, with only two studies providing both global and local explanations. On comparable tasks, interpretable models achieved accuracy of 0.65\u20130.92 and AUC of 0.70\u20130.92, suggesting interpretability carried no consistent performance penalty over more complex designs. All studies relied on internal validation only; none performed external validation or real-time deployment. None recruited P&amp;O users or incorporated device-specific predictors.ConclusionCurrent models favour interpretable architectures and achieve moderate-to-high performance, but are constrained by heterogeneous outcome definitions, absence of external validation, and global-only explainability that limits individual-level clinical utility. The evidence base does not yet support clinical deployment. Extending these findings to prosthetics and orthotics users, a clinically important downstream application, will require device-specific datasets, asymmetry-adjusted thresholds, and instance-level explanations. These represent the priority directions for the next stage of this research agenda.",
-      "author": "Yousef Mohammed Saad Alshahrani",
-      "published_date": "2026-07-14T00:00:00+00:00",
-      "source": "Frontiers Computational Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 292,
-      "reading_time": 1,
-      "created_at": "2026-07-18T18:33:21.241056+00:00",
-      "updated_at": "2026-07-18T18:55:31.772522+00:00",
-      "metadata": {
-        "processed_at": "2026-07-18T18:55:31.772524+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "cfd2effb6b1da56f1d7cfac4a38dfc4d",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2026.1897176",
-      "title": "High-order alpha-band network reorganization underpins clinical symptom alleviation following EEG neurofeedback in preschool children with autism spectrum disorder: a multidimensional study",
-      "content": "BackgroundAutism Spectrum Disorder (ASD) is increasingly recognized as a disorder of neural connectivity and network architecture. While EEG neurofeedback (NFB) has shown clinical efficacy in ameliorating ASD symptoms, the underlying neurophysiological mechanisms\u2014specifically regarding high-order network reorganization beyond simple power spectrum changes\u2014remain poorly understood. Furthermore, there is a need to validate whether robust biomarkers can be identified using low-density EEG systems suitable for preschool children.MethodsIn this randomized, sham-controlled trial, 40 preschool children with ASD (mean age 5.56\u202fyears) were assigned to either an active NFB group (n\u202f=\u202f20) or a sham-control group (n\u202f=\u202f20). The experimental group underwent a 4-week alpha-band NFB training protocol using an 8-channel portable EEG system. We employed a multidimensional analytical framework integrating High-Order Functional Connectivity (HOFC), dynamic Network State Entropy (NSE), and cross-frequency interaction analysis to characterize neural reorganization. Clinical improvements were assessed using the Autism Behavior Checklist (ABC).ResultsThe NFB group exhibited significant reductions in ABC total scores and Social Relating subscale scores. Neurophysiologically, while conventional Low-Order Functional Connectivity (LOFC) failed to capture significant global changes, the alpha-band HOFC revealed a systemic optimization toward a more efficient small-world architecture, characterized by increased Clustering Coefficient (CC) and Local Efficiency (LE), and decreased Characteristic Path Length (CPL). Additionally, NSE analysis indicated increased dynamic flexibility across multiple frequency bands, reflecting a reduction in neural rigidity. Crucially, the optimization of alpha-band HOFC metrics was significantly correlated with the degree of clinical symptom alleviation (r =\u202f0.678, p =\u202f0.015).ConclusionThese findings demonstrate that alpha-band NFB facilitates clinical recovery in preschool children with ASD by inducing frequency-specific high-order network reorganization. The study suggests that alpha-band HOFC may serve as a potential exploratory electrophysiological correlate for monitoring therapeutic responses.",
-      "author": "He Chen",
-      "published_date": "2026-07-14T00:00:00+00:00",
-      "source": "Frontiers Human Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 278,
-      "reading_time": 1,
-      "created_at": "2026-07-18T18:33:20.001141+00:00",
-      "updated_at": "2026-07-18T18:55:31.772526+00:00",
-      "metadata": {
-        "processed_at": "2026-07-18T18:55:31.772528+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4b28027166663a852988685039233d68",
-      "url": "https://www.reddit.com/r/Python/comments/1v02p48/top_down_map_generation_in_pygame/",
-      "title": "Top down map generation in pygame",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>I wouldn\u2019t say I\u2019m a beginner but by no means am I an expert and I\u2019m trying to make a top down survival game and I\u2019m kind of puzzled on the map part of it. What I have right now works but I\u2019ve only tested it on a small scale and I\u2019m worried it will drop my frames a ton if I make it bigger plus I think my method is quite inefficient . I was wondering what some of you have done in the passed and has worked well?</p> <p>How my code works:</p> <p>I store a list like this [[Grass1,grass2],<br /> [dessert1,dessert2]]</p> <p>And each one of these is a grid of however many tiles I want there to be in each chunk. Let\u2019s say each one is 5x5.</p> <p>In Grass1 I have three separate 5x5 lists with different numbers and each of these lists represents a differnt thing. List 1 is for the ground layer so all zeros will put grass etc. list 2 is for trees and stuff the player can break. List three is for blocks the player places down(I haven\u2019t done anything with this but from what I\u2019m planning I think I can make it work)</p> <p>To get the position of each block I create a list that contains the x and y coordinates of every block</p> <p>Then I add the offset to the position and check whether it\u2019ll be in the screen and if it is I\u2019ll display it.</p> <p>I can share my code if someone is willing to look at it</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BNis12345\"> /u/BNis12345 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1v02p48/top_down_map_generation_in_pygame/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1v02p48/top_down_map_generation_in_pygame/\">[comments]</a></span>",
-      "author": "/u/BNis12345",
-      "published_date": "2026-07-18T17:59:33+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 278,
-      "reading_time": 1,
-      "created_at": "2026-07-18T18:32:53.981102+00:00",
-      "updated_at": "2026-07-18T18:55:31.772530+00:00",
-      "metadata": {
-        "processed_at": "2026-07-18T18:55:31.772531+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7f324de620cb1b7fe5a39ff132d7b316",
-      "url": "https://queue.acm.org/detail.cfm?id=3818307",
-      "title": "Goodbye, and Thanks for All the Bikesheds",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48960155\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-18T17:27:24+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-18T18:32:52.784950+00:00",
-      "updated_at": "2026-07-18T20:41:02.103731+00:00",
-      "metadata": {
-        "processed_at": "2026-07-18T20:41:02.103733+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7f324de620cb1b7fe5a39ff132d7b316",
-      "url": "https://queue.acm.org/detail.cfm?id=3818307",
-      "title": "Goodbye, and Thanks for All the Bikesheds",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48960155\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-18T17:27:24+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-18T18:32:52.784950+00:00",
-      "updated_at": "2026-07-18T20:41:02.103731+00:00",
-      "metadata": {
-        "processed_at": "2026-07-18T20:41:02.103733+00:00",
         "processing_method": "github_actions"
       }
     }
