@@ -1,5 +1,53 @@
 [
   {
+    "id": "6e6dff2f37fadd4d160b54fc9f1e5dbc",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1857152",
+    "title": "A bionic intelligent method combining evolutionary game theory with particle swarm optimization for UAV 3D path planning",
+    "content": "Recently, UAV path planning in 3D complex environments has attracted increasing attention due to its significance in UAV motion control systems. However, the NP-hard nature of this problem poses significant challenges in generating a high-quality path. To address this issue, this paper proposes an improved self-adaptive particle swarm optimization (ISAPSO) algorithm by integrating the standard PSO 2011 with evolutionary game theory (EGT). Firstly, a novel self-adaptive parameter updating strategy is proposed, which combines the evolutionary stable strategy in EGT with hyperbolic tangent function to balance the exploration and exploitation capabilities of ISAPSO. Subsequently, an ISAPSO-based path planning approach is developed to generate optimal 3D path for UAV in an obstacle-rich environment. To efficiently handle constraints, a novel self-adaptive constraint handling technology is proposed in the developed path planner. Finally, the performance of the proposed ISAPSO is evaluated against six state-of-the-art evolutionary algorithms using 20 test functions. Following the benchmark study, the ISAPSO-based path planner is is validated in different scenarios against six well-known counterparts. The simulation results confirm that the proposed ISPASO outperforms its competitors in the benchmark study at a 90% confidence level. Moreover, the ISPASO-based path planning method dominates its contenders in terms of the path optimality. Therefore, the proposed method could be regarded as a vital alternative in the area of path planning.",
+    "author": "Peng Shi",
+    "published_date": "2026-06-29T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 216,
+    "reading_time": 1,
+    "created_at": "2026-07-18T09:57:44.720146+00:00",
+    "updated_at": "2026-07-18T09:57:44.720147+00:00"
+  },
+  {
+    "id": "0e54439e25f25ebf8a744970b9add60b",
+    "url": "https://in-toto.io/",
+    "title": "In-toto: A framework to secure the integrity of software supply chains",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=48942603\">Comments</a>",
+    "author": "",
+    "published_date": "2026-07-17T02:00:38+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-07-18T09:57:19.577461+00:00",
+    "updated_at": "2026-07-18T09:57:19.577463+00:00"
+  },
+  {
+    "id": "a2e1ca4003a9e8d64b1493f4a79898c5",
+    "url": "https://github.com/skorotkiewicz/signal-in-the-dark",
+    "title": "Show HN: Find someone in the dark \u2013 light them or light yourself? (Three.js)",
+    "content": "<p>Article URL: <a href=\"https://github.com/skorotkiewicz/signal-in-the-dark\">https://github.com/skorotkiewicz/signal-in-the-dark</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48955740\">https://news.ycombinator.com/item?id=48955740</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+    "author": "modinfo",
+    "published_date": "2026-07-18T06:32:24+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-07-18T09:57:18.334066+00:00",
+    "updated_at": "2026-07-18T09:57:18.334074+00:00"
+  },
+  {
     "id": "3d370217cb4a351bb54e7854066e15c3",
     "url": "https://erpinfo.org/blog/2024/2/4/optimal-filters",
     "title": "New Papers: Optimal Filter Settings for ERP Research",
@@ -16866,61 +16914,5 @@
       "processed_at": "2026-07-14T01:57:50.556221+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "d91fe99d5b6c45d06e6ac990d2eb1677",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737350v1?rss=1",
-    "title": "Single-nuclear RNA sequencing reveals an ATF3-independent sensory-neuron program after surgical incision",
-    "content": "Background. Acute postoperative pain is common and often treated with opioids, but which sensory-neuron changes are responsible for the peripheral drive of pain is poorly defined. Skin incision induces activating transcription factor 3 (ATF3), the canonical marker of nerve injury, in dorsal root ganglion (DRG) neurons, and ATF3 marks the neurons that remain hyperexcitable. Whether ATF3 is required for postoperative pain is unknown. Methods. Adult mice of both sexes underwent hind-paw plantar incision. Postoperative nociceptive behavior was compared between sensory-neuron-specific ATF3 conditional-knockout mice (Avil^Cre/+; Atf3^fl/fl) and littermate controls using assays that probe distinct primary-afferent modalities (von Frey; Hargreaves; dynamic light touch) together with an operator-independent index of spontaneous injury behavior. Single-nucleus RNA sequencing of wild-type and ATF3-null DRG sensory neurons (naive and postoperative day 1) characterized the initiating injury program; transcription-factor-activity inference, RNAscope, and phospho-c-Jun immunostaining examined c-Jun; and the oral dual leucine zipper kinase (DLK) inhibitor GNE-3511, given at the time of incision, was tested behaviorally. Results. Incision transiently induced ATF3 in a subset of DRG neurons, returning to baseline by day 14, in parallel with the two-week course of nociceptive behavior. Deleting ATF3 in sensory neurons did not change the onset or resolution of nociceptive behavior on any readout, in either sex, across mechanical, thermal, and tactile modalities. Single-nucleus profiling showed a broad surgery-responsive nociceptor program in which ATF3 was the most strongly induced gene, yet only 23% of surgery-responsive neurons expressed it. Without ATF3, the program was remodeled but not abolished, and transcription-factor-activity inference nominated c-Jun as a candidate ATF3-independent factor; incision induced c-Jun in vivo. Systemic inhibition of DLK, which activates c-Jun pathway, lowered c-Jun phosphorylation and reduced evoked nociceptive hypersensitivity. Conclusions. Our results indicate that ATF3 marks part of the injured sensory neuron but does not drive acute post-surgical nociceptive behavior, and that it is not required for the postsurgical pain behaviors across afferent modalities carried by molecularly distinct nociceptor classes. The underlying injury program is broader than ATF3 and is nominated to depend on c-Jun. Because DLK inhibition, given at the time of incision, reduced evoked hypersensitivity, we propose the DLK-JNK-c-Jun axis as a candidate perioperative non-opioid target, which will require further genetic validation.",
-    "author": "Su, P.-Y. P., Yu, J., Weinrich, J. A., Ye, F., Zhang, L., Guan, Z.",
-    "published_date": "2026-07-13T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 360,
-    "reading_time": 1,
-    "created_at": "2026-07-14T00:00:43.958313+00:00",
-    "updated_at": "2026-07-14T01:57:50.556223+00:00",
-    "metadata": {
-      "processed_at": "2026-07-14T01:57:50.556225+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "fe9d0bad270f100bb504f06975b96afc",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.07.08.737182v1?rss=1",
-    "title": "Longitudinal Subject Pairing in Cross-Sectional Neonatal Data Reveals Asynchronous Structural and Functional Brain Maturation",
-    "content": "The asynchronous development of structural and functional brain networks in early childhood remains largely unexamined, primarily due to the scarcity of longitudinal neuroimaging data. Resolving this temporal dimension is critical, as it promises to reshape our understanding of structural-functional (S-F) coupling, revealing not only whether brain architecture supports function, but also when and over what timescale its influence emerges. However, while rapid neonatal brain maturation and logistical constraints continue to hinder longitudinal data collection, large-scale cross-sectional multimodal datasets are currently available to bridge this gap. Here, we propose a longitudinal subject-pairing framework that reconstructs developmental trajectories from cross-sectional data. It pairs the infants with a predefined age gap while maximizing their similarity in both structural and functional features, thereby approximating longitudinal trajectory of functional changes in relation to the structural maturation. As a case study, we applied this framework to the perisylvian region in a subset of 505 neonates from the multimodal dHCP brain dataset. The myelination index was derived as a structural feature from MRI, and the fractional amplitude of low-frequency fluctuations (fALFF) was derived as a functional feature from resting state functional MRI. A conventional cross-sectional analysis revealed a moderate S-F correlation magnitude (r = 0.34). In contrast, the proposed framework demonstrated a significant increase in S-F coupling to r = 0.46 when the structural maturation precedes functional maturation by approximately five days. These findings provide novel evidence of a functional maturation lag relative to structural brain development in neonates. Beyond elucidating S-F relationships in the early developing brain, this work establishes a framework for future longitudinal studies and advances in brain modeling across developmental trajectories, aging, and disease prediction.",
-    "author": "Namiranian, R., Sadeghi, M., Abrishami Moghaddam, H.",
-    "published_date": "2026-07-13T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 272,
-    "reading_time": 1,
-    "created_at": "2026-07-14T00:00:43.958245+00:00",
-    "updated_at": "2026-07-14T01:57:50.556227+00:00",
-    "metadata": {
-      "processed_at": "2026-07-14T01:57:50.556228+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "578e80c826054010dbad05d9f55c9c32",
-    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1860170",
-    "title": "ST-HONet: Spatio-Temporal Hierarchical Network for long-horizon bimanual visuomotor imitation",
-    "content": "IntroductionLearning robust and temporally consistent manipulation policies from long-horizon visual observations remains a fundamental challenge in imitation learning. While recent Transformer-based approaches reduce compounding errors via temporally extended action chunks, most methods rely on deterministic or unimodal action representations, limiting their ability to capture the inherent multimodality of expert demonstrations.MethodsIn this work, we propose ST-HONet, a Spatio-Temporal Hierarchical Network that integrates three adaptive optimization mechanisms operating jointly across spatial and temporal dimensions. ST-HONet formulates policy learning as conditional generation of extended action segments using a Transformer-based conditional variational autoencoder to explicitly model multimodal expert behaviors through a structured latent representation. To ensure stable optimization over long temporal horizons, we introduce a unified spatio-temporal training framework combining adaptive data augmentation, progressive latent regularization, and multi-stage optimization strategies.ResultsWe evaluate ST-HONet on RoboTwin 2.0, a large-scale benchmark for long-horizon bimanual manipulation under domain randomization with automatically generated expert demonstrations. Across representative manipulation tasks, ST-HONet achieves consistently higher task success rates compared to baseline models, while incurring only minimal additional computational overhead.DiscussionThese results demonstrate that explicitly modeling multimodality via a structured latent space, combined with joint spatio-temporal training mechanisms, significantly improves policy robustness and temporal consistency in long-horizon visuomotor imitation learning. The minimal computational overhead further supports the practical deployability of ST-HONet in real-world systems.",
-    "author": "Xu Sun",
-    "published_date": "2026-06-12T00:00:00+00:00",
-    "source": "Frontiers Neurorobotics",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 211,
-    "reading_time": 1,
-    "created_at": "2026-07-14T00:00:31.349883+00:00",
-    "updated_at": "2026-07-14T00:00:31.349885+00:00"
   }
 ]
