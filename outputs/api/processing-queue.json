@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-07-19T11:07:17.665652+00:00",
-  "pending_count": 742,
-  "processed_count": 258,
+  "last_updated": "2026-07-19T13:04:46.870791+00:00",
+  "pending_count": 738,
+  "processed_count": 262,
   "pending_articles": [
+    {
+      "id": "1dc7ad4dc6ff9fcc93a91b2dd2f85783",
+      "url": "https://sgt.hootr.club/blog/home-server-rebirth/",
+      "title": "The death and rebirth of my home server",
+      "content": "<p>Article URL: <a href=\"https://sgt.hootr.club/blog/home-server-rebirth/\">https://sgt.hootr.club/blog/home-server-rebirth/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966769\">https://news.ycombinator.com/item?id=48966769</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "author": "steinuil",
+      "published_date": "2026-07-19T10:44:31+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-07-19T11:59:20.037849+00:00",
+      "updated_at": "2026-07-19T11:59:20.037859+00:00"
+    },
     {
       "id": "a69cdbbe8c39ba8564588a956a3a51f4",
       "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
@@ -146,25 +162,129 @@
       "reading_time": 1,
       "created_at": "2026-07-19T09:28:47.036414+00:00",
       "updated_at": "2026-07-19T09:28:47.036415+00:00"
+    }
+  ],
+  "recently_processed": [
+    {
+      "id": "630d02ef3d581b5ef1ac8085854f44ff",
+      "url": "http://ieeexplore.ieee.org/document/11361153",
+      "title": "Decoding Spikes From Multiunit Data",
+      "content": "Communication and control in biological systems is mediated by the timing of discharges \u2013spikes\u2013 from excitable cells such as neurons and muscle fibers. Each spike is associated to a characteristic waveform that can be captured by sensors. The waveform's characteristics depend on the cell's biophysical properties and the recording modality. Depending on the technique, e.g., electrical recordings with electrodes, optical imaging, ultrasound, the observed signals are mixtures of waveforms emitted from active cells/sources (multiunit data/signals). Recovering the timing and identity of these sources (multiunit or spike decoding) is central to neuroscience, clinical diagnostics, and neural interfacing, yet it remains challenging due to waveform superposition, non-stationarity, limited training labels, and the computational demands of high-density recordings. This review provides a unified methodological perspective on spike decoding by formalizing the problem as a sparse source separation task under a convolutive mixing model. Rather than organizing the literature by application domain, we group and critically compare methods by their underlying principles: classical spike sorting, Bayesian and probabilistic inference, blind source separation, and data-driven approaches, including deep learning and hybrid schemes. For each class of methods, we present the core mathematical formulation and algorithmic strategies and discuss assumptions and limitations. Our synthesis highlights parallels in signal processing across physical recording modalities and clarifies when and why particular approaches succeed or fail. By bridging previously compartmentalized literature, this survey aims to accelerate crosspollination of ideas between application areas and to provide a roadmap for selecting, adapting, and advancing decoding methods across diverse multiunit recording modalities.",
+      "author": "",
+      "published_date": "2026-01-22T13:16:59+00:00",
+      "source": "Reviews Biomedical Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 250,
+      "reading_time": 1,
+      "created_at": "2026-07-19T12:00:14.203454+00:00",
+      "updated_at": "2026-07-19T13:04:46.757848+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T13:04:46.757860+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "f57b1182fef9ff1f11ca9c158f858448",
-      "url": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
-      "title": "Perforce charges $500 for training training videos.. and it's AI narrated",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48965886\">Comments</a>",
+      "id": "afbf793efbd948cd5b7808d0e8eb8898",
+      "url": "http://ieeexplore.ieee.org/document/11368645",
+      "title": "Table of Contents",
+      "content": "null",
       "author": "",
-      "published_date": "2026-07-19T08:00:24+00:00",
+      "published_date": "2026-01-29T13:23:34+00:00",
+      "source": "Reviews Biomedical Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 1,
+      "reading_time": 1,
+      "created_at": "2026-07-19T12:00:14.203394+00:00",
+      "updated_at": "2026-07-19T13:04:46.757864+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T13:04:46.757865+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "3d01dbef8284b58047aa7df31c0557f6",
+      "url": "https://www.sciencedirect.com/science/article/pii/S000689932600329X?dgcid=rss_sd_all",
+      "title": "Interpreting neural and behavioral data using Hidden Markov Models",
+      "content": "<p>Publication date: 15 October 2026</p><p><b>Source:</b> Brain Research, Volume 1889</p><p>Author(s): Myrthe L. Versteijnen, J. Alexander Heimel</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Brain Research",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 15,
+      "reading_time": 1,
+      "created_at": "2026-07-19T12:00:04.592494+00:00",
+      "updated_at": "2026-07-19T13:04:46.757868+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T13:04:46.757869+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "92969498139f72d7037c38363f7f089f",
+      "url": "https://qwen.ai/home",
+      "title": "Qwen 3.8 Max",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48966754\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-19T10:41:42+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-07-19T09:28:10.886995+00:00",
-      "updated_at": "2026-07-19T09:28:10.886997+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-07-19T11:59:21.115265+00:00",
+      "updated_at": "2026-07-19T13:04:46.757871+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T13:04:46.757873+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "262590a6eaebda6c24d68b2c62a48b5a",
+      "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
+      "title": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
+      "content": "<p>Article URL: <a href=\"https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard\">https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48966713\">https://news.ycombinator.com/item?id=48966713</a></p>\n<p>Points: 8</p>\n<p># Comments: 5</p>",
+      "author": "chipweinberger",
+      "published_date": "2026-07-19T10:34:58+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-07-19T11:59:20.037903+00:00",
+      "updated_at": "2026-07-19T13:04:46.757875+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T13:04:46.757876+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "92969498139f72d7037c38363f7f089f",
+      "url": "https://qwen.ai/home",
+      "title": "Qwen 3.8 Max",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48966754\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-19T10:41:42+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-19T11:59:21.115265+00:00",
+      "updated_at": "2026-07-19T13:04:46.757871+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T13:04:46.757873+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "18774cf889517bf6310a30972c9ec201",
       "url": "https://www.nature.com/articles/s41593-026-02376-z",
@@ -226,46 +346,6 @@
       }
     },
     {
-      "id": "60b46a29810182e54a7675de1b2181e2",
-      "url": "https://www.blender.org/download/releases/5-2-lts/",
-      "title": "Blender 5.2 LTS",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48911021\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-14T18:22:47+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-19T10:55:16.707720+00:00",
-      "updated_at": "2026-07-19T11:07:17.541512+00:00",
-      "metadata": {
-        "processed_at": "2026-07-19T11:07:17.541514+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5fa9f7716cc53a31ad43f8e3f0bf6de6",
-      "url": "https://www.qwencloud.com/pricing/token-plan",
-      "title": "Qwen 3.8 Max Preview",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48966190\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-19T08:57:31+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-19T10:55:16.707701+00:00",
-      "updated_at": "2026-07-19T11:07:17.541516+00:00",
-      "metadata": {
-        "processed_at": "2026-07-19T11:07:17.541518+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "471ca76467164bf88e33d8e12f2577f7",
       "url": "https://www.half-second.com/",
       "title": "Half a Second \u2013 a book about the XZ backdoor",
@@ -282,86 +362,6 @@
       "updated_at": "2026-07-19T11:07:17.541508+00:00",
       "metadata": {
         "processed_at": "2026-07-19T11:07:17.541509+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5fa9f7716cc53a31ad43f8e3f0bf6de6",
-      "url": "https://www.qwencloud.com/pricing/token-plan",
-      "title": "Qwen 3.8 Max Preview",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=48966190\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-19T08:57:31+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-19T10:55:16.707701+00:00",
-      "updated_at": "2026-07-19T11:07:17.541516+00:00",
-      "metadata": {
-        "processed_at": "2026-07-19T11:07:17.541518+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "63098555f6d07a320ef4351d49c0a4e2",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.07.16.738905v1?rss=1",
-      "title": "Similar Synaptic and Current Input Properties of Aromatase and Nonaromatase Neurons in the Zebra Finch Auditory Telencephalon",
-      "content": "Estrogens, commonly known for their role in sexual development and maturation, support a wide variety of brain functions, including cognition, neuroprotection, and sensory processing. For example, in a songbird auditory forebrain region, caudomedial nidopallium (NCM), neuroestrogens are elevated in response to conspecific vocal and social stimuli; in turn, elevated neuroestrogens in NCM are known to rapidly enhance auditory processing independent of sex. Despite the pivotal role of neuroestrogens for brain function, it remains largely unknown whether aromatase (neuroestrogen-synthesizing) neurons differ in their cellular and physiological properties from non-aromatase-expressing neurons, as might be expected from specializations seen in other steroidogenic cell types (e.g., adrenal cells). Therefore, we systematically profiled aromatase and nonaromatase expressing NCM neurons to determine how they might differ in synaptic and current input properties, using ex vivo whole-cell electrophysiology followed by immunohistochemistry to reveal aromatase expression. Current-clamp recordings revealed no differences between aromatase and nonaromatase neurons, aside from a modest divergence in the time to reach peak membrane afterhyperpolarization. Similarly, voltage-clamp recordings of post-synaptic currents revealed no significant differences between the two cell types, suggesting that they share similar synaptic input density. Therefore, aromatase and nonaromatase NCM neurons share similar intrinsic membrane properties (e.g. excitability) and synaptic input dynamics in the higher songbird pallium. Our findings leave open the possibility that diverging computational and/or modulatory roles for aromatase vs. non-aromatase neurons could be due to projection- or neurochemical-specificity in their afferents and efferents.",
-      "author": "Furest Cataldo, B., Anderson, P. N., Remage-Healey, L.",
-      "published_date": "2026-07-19T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 235,
-      "reading_time": 1,
-      "created_at": "2026-07-19T09:28:48.272692+00:00",
-      "updated_at": "2026-07-19T09:48:05.804468+00:00",
-      "metadata": {
-        "processed_at": "2026-07-19T09:48:05.804478+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "e9e986b7b2bd30a71bd8d53916bc33f8",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.07.14.738599v1?rss=1",
-      "title": "Developmental enrichment enhances a topographically structured proprioceptive cortical code",
-      "content": "The organization of proprioceptive cortex emerges from experience-dependent patterns of limb use during development, rather than merely reflecting peripheral innervation. However, the degree and specifics of these developmental changes remain poorly understood. To address this question, we investigated how early environmental enrichment (EE) reshapes the topography and functional properties of the mouse forelimb proprioceptive cortex. Using wide-field calcium imaging, we found that EE did not induce major reorganization of the mesoscale activation map. To resolve cellular level topology, we developed a large-field fluorescence macroscope enabling unbiased single neuron imaging across the entire activation area. We identified a topographically organized preference in directional tuning in which somatosensory and motor regions of the map encode distinct movement axes within the peripersonal space. Developmental enrichment reshaped this anisotropic representation at the cellular level. Rather than reducing the directional bias by homogenizing tuning across movement directions, EE strengthened the anisotropy by sharpening its topographic segregation and concentrating neuronal tuning around a common peripersonal axis. Our findings therefore reveal that enriched limb use and sensorimotor exploration reinforce an ecologically relevant specialization of the mouse proprioceptive cortex for movements directed toward the body.",
-      "author": "Palacio Manzano, M., Ma, F., Hoffmann Schreiner, C., Ravussin, Y., Prsa, M.",
-      "published_date": "2026-07-19T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 187,
-      "reading_time": 1,
-      "created_at": "2026-07-19T09:28:48.272653+00:00",
-      "updated_at": "2026-07-19T09:48:05.804483+00:00",
-      "metadata": {
-        "processed_at": "2026-07-19T09:48:05.804485+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ac559f8284058f65b2b27e4534fa8eca",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.07.13.738282v1?rss=1",
-      "title": "Phosphoproteomic Insights into TRPV4 - AMPK Signaling Axis in the Choroid Plexus Epithelium: Implications for Therapeutic Targeting in Hydrocephalus",
-      "content": "Background Hydrocephalus is characterized by abnormal accumulation of cerebrospinal fluid (CSF) due to disrupted secretion, circulation, or reabsorption. CSF homeostasis is regulated by ion and water channels on choroid plexus epithelial (CPe) cells, including the mechanosensitive cation channel, transient receptor potential vanilloid 4 (TRPV4). Although TRPV4 antagonism prevents hydrocephalus progression in rats, how TRPV4 activity modulates CSF production remains unclear. Methods Because TRPV4 function is phosphorylation-dependent, we examined its activation (GSK1016790A) and inhibition (RN1734) and the downstream signaling alterations in human choroid plexus papilloma cells (HIBCPP) using phosphoproteomic mass spectrometry . Results Our phosphoproteomic analysis revealed significant changes in kinases and tight junction (TJ) proteins regulating epithelial barrier integrity. TRPV4 activation altered TJ proteins such as Zonula Occludens-1 (ZO-1), and Claudin-7 (CLDN7) and AMP-activated protein kinase (AMPK), phosphorylation, with a notable foldchange increase of AMPK inhibitory phospho form (Ser496). Further our electrophysiological and biochemical analyses demonstrated that AMPK activation followed by TRPV4 stimulation increased AMPK Ser496 phosphorylation, and epithelial permeability was subsequently elevated, although it was statistically not significant. In contrast, AMPK inhibition prior to TRPV4 activation resulted in the opposite effect with substantial epithelial barrier tightness which was evident from the ZO-1 expression. Moreover, a pharmacologically available anti-diabetic drug, metformin exhibited a similar trend like Compound C in reducing the barrier epithelial permeability after TRPV4 agonist treatment, highlighting that metformin promotes barrier tightness via an AMPK-dependent pathway coupled to TRPV4 signaling. Conclusions Overall, these findings identify an AMPK-TRPV4 signaling axis that modulates epithelial permeability and may influence CSF regulation, highlighting a potential therapeutic target for hydrocephalus.",
-      "author": "Mahendran, G., Torabi, M., Blazer-Yost, B.",
-      "published_date": "2026-07-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 257,
-      "reading_time": 1,
-      "created_at": "2026-07-19T09:28:48.272614+00:00",
-      "updated_at": "2026-07-19T09:48:05.804487+00:00",
-      "metadata": {
-        "processed_at": "2026-07-19T09:48:05.804489+00:00",
         "processing_method": "github_actions"
       }
     }
