@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T18:29:16.932711+00:00",
+  "last_updated": "2026-07-19T18:58:31.586917+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "",
       "published_date": null,
       "source": "Neuroimage",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 24,
       "reading_time": 1,
       "created_at": "2026-07-19T18:28:38.581671+00:00",
-      "updated_at": "2026-07-19T18:28:38.581673+00:00"
+      "updated_at": "2026-07-19T18:58:31.462517+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T18:58:31.462527+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "c5df907383dc5077b3c790401b6c5762",
@@ -26,13 +30,17 @@
       "author": "",
       "published_date": "2025-12-01T00:00:00+00:00",
       "source": "Fmhy",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 554,
       "reading_time": 2,
       "created_at": "2026-07-19T18:27:58.737089+00:00",
-      "updated_at": "2026-07-19T18:27:58.737090+00:00"
+      "updated_at": "2026-07-19T18:58:31.462531+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T18:58:31.462533+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "52cc8b6be46341180b20cba7397972fb",
@@ -42,13 +50,17 @@
       "author": "",
       "published_date": "2026-05-01T00:00:00+00:00",
       "source": "Fmhy",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 892,
       "reading_time": 4,
       "created_at": "2026-07-19T18:27:58.736512+00:00",
-      "updated_at": "2026-07-19T18:27:58.736514+00:00"
+      "updated_at": "2026-07-19T18:58:31.462536+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T18:58:31.462537+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "8f1e596996f16d3ed88a7668471e6709",
@@ -58,13 +70,17 @@
       "author": "",
       "published_date": "2026-07-19T14:41:16+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-07-19T18:27:56.054550+00:00",
-      "updated_at": "2026-07-19T18:27:56.054552+00:00"
+      "updated_at": "2026-07-19T18:58:31.462540+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T18:58:31.462541+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "7e6afcb45ed4e7a365be9bc2adf6963e",
@@ -74,29 +90,37 @@
       "author": "",
       "published_date": "2026-07-19T17:25:03+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-07-19T18:27:56.054467+00:00",
-      "updated_at": "2026-07-19T18:27:56.054469+00:00"
+      "updated_at": "2026-07-19T18:58:31.462544+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T18:58:31.462546+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "8f1e596996f16d3ed88a7668471e6709",
       "url": "https://news.ycombinator.com/item?id=48968606",
       "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
-      "content": "<p>I might be the only SRE on Earth with his own bowling center. It's a more in-depth gig than you'd think.<p>My family and I bought an abandoned 8-lane bowling center in the rural mid-west. In our small town there weren't many recreation options for families. You've heard of a food desert? This is an R&amp;R desert.<p>It had been abandoned for a good reason. The roof leaks, the electrical system was constantly surging, and my 70-year-old bowling equipment (still) doesn't work perfectly. The system that keeps your score is particularly interesting to me. It's the thing you watch during your game, but it fades into the background beyond that. Turns out these things are really cool, but absurdly expensive.<p>Ours was installed in 2008 and cost six figures. It's calculating ball speed and trajectory, camera-based pin detection (object detection and trig, on ICs!), runs the fouling, the animations, the pinsetting machine and ball return. Very cool stuff for its age.<p>From the business perspective, my facility only cost me $105k. To forklift-replace the score keeping system runs anywhere between $80-$120k, depending on features, vendor, and unit age. No upgrades or service contracts, mind you, and every feature and customization is a new line item. That's for a 1:1 replacement on a system installed in 2008. Incredible, given how fast the tech world moves.<p>Replacement parts cost a shocking $4000 per pair of lanes. But wait, the bowling machines themselves are 70 years old, so what's this \"advanced\" system actually doing back there? Actuating a single relay to trigger that big old machine. Everything else is strictly mechanical. Meanwhile I've got a six-figure invoice in my hand. I'm upset.<p>Given the state of open hardware, computer vision, real-time event streaming, and open source running megascale products worldwide, there had to be a way to do this myself.<p>So far I've built an equivalent prototype for about $200 per lane-pair, $400 if you're fancy. ESP32 and ESPNow with an RS485 fallback, reporting to a raspberry pi lane computer that's really just redis and a state machine bolted to an ESP32 gateway for the mesh.<p>Since it's all ESP32, I've got a fistful of spare controllers in a drawer, pre-flashed or waiting to be. All common off-the-shelf hardware: microcontrollers wired to relays, optocouplers, and IR-break-beam sensors, each running slightly different firmware. Writing the firmware and protocol is the actual hard part.<p>It's an ESPNow star-topology mesh: each node emits events from its sensors and accepts commands for its controls, reporting to a gateway node connected to the raspi over UART. From there it's event streaming: RX packets get translated and tossed into redis, commands relay back out to the mesh as needed. RS485 sits underneath as a wired fallback for noisy RF environments.<p>Once the data's in redis, it's familiar middleware/React/websocket/pub-sub stuff. Any React dev can build their own UI and bowling animations. Since it all runs on commodity hardware, I can do legit anything I want as the proprietor, and I own all my data. Repairs take five minutes; I can swap the rig on a lane pair in under 10. I'd bet a house like mine could go from zero to running in an hour or two.<p>We're calling it OpenLaneLink, and I plan to open source the hardware, firmware, and software stack when it's ready. Bowling is fun, and I want to help keep it affordable for alleys like mine.\nI hate vendor lock-in. I'm not a fan of closed systems, calling support for every hiccup, or paying to \"white label\" my own equipment. Want to go Tron-themed for a night? Good luck finding a neon neumorphic theme in something bought at the turn of the century.<p>All that bugged me. Sure, bowling equipment is niche, but the open hardware and software landscape is amazing.<p>Thanks for reading! Let me know if anyone's interested in more posts about this bowling nonsense.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48968606\">https://news.ycombinator.com/item?id=48968606</a></p>\n<p>Points: 93</p>\n<p># Comments: 10</p>",
-      "author": "section33",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48968606\">Comments</a>",
+      "author": "",
       "published_date": "2026-07-19T14:41:16+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 650,
-      "reading_time": 3,
-      "created_at": "2026-07-19T18:27:54.905628+00:00",
-      "updated_at": "2026-07-19T18:27:54.905630+00:00"
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-19T18:27:56.054550+00:00",
+      "updated_at": "2026-07-19T18:58:31.462540+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T18:58:31.462541+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "dedcee44d9ab8cd4b3d8dd4370689436",
@@ -150,17 +174,21 @@
       "id": "7e6afcb45ed4e7a365be9bc2adf6963e",
       "url": "https://www.hmd.com/en_int/hmd-touch-4g",
       "title": "HMD Touch 4G",
-      "content": "<p>Article URL: <a href=\"https://www.hmd.com/en_int/hmd-touch-4g\">https://www.hmd.com/en_int/hmd-touch-4g</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48969983\">https://news.ycombinator.com/item?id=48969983</a></p>\n<p>Points: 18</p>\n<p># Comments: 18</p>",
-      "author": "thisislife2",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48969983\">Comments</a>",
+      "author": "",
       "published_date": "2026-07-19T17:25:03+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-07-19T18:27:54.905457+00:00",
-      "updated_at": "2026-07-19T18:27:54.905459+00:00"
+      "created_at": "2026-07-19T18:27:56.054467+00:00",
+      "updated_at": "2026-07-19T18:58:31.462544+00:00",
+      "metadata": {
+        "processed_at": "2026-07-19T18:58:31.462546+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "4bc1e4f8474c151126d8c9185c4e647b",
