@@ -1,8 +1,56 @@
 {
-  "last_updated": "2026-07-22T19:05:27.324770+00:00",
-  "pending_count": 756,
-  "processed_count": 244,
+  "last_updated": "2026-07-22T21:10:17.472508+00:00",
+  "pending_count": 751,
+  "processed_count": 249,
   "pending_articles": [
+    {
+      "id": "02232e38e9ed78243fbc64206af9e611",
+      "url": "https://mitchellh.com/writing/everyone-should-know-simd",
+      "title": "Everyone Should Know SIMD",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49010648\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-22T17:48:18+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-22T20:12:07.733625+00:00",
+      "updated_at": "2026-07-22T20:12:07.733626+00:00"
+    },
+    {
+      "id": "9074bc9ad4ec4387b60c47beffcf692a",
+      "url": "https://dynomight.net/creatine/",
+      "title": "Does creatine make you smarter?",
+      "content": "<p>Article URL: <a href=\"https://dynomight.net/creatine/\">https://dynomight.net/creatine/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49008642\">https://news.ycombinator.com/item?id=49008642</a></p>\n<p>Points: 154</p>\n<p># Comments: 144</p>",
+      "author": "surprisetalk",
+      "published_date": "2026-07-22T15:45:18+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-07-22T20:12:06.271236+00:00",
+      "updated_at": "2026-07-22T20:12:06.271237+00:00"
+    },
+    {
+      "id": "02232e38e9ed78243fbc64206af9e611",
+      "url": "https://mitchellh.com/writing/everyone-should-know-simd",
+      "title": "Everyone Should Know SIMD",
+      "content": "<p>Article URL: <a href=\"https://mitchellh.com/writing/everyone-should-know-simd\">https://mitchellh.com/writing/everyone-should-know-simd</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49010648\">https://news.ycombinator.com/item?id=49010648</a></p>\n<p>Points: 53</p>\n<p># Comments: 18</p>",
+      "author": "WadeGrimridge",
+      "published_date": "2026-07-22T17:48:18+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-07-22T20:12:06.271015+00:00",
+      "updated_at": "2026-07-22T20:12:06.271023+00:00"
+    },
     {
       "id": "3f52c5f688e72ada27ddaf7ee438c41a",
       "url": "http://ieeexplore.ieee.org/document/11410538",
@@ -114,57 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-07-22T18:43:26.114786+00:00",
       "updated_at": "2026-07-22T18:43:26.114790+00:00"
-    },
-    {
-      "id": "dffdbf2c3f2ca0f2e897ffec07c5417e",
-      "url": "https://www.nature.com/articles/s41593-026-02348-3",
-      "title": "Microglial TDP-43 mediates myelin refinement and represses <i>Tyrobp</i> cryptic exon inclusion in mice",
-      "content": "<p>Nature Neuroscience, Published online: 08 July 2026; <a href=\"https://www.nature.com/articles/s41593-026-02348-3\">doi:10.1038/s41593-026-02348-3</a></p>Compagnion et al. show that TDP-43 loss in microglia causes myelin defects, oligodendrocyte precursor cell imbalance and motor deficits in mice. They identify TDP-43 as a regulator of the TREM2-DAP12 signaling, through the control of Tyrobp mis-splicing.",
-      "author": "Rosa C. Paolicelli",
-      "published_date": "2026-07-08T00:00:00+00:00",
-      "source": "Nature Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 45,
-      "reading_time": 1,
-      "created_at": "2026-07-22T18:43:12.622285+00:00",
-      "updated_at": "2026-07-22T18:43:12.622287+00:00"
-    },
-    {
-      "id": "1f60dab7a0add1f07d50bf9bb714b097",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1823408",
-      "title": "Long-range correlations in alpha-band of electroencephalogram: a nonlinear embedding and detrended fluctuation analysis",
-      "content": "Understanding the temporal organization of brain activity requires methods that capture scale-free dynamics while accounting for the high-dimensional, spatially correlated nature of the electroencephalogram (EEG) data. We propose a novel framework that integrates nonlinear manifold learning (Isometric mapping) with detrended fluctuation analysis (DFA) to quantify long-range temporal correlations (LRTC) in the alpha-band of EEG signals. We applied this framework to two music related EEG datasets, as music is known to evoke different emotions and synchronize brain activity. The first dataset was obtained during live Indian classical music (ICM) listening that included two ragas, Yaman and Puriya Dhanashree. EEG was recorded from 13 healthy volunteers (24 channels, sampled at 500 Hz). The second dataset is the Music BCI dataset (006-2015), which includes Jazz and Synth-pop musical clips, with EEG collected from 11 subjects (64 channels, downsampled to 200 Hz). The EEG data from both datasets were preprocessed, band-limited to 8\u201313 Hz, and segmented into non-overlapping 2-s windows. Alpha-band power was extracted from each channel to form the feature matrix used for embedding. For the ICM dataset, Isometric mapping (Isomap) produced a low-dimensional representation (d = 3), which we analyzed using two approaches: (i) a norm-based approach and (ii) a mean-based approach. For comparison, an equivalent PCA-based pipeline (d = 5) was implemented. The Isomap mean-based DFA yielded consistent scaling exponents (\u03b1) in the range of 0.66\u20130.70, with higher goodness-of-fit (R2) and narrower bootstrap confidence intervals than the norm-based approach. PCA produced similar trends but required more dimensions. Paired t-tests showed that the Isomap mean-based approach detected music-related changes more sensitively than PCA (Yaman p = 0.02; Puriya Dhanashree p = 0.008). Comparable results were also observed for the second Music BCI dataset, where Isomap achieved a compact representation with d = 5, compared to d = 8 for PCA. In this dataset as well, the mean-based DFA yielded \u03b1 values in the range of 0.62\u20130.65 and higher goodness-of-fit. Overall, the results suggest that combining nonlinear manifold embeddings with mean-based DFA provides a compact and robust framework for characterizing scale-free temporal structure in EEG data.",
-      "author": "Budhaditya Hazra",
-      "published_date": "2026-05-20T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 343,
-      "reading_time": 1,
-      "created_at": "2026-07-22T18:43:07.524923+00:00",
-      "updated_at": "2026-07-22T18:43:07.524924+00:00"
-    },
-    {
-      "id": "7bd343dbf25d61523037a43d9f9294b6",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1791461",
-      "title": "ASCT: a pipeline for standardized analysis of MEG/EEG directional connectivity. Practical guidelines for applications of source-based Directed Transfer Function",
-      "content": "The article presents the Atlantis Source Connectivity Toolbox (ASCT), a pipeline for the complete analysis of source-based directed (effective) connectivity from MEG/EEG signals. Connectivity estimation is implemented with the Directed Transfer Function, a multivariate autoregressive method grounded in the Granger causality approach. The theoretical concepts and challenges in source reconstruction and causal inferences from electrophysiological and biomagnetic recordings are introduced. Importantly, the guidelines for the custom analyses are also presented together with the toolbox user manual. By providing the complete analytic pipeline with practical recommendations, we intend to support standardization and replicability in connectivity studies. The validation of the method is further demonstrated with simulated MEG data, prepared from real resting data recording, as well as with realistic EEG data from the Eriksen flanker task. Our results highlight the importance of routine use of the leakage correction that prevents the appearance of spurious links. We also discuss potential benefits of source separation prior to their reconstruction for more accurate estimates of connectivity.",
-      "author": "Stefania Della Penna",
-      "published_date": "2026-06-23T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 162,
-      "reading_time": 1,
-      "created_at": "2026-07-22T18:43:07.524682+00:00",
-      "updated_at": "2026-07-22T18:43:07.524684+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "42184a71ec1305529e886194542b7930",
+      "url": "https://www.nature.com/articles/s41598-026-62995-1",
+      "title": "Quantitative segmental organization of spinal motoneuron projections to terminal brachial plexus nerves in the rat",
+      "content": "",
+      "author": "",
+      "published_date": "2026-07-22T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-07-22T20:12:48.040751+00:00",
+      "updated_at": "2026-07-22T21:10:17.357069+00:00",
+      "metadata": {
+        "processed_at": "2026-07-22T21:10:17.357078+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "994f34710dada5b15e45bd31554ea6d5",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2602749123?af=R",
+      "title": "Neural circuits for stress-induced water drinking in relief of anxiety",
+      "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 29, July 2026. <br />SignificanceAlthough enhanced water drinking subsequent to stress is widely observed in mammals, both the adaptive role of such behavior and its neural mechanisms remain poorly understood. Employing advanced neuroscience research tools, we uncovered a ...",
+      "author": "Lan TangRun-Jie WuHong-Yu LiHong-Rui WeiJing-Bo DuanQianqian LouLe-Xian LiXin-Lu YangWei GaoMin ZhuZhi ZhangSen QunYuanzhong KaiYan Jinahttps://ror.org/04c4dkn09Department of Anesthesiology, The First Affiliated Hospital of University of Science and Technology of China, Center for Advance Interdisciplinary Science and Biomedicine of Institute of Health and Medicine, Hefei National Laboratory for Physical Sciences at the Microscale, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230026, Chinabhttps://ror.org/04c4dkn09Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230027, Chinachttps://ror.org/04c4dkn09Department of Endocrinology and Metabolism, The First Affiliated Hospital of University of Science and Technology of China, University of Science and Technology of China, Hefei 230001, Chinadhttps://ror.org/04c4dkn09Department of Anesthesiology, The First Affiliated Hospital of University of Science and Technology of China, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230001, Chinaehttps://ror.org/04c4dkn09Department of Neurology, The First Affiliated Hospital of University of Science and Technology of China, Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei 230036, Chinafhttps://ror.org/03t1yn780Department of Pain Medicine, The First Affiliated Hospital of Anhui Medical University, Hefei 230022, Chinaghttps://ror.org/03xb04968Department of Anatomy, Anhui Provincial Key Laboratory for Brain Bank Construction and Resource Utilization, School of Basic Medical Sciences, Anhui Medical University, Hefei 230000, Chinahhttps://ror.org/05th6yx34Department of Biopharmaceuticals, School of Life Sciences and Medical Engineering, Anhui University, Hefei 230601, China",
+      "published_date": "2026-07-16T07:00:00+00:00",
+      "source": "Pnas Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 49,
+      "reading_time": 1,
+      "created_at": "2026-07-22T20:12:42.858748+00:00",
+      "updated_at": "2026-07-22T21:10:17.357082+00:00",
+      "metadata": {
+        "processed_at": "2026-07-22T21:10:17.357084+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "28bb037caac8e0f33a97c653ba89f90b",
+      "url": "http://doi.org/10.1037/neu0001092",
+      "title": "Testing is important: A truism worth remembering.",
+      "content": "Stiers (2026) asserts that knowledge of brain\u2013behavior relationships is keenly important for clinical neuropsychologists to possess. We agree wholeheartedly with this emphasis. However, Stiers seems to diminish the importance of norm-referenced testing compared to well-informed clinical observation. We refute this assertion, and we offer examples in which the reliability and validity of expert opinion based upon direct observation are surpassed by norm-referenced testing. We argue that norm-referenced testing is the hallmark virtue of clinical neuropsychologists, and such testing offers the most reliable and valid data in a clinical assessment. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2026-06-22T00:00:00+00:00",
+      "source": "Neuropsychology",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 98,
+      "reading_time": 1,
+      "created_at": "2026-07-22T20:12:15.732499+00:00",
+      "updated_at": "2026-07-22T21:10:17.357086+00:00",
+      "metadata": {
+        "processed_at": "2026-07-22T21:10:17.357088+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "3f2c3fc072cb59c9dcc7a0016150dd1f",
+      "url": "http://doi.org/10.1037/neu0001084",
+      "title": "Of dogs and diagnoses: Does clinical reasoning still matter in an age of biomarkers, functional imaging, and artificial intelligence?",
+      "content": "This commentary on Steir\u2019s 2026 article asks the question: What is the role of clinical reasoning in an age of advanced diagnostic tools and technological advances? We use the case study presented as a starting point to explore what clinical reasoning might look like in the future and how the skills highlighted in this case may be applicable for future generations of neuropsychologists. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
+      "author": "",
+      "published_date": "2026-06-22T00:00:00+00:00",
+      "source": "Neuropsychology",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 72,
+      "reading_time": 1,
+      "created_at": "2026-07-22T20:12:15.732469+00:00",
+      "updated_at": "2026-07-22T21:10:17.357090+00:00",
+      "metadata": {
+        "processed_at": "2026-07-22T21:10:17.357092+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "9d0e31aeb648265709a856acf42d0ca2",
+      "url": "https://ishmael.textualize.io/blog/ghost-cut/",
+      "title": "Ghost Cut \u2013 or why Cut and Paste is broken everywhere",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49007626\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-22T14:43:28+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-22T20:12:07.733681+00:00",
+      "updated_at": "2026-07-22T21:10:17.357096+00:00",
+      "metadata": {
+        "processed_at": "2026-07-22T21:10:17.357098+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "a0e1014b4f36e4b983b4890c5026b0ef",
       "url": "http://daniellakens.blogspot.com/2025/12/dogmatic-bayesianism-disorder.html",
@@ -262,106 +362,6 @@
       "updated_at": "2026-07-22T19:05:27.192481+00:00",
       "metadata": {
         "processed_at": "2026-07-22T19:05:27.192483+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "058dcfa3a108e9805a9145e77f9054a3",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226004653?dgcid=rss_sd_all",
-      "title": "CAPNS1 restoration partially alleviates mitochondrial dysfunction and synaptic deficits in Alzheimer\u2019s disease through the Ca<sup>2+</sup>-CaMKII\u03b2-MAPK-PGC-1\u03b1 axis",
-      "content": "<p>Publication date: 11 September 2026</p><p><b>Source:</b> Neuroscience, Volume 611</p><p>Author(s): Jialin Han, Shuang Wu, Xiaolin Cui, Xinyi Zhou, Qian Yu, Qian Cheng, Zhiming Lu, Shuai Zong</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 24,
-      "reading_time": 1,
-      "created_at": "2026-07-22T15:46:39.597959+00:00",
-      "updated_at": "2026-07-22T17:11:48.493066+00:00",
-      "metadata": {
-        "processed_at": "2026-07-22T17:11:48.493075+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5eb8f9226c227c923c15879074539c4f",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926004519?dgcid=rss_sd_all",
-      "title": "PatientSpace: A multimodal graph-based latent representation framework for modeling neurodegenerative disease heterogeneity",
-      "content": "<p>Publication date: September 2026</p><p><b>Source:</b> NeuroImage, Volume 338</p><p>Author(s): Dorian Manouvriez, Gr\u00e9gory Kuchcinski, Simon Lecerf, H\u00e9l\u00e8ne Lahousse, Antoine Rogeau, Nicolas Villain, Aur\u00e9lie Kas, Nadya Pyatigorskaya, Mathilde Nguyen, Sonja Petrovic, James H. Cole, Mariam Zabihi, Barnab\u00e9 Hache, Maxime Bertoux, Thibaud Lebouvier, Vincent Roca, Renaud Lopes, Alzheimer\u2019s Disease Neuroimaging Initiative, for the Frontotemporal Lobar Degeneration Neuroimaging Initiative, for the MEMENTO study group, for the SOCRATES study group</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 63,
-      "reading_time": 1,
-      "created_at": "2026-07-22T15:46:37.315043+00:00",
-      "updated_at": "2026-07-22T17:11:48.493079+00:00",
-      "metadata": {
-        "processed_at": "2026-07-22T17:11:48.493081+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1c35b380134b67b1f80459ad3b0460a3",
-      "url": "https://www.sciencedirect.com/science/article/pii/S105381192600443X?dgcid=rss_sd_all",
-      "title": "Altered Resting-State Co-Activation Patterns in Obsessive-Compulsive Disorder",
-      "content": "<p>Publication date: September 2026</p><p><b>Source:</b> NeuroImage, Volume 338</p><p>Author(s): Yange Chang, Hanyang Ruan, Kathrin Koch</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-07-22T15:46:37.315016+00:00",
-      "updated_at": "2026-07-22T17:11:48.493084+00:00",
-      "metadata": {
-        "processed_at": "2026-07-22T17:11:48.493085+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fcb2a764a0de7120d9d38fd3e585ffb3",
-      "url": "https://www.nature.com/articles/s41598-026-63449-4",
-      "title": "Reduced neuropeptide signaling attenuates ischemia\u2013reperfusion\u2013induced pressure ulcer formation in SOD1-G93A mice",
-      "content": "",
-      "author": "",
-      "published_date": "2026-07-22T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-07-22T15:46:34.930548+00:00",
-      "updated_at": "2026-07-22T17:11:48.493088+00:00",
-      "metadata": {
-        "processed_at": "2026-07-22T17:11:48.493090+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "762857953a7ec2d3e60b9483f9d6e557",
-      "url": "https://www.nature.com/articles/s41467-026-75841-9",
-      "title": "Model-based semantic distance reveals adaptive coordination of distinct cognitive systems in flexible knowledge retrieval",
-      "content": "",
-      "author": "",
-      "published_date": "2026-07-22T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-07-22T15:46:34.930456+00:00",
-      "updated_at": "2026-07-22T17:11:48.493092+00:00",
-      "metadata": {
-        "processed_at": "2026-07-22T17:11:48.493093+00:00",
         "processing_method": "github_actions"
       }
     }
