@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-07-24T20:57:46.855489+00:00",
-  "pending_count": 806,
-  "processed_count": 194,
+  "last_updated": "2026-07-24T22:57:21.897549+00:00",
+  "pending_count": 802,
+  "processed_count": 198,
   "pending_articles": [
+    {
+      "id": "32ebf0246a380297cd3ed80a492c180a",
+      "url": "https://cp.copernicus.org/articles/18/579/2022/",
+      "title": "Greenland's Ice Sheet Was Supposed to Be Rapidly Melting Away. It Hasn't Been",
+      "content": "<p>Article URL: <a href=\"https://cp.copernicus.org/articles/18/579/2022/\">https://cp.copernicus.org/articles/18/579/2022/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49041581\">https://news.ycombinator.com/item?id=49041581</a></p>\n<p>Points: 10</p>\n<p># Comments: 1</p>",
+      "author": "bilsbie",
+      "published_date": "2026-07-24T21:06:39+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-07-24T21:37:42.922254+00:00",
+      "updated_at": "2026-07-24T21:37:42.922266+00:00"
+    },
     {
       "id": "ce46c54d871fa18a35a96e36f84a53b8",
       "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae8577",
@@ -146,25 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-07-24T18:58:30.875140+00:00",
       "updated_at": "2026-07-24T18:58:30.875142+00:00"
-    },
-    {
-      "id": "1445d8a42c014bb8e5da7a5cd3add94b",
-      "url": "https://www.anthropic.com/news/claude-opus-5",
-      "title": "Claude Opus 5",
-      "content": "<p><a href=\"https://www.anthropic.com/claude-opus-5-system-card\" rel=\"nofollow\">https://www.anthropic.com/claude-opus-5-system-card</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49038433\">https://news.ycombinator.com/item?id=49038433</a></p>\n<p>Points: 639</p>\n<p># Comments: 352</p>",
-      "author": "alvis",
-      "published_date": "2026-07-24T16:57:41+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 14,
-      "reading_time": 1,
-      "created_at": "2026-07-24T18:58:30.875095+00:00",
-      "updated_at": "2026-07-24T18:58:30.875096+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "b19da58e9949bd915b00eefdb223efda",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.21.739870v1?rss=1",
+      "title": "The diversity of disease-associated natural human antibody specificities declines dramatically in Alzheimers disease.",
+      "content": "Alzheimers disease (AD) is the leading cause of dementia and administration of monoclonal antibodies against Ab amyloid are associated with disease modifying effects leading to FDA approval for some antibodies. Naturally-occurring human antibodies (NAbs) are believed to be the front line of defense against a variety of diseases, so we investigated the specificity of NAbs in AD and cognitively normal (NC) individuals using epitomic profiling (EP). We found that the diversity of antibody-specific peptide epitope segments (ES) declines dramatically (26-fold) in the AD compared to NC populations. Many of these differentially expressed ES (DEES) map to amyloid sequences that accumulate in AD, such as Ab, tau, a-synuclein, TDP43 and TMEM106b. NAbs that target amino terminal Ab epitopes are elevated in AD (residues 1-6 and 18-21) and NAbs that target different Ab epitopes are elevated in NC (residues 5-10 and 35-41). DEES that map to 2N4R tau are highly cross correlated in the population implying that that the antibodies may be polyspecific or that a set of antibodies are coordinately regulated. We used weighted gene correlation network analysis (WGCNA) to identify co-expressed DEES and UMAP to embed DEES in both AD and NC populations that bind to the same antibody or co-expressed set of antibodies. An average of approximately 25 DEES cluster in each WGCNA group. A major WGCNA cluster associated with AD contains 3 groups of overlapping DEES that assemble into longer linear epitopes. One of these 3 groups contain sequences that map to the amino terminus of Ab. DEES elevated in AD may be useful blood biomarkers for AD. The DEES clusters elevated in NC may be associated with protection against misfolded protein amyloid seeding and propagation and maintaining the resilience of neuronal populations.",
+      "author": "Reyes-Ruiz, J. M., Zhang, J., Netanel, J., Yu, Z., Glabe, C. G.",
+      "published_date": "2026-07-24T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 285,
+      "reading_time": 1,
+      "created_at": "2026-07-24T21:38:24.632150+00:00",
+      "updated_at": "2026-07-24T22:57:21.782515+00:00",
+      "metadata": {
+        "processed_at": "2026-07-24T22:57:21.782524+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a019d17e5b1b95621f77a11000ad66f1",
+      "url": "https://www.nature.com/articles/s41598-026-59842-8",
+      "title": "Relationship between motor reserve, general cognitive functioning and brain atrophy in older adults",
+      "content": "",
+      "author": "",
+      "published_date": "2026-07-24T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-07-24T21:38:23.258307+00:00",
+      "updated_at": "2026-07-24T22:57:21.782528+00:00",
+      "metadata": {
+        "processed_at": "2026-07-24T22:57:21.782530+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4dd005ebad1e519e7f7a3323bcea3c05",
+      "url": "https://www.wired.com/story/how-amazon-made-alexa-smarter/",
+      "title": "The Secret Origins of Amazon's Alexa",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48997998\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-21T20:42:23+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-24T21:37:44.024927+00:00",
+      "updated_at": "2026-07-24T22:57:21.782532+00:00",
+      "metadata": {
+        "processed_at": "2026-07-24T22:57:21.782534+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f41315891e365c436c38ca77a9bc0c80",
+      "url": "https://essenceia.github.io/projects/ethernet_switch_asic/",
+      "title": "Designing an Ethernet Switch ASIC",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=48985182\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-20T21:35:33+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-24T21:37:44.024887+00:00",
+      "updated_at": "2026-07-24T22:57:21.782536+00:00",
+      "metadata": {
+        "processed_at": "2026-07-24T22:57:21.782538+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "07701db34a42882952ffa0d0ea089ba9",
+      "url": "https://marimo.io/blog/pycharm",
+      "title": "Marimo Now Runs in PyCharm",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49004464\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-22T10:24:40+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-24T21:37:44.024867+00:00",
+      "updated_at": "2026-07-24T22:57:21.782540+00:00",
+      "metadata": {
+        "processed_at": "2026-07-24T22:57:21.782542+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "2eb57dbdbc858b57282cfad12fa8d826",
       "url": "https://brain.ieee.org/braininsight-articles/ieee-brain-workshop-on-ai-for-neurotechnology/",
@@ -262,106 +362,6 @@
       "updated_at": "2026-07-24T20:57:46.731854+00:00",
       "metadata": {
         "processed_at": "2026-07-24T20:57:46.731855+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "73660dd068da905df955c4b015612263",
-      "url": "https://www.nature.com/articles/s41598-026-63869-2",
-      "title": "Linking sensory processing patterns and somatosensory thresholds to behavioural and emotional symptoms in adolescents with ADHD",
-      "content": "",
-      "author": "",
-      "published_date": "2026-07-24T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-07-24T18:59:08.022501+00:00",
-      "updated_at": "2026-07-24T19:17:42.564719+00:00",
-      "metadata": {
-        "processed_at": "2026-07-24T19:17:42.564730+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3117965cda731681f828748dc0c94b0b",
-      "url": "https://www.nature.com/articles/s41598-026-63139-1",
-      "title": "Effects of promotional and preventive framing strategies in AI generated content on neural responses and trust",
-      "content": "",
-      "author": "",
-      "published_date": "2026-07-24T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-07-24T18:59:08.022460+00:00",
-      "updated_at": "2026-07-24T19:17:42.564734+00:00",
-      "metadata": {
-        "processed_at": "2026-07-24T19:17:42.564736+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "35d1c0665acbdc3d7c934c01f5e0fb79",
-      "url": "https://www.nature.com/articles/s41586-026-10911-y",
-      "title": "Author Correction: Feature-specific threat coding in lateral septum guides defensive action",
-      "content": "",
-      "author": "",
-      "published_date": "2026-07-24T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-07-24T18:59:08.022433+00:00",
-      "updated_at": "2026-07-24T19:17:42.564739+00:00",
-      "metadata": {
-        "processed_at": "2026-07-24T19:17:42.564740+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "63efe0630b68f1908e98f172321c35b3",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1799307",
-      "title": "FUSION-AD: interpretable AI framework for risk assessment and subgroup discovery in Alzheimer's disease",
-      "content": "IntroductionAlzheimer's disease (AD) is difficult to treat because of its multifactorial causes and heterogeneous progression across individuals. This study introduces FUSION-AD, a user-friendly and interpretable artificial intelligence framework for AD risk assessment and subgroup discovery.MethodsFUSION-AD integrates tree-based models, transformer-based neural networks, rule mining, and subgroup discovery to provide accurate and interpretable predictions. The framework was developed using the synthetic El Kharoua Alzheimer's Disease Dataset, which contains 2,149 structured clinical records from patients aged 60\u201390 years, with a mean age of 74.6 years and an average mini-mental state examination (MMSE) score of 21.7. The pipeline included data preprocessing, model benchmarking, feature-importance analysis, SHAP-based explanation, transformer attention analysis, association rule mining, and subgroup discovery.ResultsWithin the evaluated dataset, TabNet achieved the strongest point-estimate performance among the standalone benchmark models on the primary evaluation split, with an area under the receiver operating characteristic curve (AUROC) of 0.95, followed by XGBoost at 0.93, Random Forest at 0.92, and Logistic Regression at 0.89. Feature importance, SHAP values, and transformer attention consistently identified MMSE, Functional Assessment, and Memory Complaints as the most influential predictors. Association rule mining further highlighted diabetes and high body mass index as important risk factors. Subgroup discovery identified four clinical clusters, with prevalence ranging from 21.3 to 28.4%. Cluster 0 showed notable declines in daily functioning, with Functional Assessment decreasing by 2.1 and activities of daily living decreasing by 1.5, whereas Cluster 1 maintained daily functioning but showed increased behavioral symptoms.DiscussionFUSION-AD demonstrates that AD can be modeled in a way that balances predictive performance with interpretability within the studied dataset. The identified subgroup patterns suggest that lifestyle-driven profiles may benefit from preventive strategies, while cognitively impaired groups may require closer monitoring. These findings provide a foundation for future clinically oriented decision-support systems and require further validation using real-world clinical datasets.",
-      "author": "Sarra Ayouni",
-      "published_date": "2026-05-28T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 297,
-      "reading_time": 1,
-      "created_at": "2026-07-24T18:59:01.179856+00:00",
-      "updated_at": "2026-07-24T19:17:42.564742+00:00",
-      "metadata": {
-        "processed_at": "2026-07-24T19:17:42.564744+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "88cb50706befdc053bee22d84f16dac5",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1613151",
-      "title": "A 3D-printed phantom to validate subject orientation in 3D imaging and recordings",
-      "content": "A phantom defined by a 3D-printed system of markers representing an anatomical coordinate system is proposed. This phantom is designed for use in magnetic resonance and X-ray imaging devices to validate acquisition parameters and prevent laterality errors during image acquisition and processing. The phantom allows visualization of the coordinate system axes \u2013 left-right, posterior-anterior, and inferior-superior \u2013 in all orthogonal slices of a volume. A computational method, using the phantom as a reference, is also proposed to automatically detect and correct flips and permutations in RAS coordinate system representations. Testing the phantom across four modalities available in our platforms, followed by conversions of the recordings to the NIfTI format, enables the detection, correction, and adjustment of protocols in 4 out of 5 configurations. The 3D printing models and orientation detection/correction code are shared with the community as open-source and open-access resources to enable quick, cost-effective, and accessible production.",
-      "author": "Emmanuel L. Barbier",
-      "published_date": "2026-05-28T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 148,
-      "reading_time": 1,
-      "created_at": "2026-07-24T18:59:01.179808+00:00",
-      "updated_at": "2026-07-24T19:17:42.564746+00:00",
-      "metadata": {
-        "processed_at": "2026-07-24T19:17:42.564747+00:00",
         "processing_method": "github_actions"
       }
     }
