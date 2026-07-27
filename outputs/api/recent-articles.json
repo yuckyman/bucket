@@ -1,7 +1,103 @@
 {
-  "last_updated": "2026-07-26T22:55:12.510433+00:00",
+  "last_updated": "2026-07-27T00:01:47.424192+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d597d9413f1ae4f7dbfe3173f916a0ec",
+      "url": "https://github.com/hkc5/cursor-bridge",
+      "title": "Cursor Bridge \u2013 Run Unlimited Claude Code on Your Cursor Subscription",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49063186\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-26T22:48:09+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-27T00:00:31.708129+00:00",
+      "updated_at": "2026-07-27T00:00:31.708130+00:00"
+    },
+    {
+      "id": "32eaa28c00bc4c867836ccac866d8c32",
+      "url": "https://arstechnica.com/gadgets/2026/07/i-wanted-a-clock-that-never-needed-setting-things-escalated/",
+      "title": "I wanted a clock that never needed setting. Things escalated",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49020219\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-23T12:01:52+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-27T00:00:31.707994+00:00",
+      "updated_at": "2026-07-27T00:00:31.707996+00:00"
+    },
+    {
+      "id": "0befb987aa5055f59c80de072ebf6bbc",
+      "url": "https://github.com/experientiallabs/world-model-optimizer",
+      "title": "Show HN: Distill and serve small models with frontier quality for half the cost",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49063454\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-26T23:35:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-27T00:00:31.707972+00:00",
+      "updated_at": "2026-07-27T00:00:31.707974+00:00"
+    },
+    {
+      "id": "d597d9413f1ae4f7dbfe3173f916a0ec",
+      "url": "https://github.com/hkc5/cursor-bridge",
+      "title": "Cursor Bridge \u2013 Run Unlimited Claude Code on Your Cursor Subscription",
+      "content": "<p>Article URL: <a href=\"https://github.com/hkc5/cursor-bridge\">https://github.com/hkc5/cursor-bridge</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063186\">https://news.ycombinator.com/item?id=49063186</a></p>\n<p>Points: 11</p>\n<p># Comments: 9</p>",
+      "author": "hakancan",
+      "published_date": "2026-07-26T22:48:09+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-07-27T00:00:30.616703+00:00",
+      "updated_at": "2026-07-27T00:00:30.616705+00:00"
+    },
+    {
+      "id": "3289bfde62d22538ea6dfa2858b7bd74",
+      "url": "https://www.bbc.com/sport/football/articles/c3r087181ndo",
+      "title": "Japan legend Miura, 59, scores first goal since 2022",
+      "content": "<p>Article URL: <a href=\"https://www.bbc.com/sport/football/articles/c3r087181ndo\">https://www.bbc.com/sport/football/articles/c3r087181ndo</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063266\">https://news.ycombinator.com/item?id=49063266</a></p>\n<p>Points: 26</p>\n<p># Comments: 4</p>",
+      "author": "brudgers",
+      "published_date": "2026-07-26T23:03:35+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-07-27T00:00:30.616682+00:00",
+      "updated_at": "2026-07-27T00:00:30.616683+00:00"
+    },
+    {
+      "id": "0befb987aa5055f59c80de072ebf6bbc",
+      "url": "https://github.com/experientiallabs/world-model-optimizer",
+      "title": "Show HN: Distill and serve small models with frontier quality for half the cost",
+      "content": "<p>Hi HN, we built world-model-optimizer, an open-source tool for continually improve models specialized to agents. Today we are launching `wmo serve`, a tool to route repetitive tasks to distilled smaller models.<p>Agent traces you already capture are opportunities to get signal on how to make your model cheaper, faster, better. We continuously improve\n- your specialized model through distillation from open source models\n- model routing to frontier + custom models\n- token compaction to remove noise and save tokens<p>Demo: <a href=\"https://www.youtube.com/watch?v=2_m4Ze6mdko\" rel=\"nofollow\">https://www.youtube.com/watch?v=2_m4Ze6mdko</a><p>Pass in traces and an OpenRouter key, and wmo starts a local OpenAI-compatible endpoint to run with your model at a lower cost with equivalent quality. Behind the scenes a router decides which tasks should go to the frontier versus your model. Tinker continually trains as new traces arrive.<p>We also offer a hosted solution for anyone that just wants a frontier quality endpoint with self-improvement over time at a 40%+ lower cost.<p>Sign up for the waitlist at <a href=\"https://experientiallabs.ai\">https://experientiallabs.ai</a> and give the repo a star!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063454\">https://news.ycombinator.com/item?id=49063454</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "SilenN",
+      "published_date": "2026-07-26T23:35:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 177,
+      "reading_time": 1,
+      "created_at": "2026-07-27T00:00:30.616649+00:00",
+      "updated_at": "2026-07-27T00:00:30.616658+00:00"
+    },
     {
       "id": "f7fc0063c1d351801debe90b98d98c02",
       "url": "https://gracefulliberty.com/articles/teaching-kids-forth/",
@@ -19,6 +115,46 @@
       "updated_at": "2026-07-26T22:55:12.413149+00:00",
       "metadata": {
         "processed_at": "2026-07-26T22:55:12.413159+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f7fc0063c1d351801debe90b98d98c02",
+      "url": "https://gracefulliberty.com/articles/teaching-kids-forth/",
+      "title": "Teaching Kids Forth \u2013 Anna Liberty",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49062700\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-26T21:39:17+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-26T22:33:50.196517+00:00",
+      "updated_at": "2026-07-26T22:55:12.413149+00:00",
+      "metadata": {
+        "processed_at": "2026-07-26T22:55:12.413159+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "3dd7e1d3e9c486aa72e7409812794d95",
+      "url": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html",
+      "title": "We have proof automation now",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49062291\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-26T20:53:26+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-26T22:33:50.196498+00:00",
+      "updated_at": "2026-07-26T22:55:12.413163+00:00",
+      "metadata": {
+        "processed_at": "2026-07-26T22:55:12.413164+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -59,46 +195,6 @@
       "updated_at": "2026-07-26T22:55:12.413166+00:00",
       "metadata": {
         "processed_at": "2026-07-26T22:55:12.413168+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3dd7e1d3e9c486aa72e7409812794d95",
-      "url": "https://www.imperialviolet.org/2026/07/26/zstd-lean.html",
-      "title": "We have proof automation now",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49062291\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-26T20:53:26+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-26T22:33:50.196498+00:00",
-      "updated_at": "2026-07-26T22:55:12.413163+00:00",
-      "metadata": {
-        "processed_at": "2026-07-26T22:55:12.413164+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f7fc0063c1d351801debe90b98d98c02",
-      "url": "https://gracefulliberty.com/articles/teaching-kids-forth/",
-      "title": "Teaching Kids Forth \u2013 Anna Liberty",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49062700\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-26T21:39:17+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-26T22:33:50.196517+00:00",
-      "updated_at": "2026-07-26T22:55:12.413149+00:00",
-      "metadata": {
-        "processed_at": "2026-07-26T22:55:12.413159+00:00",
         "processing_method": "github_actions"
       }
     },
@@ -257,110 +353,6 @@
         "processed_at": "2026-07-26T20:52:05.724253+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "e82a546c1a1dea4cc3fa778ca947e74e",
-      "url": "http://doi.org/10.1037/bne0000655",
-      "title": "Oxytocin prevents cocaine-induced high-affect 50-kHz vocalizations in female rats.",
-      "content": "Cocaine\u2019s reinforcing properties are a key factor underlying the broad prevalence of cocaine use disorder. Few behavioral measures are capable of assessing cocaine-induced euphoria in murine models, limiting effective treatment options. However, positive affective states can be measured in rats by assessing the production of high-frequency, 50-kHz, vocalizations. Oxytocin (OXT) has been shown to attenuate cocaine-mediated behaviors in rodent models; however, the effect of OXT on cocaine-induced euphoria remains unknown. We addressed this by randomly assigning female rats to saline\u2013saline, saline\u2013cocaine, OXT\u2013saline, or OXT\u2013cocaine conditions and then assessing ultrasonic vocalizations. We found that saline\u2013cocaine animals emitted a significantly higher percentage of 50-kHz calls relative to the other conditions, indicative of cocaine\u2019s euphoric effects. Notably, an OXT pretreatment prevented the cocaine-induced increase in high-affect calls. We also found that OXT significantly increased call duration in cocaine animals, inducing aversivelike call properties and further suggesting that OXT may attenuate positive affective states. There were minimal differences in call bandwidth across groups and no significant differences in call amplitude. When assessing the ultrasonic vocalization\u2019s qualitative features, we found that cocaine led to an increased production of flat and short call types, both of which are associated with positive states, which were not attenuated by OXT. Altogether, we found that cocaine administration successfully produced a high affective state in female rats. Moreover, an OXT pretreatment was sufficient to decrease the rewarding effects of cocaine administration and therefore may play a vital role in treating those suffering from cocaine use disorder. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2026-05-04T00:00:00+00:00",
-      "source": "Behavioral Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 255,
-      "reading_time": 1,
-      "created_at": "2026-07-26T20:30:01.176091+00:00",
-      "updated_at": "2026-07-26T20:52:05.724255+00:00",
-      "metadata": {
-        "processed_at": "2026-07-26T20:52:05.724256+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "09fd3e8b18b6a7680416f3d5b2a824c0",
-      "url": "http://doi.org/10.1037/bne0000653",
-      "title": "Treatment of cisplatin-induced olfactory aversion based on selection logic: A novel approach.",
-      "content": "Aversion can arise from a combination of unconditioned stimuli that induce physical discomfort, such as pain and nausea. Chemotherapy-induced side effects, including taste and olfactory aversion, can persist even after treatment has ended, thereby reducing the quality of life. Currently, however, no effective pharmacological interventions exist for treating chemotherapy-induced conditioned aversion learning. Therefore, elucidating its underlying mechanisms is of great importance. In this study, we investigated cisplatin-induced olfactory aversion learning using the two-bottle choice test. Cisplatin was found to induce aversive responses to neutral odorants, namely isoamyl acetate and benzaldehyde. Notably, we obtained two key findings. First, an odor solution that was not aversive in the two-bottle choice test (i.e., distilled water) became aversive to mice when compared with a third novel odor solution that had not been presented in the test. Second, when pairs of three odorants were alternated over an extended period, the mice occasionally shifted their aversive responses as the pairings changed. In clinical practice, patients are exposed to a variety of odors. Thus, the new insights gained from this study on olfactory aversion may help inform the development of novel treatments for chemotherapy-related side effects. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2026-05-04T00:00:00+00:00",
-      "source": "Behavioral Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 198,
-      "reading_time": 1,
-      "created_at": "2026-07-26T20:30:01.176044+00:00",
-      "updated_at": "2026-07-26T20:52:05.724259+00:00",
-      "metadata": {
-        "processed_at": "2026-07-26T20:52:05.724260+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3ba8d05060993c3d401d4a3263b124ca",
-      "url": "http://doi.org/10.1037/bne0000654",
-      "title": "Characterization of behaviors during food consumption under novelty and threat learning in male and female rats.",
-      "content": "Fear and anxiety are related but distinct responses to imminent versus uncertain threat. Suppression of eating under novelty is an evolutionarily conserved, cross-species model of anxiety, and it is beneficial to determine if this behavior can predict individual differences in fear learning and memory. The present study examined behaviors during novelty-induced suppression of eating and fear learning and memory in male and female rats, and determined which behaviors correlate across the two paradigms. Experiment 1a tested consumption of novel versus familiar food in a novel or familiar context across two sessions. During the first session, subjects in the novel context consumed less familiar food than those in the familiar context, demonstrating novelty-induced hypophagia. Novel food consumption did not differ by context. During the second session, all subjects increased consumption and reduced latency to eat, indicating habituation. Females consumed more novel food than males and more novel than familiar food. Experiment 1b tested Pavlovian auditory fear conditioning, extinction, and renewal. Behavioral responses were categorized under freezing, mobility, or neutral. Freezing increased during acquisition, decreased during extinction, and was renewed in the original acquisition context, confirming learning and memory in both sexes. In contrast, mobility behaviors increased during extinction and were not conditioned nor renewed. Neutral behaviors were high at baseline and suppressed during cue presentations. Lower novel food consumption correlated with higher freezing and lower mobility during extinction in males, but not females. This suggests that individual differences in novelty-induced anxiety can predict behavior during fear extinction in male rats. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2026-07-06T00:00:00+00:00",
-      "source": "Behavioral Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 258,
-      "reading_time": 1,
-      "created_at": "2026-07-26T20:30:01.176007+00:00",
-      "updated_at": "2026-07-26T20:30:01.176010+00:00"
-    },
-    {
-      "id": "38f70e23c30141bfbc4286663d0f419f",
-      "url": "http://doi.org/10.1037/bne0000659",
-      "title": "Hippocampal communication with the anterior olfactory nucleus is necessary for context-dependent odor memory.",
-      "content": "The hippocampus plays a critical role in contextual learning and memory processes. The ability to associate memories and behaviors with the learning context likely involves interactions between the hippocampus and other brain regions where the basic elements of the memory may be encoded. Here, we examined interactions of the hippocampus and the olfactory system using a contextually cued conditional discrimination task that required rats to remember that one odor from a pair of odor cues is rewarded in one context, but the opposite odor is rewarded in a different context. We used muscimol to inactivate the anterior olfactory nucleus, a key target for hippocampal output to the olfactory system, and the ventral hippocampus. We also performed crossed-hemisphere inactivation of the anterior olfactory nucleus in one hemisphere and the hippocampus in the other. All three inactivation procedures severely impaired performance. These results indicate that interactions between the hippocampus and anterior olfactory nucleus are critical for context-dependent odor memory. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2026-06-15T00:00:00+00:00",
-      "source": "Behavioral Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 166,
-      "reading_time": 1,
-      "created_at": "2026-07-26T20:30:01.175958+00:00",
-      "updated_at": "2026-07-26T20:30:01.175963+00:00"
-    },
-    {
-      "id": "4081c4fa287e577540defbcec2e4519a",
-      "url": "https://blog.playcanvas.com/building-the-grace-cathedral-experience/",
-      "title": "Building the Grace Cathedral Experience",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49008834\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-22T15:57:53+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-26T20:29:56.816094+00:00",
-      "updated_at": "2026-07-26T20:29:56.816096+00:00"
-    },
-    {
-      "id": "fba69886496e3848f919e473c00297f8",
-      "url": "https://orchidfiles.com/github-security-team/",
-      "title": "What does GitHub's security team even do?",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49061769\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-26T19:51:05+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-26T20:29:56.815947+00:00",
-      "updated_at": "2026-07-26T20:29:56.815949+00:00"
     }
   ]
 }
