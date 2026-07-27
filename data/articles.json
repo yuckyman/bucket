@@ -7,13 +7,17 @@
     "author": "",
     "published_date": "2026-07-26T22:48:09+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-07-27T00:00:31.708129+00:00",
-    "updated_at": "2026-07-27T00:00:31.708130+00:00"
+    "updated_at": "2026-07-27T02:26:11.785623+00:00",
+    "metadata": {
+      "processed_at": "2026-07-27T02:26:11.785636+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "32eaa28c00bc4c867836ccac866d8c32",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": "2026-07-23T12:01:52+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-07-27T00:00:31.707994+00:00",
-    "updated_at": "2026-07-27T00:00:31.707996+00:00"
+    "updated_at": "2026-07-27T02:26:11.785643+00:00",
+    "metadata": {
+      "processed_at": "2026-07-27T02:26:11.785647+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "0befb987aa5055f59c80de072ebf6bbc",
@@ -39,29 +47,37 @@
     "author": "",
     "published_date": "2026-07-26T23:35:15+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-07-27T00:00:31.707972+00:00",
-    "updated_at": "2026-07-27T00:00:31.707974+00:00"
+    "updated_at": "2026-07-27T02:26:11.785652+00:00",
+    "metadata": {
+      "processed_at": "2026-07-27T02:26:11.785656+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "d597d9413f1ae4f7dbfe3173f916a0ec",
     "url": "https://github.com/hkc5/cursor-bridge",
     "title": "Cursor Bridge \u2013 Run Unlimited Claude Code on Your Cursor Subscription",
-    "content": "<p>Article URL: <a href=\"https://github.com/hkc5/cursor-bridge\">https://github.com/hkc5/cursor-bridge</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063186\">https://news.ycombinator.com/item?id=49063186</a></p>\n<p>Points: 11</p>\n<p># Comments: 9</p>",
-    "author": "hakancan",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=49063186\">Comments</a>",
+    "author": "",
     "published_date": "2026-07-26T22:48:09+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-07-27T00:00:30.616703+00:00",
-    "updated_at": "2026-07-27T00:00:30.616705+00:00"
+    "created_at": "2026-07-27T00:00:31.708129+00:00",
+    "updated_at": "2026-07-27T02:26:11.785623+00:00",
+    "metadata": {
+      "processed_at": "2026-07-27T02:26:11.785636+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "3289bfde62d22538ea6dfa2858b7bd74",
@@ -71,29 +87,37 @@
     "author": "brudgers",
     "published_date": "2026-07-26T23:03:35+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 13,
     "reading_time": 1,
     "created_at": "2026-07-27T00:00:30.616682+00:00",
-    "updated_at": "2026-07-27T00:00:30.616683+00:00"
+    "updated_at": "2026-07-27T02:26:11.785665+00:00",
+    "metadata": {
+      "processed_at": "2026-07-27T02:26:11.785667+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "0befb987aa5055f59c80de072ebf6bbc",
     "url": "https://github.com/experientiallabs/world-model-optimizer",
     "title": "Show HN: Distill and serve small models with frontier quality for half the cost",
-    "content": "<p>Hi HN, we built world-model-optimizer, an open-source tool for continually improve models specialized to agents. Today we are launching `wmo serve`, a tool to route repetitive tasks to distilled smaller models.<p>Agent traces you already capture are opportunities to get signal on how to make your model cheaper, faster, better. We continuously improve\n- your specialized model through distillation from open source models\n- model routing to frontier + custom models\n- token compaction to remove noise and save tokens<p>Demo: <a href=\"https://www.youtube.com/watch?v=2_m4Ze6mdko\" rel=\"nofollow\">https://www.youtube.com/watch?v=2_m4Ze6mdko</a><p>Pass in traces and an OpenRouter key, and wmo starts a local OpenAI-compatible endpoint to run with your model at a lower cost with equivalent quality. Behind the scenes a router decides which tasks should go to the frontier versus your model. Tinker continually trains as new traces arrive.<p>We also offer a hosted solution for anyone that just wants a frontier quality endpoint with self-improvement over time at a 40%+ lower cost.<p>Sign up for the waitlist at <a href=\"https://experientiallabs.ai\">https://experientiallabs.ai</a> and give the repo a star!</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49063454\">https://news.ycombinator.com/item?id=49063454</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
-    "author": "SilenN",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=49063454\">Comments</a>",
+    "author": "",
     "published_date": "2026-07-26T23:35:15+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 177,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-07-27T00:00:30.616649+00:00",
-    "updated_at": "2026-07-27T00:00:30.616658+00:00"
+    "created_at": "2026-07-27T00:00:31.707972+00:00",
+    "updated_at": "2026-07-27T02:26:11.785652+00:00",
+    "metadata": {
+      "processed_at": "2026-07-27T02:26:11.785656+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "f7fc0063c1d351801debe90b98d98c02",
