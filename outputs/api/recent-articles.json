@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T06:08:08.092793+00:00",
+  "last_updated": "2026-07-30T08:14:45.465474+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "Hyeok Kim, Jeffrey Heer",
       "published_date": "2026-07-30T04:00:00+00:00",
       "source": "Arxiv Cs Hc",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 168,
       "reading_time": 1,
       "created_at": "2026-07-30T06:07:49.342032+00:00",
-      "updated_at": "2026-07-30T06:07:49.342033+00:00"
+      "updated_at": "2026-07-30T08:14:45.348520+00:00",
+      "metadata": {
+        "processed_at": "2026-07-30T08:14:45.348532+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "72bc38ca584d2bf5c6736f4633ef81dc",
@@ -26,13 +30,17 @@
       "author": "Peisen Xu, J\\'er\\'emie Garcia, Peter Cleveland, Ooi Wei Tsang, Christophe Jouffrais",
       "published_date": "2026-07-30T04:00:00+00:00",
       "source": "Arxiv Cs Hc",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 175,
       "reading_time": 1,
       "created_at": "2026-07-30T06:07:49.342009+00:00",
-      "updated_at": "2026-07-30T06:07:49.342010+00:00"
+      "updated_at": "2026-07-30T08:14:45.348536+00:00",
+      "metadata": {
+        "processed_at": "2026-07-30T08:14:45.348538+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "31a956b0102325a16c0211ccdad84e6c",
@@ -42,13 +50,17 @@
       "author": "Gavin Sueltz, Vikram Athithan, Emma Ferran, Maria Herrera, Carson J. Wynn, Laura A. Hallock",
       "published_date": "2026-07-30T04:00:00+00:00",
       "source": "Arxiv Cs Hc",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 260,
       "reading_time": 1,
       "created_at": "2026-07-30T06:07:49.341985+00:00",
-      "updated_at": "2026-07-30T06:07:49.341986+00:00"
+      "updated_at": "2026-07-30T08:14:45.348540+00:00",
+      "metadata": {
+        "processed_at": "2026-07-30T08:14:45.348542+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "2e03744beafa81994acee2ccfcbc7482",
@@ -58,13 +70,17 @@
       "author": "Kevin Zhongyang Shao, Denise Wilson, Yale Quan, Sep Makhsous",
       "published_date": "2026-07-30T04:00:00+00:00",
       "source": "Arxiv Cs Hc",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 156,
       "reading_time": 1,
       "created_at": "2026-07-30T06:07:49.341952+00:00",
-      "updated_at": "2026-07-30T06:07:49.341953+00:00"
+      "updated_at": "2026-07-30T08:14:45.348544+00:00",
+      "metadata": {
+        "processed_at": "2026-07-30T08:14:45.348546+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "09fcba6d4c6d79b870cded9f0c4f5642",
@@ -74,13 +90,17 @@
       "author": "Lance Ying, William Van Uitert, Tan Zhi-Xuan, Joshua B. Tenenbaum, Samuel J. Gershman",
       "published_date": "2026-07-30T04:00:00+00:00",
       "source": "Arxiv Cs Hc",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 157,
       "reading_time": 1,
       "created_at": "2026-07-30T06:07:49.341929+00:00",
-      "updated_at": "2026-07-30T06:07:49.341930+00:00"
+      "updated_at": "2026-07-30T08:14:45.348548+00:00",
+      "metadata": {
+        "processed_at": "2026-07-30T08:14:45.348552+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "772f53731568aa8aa50dcb62e0f111df",
@@ -230,17 +250,21 @@
       "id": "09fcba6d4c6d79b870cded9f0c4f5642",
       "url": "https://arxiv.org/abs/2607.26322",
       "title": "Pragmatic Reasoning in Design",
-      "content": "arXiv:2607.26322v1 Announce Type: cross \nAbstract: People can often understand and use novel artifacts after only a few interactions, suggesting that design choices communicate underlying affordances and causal structure. We propose a formal account of this process by framing cooperative, user-centered design as a cooperative game in which the user is the principal and the designer is an assistant. Inspired by prior work on pragmatic communication (e.g. RSA), our model treats a designer's design decisions as communicative signals and predicts user judgments via recursive mentalizing: designers make design decisions to trade off informativeness about the artifact with efficiency, and users infer the true model of the artifact by inverting this cooperative designer model. We evaluate the model in a design game where designers place visually identical keys on trays to help a user infer which keys unlock which doors in grid-world layouts. We find that pragmatic designer and user models better match human judgments than non-mentalizing literal baselines.",
+      "content": "arXiv:2607.26322v1 Announce Type: new \nAbstract: People can often understand and use novel artifacts after only a few interactions, suggesting that design choices communicate underlying affordances and causal structure. We propose a formal account of this process by framing cooperative, user-centered design as a cooperative game in which the user is the principal and the designer is an assistant. Inspired by prior work on pragmatic communication (e.g. RSA), our model treats a designer's design decisions as communicative signals and predicts user judgments via recursive mentalizing: designers make design decisions to trade off informativeness about the artifact with efficiency, and users infer the true model of the artifact by inverting this cooperative designer model. We evaluate the model in a design game where designers place visually identical keys on trays to help a user infer which keys unlock which doors in grid-world layouts. We find that pragmatic designer and user models better match human judgments than non-mentalizing literal baselines.",
       "author": "Lance Ying, William Van Uitert, Tan Zhi-Xuan, Joshua B. Tenenbaum, Samuel J. Gershman",
       "published_date": "2026-07-30T04:00:00+00:00",
-      "source": "Arxiv Qbio Nc",
-      "status": "pending",
+      "source": "Arxiv Cs Hc",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 157,
       "reading_time": 1,
-      "created_at": "2026-07-30T06:07:48.282912+00:00",
-      "updated_at": "2026-07-30T06:07:48.282913+00:00"
+      "created_at": "2026-07-30T06:07:49.341929+00:00",
+      "updated_at": "2026-07-30T08:14:45.348548+00:00",
+      "metadata": {
+        "processed_at": "2026-07-30T08:14:45.348552+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "5bbb808f23162ee55d0ac6c7b10d314d",
