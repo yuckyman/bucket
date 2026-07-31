@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-07-31T20:58:58.895341+00:00",
-  "pending_count": 796,
-  "processed_count": 204,
+  "last_updated": "2026-07-31T22:55:13.555610+00:00",
+  "pending_count": 791,
+  "processed_count": 209,
   "pending_articles": [
+    {
+      "id": "09c20503231c87c540d6afb288201e2b",
+      "url": "https://jwlabs.vercel.app/post/biting-the-bullet",
+      "title": "Predictive Speculative KV Replication for Bursty LLM Inference",
+      "content": "<p><a href=\"https://github.com/jwlaboratory/bite-the-bullet\" rel=\"nofollow\">https://github.com/jwlaboratory/bite-the-bullet</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49127874\">https://news.ycombinator.com/item?id=49127874</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "author": "shreybirmiwal",
+      "published_date": "2026-07-31T19:55:41+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 14,
+      "reading_time": 1,
+      "created_at": "2026-07-31T22:06:42.578473+00:00",
+      "updated_at": "2026-07-31T22:06:42.578474+00:00"
+    },
     {
       "id": "c20dcdc15f0cc63b735f2f666869f04c",
       "url": "https://www.nature.com/articles/s41467-026-75773-4",
@@ -146,25 +162,149 @@
       "reading_time": 1,
       "created_at": "2026-07-31T19:26:07.641143+00:00",
       "updated_at": "2026-07-31T19:26:07.641144+00:00"
-    },
-    {
-      "id": "68ecdd58542c8f857abf24234ee2f5ab",
-      "url": "https://manifest.build/blog/why-we-deprecated-our-llm-router/",
-      "title": "Everyone is building LLM routers, we deprecated ours",
-      "content": "<p>Article URL: <a href=\"https://manifest.build/blog/why-we-deprecated-our-llm-router/\">https://manifest.build/blog/why-we-deprecated-our-llm-router/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49126630\">https://news.ycombinator.com/item?id=49126630</a></p>\n<p>Points: 10</p>\n<p># Comments: 1</p>",
-      "author": "brunaxLorax",
-      "published_date": "2026-07-31T18:06:39+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-07-31T19:26:07.641129+00:00",
-      "updated_at": "2026-07-31T19:26:07.641130+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "e8ebe94f0bc53f2fc3bf8376a9d5dcd7",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2026.1903252",
+      "title": "An EEG-based fatigue detection framework integrating interpretable feature selection and efficient temporal modeling",
+      "content": "IntroductionFatigue is a critical factor contributing to operational errors, traffic accidents, and psychological disorders. A major challenge in current fatigue detection lies in the difficulty of clearly identifying fatigue-related neural channels in the brain, which hinders the accurate extraction of effective features from high-dimensional electroencephalography (EEG) signals.MethodsThis study proposes the AXELLSTM fatigue detection framework, an EEG-based cross-subject fatigue detection framework that integrates interpretable feature selection with efficient temporal modeling. Specifically, a nested leave-one-subject-out (LOSO) validation strategy was adopted to evaluate cross-subject generalization and reduce potential data leakage during feature and channel selection. Within each LOSO fold, ANOVA and XGBoost were first used to identify discriminative fatigue-related features, followed by an L1-regularized sparse selection model to estimate channel importance. Furthermore, an EfficientLSTM model was designed by integrating a feature compression module, bidirectional long short-term memory network, channel attention, and temporal attention mechanisms to capture sequence-level EEG temporal representations.ResultsThe results showed that eight features, including mean, RMS, zero-crossing rate, gamma power, beta power, standard deviation, variance, and peak-to-peak value, were consistently selected across all LOSO folds. In addition, 18 EEG channels, including F8, AF8, TP8, F2, Fp1, F4, FT10, F6, Fz, P7, FT9, O1, C5, FT8, CP4, F3, FC6, and P3, were stably retained, suggesting that fatigue-related EEG information is distributed across frontal, frontopolar, frontotemporal, parietal, and occipital regions. Under the LOSO protocol, EfficientLSTM achieved an accuracy of 0.7454 \u00b1 0.2147, balanced accuracy of 0.7436 \u00b1 0.2139, and Macro-F1 of 0.7143 \u00b1 0.2452, with 0.1959 M parameters, a model size of 0.7474 MB, and 3.7069 M FLOPs. Compared with the baseline models, EfficientLSTM obtained the highest average Macro-F1 and showed a favorable balance between cross-subject recognition performance, model complexity, and temporal modeling capability.DiscussionThese findings indicate that the proposed AXELLSTM framework provides an interpretable and computationally efficient solution for EEG-based fatigue detection and offers potential support for the development of portable fatigue monitoring systems.",
+      "author": "Xinbo Gao",
+      "published_date": "2026-07-31T00:00:00+00:00",
+      "source": "Frontiers Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 311,
+      "reading_time": 1,
+      "created_at": "2026-07-31T22:07:09.235238+00:00",
+      "updated_at": "2026-07-31T22:55:13.429567+00:00",
+      "metadata": {
+        "processed_at": "2026-07-31T22:55:13.429580+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "187404f26d017607708c745d69fc4f7f",
+      "url": "https://arxiv.org/abs/2607.28233",
+      "title": "Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49128323\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-31T20:44:29+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-31T22:06:43.672035+00:00",
+      "updated_at": "2026-07-31T22:55:13.429584+00:00",
+      "metadata": {
+        "processed_at": "2026-07-31T22:55:13.429586+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f87c1dcd02fe050b10fdf48352182cff",
+      "url": "https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator",
+      "title": "Loops (YC W22) Is Hiring a Product Educator",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49128462\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-31T21:00:40+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-31T22:06:43.671991+00:00",
+      "updated_at": "2026-07-31T22:55:13.429589+00:00",
+      "metadata": {
+        "processed_at": "2026-07-31T22:55:13.429590+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "4faf146ab0703fea6f55e5d9cbc00c7b",
+      "url": "https://arielsalminen.com/2026/progressive-web-components/",
+      "title": "Progressive Web Components",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49121196\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-31T10:04:40+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-31T22:06:43.671953+00:00",
+      "updated_at": "2026-07-31T22:55:13.429593+00:00",
+      "metadata": {
+        "processed_at": "2026-07-31T22:55:13.429594+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "104e273bc7a7b2b3470031471be77314",
+      "url": "https://weeraman.com/because-we-can/",
+      "title": "Twenty-five years ago it was cryptography, today it's model weights",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49083599\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-28T13:31:25+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-31T22:06:43.671914+00:00",
+      "updated_at": "2026-07-31T22:55:13.429596+00:00",
+      "metadata": {
+        "processed_at": "2026-07-31T22:55:13.429598+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "187404f26d017607708c745d69fc4f7f",
+      "url": "https://arxiv.org/abs/2607.28233",
+      "title": "Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49128323\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-31T20:44:29+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-31T22:06:43.672035+00:00",
+      "updated_at": "2026-07-31T22:55:13.429584+00:00",
+      "metadata": {
+        "processed_at": "2026-07-31T22:55:13.429586+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f87c1dcd02fe050b10fdf48352182cff",
+      "url": "https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator",
+      "title": "Loops (YC W22) Is Hiring a Product Educator",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49128462\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-31T21:00:40+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-31T22:06:43.671991+00:00",
+      "updated_at": "2026-07-31T22:55:13.429589+00:00",
+      "metadata": {
+        "processed_at": "2026-07-31T22:55:13.429590+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "be6865723eeb9dd1f6230d0d017afc80",
       "url": "https://www.reddit.com/r/Python/comments/1vbzpsz/pip_262_onlydeps_norequirehashes_venv_isolation/",
@@ -222,146 +362,6 @@
       "updated_at": "2026-07-31T20:58:58.776890+00:00",
       "metadata": {
         "processed_at": "2026-07-31T20:58:58.776892+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "7cd5b1ea65f203c127e2a45ab064962c",
-      "url": "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner",
-      "title": "Using the railway network as a flatbed scanner [video]",
-      "content": "<p>Article URL: <a href=\"https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner\">https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49126919\">https://news.ycombinator.com/item?id=49126919</a></p>\n<p>Points: 15</p>\n<p># Comments: 9</p>",
-      "author": "Jimmc414",
-      "published_date": "2026-07-31T18:30:44+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-07-31T20:43:08.199703+00:00",
-      "updated_at": "2026-07-31T20:58:58.776898+00:00",
-      "metadata": {
-        "processed_at": "2026-07-31T20:58:58.776900+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "835ceaaed284d4e604d4f9fb2f699252",
-      "url": "https://www.nature.com/articles/s41598-026-64537-1",
-      "title": "TIMAP depletion impairs BMP signaling by accelerating SMURF1-mediated SMAD degradation in neuroblastoma cells",
-      "content": "",
-      "author": "",
-      "published_date": "2026-07-31T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-07-31T19:26:49.969556+00:00",
-      "updated_at": "2026-07-31T20:58:58.776902+00:00",
-      "metadata": {
-        "processed_at": "2026-07-31T20:58:58.776903+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5d11f624eecb754cdaa93b0e7aec79bf",
-      "url": "http://daniellakens.blogspot.com/2026/05/there-are-13-ways-to-analyse.html",
-      "title": "There are 13 ways to analyse a replication study, but only one of them is coherent.",
-      "content": "<p>Paul Simon\u2019s says\nthere are 50 ways to leave your lover, and a similar abundance characterizes\nthe contemporary literature on how to analyse a replication study. The recent SCORE\nreplication project in Nature makes this explicit by reporting \u201c13 replication\nsuccess metrics along with the number of papers to which each metric could be\napplied\u201d (Tyner et al., 2026). The reason for this, as the authors note, is\nthat \u201cNo singular success metric has been accepted as optimal and universally\napplicable in the literature.\u201d With so many approaches to choose from, it\nshould not be a surprise that the inferences based on the studies vary\nsubstantially. As the authors report: \u201cThirteen methods for evaluating\nreplication success provided estimates ranging from 28.6% to 74.8% (median of\n49.3%).\u201d</p><p></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/a/AVvXsEinyqOmbe-2Lzl3GrUa3DcVypRzs7tCoCkEjNkaW-mcgVqDqDcfHPURO2rpq9d-idP8SjXyJ5OV3Zs8kl91EW0f7OUic8G9umaNA_DIuiP7qXRTLvTwTSRlDxls9fC6RHfS2URmDDUzr8dXhW0GgeoI4XiIJL4PxtpTdCu8oj9XkTX7XJR3z34I-rdhDzs\" style=\"margin-left: 1em; margin-right: 1em;\"><img alt=\"\" height=\"176\" src=\"https://blogger.googleusercontent.com/img/a/AVvXsEinyqOmbe-2Lzl3GrUa3DcVypRzs7tCoCkEjNkaW-mcgVqDqDcfHPURO2rpq9d-idP8SjXyJ5OV3Zs8kl91EW0f7OUic8G9umaNA_DIuiP7qXRTLvTwTSRlDxls9fC6RHfS2URmDDUzr8dXhW0GgeoI4XiIJL4PxtpTdCu8oj9XkTX7XJR3z34I-rdhDzs=w640-h176\" width=\"640\" /></a></div><div class=\"separator\" style=\"clear: both; text-align: center;\">Fig. 1 from the SCORE project, with 13 ways to analyze a replication study.</div><br /><p></p>\n\n<p class=\"MsoNormal\">Although it is\nunderstandable for such a massive project to refrain from strongly opinionated\nchoices, I think we can all agree that we do not want to compute a median for\ndifferent approaches to analyse replication success, and just like we don\u2019t\nwant 13 ways to analyse an original study, we don\u2019t want 13 ways to analyse a\nreplication study. The current state of how to analyse replication studies is not\nas much an embarrassment of riches, but an embarrassment of a lack of a\ncoherent epistemology. In science, we don\u2019t compute statistics just because we\ncan. We compute statistics because they help us to generate knowledge. In my\nexperience, in science no \u201csingular\u201d <i>anything </i>is ever \u201caccepted\u201d \u2013 and especially\nnot an approach to statistical inferences (as the ever-ongoing disagreement\nbetween Bayesians and Frequentists illustrates). Instead of waiting for\nagreement, we should think about which approach to the analysis of a\nreplication study coherently follows from our epistemology. </p>\n\n<p class=\"MsoNormal\">Two metrics do the\nbulk of the epistemic work in the replication project. The authors are explicit\nthat \u201cPrimary reporting emphasizes the two most reported replication metrics:\nstatistical significance and effect size comparisons.\u201d The authors are right to\nfocus on these two measures, as these two inferences \u2013 whether the p-value is significant,\nand whether the effect sizes are similar \u2013 reflect what researchers treat as\nsubstantive claims in studies. In our recent paper \u2018How to analyse a\nreplication study\u2019 we point out that these two inferences are directly related\nto basic statements that scientists make: whether the same ordinal decision can\nbe made in the replication, and whether the magnitude of the effect\nmeaningfully corresponds to the original estimate <!--[if supportFields]><span\nstyle='mso-ansi-language:#0C00'><span style='mso-element:field-begin'></span><span\nstyle='mso-spacerun:yes'>\u00a0</span>ADDIN ZOTERO_ITEM CSL_CITATION\n{&quot;citationID&quot;:&quot;w2b4NOSS&quot;,&quot;properties&quot;:{&quot;unsorted&quot;:false,&quot;formattedCitation&quot;:&quot;(Lakens\net al., 2026)&quot;,&quot;plainCitation&quot;:&quot;(Lakens et al.,\n2026)&quot;,&quot;noteIndex&quot;:0},&quot;citationItems&quot;:[{&quot;id&quot;:18325,&quot;uris&quot;:[&quot;http://zotero.org/users/371621/items/KSYTSEEZ&quot;],&quot;itemData&quot;:{&quot;id&quot;:18325,&quot;type&quot;:&quot;article&quot;,&quot;abstract&quot;:&quot;Replication\nstudies play an important role in scientific knowledge generation, but\nresearchers lack a coherent account of how to conclude whether a finding has\nbeen replicated. This paper provides such an account by connecting\nmethodological falsificationism and the Neyman-Pearson approach to statistical\ninferences in the context of the analysis of replication studies. From this\nperspective, the goal of a replication study is to examine whether the same\nbasic statement that was made in an original study can also be made when new\ndata are collected in a faithful empirical realization of the original test. If\nthe original study made an ordinal claim based on a statistical decision rule,\nthe replication study should evaluate whether the same claim can be made using\nthe same inferential criterion. We argue that the original effect size estimate\nshould also be treated as part of the original claim, and therefore that\nreplication studies should additionally examine whether the effect size differs\nmeaningfully from the original estimate. We illustrate how such comparisons can\nbe performed for correlations by using equivalence tests and point out the\nimportance of reflecting on which difference between replication studies is\nlarge enough to matter. More broadly, we argue that researchers should choose\nan analysis strategy for replication studies where their philosophy of science\nand statistical framework are coherently aligned.&quot;,&quot;citation-key&quot;:&quot;lakens_how_2026&quot;,&quot;number&quot;:&quot;7ydgu_v1&quot;,&quot;publisher&quot;:&quot;PsyArXiv&quot;,&quot;source&quot;:&quot;OSF\nPreprints&quot;,&quot;title&quot;:&quot;How to analyze a replication\nstudy&quot;,&quot;URL&quot;:&quot;https://osf.io/preprints/psyarxiv/7ydgu_v1/&quot;,&quot;author&quot;:[{&quot;family&quot;:&quot;Lakens&quot;,&quot;given&quot;:&quot;Daniel&quot;},{&quot;family&quot;:&quot;Leach&quot;,&quot;given&quot;:&quot;Nina\nM&quot;},{&quot;family&quot;:&quot;Haans&quot;,&quot;given&quot;:&quot;Antal&quot;},{&quot;family&quot;:&quot;Uygun\nTun\u00e7&quot;,&quot;given&quot;:&quot;Duygu&quot;},{&quot;family&quot;:&quot;Tun\u00e7&quot;,&quot;given&quot;:&quot;Mehmet\nN&quot;}],&quot;accessed&quot;:{&quot;date-parts&quot;:[[&quot;2026&quot;,5,3]]},&quot;issued&quot;:{&quot;date-parts&quot;:[[&quot;2026&quot;,4,30]]}}}],&quot;schema&quot;:&quot;https://github.com/citation-style-language/schema/raw/master/csl-citation.json&quot;}\n<span style='mso-element:field-separator'></span></span><![endif]-->(Lakens et al.,\n2026)<!--[if supportFields]><span style='mso-ansi-language:#0C00'><span\nstyle='mso-element:field-end'></span></span><![endif]-->. </p>\n\n<p class=\"MsoNormal\">While the authors understandably\ndo not make too strong a point about their focus on 2 of the 13 metrics, their\ndecision is not just based on which measures are commonly reported but also\nbased on an epistemically coherent approach to the analysis of a replication\nstudy. Replication projects like SCORE are unmistakably designed within a\nmethodological falsificationist framework, even when this philosophical\nbackground is not mentioned explicitly. In a falsificationist framework, which\nis implemented thought the Neyman-Pearson approach to statistical inferences, error\nrates are tightly controlled, and claims are made based on the results of a hypothesis\ntest. It is clear the score authors followed a methodological falsificationist\nframework and the Neyman-Pearson approach to statistics as they preregistered\n(allowing others to evaluate how severely they controlled their error rates), designed\nstudies with high statistical power, and set a prespecified alpha level. </p>\n\n<p class=\"MsoNormal\">From our perspective,\nthe central goal of a replication study is not to ask a new statistical\nquestion, but to revisit the same question as in the original study, after\ncollecting new data. As we argue, \u201cthe goal of a replication study is to\nexamine whether the same basic statement that was made in an original study can\nalso be made when new data are collected in a faithful empirical realization of\nthe original test.\u201d Within a methodological falsificationist framework,\noriginal findings enter the literature as tentative basic statements, justified\nby a statistical decision rule with known error rates. Replication studies\nfunction as a critical check on whether such statements were merely the result\nof a Type I error. As we note, \u201cone of the main functions of a replication\nstudy is to determine the stability of a finding, which should not be present\nif the original finding was a Type I error.\u201d Even though replications\ninevitably change many auxiliary conditions\u2014because, as Popper already\nobserved, experiments can never be repeated exactly\u2014this does not undermine\ntheir epistemic role. Instead, replications test whether the original claim\nsurvives variation in factors that were implicitly relegated to the ceteris\nparibus clause, thereby probing whether the original inference was robust or not.</p>\n\n<p class=\"MsoNormal\">This view has direct\nimplications for how replication studies should be analysed. If original claims\nwere made by rejecting a null hypothesis at a prespecified alpha level, then \u201cthe\nreplication study should evaluate whether the same claim can be made using the\nsame inferential criterion.\u201d And if researchers also treated the original\neffect size estimate as part of the claim (which they seem to do in practice) then\nreplication studies must additionally examine whether effect sizes differ\nmeaningfully. While the other eleven approaches to assessing replication\nsuccess are statistically legitimate and can certainly be reported, they answer\ndifferent questions and rest on different epistemic commitments. The coherent\napproach is the one that aligns epistemological aims, philosophy of science,\nand statistical procedure. Statistics follow from the questions we ask, the\nquestions we ask follow from our philosophy of science, and without such\ncoherence we cannot have a principled approach to the analysis of replication\nstudies. Maybe it is time to admit that there are 13 statistical quantities\nthat can be computed for a replication study, but there is really only one way to\ndo so coherently from a specific philosophy of scientific knowledge generation.\n</p>\n\n<p class=\"MsoNormal\">&nbsp;</p>\n\n<p class=\"MsoNormal\"><b>References</b></p>\n\n<p class=\"MsoBibliography\" style=\"line-height: normal;\"><!--[if supportFields]><span\nstyle='mso-ansi-language:#0C00'><span style='mso-element:field-begin'></span><span\nstyle='mso-spacerun:yes'>\u00a0</span>ADDIN ZOTERO_BIBL\n{&quot;uncited&quot;:[],&quot;omitted&quot;:[],&quot;custom&quot;:[]}\nCSL_BIBLIOGRAPHY <span style='mso-element:field-separator'></span></span><![endif]--><span lang=\"EN-US\">Lakens, D., Leach, N. M., Haans, A.,\nUygun Tun\u00e7, D., &amp; Tun\u00e7, M. N. (2026). <i>How to analyze a replication study</i>. PsyArXiv. <a href=\"https://osf.io/preprints/psyarxiv/7ydgu_v1\">https://osf.io/preprints/psyarxiv/7ydgu_v1</a>/&nbsp;</span></p>\n\n<p class=\"MsoBibliography\" style=\"line-height: normal;\"><span lang=\"EN-US\">Tyner, A. H., Abatayo, A. L., Daley, M., Field,\nS., Fox, N., Haber, N. A., Hahn, K. M., Struhl, M. K., Mawhinney, B., Miske,\nO., Silverstein, P., Soderberg, C. K., Stankov, T., Abbasi, A., Aberson, C. L.,\nAczel, B., Adamkovi\u010d, M., Albayrak, N., Allen, P. J., \u2026 Errington, T. M.\n(2026). Investigating the replicability of the social and behavioural sciences.\n</span><i><span lang=\"NL\">Nature</span></i><span lang=\"NL\">, <i>652</i>(8108),\n143\u2013150. <a href=\"https://doi.org/10.1038/s41586-025-10078-y\">https://doi.org/10.1038/s41586-025-10078-y</a></span></p>\n\n<!--[if supportFields]><span style='font-size:11.0pt;line-height:107%;\nfont-family:\"Arial\",sans-serif;mso-fareast-font-family:Aptos;mso-fareast-theme-font:\nminor-latin;mso-bidi-font-family:\"Times New Roman\";mso-bidi-theme-font:minor-bidi;\nmso-ansi-language:#0C00;mso-fareast-language:EN-US;mso-bidi-language:AR-SA'><span\nstyle='mso-element:field-end'></span></span><![endif]-->",
-      "author": "noreply@blogger.com (Daniel Lakens)",
-      "published_date": "2026-05-03T18:37:00+00:00",
-      "source": "Twenty Percent Statistician",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 1361,
-      "reading_time": 6,
-      "created_at": "2026-07-31T17:38:59.496750+00:00",
-      "updated_at": "2026-07-31T17:41:28.156789+00:00",
-      "metadata": {
-        "processed_at": "2026-07-31T17:41:28.156800+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "94a781c4a6300c310826b980c56fc451",
-      "url": "https://www.sciencedirect.com/science/article/pii/S105381192600460X?dgcid=rss_sd_all",
-      "title": "Developmental changes in MEG oscillatory activity during visuomotor adaptation: Differential maturation of feedforward and feedback-related mechanisms",
-      "content": "<p>Publication date: 1 October 2026</p><p><b>Source:</b> NeuroImage, Volume 339</p><p>Author(s): Minsu Song, Alexander J. Cook, Advitya Hajela, Deborah Giaschi, Hee-Yeon Im</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 19,
-      "reading_time": 1,
-      "created_at": "2026-07-31T17:38:37.896764+00:00",
-      "updated_at": "2026-07-31T17:41:28.156804+00:00",
-      "metadata": {
-        "processed_at": "2026-07-31T17:41:28.156807+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f29c3d7292beaf15b27c4950a76c602a",
-      "url": "https://www.nature.com/articles/s41598-026-59055-z",
-      "title": "Categorization-driven perceptual learning changes perceived similarity in the naturalistic domain of skin lesion diagnosis",
-      "content": "",
-      "author": "",
-      "published_date": "2026-07-31T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-07-31T17:38:35.405394+00:00",
-      "updated_at": "2026-07-31T17:41:28.156809+00:00",
-      "metadata": {
-        "processed_at": "2026-07-31T17:41:28.156811+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "eca201906eccda603aeba6255f753436",
-      "url": "https://fmhy.net/posts/aug-2026",
-      "title": "Monthly Updates [August]",
-      "content": "<div class=\"info custom-block\"><p class=\"custom-block-title\">INFO</p>\n<p>These update threads only contain major updates. If you're interested\nin seeing all minor changes you can follow our\n<a href=\"https://github.com/fmhy/FMHYedit/commits/main\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub or\n<a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Updates Channel</a> in Discord.</p>\n</div>\n<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Added <strong><a href=\"https://i.ibb.co/kVdvPwnc/image.png\" rel=\"noreferrer\" target=\"_blank\">URL Search Support</a></strong> / <a href=\"https://i.imgur.com/v13FI4y.png\" rel=\"noreferrer\" target=\"_blank\">2</a>, you can now search entire URLs or text inside URLs. Disabled by default, press the link icon in the search bar to enable. TY to @Lou, @Manu, &amp; @Bread for making this happen.</p>\n</li>\n<li>\n<p>Added a <strong><a href=\"https://search.fmhy.bid/\" rel=\"noreferrer\" target=\"_blank\">Semantic Style Search</a></strong> for FMHY, should work well with natural language. TY to @Zenith for making this.</p>\n</li>\n<li>\n<p>Added a new theme called <a href=\"https://i.ibb.co/QjFYWTw9/image.png\" rel=\"noreferrer\" target=\"_blank\">Monolith</a> / <a href=\"https://i.imgur.com/fwZMOCw.png\" rel=\"noreferrer\" target=\"_blank\">2</a>. Uses JetBrains Mono, targeted at HiDPI monitors.</p>\n</li>\n<li>\n<p>Added a <a href=\"https://d.fmhy.bid/rss.xml\" rel=\"noreferrer\" target=\"_blank\">RSS Style Changelog Tracker</a>. Thank you to @Zenith for making this.</p>\n</li>\n<li>\n<p>Split Reading Recommendations into 3 subsections: <a href=\"https://fmhy.net/reading#book-recommendations\" rel=\"noreferrer\" target=\"_blank\">Books</a> / <a href=\"https://fmhy.net/reading#comic-recommendations\" rel=\"noreferrer\" target=\"_blank\">Comics</a> / <a href=\"https://fmhy.net/reading#manga-recommendations\" rel=\"noreferrer\" target=\"_blank\">Manga</a>. TY to @Dan for doing this.</p>\n</li>\n<li>\n<p>Added section for <a href=\"https://fmhy.net/video#iptv-players\" rel=\"noreferrer\" target=\"_blank\">IPTV Players</a> to Video Tools, TY to @RansomQ for doing this.</p>\n</li>\n<li>\n<p>Added section for <a href=\"https://fmhy.net/social-media-tools#tiktok-tools\" rel=\"noreferrer\" target=\"_blank\">TikTok Tools</a> to Social Media.</p>\n</li>\n<li>\n<p>Re-ordered stream aggregators based on the results (and conversations) that took place during <a href=\"https://challonge.com/rtdxi8qg/fullscreen\" rel=\"noreferrer\" target=\"_blank\">the polls for it</a>. Thank you to everyone who voted. <a href=\"https://i.ibb.co/VYsz7PbR/Untitled.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/XS9RUNN.png\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Re-ordered Game Repack Sites based on the results from the poll, thank you to everyone who voted. <a href=\"https://i.ibb.co/MyyqwQ6z/image.png\" rel=\"noreferrer\" target=\"_blank\">Before vs After</a> / <a href=\"https://i.imgur.com/shPiyop.png\" rel=\"noreferrer\" target=\"_blank\">2</a></p>\n</li>\n<li>\n<p>Changed the currently focused search and scroll-to-match highlights to use <a href=\"https://i.ibb.co/39z3CZDv/image.png\" rel=\"noreferrer\" target=\"_blank\">theme colors</a> / <a href=\"https://i.imgur.com/UNHsaiZ.png\" rel=\"noreferrer\" target=\"_blank\">2</a>.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred <a href=\"https://fmhy.net/audio#streaming-sites\" rel=\"noreferrer\" target=\"_blank\">Octave</a> in Browser Music (and iOS Audio), high quality ad-free audio streaming, has cloud sync, unlimited skips, last.fm integration, library importing, a equalizer, offline downloads, and more.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#file-hosts\" rel=\"noreferrer\" target=\"_blank\">0807</a> in File Hosts, 10GB, keeps files 90 days (after last download), has a good dev team + has been well received so far.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#download-games\" rel=\"noreferrer\" target=\"_blank\">ZeiGames</a> (formerly RexaGames) in Game Downloads, big library, fast hosts, update games quickly.</p>\n</li>\n<li>\n<p>Stared <a href=\"https://fmhy.net/gaming#rom-sites\" rel=\"noreferrer\" target=\"_blank\">LoLROMs</a> in ROM section, newer collection, covers both popular and obscure consoles, has thousands of games + single click downloads.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming-tools#game-mods\" rel=\"noreferrer\" target=\"_blank\">Thunderstore</a> is Game Mods, mods + mod manager mostly for Unity Games (but has others too), has a big library, preferred over Nexus by some.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#book-tracking-databases\" rel=\"noreferrer\" target=\"_blank\">StoryGraph</a> in Book Recommendations, book tracking / recommendation sites, very feature rich, preferred over GoodReads by some.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#comic-recommendations\" rel=\"noreferrer\" target=\"_blank\">Comic Book Reading Orders</a> in Comic Recommendations, massive catalog of reading orders, going all the back to the 60's.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/reading#book-recommendations\" rel=\"noreferrer\" target=\"_blank\">The Book Prize Index</a>, nice index of book awards + award winning books.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming-tools#optimization-tools\" rel=\"noreferrer\" target=\"_blank\">OptiScaler</a> in Optimization Tools, game upscaling tool for windows, uses games motion vectors for better results, has no screen warping like Lossless Scaling.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#stream-aggregators\" rel=\"noreferrer\" target=\"_blank\">GOATED</a> in Stream Aggregators, has fast streams, custom player, seemed to be well liked in our polls.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#download-sites\" rel=\"noreferrer\" target=\"_blank\">MKV BASE</a> in Movies/TV Downloading, has very big library + good hosts.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/video#anime-streaming\" rel=\"noreferrer\" target=\"_blank\">Yeanime</a> in Anime Streaming, has a nice UI, fast streams, seems to be well liked.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/internet-tools#redirect-bypass\" rel=\"noreferrer\" target=\"_blank\">Bypass (lc)</a> in Redirect Bypass, works well, supports many sites.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/privacy#search-engines\" rel=\"noreferrer\" target=\"_blank\">Startpage</a> in Privacy Search Engines, essentially a google frontend with better privacy, has better results in some cases than other privacy engines.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>\n<p>Removed Cromite as its now 3 major chromium versions behind, has many bugs, and the dev has said they're taking a break, we'll re-add in the future if it makes a comeback.</p>\n</li>\n<li>\n<p>Added Nightcord to our unsafe list, they seem to of been caught <a href=\"https://i.ibb.co/gbG0SYhM/image.png\" rel=\"noreferrer\" target=\"_blank\">logging discord tokens</a> in the past. Note we didn't have this listed on FMHY, we just want to help get the info out there.</p>\n</li>\n</ul>",
-      "author": "",
-      "published_date": "2026-08-01T00:00:00+00:00",
-      "source": "Fmhy",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 750,
-      "reading_time": 3,
-      "created_at": "2026-07-31T17:38:02.495980+00:00",
-      "updated_at": "2026-07-31T17:41:28.156813+00:00",
-      "metadata": {
-        "processed_at": "2026-07-31T17:41:28.156815+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "955710dd5f20e5db953b318a078ae39a",
-      "url": "https://lwn.net/Articles/1086489/",
-      "title": "Arch Linux disables AUR package adoption",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49123208\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-31T13:57:35+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-31T17:37:59.929410+00:00",
-      "updated_at": "2026-07-31T17:41:28.156817+00:00",
-      "metadata": {
-        "processed_at": "2026-07-31T17:41:28.156819+00:00",
         "processing_method": "github_actions"
       }
     }
