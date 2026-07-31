@@ -1,5 +1,69 @@
 [
   {
+    "id": "be6865723eeb9dd1f6230d0d017afc80",
+    "url": "https://www.reddit.com/r/Python/comments/1vbzpsz/pip_262_onlydeps_norequirehashes_venv_isolation/",
+    "title": "pip 26.2 - --only-deps, --no-require-hashes, venv isolation, and more!",
+    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello!</p> <p>The pip team recently released pip 26.2. This release is quite large, with features such as:</p> <ul> <li>Support for Python 3.15</li> <li>Selecting only dependencies (<code>--only-deps</code>)</li> <li>Mixing hashed and non-hashable requirements via <code>--no-require-hashes</code></li> <li>Experimental: venv based build isolation (<code>--use-feature=venv-isolation</code>)</li> <li>Faster repeated resolves by caching index simple responses</li> <li>Disable <code>HTTP(S)_PROXY</code> and similar non-pip specific proxy environment variables via <code>--no-proxy-env</code></li> <li>Separation between regular and build constraint (use <code>--build-constraint</code> instead)</li> </ul> <p>For more details, please consult our changelog: <a href=\"https://pip.pypa.io/en/stable/news/\">https://pip.pypa.io/en/stable/news/</a>. Alternatively, you may consult my release post which goes into greater detail to the highlights of this release: <a href=\"https://sichard.ca/blog/2026/07/whats-new-in-pip-26.2/\">https://sichard.ca/blog/2026/07/whats-new-in-pip-26.2/</a></p> <p>If you have any questions, you're welcome to ask!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ichard26\"> /u/ichard26 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1vbzpsz/pip_262_onlydeps_norequirehashes_venv_isolation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vbzpsz/pip_262_onlydeps_norequirehashes_venv_isolation/\">[comments]</a></span>",
+    "author": "/u/ichard26",
+    "published_date": "2026-07-31T18:50:11+00:00",
+    "source": "Reddit Python",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 127,
+    "reading_time": 1,
+    "created_at": "2026-07-31T20:43:10.620755+00:00",
+    "updated_at": "2026-07-31T20:43:10.620757+00:00"
+  },
+  {
+    "id": "69b5b9d520b5a923b23e814ebba83b59",
+    "url": "https://servo.org/blog/2026/07/31/june-in-servo/",
+    "title": "June in Servo: real world compat, media queries, SharedWorker, and more",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=49126765\">Comments</a>",
+    "author": "",
+    "published_date": "2026-07-31T18:17:52+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-07-31T20:43:09.417642+00:00",
+    "updated_at": "2026-07-31T20:43:09.417644+00:00"
+  },
+  {
+    "id": "69b5b9d520b5a923b23e814ebba83b59",
+    "url": "https://servo.org/blog/2026/07/31/june-in-servo/",
+    "title": "June in Servo: real world compat, media queries, SharedWorker, and more",
+    "content": "<p>Article URL: <a href=\"https://servo.org/blog/2026/07/31/june-in-servo/\">https://servo.org/blog/2026/07/31/june-in-servo/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49126765\">https://news.ycombinator.com/item?id=49126765</a></p>\n<p>Points: 27</p>\n<p># Comments: 1</p>",
+    "author": "iamnothere",
+    "published_date": "2026-07-31T18:17:52+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-07-31T20:43:08.199742+00:00",
+    "updated_at": "2026-07-31T20:43:08.199744+00:00"
+  },
+  {
+    "id": "7cd5b1ea65f203c127e2a45ab064962c",
+    "url": "https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner",
+    "title": "Using the railway network as a flatbed scanner [video]",
+    "content": "<p>Article URL: <a href=\"https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner\">https://media.ccc.de/v/emf2026-74-1-using-the-railway-network-as-a-flatbed-scanner</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49126919\">https://news.ycombinator.com/item?id=49126919</a></p>\n<p>Points: 15</p>\n<p># Comments: 9</p>",
+    "author": "Jimmc414",
+    "published_date": "2026-07-31T18:30:44+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-07-31T20:43:08.199703+00:00",
+    "updated_at": "2026-07-31T20:43:08.199705+00:00"
+  },
+  {
     "id": "835ceaaed284d4e604d4f9fb2f699252",
     "url": "https://www.nature.com/articles/s41598-026-64537-1",
     "title": "TIMAP depletion impairs BMP signaling by accelerating SMURF1-mediated SMAD degradation in neuroblastoma cells",
@@ -16730,81 +16794,5 @@
       "processed_at": "2026-07-27T21:05:53.352742+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "ac68c0639f487e3d42488c1382dd7826",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740223v1?rss=1",
-    "title": "A thalamostriatal brake counteracts cortical recruitment of striatal ensembles in levodopa-induced dyskinesia",
-    "content": "Levodopa-induced dyskinesia (LID) is a disabling complication of Parkinson's disease therapy, yet how upstream circuits recruit and restrain dyskinesia-linked striatal ensembles remains unclear. Using FosTRAP-based ensemble access in a unilateral 6-hydroxydopamine mouse model, we identified secondary motor cortex (M2) and parafascicular thalamus (PF) as dominant afferents with opposing functions. Projection-wide M2 activation promoted dyskinesia, whereas PF activation suppressed ongoing dyskinesia and shifted behavior toward non-dyskinetic states. Chronic levodopa reduced overall presynaptic terminal abundance while preserving putative contacts onto ensemble neurons, thereby increasing effective pathway-to-ensemble coupling. This remodeling followed distinct pathway rules: M2 contacts became spatially dispersed and biased toward NMDAR-mediated excitation, whereas PF inputs recruited stronger polysynaptic inhibition. Dyskinesia preferentially re-engaged ensemble-projecting M2 neurons, but reactivated PF neurons were topographically segregated from PF neurons directly innervating the ensemble. Accordingly, selective M2-to-ensemble stimulation promoted dyskinesia, whereas selective PF-to-ensemble stimulation was ineffective. Finally, ensemble-restricted Grin1 knockdown reduced peak dyskinesia and weakened M2-driven dyskinesia. These findings define LID as a targetable imbalance between cortical ensemble recruitment and thalamostriatal restraint.",
-    "author": "Wang, J., Tu, X.-Y., Liang, J.-X., Sun, J.-Y., Xu, W., Wang, Y., Yi, X., Wu, Y.-J., Li, X.-N., Liu, Y.-X., Liu, Z., Li, W.-G., Song, L.",
-    "published_date": "2026-07-27T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 166,
-    "reading_time": 1,
-    "created_at": "2026-07-27T20:05:45.801738+00:00",
-    "updated_at": "2026-07-27T21:05:53.352744+00:00",
-    "metadata": {
-      "processed_at": "2026-07-27T21:05:53.352746+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "a45b7dd7616b71bdbb10e4450971bad0",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.07.23.740239v1?rss=1",
-    "title": "Probabilistic Retinotopic Parcellation of the Macaque Visual Cortex",
-    "content": "Probabilistic brain atlases provide anatomically and functionally interpretable normative references that summarize population level organization while explicitly representing spatial uncertainty. Yet such resources remain scarce due to the resource-intensive experimental efforts required to construct them. Here, we present a probabilistic retinotopic atlas of the macaque visual cortex, derived from contrast-enhanced phase-encoded fMRI data acquired in 13 subjects. The dataset includes a 50% probability parcellation covering 19 visual areas, individual subject labels, and voxel-wise probability maps for each area, all registered to the MEBRAINS macaque template. By combining a consensus parcellation with spatial estimates of confidence for each visual area, this atlas enables more informed anatomical localization and interpretation than deterministic or single-subject-based atlases. As a standardized reference for the macaque visual cortex, it supports experimental design, data interpretation, and multimodal data integration while providing a quantitative framework for investigating the developmental and evolutionary principles that shape the primate visual cortex.",
-    "author": "Fitzgerald, N. E., Vanduffel, W., Zhu, Q.",
-    "published_date": "2026-07-27T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 150,
-    "reading_time": 1,
-    "created_at": "2026-07-27T20:05:45.801704+00:00",
-    "updated_at": "2026-07-27T21:05:53.352748+00:00",
-    "metadata": {
-      "processed_at": "2026-07-27T21:05:53.352750+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "9e2da7045fafae951a6141db441f7942",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740220v1?rss=1",
-    "title": "How visual scenes recruit spatial maps: threshold-gated activation in CA3 versus continuous integration in CA1",
-    "content": "The hippocampal cognitive map is constructed from environmental sensory inputs, but the conditions that recruit a spatial map from a quiescent baseline remain unclear. Using a parametric virtual reality paradigm with simultaneous recordings from CA1 and CA3 in rats, we demonstrate that these subregions follow fundamentally different rules. CA1 place cells exhibited robust selectivity under sparse conditions, continuously updating their tuning as landmarks accumulated. Conversely, CA3 remained quiescent, its recruitment nonlinearly gated until landmarks formed a spatiotemporally integrated ensemble, governed by ensemble density and configuration rather than absolute count. Naturalistic backgrounds facilitated early activation, eliciting stepwise recruitment as scene complexity increased. These transitions paralleled LFP dynamics shifting from sensory decoupling (reduced fast-gamma coupling) to global network engagement (increased slow-gamma coupling). Together, these findings establish a circuit-level framework wherein CA3 operates as a nonlinearly gated scene constructor and CA1 as a continuous landmark integrator to build and maintain the cognitive map.",
-    "author": "Lee, E.-H., Lee, I.",
-    "published_date": "2026-07-27T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 150,
-    "reading_time": 1,
-    "created_at": "2026-07-27T20:05:45.801672+00:00",
-    "updated_at": "2026-07-27T21:05:53.352752+00:00",
-    "metadata": {
-      "processed_at": "2026-07-27T21:05:53.352754+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "cc0f00802316c6360e584819210c3945",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.07.22.740075v1?rss=1",
-    "title": "Bilateral Mechanoreception Discrimination based on Bihemispheric Somatosensory Response Patterns is Associated with Proprioception and Motor Function After Stroke",
-    "content": "Objectives: Stroke commonly impairs proprioception and motor function, yet the cortical sensory processes underlying these impairments remain poorly understood. Prior electrophysiological studies have primarily focused on the average magnitude of unilateral cortical sensory responses to vibration, potentially overlooking distributed and trial-to-trial features of sensory processing that may be functionally relevant to proprioceptive processing and motor performance. We therefore aimed to characterize bilateral cortical sensory responses to determine their relationships with proprioceptive and motor function. Methods: EEG was recorded from forty-six individuals with chronic stroke during a rapid, passive, vibrotactile stimulation paradigm applied to the left and right fingertips. Somatosensory evoked potentials (SEPs) and event-related desynchronization (ERD) were quantified. Finger proprioceptive performance was assessed using a passive, robotic, finger crossing identification task, while motor function was evaluated using the Box and Block Test, Fugl-Meyer Assessment, and Nine Hole Peg Test. Associations with function were assessed using (i) unilateral sensory response magnitude at the contralateral parietal cortex and (ii) somatosensory decoder performance, defined as the accuracy with which a decoder identified the location of the stimulated hand (i.e. paretic vs. non-paretic) from combined bihemispheric response patterns. The association between these responses and proprioceptive ability and motor function was assessed. These associations were further evaluated jointly across multiple motor function measures using an exploratory analysis leveraging nonlinear dimensionality reduction and clustering. Results: Vibrotactile stimulation of the paretic hand elicited ipsilesional SEP and ERD that were reduced in magnitude compared to stimulation of the non-paretic hand. Both decreased SEP magnitude and reduced sensory decoder performance were associated with greater finger proprioceptive error. Unlike unilateral responses, the somatosensory decoder's performance was also strongly associated with motor function, explaining approximately 22.5% of the variance in motor performance. Dimensionality reduction and clustering across multiple motor assessment scores showed distinct subgroups, that showed significant differences in sensory decoding. Conclusions: The hemispheric distribution and discriminability of cortical sensory responses are functionally relevant markers of sensorimotor integrity after stroke. Assessing relative lateralization of somatosensory responses for each hand, rather than the magnitude of dominant contralateral responses alone, may better capture the reliability of sensory processing after stroke, as well as the distributed cortical reorganization supporting sensorimotor function. These findings support the potential value of a novel decoding-based neurophysiological measure for sensory-driven rehabilitation, biomarker development, and patient stratification.",
-    "author": "Gupta, D., Farrens, A., Garcia-Fernandez, L., Rojas, R. D., Chan, V., Perry, J., Wolbrecht, E., Reinkensmeyer, D. J.",
-    "published_date": "2026-07-27T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 377,
-    "reading_time": 1,
-    "created_at": "2026-07-27T20:05:45.801639+00:00",
-    "updated_at": "2026-07-27T20:05:45.801641+00:00"
   }
 ]
