@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-07-31T22:55:13.555610+00:00",
+  "last_updated": "2026-08-01T02:14:33.612659+00:00",
   "pending_count": 791,
   "processed_count": 209,
   "pending_articles": [
+    {
+      "id": "d244b842a8e026e6d2447a85da0e8fab",
+      "url": "https://www.trytilde.ai/blog/how-to-build-code-review-agent",
+      "title": "Show HN: How to build and self-host a code review agent",
+      "content": "<p>Hey HN,<p>I've had a side-project that I've slowly ticked away at over the last year called Tilde. Tilde is a harness SDK platform - I've tried to take the best things of OpenClaw, Hermes & other harnesses and decompose them and make them available as cloud API building blocks.<p>You can use Tilde to create AI agents for your use case, fast and self-host the agent's yourself.<p>The documentation (and attached blog post) leave a lot to be desired in terms of technical documentation but hopefully the attached git repo does a good job of showcasing the API.<p><a href=\"https://github.com/trytilde/examples\" rel=\"nofollow\">https://github.com/trytilde/examples</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49128177\">https://news.ycombinator.com/item?id=49128177</a></p>\n<p>Points: 10</p>\n<p># Comments: 3</p>",
+      "author": "solsol94",
+      "published_date": "2026-07-31T20:27:28+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 109,
+      "reading_time": 1,
+      "created_at": "2026-07-31T23:31:13.280385+00:00",
+      "updated_at": "2026-07-31T23:31:13.280387+00:00"
+    },
     {
       "id": "09c20503231c87c540d6afb288201e2b",
       "url": "https://jwlabs.vercel.app/post/biting-the-bullet",
@@ -146,25 +162,109 @@
       "reading_time": 1,
       "created_at": "2026-07-31T19:26:07.641164+00:00",
       "updated_at": "2026-07-31T19:26:07.641165+00:00"
-    },
-    {
-      "id": "853327189d11dc3d42f8245efea04176",
-      "url": "https://github.com/yc-software/qm",
-      "title": "qm",
-      "content": "<p>Article URL: <a href=\"https://github.com/yc-software/qm\">https://github.com/yc-software/qm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49126604\">https://news.ycombinator.com/item?id=49126604</a></p>\n<p>Points: 72</p>\n<p># Comments: 25</p>",
-      "author": "tosh",
-      "published_date": "2026-07-31T18:04:58+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-07-31T19:26:07.641143+00:00",
-      "updated_at": "2026-07-31T19:26:07.641144+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "051b00eb368bb3d8d8ce021fb514a810",
+      "url": "https://fmhy.net/posts/changelog-sites",
+      "title": "Changelog Sites",
+      "content": "<p><strong><a href=\"https://fmhy-tracker.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">https://fmhy-tracker.pages.dev/</a></strong></p>\n<p>This covers links that have been added, updated, or removed by watching GitHub for changes</p>\n<p><strong><a href=\"https://d.fmhy.bid/rss.xml\" rel=\"noreferrer\" target=\"_blank\">https://d.fmhy.bid/rss.xml</a></strong></p>\n<p>FMHY RSS Feed</p>\n<hr />\n<p>Note that we also make monthly posts on both reddit + our site with the bigger changes, and you can also follow them yourself by joining our <a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Discord</a>, or watching the <a href=\"https://github.com/fmhy/edit/commits/main/\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub.</p>",
+      "author": "",
+      "published_date": "2025-12-12T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 69,
+      "reading_time": 1,
+      "created_at": "2026-08-01T01:08:23.703388+00:00",
+      "updated_at": "2026-08-01T02:14:33.494357+00:00",
+      "metadata": {
+        "processed_at": "2026-08-01T02:14:33.494369+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "dbe94ba73a8428092df7d9105528097c",
+      "url": "https://www.reddit.com/r/Python/comments/1vc7lgz/saturday_daily_thread_resource_request_and/",
+      "title": "Saturday Daily Thread: Resource Request and Sharing! Daily Thread",
+      "content": "<!-- SC_OFF --><div class=\"md\"><h1>Weekly Thread: Resource Request and Sharing \ud83d\udcda</h1> <p>Stumbled upon a useful Python resource? Or are you looking for a guide on a specific topic? Welcome to the Resource Request and Sharing thread!</p> <h2>How it Works:</h2> <ol> <li><strong>Request</strong>: Can't find a resource on a particular topic? Ask here!</li> <li><strong>Share</strong>: Found something useful? Share it with the community.</li> <li><strong>Review</strong>: Give or get opinions on Python resources you've used.</li> </ol> <h2>Guidelines:</h2> <ul> <li>Please include the type of resource (e.g., book, video, article) and the topic.</li> <li>Always be respectful when reviewing someone else's shared resource.</li> </ul> <h2>Example Shares:</h2> <ol> <li><strong>Book</strong>: <a href=\"https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008\">&quot;Fluent Python&quot;</a> - Great for understanding Pythonic idioms.</li> <li><strong>Video</strong>: <a href=\"https://www.youtube.com/watch?v=pkYVOmU3MgA\">Python Data Structures</a> - Excellent overview of Python's built-in data structures.</li> <li><strong>Article</strong>: <a href=\"https://realpython.com/primer-on-python-decorators/\">Understanding Python Decorators</a> - A deep dive into decorators.</li> </ol> <h2>Example Requests:</h2> <ol> <li><strong>Looking for</strong>: Video tutorials on web scraping with Python.</li> <li><strong>Need</strong>: Book recommendations for Python machine learning.</li> </ol> <p>Share the knowledge, enrich the community. Happy learning! \ud83c\udf1f</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AutoModerator\"> /u/AutoModerator </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1vc7lgz/saturday_daily_thread_resource_request_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vc7lgz/saturday_daily_thread_resource_request_and/\">[comments]</a></span>",
+      "author": "/u/AutoModerator",
+      "published_date": "2026-08-01T00:00:23+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 180,
+      "reading_time": 1,
+      "created_at": "2026-08-01T01:08:22.234250+00:00",
+      "updated_at": "2026-08-01T02:14:33.494373+00:00",
+      "metadata": {
+        "processed_at": "2026-08-01T02:14:33.494375+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "2f44ecc8fbdb4bc12c82ecc26c300a71",
+      "url": "https://fmhy.net/posts/mar-2026",
+      "title": "Monthly Updates [March]",
+      "content": "<div class=\"info custom-block\"><p class=\"custom-block-title\">INFO</p>\n<p>These update threads only contain major updates. If you're interested\nin seeing all minor changes you can follow our\n<a href=\"https://github.com/fmhy/FMHYedit/commits/main\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub or\n<a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Updates Channel</a> in Discord.</p>\n</div>\n<h1 id=\"wiki-updates\" tabindex=\"-1\">Wiki Updates <a class=\"header-anchor\" href=\"#wiki-updates\"></a></h1>\n<ul>\n<li>\n<p>Updated some of the <strong><a href=\"https://i.ibb.co/7JKx0WJ5/image.png\" rel=\"noreferrer\" target=\"_blank\">Homepage Icons</a></strong> / <a href=\"https://i.imgur.com/8n5Wgw9.png\" rel=\"noreferrer\" target=\"_blank\">2</a> to try to make them more clear. Thank you to suprememuhit for doing this.</p>\n</li>\n<li>\n<p>Moved Coding AIs from AI section to Developer Tools with <a href=\"https://i.ibb.co/mC6MyNQN/image.png\" rel=\"noreferrer\" target=\"_blank\">4 new subsections</a> / <a href=\"https://i.imgur.com/rFZJqJo.png\" rel=\"noreferrer\" target=\"_blank\">2</a>. Thank you to anarchydr for doing this.</p>\n</li>\n<li>\n<p>Added new <a href=\"https://mpv.rocks/\" rel=\"noreferrer\" target=\"_blank\">MPV client list</a> site + bumped it to #1 video player as many people feel its the best of the big three (MPV, MPC, VLC.)</p>\n</li>\n<li>\n<p>Added section for <a href=\"https://fmhy.net/educational#cantonese\" rel=\"noreferrer\" target=\"_blank\">Cantonese Learning</a>. Thank you to YEET for doing this.</p>\n</li>\n<li>\n<p>Moved OuterTune from YouTube Music Players to Android Audio Players as they're <a href=\"https://github.com/OuterTune/OuterTune/discussions/1116\" rel=\"noreferrer\" target=\"_blank\">dropping YTM support</a>.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"stars-added-\u2b50\" tabindex=\"-1\">Stars Added \u2b50 <a class=\"header-anchor\" href=\"#stars-added-\u2b50\"></a></h1>\n<ul>\n<li>\n<p>Starred both <a href=\"https://fmhy.net/reading#declassified-leaked-documents\" rel=\"noreferrer\" target=\"_blank\">Epstein Exposed + JMail</a> in documents section, we've been sent a lot of these, but these 2 seem to have some of the better UIs.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#file-converters\" rel=\"noreferrer\" target=\"_blank\">Convert to it!</a> in File Converters, nearly all formats imaginable, file uploads are in browser only, not uploaded to them which is good for privacy.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/file-tools#file-hosts\" rel=\"noreferrer\" target=\"_blank\">ZeroFS</a> in File Hosting, unlimited file size, keeps files for 30 days after its last download.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/gaming#unblocked-games\" rel=\"noreferrer\" target=\"_blank\">GN-Math</a> in Unblocked Browser Games, has a bunch of good ports, seems to be well liked.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/text-tools#font-tools\" rel=\"noreferrer\" target=\"_blank\">Font Analyzer</a> in Font Tools, analyses fonts from any page and gives you similar alternatives.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/text-tools#pastebins\" rel=\"noreferrer\" target=\"_blank\">Markbox</a> (aka fluffle) in Pastebins, alt to rentry with similar UI, has markdown support, editing, etc.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/image-tools#image-effects\" rel=\"noreferrer\" target=\"_blank\">Efecto</a> in Image Editing, web-based visual effects editor, supports images, videos and 3D models.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#video-generation\" rel=\"noreferrer\" target=\"_blank\">KLIPY</a> in Video Gen, allows you to generate unlimited GIFs using Veo 3.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/image-tools#upscale-restore\" rel=\"noreferrer\" target=\"_blank\">Image-Upscaling</a>, online image upscaling tool, works quickly, gives good results.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#image-generation\" rel=\"noreferrer\" target=\"_blank\">Google Flow</a> in Image Gen, gives unlimited Nano Banana Pro / Nano Banana 2.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#image-generation\" rel=\"noreferrer\" target=\"_blank\">Khoj</a> in Image Gen, gives unlimited Nano Banana / Imagen 4.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/educational#skills-hobbies-diy\" rel=\"noreferrer\" target=\"_blank\">Knots 3D</a> in Educational Skills, 3D interactive guides to learn how to tie any knot.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/ai#specialized-chatbots\" rel=\"noreferrer\" target=\"_blank\">Google AI Mode</a> in Specialized Chatbots, AI Search Engine, that gives unlimited Gemini 3.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/privacy#anti-censorship\" rel=\"noreferrer\" target=\"_blank\">Net4People</a> in Censorship Bypass section, worldwide censorship circumvention discussion, chats take place within the GitHub issue section.</p>\n</li>\n<li>\n<p>Starred <a href=\"https://fmhy.net/privacy#vpn-server\" rel=\"noreferrer\" target=\"_blank\">NetBird</a> in VPN Servers, WireGuard Mesh similar to Tailscale, except its open-source, self-hostable, and has a web UI.</p>\n</li>\n<li>\n<p>Starred two <a href=\"https://fmhy.net/internet-tools#rss-readers\" rel=\"noreferrer\" target=\"_blank\">FreshRSS</a> instances in RSS Readers (rss.fmhy + Prodottoinrete), its customizable, web-based, and allows unlimited feeds.</p>\n</li>\n</ul>\n<hr />\n<h1 id=\"things-removed\" tabindex=\"-1\">Things Removed <a class=\"header-anchor\" href=\"#things-removed\"></a></h1>\n<ul>\n<li>\n<p>Removed Duolingo as it has bad privacy, and has gained a rep for being a poor way to learn a language.</p>\n</li>\n<li>\n<p>Removed Pollinations from AI sections as they're restricting their best models to paid users only now.</p>\n</li>\n</ul>",
+      "author": "",
+      "published_date": "2026-03-01T00:00:00+00:00",
+      "source": "Fmhy",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 593,
+      "reading_time": 2,
+      "created_at": "2026-07-31T23:31:17.198638+00:00",
+      "updated_at": "2026-08-01T02:14:33.494377+00:00",
+      "metadata": {
+        "processed_at": "2026-08-01T02:14:33.494379+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "de6f2b6bd2a653599168e398dd159b4c",
+      "url": "https://www.reddit.com/r/Python/comments/1vc53z8/pep_842_module_exports/",
+      "title": "PEP 842: Module Exports",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://peps.python.org/pep-0842/\">https://peps.python.org/pep-0842/</a></p> <p>Not the author, but this seems interesting, specially for library authors. Thoughts?</p> <p>Discussion here - <a href=\"https://discuss.python.org/t/pep-842-module-exports/108353\">https://discuss.python.org/t/pep-842-module-exports/108353</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/poppy_92\"> /u/poppy_92 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1vc53z8/pep_842_module_exports/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vc53z8/pep_842_module_exports/\">[comments]</a></span>",
+      "author": "/u/poppy_92",
+      "published_date": "2026-07-31T22:16:31+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 40,
+      "reading_time": 1,
+      "created_at": "2026-07-31T23:31:15.781227+00:00",
+      "updated_at": "2026-08-01T02:14:33.494381+00:00",
+      "metadata": {
+        "processed_at": "2026-08-01T02:14:33.494383+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "8f4cbc4f40074d3d4598923d845199d8",
+      "url": "https://www.historytoday.com/archive/portrait-author-historian/absurdity-albert-camus",
+      "title": "The Absurdity of Albert Camus",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49117089\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-30T23:21:17+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-07-31T23:31:14.535883+00:00",
+      "updated_at": "2026-08-01T02:14:33.494385+00:00",
+      "metadata": {
+        "processed_at": "2026-08-01T02:14:33.494387+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "e8ebe94f0bc53f2fc3bf8376a9d5dcd7",
       "url": "https://www.frontiersin.org/articles/10.3389/fnins.2026.1903252",
@@ -206,66 +306,6 @@
       }
     },
     {
-      "id": "f87c1dcd02fe050b10fdf48352182cff",
-      "url": "https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator",
-      "title": "Loops (YC W22) Is Hiring a Product Educator",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49128462\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-31T21:00:40+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-31T22:06:43.671991+00:00",
-      "updated_at": "2026-07-31T22:55:13.429589+00:00",
-      "metadata": {
-        "processed_at": "2026-07-31T22:55:13.429590+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "4faf146ab0703fea6f55e5d9cbc00c7b",
-      "url": "https://arielsalminen.com/2026/progressive-web-components/",
-      "title": "Progressive Web Components",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49121196\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-31T10:04:40+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-31T22:06:43.671953+00:00",
-      "updated_at": "2026-07-31T22:55:13.429593+00:00",
-      "metadata": {
-        "processed_at": "2026-07-31T22:55:13.429594+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "104e273bc7a7b2b3470031471be77314",
-      "url": "https://weeraman.com/because-we-can/",
-      "title": "Twenty-five years ago it was cryptography, today it's model weights",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49083599\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-28T13:31:25+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-31T22:06:43.671914+00:00",
-      "updated_at": "2026-07-31T22:55:13.429596+00:00",
-      "metadata": {
-        "processed_at": "2026-07-31T22:55:13.429598+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "187404f26d017607708c745d69fc4f7f",
       "url": "https://arxiv.org/abs/2607.28233",
       "title": "Demystifying DRAM Read Disturbance: RowHammer and RowPress Phenomena",
@@ -306,62 +346,22 @@
       }
     },
     {
-      "id": "be6865723eeb9dd1f6230d0d017afc80",
-      "url": "https://www.reddit.com/r/Python/comments/1vbzpsz/pip_262_onlydeps_norequirehashes_venv_isolation/",
-      "title": "pip 26.2 - --only-deps, --no-require-hashes, venv isolation, and more!",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello!</p> <p>The pip team recently released pip 26.2. This release is quite large, with features such as:</p> <ul> <li>Support for Python 3.15</li> <li>Selecting only dependencies (<code>--only-deps</code>)</li> <li>Mixing hashed and non-hashable requirements via <code>--no-require-hashes</code></li> <li>Experimental: venv based build isolation (<code>--use-feature=venv-isolation</code>)</li> <li>Faster repeated resolves by caching index simple responses</li> <li>Disable <code>HTTP(S)_PROXY</code> and similar non-pip specific proxy environment variables via <code>--no-proxy-env</code></li> <li>Separation between regular and build constraint (use <code>--build-constraint</code> instead)</li> </ul> <p>For more details, please consult our changelog: <a href=\"https://pip.pypa.io/en/stable/news/\">https://pip.pypa.io/en/stable/news/</a>. Alternatively, you may consult my release post which goes into greater detail to the highlights of this release: <a href=\"https://sichard.ca/blog/2026/07/whats-new-in-pip-26.2/\">https://sichard.ca/blog/2026/07/whats-new-in-pip-26.2/</a></p> <p>If you have any questions, you're welcome to ask!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ichard26\"> /u/ichard26 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1vbzpsz/pip_262_onlydeps_norequirehashes_venv_isolation/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vbzpsz/pip_262_onlydeps_norequirehashes_venv_isolation/\">[comments]</a></span>",
-      "author": "/u/ichard26",
-      "published_date": "2026-07-31T18:50:11+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 127,
-      "reading_time": 1,
-      "created_at": "2026-07-31T20:43:10.620755+00:00",
-      "updated_at": "2026-07-31T20:58:58.776874+00:00",
-      "metadata": {
-        "processed_at": "2026-07-31T20:58:58.776885+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "69b5b9d520b5a923b23e814ebba83b59",
-      "url": "https://servo.org/blog/2026/07/31/june-in-servo/",
-      "title": "June in Servo: real world compat, media queries, SharedWorker, and more",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49126765\">Comments</a>",
+      "id": "f87c1dcd02fe050b10fdf48352182cff",
+      "url": "https://www.ycombinator.com/companies/loops/jobs/zqUnwqB-product-educator-technical-content-creator",
+      "title": "Loops (YC W22) Is Hiring a Product Educator",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49128462\">Comments</a>",
       "author": "",
-      "published_date": "2026-07-31T18:17:52+00:00",
+      "published_date": "2026-07-31T21:00:40+00:00",
       "source": "Hacker News",
       "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-07-31T20:43:09.417642+00:00",
-      "updated_at": "2026-07-31T20:58:58.776890+00:00",
+      "created_at": "2026-07-31T22:06:43.671991+00:00",
+      "updated_at": "2026-07-31T22:55:13.429589+00:00",
       "metadata": {
-        "processed_at": "2026-07-31T20:58:58.776892+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "69b5b9d520b5a923b23e814ebba83b59",
-      "url": "https://servo.org/blog/2026/07/31/june-in-servo/",
-      "title": "June in Servo: real world compat, media queries, SharedWorker, and more",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49126765\">Comments</a>",
-      "author": "",
-      "published_date": "2026-07-31T18:17:52+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-07-31T20:43:09.417642+00:00",
-      "updated_at": "2026-07-31T20:58:58.776890+00:00",
-      "metadata": {
-        "processed_at": "2026-07-31T20:58:58.776892+00:00",
+        "processed_at": "2026-07-31T22:55:13.429590+00:00",
         "processing_method": "github_actions"
       }
     }
