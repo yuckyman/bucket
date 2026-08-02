@@ -7,13 +7,17 @@
     "author": "",
     "published_date": null,
     "source": "Brain Research",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 15,
     "reading_time": 1,
     "created_at": "2026-08-02T18:07:12.847473+00:00",
-    "updated_at": "2026-08-02T18:07:12.847474+00:00"
+    "updated_at": "2026-08-02T19:02:01.072020+00:00",
+    "metadata": {
+      "processed_at": "2026-08-02T19:02:01.072029+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "81385d62bc81c6252d1c01b6e3a31e1c",
@@ -23,13 +27,17 @@
     "author": "",
     "published_date": "2026-08-02T16:19:17+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-08-02T18:06:24.932358+00:00",
-    "updated_at": "2026-08-02T18:06:24.932360+00:00"
+    "updated_at": "2026-08-02T19:02:01.072034+00:00",
+    "metadata": {
+      "processed_at": "2026-08-02T19:02:01.072036+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "6eeb85308ab52e45fe1da73e75ba1ee7",
@@ -39,13 +47,17 @@
     "author": "",
     "published_date": "2026-08-02T17:05:54+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-08-02T18:06:24.932318+00:00",
-    "updated_at": "2026-08-02T18:06:24.932319+00:00"
+    "updated_at": "2026-08-02T19:02:01.072040+00:00",
+    "metadata": {
+      "processed_at": "2026-08-02T19:02:01.072042+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "ff364574bd7d3d479e14f136c542ef51",
@@ -55,29 +67,37 @@
     "author": "",
     "published_date": "2026-08-02T17:19:47+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 2,
     "reading_time": 1,
     "created_at": "2026-08-02T18:06:24.932259+00:00",
-    "updated_at": "2026-08-02T18:06:24.932261+00:00"
+    "updated_at": "2026-08-02T19:02:01.072044+00:00",
+    "metadata": {
+      "processed_at": "2026-08-02T19:02:01.072046+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "81385d62bc81c6252d1c01b6e3a31e1c",
     "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/",
     "title": "Rooting, firmware analysis and persistent credentials of TP-Link TL-841N",
-    "content": "<p>Article URL: <a href=\"https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/\">https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49145883\">https://news.ycombinator.com/item?id=49145883</a></p>\n<p>Points: 18</p>\n<p># Comments: 1</p>",
-    "author": "mindracer",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=49145883\">Comments</a>",
+    "author": "",
     "published_date": "2026-08-02T16:19:17+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 13,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-08-02T18:06:23.718562+00:00",
-    "updated_at": "2026-08-02T18:06:23.718563+00:00"
+    "created_at": "2026-08-02T18:06:24.932358+00:00",
+    "updated_at": "2026-08-02T19:02:01.072034+00:00",
+    "metadata": {
+      "processed_at": "2026-08-02T19:02:01.072036+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "177874fbe2caab1c6cef7c442fd138ed",
@@ -131,17 +151,21 @@
     "id": "6eeb85308ab52e45fe1da73e75ba1ee7",
     "url": "https://github.com/graham33/nixos-dgx-spark",
     "title": "Show HN: NixOS-DGX-Spark \u2013 Nix and NixOS on the DGX Spark",
-    "content": "<p>Try DGX Spark playbooks using Nix on DGX OS, or install NixOS on your DGX Spark for the full Nix experience. The repository provides USB images and a NixOS module with settings for DGX Spark systems.<p>This works on the NVIDIA DGX Spark itself and also on the Asus Ascent GX10.<p>See my 5 minute lightning talk from Planet Nix for an intro: <a href=\"https://youtu.be/AvK_gi_snJE?si=MPKv3iiuS9B5elIE\" rel=\"nofollow\">https://youtu.be/AvK_gi_snJE?si=MPKv3iiuS9B5elIE</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49146267\">https://news.ycombinator.com/item?id=49146267</a></p>\n<p>Points: 11</p>\n<p># Comments: 2</p>",
-    "author": "graham33",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=49146267\">Comments</a>",
+    "author": "",
     "published_date": "2026-08-02T17:05:54+00:00",
     "source": "Hacker News",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
-    "word_count": 75,
+    "word_count": 2,
     "reading_time": 1,
-    "created_at": "2026-08-02T18:06:23.718475+00:00",
-    "updated_at": "2026-08-02T18:06:23.718484+00:00"
+    "created_at": "2026-08-02T18:06:24.932318+00:00",
+    "updated_at": "2026-08-02T19:02:01.072040+00:00",
+    "metadata": {
+      "processed_at": "2026-08-02T19:02:01.072042+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "80d1f642eb4da0958753076107ac0cbe",
