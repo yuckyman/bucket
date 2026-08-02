@@ -1,8 +1,24 @@
 {
-  "last_updated": "2026-08-02T19:02:01.185295+00:00",
-  "pending_count": 729,
-  "processed_count": 271,
+  "last_updated": "2026-08-02T20:47:44.404579+00:00",
+  "pending_count": 727,
+  "processed_count": 273,
   "pending_articles": [
+    {
+      "id": "7af70de6db634a4fea03665424f898f7",
+      "url": "https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros",
+      "title": "Microsoft raises Xbox prices by up to 43%",
+      "content": "<p>Article URL: <a href=\"https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros\">https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49147209\">https://news.ycombinator.com/item?id=49147209</a></p>\n<p>Points: 44</p>\n<p># Comments: 25</p>",
+      "author": "BlueBerry2001",
+      "published_date": "2026-08-02T18:52:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-02T19:44:12.040305+00:00",
+      "updated_at": "2026-08-02T19:44:12.040306+00:00"
+    },
     {
       "id": "177874fbe2caab1c6cef7c442fd138ed",
       "url": "https://ge97.com/",
@@ -146,25 +162,129 @@
       "reading_time": 1,
       "created_at": "2026-08-02T17:00:23.693780+00:00",
       "updated_at": "2026-08-02T17:00:23.693786+00:00"
+    }
+  ],
+  "recently_processed": [
+    {
+      "id": "306af0b600be449722ef91f083d3507d",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1753937",
+      "title": "IntegriLAB: a blockchain-enabled electronic lab notebook for reproducible neuroimaging research",
+      "content": "In the era of data-intensive science, managing and verifying research processes that include raw data, analysis scripts, workflows, and documentation, remains a major challenge, particularly in complex fields like neuroimaging were multiple processing and analyses stages can take place. Fragmented tools, inconsistent documentation, and poor platform integration continue to undermine reproducibility. While current Electronic Lab Notebooks (ELNs) aid organization, they often lack cross-platform interoperability, authorship certification, and immutable auditability. To address these gaps, this study proposes a novel ELN framework IntegriLAB, that consolidates traditional data, document and code repositories into a centralized, web-based system for end-to-end project tracking. As a proof of concept, our case study integrates DataLad, Overleaf and GitHub. It allows real-time monitoring across the research cycle while preserving familiar workflows. A key innovation is the use of LabTrace built on green blockchain technology to certify research activities through cryptographically signed, immutable records, ensuring data integrity and verifiable authorship with minimal environmental impact. By unifying project management, secure data handling, and blockchain-based verification, the proposed ELN advances reproducibility, fosters trust, and strengthens collaborative research practices.",
+      "author": "Federico Turkheimer",
+      "published_date": "2026-05-21T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 177,
+      "reading_time": 1,
+      "created_at": "2026-08-02T19:44:42.705575+00:00",
+      "updated_at": "2026-08-02T20:47:44.307623+00:00",
+      "metadata": {
+        "processed_at": "2026-08-02T20:47:44.307634+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
-      "id": "f1f9136ccc6531a47549f8096a40bb0a",
-      "url": "https://letterformarchive.org/news/milwaukee-transit-passes/",
-      "title": "When transit passes were designed by hand",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49123003\">Comments</a>",
+      "id": "dc5274852f404488f7f0df61a301ca1b",
+      "url": "https://uphillsecurity.com/articles/harvesting-ssh-credentials-insights-from-my-honeypot-network/",
+      "title": "Harvesting SSH Credentials: Insights from My Honeypot Network",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49146605\">Comments</a>",
       "author": "",
-      "published_date": "2026-07-31T13:38:04+00:00",
+      "published_date": "2026-08-02T17:45:51+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-08-02T16:59:46.850161+00:00",
-      "updated_at": "2026-08-02T16:59:46.850163+00:00"
-    }
-  ],
-  "recently_processed": [
+      "created_at": "2026-08-02T19:44:13.276180+00:00",
+      "updated_at": "2026-08-02T20:47:44.307638+00:00",
+      "metadata": {
+        "processed_at": "2026-08-02T20:47:44.307639+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "c5526613cd5b12a26fb214d59fd76c8b",
+      "url": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
+      "title": "Developers are attached to tools because tools encode trust",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49097961\">Comments</a>",
+      "author": "",
+      "published_date": "2026-07-29T14:25:54+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-02T19:44:13.276103+00:00",
+      "updated_at": "2026-08-02T20:47:44.307642+00:00",
+      "metadata": {
+        "processed_at": "2026-08-02T20:47:44.307643+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "eeb72b598a631f91fb53dbc4da7c7c44",
+      "url": "https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/",
+      "title": "SwiftUI After 7 Years: A Story of Mediocrity",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49147263\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-02T18:59:05+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-02T19:44:13.276062+00:00",
+      "updated_at": "2026-08-02T20:47:44.307645+00:00",
+      "metadata": {
+        "processed_at": "2026-08-02T20:47:44.307647+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "dc5274852f404488f7f0df61a301ca1b",
+      "url": "https://uphillsecurity.com/articles/harvesting-ssh-credentials-insights-from-my-honeypot-network/",
+      "title": "Harvesting SSH Credentials: Insights from My Honeypot Network",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49146605\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-02T17:45:51+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-02T19:44:13.276180+00:00",
+      "updated_at": "2026-08-02T20:47:44.307638+00:00",
+      "metadata": {
+        "processed_at": "2026-08-02T20:47:44.307639+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "eeb72b598a631f91fb53dbc4da7c7c44",
+      "url": "https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/",
+      "title": "SwiftUI After 7 Years: A Story of Mediocrity",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49147263\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-02T18:59:05+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-02T19:44:13.276062+00:00",
+      "updated_at": "2026-08-02T20:47:44.307645+00:00",
+      "metadata": {
+        "processed_at": "2026-08-02T20:47:44.307647+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "3d01dbef8284b58047aa7df31c0557f6",
       "url": "https://www.sciencedirect.com/science/article/pii/S000689932600329X?dgcid=rss_sd_all",
@@ -206,46 +326,6 @@
       }
     },
     {
-      "id": "6eeb85308ab52e45fe1da73e75ba1ee7",
-      "url": "https://github.com/graham33/nixos-dgx-spark",
-      "title": "Show HN: NixOS-DGX-Spark \u2013 Nix and NixOS on the DGX Spark",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49146267\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-02T17:05:54+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-02T18:06:24.932318+00:00",
-      "updated_at": "2026-08-02T19:02:01.072040+00:00",
-      "metadata": {
-        "processed_at": "2026-08-02T19:02:01.072042+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ff364574bd7d3d479e14f136c542ef51",
-      "url": "https://medium.com/mountain-movers/the-coldcard-disaster-gets-worse-the-hack-may-have-reached-88-6-af507b028594",
-      "title": "The Coldcard Disaster Gets Worse: The Hack May Have Reached $88.6M",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49146372\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-02T17:19:47+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-02T18:06:24.932259+00:00",
-      "updated_at": "2026-08-02T19:02:01.072044+00:00",
-      "metadata": {
-        "processed_at": "2026-08-02T19:02:01.072046+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
       "id": "81385d62bc81c6252d1c01b6e3a31e1c",
       "url": "https://blog.juni-mp4.com/posts/42/rooting-the-tplink-tl841n-pt1/",
       "title": "Rooting, firmware analysis and persistent credentials of TP-Link TL-841N",
@@ -282,86 +362,6 @@
       "updated_at": "2026-08-02T19:02:01.072040+00:00",
       "metadata": {
         "processed_at": "2026-08-02T19:02:01.072042+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "fa3fea0c837d74ffe3e589c9db7785c7",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899326003409?dgcid=rss_sd_all",
-      "title": "Sex-dependent neuronal loss and apoptotic signaling in the anterior cingulate and anterior insular cortices associated with anxio-depressive-like behaviors in a late-stage monoiodoacetate mouse model of osteoarthritis",
-      "content": "<p>Publication date: 1 November 2026</p><p><b>Source:</b> Brain Research, Volume 1890</p><p>Author(s): Oumaima Moutayb, Jacques No\u00ebl, Youssef Anouar, Mohammed Bennis, Saadia Ba-m\u2019Hamed, Fatima-Zahra Lamghari Moubarrad</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 22,
-      "reading_time": 1,
-      "created_at": "2026-08-02T15:39:13.928122+00:00",
-      "updated_at": "2026-08-02T16:54:08.386387+00:00",
-      "metadata": {
-        "processed_at": "2026-08-02T16:54:08.386397+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "94ca83dda2ac79481e9ea9f5ad04e2bc",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899326003422?dgcid=rss_sd_all",
-      "title": "A single session of high-definition transcranial direct current stimulation does not modulate effects of knee two-point discrimination training or sensorimotor function in healthy adults: Double-blind randomised controlled trial",
-      "content": "<p>Publication date: 1 November 2026</p><p><b>Source:</b> Brain Research, Volume 1890</p><p>Author(s): Muath A. Shraim, Welber Marinovic, Paul W. Hodges</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 17,
-      "reading_time": 1,
-      "created_at": "2026-08-02T15:39:13.928089+00:00",
-      "updated_at": "2026-08-02T16:54:08.386401+00:00",
-      "metadata": {
-        "processed_at": "2026-08-02T16:54:08.386403+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d95d8be5f9b144cf77455388d2945749",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226005026?dgcid=rss_sd_all",
-      "title": "Olfactory bulbectomy induces early allodynia and region-dependent astrocytic and microglial remodeling in female rats",
-      "content": "<p>Publication date: 28 September 2026</p><p><b>Source:</b> Neuroscience, Volume 612</p><p>Author(s): Lisandra Mirian Cuti\u00f1o-Vi\u00f1als, Gumaro Galindo-Paredes, Fabiola Sarah\u00ed Guti\u00e9rrez-Figueroa, Gonzalo Flores, Julio C\u00e9sar Morales-Medina</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 21,
-      "reading_time": 1,
-      "created_at": "2026-08-02T15:39:12.782062+00:00",
-      "updated_at": "2026-08-02T16:54:08.386405+00:00",
-      "metadata": {
-        "processed_at": "2026-08-02T16:54:08.386406+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2347b58db0dcc8c97d28150bcd82c55c",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0306452226005014?dgcid=rss_sd_all",
-      "title": "Pharmacological potential of wogonin in rotenone induced mice model of Parkinson\u2019s disease via targeting GSK-3\u03b2",
-      "content": "<p>Publication date: 28 September 2026</p><p><b>Source:</b> Neuroscience, Volume 612</p><p>Author(s): Kajal Sharma, Shivani Chib, Thakur Gurjeet Singh, Randhir Singh</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 17,
-      "reading_time": 1,
-      "created_at": "2026-08-02T15:39:12.782042+00:00",
-      "updated_at": "2026-08-02T16:54:08.386410+00:00",
-      "metadata": {
-        "processed_at": "2026-08-02T16:54:08.386411+00:00",
         "processing_method": "github_actions"
       }
     }
