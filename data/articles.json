@@ -1,5 +1,21 @@
 [
   {
+    "id": "c0db2c71dbf333d60d0434611edf20a3",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1863193",
+    "title": "PSRNet: a phase-guided frequency-domain structure reconstruction network for RGB-T salient object detection",
+    "content": "IntroductionRGB-T salient object detection remains challenging because visible and thermal features often show structural shifts, weak thermal boundaries, and background interference.MethodsThis study proposes PSRNet, a phase-guided frequency-domain structure reconstruction network. RGB and thermal features are decomposed into amplitude and latent-phase components in the Fourier domain. Reliable cross-modal structural cues are aligned through amplitude-weighted phase consistency, and boundary-related high-frequency responses are reconstructed with a bounded Gaussian high-pass gate before adaptive phase-modulated fusion and multi-scale supervision.ResultsOn VT1000, PSRNet achieved an S-measure of 0.903, an MAE of 0.028, and an F-measure of 0.794 at threshold 0.80, with a boundary IoU of 0.862.DiscussionThe results indicate improved structural preservation and boundary recovery under challenging RGB-T conditions.",
+    "author": "Chunyu Yang",
+    "published_date": "2026-07-06T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 111,
+    "reading_time": 1,
+    "created_at": "2026-08-08T23:58:42.493787+00:00",
+    "updated_at": "2026-08-08T23:58:42.493789+00:00"
+  },
+  {
     "id": "009adc28d0117e8e224e1be1a2629432",
     "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae8eb1",
     "title": "Machine learning approaches for prediction of epilepsy risk across clinical pathways: a systematic review",
@@ -16942,21 +16958,5 @@
     "reading_time": 1,
     "created_at": "2026-08-04T06:29:26.861394+00:00",
     "updated_at": "2026-08-04T06:29:26.861397+00:00"
-  },
-  {
-    "id": "46b1e646da14f655b2f1d19f787d5249",
-    "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2601841123?af=R",
-    "title": "Stabilization of recurrent neural networks through divisive normalization",
-    "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 30, July 2026. <br />SignificanceNeural circuits must remain stable to function correctly, yet strong recurrent connections, which are essential for complex computations, often hinder this stability. We demonstrate that divisive normalization, a canonical neural operation ...",
-    "author": "Flaviano MoroneShivang RawatDavid J. HeegerStefano Martinianiahttps://ror.org/0190ak572Center for Neural Science, New York University, New York, NY 10003bhttps://ror.org/0190ak572Department of Physics, Center for Soft Matter Research, New York University, New York, NY 10003chttps://ror.org/0190ak572Courant Institute of Mathematical Sciences, New York University, New York, NY 10012dhttps://ror.org/0190ak572Department of Psychology, New York University, New York, NY 10003ehttps://ror.org/0190ak572Department of Chemistry, Simons Center for Computational Physical Chemistry, New York University, New York, NY 10003",
-    "published_date": "2026-07-23T07:00:00+00:00",
-    "source": "Pnas Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 46,
-    "reading_time": 1,
-    "created_at": "2026-08-04T06:29:22.064764+00:00",
-    "updated_at": "2026-08-04T06:29:22.064765+00:00"
   }
 ]
