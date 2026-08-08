@@ -1,8 +1,56 @@
 {
-  "last_updated": "2026-08-08T18:29:19.535202+00:00",
+  "last_updated": "2026-08-08T20:22:24.765294+00:00",
   "pending_count": 765,
   "processed_count": 235,
   "pending_articles": [
+    {
+      "id": "2d193cba6f4e8dfd85c9d7ff525082eb",
+      "url": "https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/",
+      "title": "Can Intel finally beat ARM on performance per Watt?",
+      "content": "<p>Article URL: <a href=\"https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/\">https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49223079\">https://news.ycombinator.com/item?id=49223079</a></p>\n<p>Points: 18</p>\n<p># Comments: 2</p>",
+      "author": "gumby",
+      "published_date": "2026-08-08T16:04:36+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-08T18:52:11.025380+00:00",
+      "updated_at": "2026-08-08T18:52:11.025381+00:00"
+    },
+    {
+      "id": "c988ebefd5faa79f468cf40066391cae",
+      "url": "https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country",
+      "title": "Amazon Is Creating the Biggest Pollution Source in the Country",
+      "content": "<p>Article URL: <a href=\"https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country\">https://newrepublic.com/post/214111/amazon-data-center-biggest-pollution-source-entire-country</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49223845\">https://news.ycombinator.com/item?id=49223845</a></p>\n<p>Points: 23</p>\n<p># Comments: 4</p>",
+      "author": "geox",
+      "published_date": "2026-08-08T17:27:52+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-08T18:52:11.025298+00:00",
+      "updated_at": "2026-08-08T18:52:11.025300+00:00"
+    },
+    {
+      "id": "65141073b5ac6e9f1bc28a169996107c",
+      "url": "https://classicbits.net/coding-and-software/my-software/monosol/",
+      "title": "TinySol, a tiny solitaire game for DOS",
+      "content": "<p>Article URL: <a href=\"https://classicbits.net/coding-and-software/my-software/monosol/\">https://classicbits.net/coding-and-software/my-software/monosol/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49224020\">https://news.ycombinator.com/item?id=49224020</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "skibz",
+      "published_date": "2026-08-08T17:42:40+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-08T18:52:11.025277+00:00",
+      "updated_at": "2026-08-08T18:52:11.025279+00:00"
+    },
     {
       "id": "c4c593837e6d495c7b922100abb0792a",
       "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
@@ -114,57 +162,129 @@
       "reading_time": 1,
       "created_at": "2026-08-08T15:30:53.374155+00:00",
       "updated_at": "2026-08-08T15:30:53.374156+00:00"
-    },
-    {
-      "id": "f8a60ba6ad0c11b5c48a2f76337189b2",
-      "url": "http://ieeexplore.ieee.org/document/11237159",
-      "title": "Explainable ECG Analysis by Explicit Information Disentanglement With VAEs",
-      "content": "Objective: The interpretation of electrocardiogram (ECG) signals is vital for diagnosis of cardiac conditions. Traditional methods rely on expert knowledge, which is time consuming, costly and potentially misses subtle features. AI has shown promise in ECG interpretation, but clinically desired model explainability is often lacking in literature. Methods: We introduce an explainable AI method for ECG classification by partitioning the variational autoencoder (VAE) latent space into a label-specific and a non-label-specific subset. By optimizing both subsets for signal reconstruction and one subset also for prediction while constraining the other from learning label-specific information with an adversarial network, the latent space is disentangled in a supervised manner. This latent space is leveraged to create enhanced visualizations for ECG feature interpretation by means of attribute manipulation. As a proof of concept, we predict the left ventricular function (LVF), a critical prognostic determinant in cardiac disease, from the ECG. Results: Our study demonstrates the effective segregation of LVF-specific information within a single dimension of the VAE latent space, without compromising classification performance. We show that the proposed model improves state-of-the-art VAE methods (AUC 0.832 vs. 0.790, F1 0.688 vs. 0.640) in prediction and performs comparable to ground truth LVF (concordance 0.72 vs.0.72) in predicting survival. Conclusion: The model facilitates the interpretation of LVF predictions by providing visual context to ECG signals, offering a general explainable and predictive AI method. Significance: Our explainable AI model can potentially reduce time and expertise required for ECG analysis.",
-      "author": "",
-      "published_date": "2025-11-10T13:17:12+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 241,
-      "reading_time": 1,
-      "created_at": "2026-08-08T15:30:49.864499+00:00",
-      "updated_at": "2026-08-08T15:30:49.864500+00:00"
-    },
-    {
-      "id": "4cb5366541074520b89df50c5b8f16db",
-      "url": "http://ieeexplore.ieee.org/document/11271564",
-      "title": "Biophysical Circuit Modeling of Electro-Quasistatic Multi-Human Body Communication",
-      "content": "Human body communication, particularly of the Electro-Quasistatic variety, has gained traction among low-power wireless circuit designers due to its benefits in terms of power and physical security compared to conventional electromagnetic or radio frequency communication. Yet, applying its theory and practice has thus far been limited to a single person, without a clear understanding of how the channel behaves when multiple individuals or human bodies are added. To the author's knowledge, this work analyzes the limit of the quasistatic approximation in a multiple human body scenario for the first time. It demonstrates how the approximation changes with the length scale. Furthermore, the channel gain for varying numbers of human bodies is measured to be \u221235 dB (one human body), \u221241 dB (two humans), and \u221244 dB (three humans) for a ground-connected transmitter. A complete bio-physical circuit model is generated to accurately predict the voltage received on the quasi-static structure depending on how many human bodies are connected serially. The impact of the work can aid designers in realizing applications in secure key exchange, authentication, and music sharing using electro-quasistatic human body communication techniques.",
-      "author": "",
-      "published_date": "2025-12-01T13:16:17+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 183,
-      "reading_time": 1,
-      "created_at": "2026-08-08T15:30:49.864461+00:00",
-      "updated_at": "2026-08-08T15:30:49.864463+00:00"
-    },
-    {
-      "id": "ee60bc6f48990259b61f5d547894b072",
-      "url": "http://ieeexplore.ieee.org/document/11354505",
-      "title": "Analytical Ground Truth for Phase-Contrast MRI Experiments and Simulations: Open-Source Precision-Controlled Bidirectional Rotational Phantom",
-      "content": "We present a fully open-source, air-driven bidirectional, rotational MRI phantom. It enables an accurate and reproducible evaluation of displacement artefacts for any MRI sequence and velocity field and acceleration sensitivity for phase-contrast MRI (PC-MRI) sequences. Its unique feature of analytically defined motion is expected to narrow the gap between simulations and experiments for in-silico and in-vitro experiments using the very same sequence code. Methods: A rotational phantom was bidirectionally driven (clockwise (CW) / counterclockwise (CCW)) by an actively controlled airflow. The rotating cylinder filled with a Polyvinylpyrrolidone-water mixture was monitored via an external laser-based tachometer system. Vendor-supplied and custom open-source PC-MRI sequences were evaluated on a 3T MRI system and used as input for Bloch simulations. Resulting magnitude and velocity images were evaluated against the phantom\u2019s ground truth data. Results: For physiological angular velocities, displacement errors resulted in a 10% radial stretch while apparent acceleration sensitivity is 5% of venc. The time difference between velocity and spatial encoding time points of 1.9ms determining the severity of the artefacts could be quantified without prior knowledge of details about the MR sequence. Simulation and experiment yielded excellent agreement. Conclusion: The phantom enables an easy, precise and repeatable evaluation of motion sensitivity of MR sequences and may offer a future reference measurement. Additional timing parameters of MR sequences may be reported in future literature to improve comparability. The seamless MRI sequence definition for in-silico and in-vitro experiments narrows a significant gap in MR research. Significance: This work establishes a reproducible, standardized validation framework for PC-MRI techniques that can be readily implemented across institutions, facilitating quality assurance procedures and supporting the development of more accurate flow quantification methods in clinical applications.",
-      "author": "",
-      "published_date": "2026-01-15T13:16:49+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 277,
-      "reading_time": 1,
-      "created_at": "2026-08-08T15:30:49.864424+00:00",
-      "updated_at": "2026-08-08T15:30:49.864425+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "a6508ad37d08bff76e11334e065a31be",
+      "url": "https://code.claude.com/docs/en/cross-session-messaging",
+      "title": "Message your other Claude Code sessions",
+      "content": "<p>Article URL: <a href=\"https://code.claude.com/docs/en/cross-session-messaging\">https://code.claude.com/docs/en/cross-session-messaging</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49222824\">https://news.ycombinator.com/item?id=49222824</a></p>\n<p>Points: 7</p>\n<p># Comments: 0</p>",
+      "author": "mfiguiere",
+      "published_date": "2026-08-08T15:34:49+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-08T19:57:24.965960+00:00",
+      "updated_at": "2026-08-08T20:22:24.564847+00:00",
+      "metadata": {
+        "processed_at": "2026-08-08T20:22:24.564858+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "cbc2b94fca4a676a56f0d37cb1d141d4",
+      "url": "https://www.nature.com/articles/s41598-026-63082-1",
+      "title": "Superior canal dehiscence syndrome alters kinematics of head and postural control during standing",
+      "content": "",
+      "author": "",
+      "published_date": "2026-08-08T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-08T19:31:01.114276+00:00",
+      "updated_at": "2026-08-08T20:22:24.564860+00:00",
+      "metadata": {
+        "processed_at": "2026-08-08T20:22:24.564862+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "48327fa6a29f6aa838c45150cf3f27df",
+      "url": "http://www.jneurosci.org/cgi/content/short/46/30/etwij46302026?rss=1",
+      "title": "This Week in The Journal",
+      "content": "",
+      "author": "McKeon, P.",
+      "published_date": "2026-07-29T16:30:22+00:00",
+      "source": "Journal Neuroscience This Week",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-08T19:30:58.567595+00:00",
+      "updated_at": "2026-08-08T20:22:24.564863+00:00",
+      "metadata": {
+        "processed_at": "2026-08-08T20:22:24.564864+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "9eb2302b932e7ca57181e0a854569777",
+      "url": "https://www.reddit.com/r/Python/comments/1vj34ud/small_external_evaluation_of_patchforge/",
+      "title": "Small external evaluation of PatchForge",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I'm a backend/platform engineer, and I built PatchForge \u2014 a safety-first tool for proposing, validating, and previewing small code changes without modifying your repository automatically.</p> <p>I'm looking for one Python developer or small engineering team to participate in a short external evaluation, run on an isolated copy of a small, non-sensitive Python project.</p> <p>What the participant would do:</p> <p>- Choose a small documentation or low-risk maintenance task.</p> <p>- Explain the expected outcome.</p> <p>- Observe the workflow: doctor \u2192 scan \u2192 plan \u2192 preview.</p> <p>- Give honest feedback on setup, diagnostics, usefulness, and trust.</p> <p>- No apply step will be executed.</p> <p>Requirements:</p> <p>- A small Python repository you own or are authorized to share for evaluation.</p> <p>- No secrets, customer data, proprietary code, or production credentials.</p> <p>- About 30\u201345 minutes for the workflow itself. If you don't already have Python/uv set up, I'll walk you through installation first \u2014 worth budgeting a bit of extra time for that on the first run.</p> <p>- Willingness to report problems honestly, including if the tool isn't useful.</p> <p>The evaluation will be documented only with sanitized notes. Repository contents and personal information will not be published.</p> <p>This is exploratory product validation, not a sales demo. If you're interested, comment or send me a DM with:</p> <ol> <li><p>Your Python project type and approximate size.</p></li> <li><p>A safe documentation or maintenance task.</p></li> <li><p>Whether you can participate in the next two weeks.</p></li> </ol> <p>Happy to share more details privately before you decide.</p> <p>Source: <a href=\"https://github.com/Argenis1412/PatchForge\">https://github.com/Argenis1412/PatchForge</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Argenis1412\"> /u/Argenis1412 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1vj34ud/small_external_evaluation_of_patchforge/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vj34ud/small_external_evaluation_of_patchforge/\">[comments]</a></span>",
+      "author": "/u/Argenis1412",
+      "published_date": "2026-08-08T18:20:29+00:00",
+      "source": "Reddit Python",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 267,
+      "reading_time": 1,
+      "created_at": "2026-08-08T18:52:13.536349+00:00",
+      "updated_at": "2026-08-08T20:22:24.564865+00:00",
+      "metadata": {
+        "processed_at": "2026-08-08T20:22:24.564866+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "482fdf4e3a0eb7bf9ce2e5a5bf525848",
+      "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
+      "title": "Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49224294\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-08T18:09:31+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-08T18:52:12.247691+00:00",
+      "updated_at": "2026-08-08T20:22:24.564868+00:00",
+      "metadata": {
+        "processed_at": "2026-08-08T20:22:24.564868+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "482fdf4e3a0eb7bf9ce2e5a5bf525848",
+      "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
+      "title": "Denmark Requires Oral Defenses for Students' Written Work to Counter AI Cheating",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49224294\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-08T18:09:31+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-08T18:52:12.247691+00:00",
+      "updated_at": "2026-08-08T20:22:24.564868+00:00",
+      "metadata": {
+        "processed_at": "2026-08-08T20:22:24.564868+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "f2f9f52dcae16aa3f27000cd7bee1a98",
       "url": "https://www.fratepietro.com/2026/ferrox-rust-gguf-inference-engine/",
@@ -242,126 +362,6 @@
       "updated_at": "2026-08-08T18:29:19.418628+00:00",
       "metadata": {
         "processed_at": "2026-08-08T18:29:19.418630+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "99aff0078689f49e0dc3c6e0d9785820",
-      "url": "https://adepts.of0x.cc/eufy-doorbell-hacking/",
-      "title": "From your doorbell to your home network",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49177224\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-05T00:43:25+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-08T17:30:50.357604+00:00",
-      "updated_at": "2026-08-08T18:29:19.418634+00:00",
-      "metadata": {
-        "processed_at": "2026-08-08T18:29:19.418637+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "abdc68130cebc26d1ded4b4f08372ffb",
-      "url": "https://github.com/andrewpollack/linkedin-feed-blocker",
-      "title": "LinkedIn Feed Blocker",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49223475\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-08T16:49:07+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-08T17:30:50.357658+00:00",
-      "updated_at": "2026-08-08T18:29:19.418628+00:00",
-      "metadata": {
-        "processed_at": "2026-08-08T18:29:19.418630+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "18e6e51655afade67884286795e598a2",
-      "url": "https://www.nature.com/articles/s41598-026-64188-2",
-      "title": "Shining a light on cognitive performance: A systematic review and meta-analysis on light therapy on simulated night shifts",
-      "content": "",
-      "author": "",
-      "published_date": "2026-08-08T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-08-08T15:59:26.745712+00:00",
-      "updated_at": "2026-08-08T16:26:42.398079+00:00",
-      "metadata": {
-        "processed_at": "2026-08-08T16:26:42.398091+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "5bb1fcdea5564370a32bbd7c90ae9c6b",
-      "url": "https://www.nature.com/articles/s41598-026-65903-9",
-      "title": "CEST MRI of glucosamine uptake in brain tumor-bearing mice",
-      "content": "",
-      "author": "",
-      "published_date": "2026-08-08T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-08-08T15:59:26.745692+00:00",
-      "updated_at": "2026-08-08T16:26:42.398096+00:00",
-      "metadata": {
-        "processed_at": "2026-08-08T16:26:42.398098+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "be150f5c86e56761a7c9242df4c994ae",
-      "url": "https://www.nature.com/articles/s41598-026-64431-w",
-      "title": "Systemic inflammation is associated with increased cerebrospinal fluid CRP and may affect meningitis diagnostics",
-      "content": "",
-      "author": "",
-      "published_date": "2026-08-08T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-08-08T15:59:26.745645+00:00",
-      "updated_at": "2026-08-08T16:26:42.398101+00:00",
-      "metadata": {
-        "processed_at": "2026-08-08T16:26:42.398102+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "63efe0630b68f1908e98f172321c35b3",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1799307",
-      "title": "FUSION-AD: interpretable AI framework for risk assessment and subgroup discovery in Alzheimer's disease",
-      "content": "IntroductionAlzheimer's disease (AD) is difficult to treat because of its multifactorial causes and heterogeneous progression across individuals. This study introduces FUSION-AD, a user-friendly and interpretable artificial intelligence framework for AD risk assessment and subgroup discovery.MethodsFUSION-AD integrates tree-based models, transformer-based neural networks, rule mining, and subgroup discovery to provide accurate and interpretable predictions. The framework was developed using the synthetic El Kharoua Alzheimer's Disease Dataset, which contains 2,149 structured clinical records from patients aged 60\u201390 years, with a mean age of 74.6 years and an average mini-mental state examination (MMSE) score of 21.7. The pipeline included data preprocessing, model benchmarking, feature-importance analysis, SHAP-based explanation, transformer attention analysis, association rule mining, and subgroup discovery.ResultsWithin the evaluated dataset, TabNet achieved the strongest point-estimate performance among the standalone benchmark models on the primary evaluation split, with an area under the receiver operating characteristic curve (AUROC) of 0.95, followed by XGBoost at 0.93, Random Forest at 0.92, and Logistic Regression at 0.89. Feature importance, SHAP values, and transformer attention consistently identified MMSE, Functional Assessment, and Memory Complaints as the most influential predictors. Association rule mining further highlighted diabetes and high body mass index as important risk factors. Subgroup discovery identified four clinical clusters, with prevalence ranging from 21.3 to 28.4%. Cluster 0 showed notable declines in daily functioning, with Functional Assessment decreasing by 2.1 and activities of daily living decreasing by 1.5, whereas Cluster 1 maintained daily functioning but showed increased behavioral symptoms.DiscussionFUSION-AD demonstrates that AD can be modeled in a way that balances predictive performance with interpretability within the studied dataset. The identified subgroup patterns suggest that lifestyle-driven profiles may benefit from preventive strategies, while cognitively impaired groups may require closer monitoring. These findings provide a foundation for future clinically oriented decision-support systems and require further validation using real-world clinical datasets.",
-      "author": "Sarra Ayouni",
-      "published_date": "2026-05-28T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 297,
-      "reading_time": 1,
-      "created_at": "2026-08-08T15:59:20.746050+00:00",
-      "updated_at": "2026-08-08T16:26:42.398105+00:00",
-      "metadata": {
-        "processed_at": "2026-08-08T16:26:42.398106+00:00",
         "processing_method": "github_actions"
       }
     }
