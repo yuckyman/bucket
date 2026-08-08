@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-08-08T18:53:22.620477+00:00",
+  "last_updated": "2026-08-08T19:31:33.229447+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "cbc2b94fca4a676a56f0d37cb1d141d4",
+      "url": "https://www.nature.com/articles/s41598-026-63082-1",
+      "title": "Superior canal dehiscence syndrome alters kinematics of head and postural control during standing",
+      "content": "",
+      "author": "",
+      "published_date": "2026-08-08T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-08T19:31:01.114276+00:00",
+      "updated_at": "2026-08-08T19:31:01.114277+00:00"
+    },
+    {
+      "id": "48327fa6a29f6aa838c45150cf3f27df",
+      "url": "http://www.jneurosci.org/cgi/content/short/46/30/etwij46302026?rss=1",
+      "title": "This Week in The Journal",
+      "content": "",
+      "author": "McKeon, P.",
+      "published_date": "2026-07-29T16:30:22+00:00",
+      "source": "Journal Neuroscience This Week",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-08T19:30:58.567595+00:00",
+      "updated_at": "2026-08-08T19:30:58.567596+00:00"
+    },
     {
       "id": "9eb2302b932e7ca57181e0a854569777",
       "url": "https://www.reddit.com/r/Python/comments/1vj34ud/small_external_evaluation_of_patchforge/",
@@ -323,46 +355,6 @@
       "updated_at": "2026-08-08T16:26:42.398101+00:00",
       "metadata": {
         "processed_at": "2026-08-08T16:26:42.398102+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "63efe0630b68f1908e98f172321c35b3",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1799307",
-      "title": "FUSION-AD: interpretable AI framework for risk assessment and subgroup discovery in Alzheimer's disease",
-      "content": "IntroductionAlzheimer's disease (AD) is difficult to treat because of its multifactorial causes and heterogeneous progression across individuals. This study introduces FUSION-AD, a user-friendly and interpretable artificial intelligence framework for AD risk assessment and subgroup discovery.MethodsFUSION-AD integrates tree-based models, transformer-based neural networks, rule mining, and subgroup discovery to provide accurate and interpretable predictions. The framework was developed using the synthetic El Kharoua Alzheimer's Disease Dataset, which contains 2,149 structured clinical records from patients aged 60\u201390 years, with a mean age of 74.6 years and an average mini-mental state examination (MMSE) score of 21.7. The pipeline included data preprocessing, model benchmarking, feature-importance analysis, SHAP-based explanation, transformer attention analysis, association rule mining, and subgroup discovery.ResultsWithin the evaluated dataset, TabNet achieved the strongest point-estimate performance among the standalone benchmark models on the primary evaluation split, with an area under the receiver operating characteristic curve (AUROC) of 0.95, followed by XGBoost at 0.93, Random Forest at 0.92, and Logistic Regression at 0.89. Feature importance, SHAP values, and transformer attention consistently identified MMSE, Functional Assessment, and Memory Complaints as the most influential predictors. Association rule mining further highlighted diabetes and high body mass index as important risk factors. Subgroup discovery identified four clinical clusters, with prevalence ranging from 21.3 to 28.4%. Cluster 0 showed notable declines in daily functioning, with Functional Assessment decreasing by 2.1 and activities of daily living decreasing by 1.5, whereas Cluster 1 maintained daily functioning but showed increased behavioral symptoms.DiscussionFUSION-AD demonstrates that AD can be modeled in a way that balances predictive performance with interpretability within the studied dataset. The identified subgroup patterns suggest that lifestyle-driven profiles may benefit from preventive strategies, while cognitively impaired groups may require closer monitoring. These findings provide a foundation for future clinically oriented decision-support systems and require further validation using real-world clinical datasets.",
-      "author": "Sarra Ayouni",
-      "published_date": "2026-05-28T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 297,
-      "reading_time": 1,
-      "created_at": "2026-08-08T15:59:20.746050+00:00",
-      "updated_at": "2026-08-08T16:26:42.398105+00:00",
-      "metadata": {
-        "processed_at": "2026-08-08T16:26:42.398106+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "88cb50706befdc053bee22d84f16dac5",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1613151",
-      "title": "A 3D-printed phantom to validate subject orientation in 3D imaging and recordings",
-      "content": "A phantom defined by a 3D-printed system of markers representing an anatomical coordinate system is proposed. This phantom is designed for use in magnetic resonance and X-ray imaging devices to validate acquisition parameters and prevent laterality errors during image acquisition and processing. The phantom allows visualization of the coordinate system axes \u2013 left-right, posterior-anterior, and inferior-superior \u2013 in all orthogonal slices of a volume. A computational method, using the phantom as a reference, is also proposed to automatically detect and correct flips and permutations in RAS coordinate system representations. Testing the phantom across four modalities available in our platforms, followed by conversions of the recordings to the NIfTI format, enables the detection, correction, and adjustment of protocols in 4 out of 5 configurations. The 3D printing models and orientation detection/correction code are shared with the community as open-source and open-access resources to enable quick, cost-effective, and accessible production.",
-      "author": "Emmanuel L. Barbier",
-      "published_date": "2026-05-28T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 148,
-      "reading_time": 1,
-      "created_at": "2026-08-08T15:59:20.745996+00:00",
-      "updated_at": "2026-08-08T16:26:42.398108+00:00",
-      "metadata": {
-        "processed_at": "2026-08-08T16:26:42.398110+00:00",
         "processing_method": "github_actions"
       }
     }
