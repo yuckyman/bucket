@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-08-09T10:37:02.551128+00:00",
+  "last_updated": "2026-08-09T11:30:43.243959+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "53f0cba329f91a4b5af97a1cd89bcdb0",
+      "url": "http://www.jneurosci.org/cgi/content/short/46/28/etwij46282026?rss=1",
+      "title": "This Week in The Journal",
+      "content": "",
+      "author": "McKeon, P.",
+      "published_date": "2026-07-15T16:30:30+00:00",
+      "source": "Journal Neuroscience This Week",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-09T11:30:06.788721+00:00",
+      "updated_at": "2026-08-09T11:30:06.788723+00:00"
+    },
+    {
+      "id": "30ce70b09cdbce252134f86e70fbfa77",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1839252",
+      "title": "Distributed multi-robot LiDAR SLAM with ground-optimized preprocessing and slope-adaptive segmentation",
+      "content": "Large-scale outdoor robot navigation increasingly demands SLAM systems capable of operating efficiently across diverse and challenging terrain. While single-robot approaches face inherent coverage and computational limitations, distributed multi-robot frameworks extend this capability through collaborative mapping\u2014yet they still degrade in complex outdoor environments due to two unresolved challenges: redundant ground points in raw point clouds overload feature extraction and loop-closure matching, while fixed ground segmentation thresholds fail on sloped terrain causing misclassification and trajectory degradation. We address the first challenge by integrating ground segmentation preprocessing as a parallel stage for each robot within the distributed SLAM framework, reducing point cloud size by 50.78% and achieving a 21.4% RMSE improvement for Robot 0 (7.99 m \u2192 6.28 m) compared to the unprocessed baseline. We address the second challenge with the proposed SAGS (Slope-Adaptive Ground Segmentation) module, which continuously monitors platform tilt via IMU orientation and dynamically interpolates ground segmentation parameters within a 5\u00b0\u201315\u00b0 tilt range; SAGS recovers Robot 1 RMSE from 8.48 m to 6.23 m (26.5% improvement) on sloped terrain without flat-terrain penalty (GPS-validated 1.083 m RMSE on a public 612 m benchmark). Both contributions are validated through progressive three-stage ablation evaluation on a campus three-robot dataset (heterogeneous team: two wheeled ground robots and one legged quadruped, diverse terrain including sloped sections) and cross-validated on a public GPS benchmark (612 m, GPS ground truth), confirming the independent contribution of each system component.",
+      "author": "Fei Wang",
+      "published_date": "2026-07-01T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 231,
+      "reading_time": 1,
+      "created_at": "2026-08-09T11:29:58.136826+00:00",
+      "updated_at": "2026-08-09T11:29:58.136828+00:00"
+    },
+    {
+      "id": "6fb456bfc32745b84cee7570eb6467da",
+      "url": "https://halfhill.com/byte/1998-12_alpha.html",
+      "title": "The Alpha 21264 CPU: NT's Greatest RISC (1998)",
+      "content": "<p>Article URL: <a href=\"https://halfhill.com/byte/1998-12_alpha.html\">https://halfhill.com/byte/1998-12_alpha.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49230022\">https://news.ycombinator.com/item?id=49230022</a></p>\n<p>Points: 8</p>\n<p># Comments: 2</p>",
+      "author": "Lammy",
+      "published_date": "2026-08-09T10:06:37+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-09T11:29:28.731879+00:00",
+      "updated_at": "2026-08-09T11:29:28.731881+00:00"
+    },
+    {
+      "id": "9a9f818d108517e7863e77ac685cfa1a",
+      "url": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
+      "title": "CSS: The bomb inside your inbox",
+      "content": "<p>Article URL: <a href=\"https://portswigger.net/research/css-the-bomb-inside-your-inbox\">https://portswigger.net/research/css-the-bomb-inside-your-inbox</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49230066\">https://news.ycombinator.com/item?id=49230066</a></p>\n<p>Points: 18</p>\n<p># Comments: 1</p>",
+      "author": "ashurandi",
+      "published_date": "2026-08-09T10:17:52+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-09T11:29:28.731847+00:00",
+      "updated_at": "2026-08-09T11:29:28.731856+00:00"
+    },
     {
       "id": "0c0743fe6df339bf8c64641a7e1044e9",
       "url": "https://www.nature.com/articles/s41598-026-66125-9",
@@ -295,86 +359,6 @@
       "updated_at": "2026-08-09T06:45:16.915901+00:00",
       "metadata": {
         "processed_at": "2026-08-09T06:45:16.915903+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "51fc378ab25aa8a93117cd415fd0474d",
-      "url": "https://marketnow.site/",
-      "title": "Real-time MCP interceptor that blocks .env reads and dangerous commands agents",
-      "content": "<p>Article URL: <a href=\"https://marketnow.site/\">https://marketnow.site/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49228086\">https://news.ycombinator.com/item?id=49228086</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
-      "author": "eddyflores",
-      "published_date": "2026-08-09T03:13:01+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-08-09T06:08:51.659604+00:00",
-      "updated_at": "2026-08-09T06:45:16.915905+00:00",
-      "metadata": {
-        "processed_at": "2026-08-09T06:45:16.915906+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "df936a0419bcb76b3e7c98bb7ab164b9",
-      "url": "https://www.experimental-history.com/p/incentives-are-for-losers",
-      "title": "Incentives Are for Losers",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49227652\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-09T01:49:48+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-09T05:12:24.886255+00:00",
-      "updated_at": "2026-08-09T06:45:16.915908+00:00",
-      "metadata": {
-        "processed_at": "2026-08-09T06:45:16.915910+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "df936a0419bcb76b3e7c98bb7ab164b9",
-      "url": "https://www.experimental-history.com/p/incentives-are-for-losers",
-      "title": "Incentives Are for Losers",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49227652\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-09T01:49:48+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-09T05:12:24.886255+00:00",
-      "updated_at": "2026-08-09T06:45:16.915908+00:00",
-      "metadata": {
-        "processed_at": "2026-08-09T06:45:16.915910+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a6af04f98092cf69367d1d146a9f28cf",
-      "url": "https://longbets.org/601/",
-      "title": "\"The original URL for this prediction will no longer be available in 11 years.\" (2011)",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49228458\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-09T04:30:26+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-09T05:12:24.886160+00:00",
-      "updated_at": "2026-08-09T08:35:41.663543+00:00",
-      "metadata": {
-        "processed_at": "2026-08-09T08:35:41.663545+00:00",
         "processing_method": "github_actions"
       }
     }
