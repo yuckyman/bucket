@@ -1,8 +1,56 @@
 {
-  "last_updated": "2026-08-10T09:13:28.355127+00:00",
-  "pending_count": 698,
-  "processed_count": 302,
+  "last_updated": "2026-08-10T11:03:02.302293+00:00",
+  "pending_count": 696,
+  "processed_count": 304,
   "pending_articles": [
+    {
+      "id": "c1412048a1ed1837142c064a0896d41a",
+      "url": "https://smallcultfollowing.com/babysteps/blog/2018/04/27/an-alias-based-formulation-of-the-borrow-checker/",
+      "title": "An alias-based formulation of the borrow checker (2018)",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49211821\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-07T15:20:28+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-10T09:58:55.169001+00:00",
+      "updated_at": "2026-08-10T09:58:55.169002+00:00"
+    },
+    {
+      "id": "9e481344170f52b8cbb80fa85d4af504",
+      "url": "https://lordgoati.us/blog/tail-call/",
+      "title": "Tail-Call Interpreters in Rust \u2013 Jimmy Ostler",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49209132\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-07T12:05:10+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-10T09:58:55.168894+00:00",
+      "updated_at": "2026-08-10T09:58:55.168896+00:00"
+    },
+    {
+      "id": "2e0857244dfbe5955eced0defe8b5fe6",
+      "url": "https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant",
+      "title": "Implant \u2013 an extension to VS Code that exposes its APIs to coding agents",
+      "content": "<p>Article URL: <a href=\"https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant\">https://marketplace.visualstudio.com/items?itemName=strangepleasures.implant</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49241303\">https://news.ycombinator.com/item?id=49241303</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "strangepleasure",
+      "published_date": "2026-08-10T09:22:25+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-10T09:58:53.915558+00:00",
+      "updated_at": "2026-08-10T09:58:53.915569+00:00"
+    },
     {
       "id": "01a0c9001a6aac267cb0072bda62db43",
       "url": "http://doi.org/10.1037/pmu0000303",
@@ -114,57 +162,109 @@
       "reading_time": 2,
       "created_at": "2026-08-10T05:28:52.207575+00:00",
       "updated_at": "2026-08-10T05:28:52.207577+00:00"
-    },
-    {
-      "id": "d83bb679ac581fb5cf5ebd8cb00896de",
-      "url": "https://arxiv.org/abs/2608.06904",
-      "title": "The Nocturnity Scale: Measuring the Sense of Being at Night in Virtual Urban Environments",
-      "content": "arXiv:2608.06904v1 Announce Type: new \nAbstract: Nighttime environments are increasingly used in virtual urban studies, yet darkness alone does not fully recreate the subjective sense of being at night. Prior work suggests that this experience depends not only on the absence of daylight, but also on lighting structure, low-light perception, human activity, soundscape, and self-related states. However, no existing tool directly assesses this scene-dependent subjective experience. This work introduces nocturnity as the feeling of being at night elicited by a scene and proposes a theory-driven framework structured into three subscales: perceptual, activity, and inner-state nocturnity. Based on this framework, we develop a first candidate questionnaire for virtual urban environments. Developed through a literature-informed process and reviewed by two urban lighting experts, the scale comprises 42 Likert-type items, including three diagnostic subscales and complementary global and time-related items. This work provides a first operational basis for comparing virtual urban scenes according to their perceived nocturnity and supports future empirical validation.",
-      "author": "Anthony Le Gourri{\\'e}rec (Nantes Univ - ECN, Nantes Univ - ENSA Nantes, CRENAU, Lab-STICC\\_INUIT, IMT Atlantique), Etienne Peillard (IMT Atlantique - INFO, Lab-STICC\\_INUIT, IMT Atlantique), Nicolas Houel (AAU), Myriam Servi{\\`e}res (CRENAU, Nantes Univ - ECN, Nantes Univ - ENSA Nantes)",
-      "published_date": "2026-08-10T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 158,
-      "reading_time": 1,
-      "created_at": "2026-08-10T05:28:40.117545+00:00",
-      "updated_at": "2026-08-10T05:28:40.117547+00:00"
-    },
-    {
-      "id": "6455980b42fb047df87c4e100dbf9520",
-      "url": "https://arxiv.org/abs/2608.06845",
-      "title": "Not Always Top-Left: Untangling the Signals that Guide Dashboard Reading Order",
-      "content": "arXiv:2608.06845v1 Announce Type: new \nAbstract: Dashboards are widely used interfaces for data analysis, combining multiple visualizations, text, and interactive controls within a single view. While dashboard authors often structure layouts to suggest a logical consumption flow, users may interpret and navigate dashboards differently depending on the interplay between design features, analytical goals, and personal preferences. In this work, we investigate how people make sense of dashboards by examining their reading orders, i.e., the sequences in which users engage with dashboard components. We conduct a mixed-methods study with 18 dashboard authors and 16 end-users, capturing how participants design for and reason through these component transitions. Through qualitative and quantitative analyses of participant-generated flows, we outline a set of factors that influence dashboard reading order, including layout, visual saliency, semantics, functional roles, interaction, and user context. We also identify emergent reading patterns and analyze them through aggregate and variability measures, revealing where users converge and diverge in their interpretations. Finally, we discuss implications and opportunities for computational approaches that aim to automatically model, guide, or serialize dashboard consumption.",
-      "author": "Nicole Sultanum, Vidya Setlur",
-      "published_date": "2026-08-10T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 176,
-      "reading_time": 1,
-      "created_at": "2026-08-10T05:28:40.117515+00:00",
-      "updated_at": "2026-08-10T05:28:40.117517+00:00"
-    },
-    {
-      "id": "2a065d341450c0dc59d1dc9cac922739",
-      "url": "https://arxiv.org/abs/2608.06804",
-      "title": "Fact-Check Your Information (FYI): A Design Probe to Understand How People Actually Fact-Check Data-Driven Articles",
-      "content": "arXiv:2608.06804v1 Announce Type: new \nAbstract: Data-driven journalism and policy reports frequently rely on statements grounded in statistical evidence, referred to as data claims. Verifying such a claim requires connecting it to the underlying structured dataset. However, existing systems typically isolate automated fact-checking from manual data exploration, leaving it unclear how readers coordinate AI assistance with manual inspection of the evidence in practice. We present FYI, a browser extension that embeds fact-checking in the reading environment, and use it as a design probe to study how people detect, verify, and determine the validity of data claims against the underlying dataset. FYI provides four complementary tools spanning the spectrum from full automation to manual data exploration. In an exploratory study (N=22), participants used FYI to fact-check claims in a data-driven article. We find that participants adopted three distinct workflow archetypes---AI-first with manual confirmation, manual-first with AI supplement, and parallel co-review---with visualization serving as the primary mechanism for auditing AI conclusions. Trust in AI shifted dynamically, growing when multiple tools converged and eroding when AI outputs were inconsistent. These findings suggest that fact-checking systems should treat AI as a starting point that human verification complements rather than a definitive authority, elevate visualization as a core verification capability, and support flexible, user-driven workflows. We release FYI as open-source software for further research at https://github.com/DataVisards/FYI.",
-      "author": "Nguyen-Truong Thinh, Yuxuan Du, Phongsakon Mark Konrad, Arpit Narechania",
-      "published_date": "2026-08-10T04:00:00+00:00",
-      "source": "Arxiv Cs Hc",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 220,
-      "reading_time": 1,
-      "created_at": "2026-08-10T05:28:40.117484+00:00",
-      "updated_at": "2026-08-10T05:28:40.117485+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "d1c69d5388cfd85b9c1ef6b4fef8351d",
+      "url": "https://www.nature.com/articles/s43856-026-01846-6",
+      "title": "High-frequency visual stimulation can increase medial temporal lobe ripple oscillation density",
+      "content": "",
+      "author": "",
+      "published_date": "2026-08-10T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-10T09:59:29.891864+00:00",
+      "updated_at": "2026-08-10T11:03:02.172019+00:00",
+      "metadata": {
+        "processed_at": "2026-08-10T11:03:02.172032+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "663b23fdd570d556e2b1bc4d8a77b2e0",
+      "url": "https://www.nature.com/articles/s41531-026-01525-2",
+      "title": "Cholinergic deficits and hallucinations in Parkinson disease",
+      "content": "",
+      "author": "",
+      "published_date": "2026-08-10T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-10T09:59:29.891844+00:00",
+      "updated_at": "2026-08-10T11:03:02.172037+00:00",
+      "metadata": {
+        "processed_at": "2026-08-10T11:03:02.172039+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a29037ce50e7557f5c54e281718ee727",
+      "url": "https://www.nature.com/articles/s41598-026-63792-6",
+      "title": "Longitudinal immune and metabolic dynamics associated with hearing recovery in corticosteroid-treated patients with sudden sensorineural hearing loss",
+      "content": "",
+      "author": "",
+      "published_date": "2026-08-10T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-10T09:59:29.891778+00:00",
+      "updated_at": "2026-08-10T11:03:02.172042+00:00",
+      "metadata": {
+        "processed_at": "2026-08-10T11:03:02.172043+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a2aaa9e18f24811be98178dd67b12df9",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2532233123?af=R",
+      "title": "Deep learning maps local brain aging in relation to cognition across human adulthood",
+      "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 32, August 2026. <br />SignificanceAlthough human brain aging is not uniform across cortical regions, most imaging-derived measures of brain age quantify this phenomenon using a single summary quantity. Building on prior voxel-level brain age approaches, we use deep learning ...",
+      "author": "Nikhil N. ChaudhariOwen M. Vega HuertaSamayan BhattacharyaNahian F. ChowdhuryAndrei Irimiaahttps://ror.org/03taz7m60Alfred E. Mann Department of Biomedical Engineering, Corwin D. Denney Research Center, Viterbi School of Engineering, University of Southern California, Los Angeles, CA 90089bhttps://ror.org/03taz7m60Ethel Percy Andrus Gerontology Center, Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA 90089chttps://ror.org/03taz7m60Neuroscience Graduate Program, University of Southern California, Los Angeles, CA 90089dhttps://ror.org/03taz7m60Department of Quantitative and Computational Biology, Dana & David Dornsife College of Arts & Sciences, University of Southern California, Los Angeles, CA 90089ehttps://ror.org/0220mzb33Centre for Healthy Brain Aging, Institute of Psychiatry, Psychology & Neuroscience, King\u2019s College London, London WC2R 2LS, United Kingdom",
+      "published_date": "2026-08-03T07:00:00+00:00",
+      "source": "Pnas Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 50,
+      "reading_time": 1,
+      "created_at": "2026-08-10T09:59:24.351422+00:00",
+      "updated_at": "2026-08-10T11:03:02.172046+00:00",
+      "metadata": {
+        "processed_at": "2026-08-10T11:03:02.172047+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "b3399152452e939d25cd5a90ebe22d1d",
+      "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2520879123?af=R",
+      "title": "SIX1 is required for adult cochlear sensory epithelium homeostasis and auditory function",
+      "content": "Proceedings of the National Academy of Sciences, Volume 123, Issue 32, August 2026. <br />SignificanceIt remains unclear whether developmental transcription factors sustain adult cochlear function. We show that SIX1, known for embryonic hair-cell specification, remains active in the adult cochlea and is essential for hearing. AdultSix1loss ...",
+      "author": "Xiaohui MaIan AsamiyaElizabeth LouieYing ChenAiqun LiPin-Xian Xuahttps://ror.org/04a9tmd77Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029bhttps://ror.org/04a9tmd77Department of Cell, Developmental and Regenerative Biology, Icahn School of Medicine at Mount Sinai, New York, NY 10029",
+      "published_date": "2026-08-03T07:00:00+00:00",
+      "source": "Pnas Neuroscience",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 47,
+      "reading_time": 1,
+      "created_at": "2026-08-10T09:59:24.351339+00:00",
+      "updated_at": "2026-08-10T11:03:02.172050+00:00",
+      "metadata": {
+        "processed_at": "2026-08-10T11:03:02.172051+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "13ff52d9b59ca70594f38be273b41c7b",
       "url": "https://www.nature.com/articles/s41380-026-03820-z",
@@ -262,106 +362,6 @@
       "updated_at": "2026-08-10T07:20:40.038675+00:00",
       "metadata": {
         "processed_at": "2026-08-10T07:20:40.038684+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2e98cb8c6726f19f3179d6373124e989",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1884626",
-      "title": "Multi-way radial consistency pre-training for event based optical flow",
-      "content": "Optical flow estimation is a low-level module in computer vision, widely used in tasks such as visual odometry, autonomous driving, high dynamic range (HDR) imaging, and action recognition. Existing event-based optical flow estimation approaches suffer from scarcity of dense real-world datasets, while some unsupervised frameworks have reduced reliance on large-scale datasets by forward-backward consistency loss, they primarily exploit a 1D temporal reversal, while largely ignoring the rotational and scaling motions ubiquitous in robotics and automotive scenes. This work introduces radial consistency, a self-supervised pre-training framework that maps the event stream to log-polar coordinates and tessellates the spatial domain into K radial rings and L angular sectors, a shared encoder-decoder to predict four complementary flow fields whose cyclic sum is driven to zero, yielding a closed-loop constraint that generalizes the classical forward-backward check to 360\u00b0 within a sector. Our core contribution, the radial consistency loss, is completely label-free, together with auxiliary terms, enabling self-supervised pre-training on large-scale event data. We optionally apply supervised fine-tuning on small labeled sets to adapt to specific domains, achieving competitive accuracy with fully supervised methods. Validation experiments on Multi Vehicle Stereo Event Camera (MVSEC) dataset demonstrate strong performance: our method achieves 0.67 EPE averaged across all sequences, surpassing E-RAFT (0.89 EPE) and EV-FlowNet (1.10 EPE), without any additional data. On the rotation-heavy indoor_flying3 sequence specifically, we achieve 0.93 EPE (fine-tuned) and 1.49 EPE (self-supervised only) vs. E-RAFT 1.66. We also improve upon E-RAFT in computational efficiency [55 frames per second (FPS) and 26 giga floating-point operations (GFLOPs) vs. 42 FPS and 38 GFLOPs], while requiring only minimal supervised fine-tuning.",
-      "author": "Tao Wenyin",
-      "published_date": "2026-07-16T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 263,
-      "reading_time": 1,
-      "created_at": "2026-08-10T06:53:14.343881+00:00",
-      "updated_at": "2026-08-10T07:20:40.038687+00:00",
-      "metadata": {
-        "processed_at": "2026-08-10T07:20:40.038689+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d6a2a6b7d01643b2c497ce6e955fedce",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2026.1825171",
-      "title": "Shedding light on imagined scents: an fNIRS feasibility study of olfactory mental imagery and semantic cueing",
-      "content": "Mental imagery is the ability to evoke sensory experiences without a corresponding stimulus, with established roles in memory, cognition, and behavior across multiple sensory modalities. Whilst visual and auditory imagery have been extensively characterized using neuroimaging, olfactory imagery remains comparatively understudied despite representing a particularly compelling target for investigation. Unlike other sensory systems, olfactory information projects directly to limbic structures including the amygdala and hippocampus without thalamic relay, providing a neurobiological basis for the characteristically vivid and emotionally evocative quality of odor-related memories and imagery. Understanding the cortical correlates of olfactory imagery therefore holds both theoretical and applied relevance, with implications for consumer neuroscience, food science, and the study of memory and multisensory cognition. A key methodological challenge is that primary olfactory structures reside in deep subcortical regions inaccessible to fNIRS, yet higher-order olfactory regions including the orbitofrontal cortex fall within its measurement depth. We therefore conducted a feasibility study evaluating whether functional near-infrared spectroscopy (fNIRS) can detect cortical signatures of olfactory mental imagery in these accessible regions. Thirty-five participants were recruited, of whom 30 were included in the final analysis. Participants generated visual or olfactory mental images in response to semantic cues (odor-related words) or perceptual cues (abstract color patterns) in a 2x2 factorial design. Cortical haemodynamic responses were measured using a 42-channel fNIRS array covering frontal, temporal, and parietal regions, with data analyzed using oxyhaemoglobin (HbO), deoxyhaemoglobin (HbR), and correlation-based signal improvement (CBSI), and group-level inference performed using surface-based statistical parametric mapping. Visual imagery produced robust bilateral frontoparietal activation across all chromophores, validating the experimental framework. Olfactory imagery produced modest bilateral orbitofrontal activation, detected exclusively in HbO measurements, providing tentative preliminary evidence that fNIRS can detect higher-order olfactory imagery-related cortical activity. Post-hoc chromophore analysis revealed striking discordance across conditions, with only visual imagery to words producing concordant HbO and HbR responses surviving CBSI correction, and deactivations detected exclusively in HbO. These findings offer qualified support for the feasibility of fNIRS in this domain whilst raising important questions about chromophore coupling dynamics during endogenously driven cognitive processes and the suitability of CBSI assumptions beyond conventional stimulus-driven paradigms.",
-      "author": "Ilias Tachtsidis",
-      "published_date": "2026-08-10T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 348,
-      "reading_time": 1,
-      "created_at": "2026-08-10T06:53:12.768668+00:00",
-      "updated_at": "2026-08-10T07:20:40.038690+00:00",
-      "metadata": {
-        "processed_at": "2026-08-10T07:20:40.038692+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8cde21c27c9b61f81f65c74f66b8f730",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2026.1824618",
-      "title": "Crossing effects in the tactile temporal order judgment task: a meta-analysis",
-      "content": "The tactile temporal order judgment (TOJ) task is widely used in multisensory neuroscience. Participants judge which of two tactile stimuli, one on each hand, came first. A key finding is that TOJ performance declines when the arms are crossed, likely due to interactions among tactile, proprioceptive, and visual information. The TOJ crossing effect has been widely reported. However, studies have used different analysis methods, leaving open the question of whether the choice of method influences the magnitude of the effect. Some studies have also reported that the crossing effect is modulated by moderators such as the availability of visual information, response modality, or speeded-response requirements. Through a systematic, exhaustive literature search, we identified 85 experiments in 51 publications that investigated the TOJ crossing effect, of which 39 experiments from 29 publications reported sufficient information for inclusion in a meta-analysis and aligned with the focus of our study. This analysis estimated the crossing effect\u2019s size at approximately 1.45. Checks for potential publication bias indicated that this estimate may be inflated, with a corrected estimate of 0.97 using a regression-based adjustment for small-study effects (R\u00fccker\u2019s method) and 1.4 based on p-curve analysis of the reported p-values. Although analysis method and response mode were identified as significant moderators, most moderators and specific contrasts were not statistically significant, likely because too few studies were available to achieve adequate statistical power. The large effect size supports the TOJ task\u2019s use in other research areas, e.g., developmental and clinical. However, the lack of significant moderation suggests caution when applying the task to questions beyond the crossing effect itself.",
-      "author": "Tobias Heed",
-      "published_date": "2026-08-10T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 262,
-      "reading_time": 1,
-      "created_at": "2026-08-10T06:53:12.768523+00:00",
-      "updated_at": "2026-08-10T07:20:40.038693+00:00",
-      "metadata": {
-        "processed_at": "2026-08-10T07:20:40.038694+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "04f6a9ba481af443a87b88a3f7d2d1c6",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2026.1909680",
-      "title": "A CNN-BiLSTM-GRU and attention-integrated hybrid network for epileptic seizure detection",
-      "content": "IntroductionEpilepsy is a common neurological disease, and accurate seizure detection is essential for clinical monitoring and scientific treatment. This study aims to construct an effective intelligent detection model to achieve precise automatic identification of epileptic EEG signals and assist clinical medical decisions.MethodsTo capture subtle local waveform variations and suppress redundant noise interference in EEG signals, this study adopts one-dimensional convolutional neural network (1D-CNN) layers for adaptive local feature extraction and a lightweight global temporal soft attention mechanism for critical feature enhancement. A hybrid classification model based on bidirectional long short-term memory (Bi-LSTM) and gated recurrent unit (GRU) is proposed for the binary classification of epileptic EEG signals. The synthetic minority oversampling technique (SMOTE) is applied only to the training data within each cross-validation fold to alleviate the class imbalance problem of EEG datasets.ResultsThe proposed hybrid model achieves a binary classification accuracy of 99.23%, while delivering an especially balanced sensitivity (99.29%) and specificity (99.34%), with a difference (\u2206 Sens\u2013Spec) of only 0.05%, verified on the public UCI epileptic seizure recognition data set.DiscussionThe CNN-Bi-LSTM-GRU and attention-integrated hybrid network can effectively distinguish seizure and non-seizure EEG signals. And a nearly equal sensitivity and specificity suggests robust and unbiased classification. Which is critical for clinical deployment. The proposed method achieves competitive performance compared with most recent mainstream algorithms, which can offer a potential automated detection reference to assist clinical analysis of epilepsy EEG signals.",
-      "author": "Tianhua Lin",
-      "published_date": "2026-08-10T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 230,
-      "reading_time": 1,
-      "created_at": "2026-08-10T06:53:12.768479+00:00",
-      "updated_at": "2026-08-10T07:20:40.038696+00:00",
-      "metadata": {
-        "processed_at": "2026-08-10T07:20:40.038697+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c1b1a9780a0e3f08375b7fa7c315e9c9",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2026.1890168",
-      "title": "Bidirectional structural-functional connectivity coupling reorganization in obstructive sleep apnea",
-      "content": "BackgroundObstructive sleep apnea (OSA) is associated with widespread cognitive and neural dysfunction; however, how chronic intermittent hypoxia and sleep fragmentation reshape the relationship between structural and functional brain connectivity remains unclear. Structural\u2013functional connectivity (SC-FC) coupling provides a multimodal framework for characterizing the correspondence between anatomical architecture and functional communication.MethodsFifty patients with moderate-to-severe OSA and fifty matched healthy controls (HCs) underwent overnight polysomnography and multimodal MRI scanning, including resting-state functional MRI and diffusion tensor imaging. Regional SC-FC coupling was calculated using SC and FC matrices derived from the Brainnetome Atlas. Group differences in regional SC-FC coupling were examined across 246 regions, and exploratory correlation analyses were performed with cognitive and clinical measures.ResultsCompared with HCs, patients with OSA showed significantly increased SC-FC coupling in frontal-insular, posterior default-mode, sensorimotor, and visual regions. In contrast, significantly decreased SC-FC coupling was observed in temporal-associative, limbic, and subcortical regions. Increased SC-FC coupling in the superior frontal gyrus, precuneus, and insula was associated with poorer psychomotor vigilance performance, including prolonged reaction times and increased lapse frequency. Reduced hippocampal and subcortical coupling was associated with nocturnal hypoxia burden, including increased percentage of sleep time spent below 90% oxygen saturation and lower minimum oxygen saturation. Inferior parietal lobule coupling showed a weaker association with apnea-hypopnea index severity.ConclusionOSA is associated with bidirectional regional SC-FC coupling reorganization, characterized by hypercoupling in attention-related systems and hypocoupling in limbic-subcortical regions. These exploratory findings suggest that distinct coupling patterns may relate to different clinical dimensions of OSA, including vigilance impairment and nocturnal hypoxic burden.",
-      "author": "Jie Chen",
-      "published_date": "2026-08-10T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 250,
-      "reading_time": 1,
-      "created_at": "2026-08-10T06:53:12.768430+00:00",
-      "updated_at": "2026-08-10T09:13:28.240012+00:00",
-      "metadata": {
-        "processed_at": "2026-08-10T09:13:28.240013+00:00",
         "processing_method": "github_actions"
       }
     }
