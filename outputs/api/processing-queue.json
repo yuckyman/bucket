@@ -1,24 +1,8 @@
 {
-  "last_updated": "2026-08-10T07:20:40.122851+00:00",
-  "pending_count": 703,
-  "processed_count": 297,
+  "last_updated": "2026-08-10T09:13:28.355127+00:00",
+  "pending_count": 698,
+  "processed_count": 302,
   "pending_articles": [
-    {
-      "id": "c1b1a9780a0e3f08375b7fa7c315e9c9",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2026.1890168",
-      "title": "Bidirectional structural-functional connectivity coupling reorganization in obstructive sleep apnea",
-      "content": "BackgroundObstructive sleep apnea (OSA) is associated with widespread cognitive and neural dysfunction; however, how chronic intermittent hypoxia and sleep fragmentation reshape the relationship between structural and functional brain connectivity remains unclear. Structural\u2013functional connectivity (SC-FC) coupling provides a multimodal framework for characterizing the correspondence between anatomical architecture and functional communication.MethodsFifty patients with moderate-to-severe OSA and fifty matched healthy controls (HCs) underwent overnight polysomnography and multimodal MRI scanning, including resting-state functional MRI and diffusion tensor imaging. Regional SC-FC coupling was calculated using SC and FC matrices derived from the Brainnetome Atlas. Group differences in regional SC-FC coupling were examined across 246 regions, and exploratory correlation analyses were performed with cognitive and clinical measures.ResultsCompared with HCs, patients with OSA showed significantly increased SC-FC coupling in frontal-insular, posterior default-mode, sensorimotor, and visual regions. In contrast, significantly decreased SC-FC coupling was observed in temporal-associative, limbic, and subcortical regions. Increased SC-FC coupling in the superior frontal gyrus, precuneus, and insula was associated with poorer psychomotor vigilance performance, including prolonged reaction times and increased lapse frequency. Reduced hippocampal and subcortical coupling was associated with nocturnal hypoxia burden, including increased percentage of sleep time spent below 90% oxygen saturation and lower minimum oxygen saturation. Inferior parietal lobule coupling showed a weaker association with apnea-hypopnea index severity.ConclusionOSA is associated with bidirectional regional SC-FC coupling reorganization, characterized by hypercoupling in attention-related systems and hypocoupling in limbic-subcortical regions. These exploratory findings suggest that distinct coupling patterns may relate to different clinical dimensions of OSA, including vigilance impairment and nocturnal hypoxic burden.",
-      "author": "Jie Chen",
-      "published_date": "2026-08-10T00:00:00+00:00",
-      "source": "Frontiers Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 250,
-      "reading_time": 1,
-      "created_at": "2026-08-10T06:53:12.768430+00:00",
-      "updated_at": "2026-08-10T06:53:12.768435+00:00"
-    },
     {
       "id": "01a0c9001a6aac267cb0072bda62db43",
       "url": "http://doi.org/10.1037/pmu0000303",
@@ -162,9 +146,105 @@
       "reading_time": 1,
       "created_at": "2026-08-10T05:28:40.117515+00:00",
       "updated_at": "2026-08-10T05:28:40.117517+00:00"
+    },
+    {
+      "id": "2a065d341450c0dc59d1dc9cac922739",
+      "url": "https://arxiv.org/abs/2608.06804",
+      "title": "Fact-Check Your Information (FYI): A Design Probe to Understand How People Actually Fact-Check Data-Driven Articles",
+      "content": "arXiv:2608.06804v1 Announce Type: new \nAbstract: Data-driven journalism and policy reports frequently rely on statements grounded in statistical evidence, referred to as data claims. Verifying such a claim requires connecting it to the underlying structured dataset. However, existing systems typically isolate automated fact-checking from manual data exploration, leaving it unclear how readers coordinate AI assistance with manual inspection of the evidence in practice. We present FYI, a browser extension that embeds fact-checking in the reading environment, and use it as a design probe to study how people detect, verify, and determine the validity of data claims against the underlying dataset. FYI provides four complementary tools spanning the spectrum from full automation to manual data exploration. In an exploratory study (N=22), participants used FYI to fact-check claims in a data-driven article. We find that participants adopted three distinct workflow archetypes---AI-first with manual confirmation, manual-first with AI supplement, and parallel co-review---with visualization serving as the primary mechanism for auditing AI conclusions. Trust in AI shifted dynamically, growing when multiple tools converged and eroding when AI outputs were inconsistent. These findings suggest that fact-checking systems should treat AI as a starting point that human verification complements rather than a definitive authority, elevate visualization as a core verification capability, and support flexible, user-driven workflows. We release FYI as open-source software for further research at https://github.com/DataVisards/FYI.",
+      "author": "Nguyen-Truong Thinh, Yuxuan Du, Phongsakon Mark Konrad, Arpit Narechania",
+      "published_date": "2026-08-10T04:00:00+00:00",
+      "source": "Arxiv Cs Hc",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 220,
+      "reading_time": 1,
+      "created_at": "2026-08-10T05:28:40.117484+00:00",
+      "updated_at": "2026-08-10T05:28:40.117485+00:00"
     }
   ],
   "recently_processed": [
+    {
+      "id": "13ff52d9b59ca70594f38be273b41c7b",
+      "url": "https://www.nature.com/articles/s41380-026-03820-z",
+      "title": "Neuroscience in cancer care: ethical, legal, and societal challenges",
+      "content": "",
+      "author": "",
+      "published_date": "2026-08-10T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-10T08:27:51.031969+00:00",
+      "updated_at": "2026-08-10T09:13:28.239984+00:00",
+      "metadata": {
+        "processed_at": "2026-08-10T09:13:28.239994+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "a98cb00fe0b13f2f4d2b8fdcd0f5d479",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae90ec",
+      "title": "Easy-to-use EMG system to decode hand movements in people with spinal cord injury",
+      "content": "Objective. Loss of hand function following spinal cord injury (SCI) severely impacts independence and quality of life. Restoring volitional hand control in individuals with SCI remains a critical challenge, addressed using different approaches, including physiotherapy, occupational therapy, and assistive technologies such as neuroprostheses and robotic systems. This study aimed to develop and evaluate an easy-to-setup and user-friendly electromyography (EMG) system for decoding attempted hand and finger movements in individuals with SCI. Approach. We implemented an EMG decoding system for hand opening/closing (2 classes) and single-finger flexion (3 classes) attempts, using a fast-donning 32-channel dry EMG sleeve integrated with a seamless deep learning-based decoding pipeline. Eight people with different classifications of SCI tested the system over two sessions while receiving real-time feedback through a virtual hand interface. Main results. The system achieved high online accuracy for hand open\u2013close discrimination across all subjects (mean 92.5%), and an accuracy that was consistently above chance for single-finger flexion classification (mean 74.2%), with a greater error observed for more nuanced movements in participants with higher motor impairment. Performance plateaued quickly over time, indicating that user learning did not play a relevant role within the limited number of sessions performed. Significance. These findings demonstrate that our system allows good online decoding of different hand and finger movements in people with SCI. The approach supports pathways toward intuitive, digit-level control of neuroprostheses and robotic devices, with strong potential for clinical translation due to its quick setup and ease of use.",
+      "author": "Matteo Ceradini, Elena Losanno, Firman Isma Serdana, Vincent Mendez, Solaiman Shokur, Gabriele Righi, Giulio Del Popolo and Silvestro Micera",
+      "published_date": "2026-08-09T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 243,
+      "reading_time": 1,
+      "created_at": "2026-08-10T08:27:37.980695+00:00",
+      "updated_at": "2026-08-10T09:13:28.239998+00:00",
+      "metadata": {
+        "processed_at": "2026-08-10T09:13:28.239999+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "ed3a09be4aebe30e894d1bbbf0d6501c",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae8d5b",
+      "title": "The role of neuromorphic principles in the future of biomedicine and healthcare",
+      "content": "Objective. Determine if neuromorphic engineering, which has matured over the past four decades and is currently experiencing explosive growth, has the potential to transform biomedical engineering and neurotechnologies. Approach. Participants at the Neuromorphic Principles in Biomedicine and Healthcare Workshop (October 2024)\u2014representing a broad cross-section of the community, including early-career and established scholars, engineers, scientists, clinicians, industry, and funders\u2014convened to discuss the state of the field, current and future challenges, and strategies for advancing neuromorphic research and development for biomedical applications. Main results. Participants identified significant challenges that the neuromorphic biomedical field face, most notably in the areas of neuromodulation, clinical biomarkers and datasets, biointerfaces, infrastructure, benchmark and standards, and commercialization. The need for transdisciplinary communication and education between engineers, neuroscientists, material scientists, and clinicians emerged as a central gap. Publicly approved recordings with transcripts (https://2024.neuro-med.org/program/session-video-and-transcripts) and slides (https://2024.neuro-med.org/program/session-slides) can be found at the workshop website. Significance. This workshop has highlighted research areas of interest and identified existing federally funded programs that can be leveraged to propel the field further.",
+      "author": "Grace M Hwang, Jessica D Falcone, Joseph D Monaco, Courtney R Pinard, Jessica A Mollick, Roger L Miller, Stephanie L Gage, Andrey V Kanaev, Margaret Kim, R Ale Lukaszew, Steven M Zehnder and David Rampulla",
+      "published_date": "2026-08-09T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 169,
+      "reading_time": 1,
+      "created_at": "2026-08-10T08:27:37.980643+00:00",
+      "updated_at": "2026-08-10T09:13:28.240002+00:00",
+      "metadata": {
+        "processed_at": "2026-08-10T09:13:28.240003+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "f7be8d631460168a1bb37aefdd68ab3f",
+      "url": "https://www.dsprelated.com/showarticle/40.php",
+      "title": "An Interesting Fourier Transform \u2013 1/F Noise",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49205082\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-07T01:56:10+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-10T08:27:16.729612+00:00",
+      "updated_at": "2026-08-10T09:13:28.240008+00:00",
+      "metadata": {
+        "processed_at": "2026-08-10T09:13:28.240009+00:00",
+        "processing_method": "github_actions"
+      }
+    },
     {
       "id": "e4f1cf1e491a809badb2dc72a682f712",
       "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1809341",
@@ -266,102 +346,22 @@
       }
     },
     {
-      "id": "1e5c33a4a98595cb86e734450b467906",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.04.742893v1?rss=1",
-      "title": "Epilepsy and premature mortality driven by inhibitory neuron dysfunction in a mouse model of SCN1A gain-of-function neurodevelopmental disorder",
-      "content": "The gene most commonly implicated in epilepsy, SCN1A, encodes the neuronal voltage-gated sodium channel  subunit NaV1.1. SCN1A variants that reduce sodium current (''loss of function'' variants) cause Dravet syndrome, a neurodevelopmental disorder defined by treatment-resistant temperature sensitive epilepsy with onset at/around 5 months of age, developmental delay/intellectual disability, and features of or formal diagnosis autism. However, an emerging group of variants cause ''gain of function'' (GoF) effects on NaV1.1 and result in a distinct presentation with earlier onset than Dravet syndrome and prominent movement disorder but without temperature sensitivity. We developed the first mouse model of SCN1A GoF epilepsy with heterozygous Cre-dependent expression of the recurrent patient variant Scn1a-p.R1636Q. Global expression of this variant causes premature mortality in 100% (64/64) of mutant mice between postnatal day 12-18 due to spontaneous, convulsive seizures. Activation of the mutant allele in parvalbumin interneurons (Dlx5/6-Cre or PV-Cre), but not excitatory neurons (Slc17a7-Cre) or other interneuron subtypes (VIP-Cre or Sst-Cre), recapitulates the premature mortality and epilepsy phenotypes. Treatment of Scn1a-p.R1636Q mutant mice with the sodium channel blocker GS967 markedly prolongs lifespan. This work is the first study of SCN1A GoF epilepsy in a preclinical model in vivo. Further investigation in the Scn1aflox(R1636Q) mouse will yield new mechanistic insights into disease mechanisms to drive advances in the treatment of SCN1A GoF epilepsy.",
-      "author": "Hill, S. F., Rosenthal, Z. P., Goldberg, E. M.",
-      "published_date": "2026-08-09T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 216,
-      "reading_time": 1,
-      "created_at": "2026-08-10T03:57:11.036018+00:00",
-      "updated_at": "2026-08-10T05:20:59.100587+00:00",
-      "metadata": {
-        "processed_at": "2026-08-10T05:20:59.100598+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "b6533a34b16ba9599113fb7536beba2f",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.04.742541v1?rss=1",
-      "title": "PEDF/PEDF-R Signaling Regulates Retinal Phospholipid Homeostasis and Photoreceptor Survival",
-      "content": "Pigment epithelium-derived factor (PEDF) promotes photoreceptor survival through its receptor PEDF-R, a phospholipase involved in retinal lipid metabolism. To define the in vivo function of the PEDF/PEDF-R axis, we generated mice lacking Serpinf1 (PEDF) and Pnpla2 (PEDF-R). Combined loss of Serpinf1 and Pnpla2 resulted in severe retinal degeneration characterized by outer nuclear layer (ONL) thinning, outer segment (OS) shortening, reduced rhodopsin and cone opsin expression, increased TUNEL-positive nuclei, and enhanced retinal autofluorescence associated with altered lipid distribution. Lipid-associated markers, including TIP47, PLIN5, and BODIPY, exhibited abnormal distribution patterns in mutant retinas, indicating disrupted lipid storage and trafficking. Loss of PEDF/PEDF-R signaling also impaired photoreceptor-rod bipolar cell connectivity, as demonstrated by reduced PKC/synaptophysin colocalization, and resulted in diminished electroretinographic responses. Lipid Imaging mass spectrometry revealed decreases in some lipid abundances in photoreceptor outer segment and inner segment/outer nucleus layer, while lipids containing arachidonic acid and docosahexaenoic acid-containing lipids showed increased abundance. Together these findings identify the PEDF/PEDF-R signaling axis as a key regulator of retinal phospholipid homeostasis that couples lipid metabolism to photoreceptor survival and visual function.",
-      "author": "Bernardo Colon,, A., Crawford, S. E., Agbaga, M. P., Wang, Z., Schey, K. L., Becerra, S. P.",
-      "published_date": "2026-08-09T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 176,
-      "reading_time": 1,
-      "created_at": "2026-08-10T03:57:11.035968+00:00",
-      "updated_at": "2026-08-10T05:20:59.100602+00:00",
-      "metadata": {
-        "processed_at": "2026-08-10T05:20:59.100604+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "0a86e28109c5eb53ada1db9e986faf0c",
-      "url": "https://www.nature.com/articles/s44400-026-00131-6",
-      "title": "Ensuring access to Tau-Targeting therapies for MAPT frontotemporal dementia: patient community priorities for regulators and industry",
-      "content": "",
-      "author": "",
+      "id": "c1b1a9780a0e3f08375b7fa7c315e9c9",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnins.2026.1890168",
+      "title": "Bidirectional structural-functional connectivity coupling reorganization in obstructive sleep apnea",
+      "content": "BackgroundObstructive sleep apnea (OSA) is associated with widespread cognitive and neural dysfunction; however, how chronic intermittent hypoxia and sleep fragmentation reshape the relationship between structural and functional brain connectivity remains unclear. Structural\u2013functional connectivity (SC-FC) coupling provides a multimodal framework for characterizing the correspondence between anatomical architecture and functional communication.MethodsFifty patients with moderate-to-severe OSA and fifty matched healthy controls (HCs) underwent overnight polysomnography and multimodal MRI scanning, including resting-state functional MRI and diffusion tensor imaging. Regional SC-FC coupling was calculated using SC and FC matrices derived from the Brainnetome Atlas. Group differences in regional SC-FC coupling were examined across 246 regions, and exploratory correlation analyses were performed with cognitive and clinical measures.ResultsCompared with HCs, patients with OSA showed significantly increased SC-FC coupling in frontal-insular, posterior default-mode, sensorimotor, and visual regions. In contrast, significantly decreased SC-FC coupling was observed in temporal-associative, limbic, and subcortical regions. Increased SC-FC coupling in the superior frontal gyrus, precuneus, and insula was associated with poorer psychomotor vigilance performance, including prolonged reaction times and increased lapse frequency. Reduced hippocampal and subcortical coupling was associated with nocturnal hypoxia burden, including increased percentage of sleep time spent below 90% oxygen saturation and lower minimum oxygen saturation. Inferior parietal lobule coupling showed a weaker association with apnea-hypopnea index severity.ConclusionOSA is associated with bidirectional regional SC-FC coupling reorganization, characterized by hypercoupling in attention-related systems and hypocoupling in limbic-subcortical regions. These exploratory findings suggest that distinct coupling patterns may relate to different clinical dimensions of OSA, including vigilance impairment and nocturnal hypoxic burden.",
+      "author": "Jie Chen",
       "published_date": "2026-08-10T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
+      "source": "Frontiers Neuroscience",
       "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 0,
+      "word_count": 250,
       "reading_time": 1,
-      "created_at": "2026-08-10T03:57:09.620281+00:00",
-      "updated_at": "2026-08-10T05:20:59.100607+00:00",
+      "created_at": "2026-08-10T06:53:12.768430+00:00",
+      "updated_at": "2026-08-10T09:13:28.240012+00:00",
       "metadata": {
-        "processed_at": "2026-08-10T05:20:59.100609+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ca78138e899a2b3fbc9f2d24a9ccb214",
-      "url": "https://foldingglobes.com/",
-      "title": "Turn satellite imagery into a paper globe you fold yourself",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49238735\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-10T02:57:38+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-10T03:56:33.593322+00:00",
-      "updated_at": "2026-08-10T05:20:59.100611+00:00",
-      "metadata": {
-        "processed_at": "2026-08-10T05:20:59.100613+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "ca78138e899a2b3fbc9f2d24a9ccb214",
-      "url": "https://foldingglobes.com/",
-      "title": "Turn satellite imagery into a paper globe you fold yourself",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49238735\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-10T02:57:38+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-10T03:56:33.593322+00:00",
-      "updated_at": "2026-08-10T05:20:59.100611+00:00",
-      "metadata": {
-        "processed_at": "2026-08-10T05:20:59.100613+00:00",
+        "processed_at": "2026-08-10T09:13:28.240013+00:00",
         "processing_method": "github_actions"
       }
     }
