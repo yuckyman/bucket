@@ -1,5 +1,37 @@
 [
   {
+    "id": "4940f61a5e917f39b9687653878d79db",
+    "url": "https://rapha.land/closing-canario-terminal-source-code/",
+    "title": "Closing Canario Terminal source code",
+    "content": "<p>Article URL: <a href=\"https://rapha.land/closing-canario-terminal-source-code/\">https://rapha.land/closing-canario-terminal-source-code/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49254881\">https://news.ycombinator.com/item?id=49254881</a></p>\n<p>Points: 10</p>\n<p># Comments: 6</p>",
+    "author": "atan2",
+    "published_date": "2026-08-11T08:16:19+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-08-11T11:43:38.644355+00:00",
+    "updated_at": "2026-08-11T11:43:38.644357+00:00"
+  },
+  {
+    "id": "2f21eaef476547f3b1f93a7c890fe2ab",
+    "url": "https://en.wikipedia.org/wiki/Panic_of_1873",
+    "title": "Panic of 1873",
+    "content": "<p>Article URL: <a href=\"https://en.wikipedia.org/wiki/Panic_of_1873\">https://en.wikipedia.org/wiki/Panic_of_1873</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49255918\">https://news.ycombinator.com/item?id=49255918</a></p>\n<p>Points: 12</p>\n<p># Comments: 3</p>",
+    "author": "GranularRecipe",
+    "published_date": "2026-08-11T10:26:49+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-08-11T11:43:38.644324+00:00",
+    "updated_at": "2026-08-11T11:43:38.644333+00:00"
+  },
+  {
     "id": "e2390a7e80147ad0e85f52f446d3d1e6",
     "url": "https://www.nature.com/articles/s41531-026-01526-1",
     "title": "Integrative blood transcriptomics identifies U1-snRNP gene repression and miRNA\u2013mRNA regulatory hubs in pre-clinical Parkinson\u2019s disease",
@@ -17178,37 +17210,5 @@
     "reading_time": 1,
     "created_at": "2026-08-06T06:31:58.044991+00:00",
     "updated_at": "2026-08-06T06:31:58.044992+00:00"
-  },
-  {
-    "id": "9664171ed642252269302b1f43d97a76",
-    "url": "https://arxiv.org/abs/2608.04475",
-    "title": "Super-Gaussian: Interactive Scene Editing for 3D Gaussian Splatting and NLI-Based Volume Visualization in Virtual Reality",
-    "content": "arXiv:2608.04475v1 Announce Type: new \nAbstract: Despite the promise of virtual reality (VR) for intuitive spatial interaction, volume visualization (VolVis) in VR remains constrained by high rendering costs and motion discomfort. Recent advances have shown that representing volumetric scenes with 3D Gaussian splatting enables high-performance rendering, making this representation well-suited for VR. However, existing Gaussian-based scene editing workflows remain limited by slow offline segmentation and fatigue-inducing manual selection. To address these challenges, we present Super-Gaussian, a novel VolVis framework that enhances scene editing and interaction in VR through intuitive 3D Gaussian selection and natural language interaction (NLI). Our approach groups Gaussian primitives into higher-level units via feature-aware clustering, enabling efficient selection of complex volumetric regions, such as tumors in medical images or filaments in cosmological data, without point-by-point interaction. Building on this, we introduce a hierarchical select-and-refine workflow that combines random-walk-based region propagation, cluster selection, and point refinement, allowing users to progressively specify regions of interest with reduced effort. We further support on-the-fly text labeling of selected regions using NLI, allowing users to semantically query, interpret, and manipulate content within a visualization-perception-action loop. By integrating multimodal interaction, including speech, visual feedback, and spatial manipulation in VR, our framework supports intuitive exploration, editing, and scientific analysis of volumetric data. We demonstrate the effectiveness of Super-Gaussian through four case studies, quantitative selection benchmarks against existing Gaussian-based techniques, and system-level evaluations. Implementation details and experiments can be found on the project page: https://smin0136.github.io/super-gaussian-project/",
-    "author": "Suemin Jeon, Kaiyuan Tang, Chaoli Wang, Won-Ki Jeong",
-    "published_date": "2026-08-06T04:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 239,
-    "reading_time": 1,
-    "created_at": "2026-08-06T06:31:58.044971+00:00",
-    "updated_at": "2026-08-06T06:31:58.044972+00:00"
-  },
-  {
-    "id": "487c4eca16cced976abb7819211fa101",
-    "url": "https://arxiv.org/abs/2608.04435",
-    "title": "Revisiting Channel Effectiveness: A Multi-Dimensional Evaluation with Primitive Visual Stimuli",
-    "content": "arXiv:2608.04435v1 Announce Type: new \nAbstract: Established channel effectiveness rankings primarily assess magnitude estimation accuracy in complete chart contexts, often neglecting other perceptual tasks such as discriminability, separability, and pop-out. To address this gap, we conducted crowdsourced experiments on seven core visual channels (position, length, tilt, area, curvature, luminance, and saturation) using primitive visual stimuli, a set of visual marks without chart-specific scaffolding to isolate channel-level variation. We evaluated these channels across four perceptual tasks (accuracy, discriminability, separability, and pop-out) and found that channel effectiveness is fundamentally multi-dimensional, with rankings shifting substantially across tasks. For instance, while spatial channels maintain an overall advantage, accuracy depends strongly on whether a fixed spatial anchor is available. Discriminability varies dramatically across channels and value ranges, a pattern we formalized with a novel Anchored Harmonic Weber model. Pairwise channel interactions are often strongly asymmetric. Finally, we identify a dissociation between estimation accuracy and preattentive detection: length shows only moderate detection effectiveness despite top-tier accuracy, while area achieves the highest detection rates despite poor quantitative accuracy, though the latter advantage may partly reflect stimulus-level cues. We synthesize these findings into a scenario-driven perspective for context-sensitive channel selection.",
-    "author": "Soohyun Lee, Seokhyeon Park, Minsuk Chang, Jinwook Seo",
-    "published_date": "2026-08-06T04:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 191,
-    "reading_time": 1,
-    "created_at": "2026-08-06T06:31:58.044946+00:00",
-    "updated_at": "2026-08-06T06:31:58.044947+00:00"
   }
 ]
