@@ -1,5 +1,21 @@
 [
   {
+    "id": "699f9f02e30e1976b84192a53e68252b",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1810223",
+    "title": "Explainable 3D vision transformer framework for detecting brain anomalies in neuropsychiatric subtypes of Parkinson's disease",
+    "content": "IntroductionNeuropsychiatric manifestations, such as impulse control disorders (ICD) and apathy, are common in Parkinson's disease (PD) and significantly impact patient quality of life, yet their underlying neuroanatomical substrates remain poorly understood. This study presents an explainable artificial intelligence (XAI) framework to investigate these phenotypes using structural MRI.MethodsWe employed a 3D Vision Transformer (MobileViT-3D) trained on T1-weighted images from 364 drug-naive PD patients, stratified into four subgroups: idiopathic PD (PD), PD with apathy (PD + A), PD with ICD (PD + ICD), and PD with both conditions (PD + A + ICD). To interpret the model's decision making, Guided Backpropagation and Integrated Gradients were applied to generate saliency maps, followed by a multi-level statistical analysis. Based on these patterns, volumes of interest (VOI) were defined. Conventional morphometric (e.g., cortical thickness) and radiomic texture features were obtained from each VOI applied to each subject.ResultsVoxel-wise analysis of saliency maps suggested group-level differences after correction for multiple comparisons (p \u2264 0.05 FWE) in prefrontal, temporal, and cerebellar regions of the neuropsychiatric conditions compared to PD. While no significant group differences were observed for morphometric features, radiomic texture analysis identified eight features associated with differences between the PD + A + ICD group and idiopathic PD. These features included texture metrics indicative of increased heterogeneity and complexity.DiscussionOverall, these findings provide preliminary evidence that a combined XAI and radiomic approach may help identify subtle, texture-based neuroanatomical signatures associated with the co-occurrence of apathy and ICD in early PD that are not readily captured by conventional univariate analyzes. This framework may support the generation of clinically relevant hypotheses regarding the neural correlates of heterogeneous neuropsychiatric symptoms in PD.",
+    "author": "Francis R. Loayza",
+    "published_date": "2026-07-15T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 271,
+    "reading_time": 1,
+    "created_at": "2026-08-12T21:45:53.612488+00:00",
+    "updated_at": "2026-08-12T21:45:53.612489+00:00"
+  },
+  {
     "id": "57275035cbd8e31b92e82ba4e6aa8063",
     "url": "https://www.embs.org/uncategorized/welcoming-the-newly-elected-embs-adcom-members-for-2026-2028/",
     "title": "Welcoming the Newly Elected EMBS AdCom Members for 2026\u20132028",
@@ -17080,26 +17096,6 @@
     "updated_at": "2026-08-08T12:36:17.341862+00:00",
     "metadata": {
       "processed_at": "2026-08-08T12:36:17.341864+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "46a6c4bf9375fc4c9e9d2654a37f83d1",
-    "url": "https://www.reddit.com/r/Python/comments/1vit693/will_no_ai_generated_code_was_used_be_misleading/",
-    "title": "Will \"no ai generated code was used\" be misleading in my situation",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone so I am doing chess program I have frontend in python and some backend and I will use cpp for talking to stockfish, so I currently doing chess movement quite a mess and I want your opinion on if I will ask ai for checking logic bugs I will ask it only what to fix no code will be copy pasted.</p> <p>And even if I will not use ai for this does no ai generated code was used will be misleading if I already searched on google and the ai review gave me I am not sure what, but I think I asked something small, I did not copy paste it of course, but does my project already ai slop?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ChairNew353\"> /u/ChairNew353 </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1vit693/will_no_ai_generated_code_was_used_be_misleading/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vit693/will_no_ai_generated_code_was_used_be_misleading/\">[comments]</a></span>",
-    "author": "/u/ChairNew353",
-    "published_date": "2026-08-08T11:07:04+00:00",
-    "source": "Reddit Python",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 143,
-    "reading_time": 1,
-    "created_at": "2026-08-08T11:57:15.890521+00:00",
-    "updated_at": "2026-08-08T12:36:17.341867+00:00",
-    "metadata": {
-      "processed_at": "2026-08-08T12:36:17.341869+00:00",
       "processing_method": "github_actions"
     }
   }

@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-08-12T20:46:05.736037+00:00",
+  "last_updated": "2026-08-12T21:46:29.355851+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "699f9f02e30e1976b84192a53e68252b",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1810223",
+      "title": "Explainable 3D vision transformer framework for detecting brain anomalies in neuropsychiatric subtypes of Parkinson's disease",
+      "content": "IntroductionNeuropsychiatric manifestations, such as impulse control disorders (ICD) and apathy, are common in Parkinson's disease (PD) and significantly impact patient quality of life, yet their underlying neuroanatomical substrates remain poorly understood. This study presents an explainable artificial intelligence (XAI) framework to investigate these phenotypes using structural MRI.MethodsWe employed a 3D Vision Transformer (MobileViT-3D) trained on T1-weighted images from 364 drug-naive PD patients, stratified into four subgroups: idiopathic PD (PD), PD with apathy (PD + A), PD with ICD (PD + ICD), and PD with both conditions (PD + A + ICD). To interpret the model's decision making, Guided Backpropagation and Integrated Gradients were applied to generate saliency maps, followed by a multi-level statistical analysis. Based on these patterns, volumes of interest (VOI) were defined. Conventional morphometric (e.g., cortical thickness) and radiomic texture features were obtained from each VOI applied to each subject.ResultsVoxel-wise analysis of saliency maps suggested group-level differences after correction for multiple comparisons (p \u2264 0.05 FWE) in prefrontal, temporal, and cerebellar regions of the neuropsychiatric conditions compared to PD. While no significant group differences were observed for morphometric features, radiomic texture analysis identified eight features associated with differences between the PD + A + ICD group and idiopathic PD. These features included texture metrics indicative of increased heterogeneity and complexity.DiscussionOverall, these findings provide preliminary evidence that a combined XAI and radiomic approach may help identify subtle, texture-based neuroanatomical signatures associated with the co-occurrence of apathy and ICD in early PD that are not readily captured by conventional univariate analyzes. This framework may support the generation of clinically relevant hypotheses regarding the neural correlates of heterogeneous neuropsychiatric symptoms in PD.",
+      "author": "Francis R. Loayza",
+      "published_date": "2026-07-15T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 271,
+      "reading_time": 1,
+      "created_at": "2026-08-12T21:45:53.612488+00:00",
+      "updated_at": "2026-08-12T21:45:53.612489+00:00"
+    },
     {
       "id": "57275035cbd8e31b92e82ba4e6aa8063",
       "url": "https://www.embs.org/uncategorized/welcoming-the-newly-elected-embs-adcom-members-for-2026-2028/",
@@ -311,26 +327,6 @@
       "updated_at": "2026-08-12T20:37:55.436730+00:00",
       "metadata": {
         "processed_at": "2026-08-12T20:37:55.436732+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "181ee2452e5c096483bff037211bbbb2",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.06.742589v1?rss=1",
-      "title": "Combination spinal cord stimulation at different frequencies produces sustained pain relief with immune activation",
-      "content": "Spinal cord stimulation (SCS) is an established therapy for neuropathic pain, typically delivered at either low (60 Hz) or high (1 kHz) frequencies, with analgesic effects largely dependent on active stimulation. Here, we investigated whether combined-frequency SCS produces sustained analgesia beyond stimulation periods and explored the underlying mechanisms. Using a spared nerve injury (SNI) model in both rats and mice, we applied dual-frequency SCS (60 Hz + 1 kHz). This paradigm produced robust reversal of mechanical allodynia during stimulation and, notably, a progressive and long-lasting analgesic effect that persisted for days to weeks after stimulation cessation. RNA sequencing revealed pronounced immune-related transcriptional changes in the spinal cord, including upregulation of innate immune, pro-resolution, and neutrophil-associated pathways. Functional studies demonstrated that neutrophil depletion attenuated SCS-induced analgesia, whereas intrathecal S100A8 treatment mimicked therapeutic effects via CD69/SOCS3 signaling. These findings identify dual-frequency SCS as a promising strategy to prolong analgesia and highlight a critical role for neuroimmune modulation in sustained pain relief.",
-      "author": "Huh, Y., Song, S., Chen, T., Zhang, T., Hershey, B., Esteller, R., Ji, R.-R.",
-      "published_date": "2026-08-12T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 159,
-      "reading_time": 1,
-      "created_at": "2026-08-12T19:41:46.327670+00:00",
-      "updated_at": "2026-08-12T20:37:55.436734+00:00",
-      "metadata": {
-        "processed_at": "2026-08-12T20:37:55.436735+00:00",
         "processing_method": "github_actions"
       }
     }
