@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-08-13T20:44:17.960322+00:00",
+  "last_updated": "2026-08-13T21:46:23.919753+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "906f73f5c36ba087882a0ad17e01fc20",
+      "url": "https://erpinfo.org/blog/2024/6/11/erplab-studio",
+      "title": "New software package: ERPLAB Studio",
+      "content": "<p class=\"\">We are excited to announce the release of a new EEG/ERP analysis package, <a href=\"https://github.com/ucdavis/erplab/releases\">ERPLAB Studio</a>. We think it\u2019s a huge improvement over the classic EEGLAB user interface. See our cheesy <a href=\"https://www.youtube.com/watch?v=lIaKVQ9DD6E\">\u201cadvertisement\u201d video</a> to get a quick overview. </p><p class=\"\">Rather than operating as an EEGLAB plugin, ERPLAB Studio is a standalone Matlab program that provides a more efficient and user-friendly interface to the most commonly used EEGLAB and ERPLAB routines.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/c874d4ec-5186-4de9-981b-58010c7a06e1/Interface.jpeg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">With ERPLAB Studio, you automatically see the EEG or ERP waveforms as soon as you load a file. And as soon as you perform an operation, you see what the new EEG/ERP looks like. For example, when you filter the data, you immediately see the filtered waveforms.</p><p class=\"\">You can even select multiple datasets and apply an operation like artifact detection on all of them in one step. And then you can immediately see the results, such as which EEG epochs have been marked with artifacts.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/b45f514d-2d21-4a5a-8be6-f3a8ff99c388/Artifacts.jpeg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">We give you access to EEGLAB\u2019s ICA-based artifact correction tools, but with a nice bonus. You can plot the ICA activations in the same window with the EEG data, making it easy to see which ICA components correspond to specific artifacts such as eyeblinks.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/8bc191da-9040-4042-ae9c-550cd98def7d/ICA.jpeg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">The program has an EEG tab for processing continuous and epoched EEG data, and an ERP tab for processing averaged ERPs.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/84bdd9df-b02e-4fc5-83b9-1139a91938f5/Tabs.jpg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">The automatic ERP plotting makes it easy for you to view the data laid out according to the electrode locations. And we have an Advanced Waveform Viewer that can make publication-quality plots.</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1080\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/a932631f-fc30-415f-b11d-660d2bf90da5/ERP.jpeg?format=1000w\" width=\"1920\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">ERPLAB Studio is mainly just a new user interface. Under the hood, we\u2019re running the same EEGLAB and ERPLAB routines you\u2019ve always used. And scripting is identical.</p><p class=\"\">ERPLAB Studio is included in <a href=\"https://github.com/ucdavis/erplab/releases\">version 11 and higher of ERPLAB</a>. You simply follow our <a href=\"https://github.com/ucdavis/erplab/wiki/installation\">download/installation instructions</a> and then type estudio from the Matlab command line. </p><p class=\"\">If you\u2019re new to ERPLAB, we strongly recommend that you go through our <a href=\"https://github.com/ucdavis/erplab/wiki/ERPLAB-Studio-Tutorial\" target=\"_blank\">tutorial</a> before starting to process your own data. </p><p class=\"\">If you already know how to use the original version of ERPLAB (which we now call ERPLAB Classic), you can quickly learn how to use ERPLAB Studio with our <a href=\"https://ucdavis.box.com/s/i4jfv22gv6rj9t5obctuk6yaruxqomcc\">Transition Guide</a>.</p><p class=\"\">We also have a <a href=\"https://github.com/ucdavis/erplab/wiki/ERPLAB-Studio-Manual\">manual</a> that describes every feature in detail. </p>",
+      "author": "Steve Luck",
+      "published_date": "2024-06-12T02:02:16+00:00",
+      "source": "Erp Boot Camp",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 444,
+      "reading_time": 2,
+      "created_at": "2026-08-13T21:46:16.267757+00:00",
+      "updated_at": "2026-08-13T21:46:16.267759+00:00"
+    },
+    {
+      "id": "6d6a61704d99efec2b6f499865593e22",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.07.743522v1?rss=1",
+      "title": "Temporal and Age-Dependent Regulation of Phagocytosis-Related Signatures After Ischemic Stroke: Cross-Species Transcriptomic Evidence",
+      "content": "Background: Efferocytosis, the phagocytic clearance of apoptotic and damaged cells, promotes inflammation resolution and tissue repair following ischemic stroke. This study investigated temporal changes in efferocytosis and phagocytosis-related transcriptional programs during acute experimental stroke, examined the effects of aging on these responses, and assessed whether similar immune signatures are present in human ischemic stroke. Methods: Publicly available transcriptomic datasets from murine transient middle cerebral artery occlusion (tMCAO; GSE104036 and GSE112348), permanent middle cerebral artery occlusion (pMCAO; GSE137482), and human peripheral blood after ischemic stroke (GSE16561) were analyzed using OmicSoft/Ingenuity-style pathway analysis. Functional validation included in vivo assessment of efferocytosis after tMCAO and in vitro phagocytosis assays using bone marrow-derived macrophages from young and aged mice. Results: Both acute tMCAO models exhibited robust inflammatory activation together with sustained activation of phagocyte-related pathways during the first 24 hours after stroke. Human peripheral blood demonstrated similar inflammatory and phagocytic signatures, supporting translational relevance. Increased efferocytosis at 24 hours after tMCAO was associated with neuroprotection. Although both young and aged mice activated phagocytosis-related pathways after pMCAO, aged mice showed reduced phagosome formation. Consistent with these findings, macrophages from aged mice exhibited enhanced inflammatory responses and impaired uptake of apoptotic cells. Conclusions: A conserved post-stroke immune response characterized by inflammatory activation and phagocyte-mediated clearance was identified across murine and human datasets. Efficient efferocytosis was associated with neuroprotection, whereas aging impaired apoptotic cell clearance and promoted a pro-inflammatory macrophage phenotype, highlighting efferocytosis as a potential therapeutic target for ischemic stroke.",
+      "author": "Shahror, R. A., Morris, C. A., Sadek, M. A., Shosha, E., Fouda, A. Y.",
+      "published_date": "2026-08-13T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 244,
+      "reading_time": 1,
+      "created_at": "2026-08-13T21:45:54.878389+00:00",
+      "updated_at": "2026-08-13T21:45:54.878391+00:00"
+    },
+    {
+      "id": "68d0da37e267ddf1bf35460b211e35cf",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743478v1?rss=1",
+      "title": "A primary human muscle cell-based assay for detecting myasthenia gravis autoantibody binding and assessing AChR cluster impairment",
+      "content": "Myasthenia gravis (MG) is an autoimmune disease caused by pathogenic autoantibodies against proteins at the neuromuscular junction (NMJ). The diagnosis and clinical management of MG patients largely relies on the detection of antigen-specific autoantibodies targeting acetylcholine receptor (AChR) or muscle-specific kinase (MuSK). Yet a subset of patients remains seronegative for known MG autoantibodies, highlighting a critical need for alternative approaches to identify pathogenic NMJ antibodies. We established a new human in vitro model of the NMJ based on primary human muscle cells that recapitulates key features of the NMJ: differentiation to myotubes, expression of key NMJ proteins and formation of postsynaptic AChR clusters in response to agrin stimulation. The model allows new insights into myogenesis and genetic muscle diseases, and the new muscle cell-based assay (CBA) detected autoantibodies in sera from patients with AChR- and MuSK-positive MG with 96.43% sensitivity and 100% specificity, while healthy control sera showed no reactivity. Incubation with patient sera significantly reduced AChR clustering compared to controls, demonstrating functional pathogenic effects. Thus, we established a physiologically relevant human NMJ model that enables detection and functional characterization of neuromuscular autoantibodies. This novel approach addresses a key limitation of current antigen-specific diagnostics and provides a method for improved detection and characterization of MG antibodies, independent of antigen specificity.",
+      "author": "Wolfsgruber, M., Zimmermann, A.-S., Starnberger, K., Duckova, T., Keritam, O., Woehrleitner, A., Weng, R., Doksani, P., Rocha, M., Matus, N., Tripkovic, K., Pervez, M., Fernandes-Rosenegger, P., Faber, F., Elmas, C., Fichtner, M., Maestri Tassoni, M., Cetin, H., Hoeftberger, R., Zimprich, F., Herbst, R., Albrecht, C., Hoffmann, S., Weigl, L., Winter, L., Koneczny, I.",
+      "published_date": "2026-08-13T00:00:00+00:00",
+      "source": "Biorxiv Neuroscience",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 210,
+      "reading_time": 1,
+      "created_at": "2026-08-13T21:45:54.878337+00:00",
+      "updated_at": "2026-08-13T21:45:54.878342+00:00"
+    },
+    {
+      "id": "bbd07f0f76eb40055cba30dfdcaa4bf2",
+      "url": "https://gruhn.me/blog/2026-08-13/",
+      "title": "NP-Overrated",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49291268\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-13T20:14:17+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-13T21:45:17.882304+00:00",
+      "updated_at": "2026-08-13T21:45:17.882305+00:00"
+    },
+    {
+      "id": "bbd07f0f76eb40055cba30dfdcaa4bf2",
+      "url": "https://gruhn.me/blog/2026-08-13/",
+      "title": "NP-Overrated",
+      "content": "<p>Article URL: <a href=\"https://gruhn.me/blog/2026-08-13/\">https://gruhn.me/blog/2026-08-13/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49291268\">https://news.ycombinator.com/item?id=49291268</a></p>\n<p>Points: 54</p>\n<p># Comments: 19</p>",
+      "author": "theanonymousone",
+      "published_date": "2026-08-13T20:14:17+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-13T21:45:16.561171+00:00",
+      "updated_at": "2026-08-13T21:45:16.561181+00:00"
+    },
     {
       "id": "79d603b3db5911be59b9e07e11acc674",
       "url": "https://erpinfo.org/blog/2024/6/28/recording-and-slides-now-available-for-erplab-studio-webinar",
@@ -241,106 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-08-13T20:43:03.948744+00:00",
       "updated_at": "2026-08-13T20:43:03.948752+00:00"
-    },
-    {
-      "id": "cae92c289feb4286d17fe400d648cb10",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0006899326003604?dgcid=rss_sd_all",
-      "title": "Osmotic stimulation disrupts interleukin-1 \u03b2 expression and upregulates CD206 and aquaporine-4 in the adult mouse neurohypophysis",
-      "content": "<p>Publication date: 1 November 2026</p><p><b>Source:</b> Brain Research, Volume 1890</p><p>Author(s): Ikram Abdellaoui, Sabrina Souttou, Fella Tounsi, Roza Benabdesselam, Latifa Dorbani-Mamine</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Brain Research",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 19,
-      "reading_time": 1,
-      "created_at": "2026-08-13T19:36:24.243269+00:00",
-      "updated_at": "2026-08-13T20:36:35.674216+00:00",
-      "metadata": {
-        "processed_at": "2026-08-13T20:36:35.674232+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "f40904cb683300b19219b5dba2bfcfc5",
-      "url": "https://www.sciencedirect.com/science/article/pii/S030645222600504X?dgcid=rss_sd_all",
-      "title": "Synergistic EEG signal processing for brain\u2013computer interfaces using hybrid MothCray optimization and deep learning",
-      "content": "<p>Publication date: 15 October 2026</p><p><b>Source:</b> Neuroscience, Volume 614</p><p>Author(s): Annu Kumari, Damodar Reddy Edla, Dharavath Ramesh, Vaishali R. Shirodkar</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroscience Journal",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 18,
-      "reading_time": 1,
-      "created_at": "2026-08-13T19:36:23.123026+00:00",
-      "updated_at": "2026-08-13T20:36:35.674236+00:00",
-      "metadata": {
-        "processed_at": "2026-08-13T20:36:35.674238+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "78707d245003fa2f283606d6646273df",
-      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-      "title": "Accelerating GPT-5.6 Sol Ultrafast",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49289844\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-13T18:10:02+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-13T19:35:38.374008+00:00",
-      "updated_at": "2026-08-13T20:36:35.674241+00:00",
-      "metadata": {
-        "processed_at": "2026-08-13T20:36:35.674242+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "78707d245003fa2f283606d6646273df",
-      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
-      "title": "Accelerating GPT-5.6 Sol Ultrafast",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49289844\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-13T18:10:02+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-13T19:35:38.374008+00:00",
-      "updated_at": "2026-08-13T20:36:35.674241+00:00",
-      "metadata": {
-        "processed_at": "2026-08-13T20:36:35.674242+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "b1e86158fd1c049e2739be169e47af34",
-      "url": "https://tschatzl.github.io/2026/08/10/jdk27-g1-serial-parallel-gc-changes.html",
-      "title": "JDK 27 G1/Parallel/Serial GC Changes",
-      "content": "<p>Article URL: <a href=\"https://tschatzl.github.io/2026/08/10/jdk27-g1-serial-parallel-gc-changes.html\">https://tschatzl.github.io/2026/08/10/jdk27-g1-serial-parallel-gc-changes.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49289101\">https://news.ycombinator.com/item?id=49289101</a></p>\n<p>Points: 20</p>\n<p># Comments: 7</p>",
-      "author": "0x54MUR41",
-      "published_date": "2026-08-13T17:22:39+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-08-13T19:35:37.199215+00:00",
-      "updated_at": "2026-08-13T20:36:35.674244+00:00",
-      "metadata": {
-        "processed_at": "2026-08-13T20:36:35.674246+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
