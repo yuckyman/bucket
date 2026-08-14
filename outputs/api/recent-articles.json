@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-08-14T23:23:38.853273+00:00",
+  "last_updated": "2026-08-14T23:49:43.292207+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "6c408797b5f3406055b873fa62748387",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926004738?dgcid=rss_sd_all",
+      "title": "Associations between maternal adiposity during pregnancy and neonatal brain cortical development",
+      "content": "<p>Publication date: 1 October 2026</p><p><b>Source:</b> NeuroImage, Volume 339</p><p>Author(s): Xiaoxu Na, Brooke L Yancey-Ward, Yan Xue, Charles M. Glasier, Yongming Liu, Xiawei Ou</p>",
+      "author": "",
+      "published_date": null,
+      "source": "Neuroimage",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 22,
+      "reading_time": 1,
+      "created_at": "2026-08-14T23:49:14.405784+00:00",
+      "updated_at": "2026-08-14T23:49:14.405785+00:00"
+    },
+    {
+      "id": "a2b6bb1f43e168060cf9632a1036c56d",
+      "url": "https://www.nature.com/articles/s41540-026-00812-1",
+      "title": "Multistable attractor dynamics as a systems level hypothesis for treatment refractoriness in rheumatic disease",
+      "content": "",
+      "author": "",
+      "published_date": "2026-08-15T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-14T23:49:11.699678+00:00",
+      "updated_at": "2026-08-14T23:49:11.699684+00:00"
+    },
     {
       "id": "a47fc5d28f23335c71cd07819b5c21fe",
       "url": "https://www.biorxiv.org/content/10.64898/2026.08.09.743722v1?rss=1",
@@ -309,38 +341,6 @@
         "processed_at": "2026-08-14T22:17:22.572540+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "bdde09034e8a60a173e1eb73ed80cf46",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.08.743683v1?rss=1",
-      "title": "Weight initialization shapes task organization in recurrent neural networks",
-      "content": "Flexibly recombining computational modules is essential for biological and artificial neural networks to rapidly adapt to changing environments. This requires modules to be shared across tasks rather than rigidly segregated, yet what determines this organization remains unknown. Previous work suggests that weight initialization shapes whether networks learn task-specific or generic representations, but it is unclear whether this extends to recurrent networks and, more importantly, to network connectivity. Here, we systematically vary the initial weight variance of recurrent neural networks and study them using a framework that allows us to identify the functionally relevant connectivity subspaces for each computational module. We find that networks with low initial weight variance converge to solutions in which different subtasks rely on largely overlapping weight subspaces, whereas high-variance networks implement subtasks in higher-dimensional, more segregated weight subspaces. Our results also provide mechanistic insights with implications for interpreting biological neural circuits and for designing efficient recurrent architectures.",
-      "author": "Krause, R., Mante, V.",
-      "published_date": "2026-08-14T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 151,
-      "reading_time": 1,
-      "created_at": "2026-08-14T21:26:11.873316+00:00",
-      "updated_at": "2026-08-14T21:26:11.873317+00:00"
-    },
-    {
-      "id": "5fd411ee6b7a989d1ce673ede340c1b1",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.09.743688v1?rss=1",
-      "title": "Corticospinal Tractometry and Whole-Brain Connectometry of Hand Dexterity in Chronic Stroke and Traumatic Brain Injury",
-      "content": "Hand dexterity impairment is a major contributor to long-term disability after acquired brain injury, yet the white matter substrates supporting residual dexterity remain incompletely understood. We investigated diffusion MRI markers of hand dexterity in individuals with chronic stroke (n = 9) and traumatic brain injury (TBI; n = 8) using complementary tract-specific and whole-brain approaches. Partial least squares regression (PLSR) was used to evaluate the cross-validated predictive relevance of bilateral corticospinal tract (CST) diffusion and tractometry features, while quantitative anisotropy (QA)-based correlational tractography was used to identify distributed white matter pathways associated with dexterity performance measured using Box and Block Test (BBT) and MusicGlove Dexterity Test(MGDT). In stroke, CST features predicted BBT performance (Q2 = 0.69, r = 0.85, permutation p = .010) and, more modestly, MGDT performance (Q2= 0.22, r = 0.72, permutation p = .008). In contrast, CST-based models showed no predictive relevance for dexterity outcomes in TBI. Whole-brain connectometry revealed that better dexterity after stroke was associated with greater QA across distributed pathways extending beyond the CST, including commissural, association, and projection fibers. Box and Block Test performance was prominently associated with callosal and cingulum-related pathways, whereas MusicGlove performance showed greater representation of CST and projection pathways. In TBI, significant connectometry findings for the BBT similarly implicated distributed commissural and association pathways, whereas no significant pathways were identified for the MusicGlove test. Together, these findings suggest that the structural correlates of hand dexterity extend beyond the CST and vary across dexterity measures and injury populations. Although preliminary given the small cohorts, the complementary tractometry and connectometry findings support a network-level characterization of residual hand function after acquired brain injury and motivate validation in larger cohorts.",
-      "author": "Shenoy Handiru, V., Suviseshamuthu, E. S., Boukrina, O., Wylie, G., Yue, G. H.",
-      "published_date": "2026-08-14T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 278,
-      "reading_time": 1,
-      "created_at": "2026-08-14T21:26:11.873295+00:00",
-      "updated_at": "2026-08-14T21:26:11.873296+00:00"
     }
   ]
 }
