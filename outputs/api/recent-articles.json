@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-08-15T05:26:18.884131+00:00",
+  "last_updated": "2026-08-15T05:52:40.170113+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d534dcd507d7b7716076af4a96ec00fc",
+      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1901746",
+      "title": "Subject-independent gait activity recognition using DSAF: dual-stream IMU-EMG attention fusion with asymmetric temporal encoding and physiological complementarity weighting",
+      "content": "IntroductionAccurate gait recognition using wearable sensors is of significant clinical value for adaptive prosthetic control, lower-limb exoskeleton assistance, and objective rehabilitation assessment. However, subject-independent recognition remains a major challenge, as unseen individuals can exhibit highly variable limb kinematics and muscle activation patterns, and existing approaches often rely on a single sensor modality or naive fusion strategies that fail to leverage the complementary information between inertial and electromyographic signals.MethodsTo address these gaps, this study proposes DSAF, a dual-stream attention fusion network that separately encodes kinematic (IMU) and neuromuscular (EMG) information, and adaptively integrates them through a physiological complementarity weighting mechanism designed for window-level modality adaptation. The framework is evaluated on the public HuGaDB dataset for eight common locomotion activities (e.g., walking, running, stair negotiation, and sit-to-stand transitions), using a leave-one-subject-out protocol to rigorously assess generalization to new users.ResultsDSAF achieves 96.41% accuracy, 96.08% macro-precision, 95.62% macro-recall, and 95.81% macro-F1, consistently outperforming recent sequence-learning baselines across all 18 held-out subjects. Ablation studies further confirm that both the modality-specific encoding and the adaptive fusion mechanism contribute positively to the performance.DiscussionThese findings indicate that adaptive IMU-EMG fusion can effectively strengthen wearable gait recognition, providing a promising solution for real-world rehabilitation monitoring and assistive human-machine interfaces.",
+      "author": "Shurui Li",
+      "published_date": "2026-07-22T00:00:00+00:00",
+      "source": "Frontiers Neurorobotics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 200,
+      "reading_time": 1,
+      "created_at": "2026-08-15T05:51:59.721416+00:00",
+      "updated_at": "2026-08-15T05:51:59.721418+00:00"
+    },
+    {
+      "id": "f5725bc10f8c07a60cc4b0c204af4aaf",
+      "url": "https://www.wired.com/story/this-coin-sized-device-can-hack-a-boeing-737/",
+      "title": "Coin-Sized Device Can Hack a Boeing 737",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49282951\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-13T07:57:40+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-15T05:51:36.335732+00:00",
+      "updated_at": "2026-08-15T05:51:36.335733+00:00"
+    },
     {
       "id": "3b70e2388d69145d518f7e13cefec839",
       "url": "https://www.nature.com/articles/s41598-026-66979-z",
@@ -329,38 +361,6 @@
       "reading_time": 1,
       "created_at": "2026-08-15T02:33:33.914429+00:00",
       "updated_at": "2026-08-15T02:33:33.914430+00:00"
-    },
-    {
-      "id": "3f827fb224df1c0dbc977bf36dfe90c5",
-      "url": "https://spectrum.ieee.org/magnetophon-laugh-track",
-      "title": "Hi-Fi Tape Recorder Changed Radio Forever",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49263186\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-11T19:23:33+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-15T02:33:33.914402+00:00",
-      "updated_at": "2026-08-15T02:33:33.914403+00:00"
-    },
-    {
-      "id": "82b0a0965800b627652e1fb97e6c51d9",
-      "url": "https://blog.ploopy.co/the-aplus-is-finally-here-499",
-      "title": "The Ploopy A+ Trackball Is Here",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49306443\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-15T00:55:31+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-15T02:33:33.914358+00:00",
-      "updated_at": "2026-08-15T02:33:33.914359+00:00"
     }
   ]
 }

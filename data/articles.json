@@ -1,5 +1,37 @@
 [
   {
+    "id": "d534dcd507d7b7716076af4a96ec00fc",
+    "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1901746",
+    "title": "Subject-independent gait activity recognition using DSAF: dual-stream IMU-EMG attention fusion with asymmetric temporal encoding and physiological complementarity weighting",
+    "content": "IntroductionAccurate gait recognition using wearable sensors is of significant clinical value for adaptive prosthetic control, lower-limb exoskeleton assistance, and objective rehabilitation assessment. However, subject-independent recognition remains a major challenge, as unseen individuals can exhibit highly variable limb kinematics and muscle activation patterns, and existing approaches often rely on a single sensor modality or naive fusion strategies that fail to leverage the complementary information between inertial and electromyographic signals.MethodsTo address these gaps, this study proposes DSAF, a dual-stream attention fusion network that separately encodes kinematic (IMU) and neuromuscular (EMG) information, and adaptively integrates them through a physiological complementarity weighting mechanism designed for window-level modality adaptation. The framework is evaluated on the public HuGaDB dataset for eight common locomotion activities (e.g., walking, running, stair negotiation, and sit-to-stand transitions), using a leave-one-subject-out protocol to rigorously assess generalization to new users.ResultsDSAF achieves 96.41% accuracy, 96.08% macro-precision, 95.62% macro-recall, and 95.81% macro-F1, consistently outperforming recent sequence-learning baselines across all 18 held-out subjects. Ablation studies further confirm that both the modality-specific encoding and the adaptive fusion mechanism contribute positively to the performance.DiscussionThese findings indicate that adaptive IMU-EMG fusion can effectively strengthen wearable gait recognition, providing a promising solution for real-world rehabilitation monitoring and assistive human-machine interfaces.",
+    "author": "Shurui Li",
+    "published_date": "2026-07-22T00:00:00+00:00",
+    "source": "Frontiers Neurorobotics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 200,
+    "reading_time": 1,
+    "created_at": "2026-08-15T05:51:59.721416+00:00",
+    "updated_at": "2026-08-15T05:51:59.721418+00:00"
+  },
+  {
+    "id": "f5725bc10f8c07a60cc4b0c204af4aaf",
+    "url": "https://www.wired.com/story/this-coin-sized-device-can-hack-a-boeing-737/",
+    "title": "Coin-Sized Device Can Hack a Boeing 737",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=49282951\">Comments</a>",
+    "author": "",
+    "published_date": "2026-08-13T07:57:40+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-08-15T05:51:36.335732+00:00",
+    "updated_at": "2026-08-15T05:51:36.335733+00:00"
+  },
+  {
     "id": "3b70e2388d69145d518f7e13cefec839",
     "url": "https://www.nature.com/articles/s41598-026-66979-z",
     "title": "Associations between early regulatory problems and long-term neurobiological and psychosocial outcomes",
@@ -16978,37 +17010,5 @@
     "reading_time": 1,
     "created_at": "2026-08-11T04:21:03.287761+00:00",
     "updated_at": "2026-08-11T04:21:03.287763+00:00"
-  },
-  {
-    "id": "f9b34b52b64b0b3eaa71263c323904c6",
-    "url": "https://arxiv.org/abs/2608.08206",
-    "title": "Sensorimotor features of a reversal learning task bias decision behavior without disrupting individual difference structure",
-    "content": "arXiv:2608.08206v1 Announce Type: new \nAbstract: In computational psychiatry, task-irrelevant factors such as a task's perceptual and motor features are typically assumed not to bias decision behavior, but at most to add noise. Yet growing evidence links sensorimotor processing to decision-making through multiple pathways, challenging this assumption. We tested this directly using a two-choice probabilistic reversal learning task completed by 90 participants under two sensorimotor conditions: a stationary condition requiring only arm movements to respond, and an active condition requiring participants to walk between physically separated computers. Task performance, measured as the propensity to choose the more probable rewarding option, did not differ between conditions. However, stay rate (the tendency to repeat the previous choice) was significantly elevated in the stationary condition, but only among participants who completed the active condition first; those who completed the stationary condition first showed no such difference. Logistic regression weights capturing the influence of recent win history on choice showed the same pattern, with stationary-condition elevation restricted to the active-first group. Cross-condition correlations for both measures were strong, indicating that this order-dependent effect shifted absolute measurements without disrupting individual difference structure. Prior sensorimotor history therefore does not compromise the task's ability to extract stable cognitive variables, but does bias the values it yields - a non-random source of variance that, if it generalizes beyond this experiment, could shift patients across diagnostic thresholds in proposed clinical applications. The finding adds to a growing list of potential methodological contaminants in computational psychiatry's cognitive-task paradigms that must be characterized and mitigated before clinical translation.",
-    "author": "Elliot Huang, William Xu, Robert C. Wilson",
-    "published_date": "2026-08-11T04:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 256,
-    "reading_time": 1,
-    "created_at": "2026-08-11T04:21:03.287729+00:00",
-    "updated_at": "2026-08-11T04:21:03.287733+00:00"
-  },
-  {
-    "id": "3ea6e6ad09ce1fe310662844f64abf12",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.08.04.742876v1?rss=1",
-    "title": "A Context-Conditional Audit of Trial-Pairing-Dependent Neural Gain in Motor-Cortex Decoding",
-    "content": "Objective. Neural-only decoding performance does not identify how much prediction neural history adds beyond task structure or recent output. We tested how this increment changes when context and temporal information boundaries are made explicit. Approach. We defined context-conditional neural gain as held-out error reduction from adding context-residualized neural history to a context model. Fully nested, whole-trial cross-fitting excluded predicted trials from nuisance preprocessing, fitting, and selection. Trial replacement tested reliance on correct neural-behavioral pairing. Matched-seed calibration and linear and nonlinear sensitivities accompanied two Neural Latents Benchmark datasets, nine paired LINK dates (18 development sessions), and 20 prespecified untouched LINK sessions from the same macaque. Main results. In LINK, fixed neural-only R2 near 0.31 coexisted with gains of 0.3012/0.3125 beyond phase, 0.0193/0.0209 beyond geometry by phase, and 0.0077/0.0098 beyond that context plus measured-output history for center-out/random-target tasks. Fully nested analysis retained positive means for two neural feature definitions; replacement made all four negative. Geometry-conditional spiking-band-power gain reduced context-model mean squared error by 4.92%. In the untouched sample, geometry-conditional gain was positive in 20/20 sessions (mean 0.02158), contracted to 0.00755 with measured-output history, and exceeded replacement in 20/20. MC_Maze showed gain 0.00051 beyond a strong template, whereas MC_RTT retained 0.06846 beyond lag-matched cursor history. Three prespecified nonlinear-neural random-feature maps preserved this contrast while changing magnitudes. Significance. Under the tested specifications, neural gain depended on context, information availability, and model family, and the residual correction depended on correct trial pairing. Neural-decoding reports should therefore state the outcome, context, temporal boundary, model class, grouped validation, and pairing control. The audit is predictive and model-relative, not causal.",
-    "author": "Du, Z., Lai, Z. Y., Hu, L., Ye, T.",
-    "published_date": "2026-08-10T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 262,
-    "reading_time": 1,
-    "created_at": "2026-08-11T04:20:53.989205+00:00",
-    "updated_at": "2026-08-11T04:20:53.989211+00:00"
   }
 ]
