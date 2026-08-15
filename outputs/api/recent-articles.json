@@ -1,7 +1,87 @@
 {
-  "last_updated": "2026-08-15T17:22:18.320167+00:00",
+  "last_updated": "2026-08-15T17:47:37.048594+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "64071d741e6117354427cc012ea7f9d2",
+      "url": "https://www.nature.com/articles/s41467-026-76775-y",
+      "title": "Myeloid cell replacement induces intercellular mitochondrial transfer and restores metabolism in a mouse model of mitochondrial disease",
+      "content": "",
+      "author": "",
+      "published_date": "2026-08-15T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-15T17:47:05.206491+00:00",
+      "updated_at": "2026-08-15T17:47:05.206492+00:00"
+    },
+    {
+      "id": "8560b7376a03c14cfbc2b637a4276dcb",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae9346",
+      "title": "TractEdit: an open-source interactive tool for virtual dissection and manual refinement of diffusion MRI tractography",
+      "content": "Objective. Accurate reconstruction of white matter pathways is essential for connectomics and pre-surgical planning. However, tractography algorithms inherently generate false positives, necessitating manual refinement (\u2018virtual dissection\u2019) to isolate specific bundles and define ground-truth datasets. Existing tools are often hindered by format incompatibility, closed-source architectures, or a functional disconnect between 3D streamline visualization and precise slice-based anatomical editing. We sought to address these limitations by developing a lightweight, open-source tool optimized for the interactive cleaning and validation of tractography data. Approach. We introduced TractEdit, a Python-based desktop application built upon the visualization toolkit and FURY visualization frameworks. TractEdit implements a hybrid protocol combining 3D streamline selection with voxel-level region of interest (ROI) definitions, including FreeSurfer parcellation-based ROI filtering and direct drawing tools (pencil, eraser, geometric shapes) on orthogonal anatomical slices. The application natively supports standard (.trk, .tck), next-generation (.trx), and alternative (.vtk, .vtp) file formats, utilizing efficient memory mapping for large datasets and ensuring seamless cross-format conversion. Main results. TractEdit enables real-time Boolean logic filtering (inclusion/exclusion) and intuitive point-and-click manual bundle segmentation. The software automates the calculation of comprehensive bundle analytics, including centroids, medoids, and track density imaging maps, alongside an \u2018Orientation Distribution Functions Tunnel View\u2019 that projects in 3D Spherical Harmonic coefficients exclusively along selected streamlines to verify fiber alignment with the underlying diffusion signal. Finally, a dedicated export module enables the serialization of validated bundles into interactive HTML5 files for browser-based visualization. Significance. By bridging the gap between automated reconstruction and manual validation, TractEdit facilitates the rigorous quality control of diffusion MRI tractographic data. Its support for the TRX standard and integration of microstructural visualization makes it a versatile resource for neuroimaging researchers aiming to refine connectivity analyses or generate high-quality training data for machine learning models.",
+      "author": "Marco Tagliaferri and Luigi Cattaneo",
+      "published_date": "2026-08-10T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 288,
+      "reading_time": 1,
+      "created_at": "2026-08-15T17:46:51.613616+00:00",
+      "updated_at": "2026-08-15T17:46:51.613617+00:00"
+    },
+    {
+      "id": "af070ff896deae4c9ba66e64e7bd1594",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae57da",
+      "title": "Stability and sensitivity analysis of effort-dependent CCFES for simulated hemiplegic hand assistance after stroke: computational model",
+      "content": "Objective. contralaterally-controlled functional electrical stimulation (CCFES) is an emerging intervention that has evidence for improving therapy for post-stroke hand hemiplegia more than cyclic stimulation (e.g. hand dexterity). Its key feature is that the amount of paretic hand opening assistance is controlled by the degree of non-paretic hand opening, which enables it to assist hand opening during task practice. However, current CCFES techniques do not prevent participants from reducing volitional effort, which is referred to as \u2018slacking\u2019 and does not benefit motor relearning. As purely a computational study, the current work presents a novel effort-dependent CCFES controller that assists as-needed when detecting volitional hand opening, and provides evidence for stability, sensitivity, along with target tracking performance. Approach. In this study, simulations were used to investigate the effort-dependent controller\u2019s stability and sensitivity to system variability using the first-ever computational model of a CCFES trajectory tracking task. System variability was represented by a range of model parameters, including volitional and stimulated hand opening speed, EMG occlusion, stimulation response (M-Wave) phase shifts, and M-Wave filters: Gram\u2013Schmidt, comb, and blanking. System performance was quantified by tracking error and effort estimation accuracy (signal-to-noise ratio, and linear regression r-squared). Main Results. Results showed that effort-dependent CCFES was highly stable across varying hand opening parameters, EMG-related conditions, and filtering quality\u2014with % changes in stability margins being less than 2.2%. It was also discovered that Gram\u2013Schmidt filter provided significantly better target tracking performance than comb filter and blanking, but it was also significantly more sensitive across parameter variations. Case scenarios were also simulated to demonstrate the stability and performance of effort-dependent CCFES during a tracking task. Significance. The demonstrated stability across a wide range of physiologically and clinically relevant conditions suggests that this approach can provide reliable, adaptive assistance during task practice without compromising safety or movement consistency. These findings support the further investigation of effort-dependent CCFES in human experiments.",
+      "author": "M Akif Gormez, Nathaniel S Makowski, Patrick E Crago and Michael J Fu",
+      "published_date": "2026-08-10T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 311,
+      "reading_time": 1,
+      "created_at": "2026-08-15T17:46:51.613557+00:00",
+      "updated_at": "2026-08-15T17:46:51.613558+00:00"
+    },
+    {
+      "id": "d82328f3aaa5daa8c0a92a63e7adafe1",
+      "url": "https://www.core77.com/posts/144869",
+      "title": "The Dutch Community Where People Live on Strips of Land in a Lake",
+      "content": "<p>Article URL: <a href=\"https://www.core77.com/posts/144869\">https://www.core77.com/posts/144869</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49312165\">https://news.ycombinator.com/item?id=49312165</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
+      "author": "Bowes-Lyon",
+      "published_date": "2026-08-15T16:53:47+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-15T17:46:26.425899+00:00",
+      "updated_at": "2026-08-15T17:46:26.425900+00:00"
+    },
+    {
+      "id": "209e90c310ea074e1e877d6dd6e6aef7",
+      "url": "https://www.treasurydirect.gov/savings-bonds/idme-one-month/",
+      "title": "TreasuryDirect: Prepare for ID.me \u2013 Your New Way to Log In",
+      "content": "<p>Article URL: <a href=\"https://www.treasurydirect.gov/savings-bonds/idme-one-month/\">https://www.treasurydirect.gov/savings-bonds/idme-one-month/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49312465\">https://news.ycombinator.com/item?id=49312465</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "author": "Mindless2112",
+      "published_date": "2026-08-15T17:30:02+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-15T17:46:26.425878+00:00",
+      "updated_at": "2026-08-15T17:46:26.425886+00:00"
+    },
     {
       "id": "55157dbca8d502d3b520be5352eb4914",
       "url": "https://studios.disneyresearch.com/2026/07/16/2d-gaussian-splatting-for-bezier-spline-line-art-vectorization/",
@@ -243,106 +323,6 @@
       "updated_at": "2026-08-15T16:17:59.033316+00:00",
       "metadata": {
         "processed_at": "2026-08-15T16:17:59.033329+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1313c5990ee97231f4982628617a294c",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926004799?dgcid=rss_sd_all",
-      "title": "Dynamic brain state alterations during reading in children with dyslexia: A hidden semi-Markov model analysis",
-      "content": "<p>Publication date: 1 October 2026</p><p><b>Source:</b> NeuroImage, Volume 339</p><p>Author(s): Mohammadreza Balooch Hasankhani, Hamid Sharini, Tania Dehesh</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 15,
-      "reading_time": 1,
-      "created_at": "2026-08-15T15:47:06.656864+00:00",
-      "updated_at": "2026-08-15T16:17:59.033334+00:00",
-      "metadata": {
-        "processed_at": "2026-08-15T16:17:59.033336+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "8ef53942c77d3392cf84340ed5b42ace",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1053811926004830?dgcid=rss_sd_all",
-      "title": "Brain-wide spontaneous neural avalanches: Definition, functional dynamics and cognitive relevance",
-      "content": "<p>Publication date: 1 October 2026</p><p><b>Source:</b> NeuroImage, Volume 339</p><p>Author(s): Jiaqi Kong, Yu Jia, Zhengdong Wang, Yifeixue Yang, Ziyi Huang, Hengcheng Zhu, Dazhi Yin</p>",
-      "author": "",
-      "published_date": null,
-      "source": "Neuroimage",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 22,
-      "reading_time": 1,
-      "created_at": "2026-08-15T15:47:06.656828+00:00",
-      "updated_at": "2026-08-15T16:17:59.033338+00:00",
-      "metadata": {
-        "processed_at": "2026-08-15T16:17:59.033340+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "051b00eb368bb3d8d8ce021fb514a810",
-      "url": "https://fmhy.net/posts/changelog-sites",
-      "title": "Changelog Sites",
-      "content": "<p><strong><a href=\"https://fmhy-tracker.pages.dev/\" rel=\"noreferrer\" target=\"_blank\">https://fmhy-tracker.pages.dev/</a></strong></p>\n<p>This covers links that have been added, updated, or removed by watching GitHub for changes</p>\n<p><strong><a href=\"https://d.fmhy.bid/rss.xml\" rel=\"noreferrer\" target=\"_blank\">https://d.fmhy.bid/rss.xml</a></strong></p>\n<p>FMHY RSS Feed</p>\n<hr />\n<p>Note that we also make monthly posts on both reddit + our site with the bigger changes, and you can also follow them yourself by joining our <a href=\"https://redd.it/17f8msf\" rel=\"noreferrer\" target=\"_blank\">Discord</a>, or watching the <a href=\"https://github.com/fmhy/edit/commits/main/\" rel=\"noreferrer\" target=\"_blank\">Commits Page</a> on GitHub.</p>",
-      "author": "",
-      "published_date": "2025-12-12T00:00:00+00:00",
-      "source": "Fmhy",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 69,
-      "reading_time": 1,
-      "created_at": "2026-08-15T15:46:31.234247+00:00",
-      "updated_at": "2026-08-15T16:17:59.033342+00:00",
-      "metadata": {
-        "processed_at": "2026-08-15T16:17:59.033343+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "eb4dce5f84f170011dd576f1aec64ba7",
-      "url": "https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/",
-      "title": "The First At-Home Test for Infected Ticks Could Improve Lyme Disease Diagnosis",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49310682\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-15T14:04:49+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-15T15:46:28.653597+00:00",
-      "updated_at": "2026-08-15T16:17:59.033345+00:00",
-      "metadata": {
-        "processed_at": "2026-08-15T16:17:59.033347+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "eb4dce5f84f170011dd576f1aec64ba7",
-      "url": "https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/",
-      "title": "The First At-Home Test for Infected Ticks Could Improve Lyme Disease Diagnosis",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49310682\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-15T14:04:49+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-15T15:46:28.653597+00:00",
-      "updated_at": "2026-08-15T16:17:59.033345+00:00",
-      "metadata": {
-        "processed_at": "2026-08-15T16:17:59.033347+00:00",
         "processing_method": "github_actions"
       }
     }
