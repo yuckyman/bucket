@@ -1,5 +1,37 @@
 [
   {
+    "id": "07529b68d65a86678c4556392b7d8611",
+    "url": "https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/",
+    "title": "Anthropic IPO valuation hinges on $190-200B 2028 revenue forecast",
+    "content": "<p>Article URL: <a href=\"https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/\">https://www.reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49323620\">https://news.ycombinator.com/item?id=49323620</a></p>\n<p>Points: 8</p>\n<p># Comments: 2</p>",
+    "author": "root-parent",
+    "published_date": "2026-08-16T21:00:25+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-08-16T21:45:25.212120+00:00",
+    "updated_at": "2026-08-16T21:45:25.212122+00:00"
+  },
+  {
+    "id": "e885f682146a5c727f610d1a9379376d",
+    "url": "https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/",
+    "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+    "content": "<p>Article URL: <a href=\"https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/\">https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49323686\">https://news.ycombinator.com/item?id=49323686</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+    "author": "root-parent",
+    "published_date": "2026-08-16T21:07:10+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-08-16T21:45:25.212087+00:00",
+    "updated_at": "2026-08-16T21:45:25.212096+00:00"
+  },
+  {
     "id": "57aea0d2f6ab5819fedf719487dc40e5",
     "url": "https://wiki.lowtechlab.org/wiki/Filtre_%C3%A0_eau_c%C3%A9ramique/en",
     "title": "Low-Tech Ceramic Water Filter",
@@ -17190,37 +17222,5 @@
     "reading_time": 1,
     "created_at": "2026-08-12T04:13:30.998198+00:00",
     "updated_at": "2026-08-12T04:13:30.998199+00:00"
-  },
-  {
-    "id": "bc0f9a1070d35d1690c9acde2a58282b",
-    "url": "https://arxiv.org/abs/2608.09946",
-    "title": "HoosierHelp: Benchmarking LLM Agents for Social Service Navigation",
-    "content": "arXiv:2608.09946v1 Announce Type: new \nAbstract: Social service navigation requires connecting help-seeking individuals to resources that satisfy their needs and specific constraints. Although LLM agents offer a promising interface for conversational resource navigation, existing benchmarks do not capture the interaction complexity and constraint-grounding demands of this setting. We introduce HoosierHelp, an interactive benchmark grounded in 3,971 Indiana public social service resources. Agents interact with simulated users, issue structured resource-search calls, handle non-ideal interactions, and select the final resources returned by the tool. HoosierHelp enhances the realism of simulated users by varying their need structure, constraint satisfiability, and behavior patterns, including impatience, rambling, unsupported requests, and self-contradiction. Experiments on 240 samples across seven LLMs show that current LLM agents remain substantially unreliable for social service navigation. Performance drops sharply on fallback-required and self-contradictory conversations, highlighting the need for agents that are more robust to complex and non-ideal user interactions.",
-    "author": "Yiyang Li, Weixiang Sun, Tianyi Ma, Kaiwen Shi, Zheyuan Zhang, Yanfang Ye",
-    "published_date": "2026-08-12T04:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 147,
-    "reading_time": 1,
-    "created_at": "2026-08-12T04:13:30.998168+00:00",
-    "updated_at": "2026-08-12T04:13:30.998170+00:00"
-  },
-  {
-    "id": "3373ef291a6a146872f2cbb1f592cdda",
-    "url": "https://arxiv.org/abs/2608.09945",
-    "title": "Co-Lecturing With the DED: Explaining Circuit Design via the Draw Encode Display Loop",
-    "content": "arXiv:2608.09945v1 Announce Type: new \nAbstract: When representing digital circuits, 2 dimensional hand drawings free us from the linear structure of hardware description languages, enabling intuitive reasoning and making structure explicit. However these drawings are imprecise and inert: they do not enforce that the circuits are well defined and cannot be tested. We want both intuitive visual representations and well defined testable ones but students can struggle to link one to the other.\n  To bridge this gap we present the Draw Encode Display Loop (DED), a Co-Lecturing dynamic which equips students with a systematic method to tackle natural language specifications:\n  1. Draw: visually informative intermediate representations (truth tables, characteristic tables) to generate a structured circuit diagram.\n  2. Encode: the diagram by labelling inputs, outputs and intermediate values which can be directly converted to code.\n  3. Display: the code using an in-house diagrammatic renderer.\n  This is supported by Syrup, an education-focused hardware description language which allows students to define, experiment with and display their own circuits. We support these approaches with survey data gathered from two cohorts of students.",
-    "author": "Alasdair Lambert, Guillaume Allais, Conor Mc Bride",
-    "published_date": "2026-08-12T04:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 177,
-    "reading_time": 1,
-    "created_at": "2026-08-12T04:13:30.998138+00:00",
-    "updated_at": "2026-08-12T04:13:30.998140+00:00"
   }
 ]
