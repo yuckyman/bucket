@@ -1,5 +1,37 @@
 [
   {
+    "id": "933b4fd4d687607512f815b4874ebd91",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0006899326003690?dgcid=rss_sd_all",
+    "title": "Perineuronal nets preferentially surround parvalbumin interneurons in the prelimbic cortex: A rat and mouse comparison",
+    "content": "<p>Publication date: 1 November 2026</p><p><b>Source:</b> Brain Research, Volume 1890</p><p>Author(s): Ana E. Jenike, Travis E. Brown, Soren Impey, Barbara A. Sorg, Sue A. Aicher</p>",
+    "author": "",
+    "published_date": null,
+    "source": "Brain Research",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 23,
+    "reading_time": 1,
+    "created_at": "2026-08-16T10:24:21.471470+00:00",
+    "updated_at": "2026-08-16T10:24:21.471472+00:00"
+  },
+  {
+    "id": "db686349b0cf9540206b6aedbc62d401",
+    "url": "https://www.nature.com/articles/s41586-026-10857-1",
+    "title": "Superconducting monolayer cuprate with a single CuO2 plane",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=49277153\">Comments</a>",
+    "author": "",
+    "published_date": "2026-08-12T19:07:06+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-08-16T10:23:36.105026+00:00",
+    "updated_at": "2026-08-16T10:23:36.105027+00:00"
+  },
+  {
     "id": "2f1bcb0743dbd751f57cf942750e9fba",
     "url": "https://ovidem.com/impulsetracker/",
     "title": "Impulse Tracker",
@@ -17126,37 +17158,5 @@
     "reading_time": 1,
     "created_at": "2026-08-11T20:43:59.812772+00:00",
     "updated_at": "2026-08-11T20:43:59.812774+00:00"
-  },
-  {
-    "id": "4cfb7226115905e87a19dd9ac52fcd2f",
-    "url": "http://doi.org/10.1037/neu0001081",
-    "title": "Eye-gaze strategies reveal cognitive variability in a real-world executive function task.",
-    "content": "Objective: This study investigates individual differences in executive functioning during a real-world multitasking test, the hotel task, using eye-tracking data to identify distinct attentional strategies. Method: Sixty-four young adults (<em>M</em><sub>age</sub> = 22.1, <em>SD</em> = 2.38) completed the hotel task while eye movements were recorded. Participants also completed the Behavior Rating Inventory of Executive Function\u2013Adult Version, an antisaccade task, and the Wiener Matrizen\u2013Test 2. Eye-tracking data were analyzed using k-means clustering to identify strategic profiles, which were compared via the Kruskal\u2013Wallis test. Results: Self-reported working memory deficits correlated with poorer planning (\u03c1 = \u2212.31, <em>p</em> = .035). Clustering revealed three distinct gaze-based profiles. A less time-monitoring group performed worse than two more vigilant groups, attempting fewer tasks, <em>F</em>(2, 61) = 6.13, <em>p</em> = .004, and achieving lower planning scores, <em>F</em>(2, 61) = 5.93, <em>p</em> = .004. Conclusions: Eye-tracking identifies distinct strategic approaches to real-world multitasking that relate to performance but are not captured by traditional executive function tasks. Multitasking effectiveness appears supported by diverse strategies better characterized through integrated self-report, behavioral, and process-level data, offering a more nuanced understanding of executive function in ecologically valid settings. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-    "author": "",
-    "published_date": "2026-03-26T00:00:00+00:00",
-    "source": "Neuropsychology",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 194,
-    "reading_time": 1,
-    "created_at": "2026-08-11T20:43:59.812738+00:00",
-    "updated_at": "2026-08-11T20:43:59.812739+00:00"
-  },
-  {
-    "id": "cb26d43a348757d6f76849f55fe7a7ce",
-    "url": "https://www.reddit.com/r/Python/comments/1vlqme0/asyncio_rabbitmq_client_without_pika_feedback/",
-    "title": "asyncio RabbitMQ client without pika, feedback welcome",
-    "content": "<!-- SC_OFF --><div class=\"md\"><p>Open-sourced an asyncio RabbitMQ client that implements AMQP 0-9-1 itself - no pika. There's also a higher layer for JSON-RPC style call/reply and pub/sub if you want it, but you can just use the connection/channel bits.</p> <p>Repo: <a href=\"https://github.com/RileyBetts/nuropb-rmq\">https://github.com/RileyBetts/nuropb-rmq</a></p> <p>pip install &quot;git+<a href=\"https://github.com/RileyBetts/nuropb-rmq.git\">https://github.com/RileyBetts/nuropb-rmq.git</a>&quot; (not on PyPI yet)</p> <p>Alpha, but API relatively stable.</p> <p>Compared to wrapping aio-pika, the intention is to have framing + session RPC in one codebase, plus TLS/mTLS aimed at cloud brokers (there's a whole page on host vs server_hostname because that bit me). Optional JWT claims live in AMQP headers so the JSON-RPC body stays standard.</p> <p>Interesting flex: CI runs SpeC++ and Lean on some protocol/session invariants. Curious whether Python folks find formal methods reassuring or just noise.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/nuroteck\"> /u/nuroteck </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1vlqme0/asyncio_rabbitmq_client_without_pika_feedback/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vlqme0/asyncio_rabbitmq_client_without_pika_feedback/\">[comments]</a></span>",
-    "author": "/u/nuroteck",
-    "published_date": "2026-08-11T19:00:57+00:00",
-    "source": "Reddit Python",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 142,
-    "reading_time": 1,
-    "created_at": "2026-08-11T20:43:53.709589+00:00",
-    "updated_at": "2026-08-11T20:43:53.709591+00:00"
   }
 ]
