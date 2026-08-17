@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-08-17T10:34:04.151880+00:00",
+  "last_updated": "2026-08-17T11:27:33.156478+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "b092bb80f36b5b8a8e5c9ce0e242c96f",
+      "url": "https://desktopcolors.com",
+      "title": "Show HN: Desktopcolors.com \u2013 A museum for solid background colors of classic OS",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49327643\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-17T07:51:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-17T11:26:24.299696+00:00",
+      "updated_at": "2026-08-17T11:26:24.299697+00:00"
+    },
+    {
+      "id": "b092bb80f36b5b8a8e5c9ce0e242c96f",
+      "url": "https://desktopcolors.com",
+      "title": "Show HN: Desktopcolors.com \u2013 A museum for solid background colors of classic OS",
+      "content": "<p>Hi HN, in my last vacation, I built desktopcolors.com as a place to collect iconic solid background colors. Let me know what you think.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49327643\">https://news.ycombinator.com/item?id=49327643</a></p>\n<p>Points: 13</p>\n<p># Comments: 3</p>",
+      "author": "vlowrian",
+      "published_date": "2026-08-17T07:51:22+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 35,
+      "reading_time": 1,
+      "created_at": "2026-08-17T11:26:22.953569+00:00",
+      "updated_at": "2026-08-17T11:26:22.953579+00:00"
+    },
     {
       "id": "698176a2d769ba42a3094e37ba57f080",
       "url": "https://www.biorxiv.org/content/10.64898/2026.08.10.743913v1?rss=1",
@@ -309,46 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-08-17T08:43:55.845535+00:00",
       "updated_at": "2026-08-17T08:43:55.845544+00:00"
-    },
-    {
-      "id": "ca237cc35636b2bf192c94344c5e0d9c",
-      "url": "http://ieeexplore.ieee.org/document/11449425",
-      "title": "Sensory Feedback for Upper-Limb Amputees by Noninvasive Electrical Stimulation and Its Performance Assessment",
-      "content": "Most commercial prostheses lack a function of natural and intuitive sensory feedback, which is one of the reasons for their high rate of abandonment. Transcutaneous Electrical Nerve Stimulation (TENS) has been proved as an effective approach to evoke sensations for limb amputees. This paper aims to explore the impact of TENS parameters on sensation evoking and evaluate its performance based on behavioral response and EEG data, involving three transradial amputees and seven able-bodied subjects. Experimental results show that the sensation thresholds were predominantly influenced by stimulus amplitude and width, and the sensation intensity increased with the increase of either amplitude or width. Variation of stimulus frequency caused transitions between sensation types, where stimulating at 10 and 100 Hz could achieve stable vibration and pressure sensations for all subjects, respectively. A stimulation encoding strategy was thereupon proposed, where a pressure sensation was to simulate grasp force and the sensation intensity to encode force amplitude. The amputees could achieve a high accuracy rate above 94.4 and 77.8% for sensation type discrimination and intensity grading, respectively, with slightly longer response time than the able-bodied. The obvious cortical activation and clear ERP components demonstrated the reliability of TENS-based sensory feedback, where the N1 component could distinguish different sensation types and intensities (p \u2264 0.05), and the amputees had slower discriminatory responses and weaker activation in sensorimotor cortices than the able-bodied (p \u2264 0.05). This study promisingly confirmed TENS for restoring sensory feedback in limb-amputees, providing a support for closed-loop interactions in amputee-prosthesis systems and even bionic robots.",
-      "author": "",
-      "published_date": "2026-03-20T13:18:22+00:00",
-      "source": "Transactions Haptics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 253,
-      "reading_time": 1,
-      "created_at": "2026-08-17T07:55:08.144308+00:00",
-      "updated_at": "2026-08-17T08:36:30.141634+00:00",
-      "metadata": {
-        "processed_at": "2026-08-17T08:36:30.141644+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "9c79a9331458f89f51adc3bb8e29c148",
-      "url": "http://ieeexplore.ieee.org/document/11449450",
-      "title": "A Direction-Dependent Mechanotransduction Model to Convert Fingertip Forces Into Neural Spike Trains for Tactile Feedback",
-      "content": "Microneurography studies have shown that human mechanoreceptor (MR) activity is directionally sensitive to shear forces, enabling fine tactile perception and object manipulation. However, existing computational mechanotransduction models largely neglect this directional tuning, limiting their biological realism and effectiveness for tactile feedback systems such as prosthetic hands. This paper presents a Direction-Dependent Mechanotransduction Model (DDMM) that replicates the direction-specific encoding behavior observed in human tactile afferents. The model integrates multidirectional pressure and shear forces to modulate neural spiking according to the alignment between resultant shear vectors and neuron-specific attenuation profiles. Force inputs are first transformed into afferent-specific currents (SAI, RAI, RAII), which are then converted into spike trains using an Izhikevich neuron model. Simulated fingertip interactions produced directionally selective spiking frequencies ranging from 0 to 47.5 pulses per second, consistent with biological firing ranges. Directional tuning, quantified using the profile-resolved sensitivity index (PRSI), yielded values of 0.31\u20130.45 for selective and broad profiles, comparable with those experimentally measured directional sensitivity indices (DSI; 0.23 \u00b1 0.18) as reported in the literature. Further experimental validation using triaxial force measurements from human fingertip press\u2013push\u2013lift actions confirm the model's directional sensitivity, with aligned neural attenuation profiles and shear force direction yielding a mean spiking frequency increase of approximately 350% relative to misaligned conditions. These findings establish the DDMM as a biologically inspired and computationally efficient framework for encoding tactile force direction, with potential applications in neuroprosthetics, robotic manipulation, and somatosensory modeling.",
-      "author": "",
-      "published_date": "2026-03-20T13:18:22+00:00",
-      "source": "Transactions Haptics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 235,
-      "reading_time": 1,
-      "created_at": "2026-08-17T07:55:08.144267+00:00",
-      "updated_at": "2026-08-17T08:36:30.141648+00:00",
-      "metadata": {
-        "processed_at": "2026-08-17T08:36:30.141649+00:00",
-        "processing_method": "github_actions"
-      }
     }
   ]
 }
