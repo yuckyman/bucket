@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-08-17T22:52:21.184931+00:00",
+  "last_updated": "2026-08-17T23:24:22.972602+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "63efe0630b68f1908e98f172321c35b3",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1799307",
+      "title": "FUSION-AD: interpretable AI framework for risk assessment and subgroup discovery in Alzheimer's disease",
+      "content": "IntroductionAlzheimer's disease (AD) is difficult to treat because of its multifactorial causes and heterogeneous progression across individuals. This study introduces FUSION-AD, a user-friendly and interpretable artificial intelligence framework for AD risk assessment and subgroup discovery.MethodsFUSION-AD integrates tree-based models, transformer-based neural networks, rule mining, and subgroup discovery to provide accurate and interpretable predictions. The framework was developed using the synthetic El Kharoua Alzheimer's Disease Dataset, which contains 2,149 structured clinical records from patients aged 60\u201390 years, with a mean age of 74.6 years and an average mini-mental state examination (MMSE) score of 21.7. The pipeline included data preprocessing, model benchmarking, feature-importance analysis, SHAP-based explanation, transformer attention analysis, association rule mining, and subgroup discovery.ResultsWithin the evaluated dataset, TabNet achieved the strongest point-estimate performance among the standalone benchmark models on the primary evaluation split, with an area under the receiver operating characteristic curve (AUROC) of 0.95, followed by XGBoost at 0.93, Random Forest at 0.92, and Logistic Regression at 0.89. Feature importance, SHAP values, and transformer attention consistently identified MMSE, Functional Assessment, and Memory Complaints as the most influential predictors. Association rule mining further highlighted diabetes and high body mass index as important risk factors. Subgroup discovery identified four clinical clusters, with prevalence ranging from 21.3 to 28.4%. Cluster 0 showed notable declines in daily functioning, with Functional Assessment decreasing by 2.1 and activities of daily living decreasing by 1.5, whereas Cluster 1 maintained daily functioning but showed increased behavioral symptoms.DiscussionFUSION-AD demonstrates that AD can be modeled in a way that balances predictive performance with interpretability within the studied dataset. The identified subgroup patterns suggest that lifestyle-driven profiles may benefit from preventive strategies, while cognitively impaired groups may require closer monitoring. These findings provide a foundation for future clinically oriented decision-support systems and require further validation using real-world clinical datasets.",
+      "author": "Sarra Ayouni",
+      "published_date": "2026-05-28T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 297,
+      "reading_time": 1,
+      "created_at": "2026-08-17T23:23:44.116603+00:00",
+      "updated_at": "2026-08-17T23:23:44.116604+00:00"
+    },
+    {
+      "id": "f9c5e49c1db9c740f8ce38214f8b96cf",
+      "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+      "title": "GPT-5.6 Sol Pricing Cut by 50%",
+      "content": "<p>Article URL: <a href=\"https://openrouter.ai/openai/gpt-5.6-sol\">https://openrouter.ai/openai/gpt-5.6-sol</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49337602\">https://news.ycombinator.com/item?id=49337602</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "author": "Topfi",
+      "published_date": "2026-08-17T21:03:18+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-17T23:23:09.648055+00:00",
+      "updated_at": "2026-08-17T23:23:09.648056+00:00"
+    },
+    {
+      "id": "7c47b54390d0184d2f21d5601b9245f8",
+      "url": "https://www.fast.ai/posts/2026-08-18-returning-to-AI/",
+      "title": "My friends all hate AI; I just joined an AI startup",
+      "content": "<p>Article URL: <a href=\"https://www.fast.ai/posts/2026-08-18-returning-to-AI/\">https://www.fast.ai/posts/2026-08-18-returning-to-AI/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49338139\">https://news.ycombinator.com/item?id=49338139</a></p>\n<p>Points: 9</p>\n<p># Comments: 4</p>",
+      "author": "eamag",
+      "published_date": "2026-08-17T21:47:30+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-17T23:23:09.648017+00:00",
+      "updated_at": "2026-08-17T23:23:09.648018+00:00"
+    },
+    {
+      "id": "07a1ef37fef7a94282d10efedf859a30",
+      "url": "https://scapplications.com/",
+      "title": "scScript for Linux",
+      "content": "<p>Article URL: <a href=\"https://scapplications.com/\">https://scapplications.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49338428\">https://news.ycombinator.com/item?id=49338428</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+      "author": "OptionOfT",
+      "published_date": "2026-08-17T22:18:05+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-17T23:23:09.647955+00:00",
+      "updated_at": "2026-08-17T23:23:09.647956+00:00"
+    },
     {
       "id": "9a1838d9e30aceb453d13fb18a5fb8fc",
       "url": "https://fmhy.net/posts/july-2026",
@@ -265,82 +329,6 @@
         "processed_at": "2026-08-17T22:18:41.090054+00:00",
         "processing_method": "github_actions"
       }
-    },
-    {
-      "id": "96407d39bc37393ce4da9d89c2682de5",
-      "url": "http://doi.org/10.1037/drm0000337",
-      "title": "An examination of the relationship between body awareness, dream themes, and somatization in adult women.",
-      "content": "The aim of this study was to evaluate the relationship between body awareness, dream themes, and somatization symptoms in adult women. A total of 213 adult women aged 18\u201365 years participated in the study via online questionnaire. Body awareness was assessed using the Body Awareness Questionnaire, somatization symptoms were evaluated with the Symptom Checklist-90-Revised, and dream themes were measured using the Dream Themes Scale. For statistical analysis, Pearson correlation analysis and independent samples t test were employed. Body awareness was not significantly associated with somatization symptoms (p = .661, r = \u2212.03), whereas body awareness and dream themes were weak but significantly associated (p = .004, r = .199), and somatization symptoms and dream themes showed a moderate positive association (p < .001, r = .327). In addition, dream content differed significantly between participants with below-average and above-average body awareness (p = .013). The findings revealed that as somatization symptoms increased among participants, dream content tended to become more negative. Headache emerged as the most frequently reported symptom, with heaviness in the limbs and nausea the most commonly co-occurring somatization symptoms. Future research should investigate the effect of body awareness on dream content and frequency through a multidimensional assessment, particularly in individuals experiencing pain and somatization symptoms. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2026-04-09T00:00:00+00:00",
-      "source": "Dreaming",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 216,
-      "reading_time": 1,
-      "created_at": "2026-08-17T21:51:37.974040+00:00",
-      "updated_at": "2026-08-17T22:18:41.090057+00:00",
-      "metadata": {
-        "processed_at": "2026-08-17T22:18:41.090058+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "25646a046504fa0f576279a7bf7e5dd4",
-      "url": "http://doi.org/10.1037/drm0000338",
-      "title": "Subjectively estimated effects of nightmares on sleep onset latency and sleep quality: A cross-sectional study.",
-      "content": "Cross-sectional studies have established consistent associations between nightmare frequency, waking anxiety, and sleep disturbances. Yet, little is known about the extent to which individuals explicitly attribute sleep impairments to nightmares. This study examines subjectively estimated effects of nightmares on overall sleep quality and on sleep onset latency due to fear of nightmares. A sample of 285 participants (221 women, 60 men, and 4 nonbinary) with a mean age of 24.00 \u00b1 7.51 years completed a questionnaire. The findings extend prior research on the interplay between anxiety, sleep quality, and nightmare frequency: Approximately 10% and over 40% reported that nightmares affect sleep onset due to the fear of nightmares and overall sleep quality, respectively. As hypothesized, individuals with more frequent nightmares and higher anxiety levels were more likely to report negative effects of nightmares on sleep onset latency and sleep quality. Our findings suggest that combining therapeutic techniques for treating nightmares, sleep problems, and waking anxiety might be beneficial for nightmare sufferers. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2026-03-19T00:00:00+00:00",
-      "source": "Dreaming",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 170,
-      "reading_time": 1,
-      "created_at": "2026-08-17T21:51:37.974000+00:00",
-      "updated_at": "2026-08-17T22:18:41.090061+00:00",
-      "metadata": {
-        "processed_at": "2026-08-17T22:18:41.090062+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "a82ad88f27ef456d0524436af180113b",
-      "url": "http://doi.org/10.1037/drm0000342",
-      "title": "Dream work in the United States and Korea: Self-oriented and relationship-oriented themes of female college students.",
-      "content": "We compared the self and relationship themes in dream sessions of 10 U.S. and 10 Korean female college students. Preliminary analyses showed that the two samples were similar in terms of dream salience, but the U.S. sample scored higher in terms of session outcome (session evaluation, gains in dream work) than did the Korean sample. Qualitative analyses revealed considerable similarity in their descriptions of self and relationships in that participants in both samples discussed self-esteem/self-image, self-competence, personality and emotional traits, and multiple aspects of self. In terms of differences, U.S. participants more often than their Korean counterparts discussed a sense of self-agency, high self-esteem/positive self-image, desire to control their own lives, self-competence, inner conflicts, and feeling distant and experiencing conflicts in nonfamily relationships, whereas Korean participants more often than their U.S. counterparts discussed feelings of helplessness and feeling criticized in family relationships. Results are discussed in terms of cultural differences. Strengths and limitations of current findings as well as implications for research and clinical practice are included. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2026-05-11T00:00:00+00:00",
-      "source": "Dreaming",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 176,
-      "reading_time": 1,
-      "created_at": "2026-08-17T21:51:37.973958+00:00",
-      "updated_at": "2026-08-17T22:18:41.090064+00:00",
-      "metadata": {
-        "processed_at": "2026-08-17T22:18:41.090066+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "1f3e2dbb460cb0a5659bf68550654dfd",
-      "url": "https://cursor.com/changelog/origin-code-hosting",
-      "title": "Cursor launches Origin, GitHub alternative",
-      "content": "<p>Article URL: <a href=\"https://cursor.com/changelog/origin-code-hosting\">https://cursor.com/changelog/origin-code-hosting</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49334209\">https://news.ycombinator.com/item?id=49334209</a></p>\n<p>Points: 92</p>\n<p># Comments: 39</p>",
-      "author": "tomasreimers",
-      "published_date": "2026-08-17T17:02:44+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-08-17T21:51:30.736713+00:00",
-      "updated_at": "2026-08-17T21:51:30.736715+00:00"
     }
   ]
 }

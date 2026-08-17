@@ -1,5 +1,69 @@
 [
   {
+    "id": "63efe0630b68f1908e98f172321c35b3",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1799307",
+    "title": "FUSION-AD: interpretable AI framework for risk assessment and subgroup discovery in Alzheimer's disease",
+    "content": "IntroductionAlzheimer's disease (AD) is difficult to treat because of its multifactorial causes and heterogeneous progression across individuals. This study introduces FUSION-AD, a user-friendly and interpretable artificial intelligence framework for AD risk assessment and subgroup discovery.MethodsFUSION-AD integrates tree-based models, transformer-based neural networks, rule mining, and subgroup discovery to provide accurate and interpretable predictions. The framework was developed using the synthetic El Kharoua Alzheimer's Disease Dataset, which contains 2,149 structured clinical records from patients aged 60\u201390 years, with a mean age of 74.6 years and an average mini-mental state examination (MMSE) score of 21.7. The pipeline included data preprocessing, model benchmarking, feature-importance analysis, SHAP-based explanation, transformer attention analysis, association rule mining, and subgroup discovery.ResultsWithin the evaluated dataset, TabNet achieved the strongest point-estimate performance among the standalone benchmark models on the primary evaluation split, with an area under the receiver operating characteristic curve (AUROC) of 0.95, followed by XGBoost at 0.93, Random Forest at 0.92, and Logistic Regression at 0.89. Feature importance, SHAP values, and transformer attention consistently identified MMSE, Functional Assessment, and Memory Complaints as the most influential predictors. Association rule mining further highlighted diabetes and high body mass index as important risk factors. Subgroup discovery identified four clinical clusters, with prevalence ranging from 21.3 to 28.4%. Cluster 0 showed notable declines in daily functioning, with Functional Assessment decreasing by 2.1 and activities of daily living decreasing by 1.5, whereas Cluster 1 maintained daily functioning but showed increased behavioral symptoms.DiscussionFUSION-AD demonstrates that AD can be modeled in a way that balances predictive performance with interpretability within the studied dataset. The identified subgroup patterns suggest that lifestyle-driven profiles may benefit from preventive strategies, while cognitively impaired groups may require closer monitoring. These findings provide a foundation for future clinically oriented decision-support systems and require further validation using real-world clinical datasets.",
+    "author": "Sarra Ayouni",
+    "published_date": "2026-05-28T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 297,
+    "reading_time": 1,
+    "created_at": "2026-08-17T23:23:44.116603+00:00",
+    "updated_at": "2026-08-17T23:23:44.116604+00:00"
+  },
+  {
+    "id": "f9c5e49c1db9c740f8ce38214f8b96cf",
+    "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+    "title": "GPT-5.6 Sol Pricing Cut by 50%",
+    "content": "<p>Article URL: <a href=\"https://openrouter.ai/openai/gpt-5.6-sol\">https://openrouter.ai/openai/gpt-5.6-sol</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49337602\">https://news.ycombinator.com/item?id=49337602</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+    "author": "Topfi",
+    "published_date": "2026-08-17T21:03:18+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-08-17T23:23:09.648055+00:00",
+    "updated_at": "2026-08-17T23:23:09.648056+00:00"
+  },
+  {
+    "id": "7c47b54390d0184d2f21d5601b9245f8",
+    "url": "https://www.fast.ai/posts/2026-08-18-returning-to-AI/",
+    "title": "My friends all hate AI; I just joined an AI startup",
+    "content": "<p>Article URL: <a href=\"https://www.fast.ai/posts/2026-08-18-returning-to-AI/\">https://www.fast.ai/posts/2026-08-18-returning-to-AI/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49338139\">https://news.ycombinator.com/item?id=49338139</a></p>\n<p>Points: 9</p>\n<p># Comments: 4</p>",
+    "author": "eamag",
+    "published_date": "2026-08-17T21:47:30+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-08-17T23:23:09.648017+00:00",
+    "updated_at": "2026-08-17T23:23:09.648018+00:00"
+  },
+  {
+    "id": "07a1ef37fef7a94282d10efedf859a30",
+    "url": "https://scapplications.com/",
+    "title": "scScript for Linux",
+    "content": "<p>Article URL: <a href=\"https://scapplications.com/\">https://scapplications.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49338428\">https://news.ycombinator.com/item?id=49338428</a></p>\n<p>Points: 4</p>\n<p># Comments: 1</p>",
+    "author": "OptionOfT",
+    "published_date": "2026-08-17T22:18:05+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-08-17T23:23:09.647955+00:00",
+    "updated_at": "2026-08-17T23:23:09.647956+00:00"
+  },
+  {
     "id": "9a1838d9e30aceb453d13fb18a5fb8fc",
     "url": "https://fmhy.net/posts/july-2026",
     "title": "Monthly Updates [July]",
@@ -17126,81 +17190,5 @@
       "processed_at": "2026-08-13T09:06:28.072840+00:00",
       "processing_method": "github_actions"
     }
-  },
-  {
-    "id": "ac6f3ab92725084e2b49600ca6243d2a",
-    "url": "https://brain.ieee.org/braininsight-articles/call-for-papers-ieee-transactions-on-human-machine-systems/",
-    "title": "Call for Papers: IEEE Transactions on Human-Machine Systems",
-    "content": "",
-    "author": "Adriel Carridice",
-    "published_date": "2025-06-18T14:50:14+00:00",
-    "source": "Brain",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-08-13T07:41:51.740385+00:00",
-    "updated_at": "2026-08-13T09:06:28.072841+00:00",
-    "metadata": {
-      "processed_at": "2026-08-13T09:06:28.072842+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "d9a6ebfdddcb650fbce75fb52deb2bb1",
-    "url": "http://ieeexplore.ieee.org/document/11541265",
-    "title": "Negative Emotional Context Reverses Charitable Framing Effect: Behavioral and Neural Evidence",
-    "content": "Extensive research shows that charitable framing (gain vs. loss) shapes donation intentions. However, questions persist concerning how emotional context interacts with framing effects to impact both donation intentions and subsequent evaluations of outcomes. The present study combined electroencephalography and multivariate pattern analysis to investigate neural responses to gain- and loss-framed charitable appeals under neutral and negative emotions. Behaviorally, negative emotions reversed the charitable framing effect observed under a neutral emotional context, as gain-framed appeals elicited a greater donation intention than loss-framed appeals. Neurologically, during the donation stage, donation proposals following gain-framed (vs. loss-framed) appeals under a negative context produced larger N2 and P3 amplitudes. Multivariate pattern analysis demonstrated robust decoding of framing types from electroencephalography signals throughout early to late processing stages, independent of whether the emotional context was neutral or negative. In the feedback stage, the feedback-related negativity effect (larger feedback-related negativity for negative feedback than positive feedback) was absent in gain-framed conditions but emerged in loss-framed conditions under a negative emotional context. Time\u2013frequency analysis confirmed that framing effects on outcome evaluation are emotion sensitive. The current findings extend previous research by demonstrating that the charitable framing effect on donation behavior and outcome evaluation depends on the emotional context.",
-    "author": "",
-    "published_date": "2026-06-01T13:17:23+00:00",
-    "source": "Cognitive Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 200,
-    "reading_time": 1,
-    "created_at": "2026-08-13T07:41:44.993617+00:00",
-    "updated_at": "2026-08-13T09:06:28.072843+00:00",
-    "metadata": {
-      "processed_at": "2026-08-13T09:06:28.072845+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "a8ae6b63d8b4a28f17688d8523951d4e",
-    "url": "http://ieeexplore.ieee.org/document/11541267",
-    "title": "Learning Decouples Accuracy and Reaction Time for Rapid Decisions in a Transitive Inference Task",
-    "content": "Transitive inference (TI) is a cognitive process in which decisions are guided by internal representations of abstract relationships. Although the mechanisms underlying transitive learning have been well studied, the dynamics of the decision-making process during learning and inference remain less clearly understood. In this study, we investigated whether a modeling framework traditionally applied to perceptual decision-making\u2014the drift diffusion model (DDM)\u2014can account for performance in a TI transfer task involving rapid decisions that deviate from standard accuracy and RT patterns. We trained six macaque monkeys on a TI transfer task, in which they learned the implied order of a novel list of seven images in each behavioral session, indicating their decisions with saccadic eye movements or reaching movements. Consistent learning of the list structure was achieved within 200\u2013300 trials per session. Behavioral performance exhibited a symbolic distance effect, with accuracy increasing as the ordinal distance between items grew. Notably, RTs remained relatively stable across learning, despite improvements in accuracy. We applied a generalized DDM implementation (PyDDM) [Shinn, M., Lam, N. H., & Murray, J. D. A flexible framework for simulating and fitting generalized drift-diffusion models. eLife, 9, e56938, 2020] to jointly fit accuracy and RT data. Model fits were achieved by incorporating both an increasing evidence accumulation rate and a collapsing decision bound, successfully capturing the RT distribution shapes observed during learning. Learning and transfer were fit by varying drift rate with little change in other parameters. Eye and reaching movements showed similar dynamics, with the difference in RT accounted for mainly by nondecision time. Our results highlight a distinct dynamical regime of the DDM framework, extending its applicability to cognitive domains involving symbolic reasoning and serial relational learning.",
-    "author": "",
-    "published_date": "2026-06-01T13:17:23+00:00",
-    "source": "Cognitive Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 278,
-    "reading_time": 1,
-    "created_at": "2026-08-13T07:41:44.993569+00:00",
-    "updated_at": "2026-08-13T09:06:28.072846+00:00",
-    "metadata": {
-      "processed_at": "2026-08-13T09:06:28.072847+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "c747f8f3ffd0de9b254e77cd34aa719e",
-    "url": "http://ieeexplore.ieee.org/document/11541264",
-    "title": "Neural Dynamics Underlying Repeated Learning of Visual Image Sequences",
-    "content": "Humans possess a remarkable ability to recognize visual objects with high fidelity, supported by complex neural mechanisms underlying memory retrieval. ERP studies have identified two key neural signatures of recognition memory: the parietal old/new effect and the frontal old/new effect. Despite extensive research on these ERP components, the extent to which these components reflect distinct memory processes remains debated. In the present study, we investigated how repetitive learning modulates these ERP components. Participants repeatedly studied a fixed list of 32 real-world images across up to five study-test repetitions while EEG was recorded. In addition, a separate set size 1 condition served as a proxy for working memory. Our results showed that with increased repetitions, the parietal old/new effect exhibited enhanced amplitude and earlier peak latency, reflecting more efficient retrieval of well-learned memories. In contrast, the frontal old/new effect remained unchanged in both amplitude and timing. These findings suggest that the parietal old/new effect is a sensitive neural marker of learning-related changes in long-term memory representations, whereas the frontal effect is less influenced by repetition. In addition, despite similarly high accuracy between the well-practiced set size 32 condition and the set size 1 working memory condition, both parietal and frontal old/new effects peaked significantly earlier for set size 1, suggesting that access to working memory is substantially faster than even well-practiced long-term memory. Together, our results highlight the unique role of the parietal old/new effect, but not the frontal old/new effect, in repetitive learning, despite both components being important for successful recognition of learned visual stimuli.",
-    "author": "",
-    "published_date": "2026-06-01T13:17:23+00:00",
-    "source": "Cognitive Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 255,
-    "reading_time": 1,
-    "created_at": "2026-08-13T07:41:44.993527+00:00",
-    "updated_at": "2026-08-13T07:41:44.993529+00:00"
   }
 ]
