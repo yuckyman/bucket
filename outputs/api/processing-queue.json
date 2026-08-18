@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-08-18T06:33:30.498407+00:00",
-  "pending_count": 706,
-  "processed_count": 294,
+  "last_updated": "2026-08-18T08:29:49.642094+00:00",
+  "pending_count": 704,
+  "processed_count": 296,
   "pending_articles": [
     {
       "id": "db600dee4251d8e23c299ddd0da46d97",
@@ -166,6 +166,106 @@
   ],
   "recently_processed": [
     {
+      "id": "84d785977d118f217abe7cbcde99e385",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae9645",
+      "title": "Medial wall contributions to finger motor decoding from electrocorticography",
+      "content": "Objective. Future motor brain-computer interfaces (BCIs) are expected to benefit from integrating neural signals from multiple motor-related brain regions. While decoding studies have largely focused on lateral sensorimotor cortex, the medial wall of the cerebral hemisphere remains relatively underexplored. Here, we investigate the contribution of medial wall regions to finger movement decoding using human electrocorticography (ECoG) recordings. Approach. We analyzed ECoG data from four subjects performing finger movements. Single- and multi-channel decoding analyses were applied to medial wall electrodes, examining the contribution of time-domain and frequency-domain features, including local motor potentials (LMP) and oscillatory power in the (8\u201312 Hz) and (12-34 Hz) bands. Decoding performance was assessed for movement detection and finger discrimination. Main results. Significantly above-chance finger movement detection was observed across multiple medial wall subregions. LMP and - band power contributed most strongly to decoding performance. Feature dynamics shared key properties with primary motor cortex, including pre-movement - desynchronization, while also exhibiting region-specific patterns such as anatomically dependent positive or negative LMP modulations. Although movement detection was the dominant outcome, medial wall channels in two subjects enabled significant differentiation between individual fingers. In one subject, both contralateral and ipsilateral finger movements could be decoded with some generalization across hands; however, this observation is based on a single case and should be interpreted as preliminary. Significance. These findings identify the medial wall as a viable source of motor-related signals for finger movement decoding, with potential for future invasive motor BCI applications, while underscoring the need for further studies to confirm generalizability across individuals.",
+      "author": "Eva Calvo Merino, Qiang Sun, Ine Dauwe, Evelien Carrette, Alfred Meurs, Dirk Van Roost, Paul Boon and Marc M Van Hulle",
+      "published_date": "2026-08-17T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 254,
+      "reading_time": 1,
+      "created_at": "2026-08-18T07:38:36.984008+00:00",
+      "updated_at": "2026-08-18T08:29:49.521824+00:00",
+      "metadata": {
+        "processed_at": "2026-08-18T08:29:49.521836+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "e473a466b9ce5e9c9af7e03c6dec2ad5",
+      "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae9227",
+      "title": "Diagnostic features predicted by deep learning improve human object recognition in simulated prosthetic vision",
+      "content": "Objective. Cortical visual prostheses aim to partially restore vision by electrically stimulating V1. Yet, their effectiveness is constrained by the limited number of simultaneously elicitable phosphenes. Identifying sparse but informative visual features for object recognition is therefore crucial to enable functional prosthetic vision. In this study, we aim to target diagnostic features for object recognition. Approach. We combined a deep learning pipeline with bioplausible phosphene simulation to optimize phosphene placement for object recognition. The phosphene renderings were presented to 63 participants who performed an object recognition task under simulated prosthetic vision with varying electrode densities. Main results. Performance in the proposed deep neural network (DNN) phosphene placement strategy was compared to contour-based and luminance-based phosphene placements. Results demonstrate that the DNN-based approach significantly reduces the number of phosphenes required for object recognition. Importantly, this advantage was especially pronounced at low level electrode densities. Significance. These findings indicate that DNNs can effectively identify diagnostic object features and enhance recognition under simulated prosthetic vision. The proposed pipeline provides a principled method for optimizing visual representations in cortical visual prostheses, highlighting the importance of task-relevant feature selection imposed by constraints on simultaneous stimulation capacity.",
+      "author": "Elsa Scialom, Ben Lonnqvist, Alban Bornet and Michael H Herzog",
+      "published_date": "2026-08-17T23:00:00+00:00",
+      "source": "Journal Neural Engineering",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 191,
+      "reading_time": 1,
+      "created_at": "2026-08-18T07:38:36.983964+00:00",
+      "updated_at": "2026-08-18T08:29:49.521840+00:00",
+      "metadata": {
+        "processed_at": "2026-08-18T08:29:49.521842+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "29b73692d4f76df2d7ccb631d19e3a09",
+      "url": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue",
+      "title": "Exercise intensity modulates interorgan communication and is associated with",
+      "content": "<p>Article URL: <a href=\"https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue\">https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49341411\">https://news.ycombinator.com/item?id=49341411</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+      "author": "newsomix9xl",
+      "published_date": "2026-08-18T04:51:33+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-18T07:38:11.884139+00:00",
+      "updated_at": "2026-08-18T08:29:49.521845+00:00",
+      "metadata": {
+        "processed_at": "2026-08-18T08:29:49.521847+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "09c1dc2570a59c46bda34d2505d4a79b",
+      "url": "https://basecamp.com/managers",
+      "title": "The 37signals Manager Playbook",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49288129\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-13T16:12:01+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-18T06:52:20.050957+00:00",
+      "updated_at": "2026-08-18T08:29:49.521849+00:00",
+      "metadata": {
+        "processed_at": "2026-08-18T08:29:49.521851+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
+      "id": "6027517c5ff7510bcfb4363adb9b35fc",
+      "url": "https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/",
+      "title": "Expert Witness to ChatGPT: \"Show how 3M is 0 percent at fault\"",
+      "content": "<p>Article URL: <a href=\"https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/\">https://www.404media.co/show-how-3m-is-0-at-fault-expert-witness-used-chatgpt-to-write-report-defending-company-in-deadly-explosion-lawsuit/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49341009\">https://news.ycombinator.com/item?id=49341009</a></p>\n<p>Points: 30</p>\n<p># Comments: 8</p>",
+      "author": "kristjansson",
+      "published_date": "2026-08-18T03:44:41+00:00",
+      "source": "Hacker News",
+      "status": "processed",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-18T06:52:18.833426+00:00",
+      "updated_at": "2026-08-18T08:29:49.521853+00:00",
+      "metadata": {
+        "processed_at": "2026-08-18T08:29:49.521854+00:00",
+        "processing_method": "github_actions"
+      }
+    },
+    {
       "id": "2eb57dbdbc858b57282cfad12fa8d826",
       "url": "https://brain.ieee.org/braininsight-articles/ieee-brain-workshop-on-ai-for-neurotechnology/",
       "title": "IEEE Brain Workshop on AI for Neurotechnology",
@@ -262,106 +362,6 @@
       "updated_at": "2026-08-18T06:33:30.389642+00:00",
       "metadata": {
         "processed_at": "2026-08-18T06:33:30.389643+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d4169dd4706b9b6137dd177dbdf904d5",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.11.744287v1?rss=1",
-      "title": "Disrupted Brain Organoid Circuitry, Structural Organization, and Spine Morphology in 7q11.23 Copy Number Variant Syndromes",
-      "content": "The 7q11.23 chromosomal region represents a model of gene dosage-dependence, where a hemizygous deletion causes Williams Syndrome (WS) and a duplication leads to 7q11.23 Duplication Syndrome (Dup7). It is not understood how these copy number variations (CNVs) disrupt development and functional cortical circuit assembly. Utilizing iPSC-derived cerebral organoids and longitudinal imaging from post-differentiation day 30 to 150, we characterized the aberrant neural rosette morphogenesis in WS and Dup7 during early stages, establishing an early structural divergence from control lines. We observed accelerated early cortical rosette morphogenesis in WS, characterized by a premature increase in both rosette number and layer thickness compared to controls. In contrast, Dup7 organoids consistently exhibit a significantly lower number and reduced thickness of rosettes from early stages onward. This early structural disruption progressively impacted synaptic-level architecture as the organoids matured. Dendritic spine characterization at later stages revealed Dup7 organoids exhibited a significantly higher dendritic spine density compared to WS. Pharmacological antagonism of CCR5 (C-C chemokine receptor type 5) with Maraviroc significantly enhanced dendritic spine density in control and WS organoids; however, this effect was absent in Dup7. To determine how these structural anomalies translate into circuit-level behavior, we performed longitudinal calcium imaging using GCaMP. Control organoids sustained synchronized activity and high spike correlations at all time points. This synchronization was delayed and highly transient in WS organoids, and completely abolished in Dup7 organoids, which exhibit significantly low spike correlations at all stages. Developmentally, GABA changes from acting as an excitatory signal in the immature brain to an inhibitory signal as the brain matures. As control lines matured gabazine-induced desynchronization progressively diminished, but persisted in WS organoids. Dup7 organoids failed to establish synchronization at any developmental time point, but displayed a negligible increased synchrony following gabazine treatment. These functional aberrations were paralleled by genotype-specific defects in structural organization, specifically in rosette morphogenesis and dendritic spine density. Collectively, our findings demonstrate that 7q11.23 CNVs trigger pathogenic neurodevelopmental defects by derailing the trajectories of structural organization, circuit assembly, and functional synchronization during cortical maturation.",
-      "author": "Hwang, I. Y., Yeo, J. S., Almeida, M. C., Cupajita, B. M., Carrettiero, D. C., Acosta-Uribe, J., Han, A., Ngo, A., Camargo, C., Budisteanu, M., Arghir, A., Osborne, L. R., Ellis, J. R., Smith, I., Goard, M. J., Kosik, K. S.",
-      "published_date": "2026-08-17T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 335,
-      "reading_time": 1,
-      "created_at": "2026-08-18T03:45:22.000553+00:00",
-      "updated_at": "2026-08-18T04:30:01.221108+00:00",
-      "metadata": {
-        "processed_at": "2026-08-18T04:30:01.221118+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "d24d516a7a4930b900f6d0e7ec104639",
-      "url": "https://www.nature.com/articles/s44400-026-00096-6",
-      "title": "What my mother\u2019s APOE result taught me about dementia risk",
-      "content": "",
-      "author": "",
-      "published_date": "2026-08-18T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-08-18T03:45:20.559319+00:00",
-      "updated_at": "2026-08-18T04:30:01.221123+00:00",
-      "metadata": {
-        "processed_at": "2026-08-18T04:30:01.221124+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "054a2367d77b839242e0adf779ccafb9",
-      "url": "https://www.nature.com/articles/s10038-026-01504-8",
-      "title": "Clinical features of four unrelated Japanese patients with autosomal recessive spinocerebellar ataxia type 32",
-      "content": "",
-      "author": "",
-      "published_date": "2026-08-18T00:00:00+00:00",
-      "source": "Nature Neuroscience Subjects",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 0,
-      "reading_time": 1,
-      "created_at": "2026-08-18T03:45:20.559302+00:00",
-      "updated_at": "2026-08-18T04:30:01.221126+00:00",
-      "metadata": {
-        "processed_at": "2026-08-18T04:30:01.221127+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "c0db2c71dbf333d60d0434611edf20a3",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1863193",
-      "title": "PSRNet: a phase-guided frequency-domain structure reconstruction network for RGB-T salient object detection",
-      "content": "IntroductionRGB-T salient object detection remains challenging because visible and thermal features often show structural shifts, weak thermal boundaries, and background interference.MethodsThis study proposes PSRNet, a phase-guided frequency-domain structure reconstruction network. RGB and thermal features are decomposed into amplitude and latent-phase components in the Fourier domain. Reliable cross-modal structural cues are aligned through amplitude-weighted phase consistency, and boundary-related high-frequency responses are reconstructed with a bounded Gaussian high-pass gate before adaptive phase-modulated fusion and multi-scale supervision.ResultsOn VT1000, PSRNet achieved an S-measure of 0.903, an MAE of 0.028, and an F-measure of 0.794 at threshold 0.80, with a boundary IoU of 0.862.DiscussionThe results indicate improved structural preservation and boundary recovery under challenging RGB-T conditions.",
-      "author": "Chunyu Yang",
-      "published_date": "2026-07-06T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 111,
-      "reading_time": 1,
-      "created_at": "2026-08-18T03:45:09.842291+00:00",
-      "updated_at": "2026-08-18T04:30:01.221129+00:00",
-      "metadata": {
-        "processed_at": "2026-08-18T04:30:01.221130+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "2f421ece47339a06d849883da58e7d53",
-      "url": "http://doi.org/10.1037/pmu0000302",
-      "title": "Music-evoked nostalgia and charitable giving: A cross-cultural study in the United States and Mexico.",
-      "content": "Nostalgia, a past-oriented emotion characterized by complex affective responses, is a pervasive and fundamental human experience. Prior research has demonstrated that nostalgia serves various socioemotional functions, such as promoting a sense of belonging, enhancing one\u2019s perception of meaning in life, and boosting self-esteem. These positive emotions, in turn, can prompt individuals to engage in other-oriented behaviors, such as charitable giving. Building on this view, this study examined the impact of listening to nostalgic music on donation decisions. Undergraduate students in the United States (n = 83) and Mexico (n = 97) voluntarily participated in an online, one-on-one, experiment in which they listened to a series of self-selected nostalgic musical pieces and participated in a donation dictator game. Results indicated a significant relationship between music-evoked nostalgia and the amount of subsequent donations. Moreover, the study also found that individual differences in empathy, agreeableness (one of the Big Five personality traits), and perceived financial well-being also influenced the participants\u2019 donation decisions. Notably, the effects of these factors showed slight variations across the U.S. and Mexican samples, suggesting the role of culture in individual donation decisions. (PsycInfo Database Record (c) 2025 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2024-01-22T00:00:00+00:00",
-      "source": "Psychomusicology",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 192,
-      "reading_time": 1,
-      "created_at": "2026-08-18T03:44:52.882937+00:00",
-      "updated_at": "2026-08-18T04:30:01.221132+00:00",
-      "metadata": {
-        "processed_at": "2026-08-18T04:30:01.221133+00:00",
         "processing_method": "github_actions"
       }
     }
