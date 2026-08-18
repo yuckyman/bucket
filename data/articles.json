@@ -1,5 +1,53 @@
 [
   {
+    "id": "84d785977d118f217abe7cbcde99e385",
+    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae9645",
+    "title": "Medial wall contributions to finger motor decoding from electrocorticography",
+    "content": "Objective. Future motor brain-computer interfaces (BCIs) are expected to benefit from integrating neural signals from multiple motor-related brain regions. While decoding studies have largely focused on lateral sensorimotor cortex, the medial wall of the cerebral hemisphere remains relatively underexplored. Here, we investigate the contribution of medial wall regions to finger movement decoding using human electrocorticography (ECoG) recordings. Approach. We analyzed ECoG data from four subjects performing finger movements. Single- and multi-channel decoding analyses were applied to medial wall electrodes, examining the contribution of time-domain and frequency-domain features, including local motor potentials (LMP) and oscillatory power in the (8\u201312 Hz) and (12-34 Hz) bands. Decoding performance was assessed for movement detection and finger discrimination. Main results. Significantly above-chance finger movement detection was observed across multiple medial wall subregions. LMP and - band power contributed most strongly to decoding performance. Feature dynamics shared key properties with primary motor cortex, including pre-movement - desynchronization, while also exhibiting region-specific patterns such as anatomically dependent positive or negative LMP modulations. Although movement detection was the dominant outcome, medial wall channels in two subjects enabled significant differentiation between individual fingers. In one subject, both contralateral and ipsilateral finger movements could be decoded with some generalization across hands; however, this observation is based on a single case and should be interpreted as preliminary. Significance. These findings identify the medial wall as a viable source of motor-related signals for finger movement decoding, with potential for future invasive motor BCI applications, while underscoring the need for further studies to confirm generalizability across individuals.",
+    "author": "Eva Calvo Merino, Qiang Sun, Ine Dauwe, Evelien Carrette, Alfred Meurs, Dirk Van Roost, Paul Boon and Marc M Van Hulle",
+    "published_date": "2026-08-17T23:00:00+00:00",
+    "source": "Journal Neural Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 254,
+    "reading_time": 1,
+    "created_at": "2026-08-18T07:38:36.984008+00:00",
+    "updated_at": "2026-08-18T07:38:36.984009+00:00"
+  },
+  {
+    "id": "e473a466b9ce5e9c9af7e03c6dec2ad5",
+    "url": "https://iopscience.iop.org/article/10.1088/1741-2552/ae9227",
+    "title": "Diagnostic features predicted by deep learning improve human object recognition in simulated prosthetic vision",
+    "content": "Objective. Cortical visual prostheses aim to partially restore vision by electrically stimulating V1. Yet, their effectiveness is constrained by the limited number of simultaneously elicitable phosphenes. Identifying sparse but informative visual features for object recognition is therefore crucial to enable functional prosthetic vision. In this study, we aim to target diagnostic features for object recognition. Approach. We combined a deep learning pipeline with bioplausible phosphene simulation to optimize phosphene placement for object recognition. The phosphene renderings were presented to 63 participants who performed an object recognition task under simulated prosthetic vision with varying electrode densities. Main results. Performance in the proposed deep neural network (DNN) phosphene placement strategy was compared to contour-based and luminance-based phosphene placements. Results demonstrate that the DNN-based approach significantly reduces the number of phosphenes required for object recognition. Importantly, this advantage was especially pronounced at low level electrode densities. Significance. These findings indicate that DNNs can effectively identify diagnostic object features and enhance recognition under simulated prosthetic vision. The proposed pipeline provides a principled method for optimizing visual representations in cortical visual prostheses, highlighting the importance of task-relevant feature selection imposed by constraints on simultaneous stimulation capacity.",
+    "author": "Elsa Scialom, Ben Lonnqvist, Alban Bornet and Michael H Herzog",
+    "published_date": "2026-08-17T23:00:00+00:00",
+    "source": "Journal Neural Engineering",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 191,
+    "reading_time": 1,
+    "created_at": "2026-08-18T07:38:36.983964+00:00",
+    "updated_at": "2026-08-18T07:38:36.983968+00:00"
+  },
+  {
+    "id": "29b73692d4f76df2d7ccb631d19e3a09",
+    "url": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue",
+    "title": "Exercise intensity modulates interorgan communication and is associated with",
+    "content": "<p>Article URL: <a href=\"https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue\">https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791%2826%2900405-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666379126004052%3Fshowall%3Dtrue</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49341411\">https://news.ycombinator.com/item?id=49341411</a></p>\n<p>Points: 3</p>\n<p># Comments: 1</p>",
+    "author": "newsomix9xl",
+    "published_date": "2026-08-18T04:51:33+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-08-18T07:38:11.884139+00:00",
+    "updated_at": "2026-08-18T07:38:11.884149+00:00"
+  },
+  {
     "id": "09c1dc2570a59c46bda34d2505d4a79b",
     "url": "https://basecamp.com/managers",
     "title": "The 37signals Manager Playbook",
@@ -17112,66 +17160,6 @@
     "updated_at": "2026-08-13T18:55:30.280076+00:00",
     "metadata": {
       "processed_at": "2026-08-13T18:55:30.280077+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "6e2158efc63b037b94a0f7c208be8689",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.08.07.743267v1?rss=1",
-    "title": "GESTURE: Unsupervised Genotype-specific Behavioral Phenotyping in Rodents via Graph-based Representation Learning",
-    "content": "Objective quantification of complex animal behavior is fundamental to neuroscience and pharmacology, yet extracting biologically meaningful insights from high-dimensional pose data remains challenging. This is especially true for subtle phenotypic differences caused by genetic mutations, which frequently evade conventional evaluation metrics. Here, we introduce GESTURE, an unsupervised, graph-based deep generative framework that autonomously discovers and quantifies behavioral structure from raw pose dynamics. Analyzing mice with motor dysfunction alongside wild-type controls, GESTURE identifies a shared vocabulary of behavioral motifs. We show that genotype-specific differences arise from the differential usage of these motifs, yielding distinct \"behavioral fingerprints\" that reliably separate genotypes without supervision. By modeling behavior as a sequence rather than a static partition, GESTURE measures temporal organization directly: affected animals held motifs longer and transitioned more predictably, revealing a slowing and stereotyping of behavioral sequences rather than a simple reduction in activity. Importantly, GESTURE's graph-based representation enables training across multiple recordings and embedding behaviors into a shared latent space, supporting robust cross-animal comparisons and future cross-experiment alignment. Furthermore, automatically derived metrics of behavioral divergence track the temporal dynamics of expert-annotated disability scores, reaching agreement comparable to independent human raters. Finally, node- and edge-level explainability analyses indicate that the model's latent representations are shaped by a biologically plausible focus on the animal's core motor scaffold. Together, these results position GESTURE as an interpretable and scalable framework for automated behavioral phenotyping, linking genetic perturbation to quantitative behavioral phenotypes.",
-    "author": "Qiu, R., Farkhani, S., Janjua, T., Canko, E., Pedersen, K., Gastambide, F., Basirat, A., Ebbesen, C. L., Richter, U.",
-    "published_date": "2026-08-13T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 235,
-    "reading_time": 1,
-    "created_at": "2026-08-13T18:28:32.675445+00:00",
-    "updated_at": "2026-08-13T18:55:30.280079+00:00",
-    "metadata": {
-      "processed_at": "2026-08-13T18:55:30.280080+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "8c5ca7d6a9b9d52faf095424f65b86b2",
-    "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-    "title": "AI At Home Part 1: A Box Of Scraps",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=49288293\">Comments</a>",
-    "author": "",
-    "published_date": "2026-08-13T16:22:05+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-08-13T18:27:53.337970+00:00",
-    "updated_at": "2026-08-13T18:55:30.280082+00:00",
-    "metadata": {
-      "processed_at": "2026-08-13T18:55:30.280083+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "8c5ca7d6a9b9d52faf095424f65b86b2",
-    "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
-    "title": "AI At Home Part 1: A Box Of Scraps",
-    "content": "<a href=\"https://news.ycombinator.com/item?id=49288293\">Comments</a>",
-    "author": "",
-    "published_date": "2026-08-13T16:22:05+00:00",
-    "source": "Hacker News",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 2,
-    "reading_time": 1,
-    "created_at": "2026-08-13T18:27:53.337970+00:00",
-    "updated_at": "2026-08-13T18:55:30.280082+00:00",
-    "metadata": {
-      "processed_at": "2026-08-13T18:55:30.280083+00:00",
       "processing_method": "github_actions"
     }
   }
