@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-08-18T23:24:03.831094+00:00",
+  "last_updated": "2026-08-18T23:49:32.413854+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "3b95f2f52721393653ec94082e59d8f4",
+      "url": "https://linear.app/data",
+      "title": "AI usage patterns in software teams",
+      "content": "<p>Article URL: <a href=\"https://linear.app/data\">https://linear.app/data</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49353432\">https://news.ycombinator.com/item?id=49353432</a></p>\n<p>Points: 8</p>\n<p># Comments: 0</p>",
+      "author": "giuliomagnifico",
+      "published_date": "2026-08-18T22:08:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-18T23:48:19.225279+00:00",
+      "updated_at": "2026-08-18T23:48:19.225281+00:00"
+    },
+    {
+      "id": "99c61c6481163aa0e9b2b758c34a46c1",
+      "url": "https://dl.acm.org/doi/10.1145/3828685",
+      "title": "Programmable Property-Based Testing",
+      "content": "<p>Article URL: <a href=\"https://dl.acm.org/doi/10.1145/3828685\">https://dl.acm.org/doi/10.1145/3828685</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49353618\">https://news.ycombinator.com/item?id=49353618</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "author": "matt_d",
+      "published_date": "2026-08-18T22:22:41+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-18T23:48:19.225249+00:00",
+      "updated_at": "2026-08-18T23:48:19.225259+00:00"
+    },
     {
       "id": "32e878333c9383ca3e851ea8f55fc649",
       "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744727v1?rss=1",
@@ -289,38 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-08-18T22:24:35.630673+00:00",
       "updated_at": "2026-08-18T22:24:35.630674+00:00"
-    },
-    {
-      "id": "27237179fca3bf769e1819cee1fe4a60",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.13.744663v1?rss=1",
-      "title": "Lateral hypothalamic GABAergic projections to the dorsal pons and lateral preoptic area in feeding, predation, and reinforcement",
-      "content": "Lateral hypothalamic GABAergic (LHA-GABA) neurons regulate arousal, feeding, and reward-related behaviors, but how their downstream projections coordinate motivated behaviors across domains remains incompletely defined. Our histological analyses revealed that LHA-GABA fibers were distributed across the dorsal pons (DP) subregions, including the peri-locus coeruleus, laterodorsal tegmentum, and Barringtons nucleus, and extend throughout the lateral preoptic area (LPO), thereby refining existing anatomical descriptions. We then used optogenetics to systematically compare the effects of activating LHA-GABA somata and their projections to the DP and LPO across assays of feeding, non-food-directed gnawing, predatory behavior, real-time place preference, and operant self-stimulation. In sated mice, optogenetic activation of LHA-GABA somata or their terminals in the DP or LPO increased caloric food intake, whereas non-caloric cellulose intake was minimally affected during terminal stimulation. Across conditions, activation increased gnawing and shredding of non-food objects while reducing inactivity. In cricket hunting, stimulation increased cricket killing and consumption relative to controls. Similarly, all stimulation conditions supported positive-valence and reinforcement-related responding, as indicated by real-time place preference and operant self-stimulation. Together, these results provide new functional evidence that activation of LHA-GABA somata and projections to both the DP and LPO recruit largely overlapping behavioral responses across feeding, non-food behavior, predatory hunting, and reinforcement-related assays. These findings support a distributed hypothalamic output architecture in which major ascending and descending LHA-GABA pathways contribute to a shared motivational repertoire rather than wholly discrete behavioral functions.",
-      "author": "Huang, Y., Fan, W., Knuth, O., Jackson, A. C., Sciolino, N. R.",
-      "published_date": "2026-08-18T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 231,
-      "reading_time": 1,
-      "created_at": "2026-08-18T22:24:35.630648+00:00",
-      "updated_at": "2026-08-18T22:24:35.630653+00:00"
-    },
-    {
-      "id": "2e98cb8c6726f19f3179d6373124e989",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1884626",
-      "title": "Multi-way radial consistency pre-training for event based optical flow",
-      "content": "Optical flow estimation is a low-level module in computer vision, widely used in tasks such as visual odometry, autonomous driving, high dynamic range (HDR) imaging, and action recognition. Existing event-based optical flow estimation approaches suffer from scarcity of dense real-world datasets, while some unsupervised frameworks have reduced reliance on large-scale datasets by forward-backward consistency loss, they primarily exploit a 1D temporal reversal, while largely ignoring the rotational and scaling motions ubiquitous in robotics and automotive scenes. This work introduces radial consistency, a self-supervised pre-training framework that maps the event stream to log-polar coordinates and tessellates the spatial domain into K radial rings and L angular sectors, a shared encoder-decoder to predict four complementary flow fields whose cyclic sum is driven to zero, yielding a closed-loop constraint that generalizes the classical forward-backward check to 360\u00b0 within a sector. Our core contribution, the radial consistency loss, is completely label-free, together with auxiliary terms, enabling self-supervised pre-training on large-scale event data. We optionally apply supervised fine-tuning on small labeled sets to adapt to specific domains, achieving competitive accuracy with fully supervised methods. Validation experiments on Multi Vehicle Stereo Event Camera (MVSEC) dataset demonstrate strong performance: our method achieves 0.67 EPE averaged across all sequences, surpassing E-RAFT (0.89 EPE) and EV-FlowNet (1.10 EPE), without any additional data. On the rotation-heavy indoor_flying3 sequence specifically, we achieve 0.93 EPE (fine-tuned) and 1.49 EPE (self-supervised only) vs. E-RAFT 1.66. We also improve upon E-RAFT in computational efficiency [55 frames per second (FPS) and 26 giga floating-point operations (GFLOPs) vs. 42 FPS and 38 GFLOPs], while requiring only minimal supervised fine-tuning.",
-      "author": "Tao Wenyin",
-      "published_date": "2026-07-16T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 263,
-      "reading_time": 1,
-      "created_at": "2026-08-18T22:24:22.595289+00:00",
-      "updated_at": "2026-08-18T22:24:22.595289+00:00"
     }
   ]
 }
