@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-08-19T22:53:14.262691+00:00",
+  "last_updated": "2026-08-19T23:24:23.165205+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "c0c7e97fd1a2bc6308b9fbe4d51f5572",
+      "url": "http://www.jneurosci.org/cgi/content/short/46/29/etwij46292026?rss=1",
+      "title": "This Week in The Journal",
+      "content": "",
+      "author": "McKeon, P.",
+      "published_date": "2026-07-22T16:30:27+00:00",
+      "source": "Journal Neuroscience This Week",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-19T23:23:47.705927+00:00",
+      "updated_at": "2026-08-19T23:23:47.705929+00:00"
+    },
+    {
+      "id": "8489de7ef8dda6d31ef9122a20532fb1",
+      "url": "https://www.reddit.com/r/Python/comments/1vt1a1m/discover_when_a_feature_was_added_to_python/",
+      "title": "Discover when a feature was added to Python",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I made a tool to discover when a feature was added to Python.</p> <p>It's <a href=\"https://www.pythonmorsels.com/since/\">online here</a> and on PyPI as <a href=\"https://pypi.org/project/sincewhen/\">sincewhen</a>.</p> <p>You can look up a feature <strong>by name</strong> or <strong>paste code</strong> to look up all the features within it (that only works for code written using modern Python syntax).</p> <p>That page shows <a href=\"https://www.pythonmorsels.com/since/#stories-heading\">some example feature story arcs</a> that can be discovered with this.</p> <p>I made this primarily as <strong>a teaching tool</strong> so I can better answer questions from my Python-learning students with a bit more historical context.</p> <p><strong>Note</strong>: I feel this qualifies more as a &quot;resource&quot; than a &quot;showcase&quot;. I'm embracing EAFP over LBYL and hoping for the best. Call me out of I'm wrong here.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/treyhunner\"> /u/treyhunner </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1vt1a1m/discover_when_a_feature_was_added_to_python/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1vt1a1m/discover_when_a_feature_was_added_to_python/\">[comments]</a></span>",
+      "author": "/u/treyhunner",
+      "published_date": "2026-08-19T22:27:58+00:00",
+      "source": "Reddit Python",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 141,
+      "reading_time": 1,
+      "created_at": "2026-08-19T23:23:15.144334+00:00",
+      "updated_at": "2026-08-19T23:23:15.144336+00:00"
+    },
     {
       "id": "3e14bebf2ee8874f58511ac4cd9ecf2e",
       "url": "https://www.sciencedirect.com/science/article/pii/S1053811926004854?dgcid=rss_sd_all",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-08-19T21:25:53.581426+00:00",
       "updated_at": "2026-08-19T21:25:53.581427+00:00"
-    },
-    {
-      "id": "a678b2801da4b1099ab6399fa0830871",
-      "url": "https://inco.ai/blog/dflash2/",
-      "title": "DFlash 2: Keep Drafting Parallel",
-      "content": "<p>Article URL: <a href=\"https://inco.ai/blog/dflash2/\">https://inco.ai/blog/dflash2/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49366792\">https://news.ycombinator.com/item?id=49366792</a></p>\n<p>Points: 13</p>\n<p># Comments: 1</p>",
-      "author": "mike-the-brain",
-      "published_date": "2026-08-19T20:28:43+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-08-19T21:25:53.581401+00:00",
-      "updated_at": "2026-08-19T21:25:53.581409+00:00"
-    },
-    {
-      "id": "eb2b7b17bf058e5374df17013bc9f312",
-      "url": "http://ieeexplore.ieee.org/document/11592159",
-      "title": "Modeling Partial and Total Support of Left Ventricular Assist Device for Discrete Hemodynamic Control Framework",
-      "content": "Objectives: This study develops a model-based control framework integrating a left ventricular assist device (LVAD) with drug therapy to regulate multidimensional hemodynamics (mean arterial pressure, cardiac output, and left and right atrial pressures) while minimizing myocardial oxygen consumption ($MVO_{2}$) in acute heart afailure (AHF). By modeling the hemodynamic and $MVO_{2}$ effects of partial and total LVAD support, the framework enables combined drugs\u2013LVAD therapy for severe AHF cases where drug therapy alone is not effective. Methods: A previously developed hemodynamic control framework was extended to incorporate LVAD support. Using circulatory equilibrium models under LVAD support, an analytical $MVO_{2}$ model encompassing both LVAD modes was derived from the relationship between $MVO_{2}$ and the ventricular pressure-volume area. An optimal controller explicitly accounts for transitions between partial and total LVAD support. In our cardiovascular simulator, we validated the $MVO_{2}$ model and evaluated the framework\u2019s multidimensional hemodynamic regulation and $MVO_{2}$ minimization capabilities. Results: The $MVO_{2}$ model accurately predicted $MVO_{2}$ across the two LVAD modes. In a severe AHF scenario, drug therapy or LVAD support alone failed, whereas the combined drugs\u2013LVAD controller succeeded in achieving both hemodynamic regulation and $MVO_{2}$ minimization. Compared with drug therapy alone, drugs\u2013LVAD control using the proposed $MVO_{2}$ model halved $MVO_{2}$ while achieving multidimensional regulation. Conclusions: Our drugs\u2013LVAD framework may enable multidimensional hemodynamic regulation while reducing $MVO_{2}$ in severe AHF. Modeling both partial and total LVAD support may be essential for hemodynamic management. Significance: This work provides a theoretical basis for integrated drugs\u2013LVAD control to achieve target hemodynamics while reducing cardiac workload.",
-      "author": "",
-      "published_date": "2026-07-01T13:18:08+00:00",
-      "source": "Transactions Biomedical Engineering",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 250,
-      "reading_time": 1,
-      "created_at": "2026-08-19T20:57:30.754399+00:00",
-      "updated_at": "2026-08-19T20:57:30.754401+00:00"
     }
   ]
 }
