@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-08-20T21:00:13.617159+00:00",
+  "last_updated": "2026-08-20T21:36:11.010630+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "3d370217cb4a351bb54e7854066e15c3",
+      "url": "https://erpinfo.org/blog/2024/2/4/optimal-filters",
+      "title": "New Papers: Optimal Filter Settings for ERP Research",
+      "content": "<p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (in press). Optimal filters for ERP research I: A general approach for selecting filter settings. <em>Psychophysiology</em>. <a href=\"https://doi.org/10.1111/psyp.14531\"><span>https://doi.org/10.1111/psyp.14531</span></a> [<a href=\"https://www.researchgate.net/publication/377773270_Optimal_filters_for_ERP_research_I_A_general_approach_for_selecting_filter_settings\"><span>preprint</span></a>]</p><p class=\"\">Zhang, G., Garrett, D. R., &amp; Luck, S. J. (in press). Optimal filters for ERP research II: Recommended settings for seven common ERP components. <em>Psychophysiology</em>. <a href=\"https://doi.org/10.1111/psyp.14530\"><span>https://doi.org/10.1111/psyp.14530</span></a> [<a href=\"https://www.researchgate.net/publication/377766656_Optimal_filters_for_ERP_research_II_Recommended_settings_for_seven_common_ERP_components\"><span>preprint</span></a>]</p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n\n    \n  \n    \n\n      \n\n      \n        <figure class=\"\n              sqs-block-image-figure\n              intrinsic\n            \">\n          \n        \n        \n\n        \n          \n            \n          \n            \n                \n                \n                \n                \n                \n                \n                \n                <img alt=\"\" height=\"1490\" src=\"https://images.squarespace-cdn.com/content/v1/5abefa62d274cb16de90e935/d64086cc-e3b4-457d-89df-08d9b3f96439/Filter_Table.png?format=1000w\" width=\"2062\" />\n\n            \n          \n        \n          \n        \n\n        \n      \n        </figure>\n      \n\n    \n  \n\n\n  \n\n\n\n\n\n  <p class=\"\">What filter settings should you apply to your ERP data? If your filters are too weak to attenuate the noise in your data, your effects may not be statistically significant. If your filters are too strong, they may create artifactual peaks that lead you to draw bogus conclusions.</p><p class=\"\">For years, I have been recommending a bandpass of 0.1\u201330 Hz for most cognitive and affective research in neurotypical young adults. In this kind of research, I have found that filtering from 0.1\u201330 Hz usually does a good job of minimizing noise while creating minimal waveform distortion. </p><p class=\"\">However, this recommendation was based on a combination of informal observations from many experimental paradigms and a careful examination of a couple paradigms, so it was a bit hand-wavy. In addition, the optimal filter settings will depend on the waveshape of the ERP effects and the nature of the noise in a given study, so I couldn\u2019t make any specific recommendations about other experimental paradigms and participant populations. Moreover, different filter settings may be optimal for different scoring methods (e.g., mean amplitude vs. peak amplitude vs. peak latency).</p><p class=\"\">Guanghui Zhang, David Garrett, and I spent the last year focusing on this issue. First we developed a general method that can be used to determine the optimal filter settings for a given dataset and scoring method (see <a href=\"https://doi.org/10.1111/psyp.14531\"><span>this paper</span></a>). Then we applied this method to the <a href=\"https://doi.org/10.1016/j.neuroimage.2020.117465\"><span>ERP CORE</span></a> data to determine the optimal filter settings for the N170, MMN, P3b, N400, N2pc, LRP, and ERN components in neurotypical young adults (see <a href=\"https://doi.org/10.1111/psyp.14530\"><span>this paper</span></a> and the table above).</p><p class=\"\">If you are doing research with these components (or similar components) in neurotypical young adults, you can simply use the filter settings that we identified. If you are using a very different paradigm or testing a very different subject population, you can apply our method to your own data to find the optimal settings. We added some new tools to <a href=\"https://github.com/ucdavis/erplab\"><span>ERPLAB Toolbox</span></a> to make this easier.</p><p class=\"\">One thing that we discovered was that our old recommendation of 0.1\u201330 Hz does a good job of avoiding filter artifacts but is overly conservative for some components. For example, we can raise the low end to 0.5 Hz when measuring N2pc and MMN amplitudes, which gets rid of more noise without producing problematic waveform distortions. And we can go all the way up to 0.9 Hz for the N170 component. However, later/slower components like P3b and N400 require lower cutoffs (no higher than 0.2 Hz).</p><p class=\"\">You might be wondering how we defined the \u201coptimal\u201d filter settings. At one level, the answer is simple: The optimal filter is the one that maximizes the signal-to-noise ratio without producing too much waveform distortion. The complexities arise in quantifying the signal-to-noise ratio, quantifying the waveform distortion, and deciding how much waveform distortion is \u201ctoo much\u201d. We believe we have found reasonably straightforward and practical solutions to these problems, which you can read about in the published papers.</p>",
+      "author": "Steve Luck",
+      "published_date": "2024-02-04T23:46:20+00:00",
+      "source": "Erp Boot Camp",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 568,
+      "reading_time": 2,
+      "created_at": "2026-08-20T21:36:02.256760+00:00",
+      "updated_at": "2026-08-20T21:36:02.256762+00:00"
+    },
+    {
+      "id": "1348eff8059203eea8f1cf0c47dfeafd",
+      "url": "https://brain.ieee.org/podcasts/qa-with-dr-richard-carson-professor-of-biomedical-engineering-and-radiology-biomedical-imaging-yale-university-and-yale-school-of-medicine/",
+      "title": "Q&A with Dr. Richard Carson, Professor of Biomedical Engineering and Radiology & Biomedical Imaging, Yale University and Yale School of Medicine",
+      "content": "",
+      "author": "Adriel Carridice",
+      "published_date": "2025-11-04T18:24:59+00:00",
+      "source": "Brain",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-20T21:35:59.615914+00:00",
+      "updated_at": "2026-08-20T21:35:59.615915+00:00"
+    },
     {
       "id": "c428be790e00642158b29b4674ac0fc1",
       "url": "https://www.reddit.com/r/Python/comments/1vtuoyp/i_need_to_frame_my_photos_so_i_frame_all_with/",
@@ -309,38 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-08-20T19:32:27.798324+00:00",
       "updated_at": "2026-08-20T19:32:27.798326+00:00"
-    },
-    {
-      "id": "041fc3674d967bb19eee27f2ca5f5536",
-      "url": "https://consumerrights.wiki/w/Main_Page",
-      "title": "Consumer Rights Wiki",
-      "content": "<p>Article URL: <a href=\"https://consumerrights.wiki/w/Main_Page\">https://consumerrights.wiki/w/Main_Page</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49378243\">https://news.ycombinator.com/item?id=49378243</a></p>\n<p>Points: 10</p>\n<p># Comments: 0</p>",
-      "author": "gregsadetsky",
-      "published_date": "2026-08-20T18:19:51+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-08-20T19:32:26.713529+00:00",
-      "updated_at": "2026-08-20T19:32:26.713531+00:00"
-    },
-    {
-      "id": "d8290ac317dbe124c68385c75f7569a5",
-      "url": "https://kandelo.dev/20260819-demo/",
-      "title": "Show HN: Kandelo \u2013 a POSIX-compatible multi-process WASM kernel for the browser",
-      "content": "<p>Kandelo is an open-source, Wasm-based multi-process kernel that runs POSIX programs in browsers and Node.js.<p>Kandelo is still experimental, but it already runs a substantial range of existing software.<p><i>Do you have use cases for this?</i><p>We are trying Kandelo as a new foundation for WordPress Playground which runs server-side WordPress entirely in the browser. Kandelo also looks promising as a sandbox for running agents in the the browser and on the command line. On the side, we've been playing with porting games and desktop environments and even compiling runnable programs within Kandelo.<p>Yet it feels like there are many possibilities we haven't considered.<p>How would you like to use something like this?<p><i>Demos:</i><p>Some notes: The demos have been tested in desktop browsers. Unfortunately, YMMV on mobile today. Some of the disk images are large (~50MB) and may take a while to boot initially.<p>Main set, with Shell (bash, vim, nethack, and more), Nginx, PHP, WordPress, and Doom:\n<a href=\"https://kandelo.dev/20260819-demo/\" rel=\"nofollow\">https://kandelo.dev/20260819-demo/</a><p>L\u00d6VE game engine:\n<a href=\"https://kandelo.dev/20260819-demo-love/\" rel=\"nofollow\">https://kandelo.dev/20260819-demo-love/</a><p>SNKRX running under L\u00d6VE:\n<a href=\"https://kandelo.dev/20260819-demo-love/?vfs=love-snkrx-abi44.vfs.zst\" rel=\"nofollow\">https://kandelo.dev/20260819-demo-love/?vfs=love-snkrx-abi44...</a><p>Commander Keen running in DOSBox:\n<a href=\"https://kandelo.dev/20260819-demo-dos/?demo=keen\" rel=\"nofollow\">https://kandelo.dev/20260819-demo-dos/?demo=keen</a><p>LXDE desktop PoC:\n<a href=\"https://kandelo.dev/20260819-demo-lxde/?demo=desktop-lxde\" rel=\"nofollow\">https://kandelo.dev/20260819-demo-lxde/?demo=desktop-lxde</a><p><i>Background</i><p>I wanted an authentic OS-level foundation for running systems software in the browser and started this as a vibe-coded exploration. I figured it would end up being too slow and that we would have to offer many different ways to compromise default POSIX behavior to get anything usable. But after weeks of fighting agents, insisting on genuine POSIX compatibility as the default, I was surprised at how well the system worked without those compromises.<p>Nginx, PHP, Python, Ruby, Redis, and even MariaDB were able to be built using the SDK with minimal hacks.<p>Then we started porting games, having fun, and playing to see how far we could push it.<p><i>Notes on architecture:</i><p>There is a central, single-worker kernel, aiming to provide all supportable POSIX syscalls. Each process is a dedicated worker with independent memory. Each process thread is a dedicated worker that shares memory with threads from the same process. Syscalls are done with the process SharedArrayBuffer and the Atomics API. fork() is supported. The system is centered around virtual file system (VFS) images, and the VFS can contain lazy references to programs that may or may not be used. Vim is such a reference in the shell demo.<p><i>On GitHub:</i>\n<a href=\"https://github.com/Automattic/kandelo\" rel=\"nofollow\">https://github.com/Automattic/kandelo</a></p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49378305\">https://news.ycombinator.com/item?id=49378305</a></p>\n<p>Points: 6</p>\n<p># Comments: 2</p>",
-      "author": "brandonpayton",
-      "published_date": "2026-08-20T18:25:30+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 387,
-      "reading_time": 1,
-      "created_at": "2026-08-20T19:32:26.713509+00:00",
-      "updated_at": "2026-08-20T19:32:26.713510+00:00"
     }
   ]
 }
