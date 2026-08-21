@@ -1,5 +1,37 @@
 [
   {
+    "id": "216e10034e63b75e5a32908003725e6f",
+    "url": "https://ozbrain.com",
+    "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=49394827\">Comments</a>",
+    "author": "",
+    "published_date": "2026-08-21T23:09:06+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-08-21T23:49:55.339379+00:00",
+    "updated_at": "2026-08-21T23:49:55.339381+00:00"
+  },
+  {
+    "id": "216e10034e63b75e5a32908003725e6f",
+    "url": "https://ozbrain.com",
+    "title": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+    "content": "<p>I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I\u2019m not sure who exactly wins it, but I want my knowledge to grow/go with me.<p>A lot of the \u201cknowledge\u201d ie research, analysis, reasoning will be done by agents as the primary user. Our current notes tools & tasks management systems were built for humans\u2026 I don\u2019t care what the 17th thing on my bug backlog is. I want to conduct agents that can execute for me and do great work.<p>What I built OzBrain to do:\n+ Create a central place for agent reasoned knowledge to live\n+ Be agnostic about what apps/agents connect to it\n+ Capture everything and track it so I can audit it\n+ Enable teams, collaborators or partners to share brains\n+ Handle conflicts so many agents in the same article doesn\u2019t blow up\n+ Refactor knowledge into more token friendly chunks and map the index well\n+ Close the knowledge loop so new thinking supersedes old thinking across the corpus. Don\u2019t erase, depreciate and link\n+ Keep user data safe and secure\n++ Be easy enough to use that you don\u2019t have to have any technical knowledge<p>Some among us will always build their own custom solutions, but there are millions of tech professionals and small business owners that will use agents heavily and need a solution. So I\u2019m trying to build that.<p>Isn\u2019t this like gBrain? Yes, similar. I think it\u2019s like AWS vs Vercel. AWS is very powerful, configurable, and useful if you\u2019re technical and want to invest the time into really fine tuning your system\u2026 but if you just want your web deploy/hosting to just work and be easy to deal with you use Vercel.<p>// WHY I MADE IT<p>I\u2019ve been enjoying getting back to my technical roots, as I lost my coding skills more than a decade ago, but with AI I can focus on the system and the product in partnership with agent coding workflows.<p>I recently built a Voice AI for older people. To build it I created an agentic engineering workflow (feel free to rip that up as I\u2019m always looking to improve systems: <a href=\"https://ozbrain.com/resources/eng-flow\" rel=\"nofollow\">https://ozbrain.com/resources/eng-flow</a>) My approach with coding agents is trust but verify, and I\u2019m trying to replace the parts where a human would review with an adversarial or specialized agent who would give a better answer/review.<p>I have workflows that will go high level task to shipped PR running in Claude cloud sessions. I use Claude Code locally and Cursor when I want a tighter loop on doing visual work like UI or layout. And Codex to either load balance usage for TokenThriffting or when I want a different llm to think thru something.<p>It was a pain in the ass passing .md files around and keep track of which version was the most recent, so I built a hosted .md storage right in Supabase and any of my agents already have Supabase access. This let me build a solid, scalable, secure voice AI from my phone at the gym. All my agents have access to our knowledge, can write to it, update and refer to it as we build and improve the product and the systems we use.<p>Out of 75 founder friends I asked about how they manage shared knowledge, 26 built their own custom knowledge systems\u2026 Obsidian vaults with 7k files synced through a VPS, markdown repos behind their own MCP servers, cron jobs stitching Supabase to a skills file\u2026 each a different Frankenstein they have to maintain. 32 said they felt the pain of moving static files around but didn\u2019t have any solution for it.<p>So I rebuilt my brain better and used it to build it.<p>// HOW YOU CAN HELP<p>Would love to have you try it out. The maintenance loop is still in alpha so not running it on customer data yet.<p>If you built your own brain I\u2019d love to hear how you did it. What criteria was most important for you in its design & function.<p>If you are tired of shuffling .md files around I\u2019d love to have you try out OzBrain and to give feedback, just ask your agent to put it in the shared bugs & features brain!<p>Cheers!\nBubs.co</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49394827\">https://news.ycombinator.com/item?id=49394827</a></p>\n<p>Points: 8</p>\n<p># Comments: 1</p>",
+    "author": "dariusmonsef",
+    "published_date": "2026-08-21T23:09:06+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 714,
+    "reading_time": 3,
+    "created_at": "2026-08-21T23:49:54.037103+00:00",
+    "updated_at": "2026-08-21T23:49:54.037113+00:00"
+  },
+  {
     "id": "31bf83f3112295f3aded8b64d519ad65",
     "url": "https://www.wsj.com/lifestyle/careers/ghost-job-ads-are-getting-so-bad-that-lawmakers-want-to-ban-them-2580bc3e",
     "title": "'Ghost Job' Ads Are Getting So Bad That Lawmakers Want to Ban Them",
@@ -17014,37 +17046,5 @@
     "reading_time": 1,
     "created_at": "2026-08-17T19:29:18.646169+00:00",
     "updated_at": "2026-08-17T19:29:18.646170+00:00"
-  },
-  {
-    "id": "fb1d9c246a9f2420fe704953eaaa1ecf",
-    "url": "https://arxiv.org/abs/2608.13759",
-    "title": "GPU Offload in Rust: Portable, Safe, and Fast",
-    "content": "<p>Article URL: <a href=\"https://arxiv.org/abs/2608.13759\">https://arxiv.org/abs/2608.13759</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49334991\">https://news.ycombinator.com/item?id=49334991</a></p>\n<p>Points: 14</p>\n<p># Comments: 1</p>",
-    "author": "linggen",
-    "published_date": "2026-08-17T17:54:59+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-08-17T19:29:17.570620+00:00",
-    "updated_at": "2026-08-17T19:29:17.570621+00:00"
-  },
-  {
-    "id": "cf31f01978d7663809618fab62b824e5",
-    "url": "https://secretspec.dev/blog/we-are-forking-dotenvy-into-dotenv-ng/",
-    "title": "We Are Forking dotenvy into dotenv-ng",
-    "content": "<p>Article URL: <a href=\"https://secretspec.dev/blog/we-are-forking-dotenvy-into-dotenv-ng/\">https://secretspec.dev/blog/we-are-forking-dotenvy-into-dotenv-ng/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49335001\">https://news.ycombinator.com/item?id=49335001</a></p>\n<p>Points: 13</p>\n<p># Comments: 5</p>",
-    "author": "linggen",
-    "published_date": "2026-08-17T17:55:24+00:00",
-    "source": "Hacker News",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 13,
-    "reading_time": 1,
-    "created_at": "2026-08-17T19:29:17.570596+00:00",
-    "updated_at": "2026-08-17T19:29:17.570598+00:00"
   }
 ]
