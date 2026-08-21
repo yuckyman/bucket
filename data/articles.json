@@ -1,5 +1,37 @@
 [
   {
+    "id": "699f9f02e30e1976b84192a53e68252b",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1810223",
+    "title": "Explainable 3D vision transformer framework for detecting brain anomalies in neuropsychiatric subtypes of Parkinson's disease",
+    "content": "IntroductionNeuropsychiatric manifestations, such as impulse control disorders (ICD) and apathy, are common in Parkinson's disease (PD) and significantly impact patient quality of life, yet their underlying neuroanatomical substrates remain poorly understood. This study presents an explainable artificial intelligence (XAI) framework to investigate these phenotypes using structural MRI.MethodsWe employed a 3D Vision Transformer (MobileViT-3D) trained on T1-weighted images from 364 drug-naive PD patients, stratified into four subgroups: idiopathic PD (PD), PD with apathy (PD + A), PD with ICD (PD + ICD), and PD with both conditions (PD + A + ICD). To interpret the model's decision making, Guided Backpropagation and Integrated Gradients were applied to generate saliency maps, followed by a multi-level statistical analysis. Based on these patterns, volumes of interest (VOI) were defined. Conventional morphometric (e.g., cortical thickness) and radiomic texture features were obtained from each VOI applied to each subject.ResultsVoxel-wise analysis of saliency maps suggested group-level differences after correction for multiple comparisons (p \u2264 0.05 FWE) in prefrontal, temporal, and cerebellar regions of the neuropsychiatric conditions compared to PD. While no significant group differences were observed for morphometric features, radiomic texture analysis identified eight features associated with differences between the PD + A + ICD group and idiopathic PD. These features included texture metrics indicative of increased heterogeneity and complexity.DiscussionOverall, these findings provide preliminary evidence that a combined XAI and radiomic approach may help identify subtle, texture-based neuroanatomical signatures associated with the co-occurrence of apathy and ICD in early PD that are not readily captured by conventional univariate analyzes. This framework may support the generation of clinically relevant hypotheses regarding the neural correlates of heterogeneous neuropsychiatric symptoms in PD.",
+    "author": "Francis R. Loayza",
+    "published_date": "2026-07-15T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 271,
+    "reading_time": 1,
+    "created_at": "2026-08-21T19:49:38.168335+00:00",
+    "updated_at": "2026-08-21T19:49:38.168336+00:00"
+  },
+  {
+    "id": "a59e17e2fadbd50391ee213e70dda890",
+    "url": "https://www.acm.org/articles/people-of-acm/2026/russ-cox",
+    "title": "People of ACM \u2013 Russ Cox",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=49327408\">Comments</a>",
+    "author": "",
+    "published_date": "2026-08-17T07:12:15+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-08-21T19:49:07.216450+00:00",
+    "updated_at": "2026-08-21T19:49:07.216452+00:00"
+  },
+  {
     "id": "57275035cbd8e31b92e82ba4e6aa8063",
     "url": "https://www.embs.org/uncategorized/welcoming-the-newly-elected-embs-adcom-members-for-2026-2028/",
     "title": "Welcoming the Newly Elected EMBS AdCom Members for 2026\u20132028",
@@ -16970,37 +17002,5 @@
     "reading_time": 1,
     "created_at": "2026-08-17T18:44:05.302210+00:00",
     "updated_at": "2026-08-17T18:44:05.302212+00:00"
-  },
-  {
-    "id": "c6bf37d5cc5ecbbbaaa1e1d24bbfa0b7",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.08.11.744123v1?rss=1",
-    "title": "Amyloid-Tau PET Fusion Reveals Covarying Network Territories Linked to Disease Stage, Cognition, and APOE4 in Alzheimer's Disease",
-    "content": "Background: Amyloid-beta (A{beta}) and Tau are defining pathologies of Alzheimer's disease, but their relationship varies substantially across the brain. Amyloid deposition is spatially widespread, whereas Tau shows greater regional heterogeneity and closer relationships with disease severity. Consequently, understanding the disease requires more than measuring the two pathologies independently or summarizing them within predefined regions. A major unresolved question is how Amyloid and Tau covary across the whole brain, where their spatial patterns converge or diverge, and whether their local combination carries distinct information about disease stage and cognition. Methods: We analyzed paired florbetapir Amyloid PET and flortaucipir Tau PET from the Alzheimer's Disease Neuroimaging Initiative (ADNI), comprising 378 paired imaging sessions from 320 participants spanning cognitively normal (CN), mild cognitive impairment (MCI), and Alzheimer's Dementia (AD). High-order joint independent component analysis was used to identify fine-grained, data-driven patterns of Amyloid Tau covariance across individuals. The resulting Amyloid and Tau maps were characterized by their spatial similarity and correspondence with rsfMRI-derived intrinsic functional networks. We then used the same data-driven spatial regions to quantify, for each participant, the relative extent of Amyloid abnormality alone, Tau abnormality alone, and spatially overlapping Amyloid-Tau abnormality. Results: Ninety-six non-artifactual Amyloid-Tau components were identified, of which 73 showed appreciable spatial correspondence between their paired Amyloid and Tau maps, while 17 were Tau-localized and 6 Amyloid-localized. Amyloid component maps more frequently corresponded with rsfMRI-derived intrinsic network organization than Tau maps. Expression of the joint components differed across diagnosis groups, demonstrating spatially heterogeneous disease-stage patterns. Within the same data-driven regions, isolated Amyloid, isolated Tau, and overlapping Amyloid-Tau abnormality showed markedly different disease-stage profiles: Amyloid-only abnormality was more prominent in the earlier CN-to-MCI contrast, Tau-only abnormality in contrasts involving AD, whereas spatially overlapping Amyloid-Tau abnormality showed the broadest differences across disease stages and the largest mean CN-to-AD expansion. Overlapping abnormality was also associated with cognition across the greatest number of components and showed the strongest overall association with ADAS13. APOE4-related diagnosis-stage differences were considerably more widespread for pathology measures containing Amyloid than for Tau-only abnormality. Keywords: Alzheimer's disease; Amyloid PET; Tau PET; florbetapir; flortaucipir; joint ICA; multimodal fusion; ADNI",
-    "author": "Bimali, B., Chen, J., Iraji, A.",
-    "published_date": "2026-08-17T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 350,
-    "reading_time": 1,
-    "created_at": "2026-08-17T18:44:05.302159+00:00",
-    "updated_at": "2026-08-17T18:44:05.302164+00:00"
-  },
-  {
-    "id": "6f9e3ca8daa7e8c9dd9213654c6f7b87",
-    "url": "https://www.nature.com/articles/s41598-026-65589-z",
-    "title": "A mouse model of a rare ASD-implicated patient-derived SCN2A variant",
-    "content": "",
-    "author": "",
-    "published_date": "2026-08-17T00:00:00+00:00",
-    "source": "Nature Neuroscience Subjects",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 0,
-    "reading_time": 1,
-    "created_at": "2026-08-17T18:44:04.062080+00:00",
-    "updated_at": "2026-08-17T18:44:04.062082+00:00"
   }
 ]

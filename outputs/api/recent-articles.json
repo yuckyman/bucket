@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-08-21T19:27:30.514014+00:00",
+  "last_updated": "2026-08-21T19:50:26.198629+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "699f9f02e30e1976b84192a53e68252b",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1810223",
+      "title": "Explainable 3D vision transformer framework for detecting brain anomalies in neuropsychiatric subtypes of Parkinson's disease",
+      "content": "IntroductionNeuropsychiatric manifestations, such as impulse control disorders (ICD) and apathy, are common in Parkinson's disease (PD) and significantly impact patient quality of life, yet their underlying neuroanatomical substrates remain poorly understood. This study presents an explainable artificial intelligence (XAI) framework to investigate these phenotypes using structural MRI.MethodsWe employed a 3D Vision Transformer (MobileViT-3D) trained on T1-weighted images from 364 drug-naive PD patients, stratified into four subgroups: idiopathic PD (PD), PD with apathy (PD + A), PD with ICD (PD + ICD), and PD with both conditions (PD + A + ICD). To interpret the model's decision making, Guided Backpropagation and Integrated Gradients were applied to generate saliency maps, followed by a multi-level statistical analysis. Based on these patterns, volumes of interest (VOI) were defined. Conventional morphometric (e.g., cortical thickness) and radiomic texture features were obtained from each VOI applied to each subject.ResultsVoxel-wise analysis of saliency maps suggested group-level differences after correction for multiple comparisons (p \u2264 0.05 FWE) in prefrontal, temporal, and cerebellar regions of the neuropsychiatric conditions compared to PD. While no significant group differences were observed for morphometric features, radiomic texture analysis identified eight features associated with differences between the PD + A + ICD group and idiopathic PD. These features included texture metrics indicative of increased heterogeneity and complexity.DiscussionOverall, these findings provide preliminary evidence that a combined XAI and radiomic approach may help identify subtle, texture-based neuroanatomical signatures associated with the co-occurrence of apathy and ICD in early PD that are not readily captured by conventional univariate analyzes. This framework may support the generation of clinically relevant hypotheses regarding the neural correlates of heterogeneous neuropsychiatric symptoms in PD.",
+      "author": "Francis R. Loayza",
+      "published_date": "2026-07-15T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 271,
+      "reading_time": 1,
+      "created_at": "2026-08-21T19:49:38.168335+00:00",
+      "updated_at": "2026-08-21T19:49:38.168336+00:00"
+    },
+    {
+      "id": "a59e17e2fadbd50391ee213e70dda890",
+      "url": "https://www.acm.org/articles/people-of-acm/2026/russ-cox",
+      "title": "People of ACM \u2013 Russ Cox",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49327408\">Comments</a>",
+      "author": "",
+      "published_date": "2026-08-17T07:12:15+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-08-21T19:49:07.216450+00:00",
+      "updated_at": "2026-08-21T19:49:07.216452+00:00"
+    },
     {
       "id": "57275035cbd8e31b92e82ba4e6aa8063",
       "url": "https://www.embs.org/uncategorized/welcoming-the-newly-elected-embs-adcom-members-for-2026-2028/",
@@ -289,38 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-08-21T18:49:10.864075+00:00",
       "updated_at": "2026-08-21T18:49:10.864076+00:00"
-    },
-    {
-      "id": "487dcd058245b1413492a0ed0b00be6e",
-      "url": "https://www.economist.com/graphic-detail/2026/08/18/does-ai-stop-children-from-learning",
-      "title": "AI boosted homework scores, then exam scores dropped: study",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49357530\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-19T06:13:31+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-21T18:49:10.864039+00:00",
-      "updated_at": "2026-08-21T18:49:10.864040+00:00"
-    },
-    {
-      "id": "0061d2bebc01e0e2c029b8485e09b34d",
-      "url": "https://github.com/aravpanwar/decayfmt",
-      "title": "Decayfmt \u2013 a file format that corrupts itself a little every time you open it",
-      "content": "<p>Article URL: <a href=\"https://github.com/aravpanwar/decayfmt\">https://github.com/aravpanwar/decayfmt</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49390206\">https://news.ycombinator.com/item?id=49390206</a></p>\n<p>Points: 16</p>\n<p># Comments: 4</p>",
-      "author": "unprovable",
-      "published_date": "2026-08-21T16:09:50+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-08-21T18:49:09.744563+00:00",
-      "updated_at": "2026-08-21T18:49:09.744564+00:00"
     }
   ]
 }
