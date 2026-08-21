@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-08-21T21:26:05.061622+00:00",
+  "last_updated": "2026-08-21T21:51:38.655139+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "6cf38f22af8cb498a95e9fb3d0184ac2",
+      "url": "https://www.embs.org/uncategorized/adcom-nominations-2027/",
+      "title": "EMBS AdCom Nominations Open",
+      "content": "<p>Nominate volunteers for terms starting Jan 1, 2027: Asia Pacific Rep (3 yr), Technical Rep (3 yr), Student Rep (2 yr), Young Professional Rep (2 yr). Help shape the future&#8230; <a class=\"continue\" href=\"https://www.embs.org/uncategorized/adcom-nominations-2027/\">Continue Reading<span> EMBS AdCom Nominations Open</span></a></p>\n<p>The post <a href=\"https://www.embs.org/uncategorized/adcom-nominations-2027/\">EMBS AdCom Nominations Open</a> appeared first on <a href=\"https://www.embs.org\">IEEE EMBS</a>.</p>",
+      "author": "Nancy Zimmerman",
+      "published_date": "2026-05-04T15:28:33+00:00",
+      "source": "Embs",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 51,
+      "reading_time": 1,
+      "created_at": "2026-08-21T21:51:21.403968+00:00",
+      "updated_at": "2026-08-21T21:51:21.403970+00:00"
+    },
     {
       "id": "fd00868f9d462317c1f438dd265db241",
       "url": "https://www.ycombinator.com/companies/salespatriot/jobs/M46X6YX-forward-deployed-engineer",
@@ -325,22 +341,6 @@
       "reading_time": 1,
       "created_at": "2026-08-21T18:49:45.145317+00:00",
       "updated_at": "2026-08-21T18:49:45.145319+00:00"
-    },
-    {
-      "id": "d6d9c1687cb3587cf0b710f5a23681da",
-      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1740746",
-      "title": "Predicting vasovagal syncope during head-up tilt test: three machine learning approaches",
-      "content": "IntroductionSyncope prediction during head-up tilt testing (HUTT) remains challenging due to the complex interplay between autonomic and cardiovascular responses. This study investigates three computational approaches to forecast HUTT outcomes using continuous electrocardiogram (ECG) and blood pressure recordings from 105 patients with a history of syncope who underwent HUTT following a modified Italian protocol.MethodsBeat-to-beat heart rate and blood pressure signals were analyzed using: (1) gradient boosting models applied to frequency-domain features of heart rate variability (HRV); (2) an analytical modeling approach employing k-nearest neighbors (kNN) regression on transformed physiological signals; and (3) an incremental neural network model.Results and DiscussionAmong these, the kNN regression approach provided the most consistent short-term forecasting of syncope probability, maintaining mean absolute errors below 0.13 for predictions up to 300 s before syncope onset. Gradient boosting models achieved promising classification performance with ROC AUC values up to 0.70, while the incremental network yielded moderate results. These findings demonstrate that data-driven analysis of early physiological changes can enable short-term forecasting of vasovagal syncope during HUTT, supporting the development of predictive tools for clinical risk assessment and personalized syncope management.",
-      "author": "Zoran Bosni\u0107",
-      "published_date": "2026-06-08T00:00:00+00:00",
-      "source": "Frontiers Neuroinformatics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 181,
-      "reading_time": 1,
-      "created_at": "2026-08-21T18:49:45.145279+00:00",
-      "updated_at": "2026-08-21T18:49:45.145280+00:00"
     }
   ]
 }
