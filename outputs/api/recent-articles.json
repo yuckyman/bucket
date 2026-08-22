@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-08-22T09:01:57.594081+00:00",
+  "last_updated": "2026-08-22T09:36:50.539078+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "d9d412cecd7f3b7d773cb2c47548229a",
+      "url": "https://www.nature.com/articles/s41598-026-63893-2",
+      "title": "Predictive functional network connectivity signature of infancy age and eye-region fixation behavior",
+      "content": "",
+      "author": "",
+      "published_date": "2026-08-22T00:00:00+00:00",
+      "source": "Nature Neuroscience Subjects",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 0,
+      "reading_time": 1,
+      "created_at": "2026-08-22T09:36:19.938712+00:00",
+      "updated_at": "2026-08-22T09:36:19.938713+00:00"
+    },
     {
       "id": "63efe0630b68f1908e98f172321c35b3",
       "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1799307",
@@ -345,22 +361,6 @@
       "reading_time": 1,
       "created_at": "2026-08-22T05:28:37.481384+00:00",
       "updated_at": "2026-08-22T05:28:37.481385+00:00"
-    },
-    {
-      "id": "612caa7a87b86c2776f3bef966db4422",
-      "url": "https://www.biorxiv.org/content/10.64898/2026.08.17.745285v1?rss=1",
-      "title": "Motion tolerance in wearable OPM-MEG using dynamic field nulling",
-      "content": "Wearable magnetoencephalography (MEG) enabled by optically pumped magnetometers (OPMs) promises improved comfort and motion tolerance. This is particularly beneficial when measuring brain activity in children who cannot sit still for long periods of time. Compared to cryogenic MEG, wearable MEG allows larger head movements, but they result in artifacts due to uncompensated background fields and reduce source localization accuracy. Spatial filtering methods can partially compensate these motion-induced artifacts, but they are most effective when used in combination with background field nulling. This is because accurate spatial filtering relies on an accurate estimate of the sensor gain and orientation of its sensitive axis. Through simulations, we first deduce the target residual background field that is necessary for accurate dipole localization (< 1 cm) in the presence of head movements. Using our open-source printed circuit board (PCB) coils, we develop a method to dynamically null the background field. We demonstrate that our dynamic field nulling method allows improved localization of somatosensory evoked fields (SEFs) by maintaining the background field below the target residual fields established in the simulations. Our study highlights the importance of tracking both the background field and the head position relative to the background field for quality assurance in wearable MEG.",
-      "author": "Jas, M., Matsubara, T., Stufflebeam, S. M., Sundaram, P., Ahlfors, S. P.",
-      "published_date": "2026-08-21T00:00:00+00:00",
-      "source": "Biorxiv Neuroscience",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 202,
-      "reading_time": 1,
-      "created_at": "2026-08-22T05:28:37.481344+00:00",
-      "updated_at": "2026-08-22T05:28:37.481348+00:00"
     }
   ]
 }
