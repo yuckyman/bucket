@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-08-22T08:22:14.316217+00:00",
+  "last_updated": "2026-08-22T08:31:31.995010+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "63efe0630b68f1908e98f172321c35b3",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1799307",
+      "title": "FUSION-AD: interpretable AI framework for risk assessment and subgroup discovery in Alzheimer's disease",
+      "content": "IntroductionAlzheimer's disease (AD) is difficult to treat because of its multifactorial causes and heterogeneous progression across individuals. This study introduces FUSION-AD, a user-friendly and interpretable artificial intelligence framework for AD risk assessment and subgroup discovery.MethodsFUSION-AD integrates tree-based models, transformer-based neural networks, rule mining, and subgroup discovery to provide accurate and interpretable predictions. The framework was developed using the synthetic El Kharoua Alzheimer's Disease Dataset, which contains 2,149 structured clinical records from patients aged 60\u201390 years, with a mean age of 74.6 years and an average mini-mental state examination (MMSE) score of 21.7. The pipeline included data preprocessing, model benchmarking, feature-importance analysis, SHAP-based explanation, transformer attention analysis, association rule mining, and subgroup discovery.ResultsWithin the evaluated dataset, TabNet achieved the strongest point-estimate performance among the standalone benchmark models on the primary evaluation split, with an area under the receiver operating characteristic curve (AUROC) of 0.95, followed by XGBoost at 0.93, Random Forest at 0.92, and Logistic Regression at 0.89. Feature importance, SHAP values, and transformer attention consistently identified MMSE, Functional Assessment, and Memory Complaints as the most influential predictors. Association rule mining further highlighted diabetes and high body mass index as important risk factors. Subgroup discovery identified four clinical clusters, with prevalence ranging from 21.3 to 28.4%. Cluster 0 showed notable declines in daily functioning, with Functional Assessment decreasing by 2.1 and activities of daily living decreasing by 1.5, whereas Cluster 1 maintained daily functioning but showed increased behavioral symptoms.DiscussionFUSION-AD demonstrates that AD can be modeled in a way that balances predictive performance with interpretability within the studied dataset. The identified subgroup patterns suggest that lifestyle-driven profiles may benefit from preventive strategies, while cognitively impaired groups may require closer monitoring. These findings provide a foundation for future clinically oriented decision-support systems and require further validation using real-world clinical datasets.",
+      "author": "Sarra Ayouni",
+      "published_date": "2026-05-28T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 297,
+      "reading_time": 1,
+      "created_at": "2026-08-22T08:30:53.990321+00:00",
+      "updated_at": "2026-08-22T08:30:53.990322+00:00"
+    },
     {
       "id": "9a1838d9e30aceb453d13fb18a5fb8fc",
       "url": "https://fmhy.net/posts/july-2026",
@@ -345,22 +361,6 @@
       "reading_time": 1,
       "created_at": "2026-08-22T05:28:37.481344+00:00",
       "updated_at": "2026-08-22T05:28:37.481348+00:00"
-    },
-    {
-      "id": "a82ad88f27ef456d0524436af180113b",
-      "url": "http://doi.org/10.1037/drm0000342",
-      "title": "Dream work in the United States and Korea: Self-oriented and relationship-oriented themes of female college students.",
-      "content": "We compared the self and relationship themes in dream sessions of 10 U.S. and 10 Korean female college students. Preliminary analyses showed that the two samples were similar in terms of dream salience, but the U.S. sample scored higher in terms of session outcome (session evaluation, gains in dream work) than did the Korean sample. Qualitative analyses revealed considerable similarity in their descriptions of self and relationships in that participants in both samples discussed self-esteem/self-image, self-competence, personality and emotional traits, and multiple aspects of self. In terms of differences, U.S. participants more often than their Korean counterparts discussed a sense of self-agency, high self-esteem/positive self-image, desire to control their own lives, self-competence, inner conflicts, and feeling distant and experiencing conflicts in nonfamily relationships, whereas Korean participants more often than their U.S. counterparts discussed feelings of helplessness and feeling criticized in family relationships. Results are discussed in terms of cultural differences. Strengths and limitations of current findings as well as implications for research and clinical practice are included. (PsycInfo Database Record (c) 2026 APA, all rights reserved)",
-      "author": "",
-      "published_date": "2026-05-11T00:00:00+00:00",
-      "source": "Dreaming",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 176,
-      "reading_time": 1,
-      "created_at": "2026-08-22T05:28:02.292009+00:00",
-      "updated_at": "2026-08-22T05:28:02.292010+00:00"
     }
   ]
 }
