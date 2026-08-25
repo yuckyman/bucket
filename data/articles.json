@@ -1,5 +1,37 @@
 [
   {
+    "id": "a093a755bc56a7fcbca5e5eb30ea22eb",
+    "url": "https://www.bbc.com/future/article/20260824-this-quantum-battery-charges-faster-the-larger-it-gets",
+    "title": "Quantum battery upends the rules of charging",
+    "content": "<a href=\"https://news.ycombinator.com/item?id=49431560\">Comments</a>",
+    "author": "",
+    "published_date": "2026-08-25T10:34:12+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 2,
+    "reading_time": 1,
+    "created_at": "2026-08-25T11:28:11.725954+00:00",
+    "updated_at": "2026-08-25T11:28:11.725960+00:00"
+  },
+  {
+    "id": "a093a755bc56a7fcbca5e5eb30ea22eb",
+    "url": "https://www.bbc.com/future/article/20260824-this-quantum-battery-charges-faster-the-larger-it-gets",
+    "title": "Quantum battery upends the rules of charging",
+    "content": "<p>Article URL: <a href=\"https://www.bbc.com/future/article/20260824-this-quantum-battery-charges-faster-the-larger-it-gets\">https://www.bbc.com/future/article/20260824-this-quantum-battery-charges-faster-the-larger-it-gets</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49431560\">https://news.ycombinator.com/item?id=49431560</a></p>\n<p>Points: 6</p>\n<p># Comments: 0</p>",
+    "author": "reconnecting",
+    "published_date": "2026-08-25T10:34:12+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-08-25T11:28:10.407652+00:00",
+    "updated_at": "2026-08-25T11:28:10.407665+00:00"
+  },
+  {
     "id": "3236842dc69b5e4082a7ee04493e4532",
     "url": "https://www.sciencedirect.com/science/article/pii/S000689932600377X?dgcid=rss_sd_all",
     "title": "Bromelain-digested casein peptide pool ameliorates chronic stress-induced impairments in hippocampal long-term potentiation and synaptic plasticity in rats",
@@ -17270,37 +17302,5 @@
     "reading_time": 1,
     "created_at": "2026-08-20T04:38:28.309590+00:00",
     "updated_at": "2026-08-20T04:38:28.309592+00:00"
-  },
-  {
-    "id": "8eb6e57443ab9ed23c7afc141dc62771",
-    "url": "https://arxiv.org/abs/2608.18401",
-    "title": "Multimodal Rapport Estimation in Real-World HRI",
-    "content": "arXiv:2608.18401v1 Announce Type: new \nAbstract: Evaluating interaction quality in real-world HRI is an important challenge. If interaction quality can be estimated reliably, the results can be used to improve dialogue strategies and ultimately enable robots to adapt their behavior autonomously. However, existing automatic evaluation methods have been developed primarily in controlled laboratory settings, and it remains unclear whether they can be directly applied to real-world environments, where users are free to disengage and multi-party participation may arise naturally. In this study, we investigate the automatic estimation of third-party-rated rapport scores using 62 sessions of multimodal recordings collected in a Japanese drugstore. We compare zero-shot LLMs, pretrained text, audio, and visual models, and their prediction-level fusion. The results show that, in real-world HRI, zero-shot LLMs achieve strong performance, while audio and visual models tend to provide complementary information. In particular, Gemini 2.5 Flash performs strongly as a single model, and a fusion model combining Gemini (text) with HuBERT and V-JEPA performs best overall. Further analyses showed that estimation performance varied across interaction-duration and group-size conditions. These findings suggest that rapport estimation in real-world HRI requires evaluation and model design that account for contextual variability beyond that assumed in laboratory settings.",
-    "author": "Akihiro Sakuramoto, Takato Hayashi, Ryo Miyoshi, Yuki Okafuji, Shogo Okada",
-    "published_date": "2026-08-20T04:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 199,
-    "reading_time": 1,
-    "created_at": "2026-08-20T04:38:28.309554+00:00",
-    "updated_at": "2026-08-20T04:38:28.309556+00:00"
-  },
-  {
-    "id": "472e5014c8c09d199d8e878adcaf921b",
-    "url": "https://arxiv.org/abs/2608.18398",
-    "title": "LEDGER: Claim-to-Evidence Trace Graphs for Auditing LLM Agents",
-    "content": "arXiv:2608.18398v1 Announce Type: new \nAbstract: Large language model (LLM) agents can now carry out long-horizon technical workflows involving complex tool use, code execution, file edits, and generated artifacts. As agents do more work faster, the productivity bottleneck shifts from producing outputs to auditing whether those outputs are correct and trustworthy. Agent observability systems make fine-grained execution events visible, but visibility alone still leaves reviewers to reconstruct which actions, artifacts, and validation steps matter for a particular conclusion. We introduce LEDGER - Layered Evidence and Decision Graphs for Execution Review, a tracing and review system that builds layered trace graphs over observed agent sessions. LEDGER preserves Trace Records while grouping them into Evidence Nodes and Workflow Nodes, representing artifacts as evidence anchors, and adding typed semantic edges that connect claims to supporting actions, artifacts, and checks. Through data-analysis and coding examples, we show how the resulting traces expose workflow decisions, artifact lineage, repair steps, validation coverage, and claim-support paths for evidence-centered audit.",
-    "author": "Daehong Kim, Haichao Miao, Shusen Liu",
-    "published_date": "2026-08-20T04:00:00+00:00",
-    "source": "Arxiv Cs Hc",
-    "status": "pending",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 161,
-    "reading_time": 1,
-    "created_at": "2026-08-20T04:38:28.309506+00:00",
-    "updated_at": "2026-08-20T04:38:28.309512+00:00"
   }
 ]
