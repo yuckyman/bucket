@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-08-26T11:32:13.347918+00:00",
+  "last_updated": "2026-08-26T12:00:42.198431+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "485e8b36a3cde23e49e008c1abe4e34b",
+      "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1854811",
+      "title": "The role of inhibition in modeling decision making with spiking neural networks",
+      "content": "Decision making (DM) requires coordination of elementary information processes subserved by a distributed network of brain areas. Computational models help to understand these processes, but most of the existing models focus on simulating only one of the many parallel operations. An existing spiking neural network (SNN) model attempts to simulate DM holistically, however it does not take advantage of the significant role of inhibition at the neural level as a possible mechanism underlying DM. To address this limitation, we propose to examine the impact of neural inhibition on decision strategy selection in value-based DM using the mentioned model. In this study we outline the methodology and perform successful in-silico validation of the inhibition hypothesis with the SNN model of DM. To perform the simulation, we use a well-studied multi-attribute choice task and we validate simulation results against human behavioral data. The inhibition model achieved approximately 17% lower mean prediction error than the no-inhibition model (0.55 vs. 0.67) when evaluated on held-out, compensatory-condition data not used for fitting (Wilcoxon signed-rank test, p = 0.009, r = 0.55), with no significant difference observed in the condition used for fitting. These findings indicate that the advantage conferred by inhibition is not attributable to model complexity alone, and support neural inhibition as a plausible, biologically grounded mechanism for adaptive, context-sensitive decision strategy selection.",
+      "author": "Szymon Wichary",
+      "published_date": "2026-08-12T00:00:00+00:00",
+      "source": "Frontiers Neuroinformatics",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 219,
+      "reading_time": 1,
+      "created_at": "2026-08-26T12:00:06.689503+00:00",
+      "updated_at": "2026-08-26T12:00:06.689505+00:00"
+    },
+    {
+      "id": "939206d7334b2a849fa122dd935cd547",
+      "url": "https://www.gkogan.co/say-something-people-want/",
+      "title": "Just say something people want",
+      "content": "<p>Article URL: <a href=\"https://www.gkogan.co/say-something-people-want/\">https://www.gkogan.co/say-something-people-want/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49447054\">https://news.ycombinator.com/item?id=49447054</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "author": "gk1",
+      "published_date": "2026-08-26T11:23:43+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-08-26T11:59:37.406125+00:00",
+      "updated_at": "2026-08-26T11:59:37.406135+00:00"
+    },
     {
       "id": "9e3037af3147cae174ab70757cca131c",
       "url": "https://www.nature.com/articles/s41598-026-68456-z",
@@ -289,38 +321,6 @@
       "reading_time": 1,
       "created_at": "2026-08-26T10:36:17.097436+00:00",
       "updated_at": "2026-08-26T10:36:17.097439+00:00"
-    },
-    {
-      "id": "3294e185bfe45c4d440909ceca49b802",
-      "url": "https://www.frontiersin.org/articles/10.3389/fnbot.2026.1858496",
-      "title": "A group brain-controlled method for UAVs using a hybrid paradigm of hand movements and visual evoked potentials",
-      "content": "Brain\u2013computer interfaces (BCIs) are among the most prominent communication technologies that establish a direct channel for information exchange between the brain and external devices. They have been extensively applied in the field of aerospace. However, traditional BCI technology faces challenges, including a limited number of brain control commands and insufficient recognition accuracy in electroencephalography (EEG) decoding. These limitations make it difficult for traditional BCIs to perform complex tasks with high accuracy. Therefore, this study proposed a novel group BCI (G-BCI) system and further constructed a brain\u2013machine shared control method for unmanned aerial vehicle (UAV) swarm control. First, a novel G-BCI paradigm combining precise hand movements and visual evoked potentials was designed. Moreover, an improved multi-domain feature fusion convolutional neural network (MDFF-CNN) was employed to decode EEG and electromyography (EMG) signals from precise hand movements, while a Filter Bank Common Spatial Patterns with Canonical Correlation Analysis (FBCCA) method was used for Steady-State Visual Evoked Potentials (SSVEP) decoding. Furthermore, a task-driven shared control model mapping the G-BCI system and the leader\u2013follower UAV swarm control strategy was proposed. To verify the effectiveness of the proposed method, eight participants were recruited to conduct both offline and online experiments. The proposed G-BCI system achieved an offline accuracy of 88.91 \u00b1 5.06% and an online accuracy of 88.89 \u00b1 1.96%. All the experimental results demonstrate the feasibility of the proposed method.",
-      "author": "Jiangcheng Chen",
-      "published_date": "2026-08-21T00:00:00+00:00",
-      "source": "Frontiers Neurorobotics",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 225,
-      "reading_time": 1,
-      "created_at": "2026-08-26T10:36:06.941893+00:00",
-      "updated_at": "2026-08-26T10:36:06.941895+00:00"
-    },
-    {
-      "id": "832f381712182589a5c4214f75af75dc",
-      "url": "https://johan-sjolen.github.io/post/compiler-sympathy/compiler-sympathy/",
-      "title": "Value Classes Still Need Compiler Sympathy",
-      "content": "<a href=\"https://news.ycombinator.com/item?id=49445884\">Comments</a>",
-      "author": "",
-      "published_date": "2026-08-26T08:59:15+00:00",
-      "source": "Hacker News",
-      "status": "pending",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 2,
-      "reading_time": 1,
-      "created_at": "2026-08-26T10:35:43.604523+00:00",
-      "updated_at": "2026-08-26T10:35:43.604525+00:00"
     }
   ]
 }

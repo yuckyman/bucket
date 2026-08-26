@@ -1,5 +1,37 @@
 [
   {
+    "id": "485e8b36a3cde23e49e008c1abe4e34b",
+    "url": "https://www.frontiersin.org/articles/10.3389/fninf.2026.1854811",
+    "title": "The role of inhibition in modeling decision making with spiking neural networks",
+    "content": "Decision making (DM) requires coordination of elementary information processes subserved by a distributed network of brain areas. Computational models help to understand these processes, but most of the existing models focus on simulating only one of the many parallel operations. An existing spiking neural network (SNN) model attempts to simulate DM holistically, however it does not take advantage of the significant role of inhibition at the neural level as a possible mechanism underlying DM. To address this limitation, we propose to examine the impact of neural inhibition on decision strategy selection in value-based DM using the mentioned model. In this study we outline the methodology and perform successful in-silico validation of the inhibition hypothesis with the SNN model of DM. To perform the simulation, we use a well-studied multi-attribute choice task and we validate simulation results against human behavioral data. The inhibition model achieved approximately 17% lower mean prediction error than the no-inhibition model (0.55 vs. 0.67) when evaluated on held-out, compensatory-condition data not used for fitting (Wilcoxon signed-rank test, p = 0.009, r = 0.55), with no significant difference observed in the condition used for fitting. These findings indicate that the advantage conferred by inhibition is not attributable to model complexity alone, and support neural inhibition as a plausible, biologically grounded mechanism for adaptive, context-sensitive decision strategy selection.",
+    "author": "Szymon Wichary",
+    "published_date": "2026-08-12T00:00:00+00:00",
+    "source": "Frontiers Neuroinformatics",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 219,
+    "reading_time": 1,
+    "created_at": "2026-08-26T12:00:06.689503+00:00",
+    "updated_at": "2026-08-26T12:00:06.689505+00:00"
+  },
+  {
+    "id": "939206d7334b2a849fa122dd935cd547",
+    "url": "https://www.gkogan.co/say-something-people-want/",
+    "title": "Just say something people want",
+    "content": "<p>Article URL: <a href=\"https://www.gkogan.co/say-something-people-want/\">https://www.gkogan.co/say-something-people-want/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49447054\">https://news.ycombinator.com/item?id=49447054</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+    "author": "gk1",
+    "published_date": "2026-08-26T11:23:43+00:00",
+    "source": "Hacker News",
+    "status": "pending",
+    "priority": "medium",
+    "tags": [],
+    "word_count": 13,
+    "reading_time": 1,
+    "created_at": "2026-08-26T11:59:37.406125+00:00",
+    "updated_at": "2026-08-26T11:59:37.406135+00:00"
+  },
+  {
     "id": "9e3037af3147cae174ab70757cca131c",
     "url": "https://www.nature.com/articles/s41598-026-68456-z",
     "title": "Engineering a human stem cell-derived neural network platform for biocomputing",
@@ -17248,46 +17280,6 @@
     "updated_at": "2026-08-21T08:33:44.425140+00:00",
     "metadata": {
       "processed_at": "2026-08-21T08:33:44.425142+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "61b3f94c63465a6002d9d32d21d14b02",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.08.17.745222v1?rss=1",
-    "title": "Dyslexia is characterized by atypical predictive coding specific to the left subcortical auditory pathway",
-    "content": "Developmental dyslexia is a specific, highly prevalent and often debilitating reading and spelling disorder with unknown neurocomputational mechanisms. Here we discovered, in a preregistered functional magnetic resonance imaging study optimized for the subcortical sensory pathway, that dyslexia is characterized by altered predictive coding in left-hemispheric auditory sensory pathway nuclei. The neurocomputational alterations were related to one of the two main dyslexia risk scores, indicating a crucial role for dyslexia pathophysiology.",
-    "author": "Jaervikylae, H., Tabas, A., von Kriegstein, K.",
-    "published_date": "2026-08-20T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 70,
-    "reading_time": 1,
-    "created_at": "2026-08-21T07:43:34.645615+00:00",
-    "updated_at": "2026-08-21T08:33:44.425144+00:00",
-    "metadata": {
-      "processed_at": "2026-08-21T08:33:44.425146+00:00",
-      "processing_method": "github_actions"
-    }
-  },
-  {
-    "id": "3f226d5827d2ca666b54906374468f06",
-    "url": "https://www.biorxiv.org/content/10.64898/2026.08.17.745216v1?rss=1",
-    "title": "Melanin-concentrating hormone signaling regulates persistence and updating of reward-guided actions",
-    "content": "Flexible behavior requires persistence when a strategy remains effective and rapid updating when its consequences change. Melanin-concentrating hormone (MCH) neurons in the lateral hypothalamus regulate feeding, reward and memory, but their contribution to reward guided flexibility is unknown. Here, mice learned an action-outcome contingency in a T-maze and then adapted when the reward location switched. MCHR1 antagonism throughout learning did not measurably alter Initial Learning but reduced perseverative choices and accelerated behavioral adaptation after the contingency switched. Endogenous LH-MCH activity was strongest while contingencies were being established or revised, declined as performance stabilized, distinguished rewarded from unrewarded outcomes, and reflected current outcomes in the context of recent and accumulated experience. MCHR1 blockade altered prelimbic responses to successful outcomes in both phases and opposed their progressive weakening during Rule Switch. Together, these findings identify MCH signaling as a regulator of how strongly past reward continues to guide behavior when contingencies change and reveal accompanying changes in prefrontal processing of successful outcomes.",
-    "author": "Kandasamey, P., Concetti, C., Burkhardt, J., Bracey, E., Burdakov, D., Peleg-Raibstein, D.",
-    "published_date": "2026-08-20T00:00:00+00:00",
-    "source": "Biorxiv Neuroscience",
-    "status": "processed",
-    "priority": "medium",
-    "tags": [],
-    "word_count": 160,
-    "reading_time": 1,
-    "created_at": "2026-08-21T07:43:34.645586+00:00",
-    "updated_at": "2026-08-21T08:33:44.425148+00:00",
-    "metadata": {
-      "processed_at": "2026-08-21T08:33:44.425149+00:00",
       "processing_method": "github_actions"
     }
   }
