@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T22:46:09.876167+00:00",
+  "last_updated": "2026-09-06T23:24:43.714278+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "",
       "published_date": "2026-09-06T20:07:30+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-09-06T22:44:57.270451+00:00",
-      "updated_at": "2026-09-06T22:44:57.270453+00:00"
+      "updated_at": "2026-09-06T23:24:43.573240+00:00",
+      "metadata": {
+        "processed_at": "2026-09-06T23:24:43.573251+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "72c0b914c5bb649fb5c0c95e9aa646bb",
@@ -26,13 +30,17 @@
       "author": "",
       "published_date": "2026-09-02T18:47:55+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-09-06T22:44:57.270412+00:00",
-      "updated_at": "2026-09-06T22:44:57.270414+00:00"
+      "updated_at": "2026-09-06T23:24:43.573253+00:00",
+      "metadata": {
+        "processed_at": "2026-09-06T23:24:43.573254+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "3e492c2d9ab96d2581b2ee5a39327b9f",
@@ -42,13 +50,17 @@
       "author": "",
       "published_date": "2026-09-06T20:32:38+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-09-06T22:44:57.270392+00:00",
-      "updated_at": "2026-09-06T22:44:57.270394+00:00"
+      "updated_at": "2026-09-06T23:24:43.573256+00:00",
+      "metadata": {
+        "processed_at": "2026-09-06T23:24:43.573257+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "5f0d51b46dced6285fbea46762690746",
@@ -58,13 +70,17 @@
       "author": "",
       "published_date": "2026-09-06T20:45:13+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-09-06T22:44:57.270327+00:00",
-      "updated_at": "2026-09-06T22:44:57.270329+00:00"
+      "updated_at": "2026-09-06T23:24:43.573258+00:00",
+      "metadata": {
+        "processed_at": "2026-09-06T23:24:43.573259+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "c049e4de41cb49acd0c227f4d2a7e395",
@@ -74,13 +90,17 @@
       "author": "",
       "published_date": "2026-09-06T20:24:00+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-09-06T22:44:57.270299+00:00",
-      "updated_at": "2026-09-06T22:44:57.270304+00:00"
+      "updated_at": "2026-09-06T23:24:43.573261+00:00",
+      "metadata": {
+        "processed_at": "2026-09-06T23:24:43.573262+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "c3f819d9d53c537f309a1e6fd915c716",
@@ -102,33 +122,41 @@
       "id": "1d71a5c8bb0ed2a0ef84ef60bcac8fa4",
       "url": "https://getvodforge.com/",
       "title": "Show HN: VODForge \u2013 a free local desktop UI for YouTube video/playlist downloads",
-      "content": "<p>I built VODForge because I work with a CTV company that needed to pull YouTube videos from our channel partners into our media workflow.<p>Converter sites are always an option but the bitrate wasn't optimal for a CTV network that needs to make multiple streaming version off of a single source file. So I build vodforge to use yt-dlp and ffmpeg under the hood with preconfigured settings for the highest quality end result, automatically adjusting the output settings based on source quality, frame rate, and things like that.<p>It became a game changer internally for us because we were able to avoid sketchy converter sites and avoid paid converter software. Eventually I decided to release it for free and others loved it as well. We started to add support for many of the features that other software charges for, supporting 4K, playlist support, customizing application theme, persistent searchable library, auto organizing downloads by channel and playlist, MP3 support up to 320 kbps, and much more.<p>Looking for feedback on the user experience and additional features that you might find useful. My goal is to grow VODForge into a widely adopted free tool for people who do not want to deal with sketchy websites, CLI mess, or pay for things that you could ultimately do for free given time and effort. VODForge wants to make it EASY and maintained for you. We know anyone can make a GUI wrapper, but that is a trivial way to describe what VODForge aims to offer, user-friendliness, \"it just works\", libraries and packages maintained for you. All you should think about is what to download next.<p>VODForge awaits...</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49590354\">https://news.ycombinator.com/item?id=49590354</a></p>\n<p>Points: 25</p>\n<p># Comments: 4</p>",
-      "author": "coopernusbaum",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49590354\">Comments</a>",
+      "author": "",
       "published_date": "2026-09-06T20:07:30+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 280,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-09-06T22:44:56.079324+00:00",
-      "updated_at": "2026-09-06T22:44:56.079331+00:00"
+      "created_at": "2026-09-06T22:44:57.270451+00:00",
+      "updated_at": "2026-09-06T23:24:43.573240+00:00",
+      "metadata": {
+        "processed_at": "2026-09-06T23:24:43.573251+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "c049e4de41cb49acd0c227f4d2a7e395",
       "url": "https://grapheneos.social/@GrapheneOS/117225539756835649",
       "title": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
-      "content": "<p>Article URL: <a href=\"https://grapheneos.social/@GrapheneOS/117225539756835649\">https://grapheneos.social/@GrapheneOS/117225539756835649</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49590512\">https://news.ycombinator.com/item?id=49590512</a></p>\n<p>Points: 89</p>\n<p># Comments: 25</p>",
-      "author": "Cider9986",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49590512\">Comments</a>",
+      "author": "",
       "published_date": "2026-09-06T20:24:00+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-09-06T22:44:56.079202+00:00",
-      "updated_at": "2026-09-06T22:44:56.079205+00:00"
+      "created_at": "2026-09-06T22:44:57.270299+00:00",
+      "updated_at": "2026-09-06T23:24:43.573261+00:00",
+      "metadata": {
+        "processed_at": "2026-09-06T23:24:43.573262+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "3bc5c49d56d82f93365ad5755cb92997",
@@ -150,33 +178,41 @@
       "id": "3e492c2d9ab96d2581b2ee5a39327b9f",
       "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
       "title": "It took a year to ship WebAssembly in Anubis",
-      "content": "<p>Article URL: <a href=\"https://anubis.techaro.lol/blog/2026/anubis-wasm/\">https://anubis.techaro.lol/blog/2026/anubis-wasm/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49590611\">https://news.ycombinator.com/item?id=49590611</a></p>\n<p>Points: 87</p>\n<p># Comments: 54</p>",
-      "author": "xena",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49590611\">Comments</a>",
+      "author": "",
       "published_date": "2026-09-06T20:32:38+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-09-06T22:44:56.079125+00:00",
-      "updated_at": "2026-09-06T22:44:56.079129+00:00"
+      "created_at": "2026-09-06T22:44:57.270392+00:00",
+      "updated_at": "2026-09-06T23:24:43.573256+00:00",
+      "metadata": {
+        "processed_at": "2026-09-06T23:24:43.573257+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "5f0d51b46dced6285fbea46762690746",
       "url": "https://github.com/marsbos/mador",
       "title": "Show HN: Mador \u2013 Make any DOM reactive with a tiny 80-line Proxy state tuple",
-      "content": "<p>Article URL: <a href=\"https://github.com/marsbos/mador\">https://github.com/marsbos/mador</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49590738\">https://news.ycombinator.com/item?id=49590738</a></p>\n<p>Points: 44</p>\n<p># Comments: 16</p>",
-      "author": "bosmarcel",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49590738\">Comments</a>",
+      "author": "",
       "published_date": "2026-09-06T20:45:13+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-09-06T22:44:56.079084+00:00",
-      "updated_at": "2026-09-06T22:44:56.079088+00:00"
+      "created_at": "2026-09-06T22:44:57.270327+00:00",
+      "updated_at": "2026-09-06T23:24:43.573258+00:00",
+      "metadata": {
+        "processed_at": "2026-09-06T23:24:43.573259+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "4e2b6db5120dd80be47f725991eee9c8",
