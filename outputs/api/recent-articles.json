@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19T21:21:34.301874+00:00",
+  "last_updated": "2026-09-19T22:03:49.790106+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "/u/Harshita_Netla",
       "published_date": "2026-09-19T18:37:04+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 76,
       "reading_time": 1,
       "created_at": "2026-09-19T21:20:26.994739+00:00",
-      "updated_at": "2026-09-19T21:20:26.994744+00:00"
+      "updated_at": "2026-09-19T22:03:49.680563+00:00",
+      "metadata": {
+        "processed_at": "2026-09-19T22:03:49.680572+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "0409f78aebf7366aa7270b32e6b96b7a",
@@ -26,13 +30,17 @@
       "author": "",
       "published_date": "2026-09-17T00:39:39+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-09-19T21:20:25.787894+00:00",
-      "updated_at": "2026-09-19T21:20:25.787896+00:00"
+      "updated_at": "2026-09-19T22:03:49.680577+00:00",
+      "metadata": {
+        "processed_at": "2026-09-19T22:03:49.680579+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "d44331a1971df5c9cd91bcf06620033c",
@@ -42,13 +50,17 @@
       "author": "",
       "published_date": "2026-09-19T15:52:51+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-09-19T21:20:25.787876+00:00",
-      "updated_at": "2026-09-19T21:20:25.787877+00:00"
+      "updated_at": "2026-09-19T22:03:49.680582+00:00",
+      "metadata": {
+        "processed_at": "2026-09-19T22:03:49.680583+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "137587af8371a65aa1c977a9732bbdcb",
@@ -58,13 +70,17 @@
       "author": "",
       "published_date": "2026-09-16T19:51:23+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-09-19T21:20:25.787857+00:00",
-      "updated_at": "2026-09-19T21:20:25.787859+00:00"
+      "updated_at": "2026-09-19T22:03:49.680586+00:00",
+      "metadata": {
+        "processed_at": "2026-09-19T22:03:49.680587+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "18719394dfc1772032bef30dfa66fa92",
@@ -74,13 +90,17 @@
       "author": "",
       "published_date": "2026-09-19T20:00:59+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-09-19T21:20:25.787806+00:00",
-      "updated_at": "2026-09-19T21:20:25.787808+00:00"
+      "updated_at": "2026-09-19T22:03:49.680590+00:00",
+      "metadata": {
+        "processed_at": "2026-09-19T22:03:49.680591+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "d7e45ee5fd2cdcaf5290a6935095be97",
@@ -134,17 +154,21 @@
       "id": "d44331a1971df5c9cd91bcf06620033c",
       "url": "https://github.com/trycua/cua",
       "title": "Show HN: CUA-S1 \u2013 A System One Model for Computer Use",
-      "content": "<p>Hello HN! We're Dillon and Francesco from Cua.<p>We were wondering how many computer use tasks actually need a full general purpose LLM (e.g. gpt-6-astra, claude-opus-5 etc.) to think through all their decisions and steps. Some tasks require thinking about a plan, exploring different paths, recovering from failure. Other tasks are a question of making local decisions, like this value should go in this box, or should I check this box, or this element should be ignored.<p>We wondered how far we could go with a small model trained to only make these kinds of decisions.<p>Our inspiration was Typesafe's Jev and its System One Model framing. This is a nod to the dichotomy between thinking quickly, automatically, and intuitively (system 1) vs. thinking slowly, analytically (system 2), as described by Daniel Kahneman.<p>The interesting question for us was: what happens if you give a model an interface of current context, and a set of possible choices, and you ask it to return a probability for each choice? This kind of model does not generate output token by token like most LLMs do, but rather scores the options you give it, which you can check, trust, and use to drive your app's behavior.<p>CUA-S1 is our answer for narrow, specialized decision models for computer use. Our first release is CUA-S1-FORMS. We built this from ideas and code in jevlike, and then trained a second model just to handle form interactions. It has 706k parameters, and the original checkpoint is 2.8 MB.<p>The first training iteration took less than 30 minutes on synthetic data. Given a set of structured elements and values extracted from a document, it predicts whether to use the given value, CHECK, CLICK, or SKIP for each element. It does not predict new values for text fields, and does not consider screenshots. Element decisions are scored together, and your code can order the actions, and Cua Driver will execute them one at a time.<p>A first evaluation of this specialist vs. hosted Jev on our form task:<p>- For the whole decision set: 99.7% correct vs 83.6%.<p>- For the subset of steps that require an action: 100% correct vs 96%.<p>- For the subset of steps that are just leaving already-filled fields alone: 100% correct vs 74%.<p>The specialist was trained specifically for this task and convention (just press skip for already filled boxes), while hosted Jev has not been fine-tuned for it, so this is an experiment in scoped specialization.<p>We measured 7-9 ms to score a form locally vs. 260-280 ms per call to hosted Jev including network latency, though those samples measure different things and are not end-to-end form completion times.<p>Our interest here is in the space between a brittle script and a general agent loop. The content and layout of form fields vary enough that scripts get unwieldy, but the set of available decisions can remain narrow and well scoped. We want to explore the possibility of a general agent encountering something novel, and passing well understood decisions over to specialists like this.<p>That is a direction we are looking into. The current release is for forms only. We're open sourced the synthetic data generation, training, evaluation, and Driver integration under libs/cua-s1 with an MIT license.<p>Comments welcome! Especially if you are building computer-use agents and have run into a recurring decision that is too variable to script but is too narrow to call another LLM for.</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49767564\">https://news.ycombinator.com/item?id=49767564</a></p>\n<p>Points: 30</p>\n<p># Comments: 3</p>",
-      "author": "frabonacci",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49767564\">Comments</a>",
+      "author": "",
       "published_date": "2026-09-19T15:52:51+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 571,
-      "reading_time": 2,
-      "created_at": "2026-09-19T21:20:24.569506+00:00",
-      "updated_at": "2026-09-19T21:20:24.569508+00:00"
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-09-19T21:20:25.787876+00:00",
+      "updated_at": "2026-09-19T22:03:49.680582+00:00",
+      "metadata": {
+        "processed_at": "2026-09-19T22:03:49.680583+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "55b2944726daa7f600675c9fe269920b",
@@ -182,17 +206,21 @@
       "id": "18719394dfc1772032bef30dfa66fa92",
       "url": "https://ooni.org/install",
       "title": "Measure internet censorship. Contribute to the largest open dataset",
-      "content": "<p>Article URL: <a href=\"https://ooni.org/install\">https://ooni.org/install</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49769676\">https://news.ycombinator.com/item?id=49769676</a></p>\n<p>Points: 21</p>\n<p># Comments: 10</p>",
-      "author": "Bluestein",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49769676\">Comments</a>",
+      "author": "",
       "published_date": "2026-09-19T20:00:59+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 13,
+      "word_count": 2,
       "reading_time": 1,
-      "created_at": "2026-09-19T21:20:24.569322+00:00",
-      "updated_at": "2026-09-19T21:20:24.569324+00:00"
+      "created_at": "2026-09-19T21:20:25.787806+00:00",
+      "updated_at": "2026-09-19T22:03:49.680590+00:00",
+      "metadata": {
+        "processed_at": "2026-09-19T22:03:49.680591+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "ccfbfb8b110e2e344688eda8314fe82d",
