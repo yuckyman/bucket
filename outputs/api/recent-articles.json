@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20T01:26:15.511940+00:00",
+  "last_updated": "2026-09-20T02:57:10.764119+00:00",
   "count": 20,
   "articles": [
     {
@@ -10,13 +10,17 @@
       "author": "",
       "published_date": null,
       "source": "Brain Research",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 33,
       "reading_time": 1,
       "created_at": "2026-09-20T01:25:50.629915+00:00",
-      "updated_at": "2026-09-20T01:25:50.629916+00:00"
+      "updated_at": "2026-09-20T02:57:10.654533+00:00",
+      "metadata": {
+        "processed_at": "2026-09-20T02:57:10.654542+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "8d6b8eafe506e10ce3c5b1dc2dba2141",
@@ -26,13 +30,17 @@
       "author": "",
       "published_date": null,
       "source": "Neuroimage",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 15,
       "reading_time": 1,
       "created_at": "2026-09-20T01:25:46.947414+00:00",
-      "updated_at": "2026-09-20T01:25:46.947415+00:00"
+      "updated_at": "2026-09-20T02:57:10.654546+00:00",
+      "metadata": {
+        "processed_at": "2026-09-20T02:57:10.654548+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "e770afcd5e3f3332f49988d839239234",
@@ -42,13 +50,17 @@
       "author": "",
       "published_date": "2026-09-20T00:00:00+00:00",
       "source": "Nature Neuroscience Subjects",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 0,
       "reading_time": 1,
       "created_at": "2026-09-20T01:25:44.406192+00:00",
-      "updated_at": "2026-09-20T01:25:44.406196+00:00"
+      "updated_at": "2026-09-20T02:57:10.654551+00:00",
+      "metadata": {
+        "processed_at": "2026-09-20T02:57:10.654552+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "f6c48180da9658b758904ed7fac27b84",
@@ -58,13 +70,17 @@
       "author": "/u/AutoModerator",
       "published_date": "2026-09-20T00:00:12+00:00",
       "source": "Reddit Python",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 211,
       "reading_time": 1,
       "created_at": "2026-09-20T01:25:07.704302+00:00",
-      "updated_at": "2026-09-20T01:25:07.704303+00:00"
+      "updated_at": "2026-09-20T02:57:10.654555+00:00",
+      "metadata": {
+        "processed_at": "2026-09-20T02:57:10.654556+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "ad870eec3e9c766b708a874fb4a965cc",
@@ -74,13 +90,17 @@
       "author": "",
       "published_date": "2026-09-19T23:47:35+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
       "word_count": 2,
       "reading_time": 1,
       "created_at": "2026-09-20T01:25:06.459662+00:00",
-      "updated_at": "2026-09-20T01:25:06.459663+00:00"
+      "updated_at": "2026-09-20T02:57:10.654559+00:00",
+      "metadata": {
+        "processed_at": "2026-09-20T02:57:10.654560+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "0917999251875af137591013e658b79c",
@@ -182,17 +202,21 @@
       "id": "ad870eec3e9c766b708a874fb4a965cc",
       "url": "https://github.com/theguysudo/ENZO",
       "title": "Show HN: I created an open source locally usable full fledged AI platform",
-      "content": "<p>hi to all the readers this post is for my recent opensource project called ENZO<p>now answering what is enzo so enzo is an opensource platform where i clubbed all the free available api for anyone use under one hood with more than 2000 models available to use for chatting coding researching and much more now answering the most common question of why you should put your time looking the project so it has few distinct feature meaning<p>it has a dedicated agents tab where you can describe your need and create a special agent just for one specific task with master ability in that domain<p>second it has the ability to connect your gmail drive and calendar and then you can ask it to perform some specific tasks like reading you the most important mail of the day or finding recruiter mails and creating personalized reply based on your data which it stores locally on your device<p>third the coding mode offers a dedicated preview window where you can see your code running and have a look of it feels and edit it in realtime as well as all the modes are packed with dedicated skills which delivers promising results<p>fourth the ui features some additional things such as music tab where you can listen to any music want and it has a custom personalized feature which runs in background and an llm understands your taste and recommends similar kind of music you like<p>fifth the most important why your trust it with your api key then to explain i would say enzo a dedicated vault which manages all your api and to secure it the vault as aes 256 bit encryption which prevents any person or any middle man to look at your api key and since the whole program runs locally on your device you have complete freedom to oversee all the backend work happening and it also features password lock which if you enable saves a backup key and then locks your whole platform work behind a pass screen though it is not foolproof as any third party or malware containing extension can still fetch login tokens from your browser so its security also depends upon how you access it concluding all of it.<p>i urge to anyone who reads this to have a look at the platform even if you hate it just curse it in the comment its fine or if you would like to drop any feedback i would highly encourage that and since its my first work open source platform i know it has a lot of errors and bugs so i apologize upfront for it and if you consider my work worthy please drop a star on the repo that'll make my day</p>\n<hr />\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=49771118\">https://news.ycombinator.com/item?id=49771118</a></p>\n<p>Points: 11</p>\n<p># Comments: 9</p>",
-      "author": "theguysudo",
+      "content": "<a href=\"https://news.ycombinator.com/item?id=49771118\">Comments</a>",
+      "author": "",
       "published_date": "2026-09-19T23:47:35+00:00",
       "source": "Hacker News",
-      "status": "pending",
+      "status": "processed",
       "priority": "medium",
       "tags": [],
-      "word_count": 466,
-      "reading_time": 2,
-      "created_at": "2026-09-20T01:25:05.205725+00:00",
-      "updated_at": "2026-09-20T01:25:05.205731+00:00"
+      "word_count": 2,
+      "reading_time": 1,
+      "created_at": "2026-09-20T01:25:06.459662+00:00",
+      "updated_at": "2026-09-20T02:57:10.654559+00:00",
+      "metadata": {
+        "processed_at": "2026-09-20T02:57:10.654560+00:00",
+        "processing_method": "github_actions"
+      }
     },
     {
       "id": "6180a1f71ebec9da61149782181c6722",
