@@ -1,7 +1,39 @@
 {
-  "last_updated": "2026-10-17T22:01:03.960810+00:00",
+  "last_updated": "2026-10-17T23:49:50.187106+00:00",
   "count": 20,
   "articles": [
+    {
+      "id": "743f859f1c91a7ee6be35464dc70fa0e",
+      "url": "https://openjdk.org/projects/jdk/28/",
+      "title": "JDK 28",
+      "content": "<p>Article URL: <a href=\"https://openjdk.org/projects/jdk/28/\">https://openjdk.org/projects/jdk/28/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50135379\">https://news.ycombinator.com/item?id=50135379</a></p>\n<p>Points: 33</p>\n<p># Comments: 7</p>",
+      "author": "ejboy",
+      "published_date": "2026-10-17T21:37:07+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-10-17T23:48:35.925012+00:00",
+      "updated_at": "2026-10-17T23:48:35.925013+00:00"
+    },
+    {
+      "id": "78fe61ab391bbd7ddf669afb19c68a1d",
+      "url": "https://www.phillyvoice.com/philly-woman-arrested-uber-eats-robot-protest/?l",
+      "title": "Retired Penn professor arrested for blocking Uber Eats robot",
+      "content": "<p>Article URL: <a href=\"https://www.phillyvoice.com/philly-woman-arrested-uber-eats-robot-protest/?l\">https://www.phillyvoice.com/philly-woman-arrested-uber-eats-robot-protest/?l</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50136198\">https://news.ycombinator.com/item?id=50136198</a></p>\n<p>Points: 9</p>\n<p># Comments: 0</p>",
+      "author": "johnnyApplePRNG",
+      "published_date": "2026-10-17T23:31:48+00:00",
+      "source": "Hacker News",
+      "status": "pending",
+      "priority": "medium",
+      "tags": [],
+      "word_count": 13,
+      "reading_time": 1,
+      "created_at": "2026-10-17T23:48:35.924981+00:00",
+      "updated_at": "2026-10-17T23:48:35.924991+00:00"
+    },
     {
       "id": "9ffcb19c1edec68abf9ca24e2d2a49b0",
       "url": "http://www.jneurosci.org/cgi/content/short/46/39/etwij46392026?rss=1",
@@ -331,46 +363,6 @@
       "updated_at": "2026-10-17T16:48:13.464201+00:00",
       "metadata": {
         "processed_at": "2026-10-17T16:48:13.464211+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "907e4eab472afb20142d7a96e9eb0878",
-      "url": "https://www.reddit.com/r/Python/comments/1x89bnq/python_310315_encoding_benchmarks_big_gains_for/",
-      "title": "Python 3.10\u20133.15 encoding benchmarks: big gains for Base32 and Base85, but 3.14 leads Base16",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Eight encoding benchmarks across Python 3.10\u20133.15 using pyperformance. Python 3.15 recorded the lowest mean in seven of them, with particularly large improvements in Base32, Ascii85 and Base85.</p> <p><strong>Test configuration</strong></p> <ul> <li>AMD Ryzen 9 7900 desktop</li> <li>DDR5 RAM and an M.2 PCIe Gen4 NVMe drive</li> <li>Windows 11, 64-bit Python builds</li> <li>Python 3.15.0, 3.14.8, 3.13.16, 3.12.10, 3.11.9 and 3.10.11</li> <li>pyperformance 1.14.0 for all six versions</li> </ul> <p><strong>Results</strong></p> <p>All values are mean execution times in milliseconds. Lower is better and <strong>bold</strong> marks the lowest recorded mean in each row.</p> <table><thead> <tr> <th align=\"left\">Benchmark</th> <th align=\"left\">Python 3.15</th> <th align=\"left\">Python 3.14</th> <th align=\"left\">Python 3.13</th> <th align=\"left\">Python 3.12</th> <th align=\"left\">Python 3.11</th> <th align=\"left\">Python 3.10</th> </tr> </thead><tbody> <tr> <td align=\"left\">ascii85_large</td> <td align=\"left\"><strong>11.62</strong></td> <td align=\"left\">797.9</td> <td align=\"left\">709.0</td> <td align=\"left\">772.3</td> <td align=\"left\">643.8</td> <td align=\"left\">759.2</td> </tr> <tr> <td align=\"left\">ascii85_small</td> <td align=\"left\"><strong>0.3875</strong></td> <td align=\"left\">14.88</td> <td align=\"left\">13.20</td> <td align=\"left\">13.79</td> <td align=\"left\">12.18</td> <td align=\"left\">14.18</td> </tr> <tr> <td align=\"left\">base16_large</td> <td align=\"left\">5.767</td> <td align=\"left\"><strong>4.714</strong></td> <td align=\"left\">22.52</td> <td align=\"left\">23.08</td> <td align=\"left\">23.89</td> <td align=\"left\">23.71</td> </tr> <tr> <td align=\"left\">base32_large</td> <td align=\"left\"><strong>2.431</strong></td> <td align=\"left\">327.6</td> <td align=\"left\">300.7</td> <td align=\"left\">296.4</td> <td align=\"left\">265.7</td> <td align=\"left\">292.1</td> </tr> <tr> <td align=\"left\">base32_small</td> <td align=\"left\"><strong>0.1630</strong></td> <td align=\"left\">6.227</td> <td align=\"left\">5.802</td> <td align=\"left\">5.594</td> <td align=\"left\">5.134</td> <td align=\"left\">5.641</td> </tr> <tr> <td align=\"left\">base64_large</td> <td align=\"left\"><strong>1.852</strong></td> <td align=\"left\">6.746</td> <td align=\"left\">6.187</td> <td align=\"left\">6.095</td> <td align=\"left\">6.116</td> <td align=\"left\">6.071</td> </tr> <tr> <td align=\"left\">base85_large</td> <td align=\"left\"><strong>4.293</strong></td> <td align=\"left\">272.4</td> <td align=\"left\">252.9</td> <td align=\"left\">258.8</td> <td align=\"left\">230.1</td> <td align=\"left\">259.2</td> </tr> <tr> <td align=\"left\">base85_small</td> <td align=\"left\"><strong>0.1505</strong></td> <td align=\"left\">4.864</td> <td align=\"left\">4.484</td> <td align=\"left\">4.529</td> <td align=\"left\">4.198</td> <td align=\"left\">4.712</td> </tr> </tbody></table> <p><strong>What stood out</strong></p> <p>Compared with Python 3.14, Python 3.15 took approximately:</p> <ul> <li><strong>1/135 of the time</strong> in <code>base32_large</code>.</li> <li><strong>1/69 of the time</strong> in <code>ascii85_large</code>.</li> <li><strong>1/63 of the time</strong> in <code>base85_large</code>.</li> <li><strong>1/3.64 of the time</strong> in <code>base64_large</code>.</li> </ul> <p>However, <code>base16_large</code> took <strong>22.3% more time</strong> on Python 3.15 than on 3.14. Python 3.14 remains substantially faster than 3.10\u20133.13 in that test.</p> <p>The large improvements are consistent with the changes documented in <a href=\"https://docs.python.org/3.15/whatsnew/3.15.html#base64-binascii\">Python 3.15\u2019s release notes</a>: Base32, Ascii85 and Base85 implementations were rewritten in C, and the underlying Base64 implementation was also optimized. </p> <p>More details are described <a href=\"https://en.lewoniewski.info/2026/python-315-vs-314-313-312-and-earlier-speed-comparison/\">here</a>.</p> <p>Benchmark suite: <a href=\"https://pyperformance.readthedocs.io/\">pyperformance</a>.</p> <p>Have you observed similar improvements on Linux or macOS, or in applications that spend substantial time on these encoding operations?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BestRef\"> /u/BestRef </a> <br /> <span><a href=\"https://www.reddit.com/r/Python/comments/1x89bnq/python_310315_encoding_benchmarks_big_gains_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/Python/comments/1x89bnq/python_310315_encoding_benchmarks_big_gains_for/\">[comments]</a></span>",
-      "author": "/u/BestRef",
-      "published_date": "2026-10-17T12:43:06+00:00",
-      "source": "Reddit Python",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 382,
-      "reading_time": 1,
-      "created_at": "2026-10-17T16:35:16.840479+00:00",
-      "updated_at": "2026-10-17T16:48:13.464216+00:00",
-      "metadata": {
-        "processed_at": "2026-10-17T16:48:13.464217+00:00",
-        "processing_method": "github_actions"
-      }
-    },
-    {
-      "id": "3ac488848c6ea000b6136595c6c2da6c",
-      "url": "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
-      "title": "MapQuest will now show you where Flock cameras are in your neighborhood",
-      "content": "<p>Article URL: <a href=\"https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/\">https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=50129947\">https://news.ycombinator.com/item?id=50129947</a></p>\n<p>Points: 93</p>\n<p># Comments: 9</p>",
-      "author": "bookofjoe",
-      "published_date": "2026-10-17T10:59:31+00:00",
-      "source": "Hacker News",
-      "status": "processed",
-      "priority": "medium",
-      "tags": [],
-      "word_count": 13,
-      "reading_time": 1,
-      "created_at": "2026-10-17T16:35:14.315653+00:00",
-      "updated_at": "2026-10-17T16:48:13.464219+00:00",
-      "metadata": {
-        "processed_at": "2026-10-17T16:48:13.464220+00:00",
         "processing_method": "github_actions"
       }
     }
