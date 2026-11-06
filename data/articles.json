@@ -7,13 +7,17 @@
     "author": "Naoyuki Awano, Yuki Hayashi",
     "published_date": "2026-11-06T05:00:00+00:00",
     "source": "Arxiv Cs Hc",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 249,
     "reading_time": 1,
     "created_at": "2026-11-06T11:53:10.471660+00:00",
-    "updated_at": "2026-11-06T11:53:10.471661+00:00"
+    "updated_at": "2026-11-06T13:37:57.571949+00:00",
+    "metadata": {
+      "processed_at": "2026-11-06T13:37:57.571958+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "aa9d49875a6154bf2defaae9efb76927",
@@ -23,13 +27,17 @@
     "author": "Anton Wolter, William Benjamin, Niklas Elmqvist",
     "published_date": "2026-11-06T05:00:00+00:00",
     "source": "Arxiv Cs Hc",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 124,
     "reading_time": 1,
     "created_at": "2026-11-06T11:53:10.471632+00:00",
-    "updated_at": "2026-11-06T11:53:10.471633+00:00"
+    "updated_at": "2026-11-06T13:37:57.571962+00:00",
+    "metadata": {
+      "processed_at": "2026-11-06T13:37:57.571964+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "010a9e9807ccce80e2107093cebcfb82",
@@ -39,13 +47,17 @@
     "author": "Bektur Ryskeldiev",
     "published_date": "2026-11-06T05:00:00+00:00",
     "source": "Arxiv Cs Hc",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 252,
     "reading_time": 1,
     "created_at": "2026-11-06T11:53:10.471611+00:00",
-    "updated_at": "2026-11-06T11:53:10.471612+00:00"
+    "updated_at": "2026-11-06T13:37:57.571966+00:00",
+    "metadata": {
+      "processed_at": "2026-11-06T13:37:57.571967+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "327dc2b01acb068d767ae0224012e2f2",
@@ -55,13 +67,17 @@
     "author": "Yuanhao Zhang, Xinru Cheng, Baiqiao Zhang, Xinqi Zhang, Assem Zhunis, Shuai Ma, Xiaojuan Ma",
     "published_date": "2026-11-06T05:00:00+00:00",
     "source": "Arxiv Cs Hc",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 154,
     "reading_time": 1,
     "created_at": "2026-11-06T11:53:10.471576+00:00",
-    "updated_at": "2026-11-06T11:53:10.471577+00:00"
+    "updated_at": "2026-11-06T13:37:57.571969+00:00",
+    "metadata": {
+      "processed_at": "2026-11-06T13:37:57.571970+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "1e766aef7adff1b754ac44a35f05eaa2",
@@ -71,13 +87,17 @@
     "author": "Shiva Ghasemi, Maddie Oehler, Annie Xenakis, Jeffrey Jiarui Yang, Scott McCrickard",
     "published_date": "2026-11-06T05:00:00+00:00",
     "source": "Arxiv Cs Hc",
-    "status": "pending",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 122,
     "reading_time": 1,
     "created_at": "2026-11-06T11:53:10.471553+00:00",
-    "updated_at": "2026-11-06T11:53:10.471554+00:00"
+    "updated_at": "2026-11-06T13:37:57.571972+00:00",
+    "metadata": {
+      "processed_at": "2026-11-06T13:37:57.571973+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "12750200efc5c59473d89f7924201585",
@@ -227,17 +247,21 @@
     "id": "db16303250ef1fe1829d5ee4683759b7",
     "url": "https://arxiv.org/abs/2611.06930",
     "title": "Category differences in similarity between fixation density maps and psychological potential fields for sketches",
-    "content": "arXiv:2611.06930v1 Announce Type: new \nAbstract: When an object comes into view, humans can instantaneously recognize it if known to them. However, assessing how this recognition takes place remains challenging. A few studies using simple sketches have reported varying degrees of image similarity between the fixation density map (FDM), which visualizes eye movements and durations, and the psychological potential field (PPF), which visualizes part of the visual cognition process, depending on the object category. This study reports how the similarity behaves across three categories---animal, non-animal, and meaningless shape---and under rotated presentation, which is known to increase cognitive load during object recognition. The similarity was quantified through area under the curve (AUC) measures, including a baseline-adjusted AUC that isolates the early rise in similarity from stimulus-dependent baseline levels. A variability score was introduced to assess individual differences, and linear mixed models were used to evaluate category and orientation effects. Results indicated that the baseline-adjusted AUC yielded significant differences among all three categories with large effect sizes, whereas the raw AUC did not distinguish between the animal and non-animal categories due to the influence of sketch representation. No significant Category $\\times$ Orientation interaction was observed, indicating that rotated presentation did not produce a category-specific effect. The meaningless shape stimuli yielded consistently low similarity and variability scores, clearly separating them from the two meaningful object categories. These results characterize the behavior of the FDM--PPF similarity under free viewing and indicate that baseline adjustment is necessary to separate category-related variation from stimulus-dependent baseline levels.",
+    "content": "arXiv:2611.06930v1 Announce Type: cross \nAbstract: When an object comes into view, humans can instantaneously recognize it if known to them. However, assessing how this recognition takes place remains challenging. A few studies using simple sketches have reported varying degrees of image similarity between the fixation density map (FDM), which visualizes eye movements and durations, and the psychological potential field (PPF), which visualizes part of the visual cognition process, depending on the object category. This study reports how the similarity behaves across three categories---animal, non-animal, and meaningless shape---and under rotated presentation, which is known to increase cognitive load during object recognition. The similarity was quantified through area under the curve (AUC) measures, including a baseline-adjusted AUC that isolates the early rise in similarity from stimulus-dependent baseline levels. A variability score was introduced to assess individual differences, and linear mixed models were used to evaluate category and orientation effects. Results indicated that the baseline-adjusted AUC yielded significant differences among all three categories with large effect sizes, whereas the raw AUC did not distinguish between the animal and non-animal categories due to the influence of sketch representation. No significant Category $\\times$ Orientation interaction was observed, indicating that rotated presentation did not produce a category-specific effect. The meaningless shape stimuli yielded consistently low similarity and variability scores, clearly separating them from the two meaningful object categories. These results characterize the behavior of the FDM--PPF similarity under free viewing and indicate that baseline adjustment is necessary to separate category-related variation from stimulus-dependent baseline levels.",
     "author": "Naoyuki Awano, Yuki Hayashi",
     "published_date": "2026-11-06T05:00:00+00:00",
-    "source": "Arxiv Qbio Nc",
-    "status": "pending",
+    "source": "Arxiv Cs Hc",
+    "status": "processed",
     "priority": "medium",
     "tags": [],
     "word_count": 249,
     "reading_time": 1,
-    "created_at": "2026-11-06T11:53:09.397105+00:00",
-    "updated_at": "2026-11-06T11:53:09.397106+00:00"
+    "created_at": "2026-11-06T11:53:10.471660+00:00",
+    "updated_at": "2026-11-06T13:37:57.571949+00:00",
+    "metadata": {
+      "processed_at": "2026-11-06T13:37:57.571958+00:00",
+      "processing_method": "github_actions"
+    }
   },
   {
     "id": "c64e696418097dd77197e99c4d3781ee",
